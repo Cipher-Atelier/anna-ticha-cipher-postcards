@@ -1,16 +1,40 @@
 # Cipher postcards addressed to Anna Tichá
 
-Partial card readings. Complete positional replay for card 199 only; cards 440 and 453 supply limited examples. Cards 247 and 248 remain qualified text reports, without complete evidence packages or complete plaintext.
+A set of personal postcards written in cipher and addressed to Anna Tichá. The proposed readings are in Czech; the writer’s identity and several dates remain unresolved.
 
-Read the [research account](anna-ticha/article.md), [topic navigation](anna-ticha/README.md), [verification guide](verification/README.md), and [sources and limits](verification/TOPIC_SCOPE_INDEX.json).
+## What has been found?
 
-Run the bounded offline checks with Python 3.10 or later from this repository root:
+Selected cards can be read in part. The most complete public checking package is for card 199: it records each of its 532 symbol positions and the proposed letters. Other cards have separate reading reports, with different amounts of evidence.
+
+A small example from the recorded result:
+
+```text
+vrely dik za drahy listek byl
+```
+
+The opening of card 199 expresses warm thanks for a dear letter. This is a summary of the proposed Czech reading, not an identification of its writer.
+
+## Start reading
+
+1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
+2. Open [Card 199: literal reading](verification/anna-ticha/literal.txt) to inspect the saved text or test result itself.
+3. Read the [research account](anna-ticha/article.md) for historical context, methods, earlier work and unresolved questions.
+
+## How can I check it?
+
+Follow the worked example in [the reading guide](READING_GUIDE.md#check-one-example-by-hand). It connects a source record, a key or model assumption, and the saved output. For an independent source check, use the [original-source entry](https://crypto.hcportal.eu/dashboard/cryptograms/1518); images are linked, not redistributed here.
+
+If you use Python, follow the [complete verification instructions](verification/README.md), including download/setup, expected results and troubleshooting. The command from this repository’s top-level folder is:
 
 ```sh
 python3 verification/check_all.py
 ```
 
-The checks reproduce only the documented public subset. Mapping coverage is not accuracy; successful replay does not establish a correct source reading or historical truth. Original and later corrected states remain separate.
+A successful run means the published files and declared calculation reproduce. It does not establish that every source sign or historical interpretation is correct.
+
+## Precise research scope
+
+Partial card readings. Complete positional replay for card 199 only; cards 440 and 453 supply limited examples. Cards 247 and 248 remain qualified text reports, without complete evidence packages or complete plaintext.
 
 This is part of [Cipher-Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). Explore the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md), and [step-by-step research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md).
 
