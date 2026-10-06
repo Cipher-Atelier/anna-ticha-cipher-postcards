@@ -1,0 +1,1839 @@
+{
+  "schema": "card199-source-only-secondary-mark-geometry/v1",
+  "created_utc": "2026-10-04T22:18:22.245188+00:00",
+  "scope": "All 10 frozen UNKNOWN body fullforms only. Auxiliary punctuation and date are excluded. No values, key tables, decoded outputs, linguistic reports, or mark-value rules were consulted.",
+  "inputs": {
+    "source_path": "source_screen/originals/pc_hcp_199_pic.JPG",
+    "source_sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+    "reconciled_manifest_sha256": "6e9f813efe1e93b15f43f15a5f404f362faa2cea78f3b4dc643f34400a74d6bf",
+    "tokens_sha256": "56e7f5aef953a69a1192aa794db64d9bcef106a6e4d84e6e3bed12377688b7c8",
+    "neutral_reference_sha256": "aa4f3a7575e49c29a3386d78b2bfbfec850f434be2923bcb61e58a92d6eedaaa",
+    "mark_geometry_reference_sha256": "db950b9d22cf1d730c44fc5795d2fba23dafc89766f70363170835041eaec802"
+  },
+  "coordinate_convention": "Half-open pixel-edge rectangles [x0,y0,x1,y1], original JPEG x right and y down. CW90/CCW90 use Pillow integer transpose; no resampling, filtering, inpainting, or mark removal.",
+  "eligibility_rule": "Exactly one high-confidence definite base, one base candidate total, high base/mark/ownership confidence, a clear short rising stroke or two-armed V, no observed or unresolved cancellation/overwriting, and not an unmarked new shape. Passing geometry alone never changes a frozen primary token.",
+  "mark_category_definitions": {
+    "acute_like_rising_stroke": "One elongated short stroke whose upper end is generally rightward of its lower end; shape only.",
+    "caron_V": "Two visible oblique arms converge at an evident low vertex; shape only.",
+    "ring": "Closed or nearly closed detached outline surrounding a visible interior.",
+    "dot": "Compact detached point without a clear elongated stroke or surrounding outline.",
+    "other": "A definite observed auxiliary contour outside the listed geometries; its function may remain unknown.",
+    "ambiguous": "Competing categories or separations remain, including extra/retraced ink versus ordinary body or neighboring strokes.",
+    "none": "No separate auxiliary handwritten mark is observed; printed background is not a mark."
+  },
+  "counts": {
+    "unknown_body_positions": 10,
+    "eligible_positions": 0,
+    "mark_categories": {
+      "acute_like_rising_stroke": 0,
+      "caron_V": 1,
+      "ring": 0,
+      "dot": 0,
+      "other": 3,
+      "ambiguous": 5,
+      "none": 1
+    },
+    "position_ids": [
+      171,
+      184,
+      221,
+      348,
+      349,
+      382,
+      422,
+      457,
+      530,
+      532
+    ]
+  },
+  "eligible_token_ids": [],
+  "positions": [
+    {
+      "token_id": "C199.L07.T06",
+      "body_index_in_canonical_listing": 171,
+      "original_position": 171,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "L07",
+      "group": "L07.G03",
+      "orientation": "CCW90",
+      "frozen_candidate_fullform_ids": [
+        "G14",
+        "G15"
+      ],
+      "frozen_reconciliation_status": "unresolved_body_and_segmentation",
+      "base_family_candidates": [
+        {
+          "family": "G14",
+          "confidence": "medium",
+          "visual_evidence": "Two successive low shoulders are visible, but the tall narrow initial shoulder and hooked terminal do not establish a single clean multi-hump fullform."
+        },
+        {
+          "family": "G15",
+          "confidence": "low",
+          "visual_evidence": "A single-shoulder comparison is possible only if the adjacent low curved component is allocated separately."
+        }
+      ],
+      "all_base_candidates": [
+        "G14",
+        "G15"
+      ],
+      "definite_base_family_candidates": [],
+      "base_alternatives": [
+        {
+          "family": "G14",
+          "confidence": "medium",
+          "visual_evidence": "Two successive low shoulders are visible, but the tall narrow initial shoulder and hooked terminal do not establish a single clean multi-hump fullform."
+        },
+        {
+          "family": "G15",
+          "confidence": "low",
+          "visual_evidence": "A single-shoulder comparison is possible only if the adjacent low curved component is allocated separately."
+        }
+      ],
+      "base_candidate_count": 2,
+      "base_confidence": "medium",
+      "observed_mark_category": "none",
+      "mark_type": "none",
+      "mark_confidence": "high",
+      "mark_type_confidence": "high",
+      "mark_description": "No separate overhead, side, or low auxiliary handwritten mark is visible for this body. The gray-green line through it belongs to the printed plant background.",
+      "mark_alternatives": [],
+      "ownership_confidence": "high",
+      "mark_ownership_confidence": "high",
+      "mark_ownership_description": "No auxiliary handwritten mark requires allocation; this high confidence describes absence only.",
+      "mark_ownership_alternatives": [],
+      "cancellation_status": "not_observed",
+      "overwriting_status": "not_observed",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": false,
+      "unmarked_new_shape_flag": true,
+      "fullform_and_segmentation_alternatives": [
+        "One connected G14-like fullform.",
+        "A narrow shoulder component plus a neighboring low curved component; two-body segmentation remains possible."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [],
+        "B": []
+      },
+      "notes": "The printed plant stem crosses the body. No ink is removed and no segmentation is chosen here.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.L07.T06_original.png",
+          "sha256": "dd614f492477fe3a00bcd72fccbd6d000fd393e5b99cc6a78f80805e308df6b5",
+          "bbox_xyxy": [
+            235,
+            194,
+            358,
+            256
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.L07.T06_oriented.png",
+          "sha256": "859a4f449232b60ef31ac2f77a33c26f07e969716505b9ab9a12591cf87d4a7b",
+          "bbox_xyxy": [
+            194,
+            1427,
+            256,
+            1550
+          ],
+          "coordinate_system": "full-page CCW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.L07.T06_body_window_original.png",
+          "original_sha256": "cdc8df141f2f0e2956b745f1346b7c08b788d61e0f6024066a9eb464abca2a19",
+          "original_bbox_xyxy": [
+            317,
+            209,
+            340,
+            244
+          ],
+          "oriented_file": "crops/C199.L07.T06_body_window_oriented.png",
+          "oriented_sha256": "c398455a11d1ae55c7590c2370ffd9c0c515cce28bbe15852c14e5452c51113f",
+          "oriented_bbox_xyxy": [
+            209,
+            1445,
+            244,
+            1468
+          ],
+          "local_bbox_in_context_oriented": [
+            15,
+            18,
+            50,
+            41
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": false,
+        "one_base_candidate_total": false,
+        "base_confidence_high": false,
+        "mark_confidence_high": true,
+        "ownership_confidence_high": true,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": true,
+        "not_unmarked_new_shape": false
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "exactly_one_high_confidence_definite_base",
+        "one_base_candidate_total",
+        "base_confidence_high",
+        "clear_rising_stroke_or_V_geometry",
+        "not_unmarked_new_shape"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.L07.T19",
+      "body_index_in_canonical_listing": 184,
+      "original_position": 184,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "L07",
+      "group": "L07.G05",
+      "orientation": "CCW90",
+      "frozen_candidate_fullform_ids": [
+        "G10_CAP",
+        "G10"
+      ],
+      "frozen_reconciliation_status": "unresolved_mark_ownership",
+      "base_family_candidates": [
+        {
+          "family": "G10",
+          "confidence": "high",
+          "visual_evidence": "Short descending stem and rightward shoulder are clear below the overhead contour."
+        }
+      ],
+      "all_base_candidates": [
+        "G10"
+      ],
+      "definite_base_family_candidates": [
+        "G10"
+      ],
+      "base_alternatives": [],
+      "base_candidate_count": 1,
+      "base_confidence": "high",
+      "observed_mark_category": "caron_V",
+      "mark_type": "caron_V",
+      "mark_confidence": "high",
+      "mark_type_confidence": "high",
+      "mark_description": "Two dark oblique arms meet in a lower vertex with a short downward thickening. The V geometry is clear, but its left arm touches or nearly touches the preceding-row loop terminal.",
+      "mark_alternatives": [],
+      "ownership_confidence": "medium",
+      "mark_ownership_confidence": "medium",
+      "mark_ownership_description": "The V lies above this shoulder body but the left wing is contiguous or nearly contiguous with the preceding-row descending loop.",
+      "mark_ownership_alternatives": [
+        {
+          "owner": "preceding_row_descender",
+          "confidence": "medium",
+          "description": "Some or all of the left wing may continue the descending loop above."
+        },
+        {
+          "owner": "shared_or_independent_contour",
+          "confidence": "medium",
+          "description": "Allocation of the connected contour cannot be decided from these pixels."
+        }
+      ],
+      "cancellation_status": "not_observed",
+      "overwriting_status": "not_observed",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": false,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "A G10-like body with an associated V-shaped overhead contour.",
+        "A G10-like body with some or all overhead ink belonging to the preceding row."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Paired low arch/roof above short-shoulder body; matches neutral G10_CAP examples.",
+            "ownership_confidence": 0.93
+          }
+        ],
+        "B": [
+          {
+            "geometry": "Detached or near-detached overhead chevron/roof with two sloping wings",
+            "type": "overhead_cap_in_frozen_fullform_template",
+            "ownership_confidence": "medium",
+            "semantic_value": null
+          }
+        ]
+      },
+      "notes": "The frozen G10_CAP and G10 fullform alternatives are retained separately. G10_CAP is not counted as another unmarked base family.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.L07.T19_original.png",
+          "sha256": "17684f6ebd798f6ee52224ec36ff27b67004bc2afbd71bb0247a43c5aa6efd39",
+          "bbox_xyxy": [
+            235,
+            532,
+            358,
+            593
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.L07.T19_oriented.png",
+          "sha256": "6408b61f5744f62a2bc8035da3f21dc79e4511b6b325c6b2c044b0683fdc1f2c",
+          "bbox_xyxy": [
+            532,
+            1427,
+            593,
+            1550
+          ],
+          "coordinate_system": "full-page CCW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.L07.T19_body_window_original.png",
+          "original_sha256": "f66ec93e47a5c174760e8592631b7fb351777214e638f5584c48d2b20c502798",
+          "original_bbox_xyxy": [
+            307,
+            553,
+            326,
+            576
+          ],
+          "oriented_file": "crops/C199.L07.T19_body_window_oriented.png",
+          "oriented_sha256": "52b92333cf1b96d25b2f683db0d7c2eace49985773b251aa2ab446a050d17f14",
+          "oriented_bbox_xyxy": [
+            553,
+            1459,
+            576,
+            1478
+          ],
+          "local_bbox_in_context_oriented": [
+            21,
+            32,
+            44,
+            51
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.L07.T19_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "1a5c5fdea98443231d737b6c59368d04c84311c06d2ec7ec07e0ff8f16b83fa7",
+          "original_bbox_xyxy": [
+            327,
+            556,
+            339,
+            574
+          ],
+          "oriented_file": "crops/C199.L07.T19_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "3a39b1b146bc81618c22b9fd80556bb649c56f4b17dde47d94f0118a5599f012",
+          "oriented_bbox_xyxy": [
+            556,
+            1446,
+            574,
+            1458
+          ],
+          "local_bbox_in_context_oriented": [
+            24,
+            19,
+            42,
+            31
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": true,
+        "one_base_candidate_total": true,
+        "base_confidence_high": true,
+        "mark_confidence_high": true,
+        "ownership_confidence_high": false,
+        "clear_rising_stroke_or_V_geometry": true,
+        "clear_of_cancellation_and_overwriting": true,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "ownership_confidence_high"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.L08.T19",
+      "body_index_in_canonical_listing": 221,
+      "original_position": 221,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "L08",
+      "group": "L08.G06",
+      "orientation": "CCW90",
+      "frozen_candidate_fullform_ids": [
+        "G03",
+        "G11"
+      ],
+      "frozen_reconciliation_status": "unresolved_retracing",
+      "base_family_candidates": [
+        {
+          "family": "G03",
+          "confidence": "medium",
+          "visual_evidence": "A short top bar and descending bend remain visible above the filled lower body."
+        },
+        {
+          "family": "G11",
+          "confidence": "low",
+          "visual_evidence": "A two-lobed outline is a weaker alternative because the inner left/lower contour is concealed."
+        }
+      ],
+      "all_base_candidates": [
+        "G03",
+        "G11"
+      ],
+      "definite_base_family_candidates": [],
+      "base_alternatives": [
+        {
+          "family": "G03",
+          "confidence": "medium",
+          "visual_evidence": "A short top bar and descending bend remain visible above the filled lower body."
+        },
+        {
+          "family": "G11",
+          "confidence": "low",
+          "visual_evidence": "A two-lobed outline is a weaker alternative because the inner left/lower contour is concealed."
+        }
+      ],
+      "base_candidate_count": 2,
+      "base_confidence": "medium",
+      "observed_mark_category": "ambiguous",
+      "mark_type": "ambiguous",
+      "mark_confidence": "medium",
+      "mark_type_confidence": "medium",
+      "mark_description": "The lower body is an opaque dark mass. No independent short stroke or two-armed V can be isolated; the mass could be ordinary thickening or an added retrace/overwrite.",
+      "mark_alternatives": [
+        {
+          "category": "other",
+          "confidence": "medium",
+          "description": "Dense added retracing or overwrite within the lower body."
+        },
+        {
+          "category": "none",
+          "confidence": "medium",
+          "description": "Ordinary thick ink in the original body, without a separate added mark."
+        }
+      ],
+      "ownership_confidence": "high",
+      "mark_ownership_confidence": "high",
+      "mark_ownership_description": "The dark mass is located within this body; confidence is high for its spatial location, but low for separating original and added strokes.",
+      "mark_ownership_alternatives": [],
+      "cancellation_status": "indeterminate",
+      "overwriting_status": "possible",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": true,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "One thickened or retraced G03-like body.",
+        "An earlier overwritten outline that is not recoverable.",
+        "A G11-like underlying body remains a weak alternative."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Dense ink filling lower rounded body; no distinct extra detached mark resolved.",
+            "ownership_confidence": 0.92
+          }
+        ],
+        "B": [
+          {
+            "geometry": "Dense dark retracing/overwriting in a short body; apparent upper bend and lower lobe cannot be traced cleanly.",
+            "type": "retracing_or_overwrite",
+            "ownership_confidence": "high for the dark region belonging to this slot; low for separating its constituent strokes",
+            "semantic_value": null
+          }
+        ]
+      },
+      "notes": "No earlier outline is reconstructed from the dark fill.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.L08.T19_original.png",
+          "sha256": "f46fe4ac45309fa2629abec8520c5fd5f53783f8d16526faba5cdb790a4749e5",
+          "bbox_xyxy": [
+            200,
+            532,
+            310,
+            593
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.L08.T19_oriented.png",
+          "sha256": "64598094f78f4db42f1d06194b502aa0d474cd48dc96659aa20620c7193cdad7",
+          "bbox_xyxy": [
+            532,
+            1475,
+            593,
+            1585
+          ],
+          "coordinate_system": "full-page CCW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.L08.T19_body_window_original.png",
+          "original_sha256": "eca01073a19c1f2af9afec4653a82abe0628c89e589912759e5740bca912e862",
+          "original_bbox_xyxy": [
+            256,
+            553,
+            279,
+            574
+          ],
+          "oriented_file": "crops/C199.L08.T19_body_window_oriented.png",
+          "oriented_sha256": "034ff536ba5f9be52e33d000e49379e22675038aade471e607dc8b84f42453b0",
+          "oriented_bbox_xyxy": [
+            553,
+            1506,
+            574,
+            1529
+          ],
+          "local_bbox_in_context_oriented": [
+            21,
+            31,
+            42,
+            54
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.L08.T19_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "d4968dd0f06057e88e47c2f0d0144418a02691a8849be44747194260dee217f6",
+          "original_bbox_xyxy": [
+            257,
+            554,
+            272,
+            567
+          ],
+          "oriented_file": "crops/C199.L08.T19_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "9744951f4de382db768382fbe4c80bfaa0911414d7036c0c64c2a99c747f8ab8",
+          "oriented_bbox_xyxy": [
+            554,
+            1513,
+            567,
+            1528
+          ],
+          "local_bbox_in_context_oriented": [
+            22,
+            38,
+            35,
+            53
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": false,
+        "one_base_candidate_total": false,
+        "base_confidence_high": false,
+        "mark_confidence_high": false,
+        "ownership_confidence_high": true,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": false,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "exactly_one_high_confidence_definite_base",
+        "one_base_candidate_total",
+        "base_confidence_high",
+        "mark_confidence_high",
+        "clear_rising_stroke_or_V_geometry",
+        "clear_of_cancellation_and_overwriting"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.L11.T35",
+      "body_index_in_canonical_listing": 348,
+      "original_position": 348,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "L11",
+      "group": "L11.G08",
+      "orientation": "CCW90",
+      "frozen_candidate_fullform_ids": [
+        "G08_N01"
+      ],
+      "frozen_reconciliation_status": "unresolved_interline_stroke_ownership",
+      "base_family_candidates": [
+        {
+          "family": "G08_N01",
+          "confidence": "medium",
+          "visual_evidence": "The upper bowl and descending stem are clear; an apparent returning lower loop crosses the stem, but the return overlaps the lower-row body and the adjacent rightward form."
+        },
+        {
+          "family": "G08_N02",
+          "confidence": "low",
+          "visual_evidence": "An open lower hook remains a conditional alternative only if the apparent returned/crossing segment is allocated to other intersecting ink."
+        }
+      ],
+      "all_base_candidates": [
+        "G08_N01",
+        "G08_N02"
+      ],
+      "definite_base_family_candidates": [],
+      "base_alternatives": [
+        {
+          "family": "G08_N01",
+          "confidence": "medium",
+          "visual_evidence": "The upper bowl and descending stem are clear; an apparent returning lower loop crosses the stem, but the return overlaps the lower-row body and the adjacent rightward form."
+        },
+        {
+          "family": "G08_N02",
+          "confidence": "low",
+          "visual_evidence": "An open lower hook remains a conditional alternative only if the apparent returned/crossing segment is allocated to other intersecting ink."
+        }
+      ],
+      "base_candidate_count": 2,
+      "base_confidence": "medium",
+      "observed_mark_category": "ambiguous",
+      "mark_type": "ambiguous",
+      "mark_confidence": "medium",
+      "mark_type_confidence": "medium",
+      "mark_description": "A long oblique returning contour and a dense intersection with the lower row are visible. There is no isolated short rising mark or detached V; whether any component is an added mark rather than the body or neighboring ink is unresolved.",
+      "mark_alternatives": [
+        {
+          "category": "other",
+          "confidence": "medium",
+          "description": "A long joined/shared returning contour or extra flourish."
+        },
+        {
+          "category": "none",
+          "confidence": "medium",
+          "description": "Ordinary body return plus ink from the intersecting lower-row body."
+        }
+      ],
+      "ownership_confidence": "low",
+      "mark_ownership_confidence": "low",
+      "mark_ownership_description": "The lower contour crosses the lower-row token C199.L12.T35, and the rightward return meets the neighboring C199.L11.T36 area.",
+      "mark_ownership_alternatives": [
+        {
+          "owner": "C199.L12.T35",
+          "confidence": "medium",
+          "description": "Dense lower intersection includes strokes from this lower-row body."
+        },
+        {
+          "owner": "C199.L11.T36",
+          "confidence": "low",
+          "description": "Part of the rightward joined contour meets the adjacent body."
+        }
+      ],
+      "cancellation_status": "not_observed",
+      "overwriting_status": "not_established",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": false,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "Returned-loop G08_N01-like body with interline overlap.",
+        "Open-hook G08_N02-like body if the apparent return is shared ink rather than its own stroke."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Long outward flourish/return associated with lower-loop body; neighboring ink remains in contextual crop.",
+            "ownership_confidence": 0.82
+          }
+        ],
+        "B": []
+      },
+      "notes": "The G08_N02 alternative is a new low-confidence geometric alternative from this inspection, not a change to the frozen primary ID or reconciliation. Both intersecting bodies are retained.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.L11.T35_original.png",
+          "sha256": "5845a3388bf38b0d2784a372f458a05108476cabc81153170c85d725540e0b61",
+          "bbox_xyxy": [
+            38,
+            938,
+            165,
+            1063
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.L11.T35_oriented.png",
+          "sha256": "45179f3ce33515d3ccf67094d904217943d5cb8b52343e3e32a8d27a94e4ae01",
+          "bbox_xyxy": [
+            938,
+            1620,
+            1063,
+            1747
+          ],
+          "coordinate_system": "full-page CCW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.L11.T35_body_window_original.png",
+          "original_sha256": "09fbea820a30f60a74a8c71e4068d1881b770f3ec3e80e3d837035fe545cbacb",
+          "original_bbox_xyxy": [
+            57,
+            962,
+            112,
+            1008
+          ],
+          "oriented_file": "crops/C199.L11.T35_body_window_oriented.png",
+          "oriented_sha256": "f3632a4f1ba389a1f84a3c69fd0b3cbfd9587d2c07efc875a8762eb9941aba57",
+          "oriented_bbox_xyxy": [
+            962,
+            1673,
+            1008,
+            1728
+          ],
+          "local_bbox_in_context_oriented": [
+            24,
+            53,
+            70,
+            108
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.L11.T35_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "3dfcbe859118f8ea9a283b93388a630813452f9e0fbbc515726872e671a5c1b1",
+          "original_bbox_xyxy": [
+            51,
+            962,
+            96,
+            1022
+          ],
+          "oriented_file": "crops/C199.L11.T35_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "ebdc5329cfd6988f6f26777829767ad361359fa71a047f78d792be8308c0443e",
+          "oriented_bbox_xyxy": [
+            962,
+            1689,
+            1022,
+            1734
+          ],
+          "local_bbox_in_context_oriented": [
+            24,
+            69,
+            84,
+            114
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": false,
+        "one_base_candidate_total": false,
+        "base_confidence_high": false,
+        "mark_confidence_high": false,
+        "ownership_confidence_high": false,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": true,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "exactly_one_high_confidence_definite_base",
+        "one_base_candidate_total",
+        "base_confidence_high",
+        "mark_confidence_high",
+        "ownership_confidence_high",
+        "clear_rising_stroke_or_V_geometry"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.L11.T36",
+      "body_index_in_canonical_listing": 349,
+      "original_position": 349,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "L11",
+      "group": "L11.G08",
+      "orientation": "CCW90",
+      "frozen_candidate_fullform_ids": [
+        "G03"
+      ],
+      "frozen_reconciliation_status": "unresolved_extended_fullform",
+      "base_family_candidates": [
+        {
+          "family": "G03",
+          "confidence": "high",
+          "visual_evidence": "Short upper bar/bend and rounded lower return match the G03 body below the unusually long top extension."
+        }
+      ],
+      "all_base_candidates": [
+        "G03"
+      ],
+      "definite_base_family_candidates": [
+        "G03"
+      ],
+      "base_alternatives": [],
+      "base_candidate_count": 1,
+      "base_confidence": "high",
+      "observed_mark_category": "other",
+      "mark_type": "other",
+      "mark_confidence": "high",
+      "mark_type_confidence": "high",
+      "mark_description": "A long, nearly horizontal rightward extension is continuous with the upper bar. It has no separate second arm and is much longer and flatter than the short rising-stroke category.",
+      "mark_alternatives": [],
+      "ownership_confidence": "high",
+      "mark_ownership_confidence": "high",
+      "mark_ownership_description": "The long horizontal extension visibly joins the top of this body; whether it is an added mark or a body flourish remains unresolved.",
+      "mark_ownership_alternatives": [],
+      "cancellation_status": "not_observed",
+      "overwriting_status": "not_observed",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": false,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "One extended G03-like fullform.",
+        "A G03-like body with a joined added rightward line; the line is preserved."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Long nearly horizontal top extension to the right, continuous with top bar.",
+            "ownership_confidence": 0.9
+          }
+        ],
+        "B": [
+          {
+            "geometry": "Short bent/bowled body with an unusually long, nearly horizontal rightward upper stroke extending approximately to oriented x=1057. Its lower left is adjacent to the returned stroke of the preceding G08 body.",
+            "type": "long_horizontal_extension",
+            "ownership_confidence": "high for the long stroke joining this body; low for whether it is a separate added mark or an allographic extension",
+            "semantic_value": null
+          }
+        ]
+      },
+      "notes": "The lower left contour touches the neighboring returned-loop area. This does not alter the clear ownership of the long top extension.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.L11.T36_original.png",
+          "sha256": "1922fbd2f295d3531cc2ea46eedbdb45b5651f672c78892267cde725f71cf2e1",
+          "bbox_xyxy": [
+            38,
+            968,
+            165,
+            1069
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.L11.T36_oriented.png",
+          "sha256": "749aad41d57f83d6d134ac853edaa53bd6b97da67fcc77822e8ccf4de89d2e90",
+          "bbox_xyxy": [
+            968,
+            1620,
+            1069,
+            1747
+          ],
+          "coordinate_system": "full-page CCW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.L11.T36_body_window_original.png",
+          "original_sha256": "66708272d7584ddbe0fb2379aa34122617578beb06d9d32e947654dc3b13cf26",
+          "original_bbox_xyxy": [
+            91,
+            1006,
+            113,
+            1026
+          ],
+          "oriented_file": "crops/C199.L11.T36_body_window_oriented.png",
+          "oriented_sha256": "ea7c5690881e6d38e339b0ba326f925676b13caf5efb3d09ddd3324908abf63b",
+          "oriented_bbox_xyxy": [
+            1006,
+            1672,
+            1026,
+            1694
+          ],
+          "local_bbox_in_context_oriented": [
+            38,
+            52,
+            58,
+            74
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.L11.T36_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "10b7108e8925229bb20822ed8a2840d583f1c6d20780c3b517179d25317b7233",
+          "original_bbox_xyxy": [
+            105,
+            1016,
+            114,
+            1059
+          ],
+          "oriented_file": "crops/C199.L11.T36_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "17b53e55c3c7ab77ae62089eb8debc15534ca23f3af0cd4e6d8176e25ef5f8c8",
+          "oriented_bbox_xyxy": [
+            1016,
+            1671,
+            1059,
+            1680
+          ],
+          "local_bbox_in_context_oriented": [
+            48,
+            51,
+            91,
+            60
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": true,
+        "one_base_candidate_total": true,
+        "base_confidence_high": true,
+        "mark_confidence_high": true,
+        "ownership_confidence_high": true,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": true,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "clear_rising_stroke_or_V_geometry"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.L12.T35",
+      "body_index_in_canonical_listing": 382,
+      "original_position": 382,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "L12",
+      "group": "L12.G09",
+      "orientation": "CCW90",
+      "frozen_candidate_fullform_ids": [
+        "G06"
+      ],
+      "frozen_reconciliation_status": "unresolved_interline_stroke_ownership",
+      "base_family_candidates": [
+        {
+          "family": "G06",
+          "confidence": "medium",
+          "visual_evidence": "An upper bar, slanting stem, central cross stroke and lower hook are present, but the thick middle contour is crossed by the preceding-row returned-loop form."
+        }
+      ],
+      "all_base_candidates": [
+        "G06"
+      ],
+      "definite_base_family_candidates": [],
+      "base_alternatives": [
+        {
+          "family": "G06",
+          "confidence": "medium",
+          "visual_evidence": "An upper bar, slanting stem, central cross stroke and lower hook are present, but the thick middle contour is crossed by the preceding-row returned-loop form."
+        }
+      ],
+      "base_candidate_count": 1,
+      "base_confidence": "medium",
+      "observed_mark_category": "ambiguous",
+      "mark_type": "ambiguous",
+      "mark_confidence": "medium",
+      "mark_type_confidence": "medium",
+      "mark_description": "Long diagonal and returning strokes cross a dark bar-and-hook body. Their relation to the original scaffold, retracing, and interline ink cannot be separated into a definite short auxiliary mark.",
+      "mark_alternatives": [
+        {
+          "category": "other",
+          "confidence": "medium",
+          "description": "Long crossing/shared contour and possible dense retracing."
+        },
+        {
+          "category": "none",
+          "confidence": "medium",
+          "description": "Ordinary body strokes intersected by preceding-row ink."
+        }
+      ],
+      "ownership_confidence": "low",
+      "mark_ownership_confidence": "low",
+      "mark_ownership_description": "Ink from C199.L11.T35 traverses the upper and middle portions of this token; the dense intersections cannot be assigned stroke by stroke.",
+      "mark_ownership_alternatives": [
+        {
+          "owner": "C199.L11.T35",
+          "confidence": "high",
+          "description": "The long descending/returned contour from that preceding-row body crosses this region."
+        }
+      ],
+      "cancellation_status": "indeterminate",
+      "overwriting_status": "possible",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": true,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "G06-like body crossed by the preceding-row returned loop.",
+        "A retraced or overwritten body with a G06-like scaffold."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [],
+        "B": [
+          {
+            "geometry": "Heavy descending and cross strokes in a bar-and-hook-like body. The preceding line's final returned-loop G08 descender/return crosses this area. Stroke ownership at the upper and middle intersections is not certain.",
+            "type": "interline_overlap_and_retracing",
+            "ownership_confidence": "low at intersections; medium for the G06-like scaffold",
+            "semantic_value": null
+          }
+        ]
+      },
+      "notes": "This plausible body is retained independently. Neither crossing nor dense ink establishes a cancellation.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.L12.T35_original.png",
+          "sha256": "be2f7f8ae4ff8d6bd15db6bb919905e67036f14035b263a2c4ea689dd4419bca",
+          "bbox_xyxy": [
+            30,
+            938,
+            115,
+            1010
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.L12.T35_oriented.png",
+          "sha256": "db5cc1996342c8b0ada08415f04e55dbd313f9096abc5ee9aa31e9921f8e0187",
+          "bbox_xyxy": [
+            938,
+            1670,
+            1010,
+            1755
+          ],
+          "coordinate_system": "full-page CCW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.L12.T35_body_window_original.png",
+          "original_sha256": "6c85ff6e92cbc72032b4cdd53762b45c1b3e1f9acabf669132d2dda7db31b4f0",
+          "original_bbox_xyxy": [
+            49,
+            957,
+            86,
+            983
+          ],
+          "oriented_file": "crops/C199.L12.T35_body_window_oriented.png",
+          "oriented_sha256": "52de31c694f0d35405807571852533e673ec376253437c80ec4d194d00be183f",
+          "oriented_bbox_xyxy": [
+            957,
+            1699,
+            983,
+            1736
+          ],
+          "local_bbox_in_context_oriented": [
+            19,
+            29,
+            45,
+            66
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.L12.T35_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "0228d28738f5050fd8462831a049a34a10657489cfddbbae03657eab97a85d1d",
+          "original_bbox_xyxy": [
+            62,
+            962,
+            91,
+            1008
+          ],
+          "oriented_file": "crops/C199.L12.T35_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "11d91b6f4ee7f223a88f8b414d556fb77d7bc9d568f1192f66cdb60e1d68d3bf",
+          "oriented_bbox_xyxy": [
+            962,
+            1694,
+            1008,
+            1723
+          ],
+          "local_bbox_in_context_oriented": [
+            24,
+            24,
+            70,
+            53
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": false,
+        "one_base_candidate_total": true,
+        "base_confidence_high": false,
+        "mark_confidence_high": false,
+        "ownership_confidence_high": false,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": false,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "exactly_one_high_confidence_definite_base",
+        "base_confidence_high",
+        "mark_confidence_high",
+        "ownership_confidence_high",
+        "clear_rising_stroke_or_V_geometry",
+        "clear_of_cancellation_and_overwriting"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.R02.T13",
+      "body_index_in_canonical_listing": 422,
+      "original_position": 422,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "R02",
+      "group": "R02.G02",
+      "orientation": "CW90",
+      "frozen_candidate_fullform_ids": [
+        "G10",
+        "G10_CAP"
+      ],
+      "frozen_reconciliation_status": "unresolved_mark_ownership",
+      "base_family_candidates": [
+        {
+          "family": "G10",
+          "confidence": "high",
+          "visual_evidence": "A short descending stem with a compact rightward branching shoulder is clearly visible below the overhead stroke."
+        }
+      ],
+      "all_base_candidates": [
+        "G10"
+      ],
+      "definite_base_family_candidates": [
+        "G10"
+      ],
+      "base_alternatives": [],
+      "base_candidate_count": 1,
+      "base_confidence": "high",
+      "observed_mark_category": "other",
+      "mark_type": "other",
+      "mark_confidence": "high",
+      "mark_type_confidence": "high",
+      "mark_description": "A broad nearly horizontal bar has a blunt downward thickening at its center. It is joined or nearly joined to the descending loop above; two converging oblique V arms are not established.",
+      "mark_alternatives": [],
+      "ownership_confidence": "low",
+      "mark_ownership_confidence": "low",
+      "mark_ownership_description": "The dark bar meets the bottom of the preceding-row descending loop and may be its terminal rather than a mark on the lower shoulder body.",
+      "mark_ownership_alternatives": [
+        {
+          "owner": "preceding_row_descender",
+          "confidence": "high",
+          "description": "Visible continuity or near-continuity with its bottom terminal."
+        },
+        {
+          "owner": "shared_or_independent_contour",
+          "confidence": "medium",
+          "description": "An added or shared contour cannot be ruled out."
+        }
+      ],
+      "cancellation_status": "not_observed",
+      "overwriting_status": "not_observed",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": false,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "G10-like body plus a bar belonging to the preceding row.",
+        "A G10-like body with an associated overhead bar/cap."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Short overhead heavy horizontal/curved stroke.",
+            "ownership_confidence": 0.38,
+            "possible_owner": "B01 group 2 position 8 (G01), or current short-shoulder body"
+          }
+        ],
+        "B": [
+          {
+            "geometry": "Short shoulder body below a dark nearly horizontal cap. The cap meets or nearly meets the bottom of the preceding line's G01 descender; allocation to this lower body is uncertain.",
+            "type": "overhead_bar_or_adjacent_descender",
+            "ownership_confidence": "medium-low; could be a cap for this body or the terminal of the G01 above",
+            "semantic_value": null
+          }
+        ]
+      },
+      "notes": "The frozen G10 and G10_CAP fullform alternatives are preserved. The cap possibility does not make the horizontal bar a V.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.R02.T13_original.png",
+          "sha256": "e1a135704e90e02a25931db653856799a4044b4dbed176736732fdbe74b65c6f",
+          "bbox_xyxy": [
+            1465,
+            782,
+            1595,
+            855
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.R02.T13_oriented.png",
+          "sha256": "91fc34bbd1d1ba974f77d5fc47f2f5317646ae9e30c86f056bae962744476353",
+          "bbox_xyxy": [
+            320,
+            1465,
+            393,
+            1595
+          ],
+          "coordinate_system": "full-page CW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.R02.T13_body_window_original.png",
+          "original_sha256": "3c63f8e0fddea4656dde74171523e7fd99795a58062ec61dcddb9d7baee3456b",
+          "original_bbox_xyxy": [
+            1500,
+            809,
+            1520,
+            825
+          ],
+          "oriented_file": "crops/C199.R02.T13_body_window_oriented.png",
+          "oriented_sha256": "6e8c9554beea23475dfe06306bf2e84986d645ee33858e8a770ef54e9cedd91c",
+          "oriented_bbox_xyxy": [
+            350,
+            1500,
+            366,
+            1520
+          ],
+          "local_bbox_in_context_oriented": [
+            30,
+            35,
+            46,
+            55
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.R02.T13_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "546e98ceac6cf322419c5a26eae5f4b35b7314ec7f8962c396681776eae9773c",
+          "original_bbox_xyxy": [
+            1485,
+            806,
+            1498,
+            826
+          ],
+          "oriented_file": "crops/C199.R02.T13_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "07a8361de55281ab8de76c2359358b79b756119e4fe45c8b279ded2b0c64154f",
+          "oriented_bbox_xyxy": [
+            349,
+            1485,
+            369,
+            1498
+          ],
+          "local_bbox_in_context_oriented": [
+            29,
+            20,
+            49,
+            33
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": true,
+        "one_base_candidate_total": true,
+        "base_confidence_high": true,
+        "mark_confidence_high": true,
+        "ownership_confidence_high": false,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": true,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "ownership_confidence_high",
+        "clear_rising_stroke_or_V_geometry"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.R03.T06",
+      "body_index_in_canonical_listing": 457,
+      "original_position": 457,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "R03",
+      "group": "R03.G02",
+      "orientation": "CW90",
+      "frozen_candidate_fullform_ids": [
+        "G13"
+      ],
+      "frozen_reconciliation_status": "unresolved_retracing",
+      "base_family_candidates": [
+        {
+          "family": "G13",
+          "confidence": "medium",
+          "visual_evidence": "A short rounded arc open to the right is discernible, but the left/lower segment is much thicker and may conceal an earlier outline."
+        }
+      ],
+      "all_base_candidates": [
+        "G13"
+      ],
+      "definite_base_family_candidates": [],
+      "base_alternatives": [
+        {
+          "family": "G13",
+          "confidence": "medium",
+          "visual_evidence": "A short rounded arc open to the right is discernible, but the left/lower segment is much thicker and may conceal an earlier outline."
+        }
+      ],
+      "base_candidate_count": 1,
+      "base_confidence": "medium",
+      "observed_mark_category": "ambiguous",
+      "mark_type": "ambiguous",
+      "mark_confidence": "medium",
+      "mark_type_confidence": "medium",
+      "mark_description": "Dense ink fills the left/lower part of the arc-shaped scaffold. It does not resolve into a detached point, ring, short rising stroke, or V.",
+      "mark_alternatives": [
+        {
+          "category": "other",
+          "confidence": "medium",
+          "description": "Dense added retracing or overwrite."
+        },
+        {
+          "category": "none",
+          "confidence": "medium",
+          "description": "Heavy original body strokes without a separate added mark."
+        }
+      ],
+      "ownership_confidence": "high",
+      "mark_ownership_confidence": "high",
+      "mark_ownership_description": "The dense patch belongs spatially to this token. Separating any earlier and later strokes is low confidence.",
+      "mark_ownership_alternatives": [],
+      "cancellation_status": "indeterminate",
+      "overwriting_status": "possible",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": true,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "One thickened/retraced G13-like body.",
+        "An overwritten body with an unrecoverable earlier outline."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Dense fill/possible overwrite at left and bottom of body.",
+            "ownership_confidence": 0.93
+          }
+        ],
+        "B": [
+          {
+            "geometry": "Short right-open crook/arc with densely filled left/lower portion; the dark patch could hide an earlier stroke.",
+            "type": "dense_retracing_or_overwrite",
+            "ownership_confidence": "high for the dark patch belonging to this position; low for separating any original and added strokes",
+            "semantic_value": null
+          }
+        ]
+      },
+      "notes": "The visible arc scaffold is recorded without reconstructing concealed ink.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.R03.T06_original.png",
+          "sha256": "491ac26b0d85199d76c90c1da8955f07fb2a2f83802ef2f72b4e35acd3dfd9b9",
+          "bbox_xyxy": [
+            1518,
+            942,
+            1650,
+            1011
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.R03.T06_oriented.png",
+          "sha256": "b7c4b038767155f8067b83640e6330e99a65576f93e24dc0513ed5276969224c",
+          "bbox_xyxy": [
+            164,
+            1518,
+            233,
+            1650
+          ],
+          "coordinate_system": "full-page CW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.R03.T06_body_window_original.png",
+          "original_sha256": "bf4393e9167813d2ea8d2b8f8e7e51cd0a7f08770544f0f96cbd9228f07b2387",
+          "original_bbox_xyxy": [
+            1543,
+            967,
+            1568,
+            988
+          ],
+          "oriented_file": "crops/C199.R03.T06_body_window_oriented.png",
+          "oriented_sha256": "aca6abfac5aaaf2b2eacbb9a9456f8b172739c588bbbd3143fde5d31567cad5d",
+          "oriented_bbox_xyxy": [
+            187,
+            1543,
+            208,
+            1568
+          ],
+          "local_bbox_in_context_oriented": [
+            23,
+            25,
+            44,
+            50
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.R03.T06_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "b9293739526476b50572ba51c229e299df3e728d0b8897861736bdc1f62fd898",
+          "original_bbox_xyxy": [
+            1549,
+            971,
+            1568,
+            988
+          ],
+          "oriented_file": "crops/C199.R03.T06_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "354a3337e967c12aeaf3eaa4673ec01fc01f679d6376938d5cc0c83ba5eaf595",
+          "oriented_bbox_xyxy": [
+            187,
+            1549,
+            204,
+            1568
+          ],
+          "local_bbox_in_context_oriented": [
+            23,
+            31,
+            40,
+            50
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": false,
+        "one_base_candidate_total": true,
+        "base_confidence_high": false,
+        "mark_confidence_high": false,
+        "ownership_confidence_high": true,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": false,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "exactly_one_high_confidence_definite_base",
+        "base_confidence_high",
+        "mark_confidence_high",
+        "clear_rising_stroke_or_V_geometry",
+        "clear_of_cancellation_and_overwriting"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.R04.T43",
+      "body_index_in_canonical_listing": 530,
+      "original_position": 530,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "R04",
+      "group": "R04.G07",
+      "orientation": "CW90",
+      "frozen_candidate_fullform_ids": [
+        "G11",
+        "G04"
+      ],
+      "frozen_reconciliation_status": "unresolved_lobe_closure",
+      "base_family_candidates": [
+        {
+          "family": "G11",
+          "confidence": "medium",
+          "visual_evidence": "Two right-facing lobes and a possible lower left aperture resemble G11."
+        },
+        {
+          "family": "G04",
+          "confidence": "medium",
+          "visual_evidence": "The dark left perimeter may close the lower lobe, permitting a stacked-closed-lobes comparison."
+        }
+      ],
+      "all_base_candidates": [
+        "G11",
+        "G04"
+      ],
+      "definite_base_family_candidates": [],
+      "base_alternatives": [
+        {
+          "family": "G11",
+          "confidence": "medium",
+          "visual_evidence": "Two right-facing lobes and a possible lower left aperture resemble G11."
+        },
+        {
+          "family": "G04",
+          "confidence": "medium",
+          "visual_evidence": "The dark left perimeter may close the lower lobe, permitting a stacked-closed-lobes comparison."
+        }
+      ],
+      "base_candidate_count": 2,
+      "base_confidence": "medium",
+      "observed_mark_category": "ambiguous",
+      "mark_type": "ambiguous",
+      "mark_confidence": "medium",
+      "mark_type_confidence": "medium",
+      "mark_description": "No detached auxiliary mark is seen. The lower left perimeter is dark and partly continuous; it might be a body closure, a retraced edge, or touching neighboring ink.",
+      "mark_alternatives": [
+        {
+          "category": "none",
+          "confidence": "medium",
+          "description": "The visible perimeter consists only of the body and neighboring joined strokes."
+        },
+        {
+          "category": "other",
+          "confidence": "medium",
+          "description": "A retraced or overwritten left/lower perimeter."
+        }
+      ],
+      "ownership_confidence": "medium",
+      "mark_ownership_confidence": "medium",
+      "mark_ownership_description": "Most ink lies on the two-lobed body, but its left/lower junction approaches the preceding arc and its right side meets the following stem.",
+      "mark_ownership_alternatives": [
+        {
+          "owner": "neighboring_joined_strokes",
+          "confidence": "low",
+          "description": "Touching contours at either side can obscure closure."
+        }
+      ],
+      "cancellation_status": "not_observed",
+      "overwriting_status": "possible",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": true,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "G11-like body with open left lobes.",
+        "G04-like body with a closed lower lobe.",
+        "A retraced two-lobed body whose earlier left perimeter cannot be recovered."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Dark rounded left perimeter and internal transverse return; possible overtracing.",
+            "ownership_confidence": 0.87
+          }
+        ],
+        "B": []
+      },
+      "notes": "Neither lobe family is promoted to a definite base.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.R04.T43_original.png",
+          "sha256": "1e1f42c130c76759106ddaf858530b2d9ee82aef314b62020021cc1e6b1e8eac",
+          "bbox_xyxy": [
+            1568,
+            81,
+            1700,
+            142
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.R04.T43_oriented.png",
+          "sha256": "4a225988ceceb8c3dc819259b074818377d0d86cd84b71d0ae8dbbd5132db503",
+          "bbox_xyxy": [
+            1033,
+            1568,
+            1094,
+            1700
+          ],
+          "coordinate_system": "full-page CW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.R04.T43_body_window_original.png",
+          "original_sha256": "b54e6100bd42f9653dc5d9c8306fc73fa955ebeec2cba5f64e7539262fe4204a",
+          "original_bbox_xyxy": [
+            1608,
+            108,
+            1632,
+            127
+          ],
+          "oriented_file": "crops/C199.R04.T43_body_window_oriented.png",
+          "oriented_sha256": "f7da73c71b3083575f129e8ffec4e0bf8f10bbf0eb8c0f48e77bdc778599c1ae",
+          "oriented_bbox_xyxy": [
+            1048,
+            1608,
+            1067,
+            1632
+          ],
+          "local_bbox_in_context_oriented": [
+            15,
+            40,
+            34,
+            64
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.R04.T43_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "f7934af2ddc3f0a532113fc463244393aade43c0e21483f0309e6e20b509cade",
+          "original_bbox_xyxy": [
+            1613,
+            116,
+            1631,
+            127
+          ],
+          "oriented_file": "crops/C199.R04.T43_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "0609a6a4c63e7929b6fbc6740596e9daad3c53b24334b344ec2450681928dc08",
+          "oriented_bbox_xyxy": [
+            1048,
+            1613,
+            1059,
+            1631
+          ],
+          "local_bbox_in_context_oriented": [
+            15,
+            45,
+            26,
+            63
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": false,
+        "one_base_candidate_total": false,
+        "base_confidence_high": false,
+        "mark_confidence_high": false,
+        "ownership_confidence_high": false,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": false,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "exactly_one_high_confidence_definite_base",
+        "one_base_candidate_total",
+        "base_confidence_high",
+        "mark_confidence_high",
+        "ownership_confidence_high",
+        "clear_rising_stroke_or_V_geometry",
+        "clear_of_cancellation_and_overwriting"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    },
+    {
+      "token_id": "C199.R04.T45",
+      "body_index_in_canonical_listing": 532,
+      "original_position": 532,
+      "frozen_primary_token": "UNKNOWN",
+      "fullform_id": "UNKNOWN",
+      "frozen_fullform_id": "UNKNOWN",
+      "line_id": "R04",
+      "group": "R04.G07",
+      "orientation": "CW90",
+      "frozen_candidate_fullform_ids": [
+        "G07"
+      ],
+      "frozen_reconciliation_status": "unresolved_extra_stroke",
+      "base_family_candidates": [
+        {
+          "family": "G07",
+          "confidence": "high",
+          "visual_evidence": "Angular cup/cross connection, right descending stem and baseline foot are clearly visible."
+        }
+      ],
+      "all_base_candidates": [
+        "G07"
+      ],
+      "definite_base_family_candidates": [
+        "G07"
+      ],
+      "base_alternatives": [],
+      "base_candidate_count": 1,
+      "base_confidence": "high",
+      "observed_mark_category": "other",
+      "mark_type": "other",
+      "mark_confidence": "high",
+      "mark_type_confidence": "high",
+      "mark_description": "An extra long horizontal stroke lies immediately below and roughly parallel to the ordinary lower foot, leaving two low horizontal levels. This is not a short rising stroke or a V.",
+      "mark_alternatives": [],
+      "ownership_confidence": "high",
+      "mark_ownership_confidence": "high",
+      "mark_ownership_description": "The additional low horizontal stroke is aligned with the final angular body; its graphical association is clear.",
+      "mark_ownership_alternatives": [],
+      "cancellation_status": "indeterminate",
+      "overwriting_status": "possible",
+      "cancelled_or_overwritten_confirmed": false,
+      "cancellation_or_overwriting_uncertain": true,
+      "unmarked_new_shape_flag": false,
+      "fullform_and_segmentation_alternatives": [
+        "One angular fullform with an added low underline.",
+        "A G07-like body and a separate adjacent underline.",
+        "Retracing or cancellation is possible, but no such function is established."
+      ],
+      "frozen_source_marks_preserved": {
+        "A": [
+          {
+            "geometry": "Thick horizontal underline parallel to the baseline foot; rightward upper cross/foot extension also visible.",
+            "ownership_confidence": 0.94
+          }
+        ],
+        "B": [
+          {
+            "geometry": "Angular cup/right stem/foot body accompanied by a further nearly horizontal stroke below the normal foot. Two stacked low horizontal strokes are visible.",
+            "type": "extra_low_horizontal_stroke",
+            "ownership_confidence": "high for association with the final body",
+            "semantic_value": null
+          }
+        ]
+      },
+      "notes": "The ordinary foot and the lower added line are both retained. No deletion or semantic use of the line is inferred.",
+      "crops": {
+        "context_original": {
+          "file": "crops/C199.R04.T45_original.png",
+          "sha256": "0fa19dd0869795c841757adefd0de045fb12bd5085cdbeb6225db752f37426f2",
+          "bbox_xyxy": [
+            1568,
+            28,
+            1700,
+            129
+          ],
+          "coordinate_system": "original JPEG pixels",
+          "resampled": false
+        },
+        "context_oriented": {
+          "file": "crops/C199.R04.T45_oriented.png",
+          "sha256": "95c00937d85300fb592621f9ecc81387232c89d29cf1b86cb3bc7a1185e14c0e",
+          "bbox_xyxy": [
+            1046,
+            1568,
+            1147,
+            1700
+          ],
+          "coordinate_system": "full-page CW90 lossless orientation",
+          "resampled": false
+        },
+        "body_window": {
+          "original_file": "crops/C199.R04.T45_body_window_original.png",
+          "original_sha256": "5b76f6c4b728a600e1ab1186ece89104182eef957a02357c5388f1959af78571",
+          "original_bbox_xyxy": [
+            1604,
+            65,
+            1634,
+            94
+          ],
+          "oriented_file": "crops/C199.R04.T45_body_window_oriented.png",
+          "oriented_sha256": "2c61ac83516891dc14d651716b2740e9a1bc8550628af576e52e903b514f312f",
+          "oriented_bbox_xyxy": [
+            1081,
+            1604,
+            1110,
+            1634
+          ],
+          "local_bbox_in_context_oriented": [
+            35,
+            36,
+            64,
+            66
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        },
+        "observed_mark_or_uncertain_ink_window": {
+          "original_file": "crops/C199.R04.T45_observed_mark_or_uncertain_ink_window_original.png",
+          "original_sha256": "05b7e32a2b159da74a775568cc66d3ac5ffdc5c88d98703884f177d837e44318",
+          "original_bbox_xyxy": [
+            1630,
+            65,
+            1636,
+            94
+          ],
+          "oriented_file": "crops/C199.R04.T45_observed_mark_or_uncertain_ink_window_oriented.png",
+          "oriented_sha256": "b36e5bcbe6d1e1285ecde953ac9503eaf4ada46f5d78d62738a3ef4cbe66ba32",
+          "oriented_bbox_xyxy": [
+            1081,
+            1630,
+            1110,
+            1636
+          ],
+          "local_bbox_in_context_oriented": [
+            35,
+            62,
+            64,
+            68
+          ],
+          "resampled": false,
+          "is_ink_mask": false,
+          "warning": "This rectangular window may include neighboring or shared ink; it is not a claim of exclusive ownership."
+        }
+      },
+      "eligibility_checks": {
+        "exactly_one_high_confidence_definite_base": true,
+        "one_base_candidate_total": true,
+        "base_confidence_high": true,
+        "mark_confidence_high": true,
+        "ownership_confidence_high": true,
+        "clear_rising_stroke_or_V_geometry": false,
+        "clear_of_cancellation_and_overwriting": false,
+        "not_unmarked_new_shape": true
+      },
+      "eligible": false,
+      "ineligibility_reasons": [
+        "clear_rising_stroke_or_V_geometry",
+        "clear_of_cancellation_and_overwriting"
+      ],
+      "primary_token_resolution": "unchanged_UNKNOWN",
+      "decoded_value": null
+    }
+  ],
+  "limitations": [
+    "The source image has low-resolution JPEG strokes, printed artwork, and a watermark.",
+    "Reconciled source-only annotations were available and read; this is independent of decipherment and values, not an annotation-blind replication.",
+    "Rectangular body and uncertain-ink windows can include neighboring/shared strokes; original context is retained for ownership review.",
+    "No mark is stripped, no body is omitted, and no primary ID or segmentation is altered.",
+    "A new low-confidence G08_N02 body alternative is retained for position 348; it is conditional on shared-stroke ownership and does not amend reconciliation."
+  ]
+}

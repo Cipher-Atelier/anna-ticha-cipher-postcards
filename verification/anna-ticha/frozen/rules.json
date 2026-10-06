@@ -1,0 +1,35 @@
+{
+  "schema": "prospective_mark_function_v2",
+  "frozen_utc": "2026-10-04T20:54:26.506747+00:00",
+  "status": "Training-derived revision before any329 plaintext. V1 failed the training diagnostic and was never applied to329. Original24-entry primary output remains unchanged.",
+  "base_key_sha256": "61877fb4366d8712865c7d6557d920a61f5a752d2d7b1a44da6d350439254a56",
+  "feature_input_sha256": "db950b9d22cf1d730c44fc5795d2fba23dafc89766f70363170835041eaec802",
+  "language_annotation_sha256": "ee9a8443776ef7db2e07a269ed2b319002c9b956d4c3a1872fc9e6683df8b77a",
+  "geometry_functions": {
+    "acute_like_rising_stroke": {
+      "c": "č",
+      "d": "ď",
+      "e": "ě",
+      "n": "ň",
+      "r": "ř",
+      "s": "š",
+      "t": "ť",
+      "z": "ž"
+    },
+    "caron_V": {
+      "a": "á",
+      "e": "é",
+      "i": "í",
+      "o": "ó",
+      "u": "ú",
+      "y": "ý"
+    }
+  },
+  "special": {
+    "G10+caron_V": "ch"
+  },
+  "eligibility": "Exactly one definite neutral base candidate and one candidate total; base, mark type and ownership all high; geometry category explicitly acute_like_rising_stroke or caron_V without ambiguity. No unmarked-base fallback. Other/rounded/wavy/ring/dot/compound or uncertain forms remain unknown. Apply only to original UNKNOWN positions.",
+  "basis": "Two fixed feature operators summarize the independent453 source geometries and training-language proposals. Their visual labels are geometry only: a rising stroke need not encode a modern acute. This does not prove intentional mark substitution rather than writer-specific forms. Only two attested geometry categories are admitted; no ring rule is retained.",
+  "budget": "One revised value rule set, one independently frozen329 geometry crosswalk, then one primary and one secondary literal output. No329 plaintext used for derivation, confidence adjustment or selection. Preserve failures, unknowns and source groups. No generic literal-number escape or word repairs.",
+  "evaluation": "Report coverage and linguistic plausibility, never historical accuracy without ground truth. Training agreement is not held-out validation."
+}
