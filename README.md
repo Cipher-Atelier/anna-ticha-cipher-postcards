@@ -1,4 +1,4 @@
-# anna-ticha
+# Cipher postcards addressed to Anna Tichá
 
 Partial card readings. Complete positional replay for card 199 only; cards 440 and 453 supply limited examples. Cards 247 and 248 remain qualified text reports, without complete evidence packages or complete plaintext.
 
