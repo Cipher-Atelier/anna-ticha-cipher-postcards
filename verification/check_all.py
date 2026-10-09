@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Bounded offline verification for one public research repository."""
 from pathlib import Path
-import hashlib, json, os, subprocess, sys
+import csv, hashlib, json, os, subprocess, sys
+from ledger_replay import VerificationError, verify_all
+
 ROOT=Path(__file__).resolve().parent
 REPO=ROOT.parent
 if sys.version_info < (3,10) or sys.flags.optimize or os.getenv('PYTHONOPTIMIZE') not in (None,'','0'):
@@ -25,4 +27,9 @@ try:
 except json.JSONDecodeError:
     replay={'status':'passed','output':result.stdout.strip()}
 
-print(json.dumps({'status':'passed','topic':'anna-ticha','files_checked':checked,'replay':replay,'limits':['Bounded mechanical replay only; no source-image review or full search rerun.','Coverage is not accuracy; historical truth and priority are not certified.']},ensure_ascii=False,indent=2))
+try:
+    ledgers=verify_all(REPO)
+except (VerificationError, OSError, ValueError, TypeError, KeyError, csv.Error) as exc:
+    raise SystemExit('Ledger replay failed: '+str(exc))
+
+print(json.dumps({'status':'passed','topic':'anna-ticha','files_checked':checked,'replay':replay,'ledger_replay':ledgers,'limits':['Bounded mechanical replay only; no source-image review or full search rerun.','Coverage is not accuracy; historical truth and priority are not certified.']},ensure_ascii=False,indent=2))

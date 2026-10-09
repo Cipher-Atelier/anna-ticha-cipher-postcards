@@ -62,7 +62,7 @@ A successful run means the published files and declared calculation reproduce. I
 
 ## Precise research scope
 
-Partial card readings. Complete positional replay for card 199 only; cards 440 and 453 supply limited examples. Cards 247 and 248 remain qualified text reports, without complete evidence packages or complete plaintext.
+Partial card readings. Complete positional replay remains limited to card199. The supported offline check also replays the saved contextual ledgers for cards314,315,316,318,319,320,322,324,325,326,327,328 and card318 marginal strips B/C/D, including unresolved masks. These checks establish consistency of saved proposals, not correct source classification or historical accuracy. Cards440/453 supply limited examples; cards247/248 remain qualified text reports without complete public positional packages. Card330 candidates and date are not replayed.
 
 This is part of [Cipher-Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). Explore the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md), and [step-by-step research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md).
 

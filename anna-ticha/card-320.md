@@ -51,6 +51,6 @@ The ordinary inscription near `[155,870,400,960]` reads `5./IV.1901`, consistent
 
 ## Limits and credit
 
-The repository's baseline checker verifies publication fingerprints and the unchanged card199 calculation; it does not decode this ledger or certify its historical interpretation. No independent human palaeographic review, accuracy score, new key, priority or full-card solution is claimed. A bounded repository search found no earlier card320 reading page or explicit card320 reference; external and private readings are not excluded.
+The supported checker now verifies publication fingerprints, the unchanged card199 calculation and this saved ledger’s key-derived literal, declared masks, counts, ordering, punctuation and context bounds. This is consistency replay, not source-classification or historical-accuracy certification. No independent human palaeographic review, accuracy score, new key, priority or full-card solution is claimed. A bounded repository search found no earlier card320 reading page or explicit card320 reference; external and private readings are not excluded.
 
 Credit for the existing key and earlier scholarship remains with the researchers in the [original study](article.md), and source access with HCPortal and the collection holders. No new blanket licence is proposed. Only publicly available digital materials were used; no archive or library inquiry was made.
