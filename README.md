@@ -40,6 +40,8 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 [Card 328: a letter from Pelhřimov and holiday travel questions](anna-ticha/card-328.md): preliminary left/bottom reading; 240 invariant proposed mapped bodies emit 243 letters, with four unresolved clusters. Written date 30 May 1900; letter receipt, kinship and arrival interpretations remain qualified.
 
+[Card 330 screen-reading note](research-updates/2026-10-09-card330-screen-reading.md): preliminary opening/affection candidates and a possible IV-versus-II written/catalogue month discrepancy. Browser renditions only; no original-file inspection or exact-byte source replay.
+
 [9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
 
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
