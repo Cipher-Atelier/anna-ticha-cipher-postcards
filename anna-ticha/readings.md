@@ -45,6 +45,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 319: thanks and a promised reply](card-319.md): preliminary ten-line block reading; 150 proposed mapped bodies and one unresolved faded cluster, with a public source ledger. No whole-block body count or accuracy claim.
 
+- [Card 320: Easter wishes and a letter after the holidays](card-320.md): preliminary ten-line block reading; 200 proposed mapped bodies emit 203 letters, with a public word ledger. No historical accuracy claim.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)

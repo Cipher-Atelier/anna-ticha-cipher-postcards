@@ -1,0 +1,99 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4977/pc_hcp_320_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1639",
+  "source_sha256": "a2ad9a95d6992ebccb76c76998106e40311d1209e0635d3054fd3af09f204b72",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "8e701dec890836eff402b2cab77122ff2981fd3a",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "source_block_bbox_xyxy": [
+    45,
+    245,
+    830,
+    875
+  ],
+  "bbox_kind": "Padded word contexts; may contain neighbors and other rows, not isolated glyph segmentation.",
+  "word_groups": 40,
+  "mapped_bodies": 200,
+  "emitted_letters": 203,
+  "observed_classes": 22,
+  "unresolved_body_records": [],
+  "punctuation": [
+    {
+      "line": 2,
+      "after_word": 2,
+      "literal": ","
+    },
+    {
+      "line": 3,
+      "after_word": 2,
+      "literal": "."
+    },
+    {
+      "line": 4,
+      "after_word": 1,
+      "literal": ","
+    },
+    {
+      "line": 6,
+      "after_word": 3,
+      "literal": "."
+    },
+    {
+      "line": 7,
+      "after_word": 5,
+      "literal": "."
+    },
+    {
+      "line": 9,
+      "after_word": 2,
+      "literal": "."
+    },
+    {
+      "line": 10,
+      "after_word": 5,
+      "literal": "."
+    }
+  ],
+  "ordinary_inscription": {
+    "source_bbox_xyxy": [
+      155,
+      870,
+      400,
+      960
+    ],
+    "proposed_reading": "5./IV.1901",
+    "interpretation": "5 April 1901, proposed written date, not a checked postal date",
+    "catalogue_date": "1901-04-05"
+  },
+  "method": "Manual source-to-atlas comparison by Codex with existing key and emerging language visible. No secondary V2 transformation; no blind or accuracy claim.",
+  "interpretation_notes": [
+    "Three complete G10_CAP bodies emit ch under the existing key.",
+    "rozmila and svatcich retained; no known-letter repairs.",
+    "Provisional contextual guesses listek, jedina, velmi and svatych were rejected during source inspection; accepted words dopis, rozmila, preji and svatcich follow visible forms. No predecode record or independent prediction is claimed."
+  ],
+  "limits": [
+    "Picture-side ten-line block only, no full mark inventory or address-face examination.",
+    "No historical truth, unique key, sender identity, priority or full-card solution claim.",
+    "Source JPEGs and crops are not redistributed."
+  ],
+  "literal_sha256": "c0b69d1319e20c942e44fbab00a6a093dafc77ba178719c25e3a14f2c9b9253e",
+  "ledger_sha256": "f676446d2b640d80ed2b5e3b363f460949c3c7038cbf54f9a50ac21c058933da",
+  "context_box_qa": "Initial contexts widened by 25 original pixels left/right. L8 W3/W4 recentered after clipped leading bodies were found. Initial contexts retained in CSV; no class assignments changed.",
+  "source_review_corrections": [
+    {
+      "record": "L2 W3",
+      "previous_classes": "G09 G14 G06 G12 G04 G08_N01 G11",
+      "previous_literal": "andulko",
+      "corrected_classes": "G09 G14 G06 G12 G04 G07 G19 G08_N01 G11",
+      "corrected_literal": "andulicko",
+      "reason": "Separate source reviewer identified two omitted visible bodies G07 and G19 between G04 and G08_N01. Adds two bodies and two letters; class repertoire unchanged."
+    }
+  ],
+  "review": "Separately tasked Codex (GPT-6-astra) compared all 40 current contexts, class assignments, t allographs, k/z, m/n, p/b, c/s, three capped-ch and written date, with key and proposed text visible. Found two omitted L2W3 bodies G07 G19, corrected and retained in source_review_corrections. No other definite mismatch found. Nonblind AI review, not human authentication."
+}
