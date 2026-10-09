@@ -68,3 +68,22 @@ The stable outer groups give `dosel muj` and `z nedele`, suggesting “Did my [u
 - The final heavy cluster has a lower returned contour compatible with G08_N01 = `k` **if** it is one body. A compound or overwritten two-body interpretation cannot be excluded, and no two-class sequence is accepted. The `k` is therefore a conditional candidate, not an established letter.
 
 Thus *došel můj lístek z neděle?* is a linguistic conjecture requiring a resolved-letter `l`→`t` substitution and an unresolved-cluster expansion. It is not the fixed-key output. The negative result rejects that silent repair, not every explanation of the writer's marks. Remaining margins and their reading order have not been transcribed completely. The address face was subsequently opened, but its postal date was not resolved or used to establish the catalogue year.
+
+## Follow-up: marginal strips C and D
+
+Further exploratory source comparison examined C at `[1640,100,1710,1140]`, rotated clockwise 90 degrees, and D at `[550,1100,1390,1168]`, upright. The [source ledger](../research-updates/evidence/card318-2026-10-09/margin-cd-ledger.json) and [partial literal](../research-updates/evidence/card318-2026-10-09/margin-cd-literal.txt) preserve:
+
+```text
+C: ma z[C.cluster]ta anusko mam le tak nevys[l/o]ovytelne rad
+D: tecim se nesmirne na [D.cluster1][D.cluster2]ibeny dopis
+```
+
+Punctuation and unresolved flourish ownership are recorded separately in the ledger. C has 35 invariant proposed body assignments, one `l/o` alternative and one touching cluster; D has 27 invariant assignments and two overwritten clusters. These are selected-source counts, not a complete card inventory. No fixed body count is assigned to the clusters.
+
+The long C group combines three adjacent source-review segments for display; joining them is editorial grouping, not proof of historical word spacing. Pre-commit source replay found that approximate boxes clipped several outer strokes. Boxes were padded by 15 oriented pixels on each side within the strip region and visually rechecked; the original boxes remain in the ledger. This changed neither classes nor literal output.
+
+A separately tasked AI reader compared source forms with the existing atlas before receiving these partial literals; the key and main-block context were already visible. In C, the preferred two-body partition of the touching cluster is G04/G09 (`la`), but shared ink leaves that partition unaccepted. The narrow signs underlying the `l/o` disagreement remain faint. Footed oblique forms are retained as G05 = `y`; the tall single-left-bowl forms use the existing unbarred-t class.
+
+C suggests an affectionate address to Anuška and a declaration of affection, but a fluent reconstruction would change `le` to `te` and a later `y` to `i`, as well as resolving the cluster and `l/o` alternative. These changes are not inserted into the literal. D's opening remains `tecim`, rather than silently changing `c` to `s` for *těším*. Its `se nesmirne na` and `dopis` suggest anticipation of a letter, while the intervening overwritten adjective remains unresolved. The later long descending stem supports G17 = `b`, not a more convenient short-stem letter.
+
+No new key, whole-card solution, resolved global reading order, new date or sender identity follows. The retained partial readings and explicit failed smooth reconstructions are the result of this stage; a human source comparison may revise them.
