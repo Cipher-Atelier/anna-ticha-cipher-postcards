@@ -63,6 +63,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 327: a gift, a likeness and a question about a possible premonition](card-327.md): preliminary three-line bottom block and two right-border rows with a lower signing form; 266 invariant proposed mapped bodies emit 268 letters in 56 contextual groups, plus one k/z-ambiguous body and three unresolved clusters. Written date 11 September 1900.
 
+- [Card 328: a letter from Pelhřimov and holiday travel questions](card-328.md): preliminary eleven-line left/bottom block; 240 invariant proposed mapped bodies emit 243 letters in 53 contexts, with four unresolved clusters. Written date 30 May 1900; arrival subject and terminal form unresolved.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)
