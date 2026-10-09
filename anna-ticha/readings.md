@@ -45,6 +45,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 319: thanks and a promised reply](card-319.md): preliminary ten-line block reading; 150 proposed mapped bodies and one unresolved faded cluster, with a public source ledger. No whole-block body count or accuracy claim.
 
+- [Card 316: going home and an affectionate message](card-316.md): partial lower block and separate note; 102 invariant proposed mapped bodies, two y/i alternatives and an unresolved closing. Written day/month 17 May, year not source-confirmed.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)
