@@ -1,0 +1,225 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4989/pc_hcp_324_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1643",
+  "source_sha256": "8583072822c529350aee783f23a16dfb183a638ef5c4fcb526c1541713646b33",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "f172cf3cef29c0836a36bdf72e33ebfa8eae1909",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "word_groups": 37,
+  "mapped_bodies": 166,
+  "emitted_letters": 166,
+  "observed_classes": 21,
+  "punctuation": [
+    {
+      "region": "LEFT",
+      "line": 1,
+      "after_word": 2,
+      "literal": ","
+    },
+    {
+      "region": "LEFT",
+      "line": 1,
+      "after_word": 4,
+      "literal": ","
+    },
+    {
+      "region": "LEFT",
+      "line": 2,
+      "after_word": 3,
+      "literal": "!"
+    },
+    {
+      "region": "LEFT",
+      "line": 3,
+      "after_word": 6,
+      "literal": "."
+    },
+    {
+      "region": "LEFT",
+      "line": 4,
+      "after_word": 2,
+      "literal": ","
+    },
+    {
+      "region": "LEFT",
+      "line": 4,
+      "after_word": 7,
+      "literal": ","
+    },
+    {
+      "region": "LEFT",
+      "line": 5,
+      "after_word": 4,
+      "literal": "."
+    },
+    {
+      "region": "BOTTOM",
+      "line": 3,
+      "after_word": 3,
+      "literal": "."
+    }
+  ],
+  "ordinary_inscription": {
+    "source_bbox_xyxy": [
+      1165,
+      1100,
+      1450,
+      1160
+    ],
+    "proposed_reading": "19./XII.1900",
+    "catalogue_date": "1900-12-19",
+    "scope": "Proposed written date; no postal date verification."
+  },
+  "method": "Manual source-to-atlas comparison with key, emerging language and catalogue visible. LEFT viewed by exact 90-degree counterclockwise rotation; boxes remain original-pixel coordinates. No secondary transformation.",
+  "limits": [
+    "lystek, diz, noci, dumu and nasmirne retained under existing key; no editorial letter repairs in literal.",
+    "Region-local order preserved; no single global traversal established.",
+    "Context boxes may include neighboring words/rows and are not isolated segmentation.",
+    "No complete mark inventory, sender identity, historical accuracy or priority claim.",
+    "Address face not examined; source images/crops not redistributed. Public digital materials only, no archive/library inquiry."
+  ],
+  "literal_sha256": "4c802103b86db6232ff0cd5e6c880e2140e471ef6afbcc96587d838ab5a34ebc",
+  "ledger_sha256": "04d8047e90b794c1c589daa1b54862b1e04faaf3940889e137a39402724e3dbb",
+  "review": "Separately tasked Codex (GPT-6-astra) compared all 37 source contexts, punctuation and written date with existing key and proposed text visible. Three initial classes corrected (z, n, u); seven contexts widened for letters or punctuation, with initial coordinates preserved. Dense fifth body of vzpominam remains compatible with G15=m. Nonblind AI source check, not independent human authentication.",
+  "prepublication_corrections": [
+    {
+      "record": "LEFT L1W2",
+      "previous_classes": "G06 G07 G08_N01",
+      "current_classes": "G06 G07 G08_N02",
+      "reason": "Open lower hook matches G08_N02=z; closed returned loop of G08_N01=k is absent. Identified by separate source reviewer and root pixel comparison; no language repair applied."
+    },
+    {
+      "record": "LEFT L4W5",
+      "previous_classes": "G15 G11 G19 G07",
+      "current_classes": "G14 G11 G19 G07",
+      "reason": "Two full shoulders match G14=n, not single-shoulder G15=m. Identified by separate source reviewer and root pixel comparison; no language repair applied."
+    },
+    {
+      "record": "LEFT L4W7",
+      "previous_classes": "G06 G11 G15 G12",
+      "current_classes": "G06 G12 G15 G12",
+      "reason": "Second body is 2-shaped G12=u, matching final u, not G11=o. Identified by separate source reviewer and root pixel comparison; no language repair applied."
+    },
+    {
+      "record": "LEFT L1W2",
+      "previous_context_bbox_xyxy": [
+        207,
+        195,
+        285,
+        290
+      ],
+      "current_context_bbox_xyxy": [
+        207,
+        195,
+        285,
+        305
+      ],
+      "reason": "Retain separate following comma. Initial coordinates retained per CSV row; classes unchanged."
+    },
+    {
+      "record": "LEFT L1W3",
+      "previous_context_bbox_xyxy": [
+        207,
+        285,
+        285,
+        485
+      ],
+      "current_context_bbox_xyxy": [
+        190,
+        285,
+        285,
+        485
+      ],
+      "reason": "Retain lower returned loop of k. Initial coordinates retained per CSV row; classes unchanged."
+    },
+    {
+      "record": "LEFT L2W3",
+      "previous_context_bbox_xyxy": [
+        147,
+        315,
+        232,
+        495
+      ],
+      "current_context_bbox_xyxy": [
+        147,
+        315,
+        232,
+        515
+      ],
+      "reason": "Retain separate following exclamation stroke. Initial coordinates retained per CSV row; classes unchanged."
+    },
+    {
+      "record": "LEFT L3W4",
+      "previous_context_bbox_xyxy": [
+        100,
+        325,
+        178,
+        490
+      ],
+      "current_context_bbox_xyxy": [
+        100,
+        310,
+        178,
+        490
+      ],
+      "reason": "Retain initial v entrance. Initial coordinates retained per CSV row; classes unchanged."
+    },
+    {
+      "record": "BOTTOM L1W4",
+      "previous_context_bbox_xyxy": [
+        1270,
+        945,
+        1520,
+        1025
+      ],
+      "current_context_bbox_xyxy": [
+        1270,
+        945,
+        1585,
+        1025
+      ],
+      "reason": "Retain final e, outside initial context. Initial coordinates retained per CSV row; classes unchanged."
+    },
+    {
+      "record": "BOTTOM L2W4",
+      "previous_context_bbox_xyxy": [
+        1230,
+        1000,
+        1705,
+        1085
+      ],
+      "current_context_bbox_xyxy": [
+        1230,
+        1000,
+        1705,
+        1100
+      ],
+      "reason": "Retain lower k loop. Initial coordinates retained per CSV row; classes unchanged."
+    },
+    {
+      "record": "BOTTOM L3W3",
+      "previous_context_bbox_xyxy": [
+        1210,
+        1050,
+        1430,
+        1130
+      ],
+      "current_context_bbox_xyxy": [
+        1210,
+        1050,
+        1455,
+        1130
+      ],
+      "reason": "Retain separate final point. Initial coordinates retained per CSV row; classes unchanged."
+    }
+  ],
+  "source_notes": [
+    "LEFT L5W1 fifth body was questioned as n due to dense entrance ink; targeted comparison remains compatible with one-shoulder G15=m. Final m confirmed. No language-based replacement introduced."
+  ]
+}
