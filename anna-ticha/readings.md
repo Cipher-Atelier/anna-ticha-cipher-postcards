@@ -53,6 +53,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 314: a letter for tomorrow and concern for the recipient](card-314.md): partial eleven-line block; 253 proposed mapped bodies, 55 contextual groups and an unresolved overwritten cluster. Written date 24 June 1901; known-letter editorial repairs are explicit.
 
+- [Card 322: a Sunday journey home and a Monday return](card-322.md): preliminary nine-line main block and oblique left inscription; 195 proposed mapped bodies, 196 letters and 41 contextual groups. Written date 6 February 1901; editorial spelling repairs and punctuation limits disclosed.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)

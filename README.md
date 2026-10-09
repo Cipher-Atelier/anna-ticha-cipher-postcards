@@ -28,6 +28,8 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 [Card 314: a letter for tomorrow and concern for the recipient](anna-ticha/card-314.md): a partial eleven-line reading with 253 proposed mapped bodies and an unresolved overwritten cluster. Literal defects and editorial repairs remain separate.
 
+[Card 322: a Sunday journey home and a Monday return](anna-ticha/card-322.md): preliminary main and left-region readings; 195 proposed mapped bodies emit 196 letters. Source spelling and editorial repairs remain separate.
+
 [9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
 
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
