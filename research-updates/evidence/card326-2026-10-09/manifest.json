@@ -1,0 +1,130 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4995/pc_hcp_326_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1645",
+  "source_sha256": "9bc2b74f059fbbe993bc1e4ec1ed9ed6dd78aff05d8fed5cfb3fae6091465cb1",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "d7026ce9b065157955a9bfea0bb2b6fcb32e8425",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "word_groups": 34,
+  "invariant_mapped_bodies": 132,
+  "emitted_invariant_letters": 135,
+  "observed_invariant_classes": 22,
+  "capped_ch_bodies": 3,
+  "ambiguous_bodies": [
+    {
+      "id": "A1",
+      "record": "L2W5",
+      "body_count": 1,
+      "alternatives": [
+        "G08_N01",
+        "G08_N02"
+      ],
+      "rendered_literal": "[k/z]",
+      "status": "Upper loop visible; distinguishing lower return blends into printed background. No invariant class or key value."
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "U1",
+      "record": "L3W5 after ka",
+      "status": "Dense overwritten whole-form cluster; segmentation/class unresolved, no accepted body count."
+    }
+  ],
+  "punctuation": [
+    {
+      "line": 1,
+      "after_word": 5,
+      "literal": ","
+    },
+    {
+      "line": 1,
+      "after_word": 7,
+      "literal": "!"
+    },
+    {
+      "line": 1,
+      "after_word": 12,
+      "literal": "."
+    },
+    {
+      "line": 2,
+      "after_word": 13,
+      "literal": "."
+    },
+    {
+      "line": 3,
+      "after_word": 5,
+      "literal": "?"
+    },
+    {
+      "line": 3,
+      "after_word": 9,
+      "literal": "?"
+    }
+  ],
+  "border_order": [
+    {
+      "line": 1,
+      "location": "top",
+      "orientation": "NONE"
+    },
+    {
+      "line": 2,
+      "location": "right",
+      "orientation": "CCW90"
+    },
+    {
+      "line": 3,
+      "location": "left",
+      "orientation": "CCW90"
+    }
+  ],
+  "order_scope": "Display order top/right/left; top-to-right is linguistically coherent, left is a separate question strip. Does not establish inscription order.",
+  "date": {
+    "catalogue_date": "1900-09-22",
+    "picture_side_written_date": null,
+    "scope": "Catalogue date only; no ordinary written date accepted. Address face and postal date not examined."
+  },
+  "method": "Manual source-to-atlas comparison with existing key, emerging language and catalogue visible. Nonblind proposals; no secondary transformation.",
+  "review": "Separately tasked Codex (GPT-6-astra) compared all 34 source contexts, border strips, punctuation, capped ch and t allographs. Source corrections and one-body k/z alternative recorded, U1 retained without segmentation/count. Thirteen contexts revised and checked for retained ink. Nonblind AI source review, not independent human authentication.",
+  "prepublication_corrections": [
+    {
+      "record": "L1W6",
+      "previous_classes": "G09 G14 G06 G12 G04 G08_N01 G11",
+      "current_classes": "G09 G14 G12 G13 G08_N01 G11",
+      "reason": "Six visible bodies: plain curved u and open-arc s, no separate crossed-stem d or stacked-lobe l. Source correction, not a language repair."
+    },
+    {
+      "record": "L2W5",
+      "previous_classes": "G08_N01",
+      "current_classes": "A1",
+      "reason": "Lower k/z distinguishing contour blends into printed illustration. Retain one-body ambiguity instead of choosing by syntax."
+    },
+    {
+      "record": "L2W13",
+      "previous_classes": "G20 G11 G12 G13",
+      "current_classes": "G20 G11 G12 G19",
+      "reason": "Closed pointed oval supports leaf-shaped G19=c, rather than right-open G13=s. Source correction, not a language repair."
+    }
+  ],
+  "context_box_qa": {
+    "revised_contexts": 13,
+    "details": "All nine left contexts redefined after initial boxes drifted below the targets; top L1W6 and right L2W1/W3/W5 extended to retain contours over the printed image.",
+    "history": "Initial and current coordinates retained in CSV. Only context coordinates imported from review candidate; its stale class/text fields were not imported. Contexts may contain neighbors, not isolated glyph segmentations."
+  },
+  "limits": [
+    "Invariant totals exclude A1 and unresolved U1; no complete body/mark inventory or accuracy measure.",
+    "anusko and final c in pe pouc are source-class corrections, not silent editorial repairs.",
+    "oped retained under existing key; fluent opět requires accepted d to t substitution.",
+    "Kamenici, k in the ambiguous clause and Pepouš are editorial possibilities, not additional invariant source assignments.",
+    "Source images/crops not redistributed. Only public digital materials used, no archive/library inquiry."
+  ],
+  "literal_sha256": "5156dbffc4018fc9233a72db2f86767d0ed980f1eaf3418f977bff9e295089d8",
+  "ledger_sha256": "1fac48a4ddecba7398e4cd031d53c43154c84de89ee78c37ee2fcdc99ec21d92"
+}
