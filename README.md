@@ -20,6 +20,8 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 [Card 319: thanks and a promised reply](anna-ticha/card-319.md): a preliminary ten-line reading with 150 mapped bodies and a retained faded cluster. The ledger, source fingerprints and limits are public.
 
+[Card 315: arrival in Prague and taking up service](anna-ticha/card-315.md): a preliminary six-line reading, with a source ledger and written date 8 June 1901. The kind of service remains unidentified.
+
 [9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
 
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.

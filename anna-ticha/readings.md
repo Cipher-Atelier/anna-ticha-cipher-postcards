@@ -45,6 +45,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 319: thanks and a promised reply](card-319.md): preliminary ten-line block reading; 150 proposed mapped bodies and one unresolved faded cluster, with a public source ledger. No whole-block body count or accuracy claim.
 
+- [Card 315: arrival in Prague and taking up service](card-315.md): preliminary six-line block; 193 proposed mapped bodies in 42 word groups. Written date 8 June 1901; occupation and kind of service are not established.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)
