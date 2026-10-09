@@ -57,6 +57,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 324: a day at the office and an uncertain journey home](card-324.md): preliminary five-line rotated left strip and three-line bottom block; 166 proposed mapped bodies in 37 contextual groups. Written date 19 December 1900; literal irregularities and editorial repairs separated.
 
+- [Card 325: a postal-office visit and a conditional journey to Ústí](card-325.md): preliminary five-line block; 283 proposed mapped bodies in 54 contextual groups and two unresolved overwritten clusters. Written date 20 October 1900; relative travel plan remains conditional.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)
