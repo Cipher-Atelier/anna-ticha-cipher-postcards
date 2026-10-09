@@ -16,6 +16,10 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 ## Start reading
 
+[Card 318: preliminary May Day greeting](anna-ticha/card-318.md): an unchanged-key reading of the 96-body main block, with a word ledger and explicit single-reader limits. Marginal text remains open.
+
+[Card 319: thanks and a promised reply](anna-ticha/card-319.md): a preliminary ten-line reading with 150 mapped bodies and a retained faded cluster. The ledger, source fingerprints and limits are public.
+
 [9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
 
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
