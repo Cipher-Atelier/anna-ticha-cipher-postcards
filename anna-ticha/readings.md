@@ -39,6 +39,10 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 248: thanks, a ball invitation and an incomplete affectionate message](card-248.md): 514 mapped and 17 unknown among 531 fixed active-body records, plus 24 mapped conditionally active bodies and 15 unknown-count spans. Sixteen rows in three unordered bands; no finite whole-card glyph total, complete-plaintext or accuracy claim.
 
+## Preliminary reading recorded on 9 October 2026
+
+- [Card 318: a May Day greeting](card-318.md): 96 proposed mapped bodies in the four-line main block, with a public word ledger and input fingerprints. Single-reader source comparison; marginal text and a complete mark inventory remain outside the result.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)

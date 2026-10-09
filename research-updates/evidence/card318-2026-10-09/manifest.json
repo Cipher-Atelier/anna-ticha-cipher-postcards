@@ -1,0 +1,44 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4971/pc_hcp_318_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1637",
+  "source_sha256": "ad2a5267d2038072fb2d0306d12393616a79239937879d0691bcde2ce76c147e",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "985167d8a5bf20cf6c74f3b58c32396929fcbd35",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "region_source_bbox_xyxy": [
+    5,
+    470,
+    205,
+    1100
+  ],
+  "region_orientation": "CCW90",
+  "words": 17,
+  "mapped_bodies": 96,
+  "distinct_classes": 19,
+  "literal_sha256": "0f94fa73cf0164b238947cb43a5aa020a21e5af59b1c3bd7354ca00d50ff2a6c",
+  "ledger_sha256": "f55058a0562cfbeea9bce21d0f0d1d9e98e6ce842249040075311fa1e15bb41d",
+  "method": "Single AI reader, manual visual comparison to previously published atlas; key and emerging plaintext visible throughout; no blind or independent source review; no key changes.",
+  "limits": [
+    "Only the four-line main block is transcribed.",
+    "Word boxes are contextual, not isolated full glyph boundaries.",
+    "No claim of complete postcard, historical priority, verified accuracy or writer identity.",
+    "Source JPEG and crops are not redistributed."
+  ],
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "pre_commit_corrections": [
+    {
+      "record": "A L3 word2, first body",
+      "previous_class": "G18",
+      "current_class": "H440_N01_UNBARRED_LEFT_BOWL",
+      "reason": "Source comparison by separately tasked GPT-6-astra reviewer: no visible top horizontal bar; matches the already published unbarred-t class.",
+      "literal_changed": false,
+      "previous_ledger_sha256": "3e84af4606420a3606239097afeaea46044a7b36237bab72596af44df926d4b3"
+    }
+  ],
+  "review": "Separately tasked Codex reviewer (GPT-6-astra), with source, key, ledger and proposed text visible; not blind or independent human palaeography."
+}
