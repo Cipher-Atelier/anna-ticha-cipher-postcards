@@ -1,0 +1,122 @@
+{
+  "source_url": "https://api.hcportal.eu/media/5001/pc_hcp_328_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1647",
+  "source_sha256": "5f011bb3614825c7181c614235b1df1687f56e5a79a8cd197a897f78077595b5",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "1174860efc2a0a1a8be5a2b5728c12c9ddd092eb",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "word_groups": 53,
+  "invariant_mapped_bodies": 240,
+  "emitted_invariant_letters": 243,
+  "observed_invariant_classes": 22,
+  "capped_ch_bodies": 3,
+  "unknowns": [
+    {
+      "id": "U1",
+      "record": "L3W6 after lis",
+      "status": "Dense overwritten cluster; no accepted segmentation, class or body count."
+    },
+    {
+      "id": "U2",
+      "record": "L5W1 after navs",
+      "status": "Dense overwritten cluster; no accepted segmentation, class or body count."
+    },
+    {
+      "id": "U3",
+      "record": "L7W4 after prije",
+      "status": "Dense overwritten cluster; no accepted segmentation, class or body count. A d fill would give prijedu; do would give prijedou. Subject not established."
+    },
+    {
+      "id": "U4",
+      "record": "L11W6",
+      "status": "Ornate terminal form; no accepted class, script, function, segmentation or body count. No initials assigned."
+    }
+  ],
+  "punctuation": [
+    {
+      "line": 2,
+      "after_word": 1,
+      "literal": "."
+    },
+    {
+      "line": 3,
+      "after_word": 6,
+      "literal": "?"
+    },
+    {
+      "line": 4,
+      "after_word": 4,
+      "literal": "."
+    },
+    {
+      "line": 6,
+      "after_word": 1,
+      "literal": "."
+    },
+    {
+      "line": 7,
+      "after_word": 4,
+      "literal": "."
+    },
+    {
+      "line": 9,
+      "after_word": 1,
+      "literal": "?"
+    },
+    {
+      "line": 11,
+      "after_word": 6,
+      "literal": "."
+    }
+  ],
+  "layout": {
+    "display_lines": 11,
+    "orientation": "NONE",
+    "scope": "Left/bottom block in contextual reading order; groups are not isolated glyph segmentations. zdrzisse and libatvuj kept joined."
+  },
+  "ordinary_inscription": {
+    "source_bbox_xyxy": [
+      1060,
+      50,
+      1290,
+      135
+    ],
+    "proposed_reading": "30./V.1900",
+    "catalogue_date": "1900-05-30",
+    "scope": "Proposed written date, not checked postal date. Address face not examined."
+  },
+  "printed_greeting": {
+    "text": "Šťastné svátky!",
+    "scope": "Printed illustration text outside the cipher ledger; no particular holiday inferred."
+  },
+  "method": "Manual source-to-atlas comparison with existing key, emerging language and catalogue visible. Nonblind proposals; no secondary transformation.",
+  "review": "Separately tasked Codex (GPT-6-astra) compared all 53 contexts, full source, punctuation, date, three capped ch bodies and t forms. One class corrected; three context frames extended. U1–U4 unresolved. Nonblind AI source check, not independent human authentication.",
+  "prepublication_corrections": [
+    {
+      "record": "L1W5",
+      "previous_classes": "G04 G07 G13 H440_N01_UNBARRED_LEFT_BOWL G03 G08_N01",
+      "current_classes": "G04 G05 G13 H440_N01_UNBARRED_LEFT_BOWL G03 G08_N01",
+      "reason": "Second body has plain oblique stem and lower foot, without G07 angle/crossbar. Source correction to lystek, not linguistic normalization."
+    }
+  ],
+  "context_box_qa": {
+    "revised_from_initial_contexts": 3,
+    "details": "L2W3 y1 670→690 retains v descender; L3W6 y1 735→755 retains k return; L11W4 x0 365→345 retains left t bowl. All 53 contexts reviewed.",
+    "history": "Initial/current coordinates retained. Only bbox imported from reviewer CSV; stale classes/text not imported."
+  },
+  "limits": [
+    "Totals exclude all four unresolved clusters; no finite whole-card body inventory or accuracy measure.",
+    "lystek, svakrem and odjely retained literally. Fluent forms require explicit accepted-letter changes y→i, k→g and y→i respectively; no key extension.",
+    "U1/U2 t fills and U3 d/do fills remain linguistic possibilities, not accepted source assignments. U3 subject and U4 identity/function unresolved.",
+    "Place names, visit, travel and receipt are interpreted statements/questions in the message, not independently verified events. No specific relationship type within brother-in-law is established.",
+    "Source watermark preserved during inspection. Images/crops not redistributed. Public digital materials only; no archive/library inquiry."
+  ],
+  "literal_sha256": "a1e42e0cc8c56348305cf56c398e8b25660e0871a8907cc7f0c6a07fff423f2a",
+  "ledger_sha256": "c07603a2962a41d3f2053ab3a727ad9c31128621f6ebb453aee6b611ca7bbcad"
+}
