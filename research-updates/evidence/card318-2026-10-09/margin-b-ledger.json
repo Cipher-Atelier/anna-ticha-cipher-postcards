@@ -1,0 +1,138 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4971/pc_hcp_318_pic.JPG",
+  "source_sha256": "ad2a5267d2038072fb2d0306d12393616a79239937879d0691bcde2ce76c147e",
+  "source_region_bbox_xyxy": [
+    770,
+    45,
+    1410,
+    105
+  ],
+  "orientation": "ROTATE_180",
+  "bbox_kind": "context; not complete isolated glyph segmentation",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "groups": [
+    {
+      "group": 1,
+      "source_bbox_xyxy": [
+        1305,
+        45,
+        1400,
+        105
+      ],
+      "units": [
+        "G06",
+        "G11",
+        "G13",
+        "G03",
+        "G04"
+      ]
+    },
+    {
+      "group": 2,
+      "source_bbox_xyxy": [
+        1212,
+        45,
+        1285,
+        105
+      ],
+      "units": [
+        "G15",
+        "G12",
+        "G21"
+      ]
+    },
+    {
+      "group": 3,
+      "source_bbox_xyxy": [
+        1045,
+        45,
+        1180,
+        105
+      ],
+      "units": [
+        "G04",
+        {
+          "id": "B.G3.U2",
+          "candidates": [
+            "G07",
+            "G05"
+          ],
+          "review_preference": "G07",
+          "status": "alternative retained"
+        },
+        "G13",
+        "G04",
+        "G03",
+        {
+          "id": "B.G3.final_cluster",
+          "status": "unresolved",
+          "one_body_candidate": "G08_N01",
+          "alternative": "overlapping/overwritten compound; two bodies not excluded; no class sequence accepted",
+          "body_count": "not established"
+        }
+      ]
+    },
+    {
+      "group": 4,
+      "source_bbox_xyxy": [
+        990,
+        45,
+        1020,
+        105
+      ],
+      "units": [
+        "G08_N02"
+      ]
+    },
+    {
+      "group": 5,
+      "source_bbox_xyxy": [
+        815,
+        45,
+        965,
+        105
+      ],
+      "units": [
+        "G14",
+        "G03",
+        "G06",
+        "G03",
+        "G04",
+        "G03"
+      ]
+    }
+  ],
+  "separate_marks": [
+    {
+      "id": "B.terminal_mark",
+      "source_bbox_xyxy": [
+        775,
+        45,
+        805,
+        105
+      ],
+      "reading": "question-mark-like punctuation",
+      "status": "recorded separately; not included in cipher-body lookup"
+    }
+  ],
+  "invariant_mapped_bodies": 19,
+  "unresolved_class_choice_bodies": 1,
+  "unresolved_clusters": 1,
+  "whole_strip_body_count": "not established",
+  "rejected_repairs": [
+    {
+      "record": "B.G3.U4",
+      "retained_class": "G04",
+      "rejected_class_for_fluency": "G18",
+      "reason": "Two stacked bowls; neither upper bar of G18 nor single-stem/single-left-bowl profile of published unbarred-t class."
+    }
+  ],
+  "method": "Exploratory comparison by initial Codex reader and separately tasked GPT-6-astra reviewer; key and main-card context visible; not blind; no class assignments frozen before image exposure.",
+  "limits": [
+    "Initial reader considered G05/G07 and G04/G18 for group3. Later source review favors G07 and G04; G05/G07 disagreement is retained.",
+    "G08_N01 is conditional on an unproved one-body partition and is not accepted as the final value.",
+    "A proposed fluent listek would require a resolved-letter l-to-t substitution and an unresolved-cluster expansion; it is not decoded plaintext.",
+    "No complete marginal transcription, whole-card coverage or historical accuracy claim."
+  ]
+}

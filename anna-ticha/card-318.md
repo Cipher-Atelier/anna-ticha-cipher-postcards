@@ -6,7 +6,7 @@ Research recorded on 9 October 2026. Initial source comparison, transcription, t
 
 ## Scope and literal
 
-The four-line main block on [HCPortal record 1637, pc_hcp_318](https://crypto.hcportal.eu/dashboard/cryptograms/1637) gives a connected Czech greeting under the unchanged key. The proposed transcription contains 96 mapped bodies in 17 words, exercising 19 existing classes. These counts describe accepted assignments in this selected block, not historical accuracy or whole-card coverage. Additional cipher text on the margins is outside this edition.
+The four-line main block on [HCPortal record 1637, pc_hcp_318](https://crypto.hcportal.eu/dashboard/cryptograms/1637) gives a connected Czech greeting under the unchanged key. The proposed transcription contains 96 mapped bodies in 17 words, exercising 19 existing classes. These counts describe accepted assignments in this selected block, not historical accuracy or whole-card coverage. The later strip-B follow-up below records part of the marginal text separately; other margins remain outside this edition.
 
 ```text
 v den prvniho maje srdecny
@@ -48,3 +48,23 @@ The initial AI reader saw the key and emerging language throughout. This is not 
 No heldout accuracy, independent source truth, complete mark inventory, full-card transcription or worldwide priority is claimed. A bounded search found no card318 reading page or explicit card318 reference in the public repository at the recorded input commit; private and earlier external readings are not excluded.
 
 The next useful step is an independent source comparison of these 96 bodies and a separately recorded transcription of the marginal text, preserving overwritten signs and alternatives. Publicly available digital sources suffice for that attempt; no library or archive inquiry was made.
+
+## Follow-up: marginal strip B
+
+A later source comparison on the same day examined the strip at original coordinates `[770,45,1410,105]`, rotated 180 degrees. It does not change the four-line main-block literal above. The separately tasked AI reviewer compared the graphical forms with the atlas, without being asked to complete a fluent sentence; both readers had already seen the key and the card's main-block context. This was exploratory, not a preregistered or blind experiment.
+
+The [strip B source ledger](../research-updates/evidence/card318-2026-10-09/margin-b-ledger.json) records five word groups and a separately recorded question-mark-like terminal mark. Its [partial literal](../research-updates/evidence/card318-2026-10-09/margin-b-literal.txt) is:
+
+```text
+dosel muj l[i/y]sle[UNRESOLVED_CLUSTER] z nedele [QUESTION_LIKE_MARK]
+```
+
+The bracketed labels describe observations and alternatives; they are not literal encrypted words or established body counts. Nineteen source bodies have invariant proposed class assignments. One additional body retains the class choice G07/G05 (`i/y`), with G07 favored by the later comparison. The final group-3 ink cluster remains unresolved, including whether it contains one body or overlapping/overwritten bodies. There is no established total body count for the strip or the whole card.
+
+The stable outer groups give `dosel muj` and `z nedele`, suggesting “Did my [unresolved word] from Sunday arrive?” The middle word must not silently become `listek` (with editorial accent, *lístek*, a card or note):
+
+- The fourth body has two stacked bowls and is retained as G04 = `l`. Replacing it with G18 = `t` for fluency is unsupported by the source. The alternative unbarred-t class has a different, single-stem/left-bowl profile.
+- The second body has a short upper cross-stroke/cup and foot, favoring G07 over the simpler oblique G05. The initial reader's G05/G07 alternative remains visible rather than being erased.
+- The final heavy cluster has a lower returned contour compatible with G08_N01 = `k` **if** it is one body. A compound or overwritten two-body interpretation cannot be excluded, and no two-class sequence is accepted. The `k` is therefore a conditional candidate, not an established letter.
+
+Thus *došel můj lístek z neděle?* is a linguistic conjecture requiring a resolved-letter `l`→`t` substitution and an unresolved-cluster expansion. It is not the fixed-key output. The negative result rejects that silent repair, not every explanation of the writer's marks. Remaining margins and their reading order have not been transcribed completely. The address face was subsequently opened, but its postal date was not resolved or used to establish the catalogue year.
