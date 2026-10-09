@@ -32,6 +32,8 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 [Card 324: a day at the office and an uncertain journey home](anna-ticha/card-324.md): preliminary two-region reading, with 166 proposed mapped bodies and explicit editorial repairs. Written date 19 December 1900.
 
+[Card 325: a postal-office visit and a conditional journey to Ústí](anna-ticha/card-325.md): preliminary five-line reading; 283 proposed mapped bodies and two unresolved overwritten clusters. Written date 20 October 1900; editorial repairs and procedural uncertainty disclosed.
+
 [9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
 
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
