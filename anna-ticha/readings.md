@@ -47,6 +47,12 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 316: going home and an affectionate message](card-316.md): partial lower block and separate note; 102 invariant proposed mapped bodies, two y/i alternatives and an unresolved closing. Written day/month 17 May, year not source-confirmed.
 
+- [Card 320: Easter wishes and a letter after the holidays](card-320.md): preliminary ten-line block reading; 200 proposed mapped bodies emit 203 letters, with a public word ledger. No historical accuracy claim.
+
+- [Card 315: arrival in Prague and taking up service](card-315.md): preliminary six-line block; 193 proposed mapped bodies in 42 word groups. Written date 8 June 1901; occupation and kind of service are not established.
+
+- [Card 314: a letter for tomorrow and concern for the recipient](card-314.md): partial eleven-line block; 253 proposed mapped bodies, 55 contextual groups and an unresolved overwritten cluster. Written date 24 June 1901; known-letter editorial repairs are explicit.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)
