@@ -59,6 +59,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 325: a postal-office visit and a conditional journey to Ústí](card-325.md): preliminary five-line block; 283 proposed mapped bodies in 54 contextual groups and two unresolved overwritten clusters. Written date 20 October 1900; relative travel plan remains conditional.
 
+- [Card 326: thanks, a promised letter and a question about former accommodation](card-326.md): preliminary top, right and left border strips; 132 invariant proposed mapped bodies emit 135 letters, plus one k/z-ambiguous body in 34 contextual groups, with one unresolved overwritten cluster. Catalogue date 22 September 1900; no written date accepted.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)
