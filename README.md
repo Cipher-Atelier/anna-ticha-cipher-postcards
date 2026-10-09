@@ -16,6 +16,8 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 ## Start reading
 
+[9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
+
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
 2. Open [Card 199: literal reading](verification/anna-ticha/literal.txt) to inspect the saved text or test result itself.
 3. Read the [research account](anna-ticha/article.md) for historical context, methods, earlier work and unresolved questions.
