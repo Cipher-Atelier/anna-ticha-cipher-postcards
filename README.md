@@ -36,6 +36,8 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 [Card 326: thanks, a promised letter and a question about former accommodation](anna-ticha/card-326.md): preliminary three-border reading; 132 invariant proposed mapped bodies emit 135 letters, plus one k/z-ambiguous body, with one unresolved overwritten cluster. Catalogue date 22 September 1900; locality completion and spelling repair remain editorial proposals.
 
+[Card 327: a gift, a likeness and a question about a possible premonition](anna-ticha/card-327.md): preliminary bottom/right reading; 266 invariant proposed mapped bodies emit 268 letters, with one k/z-ambiguous body and three unresolved overwritten clusters. Written date 11 September 1900; editorial changes and conditional interpretations disclosed.
+
 [9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
 
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.

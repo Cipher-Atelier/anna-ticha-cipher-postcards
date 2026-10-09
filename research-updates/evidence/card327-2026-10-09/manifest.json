@@ -1,0 +1,165 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4998/pc_hcp_327_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1646",
+  "source_sha256": "323d742b1379e10c5c8a0bfbda0da2d90c701dfee64b66a99cb0b49464f5b09e",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "4db34875b43b67e35373f12753ced07814f2d1a2",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "word_groups": 56,
+  "invariant_mapped_bodies": 266,
+  "emitted_invariant_letters": 268,
+  "observed_invariant_classes": 22,
+  "capped_ch_bodies": 2,
+  "ambiguous_bodies": [
+    {
+      "id": "A1",
+      "record": "L4W11 third body",
+      "body_count": 1,
+      "alternatives": [
+        "G08_N01",
+        "G08_N02"
+      ],
+      "rendered_literal": "[k/z]",
+      "status": "Upper loop and descender visible; distinguishing lower contour enters U3 on the next row. No invariant class/key value."
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "U1",
+      "record": "L2W7 after bla",
+      "status": "Dense overwritten whole-form cluster; segmentation/class unresolved, no accepted body count."
+    },
+    {
+      "id": "U2",
+      "record": "L3W14 after pre",
+      "status": "Dense overwritten whole-form cluster; segmentation/class unresolved, no accepted body count."
+    },
+    {
+      "id": "U3",
+      "record": "L5W7 after nescislnekra",
+      "status": "Dense overwritten whole-form cluster; segmentation/class unresolved, no accepted body count."
+    }
+  ],
+  "punctuation": [
+    {
+      "line": 1,
+      "after_word": 5,
+      "literal": "!"
+    },
+    {
+      "line": 1,
+      "after_word": 8,
+      "literal": ","
+    },
+    {
+      "line": 1,
+      "after_word": 10,
+      "literal": ","
+    },
+    {
+      "line": 2,
+      "after_word": 8,
+      "literal": "."
+    },
+    {
+      "line": 2,
+      "after_word": 12,
+      "literal": "."
+    },
+    {
+      "line": 3,
+      "after_word": 4,
+      "literal": ","
+    },
+    {
+      "line": 3,
+      "after_word": 9,
+      "literal": "? —"
+    },
+    {
+      "line": 3,
+      "after_word": 14,
+      "literal": "?"
+    },
+    {
+      "line": 4,
+      "after_word": 6,
+      "literal": "."
+    },
+    {
+      "line": 5,
+      "after_word": 2,
+      "literal": ","
+    },
+    {
+      "line": 5,
+      "after_word": 8,
+      "literal": "."
+    }
+  ],
+  "layout": {
+    "lines_1_3": "Bottom block, NONE. L3W14 lies below its neighbors but is joined to logical display line3.",
+    "lines_4_5": "Inner then outer right-border rows, CW90. L5W8 signing form is written below the outer row and joined to logical display line5.",
+    "scope": "Context/display order only, not five uniform baselines or established inscription order.",
+    "nonkey_marks": "Curved arrow and decorative strokes at lower right; separately observed, outside the letter/body inventory."
+  },
+  "ordinary_inscription": {
+    "source_bbox_xyxy": [
+      480,
+      48,
+      740,
+      95
+    ],
+    "proposed_reading": "11./IX.1900",
+    "catalogue_date": "1900-09-11",
+    "scope": "Proposed written date, not postal date verification. Address face not examined."
+  },
+  "method": "Manual source-to-atlas comparison with existing key, emerging language and catalogue visible. Nonblind proposals; no secondary transformation.",
+  "review": "Separately tasked Codex (GPT-6-astra) compared all 56 current source contexts, full bottom/right strips, punctuation, written date, capped ch and t allographs. tebe corrected and one proposed k changed to explicit k/z alternative. Three overwritten clusters retained without accepted segmentation/count. All contexts reviewed; seven final extensions checked. Nonblind AI source check, not independent human authentication.",
+  "prepublication_corrections": [
+    {
+      "record": "L4W6",
+      "previous_classes": "H440_N01_UNBARRED_LEFT_BOWL G03 G17 G09",
+      "current_classes": "H440_N01_UNBARRED_LEFT_BOWL G03 G17 G03",
+      "reason": "Last body has short upper bar/bend and lower bowl, matching G03=e rather than G09=a. Source correction, not a language repair."
+    },
+    {
+      "record": "L4W11",
+      "previous_classes": "G02 G11 G08_N01 G12",
+      "current_classes": "G02 G11 A1 G12",
+      "reason": "Lower distinguishing k/z contour enters dense U3 below; retain ambiguity rather than choose by language."
+    }
+  ],
+  "removed_duplicate_draft_record": {
+    "initial_record": "L2W13",
+    "initial_classes": "G01",
+    "initial_literal": "v",
+    "initial_context_bbox_xyxy": [
+      1530,
+      980,
+      1605,
+      1055
+    ],
+    "status": "Not an additional source body. The same final v was already assigned within L2W12 nejdrive; full-row comparison removed this duplicated draft record. Final L2W12 context contains the entire group, including ve."
+  },
+  "context_box_qa": {
+    "revised_from_initial_contexts": 56,
+    "details": "Initial horizontal positions and side-strip contexts were revised against source/ruler views before separate review. Five top-row contexts then extended to y1030, L4W11 to x1690 and signing context L5W8 to [1660,230,1720,380].",
+    "history": "Initial/current coordinates retained in all 56 CSV rows. Only context coordinates imported from reviewer candidate; stale class/text fields not imported. Contexts include neighbors/other rows, not isolated glyph segmentations."
+  },
+  "limits": [
+    "Invariant totals exclude A1 and unresolved U1/U2/U3; no finite whole-card body count or accuracy measure.",
+    "rozlomilou, spusobila, spravu and slatka retained under existing key; fluent renderings require explicit known-letter changes.",
+    "Unknown h/d/t fills and k selection are linguistic possibilities, not invariant source assignments.",
+    "The possible new-year phrase is conditional on k; occasion and identity are not established. No arrival, birthday or calendar celebration is verified.",
+    "Source watermark preserved during inspection. Images/crops not redistributed. Only public digital materials used, no archive/library inquiry."
+  ],
+  "literal_sha256": "b03ae02bcaac453e21c0c7eea07af2ecb1ed9eee58bd0470fe5664b8098d9280",
+  "ledger_sha256": "bf2f631f36999302661aa6744aa0cb158d78bec61ca16136e33ea7e8b577672d"
+}

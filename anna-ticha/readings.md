@@ -61,6 +61,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 326: thanks, a promised letter and a question about former accommodation](card-326.md): preliminary top, right and left border strips; 132 invariant proposed mapped bodies emit 135 letters, plus one k/z-ambiguous body in 34 contextual groups, with one unresolved overwritten cluster. Catalogue date 22 September 1900; no written date accepted.
 
+- [Card 327: a gift, a likeness and a question about a possible premonition](card-327.md): preliminary three-line bottom block and two right-border rows with a lower signing form; 266 invariant proposed mapped bodies emit 268 letters in 56 contextual groups, plus one k/z-ambiguous body and three unresolved clusters. Written date 11 September 1900.
+
 ## Original study and saved snapshot
 
 - [What the messages say](article.md#what-the-messages-say)
