@@ -41,7 +41,9 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 ## Preliminary reading recorded on 9 October 2026
 
-- [Card 318: a May Day greeting](card-318.md): 96 proposed mapped bodies in the four-line main block, with a public word ledger and input fingerprints. Single-reader source comparison; marginal text and a complete mark inventory remain outside the result.
+- [Card 318: a May Day greeting](card-318.md): 96 proposed mapped bodies in the four-line main block, with a public word ledger and input fingerprints. Later marginal readings preserve faint alternatives and overwritten clusters; no complete card or mark inventory.
+
+- [Card 319: thanks and a promised reply](card-319.md): preliminary ten-line block reading; 150 proposed mapped bodies and one unresolved faded cluster, with a public source ledger. No whole-block body count or accuracy claim.
 
 ## Original study and saved snapshot
 

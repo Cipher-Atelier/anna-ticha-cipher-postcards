@@ -1,0 +1,73 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4974/pc_hcp_319_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1638",
+  "source_sha256": "5c8d1d295fa2e9df8fc989d03343917a76313335917932d551852cb72abee00a",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "985167d8a5bf20cf6c74f3b58c32396929fcbd35",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "source_block_bbox_xyxy": [
+    1160,
+    480,
+    1745,
+    1065
+  ],
+  "bbox_kind": "padded source contexts, may include neighbors/other rows; not isolated glyph segmentation",
+  "word_groups": 31,
+  "mapped_bodies": 150,
+  "emitted_nonunknown_letters": 152,
+  "observed_classes": 22,
+  "unknowns": [
+    {
+      "id": "U1",
+      "record": "L7 word1 opening cluster",
+      "source_bbox_xyxy": [
+        1190,
+        815,
+        1260,
+        875
+      ],
+      "status": "faded leading cluster; no class or body count accepted",
+      "conditional_candidate": "G15 -> m if treated as one body",
+      "literal": "[U1]"
+    }
+  ],
+  "whole_block_body_count": "not established because U1 segmentation remains unresolved",
+  "punctuation": {
+    "L1": "comma after drahy",
+    "L3": "dot after dik",
+    "L4": "dot after lepe",
+    "L6": "dot after zpravu, comma after vrelou, terminal hyphen",
+    "L7": "underline under dlouhou; terminal comma",
+    "L8": "terminal comma",
+    "L9": "terminal hyphen",
+    "L10": "terminal dot"
+  },
+  "ordinary_inscription": {
+    "source_bbox_xyxy": [
+      1530,
+      1045,
+      1720,
+      1130
+    ],
+    "proposed_reading": "16./IV.1901",
+    "interpretation": "16 April 1901; written date, not an independently checked postal date",
+    "catalogue_date": "1901-04-16"
+  },
+  "literal_sha256": "07998f0575498554733117508f1ca5b2e4a75de70e5ea0613df1c53693960373",
+  "ledger_sha256": "1a47d774cb361ab837eba61370fcd41d928aaf31f2b8f5d4d74bd83ca363e91d",
+  "method": "Manual source-to-atlas comparison by Codex; unchanged published key and emerging language visible throughout. No blind or heldout claim; no secondary V2 mark transformation.",
+  "limits": [
+    "G10_CAP emits ch at two proposed complete capped glyphs under the existing key. No other accent restoration is part of the literal.",
+    "Source images and crops not redistributed.",
+    "Only picture-side block, no address-face inspection or complete mark inventory.",
+    "No full solution, historical accuracy, unique key, sender identity or priority claim."
+  ],
+  "context_box_qa": "Initial contextual boxes widened by25 original pixels left/right after self-review found clipped leading forms. Initial boxes retained per CSV row. Source contexts include neighbors; no class changes.",
+  "review": "Separately tasked Codex (GPT-6-astra) compared all31 word contexts, t allographs, k/z, capped ch, U1 and written date, with key/proposed output visible. No definite source-class mismatch found; U1 retained. Nonblind AI review, not human authentication."
+}
