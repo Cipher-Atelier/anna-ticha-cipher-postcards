@@ -20,6 +20,8 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 [Card 319: thanks and a promised reply](anna-ticha/card-319.md): a preliminary ten-line reading with 150 mapped bodies and a retained faded cluster. The ledger, source fingerprints and limits are public.
 
+[Card 320: Easter wishes and a promised letter](anna-ticha/card-320.md): a preliminary ten-line reading with 200 proposed mapped bodies. Includes the literal, interpretation and contextual source ledger.
+
 [Card 315: arrival in Prague and taking up service](anna-ticha/card-315.md): a preliminary six-line reading, with a source ledger and written date 8 June 1901. The kind of service remains unidentified.
 
 [Card 314: a letter for tomorrow and concern for the recipient](anna-ticha/card-314.md): a partial eleven-line reading with 253 proposed mapped bodies and an unresolved overwritten cluster. Literal defects and editorial repairs remain separate.
