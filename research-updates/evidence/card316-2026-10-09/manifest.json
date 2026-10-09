@@ -1,0 +1,117 @@
+{
+  "source_url": "https://api.hcportal.eu/media/4965/pc_hcp_316_pic.JPG",
+  "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1635",
+  "source_sha256": "ac4a47ede29603d82c79e702dde2d63afed74e92123364c4581d896ec65b9b27",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "key_repository_commit": "8e701dec890836eff402b2cab77122ff2981fd3a",
+  "key_path": "verification/anna-ticha/data/key.csv",
+  "key_sha256": "fe0a7272d6e372eefd4710b86f502e8c666fa5dfe8d1a17cc06df5e25deb0d95",
+  "atlas_path": "verification/anna-ticha/data/glyph_atlas.json",
+  "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+  "word_groups": 24,
+  "invariant_mapped_bodies": 102,
+  "alternative_bodies": 2,
+  "observed_invariant_classes": 20,
+  "reading_order": "L1-L3 are main lower block. L4 is separate upper-right postscript; editorial placement after main block is not evidence of writing chronology.",
+  "bbox_kind": "Padded source contexts in original pixels; may contain neighboring words or rows, not individual-glyph segmentations.",
+  "unknowns": [
+    {
+      "id": "U2",
+      "record": "L3W9 closing",
+      "status": "Faded closing with unresolved segmentation and classes; whether ordinary handwriting is mixed in is also unresolved. No body count accepted."
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "record": "L3W6 final body",
+      "candidate_classes": [
+        "G05",
+        "G07"
+      ],
+      "literal": "[y/i]",
+      "status": "One proposed body; G05 preferred, G07 retained."
+    },
+    {
+      "id": "A2",
+      "record": "L3W1 final body",
+      "candidate_classes": [
+        "G05",
+        "G07"
+      ],
+      "literal": "[y/i]",
+      "status": "One proposed body; G05 preferred, G07 retained. Former U1 unknown cluster replaced following source review finding no separate multiple-body evidence."
+    }
+  ],
+  "punctuation": [
+    {
+      "line": 1,
+      "after_word": 3,
+      "literal": "."
+    },
+    {
+      "line": 2,
+      "after_word": 3,
+      "literal": ","
+    },
+    {
+      "line": 2,
+      "after_word": 9,
+      "literal": ","
+    },
+    {
+      "line": 3,
+      "after_word": 4,
+      "literal": "!"
+    },
+    {
+      "line": 4,
+      "after_word": 3,
+      "literal": ","
+    }
+  ],
+  "ordinary_inscription": {
+    "source_bbox_xyxy": [
+      120,
+      770,
+      680,
+      905
+    ],
+    "proposed_reading": "V Pardubicich 17/V",
+    "catalogue_date": "1901-05-17",
+    "scope": "Place and day/month proposal. Written year absent from examined inscription; catalogue 1901 not independently source-confirmed."
+  },
+  "method": "Codex manual source-to-atlas comparison with existing key and emerging language visible; no secondary V2 transformation or blind claim.",
+  "limits": [
+    "Incomplete source reading with one unknown-count closing and two one-body y/i alternatives. No full-card body total or accuracy claim.",
+    "Address face and postmark not examined; source images/crops not redistributed.",
+    "Only public digital materials used; no archive or library inquiry."
+  ],
+  "literal_sha256": "aeaf2911a18b3c91a6581d4d5fef449b6da3ede9921edcebc2e3c0bb279e6ae6",
+  "ledger_sha256": "055b658dec58a3e1a0cc449f15fca6ef6a4a50de0db907fb240e44c8818face2",
+  "prepublication_corrections": [
+    {
+      "record": "L3W6",
+      "previous_classes": "G20 G11 G08_N02 G02 G09 G01 A1",
+      "current_classes": "G20 G11 G08_N02 G06 G02 G01 A1",
+      "reason": "Initial sequence entry misplaced d/a. Source reviewer finds a distinct G06=d after z and no confidently separate G09=a between r and v. Source defect preserved, not silently repaired to pozdravy."
+    },
+    {
+      "record": "L4W1",
+      "previous_classes": "U3",
+      "current_classes": "G06 G11 G20 G07 G13",
+      "reason": "Separate source comparison supports dopis; former unknown word is now proposed mapped. No fluent request verb supplied."
+    },
+    {
+      "record": "L2W5 and L3W5 contexts",
+      "reason": "Full source review identified omitted vice between jeste and vsak. Inserted G01 G07 G19 G03 as new L2W5, shifted subsequent L2 indices and moved vsak context to its actual location. Widened nescislne context left to730 to include initial G14.",
+      "added_classes": "G01 G07 G19 G03",
+      "added_literal": "vice"
+    }
+  ],
+  "context_box_qa": "Source review found initial vsak context at vice, plus clipped initial bodies at nescislne, pozdrv… and pusu. Vsak recentered; lower contexts extended left. Initial boxes retained in CSV; null marks newly added vice group.",
+  "review": "Separately tasked Codex (GPT-6-astra), with key and proposed text visible, compared all original 23 source groups and identified omitted vice, increasing current groups to 24. Also refined two single-body y/i alternatives, proposed dopis for the postscript opening, found no distinct a in pozdrv…, and retained unsegmented U2. Context corrections recorded. This is nonblind AI source review, not human authentication."
+}

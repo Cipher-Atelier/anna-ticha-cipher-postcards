@@ -45,6 +45,8 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 
 - [Card 319: thanks and a promised reply](card-319.md): preliminary ten-line block reading; 150 proposed mapped bodies and one unresolved faded cluster, with a public source ledger. No whole-block body count or accuracy claim.
 
+- [Card 316: going home and an affectionate message](card-316.md): partial lower block and separate note; 102 invariant proposed mapped bodies, two y/i alternatives and an unresolved closing. Written day/month 17 May, year not source-confirmed.
+
 - [Card 320: Easter wishes and a letter after the holidays](card-320.md): preliminary ten-line block reading; 200 proposed mapped bodies emit 203 letters, with a public word ledger. No historical accuracy claim.
 
 - [Card 315: arrival in Prague and taking up service](card-315.md): preliminary six-line block; 193 proposed mapped bodies in 42 word groups. Written date 8 June 1901; occupation and kind of service are not established.
