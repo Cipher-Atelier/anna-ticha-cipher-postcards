@@ -22,7 +22,7 @@ vrely dik za drahy listek byl
 
 The opening of card 199 expresses warm thanks for a dear letter. This is a summary of the proposed Czech reading, not an identification of its writer.
 
-The other cards are not all covered by the card-199 checker. Cards 440 and 453 contribute limited examples; cards 247 and 248 have qualified text reports without complete public positional packages. A smooth Czech paraphrase can conceal uncertain signs, spacing or dates.
+The supported check now also replays twelve saved contextual ledgers and card318 margins, as listed in the [verification guide](verification/README.md). This checks saved proposals; other cards are not automatically covered. Cards 440 and 453 contribute limited examples; cards 247 and 248 have qualified text reports without complete public positional packages. A smooth Czech paraphrase can conceal uncertain signs, spacing or dates.
 
 ## Check one example by hand
 

@@ -1,0 +1,38 @@
+name: Verify saved evidence
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10', '3.13']
+    steps:
+      - name: Check out the triggering revision
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run regressions and offline verification at the checked-out SHA
+        env:
+          CHECK_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          python3 -m unittest discover -s verification/tests -v
+          python3 verification/check_all.py
+          if [ -z "$CHECK_BASE" ] || [ "$CHECK_BASE" = 0000000000000000000000000000000000000000 ]; then
+            CHECK_BASE=$(git merge-base origin/main HEAD)
+          fi
+          git diff --check "$CHECK_BASE" "$GITHUB_SHA"
