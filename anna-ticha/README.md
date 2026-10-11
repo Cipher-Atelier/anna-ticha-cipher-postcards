@@ -2,6 +2,8 @@
 
 Author: Maxim Egorov
 
+**Reader status reconciled — 11 October 2026:** [all 37 card reports](readings.md) are indexed. Card199 has a complete 532-position apparatus; cards314,315,316,318,319,320,322,324,325,326,327,328 have contextual ledger replay, with card318 margins. [Experimental card330](card-330.md) has a separate graphical replay and thirteen retained masks. Other reports have different public evidence levels; [the root reader guide](../READING_GUIDE.md) and [verification scopes](../verification/README.md) explain the limits. Collector/comparison scripts for card330’s perceptual follow-ups remain local.
+
 A partial investigation of postcards addressed to Anna Tichá. The [complete original article](article.md) preserves the dated six-card study. The separate records preserve the 11 original published card entries and new records for cards 201, 202, 203, 205, 323, 375, 313, 317, 321, 447, 223, 247 and 248, including later tests and a retrospective reconstruction. These stages should not be pooled as independent predictions.
 
 - [Article](article.md)
@@ -19,6 +21,8 @@ A partial investigation of postcards addressed to Anna Tichá. The [complete ori
 - [Card 223: longing, travel questions and an affectionate sign-off](card-223.md)
 - [Card 247: a ball, an undelivered note and unresolved handwriting](card-247.md)
 - [Card 248: thanks, a ball invitation and an incomplete affectionate message](card-248.md)
+- [Later contextual-ledger cards and card318 margins](readings.md#preliminary-reading-recorded-on-9-october-2026)
+- [Experimental card330 and follow-ups](card-330.md)
 - [Methods and staged key](methods.md)
 - [Sources and evidence](sources.md)
 - [Public updates](updates.md)
