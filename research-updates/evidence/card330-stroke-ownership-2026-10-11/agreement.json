@@ -1,0 +1,2381 @@
+{
+  "coordinate_units": "Original-image native pixels; xyxy half-open integer envelopes.",
+  "matching_method": "Exact Fraction-valued Hungarian maximum-total-IoU one-to-one assignment with unmatched dummy entries. Zero-overlap pairs are never reported as matches. IDs sorted for deterministic tie handling.",
+  "descriptive_convention": "IoU >= 0.5 AND every absolute boundary difference <= 8 native pixels, tested exactly. Exploratory display-coordinate convention; not calibrated segmentation accuracy.",
+  "limitations": [
+    "Geometric envelope matching only; topology and ink ownership can differ even when envelopes match.",
+    "Observer-estimated coordinate uncertainty is uncalibrated and is reported without converting it into an accuracy claim.",
+    "Counts describe reported annotation records and matching denominators, never physical body counts.",
+    "No class, letter, key, date, mask-resolution, or source-truth upgrade follows from this comparison."
+  ],
+  "regions": [
+    {
+      "coded_region_id": "Z01",
+      "observable_components": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 5,
+          "observer_b_reported_items": 6,
+          "observer_a_valid_boxes": 5,
+          "observer_b_valid_boxes": 6,
+          "matched_pairs": 5,
+          "descriptively_agreeing_pairs": 1,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 1,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 1.749076913653349,
+        "total_matched_iou_exact": "3206141483557/1833047739942",
+        "pairs": [
+          {
+            "observer_a_id": "Z01-C1",
+            "observer_b_id": "Z01-C2",
+            "observer_a_bbox_xyxy": [
+              1036,
+              943,
+              1075,
+              971
+            ],
+            "observer_b_bbox_xyxy": [
+              1040,
+              938,
+              1077,
+              965
+            ],
+            "iou": 0.5828917486752461,
+            "iou_exact": "770/1321",
+            "boundary_deltas_b_minus_a_px": [
+              4,
+              -5,
+              2,
+              -6
+            ],
+            "absolute_boundary_deltas_px": [
+              4,
+              5,
+              2,
+              6
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z01-C2",
+            "observer_b_id": "Z01-C3",
+            "observer_a_bbox_xyxy": [
+              1074,
+              941,
+              1096,
+              972
+            ],
+            "observer_b_bbox_xyxy": [
+              1074,
+              935,
+              1127,
+              966
+            ],
+            "iou": 0.30985915492957744,
+            "iou_exact": "22/71",
+            "boundary_deltas_b_minus_a_px": [
+              0,
+              -6,
+              31,
+              -6
+            ],
+            "absolute_boundary_deltas_px": [
+              0,
+              6,
+              31,
+              6
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 8
+          },
+          {
+            "observer_a_id": "Z01-C3",
+            "observer_b_id": "Z01-C4",
+            "observer_a_bbox_xyxy": [
+              1094,
+              888,
+              1140,
+              970
+            ],
+            "observer_b_bbox_xyxy": [
+              1108,
+              878,
+              1168,
+              946
+            ],
+            "iou": 0.3095396931287525,
+            "iou_exact": "464/1499",
+            "boundary_deltas_b_minus_a_px": [
+              14,
+              -10,
+              28,
+              -24
+            ],
+            "absolute_boundary_deltas_px": [
+              14,
+              10,
+              28,
+              24
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 7,
+            "observer_b_coordinate_uncertainty_px": 8
+          },
+          {
+            "observer_a_id": "Z01-C4",
+            "observer_b_id": "Z01-C5",
+            "observer_a_bbox_xyxy": [
+              1123,
+              944,
+              1147,
+              974
+            ],
+            "observer_b_bbox_xyxy": [
+              1122,
+              937,
+              1145,
+              965
+            ],
+            "iou": 0.5121951219512195,
+            "iou_exact": "21/41",
+            "boundary_deltas_b_minus_a_px": [
+              -1,
+              -7,
+              -2,
+              -9
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              7,
+              2,
+              9
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z01-C5",
+            "observer_b_id": "Z01-C6",
+            "observer_a_bbox_xyxy": [
+              1156,
+              974,
+              1167,
+              985
+            ],
+            "observer_b_bbox_xyxy": [
+              1155,
+              962,
+              1171,
+              975
+            ],
+            "iou": 0.03459119496855346,
+            "iou_exact": "11/318",
+            "boundary_deltas_b_minus_a_px": [
+              -1,
+              -12,
+              4,
+              -10
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              12,
+              4,
+              10
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 4,
+            "observer_b_coordinate_uncertainty_px": 5
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [
+          {
+            "id": "Z01-C1",
+            "bbox_xyxy": [
+              992,
+              920,
+              1038,
+              986
+            ],
+            "coordinate_uncertainty_px": 7,
+            "geometric_description": "Tall oblique loop with a thicker crossing near its middle and a descending lower return. Included beyond the left locator edge for context."
+          }
+        ],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": []
+      },
+      "junctions": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 2,
+          "observer_b_reported_items": 2,
+          "observer_a_valid_boxes": 2,
+          "observer_b_valid_boxes": 2,
+          "matched_pairs": 2,
+          "descriptively_agreeing_pairs": 0,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 0,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 0.7038954344624447,
+        "total_matched_iou_exact": "95589/135800",
+        "pairs": [
+          {
+            "observer_a_id": "Z01-J1",
+            "observer_b_id": "Z01-J1",
+            "observer_a_bbox_xyxy": [
+              1106,
+              923,
+              1123,
+              950
+            ],
+            "observer_b_bbox_xyxy": [
+              1096,
+              922,
+              1131,
+              952
+            ],
+            "iou": 0.43714285714285717,
+            "iou_exact": "153/350",
+            "boundary_deltas_b_minus_a_px": [
+              -10,
+              -1,
+              8,
+              2
+            ],
+            "absolute_boundary_deltas_px": [
+              10,
+              1,
+              8,
+              2
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          },
+          {
+            "observer_a_id": "Z01-J2",
+            "observer_b_id": "Z01-J2",
+            "observer_a_bbox_xyxy": [
+              1086,
+              943,
+              1124,
+              972
+            ],
+            "observer_b_bbox_xyxy": [
+              1072,
+              939,
+              1104,
+              966
+            ],
+            "iou": 0.2667525773195876,
+            "iou_exact": "207/776",
+            "boundary_deltas_b_minus_a_px": [
+              -14,
+              -4,
+              -20,
+              -6
+            ],
+            "absolute_boundary_deltas_px": [
+              14,
+              4,
+              20,
+              6
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": [],
+        "qualitative_ownership_records": {
+          "observer_a": [
+            {
+              "id": "Z01-J1",
+              "observed_relation": "The descending return in C3 approaches or meets the upward side of the dark middle-row loop around the row gap.",
+              "alternative_ownerships": [
+                "The thin return belongs wholly to the upper-row geometry and ends at or near the middle-row contour.",
+                "The return and middle-row rising stroke share a visible segment or overlap; attribution to either row remains open."
+              ],
+              "ownership_resolved": false,
+              "reason": "A dark narrow approach is visible, but the junction does not provide separate stroke edges or order of execution. Approximate path omits the dense contact.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    1124,
+                    894
+                  ],
+                  [
+                    1117,
+                    905
+                  ],
+                  [
+                    1114,
+                    925
+                  ],
+                  [
+                    1112,
+                    937
+                  ]
+                ]
+              ]
+            },
+            {
+              "id": "Z01-J2",
+              "observed_relation": "C2 and the low dark portion of C3 are closely adjacent, with heavy ink concealing possible separation.",
+              "alternative_ownerships": [
+                "C2 and the low portion of C3 are independent neighboring contours.",
+                "A joining stroke connects the neighboring contours."
+              ],
+              "ownership_resolved": false,
+              "reason": "Insufficient visible light gap and no reliable centerline through the dark patch; abstain from a connecting path.",
+              "stroke_paths_xy": []
+            }
+          ],
+          "observer_b": [
+            {
+              "id": "Z01-J1",
+              "observed_relation": "The descending end of Z01-C4 meets the upper/right portion of Z01-C3 at a dark narrowed region.",
+              "alternative_ownerships": [
+                "The descending stroke belongs with the upper-row loop and merely meets lower-row ink.",
+                "The descending segment and lower rounded ink form one continuous trajectory.",
+                "Several strokes overlie one another at the meeting."
+              ],
+              "ownership_resolved": false,
+              "reason": "Contact appearance does not resolve stroke order or ownership. The pale printed background further limits fine boundary judgment.",
+              "stroke_paths_xy": []
+            },
+            {
+              "id": "Z01-J2",
+              "observed_relation": "The low hooked part and heavier right part within Z01-C3 approach or join near the baseline.",
+              "alternative_ownerships": [
+                "One continuous lower-row sweep.",
+                "Two lower-row strokes touching or overlapping."
+              ],
+              "ownership_resolved": false,
+              "reason": "I cannot trace a unique centerline through the dark contact; abstain from a split.",
+              "stroke_paths_xy": []
+            }
+          ]
+        }
+      },
+      "region_annotation_context": {
+        "observer_a": {
+          "proposed_partition_status": "Unresolved. Nonexhaustive observable ink envelopes are offered for geometry only. They are not asserted maximal connected components or physical writing units; overlapping envelopes do not establish shared ownership. No complete partition or body count is proposed.",
+          "edge_censoring": "No selected envelope reaches a local PNG edge. C3 extends above the locator to preserve its upper-row return. Other neighboring writing is cut by the local crop at left and right; Z00 was inspected, but those peripheral strokes are not exhaustively annotated.",
+          "instrumental_limits": "Visual ruler interpolation at native scale only; no calibrated click or tracing tool. Coordinates are estimates, not pixel-exact segmentation. Box uncertainties generally 4–8 native pixels per boundary; paths are approximate center trajectories with comparable or larger error. Very faint ink, background marks, and overlapping dark strokes prevent exact connectivity judgments."
+        },
+        "observer_b": {
+          "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+          "edge_censoring": "Significant left tall stroke and upper descending stroke extend beyond the locator and are included. The annotated envelopes do not reach the local source rectangle edges. Other neighboring writing is cut by local side edges; Z00 supplies context but is not partitioned.",
+          "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+        }
+      }
+    },
+    {
+      "coded_region_id": "Z02",
+      "observable_components": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 4,
+          "observer_b_reported_items": 5,
+          "observer_a_valid_boxes": 4,
+          "observer_b_valid_boxes": 5,
+          "matched_pairs": 4,
+          "descriptively_agreeing_pairs": 3,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 1,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 2.5965058376407035,
+        "total_matched_iou_exact": "434289493891/167259201807",
+        "pairs": [
+          {
+            "observer_a_id": "Z02-C1",
+            "observer_b_id": "Z02-C1",
+            "observer_a_bbox_xyxy": [
+              1107,
+              990,
+              1152,
+              1054
+            ],
+            "observer_b_bbox_xyxy": [
+              1113,
+              984,
+              1159,
+              1051
+            ],
+            "iou": 0.6639687412782584,
+            "iou_exact": "2379/3583",
+            "boundary_deltas_b_minus_a_px": [
+              6,
+              -6,
+              7,
+              -3
+            ],
+            "absolute_boundary_deltas_px": [
+              6,
+              6,
+              7,
+              3
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 7,
+            "observer_b_coordinate_uncertainty_px": 8
+          },
+          {
+            "observer_a_id": "Z02-C2",
+            "observer_b_id": "Z02-C5",
+            "observer_a_bbox_xyxy": [
+              1153,
+              990,
+              1173,
+              1019
+            ],
+            "observer_b_bbox_xyxy": [
+              1154,
+              987,
+              1174,
+              1017
+            ],
+            "iou": 0.7691154422788605,
+            "iou_exact": "513/667",
+            "boundary_deltas_b_minus_a_px": [
+              1,
+              -3,
+              1,
+              -2
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              3,
+              1,
+              2
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 6
+          },
+          {
+            "observer_a_id": "Z02-C3",
+            "observer_b_id": "Z02-C2",
+            "observer_a_bbox_xyxy": [
+              1136,
+              1020,
+              1198,
+              1067
+            ],
+            "observer_b_bbox_xyxy": [
+              1140,
+              1013,
+              1190,
+              1070
+            ],
+            "iou": 0.6883421206795548,
+            "iou_exact": "1175/1707",
+            "boundary_deltas_b_minus_a_px": [
+              4,
+              -7,
+              -8,
+              3
+            ],
+            "absolute_boundary_deltas_px": [
+              4,
+              7,
+              8,
+              3
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 7,
+            "observer_b_coordinate_uncertainty_px": 8
+          },
+          {
+            "observer_a_id": "Z02-C4",
+            "observer_b_id": "Z02-C3",
+            "observer_a_bbox_xyxy": [
+              1199,
+              1026,
+              1221,
+              1054
+            ],
+            "observer_b_bbox_xyxy": [
+              1190,
+              1026,
+              1215,
+              1057
+            ],
+            "iou": 0.4750795334040297,
+            "iou_exact": "448/943",
+            "boundary_deltas_b_minus_a_px": [
+              -9,
+              0,
+              -6,
+              3
+            ],
+            "absolute_boundary_deltas_px": [
+              9,
+              0,
+              6,
+              3
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [
+          {
+            "id": "Z02-C4",
+            "bbox_xyxy": [
+              1217,
+              1023,
+              1239,
+              1056
+            ],
+            "coordinate_uncertainty_px": 7,
+            "geometric_description": "Compact upright curved stroke, with two rightward bulges and a low leftward turn."
+          }
+        ],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": []
+      },
+      "junctions": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 2,
+          "observer_b_reported_items": 2,
+          "observer_a_valid_boxes": 2,
+          "observer_b_valid_boxes": 2,
+          "matched_pairs": 2,
+          "descriptively_agreeing_pairs": 1,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 0,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 1.3214554579673776,
+        "total_matched_iou_exact": "5266/3985",
+        "pairs": [
+          {
+            "observer_a_id": "Z02-J1",
+            "observer_b_id": "Z02-J1",
+            "observer_a_bbox_xyxy": [
+              1110,
+              1010,
+              1147,
+              1050
+            ],
+            "observer_b_bbox_xyxy": [
+              1117,
+              1009,
+              1157,
+              1048
+            ],
+            "iou": 0.6,
+            "iou_exact": "3/5",
+            "boundary_deltas_b_minus_a_px": [
+              7,
+              -1,
+              10,
+              -2
+            ],
+            "absolute_boundary_deltas_px": [
+              7,
+              1,
+              10,
+              2
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          },
+          {
+            "observer_a_id": "Z02-J2",
+            "observer_b_id": "Z02-J2",
+            "observer_a_bbox_xyxy": [
+              1135,
+              1023,
+              1158,
+              1051
+            ],
+            "observer_b_bbox_xyxy": [
+              1134,
+              1022,
+              1162,
+              1048
+            ],
+            "iou": 0.7214554579673776,
+            "iou_exact": "575/797",
+            "boundary_deltas_b_minus_a_px": [
+              -1,
+              -1,
+              4,
+              -3
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              1,
+              4,
+              3
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": [],
+        "qualitative_ownership_records": {
+          "observer_a": [
+            {
+              "id": "Z02-J1",
+              "observed_relation": "The upper enclosure in C1 has a descending sweep into the lower-row dark bends.",
+              "alternative_ownerships": [
+                "The upper-row return continues through the lower bends.",
+                "The upper return crosses or merges with separate lower-row ink."
+              ],
+              "ownership_resolved": false,
+              "reason": "The long diagonal direction is traceable approximately; the lower dark bends admit more than one continuation and no stroke order is visible.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    1139,
+                    1005
+                  ],
+                  [
+                    1133,
+                    1016
+                  ],
+                  [
+                    1123,
+                    1026
+                  ],
+                  [
+                    1116,
+                    1038
+                  ]
+                ]
+              ]
+            },
+            {
+              "id": "Z02-J2",
+              "observed_relation": "The right side of C1 and the left rising/descending portion of C3 occupy adjacent or overlapping horizontal spans in the lower row.",
+              "alternative_ownerships": [
+                "Independent neighboring returns with a narrow background gap.",
+                "Contact or overdraw joining the returns."
+              ],
+              "ownership_resolved": false,
+              "reason": "No robust local boundary or centerline can be asserted where the narrow strokes crowd one another; path deliberately omitted.",
+              "stroke_paths_xy": []
+            }
+          ],
+          "observer_b": [
+            {
+              "id": "Z02-J1",
+              "observed_relation": "The sloping return from the upper portion of C1 meets multiple lower curves.",
+              "alternative_ownerships": [
+                "Upper-row descending return crossing separate lower-row curves.",
+                "A continuous folded stroke spanning the two row levels.",
+                "More than two strokes superposed in the dark lower region."
+              ],
+              "ownership_resolved": false,
+              "reason": "Several plausible routes traverse the same ink envelope; neither row assignment nor a unique path is resolved.",
+              "stroke_paths_xy": []
+            },
+            {
+              "id": "Z02-J2",
+              "observed_relation": "The right side of C1 approaches the rising/descending portion of C2.",
+              "alternative_ownerships": [
+                "Separate neighboring strokes with a very small pale gap.",
+                "Touching or crossing trajectories belonging to different row-relative components.",
+                "A shared continuation across the apparent boundary."
+              ],
+              "ownership_resolved": false,
+              "reason": "Native visual inspection is insufficient to establish exact connectivity; no forced boundary or centerline.",
+              "stroke_paths_xy": []
+            }
+          ]
+        }
+      },
+      "region_annotation_context": {
+        "observer_a": {
+          "proposed_partition_status": "Unresolved. Nonexhaustive observable ink envelopes are offered for geometry only. They are not asserted maximal connected components or physical writing units; overlapping envelopes do not establish shared ownership. No complete partition or body count is proposed.",
+          "edge_censoring": "No selected envelope reaches the PNG boundary. C3 extends slightly below the locator to retain its long descending loop. Full Z00 context was inspected; the available full context does not reveal stroke order.",
+          "instrumental_limits": "Visual ruler interpolation at native scale only; no calibrated click or tracing tool. Coordinates are estimates, not pixel-exact segmentation. Box uncertainties generally 4–8 native pixels per boundary; paths are approximate center trajectories with comparable or larger error. Very faint ink, background marks, and overlapping dark strokes prevent exact connectivity judgments."
+        },
+        "observer_b": {
+          "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+          "edge_censoring": "C2 extends below the locator to preserve its narrow return; C1 includes the upper rounded part above the locator. None of these envelopes is censored by the local source edges. Z00 was inspected for row context.",
+          "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+        }
+      }
+    },
+    {
+      "coded_region_id": "Z03",
+      "observable_components": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 6,
+          "observer_b_reported_items": 7,
+          "observer_a_valid_boxes": 6,
+          "observer_b_valid_boxes": 7,
+          "matched_pairs": 6,
+          "descriptively_agreeing_pairs": 5,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 1,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 4.158421609225993,
+        "total_matched_iou_exact": "3772478167/907189920",
+        "pairs": [
+          {
+            "observer_a_id": "Z03-C1",
+            "observer_b_id": "Z03-C1",
+            "observer_a_bbox_xyxy": [
+              795,
+              874,
+              828,
+              913
+            ],
+            "observer_b_bbox_xyxy": [
+              793,
+              878,
+              832,
+              911
+            ],
+            "iou": 0.7333333333333333,
+            "iou_exact": "11/15",
+            "boundary_deltas_b_minus_a_px": [
+              -2,
+              4,
+              4,
+              -2
+            ],
+            "absolute_boundary_deltas_px": [
+              2,
+              4,
+              4,
+              2
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 6,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z03-C2",
+            "observer_b_id": "Z03-C2",
+            "observer_a_bbox_xyxy": [
+              829,
+              884,
+              847,
+              911
+            ],
+            "observer_b_bbox_xyxy": [
+              832,
+              885,
+              854,
+              912
+            ],
+            "iou": 0.5652173913043478,
+            "iou_exact": "13/23",
+            "boundary_deltas_b_minus_a_px": [
+              3,
+              1,
+              7,
+              1
+            ],
+            "absolute_boundary_deltas_px": [
+              3,
+              1,
+              7,
+              1
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z03-C3",
+            "observer_b_id": "Z03-C3",
+            "observer_a_bbox_xyxy": [
+              852,
+              887,
+              874,
+              914
+            ],
+            "observer_b_bbox_xyxy": [
+              853,
+              885,
+              876,
+              911
+            ],
+            "iou": 0.7325581395348837,
+            "iou_exact": "63/86",
+            "boundary_deltas_b_minus_a_px": [
+              1,
+              -2,
+              2,
+              -3
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              2,
+              2,
+              3
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z03-C4",
+            "observer_b_id": "Z03-C4",
+            "observer_a_bbox_xyxy": [
+              875,
+              891,
+              894,
+              916
+            ],
+            "observer_b_bbox_xyxy": [
+              875,
+              889,
+              897,
+              913
+            ],
+            "iou": 0.7145299145299145,
+            "iou_exact": "418/585",
+            "boundary_deltas_b_minus_a_px": [
+              0,
+              -2,
+              3,
+              -3
+            ],
+            "absolute_boundary_deltas_px": [
+              0,
+              2,
+              3,
+              3
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z03-C5",
+            "observer_b_id": "Z03-C5",
+            "observer_a_bbox_xyxy": [
+              794,
+              895,
+              913,
+              928
+            ],
+            "observer_b_bbox_xyxy": [
+              793,
+              890,
+              925,
+              930
+            ],
+            "iou": 0.74375,
+            "iou_exact": "119/160",
+            "boundary_deltas_b_minus_a_px": [
+              -1,
+              -5,
+              12,
+              2
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              5,
+              12,
+              2
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 7,
+            "observer_b_coordinate_uncertainty_px": 8
+          },
+          {
+            "observer_a_id": "Z03-C6",
+            "observer_b_id": "Z03-C6",
+            "observer_a_bbox_xyxy": [
+              821,
+              928,
+              851,
+              961
+            ],
+            "observer_b_bbox_xyxy": [
+              825,
+              924,
+              852,
+              957
+            ],
+            "iou": 0.6690328305235137,
+            "iou_exact": "754/1127",
+            "boundary_deltas_b_minus_a_px": [
+              4,
+              -4,
+              1,
+              -4
+            ],
+            "absolute_boundary_deltas_px": [
+              4,
+              4,
+              1,
+              4
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 6,
+            "observer_b_coordinate_uncertainty_px": 7
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [
+          {
+            "id": "Z03-C7",
+            "bbox_xyxy": [
+              842,
+              842,
+              876,
+              884
+            ],
+            "coordinate_uncertainty_px": 8,
+            "geometric_description": "Upper-row diagonal descending stroke with a short high horizontal/curved extension; context above the locator."
+          }
+        ],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": []
+      },
+      "junctions": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 2,
+          "observer_b_reported_items": 2,
+          "observer_a_valid_boxes": 2,
+          "observer_b_valid_boxes": 2,
+          "matched_pairs": 2,
+          "descriptively_agreeing_pairs": 1,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 0,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 0.832421111328702,
+        "total_matched_iou_exact": "250791/301279",
+        "pairs": [
+          {
+            "observer_a_id": "Z03-J1",
+            "observer_b_id": "Z03-J1",
+            "observer_a_bbox_xyxy": [
+              790,
+              912,
+              913,
+              930
+            ],
+            "observer_b_bbox_xyxy": [
+              890,
+              905,
+              924,
+              931
+            ],
+            "iou": 0.15424739195231,
+            "iou_exact": "207/1342",
+            "boundary_deltas_b_minus_a_px": [
+              100,
+              -7,
+              11,
+              1
+            ],
+            "absolute_boundary_deltas_px": [
+              100,
+              7,
+              11,
+              1
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          },
+          {
+            "observer_a_id": "Z03-J2",
+            "observer_b_id": "Z03-J2",
+            "observer_a_bbox_xyxy": [
+              821,
+              920,
+              850,
+              943
+            ],
+            "observer_b_bbox_xyxy": [
+              820,
+              917,
+              855,
+              941
+            ],
+            "iou": 0.678173719376392,
+            "iou_exact": "609/898",
+            "boundary_deltas_b_minus_a_px": [
+              -1,
+              -3,
+              5,
+              -2
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              3,
+              5,
+              2
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": [],
+        "qualitative_ownership_records": {
+          "observer_a": [
+            {
+              "id": "Z03-J1",
+              "observed_relation": "The long thin stroke in C5 runs below C1–C4 and appears to meet the descending right-hand loop.",
+              "alternative_ownerships": [
+                "A return from the right-hand second-row contour extends left beneath neighboring contours.",
+                "A separately drawn horizontal stroke crosses or touches the right-hand return."
+              ],
+              "ownership_resolved": false,
+              "reason": "The low horizontal trajectory is observable. Stroke ownership and whether the right thickening is a terminal or crossing cannot be resolved.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    796,
+                    919
+                  ],
+                  [
+                    818,
+                    922
+                  ],
+                  [
+                    847,
+                    923
+                  ],
+                  [
+                    873,
+                    923
+                  ],
+                  [
+                    895,
+                    921
+                  ],
+                  [
+                    905,
+                    921
+                  ]
+                ]
+              ]
+            },
+            {
+              "id": "Z03-J2",
+              "observed_relation": "The upward reach of C6 lies near the long stroke above it, with a small apparent light interval.",
+              "alternative_ownerships": [
+                "C6 is independent next-row ink separated from C5.",
+                "A faint contact or extension links C6 to C5."
+              ],
+              "ownership_resolved": false,
+              "reason": "A clear heavy connection is not visible; background and weak pixels preclude exclusion of a fine contact. No forced cross-row path.",
+              "stroke_paths_xy": []
+            }
+          ],
+          "observer_b": [
+            {
+              "id": "Z03-J1",
+              "observed_relation": "Rightmost rounded return in C5 approaches the long shallow bar from above.",
+              "alternative_ownerships": [
+                "The bar is the continuation of the right rounded stroke.",
+                "The bar is an independent stroke touching the descending return.",
+                "Overlapping strokes share the dark right-hand junction."
+              ],
+              "ownership_resolved": false,
+              "reason": "The long bar is traceable away from the junction, but origin and stroke ownership are not.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    797,
+                    918
+                  ],
+                  [
+                    817,
+                    922
+                  ],
+                  [
+                    849,
+                    923
+                  ],
+                  [
+                    878,
+                    923
+                  ],
+                  [
+                    911,
+                    925
+                  ]
+                ]
+              ]
+            },
+            {
+              "id": "Z03-J2",
+              "observed_relation": "The lower-row rising tip C6 lies immediately below the long bar C5.",
+              "alternative_ownerships": [
+                "Separate lower-row stroke with a narrow pale interval.",
+                "Incidental contact with the bar from the row above."
+              ],
+              "ownership_resolved": false,
+              "reason": "A single shared envelope would not establish stroke ownership; abstain from asserting connectivity at the closest approach.",
+              "stroke_paths_xy": []
+            }
+          ]
+        }
+      },
+      "region_annotation_context": {
+        "observer_a": {
+          "proposed_partition_status": "Unresolved. Nonexhaustive observable ink envelopes are offered for geometry only. They are not asserted maximal connected components or physical writing units; overlapping envelopes do not establish shared ownership. No complete partition or body count is proposed.",
+          "edge_censoring": "Selected envelopes do not touch PNG edges. C5 extends left of the locator, and C6 below it. Neighboring upper-row and peripheral ink remains unpartitioned. Z00 was inspected for context.",
+          "instrumental_limits": "Visual ruler interpolation at native scale only; no calibrated click or tracing tool. Coordinates are estimates, not pixel-exact segmentation. Box uncertainties generally 4–8 native pixels per boundary; paths are approximate center trajectories with comparable or larger error. Very faint ink, background marks, and overlapping dark strokes prevent exact connectivity judgments."
+        },
+        "observer_b": {
+          "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+          "edge_censoring": "The long bar extends left of the locator and the right return extends slightly right; both are preserved. C6 and C7 extend beyond the locator vertically. No annotated envelope touches the local source edges.",
+          "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+        }
+      }
+    },
+    {
+      "coded_region_id": "Z04",
+      "observable_components": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 4,
+          "observer_b_reported_items": 4,
+          "observer_a_valid_boxes": 4,
+          "observer_b_valid_boxes": 4,
+          "matched_pairs": 4,
+          "descriptively_agreeing_pairs": 1,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 0,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 1.920129413774052,
+        "total_matched_iou_exact": "18893148534/9839518315",
+        "pairs": [
+          {
+            "observer_a_id": "Z04-C1",
+            "observer_b_id": "Z04-C3",
+            "observer_a_bbox_xyxy": [
+              1629,
+              896,
+              1655,
+              919
+            ],
+            "observer_b_bbox_xyxy": [
+              1616,
+              893,
+              1647,
+              919
+            ],
+            "iou": 0.41818181818181815,
+            "iou_exact": "23/55",
+            "boundary_deltas_b_minus_a_px": [
+              -13,
+              -3,
+              -8,
+              0
+            ],
+            "absolute_boundary_deltas_px": [
+              13,
+              3,
+              8,
+              0
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 6,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z04-C2",
+            "observer_b_id": "Z04-C4",
+            "observer_a_bbox_xyxy": [
+              1656,
+              894,
+              1681,
+              920
+            ],
+            "observer_b_bbox_xyxy": [
+              1646,
+              890,
+              1670,
+              918
+            ],
+            "iou": 0.3407707910750507,
+            "iou_exact": "168/493",
+            "boundary_deltas_b_minus_a_px": [
+              -10,
+              -4,
+              -11,
+              -2
+            ],
+            "absolute_boundary_deltas_px": [
+              10,
+              4,
+              11,
+              2
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 6,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z04-C3",
+            "observer_b_id": "Z04-C1",
+            "observer_a_bbox_xyxy": [
+              1619,
+              925,
+              1681,
+              960
+            ],
+            "observer_b_bbox_xyxy": [
+              1617,
+              925,
+              1688,
+              963
+            ],
+            "iou": 0.8042994810971089,
+            "iou_exact": "1085/1349",
+            "boundary_deltas_b_minus_a_px": [
+              -2,
+              0,
+              7,
+              3
+            ],
+            "absolute_boundary_deltas_px": [
+              2,
+              0,
+              7,
+              3
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 7,
+            "observer_b_coordinate_uncertainty_px": 8
+          },
+          {
+            "observer_a_id": "Z04-C4",
+            "observer_b_id": "Z04-C2",
+            "observer_a_bbox_xyxy": [
+              1676,
+              939,
+              1710,
+              952
+            ],
+            "observer_b_bbox_xyxy": [
+              1681,
+              935,
+              1705,
+              947
+            ],
+            "iou": 0.35687732342007433,
+            "iou_exact": "96/269",
+            "boundary_deltas_b_minus_a_px": [
+              5,
+              -4,
+              -5,
+              -5
+            ],
+            "absolute_boundary_deltas_px": [
+              5,
+              4,
+              5,
+              5
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 9,
+            "observer_b_coordinate_uncertainty_px": 7
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": []
+      },
+      "junctions": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 2,
+          "observer_b_reported_items": 2,
+          "observer_a_valid_boxes": 2,
+          "observer_b_valid_boxes": 2,
+          "matched_pairs": 2,
+          "descriptively_agreeing_pairs": 1,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 0,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 1.1473244062799521,
+        "total_matched_iou_exact": "204693/178409",
+        "pairs": [
+          {
+            "observer_a_id": "Z04-J1",
+            "observer_b_id": "Z04-J1",
+            "observer_a_bbox_xyxy": [
+              1631,
+              932,
+              1678,
+              959
+            ],
+            "observer_b_bbox_xyxy": [
+              1630,
+              930,
+              1679,
+              963
+            ],
+            "iou": 0.7847866419294991,
+            "iou_exact": "423/539",
+            "boundary_deltas_b_minus_a_px": [
+              -1,
+              -2,
+              1,
+              4
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              2,
+              1,
+              4
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          },
+          {
+            "observer_a_id": "Z04-J2",
+            "observer_b_id": "Z04-J2",
+            "observer_a_bbox_xyxy": [
+              1668,
+              938,
+              1710,
+              953
+            ],
+            "observer_b_bbox_xyxy": [
+              1676,
+              936,
+              1692,
+              953
+            ],
+            "iou": 0.36253776435045315,
+            "iou_exact": "120/331",
+            "boundary_deltas_b_minus_a_px": [
+              8,
+              -2,
+              -18,
+              0
+            ],
+            "absolute_boundary_deltas_px": [
+              8,
+              2,
+              18,
+              0
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": [],
+        "qualitative_ownership_records": {
+          "observer_a": [
+            {
+              "id": "Z04-J1",
+              "observed_relation": "Rounded portions and taller returns within C3 touch or overlap along the low line.",
+              "alternative_ownerships": [
+                "A continuous sequence of neighboring loops with connecting strokes.",
+                "Separate overlapping contours whose contact hides their endpoints."
+              ],
+              "ownership_resolved": false,
+              "reason": "Dense ink and short separations do not support a reliable partition or centerline through the chain.",
+              "stroke_paths_xy": []
+            },
+            {
+              "id": "Z04-J2",
+              "observed_relation": "A faint rightward line approaches the right-hand contour of C3 and continues toward the image edge.",
+              "alternative_ownerships": [
+                "Terminal extension belonging to the rightmost visible contour.",
+                "Independent thin line or background trace adjacent to the contour."
+              ],
+              "ownership_resolved": false,
+              "reason": "The faint line has insufficient contrast for definite attachment or endpoint. Path records only an approximate direction, not a validated stroke identity.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    1680,
+                    947
+                  ],
+                  [
+                    1692,
+                    944
+                  ],
+                  [
+                    1705,
+                    942
+                  ]
+                ]
+              ]
+            }
+          ],
+          "observer_b": [
+            {
+              "id": "Z04-J1",
+              "observed_relation": "Within C1, rising obliques and lower rounded lobes meet in several heavy dark regions.",
+              "alternative_ownerships": [
+                "One continuous sequence of rising strokes and lower returns.",
+                "Several neighboring strokes joined by touching or overlapping returns.",
+                "A high return from one neighboring portion crosses the low body of another."
+              ],
+              "ownership_resolved": false,
+              "reason": "A precise body count or division is unsupported. No unique polyline through the dense body is supplied.",
+              "stroke_paths_xy": []
+            },
+            {
+              "id": "Z04-J2",
+              "observed_relation": "The fine rightward C2 approaches the rightmost heavier part of C1.",
+              "alternative_ownerships": [
+                "Terminal continuation of the heavy cluster.",
+                "Independent short line touching the cluster.",
+                "Small pale gap between the line and heavy ink."
+              ],
+              "ownership_resolved": false,
+              "reason": "The line direction is visible, while its exact attachment is not.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    1684,
+                    943
+                  ],
+                  [
+                    1692,
+                    941
+                  ],
+                  [
+                    1701,
+                    938
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "region_annotation_context": {
+        "observer_a": {
+          "proposed_partition_status": "Unresolved. Nonexhaustive observable ink envelopes are offered for geometry only. They are not asserted maximal connected components or physical writing units; overlapping envelopes do not establish shared ownership. No complete partition or body count is proposed.",
+          "edge_censoring": "The faint rightward extension may reach source x1710, the right edge shared by Z04 and Z00. Full context therefore cannot recover anything beyond that edge; its endpoint is right-censored or at least uncertain. Other selected components are internal.",
+          "instrumental_limits": "Visual ruler interpolation at native scale only; no calibrated click or tracing tool. Coordinates are estimates, not pixel-exact segmentation. Box uncertainties generally 4–8 native pixels per boundary; paths are approximate center trajectories with comparable or larger error. Very faint ink, background marks, and overlapping dark strokes prevent exact connectivity judgments."
+        },
+        "observer_b": {
+          "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+          "edge_censoring": "The fine rightward extension reaches close to the local and Z00 right source boundary at x1710. A small pale margin is visible, but continuation beyond the supplied full context cannot be ruled out. The dense cluster itself is not visibly cut. Locator boundaries are not used as stroke limits.",
+          "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+        }
+      }
+    },
+    {
+      "coded_region_id": "Z05",
+      "observable_components": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 6,
+          "observer_b_reported_items": 7,
+          "observer_a_valid_boxes": 6,
+          "observer_b_valid_boxes": 7,
+          "matched_pairs": 4,
+          "descriptively_agreeing_pairs": 2,
+          "observer_a_unmatched_valid_boxes": 2,
+          "observer_b_unmatched_valid_boxes": 3,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 2.4400448398143584,
+        "total_matched_iou_exact": "845744363397/346610172730",
+        "pairs": [
+          {
+            "observer_a_id": "Z05-C1",
+            "observer_b_id": "Z05-C1",
+            "observer_a_bbox_xyxy": [
+              510,
+              875,
+              539,
+              930
+            ],
+            "observer_b_bbox_xyxy": [
+              512,
+              878,
+              560,
+              933
+            ],
+            "iou": 0.4959378311550689,
+            "iou_exact": "1404/2831",
+            "boundary_deltas_b_minus_a_px": [
+              2,
+              3,
+              21,
+              3
+            ],
+            "absolute_boundary_deltas_px": [
+              2,
+              3,
+              21,
+              3
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 6,
+            "observer_b_coordinate_uncertainty_px": 8
+          },
+          {
+            "observer_a_id": "Z05-C3",
+            "observer_b_id": "Z05-C2",
+            "observer_a_bbox_xyxy": [
+              556,
+              879,
+              577,
+              912
+            ],
+            "observer_b_bbox_xyxy": [
+              553,
+              880,
+              579,
+              914
+            ],
+            "iou": 0.7425414364640884,
+            "iou_exact": "672/905",
+            "boundary_deltas_b_minus_a_px": [
+              -3,
+              1,
+              2,
+              2
+            ],
+            "absolute_boundary_deltas_px": [
+              3,
+              1,
+              2,
+              2
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z05-C4",
+            "observer_b_id": "Z05-C3",
+            "observer_a_bbox_xyxy": [
+              576,
+              893,
+              598,
+              914
+            ],
+            "observer_b_bbox_xyxy": [
+              578,
+              890,
+              603,
+              916
+            ],
+            "iou": 0.6069364161849711,
+            "iou_exact": "105/173",
+            "boundary_deltas_b_minus_a_px": [
+              2,
+              -3,
+              5,
+              2
+            ],
+            "absolute_boundary_deltas_px": [
+              2,
+              3,
+              5,
+              2
+            ],
+            "descriptive_agreement": true,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z05-C5",
+            "observer_b_id": "Z05-C4",
+            "observer_a_bbox_xyxy": [
+              599,
+              874,
+              630,
+              914
+            ],
+            "observer_b_bbox_xyxy": [
+              600,
+              883,
+              638,
+              916
+            ],
+            "iou": 0.5946291560102301,
+            "iou_exact": "465/782",
+            "boundary_deltas_b_minus_a_px": [
+              1,
+              9,
+              8,
+              2
+            ],
+            "absolute_boundary_deltas_px": [
+              1,
+              9,
+              8,
+              2
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 6,
+            "observer_b_coordinate_uncertainty_px": 8
+          }
+        ],
+        "observer_a_unmatched": [
+          {
+            "id": "Z05-C2",
+            "bbox_xyxy": [
+              534,
+              892,
+              560,
+              929
+            ],
+            "coordinate_uncertainty_px": 6,
+            "geometric_description": "Second-row compact upper loop with a curved descent and lower turn immediately right of C1; its upper-left approach is close to C1’s branch."
+          },
+          {
+            "id": "Z05-C6",
+            "bbox_xyxy": [
+              558,
+              931,
+              586,
+              970
+            ],
+            "coordinate_uncertainty_px": 7,
+            "geometric_description": "Next-row diagonal and crossing curves near the locator bottom; the long lower reach extends beyond the locator and is retained in this envelope."
+          }
+        ],
+        "observer_b_unmatched": [
+          {
+            "id": "Z05-C5",
+            "bbox_xyxy": [
+              594,
+              844,
+              627,
+              889
+            ],
+            "coordinate_uncertainty_px": 8,
+            "geometric_description": "Upper-row rounded body and curved descending return; included above the locator to preserve the approach to C4."
+          },
+          {
+            "id": "Z05-C6",
+            "bbox_xyxy": [
+              607,
+              930,
+              634,
+              971
+            ],
+            "coordinate_uncertainty_px": 7,
+            "geometric_description": "Next-row crossing strokes with a descending oblique return. Included beyond the locator bottom to preserve the stroke."
+          },
+          {
+            "id": "Z05-C7",
+            "bbox_xyxy": [
+              630,
+              934,
+              652,
+              957
+            ],
+            "coordinate_uncertainty_px": 7,
+            "geometric_description": "Small next-row curved portion to the right of C6; the apparent connection at their closest approach is uncertain."
+          }
+        ],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": []
+      },
+      "junctions": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 2,
+          "observer_b_reported_items": 3,
+          "observer_a_valid_boxes": 2,
+          "observer_b_valid_boxes": 3,
+          "matched_pairs": 1,
+          "descriptively_agreeing_pairs": 0,
+          "observer_a_unmatched_valid_boxes": 1,
+          "observer_b_unmatched_valid_boxes": 2,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 0.39820359281437123,
+        "total_matched_iou_exact": "133/334",
+        "pairs": [
+          {
+            "observer_a_id": "Z05-J1",
+            "observer_b_id": "Z05-J1",
+            "observer_a_bbox_xyxy": [
+              519,
+              895,
+              551,
+              914
+            ],
+            "observer_b_bbox_xyxy": [
+              523,
+              891,
+              558,
+              927
+            ],
+            "iou": 0.39820359281437123,
+            "iou_exact": "133/334",
+            "boundary_deltas_b_minus_a_px": [
+              4,
+              -4,
+              7,
+              13
+            ],
+            "absolute_boundary_deltas_px": [
+              4,
+              4,
+              7,
+              13
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          }
+        ],
+        "observer_a_unmatched": [
+          {
+            "id": "Z05-J2",
+            "bbox_xyxy": [
+              558,
+              934,
+              585,
+              960
+            ],
+            "stroke_paths_xy": [],
+            "observed_relation": "Two diagonally oriented portions of C6 meet in a dark central patch in the next row.",
+            "alternative_ownerships": [
+              "One continuous bent trajectory with an added branch.",
+              "Crossing or overlapping trajectories with independent continuations."
+            ],
+            "ownership_resolved": false,
+            "reason": "The dense crossing does not allow a unique centerline or continuation; no path is forced."
+          }
+        ],
+        "observer_b_unmatched": [
+          {
+            "id": "Z05-J2",
+            "bbox_xyxy": [
+              593,
+              891,
+              613,
+              917
+            ],
+            "stroke_paths_xy": [],
+            "observed_relation": "The right side of C3 approaches or touches the left side of C4.",
+            "alternative_ownerships": [
+              "Separate nearby lower-row strokes.",
+              "Joined low baseline continuation."
+            ],
+            "ownership_resolved": false,
+            "reason": "The pale gap/contact is too narrow for reliable manual connectivity determination."
+          },
+          {
+            "id": "Z05-J3",
+            "bbox_xyxy": [
+              600,
+              875,
+              632,
+              902
+            ],
+            "stroke_paths_xy": [],
+            "observed_relation": "Upper-row descending C5 ends above or near the high part of C4.",
+            "alternative_ownerships": [
+              "Upper-row return separated from the middle row by a pale interval.",
+              "A descending return contacting a separate middle-row stroke."
+            ],
+            "ownership_resolved": false,
+            "reason": "Row proximity does not establish ownership; exact end positions are uncertain."
+          }
+        ],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": [],
+        "qualitative_ownership_records": {
+          "observer_a": [
+            {
+              "id": "Z05-J1",
+              "observed_relation": "C1’s short branch approaches the upper loop in C2 at approximately the same height.",
+              "alternative_ownerships": [
+                "C1 and C2 are connected by a short transverse stroke.",
+                "C1’s branch terminates just before or overlaps C2’s independent loop."
+              ],
+              "ownership_resolved": false,
+              "reason": "Apparent adjacency is visible but exact contact and stroke ownership are not secure at native display resolution.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    520,
+                    903
+                  ],
+                  [
+                    530,
+                    905
+                  ],
+                  [
+                    542,
+                    904
+                  ]
+                ]
+              ]
+            },
+            {
+              "id": "Z05-J2",
+              "observed_relation": "Two diagonally oriented portions of C6 meet in a dark central patch in the next row.",
+              "alternative_ownerships": [
+                "One continuous bent trajectory with an added branch.",
+                "Crossing or overlapping trajectories with independent continuations."
+              ],
+              "ownership_resolved": false,
+              "reason": "The dense crossing does not allow a unique centerline or continuation; no path is forced.",
+              "stroke_paths_xy": []
+            }
+          ],
+          "observer_b": [
+            {
+              "id": "Z05-J1",
+              "observed_relation": "The tall loop/return and low rightward rounded part in C1 meet around their upper/middle levels.",
+              "alternative_ownerships": [
+                "One loop continuing into a low rightward curve.",
+                "Separate strokes touching at the narrow crossing.",
+                "A return from one stroke passes across another low body."
+              ],
+              "ownership_resolved": false,
+              "reason": "The junction is darker than the flanking strokes, preventing unique trajectory assignment. No polyline through it is claimed.",
+              "stroke_paths_xy": []
+            },
+            {
+              "id": "Z05-J2",
+              "observed_relation": "The right side of C3 approaches or touches the left side of C4.",
+              "alternative_ownerships": [
+                "Separate nearby lower-row strokes.",
+                "Joined low baseline continuation."
+              ],
+              "ownership_resolved": false,
+              "reason": "The pale gap/contact is too narrow for reliable manual connectivity determination.",
+              "stroke_paths_xy": []
+            },
+            {
+              "id": "Z05-J3",
+              "observed_relation": "Upper-row descending C5 ends above or near the high part of C4.",
+              "alternative_ownerships": [
+                "Upper-row return separated from the middle row by a pale interval.",
+                "A descending return contacting a separate middle-row stroke."
+              ],
+              "ownership_resolved": false,
+              "reason": "Row proximity does not establish ownership; exact end positions are uncertain.",
+              "stroke_paths_xy": []
+            }
+          ]
+        }
+      },
+      "region_annotation_context": {
+        "observer_a": {
+          "proposed_partition_status": "Unresolved. Nonexhaustive observable ink envelopes are offered for geometry only. They are not asserted maximal connected components or physical writing units; overlapping envelopes do not establish shared ownership. No complete partition or body count is proposed.",
+          "edge_censoring": "No selected envelope reaches the local PNG edge. C1–C2 include descents below their main row, and C6 extends below the locator. Z00 context was inspected; nearby upper-row descents and lower-row ink are not exhaustively partitioned.",
+          "instrumental_limits": "Visual ruler interpolation at native scale only; no calibrated click or tracing tool. Coordinates are estimates, not pixel-exact segmentation. Box uncertainties generally 4–8 native pixels per boundary; paths are approximate center trajectories with comparable or larger error. Very faint ink, background marks, and overlapping dark strokes prevent exact connectivity judgments."
+        },
+        "observer_b": {
+          "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+          "edge_censoring": "The upper-row return and next-row descending stroke extend outside the locator and are included. No annotated envelope is cut by a local source edge. Neighboring material at local side edges is not exhaustively partitioned; Z00 provides wider context.",
+          "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+        }
+      }
+    },
+    {
+      "coded_region_id": "Z06",
+      "observable_components": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 5,
+          "observer_b_reported_items": 5,
+          "observer_a_valid_boxes": 5,
+          "observer_b_valid_boxes": 5,
+          "matched_pairs": 4,
+          "descriptively_agreeing_pairs": 0,
+          "observer_a_unmatched_valid_boxes": 1,
+          "observer_b_unmatched_valid_boxes": 1,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 1.8555003403982542,
+        "total_matched_iou_exact": "2480299927/1336728360",
+        "pairs": [
+          {
+            "observer_a_id": "Z06-C1",
+            "observer_b_id": "Z06-C3",
+            "observer_a_bbox_xyxy": [
+              1556,
+              880,
+              1595,
+              917
+            ],
+            "observer_b_bbox_xyxy": [
+              1550,
+              883,
+              1581,
+              918
+            ],
+            "iou": 0.5065554231227652,
+            "iou_exact": "425/839",
+            "boundary_deltas_b_minus_a_px": [
+              -6,
+              3,
+              -14,
+              1
+            ],
+            "absolute_boundary_deltas_px": [
+              6,
+              3,
+              14,
+              1
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 7,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z06-C2",
+            "observer_b_id": "Z06-C4",
+            "observer_a_bbox_xyxy": [
+              1596,
+              895,
+              1618,
+              920
+            ],
+            "observer_b_bbox_xyxy": [
+              1580,
+              891,
+              1603,
+              921
+            ],
+            "iou": 0.1643192488262911,
+            "iou_exact": "35/213",
+            "boundary_deltas_b_minus_a_px": [
+              -16,
+              -4,
+              -15,
+              1
+            ],
+            "absolute_boundary_deltas_px": [
+              16,
+              4,
+              15,
+              1
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 5,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z06-C3",
+            "observer_b_id": "Z06-C2",
+            "observer_a_bbox_xyxy": [
+              1550,
+              935,
+              1578,
+              975
+            ],
+            "observer_b_bbox_xyxy": [
+              1538,
+              935,
+              1573,
+              975
+            ],
+            "iou": 0.575,
+            "iou_exact": "23/40",
+            "boundary_deltas_b_minus_a_px": [
+              -12,
+              0,
+              -5,
+              0
+            ],
+            "absolute_boundary_deltas_px": [
+              12,
+              0,
+              5,
+              0
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 6,
+            "observer_b_coordinate_uncertainty_px": 7
+          },
+          {
+            "observer_a_id": "Z06-C4",
+            "observer_b_id": "Z06-C1",
+            "observer_a_bbox_xyxy": [
+              1577,
+              922,
+              1620,
+              958
+            ],
+            "observer_b_bbox_xyxy": [
+              1567,
+              918,
+              1615,
+              961
+            ],
+            "iou": 0.6096256684491979,
+            "iou_exact": "114/187",
+            "boundary_deltas_b_minus_a_px": [
+              -10,
+              -4,
+              -5,
+              3
+            ],
+            "absolute_boundary_deltas_px": [
+              10,
+              4,
+              5,
+              3
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": 7,
+            "observer_b_coordinate_uncertainty_px": 8
+          }
+        ],
+        "observer_a_unmatched": [
+          {
+            "id": "Z06-C5",
+            "bbox_xyxy": [
+              1575,
+              978,
+              1606,
+              1012
+            ],
+            "coordinate_uncertainty_px": 6,
+            "geometric_description": "Next-row angular rising contour over a low broad base. It extends below the locator; nearby curved ink to its left is not partitioned here."
+          }
+        ],
+        "observer_b_unmatched": [
+          {
+            "id": "Z06-C5",
+            "bbox_xyxy": [
+              1617,
+              925,
+              1688,
+              963
+            ],
+            "coordinate_uncertainty_px": 8,
+            "geometric_description": "Right neighboring lower-row dense envelope of successive rounded humps and oblique returns. Included as contextual envelope; overlaps the region represented in Z04."
+          }
+        ],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": []
+      },
+      "junctions": {
+        "field_state": {
+          "observer_a": "list",
+          "observer_b": "list"
+        },
+        "counts": {
+          "observer_a_reported_items": 1,
+          "observer_b_reported_items": 3,
+          "observer_a_valid_boxes": 1,
+          "observer_b_valid_boxes": 3,
+          "matched_pairs": 1,
+          "descriptively_agreeing_pairs": 0,
+          "observer_a_unmatched_valid_boxes": 0,
+          "observer_b_unmatched_valid_boxes": 2,
+          "observer_a_missing_or_null_boxes": 0,
+          "observer_b_missing_or_null_boxes": 0
+        },
+        "denominator_note": "Reported item, valid-box, matched-pair, unmatched-box and missing/null-box counts are separate annotation denominators, not physical-symbol counts.",
+        "total_matched_iou": 0.3983533882203927,
+        "total_matched_iou_exact": "629/1579",
+        "pairs": [
+          {
+            "observer_a_id": "Z06-J1",
+            "observer_b_id": "Z06-J1",
+            "observer_a_bbox_xyxy": [
+              1577,
+              932,
+              1621,
+              955
+            ],
+            "observer_b_bbox_xyxy": [
+              1568,
+              923,
+              1614,
+              949
+            ],
+            "iou": 0.3983533882203927,
+            "iou_exact": "629/1579",
+            "boundary_deltas_b_minus_a_px": [
+              -9,
+              -9,
+              -7,
+              -6
+            ],
+            "absolute_boundary_deltas_px": [
+              9,
+              9,
+              7,
+              6
+            ],
+            "descriptive_agreement": false,
+            "observer_a_coordinate_uncertainty_px": null,
+            "observer_b_coordinate_uncertainty_px": null
+          }
+        ],
+        "observer_a_unmatched": [],
+        "observer_b_unmatched": [
+          {
+            "id": "Z06-J2",
+            "bbox_xyxy": [
+              1577,
+              939,
+              1604,
+              963
+            ],
+            "stroke_paths_xy": [],
+            "observed_relation": "Lower folded strokes of C1 share a dark compact contact below the bar.",
+            "alternative_ownerships": [
+              "One folded continuous trajectory.",
+              "Two neighboring strokes touching or overlapping."
+            ],
+            "ownership_resolved": false,
+            "reason": "The internal route is not uniquely traceable; no forced split or body count."
+          },
+          {
+            "id": "Z06-J3",
+            "bbox_xyxy": [
+              1603,
+              935,
+              1630,
+              960
+            ],
+            "stroke_paths_xy": [],
+            "observed_relation": "Right edge of C1 and leftmost low curve of C5 are close at the same row level.",
+            "alternative_ownerships": [
+              "Separate clusters with a pale gap.",
+              "Fine connecting stroke below visibility at this display."
+            ],
+            "ownership_resolved": false,
+            "reason": "A pale interval appears present, but exact connectivity is not established instrumentally."
+          }
+        ],
+        "observer_a_missing_or_null_boxes": [],
+        "observer_b_missing_or_null_boxes": [],
+        "qualitative_ownership_records": {
+          "observer_a": [
+            {
+              "id": "Z06-J1",
+              "observed_relation": "The crosswise stroke in C4 passes through or across two close upright/return portions.",
+              "alternative_ownerships": [
+                "One shared continuous bar connects both upright portions.",
+                "A terminal or cross-stroke from one portion overlaps an independent neighboring contour.",
+                "Two nearly coincident short bars merge visually."
+              ],
+              "ownership_resolved": false,
+              "reason": "A broad bar is visible, but its thick intersections conceal endpoints and ordering. The path follows only its approximate horizontal direction.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    1581,
+                    941
+                  ],
+                  [
+                    1593,
+                    938
+                  ],
+                  [
+                    1607,
+                    938
+                  ],
+                  [
+                    1616,
+                    938
+                  ]
+                ]
+              ]
+            }
+          ],
+          "observer_b": [
+            {
+              "id": "Z06-J1",
+              "observed_relation": "The high shallow bar in C1 crosses/joins a taller slant and extends over a shorter folded right-hand portion.",
+              "alternative_ownerships": [
+                "A single trajectory with a long crosswise return.",
+                "A bar from the taller left portion crosses a separate right portion.",
+                "An independently drawn bar contacts multiple lower strokes."
+              ],
+              "ownership_resolved": false,
+              "reason": "The bar is approximately traceable, but its ownership and drawing sequence cannot be determined.",
+              "stroke_paths_xy": [
+                [
+                  [
+                    1569,
+                    936
+                  ],
+                  [
+                    1584,
+                    934
+                  ],
+                  [
+                    1598,
+                    934
+                  ],
+                  [
+                    1610,
+                    935
+                  ]
+                ]
+              ]
+            },
+            {
+              "id": "Z06-J2",
+              "observed_relation": "Lower folded strokes of C1 share a dark compact contact below the bar.",
+              "alternative_ownerships": [
+                "One folded continuous trajectory.",
+                "Two neighboring strokes touching or overlapping."
+              ],
+              "ownership_resolved": false,
+              "reason": "The internal route is not uniquely traceable; no forced split or body count.",
+              "stroke_paths_xy": []
+            },
+            {
+              "id": "Z06-J3",
+              "observed_relation": "Right edge of C1 and leftmost low curve of C5 are close at the same row level.",
+              "alternative_ownerships": [
+                "Separate clusters with a pale gap.",
+                "Fine connecting stroke below visibility at this display."
+              ],
+              "ownership_resolved": false,
+              "reason": "A pale interval appears present, but exact connectivity is not established instrumentally.",
+              "stroke_paths_xy": []
+            }
+          ]
+        }
+      },
+      "region_annotation_context": {
+        "observer_a": {
+          "proposed_partition_status": "Unresolved. Nonexhaustive observable ink envelopes are offered for geometry only. They are not asserted maximal connected components or physical writing units; overlapping envelopes do not establish shared ownership. No complete partition or body count is proposed.",
+          "edge_censoring": "No selected envelope touches the local PNG boundary. C1 extends above the locator and C5 below it. C4 ends near the locator’s right edge; adjacent rounded ink continuing to its right is retained in Z04’s wider chain envelope, without imposing a boundary at x1621. Z00 full context was inspected.",
+          "instrumental_limits": "Visual ruler interpolation at native scale only; no calibrated click or tracing tool. Coordinates are estimates, not pixel-exact segmentation. Box uncertainties generally 4–8 native pixels per boundary; paths are approximate center trajectories with comparable or larger error. Very faint ink, background marks, and overlapping dark strokes prevent exact connectivity judgments."
+        },
+        "observer_b": {
+          "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+          "edge_censoring": "The locator cuts through neighboring ink on both sides; contextual envelopes extend beyond it. C1 itself does not contact a local source edge. C5 is not used to infer continuation beyond the Z00 right edge.",
+          "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+        }
+      }
+    }
+  ],
+  "aggregate_counts": {
+    "observable_components": {
+      "observer_a_reported_items": 30,
+      "observer_b_reported_items": 34,
+      "observer_a_valid_boxes": 30,
+      "observer_b_valid_boxes": 34,
+      "matched_pairs": 27,
+      "descriptively_agreeing_pairs": 12,
+      "observer_a_unmatched_valid_boxes": 3,
+      "observer_b_unmatched_valid_boxes": 7,
+      "observer_a_missing_or_null_boxes": 0,
+      "observer_b_missing_or_null_boxes": 0
+    },
+    "junctions": {
+      "observer_a_reported_items": 11,
+      "observer_b_reported_items": 14,
+      "observer_a_valid_boxes": 11,
+      "observer_b_valid_boxes": 14,
+      "matched_pairs": 10,
+      "descriptively_agreeing_pairs": 3,
+      "observer_a_unmatched_valid_boxes": 1,
+      "observer_b_unmatched_valid_boxes": 4,
+      "observer_a_missing_or_null_boxes": 0,
+      "observer_b_missing_or_null_boxes": 0
+    }
+  },
+  "input_sha256": {
+    "protocol": "eb1b5cfb7a376f7c43602b36f4813c719712f3f32946170e81b6f21bb442e150",
+    "observer_manifest": "060a9ba39bd49500ffa3fe755ddc1132485c1c2f43f545faff0cac2df77126eb",
+    "observer_a": "41de5cb6a9dd6285aeb6533fa5d3b54b5bbb4eb717364d2800f36fb792f50895",
+    "observer_b": "72b4731050b081cbc8150f333c89b498513beceab1c1cbda3367843b4c6ec725",
+    "evaluator": "244dc0f020717849e309e1812197d2fa37cb057befb878632509e85d7682e339"
+  },
+  "schema_notes": {
+    "observer_a": [],
+    "observer_b": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "two-observer-freeze-receipt-v1",
+  "parent_verified_utc": "2026-10-11T02:50:08Z",
+  "protocol_sha256": "eb1b5cfb7a376f7c43602b36f4813c719712f3f32946170e81b6f21bb442e150",
+  "manifest_sha256": "060a9ba39bd49500ffa3fe755ddc1132485c1c2f43f545faff0cac2df77126eb",
+  "observers": [
+    {
+      "id": "O1",
+      "file": "observer-O1.json",
+      "frozen_utc": "2026-10-11T02:48:52Z",
+      "sha256": "41de5cb6a9dd6285aeb6533fa5d3b54b5bbb4eb717364d2800f36fb792f50895"
+    },
+    {
+      "id": "O2",
+      "file": "observer-O2.json",
+      "frozen_utc": "2026-10-11T02:49:50Z",
+      "sha256": "72b4731050b081cbc8150f333c89b498513beceab1c1cbda3367843b4c6ec725"
+    }
+  ],
+  "cross_reading_or_scoring_before_both_freezes": false,
+  "exposure": "Fresh contexts instructed to read only neutral native views and manifest; shared filesystem restrictions are procedural, not certified isolation. Observers are AI on the same model family, not independent human experts.",
+  "unchanged": "Neither observer output is amended after its freeze."
+}

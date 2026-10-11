@@ -1,0 +1,747 @@
+{
+  "observer_id": "O2",
+  "manifest_sha256": "060a9ba39bd49500ffa3fe755ddc1132485c1c2f43f545faff0cac2df77126eb",
+  "annotation_started_utc": "2026-10-11T02:46:03Z",
+  "frozen_utc": "2026-10-11T02:49:50Z",
+  "exposure_statement": "Only manifest.json and its listed Z00 through Z06 raw/ruler PNGs were read as task evidence. All fourteen images were visually inspected at detail original, with no cropping, resizing, modification, source identification, class inference, network access, or access to other annotations. Manifest and listed PNG SHA256 values were verified. This is an independent geometric observation; no expected count was used.",
+  "instrumental_limit": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated.",
+  "regions": [
+    {
+      "coded_region_id": "Z01",
+      "observable_components": [
+        {
+          "id": "Z01-C1",
+          "bbox_xyxy": [
+            992,
+            920,
+            1038,
+            986
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Tall oblique loop with a thicker crossing near its middle and a descending lower return. Included beyond the left locator edge for context."
+        },
+        {
+          "id": "Z01-C2",
+          "bbox_xyxy": [
+            1040,
+            938,
+            1077,
+            965
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Low undulating dark stroke with several humps, separated by visible pale space from the tall loop on its left."
+        },
+        {
+          "id": "Z01-C3",
+          "bbox_xyxy": [
+            1074,
+            935,
+            1127,
+            966
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Dense lower-row envelope: hooked left portion and a heavier rounded/diagonal portion to the right. The small internal contact cannot establish independent writing units."
+        },
+        {
+          "id": "Z01-C4",
+          "bbox_xyxy": [
+            1108,
+            878,
+            1168,
+            946
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Upper-row tall loop/descending stroke and rightward bent extension. Its lower tip approaches or contacts Z01-C3; this envelope overlaps C3 at the uncertain cross-row meeting."
+        },
+        {
+          "id": "Z01-C5",
+          "bbox_xyxy": [
+            1122,
+            937,
+            1145,
+            965
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Short lower-row diagonal/upright strokes with a low nearly horizontal foot; possible left-edge contact with C3 is unresolved."
+        },
+        {
+          "id": "Z01-C6",
+          "bbox_xyxy": [
+            1155,
+            962,
+            1171,
+            975
+          ],
+          "coordinate_uncertainty_px": 5,
+          "geometric_description": "Small dark spot to the right of the lower-row cluster; no extended stroke confidently attached."
+        }
+      ],
+      "junctions": [
+        {
+          "id": "Z01-J1",
+          "bbox_xyxy": [
+            1096,
+            922,
+            1131,
+            952
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "The descending end of Z01-C4 meets the upper/right portion of Z01-C3 at a dark narrowed region.",
+          "alternative_ownerships": [
+            "The descending stroke belongs with the upper-row loop and merely meets lower-row ink.",
+            "The descending segment and lower rounded ink form one continuous trajectory.",
+            "Several strokes overlie one another at the meeting."
+          ],
+          "ownership_resolved": false,
+          "reason": "Contact appearance does not resolve stroke order or ownership. The pale printed background further limits fine boundary judgment."
+        },
+        {
+          "id": "Z01-J2",
+          "bbox_xyxy": [
+            1072,
+            939,
+            1104,
+            966
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "The low hooked part and heavier right part within Z01-C3 approach or join near the baseline.",
+          "alternative_ownerships": [
+            "One continuous lower-row sweep.",
+            "Two lower-row strokes touching or overlapping."
+          ],
+          "ownership_resolved": false,
+          "reason": "I cannot trace a unique centerline through the dark contact; abstain from a split."
+        }
+      ],
+      "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+      "edge_censoring": "Significant left tall stroke and upper descending stroke extend beyond the locator and are included. The annotated envelopes do not reach the local source rectangle edges. Other neighboring writing is cut by local side edges; Z00 supplies context but is not partitioned.",
+      "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+    },
+    {
+      "coded_region_id": "Z02",
+      "observable_components": [
+        {
+          "id": "Z02-C1",
+          "bbox_xyxy": [
+            1113,
+            984,
+            1159,
+            1051
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Vertically extended ink envelope: a small rounded upper opening with a sloping descending return and several tightly folded lower curves. It spans the apparent upper and lower row levels; this is not evidence of one writing unit."
+        },
+        {
+          "id": "Z02-C2",
+          "bbox_xyxy": [
+            1140,
+            1013,
+            1190,
+            1070
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Narrow tall lower-row loop with a descending pointed return and a rightward bent extension. It approaches C1 along its upper-left side."
+        },
+        {
+          "id": "Z02-C3",
+          "bbox_xyxy": [
+            1190,
+            1026,
+            1215,
+            1057
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Short lower-row undulating/angled stroke immediately to the right of C2."
+        },
+        {
+          "id": "Z02-C4",
+          "bbox_xyxy": [
+            1217,
+            1023,
+            1239,
+            1056
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Compact upright curved stroke, with two rightward bulges and a low leftward turn."
+        },
+        {
+          "id": "Z02-C5",
+          "bbox_xyxy": [
+            1154,
+            987,
+            1174,
+            1017
+          ],
+          "coordinate_uncertainty_px": 6,
+          "geometric_description": "Compact upper-row curved ink to the right of C1; a pale interval appears between their main bodies."
+        }
+      ],
+      "junctions": [
+        {
+          "id": "Z02-J1",
+          "bbox_xyxy": [
+            1117,
+            1009,
+            1157,
+            1048
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "The sloping return from the upper portion of C1 meets multiple lower curves.",
+          "alternative_ownerships": [
+            "Upper-row descending return crossing separate lower-row curves.",
+            "A continuous folded stroke spanning the two row levels.",
+            "More than two strokes superposed in the dark lower region."
+          ],
+          "ownership_resolved": false,
+          "reason": "Several plausible routes traverse the same ink envelope; neither row assignment nor a unique path is resolved."
+        },
+        {
+          "id": "Z02-J2",
+          "bbox_xyxy": [
+            1134,
+            1022,
+            1162,
+            1048
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "The right side of C1 approaches the rising/descending portion of C2.",
+          "alternative_ownerships": [
+            "Separate neighboring strokes with a very small pale gap.",
+            "Touching or crossing trajectories belonging to different row-relative components.",
+            "A shared continuation across the apparent boundary."
+          ],
+          "ownership_resolved": false,
+          "reason": "Native visual inspection is insufficient to establish exact connectivity; no forced boundary or centerline."
+        }
+      ],
+      "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+      "edge_censoring": "C2 extends below the locator to preserve its narrow return; C1 includes the upper rounded part above the locator. None of these envelopes is censored by the local source edges. Z00 was inspected for row context.",
+      "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+    },
+    {
+      "coded_region_id": "Z03",
+      "observable_components": [
+        {
+          "id": "Z03-C1",
+          "bbox_xyxy": [
+            793,
+            878,
+            832,
+            911
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Middle-row broad curved body and an ascending diagonal with a short top extension."
+        },
+        {
+          "id": "Z03-C2",
+          "bbox_xyxy": [
+            832,
+            885,
+            854,
+            912
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Narrow upright curved ink immediately right of C1, with separated upper and lower outward bends."
+        },
+        {
+          "id": "Z03-C3",
+          "bbox_xyxy": [
+            853,
+            885,
+            876,
+            911
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Small rounded upper bend and low angled return."
+        },
+        {
+          "id": "Z03-C4",
+          "bbox_xyxy": [
+            875,
+            889,
+            897,
+            913
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Short middle-row rising/falling dark strokes with a low foot."
+        },
+        {
+          "id": "Z03-C5",
+          "bbox_xyxy": [
+            793,
+            890,
+            925,
+            930
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Long shallow lower bar and the right rounded descending return which appears to feed into it. The envelope includes a large pale interior; it is a connected-looking route, not a filled body or a unit partition."
+        },
+        {
+          "id": "Z03-C6",
+          "bbox_xyxy": [
+            825,
+            924,
+            852,
+            957
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Next-row tall diagonal/loop and compact heavier base, just below the bar; included because the locator overlaps its upper portion."
+        },
+        {
+          "id": "Z03-C7",
+          "bbox_xyxy": [
+            842,
+            842,
+            876,
+            884
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Upper-row diagonal descending stroke with a short high horizontal/curved extension; context above the locator."
+        }
+      ],
+      "junctions": [
+        {
+          "id": "Z03-J1",
+          "bbox_xyxy": [
+            890,
+            905,
+            924,
+            931
+          ],
+          "stroke_paths_xy": [
+            [
+              [
+                797,
+                918
+              ],
+              [
+                817,
+                922
+              ],
+              [
+                849,
+                923
+              ],
+              [
+                878,
+                923
+              ],
+              [
+                911,
+                925
+              ]
+            ]
+          ],
+          "observed_relation": "Rightmost rounded return in C5 approaches the long shallow bar from above.",
+          "alternative_ownerships": [
+            "The bar is the continuation of the right rounded stroke.",
+            "The bar is an independent stroke touching the descending return.",
+            "Overlapping strokes share the dark right-hand junction."
+          ],
+          "ownership_resolved": false,
+          "reason": "The long bar is traceable away from the junction, but origin and stroke ownership are not."
+        },
+        {
+          "id": "Z03-J2",
+          "bbox_xyxy": [
+            820,
+            917,
+            855,
+            941
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "The lower-row rising tip C6 lies immediately below the long bar C5.",
+          "alternative_ownerships": [
+            "Separate lower-row stroke with a narrow pale interval.",
+            "Incidental contact with the bar from the row above."
+          ],
+          "ownership_resolved": false,
+          "reason": "A single shared envelope would not establish stroke ownership; abstain from asserting connectivity at the closest approach."
+        }
+      ],
+      "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+      "edge_censoring": "The long bar extends left of the locator and the right return extends slightly right; both are preserved. C6 and C7 extend beyond the locator vertically. No annotated envelope touches the local source edges.",
+      "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+    },
+    {
+      "coded_region_id": "Z04",
+      "observable_components": [
+        {
+          "id": "Z04-C1",
+          "bbox_xyxy": [
+            1617,
+            925,
+            1688,
+            963
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Dense connected-looking lower-row envelope with successive low rounded humps, rising oblique segments, and short high returns. Internal dark contacts prevent a reliable decomposition into independent trajectories."
+        },
+        {
+          "id": "Z04-C2",
+          "bbox_xyxy": [
+            1681,
+            935,
+            1705,
+            947
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Fine shallow stroke extending rightward from near C1; its junction with the heavier cluster is uncertain."
+        },
+        {
+          "id": "Z04-C3",
+          "bbox_xyxy": [
+            1616,
+            893,
+            1647,
+            919
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Upper neighboring row: low undulating stroke with short rising branches, partly inside the locator vertically."
+        },
+        {
+          "id": "Z04-C4",
+          "bbox_xyxy": [
+            1646,
+            890,
+            1670,
+            918
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Upper neighboring row: short angled/upward stroke and heavier low horizontal foot."
+        }
+      ],
+      "junctions": [
+        {
+          "id": "Z04-J1",
+          "bbox_xyxy": [
+            1630,
+            930,
+            1679,
+            963
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "Within C1, rising obliques and lower rounded lobes meet in several heavy dark regions.",
+          "alternative_ownerships": [
+            "One continuous sequence of rising strokes and lower returns.",
+            "Several neighboring strokes joined by touching or overlapping returns.",
+            "A high return from one neighboring portion crosses the low body of another."
+          ],
+          "ownership_resolved": false,
+          "reason": "A precise body count or division is unsupported. No unique polyline through the dense body is supplied."
+        },
+        {
+          "id": "Z04-J2",
+          "bbox_xyxy": [
+            1676,
+            936,
+            1692,
+            953
+          ],
+          "stroke_paths_xy": [
+            [
+              [
+                1684,
+                943
+              ],
+              [
+                1692,
+                941
+              ],
+              [
+                1701,
+                938
+              ]
+            ]
+          ],
+          "observed_relation": "The fine rightward C2 approaches the rightmost heavier part of C1.",
+          "alternative_ownerships": [
+            "Terminal continuation of the heavy cluster.",
+            "Independent short line touching the cluster.",
+            "Small pale gap between the line and heavy ink."
+          ],
+          "ownership_resolved": false,
+          "reason": "The line direction is visible, while its exact attachment is not."
+        }
+      ],
+      "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+      "edge_censoring": "The fine rightward extension reaches close to the local and Z00 right source boundary at x1710. A small pale margin is visible, but continuation beyond the supplied full context cannot be ruled out. The dense cluster itself is not visibly cut. Locator boundaries are not used as stroke limits.",
+      "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+    },
+    {
+      "coded_region_id": "Z05",
+      "observable_components": [
+        {
+          "id": "Z05-C1",
+          "bbox_xyxy": [
+            512,
+            878,
+            560,
+            933
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Tall narrow loop/descending return on the left and a low rounded return to its right. Their connecting region is dense; the shared envelope is not an asserted writing unit."
+        },
+        {
+          "id": "Z05-C2",
+          "bbox_xyxy": [
+            553,
+            880,
+            579,
+            914
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Short upright/oblique stroke crossing a short approximately horizontal segment."
+        },
+        {
+          "id": "Z05-C3",
+          "bbox_xyxy": [
+            578,
+            890,
+            603,
+            916
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Low curved/angled stroke with a raised left portion and baseline turn."
+        },
+        {
+          "id": "Z05-C4",
+          "bbox_xyxy": [
+            600,
+            883,
+            638,
+            916
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Rounded lower body with a rising right-side sweep and short high extension; its left boundary approaches C3."
+        },
+        {
+          "id": "Z05-C5",
+          "bbox_xyxy": [
+            594,
+            844,
+            627,
+            889
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Upper-row rounded body and curved descending return; included above the locator to preserve the approach to C4."
+        },
+        {
+          "id": "Z05-C6",
+          "bbox_xyxy": [
+            607,
+            930,
+            634,
+            971
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Next-row crossing strokes with a descending oblique return. Included beyond the locator bottom to preserve the stroke."
+        },
+        {
+          "id": "Z05-C7",
+          "bbox_xyxy": [
+            630,
+            934,
+            652,
+            957
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Small next-row curved portion to the right of C6; the apparent connection at their closest approach is uncertain."
+        }
+      ],
+      "junctions": [
+        {
+          "id": "Z05-J1",
+          "bbox_xyxy": [
+            523,
+            891,
+            558,
+            927
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "The tall loop/return and low rightward rounded part in C1 meet around their upper/middle levels.",
+          "alternative_ownerships": [
+            "One loop continuing into a low rightward curve.",
+            "Separate strokes touching at the narrow crossing.",
+            "A return from one stroke passes across another low body."
+          ],
+          "ownership_resolved": false,
+          "reason": "The junction is darker than the flanking strokes, preventing unique trajectory assignment. No polyline through it is claimed."
+        },
+        {
+          "id": "Z05-J2",
+          "bbox_xyxy": [
+            593,
+            891,
+            613,
+            917
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "The right side of C3 approaches or touches the left side of C4.",
+          "alternative_ownerships": [
+            "Separate nearby lower-row strokes.",
+            "Joined low baseline continuation."
+          ],
+          "ownership_resolved": false,
+          "reason": "The pale gap/contact is too narrow for reliable manual connectivity determination."
+        },
+        {
+          "id": "Z05-J3",
+          "bbox_xyxy": [
+            600,
+            875,
+            632,
+            902
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "Upper-row descending C5 ends above or near the high part of C4.",
+          "alternative_ownerships": [
+            "Upper-row return separated from the middle row by a pale interval.",
+            "A descending return contacting a separate middle-row stroke."
+          ],
+          "ownership_resolved": false,
+          "reason": "Row proximity does not establish ownership; exact end positions are uncertain."
+        }
+      ],
+      "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+      "edge_censoring": "The upper-row return and next-row descending stroke extend outside the locator and are included. No annotated envelope is cut by a local source edge. Neighboring material at local side edges is not exhaustively partitioned; Z00 provides wider context.",
+      "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+    },
+    {
+      "coded_region_id": "Z06",
+      "observable_components": [
+        {
+          "id": "Z06-C1",
+          "bbox_xyxy": [
+            1567,
+            918,
+            1615,
+            961
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Connected-looking lower-row cluster consisting of a short nearly horizontal high bar, a taller slanting stem, and lower folded/rounded ink to its right. Individual writing units are not asserted."
+        },
+        {
+          "id": "Z06-C2",
+          "bbox_xyxy": [
+            1538,
+            935,
+            1573,
+            975
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Left neighbor with a small rounded upper opening and a long curved descending return. Included left of the locator to retain the nearby stroke."
+        },
+        {
+          "id": "Z06-C3",
+          "bbox_xyxy": [
+            1550,
+            883,
+            1581,
+            918
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Upper neighboring row: taller angled stroke with a low rounded return, partially overlapping the locator vertically."
+        },
+        {
+          "id": "Z06-C4",
+          "bbox_xyxy": [
+            1580,
+            891,
+            1603,
+            921
+          ],
+          "coordinate_uncertainty_px": 7,
+          "geometric_description": "Upper neighboring row: compact rounded low ink with a rising left tip."
+        },
+        {
+          "id": "Z06-C5",
+          "bbox_xyxy": [
+            1617,
+            925,
+            1688,
+            963
+          ],
+          "coordinate_uncertainty_px": 8,
+          "geometric_description": "Right neighboring lower-row dense envelope of successive rounded humps and oblique returns. Included as contextual envelope; overlaps the region represented in Z04."
+        }
+      ],
+      "junctions": [
+        {
+          "id": "Z06-J1",
+          "bbox_xyxy": [
+            1568,
+            923,
+            1614,
+            949
+          ],
+          "stroke_paths_xy": [
+            [
+              [
+                1569,
+                936
+              ],
+              [
+                1584,
+                934
+              ],
+              [
+                1598,
+                934
+              ],
+              [
+                1610,
+                935
+              ]
+            ]
+          ],
+          "observed_relation": "The high shallow bar in C1 crosses/joins a taller slant and extends over a shorter folded right-hand portion.",
+          "alternative_ownerships": [
+            "A single trajectory with a long crosswise return.",
+            "A bar from the taller left portion crosses a separate right portion.",
+            "An independently drawn bar contacts multiple lower strokes."
+          ],
+          "ownership_resolved": false,
+          "reason": "The bar is approximately traceable, but its ownership and drawing sequence cannot be determined."
+        },
+        {
+          "id": "Z06-J2",
+          "bbox_xyxy": [
+            1577,
+            939,
+            1604,
+            963
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "Lower folded strokes of C1 share a dark compact contact below the bar.",
+          "alternative_ownerships": [
+            "One folded continuous trajectory.",
+            "Two neighboring strokes touching or overlapping."
+          ],
+          "ownership_resolved": false,
+          "reason": "The internal route is not uniquely traceable; no forced split or body count."
+        },
+        {
+          "id": "Z06-J3",
+          "bbox_xyxy": [
+            1603,
+            935,
+            1630,
+            960
+          ],
+          "stroke_paths_xy": [],
+          "observed_relation": "Right edge of C1 and leftmost low curve of C5 are close at the same row level.",
+          "alternative_ownerships": [
+            "Separate clusters with a pale gap.",
+            "Fine connecting stroke below visibility at this display."
+          ],
+          "ownership_resolved": false,
+          "reason": "A pale interval appears present, but exact connectivity is not established instrumentally."
+        }
+      ],
+      "proposed_partition_status": "No physical writing-unit partition proposed. These are selected observable ink envelopes or explicitly described partial envelopes, not counts of physical units. Overlap at an ambiguous contact is intentional; completeness and pixel connectivity are not asserted.",
+      "edge_censoring": "The locator cuts through neighboring ink on both sides; contextual envelopes extend beyond it. C1 itself does not contact a local source edge. C5 is not used to infer continuation beyond the Z00 right edge.",
+      "instrumental_limits": "Visual estimates from native raw/ruler images only. No calibrated click or tracing tool. Boxes use integer source xyxy coordinates, nominally half-open; integer notation is not one-pixel precision. Stated uncertainty is an estimated plus/minus native-pixel boundary error, not a calibrated interval. Paths are approximate centerlines with comparable uncertainty. Faint background print and isolated texture specks are not exhaustively annotated."
+    }
+  ]
+}

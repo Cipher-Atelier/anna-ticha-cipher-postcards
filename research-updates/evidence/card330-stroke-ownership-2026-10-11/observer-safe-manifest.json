@@ -1,0 +1,278 @@
+{
+  "schema": "anonymous-stroke-annotation-display-v1",
+  "scale": "Native 1:1 display: one original-image pixel per PNG pixel, no rotation or resampling. Use native pixels for coordinates, not any viewer enlargement.",
+  "coordinates": "Integer original-image xyxy half-open rectangles; xy points and stroke polylines also use original-image coordinates. Subtract source_origin_xy to convert to raw-image coordinates. Add [48,48] to raw coordinates for ruler-image coordinates.",
+  "focus_limit": "focus_xyxy is an approximate locator, not a segmentation boundary or a physical symbol position. It may include adjacent writing or miss ink. Extend annotation using the full context when needed. No focus rectangle is marked on pixels.",
+  "display_limit": "Raw source pixels are retained unchanged, including background and watermark. Ruler copies add 48 white pixels on each side; all coordinate ticks and text lie outside the source rectangle. Tick spacing is 20 original-image pixels. If ink reaches a crop edge, consult full context and report boundary censoring.",
+  "annotation_instruction": "For every focus region propose ink-component envelopes with source-coordinate boxes and estimated coordinate uncertainty; distinguish a connected ink envelope from a proposed physical symbol. Annotate ambiguous junctions/shared bars/returns/cross-row strokes with junction boxes, approximate stroke polylines if traceable, alternative ownership relations using geometry/row-relative references only, and abstention. Do not identify letters or classes; do not force any count. Use full context when strokes cross a local edge.",
+  "required_output": "Per coded region: observable_components (id,bbox_xyxy,coordinate_uncertainty_px,geometric_description); junctions (id,bbox_xyxy,stroke_paths_xy,observed_relation,alternative_ownerships,ownership_resolved,reason); proposed_partition_status; edge_censoring; instrumental_limits. Region may be wholly unresolvable; do not fabricate precise coordinates.",
+  "annotation_schema": {
+    "coded_region_id": "The neutral coded ID of the local region.",
+    "observable_components": [
+      {
+        "id": "Observer-created neutral component ID.",
+        "bbox_xyxy": "Original-image integer half-open envelope, or null if not instrumentally supportable.",
+        "coordinate_uncertainty_px": "Estimated native-pixel uncertainty; may be null or a per-boundary range. State the basis and limitations.",
+        "geometric_description": "Visible geometry only; distinguish connected ink envelope from proposed physical symbol."
+      }
+    ],
+    "junctions": [
+      {
+        "id": "Observer-created neutral junction ID.",
+        "bbox_xyxy": "Original-image integer half-open envelope, or null if unresolvable.",
+        "stroke_paths_xy": "Approximate original-image coordinate polylines, only if traceable; otherwise an empty list.",
+        "observed_relation": "Visible relation among neutral components or row-relative geometry.",
+        "alternative_ownerships": "Retain plausible ownership alternatives using geometry or row-relative references only.",
+        "ownership_resolved": "true, false, or null; do not infer resolution from a shared envelope.",
+        "reason": "Visible evidence, ambiguities, and abstention reasons."
+      }
+    ],
+    "proposed_partition_status": "Describe whether a physical partition can be proposed; unresolved is acceptable.",
+    "edge_censoring": "List boundary contacts and full-context limitations, or explicitly none observed.",
+    "instrumental_limits": "State coordinate precision and tracing limits. A whole region may be unresolvable."
+  },
+  "annotation_limits": "Do not infer letters or classes, force a component or symbol count, or fabricate precise coordinates. There is no expected number of physical symbols. Do not consult collector files, prior proposals, source identity, or another observer output. Save and freeze your annotation before seeing such material.",
+  "full_context_id": "Z00",
+  "views": [
+    {
+      "coded_id": "Z00",
+      "focus_xyxy": null,
+      "source_origin_xy": [
+        60,
+        800
+      ],
+      "raw_dimensions": [
+        1650,
+        310
+      ],
+      "ruler_dimensions": [
+        1746,
+        406
+      ],
+      "raw_file": "Z00-raw.png",
+      "ruler_file": "Z00-ruler.png",
+      "source_rectangle_offset_in_ruler_xy": [
+        48,
+        48
+      ],
+      "source_rectangle_in_ruler_xyxy": [
+        48,
+        48,
+        1698,
+        358
+      ],
+      "raw_png_sha256": "1ec9e397230aa8e3c6bb310d9323b50c40dd5cd525c8d8c271c906a845319587",
+      "ruler_png_sha256": "333dc26c8de81735c8460ccbd69691ccbce45429152c472eafe7f0cd6e6ffce3"
+    },
+    {
+      "coded_id": "Z01",
+      "focus_xyxy": [
+        1027,
+        908,
+        1151,
+        988
+      ],
+      "source_origin_xy": [
+        867,
+        805
+      ],
+      "raw_dimensions": [
+        444,
+        305
+      ],
+      "ruler_dimensions": [
+        540,
+        401
+      ],
+      "raw_file": "Z01-raw.png",
+      "ruler_file": "Z01-ruler.png",
+      "source_rectangle_offset_in_ruler_xy": [
+        48,
+        48
+      ],
+      "source_rectangle_in_ruler_xyxy": [
+        48,
+        48,
+        492,
+        353
+      ],
+      "raw_png_sha256": "62e088d72d13ecf23b1e8382606f87652b6d6d2e4001c16ba34fb3bb2c170f6a",
+      "ruler_png_sha256": "51ce6905017926f771e52d9f7b8580c1beee421d1434faf387d12bbb2d7627a4"
+    },
+    {
+      "coded_id": "Z02",
+      "focus_xyxy": [
+        1108,
+        988,
+        1233,
+        1068
+      ],
+      "source_origin_xy": [
+        948,
+        805
+      ],
+      "raw_dimensions": [
+        445,
+        305
+      ],
+      "ruler_dimensions": [
+        541,
+        401
+      ],
+      "raw_file": "Z02-raw.png",
+      "ruler_file": "Z02-ruler.png",
+      "source_rectangle_offset_in_ruler_xy": [
+        48,
+        48
+      ],
+      "source_rectangle_in_ruler_xyxy": [
+        48,
+        48,
+        493,
+        353
+      ],
+      "raw_png_sha256": "5919a43d8020ff93ed045348db80201ef5a74c23f01c2bf83349c992c84053f0",
+      "ruler_png_sha256": "8926d248951e41a925f3010d8f75c522f07965ebb70bdb40a70447709aa523ae"
+    },
+    {
+      "coded_id": "Z03",
+      "focus_xyxy": [
+        809,
+        866,
+        920,
+        947
+      ],
+      "source_origin_xy": [
+        649,
+        805
+      ],
+      "raw_dimensions": [
+        431,
+        305
+      ],
+      "ruler_dimensions": [
+        527,
+        401
+      ],
+      "raw_file": "Z03-raw.png",
+      "ruler_file": "Z03-ruler.png",
+      "source_rectangle_offset_in_ruler_xy": [
+        48,
+        48
+      ],
+      "source_rectangle_in_ruler_xyxy": [
+        48,
+        48,
+        479,
+        353
+      ],
+      "raw_png_sha256": "5453925700aaa02dc365e58aa7c9652eb5a17dfd4b47a1718ee7030d983af163",
+      "ruler_png_sha256": "bec7b9a759980efd9607d0900c76dbe10220719269b5fb1fa42753d49dd9d1e6"
+    },
+    {
+      "coded_id": "Z04",
+      "focus_xyxy": [
+        1620,
+        908,
+        1690,
+        988
+      ],
+      "source_origin_xy": [
+        1460,
+        805
+      ],
+      "raw_dimensions": [
+        250,
+        305
+      ],
+      "ruler_dimensions": [
+        346,
+        401
+      ],
+      "raw_file": "Z04-raw.png",
+      "ruler_file": "Z04-ruler.png",
+      "source_rectangle_offset_in_ruler_xy": [
+        48,
+        48
+      ],
+      "source_rectangle_in_ruler_xyxy": [
+        48,
+        48,
+        298,
+        353
+      ],
+      "raw_png_sha256": "5848b1707ada480c803122b9a913ee99a6d296f0973d3a1e3d3a4f09051cb006",
+      "ruler_png_sha256": "1b70adc561f7904ff660880cbd87b51eadc4be2a9a40caefa4af0abd87bbe4d3"
+    },
+    {
+      "coded_id": "Z05",
+      "focus_xyxy": [
+        511,
+        866,
+        646,
+        947
+      ],
+      "source_origin_xy": [
+        351,
+        805
+      ],
+      "raw_dimensions": [
+        455,
+        305
+      ],
+      "ruler_dimensions": [
+        551,
+        401
+      ],
+      "raw_file": "Z05-raw.png",
+      "ruler_file": "Z05-ruler.png",
+      "source_rectangle_offset_in_ruler_xy": [
+        48,
+        48
+      ],
+      "source_rectangle_in_ruler_xyxy": [
+        48,
+        48,
+        503,
+        353
+      ],
+      "raw_png_sha256": "e4be19158ff6d832b77f33d9390b1a9576a8b0025a665c10f973b2a243b21727",
+      "ruler_png_sha256": "df437d29c79e2bf329ba60daaa91e3f0eaed5898d7c67ff7784dd3219e6efb79"
+    },
+    {
+      "coded_id": "Z06",
+      "focus_xyxy": [
+        1558,
+        908,
+        1621,
+        988
+      ],
+      "source_origin_xy": [
+        1398,
+        805
+      ],
+      "raw_dimensions": [
+        312,
+        305
+      ],
+      "ruler_dimensions": [
+        408,
+        401
+      ],
+      "raw_file": "Z06-raw.png",
+      "ruler_file": "Z06-ruler.png",
+      "source_rectangle_offset_in_ruler_xy": [
+        48,
+        48
+      ],
+      "source_rectangle_in_ruler_xyxy": [
+        48,
+        48,
+        360,
+        353
+      ],
+      "raw_png_sha256": "a2858ae622ea4bf0cd0aa01cd63be21afe7df2fbf0fdc8a782f2ea48671a7ab8",
+      "ruler_png_sha256": "77221e0de426ef57757839844f96e648f904d0a1f7099e0c7b40b9f9c0491907"
+    }
+  ]
+}
