@@ -1,0 +1,60 @@
+{
+  "experiment": "Postal-date corroboration from newly obtained original-named address-side file",
+  "source_url": "https://api.hcportal.eu/media/5008/pc_hcp_330_adr.JPG",
+  "source_sha256": "45d8a90465498208210bf1943c442dfa13d2bea303c705a7a8bd0f40b663d4d0",
+  "source_size_pixels": [
+    1785,
+    1175
+  ],
+  "contexts": [
+    {
+      "id": "left_round_postmark",
+      "original_bbox_xyxy": [
+        225,
+        80,
+        620,
+        455
+      ],
+      "views_degrees_counterclockwise": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "observations": [
+        "Dark circular rim and partial lettering are visible.",
+        "Central date components are oblique, discontinuous and intersected by the provider watermark.",
+        "Some separate numeral-like and angled strokes can be seen, but a complete unambiguous date has not been transcribed."
+      ],
+      "accepted_postal_date": null
+    },
+    {
+      "id": "stamp_postmark",
+      "original_bbox_xyxy": [
+        1290,
+        70,
+        1690,
+        470
+      ],
+      "views_degrees_counterclockwise": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "observations": [
+        "Cancellation lies over a printed postage stamp.",
+        "Central strokes overlap stamp ornamentation; a complete date is not separable in this inspection."
+      ],
+      "accepted_postal_date": null
+    }
+  ],
+  "method": "Direct original-size inspection and mechanical rectangular crops with quarter-turn rotations only; no contrast change, generative cleanup or watermark removal.",
+  "review_status": "Awaiting separate reviewer after picture-side date observation is frozen.",
+  "negative_result": "This inspection does not independently confirm February or April, the exact postal date, or chronology.",
+  "limits": [
+    "A printed picture caption does not establish the sender location or itinerary.",
+    "Provider original-named file is not physical-source authentication.",
+    "No source pixels are redistributed."
+  ]
+}

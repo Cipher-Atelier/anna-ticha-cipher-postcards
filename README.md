@@ -40,7 +40,7 @@ The opening of card 199 expresses warm thanks for a dear letter. This is a summa
 
 [Card 328: a letter from Pelhřimov and holiday travel questions](anna-ticha/card-328.md): preliminary left/bottom reading; 240 invariant proposed mapped bodies emit 243 letters, with four unresolved clusters. Written date 30 May 1900; letter receipt, kinship and arrival interpretations remain qualified.
 
-[Card 330 screen-reading note](research-updates/2026-10-09-card330-screen-reading.md): preliminary opening/affection candidates and a possible IV-versus-II written/catalogue month discrepancy. Browser renditions only; no original-file inspection or exact-byte source replay.
+[Card330 source-first follow-up, 11 October](anna-ticha/card-330.md): frozen graphical snapshots, a conservative reconciliation journal and the exact masked projection from original-named provider files. Physical body count and written/postal date remain unresolved. The [historical 9 October screen-reading note](research-updates/2026-10-09-card330-screen-reading.md) preserves the earlier browser-only stage.
 
 [9 October control audit](research-updates/2026-10-09-anna204-controls.md): the tested comparator and control gates failed; Anna204's disputed target remains unresolved. This update is a text summary, with full replay materials retained locally.
 
@@ -62,7 +62,7 @@ A successful run means the published files and declared calculation reproduce. I
 
 ## Precise research scope
 
-Partial card readings. Complete positional replay remains limited to card199. The supported offline check also replays the saved contextual ledgers for cards314,315,316,318,319,320,322,324,325,326,327,328 and card318 marginal strips B/C/D, including unresolved masks. These checks establish consistency of saved proposals, not correct source classification or historical accuracy. Cards440/453 supply limited examples; cards247/248 remain qualified text reports without complete public positional packages. Card330 candidates and date are not replayed.
+Partial card readings. Complete positional replay remains limited to card199. The supported offline check also replays the saved contextual ledgers for cards314,315,316,318,319,320,322,324,325,326,327,328 and card318 marginal strips B/C/D, including unresolved masks. These checks establish consistency of saved proposals, not correct source classification or historical accuracy. Cards440/453 supply limited examples; cards247/248 remain qualified text reports without complete public positional packages. Card330 now has a separate [experimental source-first proposal](anna-ticha/card-330.md): 65 spatial display groups, 251 provisional assignments to known classes and 13 unresolved occurrences. Its own replay checks saved graphical consistency; physical body count and written/postal date remain unresolved.
 
 This is part of [Cipher-Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). Explore the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md), and [step-by-step research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md).
 

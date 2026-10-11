@@ -438,7 +438,7 @@ def verify_all(repo=None):
             'limits': ['Consistency of saved proposals only; no source classification or accuracy certification.',
                        'Saved dimensions support bounds checks, not source-image verification.',
                        'Coherent coordinated edits to evidence cannot be disproved by consistency checks.',
-                       'Card330 candidates and date are excluded; no accepted ledger or original fingerprint.']}
+                       'Card330 is outside this strict twelve-card replay; its separate experimental adapter checks saved graphical consistency, not source accuracy or date.']}
 
 
 if __name__ == '__main__':

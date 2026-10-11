@@ -59,6 +59,20 @@ Unknown clusters render their declared labels and receive no accepted body count
 
 Structured replay punctuation was added by transcribing already documented positions for cards318/319 and card325’s intraword hyphen. Card315’s separate dash is retained. Missing accounting fields and card318 marginal fingerprints were made explicit; existing descriptive fields remain. Card319’s CSV line endings changed from CRLF to LF without changing parsed rows, class sequences, coordinates or text. The key and atlas bytes remain unchanged. See [publication provenance](../SOURCE_PROVENANCE.json) for the base revision and formatting hashes.
 
+## Separate experimental card330 replay
+
+The `experimental_card330` report is separate from the unchanged required set of twelve earlier CSV packages. It derives the [card330 masked literal](../anna-ticha/card-330.md) from the V3 journal and unchanged key, retains all 65 spatial display groups, and checks immutable A/B snapshots and append-only identifier errata. The derived report distinguishes **264 encoded slots**, **251 provisional assignments to known classes**, **254 emitted known letters**, **13 unresolved occurrences** and **11 unresolved families**. Three capped-ch slots emit two letters each; the physical body count remains null.
+
+Every unresolved occurrence renders `[ID]`, including a sole candidate and class alternatives that share a letter. L03W11 retains one correlated span mask with its two complete candidate sequences; cross-combinations are not admitted. Uncertain punctuation is `[?]`, `[!]` or `[-]`. Required group/slot/punctuation windows are checked for explicit presence and source bounds, alongside fingerprints, row/aggregate counters, historical-to-final slot mapping and diplomatic CSV/literal/article agreement. These are consistency checks; they do not inspect ink or certify source classification, reader blinding, human accuracy or a date. A003’s finite family comparison remains negative/inconclusive, and written/postal dates remain unresolved.
+
+The adapter can run separately:
+
+```sh
+python3 verification/card330_replay.py
+```
+
+An optional `--source-image /path/to/picture.jpg` checks only an explicitly supplied picture file’s exact known SHA-256 and byte count. Exact bytes pin recorded dimensions; no pixel decoding, source fetching, crop output or image dependency is involved. Frozen relative references in the text snapshots are historical labels for local views, not bundled source files. The experimental adapter also cannot disprove coherent coordinated edits.
+
 ## Regression tests and CI
 
 From the repository root:
@@ -68,7 +82,7 @@ python3 -m unittest discover -s verification/tests -v
 python3 verification/check_all.py
 ```
 
-The standard-library tests use temporary evidence copies, fixed saved-output examples and negative mutations. Semantic mutations refresh the affected ledger/literal fingerprints so they test the relevant guard rather than stopping at a hash error. They cover wrong supported classes, literals, counts, capped-ch accounting, missing/duplicate/reordered records, mask declarations, marginal partitions, bounds, punctuation and article differences.
+The standard-library tests use temporary evidence copies, fixed saved-output examples and negative mutations. Semantic mutations refresh the affected ledger/literal fingerprints so they test the relevant guard rather than stopping at a hash error. They cover wrong supported classes, literals, counts, capped-ch accounting, missing/duplicate/reordered records, mask declarations, marginal partitions, bounds, punctuation and article differences. Card330 adds real-package mutations with refreshed fingerprints for coupled candidate correlation, missing coordinate windows, physical-count/date claims and frozen-snapshot tampering.
 
 The [GitHub Actions workflow](../.github/workflows/verify.yml) runs both commands plus `git diff --check` on Python 3.10 and 3.13 for ordinary push and pull-request events. It checks the triggering SHA and the committed diff against the PR base or previous push revision, with complete Git history. Its token has read-only contents permission, checkout credentials are not persisted, and it uses pinned actions with no dependencies, source-image downloads or artifact publication.
 
@@ -76,7 +90,7 @@ The [GitHub Actions workflow](../.github/workflows/verify.yml) runs both command
 
 The listed saved-ledger packages are checked for mechanical consistency; other cards are not automatically covered by their replay. Cards 440 and 453 contribute limited examples; cards 247 and 248 have qualified text reports without complete public positional packages. A smooth Czech paraphrase can conceal uncertain signs, spacing or dates.
 
-Passing verifies that these published inputs and saved rules give the recorded result. Saved dimensions support bounds checks but do not verify a source image. Coherent coordinated edits to the evidence and expected outputs cannot be disproved by consistency checks. Card330’s candidates and proposed date are excluded: no accepted ledger or original-source fingerprint is available. It does not certify source-image transcription, historical truth, a unique interpretation, author identity, discovery priority or external expert review. To inspect those questions, follow [the manual example and source-checking route](../READING_GUIDE.md#check-one-example-by-hand).
+Passing verifies that these published inputs and saved rules give the recorded result. Saved dimensions support bounds checks but do not verify a source image. Coherent coordinated edits to the evidence and expected outputs cannot be disproved by consistency checks. Card330 now has a separate experimental saved-graphical package with original-named provider fingerprints. Its physical body count and written/postal date remain unestablished. It does not certify source-image transcription, historical truth, a unique interpretation, author identity, discovery priority or external expert review. To inspect those questions, follow [the manual example and source-checking route](../READING_GUIDE.md#check-one-example-by-hand).
 
 ## If it fails
 
@@ -93,8 +107,8 @@ Do not change the evidence, expected results or fingerprints just to make a fail
 
 ## Publication scope
 
-Complete 532-position replay remains limited to card199. The twelve later contextual packages and card318 margins now have deterministic replay of their saved proposals, including uncertainty masks; this does not turn them into complete source-position editions. Cards440/453 supply limited examples, and cards 247/248 remain qualified text reports without complete public positional packages or complete plaintext. Card330 remains candidate-only and is not replayed.
+Complete 532-position replay remains limited to card199. The twelve later contextual packages and card318 margins now have deterministic replay of their saved proposals, including uncertainty masks; this does not turn them into complete source-position editions. Cards440/453 supply limited examples, and cards 247/248 remain qualified text reports without complete public positional packages or complete plaintext. Card330 has a separate experimental source-first package and replay; it is not a complete solution or a verified date correction.
 
-The supported command runs the checksum inventory, [card199 verifier](anna-ticha/verify.py) and [saved-ledger replay](ledger_replay.py), entirely offline with the standard library. Optional source-image and crop verification in the card199 packet is a separate explicit procedure. Obtain images separately under provider terms; source credit is not redistribution permission.
+The supported command runs the checksum inventory, [card199 verifier](anna-ticha/verify.py), [saved-ledger replay](ledger_replay.py) and the separate [card330 experimental adapter](card330_replay.py), entirely offline with the standard library. Optional source-image and crop verification in the card199 packet is a separate explicit procedure. Obtain images separately under provider terms; source credit is not redistribution permission.
 
 See the [research record](../anna-ticha/article.md) and [machine-readable scope](TOPIC_SCOPE_INDEX.json). Exact arithmetic or output replay does not certify source classification, historical truth, author identity, unique interpretation or priority.
