@@ -1,0 +1,198 @@
+{
+  "schema": "card330-stroke-ownership-protocol-v1",
+  "basis": {
+    "pr15_sha": "8c8ad711e39315620b2c9ba625b4711ba8648d42",
+    "pr16_sha": "c77d23250b61f549a8162ea07f2cd019f8b5876a",
+    "dependency": "Separate geometry annotation record, based on PR16 and transitively PR15."
+  },
+  "source": {
+    "url": "https://api.hcportal.eu/media/5007/pc_hcp_330_pic.JPG",
+    "bytes": 1431536,
+    "sha256": "206f29850350f429346d04bacc37c01bc377e50b1224a59d42bb6e785b781a05",
+    "dimensions": [
+      1785,
+      1175
+    ]
+  },
+  "question": "Do independent pixel-only geometric annotations establish stroke boundaries/ownership for the complete seven-occurrence segmentation subset?",
+  "complete_occurrence_set": [
+    {
+      "mask": "R_L02W04B05",
+      "group": "L02W04",
+      "historical_encoded_slot": 5,
+      "view": "Z05"
+    },
+    {
+      "mask": "R_L02W07B05",
+      "group": "L02W07",
+      "historical_encoded_slot": 5,
+      "view": "Z03"
+    },
+    {
+      "mask": "R_L03W11_COUPLED_SPAN",
+      "group": "L03W11",
+      "historical_encoded_slot": 2,
+      "view": "Z01"
+    },
+    {
+      "mask": "A007",
+      "group": "L03W16",
+      "historical_encoded_slot": 3,
+      "view": "Z06"
+    },
+    {
+      "mask": "R_L03W17B01",
+      "group": "L03W17",
+      "historical_encoded_slot": 1,
+      "view": "Z04"
+    },
+    {
+      "mask": "A008",
+      "group": "L03W17",
+      "historical_encoded_slot": 2,
+      "view": "Z04"
+    },
+    {
+      "mask": "U001",
+      "group": "L05W09",
+      "historical_encoded_slot": 1,
+      "view": "Z02"
+    }
+  ],
+  "encoded_slot_limit": "These are references to saved encoded representation, not physical bodies, positions, expected counts, or segmentation boundaries. Two masks share one view. No corresponding physical position is asserted.",
+  "locator_freeze": {
+    "convention": "Integer original-image xyxy half-open; native scale 1 source pixel per display pixel, no rotation.",
+    "context": [
+      60,
+      800,
+      1710,
+      1110
+    ],
+    "views": [
+      {
+        "id": "Z01",
+        "historical_group": "L03W11",
+        "focus_locator": [
+          1027,
+          908,
+          1151,
+          988
+        ],
+        "context_window": [
+          867,
+          805,
+          1311,
+          1110
+        ]
+      },
+      {
+        "id": "Z02",
+        "historical_group": "L05W09",
+        "focus_locator": [
+          1108,
+          988,
+          1233,
+          1068
+        ],
+        "context_window": [
+          948,
+          805,
+          1393,
+          1110
+        ]
+      },
+      {
+        "id": "Z03",
+        "historical_group": "L02W07",
+        "focus_locator": [
+          809,
+          866,
+          920,
+          947
+        ],
+        "context_window": [
+          649,
+          805,
+          1080,
+          1110
+        ]
+      },
+      {
+        "id": "Z04",
+        "historical_group": "L03W17",
+        "focus_locator": [
+          1620,
+          908,
+          1690,
+          988
+        ],
+        "context_window": [
+          1460,
+          805,
+          1710,
+          1110
+        ]
+      },
+      {
+        "id": "Z05",
+        "historical_group": "L02W04",
+        "focus_locator": [
+          511,
+          866,
+          646,
+          947
+        ],
+        "context_window": [
+          351,
+          805,
+          806,
+          1110
+        ]
+      },
+      {
+        "id": "Z06",
+        "historical_group": "L03W16",
+        "focus_locator": [
+          1558,
+          908,
+          1621,
+          988
+        ],
+        "context_window": [
+          1398,
+          805,
+          1710,
+          1110
+        ]
+      }
+    ],
+    "focus_limit": "Approximate prior group locator, may contain adjacent rows or miss ink; observer may extend annotations using full context. No narrow encoded-slot windows supplied.",
+    "crop_limit": "Each local view contains full writing-block height and horizontal neighbors. If an ink stroke reaches a crop edge, consult full context and report boundary censoring. Retain full provider watermark and no contrast, thresholding, interpolation, or rescaling.",
+    "display": "Raw native crops plus separate 48-pixel coordinate margins/ruler copies; ruler marks remain outside source pixels. Native full context supplied. All images local only."
+  },
+  "observer_plan": {
+    "number": 2,
+    "fresh_context": true,
+    "independent": true,
+    "access": "Only observer-safe manifest, native pixel views, scale/coordinate rules and annotation instruction. No key, plaintext, source URL/card identity, old masks, candidates, expected letter/body count, old ledger, collector files or the other observer's output.",
+    "exposure_limit": "Procedural concealment in shared filesystem with instruction-only access restriction; cannot certify absence of model priors or physical human blindness.",
+    "task": "For every focus region propose ink-component envelopes with source-coordinate boxes and estimated coordinate uncertainty; distinguish a connected ink envelope from a proposed physical symbol. Annotate ambiguous junctions/shared bars/returns/cross-row strokes with junction boxes, approximate stroke polylines if traceable, alternative ownership relations using geometry/row-relative references only, and abstention. Do not identify letters or classes; do not force any count. Use full context when strokes cross a local edge.",
+    "required_output": "Per coded region: observable_components (id,bbox_xyxy,coordinate_uncertainty_px,geometric_description); junctions (id,bbox_xyxy,stroke_paths_xy,observed_relation,alternative_ownerships,ownership_resolved,reason); proposed_partition_status; edge_censoring; instrumental_limits. Region may be wholly unresolvable; do not fabricate precise coordinates.",
+    "freeze": "Each observer output saved and SHA256 frozen before either observer sees mapping, old candidates or other annotation."
+  },
+  "evaluation_freeze": {
+    "component_matching": "For each region, compute maximum-total-IoU one-to-one matching of observer component boxes, dummy unmatched boxes permitted. Report each paired IoU and per-boundary absolute differences, all unmatched boxes and denominator counts. No forced count equality. Boxes with no overlap cannot match.",
+    "descriptive_agreement": "A pair meets the preregistered descriptive geometric agreement convention when IoU >= 0.5 AND all four boundary differences <= 8 native pixels. Thresholds are exploratory display-coordinate conventions, not calibrated segmentation accuracy.",
+    "junction_matching": "Same maximum-total-IoU rule and reporting for observer junction boxes; report qualitative ownership alternatives separately without equating similar envelopes with ownership truth.",
+    "uncertainty": "Coordinate precision is observer-estimated, not calibrated. Masks and unresolved status survive any boundary agreement unless independently established ownership and later class control exist.",
+    "ledger_assessment": "After freezes, inspect whether recorded geometry fills a previous locator or stroke-ownership gap. Distinguish proposed locator improvement, measurable observer agreement, source-verified ink ownership, and physical glyph edition. No mask may be projected into a fabricated physical position.",
+    "stop": "If coordinate annotation cannot be made instrumentally reliable or ownership remains ambiguous at these bytes, record exact limitations and stop this pathway without retries, relabeling, criterion tuning, upscaling claims or accepting letters."
+  },
+  "protected": {
+    "key": "unchanged",
+    "masks": 13,
+    "classification": "No class/letter inference; no G05/G19 or date repeat",
+    "publication": "Text only in separate branch and draft PR; no images, website, merge or deployment"
+  },
+  "frozen_utc": "2026-10-11 02:43:22 UTC"
+}

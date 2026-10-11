@@ -1,0 +1,17 @@
+{
+  "schema": "methods-independent-review-v1",
+  "status": "PASS_NO_METHODS_BLOCKER",
+  "review_stage": "Before observer output disclosure",
+  "protocol_sha256": "eb1b5cfb7a376f7c43602b36f4813c719712f3f32946170e81b6f21bb442e150",
+  "observer_manifest_sha256": "060a9ba39bd49500ffa3fe755ddc1132485c1c2f43f545faff0cac2df77126eb",
+  "evaluator_sha256": "244dc0f020717849e309e1812197d2fa37cb057befb878632509e85d7682e339",
+  "scope": [
+    "Exact saved seven segmentation-mask references across six groups verified.",
+    "Broad context and all native raw crop/ruler interior pixels independently equal original decoded source.",
+    "Encoded-slot references are disclaimed as physical positions.",
+    "Exact maximum-total-IoU solver compared with independent exhaustive DP on 540 small matrices; empty, nonsquare, tied and zero cases included.",
+    "No zero-overlap matched pairs; exact frozen inclusive thresholds reproduced."
+  ],
+  "observer_outputs_read": false,
+  "limits": "Methods check does not validate visual boundaries, attribution or historical interpretation. Final data/content review still required."
+}

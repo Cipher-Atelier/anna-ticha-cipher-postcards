@@ -1,0 +1,120 @@
+{
+  "schema": "card330-geometric-annotation-assessment-v1",
+  "recorded_utc": "2026-10-11 02:53:10 UTC",
+  "basis_commit": "c77d23250b61f549a8162ea07f2cd019f8b5876a",
+  "primary_outcome": "No established physical partition or accepted stroke ownership for the seven saved segmentation-mask references.",
+  "complete_subset": "R_L02W04B05, R_L02W07B05, R_L03W11_COUPLED_SPAN, A007, R_L03W17B01, A008, U001; six spatial group views, two saved masks share Z04.",
+  "subset_limit": "Historical encoded references and approximate group locators are not identified physical symbol positions; this record does not fabricate such positions.",
+  "source": {
+    "url": "https://api.hcportal.eu/media/5007/pc_hcp_330_pic.JPG",
+    "bytes": 1431536,
+    "sha256": "206f29850350f429346d04bacc37c01bc377e50b1224a59d42bb6e785b781a05",
+    "dimensions": [
+      1785,
+      1175
+    ],
+    "kind": "Original-named provider JPEG; unchanged previously identified bytes, not a new scan or physical-source authentication."
+  },
+  "display": "Native 1:1, no resampling or enhancement; complete writing-block context and horizontal neighboring ink. Rulers added only outside source pixels.",
+  "comparison": {
+    "components": {
+      "observer_O1": 30,
+      "observer_O2": 34,
+      "algorithmically_paired": 27,
+      "descriptive_boundary_agreement": 12,
+      "unmatched_O1": 3,
+      "unmatched_O2": 7
+    },
+    "junctions": {
+      "observer_O1": 11,
+      "observer_O2": 14,
+      "algorithmically_paired": 10,
+      "descriptive_boundary_agreement": 3,
+      "unmatched_O1": 1,
+      "unmatched_O2": 4
+    },
+    "convention": "IoU >= 0.5 and all four absolute boundary differences <= 8 native pixels, frozen before annotation.",
+    "count_limit": "Nonexhaustive annotation records, with overlapping views; neither unique physical-object counts nor coverage/accuracy rates. Assignment maximizes envelope overlap only; no semantic identity is validated."
+  },
+  "observer_result": {
+    "total_junction_records": 25,
+    "ownership_resolved_true": 0,
+    "ownership_resolved_false": 25,
+    "regions_with_established_physical_partition": 0,
+    "coordinate_uncertainty": "O1 generally 4\u20138 native pixels, one faint trace 9; O2 estimated 5\u20138. Self-estimates are uncalibrated; integer coordinates do not imply pixel-exact annotation.",
+    "paths": "O1 six approximate centerlines and O2 three; these are sparse visual estimates, not complete traced ink boundaries or a stroke-order reconstruction."
+  },
+  "regions": [
+    {
+      "id": "Z05",
+      "references": [
+        "R_L02W04B05"
+      ],
+      "result": "Upper/low contacts, adjacent returns and a neighboring-row descent received differing envelope selections. No unique attribution of the saved disputed mark to a physical symbol is established."
+    },
+    {
+      "id": "Z03",
+      "references": [
+        "R_L02W07B05"
+      ],
+      "result": "Both retain return-versus-independent-horizontal-stroke alternatives. One observer bounded the entire shallow span, the other its right junction. This scope difference is not a 100-pixel tracing error."
+    },
+    {
+      "id": "Z01",
+      "references": [
+        "R_L03W11_COUPLED_SPAN"
+      ],
+      "result": "Upper-row return contacting lower ink versus independent contours/joining stroke remain alternatives. Do not turn one coupled encoded span into an asserted physical body count."
+    },
+    {
+      "id": "Z06",
+      "references": [
+        "A007"
+      ],
+      "result": "Shared crosswise bar versus one contour crossing another versus independent bar remain alternatives; neighboring low-cluster selection differs. No accepted final-cluster partition."
+    },
+    {
+      "id": "Z04",
+      "references": [
+        "R_L03W17B01",
+        "A008"
+      ],
+      "result": "Dense loop/return junction boxes meet descriptive convention, but observers retain continuous trajectory versus touching/overlapping strokes. One set of geometric proposals covers both saved references without inventing two physical positions. Endpoint uncertainty preserved."
+    },
+    {
+      "id": "Z02",
+      "references": [
+        "U001"
+      ],
+      "result": "Upper-row return crossing lower curves versus continuous folded trajectory versus multiple superposed strokes remain alternatives. One overlapping junction envelope agrees, but ownership does not become established."
+    }
+  ],
+  "independent_review_caveats": [
+    "Z01 O1 isolated-spot box [1156,974,1167,985] appears below the visible spot on native inspection; O2 [1155,962,1171,975] is closer. Their IoU is 0.0346. Preserve raw proposals and flag coordinate reliability; do not silently repair or accept the other box as calibrated truth.",
+    "Z03 J1 whole horizontal span versus right-junction extent produces a 100-pixel left-boundary difference; semantic scope differs.",
+    "Z05 separates versus combines nearby envelopes, and Z05/Z06 contextual selections are nonexhaustive and differ. Unmatched records do not prove absence or contradictory source observation.",
+    "x1710 is the supplied-context edge, not the 1785-pixel JPEG edge. Separate post-freeze native margin audit did not demonstrate handwriting continuation past x=1710; raw observer caution remains.",
+    "Observers are fresh AI contexts on the same model family with procedural shared-filesystem restrictions, not independent human experts or certified global blindness."
+  ],
+  "ledger_delta": {
+    "new_proposed_geometry_records": true,
+    "source_verified_physical_boundaries_added": 0,
+    "accepted_physical_positions_added": 0,
+    "accepted_class_assignments_added": 0,
+    "accepted_letters_added": 0,
+    "physical_body_count": null,
+    "masked_occurrences_retained": 13,
+    "previous_ledgers_key_dates_unchanged": true,
+    "limit": "This adds a reproducible record of imperfect independent proposals and a bounded negative result; the physical-position/ownership gap is not closed."
+  },
+  "stop": {
+    "decision": "Stop this AI ruler-interpolation path on these bytes; no reannotation, tuning, enlarged-JPEG detail claim or class-control attempt after observing results.",
+    "precise_limit": "Available view_image native inspection supports visual interpolation but not calibrated pointing/contour tracing. Approximate envelopes, inconsistent annotation extents and a locational error are insufficient for reliable blinded geometric edition; static joined ink still admits several ownership histories.",
+    "not_claimed": "This does not prove the JPEG contains no further geometric evidence, or that all other research routes are exhausted.",
+    "requirements": [
+      "A genuine coordinate-pointing/tracing workflow with explicit ink-contour/connected-envelope/physical-writing-unit definitions, source-coordinate overlays for audit, and independent annotations supplied only pixels and neutral geometry instructions.",
+      "For unresolved dark crossings, an independent more informative scan if available; static geometry may still require preserving alternative ownerships rather than asserting stroke order.",
+      "Any later letter/class acceptance requires independent class controls beyond geometric boundary agreement."
+    ]
+  }
+}
