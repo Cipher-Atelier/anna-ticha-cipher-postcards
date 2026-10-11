@@ -1,0 +1,229 @@
+{
+  "schema": "coded-observer-manifest-v1",
+  "protocol_sha256": "81a87ee5af89d8ef059ecb907114ce374fc1d3eeae244f4d7ee8b98ce6d24acd",
+  "instructions": "Use only the designated target rectangle and surrounding ink needed to judge boundaries. Rectangles are approximate locators, not segmentation claims. If features cannot be attributed to the intended target, record separability as unclear or no and abstain. No examples may be replaced or recropped after scoring.",
+  "coordinate_convention": "Display xyxy rectangles use integer half-open pixels from the top-left of the 640 by 640 PNG. No target rectangle is drawn over source pixels.",
+  "rendering": "Each source window is displayed at an exact uniform 4x nearest-neighbor scale, centered on a white canvas. The code label is outside the source window. No enhancement or thresholding.",
+  "views": [
+    {
+      "coded_id": "A01",
+      "file": "coded-views/A01.png",
+      "png_sha256": "2fab27a53d558af6e821aff3603f2179e76aa404a63e18a3821bd17ee8128ec1",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        234,
+        210,
+        406,
+        490
+      ],
+      "designated_target_display_bbox_xyxy": [
+        238,
+        282,
+        318,
+        398
+      ],
+      "target_position": "Assess only the ink inside the indicated rectangle. Other ink in the crop belongs to neighboring writing; boundary attribution may be uncertain."
+    },
+    {
+      "coded_id": "A02",
+      "file": "coded-views/A02.png",
+      "png_sha256": "f6274690ceb4640858c65d26ce542a80c53b5ae6650086d7fa760e51aa59f666",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        214,
+        202,
+        426,
+        498
+      ],
+      "designated_target_display_bbox_xyxy": [
+        246,
+        286,
+        358,
+        398
+      ],
+      "target_position": "Assess only the ink inside the indicated rectangle. Other ink in the crop belongs to neighboring writing; boundary attribution may be uncertain."
+    },
+    {
+      "coded_id": "A03",
+      "file": "coded-views/A03.png",
+      "png_sha256": "5ba02bfae12598f9f6350b597634d4d87e4850941bd5f77d0652b2ccef16b626",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        188,
+        140,
+        452,
+        560
+      ],
+      "designated_target_display_bbox_xyxy": [
+        280,
+        312,
+        344,
+        396
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible."
+    },
+    {
+      "coded_id": "A04",
+      "file": "coded-views/A04.png",
+      "png_sha256": "62b9e387a7c2961e27a3fb81842119cb007bea2b64dc2165fd04b79e61e5a96a",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        198,
+        150,
+        442,
+        550
+      ],
+      "designated_target_display_bbox_xyxy": [
+        274,
+        322,
+        338,
+        422
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible."
+    },
+    {
+      "coded_id": "A05",
+      "file": "coded-views/A05.png",
+      "png_sha256": "850d4d8f880224ce51d6b206716e9e2703c196e60702e780ff02f8596223c593",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        198,
+        150,
+        442,
+        550
+      ],
+      "designated_target_display_bbox_xyxy": [
+        278,
+        294,
+        374,
+        410
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible."
+    },
+    {
+      "coded_id": "A06",
+      "file": "coded-views/A06.png",
+      "png_sha256": "62ab3df7191b3d56f74a56b0c95046acaa9094a3deeca00e2867571253273cd5",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        210,
+        194,
+        430,
+        506
+      ],
+      "designated_target_display_bbox_xyxy": [
+        214,
+        242,
+        294,
+        342
+      ],
+      "target_position": "Assess only the upper-left ink inside the indicated rectangle. The larger form to its right and below is neighboring writing. Boundary attribution may be uncertain."
+    },
+    {
+      "coded_id": "A07",
+      "file": "coded-views/A07.png",
+      "png_sha256": "01e6cfbb2761a74849fcd007bc0f931970ebceb3c539b2208b52ecb871c742f9",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        184,
+        140,
+        456,
+        560
+      ],
+      "designated_target_display_bbox_xyxy": [
+        248,
+        280,
+        332,
+        376
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible."
+    },
+    {
+      "coded_id": "A08",
+      "file": "coded-views/A08.png",
+      "png_sha256": "4021e31592e18214b299e38e44b2ad80126932e7821099574d876181d1eaaf33",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        198,
+        130,
+        442,
+        570
+      ],
+      "designated_target_display_bbox_xyxy": [
+        294,
+        238,
+        370,
+        334
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible."
+    },
+    {
+      "coded_id": "A09",
+      "file": "coded-views/A09.png",
+      "png_sha256": "43e6768eb191de75aaacb994f79f0d8012f4b226b0274c57c240a4ee537129bb",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        202,
+        210,
+        438,
+        490
+      ],
+      "designated_target_display_bbox_xyxy": [
+        250,
+        298,
+        342,
+        418
+      ],
+      "target_position": "Assess only the ink inside the indicated rectangle. Other ink in the crop belongs to neighboring writing; boundary attribution may be uncertain."
+    },
+    {
+      "coded_id": "A10",
+      "file": "coded-views/A10.png",
+      "png_sha256": "10391283ae943e444d77f81cdd71cce0e60b841f443405220cac3175808e8405",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        188,
+        150,
+        452,
+        550
+      ],
+      "designated_target_display_bbox_xyxy": [
+        284,
+        298,
+        368,
+        390
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible."
+    }
+  ]
+}
