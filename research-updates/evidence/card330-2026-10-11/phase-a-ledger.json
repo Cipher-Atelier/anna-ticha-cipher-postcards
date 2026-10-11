@@ -1,0 +1,5198 @@
+{
+  "schema": "card330.class-first-ledger.v1",
+  "phase": "A graphical snapshot before reading key.csv or prior card330 candidate",
+  "created_at_utc": "2026-10-11T01:55:39.085463+00:00",
+  "source": {
+    "url": "https://api.hcportal.eu/media/5007/pc_hcp_330_pic.JPG",
+    "artifact": "../card330-original.jpg",
+    "sha256": "206f29850350f429346d04bacc37c01bc377e50b1224a59d42bb6e785b781a05",
+    "bytes": 1431536,
+    "width": 1785,
+    "height": 1175,
+    "bbox_convention": "original pixels; [x0,y0,x1,y1) half-open"
+  },
+  "atlas": {
+    "artifact": "../../anna-card330-research/verification/anna-ticha/data/glyph_atlas.json",
+    "sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+    "literal_fields_not_consulted_in_phase_A": true,
+    "key_fingerprint_deferred_until_phase_B": true,
+    "filtered_artifact": "atlas-class-only.json",
+    "source_images": [
+      {
+        "card": 199,
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce"
+      },
+      {
+        "card": 440,
+        "sha256": "5bf484c2c9869a8e8c80e986c379a76aa5349f139686b3296211d27864f7cedf"
+      }
+    ]
+  },
+  "limitations": [
+    "AI source-first reading is not human or blind evidence. Visible symbol forms can evoke prior mappings.",
+    "Loose source windows need independent coordinate and segmentation verification.",
+    "No linguistic/fluency correction used.",
+    "No classification accuracy or full-solution claim.",
+    "All five lines inspected; source word grouping and exact body segmentation remain provisional. Source group windows are manual and approximate, never a claim of token position accuracy."
+  ],
+  "coverage": [
+    {
+      "line": 1,
+      "bbox_xyxy": [
+        443,
+        826,
+        1703,
+        907
+      ],
+      "groups": 11
+    },
+    {
+      "line": 2,
+      "bbox_xyxy": [
+        70,
+        866,
+        1703,
+        947
+      ],
+      "groups": 14
+    },
+    {
+      "line": 3,
+      "bbox_xyxy": [
+        70,
+        908,
+        1703,
+        988
+      ],
+      "groups": 17
+    },
+    {
+      "line": 4,
+      "bbox_xyxy": [
+        70,
+        952,
+        1703,
+        1032
+      ],
+      "groups": 13
+    },
+    {
+      "line": 5,
+      "bbox_xyxy": [
+        70,
+        988,
+        1703,
+        1068
+      ],
+      "groups": 10
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "L01W01",
+      "line": 1,
+      "spatial_group": 1,
+      "bbox_xyxy": [
+        448,
+        826,
+        550,
+        907
+      ],
+      "class_sequence": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W01B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            445,
+            826,
+            481,
+            907
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W01B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            475,
+            826,
+            504,
+            907
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W01B03",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            498,
+            826,
+            522,
+            907
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W01B04",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            516,
+            826,
+            541,
+            907
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W01B05",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            535,
+            826,
+            553,
+            907
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W02",
+      "line": 1,
+      "spatial_group": 2,
+      "bbox_xyxy": [
+        557,
+        826,
+        626,
+        907
+      ],
+      "class_sequence": [
+        "G06",
+        "G07",
+        "G08_N01"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W02B01",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            554,
+            826,
+            582,
+            907
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W02B02",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            576,
+            826,
+            604,
+            907
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W02B03",
+          "class_id": "G08_N01",
+          "bbox_xyxy": [
+            598,
+            826,
+            629,
+            907
+          ],
+          "features": "Oval/rounded upper bowl plus descender whose lower contour returns obliquely toward/crosses the descending stem, making a closed or near-closed lower loop. Exact ink closure is not mandatory when a return is plainly visible. Lower return inferred visible; closure can be weak and requires review.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W03",
+      "line": 1,
+      "spatial_group": 3,
+      "bbox_xyxy": [
+        639,
+        826,
+        793,
+        907
+      ],
+      "class_sequence": [
+        "G13",
+        "G02",
+        "G06",
+        "G03",
+        "G05",
+        "G08_N01",
+        "G11"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W03B01",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            636,
+            826,
+            661,
+            907
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W03B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            655,
+            826,
+            691,
+            907
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W03B03",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            685,
+            826,
+            712,
+            907
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W03B04",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            706,
+            826,
+            734,
+            907
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W03B05",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            728,
+            826,
+            753,
+            907
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W03B06",
+          "class_id": "G08_N01",
+          "bbox_xyxy": [
+            747,
+            826,
+            782,
+            907
+          ],
+          "features": "Oval/rounded upper bowl plus descender whose lower contour returns obliquely toward/crosses the descending stem, making a closed or near-closed lower loop. Exact ink closure is not mandatory when a return is plainly visible. Lower return inferred visible; closure can be weak and requires review.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W03B07",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            776,
+            826,
+            796,
+            907
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W04",
+      "line": 1,
+      "spatial_group": 4,
+      "bbox_xyxy": [
+        797,
+        826,
+        890,
+        907
+      ],
+      "class_sequence": [
+        "G15",
+        "G11",
+        "G21",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W04B01",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            794,
+            826,
+            826,
+            907
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W04B02",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            820,
+            826,
+            847,
+            907
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W04B03",
+          "class_id": "G21",
+          "bbox_xyxy": [
+            841,
+            826,
+            872,
+            907
+          ],
+          "features": "Forked/curled head, transverse bar, long straight/slanted descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W04B04",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            866,
+            826,
+            893,
+            907
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W05",
+      "line": 1,
+      "spatial_group": 5,
+      "bbox_xyxy": [
+        912,
+        826,
+        954,
+        907
+      ],
+      "class_sequence": [
+        "G08_N02",
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W05B01",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            909,
+            826,
+            936,
+            907
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W05B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            930,
+            826,
+            957,
+            907
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W06",
+      "line": 1,
+      "spatial_group": 6,
+      "bbox_xyxy": [
+        970,
+        826,
+        1068,
+        907
+      ],
+      "class_sequence": [
+        "G06",
+        "G02",
+        "G09",
+        "G10",
+        "G05"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W06B01",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            967,
+            826,
+            997,
+            907
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W06B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            991,
+            826,
+            1021,
+            907
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W06B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1015,
+            826,
+            1043,
+            907
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W06B04",
+          "class_id": "G10",
+          "bbox_xyxy": [
+            1037,
+            826,
+            1057,
+            907
+          ],
+          "features": "Short vertical/oblique stem with a rightward branching shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W06B05",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            1051,
+            826,
+            1071,
+            907
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W07",
+      "line": 1,
+      "spatial_group": 7,
+      "bbox_xyxy": [
+        1081,
+        826,
+        1222,
+        907
+      ],
+      "class_sequence": [
+        "G04",
+        "G07",
+        "G13",
+        "G18",
+        "G03",
+        "G08_N01"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W07B01",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            1078,
+            826,
+            1107,
+            907
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W07B02",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            1101,
+            826,
+            1130,
+            907
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W07B03",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1124,
+            826,
+            1151,
+            907
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W07B04",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            1145,
+            826,
+            1174,
+            907
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W07B05",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1168,
+            826,
+            1195,
+            907
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W07B06",
+          "class_id": "G08_N01",
+          "bbox_xyxy": [
+            1189,
+            826,
+            1225,
+            907
+          ],
+          "features": "Oval/rounded upper bowl plus descender whose lower contour returns obliquely toward/crosses the descending stem, making a closed or near-closed lower loop. Exact ink closure is not mandatory when a return is plainly visible. Lower return inferred visible; closure can be weak and requires review.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W08",
+      "line": 1,
+      "spatial_group": 8,
+      "bbox_xyxy": [
+        1264,
+        826,
+        1375,
+        907
+      ],
+      "class_sequence": [
+        "G20",
+        "G02",
+        "G11",
+        "G19"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W08B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            1261,
+            826,
+            1293,
+            907
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W08B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            1287,
+            826,
+            1318,
+            907
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W08B03",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            1312,
+            826,
+            1340,
+            907
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W08B04",
+          "class_id": "G19",
+          "bbox_xyxy": [
+            1334,
+            826,
+            1378,
+            907
+          ],
+          "features": "Small pointed/triangular teardrop or leaf-shaped loop",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W09",
+      "line": 1,
+      "spatial_group": 9,
+      "bbox_xyxy": [
+        1382,
+        826,
+        1522,
+        907
+      ],
+      "class_sequence": [
+        "G04",
+        "G07",
+        "G18",
+        "G12",
+        "G21",
+        "G03",
+        "G13"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W09B01",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            1379,
+            826,
+            1407,
+            907
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W09B02",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            1401,
+            826,
+            1429,
+            907
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W09B03",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            1423,
+            826,
+            1451,
+            907
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W09B04",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            1445,
+            826,
+            1473,
+            907
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W09B05",
+          "class_id": "G21",
+          "bbox_xyxy": [
+            1467,
+            826,
+            1493,
+            907
+          ],
+          "features": "Forked/curled head, transverse bar, long straight/slanted descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W09B06",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1487,
+            826,
+            1511,
+            907
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W09B07",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1505,
+            826,
+            1525,
+            907
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W10",
+      "line": 1,
+      "spatial_group": 10,
+      "bbox_xyxy": [
+        1540,
+        826,
+        1589,
+        907
+      ],
+      "class_sequence": [
+        "G08_N02",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W10B01",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            1537,
+            826,
+            1570,
+            907
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W10B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1564,
+            826,
+            1592,
+            907
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L01W11",
+      "line": 1,
+      "spatial_group": 11,
+      "bbox_xyxy": [
+        1596,
+        826,
+        1682,
+        907
+      ],
+      "class_sequence": [
+        "A001",
+        "G03",
+        "G14"
+      ],
+      "bodies": [
+        {
+          "body_id": "L01W11B01",
+          "class_id": "A001",
+          "bbox_xyxy": [
+            1593,
+            826,
+            1626,
+            907
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L01W11B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1620,
+            826,
+            1648,
+            907
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L01W11B03",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1642,
+            826,
+            1685,
+            907
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W01",
+      "line": 2,
+      "spatial_group": 1,
+      "bbox_xyxy": [
+        81,
+        866,
+        178,
+        947
+      ],
+      "class_sequence": [
+        "G18",
+        "G01",
+        "G19",
+        "G21"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W01B01",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            78,
+            866,
+            111,
+            947
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W01B02",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            105,
+            866,
+            136,
+            947
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W01B03",
+          "class_id": "G19",
+          "bbox_xyxy": [
+            130,
+            866,
+            156,
+            947
+          ],
+          "features": "Small pointed/triangular teardrop or leaf-shaped loop",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W01B04",
+          "class_id": "G21",
+          "bbox_xyxy": [
+            150,
+            866,
+            181,
+            947
+          ],
+          "features": "Forked/curled head, transverse bar, long straight/slanted descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W02",
+      "line": 2,
+      "spatial_group": 2,
+      "bbox_xyxy": [
+        197,
+        866,
+        308,
+        947
+      ],
+      "class_sequence": [
+        "G14",
+        "G03",
+        "G17",
+        "G05",
+        "G04"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W02B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            194,
+            866,
+            230,
+            947
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W02B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            224,
+            866,
+            250,
+            947
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W02B03",
+          "class_id": "G17",
+          "bbox_xyxy": [
+            244,
+            866,
+            271,
+            947
+          ],
+          "features": "Long downward stem and low right shoulder/loop",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W02B04",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            265,
+            866,
+            289,
+            947
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W02B05",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            283,
+            866,
+            311,
+            947
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W03",
+      "line": 2,
+      "spatial_group": 3,
+      "bbox_xyxy": [
+        329,
+        866,
+        493,
+        947
+      ],
+      "class_sequence": [
+        "G20",
+        "G02",
+        "G09",
+        "G01",
+        "G06",
+        "G11",
+        "G12"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W03B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            326,
+            866,
+            359,
+            947
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W03B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            353,
+            866,
+            385,
+            947
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W03B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            379,
+            866,
+            412,
+            947
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W03B04",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            406,
+            866,
+            434,
+            947
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W03B05",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            428,
+            866,
+            457,
+            947
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W03B06",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            451,
+            866,
+            480,
+            947
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W03B07",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            474,
+            866,
+            496,
+            947
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W04",
+      "line": 2,
+      "spatial_group": 4,
+      "bbox_xyxy": [
+        511,
+        866,
+        646,
+        947
+      ],
+      "class_sequence": [
+        "G01",
+        "G08_N02",
+        "G06",
+        "G05",
+        "G18"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W04B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            508,
+            866,
+            547,
+            947
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W04B02",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            541,
+            866,
+            573,
+            947
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W04B03",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            567,
+            866,
+            598,
+            947
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W04B04",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            592,
+            866,
+            619,
+            947
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W04B05",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            613,
+            866,
+            649,
+            947
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W05",
+      "line": 2,
+      "spatial_group": 5,
+      "bbox_xyxy": [
+        663,
+        866,
+        736,
+        947
+      ],
+      "class_sequence": [
+        "G15",
+        "G09",
+        "G15"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W05B01",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            660,
+            866,
+            691,
+            947
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W05B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            685,
+            866,
+            717,
+            947
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W05B03",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            711,
+            866,
+            739,
+            947
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W06",
+      "line": 2,
+      "spatial_group": 6,
+      "bbox_xyxy": [
+        746,
+        866,
+        800,
+        947
+      ],
+      "class_sequence": [
+        "G18",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W06B01",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            743,
+            866,
+            779,
+            947
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W06B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            773,
+            866,
+            803,
+            947
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W07",
+      "line": 2,
+      "spatial_group": 7,
+      "bbox_xyxy": [
+        809,
+        866,
+        920,
+        947
+      ],
+      "class_sequence": [
+        "G18",
+        "G11",
+        "G04",
+        "G07",
+        "G08_N02"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W07B01",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            806,
+            866,
+            840,
+            947
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W07B02",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            834,
+            866,
+            862,
+            947
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W07B03",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            856,
+            866,
+            884,
+            947
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W07B04",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            878,
+            866,
+            904,
+            947
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W07B05",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            898,
+            866,
+            923,
+            947
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W08",
+      "line": 2,
+      "spatial_group": 8,
+      "bbox_xyxy": [
+        920,
+        866,
+        985,
+        947
+      ],
+      "class_sequence": [
+        "G02",
+        "G09",
+        "G06"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W08B01",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            917,
+            866,
+            947,
+            947
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W08B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            941,
+            866,
+            970,
+            947
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W08B03",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            964,
+            866,
+            988,
+            947
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W09",
+      "line": 2,
+      "spatial_group": 9,
+      "bbox_xyxy": [
+        1039,
+        866,
+        1119,
+        947
+      ],
+      "class_sequence": [
+        "G20",
+        "G02",
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W09B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            1036,
+            866,
+            1069,
+            947
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W09B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            1063,
+            866,
+            1093,
+            947
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W09B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1087,
+            866,
+            1122,
+            947
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W10",
+      "line": 2,
+      "spatial_group": 10,
+      "bbox_xyxy": [
+        1119,
+        866,
+        1175,
+        947
+      ],
+      "class_sequence": [
+        "G01",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W10B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            1116,
+            866,
+            1152,
+            947
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W10B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1146,
+            866,
+            1178,
+            947
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W11",
+      "line": 2,
+      "spatial_group": 11,
+      "bbox_xyxy": [
+        1180,
+        866,
+        1221,
+        947
+      ],
+      "class_sequence": [
+        "G13",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W11B01",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1177,
+            866,
+            1204,
+            947
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W11B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1198,
+            866,
+            1224,
+            947
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W12",
+      "line": 2,
+      "spatial_group": 12,
+      "bbox_xyxy": [
+        1244,
+        866,
+        1387,
+        947
+      ],
+      "class_sequence": [
+        "G10_CAP",
+        "G05",
+        "G13",
+        "G18",
+        "G09",
+        "G15"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W12B01",
+          "class_id": "G10_CAP",
+          "bbox_xyxy": [
+            1241,
+            866,
+            1272,
+            947
+          ],
+          "features": "Short-shoulder G10 body with clearly associated overhead cap/roof; proposed broad graphical family, with source-only equality uncertainty retained. Classify confidently matching forms; otherwise retain a new/uncertain ID. Overhead associated roof visible; kept distinct from plain G10.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W12B02",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            1266,
+            866,
+            1293,
+            947
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W12B03",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1287,
+            866,
+            1315,
+            947
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W12B04",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            1309,
+            866,
+            1337,
+            947
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W12B05",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1331,
+            866,
+            1365,
+            947
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W12B06",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            1359,
+            866,
+            1390,
+            947
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W13",
+      "line": 2,
+      "spatial_group": 13,
+      "bbox_xyxy": [
+        1404,
+        866,
+        1471,
+        947
+      ],
+      "class_sequence": [
+        "G14",
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W13B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1401,
+            866,
+            1441,
+            947
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W13B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1435,
+            866,
+            1474,
+            947
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L02W14",
+      "line": 2,
+      "spatial_group": 14,
+      "bbox_xyxy": [
+        1491,
+        866,
+        1695,
+        947
+      ],
+      "class_sequence": [
+        "G08_N02",
+        "G20",
+        "G09",
+        "G18",
+        "G03",
+        "A001",
+        "G14",
+        "G07"
+      ],
+      "bodies": [
+        {
+          "body_id": "L02W14B01",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            1488,
+            866,
+            1521,
+            947
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W14B02",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            1515,
+            866,
+            1545,
+            947
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W14B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1539,
+            866,
+            1573,
+            947
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W14B04",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            1567,
+            866,
+            1599,
+            947
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W14B05",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1593,
+            866,
+            1626,
+            947
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W14B06",
+          "class_id": "A001",
+          "bbox_xyxy": [
+            1620,
+            866,
+            1647,
+            947
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L02W14B07",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1641,
+            866,
+            1675,
+            947
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L02W14B08",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            1669,
+            866,
+            1698,
+            947
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W01",
+      "line": 3,
+      "spatial_group": 1,
+      "bbox_xyxy": [
+        78,
+        908,
+        194,
+        988
+      ],
+      "class_sequence": [
+        "G19",
+        "G03",
+        "G13",
+        "G18",
+        "G12"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W01B01",
+          "class_id": "G19",
+          "bbox_xyxy": [
+            75,
+            908,
+            105,
+            988
+          ],
+          "features": "Small pointed/triangular teardrop or leaf-shaped loop",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W01B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            99,
+            908,
+            127,
+            988
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W01B03",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            121,
+            908,
+            148,
+            988
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W01B04",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            142,
+            908,
+            171,
+            988
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W01B05",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            165,
+            908,
+            197,
+            988
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W02",
+      "line": 3,
+      "spatial_group": 2,
+      "bbox_xyxy": [
+        214,
+        908,
+        261,
+        988
+      ],
+      "class_sequence": [
+        "G06",
+        "G11"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W02B01",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            211,
+            908,
+            242,
+            988
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W02B02",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            236,
+            908,
+            264,
+            988
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W03",
+      "line": 3,
+      "spatial_group": 3,
+      "bbox_xyxy": [
+        272,
+        908,
+        391,
+        988
+      ],
+      "class_sequence": [
+        "G20",
+        "G02",
+        "G09",
+        "G10",
+        "G05"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W03B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            269,
+            908,
+            302,
+            988
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W03B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            296,
+            908,
+            330,
+            988
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W03B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            324,
+            908,
+            356,
+            988
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W03B04",
+          "class_id": "G10",
+          "bbox_xyxy": [
+            350,
+            908,
+            377,
+            988
+          ],
+          "features": "Short vertical/oblique stem with a rightward branching shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W03B05",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            371,
+            908,
+            394,
+            988
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W04",
+      "line": 3,
+      "spatial_group": 4,
+      "bbox_xyxy": [
+        414,
+        908,
+        550,
+        988
+      ],
+      "class_sequence": [
+        "G20",
+        "G02",
+        "G07",
+        "G21",
+        "G03",
+        "G04"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W04B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            411,
+            908,
+            442,
+            988
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W04B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            436,
+            908,
+            470,
+            988
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W04B03",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            464,
+            908,
+            492,
+            988
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W04B04",
+          "class_id": "G21",
+          "bbox_xyxy": [
+            486,
+            908,
+            516,
+            988
+          ],
+          "features": "Forked/curled head, transverse bar, long straight/slanted descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W04B05",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            510,
+            908,
+            537,
+            988
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W04B06",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            531,
+            908,
+            553,
+            988
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W05",
+      "line": 3,
+      "spatial_group": 5,
+      "bbox_xyxy": [
+        564,
+        908,
+        659,
+        988
+      ],
+      "class_sequence": [
+        "G21",
+        "G13",
+        "G03",
+        "G15"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W05B01",
+          "class_id": "G21",
+          "bbox_xyxy": [
+            561,
+            908,
+            590,
+            988
+          ],
+          "features": "Forked/curled head, transverse bar, long straight/slanted descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W05B02",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            584,
+            908,
+            611,
+            988
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W05B03",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            605,
+            908,
+            635,
+            988
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W05B04",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            629,
+            908,
+            662,
+            988
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W06",
+      "line": 3,
+      "spatial_group": 6,
+      "bbox_xyxy": [
+        664,
+        908,
+        737,
+        988
+      ],
+      "class_sequence": [
+        "G13",
+        "G03",
+        "G15"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W06B01",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            661,
+            908,
+            690,
+            988
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W06B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            684,
+            908,
+            712,
+            988
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W06B03",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            706,
+            908,
+            740,
+            988
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W07",
+      "line": 3,
+      "spatial_group": 7,
+      "bbox_xyxy": [
+        750,
+        908,
+        819,
+        988
+      ],
+      "class_sequence": [
+        "G14",
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W07B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            747,
+            908,
+            786,
+            988
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W07B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            780,
+            908,
+            822,
+            988
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W08",
+      "line": 3,
+      "spatial_group": 8,
+      "bbox_xyxy": [
+        830,
+        908,
+        917,
+        988
+      ],
+      "class_sequence": [
+        "G20",
+        "G11",
+        "G08_N02",
+        "G07"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W08B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            827,
+            908,
+            858,
+            988
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W08B02",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            852,
+            908,
+            882,
+            988
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W08B03",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            876,
+            908,
+            903,
+            988
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W08B04",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            897,
+            908,
+            920,
+            988
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W09",
+      "line": 3,
+      "spatial_group": 9,
+      "bbox_xyxy": [
+        925,
+        908,
+        988,
+        988
+      ],
+      "class_sequence": [
+        "G10",
+        "G11",
+        "G06"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W09B01",
+          "class_id": "G10",
+          "bbox_xyxy": [
+            922,
+            908,
+            951,
+            988
+          ],
+          "features": "Short vertical/oblique stem with a rightward branching shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W09B02",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            945,
+            908,
+            969,
+            988
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W09B03",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            963,
+            908,
+            991,
+            988
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W10",
+      "line": 3,
+      "spatial_group": 10,
+      "bbox_xyxy": [
+        995,
+        908,
+        1028,
+        988
+      ],
+      "class_sequence": [
+        "G01"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W10B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            992,
+            908,
+            1031,
+            988
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W11",
+      "line": 3,
+      "spatial_group": 11,
+      "bbox_xyxy": [
+        1027,
+        908,
+        1151,
+        988
+      ],
+      "class_sequence": [
+        "G14",
+        "G19",
+        "H440_N01_UNBARRED_LEFT_BOWL",
+        "G07"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W11B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1024,
+            908,
+            1067,
+            988
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W11B02",
+          "class_id": "G19",
+          "bbox_xyxy": [
+            1061,
+            908,
+            1096,
+            988
+          ],
+          "features": "Small pointed/triangular teardrop or leaf-shaped loop",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W11B03",
+          "class_id": "H440_N01_UNBARRED_LEFT_BOWL",
+          "bbox_xyxy": [
+            1090,
+            908,
+            1119,
+            988
+          ],
+          "features": "Tall left-bowl body with no explicit upper horizontal bar; keep separate from G18.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L03W11B04",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            1113,
+            908,
+            1154,
+            988
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W12",
+      "line": 3,
+      "spatial_group": 12,
+      "bbox_xyxy": [
+        1174,
+        908,
+        1308,
+        988
+      ],
+      "class_sequence": [
+        "G01",
+        "G08_N02",
+        "G20",
+        "G11"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W12B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            1171,
+            908,
+            1204,
+            988
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W12B02",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            1198,
+            908,
+            1236,
+            988
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W12B03",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            1230,
+            908,
+            1266,
+            988
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W12B04",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            1260,
+            908,
+            1311,
+            988
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W13",
+      "line": 3,
+      "spatial_group": 13,
+      "bbox_xyxy": [
+        1311,
+        908,
+        1363,
+        988
+      ],
+      "class_sequence": [
+        "G15",
+        "G07"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W13B01",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            1308,
+            908,
+            1337,
+            988
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W13B02",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            1331,
+            908,
+            1366,
+            988
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W14",
+      "line": 3,
+      "spatial_group": 14,
+      "bbox_xyxy": [
+        1371,
+        908,
+        1448,
+        988
+      ],
+      "class_sequence": [
+        "G14",
+        "G09",
+        "G04"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W14B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1368,
+            908,
+            1401,
+            988
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W14B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1395,
+            908,
+            1426,
+            988
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W14B03",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            1420,
+            908,
+            1451,
+            988
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W15",
+      "line": 3,
+      "spatial_group": 15,
+      "bbox_xyxy": [
+        1452,
+        908,
+        1557,
+        988
+      ],
+      "class_sequence": [
+        "G21",
+        "G13",
+        "G03",
+        "G15"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W15B01",
+          "class_id": "G21",
+          "bbox_xyxy": [
+            1449,
+            908,
+            1479,
+            988
+          ],
+          "features": "Forked/curled head, transverse bar, long straight/slanted descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W15B02",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1473,
+            908,
+            1501,
+            988
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W15B03",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1495,
+            908,
+            1523,
+            988
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W15B04",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            1517,
+            908,
+            1560,
+            988
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W16",
+      "line": 3,
+      "spatial_group": 16,
+      "bbox_xyxy": [
+        1558,
+        908,
+        1621,
+        988
+      ],
+      "class_sequence": [
+        "G08_N02",
+        "G06",
+        "GA007"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W16B01",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            1555,
+            908,
+            1588,
+            988
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W16B02",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            1582,
+            908,
+            1608,
+            988
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W16B03",
+          "class_id": "GA007",
+          "bbox_xyxy": [
+            1602,
+            908,
+            1624,
+            988
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L03W17",
+      "line": 3,
+      "spatial_group": 17,
+      "bbox_xyxy": [
+        1620,
+        908,
+        1690,
+        988
+      ],
+      "class_sequence": [
+        "G18",
+        "GA008",
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L03W17B01",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            1617,
+            908,
+            1646,
+            988
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W17B02",
+          "class_id": "GA008",
+          "bbox_xyxy": [
+            1640,
+            908,
+            1670,
+            988
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L03W17B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1664,
+            908,
+            1693,
+            988
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W01",
+      "line": 4,
+      "spatial_group": 1,
+      "bbox_xyxy": [
+        81,
+        952,
+        132,
+        1032
+      ],
+      "class_sequence": [
+        "G04",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W01B01",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            78,
+            952,
+            109,
+            1032
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W01B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            103,
+            952,
+            135,
+            1032
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W02",
+      "line": 4,
+      "spatial_group": 2,
+      "bbox_xyxy": [
+        143,
+        952,
+        200,
+        1032
+      ],
+      "class_sequence": [
+        "G14",
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W02B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            140,
+            952,
+            175,
+            1032
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W02B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            169,
+            952,
+            203,
+            1032
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W03",
+      "line": 4,
+      "spatial_group": 3,
+      "bbox_xyxy": [
+        207,
+        952,
+        328,
+        1032
+      ],
+      "class_sequence": [
+        "G13",
+        "G01",
+        "G11",
+        "G21",
+        "G07"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W03B01",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            204,
+            952,
+            234,
+            1032
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W03B02",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            228,
+            952,
+            258,
+            1032
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W03B03",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            252,
+            952,
+            282,
+            1032
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W03B04",
+          "class_id": "G21",
+          "bbox_xyxy": [
+            276,
+            952,
+            306,
+            1032
+          ],
+          "features": "Forked/curled head, transverse bar, long straight/slanted descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W03B05",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            300,
+            952,
+            331,
+            1032
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W04",
+      "line": 4,
+      "spatial_group": 4,
+      "bbox_xyxy": [
+        327,
+        952,
+        411,
+        1032
+      ],
+      "class_sequence": [
+        "G18",
+        "G09",
+        "G08_N01"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W04B01",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            324,
+            952,
+            356,
+            1032
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W04B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            350,
+            952,
+            383,
+            1032
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W04B03",
+          "class_id": "G08_N01",
+          "bbox_xyxy": [
+            377,
+            952,
+            414,
+            1032
+          ],
+          "features": "Oval/rounded upper bowl plus descender whose lower contour returns obliquely toward/crosses the descending stem, making a closed or near-closed lower loop. Exact ink closure is not mandatory when a return is plainly visible. Lower return inferred visible; closure can be weak and requires review.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W05",
+      "line": 4,
+      "spatial_group": 5,
+      "bbox_xyxy": [
+        417,
+        952,
+        558,
+        1032
+      ],
+      "class_sequence": [
+        "G06",
+        "G02",
+        "G09",
+        "G10",
+        "G11",
+        "G12"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W05B01",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            414,
+            952,
+            447,
+            1032
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W05B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            441,
+            952,
+            476,
+            1032
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W05B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            470,
+            952,
+            496,
+            1032
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W05B04",
+          "class_id": "G10",
+          "bbox_xyxy": [
+            490,
+            952,
+            519,
+            1032
+          ],
+          "features": "Short vertical/oblique stem with a rightward branching shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W05B05",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            513,
+            952,
+            540,
+            1032
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W05B06",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            534,
+            952,
+            561,
+            1032
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W06",
+      "line": 4,
+      "spatial_group": 6,
+      "bbox_xyxy": [
+        578,
+        952,
+        744,
+        1032
+      ],
+      "class_sequence": [
+        "G09",
+        "G15",
+        "G12",
+        "G15",
+        "G08_N01",
+        "G12"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W06B01",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            575,
+            952,
+            611,
+            1032
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W06B02",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            605,
+            952,
+            636,
+            1032
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W06B03",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            630,
+            952,
+            661,
+            1032
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W06B04",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            655,
+            952,
+            688,
+            1032
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W06B05",
+          "class_id": "G08_N01",
+          "bbox_xyxy": [
+            682,
+            952,
+            716,
+            1032
+          ],
+          "features": "Oval/rounded upper bowl plus descender whose lower contour returns obliquely toward/crosses the descending stem, making a closed or near-closed lower loop. Exact ink closure is not mandatory when a return is plainly visible. Lower return inferred visible; closure can be weak and requires review.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W06B06",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            710,
+            952,
+            747,
+            1032
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W07",
+      "line": 4,
+      "spatial_group": 7,
+      "bbox_xyxy": [
+        760,
+        952,
+        888,
+        1032
+      ],
+      "class_sequence": [
+        "G18",
+        "G03",
+        "G13",
+        "G07",
+        "G15"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W07B01",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            757,
+            952,
+            791,
+            1032
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W07B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            785,
+            952,
+            813,
+            1032
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W07B03",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            807,
+            952,
+            838,
+            1032
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W07B04",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            832,
+            952,
+            862,
+            1032
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W07B05",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            856,
+            952,
+            891,
+            1032
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W08",
+      "line": 4,
+      "spatial_group": 8,
+      "bbox_xyxy": [
+        904,
+        952,
+        952,
+        1032
+      ],
+      "class_sequence": [
+        "G13",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W08B01",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            901,
+            952,
+            931,
+            1032
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W08B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            925,
+            952,
+            955,
+            1032
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W09",
+      "line": 4,
+      "spatial_group": 9,
+      "bbox_xyxy": [
+        968,
+        952,
+        1025,
+        1032
+      ],
+      "class_sequence": [
+        "G14",
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W09B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            965,
+            952,
+            1002,
+            1032
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W09B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            996,
+            952,
+            1028,
+            1032
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W10",
+      "line": 4,
+      "spatial_group": 10,
+      "bbox_xyxy": [
+        1040,
+        952,
+        1191,
+        1032
+      ],
+      "class_sequence": [
+        "G20",
+        "G13",
+        "G09",
+        "G14",
+        "G08_N01",
+        "G11"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W10B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            1037,
+            952,
+            1072,
+            1032
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W10B02",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1066,
+            952,
+            1096,
+            1032
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W10B03",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            1090,
+            952,
+            1121,
+            1032
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W10B04",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1115,
+            952,
+            1148,
+            1032
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W10B05",
+          "class_id": "G08_N01",
+          "bbox_xyxy": [
+            1142,
+            952,
+            1172,
+            1032
+          ],
+          "features": "Oval/rounded upper bowl plus descender whose lower contour returns obliquely toward/crosses the descending stem, making a closed or near-closed lower loop. Exact ink closure is not mandatory when a return is plainly visible. Lower return inferred visible; closure can be weak and requires review.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W10B06",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            1166,
+            952,
+            1194,
+            1032
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W11",
+      "line": 4,
+      "spatial_group": 11,
+      "bbox_xyxy": [
+        1210,
+        952,
+        1288,
+        1032
+      ],
+      "class_sequence": [
+        "G14",
+        "G03",
+        "G13"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W11B01",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1207,
+            952,
+            1244,
+            1032
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W11B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1238,
+            952,
+            1266,
+            1032
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W11B03",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1260,
+            952,
+            1291,
+            1032
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W12",
+      "line": 4,
+      "spatial_group": 12,
+      "bbox_xyxy": [
+        1290,
+        952,
+        1436,
+        1032
+      ],
+      "class_sequence": [
+        "G15",
+        "G07",
+        "G02",
+        "G14",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W12B01",
+          "class_id": "G15",
+          "bbox_xyxy": [
+            1287,
+            952,
+            1318,
+            1032
+          ],
+          "features": "Connected low single-shoulder form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W12B02",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            1312,
+            952,
+            1345,
+            1032
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W12B03",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            1339,
+            952,
+            1370,
+            1032
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W12B04",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1364,
+            952,
+            1403,
+            1032
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W12B05",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1397,
+            952,
+            1439,
+            1032
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L04W13",
+      "line": 4,
+      "spatial_group": 13,
+      "bbox_xyxy": [
+        1478,
+        952,
+        1604,
+        1032
+      ],
+      "class_sequence": [
+        "G01",
+        "G02",
+        "A001",
+        "G04",
+        "G05"
+      ],
+      "bodies": [
+        {
+          "body_id": "L04W13B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            1475,
+            952,
+            1511,
+            1032
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W13B02",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            1505,
+            952,
+            1540,
+            1032
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W13B03",
+          "class_id": "A001",
+          "bbox_xyxy": [
+            1534,
+            952,
+            1562,
+            1032
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L04W13B04",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            1556,
+            952,
+            1583,
+            1032
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L04W13B05",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            1577,
+            952,
+            1607,
+            1032
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W01",
+      "line": 5,
+      "spatial_group": 1,
+      "bbox_xyxy": [
+        80,
+        988,
+        261,
+        1068
+      ],
+      "class_sequence": [
+        "G20",
+        "A002",
+        "G08_N02",
+        "G06",
+        "G02",
+        "G09",
+        "G01"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W01B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            77,
+            988,
+            108,
+            1068
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W01B02",
+          "class_id": "A002",
+          "bbox_xyxy": [
+            102,
+            988,
+            129,
+            1068
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L05W01B03",
+          "class_id": "G08_N02",
+          "bbox_xyxy": [
+            123,
+            988,
+            159,
+            1068
+          ],
+          "features": "Oval/rounded upper bowl plus descending stem ending in a leftward open hook with a free terminal; no comparable crossing/returned lower stroke is visible. Open lower terminal rather than crossed return.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W01B04",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            153,
+            988,
+            182,
+            1068
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W01B05",
+          "class_id": "G02",
+          "bbox_xyxy": [
+            176,
+            988,
+            210,
+            1068
+          ],
+          "features": "Looped ascender continuing into a right shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W01B06",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            204,
+            988,
+            235,
+            1068
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W01B07",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            229,
+            988,
+            264,
+            1068
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W02",
+      "line": 5,
+      "spatial_group": 2,
+      "bbox_xyxy": [
+        271,
+        988,
+        299,
+        1068
+      ],
+      "class_sequence": [
+        "G09"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W02B01",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            268,
+            988,
+            302,
+            1068
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W03",
+      "line": 5,
+      "spatial_group": 3,
+      "bbox_xyxy": [
+        305,
+        988,
+        434,
+        1068
+      ],
+      "class_sequence": [
+        "G18",
+        "G07",
+        "G13",
+        "G07",
+        "G19"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W03B01",
+          "class_id": "G18",
+          "bbox_xyxy": [
+            302,
+            988,
+            339,
+            1068
+          ],
+          "features": "Upper horizontal bar, long oblique stem, oval lower bowl to left Upper bar visible in this window; no substitution of unbarred H440.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W03B02",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            333,
+            988,
+            363,
+            1068
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W03B03",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            357,
+            988,
+            387,
+            1068
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W03B04",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            381,
+            988,
+            413,
+            1068
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W03B05",
+          "class_id": "G19",
+          "bbox_xyxy": [
+            407,
+            988,
+            437,
+            1068
+          ],
+          "features": "Small pointed/triangular teardrop or leaf-shaped loop",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W04",
+      "line": 5,
+      "spatial_group": 4,
+      "bbox_xyxy": [
+        435,
+        988,
+        611,
+        1068
+      ],
+      "class_sequence": [
+        "G06",
+        "G04",
+        "G11",
+        "G12",
+        "G10",
+        "G05",
+        "G10_CAP"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W04B01",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            432,
+            988,
+            462,
+            1068
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W04B02",
+          "class_id": "G04",
+          "bbox_xyxy": [
+            456,
+            988,
+            486,
+            1068
+          ],
+          "features": "Two stacked closed or nearly closed lobes",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W04B03",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            480,
+            988,
+            511,
+            1068
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W04B04",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            505,
+            988,
+            536,
+            1068
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W04B05",
+          "class_id": "G10",
+          "bbox_xyxy": [
+            530,
+            988,
+            557,
+            1068
+          ],
+          "features": "Short vertical/oblique stem with a rightward branching shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W04B06",
+          "class_id": "G05",
+          "bbox_xyxy": [
+            551,
+            988,
+            580,
+            1068
+          ],
+          "features": "Oblique short stem with small lower baseline foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W04B07",
+          "class_id": "G10_CAP",
+          "bbox_xyxy": [
+            574,
+            988,
+            614,
+            1068
+          ],
+          "features": "Short-shoulder G10 body with clearly associated overhead cap/roof; proposed broad graphical family, with source-only equality uncertainty retained. Classify confidently matching forms; otherwise retain a new/uncertain ID. Overhead associated roof visible; kept distinct from plain G10.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W05",
+      "line": 5,
+      "spatial_group": 5,
+      "bbox_xyxy": [
+        590,
+        988,
+        815,
+        1068
+      ],
+      "class_sequence": [
+        "G01",
+        "G09",
+        "A001",
+        "G14",
+        "G07",
+        "G01",
+        "A005",
+        "G10_CAP"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W05B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            587,
+            988,
+            626,
+            1068
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W05B02",
+          "class_id": "G09",
+          "bbox_xyxy": [
+            620,
+            988,
+            654,
+            1068
+          ],
+          "features": "Curving open upper crook flowing into a closed lower bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W05B03",
+          "class_id": "A001",
+          "bbox_xyxy": [
+            648,
+            988,
+            680,
+            1068
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L05W05B04",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            674,
+            988,
+            711,
+            1068
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W05B05",
+          "class_id": "G07",
+          "bbox_xyxy": [
+            705,
+            988,
+            733,
+            1068
+          ],
+          "features": "Angular upper cup, right stem, short horizontal foot",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W05B06",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            727,
+            988,
+            763,
+            1068
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W05B07",
+          "class_id": "A005",
+          "bbox_xyxy": [
+            757,
+            988,
+            788,
+            1068
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L05W05B08",
+          "class_id": "G10_CAP",
+          "bbox_xyxy": [
+            782,
+            988,
+            818,
+            1068
+          ],
+          "features": "Short-shoulder G10 body with clearly associated overhead cap/roof; proposed broad graphical family, with source-only equality uncertainty retained. Classify confidently matching forms; otherwise retain a new/uncertain ID. Overhead associated roof visible; kept distinct from plain G10.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W06",
+      "line": 5,
+      "spatial_group": 6,
+      "bbox_xyxy": [
+        810,
+        988,
+        888,
+        1068
+      ],
+      "class_sequence": [
+        "G20",
+        "A003",
+        "G13"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W06B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            807,
+            988,
+            845,
+            1068
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W06B02",
+          "class_id": "A003",
+          "bbox_xyxy": [
+            839,
+            988,
+            868,
+            1068
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L05W06B03",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            862,
+            988,
+            891,
+            1068
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W07",
+      "line": 5,
+      "spatial_group": 7,
+      "bbox_xyxy": [
+        901,
+        988,
+        954,
+        1068
+      ],
+      "class_sequence": [
+        "G11",
+        "G06"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W07B01",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            898,
+            988,
+            930,
+            1068
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W07B02",
+          "class_id": "G06",
+          "bbox_xyxy": [
+            924,
+            988,
+            957,
+            1068
+          ],
+          "features": "High short bar, slanting stem, central cross stroke and lower hook",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W08",
+      "line": 5,
+      "spatial_group": 8,
+      "bbox_xyxy": [
+        962,
+        988,
+        1102,
+        1068
+      ],
+      "class_sequence": [
+        "G01",
+        "G03",
+        "G19",
+        "G14",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W08B01",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            959,
+            988,
+            998,
+            1068
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W08B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            992,
+            988,
+            1021,
+            1068
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W08B03",
+          "class_id": "G19",
+          "bbox_xyxy": [
+            1015,
+            988,
+            1045,
+            1068
+          ],
+          "features": "Small pointed/triangular teardrop or leaf-shaped loop",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W08B04",
+          "class_id": "G14",
+          "bbox_xyxy": [
+            1039,
+            988,
+            1079,
+            1068
+          ],
+          "features": "Connected low multi-hump form",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W08B05",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1073,
+            988,
+            1105,
+            1068
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W09",
+      "line": 5,
+      "spatial_group": 9,
+      "bbox_xyxy": [
+        1108,
+        988,
+        1233,
+        1068
+      ],
+      "class_sequence": [
+        "U001",
+        "G01",
+        "GA006",
+        "G10",
+        "G11"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W09B01",
+          "class_id": "U001",
+          "bbox_xyxy": [
+            1105,
+            988,
+            1140,
+            1068
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "unresolved"
+        },
+        {
+          "body_id": "L05W09B02",
+          "class_id": "G01",
+          "bbox_xyxy": [
+            1134,
+            988,
+            1171,
+            1068
+          ],
+          "features": "Tall loop above baseline, crossed central stem, looped descender",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W09B03",
+          "class_id": "GA006",
+          "bbox_xyxy": [
+            1165,
+            988,
+            1192,
+            1068
+          ],
+          "features": "Unresolved body; no exact frozen class assignment.",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W09B04",
+          "class_id": "G10",
+          "bbox_xyxy": [
+            1186,
+            988,
+            1214,
+            1068
+          ],
+          "features": "Short vertical/oblique stem with a rightward branching shoulder",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W09B05",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            1208,
+            988,
+            1236,
+            1068
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    },
+    {
+      "group_id": "L05W10",
+      "line": 5,
+      "spatial_group": 10,
+      "bbox_xyxy": [
+        1263,
+        988,
+        1459,
+        1068
+      ],
+      "class_sequence": [
+        "G20",
+        "G03",
+        "G20",
+        "G11",
+        "G12",
+        "G13",
+        "G03"
+      ],
+      "bodies": [
+        {
+          "body_id": "L05W10B01",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            1260,
+            988,
+            1296,
+            1068
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W10B02",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1290,
+            988,
+            1320,
+            1068
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W10B03",
+          "class_id": "G20",
+          "bbox_xyxy": [
+            1314,
+            988,
+            1349,
+            1068
+          ],
+          "features": "Looped ascender with a second smaller lower bowl/return",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W10B04",
+          "class_id": "G11",
+          "bbox_xyxy": [
+            1343,
+            988,
+            1373,
+            1068
+          ],
+          "features": "Two right-facing lobes, open on left",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W10B05",
+          "class_id": "G12",
+          "bbox_xyxy": [
+            1367,
+            988,
+            1397,
+            1068
+          ],
+          "features": "Curved upper hook with descending diagonal and lower sweep",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W10B06",
+          "class_id": "G13",
+          "bbox_xyxy": [
+            1391,
+            988,
+            1423,
+            1068
+          ],
+          "features": "Single right-open rounded arc",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        },
+        {
+          "body_id": "L05W10B07",
+          "class_id": "G03",
+          "bbox_xyxy": [
+            1417,
+            988,
+            1462,
+            1068
+          ],
+          "features": "Short top bar, descending bend, lower open/rounded bowl",
+          "bbox_policy": "manual approximate inspection window, not exact glyph boundary; may include neighboring ink and other-line descenders",
+          "confidence": "provisional graphical match"
+        }
+      ],
+      "word_boundary": "spatial gap observed, no semantic claim",
+      "joining": "connected strokes permitted; body windows are not exact pen segmentation"
+    }
+  ],
+  "unknown_alternatives": {
+    "A001": {
+      "features": "Single closed rounded low loop, often less pointed than atlas G19. No descender.",
+      "candidate_classes": [
+        "G19"
+      ],
+      "reason": "Rounded-versus-pointed family equality unproven."
+    },
+    "A002": {
+      "features": "Dark low small body after initial looped body; upper blob and lower lobe may be ink pooling or stacked lobes.",
+      "candidate_classes": [
+        "G19",
+        "G04"
+      ],
+      "reason": "Cannot settle visible lobes at source resolution."
+    },
+    "A003": {
+      "features": "Low open rounded bowl with entry/exit flourish; resembles trough or open arc.",
+      "candidate_classes": [
+        "G16",
+        "G13"
+      ],
+      "reason": "Exit and adjoining body separate poorly."
+    },
+    "A006": {
+      "features": "After tall looped body, short upper stroke and dark lower bowl; top may be hooked or barred.",
+      "candidate_classes": [
+        "G09",
+        "G03"
+      ],
+      "reason": "Ambiguous upper contour."
+    },
+    "A007": {
+      "features": "Short dark form contiguous with preceding crossed stem; low bowl or additional crossed stem may be present.",
+      "candidate_classes": [
+        "G03",
+        "G06",
+        "G19"
+      ],
+      "body_count_interval": [
+        1,
+        2
+      ],
+      "reason": "Joined final group remains uncertain; no fluent segmentation."
+    },
+    "A008": {
+      "features": "Tall left-bowl body adjacent to barred left-bowl body; upper cross-stroke association uncertain.",
+      "candidate_classes": [
+        "G18",
+        "H440_N01_UNBARRED_LEFT_BOWL"
+      ],
+      "reason": "May share preceding bar rather than have own upper horizontal."
+    },
+    "A005": {
+      "features": "Oblique narrow low stroke adjacent to preceding looped body, possibly footed stem or trough.",
+      "candidate_classes": [
+        "G05",
+        "G16"
+      ],
+      "reason": "Joined body segmentation uncertain."
+    },
+    "U001": {
+      "features": "Tall tangled initial group at line 5 group 9; looped ascender and broad lower flourish, probable one or two cipher bodies.",
+      "candidate_classes": [
+        "G20",
+        "G01"
+      ],
+      "body_count_interval": [
+        1,
+        2
+      ],
+      "reason": "Not confidently segmented; represented as one mask cluster, not counted as a proven one-body glyph."
+    }
+  },
+  "punctuation": [
+    {
+      "id": "P01",
+      "line": 1,
+      "after_spatial_group": 1,
+      "features": "comma",
+      "bbox_xyxy": [
+        625,
+        863,
+        637,
+        887
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P02",
+      "line": 1,
+      "after_spatial_group": 4,
+      "features": "comma",
+      "bbox_xyxy": [
+        893,
+        864,
+        905,
+        889
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P03",
+      "line": 1,
+      "after_spatial_group": 7,
+      "features": "point",
+      "bbox_xyxy": [
+        1238,
+        853,
+        1254,
+        873
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P04",
+      "line": 1,
+      "after_spatial_group": 9,
+      "features": "comma",
+      "bbox_xyxy": [
+        1511,
+        862,
+        1526,
+        891
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P05",
+      "line": 2,
+      "after_spatial_group": 3,
+      "features": "question-like hooked mark and point",
+      "bbox_xyxy": [
+        484,
+        866,
+        505,
+        923
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P06",
+      "line": 2,
+      "after_spatial_group": 8,
+      "features": "exclamation-like stroke and point",
+      "bbox_xyxy": [
+        985,
+        871,
+        1012,
+        925
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P07",
+      "line": 3,
+      "after_spatial_group": 3,
+      "features": "point",
+      "bbox_xyxy": [
+        382,
+        939,
+        400,
+        961
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P08",
+      "line": 3,
+      "after_spatial_group": 11,
+      "features": "point",
+      "bbox_xyxy": [
+        1157,
+        950,
+        1173,
+        973
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P09",
+      "line": 3,
+      "after_spatial_group": 16,
+      "features": "terminal horizontal continuation",
+      "bbox_xyxy": [
+        1672,
+        943,
+        1703,
+        954
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P10",
+      "line": 4,
+      "after_spatial_group": 6,
+      "features": "point",
+      "bbox_xyxy": [
+        744,
+        985,
+        759,
+        1005
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P11",
+      "line": 4,
+      "after_spatial_group": 12,
+      "features": "point",
+      "bbox_xyxy": [
+        1439,
+        985,
+        1459,
+        1004
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P12",
+      "line": 5,
+      "after_spatial_group": 4,
+      "features": "comma",
+      "bbox_xyxy": [
+        608,
+        1018,
+        629,
+        1046
+      ],
+      "reading_status": "provisional source feature"
+    },
+    {
+      "id": "P13",
+      "line": 5,
+      "after_spatial_group": 10,
+      "features": "point",
+      "bbox_xyxy": [
+        1456,
+        1032,
+        1475,
+        1051
+      ],
+      "reading_status": "provisional source feature"
+    }
+  ],
+  "spacing_and_joining": [
+    {
+      "line": 2,
+      "groups": [
+        9,
+        10
+      ],
+      "note": "Minimal spatial gap; could be one connected word. Kept as visible groups."
+    },
+    {
+      "line": 3,
+      "groups": [
+        10,
+        11
+      ],
+      "note": "Initial tall body followed closely by low multihump string; boundary not secure."
+    },
+    {
+      "line": 5,
+      "group": 9,
+      "note": "Initial cluster unsegmented; one-mask encoding has body-count interval [1,2]."
+    }
+  ],
+  "date": {
+    "bbox_xyxy": [
+      1446,
+      1036,
+      1686,
+      1101
+    ],
+    "features": [
+      "Leading two Arabic-like forms read graphically as 1 then angular 4, followed by point.",
+      "Month component has long oblique left stroke, upper horizontal roof, lower crossbar, and two right descending/upward strokes.",
+      "Right month strokes appear to converge low and rise right, favoring a V-like joined pair, but touching strokes and ruling make II alternative viable.",
+      "Then point and four digit-like bodies with contours 1,9,0,3, followed by point."
+    ],
+    "graphical_candidates": [
+      "14.[IV/II].1903."
+    ],
+    "month_alternatives": [
+      "IV",
+      "II"
+    ],
+    "month_confidence": "uncertain; IV favored only by apparent lower convergence, no calendar context",
+    "postal_date_not_consulted": true
+  }
+}

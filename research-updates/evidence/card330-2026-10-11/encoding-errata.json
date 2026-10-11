@@ -1,0 +1,23 @@
+{
+  "schema": "card330.append-only-errata.v1",
+  "phase_A_sha256": "274527cdad28a319d0b311d43525eb7b60992d682a40b03f844cd377142728e3",
+  "scope": "Mechanical identifier encoding only; frozen graphical content unchanged",
+  "corrections": [
+    {
+      "before": "GA006",
+      "after": "A006",
+      "reason": "Shorthand encoder prepended G to an intended unknown ID whose definition is already present in phase A."
+    },
+    {
+      "before": "GA007",
+      "after": "A007",
+      "reason": "Same unknown-ID encoder defect."
+    },
+    {
+      "before": "GA008",
+      "after": "A008",
+      "reason": "Same unknown-ID encoder defect."
+    }
+  ],
+  "policy": "Normalize these exact ID aliases only. All remain masked; no frozen glyph decisions or mappings changed."
+}
