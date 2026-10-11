@@ -73,6 +73,8 @@ python3 verification/card330_replay.py
 
 An optional `--source-image /path/to/picture.jpg` checks only an explicitly supplied picture file’s exact known SHA-256 and byte count. Exact bytes pin recorded dimensions; no pixel decoding, source fetching, crop output or image dependency is involved. Frozen relative references in the text snapshots are historical labels for local views, not bundled source files. The experimental adapter also cannot disprove coherent coordinated edits.
 
+The later [feature-control](../research-updates/2026-10-11-card330-cross-card-feature-control.md) and [stroke-ownership](../research-updates/2026-10-11-card330-stroke-ownership.md) reports publish saved observations and scoring rules. Their collector/comparison scripts are not included, so these ordinary commands do not rerun the perceptual experiments. Both follow-ups accepted no additional letters; all thirteen masks remain.
+
 ## Regression tests and CI
 
 From the repository root:

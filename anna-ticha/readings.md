@@ -14,6 +14,10 @@ This is a navigation index to the full preserved records, not a new edition or a
 - [Card 339: A warm kiss and an expected note](card-339.md)
 - [Card 200: A ball and a question about a sleigh outing](card-200.md)
 
+## Experimental source-first record — 11 October 2026
+
+- [Card330: graphical proposal with thirteen retained masks](card-330.md): 65 display groups, 264 encoded slots, 251 provisional assignments and 254 emitted known letters. Physical body count and written/postal date remain unresolved. The feature-control and stroke-ownership follow-ups accepted no additional letters. This is separate from the twelve contextual ledgers below.
+
 ## New repository records
 
 - [Card 201: an unchanged-key reading](card-201.md), recorded 5 October 2026; 567 mapped slots, three unresolved spans

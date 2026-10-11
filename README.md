@@ -2,19 +2,27 @@
 
 A set of personal postcards written in cipher and addressed to Anna Tichá. The proposed readings are in Czech; the writer’s identity and several dates remain unresolved.
 
-## What has been found?
+## Current result — 11 October 2026
 
-Selected cards can be read in part. The most complete public checking package is for card 199: it records each of its 532 symbol positions and the proposed letters. Other cards have separate reading reports, with different amounts of evidence.
+This repository contains 37 card reports with different amounts of public evidence. Card199 has a complete 532-position checking package: 522 positions mapped, ten unknown, and two `ch` assignments producing 524 emitted letters. Twelve later cards have replayable contextual ledgers, with additional card318 marginal-strip records. Card330 has a separate experimental graphical proposal. These are partial readings and recorded hypotheses, with qualified English interpretations. Card199’s opening warmly thanks the recipient for a dear letter; the writer remains unidentified.
 
-A small example from the recorded result:
+| Evidence layer | Open this |
+| --- | --- |
+| All reports / evidence levels | [All 37 card reports](anna-ticha/readings.md) · [current investigation overview](anna-ticha/README.md) |
+| Original card199 | [Catalogue 1518](https://crypto.hcportal.eu/dashboard/cryptograms/1518) · [picture](https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG) |
+| Recorded signs / candidate key | [Card199 positions](verification/anna-ticha/data/card199_positions.csv) · [key](verification/anna-ticha/data/key.csv) |
+| Literal | [Card199 saved output](verification/anna-ticha/literal.txt) · [card330 diplomatic projection](anna-ticha/card-330.md#diplomatic-projection) |
+| Interpretation | [Card199 English interpretation and repairs](anna-ticha/card-199.md#editorial-interpretation) · each card’s separate report |
 
-```text
-vrely dik za drahy listek byl
-```
+`C199.L01.T01 → G01 → v` and `C199.L01.T02 → G02 → r` give `vr`; [check the saved example](READING_GUIDE.md#check-one-example-by-hand). Card number 199 differs from catalogue ID1518. Source-region order is an editorial interpretation, and context boxes are not exact glyph outlines.
 
-The opening of card 199 expresses warm thanks for a dear letter. This is a summary of the proposed Czech reading, not an identification of its writer.
+Card330’s proposal has 65 display groups, 264 encoded slots, 251 provisional assignments producing 254 known letters, and 13 unresolved occurrences across 11 families. Encoded slots are not a verified physical-glyph count. Subsequent [feature controls](research-updates/2026-10-11-card330-cross-card-feature-control.md) and [stroke-ownership checks](research-updates/2026-10-11-card330-stroke-ownership.md) accepted no further letters.
+
+**Unresolved / missing:** all 13 card330 masks, physical segmentation, written/postal date, writer identity and earlier date alternatives remain. Many card reports have no complete public positional/replay package. Collector/comparison scripts for the perceptual follow-ups are not published; the ordinary replay does not rerun those judgments. Development, post-test learning, retrospective and prospective stages remain separate; card205’s 389/389 coverage is not 100% historical accuracy.
 
 ## Start reading
+
+Start with the [all-card index](anna-ticha/readings.md), then choose a literal beside its English interpretation. Recent reports follow.
 
 [Card 318: preliminary May Day greeting](anna-ticha/card-318.md): an unchanged-key reading of the 96-body main block, with a word ledger and explicit single-reader limits. Marginal text remains open.
 

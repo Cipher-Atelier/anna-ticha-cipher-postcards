@@ -10,7 +10,7 @@ Start with the [source catalogue or manuscript](https://crypto.hcportal.eu/dashb
 
 ## Read the current result
 
-Selected cards can be read in part. The most complete public checking package is for card 199: it records each of its 532 symbol positions and the proposed letters. Other cards have separate reading reports, with different amounts of evidence.
+[All 37 card reports](anna-ticha/readings.md) distinguish literal readings, qualified English interpretations and evidence levels. Selected cards can be read in part. The most complete public checking package is for card 199: it records each of its 532 symbol positions and the proposed letters. Other cards have separate reading reports, with different amounts of evidence.
 
 Open [Card 199: literal reading](verification/anna-ticha/literal.txt) and the [research account](anna-ticha/article.md). A literal preserves the recorded output before making it smoother to read. An English explanation or translation adds interpretation and should not silently repair it.
 
@@ -22,7 +22,7 @@ vrely dik za drahy listek byl
 
 The opening of card 199 expresses warm thanks for a dear letter. This is a summary of the proposed Czech reading, not an identification of its writer.
 
-The supported check now also replays twelve saved contextual ledgers and card318 margins, as listed in the [verification guide](verification/README.md). This checks saved proposals. Card330 has a separate [experimental graphical replay](anna-ticha/card-330.md), with unresolved masks and no accepted physical body count or written/postal date; other cards are not automatically covered. Cards 440 and 453 contribute limited examples; cards 247 and 248 have qualified text reports without complete public positional packages. A smooth Czech paraphrase can conceal uncertain signs, spacing or dates.
+The supported check now also replays twelve saved contextual ledgers and card318 margins, as listed in the [verification guide](verification/README.md). This checks saved proposals. Card330 has a separate [experimental graphical replay](anna-ticha/card-330.md), with unresolved masks and no accepted physical body count or written/postal date; other cards are not automatically covered. Cards 440 and 453 contribute limited examples; cards 247 and 248 have qualified text reports without complete public positional packages. Card330’s 264 encoded slots, 251 assignments and 254 known letters are different units; all 13 masks and date alternatives remain. The later [feature-control](research-updates/2026-10-11-card330-cross-card-feature-control.md) and [stroke-ownership](research-updates/2026-10-11-card330-stroke-ownership.md) checks accepted no additional letters. Their collector/comparison scripts are not published; replaying the proposal does not regenerate perceptual judgments. A smooth Czech paraphrase can conceal uncertain signs, spacing or dates.
 
 ## Check one example by hand
 
