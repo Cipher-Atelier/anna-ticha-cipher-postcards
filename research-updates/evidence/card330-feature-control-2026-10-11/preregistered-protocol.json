@@ -1,0 +1,57 @@
+{
+  "experiment_id": "card330-cross-card-G05-G19-features-20261011",
+  "frozen_before_test_crop_inspection_utc": "2026-10-11 02:21:38 UTC",
+  "basis_commit": "8c8ad711e39315620b2c9ba625b4711ba8648d42",
+  "purpose": "Test whether frozen stem/foot versus closed pointed-contour criteria survive cross-card variation before attempting the disputed card330 slot. No new literal or key change.",
+  "criteria_basis": "Existing frozen atlas descriptions of G05/G19; class mapping/literals withheld from coded observer. Earlier unblinded readings and atlas examples were available to planner; not globally blind or novel source material.",
+  "features": {
+    "F0": "Target ink separable enough from neighbors to attribute the features; yes/no/unclear. No interpretation if no or unclear.",
+    "F1": "Distinct oblique stem extending upward outside the low contour/foot; yes/no/unclear.",
+    "F2": "Separate short baseline foot or low hook attached to that stem; yes/no/unclear.",
+    "F3": "Closed pointed/triangular leaf-like contour; yes/no/unclear. Require visible closure, do not infer from spelling."
+  },
+  "decision_rules": {
+    "S": "F0=yes,F1=yes,F2=yes,F3=no",
+    "L": "F0=yes,F1=no,F3=yes; F2 must not be a distinct attached stem foot",
+    "N": "Any other combination or unclear feature. Abstention is mandatory; no nearest-class rule."
+  },
+  "selection": {
+    "canonical_controls": "Both frozen G05 examples and both frozen G19 examples in card199 atlas; do not replace failed controls.",
+    "negative_controls": "Both frozen G11 examples, expected N rather than binary forced match.",
+    "transfer_tests": "First two card328 ledger rows containing G05, and first row containing G19, in saved line/word order; exact designated body indices selected from class sequence. No selection by readable plaintext or later feature outcome.",
+    "disputed_target": "Card330 L01W03B05, previously retained R_L01W03B05; no A003 loop or written-date input.",
+    "coded_order": "Collector deterministic shuffle seed330328; observer sees coded target windows only, no expected roles/classes/literals."
+  },
+  "stop_rule": "All four canonical controls must meet expected S/L and both negative controls N. Then all three transfer tests must match their saved provisional family criteria. If any fail or abstain, stop transfer/adjudication; retain card330 mask irrespective of its isolated observation. No feature tuning, replacement examples, thresholds or repeated crops after scoring.",
+  "source_inputs": {
+    "card199": {
+      "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+      "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce"
+    },
+    "card328": {
+      "url": "https://api.hcportal.eu/media/5001/pc_hcp_328_pic.JPG",
+      "sha256": "5f011bb3614825c7181c614235b1df1687f56e5a79a8cd197a897f78077595b5",
+      "bytes": 1484288,
+      "dimensions": [
+        1785,
+        1175
+      ]
+    },
+    "card330": {
+      "url": "https://api.hcportal.eu/media/5007/pc_hcp_330_pic.JPG",
+      "sha256": "206f29850350f429346d04bacc37c01bc377e50b1224a59d42bb6e785b781a05",
+      "bytes": 1431536,
+      "dimensions": [
+        1785,
+        1175
+      ]
+    }
+  },
+  "image_method": "Original provider bytes already available locally; crop, exact quarter turn where recorded, ordinary nearest-neighbor resizing only. No enhancement, thresholding, watermark removal or pixel publication. Coordinates and hashes published as text.",
+  "limitations": [
+    "Controls are frozen proposed class examples, not external ground truth.",
+    "Small purposive sample, dependent handwriting observations, no probability/accuracy estimate.",
+    "Coded observer is an AI with generic prior knowledge; label concealment is procedural, not certified blindness.",
+    "Only written-cipher class shape transfer assessed; no itinerary, date, identity or full decipherment."
+  ]
+}

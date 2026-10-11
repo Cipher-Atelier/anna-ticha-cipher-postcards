@@ -1,0 +1,198 @@
+{
+  "schema": "card330-frozen-feature-control-scoring-v1",
+  "protocol_sha256": "81a87ee5af89d8ef059ecb907114ce374fc1d3eeae244f4d7ee8b98ce6d24acd",
+  "window_freeze_sha256": "9cc6644a9ada801754d5d25a4a9dd57f7d227d77838816828eb5970575edce32",
+  "dataset_selection_sha256": "a9e41838dd27ce779a9c35ab2712dc94887a179d8736b5f8edbaedafb6763fa9",
+  "observation_sha256": "c04e8d09411145ad73b894c287b0675553ab6e1098c9ada769e1223dce53fd1d",
+  "scored_utc": "2026-10-11T02:31:39.652864+00:00",
+  "label_exposure": "Evaluator knew selection roles; fresh observer was given only coded views and neutral target locators before its raw observations were frozen. Role map was not sent to observer.",
+  "derived_decisions_checked_against_frozen_features": true,
+  "example_summary": {
+    "canonical_control": {
+      "examples": 4,
+      "expectation_matches": 3,
+      "unexpected_abstentions": 1,
+      "N_decisions": 1
+    },
+    "negative_control": {
+      "examples": 2,
+      "expectation_matches": 2,
+      "unexpected_abstentions": 0,
+      "N_decisions": 2
+    },
+    "transfer_test": {
+      "examples": 3,
+      "expectation_matches": 2,
+      "unexpected_abstentions": 1,
+      "N_decisions": 1
+    }
+  },
+  "rows": [
+    {
+      "coded_id": "A01",
+      "selection_id": "C328.L1W1.B05",
+      "role": "transfer_test",
+      "expected_decision": "S",
+      "observed_decision": "S",
+      "matches_predeclared_expectation": true,
+      "features": {
+        "F0": "yes",
+        "F1": "yes",
+        "F2": "yes",
+        "F3": "no"
+      }
+    },
+    {
+      "coded_id": "A02",
+      "selection_id": "C328.L4W3.B01",
+      "role": "transfer_test",
+      "expected_decision": "L",
+      "observed_decision": "N",
+      "matches_predeclared_expectation": false,
+      "features": {
+        "F0": "yes",
+        "F1": "unclear",
+        "F2": "no",
+        "F3": "yes"
+      }
+    },
+    {
+      "coded_id": "A03",
+      "selection_id": "C199.L04.T21",
+      "role": "negative_control",
+      "expected_decision": "N",
+      "observed_decision": "N",
+      "matches_predeclared_expectation": true,
+      "features": {
+        "F0": "yes",
+        "F1": "no",
+        "F2": "no",
+        "F3": "no"
+      }
+    },
+    {
+      "coded_id": "A04",
+      "selection_id": "C199.L01.T15",
+      "role": "canonical_control",
+      "expected_decision": "S",
+      "observed_decision": "S",
+      "matches_predeclared_expectation": true,
+      "features": {
+        "F0": "yes",
+        "F1": "yes",
+        "F2": "yes",
+        "F3": "no"
+      }
+    },
+    {
+      "coded_id": "A05",
+      "selection_id": "C199.L01.T05",
+      "role": "canonical_control",
+      "expected_decision": "S",
+      "observed_decision": "S",
+      "matches_predeclared_expectation": true,
+      "features": {
+        "F0": "yes",
+        "F1": "yes",
+        "F2": "yes",
+        "F3": "no"
+      }
+    },
+    {
+      "coded_id": "A06",
+      "selection_id": "C330.L01W03B05",
+      "role": "disputed_target",
+      "expected_decision": null,
+      "observed_decision": "L",
+      "matches_predeclared_expectation": null,
+      "features": {
+        "F0": "yes",
+        "F1": "no",
+        "F2": "no",
+        "F3": "yes"
+      }
+    },
+    {
+      "coded_id": "A07",
+      "selection_id": "C199.L04.T17",
+      "role": "canonical_control",
+      "expected_decision": "L",
+      "observed_decision": "L",
+      "matches_predeclared_expectation": true,
+      "features": {
+        "F0": "yes",
+        "F1": "no",
+        "F2": "no",
+        "F3": "yes"
+      }
+    },
+    {
+      "coded_id": "A08",
+      "selection_id": "C199.L03.T02",
+      "role": "negative_control",
+      "expected_decision": "N",
+      "observed_decision": "N",
+      "matches_predeclared_expectation": true,
+      "features": {
+        "F0": "yes",
+        "F1": "no",
+        "F2": "no",
+        "F3": "no"
+      }
+    },
+    {
+      "coded_id": "A09",
+      "selection_id": "C328.L1W4.B05",
+      "role": "transfer_test",
+      "expected_decision": "S",
+      "observed_decision": "S",
+      "matches_predeclared_expectation": true,
+      "features": {
+        "F0": "yes",
+        "F1": "yes",
+        "F2": "yes",
+        "F3": "no"
+      }
+    },
+    {
+      "coded_id": "A10",
+      "selection_id": "C199.L02.T21",
+      "role": "canonical_control",
+      "expected_decision": "L",
+      "observed_decision": "N",
+      "matches_predeclared_expectation": false,
+      "features": {
+        "F0": "yes",
+        "F1": "unclear",
+        "F2": "no",
+        "F3": "yes"
+      }
+    }
+  ],
+  "control_gate": "FAIL: C199.L02.T21 / A10 expected L but observer abstained with F1 unclear. No retuning or example replacement.",
+  "transfer_gate": "NOT ACCEPTED: primary control gate failed. Three transfer observations described only; C328.L4W3.B01 / A02 also abstained.",
+  "target_observation": "A06 classified L from closed pointed contour; no expected target family.",
+  "accepted_target_class": null,
+  "accepted_target_literal": null,
+  "mask_retained": "R_L01W03B05",
+  "key_changed": false,
+  "ledger_projection_changed": false,
+  "negative_result": "Fixed stem/foot-versus-leaf criteria with this observer and these windows did not reproduce all canonical expectations and cannot support a card330 class upgrade.",
+  "cause_limit": "Failure may involve feature overlap, contour junction visibility, approximate locators or observer judgment. Not proof that the frozen key is wrong, nor a source-accuracy estimate.",
+  "additional_limits": [
+    "All source pixels were previously available to planners/earlier readers; procedural concealment is not global blinding.",
+    "The target rectangle and separability judgments are unverified geometrical proposals; no traced physical segmentation.",
+    "Observed matches to saved proposed labels are not ground-truth accuracy. Small purposive examples are not independent repeated trials.",
+    "No new plaintext added; A003 loop and IV/II were not tested."
+  ],
+  "concrete_required_data": [
+    "Independent stroke-level annotation of canonical C199.L02.T21 and cross-card C328.L4W3.B01 plus C330.L01W03B05, retaining full neighbor context and hiding plaintext during annotation.",
+    "A genuinely higher-resolution independent scan/capture of those glyph contexts could resolve the upper junction/stem ownership; enlarging the same JPEG adds no ink evidence.",
+    "For any revised class criterion, calibrate on a larger declared development corpus, then freeze it and test on separately chosen unseen examples; do not reuse these ten as a fresh holdout."
+  ],
+  "summary_field_definitions": {
+    "expectation_matches": "Decision matches saved predeclared expectation; not ground-truth accuracy.",
+    "N_decisions": "All N decisions, including expected outside-binary negative controls and uncertainty abstentions.",
+    "unexpected_abstentions": "N where the predeclared expected decision was S or L."
+  }
+}

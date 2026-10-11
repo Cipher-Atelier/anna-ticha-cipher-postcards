@@ -73,3 +73,5 @@ Source credit and item-specific restrictions remain in the research records. Sca
 ## Contribute to this investigation
 
 Read the current result and source limitations, then coordinate a bounded task in an existing issue or use [Work on existing research](https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/issues/new?template=research.yml). Fork the repository and submit a focused pull request with your evidence and checks. Independent replication and constructive alternative readings are welcome. See [Start here](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md) for the shared workflow.
+
+[Card330 cross-card feature control](research-updates/2026-10-11-card330-cross-card-feature-control.md) explains the source evidence, remaining masks and new tentative fragments relative to the screen note. Its frozen G05/G19 criteria failed a canonical control, so the disputed target remains masked; no additional plaintext or key change is accepted.

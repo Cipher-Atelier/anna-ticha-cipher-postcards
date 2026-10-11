@@ -1,0 +1,660 @@
+{
+  "schema": "coded-dataset-selection-v1",
+  "protocol_sha256": "81a87ee5af89d8ef059ecb907114ce374fc1d3eeae244f4d7ee8b98ce6d24acd",
+  "window_freeze_sha256": "9cc6644a9ada801754d5d25a4a9dd57f7d227d77838816828eb5970575edce32",
+  "shuffle_seed": 330328,
+  "shuffle_method": "Python random.Random(330328).shuffle over initial_selection_order in target-window-freeze.json.",
+  "initial_selection_order": [
+    "C199.L01.T05",
+    "C199.L01.T15",
+    "C199.L02.T21",
+    "C199.L04.T17",
+    "C199.L03.T02",
+    "C199.L04.T21",
+    "C328.L1W1.B05",
+    "C328.L1W4.B05",
+    "C328.L4W3.B01",
+    "C330.L01W03B05"
+  ],
+  "bindings": {
+    "atlas_sha256": "c517adfffa74588f9751fbc3fbd2f28ee707fd41c6ca4b961497c57321fd770b",
+    "card328_ledger_sha256": "c07603a2962a41d3f2053ab3a727ad9c31128621f6ebb453aee6b611ca7bbcad",
+    "card330_reconciliation_sha256": "4f939fb689cdb6fc0d41a6e7d007b5300923f19843adc76ba0d0515b6bd60f07"
+  },
+  "scoring_state": "Dataset collected before observer scoring; no observed feature values or decisions recorded.",
+  "limitations": [
+    "Controls are frozen proposed class examples, not external ground truth.",
+    "Small purposive sample, dependent handwriting observations, no probability/accuracy estimate.",
+    "Coded observer is an AI with generic prior knowledge; label concealment is procedural, not certified blindness.",
+    "Only written-cipher class shape transfer assessed; no itinerary, date, identity or full decipherment.",
+    "Class labels are saved proposals, not external visual ground truth. Expected decisions apply to the preregistered controls/transfers only.",
+    "All target rectangles are approximate; source/background and adjacent ink remain untouched. The disputed target has no preregistered expected family.",
+    "Collector knew selection roles and inspected geometry. Procedural code concealment does not certify global blindness.",
+    "Collector inspection images and this selection map must be withheld from the coded observer until its scoring is frozen."
+  ],
+  "views": [
+    {
+      "selection_id": "C328.L1W1.B05",
+      "role": "transfer_test",
+      "card": 328,
+      "source_bbox_xyxy": [
+        205,
+        540,
+        248,
+        610
+      ],
+      "orientation": "NONE",
+      "designated_body": {
+        "word_id": "L1W1",
+        "body_index": 5
+      },
+      "saved_provisional_class": "G05",
+      "expected_decision": "S",
+      "target_bbox_in_oriented_crop_xyxy": [
+        1,
+        18,
+        21,
+        47
+      ],
+      "target_position": "Assess only the ink inside the indicated rectangle. Other ink in the crop belongs to neighboring writing; boundary attribution may be uncertain.",
+      "selection_limit": "Tighter practical window selected by fixed body position within saved group, before scoring; neighboring ink retained.",
+      "saved_group_bbox_xyxy": [
+        95,
+        540,
+        240,
+        615
+      ],
+      "coded_id": "A01",
+      "file": "coded-views/A01.png",
+      "png_sha256": "2fab27a53d558af6e821aff3603f2179e76aa404a63e18a3821bd17ee8128ec1",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        234,
+        210,
+        406,
+        490
+      ],
+      "designated_target_display_bbox_xyxy": [
+        238,
+        282,
+        318,
+        398
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/5001/pc_hcp_328_pic.JPG",
+        "sha256": "5f011bb3614825c7181c614235b1df1687f56e5a79a8cd197a897f78077595b5",
+        "bytes": 1484288,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        43,
+        70
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C328.L4W3.B01",
+      "role": "transfer_test",
+      "card": 328,
+      "source_bbox_xyxy": [
+        400,
+        710,
+        453,
+        784
+      ],
+      "orientation": "NONE",
+      "designated_body": {
+        "word_id": "L4W3",
+        "body_index": 1
+      },
+      "saved_provisional_class": "G19",
+      "expected_decision": "L",
+      "target_bbox_in_oriented_crop_xyxy": [
+        8,
+        21,
+        36,
+        49
+      ],
+      "target_position": "Assess only the ink inside the indicated rectangle. Other ink in the crop belongs to neighboring writing; boundary attribution may be uncertain.",
+      "selection_limit": "Tighter practical window selected by fixed body position within saved group, before scoring; neighboring ink retained.",
+      "saved_group_bbox_xyxy": [
+        395,
+        695,
+        475,
+        805
+      ],
+      "coded_id": "A02",
+      "file": "coded-views/A02.png",
+      "png_sha256": "f6274690ceb4640858c65d26ce542a80c53b5ae6650086d7fa760e51aa59f666",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        214,
+        202,
+        426,
+        498
+      ],
+      "designated_target_display_bbox_xyxy": [
+        246,
+        286,
+        358,
+        398
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/5001/pc_hcp_328_pic.JPG",
+        "sha256": "5f011bb3614825c7181c614235b1df1687f56e5a79a8cd197a897f78077595b5",
+        "bytes": 1484288,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        53,
+        74
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C199.L04.T21",
+      "role": "negative_control",
+      "card": 199,
+      "source_bbox_xyxy": [
+        385,
+        864,
+        490,
+        930
+      ],
+      "orientation": "CCW90",
+      "designated_body": {
+        "token_id": "C199.L04.T21",
+        "body_index": 93
+      },
+      "saved_provisional_class": "G11",
+      "expected_decision": "N",
+      "target_bbox_in_oriented_crop_xyxy": [
+        23,
+        43,
+        39,
+        64
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible.",
+      "selection_limit": "Original frozen atlas window retained unchanged; locator is approximate, not a segmentation mask.",
+      "coded_id": "A03",
+      "file": "coded-views/A03.png",
+      "png_sha256": "5ba02bfae12598f9f6350b597634d4d87e4850941bd5f77d0652b2ccef16b626",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        188,
+        140,
+        452,
+        560
+      ],
+      "designated_target_display_bbox_xyxy": [
+        280,
+        312,
+        344,
+        396
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+        "bytes": 1369530,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        66,
+        105
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C199.L01.T15",
+      "role": "canonical_control",
+      "card": 199,
+      "source_bbox_xyxy": [
+        530,
+        849,
+        630,
+        910
+      ],
+      "orientation": "CCW90",
+      "designated_body": {
+        "token_id": "C199.L01.T15",
+        "body_index": 15
+      },
+      "saved_provisional_class": "G05",
+      "expected_decision": "S",
+      "target_bbox_in_oriented_crop_xyxy": [
+        19,
+        43,
+        35,
+        68
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible.",
+      "selection_limit": "Original frozen atlas window retained unchanged; locator is approximate, not a segmentation mask.",
+      "coded_id": "A04",
+      "file": "coded-views/A04.png",
+      "png_sha256": "62b9e387a7c2961e27a3fb81842119cb007bea2b64dc2165fd04b79e61e5a96a",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        198,
+        150,
+        442,
+        550
+      ],
+      "designated_target_display_bbox_xyxy": [
+        274,
+        322,
+        338,
+        422
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+        "bytes": 1369530,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        61,
+        100
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C199.L01.T05",
+      "role": "canonical_control",
+      "card": 199,
+      "source_bbox_xyxy": [
+        530,
+        601,
+        630,
+        662
+      ],
+      "orientation": "CCW90",
+      "designated_body": {
+        "token_id": "C199.L01.T05",
+        "body_index": 5
+      },
+      "saved_provisional_class": "G05",
+      "expected_decision": "S",
+      "target_bbox_in_oriented_crop_xyxy": [
+        20,
+        36,
+        44,
+        65
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible.",
+      "selection_limit": "Original frozen atlas window retained unchanged; locator is approximate, not a segmentation mask.",
+      "coded_id": "A05",
+      "file": "coded-views/A05.png",
+      "png_sha256": "850d4d8f880224ce51d6b206716e9e2703c196e60702e780ff02f8596223c593",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        198,
+        150,
+        442,
+        550
+      ],
+      "designated_target_display_bbox_xyxy": [
+        278,
+        294,
+        374,
+        410
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+        "bytes": 1369530,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        61,
+        100
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C330.L01W03B05",
+      "role": "disputed_target",
+      "card": 330,
+      "source_bbox_xyxy": [
+        710,
+        828,
+        765,
+        906
+      ],
+      "orientation": "NONE",
+      "designated_body": {
+        "group_id": "L01W03",
+        "encoded_slot_index": 5,
+        "mask_id": "R_L01W03B05"
+      },
+      "saved_provisional_class": null,
+      "expected_decision": null,
+      "expected_decision_limit": "No expected family preregistered for this disputed target. Retain the unresolved mask; N remains mandatory whenever separability or a required feature is unclear.",
+      "target_bbox_in_oriented_crop_xyxy": [
+        1,
+        12,
+        21,
+        37
+      ],
+      "target_position": "Assess only the upper-left ink inside the indicated rectangle. The larger form to its right and below is neighboring writing. Boundary attribution may be uncertain.",
+      "selection_limit": "Counted fifth position in the full seven-slot group context. Phase-A window is approximate and shifted relative to actual ink; practical crop overlaps adjacent slot and lower-line ink. No clean segmentation claimed.",
+      "historical_approximate_slot_window_xyxy": [
+        728,
+        826,
+        753,
+        907
+      ],
+      "saved_group_window_xyxy": [
+        640,
+        826,
+        783,
+        907
+      ],
+      "coded_id": "A06",
+      "file": "coded-views/A06.png",
+      "png_sha256": "62ab3df7191b3d56f74a56b0c95046acaa9094a3deeca00e2867571253273cd5",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        210,
+        194,
+        430,
+        506
+      ],
+      "designated_target_display_bbox_xyxy": [
+        214,
+        242,
+        294,
+        342
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/5007/pc_hcp_330_pic.JPG",
+        "sha256": "206f29850350f429346d04bacc37c01bc377e50b1224a59d42bb6e785b781a05",
+        "bytes": 1431536,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        55,
+        78
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C199.L04.T17",
+      "role": "canonical_control",
+      "card": 199,
+      "source_bbox_xyxy": [
+        385,
+        760,
+        490,
+        828
+      ],
+      "orientation": "CCW90",
+      "designated_body": {
+        "token_id": "C199.L04.T17",
+        "body_index": 89
+      },
+      "saved_provisional_class": "G19",
+      "expected_decision": "L",
+      "target_bbox_in_oriented_crop_xyxy": [
+        16,
+        35,
+        37,
+        59
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible.",
+      "selection_limit": "Original frozen atlas window retained unchanged; locator is approximate, not a segmentation mask.",
+      "coded_id": "A07",
+      "file": "coded-views/A07.png",
+      "png_sha256": "01e6cfbb2761a74849fcd007bc0f931970ebceb3c539b2208b52ecb871c742f9",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        184,
+        140,
+        456,
+        560
+      ],
+      "designated_target_display_bbox_xyxy": [
+        248,
+        280,
+        332,
+        376
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+        "bytes": 1369530,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        68,
+        105
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C199.L03.T02",
+      "role": "negative_control",
+      "card": 199,
+      "source_bbox_xyxy": [
+        425,
+        444,
+        535,
+        505
+      ],
+      "orientation": "CCW90",
+      "designated_body": {
+        "token_id": "C199.L03.T02",
+        "body_index": 48
+      },
+      "saved_provisional_class": "G11",
+      "expected_decision": "N",
+      "target_bbox_in_oriented_crop_xyxy": [
+        24,
+        27,
+        43,
+        51
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible.",
+      "selection_limit": "Original frozen atlas window retained unchanged; locator is approximate, not a segmentation mask.",
+      "coded_id": "A08",
+      "file": "coded-views/A08.png",
+      "png_sha256": "4021e31592e18214b299e38e44b2ad80126932e7821099574d876181d1eaaf33",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        198,
+        130,
+        442,
+        570
+      ],
+      "designated_target_display_bbox_xyxy": [
+        294,
+        238,
+        370,
+        334
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+        "bytes": 1369530,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        61,
+        110
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C328.L1W4.B05",
+      "role": "transfer_test",
+      "card": 328,
+      "source_bbox_xyxy": [
+        500,
+        540,
+        559,
+        610
+      ],
+      "orientation": "NONE",
+      "designated_body": {
+        "word_id": "L1W4",
+        "body_index": 5
+      },
+      "saved_provisional_class": "G05",
+      "expected_decision": "S",
+      "target_bbox_in_oriented_crop_xyxy": [
+        12,
+        22,
+        35,
+        52
+      ],
+      "target_position": "Assess only the ink inside the indicated rectangle. Other ink in the crop belongs to neighboring writing; boundary attribution may be uncertain.",
+      "selection_limit": "Tighter practical window selected by fixed body position within saved group, before scoring; neighboring ink retained.",
+      "saved_group_bbox_xyxy": [
+        405,
+        540,
+        555,
+        615
+      ],
+      "coded_id": "A09",
+      "file": "coded-views/A09.png",
+      "png_sha256": "43e6768eb191de75aaacb994f79f0d8012f4b226b0274c57c240a4ee537129bb",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        202,
+        210,
+        438,
+        490
+      ],
+      "designated_target_display_bbox_xyxy": [
+        250,
+        298,
+        342,
+        418
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/5001/pc_hcp_328_pic.JPG",
+        "sha256": "5f011bb3614825c7181c614235b1df1687f56e5a79a8cd197a897f78077595b5",
+        "bytes": 1484288,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        59,
+        70
+      ],
+      "nearest_neighbor_scale": 4
+    },
+    {
+      "selection_id": "C199.L02.T21",
+      "role": "canonical_control",
+      "card": 199,
+      "source_bbox_xyxy": [
+        475,
+        990,
+        575,
+        1056
+      ],
+      "orientation": "CCW90",
+      "designated_body": {
+        "token_id": "C199.L02.T21",
+        "body_index": 45
+      },
+      "saved_provisional_class": "G19",
+      "expected_decision": "L",
+      "target_bbox_in_oriented_crop_xyxy": [
+        24,
+        37,
+        45,
+        60
+      ],
+      "target_position": "The shape inside the indicated rectangle in the middle writing band. Neighboring writing remains visible.",
+      "selection_limit": "Original frozen atlas window retained unchanged; locator is approximate, not a segmentation mask.",
+      "coded_id": "A10",
+      "file": "coded-views/A10.png",
+      "png_sha256": "10391283ae943e444d77f81cdd71cce0e60b841f443405220cac3175808e8405",
+      "display_dimensions": [
+        640,
+        640
+      ],
+      "source_pixels_display_bbox_xyxy": [
+        188,
+        150,
+        452,
+        550
+      ],
+      "designated_target_display_bbox_xyxy": [
+        284,
+        298,
+        368,
+        390
+      ],
+      "source": {
+        "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+        "bytes": 1369530,
+        "dimensions": [
+          1785,
+          1175
+        ]
+      },
+      "oriented_crop_dimensions": [
+        66,
+        100
+      ],
+      "nearest_neighbor_scale": 4
+    }
+  ],
+  "observer_safe_manifest_sha256": "0afd02b1d1b54f3d50404271fe5b66e1de6f917a11ce373a2affee2d409b0abe"
+}
