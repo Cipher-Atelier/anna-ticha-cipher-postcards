@@ -105,3 +105,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Single-transition discriminator — 13 October 2026
 
 [Bounded held-reference validation and conditional target refinement, with failed target RGB timing explicitly retained](research-updates/2026-10-13-single-transition-test/README.md).
+
+## Class origin and new source — 13 October 2026
+
+[Unknown class-origin independence, a failed body-placement test and bounded new physical references](research-updates/2026-10-13-class-origin-and-new-source/README.md).

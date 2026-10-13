@@ -1,0 +1,514 @@
+{
+  "schema": "body-placement-training-scientific-author-export-v1",
+  "selection": "Two complete selected training records, including all observations, UNKNOWNs, alternatives, coordinates and scientific check/view exposure; administrative provenance excluded. No held or target application occurred.",
+  "records": {
+    "AI_A": {
+      "original_full_record_sha256": "30fdcace216b92f812bd8615f6c3ec207a3dfe32bbeb740055d9d7d9c5826223",
+      "published_field_list": [
+        "schema",
+        "scope",
+        "training_status",
+        "reason",
+        "verification",
+        "single_feature",
+        "coordinate_convention",
+        "instances",
+        "global_exposure_ledger"
+      ],
+      "scientific_record": {
+        "schema": "neutral-body-placement-training-observer-A-v1",
+        "scope": "Neutral physical prototype geometry only. Original category attribution independence UNKNOWN. No historical class letters inferred.",
+        "training_status": "UNAVAILABLE",
+        "reason": "P02 contains two plausible body candidates in the anchor-bound whole construction. The permitted evidence does not independently select the upper rounded part as principal while excluding its lower loop/return. P02 is UNKNOWN, so a separating rule cannot be learned from these two references.",
+        "verification": {
+          "order_status": "PASS_PREVIEW_VERIFICATION",
+          "both_images_verified_before_any_original_detail_view": true,
+          "bindings_sha256": "4ab9c9ba7cac4fcd20d24add48193b015917a7c703000188e3469d7609eb0c25",
+          "images": [
+            {
+              "neutral_id": "P01",
+              "PNG_sha256": "fa05921a6fedf8cdc35579347a037b40ebc7f234b2525f8d1ec95b74a87881bf",
+              "RGB_array_sha256": "3b73e3c41349e95b99ab046a0309552619a6592ce4d90585018f5d0380a86702",
+              "dimensions": [
+                49,
+                79
+              ],
+              "all_matches": true,
+              "verification_utc": "2026-10-13T19:12:48.327055+00:00"
+            },
+            {
+              "neutral_id": "P02",
+              "PNG_sha256": "25e817ce17de07e1df8d88420ce7030bc1bab8d496ac33260101529d862d55e9",
+              "RGB_array_sha256": "1916ab9d349cbf3c21dfeabced85c7a9b7af86281fbf258ab90d389e5e6a65f0",
+              "dimensions": [
+                107,
+                106
+              ],
+              "all_matches": true,
+              "verification_utc": "2026-10-13T19:12:48.327853+00:00"
+            }
+          ]
+        },
+        "single_feature": {
+          "name": "Position of the principal rounded body relative to the continuing upright/slanted course",
+          "rule_status": "CANDIDATE_ONLY_NOT_LEARNED",
+          "body_selector": "Start with the certified whole construction bound by the supplied focal anchors. Select a rounded contour with an observable paper pocket only when its identity as the sole relevant rounded body is unambiguous within that construction. A second plausible bowl or return pocket prevents selection; no alphabetical identity, assumed segmentation, closure, baseline, bbox center or size threshold resolves that competition.",
+          "categories": {
+            "BODY_AT_UPPER_END_WITH_LOWER_RETURN": "Positive only when a uniquely selected rounded body has an observable joined upright/slanted course continuing below it and returning lower in the same construction.",
+            "LOWER_LEFT_BODY_WITH_COURSE_ABOVE": "Positive only when a uniquely selected rounded body lies to the left and lower than an observable joined upright/slanted course that extends above it.",
+            "UNKNOWN": "Principal body unclear; competing multiple bowls; both positive arrangements; neither arrangement; topology or owner assignment needed; required extent cropped. Absence of one arrangement does not establish the other."
+          },
+          "negative_requirement": "A rejected category requires absent positive relational evidence after unambiguous body selection, or positively observed incompatible placement. It never implies the opposite category. With ambiguous selection, both category decisions remain UNKNOWN.",
+          "reproducible_separation_established": false,
+          "alternate_feature_attempted": false
+        },
+        "coordinate_convention": "Approximate visual crop-local x,y annotations on the original raster, origin upper left, y increases downward. These locate observed ink/paper, not measured cut points, thresholds, exact closures or body-selector criteria. Dimensions were integrity checks only.",
+        "instances": [
+          {
+            "neutral_id": "P01",
+            "focal_identity": {
+              "certified_whole_construction": true,
+              "supplied_x_anchors": {
+                "A": 28,
+                "B": 28
+              },
+              "supplied_y": {
+                "A": 33
+              },
+              "reader_B_y": "UNKNOWN",
+              "selection_basis": "Supplied whole-focal certification and anchors; the upper-row construction intersecting the supplied A anchor. No box-center inference."
+            },
+            "actual_ink": "A compact left rounded contour joins a slanted course on its right. That course visibly rises above the compact body. Nearby ink to the right and a separate row below are not selected as the anchor-bound body.",
+            "actual_paper": "A light paper pocket lies inside the compact left rounded contour; exterior paper surrounds the visibly rising course. Pocket observation does not assert exact closure.",
+            "approximate_observation_coordinates": {
+              "rounded_body_region": {
+                "x": [
+                  16,
+                  31
+                ],
+                "y": [
+                  26,
+                  40
+                ]
+              },
+              "body_paper_pocket": {
+                "x": [
+                  21,
+                  26
+                ],
+                "y": [
+                  30,
+                  35
+                ]
+              },
+              "rising_course_region": {
+                "x": [
+                  28,
+                  36
+                ],
+                "y": [
+                  15,
+                  35
+                ]
+              }
+            },
+            "body_selection": "One relevant compact rounded body is visually identifiable in this anchor-bound construction; the above-extending course is not a competing rounded body.",
+            "positive_relation": "The selected rounded body is lower and left of its joined course; the joined course visibly continues above the body.",
+            "alternatives": [
+              {
+                "candidate": "Upper-end body with lower return",
+                "assessment": "No independently observable lower-return arrangement for this selected body was established. This absence is not the basis of the accepted category."
+              }
+            ],
+            "category": "LOWER_LEFT_BODY_WITH_COURSE_ABOVE",
+            "category_basis": "Direct positive placement observation with a uniquely selected body.",
+            "exposure_ledger": [
+              "Bindings metadata read before view.",
+              "PNG/RGB/dimensions verified before either image view.",
+              "One original-detail view of P01; no crop, enlargement, enhancement, brightness diagnostic or transform."
+            ]
+          },
+          {
+            "neutral_id": "P02",
+            "focal_identity": {
+              "certified_whole_construction": true,
+              "supplied_x_anchors": {
+                "A": 53,
+                "B": 62
+              },
+              "supplied_y": "UNKNOWN",
+              "selection_basis": "Supplied whole-focal certification and x anchors bind the central connected construction. Numeric focal y remains UNKNOWN; observed regions below are not invented focal-y anchors."
+            },
+            "actual_ink": "The central anchor-bound construction has a rounded upper contour and a slanted connected course descending to a curved lower return with its own pocket. The course visibly occupies the region between the upper part and the lower return.",
+            "actual_paper": "Light paper is visible within the upper rounded part and within the lower curved return. Both pockets are visually available; no exact closed-loop topology is asserted.",
+            "approximate_observation_coordinates": {
+              "whole_focal_construction": {
+                "x": [
+                  42,
+                  68
+                ],
+                "y": [
+                  46,
+                  94
+                ]
+              },
+              "upper_rounded_candidate": {
+                "x": [
+                  49,
+                  67
+                ],
+                "y": [
+                  47,
+                  67
+                ]
+              },
+              "upper_candidate_paper": {
+                "x": [
+                  55,
+                  61
+                ],
+                "y": [
+                  52,
+                  59
+                ]
+              },
+              "descending_course_region": {
+                "x": [
+                  55,
+                  66
+                ],
+                "y": [
+                  60,
+                  80
+                ]
+              },
+              "lower_loop_return_candidate": {
+                "x": [
+                  42,
+                  61
+                ],
+                "y": [
+                  70,
+                  94
+                ]
+              },
+              "lower_candidate_paper": {
+                "x": [
+                  47,
+                  54
+                ],
+                "y": [
+                  80,
+                  87
+                ]
+              }
+            },
+            "body_selection": "AMBIGUOUS. The upper part is a plausible rounded body, but the lower loop/return is also a plausible body candidate. Whole-focal certification does not independently certify which subpart is principal.",
+            "alternatives": [
+              {
+                "candidate_body": "Upper rounded part",
+                "candidate_relation": "It could supply BODY_AT_UPPER_END_WITH_LOWER_RETURN because a connected course descends into the lower return.",
+                "limitation": "This category depends on selecting the upper part as principal."
+              },
+              {
+                "candidate_body": "Lower loop/return",
+                "candidate_relation": "Its pocket could be treated as a lower-left rounded body joined to a slanted course extending above it.",
+                "limitation": "Calling it merely a return rather than a body would require an unsupported subpart convention; elongation alone supplies no permitted threshold or exclusion."
+              }
+            ],
+            "category": "UNKNOWN",
+            "category_basis": "Competing body identity. Neither positive arrangement is assigned to the whole instance.",
+            "exposure_ledger": [
+              "Bindings metadata read before view.",
+              "PNG/RGB/dimensions verified before either image view.",
+              "One original-detail view of P02; no crop, enlargement, enhancement, brightness diagnostic or transform."
+            ]
+          }
+        ],
+        "global_exposure_ledger": [
+          {
+            "sequence": 1
+          },
+          {
+            "sequence": 2,
+            "action": "Read neutral-source-bindings-v1.json only."
+          },
+          {
+            "sequence": 3,
+            "action": "Compute bindings hash and both permitted PNG/RGB hashes and dimensions; all pass. No image displayed."
+          },
+          {
+            "sequence": 4,
+            "action": "Original-detail view_image P01.png."
+          },
+          {
+            "sequence": 5,
+            "action": "Original-detail view_image P02.png."
+          },
+          {
+            "sequence": 6,
+            "action": "Record this observer report and output SHA256 manifest inside neutral-training."
+          }
+        ]
+      }
+    },
+    "AI_B": {
+      "original_full_record_sha256": "baf5490adc469b9895dd89d88b5a30f3dd4dfcb59c815ad545c6cf8c2e043ae6",
+      "published_field_list": [
+        "schema",
+        "status",
+        "reason",
+        "protocol_status",
+        "original_class_attribution_independence",
+        "scope",
+        "integrity",
+        "single_feature_rule",
+        "coordinate_convention",
+        "instances",
+        "training_conclusion",
+        "exposure_ledger"
+      ],
+      "scientific_record": {
+        "schema": "neutral-body-placement-training-observer-B-v1",
+        "status": "UNAVAILABLE",
+        "reason": "The permitted x-only focal bindings do not let this observer certify a unique principal rounded body across the visible constructions. A reproducible separation on both fixed instances has therefore not been established.",
+        "protocol_status": "PASS",
+        "original_class_attribution_independence": "UNKNOWN",
+        "scope": "Neutral physical prototype geometry only; no historical class letters or class-to-state inference.",
+        "integrity": {
+          "verification_order": "bindings read; bindings hash checked; BOTH PNG hashes, decoded RGB byte hashes and dimensions checked; only then P01 original-detail view and P02 original-detail view.",
+          "before_any_view": true,
+          "order_failure": false,
+          "images": [
+            {
+              "neutral_id": "P01",
+              "PNG_sha256": "fa05921a6fedf8cdc35579347a037b40ebc7f234b2525f8d1ec95b74a87881bf",
+              "RGB_array_sha256": "3b73e3c41349e95b99ab046a0309552619a6592ce4d90585018f5d0380a86702",
+              "dimensions": [
+                49,
+                79
+              ],
+              "all_expected_values_match": true
+            },
+            {
+              "neutral_id": "P02",
+              "PNG_sha256": "25e817ce17de07e1df8d88420ce7030bc1bab8d496ac33260101529d862d55e9",
+              "RGB_array_sha256": "1916ab9d349cbf3c21dfeabced85c7a9b7af86281fbf258ab90d389e5e6a65f0",
+              "dimensions": [
+                107,
+                106
+              ],
+              "all_expected_values_match": true
+            }
+          ],
+          "dimension_use": "Integrity only; no dimension used as decision evidence.",
+          "RGB_use": "Cryptographic integrity only; no brightness probe or pixel classification."
+        },
+        "single_feature_rule": {
+          "name": "Position of principal rounded body relative to continuing upright/slanted course",
+          "learning_status": "UNAVAILABLE; conditional rule recorded, no certified prototype association",
+          "body_selector": "First identify the previously certified whole focal construction using the approved focal anchors. Select its single independently identifiable rounded body by a visibly curving ink contour and adjacent paper pocket. Do not use a readable glyph, source/card identity, image center, row preference, body-size cutoff, exact closure, assumed baseline, or an arbitrary cut of a continuous stroke. If the anchors and visible contours leave competing body or focal-construction candidates, abstain.",
+          "positive_arrangements": {
+            "BODY_AT_UPPER_END_WITH_COURSE_BELOW": "A uniquely selected rounded body is visibly at the upper end of its joined upright/slanted course, and the same continuing course is independently visible below the body into a lower return. The above/below relation must be visible without requiring exact closure or topology reconstruction.",
+            "BODY_LOWER_LEFT_WITH_COURSE_ABOVE": "A uniquely selected rounded body lies to the lower left of its joined upright/slanted course, and that course is independently visible extending above the body. This must be positively seen; failure to establish the first arrangement does not establish this one."
+          },
+          "negative": "An arrangement is unsupported when its required body identity, join, relative placement, or continuing extent lacks positive visible support. Unsupported does not imply the opposite category.",
+          "UNKNOWN": "Both arrangements, neither arrangement, uncertain principal body or focal construction, competing multiple bowls, topology needed to decide, or cropped required extent. UNKNOWN supplies no prototype/category assignment.",
+          "numeric_thresholds": null,
+          "alternate_feature_attempted": false
+        },
+        "coordinate_convention": "Approximate manual locations in the original PNG, origin at upper left, x rightward and y downward. Coordinates are descriptive pointers, never thresholds or inferred anchor-y values.",
+        "instances": [
+          {
+            "neutral_id": "P01",
+            "focal_binding": {
+              "x_anchors": {
+                "A": 28,
+                "B": 28
+              },
+              "B_y": "UNKNOWN",
+              "certification_text": "previously certified whole focal construction; both x anchors bind it",
+              "unique_principal_body_established": false
+            },
+            "actual_ink": "Upper candidate has a dark rounded contour at approximately x17-30,y26-40, with a slanted right-side course rising toward approximately x36,y15. A separate lower-row rounded/return construction is visible near x30-44,y49-78.",
+            "actual_paper": "A light paper pocket lies inside the upper rounded contour, near x22-26,y30-35. Light paper is also visible amid the lower rounded/return strokes. No exact closure is asserted.",
+            "candidate_coordinates": [
+              {
+                "candidate": "upper rounded body",
+                "approx_body_box": [
+                  17,
+                  26,
+                  30,
+                  40
+                ],
+                "approx_course_above": [
+                  28,
+                  18,
+                  36,
+                  33
+                ],
+                "conditional_arrangement": "BODY_LOWER_LEFT_WITH_COURSE_ABOVE",
+                "evidence": "Rounded contour is left and below the slanted course that visibly rises above it."
+              },
+              {
+                "candidate": "lower-row rounded/return construction",
+                "approx_region": [
+                  29,
+                  48,
+                  44,
+                  78
+                ],
+                "conditional_arrangement": "UNKNOWN",
+                "evidence": "Visible rounded/return strokes near the same anchor column leave a competing construction; the lower required extent is not certified from this view."
+              }
+            ],
+            "alternatives": "The upper candidate supports a lower-left/above relation if it is the approved principal body. Selecting that row from x alone, however, would add an unprovided focal-y choice. The lower construction cannot simply be ignored or substituted.",
+            "category": "UNKNOWN",
+            "body_identity": "UNKNOWN",
+            "reason": "No observer-B y binding and no reproducible unique principal-body selection established without row/context selection."
+          },
+          {
+            "neutral_id": "P02",
+            "focal_binding": {
+              "x_anchors": {
+                "A": 53,
+                "B": 62
+              },
+              "B_y": "UNKNOWN",
+              "certification_text": "previously certified whole focal construction; both x anchors bind it",
+              "unique_principal_body_established": false
+            },
+            "actual_ink": "A rounded contour is visible around approximately x48-68,y47-67, joined at its right to a course that visibly descends toward a lower return around x42-58,y69-91. Further strokes and a partial rounded construction appear near the lower image boundary.",
+            "actual_paper": "A light pocket is visible near x56-61,y53-60 inside the upper rounded contour; another light pocket appears near x47-52,y78-85 in the lower return. No loop closure is required or asserted.",
+            "candidate_coordinates": [
+              {
+                "candidate": "upper rounded contour of central construction",
+                "approx_body_box": [
+                  48,
+                  47,
+                  68,
+                  67
+                ],
+                "approx_course_below": [
+                  48,
+                  61,
+                  65,
+                  88
+                ],
+                "approx_lower_return": [
+                  42,
+                  69,
+                  58,
+                  91
+                ],
+                "conditional_arrangement": "BODY_AT_UPPER_END_WITH_COURSE_BELOW",
+                "evidence": "Taking this upper contour as principal body, the joined course visibly continues below into the lower return."
+              },
+              {
+                "candidate": "lower rounded return within central construction",
+                "approx_region": [
+                  42,
+                  69,
+                  58,
+                  91
+                ],
+                "conditional_arrangement": "UNKNOWN",
+                "evidence": "A second visible paper pocket bounded by rounded ink requires an independently justified principal-body versus return distinction; no shape-size threshold or historical morphology was used."
+              },
+              {
+                "candidate": "partial lower-row construction",
+                "approx_region": [
+                  47,
+                  95,
+                  76,
+                  105
+                ],
+                "conditional_arrangement": "UNKNOWN",
+                "evidence": "The lower construction is only partly visible and does not supply a certified replacement focal body."
+              }
+            ],
+            "alternatives": "The upper rounded contour supports an upper-end/below relation conditionally. Treating the other pocket as merely a return, or selecting the central construction solely by row, would resolve the missing principal-body binding by assumption.",
+            "category": "UNKNOWN",
+            "body_identity": "UNKNOWN",
+            "reason": "Competing rounded pockets/constructions and missing observer-B y binding prevent certified unique principal-body selection."
+          }
+        ],
+        "training_conclusion": {
+          "fixed_instances_only": true,
+          "certified_separation": false,
+          "categories": {
+            "P01": "UNKNOWN",
+            "P02": "UNKNOWN"
+          },
+          "conditional_geometry": "The upper candidate in P01 and the upper contour in the central construction of P02 visibly suggest different relative arrangements. This is conditional geometry, not a learned operational distinction, because principal-body selection is unresolved.",
+          "availability": "UNAVAILABLE",
+          "replacement_or_retry": "NONE"
+        },
+        "exposure_ledger": [
+          {
+            "sequence": 1,
+            "action": "read text"
+          },
+          {
+            "sequence": 2,
+            "action": "read text",
+            "input": "neutral-source-bindings-v1.json"
+          },
+          {
+            "sequence": 3,
+            "action": "verify allowed input bytes and decode to RGB for SHA only",
+            "inputs": [
+              "neutral-source-bindings-v1.json",
+              "P01.png",
+              "P02.png"
+            ],
+            "both_image_verifications_finished_before_view": true
+          },
+          {
+            "sequence": 4,
+            "action": "view_image",
+            "input": "P01.png",
+            "detail": "original",
+            "transformed": false
+          },
+          {
+            "sequence": 5,
+            "action": "view_image",
+            "input": "P02.png",
+            "detail": "original",
+            "transformed": false
+          },
+          {
+            "sequence": 6,
+            "action": "write report and SHA256 manifest",
+            "outputs": [
+              "body-placement-training-B-v1.json",
+              "body-placement-training-B-v1.sha256"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "controlling_qualification": {
+    "result": "UNAVAILABLE_AT_TRAINING_GATE; NO_LEARNED_SEPARATING_RULE",
+    "A": {
+      "P01": "LOWER_LEFT_BODY_WITH_COURSE_ABOVE",
+      "P02": "UNKNOWN"
+    },
+    "B": {
+      "P01": "UNKNOWN",
+      "P02": "UNKNOWN"
+    },
+    "concrete_failure": "Within the certified P02 whole construction, an upper rounded part and a lower rounded return each have a visible paper pocket. Selecting the upper part as principal would allow one relation; selecting the lower part could allow the other. The preregistered feature supplies no independent selector that licenses choosing between them. A reports this even while accepting the whole focal construction. Thus no reproducible two-reference separation was learned.",
+    "logical_scope": "This is a failed operational-discriminator proposal, not a physical counterexample to every possible body-placement model, a class mismatch, or a falsification of historical membership. It does not negate the earlier different transition-feature result.",
+    "B_y_qualification": "P01 packet explicitly supplies reader-A local y33 while reader-B Y is UNKNOWN. B chose not to use A Y and therefore gives a narrower focal-binding abstention. B statement about x-only bindings must not be generalized to absence of all available Y. No rescore or new body selection is made; A P02 ambiguity independently suffices to fail the gate.",
+    "original_sets": {
+      "first": 17,
+      "adjacent": 19,
+      "unchanged": true
+    },
+    "new_exclusions": 0,
+    "new_letters": 0
+  }
+}
