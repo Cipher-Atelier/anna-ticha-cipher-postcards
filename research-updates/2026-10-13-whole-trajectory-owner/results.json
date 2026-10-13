@@ -1,0 +1,218 @@
+{
+  "schema": "whole-trajectory-owner-derived-author-results-v1",
+  "scope": "Two purpose-selected development witnesses on254 and the first qualifying held246 upper head; one held physical witness independently observed twice. No population inference or full decipherment.",
+  "scientific_contract_sha256": "96f3a20a47026d520a88248f8c126fb49f58db5b26c16d722e1cb31abe926041",
+  "prediction_sha256": "8ec89f33e1d113544dd64d93e3b46595a8dac2a659be1a5b3b13d75aed461e09",
+  "accepted_static_scientific_review_sha256": "1f84069a804cf2495db7d6fecdc30ad9e097c0d5d14edc732a398e688bbcd065",
+  "target": "An observed curved ink portion in a fixed lowerlandmark REGION, not an arbitraryexactstem/curve cut and not necessarily oneexactfree-tip pixel",
+  "wholepath_rule": {
+    "anchor": "Independently distinguishable complete upperbowl and attachedinitialstem, coordinatewindowlocator only",
+    "follow": "Starting on each positivelyvisible lowerink track in fixedlandmarkregion, follow visible uninterruptedinkcontinuity toward upperanchors. Smoothbends create no segmentation boundary. Record entire ordered trajectory and all junction/alternatecontinuations",
+    "possible_owners": "All physicallyadmissible visible continuations at observed junctions; add UNKNOWN if an unresolved gap/occlusion/crop can change continuation. Connectedcomponent and nearestanchor alone neverprove ownership; crossing cannot be turned into junction automatically",
+    "single_owner": "At least one positively observed uninterrupted path fromtargetportion tothatanchor, all unresolvedbranchalternatives demonstrably leadtosameanchor, no unknowncompetingroute affecting ownership; targettip canstayunknown outside testedportion. Certifies visibleportion only",
+    "neighbor_owner": "Samepositive criteria reachdifferentneighboranchor",
+    "mixed_or_ambiguous": "Distincttracks may have different certifiedowners and arekept separate. Oneundecidablecrossing/multiplepossibleanchors=>UNKNOWN. NoforcedBOTH/singlelabel",
+    "terminal_region": "Tip needs noexactpixel; an end REGION qualifies only with positive external-paper clearance and no continuousoutboundtrack. Exacttipinside region mayvary. Ifclearing isunavailable leave terminalfeatureunknown while keeping alreadycertifiedlocalowner",
+    "no_absence_from_unavailable": "Missing/truncated feature or a failed locator cannot be coded absent or falsified"
+  },
+  "local_partition_criterion": "Positive visible whitecorridor or certifieddistinct unambiguous trajectories separates two independentlyanchored constructions over complete localcontext. Ownership of a visibleportion doesnot certify fullglyph/word segmentation",
+  "full_unit_gate": "Any completeglyph/unit claim requires wholeanchorconstruction and all neighboringtracks/marks/separators accounted source-only, not justlocalpath. A completeword requires all constituents+separators/markownership. Unresolvedink stays explicit; no mask/count substitution",
+  "development": {
+    "main_owner": "Bothreaders independentlyassign primarylowertrackW03 to254-U03 andW06 to254-U06 bypositivecontinuouswholepaths; smoothcut/tip uncertainty doesnot affecttheseowner sets",
+    "neighbor_partition": "Bothreaders distinguish W03queryrightneighborlowerarc fromfocalhook byseparateanchorroute andpositivepapercorridor; localonly",
+    "important_disagreement": "A certifiesextra next-rowtracks; B leavespossibleW06next-rowentryunknown. Preserve independently, no pooledcount/masks",
+    "graph_difference": "T03 shortterminalhook;T06upwardreturn; exactT06rejoining/closure UNKNOWN, so no certifiedclassfork/templateXOR orletters",
+    "source_exposure": "Purpose-selected previouslyexposed training witnesses. ROOToriginaldetailreviewdisplay afterbothindependentreaders froze, fullcontextlowerink seen; no blinded/coldclaim"
+  },
+  "held_upper_domain": "Roundedclosed/nearclosedHEAD bowl withattachedinitialdescenderfromlowerrightrim, no taller connectedascender establishing bowl islowerlobe. Completeheadonly. Openarch, numeric slashbar, lowerlobe beneathascendingstem rejectifpositivelyoutside domain. An ambiguouspossibleearlierheadmatch stopsselection rather than being skipped. No class/letter matching",
+  "held_selection": "Rowspositivelyobserved top-to-bottom,headsleft-to-right, firstcompleteheadmatching frozenupperdomainwithanchor whollyinsidefixedfocalwindow. Retainall earlierpossible/rejectedattempts; uncertainrowmembership/order=>UNAVAILABLE. Equal headtop/leftpositionnotdistinctanchors; no ordinaloldclass equivalence. No lowerowner/completeness/type used toskip selectedhead",
+  "held_query_formula": "Fromsource-observed HEAD-bowl-only boundingrectangle[x0,y0,x1,y1] inNATIVE frame, lowerquery=[max(432,x0-12), y1, min(1690,x1+12), min(1105,y1+45)]. This iscoordinatequery notstemcurve cut. Eachreaderrecordsownobservedheadbbox/formulaexactly; differing bbox/query preserved. Enumerate allquery-intersecting positivelyvisible curved tracks, notjust presumedfocal",
+  "held_track_order": "Query-intersecting tracks ordered byfirstinkintersection minimumy, thenminimumx withinquery. If overlap/tie cannotseparately order actualtracks => UNKNOWN firsttrack. Exactsubpixelcut unnecessary: identify distinctwholetrajectory byanchorroutes. Do not manufacture track split at smoothcurve",
+  "prediction_P1": "FIRST query-intersecting curvedtrack underfrozengeometricorder belongs toselectedheadanchor by uniquecontinuous wholepath. Noncircular ownerpredictor; outcome canbe neighbor/unknown/absent. Rootcomparisononlyafterblindheldrecordsfreeze",
+  "prediction_P2": "Sourcequery contains an observed mainlowertrajectory ofselectedhead withlocalpositivepaper/independentpathseparation fromnearestotheranchored ink construction. Mainpathpresence +localpartitionpredicted; no hypothesisaboutT06closedloop ordistinctcipherclasses",
+  "positive_support": "P1 support only firsttrack uniquelyownedselectedhead; P2support only mainpathpositivecontinuity pluscomplete owner-relevantlocalcontext withpositive distinctneighborpartition. Additionalunrelatedtracks retainedseparately, notassumedfocal",
+  "contradiction": "Completequalifyingheldhead+query firstcurvedtrack certifieddifferentneighborowner=>P1FALSIFIED. Completeheldhead withfullyobservedexpectedlowerqueryandpositiveabsence ofanyhead-connected lowercurve=>presencepredictioncontradicted. A failed locator/truncation/unknown gap isUNAVAILABLE, neverabsence",
+  "decision_precedence": "Qualifiedpositivecontradiction first; independentanchor/order/ownerdisagreement DISAGREEMENT; inadequateevidence UNAVAILABLE; otherwise boundedSUPPORT perendpoint. No pooling/replacement or globalaccuracyclaim",
+  "accepted_endpoints": {
+    "P1": {
+      "result": "BOUNDED_SUPPORT",
+      "evidence": "Both select the first upper-domain head in the top eligible row, retain earlier positive domain rejects, and trace their first query-intersecting curve uninterrupted to the selected bowl. A first intersection y937 precedes others y949/958; B y938 precedes y948/959. Query and owner were not selected after outcomes.",
+      "scope": "One held physical witness observed independently twice; not two held samples or a population accuracy estimate."
+    },
+    "P2": {
+      "result": "SUPPORT_FOR_VISIBLE_MAIN_TRAJECTORY_LOCAL_PARTITION_ONLY",
+      "prospective_criterion": "Original P2 predicts a head-connected main lower trajectory and local positive-paper/independent-path separation from nearest other anchored ink, with complete owner-relevant local context; it explicitly excludes full glyph/word and class-fork requirements.",
+      "evidence": "A and B describe continuous focal routes and positive left/right/below paper corridors. Next-row crossing ambiguity belongs to separate tracks across those corridors; neither reports it as a competing route to the tested visible trajectory. This meets the original local endpoint without requiring resolution of every adjacent construction.",
+      "qualification": "A full construction partition UNKNOWN and B close upper-rim/whole-unit uncertainty remain UNKNOWN. Support applies to the queried visible main route and its local separation, not whole-anchor contour partition, full glyph, word, every query track, or marks/separators. No retrospective change to P2 is needed for this limited scope."
+    },
+    "full_unit_word": "NOT_CERTIFIED",
+    "template_fork": "NOT_CERTIFIED",
+    "letters": 0
+  },
+  "remaining_limits": [
+    "Unknown internal lower closure need not invalidate visible-portion owner when every admissible route stays at one anchor; it still blocks a certified open-versus-closed template fork.",
+    "Complete upper-rim clearance, whole-unit marks/separators and adjacent-row junction partitions remain unresolved. Optional containing-word expansion was not attempted.",
+    "This is a bounded positive held ownership and local physical-separation result, not decipherment, letter recovery, universal transfer, a physical census or historical/key validation."
+  ],
+  "source_geometry": [
+    {
+      "card": 254,
+      "face": "picture",
+      "source_url": "https://api.hcportal.eu/media/4779/pc_hcp_254_pic.JPG",
+      "source_sha256": "b681f95bd0b674512cdd1d73edd8258d2be252fa1786a739dc495e7ccec9d3a8",
+      "native_dimensions": [
+        1785,
+        1175
+      ],
+      "geometry": {
+        "frames": {
+          "coordinate_convention": "half-open edge coordinates",
+          "native_dimensions": [
+            1785,
+            1175
+          ],
+          "CCW90_dimensions": [
+            1175,
+            1785
+          ],
+          "CCW90_crop_bbox_xyxy": [
+            0,
+            0,
+            1175,
+            282
+          ],
+          "native_inverse_bbox_xyxy": [
+            1503,
+            0,
+            1785,
+            1175
+          ],
+          "native_to_CCW90_edges": "(u,v)=(y,1785-x)",
+          "inverse_edges": "(x,y)=(1785-v,u)",
+          "crop_local_coordinates": "Identical to full CCW90 coordinates; origin (0,0)"
+        },
+        "frozen_locator_regions": [
+          {
+            "stored_source_id": "254-U03",
+            "query_label": "W03",
+            "candidate_ROI_xyxy": [
+              85,
+              148,
+              134,
+              208
+            ],
+            "lower_query_region_xyxy": [
+              85,
+              178,
+              134,
+              208
+            ]
+          },
+          {
+            "stored_source_id": "254-U06",
+            "query_label": "W06",
+            "candidate_ROI_xyxy": [
+              626,
+              157,
+              681,
+              225
+            ],
+            "lower_query_region_xyxy": [
+              626,
+              191,
+              681,
+              225
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": 246,
+      "face": "picture",
+      "source_url": "https://api.hcportal.eu/media/4755/pc_hcp_246_pic.JPG",
+      "source_sha256": "0634be1baa755ab0b365b4d5fcfeb2f7f2b81d91355cff2ba385f1a0067230ac",
+      "native_dimensions": [
+        1785,
+        1175
+      ],
+      "geometry": {
+        "frames": {
+          "readable": "native NONE",
+          "coordinate_convention": "half-open edges",
+          "wider_local_to_native": "(x+432,y)",
+          "focal_local_to_native": "(x+432,y+883)"
+        },
+        "crops": [
+          {
+            "role": "wider",
+            "native_bbox_xyxy": [
+              432,
+              0,
+              1785,
+              1175
+            ],
+            "dimensions": [
+              1353,
+              1175
+            ]
+          },
+          {
+            "role": "focal",
+            "native_bbox_xyxy": [
+              432,
+              883,
+              1690,
+              1105
+            ],
+            "dimensions": [
+              1258,
+              222
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "all_readings": "AI source observations, not human-certified historical truth. Fresh held observers outcome-blind to development findings and predictions, with lower ink and wider context visible; prior whole-face exposure disclosed, no global-cold claim.",
+  "selected_anchor_boxes_not_averaged": {
+    "AI_A_native_head": [
+      631,
+      920,
+      647,
+      937
+    ],
+    "AI_B_native_head": [
+      626,
+      920,
+      644,
+      938
+    ],
+    "AI_A_native_query": [
+      619,
+      937,
+      659,
+      982
+    ],
+    "AI_B_native_query": [
+      614,
+      938,
+      656,
+      983
+    ]
+  },
+  "letters": 0,
+  "new_keys": 0,
+  "new_classes": 0,
+  "new_masks": 0,
+  "projection_performed": false,
+  "full_glyph_certified": false,
+  "word_certified": false,
+  "class_fork_certified": false,
+  "prior_results_unchanged": [
+    "245 exact segmentation UNAVAILABLE",
+    "253/255 insufficient independent complete evidence"
+  ],
+  "no_new245_search_or_reading": true,
+  "held_replacement_performed": false
+}

@@ -1,0 +1,2807 @@
+{
+  "schema": "whole-trajectory-scientific-observations-public-v1",
+  "selection": "All listed scientific scoped fields retained whole and exactly from four AI observations. Operational inputs, authorization and private provenance fields are omitted. A/B coordinates, alternatives, UNKNOWNs and differing optional coverage are separate; no consensus rewriting or fitted boxes.",
+  "records": {
+    "development_AI_A": {
+      "original_full_record_sha256": "aa6a0175dfe0516c064a4a81825df9ee0a4bb0d47c7183293e9ad2ccd990de1e",
+      "published_field_list": [
+        "schema",
+        "coordinates",
+        "fixed_queries",
+        "anchors",
+        "tracks",
+        "junctions_and_alternatives",
+        "local_partitions",
+        "feature_graphs",
+        "whole_unit_endpoint",
+        "abstentions"
+      ],
+      "scientific_record": {
+        "schema": "reader-A-254-wholetrajectory-observation-v1",
+        "coordinates": {
+          "edge_transform": "native(x,y)=(1785-local_y,local_x)",
+          "pixel_transform": "native pixel(x,y)=(1784-local_pixel_y,local_pixel_x)",
+          "boxes": "Half-open local [x0,y0,x1,y1] maps native [1785-y1,x0,1785-y0,x1]",
+          "precision": "All observation coordinates approximate EDGE regions/polylines. These are tracing locators, not segmented ink masks or exact tip pixels."
+        },
+        "fixed_queries": {
+          "W03": {
+            "ROI": {
+              "local_edge_xyxy": [
+                85,
+                148,
+                134,
+                208
+              ],
+              "native_edge_xyxy": [
+                1577,
+                85,
+                1637,
+                134
+              ]
+            },
+            "lower": {
+              "local_edge_xyxy": [
+                85,
+                178,
+                134,
+                208
+              ],
+              "native_edge_xyxy": [
+                1577,
+                85,
+                1607,
+                134
+              ]
+            }
+          },
+          "W06": {
+            "ROI": {
+              "local_edge_xyxy": [
+                626,
+                157,
+                681,
+                225
+              ],
+              "native_edge_xyxy": [
+                1560,
+                626,
+                1628,
+                681
+              ]
+            },
+            "lower": {
+              "local_edge_xyxy": [
+                626,
+                191,
+                681,
+                225
+              ],
+              "native_edge_xyxy": [
+                1560,
+                626,
+                1594,
+                681
+              ]
+            }
+          }
+        },
+        "anchors": [
+          {
+            "id": "254-U03",
+            "query": "W03",
+            "upper_bowl": {
+              "local_edge_xyxy": [
+                96,
+                159,
+                115,
+                177
+              ],
+              "native_edge_xyxy": [
+                1608,
+                96,
+                1626,
+                115
+              ]
+            },
+            "attached_initial_stem": {
+              "local_edge_xyxy": [
+                96,
+                171,
+                108,
+                189
+              ],
+              "native_edge_xyxy": [
+                1596,
+                96,
+                1614,
+                108
+              ]
+            },
+            "complete_provisional_construction": {
+              "local_edge_xyxy": [
+                91,
+                158,
+                115,
+                192
+              ],
+              "native_edge_xyxy": [
+                1593,
+                91,
+                1627,
+                115
+              ]
+            },
+            "observation": "Nearclosed rounded upper oval and directly continuous descending stroke. Fixed ROI identifies it; no ID/ordinal used for ownership proof."
+          },
+          {
+            "id": "254-U06",
+            "query": "W06",
+            "upper_bowl": {
+              "local_edge_xyxy": [
+                638,
+                175,
+                661,
+                194
+              ],
+              "native_edge_xyxy": [
+                1591,
+                638,
+                1610,
+                661
+              ]
+            },
+            "attached_initial_stem": {
+              "local_edge_xyxy": [
+                632,
+                188,
+                650,
+                214
+              ],
+              "native_edge_xyxy": [
+                1571,
+                632,
+                1597,
+                650
+              ]
+            },
+            "complete_provisional_construction": {
+              "local_edge_xyxy": [
+                628,
+                174,
+                663,
+                216
+              ],
+              "native_edge_xyxy": [
+                1569,
+                628,
+                1611,
+                663
+              ]
+            },
+            "observation": "Nearclosed rounded upper oval and directly continuous descending stroke into long lower curl."
+          },
+          {
+            "id": "W03-right-construction",
+            "upper_turn": {
+              "local_edge_xyxy": [
+                122,
+                150,
+                139,
+                170
+              ],
+              "native_edge_xyxy": [
+                1615,
+                122,
+                1635,
+                139
+              ]
+            },
+            "rounded_lower_lobe": {
+              "local_edge_xyxy": [
+                119,
+                169,
+                141,
+                187
+              ],
+              "native_edge_xyxy": [
+                1598,
+                119,
+                1616,
+                141
+              ]
+            },
+            "construction": {
+              "local_edge_xyxy": [
+                119,
+                150,
+                142,
+                188
+              ],
+              "native_edge_xyxy": [
+                1597,
+                119,
+                1635,
+                142
+              ]
+            },
+            "observation": "Separate tall open turn and lower rounded lobe; not asserted same upper domain."
+          },
+          {
+            "id": "W03-below-construction",
+            "upper_turn": {
+              "local_edge_xyxy": [
+                99,
+                204,
+                114,
+                220
+              ],
+              "native_edge_xyxy": [
+                1565,
+                99,
+                1581,
+                114
+              ]
+            },
+            "lower_lobe": {
+              "local_edge_xyxy": [
+                88,
+                221,
+                108,
+                241
+              ],
+              "native_edge_xyxy": [
+                1544,
+                88,
+                1564,
+                108
+              ]
+            },
+            "construction": {
+              "local_edge_xyxy": [
+                87,
+                203,
+                114,
+                242
+              ],
+              "native_edge_xyxy": [
+                1543,
+                87,
+                1582,
+                114
+              ]
+            },
+            "observation": "Separate next-row tall curved construction; not asserted same upper domain."
+          },
+          {
+            "id": "W06-below-construction",
+            "construction": {
+              "local_edge_xyxy": [
+                637,
+                222,
+                656,
+                248
+              ],
+              "native_edge_xyxy": [
+                1537,
+                637,
+                1563,
+                656
+              ]
+            },
+            "observation": "Next-row open curved upper/lower construction, separated from focal lower curl by paper."
+          }
+        ],
+        "tracks": [
+          {
+            "id": "W03-T1",
+            "visible_region": {
+              "local_edge_xyxy": [
+                91,
+                178,
+                108,
+                192
+              ],
+              "native_edge_xyxy": [
+                1593,
+                91,
+                1607,
+                108
+              ]
+            },
+            "whole_route": {
+              "local_edge_polyline_approx": [
+                [
+                  105,
+                  170
+                ],
+                [
+                  103,
+                  177
+                ],
+                [
+                  99,
+                  184
+                ],
+                [
+                  95,
+                  189
+                ],
+                [
+                  92,
+                  187
+                ],
+                [
+                  94,
+                  182
+                ]
+              ],
+              "native_edge_polyline_approx": [
+                [
+                  1615,
+                  105
+                ],
+                [
+                  1608,
+                  103
+                ],
+                [
+                  1601,
+                  99
+                ],
+                [
+                  1596,
+                  95
+                ],
+                [
+                  1598,
+                  92
+                ],
+                [
+                  1603,
+                  94
+                ]
+              ]
+            },
+            "observed_owner_set": [
+              "254-U03"
+            ],
+            "positive_evidence": "Visible uninterrupted descending line bends left and returns upward in a short hook. Route back to the upper oval has no visible competing junction or track toward another anchor. Paper surrounds lower return.",
+            "uncertainties": [
+              "Exact endpoint pixel inside terminal region [91,180,97,189] unspecified."
+            ]
+          },
+          {
+            "id": "W03-T2-neighbor",
+            "visible_region": {
+              "local_edge_xyxy": [
+                121,
+                178,
+                134,
+                187
+              ],
+              "native_edge_xyxy": [
+                1598,
+                121,
+                1607,
+                134
+              ]
+            },
+            "whole_route": {
+              "local_edge_polyline_approx": [
+                [
+                  129,
+                  184
+                ],
+                [
+                  123,
+                  181
+                ],
+                [
+                  123,
+                  174
+                ],
+                [
+                  132,
+                  170
+                ],
+                [
+                  136,
+                  177
+                ],
+                [
+                  130,
+                  184
+                ]
+              ],
+              "native_edge_polyline_approx": [
+                [
+                  1601,
+                  129
+                ],
+                [
+                  1604,
+                  123
+                ],
+                [
+                  1611,
+                  123
+                ],
+                [
+                  1615,
+                  132
+                ],
+                [
+                  1608,
+                  136
+                ],
+                [
+                  1601,
+                  130
+                ]
+              ]
+            },
+            "observed_owner_set": [
+              "W03-right-construction"
+            ],
+            "positive_evidence": "The query captures the lower rounded lobe of the right construction. Following outside x134 closes/returns to its own tall stroke around [122,150,139,170]. Visible paper gap separates this lobe from U03.",
+            "uncertainties": [
+              "Exact lower-lobe closure attachment position approximate."
+            ]
+          },
+          {
+            "id": "W03-T3-adjacent-row",
+            "visible_region": {
+              "local_edge_xyxy": [
+                100,
+                204,
+                114,
+                208
+              ],
+              "native_edge_xyxy": [
+                1577,
+                100,
+                1581,
+                114
+              ]
+            },
+            "whole_route": {
+              "local_edge_polyline_approx": [
+                [
+                  111,
+                  207
+                ],
+                [
+                  107,
+                  205
+                ],
+                [
+                  101,
+                  210
+                ],
+                [
+                  98,
+                  219
+                ],
+                [
+                  93,
+                  228
+                ],
+                [
+                  91,
+                  235
+                ],
+                [
+                  102,
+                  237
+                ],
+                [
+                  105,
+                  229
+                ],
+                [
+                  99,
+                  224
+                ]
+              ],
+              "native_edge_polyline_approx": [
+                [
+                  1578,
+                  111
+                ],
+                [
+                  1580,
+                  107
+                ],
+                [
+                  1575,
+                  101
+                ],
+                [
+                  1566,
+                  98
+                ],
+                [
+                  1557,
+                  93
+                ],
+                [
+                  1550,
+                  91
+                ],
+                [
+                  1548,
+                  102
+                ],
+                [
+                  1556,
+                  105
+                ],
+                [
+                  1561,
+                  99
+                ]
+              ]
+            },
+            "observed_owner_set": [
+              "W03-below-construction"
+            ],
+            "positive_evidence": "Small curved ink entering query bottom belongs to the separate next-row tall curved construction, followed downward into its lower rounded portion. Paper vertically separates it from U03.",
+            "uncertainties": [
+              "Not an upper-domain match; complete fine terminal topology of this auxiliary construction not certified."
+            ]
+          },
+          {
+            "id": "W06-T1",
+            "visible_region": {
+              "local_edge_xyxy": [
+                628,
+                191,
+                650,
+                216
+              ],
+              "native_edge_xyxy": [
+                1569,
+                628,
+                1594,
+                650
+              ]
+            },
+            "whole_route": {
+              "local_edge_polyline_approx": [
+                [
+                  647,
+                  189
+                ],
+                [
+                  643,
+                  197
+                ],
+                [
+                  637,
+                  208
+                ],
+                [
+                  632,
+                  214
+                ],
+                [
+                  629,
+                  211
+                ],
+                [
+                  632,
+                  205
+                ],
+                [
+                  642,
+                  198
+                ],
+                [
+                  646,
+                  194
+                ]
+              ],
+              "native_edge_polyline_approx": [
+                [
+                  1596,
+                  647
+                ],
+                [
+                  1588,
+                  643
+                ],
+                [
+                  1577,
+                  637
+                ],
+                [
+                  1571,
+                  632
+                ],
+                [
+                  1574,
+                  629
+                ],
+                [
+                  1580,
+                  632
+                ],
+                [
+                  1587,
+                  642
+                ],
+                [
+                  1591,
+                  646
+                ]
+              ]
+            },
+            "observed_owner_set": [
+              "254-U06"
+            ],
+            "positive_evidence": "Continuous descending line from upper oval enters long leftward lower curl and upward return. All visible routes of this lower curve return toward the same upper oval/stem. No route to neighboring construction or intervening crossing seen.",
+            "uncertainties": [
+              "Whether upper end of upward return visibly rejoins descending line near [641,194,648,200] to form a completely closed lower loop remains uncertain. This does not introduce another possible anchor."
+            ]
+          },
+          {
+            "id": "W06-T2-adjacent-row",
+            "visible_region": {
+              "local_edge_xyxy": [
+                640,
+                222,
+                655,
+                225
+              ],
+              "native_edge_xyxy": [
+                1560,
+                640,
+                1563,
+                655
+              ]
+            },
+            "whole_route": {
+              "local_edge_polyline_approx": [
+                [
+                  653,
+                  224
+                ],
+                [
+                  648,
+                  223
+                ],
+                [
+                  643,
+                  227
+                ],
+                [
+                  640,
+                  236
+                ],
+                [
+                  643,
+                  244
+                ],
+                [
+                  652,
+                  244
+                ]
+              ],
+              "native_edge_polyline_approx": [
+                [
+                  1561,
+                  653
+                ],
+                [
+                  1562,
+                  648
+                ],
+                [
+                  1558,
+                  643
+                ],
+                [
+                  1549,
+                  640
+                ],
+                [
+                  1541,
+                  643
+                ],
+                [
+                  1541,
+                  652
+                ]
+              ]
+            },
+            "observed_owner_set": [
+              "W06-below-construction"
+            ],
+            "positive_evidence": "Small arc at query bottom continues into a separate next-row open curve. Visible paper band separates it from U06 lower curl.",
+            "uncertainties": [
+              "Arc-query intersection and endpoints approximate at 1:1; classification of this auxiliary construction is not attempted."
+            ]
+          }
+        ],
+        "junctions_and_alternatives": [
+          {
+            "region": {
+              "local_edge_xyxy": [
+                100,
+                169,
+                110,
+                179
+              ],
+              "native_edge_xyxy": [
+                1606,
+                100,
+                1616,
+                110
+              ]
+            },
+            "track": "W03-T1",
+            "observation": "Upper-oval/stem meeting and smooth descending continuation. No physically visible alternative to separate construction."
+          },
+          {
+            "region": {
+              "local_edge_xyxy": [
+                641,
+                189,
+                651,
+                200
+              ],
+              "native_edge_xyxy": [
+                1585,
+                641,
+                1596,
+                651
+              ]
+            },
+            "track": "W06-T1",
+            "observation": "Descending line and upward lower return approach/contact area. Open-return versus rejoining-loop remains an alternative physical graph; both continue to U06, so visible-portion owner remains same."
+          }
+        ],
+        "local_partitions": [
+          {
+            "anchor": "254-U03",
+            "status": "SUPPORTED_LOCAL_ONLY",
+            "evidence_regions": [
+              {
+                "local_edge_xyxy": [
+                  114,
+                  157,
+                  120,
+                  191
+                ],
+                "native_edge_xyxy": [
+                  1594,
+                  114,
+                  1628,
+                  120
+                ]
+              },
+              {
+                "local_edge_xyxy": [
+                  90,
+                  193,
+                  114,
+                  203
+                ],
+                "native_edge_xyxy": [
+                  1582,
+                  90,
+                  1592,
+                  114
+                ]
+              }
+            ],
+            "evidence": "Positive narrow paper corridor to the immediate right construction and paper below its terminal region before next-row ink. Own and adjacent trajectories remain distinct.",
+            "left_context": "No left upper neighbor on this row between card left edge around x54 and U03; positive blank card region [55,155,91,193]. This is local edge context, not global glyph census."
+          },
+          {
+            "anchor": "254-U06",
+            "status": "SUPPORTED_LOCAL_ONLY",
+            "evidence_regions": [
+              {
+                "local_edge_xyxy": [
+                  620,
+                  192,
+                  628,
+                  217
+                ],
+                "native_edge_xyxy": [
+                  1568,
+                  620,
+                  1593,
+                  628
+                ]
+              },
+              {
+                "local_edge_xyxy": [
+                  651,
+                  197,
+                  675,
+                  217
+                ],
+                "native_edge_xyxy": [
+                  1568,
+                  651,
+                  1588,
+                  675
+                ]
+              },
+              {
+                "local_edge_xyxy": [
+                  628,
+                  217,
+                  663,
+                  222
+                ],
+                "native_edge_xyxy": [
+                  1563,
+                  628,
+                  1568,
+                  663
+                ]
+              }
+            ],
+            "evidence": "Paper corridors around the downward curl separate it from left adjacent upper construction, the small right mark above query and next-row arc.",
+            "nearest_neighbors": {
+              "left_upper_construction": {
+                "local_edge_xyxy": [
+                  600,
+                  165,
+                  623,
+                  192
+                ],
+                "native_edge_xyxy": [
+                  1593,
+                  600,
+                  1620,
+                  623
+                ]
+              },
+              "right_mark": {
+                "local_edge_xyxy": [
+                  670,
+                  182,
+                  678,
+                  191
+                ],
+                "native_edge_xyxy": [
+                  1594,
+                  670,
+                  1603,
+                  678
+                ]
+              },
+              "right_upper_construction": {
+                "local_edge_xyxy": [
+                  694,
+                  166,
+                  725,
+                  204
+                ],
+                "native_edge_xyxy": [
+                  1581,
+                  694,
+                  1619,
+                  725
+                ]
+              }
+            }
+          }
+        ],
+        "feature_graphs": {
+          "T03": {
+            "anchor": "254-U03",
+            "nodes": [
+              "nearclosed upper oval",
+              "attached descending path",
+              "short leftward lower bend",
+              "upturned terminal region"
+            ],
+            "terminal_region": {
+              "local_edge_xyxy": [
+                91,
+                180,
+                98,
+                191
+              ],
+              "native_edge_xyxy": [
+                1594,
+                91,
+                1605,
+                98
+              ]
+            },
+            "edges": "Upper oval -> attached downward line -> short leftward bottom bend -> upward terminal return. No lower enclosed cycle positively observed.",
+            "closure": "Upper bowl nearclosed; lower hook appears open with paper-cleared end region.",
+            "owner": "254-U03"
+          },
+          "T06": {
+            "anchor": "254-U06",
+            "nodes": [
+              "nearclosed upper oval",
+              "attached descending path",
+              "long leftward lower curl",
+              "upward return near descending stem"
+            ],
+            "return_contact_region": {
+              "local_edge_xyxy": [
+                641,
+                194,
+                648,
+                200
+              ],
+              "native_edge_xyxy": [
+                1585,
+                641,
+                1591,
+                648
+              ]
+            },
+            "edges": "Upper oval -> descending path -> lower leftward curl -> upward return approaching/rejoining the descending path.",
+            "closure": "Lower cycle closure UNKNOWN; open return and rejoining lower loop are retained possibilities.",
+            "owner": "254-U06"
+          },
+          "distinction": "Lower curl length/height differs visibly, but size is not a topological discriminator. A definitive open-hook versus closed/rejoining-loop distinction is UNKNOWN because T06 closure is unresolved. Do not force two template classes."
+        },
+        "whole_unit_endpoint": {
+          "complete_glyph_or_word_certified": false,
+          "reason": "Local queried routes and neighboring ink retained; full construction/class/separator ownership gate not executed.",
+          "letters": 0
+        },
+        "abstentions": [
+          "T06 lower return rejoining/closure topology UNKNOWN at local [641,194,648,200], native [1585,641,1591,648].",
+          "No distinct physical template fork certified from size/slant alone.",
+          "No full glyph, word, class bridge or letters."
+        ]
+      }
+    },
+    "development_AI_B": {
+      "original_full_record_sha256": "918b69ce726a8d2bb09c6797979e6eacfd9d90290257aac6c7fd5794c296b1ff",
+      "published_field_list": [
+        "schema",
+        "frame",
+        "observations",
+        "graph_comparison",
+        "context",
+        "retained_abstentions",
+        "letters"
+      ],
+      "scientific_record": {
+        "schema": "reader-B-254-wholetrajectory-observation-v1",
+        "frame": {
+          "rotation": "CCW90 exact",
+          "crop": [
+            0,
+            0,
+            1175,
+            282
+          ],
+          "native_crop": [
+            1503,
+            0,
+            1785,
+            1175
+          ],
+          "edge_inverse": "local(u,v)->native(1785-v,u)",
+          "pixel_inverse": "local pixel index(u,v)->native pixel index(1784-v,u)",
+          "coordinate_precision": "Approximate source-observed locators, not exact masks"
+        },
+        "observations": [
+          {
+            "id": "254-U03",
+            "ROI": {
+              "local_xyxy": [
+                85,
+                148,
+                134,
+                208
+              ],
+              "native_edge_xyxy": [
+                1577,
+                85,
+                1637,
+                134
+              ]
+            },
+            "lower_query": {
+              "local_xyxy": [
+                85,
+                178,
+                134,
+                208
+              ],
+              "native_edge_xyxy": [
+                1577,
+                85,
+                1607,
+                134
+              ]
+            },
+            "upper_anchor": {
+              "local_xyxy": [
+                93,
+                155,
+                115,
+                180
+              ],
+              "native_edge_xyxy": [
+                1605,
+                93,
+                1630,
+                115
+              ]
+            },
+            "construction_context": {
+              "local_xyxy": [
+                86,
+                148,
+                143,
+                195
+              ],
+              "native_edge_xyxy": [
+                1590,
+                86,
+                1637,
+                143
+              ]
+            },
+            "upper_confirmation": "Independently visible nearclosed rounded bowl with attached stroke descending from right rim; fixed ROI locates this bowl, while also including right-neighbor ink",
+            "nearest_left_anchor": "No same-row anchor immediately left before card margin; local paper from physical left edge x53 to approximately x90",
+            "nearest_right_anchor": {
+              "local_xyxy": [
+                119,
+                150,
+                144,
+                185
+              ],
+              "native_edge_xyxy": [
+                1600,
+                119,
+                1635,
+                144
+              ]
+            },
+            "tracks": [
+              {
+                "id": "W03-P1",
+                "visible_portion_region": {
+                  "local_xyxy": [
+                    91,
+                    178,
+                    109,
+                    190
+                  ],
+                  "native_edge_xyxy": [
+                    1595,
+                    91,
+                    1607,
+                    109
+                  ]
+                },
+                "trajectory_landmarks": [
+                  {
+                    "local": [
+                      109,
+                      165
+                    ],
+                    "native_edge": [
+                      1620,
+                      109
+                    ],
+                    "native_pixel_if_index": [
+                      1619,
+                      109
+                    ]
+                  },
+                  {
+                    "local": [
+                      107,
+                      174
+                    ],
+                    "native_edge": [
+                      1611,
+                      107
+                    ],
+                    "native_pixel_if_index": [
+                      1610,
+                      107
+                    ]
+                  },
+                  {
+                    "local": [
+                      103,
+                      181
+                    ],
+                    "native_edge": [
+                      1604,
+                      103
+                    ],
+                    "native_pixel_if_index": [
+                      1603,
+                      103
+                    ]
+                  },
+                  {
+                    "local": [
+                      98,
+                      186
+                    ],
+                    "native_edge": [
+                      1599,
+                      98
+                    ],
+                    "native_pixel_if_index": [
+                      1598,
+                      98
+                    ]
+                  },
+                  {
+                    "local": [
+                      93,
+                      185
+                    ],
+                    "native_edge": [
+                      1600,
+                      93
+                    ],
+                    "native_pixel_if_index": [
+                      1599,
+                      93
+                    ]
+                  },
+                  {
+                    "local": [
+                      92,
+                      181
+                    ],
+                    "native_edge": [
+                      1604,
+                      92
+                    ],
+                    "native_pixel_if_index": [
+                      1603,
+                      92
+                    ]
+                  }
+                ],
+                "possible_owner_set": [
+                  "254-U03"
+                ],
+                "positive_evidence": "Visible smooth dark descending curve from right bowl rim to leftward lower turn, uninterrupted within surrounding paper. Reverse traversal reaches the bowl rim. No neighboring trajectory crosses it.",
+                "uncertainties": [
+                  "Exact terminal pixel unknown; terminal region approximately [90,179,99,189]. Smooth bowl/stem/curve boundary is unnecessary."
+                ],
+                "junctions_and_alternatives": [
+                  {
+                    "region": {
+                      "local_xyxy": [
+                        104,
+                        164,
+                        112,
+                        178
+                      ],
+                      "native_edge_xyxy": [
+                        1607,
+                        104,
+                        1621,
+                        112
+                      ]
+                    },
+                    "kind": "bowl-rim/stem attachment",
+                    "alternatives": "Around either side of the upper bowl leads to the same upper anchor; no route to separate anchor visible."
+                  }
+                ],
+                "precision": "Approximate observed path landmarks and containing regions, not exact pixels/masks"
+              },
+              {
+                "id": "W03-P2-right-neighbor",
+                "visible_portion_region": {
+                  "local_xyxy": [
+                    119,
+                    178,
+                    133,
+                    187
+                  ],
+                  "native_edge_xyxy": [
+                    1598,
+                    119,
+                    1607,
+                    133
+                  ]
+                },
+                "trajectory_landmarks": [
+                  {
+                    "local": [
+                      123,
+                      182
+                    ],
+                    "native_edge": [
+                      1603,
+                      123
+                    ],
+                    "native_pixel_if_index": [
+                      1602,
+                      123
+                    ]
+                  },
+                  {
+                    "local": [
+                      130,
+                      183
+                    ],
+                    "native_edge": [
+                      1602,
+                      130
+                    ],
+                    "native_pixel_if_index": [
+                      1601,
+                      130
+                    ]
+                  },
+                  {
+                    "local": [
+                      134,
+                      179
+                    ],
+                    "native_edge": [
+                      1606,
+                      134
+                    ],
+                    "native_pixel_if_index": [
+                      1605,
+                      134
+                    ]
+                  },
+                  {
+                    "local": [
+                      134,
+                      170
+                    ],
+                    "native_edge": [
+                      1615,
+                      134
+                    ],
+                    "native_pixel_if_index": [
+                      1614,
+                      134
+                    ]
+                  },
+                  {
+                    "local": [
+                      129,
+                      167
+                    ],
+                    "native_edge": [
+                      1618,
+                      129
+                    ],
+                    "native_pixel_if_index": [
+                      1617,
+                      129
+                    ]
+                  },
+                  {
+                    "local": [
+                      121,
+                      174
+                    ],
+                    "native_edge": [
+                      1611,
+                      121
+                    ],
+                    "native_pixel_if_index": [
+                      1610,
+                      121
+                    ]
+                  },
+                  {
+                    "local": [
+                      121,
+                      181
+                    ],
+                    "native_edge": [
+                      1604,
+                      121
+                    ],
+                    "native_pixel_if_index": [
+                      1603,
+                      121
+                    ]
+                  },
+                  {
+                    "local": [
+                      126,
+                      184
+                    ],
+                    "native_edge": [
+                      1601,
+                      126
+                    ],
+                    "native_pixel_if_index": [
+                      1600,
+                      126
+                    ]
+                  }
+                ],
+                "possible_owner_set": [
+                  "W03-right-upper-anchor"
+                ],
+                "positive_evidence": "Lower rounded arc is visibly continuous into the separately anchored loop/rising stroke around x128; positive paper corridor separates this construction from W03-P1.",
+                "uncertainties": [
+                  "Rightmost route leaves query x134 but remains visible within full context; exact closure point approximate."
+                ],
+                "junctions_and_alternatives": [
+                  {
+                    "region": {
+                      "local_xyxy": [
+                        120,
+                        169,
+                        137,
+                        185
+                      ],
+                      "native_edge_xyxy": [
+                        1600,
+                        120,
+                        1616,
+                        137
+                      ]
+                    },
+                    "kind": "neighbor rounded lower loop",
+                    "alternatives": "Both traversable loop sides remain inside same distinct right-neighbor construction."
+                  }
+                ],
+                "precision": "Approximate observed path landmarks and containing regions, not exact pixels/masks"
+              }
+            ],
+            "local_partition": {
+              "status": "SUPPORTED bounded local ink partition",
+              "positive_evidence": "Visible paper corridor approximately x112..119,y174..190 between lower W03 hook and right-neighbor loop; trajectories remain separate in complete local context.",
+              "corridor": {
+                "local_xyxy": [
+                  112,
+                  174,
+                  119,
+                  190
+                ],
+                "native_edge_xyxy": [
+                  1595,
+                  112,
+                  1611,
+                  119
+                ]
+              },
+              "limit": "No full word or whole unit segmentation claim."
+            },
+            "feature_graph": {
+              "id": "T03",
+              "nodes": [
+                "nearclosed upper bowl",
+                "attached descending smooth stroke",
+                "leftward lower turn",
+                "lower terminal region"
+              ],
+              "edges": [
+                "upper bowl -> descending stroke -> lower leftward turn -> terminal region"
+              ],
+              "upper_loop_count": "One nearclosed upper bowl",
+              "lower_loop": "No positively visible enclosed lower loop in main track; lower turn ends in paper-cleared terminal region",
+              "terminal_region": {
+                "local_xyxy": [
+                  90,
+                  178,
+                  100,
+                  191
+                ],
+                "native_edge_xyxy": [
+                  1594,
+                  90,
+                  1607,
+                  100
+                ]
+              },
+              "terminal_clearance": "Paper visible outside short lower hook; no continuous outbound track toward neighbor observed.",
+              "separate_left_track": "None positively observed in fixed lower query region",
+              "unknowns": [
+                "Exact tip location and upper bowl gap size unknown."
+              ]
+            }
+          },
+          {
+            "id": "254-U06",
+            "ROI": {
+              "local_xyxy": [
+                626,
+                157,
+                681,
+                225
+              ],
+              "native_edge_xyxy": [
+                1560,
+                626,
+                1628,
+                681
+              ]
+            },
+            "lower_query": {
+              "local_xyxy": [
+                626,
+                191,
+                681,
+                225
+              ],
+              "native_edge_xyxy": [
+                1560,
+                626,
+                1594,
+                681
+              ]
+            },
+            "upper_anchor": {
+              "local_xyxy": [
+                631,
+                171,
+                658,
+                195
+              ],
+              "native_edge_xyxy": [
+                1590,
+                631,
+                1614,
+                658
+              ]
+            },
+            "construction_context": {
+              "local_xyxy": [
+                616,
+                164,
+                678,
+                217
+              ],
+              "native_edge_xyxy": [
+                1568,
+                616,
+                1621,
+                678
+              ]
+            },
+            "upper_confirmation": "Visible nearclosed rounded bowl attached to slanted descending stem; this is the fixed upper anchor inside ROI",
+            "nearest_left_anchor": {
+              "local_xyxy": [
+                607,
+                165,
+                626,
+                189
+              ],
+              "native_edge_xyxy": [
+                1596,
+                607,
+                1620,
+                626
+              ]
+            },
+            "nearest_right_anchor": {
+              "local_xyxy": [
+                667,
+                179,
+                680,
+                193
+              ],
+              "native_edge_xyxy": [
+                1592,
+                667,
+                1606,
+                680
+              ]
+            },
+            "tracks": [
+              {
+                "id": "W06-P1",
+                "visible_portion_region": {
+                  "local_xyxy": [
+                    628,
+                    191,
+                    654,
+                    216
+                  ],
+                  "native_edge_xyxy": [
+                    1569,
+                    628,
+                    1594,
+                    654
+                  ]
+                },
+                "trajectory_landmarks": [
+                  {
+                    "local": [
+                      652,
+                      181
+                    ],
+                    "native_edge": [
+                      1604,
+                      652
+                    ],
+                    "native_pixel_if_index": [
+                      1603,
+                      652
+                    ]
+                  },
+                  {
+                    "local": [
+                      649,
+                      190
+                    ],
+                    "native_edge": [
+                      1595,
+                      649
+                    ],
+                    "native_pixel_if_index": [
+                      1594,
+                      649
+                    ]
+                  },
+                  {
+                    "local": [
+                      644,
+                      199
+                    ],
+                    "native_edge": [
+                      1586,
+                      644
+                    ],
+                    "native_pixel_if_index": [
+                      1585,
+                      644
+                    ]
+                  },
+                  {
+                    "local": [
+                      638,
+                      207
+                    ],
+                    "native_edge": [
+                      1578,
+                      638
+                    ],
+                    "native_pixel_if_index": [
+                      1577,
+                      638
+                    ]
+                  },
+                  {
+                    "local": [
+                      632,
+                      212
+                    ],
+                    "native_edge": [
+                      1573,
+                      632
+                    ],
+                    "native_pixel_if_index": [
+                      1572,
+                      632
+                    ]
+                  },
+                  {
+                    "local": [
+                      629,
+                      209
+                    ],
+                    "native_edge": [
+                      1576,
+                      629
+                    ],
+                    "native_pixel_if_index": [
+                      1575,
+                      629
+                    ]
+                  },
+                  {
+                    "local": [
+                      630,
+                      203
+                    ],
+                    "native_edge": [
+                      1582,
+                      630
+                    ],
+                    "native_pixel_if_index": [
+                      1581,
+                      630
+                    ]
+                  },
+                  {
+                    "local": [
+                      636,
+                      198
+                    ],
+                    "native_edge": [
+                      1587,
+                      636
+                    ],
+                    "native_pixel_if_index": [
+                      1586,
+                      636
+                    ]
+                  },
+                  {
+                    "local": [
+                      643,
+                      195
+                    ],
+                    "native_edge": [
+                      1590,
+                      643
+                    ],
+                    "native_pixel_if_index": [
+                      1589,
+                      643
+                    ]
+                  },
+                  {
+                    "local": [
+                      649,
+                      195
+                    ],
+                    "native_edge": [
+                      1590,
+                      649
+                    ],
+                    "native_pixel_if_index": [
+                      1589,
+                      649
+                    ]
+                  }
+                ],
+                "possible_owner_set": [
+                  "254-U06"
+                ],
+                "positive_evidence": "Continuous descending route from upper right bowl rim into lower leftward loop; a return stroke runs back toward the same descending construction. Loop alternatives remain within this one anchor, with paper separating the left and right neighboring constructions.",
+                "uncertainties": [
+                  "Exact lower rejoining junction versus close contact around [641,191,652,201] is not pixel-exact; both visible admissible branches lead to same upper anchor. Exact lower tip not required."
+                ],
+                "junctions_and_alternatives": [
+                  {
+                    "region": {
+                      "local_xyxy": [
+                        641,
+                        191,
+                        652,
+                        201
+                      ],
+                      "native_edge_xyxy": [
+                        1584,
+                        641,
+                        1594,
+                        652
+                      ]
+                    },
+                    "kind": "lower return meeting descending stem",
+                    "alternatives": "Follow descending branch upward to upper bowl or return through lower curved loop then follow same descending branch; no observed external-anchor route."
+                  }
+                ],
+                "precision": "Approximate observed path landmarks and containing regions, not exact pixels/masks"
+              },
+              {
+                "id": "W06-boundary-attempt-rowbelow",
+                "visible_portion_region": {
+                  "local_xyxy": [
+                    636,
+                    222,
+                    652,
+                    225
+                  ],
+                  "native_edge_xyxy": [
+                    1560,
+                    636,
+                    1563,
+                    652
+                  ]
+                },
+                "trajectory_landmarks": [
+                  {
+                    "local": [
+                      648,
+                      223
+                    ],
+                    "native_edge": [
+                      1562,
+                      648
+                    ],
+                    "native_pixel_if_index": [
+                      1561,
+                      648
+                    ]
+                  },
+                  {
+                    "local": [
+                      643,
+                      224
+                    ],
+                    "native_edge": [
+                      1561,
+                      643
+                    ],
+                    "native_pixel_if_index": [
+                      1560,
+                      643
+                    ]
+                  }
+                ],
+                "possible_owner_set": [
+                  "UNKNOWN-rowbelow-correspondence"
+                ],
+                "positive_evidence": "A nearby next-row open curved upper construction is visible around x641,y225..246; whether its topmost ink enters half-open query y<225 is uncertain at original view.",
+                "uncertainties": [
+                  "Query-boundary membership unresolved; retain attempted marginal track rather than count it absent. If present, it is separated from main W06 lower loop by paper and continues into next-row open arc.",
+                  "This marginal attempt does not supply a competing route for W06-P1."
+                ],
+                "junctions_and_alternatives": [],
+                "precision": "Approximate observed path landmarks and containing regions, not exact pixels/masks"
+              }
+            ],
+            "local_partition": {
+              "status": "SUPPORTED bounded partition for main W06 trajectory versus adjacent same-row constructions",
+              "positive_evidence": "Positive paper to left x619..628 beside lower loop and to right x655..666 below upper bowl; next-row construction separated below by paper.",
+              "corridors": [
+                {
+                  "local_xyxy": [
+                    618,
+                    194,
+                    628,
+                    216
+                  ],
+                  "native_edge_xyxy": [
+                    1569,
+                    618,
+                    1591,
+                    628
+                  ]
+                },
+                {
+                  "local_xyxy": [
+                    655,
+                    192,
+                    666,
+                    215
+                  ],
+                  "native_edge_xyxy": [
+                    1570,
+                    655,
+                    1593,
+                    666
+                  ]
+                },
+                {
+                  "local_xyxy": [
+                    629,
+                    217,
+                    656,
+                    221
+                  ],
+                  "native_edge_xyxy": [
+                    1564,
+                    629,
+                    1568,
+                    656
+                  ]
+                }
+              ],
+              "limit": "Marginal query-boundary attempt remains unknown; no complete unit or word claim."
+            },
+            "feature_graph": {
+              "id": "T06",
+              "nodes": [
+                "nearclosed upper bowl",
+                "slanted descending stem",
+                "lower leftward curved loop",
+                "return toward descending stem"
+              ],
+              "edges": [
+                "upper bowl -> descending stem -> lower leftward loop -> return toward same stem"
+              ],
+              "upper_loop_count": "One nearclosed upper bowl",
+              "lower_loop": "Positively visible loop-like lower return route; precise rejoining/contact junction unresolved, but owner alternatives stay at same anchor",
+              "terminal_regions": "No separate main-track free terminal positively certified; lower path turns back toward stem",
+              "separate_left_track": "No independent same-row left track in main lower query beyond the loop itself",
+              "unknowns": [
+                "Exact lower closure/rejoining pixel and marginal next-row ink membership unknown."
+              ]
+            }
+          }
+        ],
+        "graph_comparison": {
+          "status": "PROVISIONAL_VISIBLE_DIFFERENCE",
+          "positive_difference": "W03 main lower curve terminates in a short paper-cleared hook; W06 main curve returns upward/right toward descending stem forming a loop-like lower route. This is a physical route difference, not an arbitrary stem/curve cut.",
+          "remaining_topology_uncertainty": "Exact lower rejoining/closure at W06 is unresolved. Preserve distinction as provisional rather than freeze a fully certified closed-loop template.",
+          "no_old_class_label_inference": true
+        },
+        "context": {
+          "selected_row_interval": {
+            "local_xyxy": [
+              86,
+              149,
+              1065,
+              217
+            ],
+            "native_edge_xyxy": [
+              1568,
+              86,
+              1636,
+              1065
+            ]
+          },
+          "row_above": {
+            "local_xyxy": [
+              105,
+              101,
+              1062,
+              153
+            ],
+            "native_edge_xyxy": [
+              1632,
+              105,
+              1684,
+              1062
+            ]
+          },
+          "row_below": {
+            "local_xyxy": [
+              87,
+              207,
+              1089,
+              266
+            ],
+            "native_edge_xyxy": [
+              1519,
+              87,
+              1578,
+              1089
+            ]
+          },
+          "physical_card_edges": "Tan paper meets white exterior across top around y84 and along left x52; no crop edge used as physical edge. Both main trajectories and nearest local constructions bounded within observed paper.",
+          "lower_context_truncation": "Additional row ink is cut at display y282, but does not intersect or supply alternate route to the two main queried trajectories."
+        },
+        "retained_abstentions": [
+          "Exact W06 lower rejoining versus contact topology remains unresolved.",
+          "Possible next-row ink entry at W06 query bottom remains UNKNOWN.",
+          "Fullglyph/word/separator/mark ownership not certified."
+        ],
+        "letters": 0
+      }
+    },
+    "held_AI_A": {
+      "original_full_record_sha256": "1f053dcfc480a30bf235c68d5a8668e6e06ad6d2c98bd7a25ce24e3c3e25b892",
+      "published_field_list": [
+        "schema",
+        "coordinate_frame",
+        "coordinate_precision",
+        "early_candidate_ledger",
+        "row_order",
+        "selected_anchor",
+        "query",
+        "tracks",
+        "track_order_conclusion",
+        "local_partition",
+        "independent_feature_graph",
+        "containing_word",
+        "full_unit_status"
+      ],
+      "scientific_record": {
+        "schema": "held246-observer-A-wholetrajectory-v1",
+        "coordinate_frame": "native NONE; focal x+432,y+883; wider x+432,y",
+        "coordinate_precision": "Visual integer locators; approximately 2-3 pixels uncertainty on ink edges. Adopted bbox/query integers are frozen, not subpixel measurements.",
+        "early_candidate_ledger": [
+          {
+            "focal_region": [
+              0,
+              18,
+              12,
+              63
+            ],
+            "decision": "incomplete left-edge bowl/track; anchor not wholly inside focal; outside selection domain"
+          },
+          {
+            "focal_region": [
+              12,
+              18,
+              29,
+              49
+            ],
+            "decision": "rounded lower lobe with connected taller rising stroke; reject HEAD domain"
+          },
+          {
+            "focal_region": [
+              45,
+              18,
+              72,
+              50
+            ],
+            "decision": "open arch with taller stroke; no complete HEAD"
+          },
+          {
+            "focal_region": [
+              74,
+              15,
+              92,
+              49
+            ],
+            "decision": "lower lobe below taller connected stroke; reject"
+          },
+          {
+            "focal_region": [
+              92,
+              28,
+              132,
+              49
+            ],
+            "decision": "small open angular/curving constructions; no closed or nearclosed head bowl"
+          },
+          {
+            "focal_region": [
+              157,
+              19,
+              181,
+              53
+            ],
+            "decision": "open tall arch construction; reject"
+          },
+          {
+            "focal_region": [
+              181,
+              32,
+              197,
+              55
+            ],
+            "decision": "two open lobes; reject complete closed/nearclosed HEAD"
+          }
+        ],
+        "row_order": {
+          "status": "observed",
+          "selected_row": "top text row inside focal, native approximately y900-954",
+          "earlier_wider_rows": "No earlier handwriting row with anchors inside fixed focal window; picture ink outside window is not eligible."
+        },
+        "selected_anchor": {
+          "id": "A-H1",
+          "head_bbox_native": [
+            631,
+            920,
+            647,
+            937
+          ],
+          "head_bbox_focal": [
+            199,
+            37,
+            215,
+            54
+          ],
+          "description": "small rounded nearclosed bowl; right rim bends directly into descending leftward curve; no taller connected ascender",
+          "attached_initial_stem_native_route": [
+            [
+              646,
+              928
+            ],
+            [
+              643,
+              939
+            ],
+            [
+              639,
+              946
+            ],
+            [
+              631,
+              952
+            ]
+          ],
+          "selection": "first eligible complete upper bowl left-to-right in first eligible row; independent of lower traceability",
+          "edge_uncertainty_px": 3
+        },
+        "query": {
+          "formula": "[max(432,x0-12),y1,min(1690,x1+12),min(1105,y1+45)]",
+          "native_xyxy": [
+            619,
+            937,
+            659,
+            982
+          ],
+          "focal_xyxy": [
+            187,
+            54,
+            227,
+            99
+          ],
+          "not_a_stem_cut": true
+        },
+        "tracks": [
+          {
+            "id": "A-T1",
+            "order": 1,
+            "first_query_ink_native_region": [
+              641,
+              937,
+              646,
+              941
+            ],
+            "whole_visible_route_native": [
+              [
+                646,
+                928
+              ],
+              [
+                643,
+                939
+              ],
+              [
+                639,
+                946
+              ],
+              [
+                631,
+                952
+              ],
+              [
+                624,
+                953
+              ],
+              [
+                623,
+                949
+              ],
+              [
+                628,
+                944
+              ]
+            ],
+            "possible_upper_owners": [
+              "A-H1"
+            ],
+            "owner_status": "SINGLE_OWNER visible queried portion",
+            "positive_evidence": "Uninterrupted curve from lower query through right bowl rim. Descending route bends left, rounds a low return and rises a short distance. Smooth bend followed in entirety, no artificial segment boundary. No crossing or branch along route to head.",
+            "junctions": [],
+            "terminal_or_return": {
+              "region_native": [
+                621,
+                944,
+                631,
+                954
+              ],
+              "status": "exact return closure UNKNOWN",
+              "evidence": "Visible rounded low turn with nearby rising return; precise rejoin/terminal distinction unavailable at native view. Does not introduce another upper anchor route."
+            }
+          },
+          {
+            "id": "A-T2",
+            "order": 2,
+            "first_query_ink_native_region": [
+              644,
+              949,
+              654,
+              962
+            ],
+            "whole_visible_route_native": [
+              [
+                650,
+                951
+              ],
+              [
+                646,
+                957
+              ],
+              [
+                645,
+                969
+              ],
+              [
+                644,
+                980
+              ],
+              [
+                641,
+                991
+              ]
+            ],
+            "possible_upper_owners": [
+              "A-H2",
+              "UNKNOWN"
+            ],
+            "owner_status": "UNKNOWN",
+            "anchor_candidate": {
+              "id": "A-H2",
+              "native_region": [
+                642,
+                948,
+                656,
+                966
+              ],
+              "description": "narrow tall loop/curved top of second-row descending construction; not selected rounded head"
+            },
+            "positive_evidence": "Second row narrow curved top continues downward across a short lateral stroke near native y969 and beyond query bottom; separate from first-row descending return by visible paper.",
+            "junctions": [
+              {
+                "native_region": [
+                  638,
+                  964,
+                  658,
+                  974
+                ],
+                "admissible_continuations": [
+                  "downward curved stem",
+                  "lateral stroke toward adjacent angular construction"
+                ],
+                "status": "lateral joining versus crossing unresolved; do not infer a junction from connected appearance"
+              }
+            ],
+            "terminal_or_return": {
+              "status": "UNKNOWN",
+              "reason": "continues beyond queried region; no certified terminal"
+            }
+          },
+          {
+            "id": "A-T3-uncertain-curvature",
+            "order": "after T1, relative to T2 UNKNOWN if counted as curved",
+            "first_query_ink_native_region": [
+              620,
+              958,
+              635,
+              978
+            ],
+            "whole_visible_route_native": [
+              [
+                629,
+                958
+              ],
+              [
+                621,
+                972
+              ],
+              [
+                632,
+                974
+              ],
+              [
+                635,
+                967
+              ]
+            ],
+            "possible_upper_owners": [
+              "A-angular-neighbor",
+              "UNKNOWN"
+            ],
+            "owner_status": "UNKNOWN",
+            "positive_evidence": "Angular second-row construction with short rounded/bent foot enters query; retained because curved-track boundary is uncertain. It has no visible route to selected first-row bowl.",
+            "junctions": [
+              {
+                "native_region": [
+                  631,
+                  969,
+                  643,
+                  978
+                ],
+                "status": "paper clearance toward neighboring lateral bar insufficient for a complete construction partition; UNKNOWN"
+              }
+            ]
+          }
+        ],
+        "track_order_conclusion": "T1 positively first by y; T2 and uncertain-curvature angular neighbor retained without forcing their relative order.",
+        "local_partition": {
+          "selected_visible_trajectory": "separated from nearest left open-lobed construction and right tall-stem lower-bowl construction by positive paper corridors; independent first-row route",
+          "native_corridor_regions": [
+            [
+              617,
+              921,
+              629,
+              942
+            ],
+            [
+              648,
+              934,
+              652,
+              950
+            ],
+            [
+              623,
+              954,
+              640,
+              958
+            ]
+          ],
+          "corridor_precision": "approximate regions describing visible paper, not masks; thin lower corridor narrows near second-row top",
+          "adjacent_row": "T2 and T3 remain independent observations; no ownership transferred by proximity",
+          "status": "selected queried portion owner certified; full construction partition UNKNOWN",
+          "blocker": "Lower return closure/terminal distinction and complete second-row lateral junction partition not resolved at original view. No arbitrary smooth-stem cutoff used."
+        },
+        "independent_feature_graph": {
+          "nodes": [
+            {
+              "id": "H1",
+              "kind": "rounded nearclosed bowl",
+              "native_region": [
+                631,
+                920,
+                647,
+                937
+              ]
+            },
+            {
+              "id": "R1",
+              "kind": "rounded lower return region",
+              "native_region": [
+                621,
+                944,
+                631,
+                954
+              ]
+            },
+            {
+              "id": "H2",
+              "kind": "narrow curved second-row top",
+              "native_region": [
+                642,
+                948,
+                656,
+                966
+              ]
+            },
+            {
+              "id": "J2",
+              "kind": "unresolved lateral crossing/join",
+              "native_region": [
+                638,
+                964,
+                658,
+                974
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "from": "H1",
+              "to": "R1",
+              "kind": "uninterrupted descending smooth curve; owner H1"
+            },
+            {
+              "from": "H2",
+              "to": "J2",
+              "kind": "visible narrow descending trajectory; alternate lateral relation UNKNOWN"
+            }
+          ],
+          "unknown_features": [
+            "H1 precise nearclosure versus closure",
+            "R1 rejoin versus externally cleared terminal",
+            "J2 crossing versus junction",
+            "full unit separators/mark ownership"
+          ]
+        },
+        "containing_word": {
+          "attempted": false,
+          "status": "not certified",
+          "reason": "Optional expansion declined because complete construction/mark partition and return closure are not certified; no counts inferred from boxes."
+        },
+        "full_unit_status": "UNKNOWN"
+      }
+    },
+    "held_AI_B": {
+      "original_full_record_sha256": "01a70c32ee9c445cbef24ca8b1b3dc0ac23b6cc25f047f5e39121e8c64c90891",
+      "published_field_list": [
+        "schema",
+        "coordinates",
+        "row_order",
+        "earlier_candidate_ledger",
+        "selected_anchor",
+        "query",
+        "query_tracks",
+        "query_enumeration_limits",
+        "local_partition",
+        "independent_feature_graph",
+        "optional_containing_word",
+        "unknowns",
+        "conclusion"
+      ],
+      "scientific_record": {
+        "schema": "held246-independent-wholetrajectory-observation-v1",
+        "coordinates": {
+          "frame": "native NONE",
+          "focal_to_native": [
+            432,
+            883
+          ],
+          "wider_to_native": [
+            432,
+            0
+          ],
+          "precision": "Source-observed integer locator rectangles and approximate trajectory regions; not exact pixel segmentation. Bounding edges carry about 2-3 pixel visual uncertainty."
+        },
+        "row_order": {
+          "status": "AVAILABLE",
+          "evidence": "Four horizontally ordered handwriting rows in focal window; first row lies approximately y903-953. No complete handwriting head above that row in the wider view with anchor wholly in focal window."
+        },
+        "earlier_candidate_ledger": [
+          {
+            "region_native": [
+              432,
+              910,
+              442,
+              949
+            ],
+            "status": "REJECT",
+            "reason": "Left-edge clipped curved construction; no complete head wholly inside focal window."
+          },
+          {
+            "region_native": [
+              444,
+              901,
+              459,
+              931
+            ],
+            "status": "REJECT",
+            "reason": "Open upper hook leading into lower rounded lobe; taller connected segment establishes lobe below its top, not required complete head."
+          },
+          {
+            "region_native": [
+              477,
+              898,
+              495,
+              931
+            ],
+            "status": "REJECT",
+            "reason": "Tall slanted/barred construction, no closed or nearclosed head bowl."
+          },
+          {
+            "region_native": [
+              492,
+              897,
+              511,
+              934
+            ],
+            "status": "REJECT",
+            "reason": "Tall ascending open construction; no qualifying complete rounded head."
+          },
+          {
+            "region_native": [
+              509,
+              905,
+              529,
+              934
+            ],
+            "status": "REJECT",
+            "reason": "Rounded lower lobe beneath attached taller ascending stem."
+          },
+          {
+            "region_native": [
+              527,
+              916,
+              544,
+              935
+            ],
+            "status": "REJECT",
+            "reason": "Short angled/barred construction, no complete head bowl."
+          },
+          {
+            "region_native": [
+              541,
+              916,
+              562,
+              937
+            ],
+            "status": "REJECT",
+            "reason": "Open curved construction, no closed/nearclosed head with initial lower-right descender."
+          },
+          {
+            "region_native": [
+              589,
+              903,
+              613,
+              936
+            ],
+            "status": "REJECT",
+            "reason": "Tall ascending open arch construction; no required bowl."
+          },
+          {
+            "region_native": [
+              611,
+              920,
+              626,
+              938
+            ],
+            "status": "REJECT",
+            "reason": "Open paired curved construction, no closed/nearclosed head."
+          }
+        ],
+        "selected_anchor": {
+          "id": "B-upper-1",
+          "head_bowl_bbox_native": [
+            626,
+            920,
+            644,
+            938
+          ],
+          "anchor_locator_native": [
+            626,
+            920,
+            644,
+            938
+          ],
+          "initial_descender_region_native": [
+            632,
+            929,
+            644,
+            945
+          ],
+          "status": "FIRST_COMPLETE_DOMAIN_MATCH",
+          "evidence": "Small rounded nearclosed upper bowl with paper interior; right/lower-right rim continues into downward-left curve. No taller connected ascender makes this bowl a lower lobe. Earlier constructions are outside frozen physical domain for the reasons in ledger. Selection uses upper head only."
+        },
+        "query": {
+          "head_bowl_only_bbox_native": [
+            626,
+            920,
+            644,
+            938
+          ],
+          "formula": "[max(432,x0-12),y1,min(1690,x1+12),min(1105,y1+45)]",
+          "bbox_native": [
+            614,
+            938,
+            656,
+            983
+          ],
+          "meaning": "Coordinate query, not a curve or stem segmentation boundary."
+        },
+        "query_tracks": [
+          {
+            "id": "B-track-1",
+            "order": 1,
+            "first_ink_region_native": [
+              632,
+              938,
+              642,
+              942
+            ],
+            "whole_trajectory_native_regions": [
+              [
+                632,
+                938,
+                642,
+                942
+              ],
+              [
+                626,
+                942,
+                638,
+                949
+              ],
+              [
+                619,
+                946,
+                633,
+                954
+              ],
+              [
+                630,
+                930,
+                644,
+                940
+              ],
+              [
+                626,
+                920,
+                644,
+                938
+              ]
+            ],
+            "ordered_path_description": "From top query intersection follow smooth descending curve downward-left into rounded hook/end region; reverse it upward-right to lower-right head rim, then around the complete bowl. The smooth bend is one trajectory, not an artificial boundary.",
+            "possible_upper_owners": [
+              "B-upper-1"
+            ],
+            "owner_status": "CERTIFIED_SELECTED_ANCHOR_VISIBLE_PORTION",
+            "positive_evidence": "Continuous dark handwriting route between query top crossing, descending bend, and selected bowl right rim. Descending bend has exterior paper and remains above distinct next-row constructions. No intersecting competing handwriting route along this path.",
+            "junctions": [
+              {
+                "region_native": [
+                  636,
+                  930,
+                  644,
+                  940
+                ],
+                "kind": "bowl-rim and descender contact",
+                "continuations": [
+                  "around either direction of the same bowl",
+                  "downward-left same trajectory"
+                ],
+                "owners_reached": [
+                  "B-upper-1"
+                ],
+                "unknown_alternative": false
+              }
+            ],
+            "terminal_region_native": [
+              619,
+              946,
+              636,
+              955
+            ],
+            "terminal_evidence": "Hook lies within a surrounding paper clearance above next-row ink; no visible outbound route to a different anchor. Exact tip pixel is not required.",
+            "terminal_exact_pixel": "UNKNOWN",
+            "lower_hook_internal_closure": "UNKNOWN: cannot certify a separate enclosed lower loop at native view."
+          },
+          {
+            "id": "B-track-2",
+            "order": 2,
+            "first_ink_region_native": [
+              642,
+              948,
+              655,
+              958
+            ],
+            "whole_trajectory_native_regions": [
+              [
+                642,
+                948,
+                655,
+                958
+              ],
+              [
+                637,
+                960,
+                653,
+                972
+              ],
+              [
+                639,
+                970,
+                653,
+                989
+              ]
+            ],
+            "ordered_path_description": "Next-row tall narrow curved construction rises above its row, curls at upper extremity, descends through the query and below its bottom; retain whole visible route below query rather than stop at y983.",
+            "possible_upper_owners": [
+              "B-nextrow-tall-anchor",
+              "UNKNOWN"
+            ],
+            "owner_status": "UNKNOWN",
+            "positive_evidence": "Separate upper curling route in next row, with visible paper between it and selected first-row descending hook. It has slanted cross-stroke/contact in approximately [632,962,655,976].",
+            "junctions": [
+              {
+                "region_native": [
+                  632,
+                  962,
+                  655,
+                  976
+                ],
+                "kind": "crossbar/neighbor contact not resolvable with certainty",
+                "continuations": [
+                  "tall narrow route upward to its own curl",
+                  "leftward short construction in same row"
+                ],
+                "owners_reached": [
+                  "B-nextrow-tall-anchor",
+                  "B-nextrow-short-anchor"
+                ],
+                "unknown_alternative": true
+              }
+            ],
+            "blocker": "Native view does not securely separate all crossbar/neighbor continuations; preserve UNKNOWN rather than use proximity or connected component."
+          },
+          {
+            "id": "B-track-3",
+            "order": 3,
+            "first_ink_region_native": [
+              614,
+              959,
+              635,
+              970
+            ],
+            "whole_trajectory_native_regions": [
+              [
+                614,
+                959,
+                635,
+                970
+              ],
+              [
+                617,
+                969,
+                639,
+                978
+              ]
+            ],
+            "ordered_path_description": "Short next-row curved/open construction enters left side of query, bends through row body and has rightward/bottom stroke near tall construction.",
+            "possible_upper_owners": [
+              "B-nextrow-short-anchor",
+              "B-nextrow-tall-anchor",
+              "UNKNOWN"
+            ],
+            "owner_status": "UNKNOWN",
+            "positive_evidence": "Positively visible short ink body in query left half at next-row height; distinct from first-row descending curve across intervening paper.",
+            "junctions": [
+              {
+                "region_native": [
+                  632,
+                  962,
+                  655,
+                  976
+                ],
+                "kind": "same unresolved next-row contact",
+                "continuations": [
+                  "short row-body route",
+                  "tall neighboring route via crossbar/contact"
+                ],
+                "unknown_alternative": true
+              }
+            ],
+            "blocker": "Continuation/contact topology inside next-row cluster is uncertain."
+          }
+        ],
+        "query_enumeration_limits": {
+          "status": "VISUAL_ENUMERATION_WITH_UNCERTAINTY",
+          "track_2_vs_3_order": "Tall upper curl precedes short row-body ink in y; uncertain exact first ink coordinates retained as regions. Their lower contact may mean alternative routes through one physical junction rather than fully separable components.",
+          "boundary_residuals": "Small right-boundary ink around x654-656 near next-row crossbar is retained in track-2/3 junction region, not discarded. No additional separate curved trajectory positively identified.",
+          "first_track_status": "AVAILABLE: selected descending path intersects y938, before lower-row tracks near y948 and y959."
+        },
+        "local_partition": {
+          "selected_visible_trajectory": "CERTIFIED_ISOLATED_FROM_NEAREST_OTHER_ANCHORS",
+          "positive_corridors": [
+            {
+              "region_native": [
+                617,
+                954,
+                640,
+                959
+              ],
+              "evidence": "Paper corridor below selected descending hook and above next-row short/tall ink."
+            },
+            {
+              "region_native": [
+                644,
+                938,
+                650,
+                947
+              ],
+              "evidence": "Paper to right of selected descending portion, below neighboring first-row bowl."
+            },
+            {
+              "region_native": [
+                611,
+                939,
+                619,
+                950
+              ],
+              "evidence": "Paper to left of selected lower hook/curve."
+            }
+          ],
+          "nearest_other_anchors": [
+            {
+              "id": "B-right-row1",
+              "region_native": [
+                644,
+                908,
+                670,
+                937
+              ],
+              "evidence": "Adjacent upper construction has higher stem and body to right; lower edge sits above selected descending trajectory query portion."
+            },
+            {
+              "id": "B-nextrow-tall-anchor",
+              "region_native": [
+                637,
+                948,
+                655,
+                989
+              ],
+              "evidence": "Tall curled construction in next row."
+            },
+            {
+              "id": "B-nextrow-short-anchor",
+              "region_native": [
+                613,
+                959,
+                639,
+                978
+              ],
+              "evidence": "Short open row-body construction."
+            }
+          ],
+          "full_selected_physical_unit_status": "LOCAL_BOWL_PLUS_DESCENDING_TRAJECTORY_OBSERVED; full construction completeness remains UNKNOWN for lower hook internal closure and exact bowl/neighbor clearance at close upper rims.",
+          "full_word_status": "NOT_CERTIFIED",
+          "reason": "No full containing-word expansion attempted; query-level ownership and local selected trajectory do not certify all marks/separators of a word."
+        },
+        "independent_feature_graph": {
+          "nodes": [
+            {
+              "id": "head",
+              "kind": "rounded nearclosed bowl",
+              "region_native": [
+                626,
+                920,
+                644,
+                938
+              ],
+              "interior_paper": true,
+              "exact_closure": "nearclosed observed; exact closure UNKNOWN"
+            },
+            {
+              "id": "rim_contact",
+              "kind": "visible bowl/descender junction",
+              "region_native": [
+                636,
+                930,
+                644,
+                940
+              ]
+            },
+            {
+              "id": "descending_curve",
+              "kind": "uninterrupted smooth downward-left curve",
+              "region_native": [
+                624,
+                936,
+                642,
+                951
+              ]
+            },
+            {
+              "id": "lower_end",
+              "kind": "rounded hook terminal region",
+              "region_native": [
+                619,
+                946,
+                636,
+                955
+              ],
+              "external_clearance": true,
+              "separate_loop_closure": "UNKNOWN"
+            }
+          ],
+          "edges": [
+            [
+              "head",
+              "rim_contact"
+            ],
+            [
+              "rim_contact",
+              "descending_curve"
+            ],
+            [
+              "descending_curve",
+              "lower_end"
+            ]
+          ],
+          "no_new_class_or_value": true
+        },
+        "optional_containing_word": {
+          "attempted": false,
+          "fullunit_status": "UNKNOWN"
+        },
+        "unknowns": [
+          "Exact head-rim closure and close upper-rim clearance are not pixel-certified.",
+          "Lower hook internal loop closure is unknown.",
+          "Next-row tall/short construction crossbar-contact continuation unresolved.",
+          "All glyph/word marks and complete containing-word partition not certified."
+        ],
+        "conclusion": {
+          "selected_native_anchor": [
+            626,
+            920,
+            644,
+            938
+          ],
+          "actual_first_track": "B-track-1",
+          "actual_first_track_possible_owners": [
+            "B-upper-1"
+          ],
+          "local_owner_status": "CERTIFIED_SELECTED_ANCHOR_VISIBLE_PORTION",
+          "fullunit_status": "UNKNOWN",
+          "physical_blockers_for_fullunit": [
+            "Lower hook internal closure not certified",
+            "Full construction marks/separators and word context not exhaustively partitioned"
+          ],
+          "no_expected_result_comparison": true
+        }
+      }
+    }
+  }
+}

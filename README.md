@@ -93,3 +93,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## G08 owner study — 13 October 2026
 
 [Recorded primary and separate supplementary source judgments, with endpoint limits](research-updates/2026-10-13-g08-owner-study.md).
+
+## Whole-trajectory owner study — 13 October 2026
+
+[Bounded held support for visible-path ownership and local ink partition, with complete-unit limits](research-updates/2026-10-13-whole-trajectory-owner/README.md).
