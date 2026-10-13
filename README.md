@@ -97,3 +97,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Whole-trajectory owner study — 13 October 2026
 
 [Bounded held support for visible-path ownership and local ink partition, with complete-unit limits](research-updates/2026-10-13-whole-trajectory-owner/README.md).
+
+## Full-unit class bridge — 13 October 2026
+
+[Two complete external constructions, bounded class correspondences and the unresolved value-blinded class bridge](research-updates/2026-10-13-full-unit-class-bridge/README.md).
