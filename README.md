@@ -85,3 +85,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 [Card330 cross-card feature control](research-updates/2026-10-11-card330-cross-card-feature-control.md) explains the source evidence, remaining masks and new tentative fragments relative to the screen note. Its frozen G05/G19 criteria failed a canonical control, so the disputed target remains masked; no additional plaintext or key change is accepted.
 
 [Card330 geometric annotation](research-updates/2026-10-11-card330-stroke-ownership.md) records two independent pixel-only proposals for all seven saved segmentation references. Approximate envelope agreement did not establish stroke ownership or physical positions; all thirteen masks remain, and this annotation path stops with a documented limit.
+
+## Local corpus update — 13 October 2026
+
+[Four qualified research readers, selected scientific text evidence and frozen reference code](research-updates/2026-10-13-local-corpus/README.md).

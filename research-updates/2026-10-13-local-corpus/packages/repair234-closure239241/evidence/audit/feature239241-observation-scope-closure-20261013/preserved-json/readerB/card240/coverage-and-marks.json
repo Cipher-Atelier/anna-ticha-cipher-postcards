@@ -1,0 +1,205 @@
+{
+  "card": 240,
+  "full_faces": [
+    {
+      "face": "picture",
+      "bbox_native": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "review": "full original and four edges"
+    },
+    {
+      "face": "address",
+      "bbox_native": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "review": "full original and four edges"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "p-r1",
+      "frame": "ROTATE_90_CCW",
+      "bbox": [
+        40,
+        1530,
+        1130,
+        1575
+      ],
+      "review": "full writing row with all spaces and end punctuation",
+      "interference": "paper texture, image ornaments above, multiple dark smudges especially middle-right; no borrowed printed contours"
+    },
+    {
+      "region_id": "p-r2",
+      "frame": "ROTATE_90_CCW",
+      "bbox": [
+        40,
+        1575,
+        1130,
+        1620
+      ],
+      "review": "full writing row with all spaces and end punctuation",
+      "interference": "paper texture, image ornaments above, multiple dark smudges especially middle-right; no borrowed printed contours"
+    },
+    {
+      "region_id": "p-r3",
+      "frame": "ROTATE_90_CCW",
+      "bbox": [
+        40,
+        1620,
+        1130,
+        1660
+      ],
+      "review": "full writing row with all spaces and end punctuation",
+      "interference": "paper texture, image ornaments above, multiple dark smudges especially middle-right; no borrowed printed contours"
+    },
+    {
+      "region_id": "p-r4",
+      "frame": "ROTATE_90_CCW",
+      "bbox": [
+        40,
+        1660,
+        1130,
+        1700
+      ],
+      "review": "full writing row with all spaces and end punctuation",
+      "interference": "paper texture, image ornaments above, multiple dark smudges especially middle-right; no borrowed printed contours"
+    },
+    {
+      "region_id": "p-r5",
+      "frame": "ROTATE_90_CCW",
+      "bbox": [
+        40,
+        1700,
+        1130,
+        1740
+      ],
+      "review": "full writing row with all spaces and end punctuation",
+      "interference": "paper texture, image ornaments above, multiple dark smudges especially middle-right; no borrowed printed contours"
+    }
+  ],
+  "ordinary_objects": [
+    {
+      "face": "picture",
+      "kind": "illustrated photograph with decorative floral outline and clovers",
+      "bbox_native": [
+        270,
+        55,
+        1710,
+        1120
+      ],
+      "description": "seated couple, curved floral line border; entire non-writing region and all borders viewed"
+    },
+    {
+      "face": "picture",
+      "kind": "red printed verse",
+      "bbox_native": [
+        470,
+        340,
+        575,
+        755
+      ],
+      "literal": "V mém srdci pouze jedno přání: / by láska naše žhoucí, vřelá, / nám nikdy v prsou nevymřela, / a blažila nás do skonání!",
+      "uncertainty": "ordinary print transcription approximate; no cipher inference"
+    },
+    {
+      "face": "picture",
+      "kind": "handwritten date",
+      "bbox_native": [
+        470,
+        755,
+        535,
+        940
+      ],
+      "literal": "29 III.1903."
+    },
+    {
+      "face": "address",
+      "kind": "ordinary printed heading and guides",
+      "bbox_native": [
+        620,
+        155,
+        1160,
+        335
+      ],
+      "literal": "Dopisnice."
+    },
+    {
+      "face": "address",
+      "kind": "ordinary handwritten address",
+      "bbox_native": [
+        350,
+        530,
+        1440,
+        1010
+      ],
+      "literal": "Velectěná Slečna / slečna Anna Tichá / učitelka v / Žirovnici / u Počátek.",
+      "uncertainty": "cursive accents approximate"
+    },
+    {
+      "face": "address",
+      "kind": "stamp and black circular postmarks",
+      "bbox_native": [
+        330,
+        90,
+        1680,
+        530
+      ],
+      "description": "left circular cancellation above address and second around blue green perforated stamp"
+    },
+    {
+      "face": "address",
+      "kind": "printer emblem and identifier",
+      "bbox_native": [
+        85,
+        915,
+        340,
+        1070
+      ],
+      "literal": "S. 73",
+      "description": "cloverlike emblem with small interior capitals"
+    },
+    {
+      "face": "both",
+      "kind": "translucent gray circular watermark",
+      "description": "overlay crossed scene and written/printed ordinary content; not handwriting"
+    }
+  ],
+  "marks": [
+    {
+      "id": "B240-underlines",
+      "frame": "ROTATE_90_CCW",
+      "boxes": [
+        [
+          715,
+          1650,
+          825,
+          1665
+        ],
+        [
+          310,
+          1690,
+          410,
+          1705
+        ]
+      ],
+      "shape": "two horizontal/slightly curved underlines",
+      "association": "row3 group5 and row4 group3 span-level only"
+    },
+    {
+      "id": "B240-punctuation-and-accents",
+      "description": "commas, small dots and detached accents retained within context spans; no body assignment"
+    },
+    {
+      "id": "B240-smudges",
+      "description": "several dense dark rubbed areas crossing rows; finer components unresolved"
+    }
+  ],
+  "residuals": "All observed writing spans preserved; individual partitions unresolved."
+}

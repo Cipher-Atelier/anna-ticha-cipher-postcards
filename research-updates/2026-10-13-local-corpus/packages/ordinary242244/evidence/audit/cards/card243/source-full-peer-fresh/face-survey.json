@@ -1,0 +1,489 @@
+{
+  "card": 243,
+  "source_first_procedural": true,
+  "key_projection_performed": false,
+  "faces": [
+    {
+      "face": "picture",
+      "source": {
+        "sha256": "32fea6a8e867c1744aaf104f71c0ac0b3c1d8276ca6d73b6ff968475b2f3385a",
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "bytes": 1401675,
+        "source_url": "https://api.hcportal.eu/media/4746/pc_hcp_243_pic.JPG"
+      },
+      "orientation": "NONE",
+      "oriented_dimensions": [
+        1785,
+        1175
+      ],
+      "cipher_present": true,
+      "cipher_regions": [
+        {
+          "region_id": "fp243-picture-main-and-tail",
+          "role": "upper and left margin handwritten cipher block continuing into progressively shorter right-tail lines in CW90 pose",
+          "orientation": "CW90",
+          "oriented_dimensions": [
+            1175,
+            1785
+          ],
+          "bbox_xyxy": [
+            30,
+            63,
+            845,
+            1085
+          ],
+          "bbox_coordinate_frame": "NONE",
+          "oriented_bbox_xyxy": [
+            90,
+            30,
+            1112,
+            845
+          ],
+          "oriented_bbox_coordinate_frame": "CW90",
+          "observed_row_ids": [
+            "fp243-r01",
+            "fp243-r02",
+            "fp243-r03",
+            "fp243-r04",
+            "fp243-r05",
+            "fp243-r06",
+            "fp243-r07",
+            "fp243-r08",
+            "fp243-r09",
+            "fp243-r10",
+            "fp243-r11",
+            "fp243-r12",
+            "fp243-r13",
+            "fp243-r14",
+            "fp243-r15",
+            "fp243-r16",
+            "fp243-r17",
+            "fp243-r18",
+            "fp243-r19"
+          ],
+          "ordinary_exclusions": "Large DOLCE inscription and lower handwritten date observed separately. Region is enclosing context, not a pixel segmentation; photo and pale overlay lie behind portions."
+        }
+      ],
+      "edge_survey": {
+        "top": "Native top white border and interior edge inspected across complete width. Cipher endpoints approach upper edge at left/upper block; date at native x846-894. No separate unseen strip assumed.",
+        "right": "Native right photographic edge and border inspected: scene/grain and edge marks, no separate cipher or ordinary text confidently visible.",
+        "bottom": "Native bottom border and interior edge inspected. Left-side cipher starts/row heads are close to inner border; photo/piano lower area and white margin contain no extra text confidently recovered.",
+        "left": "Native left card border and full margin inspected. Main cipher columns occupy near-left region; no hidden additional face inferred beyond exact source."
+      },
+      "ordinary_coverage": [
+        {
+          "coverage_id": "fp243-picture-ordinary-01",
+          "diplomatic_record_index": 1,
+          "bbox_xyxy": [
+            214,
+            379,
+            462,
+            445
+          ],
+          "coordinate_frame": "CW90",
+          "recorded_kind": "direct_ordinary_handwriting",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-picture-ordinary-02",
+          "diplomatic_record_index": 2,
+          "bbox_xyxy": [
+            925,
+            846,
+            1105,
+            894
+          ],
+          "coordinate_frame": "CW90",
+          "recorded_kind": "direct_ordinary_handwritten_date",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-picture-ordinary-03",
+          "diplomatic_record_index": 3,
+          "bbox_xyxy": [
+            65,
+            280,
+            1701,
+            1111
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_graphic",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-picture-ordinary-04",
+          "diplomatic_record_index": 4,
+          "bbox_xyxy": [
+            348,
+            56,
+            1396,
+            1110
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "visible_graphic_overlay",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        }
+      ],
+      "uncertainty": "Enclosing region contains overlapping illustration and pale emblem. Body windows approximate, class proposals provisional; source-visible joined local residuals retained."
+    },
+    {
+      "face": "address",
+      "source": {
+        "sha256": "dead8ad7fcbe19dad36179cbeb83ae34b91be07470b4720ceaae35890882a4ea",
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "bytes": 1131525,
+        "source_url": "https://api.hcportal.eu/media/4747/pc_hcp_243_adr.JPG"
+      },
+      "orientation": "NONE",
+      "oriented_dimensions": [
+        1785,
+        1175
+      ],
+      "cipher_present": false,
+      "cipher_regions": [],
+      "edge_survey": {
+        "top": "Whole native upper border inspected: multilingual heading, circular cancellation above/right of it, stamp/cancel to upper right; no cipher-like block identified.",
+        "right": "Whole right edge and blank address margin inspected: no additional handwriting or cipher recovered.",
+        "bottom": "Whole lower card/white border and blank region inspected: lowest ordinary address line above it, no cipher recovered.",
+        "left": "Whole left edge inspected: vertical small printed imprint, heading and dotted rules; no cipher identified."
+      },
+      "ordinary_coverage": [
+        {
+          "coverage_id": "fp243-address-ordinary-01",
+          "diplomatic_record_index": 1,
+          "bbox_xyxy": [
+            215,
+            86,
+            850,
+            155
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-02",
+          "diplomatic_record_index": 2,
+          "bbox_xyxy": [
+            193,
+            150,
+            911,
+            194
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-03",
+          "diplomatic_record_index": 3,
+          "bbox_xyxy": [
+            132,
+            202,
+            935,
+            248
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-04",
+          "diplomatic_record_index": 4,
+          "bbox_xyxy": [
+            130,
+            248,
+            953,
+            293
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-05",
+          "diplomatic_record_index": 5,
+          "bbox_xyxy": [
+            132,
+            296,
+            972,
+            344
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-06",
+          "diplomatic_record_index": 6,
+          "bbox_xyxy": [
+            130,
+            345,
+            981,
+            391
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-07",
+          "diplomatic_record_index": 7,
+          "bbox_xyxy": [
+            451,
+            491,
+            1024,
+            585
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_ordinary_handwriting",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-08",
+          "diplomatic_record_index": 8,
+          "bbox_xyxy": [
+            558,
+            598,
+            1325,
+            707
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_ordinary_handwriting",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-09",
+          "diplomatic_record_index": 9,
+          "bbox_xyxy": [
+            900,
+            699,
+            1150,
+            759
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_ordinary_handwriting",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-10",
+          "diplomatic_record_index": 10,
+          "bbox_xyxy": [
+            895,
+            744,
+            1372,
+            846
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_ordinary_handwriting",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-11",
+          "diplomatic_record_index": 11,
+          "bbox_xyxy": [
+            934,
+            856,
+            1280,
+            967
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_ordinary_handwriting",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-12",
+          "diplomatic_record_index": 12,
+          "bbox_xyxy": [
+            99,
+            607,
+            137,
+            841
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-13",
+          "diplomatic_record_index": 13,
+          "bbox_xyxy": [
+            1280,
+            135,
+            1511,
+            398
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-14",
+          "diplomatic_record_index": 14,
+          "bbox_xyxy": [
+            1296,
+            145,
+            1337,
+            188
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-15",
+          "diplomatic_record_index": 15,
+          "bbox_xyxy": [
+            1461,
+            145,
+            1500,
+            187
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-16",
+          "diplomatic_record_index": 16,
+          "bbox_xyxy": [
+            1300,
+            349,
+            1343,
+            393
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-17",
+          "diplomatic_record_index": 17,
+          "bbox_xyxy": [
+            1461,
+            349,
+            1505,
+            394
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_text",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-18",
+          "diplomatic_record_index": 18,
+          "bbox_xyxy": [
+            696,
+            52,
+            1074,
+            403
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_postal_cancellation",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-19",
+          "diplomatic_record_index": 19,
+          "bbox_xyxy": [
+            1190,
+            94,
+            1557,
+            472
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_postal_cancellation",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-20",
+          "diplomatic_record_index": 20,
+          "bbox_xyxy": [
+            1277,
+            124,
+            1515,
+            402
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_graphic",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-21",
+          "diplomatic_record_index": 21,
+          "bbox_xyxy": [
+            136,
+            157,
+            187,
+            190
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_graphic",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-22",
+          "diplomatic_record_index": 22,
+          "bbox_xyxy": [
+            891,
+            160,
+            945,
+            190
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_graphic",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-23",
+          "diplomatic_record_index": 23,
+          "bbox_xyxy": [
+            363,
+            53,
+            1397,
+            1106
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "visible_graphic_overlay",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        },
+        {
+          "coverage_id": "fp243-address-ordinary-24",
+          "diplomatic_record_index": 24,
+          "bbox_xyxy": [
+            164,
+            569,
+            1607,
+            958
+          ],
+          "coordinate_frame": "NONE",
+          "recorded_kind": "direct_printed_graphic",
+          "coverage_basis": "one-based direct record window reference; each record referenced once"
+        }
+      ],
+      "uncertainty": "Ordinary handwriting and cancellations contain unclear letter/date strokes. Absence of cipher is a direct whole-face survey observation, not assumed from picture face."
+    }
+  ],
+  "geometry_provenance": {
+    "native_dimensions": [
+      1785,
+      1175
+    ],
+    "CW90_dimensions": [
+      1175,
+      1785
+    ],
+    "native_to_CW90": "(x,y) → (1175-y,x); xyxy windows transform via corners",
+    "CW90_box_to_native": "[l,t,r,b] → [t,1175-r,b,1175-l]",
+    "viewing_derivative_only": true,
+    "body_locator_precision": "Approximate manually selected inspection windows, shared vertical context and local horizontal displacement possible."
+  },
+  "physical_body_count": null,
+  "all_faces_and_all_edges_actually_surveyed": true
+}

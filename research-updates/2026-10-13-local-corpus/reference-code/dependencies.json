@@ -1,0 +1,137 @@
+{
+  "files": [
+    {
+      "filename": "run_cases.py",
+      "original_source_sha256": "122b9fd756ccf3b57abc6f137b0563c28f1a97ed2affd0b7c2f5e9cfb3930685",
+      "published_sha256": "122b9fd756ccf3b57abc6f137b0563c28f1a97ed2affd0b7c2f5e9cfb3930685",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "argparse",
+        "collections",
+        "hashlib",
+        "importlib.util",
+        "json",
+        "pathlib",
+        "shared_replay",
+        "source_adapters",
+        "source_preflight",
+        "sys",
+        "urllib.parse"
+      ]
+    },
+    {
+      "filename": "shared_replay.py",
+      "original_source_sha256": "80325d9fa04d8329e3fcccea53f99fa8027ddf2a2aa956c52a5e04d62dffccac",
+      "published_sha256": "80325d9fa04d8329e3fcccea53f99fa8027ddf2a2aa956c52a5e04d62dffccac",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "collections",
+        "csv",
+        "hashlib",
+        "io",
+        "json"
+      ]
+    },
+    {
+      "filename": "source_adapters.py",
+      "original_source_sha256": "105cc0e88d49c3ce7c29c7a998c0a5edff38c18276bf98c84fc266245fdb5644",
+      "published_sha256": "105cc0e88d49c3ce7c29c7a998c0a5edff38c18276bf98c84fc266245fdb5644",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "copy",
+        "json",
+        "pathlib"
+      ]
+    },
+    {
+      "filename": "source_preflight.py",
+      "original_source_sha256": "fb5dc8434c896d18d6d635b41f2f6c1353e0b47782425f164fc53a755b02975b",
+      "published_sha256": "fb5dc8434c896d18d6d635b41f2f6c1353e0b47782425f164fc53a755b02975b",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "shared_replay"
+      ]
+    },
+    {
+      "filename": "case_bindings.py",
+      "original_source_sha256": "da5d7dd0ed0abb360e092553fe41ab6520349944ab2bc2e0dcf804d459e8546a",
+      "published_sha256": "da5d7dd0ed0abb360e092553fe41ab6520349944ab2bc2e0dcf804d459e8546a",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "collect_catalogue",
+        "json",
+        "pathlib"
+      ]
+    },
+    {
+      "filename": "source_metadata_views.py",
+      "original_source_sha256": "97b0ce8905f22c37f05d06f0d18606951e6bc52337f7ff1aaedbccc7caeddd18",
+      "published_sha256": "97b0ce8905f22c37f05d06f0d18606951e6bc52337f7ff1aaedbccc7caeddd18",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "copy"
+      ]
+    },
+    {
+      "filename": "window_peer_packet.py",
+      "original_source_sha256": "3adbc874111731c84a88eecef9c0eb10d4a57bb337203e8de5f934e957b00a8e",
+      "published_sha256": "3adbc874111731c84a88eecef9c0eb10d4a57bb337203e8de5f934e957b00a8e",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "argparse",
+        "copy",
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "re",
+        "struct"
+      ]
+    },
+    {
+      "filename": "independent_case_check.py",
+      "original_source_sha256": "91b0f0653e0c8ca3608fdee05f22fc51f5260c4074d49b22ce7f05d79a36b06c",
+      "published_sha256": "91b0f0653e0c8ca3608fdee05f22fc51f5260c4074d49b22ce7f05d79a36b06c",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "argparse",
+        "collections",
+        "csv",
+        "hashlib",
+        "io",
+        "json",
+        "pathlib"
+      ]
+    },
+    {
+      "filename": "independent_case_check_uncertain252_v1.py",
+      "original_source_sha256": "8da5ecb6add0a074562ea92d672bc3e64e7f86d737d6639389b4269cfd2099c7",
+      "published_sha256": "8da5ecb6add0a074562ea92d672bc3e64e7f86d737d6639389b4269cfd2099c7",
+      "transform": "none; byte identical",
+      "static_imports": [
+        "argparse",
+        "collections",
+        "csv",
+        "hashlib",
+        "io",
+        "json",
+        "pathlib"
+      ]
+    }
+  ],
+  "qualification": "Frozen reference implementation, not a standalone complete scientific replay. No source images, key table or glyph atlas supplied. No original implementation imported or run during publication preparation.",
+  "missing_baseline_dependencies": [
+    "collect_catalogue.py",
+    "anna-corpus-local-20261012/replay_batch.py",
+    "anna-corpus-local-20261012/build_inventory.py",
+    "anna-card210-local-20261012/native210_replay.py",
+    "anna-card210-local-20261012/replay_card210.py",
+    "neutral atlas-class-only.json",
+    "external key.csv and glyph_atlas.json",
+    "original source images, context crops, full release/source paths and large streams excluded from this package"
+  ],
+  "baseline_paths": "Original code resolves sibling task directories and release-bound references. Those historical paths are preserved as relative strings, without invented replacements. stdlib imports are listed per file; local imports require separately supplied baseline files."
+}

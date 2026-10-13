@@ -1,0 +1,153 @@
+{
+  "created_utc": "2026-10-13T04:17:54.298117+00:00",
+  "original_sha256": "bfb9b827320d4b68e1d72b7ab92b2d2b9209eea0620ad2fc9249d70af4c03882",
+  "operations": [
+    {
+      "file": "picture-ccw90.png",
+      "operation": "PIL.Transpose.ROTATE_90",
+      "dimensions": [
+        1175,
+        1785
+      ],
+      "sha256": "aeed409800d948b3b7de55b70d26810c28f00ad5e8c1a4002fc66181ab895a3c"
+    },
+    {
+      "file": "writing-context.png",
+      "parent": "picture-ccw90.png",
+      "operation": "crop",
+      "crop_bbox": [
+        30,
+        1020,
+        1140,
+        1760
+      ],
+      "dimensions": [
+        1110,
+        740
+      ],
+      "sha256": "28a53942d65ef8284fe8b4a011545397dc9e0f0078eacaf7c8c36c8d8ea56308"
+    },
+    {
+      "file": "writing-upper.png",
+      "parent": "picture-ccw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        30,
+        1040,
+        1140,
+        1330
+      ],
+      "dimensions": [
+        2220,
+        580
+      ],
+      "sha256": "d56cc191ba49688efc809980bfbace6b25579442f10946459b413efde13a91d2"
+    },
+    {
+      "file": "writing-middle.png",
+      "parent": "picture-ccw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        30,
+        1310,
+        1140,
+        1540
+      ],
+      "dimensions": [
+        2220,
+        460
+      ],
+      "sha256": "1f19d7ecb2d3681b20469a5a212d5c83bf2f1536a014efd3f7dab6306cdf5196"
+    },
+    {
+      "file": "writing-lower.png",
+      "parent": "picture-ccw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        30,
+        1520,
+        1140,
+        1760
+      ],
+      "dimensions": [
+        2220,
+        480
+      ],
+      "sha256": "ff79951f1554d279f59b8ae375b3dc42399839440156a6835346ec4b32702c6a"
+    },
+    {
+      "file": "picture-cw90.png",
+      "operation": "PIL.Transpose.ROTATE_270",
+      "dimensions": [
+        1175,
+        1785
+      ],
+      "sha256": "689bd1c87d05063271a0a91db31f9e84d5d9676f0c5858ceccaa787d8de6d6a9"
+    },
+    {
+      "file": "upright-writing-context.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop",
+      "crop_bbox": [
+        30,
+        30,
+        1140,
+        770
+      ],
+      "dimensions": [
+        1110,
+        740
+      ],
+      "sha256": "a43fa1bbcebb11ed311d7231bbf6a1230d7cb0a04034ae166e3d2e40f8f2f131"
+    },
+    {
+      "file": "upright-writing-upper.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        30,
+        30,
+        1140,
+        305
+      ],
+      "dimensions": [
+        2220,
+        550
+      ],
+      "sha256": "0ea4448a0cca74779c04cd067a4aea3a2917818381c2ac99e9ddf8bc77f04e98"
+    },
+    {
+      "file": "upright-writing-middle.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        30,
+        280,
+        1140,
+        565
+      ],
+      "dimensions": [
+        2220,
+        570
+      ],
+      "sha256": "5cf6c119844d9f5579418b092454f1ae532c36303b75c07351887b93ba631d6a"
+    },
+    {
+      "file": "upright-writing-lower.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        30,
+        540,
+        1140,
+        770
+      ],
+      "dimensions": [
+        2220,
+        460
+      ],
+      "sha256": "8a306f7022ff6c1b41ffc94e199492554ca1ae1243f41591c04efea4fda87728"
+    }
+  ],
+  "upright_created_utc": "2026-10-13T04:18:21.895855+00:00"
+}

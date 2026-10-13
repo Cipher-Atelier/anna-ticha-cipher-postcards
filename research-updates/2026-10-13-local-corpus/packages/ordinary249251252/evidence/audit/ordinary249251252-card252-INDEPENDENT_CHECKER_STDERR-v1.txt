@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/independent_case_check.py", line 329, in <module>
+    print(json.dumps(check(args.case, args.release, args.release_sha, args.output, args.reproduction), ensure_ascii=False, indent=2))
+                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/independent_case_check.py", line 166, in check
+    assert unit['status'] in ('provisional_known_class', 'unresolved_shape', 'unresolved_span'), 'New status needs explicit check'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: New status needs explicit check
