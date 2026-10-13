@@ -26,7 +26,8 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install numerical fixture dependency
-        run: python3 -m pip install --only-binary=:all: numpy==2.2.6
+        run: |
+          python3 -m pip install --only-binary=:all: numpy==2.2.6
       - name: Run regressions and offline verification at the checked-out SHA
         env:
           CHECK_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
