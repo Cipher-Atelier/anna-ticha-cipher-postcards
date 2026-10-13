@@ -109,3 +109,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Class origin and new source — 13 October 2026
 
 [Unknown class-origin independence, a failed body-placement test and bounded new physical references](research-updates/2026-10-13-class-origin-and-new-source/README.md).
+
+## Key-foundation audit — 13 October 2026
+
+[Seven hypothetical legacy claims lack established independent letter foundations; a fresh rebuild test remains NOT RUN](research-updates/2026-10-13-key-foundation-audit/README.md).

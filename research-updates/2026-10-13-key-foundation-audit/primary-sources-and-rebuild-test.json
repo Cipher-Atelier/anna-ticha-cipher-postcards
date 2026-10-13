@@ -1,0 +1,730 @@
+{
+  "schema": "selected-primary-evidence-and-fresh-rebuild-proposal-public-v1",
+  "primary_audit_original_sha256": "7d3282e38665838247bed3eb7f8a8c2b400243c4b77a32e82cfad1e8c9efa524",
+  "primary_audit_selected_field_list": [
+    "schema",
+    "audit_date",
+    "scope",
+    "outcome",
+    "evidence_distinctions",
+    "alias_assessments",
+    "sources",
+    "retrieval_limits",
+    "remaining_unknowns"
+  ],
+  "primary_audit": {
+    "schema": "anna.published-primary-key-foundation-audit.v1",
+    "audit_date": "2026-10-13",
+    "scope": {
+      "aliases": [
+        "C14",
+        "C23",
+        "C21",
+        "C03",
+        "C12",
+        "C19",
+        "C24"
+      ],
+      "task": "Assess published primary-source support for independently established Anna glyph-to-letter assignments, without inspecting or emitting key values.",
+      "source_retrieval": "Bounded primary HTML/text and bibliography; no postcard pixels, new image captures, book downloads, private letters or model sessions.",
+      "independence_rule": "The project's article, model output, literal reading, synthetic controls, and restricted-input AI checks are provenance or internal evidence, not independent historical ground truth."
+    },
+    "outcome": {
+      "status": "no_external_key_or_known_plaintext_verified_in_bounded_audit",
+      "independent_human_anna_decipherment": "not established by retrieved primary sources",
+      "independent_anna_glyph_to_letter_key": "none verified",
+      "independently_known_anna_plaintext": "none verified",
+      "selected_assignments_supported_count": 0,
+      "global_unsolved_or_priority_claim": "not warranted",
+      "qualification": "Failure to locate a published solution is not proof that none exists. Official Tartu records were inaccessible; author-uploaded primary paper text was accessible. Seven opaque aliases have no independent published source alignment in this audit."
+    },
+    "evidence_distinctions": [
+      {
+        "type": "prior_undeciphered_status",
+        "finding": "S02 documents card441's catalogue status in a 2026 paper; it cannot prove current collection-wide unsolved status or priority.",
+        "sources": [
+          "S02"
+        ]
+      },
+      {
+        "type": "collection_description",
+        "finding": "S02 verifies an Anna catalogue example; the 263-card count/range is retained only as S01's preserved snapshot claim, not freshly confirmed in this audit.",
+        "sources": [
+          "S01",
+          "S02",
+          "S05"
+        ]
+      },
+      {
+        "type": "language_guess_or_model_sourcing",
+        "finding": "Czech catalogue metadata and a Czech literary training corpus support a language prior, not a letter assignment.",
+        "sources": [
+          "S01",
+          "S02",
+          "S05",
+          "S06"
+        ]
+      },
+      {
+        "type": "human_independent_key",
+        "finding": "No original sender key, editor's independently derived Anna key, or external human solver's glyph table was verified.",
+        "sources": [
+          "S02",
+          "S03",
+          "S04"
+        ]
+      },
+      {
+        "type": "independently_known_plaintext",
+        "finding": "No externally preserved postcard wording with documented source-position alignment was verified. Post-decoding concert notices are contextual evidence, not known plaintext.",
+        "sources": [
+          "S01",
+          "S07",
+          "S08"
+        ]
+      }
+    ],
+    "alias_assessments": [
+      {
+        "alias": "C14",
+        "independent_published_assignment_verified": false,
+        "external_value": "not retrieved or inferred",
+        "external_glyph_alignment": "not supplied by examined sources",
+        "disposition": "retain as project hypothesis; this audit neither validates nor disproves assignment",
+        "source_basis": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "remaining_requirement": "An independently sourced Anna key or provenanced plaintext paired with the relevant glyph class and source positions."
+      },
+      {
+        "alias": "C23",
+        "independent_published_assignment_verified": false,
+        "external_value": "not retrieved or inferred",
+        "external_glyph_alignment": "not supplied by examined sources",
+        "disposition": "retain as project hypothesis; this audit neither validates nor disproves assignment",
+        "source_basis": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "remaining_requirement": "An independently sourced Anna key or provenanced plaintext paired with the relevant glyph class and source positions."
+      },
+      {
+        "alias": "C21",
+        "independent_published_assignment_verified": false,
+        "external_value": "not retrieved or inferred",
+        "external_glyph_alignment": "not supplied by examined sources",
+        "disposition": "retain as project hypothesis; this audit neither validates nor disproves assignment",
+        "source_basis": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "remaining_requirement": "An independently sourced Anna key or provenanced plaintext paired with the relevant glyph class and source positions."
+      },
+      {
+        "alias": "C03",
+        "independent_published_assignment_verified": false,
+        "external_value": "not retrieved or inferred",
+        "external_glyph_alignment": "not supplied by examined sources",
+        "disposition": "retain as project hypothesis; this audit neither validates nor disproves assignment",
+        "source_basis": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "remaining_requirement": "An independently sourced Anna key or provenanced plaintext paired with the relevant glyph class and source positions."
+      },
+      {
+        "alias": "C12",
+        "independent_published_assignment_verified": false,
+        "external_value": "not retrieved or inferred",
+        "external_glyph_alignment": "not supplied by examined sources",
+        "disposition": "retain as project hypothesis; this audit neither validates nor disproves assignment",
+        "source_basis": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "remaining_requirement": "An independently sourced Anna key or provenanced plaintext paired with the relevant glyph class and source positions."
+      },
+      {
+        "alias": "C19",
+        "independent_published_assignment_verified": false,
+        "external_value": "not retrieved or inferred",
+        "external_glyph_alignment": "not supplied by examined sources",
+        "disposition": "retain as project hypothesis; this audit neither validates nor disproves assignment",
+        "source_basis": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "remaining_requirement": "An independently sourced Anna key or provenanced plaintext paired with the relevant glyph class and source positions."
+      },
+      {
+        "alias": "C24",
+        "independent_published_assignment_verified": false,
+        "external_value": "not retrieved or inferred",
+        "external_glyph_alignment": "not supplied by examined sources",
+        "disposition": "retain as project hypothesis; this audit neither validates nor disproves assignment",
+        "source_basis": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "remaining_requirement": "An independently sourced Anna key or provenanced plaintext paired with the relevant glyph class and source positions."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S01",
+        "title": "Reading the Anna Tichá cipher postcards",
+        "authors": [
+          "Maxim Egorov"
+        ],
+        "date": "2026-10-04T23:26:32Z (preparedUtc; not an independently verified publication date)",
+        "url": "https://maxim-egorov.dev/research/anna-ticha-postcards/",
+        "locator": "Developing and testing the key; Limits and downloadable evidence",
+        "access": "local export of already-published project article read; own project, not independent ground truth",
+        "paraphrase": "The key originated in Czech language-model optimization on card 198, then graphical/context refinements; a later variant followed card 440. Restricted-input transcription and linguistic reviews were AI-generated. The original development wrapper is missing. Synthetic controls do not establish historical plaintext accuracy.",
+        "supports": [
+          "project_method_provenance"
+        ],
+        "does_not_support": [
+          "independent_human_key",
+          "independently_known_anna_plaintext",
+          "any_selected_assignment_external_groundtruth"
+        ]
+      },
+      {
+        "id": "S02",
+        "title": "HCPortal: Ten Years of Development",
+        "authors": [
+          "Eugen Antal",
+          "Pavol Zajac"
+        ],
+        "date": "June 2026; public author-text upload 2026-06-25",
+        "venue": "Proceedings of the 9th International Conference on Historical Cryptology (HistoCrypt 2026)",
+        "official_url": "https://dspace.ut.ee/server/api/core/bitstreams/31718ebb-5a1e-4c4f-be45-2f8aa869034e/content#page=197",
+        "url": "https://www.researchgate.net/publication/408069792_HCPortal_Ten_Years_of_Development",
+        "locator": "Section 5, Historical Data Sources, Figure 8; printed p.185 / proceedings PDF index197 cited by S01; official pagination not freshly checked",
+        "access": "bounded public HTML representation of author-uploaded primary paper; upload attribution visible",
+        "paraphrase": "Figure 8 reproduces the catalogue record for pc_hcp_441, with Czech language, Anna Tichá as recipient, unknown sender, and an unsolved status. Section 5 describes public databases and administrative review. This is collection metadata, not a decipherment or key.",
+        "short_quote": "Not solved",
+        "quote_word_count": 2,
+        "verified_record_metadata": {
+          "record": "pc_hcp_441",
+          "date": "1901-12-11",
+          "language": "Czech",
+          "recipient": "Anna Tichá",
+          "sender": "Unknown",
+          "availability": "Private collection",
+          "category": "Substitution"
+        },
+        "supports": [
+          "prior_catalogue_status_for_card441",
+          "anna_collection_example",
+          "catalogue_language_label"
+        ],
+        "does_not_support": [
+          "263_card_count_independently_verified_this_audit",
+          "current_global_unsolved_status",
+          "novelty_or_priority",
+          "glyph_to_letter_key",
+          "any_selected_assignment_external_groundtruth"
+        ],
+        "retrieval_observation": "Initial find(Tich) and find(185) returned no match, but open around Section 5 returned Figure 8 metadata including Anna. Negative text-find results alone are not reliable absence evidence."
+      },
+      {
+        "id": "S03",
+        "title": "Solving Historical Ciphers with AI: Analysis of GPT’s Capability in Processing and Deciphering Cryptographic Postcards",
+        "authors": [
+          "Eugen Antal",
+          "Tomáš Pavuk",
+          "Pavol Zajac"
+        ],
+        "date": "June 2026; repository search metadata 2026-06-22; author-text upload 2026-06-25",
+        "venue": "HistoCrypt 2026",
+        "official_url": "https://dspace.ut.ee/items/5cfe6720-b894-4a6d-8419-1deb3907040e",
+        "url": "https://www.researchgate.net/publication/408068913_Solving_Historical_Ciphers_with_AI_Analysis_of_GPT%27s_Capability_in_Processing_and_Deciphering_Cryptographic_Postcards",
+        "locator": "Abstract; Sections 2, 4.1.1–4.1.4, 4.2.1–4.2.2; pp.197–207 cited by S01, official pagination not freshly checked",
+        "access": "bounded public HTML text of primary paper, attributed to author Eugen Antal",
+        "paraphrase": "The paper evaluates GPT transcription and decipherment. Its explicit exemplars are cards 191, 135, 508, 140 and a 1919 Dubois–Springville card. Decipherment experiments concern 191, 135 and the 1919 card. A supplied Pigpen key belongs to card 135; it is not an Anna key.",
+        "tested_records": [
+          {
+            "card": "pc_hcp_191",
+            "url": "https://crypto.hcportal.eu/dashboard/cryptograms/1510"
+          },
+          {
+            "card": "pc_hcp_135",
+            "url": "https://crypto.hcportal.eu/dashboard/cryptograms/1454"
+          },
+          {
+            "card": "cpc_1919-02-07_USA_Dubois_USA_Springville",
+            "url": "https://crypto.hcportal.eu/dashboard/cryptograms/944"
+          },
+          {
+            "card": "pc_hcp_508",
+            "url": "https://crypto.hcportal.eu/dashboard/cryptograms/1827"
+          },
+          {
+            "card": "pc_hcp_140",
+            "url": "https://crypto.hcportal.eu/dashboard/cryptograms/1459"
+          }
+        ],
+        "supports": [
+          "related_ai_method_literature",
+          "other_card_key_experiment"
+        ],
+        "does_not_support": [
+          "independent_anna_solution",
+          "independent_anna_human_key",
+          "any_selected_assignment_external_groundtruth"
+        ],
+        "scope_note": "No linked model sessions, appendix conversations or image attachments opened. Negative finds for Anna/Tich and 198/440/441 are recorded as bounded search observations, not exhaustive proof of absence."
+      },
+      {
+        "id": "S04",
+        "title": "Cryptographic postcards",
+        "authors": [
+          "Tobias Schrödel"
+        ],
+        "date": "2021-08-09",
+        "venue": "Proceedings of the 4th International Conference on Historical Cryptology HistoCrypt 2021",
+        "doi": "10.3384/ecp183166",
+        "url": "https://ecp.ep.liu.se/index.php/histocrypt/article/view/166",
+        "author_text_url": "https://www.researchgate.net/publication/353792863_Cryptographic_postcards",
+        "locator": "Publisher abstract and bibliographic entry; author HTML text finds Anna and Potter",
+        "access": "publisher abstract verified; no PDF/image download",
+        "paraphrase": "The publisher describes a classification of the author's collection of over 400 encrypted postcards. This supplies general collection context. The bounded author-text search did not locate Anna or Potter; no Anna mapping was verified.",
+        "supports": [
+          "general_postcard_collection_context"
+        ],
+        "does_not_support": [
+          "anna_cipher_key",
+          "any_selected_assignment_external_groundtruth"
+        ]
+      },
+      {
+        "id": "S05",
+        "title": "HCPortal: About",
+        "authors": [
+          "HCPortal team"
+        ],
+        "date": null,
+        "url": "https://hcportal.eu/about.html",
+        "locator": "About the HCPortal; Documentation",
+        "access": "official public HTML verified",
+        "paraphrase": "The portal describes public historical-cipher databases and analysis tools, including language guessing. General tools and public database access do not provide an Anna glyph-to-letter key.",
+        "supports": [
+          "official_catalogue_platform_context"
+        ],
+        "does_not_support": [
+          "anna_key_or_plaintext",
+          "any_selected_assignment_external_groundtruth"
+        ]
+      },
+      {
+        "id": "S06",
+        "title": "Listy I",
+        "authors": [
+          "Božena Němcová"
+        ],
+        "date": null,
+        "url": "https://web2.mlp.cz/koweb/00/03/34/99/42/listy_I.pdf",
+        "locator": "Bibliographic model-training citation in S01 only",
+        "access": "URL retained; book text/PDF not retrieved; attempted public catalogue search returned unrelated entries",
+        "paraphrase": "S01 identifies this as the Czech model training source. It is a language prior, not an independently known plaintext for an Anna postcard.",
+        "supports": [
+          "cited_training_corpus_identity_only"
+        ],
+        "does_not_support": [
+          "independently_known_anna_plaintext",
+          "any_selected_assignment_external_groundtruth"
+        ]
+      },
+      {
+        "id": "S07",
+        "title": "Národní listy, 25 January 1904, page 3",
+        "authors": null,
+        "date": "1904-01-25",
+        "url": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:a934f750-7108-11dc-b40d-000d606f5dc6",
+        "locator": "p.3 as cited by S01",
+        "access": "fresh web reader failed; no source pixels or newspaper text retrieved",
+        "paraphrase": "S01 treats the notice as a match found after decoding. Its claimed historical context cannot establish an exact glyph-to-letter alignment or independently known postcard wording.",
+        "supports": [
+          "bibliographic_lead_only"
+        ],
+        "does_not_support": [
+          "freshly_verified_notice_content",
+          "independently_known_anna_plaintext",
+          "any_selected_assignment_external_groundtruth"
+        ]
+      },
+      {
+        "id": "S08",
+        "title": "Národní listy, 31 January 1904, page 3",
+        "authors": null,
+        "date": "1904-01-31",
+        "url": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:c586dfe0-7108-11dc-bdb4-000d606f5dc6",
+        "locator": "p.3 as cited by S01",
+        "access": "fresh web reader failed; no source pixels or newspaper text retrieved",
+        "paraphrase": "This is a second post-decoding contextual lead in S01. Fresh content was unavailable and no independently preserved Anna plaintext alignment was supplied.",
+        "supports": [
+          "bibliographic_lead_only"
+        ],
+        "does_not_support": [
+          "freshly_verified_notice_content",
+          "independently_known_anna_plaintext",
+          "any_selected_assignment_external_groundtruth"
+        ]
+      }
+    ],
+    "retrieval_limits": [
+      {
+        "url": "https://dspace.ut.ee/items/5cfe6720-b894-4a6d-8419-1deb3907040e",
+        "methods": [
+          "web open repeated",
+          "bounded public urllib HTML"
+        ],
+        "result": "web 400 timeout / Internal Error; bounded network-enabled HTML request timed out"
+      },
+      {
+        "url": "https://dspace.ut.ee/server/api/core/bitstreams/31718ebb-5a1e-4c4f-be45-2f8aa869034e/content#page=197",
+        "method": "web open",
+        "result": "Internal Error; no official page text obtained"
+      },
+      {
+        "url": "https://dspace.ut.ee/server/api/core/items/5cfe6720-b894-4a6d-8419-1deb3907040e",
+        "method": "web open",
+        "result": "not accessible via tool; no content obtained"
+      },
+      {
+        "url": "https://dspace.ut.ee/collections/70b1d875-afc3-46a7-819a-cb425b29689d",
+        "method": "web open",
+        "result": "400 timeout"
+      },
+      {
+        "url": "https://crypto.hcportal.eu/dashboard/cryptograms/1517",
+        "methods": [
+          "web open",
+          "bounded public HTML"
+        ],
+        "result": "web Internal Error; network-enabled HTML returned HTTP200, 690-byte JavaScript shell only; record metadata not retrieved"
+      },
+      {
+        "url": "https://ecp.ep.liu.se/index.php/histocrypt/article/view/166",
+        "method": "web open",
+        "result": "publisher abstract and bibliographic record retrieved; PDF link click failed and no PDF was downloaded"
+      },
+      {
+        "url": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:a934f750-7108-11dc-b40d-000d606f5dc6",
+        "method": "web open",
+        "result": "not accessible via tool; UUID colon appeared encoded in reported failure"
+      },
+      {
+        "url": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:c586dfe0-7108-11dc-bdb4-000d606f5dc6",
+        "method": "web open",
+        "result": "not accessible via tool; UUID colon appeared encoded in reported failure"
+      },
+      {
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/?s=Ticha",
+        "method": "public site search HTML open",
+        "result": "not accessible via tool; no original Anna solver article obtained"
+      },
+      {
+        "url": "https://ciphermysteries.com/?s=Ticha",
+        "method": "public site search HTML open",
+        "result": "not accessible via tool; no original Anna solver article obtained"
+      }
+    ],
+    "remaining_unknowns": [
+      "Whether unpublished, unindexed or otherwise unexamined independent Anna decipherments exist.",
+      "Current official catalogue solution state, full collection count and any linked key record.",
+      "Official proceedings pagination/content parity of the author-uploaded paper text.",
+      "Whether any historical plaintext duplicate, sender key or editor alignment can be located independently of the project."
+    ]
+  },
+  "citationmap_original_sha256": "9b7aa900c2c0d6d2b90199aede3cc4dd19295955c2e8bb403d0accd1c61adca9",
+  "citationmap_selected_field_list": [
+    "schema",
+    "claims",
+    "sources"
+  ],
+  "citationmap": {
+    "schema": "anna.published-primary-key-foundation-citationmap.v1",
+    "claims": [
+      {
+        "id": "K01",
+        "claim": "The project key is model/context-derived with AI checks; it is not an externally supplied historical key.",
+        "sources": [
+          {
+            "id": "S01",
+            "locator": "Developing and testing the key; Limits and downloadable evidence"
+          }
+        ],
+        "evidentiary_role": "project provenance only"
+      },
+      {
+        "id": "K02",
+        "claim": "Published portal paper's Figure8 preserves unsolved Czech Anna card441 metadata.",
+        "sources": [
+          {
+            "id": "S02",
+            "locator": "§5 Figure8, public author-text HTML around record fields; printed185 cited by S01"
+          }
+        ],
+        "evidentiary_role": "primary published catalogue example; not solution evidence"
+      },
+      {
+        "id": "K03",
+        "claim": "The cited AI paper reports decipherment experiments on other cards.",
+        "sources": [
+          {
+            "id": "S03",
+            "locator": "§4.1.1–4.1.4 and §4.2.1–4.2.2"
+          }
+        ],
+        "evidentiary_role": "scope exclusion; not an Anna key"
+      },
+      {
+        "id": "K04",
+        "claim": "General postcard study provides collection context, with no verified Anna mapping here.",
+        "sources": [
+          {
+            "id": "S04",
+            "locator": "official abstract; bounded author-text find"
+          }
+        ],
+        "evidentiary_role": "general context; limited negative search"
+      },
+      {
+        "id": "K05",
+        "claim": "Czech label/training text is a language prior, not independently known Anna plaintext.",
+        "sources": [
+          {
+            "id": "S01",
+            "locator": "Developing and testing the key"
+          },
+          {
+            "id": "S02",
+            "locator": "§5 Figure8"
+          },
+          {
+            "id": "S06",
+            "locator": "bibliography only"
+          }
+        ],
+        "evidentiary_role": "method distinction"
+      },
+      {
+        "id": "K06",
+        "claim": "Concert references do not independently establish postcard wording or selected assignments.",
+        "sources": [
+          {
+            "id": "S01",
+            "locator": "A concert reference with an external match"
+          },
+          {
+            "id": "S07",
+            "locator": "bibliographic lead; fresh retrieval failed"
+          },
+          {
+            "id": "S08",
+            "locator": "bibliographic lead; fresh retrieval failed"
+          }
+        ],
+        "evidentiary_role": "qualified project contextual corroboration"
+      },
+      {
+        "id": "K07",
+        "claim": "None of seven aliases obtains verified independent external ground truth from this bounded audit.",
+        "sources": [
+          {
+            "id": "S02",
+            "locator": "§5 Figure8 metadata"
+          },
+          {
+            "id": "S03",
+            "locator": "§4 experiment scope"
+          },
+          {
+            "id": "S04",
+            "locator": "publisher abstract"
+          }
+        ],
+        "evidentiary_role": "audit conclusion limited to examined sources; no global absence/priority claim"
+      }
+    ],
+    "sources": [
+      {
+        "id": "S01",
+        "title": "Reading the Anna Tichá cipher postcards",
+        "authors": [
+          "Maxim Egorov"
+        ],
+        "date": "2026-10-04T23:26:32Z (preparedUtc; not an independently verified publication date)",
+        "url": "https://maxim-egorov.dev/research/anna-ticha-postcards/",
+        "locator": "Developing and testing the key; Limits and downloadable evidence",
+        "access": "local export of already-published project article read; own project, not independent ground truth"
+      },
+      {
+        "id": "S02",
+        "title": "HCPortal: Ten Years of Development",
+        "authors": [
+          "Eugen Antal",
+          "Pavol Zajac"
+        ],
+        "date": "June 2026; public author-text upload 2026-06-25",
+        "url": "https://www.researchgate.net/publication/408069792_HCPortal_Ten_Years_of_Development",
+        "official_url": "https://dspace.ut.ee/server/api/core/bitstreams/31718ebb-5a1e-4c4f-be45-2f8aa869034e/content#page=197",
+        "locator": "Section 5, Historical Data Sources, Figure 8; printed p.185 / proceedings PDF index197 cited by S01; official pagination not freshly checked",
+        "access": "bounded public HTML representation of author-uploaded primary paper; upload attribution visible"
+      },
+      {
+        "id": "S03",
+        "title": "Solving Historical Ciphers with AI: Analysis of GPT’s Capability in Processing and Deciphering Cryptographic Postcards",
+        "authors": [
+          "Eugen Antal",
+          "Tomáš Pavuk",
+          "Pavol Zajac"
+        ],
+        "date": "June 2026; repository search metadata 2026-06-22; author-text upload 2026-06-25",
+        "url": "https://www.researchgate.net/publication/408068913_Solving_Historical_Ciphers_with_AI_Analysis_of_GPT%27s_Capability_in_Processing_and_Deciphering_Cryptographic_Postcards",
+        "official_url": "https://dspace.ut.ee/items/5cfe6720-b894-4a6d-8419-1deb3907040e",
+        "locator": "Abstract; Sections 2, 4.1.1–4.1.4, 4.2.1–4.2.2; pp.197–207 cited by S01, official pagination not freshly checked",
+        "access": "bounded public HTML text of primary paper, attributed to author Eugen Antal"
+      },
+      {
+        "id": "S04",
+        "title": "Cryptographic postcards",
+        "authors": [
+          "Tobias Schrödel"
+        ],
+        "date": "2021-08-09",
+        "url": "https://ecp.ep.liu.se/index.php/histocrypt/article/view/166",
+        "locator": "Publisher abstract and bibliographic entry; author HTML text finds Anna and Potter",
+        "access": "publisher abstract verified; no PDF/image download"
+      },
+      {
+        "id": "S05",
+        "title": "HCPortal: About",
+        "authors": [
+          "HCPortal team"
+        ],
+        "date": null,
+        "url": "https://hcportal.eu/about.html",
+        "locator": "About the HCPortal; Documentation",
+        "access": "official public HTML verified"
+      },
+      {
+        "id": "S06",
+        "title": "Listy I",
+        "authors": [
+          "Božena Němcová"
+        ],
+        "date": null,
+        "url": "https://web2.mlp.cz/koweb/00/03/34/99/42/listy_I.pdf",
+        "locator": "Bibliographic model-training citation in S01 only",
+        "access": "URL retained; book text/PDF not retrieved; attempted public catalogue search returned unrelated entries"
+      },
+      {
+        "id": "S07",
+        "title": "Národní listy, 25 January 1904, page 3",
+        "authors": null,
+        "date": "1904-01-25",
+        "url": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:a934f750-7108-11dc-b40d-000d606f5dc6",
+        "locator": "p.3 as cited by S01",
+        "access": "fresh web reader failed; no source pixels or newspaper text retrieved"
+      },
+      {
+        "id": "S08",
+        "title": "Národní listy, 31 January 1904, page 3",
+        "authors": null,
+        "date": "1904-01-31",
+        "url": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:c586dfe0-7108-11dc-bdb4-000d606f5dc6",
+        "locator": "p.3 as cited by S01",
+        "access": "fresh web reader failed; no source pixels or newspaper text retrieved"
+      }
+    ]
+  },
+  "test_original_sha256": "5386bfb71e4c9c6dff1645fd776a114f427746de2329902f48df12503307b466",
+  "test_selection": "Every original scientific test field retained exactly; only all_GOs omitted and two metadata paths reduced to exact basenames. NOT_RUN: no corpus acquisition/extraction, count tables, scorer, optimizer or execution assets frozen.",
+  "rebuild_test": {
+    "schema": "one-practical-rebuild-test-v1",
+    "created_utc": "2026-10-13T19:57:14.806534+00:00",
+    "status": "FINITE_PROSPECTIVE_TEST; ASSET_FREEZE_AND_SEPARATE_GO_REQUIRED; NO_OPERATION_EXECUTED",
+    "decision": "Rebuild model from scratch. Test transfer of one newly learned anonymous-source substitution model from development257 to reserved cold258 against a finite alternative-key set. Do not test permutations of the legacy seven.",
+    "reserved_sources": [
+      {
+        "card": 257,
+        "catalogue_id": 1576,
+        "role": "DEVELOPMENT",
+        "url": "https://api.hcportal.eu/media/4788/pc_hcp_257_pic.JPG",
+        "metadata_path": "candidate-record-1576.json",
+        "metadata_sha256": "0faf956868f86bd0655f460544a288b357d4ce2a8aaeef831fe11cbe103c2dba",
+        "recipient_id": 403,
+        "source_image_sha256": null,
+        "image_size_and_dimensions": "UNKNOWN_UNTIL_AUTHORIZED_GET",
+        "status": "RESERVED_METADATA_ONLY_NOT_VIEWED_IN_THIS_TASK"
+      },
+      {
+        "card": 258,
+        "catalogue_id": 1577,
+        "role": "COLD_HOLD",
+        "url": "https://api.hcportal.eu/media/4791/pc_hcp_258_pic.JPG",
+        "metadata_path": "candidate-record-1577.json",
+        "metadata_sha256": "bfde6ac64a6bdb83b5eb3e821b3bd4fdadb7bcbe5d9c6bfa84363ce4b705315c",
+        "recipient_id": 403,
+        "source_image_sha256": null,
+        "image_size_and_dimensions": "UNKNOWN_UNTIL_AUTHORIZED_GET",
+        "status": "RESERVED_METADATA_ONLY_NOT_VIEWED_IN_THIS_TASK"
+      }
+    ],
+    "sampling_and_coldness": {
+      "limit": "Exactly two whole picture faces, one development and one held; zero address faces, thumbnails or replacement cards. No target-based fragment selection.",
+      "custody": "The saved availability snapshot reports both originals unmaterialized and HEAD-only. Before any GET, freeze a current acquisition/view-history check; no body fetch or pixel decode for258 until anonymous development model, fresh learned key, alternatives and scorer are frozen. If any actor with model/scoring influence has seen258 pixels, stop this reservation rather than label a fragment globally cold.",
+      "get_policy": "Only separately authorized exact original URLs; one GET per face, no redirects/auth/retries/fallback sizes. Verify returned bytes, dimensions and decoded RGB before any view; failure stops with the original receipt.",
+      "max_source_work": "One initial whole-source record per two fresh development readers; one fixed whole-source reconciliation pass by a separate source-only adjudicator, no language feedback. Same one-pass limit for two held readers. No additional cards or view-driven replacement."
+    },
+    "phase1_anonymous_physical_model": {
+      "fresh_readers": "No inherited history, legacy atlas/aliases/literals/key, decoded outputs, model sessions, old source classifications, dates or contextual completion. Source custody actor provides only authorized development pixels/provenance and neutral transcription instructions.",
+      "requirements": "Inventory every visible cipher-region construction, marks, ordinary text boundary, residual and partial region. Build neutral equivalence classes from positively recorded complete contour/owner relations only. Freeze source order, grouping/spacing uncertainty, feature definitions, prototype refs, pairwise confusers, split/merge alternatives, unknowns and masks before ANY language model or key work. Do not seed classes from post-replay aliases or expected alphabet size.",
+      "IDs": "N001 onward by first certified source occurrence, no legacy correspondence. Distinct graphic classes may remain distinct without guessed allography.",
+      "alternatives": "Freeze the full finite correlated source-interpretation set. Maximum64 complete variants per face; if larger, stop UNAVAILABLE instead of truncating, selecting a language-friendly branch or converting variants to arbitrary masks. Preserve all originals.",
+      "prerequisite": "A common identity-stable set of at least150 development body occurrences and 7..27 neutral classes is needed for this bounded substitution test. Required marks/ownership unresolved at a position remain pre-key masks in every relevant variant. Failure is finite insufficient-data/model-complexity outcome, not invitation to change thresholds."
+    },
+    "phase2_fresh_key_development": {
+      "hypothesis": "One injective substitution from the frozen anonymous classes to27 tokens a..z plus atomic ch; fewer than27 classes use dummy slots for unused tokens. This is a declared narrow test model, not an assertion the real cipher is injective or uses this alphabet. More classes, indispensable unresolved homophony or nonlocal mark functions => UNAVAILABLE under this model, no forced merges.",
+      "no_legacy_seed": "No old assignments, descriptions, seven-letter multiset, old solver output, class-count matching or expected wording is supplied. Initialize uniformly random permutations of all27 tokens using predeclared deterministic seeds0..15.",
+      "optimizer": "Exactly16 restarts,2000 random two-slot proposals each, no extra restart. Maximize worst-variant normalized Czech score on development. Simulated annealing T=exp(log(0.01)*step/1999), startingT1; accept improvements and otherwise exp(delta/T) using seeded PRNG. Keep each restart best. Equal scores within1e-9 tie; lexicographic permutation order selects reproducibly but does not establish uniqueness. Freeze implementation/runtime/PRNG and a tiny synthetic fixture before source scoring.",
+      "evaluation_budget": "At most(16*2001*64) candidate-variant development score evaluations. Stop if needed source variants exceed64. Resource limit is deterministic, not extended after viewing scores.",
+      "candidate_freeze": "Select Kstar by worst-variant development score. Before accessing258 pixels, freeze Kstar, the other15 restart-best keys, and every one of351 transpositions of its27 token slots, including unused slots; deduplicate exact complete keys. At most367 keys includingKstar. Alternatives are generated by rule, not holdout content. Archive score tables, ties and all development variants."
+    },
+    "scorer_specification": {
+      "status": "No usable count-table asset located during bounded read-only filename discovery. Actual bytes MUST be materialized and hash-frozen before257 acquisition/views; no phantom scorer hash is asserted.",
+      "fixed_primary_corpus": "Bozena Nemcova, Listy I, https://web2.mlp.cz/koweb/00/03/34/99/42/listy_I.pdf (published primary corpus already cited by project). Use full text as a language prior only, no Anna source wording. If a lawfully available exact project copy or exact published-source extraction is unavailable, stop; do not swap corpora after source exposure. No corpus retrieval authorized by this plan alone.",
+      "asset_manifest": "Before images: freeze original corpus bytes SHA256, extraction tool/version and exact extracted text SHA256, normalization code SHA256, count-table SHA256, scorer code SHA256, solver code SHA256, runtime versions, seeds, alphabet, smoothing, sample limits and endpoint in one signed/hash-pinned execution manifest. No tuning against development or hold.",
+      "normalization": "Unicode NFKD, strip combining marks, lowercase, keep ASCIIa-z; nonletters terminate runs. No dictionary correction, word completion, spelling restoration, date/context clues or adaptive whitespace. For source scoring, join consecutive unmasked glyph outputs within each certified cipher run; uncertain boundaries remain separate frozen variants; masked/ordinary/residual regions break runs and are never bridged.",
+      "model": "Fixed character4gram conditional model overa-z, backed by independently counted orders1..4 for the first three characters of each run. For context h use count(h)=sum_c count(hc), counting only contexts with an observed next letter. Add0.1 to each of26 possible next letters: P(c|h)=(count(hc)+0.1)/(sum_c count(hc)+2.6). Unseen contexts therefore yield1/26. Corpus runs contribute all available contexts; never concatenate across a nonletter boundary.",
+      "score": "For each source variant and complete candidate key, sum natural log conditional probability of every emitted ASCII character, then divide by number of emitted characters. Atomic ch emits two characters c,h, both scored and counted; report emitted-character and mapped-source-unit denominators for EVERY key/variant. Never divide by unchanged glyph count and call it per-character likelihood. Scores are language-model evidence, not physical truth.",
+      "eligibility": "At least80 common held body occurrences assigned to frozen neutral classes and at least50 emitted characters per key/variant are needed; mask positions/source variants remain key-independent. Fewer => UNAVAILABLE, no trimming based on decoded readability."
+    },
+    "phase3_cold_hold": {
+      "release": "Acquire/view258 only after phase1+phase2 full freezes and current coldness receipt. Two fresh source-only readers receive the anonymous physical definitions/prototypes but no keys, language model, development plaintext, candidate scores or historical aliases.",
+      "matching": "Apply frozen physical classes using positive whole-contour relations; preserve nonmatches, alternatives, marks and unknowns without inventing new equivalences. No model edits or development refit. Freeze full held source variants and masks BEFORE scorer evaluator receives them.",
+      "compute": "Evaluate all frozen keys on every admissible held variant once. No choose-best source variant, no omission of inconvenient variants, no language-feedback correction, no new source inspection after scores."
+    },
+    "predeclared_endpoint": {
+      "finite_rank_prediction": "Kstar will strictly exceed every finite alternative on every admissible held source variant, with comparison tolerance1e-9. This is a falsifiable finite ranking prediction, not an independent letter-accuracy hypothesis.",
+      "robust_support": "For every alternative k, min_v[S(Kstar,v)-S(k,v)]>1e-9. Report full matrix, all margins, coverage, ties and worst variants.",
+      "robust_counterexample": "At least one same alternative exceedsKstar by>1e-9 for EVERY admissible variant. Reject the robust superiority prediction with that frozen competitor.",
+      "other": "Mixed variant ordering, any tie, missing coverage or insufficient source certainty => NONUNIQUE/UNAVAILABLE. Never infer success by picking a favorable variant.",
+      "not_allowed": "No p-value from nonrandom selected alternatives; no universal best-key claim, historical letter truth, word accuracy or full decipherment. Even robust support needs an independently authenticated aligned plaintext/key for independent letter confirmation."
+    },
+    "failure_closure": "Any prerequisite failure is the completed result of this single bounded test; no extra source, alternate selector/scorer, legacy seed or changed alphabet rescue under this protocol. New experiments would need a genuinely separate prospectus.",
+    "privacy_and_isolation": "This planning reviewer is value-aware and cannot be a fresh source reader or key optimizer. Do not pass this audit/history, the seven overlay, old legacy identifiers, old outcome graphs or public-key references to those actors. Only the scrubbed phase-specific packet."
+  }
+}
