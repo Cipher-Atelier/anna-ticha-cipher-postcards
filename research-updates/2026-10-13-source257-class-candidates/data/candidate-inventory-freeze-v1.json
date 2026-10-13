@@ -1,0 +1,90 @@
+{
+  "schema": "source257-full-feature-candidate-freeze-v1",
+  "status": "FROZEN_STRUCTURALLY_VALIDATED_SCIENTIFIC_REVIEW_PENDING",
+  "files_sha256": {
+    "candidate-inventory-v1.json": "a2f13278119c6437821a416e1cf56483e7d3d879a48e3adaa363023c314b87a0",
+    "candidate-pair-screen-v1.csv": "531784edd80f8d4f765a9a54b780a104b29aa90591982abba831f2a04a3e43cf",
+    "candidate-source-order-v1.csv": "5eca53e62a956e1184d1c71580679c104d1d7280fa3d554bf9545f59bd13e1d6",
+    "adjudication-evidence-v1.json": "bd089f31c4a746b13f5d0adf7b94d00510167d80c473f42652749c79ed5707db",
+    "candidate-inventory-validation-v1.json": "a8410377903bef37038af69348fc7f87f404aed240c42dad8fb166141dc08b60",
+    "inventory-adjudicator-decisions-v1.json": "12d30028d8faab7cdf502e2017ceb251b21f95bd409e0818e1922ac71a8b77ec",
+    "assemble_candidate_inventory.py": "ca1c8a477d1c71e1c08d3b5ccaf7fcc82948a50a4fc5476fbe56a5128de74aa8",
+    "test_candidate_assembler.py": "dc9e6525a7bc718e3aeb35631b245a692df07ad6e66af12f6d53bc5037ab0064",
+    "check_candidate_inventory.py": "f980cbf460c8681ccdd4596eb8b4039face11aa2e85476c9602c07aea5026060",
+    "test_candidate_inventory.py": "732f513f6382a1e1647eddb44690e6173814cc1955f07496bfad0b27da9ea9e0",
+    "build_feature_context_pack.py": "4e6dc24b87c479669d2f82b22833bb0a31abbdfcade405c9312bcbd2097d7506",
+    "test_feature_context_pack.py": "cf7db0ff05de629102a71af31461d1c39d232cd24073023e30ea2656d0fd8867"
+  },
+  "immutable_raw_input_sha256": {
+    "bottom-features-A-v1.json": "77798140df6588da2bc04675ffd06c2a40a7029ca33908c03f1ee68bb7b89df3",
+    "bottom-features-B-v1.json": "6500875eeabd93747b917b6dfb27e779ca32c53d41f3e1c90d476e5fcd266db6",
+    "right-features-A-v1.json": "6c143c2ffacd6022363c6deb2318bc49001b8ae75a5f53b4940000a7cb9edcf1",
+    "right-features-B-v1.json": "e59fd25b5debcef981d40365e48095fdfe6c3dc878cf054a9f4ae8b8b4f42830"
+  },
+  "base_map_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+  "source_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+  "counts": {
+    "whole_count": 172,
+    "unresolved_source_count": 135,
+    "eligible_count": 55,
+    "excluded_whole_count": 117,
+    "candidate_class_count": 7,
+    "grouped_whole_count": 16,
+    "eligible_singleton_count": 39,
+    "pair_screen_count": 14706
+  },
+  "pair_outcomes": {
+    "ELIGIBILITY_BLOCKED": 13221,
+    "STRUCTURAL_DIFFERENCE": 1385,
+    "SOURCE_COMPARISON_DEFERRED": 89,
+    "CLASS_CANDIDATE_SAME": 11
+  },
+  "classes": {
+    "SCG001": [
+      "FC066",
+      "FC074",
+      "FC092"
+    ],
+    "SCG002": [
+      "FC019",
+      "FC043",
+      "FC081"
+    ],
+    "SCG003": [
+      "FC013",
+      "FC068"
+    ],
+    "SCG004": [
+      "U051",
+      "U053"
+    ],
+    "SCG005": [
+      "U019",
+      "FC197"
+    ],
+    "SCG006": [
+      "FC166",
+      "FC212"
+    ],
+    "SCG007": [
+      "FC180",
+      "FC208"
+    ]
+  },
+  "source_order_rows": 307,
+  "unresolved_physical_placeholders": 135,
+  "frozen_conflicts_preserved": 16,
+  "raw_eligibility_disagreements_explicitly_preserved": 51,
+  "reader_exclusion_overrides": 0,
+  "reproduction_four_products_byte_identical": true,
+  "tests": {
+    "assembler_immutable_input_alias_fixtures": 6,
+    "existing_validator_tests": 16,
+    "existing_native_pack_tests": 6,
+    "total": 28,
+    "result": "PASS"
+  },
+  "actual_checker_result": "PASS; structural checks only, no claim of visual truth certification",
+  "source_and_base_unchanged": true,
+  "limits": "All cipher roles and letter values UNKNOWN. 135 unresolved records and physical-cut FC136 preserved. Pair screen metadata comparisons outside the 11 explicitly checked positive internal class pairs. No private source pixels or per-body crop hashes published."
+}

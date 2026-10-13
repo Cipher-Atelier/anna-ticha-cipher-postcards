@@ -1,0 +1,46 @@
+{
+  "schema": "source257-class-candidate-public-verification-receipt-v1",
+  "status": "PASS",
+  "scope": "Public saved-structure, input-integrity and metadata checks; source judgments separately covered by scoped AI review. No human historical attestation.",
+  "local_python": "3.13.9",
+  "tests": {
+    "legacy": 100,
+    "portable_numerical": 6,
+    "first_band": 8,
+    "fullcard_map": 16,
+    "new_candidate": 28,
+    "total_passed": 158
+  },
+  "actual_inventory_and_pair_checker": "PASS_INPUT_BYTES_UNCHANGED",
+  "pair_rows": 14706,
+  "source_annotation_order_rows": 307,
+  "source_order_is_reading_order": false,
+  "yaml_parsers": [
+    "PyYAML safe_load",
+    "PyYAML BaseLoader"
+  ],
+  "yaml_checks": "PASS: blockscalar install/run, all earlier commands, pinned actions, read permissions, numpy/Pillow pins, Python3.10/3.13 matrix",
+  "privacy_audit": "PASS: no source images, masks, pixel reconstruction arrays, per-body image hashes, personal paths or operational histories",
+  "previous_scientific_files_unchanged": true,
+  "public_inventory_sha256": "a2f13278119c6437821a416e1cf56483e7d3d879a48e3adaa363023c314b87a0",
+  "complete_pair_screen_sha256": "9dbbe396650817a5d8023800592bbef25dd1664de8f9c79b1885247f1d656673",
+  "base_map_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+  "cryptanalysis_use_limits_sha256": "e7145c419c72d800d20a86412b8be5b61ecbb8a9e32f9f18eb9af24abbceacd6",
+  "offline_verification": {
+    "status": "PASS",
+    "manifest_files": 285
+  },
+  "nested_manifest": "PASS; excludes itself",
+  "whitespace_audit": "PASS: explicit byte-level absence of CR and trailing spaces/tabs for every public new file, including untracked files. Subsequent staged git diff --check attestation belongs to publication review.",
+  "limits": "Not a full filtered-public-input assembly pipeline; literal signature text differences are not cipher cannot-links. Only11positive candidate relations were directly source-compared.",
+  "source_order_csv_sha256": "00f883ac8450fa9bf8d726ce4d33c265a9ca9c901209fc7cfbabe47f670b31c5",
+  "csv_eol_normalization": {
+    "public_line_endings": "LF",
+    "private_raw_line_endings": "CRLF",
+    "csv_fields_and_rows_deep_equal_to_private_raw": true,
+    "private_pair_screen_sha256": "531784edd80f8d4f765a9a54b780a104b29aa90591982abba831f2a04a3e43cf",
+    "private_source_order_sha256": "5eca53e62a956e1184d1c71580679c104d1d7280fa3d554bf9545f59bd13e1d6",
+    "code_unchanged": true,
+    "prior_158_tests_remain_applicable": "EOL-only data publication change; actual public checker rerun and CSV semantic equality checked; no code changes."
+  }
+}

@@ -125,3 +125,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Source257 full-card physical map — 13 October 2026
 
 [Corrected 307-record source map, 172 whole constructions, 135 unresolved spans and two checked complete-body graphical groups; all cipher roles UNKNOWN](research-updates/2026-10-13-source257-fullcard-map/README.md).
+
+## Source257 full-visible candidate inventory — 13 October 2026
+
+[Seven source-checked candidate sets, 39 eligible ungrouped profiles and 117 exclusions; complete 14,706-pair metadata screen with explicit cryptanalysis-use limits](research-updates/2026-10-13-source257-class-candidates/README.md).
