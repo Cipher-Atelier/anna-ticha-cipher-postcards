@@ -89,3 +89,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Local corpus update — 13 October 2026
 
 [Four qualified research readers, selected scientific text evidence and frozen reference code](research-updates/2026-10-13-local-corpus/README.md).
+
+## G08 owner study — 13 October 2026
+
+[Recorded primary and separate supplementary source judgments, with endpoint limits](research-updates/2026-10-13-g08-owner-study.md).
