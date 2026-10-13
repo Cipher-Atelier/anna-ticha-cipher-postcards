@@ -101,3 +101,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Full-unit class bridge — 13 October 2026
 
 [Two complete external constructions, bounded class correspondences and the unresolved value-blinded class bridge](research-updates/2026-10-13-full-unit-class-bridge/README.md).
+
+## Single-transition discriminator — 13 October 2026
+
+[Bounded held-reference validation and conditional target refinement, with failed target RGB timing explicitly retained](research-updates/2026-10-13-single-transition-test/README.md).
