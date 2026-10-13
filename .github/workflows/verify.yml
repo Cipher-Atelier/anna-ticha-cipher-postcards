@@ -36,6 +36,8 @@ jobs:
           python3 -m unittest discover -s verification/tests -v
           python3 research-updates/2026-10-13-executed-rebuild257258/run_fixture_tests.py
           python3 -m unittest discover -s research-updates/2026-10-13-native-source257-annotation/code -v
+          python3 -m unittest discover -s research-updates/2026-10-13-source257-fullcard-map/code -v
+          python3 research-updates/2026-10-13-source257-fullcard-map/code/fullmap_checks.py research-updates/2026-10-13-source257-fullcard-map/data/fullcard-map-v2.json research-updates/2026-10-13-native-source257-annotation/data/reconciled-native-annotation-v1.json --groups research-updates/2026-10-13-source257-fullcard-map/data/visual-repeat-groups-v2.json /tmp/source257-fullmap-ci-result.json
           python3 verification/check_all.py
           if [ -z "$CHECK_BASE" ] || [ "$CHECK_BASE" = 0000000000000000000000000000000000000000 ]; then
             CHECK_BASE=$(git merge-base origin/main HEAD)

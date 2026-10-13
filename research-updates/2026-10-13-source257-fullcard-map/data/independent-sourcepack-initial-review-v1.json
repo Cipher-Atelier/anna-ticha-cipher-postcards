@@ -1,0 +1,69 @@
+{
+  "schema": "independent-source-inventory-v1",
+  "native_pack_review": {
+    "all_30_views_exact": true,
+    "source_identity_verified": true,
+    "manifest_identity_verified": true,
+    "tests_passed": 3,
+    "rotation": "Exact clockwise transpose; half-open coordinate formulas correct, including corners.",
+    "coverage": "Detail tiles cover both context rectangles; 18 reserve grid cells plus those rectangles cover every original pixel. This is geometric coverage, not evidence every mark was annotated.",
+    "code_caveat": "coverage() names its covered-target predicate union_equals_target even though arbitrary rectangles outside a target are not rejected. Actual listed context/tile/reserve rectangles are appropriate and bounded, so this naming caveat does not invalidate this pack."
+  },
+  "independent_visible_region_inventory": [
+    {
+      "region": "bottom manuscript",
+      "approximate_native_bbox": [
+        90,
+        828,
+        1698,
+        1125
+      ],
+      "observed_layout": "Approximately six horizontal bands, with slanting ascenders/descenders crossing simple row divisions. Final small band lies near the lower card edge. First band is the separately frozen scope.",
+      "semantic_role": "UNKNOWN",
+      "quality": "Most strokes visible at native scale; variable ink density, small final-band writing, watermark overlap, paper/print texture, and joining strokes limit unit boundaries. No global claim that every mark is a cipher symbol."
+    },
+    {
+      "region": "right manuscript block",
+      "context_native_bbox": [
+        1330,
+        50,
+        1705,
+        855
+      ],
+      "observed_layout": "Six long horizontal manuscript bands in the 90CW view plus a shorter lower inscription-like band and detached marks. Native writing is rotated relative to the bottom block.",
+      "semantic_role": "UNKNOWN",
+      "quality": "Many isolated contours visible, but joining strokes, detached points, watermark overlap and band slant complicate segmentation. Short bottom inscription-like band must be inventoried without imposing cipher status."
+    },
+    {
+      "region": "bottom-right junction",
+      "native_bbox": [
+        1330,
+        810,
+        1705,
+        855
+      ],
+      "observed_layout": "Context ROIs overlap here; the same native occurrence can therefore be seen in two packs. Cross-band duplicate candidates require explicit records, never duplicate occurrence counts or visual-family inference.",
+      "semantic_role": "UNKNOWN"
+    },
+    {
+      "region": "reserved original-source regions",
+      "observed_layout": "Viewed in the original image. Central/left illustration, regular translucent circular watermark, paper/card boundary, surrounding white background, and scattered dark surface/print marks. No additional coherent manuscript line observed beyond the two main blocks.",
+      "semantic_role": "UNKNOWN for ambiguous individual dark marks; illustration/watermark/background are visual context, not glyph evidence.",
+      "limit": "Context inventory is not pixelwise authentication of every fleck or faint surface mark."
+    }
+  ],
+  "boundary_assessment": {
+    "bottom": "Visible writing fits in bottom context; arrow-like terminal stroke near lower-right and small lowest band approach card boundary but have surrounding original pixels. Inspect original before calling any cut a source defect.",
+    "right": "Right context contains visible block including edge-near final marks; whole original is available for any boundary dispute.",
+    "firstband": "No annotation assessment yet; frozen content must remain exact and any new evidence recorded separately.",
+    "contour_policy": "Approximate contour boxes with +/-4 pixel tolerance are suitable; exact pixel bounds are unsupported."
+  },
+  "scientific_constraints": [
+    "All semantic roles remain UNKNOWN.",
+    "Handwriting appearance does not establish cipher function.",
+    "Same native occurrence, similar visual form, and historical decipherment proof are separate claims.",
+    "No alphabet-size target or letter assignments.",
+    "Do not label an avoidable crop boundary omission as source insufficiency."
+  ],
+  "status": "Initial source and native-pack review complete; canonical/group review pending."
+}

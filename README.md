@@ -121,3 +121,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Native source257 annotation — 13 October 2026
 
 [56 approximate physical annotations, 33 whole singleton exemplars and 23 unresolved spans; all cipher roles UNKNOWN](research-updates/2026-10-13-native-source257-annotation/README.md).
+
+## Source257 full-card physical map — 13 October 2026
+
+[Corrected 307-record source map, 172 whole constructions, 135 unresolved spans and two checked complete-body graphical groups; all cipher roles UNKNOWN](research-updates/2026-10-13-source257-fullcard-map/README.md).

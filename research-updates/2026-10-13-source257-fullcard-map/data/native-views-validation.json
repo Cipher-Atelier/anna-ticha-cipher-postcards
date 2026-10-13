@@ -1,0 +1,188 @@
+{
+  "schema": "native-detail-pack-validation-v1",
+  "source_matches_supplied_identity": true,
+  "view_count": 30,
+  "all_png_hashes_verified": true,
+  "all_native_crops_equal_original_pixels": true,
+  "all_rotated_views_equal_whole_rightblock_cw_slices": true,
+  "synthetic_test_count": 3,
+  "synthetic_tests_passed": true,
+  "coverage": {
+    "bottom_detail_tiles": {
+      "target_native_bbox": [
+        65,
+        810,
+        1710,
+        1140
+      ],
+      "target_pixels": 542850,
+      "covered_pixels": 542850,
+      "uncovered_pixels": 0,
+      "union_equals_target": true
+    },
+    "rightblock_rotated_tiles": {
+      "target_native_bbox": [
+        1330,
+        50,
+        1705,
+        855
+      ],
+      "target_pixels": 301875,
+      "covered_pixels": 301875,
+      "uncovered_pixels": 0,
+      "union_equals_target": true
+    },
+    "fullcard": {
+      "context_native_rectangles": [
+        [
+          65,
+          810,
+          1710,
+          1140
+        ],
+        [
+          1330,
+          50,
+          1705,
+          855
+        ]
+      ],
+      "reserve_other_native_rectangles": [
+        [
+          0,
+          0,
+          65,
+          50
+        ],
+        [
+          0,
+          50,
+          65,
+          810
+        ],
+        [
+          0,
+          810,
+          65,
+          855
+        ],
+        [
+          0,
+          855,
+          65,
+          1140
+        ],
+        [
+          0,
+          1140,
+          65,
+          1175
+        ],
+        [
+          65,
+          0,
+          1330,
+          50
+        ],
+        [
+          65,
+          50,
+          1330,
+          810
+        ],
+        [
+          65,
+          1140,
+          1330,
+          1175
+        ],
+        [
+          1330,
+          0,
+          1705,
+          50
+        ],
+        [
+          1330,
+          1140,
+          1705,
+          1175
+        ],
+        [
+          1705,
+          0,
+          1710,
+          50
+        ],
+        [
+          1705,
+          50,
+          1710,
+          810
+        ],
+        [
+          1705,
+          1140,
+          1710,
+          1175
+        ],
+        [
+          1710,
+          0,
+          1785,
+          50
+        ],
+        [
+          1710,
+          50,
+          1785,
+          810
+        ],
+        [
+          1710,
+          810,
+          1785,
+          855
+        ],
+        [
+          1710,
+          855,
+          1785,
+          1140
+        ],
+        [
+          1710,
+          1140,
+          1785,
+          1175
+        ]
+      ],
+      "reserve_instruction": "Inspect these remaining regions in the original source context later.",
+      "original_context_filename": "pc_hcp_257_pic.JPG",
+      "target_native_bbox": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "target_pixels": 2097375,
+      "covered_pixels": 2097375,
+      "uncovered_pixels": 0,
+      "union_equals_target": true
+    }
+  },
+  "deliverables": [
+    {
+      "filename": "native_views.py",
+      "file_sha256": "65b1f1689eb30c7479726a188a6b61ad98474ca854b0ea6d635cd5e2a0c5aff9"
+    },
+    {
+      "filename": "test_native_views.py",
+      "file_sha256": "471d2b8806bc57eaa72f218c4d9107afced4263444dcce5ab9654f75b2fb53bb"
+    },
+    {
+      "filename": "native-views-manifest.json",
+      "file_sha256": "69745a00a2dca6e8609a306679df9844d706042eed7602d31b68a72ecd39a2ec"
+    }
+  ]
+}
