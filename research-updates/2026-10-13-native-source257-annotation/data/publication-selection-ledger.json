@@ -1,0 +1,104 @@
+{
+  "schema": "native-source257-publication-selection-v1",
+  "policy": "Whole-file hashes identify private inputs; filtered selections are not exact full copies. No images, books, private letters, per-letter hashes, operational prompts or raster-reconstructing arrays published.",
+  "selections": [
+    {
+      "input_basename": "reconciled-native-annotation-v1.json",
+      "input_whole_file_sha256": "bdb98089160dea39306bdce159c0d9bed88fc6eab7f75aaf7bc6a25ed2cd9c91",
+      "output": "data/reconciled-native-annotation-v1.json",
+      "transformation": "byte-identical copy",
+      "output_sha256": "bdb98089160dea39306bdce159c0d9bed88fc6eab7f75aaf7bc6a25ed2cd9c91"
+    },
+    {
+      "input_basename": "native-annotation-A-v1.json",
+      "input_whole_file_sha256": "ea4a3a7feb8686807f607e019bb05f0133084905990a19f31181cffd66390628",
+      "output": "data/native-annotation-A-v1.json",
+      "transformation": "selected top-level scientific fields record_type, version, units, classes, regions, residuals, alternative-partitions, evidence, limits, provenance, status, counts; internal paths reduced to basenames; JSON reserialized",
+      "output_sha256": "c3198f296c89e1b81eec227028ce74edc1b37822a44c7f8e82d0e845ebaa43de"
+    },
+    {
+      "input_basename": "native-annotation-B-v1.json",
+      "input_whole_file_sha256": "3cb9ba3869c95a7b4af488bb5be343ae9b25483e01bf29242bcc5086de4a34d6",
+      "output": "data/native-annotation-B-v1.json",
+      "transformation": "selected top-level scientific fields schema, status, source, roi, coordinate_system, units, classes, correlated_partition_and_ownership_alternatives, unallocated_detached_marks, residual_unannotated_extents, source_quality, limits, counts; internal paths reduced to basenames; JSON reserialized",
+      "output_sha256": "b9d2151d8b464bca221fd293f85cb5403e124afa601976f3cba661ccdd02b6e8"
+    },
+    {
+      "input_basename": "reconciliation-evidence-v1.json",
+      "input_whole_file_sha256": "81a79ddcf8bf3decd7966e17c00284f35aaf0a8e56702fbf7f2982f4c10b3c0a",
+      "output": "data/reconciliation-evidence-v1.json",
+      "transformation": "selected top-level scientific fields schema, input_hashes, original_verification, roi_verification, mapping_by_native_intersection, actual_differences, method; internal paths reduced to basenames; JSON reserialized",
+      "output_sha256": "cbc061a930f6b49c7b82406ae5dbf39d13aa8f8d61d28b9b82e5d1ef6c443f42"
+    },
+    {
+      "input_basename": "provenance.json",
+      "input_whole_file_sha256": "0453b7f0911c789584f5734517321f968963ad39a2c693199fb98a729e045183",
+      "output": "data/provenance.json",
+      "transformation": "internal paths reduced to basenames; operational chronology/reader removed; JSON reserialized",
+      "output_sha256": "196e02517fa059e35c61338a46a411fcffd61a08aa9b948b11280422e4e6bdab"
+    },
+    {
+      "input_basename": "old-input-diagnosis-v2.json",
+      "input_whole_file_sha256": "906715f1b1f7cea0c2757342f21a89beff84e1c71dacd8c4beaee48dc6db8bb8",
+      "output": "data/old-input-diagnosis-v2.json",
+      "transformation": "internal paths reduced to basenames; operational chronology/reader removed; JSON reserialized",
+      "output_sha256": "75121c3b8256795a9c365f8030c190ce2a04d73a69f16db38570a7a58733ab6c"
+    },
+    {
+      "input_basename": "independent-native-annotation-scientific-review-v1.json",
+      "input_whole_file_sha256": "e9b6de831b4ada82386b5f98fab4901dedc81120e421197976333ea1c408bf36",
+      "output": "data/independent-native-annotation-scientific-review-v1.json",
+      "transformation": "internal paths reduced to basenames; operational chronology/reader removed; JSON reserialized",
+      "output_sha256": "e9b6de831b4ada82386b5f98fab4901dedc81120e421197976333ea1c408bf36"
+    },
+    {
+      "input_basename": "candidate_pack.json",
+      "input_whole_file_sha256": "00a66845aac3413bec36ae7cfb15dd9ddc81c696d18b36130027c78e5c2d01db",
+      "output": "data/candidate-pack-selected.json",
+      "transformation": "Aggregate per-threshold component_count/foreground_pixels and per-pair relation-type/degree counts only. Individual component boxes/areas/edges, RLE masks, pixel intersection indices, projections, zero-column lists and histogram excluded; area-1 boxes could disclose exact pixels.",
+      "output_sha256": "6342003e6d0c137af67be08d008b2c094e53dab3e9d7b7bebf9e0b2744575d9f"
+    },
+    {
+      "input_basename": "native_annotation_diagnostics_v3.py",
+      "input_whole_file_sha256": "3cb4615ea3f08c68bd9ad57512ae0107422d059481fe1b50ae6312c18e268175",
+      "output": "code/native_annotation_diagnostics_v3.py",
+      "transformation": "byte-identical copy",
+      "output_sha256": "3cb4615ea3f08c68bd9ad57512ae0107422d059481fe1b50ae6312c18e268175"
+    },
+    {
+      "input_basename": "test_native_annotation_diagnostics_v3.py",
+      "input_whole_file_sha256": "b81a0aeb3c10a9c369be1b9cc96ecb913118f11925cc5836b5c1c244068b8a26",
+      "output": "code/test_native_annotation_diagnostics_v3.py",
+      "transformation": "byte-identical copy",
+      "output_sha256": "b81a0aeb3c10a9c369be1b9cc96ecb913118f11925cc5836b5c1c244068b8a26"
+    },
+    {
+      "input_basename": "test_pixel_candidates.py",
+      "input_whole_file_sha256": "7791d3b2c0b96efeefe6fb59f91e8947d52169100d75df59fde2f019f0d1b335",
+      "output": "code/test_pixel_candidates.py",
+      "transformation": "byte-identical copy",
+      "output_sha256": "7791d3b2c0b96efeefe6fb59f91e8947d52169100d75df59fde2f019f0d1b335"
+    },
+    {
+      "input_basename": "pixel_candidates.py",
+      "input_whole_file_sha256": "a4903e849bbb0d5f874a3d204e173ecc4265897d2e97aa7fc06b44c8728ae459",
+      "output": "code/pixel_candidates.py",
+      "transformation": "Removed hardcoded personal SOURCE/BASE paths; added explicit INPUT OUTPUT_ROOT argparse CLI and output-directory creation; provenance paths changed to basenames. Fixed thresholds, ROI, crop boxes, assertions, component and relation algorithms unchanged. Local outputs still contain private RLE and intersection indices. No automatic download.",
+      "output_sha256": "2e286e0549ea0d09d45b2d9c24e1769bf1989efc9f66f8dc51d175f8c0478e01"
+    },
+    {
+      "input_basename": "independent-validator-v3-review-v1.json",
+      "input_whole_file_sha256": "a5be1c2761cff1108bd65bf2a4d49d667048c93c2ad042fdcd54f043dc1e2501",
+      "output": "data/independent-validator-v3-review-v1.json",
+      "transformation": "Scientific review retained; operational scope string removed; JSON reserialized",
+      "output_sha256": "4bbefb1c305b9768f379cce5b3adaf97b41dcb79596078534bf604031d57f92a"
+    },
+    {
+      "input_basename": "actualnative-annotation-diagnostics-v2.json",
+      "input_whole_file_sha256": "bb86a8327528ab480f7f8f64a563e533d6dfe2786311d9d56f386462e5d01910",
+      "output": "data/actualnative-annotation-diagnostics-v3.json",
+      "transformation": "Fresh standalone v3 execution on byte-identical canonical annotation; output byte-identical to preserved diagnostic v1/v2",
+      "output_sha256": "bb86a8327528ab480f7f8f64a563e533d6dfe2786311d9d56f386462e5d01910"
+    }
+  ]
+}

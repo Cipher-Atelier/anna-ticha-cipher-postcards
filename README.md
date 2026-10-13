@@ -112,8 +112,12 @@ Read the current result and source limitations, then coordinate a bounded task i
 
 ## Key-foundation audit — 13 October 2026
 
-[Seven hypothetical legacy claims lack established independent letter foundations; a fresh rebuild test remains NOT RUN](research-updates/2026-10-13-key-foundation-audit/README.md).
+[Seven hypothetical legacy claims lack established independent letter foundations; historical plan (subsequently executed in the rebuild report below)](research-updates/2026-10-13-key-foundation-audit/README.md).
 
 ## Executed rebuild257/258 — 13 October 2026
 
 [Actual source-unavailable development attempt and six negative numerical controls;258 transfer not executed](research-updates/2026-10-13-executed-rebuild257258/README.md).
+
+## Native source257 annotation — 13 October 2026
+
+[56 approximate physical annotations, 33 whole singleton exemplars and 23 unresolved spans; all cipher roles UNKNOWN](research-updates/2026-10-13-native-source257-annotation/README.md).
