@@ -137,3 +137,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Source257 repeat candidates and spatial references — 14 October 2026
 
 [47 new graphical candidate edges, 15 overlapping cliques and 307 spatial annotation references, with explicit deferred comparisons and no cipher identities](research-updates/2026-10-14-source257-repeat-sequence/README.md).
+
+## Source257 conflict and route review — 14 October 2026
+
+[38 disputed pairs remain unresolved; a narrow FC209 locator erratum leaves the historical candidate graph unchanged](research-updates/2026-10-14-source257-conflict-route-review/README.md).

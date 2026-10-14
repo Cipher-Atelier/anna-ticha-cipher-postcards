@@ -1,0 +1,50 @@
+{
+  "schema": "source257-conflict-route-historical-audit-output-format-v1",
+  "purpose": "FORMAT_GUIDANCE_ONLY_NO_SCIENTIFIC_JUDGMENTS",
+  "report_schema": "source257-conflict-route-historical-audit-v1",
+  "phase": "POST_BOTH_INITIAL_FREEZES_HISTORICAL_AUDIT",
+  "exposure_rule": "Read only the supplied compact historical claims and your own frozen initial report. The other initial report need not be read. Both initial hashes are identity pins supplied by the coordinator; they do not imply exposure or blind agreement in this later phase.",
+  "required_root_fields": ["schema", "reader", "phase", "frozen_utc", "input_pins", "exposure", "target_audit_records", "pair_audit_records", "correction_claims", "support_qualification_records"],
+  "input_pins": {
+    "baseline_sha256": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348",
+    "reader_A_sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+    "reader_B_sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+    "historical_claims_sha256": "EXACT_WHOLE_SUPPLIED_COMPACT_CLAIMS_FILE_SHA256",
+    "audit_output_format_sha256": "EXACT_WHOLE_THIS_FORMAT_FILE_SHA256"
+  },
+  "exposure_shape": {"own_initial_report_read": "BOOLEAN", "compact_historical_claims_read": "BOOLEAN", "other_initial_report_read": "BOOLEAN", "details": "Truthful actual exposure statement; this phase is not blind agreement"},
+  "coverage": "target_audit_records covers each exact protocol target ID once; pair_audit_records covers each exact protocol pair ID once, including unresolved or unchanged cases. Empty correction_claims and support_qualification_records are valid.",
+  "target_audit_record_shape": {"id": "PROTOCOL_TARGET_ID", "status": "NO_CONFIRMED_LITERAL_CORRECTION_OR_SOURCE_FACT_CORRECTION_CLAIMED_OR_SUPPORT_QUALIFICATION_ONLY_OR_SOURCE_UNRESOLVED", "claim_ids": "List of correction claim IDs, possibly empty", "support_qualification_ids": "List of qualification IDs, possibly empty", "own_initial_source_fact_refs": "Only own-initial /target_observations/INDEX/... JSON pointers", "grounds": "Concrete relation to the historical claim and retained uncertainty"},
+  "pair_audit_record_shape": {"pair_id": "PROTOCOL_PAIR_ID", "member_ids": "Exact two sorted protocol target IDs", "status": "NO_CONFIRMED_CORRECTION_OR_CORRECTION_AFFECTS_COMPARISON_OR_SUPPORT_QUALIFICATION_ONLY_OR_SOURCE_UNRESOLVED", "claim_ids": "List of correction claim IDs, possibly empty", "support_qualification_ids": "List of qualification IDs, possibly empty", "own_initial_pair_ref": "/pair_observations/INDEX", "grounds": "Concrete claim comparison; do not create a new pair verdict by historical prose"},
+  "correction_claim_shape": {
+    "claim_id": "Globally unique ID prefixed with reader label",
+    "claim_kind": "SOURCE_FACT_CORRECTION",
+    "target_ids": "Relevant protocol target IDs",
+    "old_fact_reference": {"artifact_sha256": "Exact scientific SHA of old declared artifact", "json_pointer": "Exact old field JSON pointer"},
+    "old_literal": "Exact old JSON field value, not a paraphrase",
+    "corrected_source_fact": "Concrete source-supported correction; disagreement or lower certainty alone is not a new contrary fact",
+    "new_source_fact_refs": "List of {reader:A_OR_B,json_pointer:/target_observations/INDEX/...} citing ONLY your own frozen initial facts",
+    "native_locator_boxes": "Native witness search rectangles relevant to each stated target",
+    "source_context_ids": "Actual known context IDs",
+    "dependent_edge_claims": "List of dependent_edge_claim_shape records only when a specific accepted authority is actually implicated; otherwise empty"
+  },
+  "support_qualification_shape": {
+    "qualification_id": "Globally unique ID prefixed with reader label",
+    "target_ids": "Relevant protocol target IDs",
+    "pair_ids": "Relevant protocol pair IDs",
+    "kind": "OVERSTATEMENT_OF_CERTAINTY_OR_RETRACTION_OF_PREVIOUS_SOURCE_SUPPORT_CLAIM_OR_HISTORICAL_DISAGREEMENT_ONLY",
+    "old_fact_reference": {"artifact_sha256": "Exact old artifact scientific SHA", "json_pointer": "Exact old field pointer"},
+    "old_literal": "Exact old JSON field value",
+    "qualification": "What the visible source supports, leaves unresolved, or no longer justifies; do not relabel uncertainty as a factual opposite",
+    "own_initial_source_fact_refs": "Only own initial source fact JSON references",
+    "native_locator_boxes": "Native source witnesses",
+    "source_context_ids": "Actual known context IDs",
+    "dependent_edge_claims": "Exact source-authority dependency claims only, never automatic quarantine of all incident edges"
+  },
+  "dependent_edge_claim_shape": {
+    "pair_id": "Exact already accepted baseline edge ID",
+    "accepted_edge_evidence_reference": "Exact baseline graph edge evidence_reference object",
+    "fact_dependency_grounds": "Why this precise accepted authority relies on the questioned fact; identify whether final source evidence already accounts for it"
+  },
+  "limits": "Original initial reports and D12 historical graph remain immutable. A later final source audit decides whether any literal correction or exact accepted-edge dependency is established. Repeated disagreement is not an erratum, and uncertainty does not automatically quarantine an edge. No extra comparison selection or source views are authorized by this format."
+}

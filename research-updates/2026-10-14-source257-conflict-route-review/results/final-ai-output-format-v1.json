@@ -1,0 +1,44 @@
+{
+  "schema": "source257-conflict-route-final-ai-output-format-v1",
+  "purpose": "FORMAT_GUIDANCE_ONLY_NO_SOURCE_JUDGMENTS",
+  "report_schema": "source257-conflict-route-final-ai-v1",
+  "required_root_fields": ["schema", "reviewer", "frozen_utc", "input_pins", "conditioning", "source_verification", "coverage", "target_observations", "pair_reviews", "correction_reviews", "qualification_reviews", "quarantine_reviews"],
+  "input_pins": {
+    "protocol_sha256": "554f461bcf6a210b3bb91da3a36b78042410649083840002413f0bcc82d388dc",
+    "baseline_sha256": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348",
+    "reader_A_sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+    "reader_B_sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+    "historical_A_sha256": "ACTUAL_FROZEN_A_AUDIT_WHOLE_FILE_SHA256",
+    "historical_B_sha256": "ACTUAL_FROZEN_B_AUDIT_WHOLE_FILE_SHA256",
+    "historical_claims_sha256": "ACTUAL_SUPPLIED_COMPACT_HISTORICAL_CLAIMS_WHOLE_SHA256",
+    "final_output_format_sha256": "ACTUAL_WHOLE_THIS_FORMAT_FILE_SHA256"
+  },
+  "conditioning_shape": {"both_initials_read": "BOOLEAN", "historical_addenda_read": "BOOLEAN", "is_blind_agreement": false, "details": "Truthful disclosure of source/cohort and later historical conditioning; this is separate AI checking, not external expert or independent-source validation"},
+  "source_verification_shape": {"whole_original_encoded_sha256": "WHOLE_ORIGINAL_ENCODED_SHA256", "whole_original_rgb_sha256": "WHOLE_ORIGINAL_RGB_SHA256", "whole_private_proof_json_sha256": "WHOLE_PRIVATE_PROOF_JSON_SHA256_ONLY", "proof_before_view": "BOOLEAN", "target_binding_is_source_judgment": true},
+  "coverage_shape": {"actual_pair_ids_viewed": "Each exact protocol pair ID once", "actual_target_ids_inspected": "Each exact protocol target ID once", "source_board_ids": "Actual native paired board IDs viewed", "scope": "FIXED38_ONLY"},
+  "target_observations": "Exactly the protocol target IDs once, using target_record_shape and route_element_shape from the frozen source-reader output format. These are current final source facts and may remain unresolved; preserve competing routes, ownership and visibility. Do not copy the historical baseline or its full source map.",
+  "pair_reviews": "Each exact protocol pair once using pair_record_shape from the source-reader format, including actual_native_board_id, direct coverage, all eight paired source comparisons and native witnesses, significant_variation, remaining_uncertainty and UNKNOWN cipher identity/letter. candidate_outcome uses the same four source-reader outcome enums. Fresh-reader conflicts or missing ownership/visibility gates remain unresolved; no majority vote or prose-only negative.",
+  "correction_review_shape": {
+    "claim_id": "Exact historical correction_claims ID; cover every supplied correction claim once",
+    "decision": "SUPPORTED_SOURCE_FACT_CORRECTION_OR_UNRESOLVED_OR_REPEATED_DISAGREEMENT",
+    "grounds": "Exact old literal versus positively supported new source fact; distinguish a factual error from merely weaker visibility or another opinion",
+    "native_locator_boxes": "Native source witnesses",
+    "source_context_ids": "Actual known target context IDs"
+  },
+  "qualification_review_shape": {
+    "qualification_id": "Exact historical support_qualification_records ID; cover every supplied qualification once",
+    "decision": "SUPPORTED_SOURCE_SUPPORT_QUALIFICATION_OR_REPEATED_DISAGREEMENT_ONLY_OR_SOURCE_QUALIFICATION_UNRESOLVED",
+    "grounds": "Whether the precise old support/absence claim is overstated, retracted or still unresolved; a qualification is not automatically a contrary source fact",
+    "native_locator_boxes": "Native source witnesses",
+    "source_context_ids": "Actual known target context IDs"
+  },
+  "quarantine_review_shape": {
+    "pair_id": "Exact accepted baseline edge implicated by an explicit historical dependency claim",
+    "claim_id_or_qualification_id": "Use key claim_id for a correction or qualification_id for a support qualification",
+    "decision": "QUARANTINE_EXACT_DEPENDENT_EDGE_OR_RETAIN_FINAL_EVIDENCE_ACCOUNTS_FOR_FACT",
+    "accepted_authority_effect": "SOURCE_FACT_CONTRADICTED_OR_SPECIFIC_AUTHORITATIVE_SUPPORT_NOT_ESTABLISHED_OR_EXISTING_FINAL_EVIDENCE_ACCOUNTS_FOR_FACT",
+    "grounds": "Exact dependency on the questioned source fact/support claim and why the existing accepted final evidence does or does not already account for it. No blanket quarantine of all incident or overlapping-clique edges."
+  },
+  "empty_lists": "correction_reviews, qualification_reviews or quarantine_reviews may be empty when their actual input scope is empty. No target outcome count is prescribed.",
+  "limits": "A new SAME or graphical difference requires the full paired feature/ownership/visibility gates from both fresh readers and this separate final source audit. Only positive visible topology, enclosure, attachment or terminal-presence incompatibility can support DIFFERENT; unvalidated direction, length or bar-height variation cannot. Preserve initial reports and historical D12 graph. Current graph updates use only gated new SAME edges and exact source-audited quarantines; overlapping cliques remain sets. No new 772 comparison, cipher letter, alphabet partition or reading order is authorized here. Default offline checks verify published bytes and source attestations without opening images/private proofs; they do not mechanically prove physical target binding."
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "source257-conflict-route-reader-output-format-v1",
+  "purpose": "FORMAT_GUIDANCE_ONLY_NO_OBSERVATIONS_OR_HISTORICAL_OUTCOMES",
+  "report_schema": "source257-conflict-route-reader-initial-v1",
+  "phase": "INITIAL_SOURCE_ONLY_FROZEN",
+  "required_root_fields": ["schema", "reader", "phase", "frozen_utc", "input_pins", "original_source_pins", "whole_private_proof_json_sha256", "prior_exposure", "actual_pair_ids_viewed", "target_observations", "pair_observations"],
+  "root_field_shapes": {
+    "reader": "Safe human-readable label without operational task paths",
+    "input_pins": {"safe_protocol_sha256": "WHOLE_FILE_SHA256", "safe_intake_sha256": "WHOLE_FILE_SHA256", "context_index_sha256": "WHOLE_FILE_SHA256", "output_format_sha256": "WHOLE_FILE_SHA256"},
+    "original_source_pins": {"encoded_sha256": "WHOLE_ORIGINAL_FILE_SHA256", "rgb_sha256": "WHOLE_ORIGINAL_RGB_SHA256"},
+    "whole_private_proof_json_sha256": "WHOLE_PROOF_JSON_SHA256_ONLY_NO_PANEL_PIXEL_HASHES",
+    "prior_exposure": {"geometry_and_cohort_selection_seen": "BOOLEAN", "historical_feature_or_outcome_claims_seen": "BOOLEAN", "other_initial_reader_report_seen": "BOOLEAN", "details": "Concrete truthful exposure statement"},
+    "actual_pair_ids_viewed": "Unique pair IDs actually inspected on native paired boards; exactly the intake scope",
+    "target_observations": "List of target records covering exactly the intake target IDs",
+    "pair_observations": "List of pair records covering exactly the intake pair IDs"
+  },
+  "target_record_shape": {
+    "id": "ANNOTATION_ID_FROM_INTAKE",
+    "approved_target_native_bbox_xyxy_halfopen": "EXACT_INTAKE_SEARCH_LOCATOR_NOT_MASK",
+    "frame": "EXACT90CW_OR_NATIVE0_AS_INTAKE",
+    "source_context_ids": "Actual tight and expanded context IDs for this target",
+    "full_route_description": "Fresh source-specific complete route description",
+    "binding_state": "SUPPORTED_TARGET_ROUTE_OR_CONNECTION_OR_BINDING_UNRESOLVED",
+    "eight_features": {
+      "FEATURE_DIMENSION_FROM_SAFE_PROTOCOL": {
+        "observation": "Fresh concrete source fact; name unresolved information explicitly",
+        "certainty": "SOURCE_SUPPORTED_OR_UNRESOLVED",
+        "native_locator_boxes": "List of valid native-coordinate search rectangles relevant to this target route",
+        "source_context_ids": "Known source context IDs for this target",
+        "absence_claim": "BOOLEAN",
+        "relevant_route_visibility": "FULL_OR_UNRESOLVED"
+      }
+    },
+    "free_end_observations": "List of route_element_shape records; include unresolved competing endpoints rather than treating them as absent",
+    "bar_return_junctions": "List of route_element_shape records",
+    "competing_routes": "List of records with neighbor_ids, native_locator_boxes, source_context_ids, ownership, actual_visibility, continuity_source_witness",
+    "cipher_identity": "UNKNOWN",
+    "letter_value": "UNKNOWN"
+  },
+  "route_element_shape": {
+    "description": "Concrete source fact about a free end, bar, return or junction",
+    "native_locator_boxes": "Native-coordinate search rectangles",
+    "source_context_ids": "Known target context IDs",
+    "ownership": "TARGET_ROUTE_OR_NEIGHBOR_ROUTE_OR_UNRESOLVED",
+    "actual_visibility": "FULL_OR_UNRESOLVED",
+    "continuity_source_witness": "Concrete continuity/independent-ending evidence; no proximity-only ownership",
+    "neighbor_ids": "Referenced competing annotation IDs, or empty list when none identified"
+  },
+  "pair_record_shape": {
+    "pair_id": "CANONICAL_SORTED_ID_DOUBLE_HYPHEN_ID",
+    "member_ids": "Two sorted intake target IDs",
+    "actual_native_board_id": "Known paired board ID containing this pair's target tight/context views",
+    "coverage": "DIRECT_NATIVE_PAIRED_SOURCE_INSPECTION",
+    "eight_paired_comparisons": {
+      "FEATURE_DIMENSION_FROM_SAFE_PROTOCOL": {
+        "left_target_feature_ref": "/target_observations/INDEX/eight_features/FEATURE_DIMENSION",
+        "right_target_feature_ref": "/target_observations/INDEX/eight_features/FEATURE_DIMENSION",
+        "paired_source_grounds": "Concrete paired source relation; preserve observed variation",
+        "relation": "SUPPORTED_COMPATIBLE_OR_POSITIVELY_INCOMPATIBLE_OR_UNRESOLVED",
+        "native_locator_boxes_left": "Native search rectangles",
+        "native_locator_boxes_right": "Native search rectangles",
+        "source_context_ids": "Known tight/context IDs for both targets",
+        "relevant_visibility_left": "FULL_OR_UNRESOLVED",
+        "relevant_visibility_right": "FULL_OR_UNRESOLVED",
+        "ownership_supported_left": "BOOLEAN",
+        "ownership_supported_right": "BOOLEAN",
+        "incompatibility_kind": "TOPOLOGY_OR_ENCLOSURE_OR_ATTACHMENT_OR_TERMINAL_PRESENCE_OR_UNVALIDATED_VARIATION_OR_NONE"
+      }
+    },
+    "candidate_outcome": "One allowed_candidate_outcomes value; never a cipher cannot-link",
+    "significant_variation": "List of concrete variations; do not normalize a terminal/bar/return away",
+    "remaining_uncertainty": "List of concrete missing/ambiguous observations, or empty list",
+    "cipher_identity": "UNKNOWN",
+    "letter_value": "UNKNOWN"
+  },
+  "allowed_candidate_outcomes": ["SAME_FULL_VISIBLE_FEATURE_CANDIDATE", "DIFFERENT_FULL_VISIBLE_GRAPHICS", "VISIBLE_VARIATION_RELATION_UNRESOLVED", "CONNECTION_OR_BINDING_UNRESOLVED"],
+  "serialization": "UTF-8 JSON; freeze initial report before reading historical claims or the other initial report. Later historical audits are separate immutable addenda. Omit all per-panel/body/row pixel hash values."
+}
