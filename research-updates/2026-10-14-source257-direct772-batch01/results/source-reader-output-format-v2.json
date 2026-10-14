@@ -1,0 +1,141 @@
+{
+  "schema": "source257-direct772-reader-output-format-v2",
+  "purpose": "FORMAT_GUIDANCE_ONLY_NO_SOURCE_OBSERVATIONS_OR_PREVIOUS_FEATURE_CLAIMS",
+  "report_schema": "source257-direct772-reader-initial-v1",
+  "phase": "INITIAL_SOURCE_ONLY_FROZEN",
+  "required_root_fields": [
+    "schema",
+    "reader",
+    "phase",
+    "frozen_utc",
+    "input_pins",
+    "original_source_pins",
+    "whole_private_proof_json_sha256",
+    "proof_before_view",
+    "prior_exposure",
+    "coverage",
+    "target_observations",
+    "pair_observations"
+  ],
+  "root_field_shapes": {
+    "reader": "Safe human-readable reader label without operational task paths",
+    "frozen_utc": "ISO8601 timestamp with timezone, after actual paired source inspection",
+    "input_pins": {
+      "safe_protocol_sha256": "WHOLE_FILE_SHA256",
+      "safe_intake_sha256": "WHOLE_FILE_SHA256",
+      "queue_sha256": "WHOLE_FILE_SHA256",
+      "context_index_sha256": "WHOLE_FILE_SHA256",
+      "output_format_sha256": "WHOLE_FILE_SHA256"
+    },
+    "original_source_pins": {
+      "encoded_sha256": "WHOLE_ORIGINAL_FILE_SHA256",
+      "rgb_sha256": "WHOLE_ORIGINAL_RGB_SHA256"
+    },
+    "whole_private_proof_json_sha256": "Whole independently checked private proof JSON SHA256; no per-panel pixel hashes or private proof rows",
+    "proof_before_view": "BOOLEAN truthful attestation; does not mechanically prove physical target binding",
+    "prior_exposure": {
+      "geometry_and_batch_selection_seen": "BOOLEAN",
+      "historical_feature_or_outcome_claims_seen": "BOOLEAN",
+      "other_initial_reader_report_seen": "BOOLEAN",
+      "details": "Concrete truthful exposure statement; initial report frozen before either forbidden exposure"
+    },
+    "coverage": {
+      "scope": "FIXED_FIRST64_ONLY",
+      "actual_pair_ids_viewed": "Exactly the 64 unique intake pair IDs actually inspected",
+      "actual_target_ids_inspected": "Exactly the 36 unique intake target IDs",
+      "actual_board_ids_viewed": "Exactly the 16 paired-board IDs actually inspected"
+    },
+    "target_observations": "Exactly 36 records, one per source target, facts reusable by exact pair references",
+    "pair_observations": "Exactly 64 records, one per directly inspected source pair; no records for unchecked queue remainder"
+  },
+  "feature_dimensions": [
+    "path_topology",
+    "enclosures",
+    "openings",
+    "stem_pattern",
+    "attached_bars",
+    "connected_extra_strokes",
+    "terminal_pattern",
+    "owned_mark_profile"
+  ],
+  "target_record_shape": {
+    "id": "ANNOTATION_ID_FROM_SAFE_INTAKE",
+    "approved_target_native_bbox_xyxy_halfopen": "Exact intake approximate search locator, not an ink mask",
+    "frame": "EXACT90CW_OR_NATIVE0_AS_INTAKE",
+    "source_context_ids": "Known TIGHT and CONTEXT IDs belonging to this target",
+    "full_route_description": "Concise fresh complete-route observation, preserving uncertain connections",
+    "binding_state": "SUPPORTED_TARGET_ROUTE_OR_UNRESOLVED",
+    "complete_route_visibility": "FULL_OR_UNRESOLVED",
+    "eight_features": {
+      "EACH_OF_THE_EIGHT_DIMENSIONS": {
+        "observation": "Concrete fresh source fact or explicitly unresolved information",
+        "certainty": "SOURCE_SUPPORTED_OR_UNRESOLVED",
+        "native_locator_boxes": "Valid approximate native-coordinate witness rectangles inside named source contexts",
+        "source_context_ids": "Known target source contexts",
+        "ownership": "TARGET_ROUTE_OR_UNRESOLVED",
+        "relevant_route_visibility": "FULL_OR_UNRESOLVED",
+        "absence_claim": "BOOLEAN; absence requires positively supported owned full relevant visibility",
+        "continuity_source_witness": "Explicit visible route continuity/ownership grounds for this feature, or explicitly unresolved. Required even when locator intersects the approximate target box; owned witnesses outside that box require source continuity grounds independent of rectangle overlap."
+      }
+    },
+    "free_end_observations": "List of route_element_shape; include competing or unresolved endpoints rather than assuming absence",
+    "bar_return_junctions": "List of route_element_shape; any claimed absence must be stated and supported in the corresponding feature",
+    "competing_routes": "List of route_element_shape; neighbor witnesses may lie outside the target locator but inside its named context",
+    "cipher_identity": "UNKNOWN",
+    "letter_value": "UNKNOWN"
+  },
+  "route_element_shape": {
+    "description": "Concrete endpoint/bar/return/junction or competing-route source fact",
+    "native_locator_boxes": "Approximate native-coordinate witness rectangles",
+    "source_context_ids": "Known target contexts",
+    "ownership": "TARGET_ROUTE_OR_NEIGHBOR_ROUTE_OR_UNRESOLVED",
+    "actual_visibility": "FULL_OR_UNRESOLVED",
+    "continuity_source_witness": "Visible connection or independent ending; proximity alone is insufficient",
+    "neighbor_ids": "Known neighboring annotation IDs, or empty list"
+  },
+  "pair_record_shape": {
+    "pair_id": "CANONICAL_SORTED_ID_DOUBLE_HYPHEN_ID",
+    "member_ids": "Two sorted intake IDs",
+    "actual_native_board_id": "Known paired board containing this pair TIGHT/CONTEXT views",
+    "coverage": "DIRECT_NATIVE_PAIRED_SOURCE_INSPECTION",
+    "eight_paired_comparisons": {
+      "EACH_OF_THE_EIGHT_DIMENSIONS": {
+        "left_target_feature_ref": "/target_observations/INDEX/eight_features/FIELD",
+        "right_target_feature_ref": "/target_observations/INDEX/eight_features/FIELD",
+        "paired_source_grounds": "Concise actual paired relation, without duplicating target descriptions or suppressing variation",
+        "relation": "SUPPORTED_COMPATIBLE_OR_OBSERVED_DIFFERENCE_OR_UNRESOLVED",
+        "native_locator_boxes_left": "Approximate native witness rectangles",
+        "native_locator_boxes_right": "Approximate native witness rectangles",
+        "source_context_ids": "Known source contexts for both pair members",
+        "relevant_visibility_left": "FULL_OR_UNRESOLVED",
+        "relevant_visibility_right": "FULL_OR_UNRESOLVED",
+        "ownership_supported_left": "BOOLEAN",
+        "ownership_supported_right": "BOOLEAN",
+        "difference_kind": "STRUCTURAL_FEATURE_DIFFERENCE_OR_VISIBLE_FORM_VARIATION_OR_NONE"
+      }
+    },
+    "candidate_outcome": "One allowed_candidate_outcomes value",
+    "significant_variation": "List of concrete observed variations, even when other comparisons remain uncertain",
+    "remaining_uncertainty": "List of actual unresolved binding, visibility or relation issues; empty only when none remain",
+    "cipher_identity": "UNKNOWN",
+    "letter_value": "UNKNOWN",
+    "allographic_significance": "UNKNOWN"
+  },
+  "allowed_candidate_outcomes": [
+    "FULL_GRAPHICAL_REPEAT_SUPPORT",
+    "OBSERVED_GRAPHICAL_DIFFERENCE",
+    "UNCERTAIN"
+  ],
+  "decision_rules": [
+    "FULL_GRAPHICAL_REPEAT_SUPPORT requires positively supported compatibility of the complete construction and all eight significant features, full owned target routes and relevant endpoints/bars/returns/marks; unknown is never compatible by default.",
+    "OBSERVED_GRAPHICAL_DIFFERENCE requires at least one concrete positively seen owned difference with FULL relevant visibility on both targets and exact feature/source references. Record STRUCTURAL_FEATURE_DIFFERENCE or VISIBLE_FORM_VARIATION; both have UNKNOWN cipher and allographic significance.",
+    "An unrelated uncertain dimension does not erase a visible paired difference. Unresolved ownership/visibility of the asserted difference, blur, prose inequality or unknown interpreted as absence cannot support it.",
+    "UNCERTAIN preserves actual observed variations and identifies the missing source binding, visibility or unresolved relation. Do not infer new observations for any unchecked queue pair.",
+    "No initial report reads the other reader or historical feature/outcome claims before both initial reports freeze; disclose actual prior exposure truthfully.",
+    "Native coordinates and source context membership are locators, not physical route masks or mechanical ownership proofs. Source continuity/ownership remains the reader judgment.",
+    "Approximate target-box intersection is never a hard ownership or containment gate. Witnesses must lie inside the correct expanded context and bind the exact target/frame/feature references; owned witnesses outside the approximate box require explicit source continuity grounds. Rectangle overlap alone never proves binding.",
+    "A final aggregate requires actual relevant source grounds, not matching outcome votes. Preserve every raw locally observed difference and uncertainty even when aggregate UNCERTAIN; do not silently normalize terminal, return, position or extent variation away for repeat support."
+  ],
+  "serialization": "UTF-8 JSON, immutable initial report. Omit per-panel/body/row pixel hashes and private proof rows. Use exact source references within this report; no historical labels, graph classes, letters or global reading-order assumptions.",
+  "supersedes_format_sha256": "eedd93736d95acb8d10fb8da69eeb209b0339d40d6dc8c3deefc81058b8f4ef3"
+}

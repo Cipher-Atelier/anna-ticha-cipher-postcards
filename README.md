@@ -141,3 +141,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Source257 conflict and route review — 14 October 2026
 
 [38 disputed pairs remain unresolved; a narrow FC209 locator erratum leaves the historical candidate graph unchanged](research-updates/2026-10-14-source257-conflict-route-review/README.md).
+
+## Source257 direct comparisons, batch 1 — 14 October 2026
+
+[First 64 of 772 pairs directly checked, with observed contour variations and 708 uninspected; next pair FC015--FC125](research-updates/2026-10-14-source257-direct772-batch01/README.md).

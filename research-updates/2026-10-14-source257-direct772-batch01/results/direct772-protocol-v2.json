@@ -1,0 +1,105 @@
+{
+  "schema": "source257-direct772-bounded-protocol-v2",
+  "frozen_utc": "2026-10-14T02:51:44Z",
+  "frozen_before_new_pair_source_views_and_results": true,
+  "authorization": "New explicit user request authorizes a separate bounded direct comparison stage of the available772 pairs. D13's no-new-feature admission condition does not apply; its historical files remain unchanged.",
+  "parent_publication": {
+    "commit": "e65cc4eb9e2ef87b5d24db90e03dd1a09baed7ee",
+    "tree": "d58473442305d9a49420c3c47f4978fe49168b25",
+    "branch": "research/anna-local-evidence-20261013",
+    "existing_draft_PR": 19
+  },
+  "input_pins": {
+    "baseline_canonical_sha256": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348",
+    "D13_delta_sha256": "32e69668c238ab0ce02c08a257a3235ebc0235ae887e643627c28b5a7608049a",
+    "queue_sha256": "ecfb18d68ac7135f3c3215f0ec1843a199f1eda20840ab6cf98003a8b37818c0",
+    "intake_sha256": "64745684aecba5f547b4033d2d9425a8864955b94078f88aa9ae3620d0f96bca",
+    "output_format_sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d"
+  },
+  "queue": {
+    "selection": "Exactly D12 core rows with deferred_reason PRESCREEN_WITH_SINGLE_READER_DERIVED_CONTRAST_NOT_ACCEPTED_NEGATIVE, A METADATA_PRESCREEN_WITH_SEPARATE_UNIT_SOURCE_OBSERVATIONS, B DERIVED_UNIT_SOURCE_FEATURE_CONTRAST; no later actual paired confirmation.",
+    "count": 772,
+    "order": "Ascending pair_id by ASCII identifier lexical order, independent of source appearance, prior proposed relation or similarity; no automatic metric used.",
+    "no_repeat": "Exclude/assert disjoint every prior direct pair from either reader, later actual confirmations, accepted positive edges, closure comparisons and D13fixed38. This pass counts each physical pair once regardless of number of AI inspections."
+  },
+  "bounded_batch": {
+    "first_ordinal": 1,
+    "last_ordinal": 64,
+    "selected_count": 64,
+    "target_count": 36,
+    "first_pair": "FC002--FC015",
+    "last_pair": "FC015--FC123",
+    "remaining_uninspected": 708,
+    "next_ordinal": 65,
+    "next_pair": "FC015--FC125",
+    "limit": "Predeclared administrative capacity64. Stopping at this checkpoint does not assess usefulness, impossibility, inequality or physical information absence for the uninspected remainder. The full772 scope remains authorized for continuation."
+  },
+  "source_reader_view": {
+    "schema": "source257-direct772-source-observation-protocol-v1",
+    "scope": {
+      "selected_pairs": 64,
+      "selected_targets": 36,
+      "paired_boards": 16,
+      "order": "LEXICOGRAPHIC_PAIR_ID_ASCII; ADMINISTRATIVE_ORDER_NOT_SIMILARITY_OR_PROBABILITY",
+      "intake_is_exact_selected_batch": true
+    },
+    "input_pins": {
+      "queue_sha256": "ecfb18d68ac7135f3c3215f0ec1843a199f1eda20840ab6cf98003a8b37818c0",
+      "safe_intake_sha256": "64745684aecba5f547b4033d2d9425a8864955b94078f88aa9ae3620d0f96bca",
+      "output_format_sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d"
+    },
+    "original_source": {
+      "card": "257",
+      "encoded_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+      "rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94",
+      "size": [
+        1785,
+        1175
+      ],
+      "mode": "RGB",
+      "exif_orientation": 1
+    },
+    "feature_dimensions": [
+      "path_topology",
+      "enclosures",
+      "openings",
+      "stem_pattern",
+      "attached_bars",
+      "connected_extra_strokes",
+      "terminal_pattern",
+      "owned_mark_profile"
+    ],
+    "source_rules": [
+      "Verify original encoded/RGB pins and every saved native panel against original crop/exact clockwise90 transpose before the first source view. No resize, enhancement, filtering, OCR, image generation, segmentation or retouching. Whole proof JSON hash is reportable; private panel/row pixel hashes are not public evidence payloads.",
+      "Actually inspect both whole constructions in their paired tight AND expanded native views for every selected pair; observations derived only from separate per-target descriptions do not count as direct paired inspection.",
+      "Record all eight dimensions for each target and actual paired relation, free endpoints, bars, returns, junction continuity and competing neighboring routes. Search boxes are approximate locators, not masks, ownership certificates or complete route boundaries. A target-owned feature can extend outside its approximate box if expanded context and explicit continuity_source_witness demonstrate ownership; witness boxes must stay inside the correct expanded source context.",
+      "FULL_GRAPHICAL_REPEAT_SUPPORT requires the complete owned construction and all eight significant features positively compatible with full relevant visibility. Unknown cannot act as compatible wildcard; body-only similarity is insufficient. No silent normalization of terminal direction/extent, bar position/attachment, curl, enclosure or return differences is authorized. Ink color or line-weight alone is not a cipher-identity criterion.",
+      "OBSERVED_GRAPHICAL_DIFFERENCE requires a positively visible target-owned feature difference, exact left/right facts, native witnesses and FULL relevant visibility on both targets. Unrelated uncertain dimensions do not erase that local fact. STRUCTURAL_FEATURE_DIFFERENCE concerns positively established attachment/topology/enclosure/terminal-presence difference; VISIBLE_FORM_VARIATION records direction/extent/position/contour differences. Both leave cipher and allographic significance UNKNOWN.",
+      "Blur, crop cutoff, unclear contact, unknown ownership or literal prose inequality cannot establish absence or a graphical difference. Any absence claim requires positively supported ownership and full relevant route visibility.",
+      "UNCERTAIN preserves all actual visible variations and the exact unresolved binding/visibility/relation. A checked uncertain pair is different from a pair never inspected.",
+      "Freeze the initial report before reading historical feature/outcome claims or the other initial report. Supplied geometry/cohort conditions inspection; disclose actual exposure, including any prior inspection. These are separate AI readings of the same original pixels, not independent historical sources or external expert validation.",
+      "Do not infer letters, cipher-unit identity, allographic significance, an alphabet partition, transitive equivalence or linguistic reading order. Inspect no other source card, including258/222. Neighbor annotation IDs refer to this same card."
+    ],
+    "allowed_outcomes": [
+      "FULL_GRAPHICAL_REPEAT_SUPPORT",
+      "OBSERVED_GRAPHICAL_DIFFERENCE",
+      "UNCERTAIN"
+    ],
+    "reader_output": "Use frozen source-reader-output-format-v2.json; all individual source facts, variations and uncertainties remain immutable."
+  },
+  "fresh_reader_gate": "Two fresh separate AI source-only readers receive only safe observation protocol, selected geometry, minimal paired index and output format. Original/proof identity is independently checked before views. No historical feature/outcome prose or other new reader report until BOTH initial reports freeze.",
+  "final_source_adjudication": "After both initial freezes, separately inspect all64 paired native sources and compare actual feature evidence. This final AI review is conditioned/nonblind on the same original pixels, not an external expert or independent historical source. Preserve exact per-reader disagreements and every local observed difference/uncertainty.",
+  "release_rules": {
+    "full_repeat": "Both fresh reports and final source review must each satisfy the complete construction/all8 owned full-visibility compatibility gate with no unresolved significant variation.",
+    "observed_difference": "All three reports must support at least one COMMON specifically identified feature/difference_kind using positively visible owned FULL relevant left/right facts; final explains the actual source evidence, not merely a count of outcome votes. Unrelated uncertain dimensions do not block a shared local difference. No negative cipher relation is released.",
+    "uncertain": "When NEITHER the full-repeat gate NOR the common-visible-difference evidence gate passes, aggregate UNCERTAIN while retaining raw per-reader/local differences, source facts and final rationale. These are alternative positive observation gates; failure of repeat does not invalidate a supported visible difference. Never erase one reader's visible observation or turn unknown into absence.",
+    "graph_semantics": "These are pair-level source observations only. No transitive closure, group merging, alphabet or cannot-link graph update. Existing58-edge/15-clique historical graph and307-row TSV remain unchanged and are not revalidated wholesale."
+  },
+  "checkpoint_outputs": "Full frozen772 queue plus exact per-pair checked/not-checked state, source-observation category and report references. The completed first64 have actual source coverage; remaining708 are NOT_CHECKED/NOT_INSPECTED with no invented verdict. Save nextordinal65/pairID and all immutable input/report/code hashes for resume. If an inspection is interrupted, report actual per-reader/final coverage, not planned coverage as completed.",
+  "verification": "Default standard-library replay verifies saved bytes, exact references, scope, evidence attestations, non-repetition and checkpoint consistency without JPEG/private-proof reads. It cannot mechanically prove physical target binding or truth of visual judgments. Production report hashes are fixed only after actual immutable source reports exist; synthetic fixtures cannot authorize a scientific result.",
+  "publication": "Only authored selected text/metadata/code on existing branch and draftPR19, after independent exact-tree review and live remote SHA check. No images/crops/private proof payloads/per-panel-row-body pixel hash values/masks/RLE/reconstruction arrays/books/fullPotter/private letters/secrets/personal paths. Whole original-source and whole proof-document hashes are allowed. No new PR, merge, deploy or correspondence; preserve old layers.",
+  "supersedes_pre_view_protocol": {
+    "sha256": "132705ba0e97e06f69462a9f5c9233126457a2c963423f2a698d86e5e13c2a02",
+    "change": "Clarified Boolean alternative-gate wording before any new source views or results; queue, source criteria and safe reader view unchanged. Original precursor preserved privately."
+  }
+}
