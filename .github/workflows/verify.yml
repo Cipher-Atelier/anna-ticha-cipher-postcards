@@ -40,6 +40,9 @@ jobs:
           python3 research-updates/2026-10-13-source257-fullcard-map/code/fullmap_checks.py research-updates/2026-10-13-source257-fullcard-map/data/fullcard-map-v2.json research-updates/2026-10-13-native-source257-annotation/data/reconciled-native-annotation-v1.json --groups research-updates/2026-10-13-source257-fullcard-map/data/visual-repeat-groups-v2.json /tmp/source257-fullmap-ci-result.json
           python3 -m unittest discover -s research-updates/2026-10-13-source257-class-candidates/code -v
           python3 research-updates/2026-10-13-source257-class-candidates/code/check_candidate_inventory.py research-updates/2026-10-13-source257-class-candidates/data/candidate-inventory-v1.json research-updates/2026-10-13-source257-fullcard-map/data/fullcard-map-v2.json /tmp/source257-class-candidate-ci-result.json --pair-screen research-updates/2026-10-13-source257-class-candidates/data/complete-pair-screen.csv
+          python3 -m unittest discover -s research-updates/2026-10-13-source257-exclusion-refinement/code -v
+          CONTEXT_DIAGNOSTIC_DIR=$(mktemp -d /tmp/source257-context-refinement-ci.XXXXXX)
+          python3 research-updates/2026-10-13-source257-exclusion-refinement/code/check_context_refinement.py research-updates/2026-10-13-source257-exclusion-refinement/data/context-refinement-delta-v2.json research-updates/2026-10-13-source257-class-candidates/data/candidate-inventory-v1.json research-updates/2026-10-13-source257-exclusion-refinement/data/neighbor-ownership-assessment-protocol-v1.json "$CONTEXT_DIAGNOSTIC_DIR/result.json" --context-index research-updates/2026-10-13-source257-exclusion-refinement/data/context-index-v1.json
           python3 verification/check_all.py
           if [ -z "$CHECK_BASE" ] || [ "$CHECK_BASE" = 0000000000000000000000000000000000000000 ]; then
             CHECK_BASE=$(git merge-base origin/main HEAD)

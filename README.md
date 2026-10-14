@@ -129,3 +129,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Source257 full-visible candidate inventory — 13 October 2026
 
 [Seven source-checked candidate sets, 39 eligible ungrouped profiles and 117 exclusions; complete 14,706-pair metadata screen with explicit cryptanalysis-use limits](research-updates/2026-10-13-source257-class-candidates/README.md).
+
+## Source257 physical-context refinement — protocol 13 October; review 14 October 2026
+
+[Accepted full-context refinement of 15 annotation profiles: eligibility 55→70 and exclusions 117→102, with corrected source evidence and preserved error history; no new classes or letters](research-updates/2026-10-13-source257-exclusion-refinement/README.md).

@@ -1,0 +1,87 @@
+{
+  "schema": "source257-public-verification-receipt-v1",
+  "protocol_cohort_frozen_date": "2026-10-13",
+  "final_review_publication_validation_date": "2026-10-14",
+  "final_scientific_review": {
+    "status": "PASS",
+    "original": "independent-scientific-review-final-v3.json",
+    "original_whole_file_sha256": "1c7cb00e79e2120ef32aa2f67c949bf9a58041f0feb4c47bd21113ac892e8846",
+    "review_type": "Independent AI-assisted source review, not independent human validation.",
+    "status_erratum_original_sha256": "5327e54281ebf4034e67ca80265a71db87ad740fdfd9c2e15b4a6d2b276bf44d"
+  },
+  "new_synthetic_fixtures": {
+    "status": "PASS",
+    "count": 15,
+    "builder_methods": 7,
+    "checker_methods": 8,
+    "command": "python3 -m unittest discover -s research-updates/2026-10-13-source257-exclusion-refinement/code -v",
+    "python": "3.13.9",
+    "Pillow": "11.3.0",
+    "old158_tests_rerun_locally": false
+  },
+  "actual_public_v2_check": {
+    "status": "PASS",
+    "diagnostic": "context-refinement-validation-v2.json",
+    "diagnostic_sha256": "e9688d788166db125cf79114b5bbf3e511e6d4c66daf562ab615c0906bea884b",
+    "input_whole_file_sha256": {
+      "assessment_protocol": "9eb422f44900a795e2dc0f4cf2123dbf1571da33e2e748411e69c4520dee3de6",
+      "baseline": "a2f13278119c6437821a416e1cf56483e7d3d879a48e3adaa363023c314b87a0",
+      "context_index": "c1dcfc1709b5c1d2e39b8f8414d2a7f7ed2d4389d1c9bef196ddc339be456d11",
+      "delta": "9bc9f35a2427dc2fad36bdff3cae8ca7d7ae4fb5c74844a46885f4c5fc8926a4"
+    },
+    "all_input_bytes_unchanged": true,
+    "visual_proof": "NOT_ESTABLISHED_BY_VALIDATOR"
+  },
+  "provenance": {
+    "six_portable_code_documentation_files_match_current_source": true,
+    "canonical_v2_delta_byte_identical": true,
+    "original_v1_v2_before_after_pointer_records_verified": 114,
+    "SCI_v2_v3_one_leaf_erratum_verified": true,
+    "initial_and_corrected_reader_scientific_history_preserved": true,
+    "filtered_output_hashes_distinct_from_original_pins": true
+  },
+  "prior_integrity_scope": {
+    "root_manifest_bindings": 285,
+    "unchanged_bindings": 283,
+    "authorized_root_exceptions": [
+      {
+        "path": ".github/workflows/verify.yml",
+        "original_sha256": "a5dea36aa58bc089f5274e862e6264fc0d6ce09db5f695ee55a4dc63fc7dedf3",
+        "current_sha256": "13e6d1207e6d717a65a06aebc6d0d0ffb8fd0ef4562787e7825b816daa3626f3"
+      },
+      {
+        "path": "README.md",
+        "original_sha256": "4957be742e09981857f0230c2b4ae6127f4c6295c2a14be175a406c0979e76ba",
+        "current_sha256": "736d7a69269fa713b0fbbfa8fb1e3c41698ade99918ef037fff755084767e25b"
+      }
+    ],
+    "old_scientific_report_bytes_unchanged": true,
+    "root_manifest_excludes_itself": true
+  },
+  "workflow": {
+    "SafeLoader_and_BaseLoader": "PASS",
+    "all_prior_lines_preserved_in_order": true,
+    "existing_actions_dependencies_commands_matrix_preserved": true,
+    "python_matrix": [
+      "3.10",
+      "3.13"
+    ],
+    "new15_fixture_and_actual_public_v2_CLI_added": true,
+    "expected_complete_CI_count": 173,
+    "remote_CI": "Complete matrix required on eventual pushed revision; not represented as locally executed."
+  },
+  "privacy_links_format": {
+    "no_prohibited_source_image_raster_per_image_hash_or_reconstruction_payload": "PASS",
+    "whole_original_proof_JSON_and_full_source_hashes_only": true,
+    "absolute_private_local_paths_and_operational_reviewer_identifier_excluded": true,
+    "relative_Markdown_local_links": "PASS",
+    "UTF8_LF_final_newlines_trailing_whitespace_including_untracked_files": "PASS",
+    "private_image_bytecode_ignore_rules": "PASS"
+  },
+  "final_manifest_offline_check": {
+    "command": "python3 verification/check_all.py",
+    "sequence": "Run once after this receipt, selection ledger and nested/root manifests are finalized. Actual final manifest digests and execution output are retained in the separate private completion receipt.",
+    "scope": "Bounded offline publication/replay check, not source-image review, historical inventory tests or optimizer rerun."
+  },
+  "hash_convention": "Own digest and final ledger/manifest digests omitted to avoid self-reference; receipt hash is recorded in selection ledger and hash manifests."
+}
