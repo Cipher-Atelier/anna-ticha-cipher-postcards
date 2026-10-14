@@ -1,0 +1,5905 @@
+{
+  "schema": "source257-repeat-reader-B-closure-v1",
+  "reader": "B",
+  "role": "SEPARATE_AI_READER_SAME_ORIGINAL_PIXELS_NOT_EXTERNAL_EXPERT",
+  "phase": "TARGETED_PHASE2_INITIAL_CLOSURE_FROZEN",
+  "prelog_sha256": "cba6e8bd6da5f3cb779181e9c5e1636c27790ad1047126d17df55e3de2c55229",
+  "prelog_file": "targeted-closure-prelog-v1.json",
+  "initial_and_confirmation_immutable_pins": {
+    "repeat-reader-B-v1.json": "57c34ca20119a8de119fef941f5d3be18e9d7185f0f7c5060e485b41d93160b2",
+    "repeat-reader-B-paired-confirmation-addendum-v1.json": "1a1827cff72705dcbe683799619c2e700fc7a451deb84af497144810eeaddf06"
+  },
+  "protocol_sha256": "e0d0f9563e29af6463621f168b2d0797025b41d6fcb5d5e005063b098697691a",
+  "viewproof_ref": "reader-B-private/targeted-closure-views-v1/proof-before-view.json",
+  "viewproof_sha256": "6c94b28115169fc450dcbc3f9860b6b3ad9fe30417bbb68f75daf47aa55cef7b",
+  "source_encoded_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+  "source_rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94",
+  "source_proof_before_targeted_view": true,
+  "counts": {
+    "authorized_pairs": 12,
+    "exact_unique_pairs": 12,
+    "direct_paired_source_comparisons": 12,
+    "same_full_visible_feature_candidates": 12,
+    "different_graphics": 0,
+    "deferred": 0,
+    "source_panels": 48
+  },
+  "results": [
+    {
+      "pair_id": "FC004--FC129",
+      "member_ids": [
+        "FC004",
+        "FC129"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 0,
+        "triggers": [
+          {
+            "trigger_new_id": "FC079",
+            "proposed_set": [
+              "FC004",
+              "FC079",
+              "FC129"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC004--FC079",
+              "FC079--FC129"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-01.png",
+          "sha256": "205f5c8f91b2975ae42708ca153b250dc2bc63c0eab4aa74d707f57c025844d3"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC004--FC129",
+          "id": "FC004",
+          "kind": "TIGHT",
+          "context_id": "context-015",
+          "native_bbox": [
+            1365,
+            746,
+            1407,
+            780
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            30,
+            42,
+            72
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC004--FC129",
+          "id": "FC004",
+          "kind": "CONTEXT",
+          "context_id": "context-016",
+          "native_bbox": [
+            1288,
+            659,
+            1484,
+            867
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            30,
+            271,
+            226
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC004--FC129",
+          "id": "FC129",
+          "kind": "TIGHT",
+          "context_id": "context-095",
+          "native_bbox": [
+            1597,
+            375,
+            1639,
+            409
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            353,
+            30,
+            387,
+            72
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC004--FC129",
+          "id": "FC129",
+          "kind": "CONTEXT",
+          "context_id": "context-096",
+          "native_bbox": [
+            1520,
+            288,
+            1716,
+            496
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            408,
+            30,
+            616,
+            226
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC004": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1368,
+            749,
+            1404,
+            777
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/36"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-01.png",
+              "context_id": "context-015",
+              "private_png": "private/context-015.png",
+              "native_crop_bbox": [
+                1365,
+                746,
+                1407,
+                780
+              ],
+              "sheet_panel_bbox": [
+                8,
+                254,
+                42,
+                296
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-01.png",
+              "context_id": "context-016",
+              "private_png": "private/context-016.png",
+              "native_crop_bbox": [
+                1288,
+                659,
+                1484,
+                867
+              ],
+              "sheet_panel_bbox": [
+                338,
+                254,
+                546,
+                450
+              ]
+            }
+          }
+        },
+        "FC129": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1600,
+            378,
+            1636,
+            406
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/136"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-09.png",
+              "context_id": "context-095",
+              "private_png": "private/context-095.png",
+              "native_crop_bbox": [
+                1597,
+                375,
+                1639,
+                409
+              ],
+              "sheet_panel_bbox": [
+                8,
+                261,
+                42,
+                303
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-09.png",
+              "context_id": "context-096",
+              "private_png": "private/context-096.png",
+              "native_crop_bbox": [
+                1520,
+                288,
+                1716,
+                496
+              ],
+              "sheet_panel_bbox": [
+                338,
+                261,
+                546,
+                457
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous curved high rise descends to and joins one rounded low bowl at its right side.",
+          "left": {
+            "id": "FC004",
+            "observation": "Low rounded closed bowl attached to curved tall rise",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "Low rounded closed bowl attached to curved tall rise",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Exactly one pale low counter is positively visible within each closed bowl; no second upper counter.",
+          "left": {
+            "id": "FC004",
+            "observation": "One visible low pale counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "One visible low pale counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "The region inside the high hooked rise stays open in both; no upper loop closure.",
+          "left": {
+            "id": "FC004",
+            "observation": "High curl remains open; no upper counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "High curl remains open; no upper counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "One curved tall rising limb projects above the low bowl in each.",
+          "left": {
+            "id": "FC004",
+            "observation": "One tall curved rising limb",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1386,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "One tall curved rising limb",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1618,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither rising limb has a transverse arm crossing it; high cap is terminal continuation.",
+          "left": {
+            "id": "FC004",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1386,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1618,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both preserve the low bowl return into the same right-side junction and the continuous high hooked cap, without added branches.",
+          "left": {
+            "id": "FC004",
+            "observation": "Low bowl joins rising limb at right; high turned cap",
+            "native_locator_bbox_xyxy_halfopen": [
+              1386,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "Low bowl joins rising limb at right; high turned cap",
+            "native_locator_bbox_xyxy_halfopen": [
+              1618,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both high terminal tips turn right/down; low return joins the bowl rather than ending as a detached stroke.",
+          "left": {
+            "id": "FC004",
+            "observation": "High terminal turns right/down; low return joins bowl",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "High terminal turns right/down; low return joins bowl",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Target tight/context routes show the complete continuous construction in both; surrounding strokes remain separate and no detached target adjunct is required.",
+          "left": {
+            "id": "FC004",
+            "observation": "No independent target adjunct required; preceding strokes separate",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC129",
+            "observation": "No independent target adjunct required; preceding strokes separate",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC004 has the thinner long curve above its small low bowl; FC129 has a heavier round low bowl and fuller high hook. Both high tips turn right/down, each single rise joins the low bowl on its right side, and neither has a crossbar or second upper loop.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC004--FC213",
+      "member_ids": [
+        "FC004",
+        "FC213"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 1,
+        "triggers": [
+          {
+            "trigger_new_id": "FC079",
+            "proposed_set": [
+              "FC004",
+              "FC079",
+              "FC213"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC004--FC079",
+              "FC079--FC213"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-01.png",
+          "sha256": "205f5c8f91b2975ae42708ca153b250dc2bc63c0eab4aa74d707f57c025844d3"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC004--FC213",
+          "id": "FC004",
+          "kind": "TIGHT",
+          "context_id": "context-015",
+          "native_bbox": [
+            1365,
+            746,
+            1407,
+            780
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            280,
+            42,
+            322
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC004--FC213",
+          "id": "FC004",
+          "kind": "CONTEXT",
+          "context_id": "context-016",
+          "native_bbox": [
+            1288,
+            659,
+            1484,
+            867
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            280,
+            271,
+            476
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC004--FC213",
+          "id": "FC213",
+          "kind": "TIGHT",
+          "context_id": "context-131",
+          "native_bbox": [
+            243,
+            1069,
+            281,
+            1127
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            280,
+            391,
+            338
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC004--FC213",
+          "id": "FC213",
+          "kind": "CONTEXT",
+          "context_id": "context-132",
+          "native_bbox": [
+            166,
+            982,
+            358,
+            1175
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            280,
+            600,
+            473
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC004": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1368,
+            749,
+            1404,
+            777
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/36"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-01.png",
+              "context_id": "context-015",
+              "private_png": "private/context-015.png",
+              "native_crop_bbox": [
+                1365,
+                746,
+                1407,
+                780
+              ],
+              "sheet_panel_bbox": [
+                8,
+                254,
+                42,
+                296
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-01.png",
+              "context_id": "context-016",
+              "private_png": "private/context-016.png",
+              "native_crop_bbox": [
+                1288,
+                659,
+                1484,
+                867
+              ],
+              "sheet_panel_bbox": [
+                338,
+                254,
+                546,
+                450
+              ]
+            }
+          }
+        },
+        "FC213": {
+          "native_locator_bbox_xyxy_halfopen": [
+            246,
+            1072,
+            278,
+            1124
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/170"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-131",
+              "private_png": "private/context-131.png",
+              "native_crop_bbox": [
+                243,
+                1069,
+                281,
+                1127
+              ],
+              "sheet_panel_bbox": [
+                8,
+                933,
+                46,
+                991
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-132",
+              "private_png": "private/context-132.png",
+              "native_crop_bbox": [
+                166,
+                982,
+                358,
+                1175
+              ],
+              "sheet_panel_bbox": [
+                338,
+                933,
+                530,
+                1126
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous curved high rise descends to and joins one rounded low bowl at its right side.",
+          "left": {
+            "id": "FC004",
+            "observation": "Low rounded closed bowl attached to curved tall rise",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "Low rounded closed bowl attached to curved tall rise",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Exactly one pale low counter is positively visible within each closed bowl; no second upper counter.",
+          "left": {
+            "id": "FC004",
+            "observation": "One visible low pale counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "One visible low pale counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "The region inside the high hooked rise stays open in both; no upper loop closure.",
+          "left": {
+            "id": "FC004",
+            "observation": "High curl remains open; no upper counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "High curl remains open; no upper counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "One curved tall rising limb projects above the low bowl in each.",
+          "left": {
+            "id": "FC004",
+            "observation": "One tall curved rising limb",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1386,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "One tall curved rising limb",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1098
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither rising limb has a transverse arm crossing it; high cap is terminal continuation.",
+          "left": {
+            "id": "FC004",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1386,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1098
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both preserve the low bowl return into the same right-side junction and the continuous high hooked cap, without added branches.",
+          "left": {
+            "id": "FC004",
+            "observation": "Low bowl joins rising limb at right; high turned cap",
+            "native_locator_bbox_xyxy_halfopen": [
+              1386,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "Low bowl joins rising limb at right; high turned cap",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1098,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both high terminal tips turn right/down; low return joins the bowl rather than ending as a detached stroke.",
+          "left": {
+            "id": "FC004",
+            "observation": "High terminal turns right/down; low return joins bowl",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "High terminal turns right/down; low return joins bowl",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Target tight/context routes show the complete continuous construction in both; surrounding strokes remain separate and no detached target adjunct is required.",
+          "left": {
+            "id": "FC004",
+            "observation": "No independent target adjunct required; preceding strokes separate",
+            "native_locator_bbox_xyxy_halfopen": [
+              1368,
+              749,
+              1404,
+              777
+            ],
+            "source_refs": [
+              "context-015",
+              "context-016"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "No independent target adjunct required; preceding strokes separate",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC213 has a longer and thinner upper curve and less compact low turn than FC004. The high terminal of each hooks right/down; the lower bowl closes into the same right-side junction, with no extra branch or detached terminal.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC037--FC049",
+      "member_ids": [
+        "FC037",
+        "FC049"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 2,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC037",
+              "FC049",
+              "FC114"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC114",
+              "FC049--FC114"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC037",
+              "FC049",
+              "FC125"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC125",
+              "FC049--FC125"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-01.png",
+          "sha256": "205f5c8f91b2975ae42708ca153b250dc2bc63c0eab4aa74d707f57c025844d3"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC037--FC049",
+          "id": "FC037",
+          "kind": "TIGHT",
+          "context_id": "context-031",
+          "native_bbox": [
+            1428,
+            273,
+            1459,
+            302
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            530,
+            37,
+            561
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC049",
+          "id": "FC037",
+          "kind": "CONTEXT",
+          "context_id": "context-032",
+          "native_bbox": [
+            1351,
+            186,
+            1536,
+            389
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            530,
+            266,
+            715
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC049",
+          "id": "FC049",
+          "kind": "TIGHT",
+          "context_id": "context-039",
+          "native_bbox": [
+            1466,
+            616,
+            1499,
+            645
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            353,
+            530,
+            382,
+            563
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC049",
+          "id": "FC049",
+          "kind": "CONTEXT",
+          "context_id": "context-040",
+          "native_bbox": [
+            1389,
+            529,
+            1576,
+            732
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            408,
+            530,
+            611,
+            717
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC037": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1431,
+            276,
+            1456,
+            299
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/62"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-031",
+              "private_png": "private/context-031.png",
+              "native_crop_bbox": [
+                1428,
+                273,
+                1459,
+                302
+              ],
+              "sheet_panel_bbox": [
+                8,
+                927,
+                37,
+                958
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-032",
+              "private_png": "private/context-032.png",
+              "native_crop_bbox": [
+                1351,
+                186,
+                1536,
+                389
+              ],
+              "sheet_panel_bbox": [
+                338,
+                927,
+                541,
+                1112
+              ]
+            }
+          }
+        },
+        "FC049": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1469,
+            619,
+            1496,
+            642
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/71"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-039",
+              "private_png": "private/context-039.png",
+              "native_crop_bbox": [
+                1466,
+                616,
+                1499,
+                645
+              ],
+              "sheet_panel_bbox": [
+                8,
+                689,
+                37,
+                722
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-040",
+              "private_png": "private/context-040.png",
+              "native_crop_bbox": [
+                1389,
+                529,
+                1576,
+                732
+              ],
+              "sheet_panel_bbox": [
+                338,
+                689,
+                541,
+                876
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC037",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC037",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC037",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC037",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1443,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1482,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC037",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC037",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC049",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC037 has a broader high bulge and FC049 a darker shorter high curl. In each the high curve enters a narrow inward waist and the fuller low bulge returns to a free left/up terminal. Neither high segment becomes a straight independent cap.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC037--FC081",
+      "member_ids": [
+        "FC037",
+        "FC081"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 3,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC037",
+              "FC081",
+              "FC114"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC114",
+              "FC081--FC114"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC037",
+              "FC081",
+              "FC125"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC125",
+              "FC081--FC125"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-01.png",
+          "sha256": "205f5c8f91b2975ae42708ca153b250dc2bc63c0eab4aa74d707f57c025844d3"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC037--FC081",
+          "id": "FC037",
+          "kind": "TIGHT",
+          "context_id": "context-031",
+          "native_bbox": [
+            1428,
+            273,
+            1459,
+            302
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            780,
+            37,
+            811
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC081",
+          "id": "FC037",
+          "kind": "CONTEXT",
+          "context_id": "context-032",
+          "native_bbox": [
+            1351,
+            186,
+            1536,
+            389
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            780,
+            266,
+            965
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC081",
+          "id": "FC081",
+          "kind": "TIGHT",
+          "context_id": "context-057",
+          "native_bbox": [
+            1520,
+            370,
+            1550,
+            399
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            353,
+            780,
+            382,
+            810
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC081",
+          "id": "FC081",
+          "kind": "CONTEXT",
+          "context_id": "context-058",
+          "native_bbox": [
+            1443,
+            283,
+            1627,
+            486
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            408,
+            780,
+            611,
+            964
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC037": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1431,
+            276,
+            1456,
+            299
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/62"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-031",
+              "private_png": "private/context-031.png",
+              "native_crop_bbox": [
+                1428,
+                273,
+                1459,
+                302
+              ],
+              "sheet_panel_bbox": [
+                8,
+                927,
+                37,
+                958
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-032",
+              "private_png": "private/context-032.png",
+              "native_crop_bbox": [
+                1351,
+                186,
+                1536,
+                389
+              ],
+              "sheet_panel_bbox": [
+                338,
+                927,
+                541,
+                1112
+              ]
+            }
+          }
+        },
+        "FC081": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1523,
+            373,
+            1547,
+            396
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/97"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-057",
+              "private_png": "private/context-057.png",
+              "native_crop_bbox": [
+                1520,
+                370,
+                1550,
+                399
+              ],
+              "sheet_panel_bbox": [
+                8,
+                487,
+                37,
+                517
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-058",
+              "private_png": "private/context-058.png",
+              "native_crop_bbox": [
+                1443,
+                283,
+                1627,
+                486
+              ],
+              "sheet_panel_bbox": [
+                338,
+                487,
+                541,
+                671
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC037",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC037",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC037",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC037",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1443,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1535,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC037",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC037",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC081 is more compact vertically and its low turn darker. Both retain two rightward rounded bulges, an inward central waist, two distinct left-facing recesses and free upper/lower left ends.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC037--FC197",
+      "member_ids": [
+        "FC037",
+        "FC197"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 4,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC037",
+              "FC114",
+              "FC197"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC114",
+              "FC114--FC197"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC037",
+              "FC125",
+              "FC197"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC125",
+              "FC125--FC197"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-02.png",
+          "sha256": "49b0287379e3f8272af45d2b69af550c1cfbf4f8a8c9e415bc27c615f04573ee"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC037--FC197",
+          "id": "FC037",
+          "kind": "TIGHT",
+          "context_id": "context-031",
+          "native_bbox": [
+            1428,
+            273,
+            1459,
+            302
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            30,
+            37,
+            61
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC197",
+          "id": "FC037",
+          "kind": "CONTEXT",
+          "context_id": "context-032",
+          "native_bbox": [
+            1351,
+            186,
+            1536,
+            389
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            30,
+            266,
+            215
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC197",
+          "id": "FC197",
+          "kind": "TIGHT",
+          "context_id": "context-123",
+          "native_bbox": [
+            302,
+            1043,
+            332,
+            1084
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            30,
+            383,
+            71
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--FC197",
+          "id": "FC197",
+          "kind": "CONTEXT",
+          "context_id": "context-124",
+          "native_bbox": [
+            225,
+            956,
+            409,
+            1171
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            30,
+            592,
+            245
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC037": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1431,
+            276,
+            1456,
+            299
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/62"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-031",
+              "private_png": "private/context-031.png",
+              "native_crop_bbox": [
+                1428,
+                273,
+                1459,
+                302
+              ],
+              "sheet_panel_bbox": [
+                8,
+                927,
+                37,
+                958
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-032",
+              "private_png": "private/context-032.png",
+              "native_crop_bbox": [
+                1351,
+                186,
+                1536,
+                389
+              ],
+              "sheet_panel_bbox": [
+                338,
+                927,
+                541,
+                1112
+              ]
+            }
+          }
+        },
+        "FC197": {
+          "native_locator_bbox_xyxy_halfopen": [
+            305,
+            1046,
+            329,
+            1081
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/164"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-123",
+              "private_png": "private/context-123.png",
+              "native_crop_bbox": [
+                302,
+                1043,
+                332,
+                1084
+              ],
+              "sheet_panel_bbox": [
+                8,
+                32,
+                38,
+                73
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-124",
+              "private_png": "private/context-124.png",
+              "native_crop_bbox": [
+                225,
+                956,
+                409,
+                1171
+              ],
+              "sheet_panel_bbox": [
+                338,
+                32,
+                522,
+                247
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC037",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC037",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1063
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC037",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1063
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC037",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1443,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1063,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC037",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC037",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC197 has a smaller upper curl relative to the lower bulge. The upper part remains a curved lobe rather than an attached bar; both continue through the waist to the rounded lower bulge and inward/left lower free end.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC037--U019",
+      "member_ids": [
+        "FC037",
+        "U019"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 5,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC037",
+              "FC114",
+              "U019"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC114",
+              "FC114--U019"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC037",
+              "FC125",
+              "U019"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC037--FC125",
+              "FC125--U019"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-02.png",
+          "sha256": "49b0287379e3f8272af45d2b69af550c1cfbf4f8a8c9e415bc27c615f04573ee"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC037--U019",
+          "id": "FC037",
+          "kind": "TIGHT",
+          "context_id": "context-031",
+          "native_bbox": [
+            1428,
+            273,
+            1459,
+            302
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            280,
+            37,
+            311
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--U019",
+          "id": "FC037",
+          "kind": "CONTEXT",
+          "context_id": "context-032",
+          "native_bbox": [
+            1351,
+            186,
+            1536,
+            389
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            280,
+            266,
+            465
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--U019",
+          "id": "U019",
+          "kind": "TIGHT",
+          "context_id": "context-139",
+          "native_bbox": [
+            624,
+            852,
+            651,
+            881
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            280,
+            380,
+            309
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC037--U019",
+          "id": "U019",
+          "kind": "CONTEXT",
+          "context_id": "context-140",
+          "native_bbox": [
+            547,
+            765,
+            728,
+            968
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            280,
+            589,
+            483
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC037": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1431,
+            276,
+            1456,
+            299
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/62"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-031",
+              "private_png": "private/context-031.png",
+              "native_crop_bbox": [
+                1428,
+                273,
+                1459,
+                302
+              ],
+              "sheet_panel_bbox": [
+                8,
+                927,
+                37,
+                958
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-02.png",
+              "context_id": "context-032",
+              "private_png": "private/context-032.png",
+              "native_crop_bbox": [
+                1351,
+                186,
+                1536,
+                389
+              ],
+              "sheet_panel_bbox": [
+                338,
+                927,
+                541,
+                1112
+              ]
+            }
+          }
+        },
+        "U019": {
+          "native_locator_bbox_xyxy_halfopen": [
+            627,
+            855,
+            648,
+            878
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/15"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-13.png",
+              "context_id": "context-139",
+              "private_png": "private/context-139.png",
+              "native_crop_bbox": [
+                624,
+                852,
+                651,
+                881
+              ],
+              "sheet_panel_bbox": [
+                8,
+                744,
+                35,
+                773
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-13.png",
+              "context_id": "context-140",
+              "private_png": "private/context-140.png",
+              "native_crop_bbox": [
+                547,
+                765,
+                728,
+                968
+              ],
+              "sheet_panel_bbox": [
+                338,
+                744,
+                519,
+                947
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC037",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC037",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC037",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              866
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC037",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1443,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              866
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC037",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1443,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              866,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC037",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC037",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1431,
+              276,
+              1456,
+              299
+            ],
+            "source_refs": [
+              "context-031",
+              "context-032"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "U019 is broader in its high rounded bulge and has a dark lower turn. Both display two continuous bulges and an inward waist with separate left-facing high and low recesses; no high cap or extra branch is removed to align the constructions.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC049--FC081",
+      "member_ids": [
+        "FC049",
+        "FC081"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 6,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC049",
+              "FC081",
+              "FC114"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC049--FC114",
+              "FC081--FC114"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC049",
+              "FC081",
+              "FC125"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC049--FC125",
+              "FC081--FC125"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-02.png",
+          "sha256": "49b0287379e3f8272af45d2b69af550c1cfbf4f8a8c9e415bc27c615f04573ee"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC049--FC081",
+          "id": "FC049",
+          "kind": "TIGHT",
+          "context_id": "context-039",
+          "native_bbox": [
+            1466,
+            616,
+            1499,
+            645
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            530,
+            37,
+            563
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--FC081",
+          "id": "FC049",
+          "kind": "CONTEXT",
+          "context_id": "context-040",
+          "native_bbox": [
+            1389,
+            529,
+            1576,
+            732
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            530,
+            266,
+            717
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--FC081",
+          "id": "FC081",
+          "kind": "TIGHT",
+          "context_id": "context-057",
+          "native_bbox": [
+            1520,
+            370,
+            1550,
+            399
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            353,
+            530,
+            382,
+            560
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--FC081",
+          "id": "FC081",
+          "kind": "CONTEXT",
+          "context_id": "context-058",
+          "native_bbox": [
+            1443,
+            283,
+            1627,
+            486
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            408,
+            530,
+            611,
+            714
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC049": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1469,
+            619,
+            1496,
+            642
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/71"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-039",
+              "private_png": "private/context-039.png",
+              "native_crop_bbox": [
+                1466,
+                616,
+                1499,
+                645
+              ],
+              "sheet_panel_bbox": [
+                8,
+                689,
+                37,
+                722
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-040",
+              "private_png": "private/context-040.png",
+              "native_crop_bbox": [
+                1389,
+                529,
+                1576,
+                732
+              ],
+              "sheet_panel_bbox": [
+                338,
+                689,
+                541,
+                876
+              ]
+            }
+          }
+        },
+        "FC081": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1523,
+            373,
+            1547,
+            396
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/97"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-057",
+              "private_png": "private/context-057.png",
+              "native_crop_bbox": [
+                1520,
+                370,
+                1550,
+                399
+              ],
+              "sheet_panel_bbox": [
+                8,
+                487,
+                37,
+                517
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-058",
+              "private_png": "private/context-058.png",
+              "native_crop_bbox": [
+                1443,
+                283,
+                1627,
+                486
+              ],
+              "sheet_panel_bbox": [
+                338,
+                487,
+                541,
+                671
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC049",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC049",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC049",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC049",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC049",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC049",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1482,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1535,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC049",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC049",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC081",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC049 has a rounder low return; FC081 has a narrower high curve. The high and low left-facing ends, inward waist and two open left recesses remain present in both with no stem/bar attachment.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC049--FC197",
+      "member_ids": [
+        "FC049",
+        "FC197"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 7,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC049",
+              "FC114",
+              "FC197"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC049--FC114",
+              "FC114--FC197"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC049",
+              "FC125",
+              "FC197"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC049--FC125",
+              "FC125--FC197"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-02.png",
+          "sha256": "49b0287379e3f8272af45d2b69af550c1cfbf4f8a8c9e415bc27c615f04573ee"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC049--FC197",
+          "id": "FC049",
+          "kind": "TIGHT",
+          "context_id": "context-039",
+          "native_bbox": [
+            1466,
+            616,
+            1499,
+            645
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            780,
+            37,
+            813
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--FC197",
+          "id": "FC049",
+          "kind": "CONTEXT",
+          "context_id": "context-040",
+          "native_bbox": [
+            1389,
+            529,
+            1576,
+            732
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            780,
+            266,
+            967
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--FC197",
+          "id": "FC197",
+          "kind": "TIGHT",
+          "context_id": "context-123",
+          "native_bbox": [
+            302,
+            1043,
+            332,
+            1084
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            780,
+            383,
+            821
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--FC197",
+          "id": "FC197",
+          "kind": "CONTEXT",
+          "context_id": "context-124",
+          "native_bbox": [
+            225,
+            956,
+            409,
+            1171
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            780,
+            592,
+            995
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC049": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1469,
+            619,
+            1496,
+            642
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/71"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-039",
+              "private_png": "private/context-039.png",
+              "native_crop_bbox": [
+                1466,
+                616,
+                1499,
+                645
+              ],
+              "sheet_panel_bbox": [
+                8,
+                689,
+                37,
+                722
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-040",
+              "private_png": "private/context-040.png",
+              "native_crop_bbox": [
+                1389,
+                529,
+                1576,
+                732
+              ],
+              "sheet_panel_bbox": [
+                338,
+                689,
+                541,
+                876
+              ]
+            }
+          }
+        },
+        "FC197": {
+          "native_locator_bbox_xyxy_halfopen": [
+            305,
+            1046,
+            329,
+            1081
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/164"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-123",
+              "private_png": "private/context-123.png",
+              "native_crop_bbox": [
+                302,
+                1043,
+                332,
+                1084
+              ],
+              "sheet_panel_bbox": [
+                8,
+                32,
+                38,
+                73
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-124",
+              "private_png": "private/context-124.png",
+              "native_crop_bbox": [
+                225,
+                956,
+                409,
+                1171
+              ],
+              "sheet_panel_bbox": [
+                338,
+                32,
+                522,
+                247
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC049",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC049",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC049",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC049",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1063
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC049",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1063
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC049",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1482,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1063,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC049",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC049",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC197 has the thinner/smaller high curl and FC049 the darker waist. In both the upper contour is rounded, joins the low lobe through a waist, and terminates freely at the left above and below; no enclosure is present.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC049--U019",
+      "member_ids": [
+        "FC049",
+        "U019"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 8,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC049",
+              "FC114",
+              "U019"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC049--FC114",
+              "FC114--U019"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC049",
+              "FC125",
+              "U019"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC049--FC125",
+              "FC125--U019"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-03.png",
+          "sha256": "79e59cede59da398bc6741c1d1abcfcfe5d182487256f90decd0eaad114fc886"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC049--U019",
+          "id": "FC049",
+          "kind": "TIGHT",
+          "context_id": "context-039",
+          "native_bbox": [
+            1466,
+            616,
+            1499,
+            645
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            30,
+            37,
+            63
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--U019",
+          "id": "FC049",
+          "kind": "CONTEXT",
+          "context_id": "context-040",
+          "native_bbox": [
+            1389,
+            529,
+            1576,
+            732
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            30,
+            266,
+            217
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--U019",
+          "id": "U019",
+          "kind": "TIGHT",
+          "context_id": "context-139",
+          "native_bbox": [
+            624,
+            852,
+            651,
+            881
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            30,
+            380,
+            59
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC049--U019",
+          "id": "U019",
+          "kind": "CONTEXT",
+          "context_id": "context-140",
+          "native_bbox": [
+            547,
+            765,
+            728,
+            968
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            30,
+            589,
+            233
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC049": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1469,
+            619,
+            1496,
+            642
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/71"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-039",
+              "private_png": "private/context-039.png",
+              "native_crop_bbox": [
+                1466,
+                616,
+                1499,
+                645
+              ],
+              "sheet_panel_bbox": [
+                8,
+                689,
+                37,
+                722
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-03.png",
+              "context_id": "context-040",
+              "private_png": "private/context-040.png",
+              "native_crop_bbox": [
+                1389,
+                529,
+                1576,
+                732
+              ],
+              "sheet_panel_bbox": [
+                338,
+                689,
+                541,
+                876
+              ]
+            }
+          }
+        },
+        "U019": {
+          "native_locator_bbox_xyxy_halfopen": [
+            627,
+            855,
+            648,
+            878
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/15"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-13.png",
+              "context_id": "context-139",
+              "private_png": "private/context-139.png",
+              "native_crop_bbox": [
+                624,
+                852,
+                651,
+                881
+              ],
+              "sheet_panel_bbox": [
+                8,
+                744,
+                35,
+                773
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-13.png",
+              "context_id": "context-140",
+              "private_png": "private/context-140.png",
+              "native_crop_bbox": [
+                547,
+                765,
+                728,
+                968
+              ],
+              "sheet_panel_bbox": [
+                338,
+                744,
+                519,
+                947
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC049",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC049",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC049",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC049",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              866
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC049",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1482,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              866
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC049",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1482,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              866,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC049",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC049",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1469,
+              619,
+              1496,
+              642
+            ],
+            "source_refs": [
+              "context-039",
+              "context-040"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "U019 has the wider upper lobe and FC049 the tighter high curl. Both have the same continuous high bulge/waist/low bulge route and left-facing recesses; context keeps neighboring strokes separate from both free ends.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC081--FC197",
+      "member_ids": [
+        "FC081",
+        "FC197"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 9,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC081",
+              "FC114",
+              "FC197"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC081--FC114",
+              "FC114--FC197"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC081",
+              "FC125",
+              "FC197"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC081--FC125",
+              "FC125--FC197"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-03.png",
+          "sha256": "79e59cede59da398bc6741c1d1abcfcfe5d182487256f90decd0eaad114fc886"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC081--FC197",
+          "id": "FC081",
+          "kind": "TIGHT",
+          "context_id": "context-057",
+          "native_bbox": [
+            1520,
+            370,
+            1550,
+            399
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            280,
+            37,
+            310
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC081--FC197",
+          "id": "FC081",
+          "kind": "CONTEXT",
+          "context_id": "context-058",
+          "native_bbox": [
+            1443,
+            283,
+            1627,
+            486
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            280,
+            266,
+            464
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC081--FC197",
+          "id": "FC197",
+          "kind": "TIGHT",
+          "context_id": "context-123",
+          "native_bbox": [
+            302,
+            1043,
+            332,
+            1084
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            280,
+            383,
+            321
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC081--FC197",
+          "id": "FC197",
+          "kind": "CONTEXT",
+          "context_id": "context-124",
+          "native_bbox": [
+            225,
+            956,
+            409,
+            1171
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            280,
+            592,
+            495
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC081": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1523,
+            373,
+            1547,
+            396
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/97"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-057",
+              "private_png": "private/context-057.png",
+              "native_crop_bbox": [
+                1520,
+                370,
+                1550,
+                399
+              ],
+              "sheet_panel_bbox": [
+                8,
+                487,
+                37,
+                517
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-058",
+              "private_png": "private/context-058.png",
+              "native_crop_bbox": [
+                1443,
+                283,
+                1627,
+                486
+              ],
+              "sheet_panel_bbox": [
+                338,
+                487,
+                541,
+                671
+              ]
+            }
+          }
+        },
+        "FC197": {
+          "native_locator_bbox_xyxy_halfopen": [
+            305,
+            1046,
+            329,
+            1081
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/164"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-123",
+              "private_png": "private/context-123.png",
+              "native_crop_bbox": [
+                302,
+                1043,
+                332,
+                1084
+              ],
+              "sheet_panel_bbox": [
+                8,
+                32,
+                38,
+                73
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-124",
+              "private_png": "private/context-124.png",
+              "native_crop_bbox": [
+                225,
+                956,
+                409,
+                1171
+              ],
+              "sheet_panel_bbox": [
+                338,
+                32,
+                522,
+                247
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC081",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC081",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC081",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC081",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1063
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC081",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1063
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC081",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1535,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1063,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC081",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC081",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "FC197",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              305,
+              1046,
+              329,
+              1081
+            ],
+            "source_refs": [
+              "context-123",
+              "context-124"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC197 has a more pronounced dark low lobe and smaller high curl. FC081 has a taller high curve. Both retain two rounded protrusions and the same inward waist and left-facing terminal/recess arrangement.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC081--U019",
+      "member_ids": [
+        "FC081",
+        "U019"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 10,
+        "triggers": [
+          {
+            "trigger_new_id": "FC114",
+            "proposed_set": [
+              "FC081",
+              "FC114",
+              "U019"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC081--FC114",
+              "FC114--U019"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          },
+          {
+            "trigger_new_id": "FC125",
+            "proposed_set": [
+              "FC081",
+              "FC125",
+              "U019"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC081--FC125",
+              "FC125--U019"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-03.png",
+          "sha256": "79e59cede59da398bc6741c1d1abcfcfe5d182487256f90decd0eaad114fc886"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC081--U019",
+          "id": "FC081",
+          "kind": "TIGHT",
+          "context_id": "context-057",
+          "native_bbox": [
+            1520,
+            370,
+            1550,
+            399
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            530,
+            37,
+            560
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC081--U019",
+          "id": "FC081",
+          "kind": "CONTEXT",
+          "context_id": "context-058",
+          "native_bbox": [
+            1443,
+            283,
+            1627,
+            486
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            530,
+            266,
+            714
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC081--U019",
+          "id": "U019",
+          "kind": "TIGHT",
+          "context_id": "context-139",
+          "native_bbox": [
+            624,
+            852,
+            651,
+            881
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            530,
+            380,
+            559
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC081--U019",
+          "id": "U019",
+          "kind": "CONTEXT",
+          "context_id": "context-140",
+          "native_bbox": [
+            547,
+            765,
+            728,
+            968
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            530,
+            589,
+            733
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC081": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1523,
+            373,
+            1547,
+            396
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/97"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-057",
+              "private_png": "private/context-057.png",
+              "native_crop_bbox": [
+                1520,
+                370,
+                1550,
+                399
+              ],
+              "sheet_panel_bbox": [
+                8,
+                487,
+                37,
+                517
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-05.png",
+              "context_id": "context-058",
+              "private_png": "private/context-058.png",
+              "native_crop_bbox": [
+                1443,
+                283,
+                1627,
+                486
+              ],
+              "sheet_panel_bbox": [
+                338,
+                487,
+                541,
+                671
+              ]
+            }
+          }
+        },
+        "U019": {
+          "native_locator_bbox_xyxy_halfopen": [
+            627,
+            855,
+            648,
+            878
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/15"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-13.png",
+              "context_id": "context-139",
+              "private_png": "private/context-139.png",
+              "native_crop_bbox": [
+                624,
+                852,
+                651,
+                881
+              ],
+              "sheet_panel_bbox": [
+                8,
+                744,
+                35,
+                773
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-13.png",
+              "context_id": "context-140",
+              "private_png": "private/context-140.png",
+              "native_crop_bbox": [
+                547,
+                765,
+                728,
+                968
+              ],
+              "sheet_panel_bbox": [
+                338,
+                744,
+                519,
+                947
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous path makes an upper rightward rounded bulge, an inward waist, and a fuller lower rightward rounded bulge.",
+          "left": {
+            "id": "FC081",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Two rounded rightward protrusions joined through an inward waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "No counter is enclosed in either; the upper and lower recesses remain open.",
+          "left": {
+            "id": "FC081",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No enclosed counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each retains two left-facing recesses separated by its inward waist.",
+          "left": {
+            "id": "FC081",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Two left-facing recesses separated by waist",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has an independent high ascender; high curve belongs to the upper lobe.",
+          "left": {
+            "id": "FC081",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No independent tall stem",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              866
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither has a roof or transverse shaft-crossing arm; curved high entry remains the lobe terminal.",
+          "left": {
+            "id": "FC081",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1535,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              866
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "In both the central waist joins upper and lower lobes continuously and the low curve returns left without an extra branch.",
+          "left": {
+            "id": "FC081",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              1535,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Continuous central waist; curved lower left return",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              866,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Separate upper-left entry and lower-left/up return remain visible on both; neither terminal is discarded.",
+          "left": {
+            "id": "FC081",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "Upper and lower free ends lie left of rightward lobes",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both complete routes are present within tight views and surrounding context separates neighboring ink; neither requires an independent dot/dash/adjunct.",
+          "left": {
+            "id": "FC081",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              1523,
+              373,
+              1547,
+              396
+            ],
+            "source_refs": [
+              "context-057",
+              "context-058"
+            ]
+          },
+          "right": {
+            "id": "U019",
+            "observation": "No detached adjunct assigned to target in inspected context",
+            "native_locator_bbox_xyxy_halfopen": [
+              627,
+              855,
+              648,
+              878
+            ],
+            "source_refs": [
+              "context-139",
+              "context-140"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "U019 is broader and heavier, especially at the lower turn. Each high lobe joins the narrow waist and then the fuller low lobe; upper and lower left ends remain free and no adjunct is needed from the neighboring ink.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    },
+    {
+      "pair_id": "FC129--FC213",
+      "member_ids": [
+        "FC129",
+        "FC213"
+      ],
+      "status": "SAME_FULL_VISIBLE_FEATURE_CANDIDATE",
+      "coverage": "DIRECT_PAIRED_SOURCE_COMPARISON",
+      "trigger_prelog_reference": {
+        "file": "targeted-closure-prelog-v1.json",
+        "request_index": 11,
+        "triggers": [
+          {
+            "trigger_new_id": "FC079",
+            "proposed_set": [
+              "FC079",
+              "FC129",
+              "FC213"
+            ],
+            "existing_core_candidate_witnesses": [
+              "FC079--FC129",
+              "FC079--FC213"
+            ],
+            "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+          }
+        ]
+      },
+      "paired_views": [
+        {
+          "file": "anna-corpus-completion-20261012/source257-repeat-sequence-next-20261014/results/reader-B-private/targeted-closure-views-v1/closure-paired-03.png",
+          "sha256": "79e59cede59da398bc6741c1d1abcfcfe5d182487256f90decd0eaad114fc886"
+        }
+      ],
+      "proved_source_panels": [
+        {
+          "pair_id": "FC129--FC213",
+          "id": "FC129",
+          "kind": "TIGHT",
+          "context_id": "context-095",
+          "native_bbox": [
+            1597,
+            375,
+            1639,
+            409
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            8,
+            780,
+            42,
+            822
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC129--FC213",
+          "id": "FC129",
+          "kind": "CONTEXT",
+          "context_id": "context-096",
+          "native_bbox": [
+            1520,
+            288,
+            1716,
+            496
+          ],
+          "rotation_degrees_clockwise": 90,
+          "sheet_bbox": [
+            63,
+            780,
+            271,
+            976
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC129--FC213",
+          "id": "FC213",
+          "kind": "TIGHT",
+          "context_id": "context-131",
+          "native_bbox": [
+            243,
+            1069,
+            281,
+            1127
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            353,
+            780,
+            391,
+            838
+          ],
+          "source_exact": true
+        },
+        {
+          "pair_id": "FC129--FC213",
+          "id": "FC213",
+          "kind": "CONTEXT",
+          "context_id": "context-132",
+          "native_bbox": [
+            166,
+            982,
+            358,
+            1175
+          ],
+          "rotation_degrees_clockwise": 0,
+          "sheet_bbox": [
+            408,
+            780,
+            600,
+            973
+          ],
+          "source_exact": true
+        }
+      ],
+      "target_routes": {
+        "FC129": {
+          "native_locator_bbox_xyxy_halfopen": [
+            1600,
+            378,
+            1636,
+            406
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/136"
+          },
+          "frame": "EXACT90CW",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-09.png",
+              "context_id": "context-095",
+              "private_png": "private/context-095.png",
+              "native_crop_bbox": [
+                1597,
+                375,
+                1639,
+                409
+              ],
+              "sheet_panel_bbox": [
+                8,
+                261,
+                42,
+                303
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-09.png",
+              "context_id": "context-096",
+              "private_png": "private/context-096.png",
+              "native_crop_bbox": [
+                1520,
+                288,
+                1716,
+                496
+              ],
+              "sheet_panel_bbox": [
+                338,
+                261,
+                546,
+                457
+              ]
+            }
+          }
+        },
+        "FC213": {
+          "native_locator_bbox_xyxy_halfopen": [
+            246,
+            1072,
+            278,
+            1124
+          ],
+          "route_authority": {
+            "input": "D10",
+            "json_pointer": "/records/170"
+          },
+          "frame": "NATIVE",
+          "tight_and_context_refs": {
+            "TIGHT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-131",
+              "private_png": "private/context-131.png",
+              "native_crop_bbox": [
+                243,
+                1069,
+                281,
+                1127
+              ],
+              "sheet_panel_bbox": [
+                8,
+                933,
+                46,
+                991
+              ]
+            },
+            "CONTEXT": {
+              "sheet": "private/contact-sheets-v1/sheet-12.png",
+              "context_id": "context-132",
+              "private_png": "private/context-132.png",
+              "native_crop_bbox": [
+                166,
+                982,
+                358,
+                1175
+              ],
+              "sheet_panel_bbox": [
+                338,
+                933,
+                530,
+                1126
+              ]
+            }
+          }
+        }
+      },
+      "eight_feature_comparison": {
+        "path_topology": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Each continuous curved high rise descends to and joins one rounded low bowl at its right side.",
+          "left": {
+            "id": "FC129",
+            "observation": "Low rounded closed bowl attached to curved tall rise",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "Low rounded closed bowl attached to curved tall rise",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "enclosures": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Exactly one pale low counter is positively visible within each closed bowl; no second upper counter.",
+          "left": {
+            "id": "FC129",
+            "observation": "One visible low pale counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "One visible low pale counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "openings": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "The region inside the high hooked rise stays open in both; no upper loop closure.",
+          "left": {
+            "id": "FC129",
+            "observation": "High curl remains open; no upper counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "High curl remains open; no upper counter",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "stem_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "One curved tall rising limb projects above the low bowl in each.",
+          "left": {
+            "id": "FC129",
+            "observation": "One tall curved rising limb",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1618,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "One tall curved rising limb",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1098
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "attached_bars": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Neither rising limb has a transverse arm crossing it; high cap is terminal continuation.",
+          "left": {
+            "id": "FC129",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1618,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "No transverse crossing bar",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1098
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "connected_extra_strokes": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both preserve the low bowl return into the same right-side junction and the continuous high hooked cap, without added branches.",
+          "left": {
+            "id": "FC129",
+            "observation": "Low bowl joins rising limb at right; high turned cap",
+            "native_locator_bbox_xyxy_halfopen": [
+              1618,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "Low bowl joins rising limb at right; high turned cap",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1098,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "terminal_pattern": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Both high terminal tips turn right/down; low return joins the bowl rather than ending as a detached stroke.",
+          "left": {
+            "id": "FC129",
+            "observation": "High terminal turns right/down; low return joins bowl",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "High terminal turns right/down; low return joins bowl",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        },
+        "owned_mark_profile": {
+          "outcome": "SUPPORTED_SAME_VISIBLE_FEATURE_RELATION",
+          "paired_source_observation": "Target tight/context routes show the complete continuous construction in both; surrounding strokes remain separate and no detached target adjunct is required.",
+          "left": {
+            "id": "FC129",
+            "observation": "No independent target adjunct required; preceding strokes separate",
+            "native_locator_bbox_xyxy_halfopen": [
+              1600,
+              378,
+              1636,
+              406
+            ],
+            "source_refs": [
+              "context-095",
+              "context-096"
+            ]
+          },
+          "right": {
+            "id": "FC213",
+            "observation": "No independent target adjunct required; preceding strokes separate",
+            "native_locator_bbox_xyxy_halfopen": [
+              246,
+              1072,
+              278,
+              1124
+            ],
+            "source_refs": [
+              "context-131",
+              "context-132"
+            ]
+          }
+        }
+      },
+      "pair_specific_variation": "FC129 has the heavier low oval and broader high cap, while FC213 has the finer extended curved rise. Both low counters close at the rising right limb; both upper tips turn right/down and neither upper limb closes into a second loop or crosses a bar.",
+      "variation_assessment": "Source shape/ink-width variation is retained as observed. The comparison preserves all visible closures, open recesses, junctions, stem/bar attachments, continuous returns and terminal relations; equality does not follow from prose, a common body or the triggering new member.",
+      "new_binding_or_visibility_ambiguity": null,
+      "cipher_identity": "UNKNOWN",
+      "eligibility_reopened": false
+    }
+  ],
+  "scope_limits": {
+    "main930_reevaluated": false,
+    "initial_one_reader_conflicts_changed": false,
+    "other_reader_closure_outcomes_read": false,
+    "new_closure_pairs_added": false,
+    "inherited11_reinspected": false,
+    "outside_eligibility_scan": false,
+    "D11_finished15_reopened": false,
+    "source_binding_rewritten": false
+  },
+  "interpretation": "Each edge is Reader B support only; two-reader and final separate AI source gates remain required for release. No transitive equality or alphabet values inferred."
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "source257-d12-frozen-protocol-method-gate-v2",
+  "reviewer": "Separate AI methods reviewer",
+  "parent_protocol_sha256": "e0d0f9563e29af6463621f168b2d0797025b41d6fcb5d5e005063b098697691a",
+  "scope_addendum_sha256": "f178d453c17930cbeed20aedeb95f70567b3c7d16708ec4ebfd555109985e647",
+  "previous_gate_review_sha256": "6fe1de22ed639fca0bd9b544cee821ea38870fcb1e3fe8e10af1783ac6a8dd39",
+  "actual_addendum_read_and_hash_verified": true,
+  "gate_status": "PASS",
+  "resolved_finding": {
+    "id": "M1_OPTIONAL_SCOPE_MUTATION",
+    "resolution": "Core70/930 and core102/135 statuses are immutable. The optional clause cannot mutate core output. Any same-type lead must originate in an actual core comparison and remains unadjudicated unless a separate exact-ID scope annex is frozen before additional-case evidence inspection; annex results remain a distinct sidecar with separate counts and relation coverage. This is the separate-versioned-scope resolution allowed by the prior review.",
+    "outside_scope_eligibility_permission_inferred_by_reviewer": false,
+    "authorization_basis": "Root reports existing explicit user conditional same-type authorization; this gate checks methodological separation only."
+  },
+  "remaining_material_protocol_blockers": [],
+  "images_viewed": false,
+  "new_comparison_results_viewed": false,
+  "claim_limit": "Approval of frozen method and scope separation only; no new graphical relation or spatial ordering has been reviewed or accepted.",
+  "next_review_condition": "Ready source-proven comparison pack and frozen separate-reader initial outcomes before final AI source/evidence review on the same original pixels."
+}

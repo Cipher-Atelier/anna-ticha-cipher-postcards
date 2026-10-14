@@ -133,3 +133,7 @@ Read the current result and source limitations, then coordinate a bounded task i
 ## Source257 physical-context refinement — protocol 13 October; review 14 October 2026
 
 [Accepted full-context refinement of 15 annotation profiles: eligibility 55→70 and exclusions 117→102, with corrected source evidence and preserved error history; no new classes or letters](research-updates/2026-10-13-source257-exclusion-refinement/README.md).
+
+## Source257 repeat candidates and spatial references — 14 October 2026
+
+[47 new graphical candidate edges, 15 overlapping cliques and 307 spatial annotation references, with explicit deferred comparisons and no cipher identities](research-updates/2026-10-14-source257-repeat-sequence/README.md).

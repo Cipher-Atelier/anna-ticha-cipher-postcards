@@ -1,0 +1,398 @@
+{
+  "schema": "source257-d12-publication-selection-stage-v1",
+  "status": "MECHANICAL_FROZEN_DATA_SELECTION_ONLY",
+  "scientific_acceptance_claim": false,
+  "selected_evidence_file_count": 17,
+  "historical_preparation_files": [
+    "input-pins-metadata-v1.json",
+    "metadata-inventory-and-architecture-v1.json",
+    "pair-coverage-deferred-v1.json"
+  ],
+  "historical_preparation_policy": "These retain their original preparation-stage statements and do not represent final pair dispositions or final spatial results.",
+  "serialization_of_filtered_files": "UTF-8; json.dumps(value, ensure_ascii=False, indent=2) plus LF; insertion order retained; no sort_keys.",
+  "cross_file_pin_policy": "Original embedded hashes remain historical identities. Public adapters must verify selected bytes against fixed selected_whole_file_sha256 and resolve the original identity through this explicit map; no hash validation bypass.",
+  "private_source_policy": "Original source JPEG and whole-source RGB hashes and whole private proof-JSON hashes are permitted references only; referenced original images and private pixel proofs are not included or required by this selection.",
+  "files": [
+    {
+      "source_logical_id": "D12_RESULTS:comparison-protocol-v1.json",
+      "original_whole_file_sha256": "e0d0f9563e29af6463621f168b2d0797025b41d6fcb5d5e005063b098697691a",
+      "selected_file": "comparison-protocol-v1.json",
+      "selected_whole_file_sha256": "e0d0f9563e29af6463621f168b2d0797025b41d6fcb5d5e005063b098697691a",
+      "selected_bytes": 10221,
+      "byte_identical": true,
+      "role": "FROZEN_COMPARISON_RULES",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:scope-handling-addendum-v1.json",
+      "original_whole_file_sha256": "f178d453c17930cbeed20aedeb95f70567b3c7d16708ec4ebfd555109985e647",
+      "selected_file": "scope-handling-addendum-v1.json",
+      "selected_whole_file_sha256": "f178d453c17930cbeed20aedeb95f70567b3c7d16708ec4ebfd555109985e647",
+      "selected_bytes": 1840,
+      "byte_identical": true,
+      "role": "FROZEN_SCOPE_RULES",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:targeted-closure-prelog-v1.json",
+      "original_whole_file_sha256": "cba6e8bd6da5f3cb779181e9c5e1636c27790ad1047126d17df55e3de2c55229",
+      "selected_file": "targeted-closure-prelog-v1.json",
+      "selected_whole_file_sha256": "cba6e8bd6da5f3cb779181e9c5e1636c27790ad1047126d17df55e3de2c55229",
+      "selected_bytes": 14560,
+      "byte_identical": true,
+      "role": "FROZEN_TARGETED_CLOSURE_PRELOG",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:effective70-profile-references-v1.json",
+      "original_whole_file_sha256": "b5d588bbeb4e0210d4f3cd0cc3bea45cd7d77a88bdad9fe5037fc979d15e81bf",
+      "selected_file": "effective70-profile-references-v1.json",
+      "selected_whole_file_sha256": "b5d588bbeb4e0210d4f3cd0cc3bea45cd7d77a88bdad9fe5037fc979d15e81bf",
+      "selected_bytes": 122534,
+      "byte_identical": true,
+      "role": "FROZEN_PROFILE_AUTHORITY_REFERENCES",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:input-pins-metadata-v1.json",
+      "original_whole_file_sha256": "50d3ed50aa6a10233ce081c6bf575c7e5f11ea73fe35a0debe9df1685ce584dc",
+      "selected_file": "input-pins-metadata-v1.json",
+      "selected_whole_file_sha256": "50d3ed50aa6a10233ce081c6bf575c7e5f11ea73fe35a0debe9df1685ce584dc",
+      "selected_bytes": 75567,
+      "byte_identical": true,
+      "role": "HISTORICAL_PREPARATION_INPUT_PINS",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:metadata-inventory-and-architecture-v1.json",
+      "original_whole_file_sha256": "97dd365f39757c691f68e52f2585a6d187ffcb53550c01567cb5904f5ba191d4",
+      "selected_file": "metadata-inventory-and-architecture-v1.json",
+      "selected_whole_file_sha256": "97dd365f39757c691f68e52f2585a6d187ffcb53550c01567cb5904f5ba191d4",
+      "selected_bytes": 69630,
+      "byte_identical": true,
+      "role": "HISTORICAL_PREPARATION_ARCHITECTURE",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:inherited-candidate-sets-v1.json",
+      "original_whole_file_sha256": "4bd2aa9a9589a5698d80abb07e19e53e0f0ec4a983ea0cfda4003ff8dd063139",
+      "selected_file": "inherited-candidate-sets-v1.json",
+      "selected_whole_file_sha256": "4bd2aa9a9589a5698d80abb07e19e53e0f0ec4a983ea0cfda4003ff8dd063139",
+      "selected_bytes": 5404,
+      "byte_identical": true,
+      "role": "INHERITED_CANDIDATE_AUTHORITY_REFERENCES",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:pair-coverage-deferred-v1.json",
+      "original_whole_file_sha256": "298caa5929a2432f369d8cce01f4cc320076d8cdea3140df6454887f5568465e",
+      "selected_file": "pair-coverage-deferred-v1.json",
+      "selected_whole_file_sha256": "298caa5929a2432f369d8cce01f4cc320076d8cdea3140df6454887f5568465e",
+      "selected_bytes": 207401,
+      "byte_identical": true,
+      "role": "HISTORICAL_PREPARATION_ALL_DEFERRED_PAIR_ACCOUNTING",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:methods-protocol-gate-private-v2.json",
+      "original_whole_file_sha256": "6678176673747857d9da60fb8552e8659282d6b24653ebfe7e74d9195fb48ae5",
+      "selected_file": "methods-protocol-gate-v2.json",
+      "selected_whole_file_sha256": "0308cdc2a3d9413bce661d2e16ac182244afa74d9b42de68d312d21fd5c22dc8",
+      "selected_bytes": 1672,
+      "byte_identical": false,
+      "role": "FROZEN_METHOD_GATE_PRIVACY_FILTERED",
+      "exact_json_pointer_transformations": [
+        {
+          "json_pointer": "/reviewer",
+          "operation": "REPLACE_OPERATIONAL_REVIEWER_IDENTIFIER",
+          "selected_value": "Separate AI methods reviewer"
+        }
+      ]
+    },
+    {
+      "source_logical_id": "D12_RESULTS:repeat-reader-A-v1.json",
+      "original_whole_file_sha256": "1ee9e7f155562098018fbf7b471c8a83713b1216ddef5a8b78f057eb396f586d",
+      "selected_file": "repeat-reader-A-v1.json",
+      "selected_whole_file_sha256": "73387ba16f0508fa24ce31b92e4d3260bd4fc1d0e4a2cced1988543917ce22c5",
+      "selected_bytes": 1240959,
+      "byte_identical": false,
+      "role": "FROZEN_INITIAL_READER_A_EVIDENCE",
+      "exact_json_pointer_transformations": [
+        {
+          "json_pointer": "/reader",
+          "operation": "REPLACE_OPERATIONAL_READER_IDENTIFIER",
+          "selected_value": "Separate AI reader A"
+        }
+      ]
+    },
+    {
+      "source_logical_id": "D12_RESULTS:repeat-reader-B-v1.json",
+      "original_whole_file_sha256": "57c34ca20119a8de119fef941f5d3be18e9d7185f0f7c5060e485b41d93160b2",
+      "selected_file": "repeat-reader-B-v1.json",
+      "selected_whole_file_sha256": "57c34ca20119a8de119fef941f5d3be18e9d7185f0f7c5060e485b41d93160b2",
+      "selected_bytes": 1334174,
+      "byte_identical": true,
+      "role": "FROZEN_INITIAL_READER_B_EVIDENCE",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:repeat-reader-B-paired-confirmation-addendum-v1.json",
+      "original_whole_file_sha256": "1a1827cff72705dcbe683799619c2e700fc7a451deb84af497144810eeaddf06",
+      "selected_file": "repeat-reader-B-paired-confirmation-addendum-v1.json",
+      "selected_whole_file_sha256": "1a1827cff72705dcbe683799619c2e700fc7a451deb84af497144810eeaddf06",
+      "selected_bytes": 175980,
+      "byte_identical": true,
+      "role": "FROZEN_READER_B_PAIRED_CONFIRMATION_ADDENDUM",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:repeat-reader-A-closure-v1.json",
+      "original_whole_file_sha256": "ef374c4da855a2097cc47d63f73faee36be8b12bf87540d6c2b4c65c97231e2b",
+      "selected_file": "repeat-reader-A-closure-v1.json",
+      "selected_whole_file_sha256": "07b7c90606b110296f1af7bf77e212955c68792611f1d84e2e8908b56926c26e",
+      "selected_bytes": 130962,
+      "byte_identical": false,
+      "role": "FROZEN_READER_A_TARGETED_CLOSURE_EVIDENCE",
+      "exact_json_pointer_transformations": [
+        {
+          "json_pointer": "/reader",
+          "operation": "REPLACE_OPERATIONAL_READER_IDENTIFIER",
+          "selected_value": "Separate AI reader A"
+        }
+      ]
+    },
+    {
+      "source_logical_id": "D12_RESULTS:repeat-reader-B-closure-v1.json",
+      "original_whole_file_sha256": "8f4c78dba4cbb06b3b5159554c39f0c23601166820819a0d29be61b1deae03c2",
+      "selected_file": "repeat-reader-B-closure-v1.json",
+      "selected_whole_file_sha256": "44205cbe4ac4e7d9f7a4090aad75fc5729d0226c40262f6e9528cccf3356a235",
+      "selected_bytes": 176175,
+      "byte_identical": false,
+      "role": "FROZEN_READER_B_TARGETED_CLOSURE_EVIDENCE",
+      "exact_json_pointer_transformations": [
+        {
+          "json_pointer": "/results/0/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/0/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/0/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/0/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/1/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/1/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/1/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/1/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/2/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/2/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/2/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/2/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/3/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/3/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/3/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/3/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/4/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/4/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/4/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/4/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/5/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/5/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/5/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/5/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/6/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/6/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/6/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/6/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/7/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/7/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/7/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/7/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/8/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/8/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/8/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/8/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/9/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/9/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/9/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/9/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/10/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/10/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/10/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/10/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/11/proved_source_panels/0/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/11/proved_source_panels/1/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/11/proved_source_panels/2/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        },
+        {
+          "json_pointer": "/results/11/proved_source_panels/3/rgb_sha256",
+          "operation": "REMOVE_PRIVATE_PANEL_RGB_HASH_VALUE"
+        }
+      ]
+    },
+    {
+      "source_logical_id": "PACK:context-index.json",
+      "original_whole_file_sha256": "76f81e4db718f3d9bfcf991e9c233d52e961a2dedc7163c4acc22c79abbf1333",
+      "selected_file": "context-index-v1.json",
+      "selected_whole_file_sha256": "76f81e4db718f3d9bfcf991e9c233d52e961a2dedc7163c4acc22c79abbf1333",
+      "selected_bytes": 859250,
+      "byte_identical": true,
+      "role": "SOURCE_CONTEXT_GEOMETRY_INDEX_ONLY",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:repeat-reader-A-closure-prelog-v1.json",
+      "original_whole_file_sha256": "01d87ec888eba0b76ed06acb678b5869318d9fc0a7e062ae872912a7bf9d722b",
+      "selected_file": "repeat-reader-A-closure-prelog-v1.json",
+      "selected_whole_file_sha256": "01d87ec888eba0b76ed06acb678b5869318d9fc0a7e062ae872912a7bf9d722b",
+      "selected_bytes": 48982,
+      "byte_identical": true,
+      "role": "FROZEN_READER_A_INITIAL_CLOSURE_PROPOSAL_PRELOG",
+      "exact_json_pointer_transformations": []
+    },
+    {
+      "source_logical_id": "D12_RESULTS:comparison-context-pack-protocol-v1.json",
+      "original_whole_file_sha256": "c7d4f479ce0deec2e0513beeff85db2696bbb6db2338a4497c16373ad1cd4383",
+      "selected_file": "comparison-context-pack-protocol-v1.json",
+      "selected_whole_file_sha256": "c7d4f479ce0deec2e0513beeff85db2696bbb6db2338a4497c16373ad1cd4383",
+      "selected_bytes": 36705,
+      "byte_identical": true,
+      "role": "FROZEN_CONTEXT_PACK_BUILD_PROTOCOL",
+      "exact_json_pointer_transformations": []
+    }
+  ]
+}
