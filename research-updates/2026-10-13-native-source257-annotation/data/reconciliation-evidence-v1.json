@@ -1,0 +1,2887 @@
+{
+  "schema": "source257-reconciliation-evidence-v1",
+  "input_hashes": {
+    "native-annotation-A-v1.json": "ea4a3a7feb8686807f607e019bb05f0133084905990a19f31181cffd66390628",
+    "native-annotation-B-v1.json": "3cb9ba3869c95a7b4af488bb5be343ae9b25483e01bf29242bcc5086de4a34d6",
+    "provenance.json": "0453b7f0911c789584f5734517321f968963ad39a2c693199fb98a729e045183"
+  },
+  "original_verification": {
+    "path": "pc_hcp_257_pic.JPG",
+    "bytes": 1288265,
+    "sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+    "decoded_RGB_size": [
+      1785,
+      1175
+    ],
+    "decoded_RGB_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94"
+  },
+  "roi_verification": {
+    "path": "roi.png",
+    "native_bbox_xyxy_halfopen": [
+      170,
+      815,
+      1710,
+      905
+    ],
+    "offset_xy": [
+      170,
+      815
+    ],
+    "RGB_size": [
+      1540,
+      90
+    ],
+    "RGB_bytes": 415800,
+    "RGB_sha256": "d6ad5c32240bfd8558f7e1b11fc6b4a55d0f7769846102243485c1b3efa7c3a7",
+    "PNG_bytes": 210048,
+    "PNG_sha256": "919179f523ee64a4ebb118ca8164c3f07fecc41342118c88cbc23ec773e1e581",
+    "exact_original_slice_verified": true
+  },
+  "mapping_by_native_intersection": [
+    {
+      "canonical_id": "U001",
+      "reader_A": [
+        {
+          "id": "A-U001",
+          "bbox": [
+            190,
+            831,
+            213,
+            862
+          ],
+          "intersection_xyxy_halfopen": [
+            190,
+            831,
+            213,
+            862
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U001",
+          "bbox": [
+            190,
+            830,
+            214,
+            864
+          ],
+          "intersection_xyxy_halfopen": [
+            190,
+            830,
+            214,
+            864
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U002",
+      "reader_A": [
+        {
+          "id": "A-U002",
+          "bbox": [
+            214,
+            842,
+            227,
+            863
+          ],
+          "intersection_xyxy_halfopen": [
+            216,
+            846,
+            227,
+            863
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U002",
+          "bbox": [
+            216,
+            846,
+            227,
+            864
+          ],
+          "intersection_xyxy_halfopen": [
+            216,
+            846,
+            227,
+            864
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U003",
+      "reader_A": [
+        {
+          "id": "A-U003",
+          "bbox": [
+            228,
+            842,
+            245,
+            864
+          ],
+          "intersection_xyxy_halfopen": [
+            228,
+            844,
+            244,
+            864
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U003",
+          "bbox": [
+            228,
+            844,
+            244,
+            865
+          ],
+          "intersection_xyxy_halfopen": [
+            228,
+            844,
+            244,
+            865
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U004",
+      "reader_A": [
+        {
+          "id": "A-U004",
+          "bbox": [
+            246,
+            845,
+            260,
+            871
+          ],
+          "intersection_xyxy_halfopen": [
+            246,
+            850,
+            260,
+            871
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U004",
+          "bbox": [
+            246,
+            850,
+            263,
+            875
+          ],
+          "intersection_xyxy_halfopen": [
+            246,
+            850,
+            263,
+            875
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U005",
+      "reader_A": [
+        {
+          "id": "A-U005",
+          "bbox": [
+            264,
+            847,
+            279,
+            866
+          ],
+          "intersection_xyxy_halfopen": [
+            265,
+            848,
+            279,
+            866
+          ]
+        },
+        {
+          "id": "A-U006",
+          "bbox": [
+            279,
+            848,
+            296,
+            867
+          ],
+          "intersection_xyxy_halfopen": [
+            279,
+            848,
+            281,
+            867
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U005",
+          "bbox": [
+            265,
+            848,
+            281,
+            867
+          ],
+          "intersection_xyxy_halfopen": [
+            265,
+            848,
+            281,
+            867
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U006",
+      "reader_A": [
+        {
+          "id": "A-U006",
+          "bbox": [
+            279,
+            848,
+            296,
+            867
+          ],
+          "intersection_xyxy_halfopen": [
+            281,
+            848,
+            296,
+            867
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U006",
+          "bbox": [
+            281,
+            847,
+            300,
+            867
+          ],
+          "intersection_xyxy_halfopen": [
+            281,
+            847,
+            300,
+            867
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U007",
+      "reader_A": [
+        {
+          "id": "A-U007",
+          "bbox": [
+            300,
+            836,
+            323,
+            869
+          ],
+          "intersection_xyxy_halfopen": [
+            300,
+            836,
+            323,
+            869
+          ]
+        },
+        {
+          "id": "A-U008",
+          "bbox": [
+            323,
+            850,
+            342,
+            870
+          ],
+          "intersection_xyxy_halfopen": [
+            323,
+            850,
+            330,
+            870
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U007",
+          "bbox": [
+            301,
+            835,
+            329,
+            868
+          ],
+          "intersection_xyxy_halfopen": [
+            301,
+            835,
+            329,
+            868
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U008",
+      "reader_A": [
+        {
+          "id": "A-U008",
+          "bbox": [
+            323,
+            850,
+            342,
+            870
+          ],
+          "intersection_xyxy_halfopen": [
+            330,
+            850,
+            342,
+            870
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U008",
+          "bbox": [
+            330,
+            850,
+            345,
+            870
+          ],
+          "intersection_xyxy_halfopen": [
+            330,
+            850,
+            345,
+            870
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U009",
+      "reader_A": [
+        {
+          "id": "A-U009",
+          "bbox": [
+            378,
+            841,
+            399,
+            871
+          ],
+          "intersection_xyxy_halfopen": [
+            379,
+            841,
+            398,
+            871
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U009",
+          "bbox": [
+            379,
+            839,
+            398,
+            872
+          ],
+          "intersection_xyxy_halfopen": [
+            379,
+            839,
+            398,
+            872
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U010",
+      "reader_A": [
+        {
+          "id": "A-U010",
+          "bbox": [
+            399,
+            849,
+            415,
+            869
+          ],
+          "intersection_xyxy_halfopen": [
+            399,
+            850,
+            415,
+            869
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U010",
+          "bbox": [
+            399,
+            850,
+            415,
+            872
+          ],
+          "intersection_xyxy_halfopen": [
+            399,
+            850,
+            415,
+            872
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U011",
+      "reader_A": [
+        {
+          "id": "A-U011",
+          "bbox": [
+            421,
+            850,
+            440,
+            871
+          ],
+          "intersection_xyxy_halfopen": [
+            421,
+            850,
+            440,
+            871
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U011",
+          "bbox": [
+            418,
+            854,
+            435,
+            874
+          ],
+          "intersection_xyxy_halfopen": [
+            418,
+            854,
+            435,
+            874
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U012",
+      "reader_A": [
+        {
+          "id": "A-U012",
+          "bbox": [
+            444,
+            870,
+            458,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            448,
+            870,
+            458,
+            889
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U012",
+          "bbox": [
+            451,
+            870,
+            461,
+            892
+          ],
+          "intersection_xyxy_halfopen": [
+            451,
+            870,
+            461,
+            892
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U013",
+      "reader_A": [
+        {
+          "id": "A-U013",
+          "bbox": [
+            472,
+            854,
+            494,
+            873
+          ],
+          "intersection_xyxy_halfopen": [
+            473,
+            854,
+            494,
+            872
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U013",
+          "bbox": [
+            473,
+            854,
+            494,
+            872
+          ],
+          "intersection_xyxy_halfopen": [
+            473,
+            854,
+            494,
+            872
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U014",
+      "reader_A": [
+        {
+          "id": "A-U014",
+          "bbox": [
+            499,
+            851,
+            517,
+            875
+          ],
+          "intersection_xyxy_halfopen": [
+            501,
+            853,
+            516,
+            875
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U014",
+          "bbox": [
+            501,
+            853,
+            516,
+            876
+          ],
+          "intersection_xyxy_halfopen": [
+            501,
+            853,
+            516,
+            876
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U015",
+      "reader_A": [
+        {
+          "id": "A-U015",
+          "bbox": [
+            522,
+            851,
+            541,
+            876
+          ],
+          "intersection_xyxy_halfopen": [
+            524,
+            851,
+            541,
+            876
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U015",
+          "bbox": [
+            524,
+            851,
+            543,
+            876
+          ],
+          "intersection_xyxy_halfopen": [
+            524,
+            851,
+            543,
+            876
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U016",
+      "reader_A": [
+        {
+          "id": "A-U016",
+          "bbox": [
+            547,
+            855,
+            561,
+            876
+          ],
+          "intersection_xyxy_halfopen": [
+            547,
+            857,
+            561,
+            876
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U016",
+          "bbox": [
+            544,
+            857,
+            563,
+            876
+          ],
+          "intersection_xyxy_halfopen": [
+            544,
+            857,
+            563,
+            876
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U017",
+      "reader_A": [
+        {
+          "id": "A-U017",
+          "bbox": [
+            566,
+            854,
+            595,
+            877
+          ],
+          "intersection_xyxy_halfopen": [
+            568,
+            855,
+            591,
+            876
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U017",
+          "bbox": [
+            568,
+            855,
+            591,
+            876
+          ],
+          "intersection_xyxy_halfopen": [
+            568,
+            855,
+            591,
+            876
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U018",
+      "reader_A": [
+        {
+          "id": "A-U018",
+          "bbox": [
+            603,
+            854,
+            627,
+            899
+          ],
+          "intersection_xyxy_halfopen": [
+            603,
+            854,
+            627,
+            899
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U018",
+          "bbox": [
+            599,
+            857,
+            620,
+            899
+          ],
+          "intersection_xyxy_halfopen": [
+            599,
+            857,
+            620,
+            899
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U019",
+      "reader_A": [
+        {
+          "id": "A-U019",
+          "bbox": [
+            630,
+            852,
+            650,
+            878
+          ],
+          "intersection_xyxy_halfopen": [
+            630,
+            855,
+            648,
+            878
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U019",
+          "bbox": [
+            627,
+            855,
+            648,
+            878
+          ],
+          "intersection_xyxy_halfopen": [
+            627,
+            855,
+            648,
+            878
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U020",
+      "reader_A": [
+        {
+          "id": "A-U020",
+          "bbox": [
+            674,
+            854,
+            702,
+            878
+          ],
+          "intersection_xyxy_halfopen": [
+            678,
+            857,
+            700,
+            877
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U020",
+          "bbox": [
+            678,
+            857,
+            700,
+            877
+          ],
+          "intersection_xyxy_halfopen": [
+            678,
+            857,
+            700,
+            877
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U021",
+      "reader_A": [
+        {
+          "id": "A-U021",
+          "bbox": [
+            703,
+            853,
+            741,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            704,
+            858,
+            721,
+            880
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U021",
+          "bbox": [
+            704,
+            858,
+            721,
+            880
+          ],
+          "intersection_xyxy_halfopen": [
+            704,
+            858,
+            721,
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U022",
+      "reader_A": [
+        {
+          "id": "A-U021",
+          "bbox": [
+            703,
+            853,
+            741,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            723,
+            856,
+            741,
+            891
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U022",
+          "bbox": [
+            723,
+            856,
+            745,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            723,
+            856,
+            745,
+            891
+          ]
+        },
+        {
+          "id": "B-U023",
+          "bbox": [
+            744,
+            855,
+            763,
+            880
+          ],
+          "intersection_xyxy_halfopen": [
+            744,
+            856,
+            745,
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U023",
+      "reader_A": [],
+      "reader_B": [
+        {
+          "id": "B-U022",
+          "bbox": [
+            723,
+            856,
+            745,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            744,
+            856,
+            745,
+            880
+          ]
+        },
+        {
+          "id": "B-U023",
+          "bbox": [
+            744,
+            855,
+            763,
+            880
+          ],
+          "intersection_xyxy_halfopen": [
+            744,
+            855,
+            763,
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U024",
+      "reader_A": [
+        {
+          "id": "A-U022",
+          "bbox": [
+            775,
+            842,
+            810,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            775,
+            842,
+            810,
+            897
+          ]
+        },
+        {
+          "id": "A-U023",
+          "bbox": [
+            811,
+            843,
+            828,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            811,
+            843,
+            815,
+            887
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U024",
+          "bbox": [
+            775,
+            843,
+            815,
+            885
+          ],
+          "intersection_xyxy_halfopen": [
+            775,
+            843,
+            815,
+            885
+          ]
+        },
+        {
+          "id": "B-U025",
+          "bbox": [
+            812,
+            848,
+            830,
+            885
+          ],
+          "intersection_xyxy_halfopen": [
+            812,
+            848,
+            815,
+            885
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U025",
+      "reader_A": [
+        {
+          "id": "A-U023",
+          "bbox": [
+            811,
+            843,
+            828,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            812,
+            848,
+            828,
+            885
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U024",
+          "bbox": [
+            775,
+            843,
+            815,
+            885
+          ],
+          "intersection_xyxy_halfopen": [
+            812,
+            848,
+            815,
+            885
+          ]
+        },
+        {
+          "id": "B-U025",
+          "bbox": [
+            812,
+            848,
+            830,
+            885
+          ],
+          "intersection_xyxy_halfopen": [
+            812,
+            848,
+            830,
+            885
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U026",
+      "reader_A": [
+        {
+          "id": "A-U024",
+          "bbox": [
+            830,
+            865,
+            846,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            830,
+            870,
+            846,
+            889
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U026",
+          "bbox": [
+            830,
+            870,
+            848,
+            890
+          ],
+          "intersection_xyxy_halfopen": [
+            830,
+            870,
+            848,
+            890
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U027",
+      "reader_A": [
+        {
+          "id": "A-U025",
+          "bbox": [
+            849,
+            849,
+            880,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            849,
+            849,
+            875,
+            887
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U027",
+          "bbox": [
+            850,
+            852,
+            874,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            850,
+            852,
+            874,
+            887
+          ]
+        },
+        {
+          "id": "B-U028",
+          "bbox": [
+            873,
+            866,
+            890,
+            886
+          ],
+          "intersection_xyxy_halfopen": [
+            873,
+            866,
+            875,
+            886
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U028",
+      "reader_A": [
+        {
+          "id": "A-U025",
+          "bbox": [
+            849,
+            849,
+            880,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            873,
+            866,
+            880,
+            886
+          ]
+        },
+        {
+          "id": "A-U026",
+          "bbox": [
+            880,
+            847,
+            909,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            880,
+            866,
+            890,
+            886
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U027",
+          "bbox": [
+            850,
+            852,
+            874,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            873,
+            866,
+            874,
+            886
+          ]
+        },
+        {
+          "id": "B-U028",
+          "bbox": [
+            873,
+            866,
+            890,
+            886
+          ],
+          "intersection_xyxy_halfopen": [
+            873,
+            866,
+            890,
+            886
+          ]
+        },
+        {
+          "id": "B-U029",
+          "bbox": [
+            889,
+            852,
+            909,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            889,
+            866,
+            890,
+            886
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U029",
+      "reader_A": [
+        {
+          "id": "A-U026",
+          "bbox": [
+            880,
+            847,
+            909,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            889,
+            847,
+            909,
+            887
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U028",
+          "bbox": [
+            873,
+            866,
+            890,
+            886
+          ],
+          "intersection_xyxy_halfopen": [
+            889,
+            866,
+            890,
+            886
+          ]
+        },
+        {
+          "id": "B-U029",
+          "bbox": [
+            889,
+            852,
+            909,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            889,
+            852,
+            909,
+            889
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U030",
+      "reader_A": [
+        {
+          "id": "A-U027",
+          "bbox": [
+            911,
+            866,
+            933,
+            886
+          ],
+          "intersection_xyxy_halfopen": [
+            917,
+            869,
+            933,
+            886
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U030",
+          "bbox": [
+            917,
+            869,
+            934,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            917,
+            869,
+            934,
+            889
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U031",
+      "reader_A": [
+        {
+          "id": "A-U028",
+          "bbox": [
+            936,
+            844,
+            955,
+            887
+          ],
+          "intersection_xyxy_halfopen": [
+            936,
+            844,
+            955,
+            887
+          ]
+        },
+        {
+          "id": "A-U029",
+          "bbox": [
+            955,
+            884,
+            966,
+            903
+          ],
+          "intersection_xyxy_halfopen": [
+            955,
+            884,
+            957,
+            891
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U031",
+          "bbox": [
+            934,
+            853,
+            956,
+            890
+          ],
+          "intersection_xyxy_halfopen": [
+            934,
+            853,
+            956,
+            890
+          ]
+        },
+        {
+          "id": "B-U032",
+          "bbox": [
+            955,
+            885,
+            966,
+            902
+          ],
+          "intersection_xyxy_halfopen": [
+            955,
+            885,
+            957,
+            891
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U032",
+      "reader_A": [
+        {
+          "id": "A-U029",
+          "bbox": [
+            955,
+            884,
+            966,
+            903
+          ],
+          "intersection_xyxy_halfopen": [
+            955,
+            885,
+            966,
+            902
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U031",
+          "bbox": [
+            934,
+            853,
+            956,
+            890
+          ],
+          "intersection_xyxy_halfopen": [
+            955,
+            885,
+            956,
+            890
+          ]
+        },
+        {
+          "id": "B-U032",
+          "bbox": [
+            955,
+            885,
+            966,
+            902
+          ],
+          "intersection_xyxy_halfopen": [
+            955,
+            885,
+            966,
+            902
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U033",
+      "reader_A": [
+        {
+          "id": "A-U030",
+          "bbox": [
+            975,
+            862,
+            1000,
+            898
+          ],
+          "intersection_xyxy_halfopen": [
+            975,
+            862,
+            1000,
+            898
+          ]
+        },
+        {
+          "id": "A-U031",
+          "bbox": [
+            999,
+            844,
+            1023,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            999,
+            862,
+            1003,
+            891
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U033",
+          "bbox": [
+            978,
+            866,
+            1003,
+            903
+          ],
+          "intersection_xyxy_halfopen": [
+            978,
+            866,
+            1003,
+            903
+          ]
+        },
+        {
+          "id": "B-U034",
+          "bbox": [
+            995,
+            850,
+            1018,
+            888
+          ],
+          "intersection_xyxy_halfopen": [
+            995,
+            862,
+            1003,
+            888
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U034",
+      "reader_A": [
+        {
+          "id": "A-U030",
+          "bbox": [
+            975,
+            862,
+            1000,
+            898
+          ],
+          "intersection_xyxy_halfopen": [
+            995,
+            862,
+            1000,
+            892
+          ]
+        },
+        {
+          "id": "A-U031",
+          "bbox": [
+            999,
+            844,
+            1023,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            999,
+            844,
+            1023,
+            891
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U033",
+          "bbox": [
+            978,
+            866,
+            1003,
+            903
+          ],
+          "intersection_xyxy_halfopen": [
+            995,
+            866,
+            1003,
+            892
+          ]
+        },
+        {
+          "id": "B-U034",
+          "bbox": [
+            995,
+            850,
+            1018,
+            888
+          ],
+          "intersection_xyxy_halfopen": [
+            995,
+            850,
+            1018,
+            888
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U035",
+      "reader_A": [
+        {
+          "id": "A-U032",
+          "bbox": [
+            1040,
+            858,
+            1063,
+            898
+          ],
+          "intersection_xyxy_halfopen": [
+            1040,
+            858,
+            1063,
+            898
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U035",
+          "bbox": [
+            1044,
+            860,
+            1062,
+            892
+          ],
+          "intersection_xyxy_halfopen": [
+            1044,
+            860,
+            1062,
+            892
+          ]
+        },
+        {
+          "id": "B-U036",
+          "bbox": [
+            1062,
+            866,
+            1083,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            1062,
+            866,
+            1064,
+            891
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U036",
+      "reader_A": [
+        {
+          "id": "A-U032",
+          "bbox": [
+            1040,
+            858,
+            1063,
+            898
+          ],
+          "intersection_xyxy_halfopen": [
+            1062,
+            866,
+            1063,
+            891
+          ]
+        },
+        {
+          "id": "A-U033",
+          "bbox": [
+            1065,
+            868,
+            1080,
+            892
+          ],
+          "intersection_xyxy_halfopen": [
+            1065,
+            868,
+            1080,
+            891
+          ]
+        },
+        {
+          "id": "A-U034",
+          "bbox": [
+            1081,
+            869,
+            1103,
+            892
+          ],
+          "intersection_xyxy_halfopen": [
+            1081,
+            869,
+            1083,
+            891
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U036",
+          "bbox": [
+            1062,
+            866,
+            1083,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            1062,
+            866,
+            1083,
+            891
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U037",
+      "reader_A": [
+        {
+          "id": "A-U034",
+          "bbox": [
+            1081,
+            869,
+            1103,
+            892
+          ],
+          "intersection_xyxy_halfopen": [
+            1084,
+            869,
+            1103,
+            889
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U037",
+          "bbox": [
+            1084,
+            866,
+            1104,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            1084,
+            866,
+            1104,
+            889
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U038",
+      "reader_A": [
+        {
+          "id": "A-U035",
+          "bbox": [
+            1109,
+            846,
+            1136,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            1109,
+            846,
+            1136,
+            893
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U038",
+          "bbox": [
+            1105,
+            849,
+            1131,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            1105,
+            849,
+            1131,
+            891
+          ]
+        },
+        {
+          "id": "B-U039",
+          "bbox": [
+            1131,
+            869,
+            1153,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1131,
+            869,
+            1136,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U039",
+      "reader_A": [
+        {
+          "id": "A-U035",
+          "bbox": [
+            1109,
+            846,
+            1136,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            1131,
+            869,
+            1136,
+            893
+          ]
+        },
+        {
+          "id": "A-U036",
+          "bbox": [
+            1136,
+            876,
+            1163,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            1136,
+            876,
+            1153,
+            893
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U039",
+          "bbox": [
+            1131,
+            869,
+            1153,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1131,
+            869,
+            1153,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U040",
+      "reader_A": [
+        {
+          "id": "A-U036",
+          "bbox": [
+            1136,
+            876,
+            1163,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            1155,
+            876,
+            1163,
+            893
+          ]
+        },
+        {
+          "id": "A-U037",
+          "bbox": [
+            1162,
+            867,
+            1188,
+            903
+          ],
+          "intersection_xyxy_halfopen": [
+            1162,
+            867,
+            1184,
+            899
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U040",
+          "bbox": [
+            1155,
+            866,
+            1184,
+            899
+          ],
+          "intersection_xyxy_halfopen": [
+            1155,
+            866,
+            1184,
+            899
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U041",
+      "reader_A": [
+        {
+          "id": "A-U037",
+          "bbox": [
+            1162,
+            867,
+            1188,
+            903
+          ],
+          "intersection_xyxy_halfopen": [
+            1187,
+            867,
+            1188,
+            895
+          ]
+        },
+        {
+          "id": "A-U038",
+          "bbox": [
+            1190,
+            867,
+            1218,
+            892
+          ],
+          "intersection_xyxy_halfopen": [
+            1190,
+            867,
+            1214,
+            892
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U041",
+          "bbox": [
+            1187,
+            864,
+            1214,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1187,
+            864,
+            1214,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U042",
+      "reader_A": [
+        {
+          "id": "A-U039",
+          "bbox": [
+            1230,
+            861,
+            1248,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            1230,
+            861,
+            1248,
+            889
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U042",
+          "bbox": [
+            1223,
+            866,
+            1244,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            1223,
+            866,
+            1244,
+            891
+          ]
+        },
+        {
+          "id": "B-U043",
+          "bbox": [
+            1239,
+            870,
+            1260,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1239,
+            870,
+            1248,
+            893
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U043",
+      "reader_A": [
+        {
+          "id": "A-U039",
+          "bbox": [
+            1230,
+            861,
+            1248,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            1239,
+            870,
+            1248,
+            889
+          ]
+        },
+        {
+          "id": "A-U040",
+          "bbox": [
+            1252,
+            861,
+            1274,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            1252,
+            870,
+            1260,
+            889
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U042",
+          "bbox": [
+            1223,
+            866,
+            1244,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            1239,
+            870,
+            1244,
+            891
+          ]
+        },
+        {
+          "id": "B-U043",
+          "bbox": [
+            1239,
+            870,
+            1260,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1239,
+            870,
+            1260,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U044",
+      "reader_A": [
+        {
+          "id": "A-U040",
+          "bbox": [
+            1252,
+            861,
+            1274,
+            889
+          ],
+          "intersection_xyxy_halfopen": [
+            1264,
+            870,
+            1274,
+            889
+          ]
+        },
+        {
+          "id": "A-U041",
+          "bbox": [
+            1274,
+            863,
+            1297,
+            890
+          ],
+          "intersection_xyxy_halfopen": [
+            1274,
+            870,
+            1285,
+            890
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U044",
+          "bbox": [
+            1264,
+            870,
+            1285,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1264,
+            870,
+            1285,
+            895
+          ]
+        },
+        {
+          "id": "B-U045",
+          "bbox": [
+            1284,
+            857,
+            1314,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1284,
+            870,
+            1285,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U045",
+      "reader_A": [
+        {
+          "id": "A-U041",
+          "bbox": [
+            1274,
+            863,
+            1297,
+            890
+          ],
+          "intersection_xyxy_halfopen": [
+            1284,
+            863,
+            1297,
+            890
+          ]
+        },
+        {
+          "id": "A-U042",
+          "bbox": [
+            1296,
+            855,
+            1329,
+            890
+          ],
+          "intersection_xyxy_halfopen": [
+            1296,
+            857,
+            1314,
+            890
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U044",
+          "bbox": [
+            1264,
+            870,
+            1285,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1284,
+            870,
+            1285,
+            894
+          ]
+        },
+        {
+          "id": "B-U045",
+          "bbox": [
+            1284,
+            857,
+            1314,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1284,
+            857,
+            1314,
+            894
+          ]
+        },
+        {
+          "id": "B-U046",
+          "bbox": [
+            1310,
+            866,
+            1332,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1310,
+            866,
+            1314,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U046",
+      "reader_A": [
+        {
+          "id": "A-U042",
+          "bbox": [
+            1296,
+            855,
+            1329,
+            890
+          ],
+          "intersection_xyxy_halfopen": [
+            1310,
+            866,
+            1329,
+            890
+          ]
+        },
+        {
+          "id": "A-U043",
+          "bbox": [
+            1328,
+            868,
+            1350,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            1328,
+            868,
+            1332,
+            891
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U045",
+          "bbox": [
+            1284,
+            857,
+            1314,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1310,
+            866,
+            1314,
+            894
+          ]
+        },
+        {
+          "id": "B-U046",
+          "bbox": [
+            1310,
+            866,
+            1332,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1310,
+            866,
+            1332,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U047",
+      "reader_A": [
+        {
+          "id": "A-U043",
+          "bbox": [
+            1328,
+            868,
+            1350,
+            891
+          ],
+          "intersection_xyxy_halfopen": [
+            1338,
+            868,
+            1350,
+            891
+          ]
+        },
+        {
+          "id": "A-U044",
+          "bbox": [
+            1350,
+            867,
+            1382,
+            905
+          ],
+          "intersection_xyxy_halfopen": [
+            1350,
+            867,
+            1382,
+            905
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U047",
+          "bbox": [
+            1338,
+            872,
+            1375,
+            902
+          ],
+          "intersection_xyxy_halfopen": [
+            1338,
+            872,
+            1375,
+            902
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U048",
+      "reader_A": [
+        {
+          "id": "A-U045",
+          "bbox": [
+            1385,
+            880,
+            1401,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            1388,
+            882,
+            1398,
+            893
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U048",
+          "bbox": [
+            1388,
+            882,
+            1398,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1388,
+            882,
+            1398,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U049",
+      "reader_A": [
+        {
+          "id": "A-U046",
+          "bbox": [
+            1415,
+            863,
+            1440,
+            905
+          ],
+          "intersection_xyxy_halfopen": [
+            1415,
+            863,
+            1440,
+            905
+          ]
+        },
+        {
+          "id": "A-U047",
+          "bbox": [
+            1439,
+            864,
+            1460,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1439,
+            864,
+            1440,
+            895
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U049",
+          "bbox": [
+            1415,
+            872,
+            1434,
+            903
+          ],
+          "intersection_xyxy_halfopen": [
+            1415,
+            872,
+            1434,
+            903
+          ]
+        },
+        {
+          "id": "B-U050",
+          "bbox": [
+            1436,
+            870,
+            1456,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1436,
+            870,
+            1440,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U050",
+      "reader_A": [
+        {
+          "id": "A-U046",
+          "bbox": [
+            1415,
+            863,
+            1440,
+            905
+          ],
+          "intersection_xyxy_halfopen": [
+            1436,
+            870,
+            1440,
+            895
+          ]
+        },
+        {
+          "id": "A-U047",
+          "bbox": [
+            1439,
+            864,
+            1460,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1439,
+            870,
+            1456,
+            895
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U050",
+          "bbox": [
+            1436,
+            870,
+            1456,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1436,
+            870,
+            1456,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U051",
+      "reader_A": [
+        {
+          "id": "A-U048",
+          "bbox": [
+            1460,
+            859,
+            1481,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1462,
+            859,
+            1481,
+            893
+          ]
+        },
+        {
+          "id": "A-U049",
+          "bbox": [
+            1480,
+            868,
+            1500,
+            899
+          ],
+          "intersection_xyxy_halfopen": [
+            1480,
+            868,
+            1485,
+            893
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U051",
+          "bbox": [
+            1462,
+            858,
+            1485,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            1462,
+            858,
+            1485,
+            893
+          ]
+        },
+        {
+          "id": "B-U052",
+          "bbox": [
+            1482,
+            875,
+            1510,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1482,
+            875,
+            1485,
+            893
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U052",
+      "reader_A": [
+        {
+          "id": "A-U048",
+          "bbox": [
+            1460,
+            859,
+            1481,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1480,
+            868,
+            1481,
+            895
+          ]
+        },
+        {
+          "id": "A-U049",
+          "bbox": [
+            1480,
+            868,
+            1500,
+            899
+          ],
+          "intersection_xyxy_halfopen": [
+            1480,
+            868,
+            1500,
+            899
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U051",
+          "bbox": [
+            1462,
+            858,
+            1485,
+            893
+          ],
+          "intersection_xyxy_halfopen": [
+            1480,
+            868,
+            1485,
+            893
+          ]
+        },
+        {
+          "id": "B-U052",
+          "bbox": [
+            1482,
+            875,
+            1510,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1482,
+            875,
+            1510,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U053",
+      "reader_A": [
+        {
+          "id": "A-U050",
+          "bbox": [
+            1530,
+            856,
+            1557,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1530,
+            856,
+            1557,
+            894
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U053",
+          "bbox": [
+            1534,
+            861,
+            1555,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1534,
+            861,
+            1555,
+            895
+          ]
+        },
+        {
+          "id": "B-U054",
+          "bbox": [
+            1556,
+            881,
+            1585,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1556,
+            881,
+            1557,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U054",
+      "reader_A": [
+        {
+          "id": "A-U050",
+          "bbox": [
+            1530,
+            856,
+            1557,
+            894
+          ],
+          "intersection_xyxy_halfopen": [
+            1556,
+            874,
+            1557,
+            894
+          ]
+        },
+        {
+          "id": "A-U051",
+          "bbox": [
+            1557,
+            874,
+            1590,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1557,
+            874,
+            1590,
+            897
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U054",
+          "bbox": [
+            1556,
+            881,
+            1585,
+            895
+          ],
+          "intersection_xyxy_halfopen": [
+            1556,
+            881,
+            1585,
+            895
+          ]
+        },
+        {
+          "id": "B-U055",
+          "bbox": [
+            1588,
+            879,
+            1611,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1588,
+            879,
+            1590,
+            897
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U055",
+      "reader_A": [
+        {
+          "id": "A-U051",
+          "bbox": [
+            1557,
+            874,
+            1590,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1588,
+            874,
+            1590,
+            897
+          ]
+        },
+        {
+          "id": "A-U052",
+          "bbox": [
+            1590,
+            874,
+            1618,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1590,
+            874,
+            1618,
+            897
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U055",
+          "bbox": [
+            1588,
+            879,
+            1611,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1588,
+            879,
+            1611,
+            897
+          ]
+        },
+        {
+          "id": "B-U056",
+          "bbox": [
+            1615,
+            877,
+            1640,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1615,
+            877,
+            1618,
+            897
+          ]
+        }
+      ]
+    },
+    {
+      "canonical_id": "U056",
+      "reader_A": [
+        {
+          "id": "A-U052",
+          "bbox": [
+            1590,
+            874,
+            1618,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1615,
+            875,
+            1618,
+            897
+          ]
+        },
+        {
+          "id": "A-U053",
+          "bbox": [
+            1618,
+            875,
+            1644,
+            898
+          ],
+          "intersection_xyxy_halfopen": [
+            1618,
+            875,
+            1644,
+            898
+          ]
+        }
+      ],
+      "reader_B": [
+        {
+          "id": "B-U056",
+          "bbox": [
+            1615,
+            877,
+            1640,
+            897
+          ],
+          "intersection_xyxy_halfopen": [
+            1615,
+            877,
+            1640,
+            897
+          ]
+        }
+      ]
+    }
+  ],
+  "actual_differences": [
+    {
+      "region": [
+        703,
+        844,
+        763,
+        901
+      ],
+      "finding": "A combined crossed stem and adjacent left curve in A-U021, did not bound the separate right curve at x744–763. B gives three local bodies. Native middle view supports recording these bodies but does not force cipher partition."
+    },
+    {
+      "region": [
+        849,
+        847,
+        911,
+        890
+      ],
+      "finding": "A-U025/026 vs B-U027/028/029: B middle shoulder is visible; long tall strokes and low shoulder ownership remain correlated."
+    },
+    {
+      "region": [
+        1223,
+        855,
+        1382,
+        917
+      ],
+      "finding": "A/B body envelopes and divisions drift substantially here; intersections explicitly recorded. B-U047 includes A-U043/U044 portions rather than an exact matched identity."
+    },
+    {
+      "region": [
+        1338,
+        867,
+        1440,
+        917
+      ],
+      "finding": "A-U044 and A-U046 were explicitly bottom-partial. B-U047 uncertain and B-U049 visible_complete boxes end at 902/903 before full returns. Context shows descending contours ending approximately 913–915; enlarged envelopes bound visible whole extent."
+    }
+  ],
+  "method": "Manual visual reconciliation of raw native tiles, then unchanged native context. Geometry correspondence, not reader IDs or votes. No threshold-connected components used."
+}

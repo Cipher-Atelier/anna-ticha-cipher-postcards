@@ -1,0 +1,361 @@
+{
+  "agreement": {
+    "path": "cards/card234/case-data-v1/agreement-view.json",
+    "sha256": "64900229e40cb3199499a6940cf2f420c12221569e6b3efdd8de693ad2aa4e74"
+  },
+  "audit": {
+    "path": "cards/card234/source-review-independent-v1/source-review.json",
+    "sha256": "0064902ed6b6c92d3747c55e9749f213bc2c9668be0fe76e97eb108cf14b5aad"
+  },
+  "audit_freeze": {
+    "path": "cards/card234/case-data-v1/audit-view-freeze.json",
+    "sha256": "bd57258cb4f8280ebf688f04af7e3a807187ac1beaf8bcfaafe7aa71da8a7eb9"
+  },
+  "card_id": 234,
+  "diplomatic": {
+    "path": "cards/card234/case-data-v1/diplomatic-view.json",
+    "sha256": "35e9b4fce5d9553c36f143d779aa3612eaa6b59f86e902a70d1a64c58ac70944"
+  },
+  "expected_nomination_ids": [
+    "234B-context-01",
+    "234B-context-02",
+    "234B-context-03",
+    "234B-context-04",
+    "234B-context-05",
+    "234B-context-06",
+    "234B-context-07",
+    "234B-context-08"
+  ],
+  "faces": {
+    "address": {
+      "cipher_ledgers": [],
+      "cipher_present": false,
+      "ordinary_orientation": "NONE"
+    },
+    "picture": {
+      "cipher_ledgers": [
+        {
+          "freeze": {
+            "path": "cards/card234/source-compatibility-v1/picture-cipher-CW90-final-freeze-view.json",
+            "sha256": "974368c80016158e9c1fceb1b899c95b29bb6f548b675ffe2239300c57e86e8d"
+          },
+          "ledger": {
+            "path": "cards/card234/source-primary-fresh/picture-cipher-CW90-final.json",
+            "sha256": "0078cd763127d681ea3852d159be94235a783b1a90f230c679296adf4d4b7259"
+          },
+          "orientation": "CW90",
+          "region_ids": [
+            "234B-picture-main"
+          ],
+          "regions": {
+            "path": "cards/card234/source-compatibility-v1/picture-cipher-CW90-final-regions-view.json",
+            "sha256": "5674479a18795cc479d189a7f3adb65fbf5d2f4dd607ee6ad8e8b01be36e54eb"
+          },
+          "scope_id": "picture-cipher-CW90-final"
+        }
+      ],
+      "cipher_present": true,
+      "ordinary_orientation": {
+        "1": "CW90",
+        "2": "NONE",
+        "3": "NONE",
+        "4": "NONE"
+      }
+    }
+  },
+  "nominations": {
+    "path": "cards/card234/case-input-aliases-v1/nominations-view.json",
+    "sha256": "011f5c57ae10a9a968cce439a67e7330193d0a495b77795961e4e9793a47bda7"
+  },
+  "nominations_freeze": {
+    "path": "cards/card234/case-data-v1/nominations-view-freeze.json",
+    "sha256": "6705c01ed9c8fd9e0d179116c8a7d4e4f53be6a1362702d8cf9fc6c9cccd72a0"
+  },
+  "observations": {
+    "path": "cards/card234/case-data-v1/observations-view.json",
+    "sha256": "cf22cf5a51faf1245ab899ea4d57597fc225aaad72d65463a566f1428d0efc2f"
+  },
+  "overlay": {
+    "path": "cards/card234/case-data-v1/exact-mask-overlay.json",
+    "sha256": "52bec48da8741e9a5bd9fde4846531feea99e74729b3ff4964a292d8dab3cc83"
+  },
+  "peer_freeze": {
+    "path": "cards/card234/case-data-v1/peer-view-freeze.json",
+    "sha256": "585e3f44b0782ed77e8414e9e52552e561a368d0bb32a225a6b3d0dfde62f139"
+  },
+  "peer_graphics": {
+    "path": "cards/card234/case-data-v1/peer-view.json",
+    "sha256": "21c36967c57b7f175c929cc99a2d23de6b0d31e352f8c1558e0c0fbe3d17a6b9"
+  },
+  "preprojection_provenance": [
+    {
+      "path": "packet008-root-case-metadata-assembly-GO-v1.json",
+      "sha256": "200982ba09286d9961fb031e5ccff6e65f532189dc3f4eb45a44f47d15f07320"
+    },
+    {
+      "path": "packet008-root-all-fullpeer-complete-binding-v1.json",
+      "sha256": "a1b8e3be1e56db695f09fdd137a8a9a67ce9c628fe949d4a29325ac124b73458"
+    },
+    {
+      "path": "packet008-source-network-protocol-before-view-v2.json",
+      "sha256": "5c5e22ca060b308ea5cfe4556663809c82a5adb91824cde16bd8e37501fd17f5"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/source-metadata-view-candidate.json",
+      "sha256": "2776788bb1b0c36f0a0ada86a5fdfbd2477af969ac509b3e6fadde59cafeebdb"
+    },
+    {
+      "path": "cards/card234/case-input-aliases-v1/nominations-view.json",
+      "sha256": "011f5c57ae10a9a968cce439a67e7330193d0a495b77795961e4e9793a47bda7"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/abstentions-final.json",
+      "sha256": "0cb809204e2ed2209b6ed518fcb0fc779462e627603644b3d72dda839e35371d"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/class-free-context-nominations.json",
+      "sha256": "b514f127472c470ac57684ea097e6951b038f5106d934614b264f3fc336b7d99"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/exposure.json",
+      "sha256": "ddfc0cbd92ad12ff1fc00e0d067cc28a1f9334341d0c35be6138674e9be7f3dd"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/full-face-survey-final.json",
+      "sha256": "9f3ef266413dabe754891e0f5b69fc68954aa7361a3a084d42cdcc6204f21802"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/full-face-survey.json",
+      "sha256": "aed6559d681d84ea59117ffda8a69fff0cc57351a9db2c4f265a1d0f2379a6d1"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/initial-abstentions.json",
+      "sha256": "8d33e16cff38fe6e3aa74870fb2bb56300adf2ed0b97b44b1d7ea46d10e42b52"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/ordinary-diplomatic-final.json",
+      "sha256": "07e54b028ad43c789e4a1ad7af7b86cb69d58b5cb06679fa363899a482b6ccc6"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/ordinary-diplomatic.json",
+      "sha256": "131f9daa74391a1e9a017441a6e00ea129f061cc292abefdf66138a3ee812ac1"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/picture-cipher-CW90-final.json",
+      "sha256": "0078cd763127d681ea3852d159be94235a783b1a90f230c679296adf4d4b7259"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/picture-cipher-CW90.json",
+      "sha256": "da542c5b3035010830dcabb24f188379a58731bb2b0b7c4cf656ae9b75675188"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/row-region-document-order-final.json",
+      "sha256": "658d10fead286fbdfb8ddaf89f2f6e448bf5bea8020b112032a3fe8bed629b62"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/row-region-document-order.json",
+      "sha256": "968a96832c23377d1d687de0d50736a8686474e9da08ef7d48ffeeb67eb48c1d"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/source-freeze-final.json",
+      "sha256": "21b7e136f49d1e169af7de4f89d7517df587779510b9e28fde4179288413ee5f"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/source-freeze.json",
+      "sha256": "b8db90711bc13e3ea68e9f3275390970e67c5172e321207d1ceab57ddd0e399a"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/source-observations.json",
+      "sha256": "93ccddc1e55844296b80b4cd2f1125afb96bd75b6a3071098e339588fb23f1d7"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/target-access-before-first-pixel.json",
+      "sha256": "6eb0c752ecd3b90ee81d48dd82b83cc2b1b04faf4d7aa6d6a559c213ec4c77b7"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/unlocated-marks.json",
+      "sha256": "8c294707fd51736be178af7e75858b4a28f8f6329ae3d33d8305e39dc290918f"
+    },
+    {
+      "path": "cards/card234/source-primary-fresh/view-chronology.json",
+      "sha256": "1f3ccd2ae90ae9a7143ccfc1b829d29927e79e78a39306eed32e644a92cc5fed"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/access-before-view.json",
+      "sha256": "5f68b45c8b1b0ddcd28143a09e58d7f2dc140c8995c0bbf4c4bc8623c54cfa14"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/exposure.json",
+      "sha256": "736480400288d757ea2df0780772c000d86e657ce71b1f6e0960b93de6c62fcc"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/full-face-survey.json",
+      "sha256": "f1647ab84634c82c4a1891551930d28346f6c1c8fb7d6abc30f45f9a7a3b64f3"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/fullface-access-before-view.json",
+      "sha256": "63e7e598a71c1f4b0231d25ce1fa984c62dbb539b6c7e96a43d3dc6a7d0e91a0"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/fullface-context-records.json",
+      "sha256": "6be73f4456ff29250b51379dc939619c1228650de4b5fcf93edbeca5f61cc88b"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/fullface-exposure.json",
+      "sha256": "7ddf4f0446377827aa2fac8640d965bca084b8d3f7487ac53904d4b92af8a760"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/fullface-marks.json",
+      "sha256": "278b2ecb8a17cc1dfb92b5818338e7533474398440a66ebabd58e4e971cac031"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/fullface-transform-provenance.json",
+      "sha256": "c62a6dd639b8eb1c7e1f2feb0a5c812faa15c2cc7e8f6a6260bcbe61793a317a"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/fullface-view-chronology.json",
+      "sha256": "944a987f614b30e77c41ae1582a00df587e2bc9b637010bcde064a42bc204d3f"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/ordinary-diplomatic.json",
+      "sha256": "73d84e2ce1f5fa05ed86588d0ded433697a005eae040642a011e194826fc0535"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/own-transform-provenance.json",
+      "sha256": "8c7a5b66285571d8dbe2b12ca7e8309c29deab6b5fa8715bb4d3a968952ae886"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/source-peer-freeze.json",
+      "sha256": "cf13ae289166c34f403a0922f90837181d79ed07665c53d8ca647bde25568520"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/view-chronology.json",
+      "sha256": "32e18c620a984763359d62ea17c198d388d223cd8b552349b534b8c4bc94f47a"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/window-graph-freeze.json",
+      "sha256": "18ced81f96c8916607d064b9f5f8bed425d850c23d956997f930e1eb241c4746"
+    },
+    {
+      "path": "cards/card234/source-peer-fresh/window-graph.json",
+      "sha256": "dfc2abb7e0a6fda2536893c3a07c9fb3f37235414824a43fe73f9b3e7364ac09"
+    },
+    {
+      "path": "cards/card234/source-review-independent-v1/agreed-fragments.json",
+      "sha256": "89ffd42e1197297f1093ab4ef26e33408bb43f47a42ca32bd232741f506c4b06"
+    },
+    {
+      "path": "cards/card234/source-review-independent-v1/review-decisions.json",
+      "sha256": "fc57f4838beadd716bf6256ad6516b8b517cea9fa92d3d8f721b7983c521a33d"
+    },
+    {
+      "path": "cards/card234/source-review-independent-v1/source-review-freeze.json",
+      "sha256": "baa97a92777b037d6d5f0656eca6031c087b3f62713f57081e540c3178785666"
+    },
+    {
+      "path": "cards/card234/source-review-independent-v1/source-review.json",
+      "sha256": "0064902ed6b6c92d3747c55e9749f213bc2c9668be0fe76e97eb108cf14b5aad"
+    },
+    {
+      "path": "cards/card234/source-review-independent-v1/uncertainty-masks.json",
+      "sha256": "53912060c7efba3ef420fb14bbd357d138f935264695fac93efbdef57a37fc25"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/chronology-supplement.json",
+      "sha256": "859544480bf3c33cc98a07273f08c9909bb92a734a93df4aed9a4b9fc892c4f6"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/diplomatic-view.json",
+      "sha256": "35e9b4fce5d9553c36f143d779aa3612eaa6b59f86e902a70d1a64c58ac70944"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/observations-input-alias.json",
+      "sha256": "9a549b046e21b5ec836fb9ac85fa0c5e2cf1928286b4feaaf1a51abffe617bf4"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/observations-view.json",
+      "sha256": "cf22cf5a51faf1245ab899ea4d57597fc225aaad72d65463a566f1428d0efc2f"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/ordered-bindings-input-alias.json",
+      "sha256": "9dd5c298f713826bbecdcd25343a3c26d57b0f184d58ba60523a286be9f9a591"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/picture-cipher-CW90-final-freeze-view.json",
+      "sha256": "974368c80016158e9c1fceb1b899c95b29bb6f548b675ffe2239300c57e86e8d"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/picture-cipher-CW90-final-regions-view.json",
+      "sha256": "5674479a18795cc479d189a7f3adb65fbf5d2f4dd607ee6ad8e8b01be36e54eb"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/source-metadata-helper-call-attempt.json",
+      "sha256": "e5b8832a6f34d86a3e68be1c00219d7eb9407a23e186f35c174901e328c17421"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/source-metadata-helper-call-completed.json",
+      "sha256": "c740c3650c89baf054268f996bd83c14f4e9830183c92b091e231bbf5aac5e81"
+    },
+    {
+      "path": "cards/card234/source-compatibility-v1/view-provenance.json",
+      "sha256": "63e4ca42ece1ad7fa4196b453f312983d514e2752421907ff7b8be9cd20fedc6"
+    },
+    {
+      "path": "cards/card234/peer-input-aliases-v1/derivation-attempt-before-contexts-and-helpers.json",
+      "sha256": "8b865ba753dfb0c40aa9fadeff111e1f71632a061909ed6c118990be3f8d92c7"
+    },
+    {
+      "path": "cards/card234/peer-input-aliases-v1/generated-contexts-provenance.json",
+      "sha256": "626d1211c33b8172a8869ceeeebb8fee183a7a1107311221eafaeb7179bbe996"
+    },
+    {
+      "path": "cards/card234/peer-input-aliases-v1/nomination-freeze-view.json",
+      "sha256": "448bc75d201a14bad0958e2f0534e1e3074a36b4807ca28dd0b1690d84c47f2c"
+    },
+    {
+      "path": "cards/card234/peer-input-aliases-v1/packet-view.json",
+      "sha256": "d6fa19a990bcbab68c6e6883a59f1c9c5e07b8e2e39508861cc8643e3ad801ad"
+    },
+    {
+      "path": "cards/card234/peer-input-aliases-v1/provenance-private.json",
+      "sha256": "0e8ee126dabdc71b483ab980082838b17a8b489922ded432d8faeafaf35ed0ea"
+    },
+    {
+      "path": "cards/card234/peer-input-aliases-v1/window-helper-call-attempt.json",
+      "sha256": "585d20859525283c0ccd116717d2b2e74de73d837d0658cd252eb4eac2481108"
+    },
+    {
+      "path": "cards/card234/peer-input-aliases-v1/window-helper-call-completed.json",
+      "sha256": "1c4895e4ca1192471fc4a10afc54d6e55070a9681899469bcc032b237388561f"
+    },
+    {
+      "path": "cards/card234/peer-window-only-v1/peer-freeze.json",
+      "sha256": "776ebeed836de0d597703f20545af0ae0cffa1e9d86327cc0e6fe58388e85c9f"
+    },
+    {
+      "path": "cards/card234/peer-window-only-v1/peer-packet.json",
+      "sha256": "ed4239d3f535825af497924129db4fa97f09aca45769f4d6dab8c2e20e54159a"
+    },
+    {
+      "path": "cards/card234/peer-window-only-v1/provenance-private.json",
+      "sha256": "c8f6c8fe784e53aa09c356fdcb8d0c92354f1dccd7e0f8d3f68583dfed686b0e"
+    }
+  ],
+  "protocol": {
+    "path": "packet008-source-network-protocol-before-view-v2.json",
+    "sha256": "5c5e22ca060b308ea5cfe4556663809c82a5adb91824cde16bd8e37501fd17f5"
+  },
+  "review": {
+    "path": "cards/card234/case-data-v1/review-binding.json",
+    "sha256": "58f62ce3a2908a0b0179a22b9344190eb04bfb5af5038f7a6480ed5eacc0fa7c"
+  },
+  "review_freeze": {
+    "path": "cards/card234/case-data-v1/review-binding-freeze.json",
+    "sha256": "9ea9561f6e9c47fd13e99075060b2cd560c690bc18a92d7f707cdf6e76aab43f"
+  },
+  "schema": "anna-released-completion-case-v1",
+  "selection": {
+    "path": "cards/card234/source-selection-final.json",
+    "sha256": "38ef032567ab9a3fa1778bb4152559826da979fb31eaa9e1f25482f3a1a648ec"
+  }
+}

@@ -85,3 +85,63 @@ Read the current result and source limitations, then coordinate a bounded task i
 [Card330 cross-card feature control](research-updates/2026-10-11-card330-cross-card-feature-control.md) explains the source evidence, remaining masks and new tentative fragments relative to the screen note. Its frozen G05/G19 criteria failed a canonical control, so the disputed target remains masked; no additional plaintext or key change is accepted.
 
 [Card330 geometric annotation](research-updates/2026-10-11-card330-stroke-ownership.md) records two independent pixel-only proposals for all seven saved segmentation references. Approximate envelope agreement did not establish stroke ownership or physical positions; all thirteen masks remain, and this annotation path stops with a documented limit.
+
+## Local corpus update — 13 October 2026
+
+[Four qualified research readers, selected scientific text evidence and frozen reference code](research-updates/2026-10-13-local-corpus/README.md).
+
+## G08 owner study — 13 October 2026
+
+[Recorded primary and separate supplementary source judgments, with endpoint limits](research-updates/2026-10-13-g08-owner-study.md).
+
+## Whole-trajectory owner study — 13 October 2026
+
+[Bounded held support for visible-path ownership and local ink partition, with complete-unit limits](research-updates/2026-10-13-whole-trajectory-owner/README.md).
+
+## Full-unit class bridge — 13 October 2026
+
+[Two complete external constructions, bounded class correspondences and the unresolved value-blinded class bridge](research-updates/2026-10-13-full-unit-class-bridge/README.md).
+
+## Single-transition discriminator — 13 October 2026
+
+[Bounded held-reference validation and conditional target refinement, with failed target RGB timing explicitly retained](research-updates/2026-10-13-single-transition-test/README.md).
+
+## Class origin and new source — 13 October 2026
+
+[Unknown class-origin independence, a failed body-placement test and bounded new physical references](research-updates/2026-10-13-class-origin-and-new-source/README.md).
+
+## Key-foundation audit — 13 October 2026
+
+[Seven hypothetical legacy claims lack established independent letter foundations; historical plan (subsequently executed in the rebuild report below)](research-updates/2026-10-13-key-foundation-audit/README.md).
+
+## Executed rebuild257/258 — 13 October 2026
+
+[Actual source-unavailable development attempt and six negative numerical controls;258 transfer not executed](research-updates/2026-10-13-executed-rebuild257258/README.md).
+
+## Native source257 annotation — 13 October 2026
+
+[56 approximate physical annotations, 33 whole singleton exemplars and 23 unresolved spans; all cipher roles UNKNOWN](research-updates/2026-10-13-native-source257-annotation/README.md).
+
+## Source257 full-card physical map — 13 October 2026
+
+[Corrected 307-record source map, 172 whole constructions, 135 unresolved spans and two checked complete-body graphical groups; all cipher roles UNKNOWN](research-updates/2026-10-13-source257-fullcard-map/README.md).
+
+## Source257 full-visible candidate inventory — 13 October 2026
+
+[Seven source-checked candidate sets, 39 eligible ungrouped profiles and 117 exclusions; complete 14,706-pair metadata screen with explicit cryptanalysis-use limits](research-updates/2026-10-13-source257-class-candidates/README.md).
+
+## Source257 physical-context refinement — protocol 13 October; review 14 October 2026
+
+[Accepted full-context refinement of 15 annotation profiles: eligibility 55→70 and exclusions 117→102, with corrected source evidence and preserved error history; no new classes or letters](research-updates/2026-10-13-source257-exclusion-refinement/README.md).
+
+## Source257 repeat candidates and spatial references — 14 October 2026
+
+[47 new graphical candidate edges, 15 overlapping cliques and 307 spatial annotation references, with explicit deferred comparisons and no cipher identities](research-updates/2026-10-14-source257-repeat-sequence/README.md).
+
+## Source257 conflict and route review — 14 October 2026
+
+[38 disputed pairs remain unresolved; a narrow FC209 locator erratum leaves the historical candidate graph unchanged](research-updates/2026-10-14-source257-conflict-route-review/README.md).
+
+## Source257 direct comparisons, batch 1 — 14 October 2026
+
+[First 64 of 772 pairs directly checked, with observed contour variations and 708 uninspected; next pair FC015--FC125](research-updates/2026-10-14-source257-direct772-batch01/README.md).

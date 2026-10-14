@@ -1,0 +1,66 @@
+{
+  "schema": "independent-validator-v3-review-v1",
+  "verdict": "BOTH_REPORTED_ISSUES_FIXED_ACTUAL_DATA_PRESERVED",
+  "reviewed_changes": [
+    "Added list type guard before reciprocal membership test; malformed members=5 now yields structured validation errors.",
+    "Counts distinct referenced class IDs with repeated_class_validation=true instead of flagged units.",
+    "Inlined bbox_errors helper is AST-identical to prior imported helper; v3 has standard-library-only imports."
+  ],
+  "provided_tests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "independent_additional_checks": [
+    {
+      "fixture": "class members int",
+      "result": "structured_errors_without_exception"
+    },
+    {
+      "fixture": "class members NoneType",
+      "result": "structured_errors_without_exception"
+    },
+    {
+      "fixture": "class members dict",
+      "result": "structured_errors_without_exception"
+    },
+    {
+      "fixture": "class members str",
+      "result": "structured_errors_without_exception"
+    },
+    {
+      "fixture": "two independently flagged class IDs",
+      "result": "distinct_class_count_2"
+    },
+    {
+      "fixture": "seven extracted-helper boundary/type cases",
+      "result": "matches_v2"
+    }
+  ],
+  "actual_data": {
+    "reconciled_annotation_hash_unchanged": true,
+    "v2_code_hash_unchanged": true,
+    "v3_diagnostic_equals_v2_diagnostic": true,
+    "v1_and_v2_diagnostic_files_byte_identical_to_fresh_v3_serialization": true,
+    "typed_structure_valid": true,
+    "raw_units": 56,
+    "singleton_class_records": 33,
+    "positive_whole_singleton_exemplars": 33,
+    "unresolved_span_records": 23,
+    "validated_repeated_equivalence_classes": 0
+  },
+  "hashes": {
+    "native_annotation_diagnostics_v2.py": "429969a4eb7f86542252cf86c87c05af5f5cd9267eb6b488711f2c5c4ded426b",
+    "native_annotation_diagnostics_v3.py": "3cb4615ea3f08c68bd9ad57512ae0107422d059481fe1b50ae6312c18e268175",
+    "test_native_annotation_diagnostics_v3.py": "b81a0aeb3c10a9c369be1b9cc96ecb913118f11925cc5836b5c1c244068b8a26",
+    "reconciled-native-annotation-v1.json": "bdb98089160dea39306bdce159c0d9bed88fc6eab7f75aaf7bc6a25ed2cd9c91",
+    "actualnative-annotation-diagnostics-v1.json": "bb86a8327528ab480f7f8f64a563e533d6dfe2786311d9d56f386462e5d01910",
+    "actualnative-annotation-diagnostics-v2.json": "bb86a8327528ab480f7f8f64a563e533d6dfe2786311d9d56f386462e5d01910",
+    "independent-native-annotation-scientific-review-v1.json": "e9b6de831b4ada82386b5f98fab4901dedc81120e421197976333ea1c408bf36"
+  },
+  "remaining_blockers": [],
+  "limits": [
+    "Distinct flagged-class count is a reporting statistic, not independent scientific validation of repeated equivalence.",
+    "Tests cover the reported malformed membership issue and selected geometry/type cases; no claim of total robustness for every malformed JSON object.",
+    "Original scientific review preserved unchanged."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schema": "independent-fullcard-scientific-review-v1",
+  "verdict": "PASS_WITH_EXPLICIT_SCIENTIFIC_LIMITS",
+  "blocking_findings": [],
+  "reviewed_current_products": {
+    "fullcard-map-v2.json": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+    "fullcard-adjudication-evidence-v2.json": "45ce70936dc1c3e9aa032d9eaf278e8b5d14d89f8de2021355a0c5046bc47abb",
+    "visual-repeat-groups-v2.json": "acb520e1224d5ef4c80b02e718b4ffa3110d2ecc4b5a7360e9b5e1881f1f62cb",
+    "visual-repeat-canonical-matching-evidence-v2.json": "c67cc5e357b10ab575aadf5dbe10c9d413cff0d0ccb014e66494be6e645028f6",
+    "visual-repeat-canonical-view-proof-v2.json": "734e72e568d69c4b6b7bcfffce357561d73927276b28980988423c7a7955286a",
+    "independent-fullmap-withgroups-validation-v2.json": "182309362381ed62b1c5a0045fbd47944f184982820343e3d9adc7ef85f40d4b",
+    "independent-sourcepack-initial-review-v1.json": "0e2d516bd2fa2ce8a10c757f9f3894cc4b474f7dd10ad8d4a93fb9396a12f823",
+    "independent-scientific-map-review-interim-v1.json": "94a4ac2a2264b50d0f5c4514a9a24606502f84ae7205165a538a11656267a35f"
+  },
+  "review_scope": "Source257 only. Actual native pixels, source coverage, approximate physical envelopes, preserved disagreements, whole-body visual groups and standalone record/reproducibility checks. No decipherment or historical identity claim.",
+  "source_identity": {
+    "file_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+    "rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94",
+    "size": [
+      1785,
+      1175
+    ],
+    "native_manifest_sha256": "69745a00a2dca6e8609a306679df9844d706042eed7602d31b68a72ecd39a2ec"
+  },
+  "sourcepack_and_coverage": {
+    "all_30_manifest_views_exact_native_or_90CW": true,
+    "three_native_tests_passed": true,
+    "rotation_formulas_and_half_open_bounds": "Correct on reviewed native pack and corner fixtures.",
+    "reserved_original_regions": "Whole original viewed. Central illustration, watermark, paper/background and surface marks do not add another coherent manuscript line. Thin upper red trace is explicitly unresolved, rather than silently certified as background or manuscript.",
+    "manuscript_scope": "Immutable first band plus twelve additional trajectories: five lower bands and seven right-block trajectories including the shorter inscription-like cluster. Native right/bottom junction inspected; no additional duplicate lower-row occurrence certified there.",
+    "gap_review": "Eight original large inter-envelope gaps and eleven explicit short residual scopes assessed in native contexts. Corrected v2 path envelopes are recomputed; retained v1 large-gap audit is explicitly labeled old evidence, not newly certified blank space. Recovered B2 interval [903,887,1011,944] is retained unresolved.",
+    "bottom_B6_start_check": "FC208 [93,1082,128,1121] covers the leftmost low-arch ink around x100..130 within the stated approximate tolerance. FC209 [136,1082,156,1122] is the next angled body. Viewed their verified 20px contexts: no separate missing body established in the intervening gap.",
+    "limit": "Full visible-trajectory/reserve inventory, not pixelwise exhaustive manual-ink segmentation. Rectangle coverage proves only access to pixels."
+  },
+  "frozen_and_raw_integrity": {
+    "frozen_file_sha256": "bdb98089160dea39306bdce159c0d9bed88fc6eab7f75aaf7bc6a25ed2cd9c91",
+    "frozen_56_units_exact_in_v1_and_v2": true,
+    "frozen_33_whole_23_unresolved_preserved": true,
+    "all_original_metadata_keys_referenced": true,
+    "all_four_raw_unit_arrays_retained_exact": true,
+    "raw_unit_counts": [
+      171,
+      170,
+      266,
+      171
+    ],
+    "all_raw_unit_ids_linked_to_canonical_scopes_or_frozen_reference": true,
+    "A_B_disagreements": "Fine/coarse partitions and ownership alternatives remain in exact retained raw arrays and explicit unresolved scopes; not votes for glyph identity.",
+    "same_occurrence": "Eight new frozen-overlap scopes and nine sidecar conflict entries retained; frozen units unchanged. New unresolved neighbor overlays have explicit crosslinks and do not establish independent repeats."
+  },
+  "resolved_review_findings": {
+    "v1_status": "V1 whole-bound claims were not approved; local issues recorded in immutable interim report.",
+    "v2_corrected_whole_envelopes": [
+      "FC149",
+      "FC166",
+      "FC195",
+      "FC196",
+      "FC209",
+      "FC210",
+      "FC211",
+      "FC212",
+      "FC213",
+      "FC214"
+    ],
+    "v2_whole_to_unresolved": [
+      "FC152",
+      "FC154",
+      "FC167",
+      "FC168",
+      "FC171",
+      "FC193",
+      "FC198"
+    ],
+    "v2_retained_bottom_whole_count": 22,
+    "finding_resolution": "Source pixels support all ten corrected whole envelopes and all seven conservative downgrades. FC195 bowed body and FC196 capped/neck/return body now have complete primary contours; minor separate edge ink is contextual, not an attached part omitted to force agreement. FC193 remains unresolved.",
+    "direction_correction": "FC179, FC183 and FC195 have a continuous bowed LEFT contour and open RIGHT interior in native bottom orientation. Right-block feature prose is explicitly in exact90CW orientation, while every box remains native unrotated.",
+    "precision": "Approximate +/-4 native-pixel envelope convention, not an ink mask. Erroneous v1 windows are not retroactively covered by that tolerance."
+  },
+  "final_groups": {
+    "groups_reviewed": [
+      {
+        "id": "VG001",
+        "members": [
+          "FC179",
+          "FC183",
+          "FC195",
+          "FC066",
+          "FC121"
+        ],
+        "assessment": "Supported visible complete-body similarity: one bowed-left return, right-open interior and short terminals; no attached ascender, crossing or second bowl stripped away. Thickness and terminal length vary."
+      },
+      {
+        "id": "VG002",
+        "members": [
+          "FC196",
+          "FC093"
+        ],
+        "assessment": "Supported visible complete-body similarity: upper bar, descending left neck and one rounded lower return open left. Exact90CW provides the right-block comparison orientation; no inferred writing direction."
+      }
+    ],
+    "all_7_members_whole_and_nonoverlap_eligible": true,
+    "all_7_are_distinct_native_occurrences": true,
+    "no_frozen_conflict_or_unresolved_member": true,
+    "FC193_deferred": true,
+    "ungrouped_records": 300,
+    "deferred_records": 3,
+    "grouping_limit": "Nonexhaustive visual body similarity only. Same occurrence, visual similarity, cipher-unit identity and historical evidence remain separate. Two groups do not establish an alphabet size or target inventory."
+  },
+  "source_quality": {
+    "date_edge": "Verified extra pixels beyond initial ROI show the oblique stroke reaching physical card edge near x1705..1707 with no dark continuation into exterior white. Intended endpoint versus physical truncation remains unresolved; fixed ROI clipping is not labeled source insufficiency.",
+    "top_trace": "Thin red upper-margin trace observed in exact pixels; manual/text/cipher roles unknown.",
+    "local_limits": "Crowded joins, detached flecks, print/watermark overlaps, variable density and tiny final-band strokes locally limit ownership and partition. Source supports numerous observations; no global bad-scan claim.",
+    "roles": "All new cipher_role values UNKNOWN and all frozen single_cipher_unit_identity values UNKNOWN. No letters, plaintext or historical assignments added."
+  },
+  "code_and_checks": {
+    "fullmap_checks_sha256": "0999c415046e6e1167047d53d66d995ae1088b5054c5d50f6ccfaf30e3b91c9b",
+    "fullmap_tests_sha256": "30c6382d0d00c6d95eb5df86b2f5dcc131bd134ea0641d4003fe04c392fd9b35",
+    "assembler_v1_sha256": "75cce8d1fbca44b3f7ab5afb6a5ab82875d1549484f3cde271aa229fcd0bbc09",
+    "assembler_v2_sha256": "8032577c4f23fab0c816feb53be93bc9212d488c08ff780faea4b6b5f173c645",
+    "standalone_synthetic_tests_passed": 16,
+    "actual_v1_and_v2_map_structural_validation_passed": true,
+    "final_v2_with_groups_structural_validation": "valid=true; zero errors; 307 records; 7 accepted group members",
+    "independent_v1_map_and_evidence_reproduction": "byte exact in isolated temporary directory",
+    "independent_v2_map_and_evidence_reproduction": "byte exact in isolated temporary directory",
+    "code_scope": "Explicit manual decision tables; pinned input hashes; no classifier, optimizer, scorer, OCR or old experiment execution. Validator enforces whole-only groups, UNKNOWN new roles, frozen deep copies, native bounds, distinct accepted IDs, no frozen-instance overlaps and no frozen sidecar conflicts.",
+    "code_limit": "Schema validity and byte reproducibility do not prove visual or historical truth. Source-quality and coverage prose are declarations reviewed here separately. Native coverage helper measures target coverage and does not generally reject extraneous out-of-target rectangles; actual pack rectangles are appropriately bounded."
+  },
+  "final_counts": {
+    "records": 307,
+    "declared_whole_records": 172,
+    "unresolved_records": 135,
+    "new_records": 251,
+    "new_declared_whole": 139,
+    "new_unresolved": 112,
+    "counts_are_proven_glyph_totals": false
+  },
+  "remaining_blockers": [],
+  "remaining_uncertainties": "Unresolved source partitions, detached-mark owners, physical-edge endpoint, faint trace provenance and all semantic/historical identities remain unresolved by design. These constrain use of the map; they do not block the explicitly limited geometry deliverable.",
+  "independence_and_detail_review_summary": {
+    "initial_source_inventory_frozen_before_annotation_read": true,
+    "macro_native_views_verified": 30,
+    "v2_body_context_tight_views_verified": 91,
+    "corrected_tight_envelopes_inspected": 10,
+    "downgraded_contexts_inspected": 7,
+    "retained_bottom_whole_envelopes_inspected": 22,
+    "final_group_and_deferred_views_verified_and_inspected": 8,
+    "individual_crop_hashes": "PRIVATE_NOT_PUBLISHED"
+  }
+}

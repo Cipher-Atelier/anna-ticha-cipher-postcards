@@ -1,0 +1,242 @@
+{
+  "schema": "independent-native-annotation-scientific-review-v1",
+  "data_scope": "Authorized source257 native annotation, raw original and seven unchanged crops, fixed-threshold candidate diagnostics and actual-schema tests only. First-band physical annotation; no language, key, historical identity, optimizer or prior negative-experiment execution.",
+  "verdict": "USEFUL_PHYSICAL_ANNOTATION_PROGRESS_WITH_EXPLICIT_LIMITS",
+  "critical_current_data_issues": [],
+  "input_hashes": {
+    "candidate_pack.json": "00a66845aac3413bec36ae7cfb15dd9ddc81c696d18b36130027c78e5c2d01db",
+    "provenance.json": "0453b7f0911c789584f5734517321f968963ad39a2c693199fb98a729e045183",
+    "native-annotation-A-v1.json": "ea4a3a7feb8686807f607e019bb05f0133084905990a19f31181cffd66390628",
+    "native-annotation-B-v1.json": "3cb9ba3869c95a7b4af488bb5be343ae9b25483e01bf29242bcc5086de4a34d6",
+    "reconciled-native-annotation-v1.json": "bdb98089160dea39306bdce159c0d9bed88fc6eab7f75aaf7bc6a25ed2cd9c91",
+    "reconciliation-evidence-v1.json": "81a79ddcf8bf3decd7966e17c00284f35aaf0a8e56702fbf7f2982f4c10b3c0a",
+    "actualnative-annotation-diagnostics-v1.json": "bb86a8327528ab480f7f8f64a563e533d6dfe2786311d9d56f386462e5d01910",
+    "old-input-diagnosis-v2.json": "906715f1b1f7cea0c2757342f21a89beff84e1c71dacd8c4beaee48dc6db8bb8"
+  },
+  "code_hashes": {
+    "pixel_candidates.py": "a4903e849bbb0d5f874a3d204e173ecc4265897d2e97aa7fc06b44c8728ae459",
+    "test_pixel_candidates.py": "7791d3b2c0b96efeefe6fb59f91e8947d52169100d75df59fde2f019f0d1b335",
+    "native_annotation_diagnostics_v2.py": "429969a4eb7f86542252cf86c87c05af5f5cd9267eb6b488711f2c5c4ded426b",
+    "test_native_annotation_diagnostics_v2.py": "43ea908ddb5309139c49db0463643ad15f11497c5c8e48457ef740d9b6ab49c0"
+  },
+  "source_checks": {
+    "encoded_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+    "RGB_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94",
+    "encoded_bytes": 1288265,
+    "dimensions": [
+      1785,
+      1175
+    ],
+    "result": "PASS"
+  },
+  "crop_checks": [
+    {
+      "file": "roi.png",
+      "RGB_sha256": "d6ad5c32240bfd8558f7e1b11fc6b4a55d0f7769846102243485c1b3efa7c3a7",
+      "all_byte_dimension_and_native_slice_checks": "PASS"
+    },
+    {
+      "file": "audit_1.png",
+      "RGB_sha256": "0197a432f8c18b17d9cc963db60beb827b050a635e1e06decc9df1587a8fbd3f",
+      "all_byte_dimension_and_native_slice_checks": "PASS"
+    },
+    {
+      "file": "audit_2.png",
+      "RGB_sha256": "3a3453e03a1982b3d1760f78f5116db3395eea96b66a8666ce1440f9620bee7c",
+      "all_byte_dimension_and_native_slice_checks": "PASS"
+    },
+    {
+      "file": "audit_3.png",
+      "RGB_sha256": "877c62ffe912b814a5e67fc73dce09eacbbaa40a2eb671ba6d72c4e7a73115c8",
+      "all_byte_dimension_and_native_slice_checks": "PASS"
+    },
+    {
+      "file": "audit_4.png",
+      "RGB_sha256": "5a099b63af1d70835509f6fb9a99dea6157ee45142aa57c9601adb8031c58c7f",
+      "all_byte_dimension_and_native_slice_checks": "PASS"
+    },
+    {
+      "file": "audit_5.png",
+      "RGB_sha256": "25b56711fdc0f01f698820ced83c2cef9ec741fe039053c8e39f5bd50deb0dc7",
+      "all_byte_dimension_and_native_slice_checks": "PASS"
+    },
+    {
+      "file": "audit_6.png",
+      "RGB_sha256": "fea1b64621f69504fac286a3423e5d2dadfeb7e9bb9254b085f72c1f4516105b",
+      "all_byte_dimension_and_native_slice_checks": "PASS"
+    }
+  ],
+  "threshold_statistics": {
+    "65": {
+      "components": 143,
+      "foreground_pixels": 220,
+      "area_one_components": 95,
+      "zero_columns": 1387
+    },
+    "85": {
+      "components": 326,
+      "foreground_pixels": 1427,
+      "area_one_components": 167,
+      "zero_columns": 1037
+    },
+    "105": {
+      "components": 410,
+      "foreground_pixels": 4279,
+      "area_one_components": 116,
+      "zero_columns": 656
+    },
+    "125": {
+      "components": 265,
+      "foreground_pixels": 7851,
+      "area_one_components": 52,
+      "zero_columns": 490
+    }
+  },
+  "exact_RLE_masks_connectivity_maximality_projections_and_histogram": "PASS",
+  "all_six_threshold_pair_checks": {
+    "65_to_85": {
+      "edges": 143,
+      "exact_intersections_and_degrees": "PASS"
+    },
+    "65_to_105": {
+      "edges": 143,
+      "exact_intersections_and_degrees": "PASS"
+    },
+    "65_to_125": {
+      "edges": 143,
+      "exact_intersections_and_degrees": "PASS"
+    },
+    "85_to_105": {
+      "edges": 326,
+      "exact_intersections_and_degrees": "PASS"
+    },
+    "85_to_125": {
+      "edges": 326,
+      "exact_intersections_and_degrees": "PASS"
+    },
+    "105_to_125": {
+      "edges": 410,
+      "exact_intersections_and_degrees": "PASS"
+    }
+  },
+  "annotation_checks": {
+    "units": 56,
+    "singleton_class_records": 33,
+    "unresolved_spans": 23,
+    "unknown_cipher_identity": 56,
+    "validated_repeated_classes": 0,
+    "unique_ids_geometry_local_order_reciprocal_refs": "PASS",
+    "stored_diagnostic_matches_fresh_execution": "PASS",
+    "all_A_B_mapping_intersections": "PASS",
+    "raw_correlated_alternatives_preserved": "PASS",
+    "reader_counts": {
+      "A": 53,
+      "B": 56
+    }
+  },
+  "test_evidence": {
+    "provided_unittests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "additional_empty_full_diagonal_component_fixtures": "PASS",
+    "additional_schema_mutations": {
+      "bad_bbox": {
+        "result": "REJECTED"
+      },
+      "bool_coordinate": {
+        "result": "REJECTED"
+      },
+      "missing_ref": {
+        "result": "REJECTED"
+      },
+      "duplicate_id": {
+        "result": "REJECTED"
+      },
+      "bad_member_container": {
+        "result": "EXCEPTION",
+        "exception_type": "TypeError"
+      }
+    },
+    "legacy_empty_field_fixture": "PASS"
+  },
+  "visual_reinspection": {
+    "actual_views_in_order": [
+      "audit_1.png",
+      "audit_2.png",
+      "audit_3.png",
+      "audit_4.png",
+      "audit_5.png",
+      "audit_6.png",
+      "original JPEG"
+    ],
+    "sample_observations": [
+      {
+        "units": [
+          "U001",
+          "U003",
+          "U015",
+          "U018",
+          "U031",
+          "U048",
+          "U053",
+          "U056"
+        ],
+        "finding": "Distinct visible bodies or simple isolated marks support approximate whole physical construction exemplars, without a cipher-unit claim."
+      },
+      {
+        "units": [
+          "U021",
+          "U022",
+          "U023",
+          "U026"
+        ],
+        "finding": "Close adjacent contours can be recorded as visual bodies; 1-2 pixel envelope intervals cannot certify blank separation or independent cipher identity."
+      },
+      {
+        "units": [
+          "U035",
+          "U036",
+          "U037",
+          "U038",
+          "U039",
+          "U040",
+          "U041"
+        ],
+        "finding": "Native audit 4 shows localized low contrast and overlay crossing. Stronger nearby bodies coexist with faint unresolved spans; no global unreadability conclusion is supported."
+      },
+      {
+        "units": [
+          "U047",
+          "U049"
+        ],
+        "finding": "Original image context shows descenders below initial ROI; extension to original-context bounds is legitimate. Whole-page viewing supports continuation but is not an independent precise endpoint trace."
+      }
+    ],
+    "interpretation": "Whole means an approximate visual body construction, not exact contour inclusion, unique mark ownership, or validated cipher role. No definitive counterexample to that qualified interpretation found in representative reinspection."
+  },
+  "findings": [
+    {
+      "severity": "NONBLOCKING_VALIDATOR_HARDENING",
+      "detail": "A synthetic class members=5 raises TypeError while checking reciprocal unit membership, before malformed member-list validation. Actual records are lists and validate; do not describe the validator as robust for arbitrary malformed JSON.",
+      "suggested_correction": "Check members is a list before reciprocal membership use; add regression fixture."
+    },
+    {
+      "severity": "SEMANTIC_LIMIT",
+      "detail": "validated_repeated_equivalence_classes is implemented as count of units whose repeated_class_validation is true, rather than distinct validated classes. Current all-false result zero is correct.",
+      "suggested_correction": "Before future repeated-class support, count validated class identities or rename the metric."
+    },
+    {
+      "severity": "PUBLICATION_SCOPE",
+      "detail": "33 singleton classes describe physical exemplars, not an inferred alphabet size or established repeated equivalence. Preserve UNKNOWN cipher role and 23 unresolved spans."
+    }
+  ],
+  "limits": [
+    "Approximate boxes plus/minus 4 pixels do not supply exact ink masks or blank-mask separation, and may overlap or include neighboring edge ink.",
+    "Blinding and freeze chronology are recorded assertions; file hashes preserve inspected artifacts but cannot independently prove prior viewing history.",
+    "Original legacy packet and historical guard implementation were outside allowed inputs; legacy diagnosis consistency was tested using specified empty fields, not re-execution of the original solver.",
+    "No whole-card coverage, 150-count claim, finite transcription inventory, translation, or historical confirmation follows from these records.",
+    "Source pixels are intact; localized watermark and low contrast limit precision and ownership. Better source detail is helpful, not a prerequisite for retaining useful annotation."
+  ],
+  "publication_policy": "Metadata and code only. This review contains no pixel arrays, RLE, image bytes, private letter values, or absolute local paths. Candidate pack remains private."
+}

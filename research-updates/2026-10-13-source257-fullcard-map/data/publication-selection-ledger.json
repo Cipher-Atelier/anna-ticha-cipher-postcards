@@ -1,0 +1,168 @@
+{
+  "schema": "source257-fullcard-publication-selection-v1",
+  "policy": "Metadata, approximate physical geometry and own code only; images, masks, raster-reconstructing arrays, private letters and operational histories excluded. Whole input hashes identify full private inputs; selections are not full copies.",
+  "selections": [
+    {
+      "input_basename": "native_views.py",
+      "input_whole_file_sha256": "65b1f1689eb30c7479726a188a6b61ad98474ca854b0ea6d635cd5e2a0c5aff9",
+      "output": "code/native_views.py",
+      "output_sha256": "65b1f1689eb30c7479726a188a6b61ad98474ca854b0ea6d635cd5e2a0c5aff9",
+      "transformation": "Byte-identical copy of supplied standalone code; no source reads/downloads during publication."
+    },
+    {
+      "input_basename": "test_native_views.py",
+      "input_whole_file_sha256": "471d2b8806bc57eaa72f218c4d9107afced4263444dcce5ab9654f75b2fb53bb",
+      "output": "code/test_native_views.py",
+      "output_sha256": "471d2b8806bc57eaa72f218c4d9107afced4263444dcce5ab9654f75b2fb53bb",
+      "transformation": "Byte-identical copy of supplied standalone code; no source reads/downloads during publication."
+    },
+    {
+      "input_basename": "fullmap_checks.py",
+      "input_whole_file_sha256": "0999c415046e6e1167047d53d66d995ae1088b5054c5d50f6ccfaf30e3b91c9b",
+      "output": "code/fullmap_checks.py",
+      "output_sha256": "0999c415046e6e1167047d53d66d995ae1088b5054c5d50f6ccfaf30e3b91c9b",
+      "transformation": "Byte-identical copy of supplied standalone code; no source reads/downloads during publication."
+    },
+    {
+      "input_basename": "test_fullmap_checks.py",
+      "input_whole_file_sha256": "30c6382d0d00c6d95eb5df86b2f5dcc131bd134ea0641d4003fe04c392fd9b35",
+      "output": "code/test_fullmap_checks.py",
+      "output_sha256": "30c6382d0d00c6d95eb5df86b2f5dcc131bd134ea0641d4003fe04c392fd9b35",
+      "transformation": "Byte-identical copy of supplied standalone code; no source reads/downloads during publication."
+    },
+    {
+      "input_basename": "native-views-manifest.json",
+      "input_whole_file_sha256": "69745a00a2dca6e8609a306679df9844d706042eed7602d31b68a72ecd39a2ec",
+      "output": "data/native-views-manifest.json",
+      "output_sha256": "69745a00a2dca6e8609a306679df9844d706042eed7602d31b68a72ecd39a2ec",
+      "transformation": "Removed reader/operational view chronology/proof references; internal filenames reduced to basenames; JSON reserialized. Not an exact full copy."
+    },
+    {
+      "input_basename": "native-views-validation.json",
+      "input_whole_file_sha256": "19ab4e9493a43d06f1121aaed65de970924683e340fe65d6b963e44e3e4e732b",
+      "output": "data/native-views-validation.json",
+      "output_sha256": "19ab4e9493a43d06f1121aaed65de970924683e340fe65d6b963e44e3e4e732b",
+      "transformation": "Removed reader/operational view chronology/proof references; internal filenames reduced to basenames; JSON reserialized. Not an exact full copy."
+    },
+    {
+      "input_basename": "right-A-v2.json",
+      "input_whole_file_sha256": "51aebbb7b0f9f9f5032d5934acb9628736efd698eac88b22a421a76231b61481",
+      "output": "data/right-A-v2.json",
+      "output_sha256": "2b1aa376e955852e137607805dc78a7d6ad9d3eb10d2d6b2880703789c4d5f18",
+      "transformation": "Selected scientific fields: schema,source_proof,scope,rows,units,unallocated_or_alternative_owner_marks,quality_regions,source_boundary_residuals,reserve_inventory,coverage_statement,feature_matched_pairs,revision,prior_artifact; Removed reader/operational view chronology/proof references; internal filenames reduced to basenames; JSON reserialized. Not an exact full copy."
+    },
+    {
+      "input_basename": "right-B-v1.json",
+      "input_whole_file_sha256": "8fd0a16cded0e0b12b539bb1c7f675bdcf08e815c509fc95feb89a19ec82b3eb",
+      "output": "data/right-B-v1.json",
+      "output_sha256": "7cd18add05f1900ef87dc4147831bf268325e2ee9cd1db0c716b11b80095b625",
+      "transformation": "Selected scientific fields: schema,source_only,transcription_performed,alphabet_identity_assignment_performed,source,scope_native,scope_cw,mapping,proof,row_description,inventory_count,units,repeated_similarity_proposals,unallocated_manual_marks,fullcard_outside_scope_inspection,uncertainty,coverage_quality; Removed reader/operational view chronology/proof references; internal filenames reduced to basenames; JSON reserialized. Not an exact full copy."
+    },
+    {
+      "input_basename": "bottom-B-v1.json",
+      "input_whole_file_sha256": "1a2ff9d5320dd8329e405ac8f4f31c063b41bb8f9283442a5920d91a00fb49ee",
+      "output": "data/bottom-B-v1.json",
+      "output_sha256": "34bcf251669f98f843d40456832ab742c00dd43fb5fac3c2e8637bbc0d62db5f",
+      "transformation": "Selected scientific fields: schema,scope,source,manifest_sha256,original_firstband,coordinate_convention,physical_rows,units,unallocated_marks,same_occurrence_policy,outside_writing_inventory,coverage,quality_limits,limits,counts; Removed reader/operational view chronology/proof references; internal filenames reduced to basenames; JSON reserialized. Not an exact full copy."
+    },
+    {
+      "input_basename": "independent-sourcepack-initial-review-v1.json",
+      "input_whole_file_sha256": "0e2d516bd2fa2ce8a10c757f9f3894cc4b474f7dd10ad8d4a93fb9396a12f823",
+      "output": "data/independent-sourcepack-initial-review-v1.json",
+      "output_sha256": "7e5d58e64294510d369110bc392e2a8771be01d8104c602b8439beae51a6ebc5",
+      "transformation": "Selected scientific fields: schema,native_pack_review,independent_visible_region_inventory,boundary_assessment,scientific_constraints,status; Removed reader/operational view chronology/proof references; internal filenames reduced to basenames; JSON reserialized. Not an exact full copy."
+    },
+    {
+      "input_basename": "bottom-A-v1.json",
+      "input_whole_file_sha256": "aacf3ab359fad1b1e8f83710ebd3ccdafd43a7cf684eb82fc318002b42e75b47",
+      "output": "data/bottom-A-v1.json",
+      "output_sha256": "7d4d9cec9adc975723b54e22e11978ea0e525030deb41248bbeff34034d7aef8",
+      "transformation": "Removed reader, operational view proof and view-status flags; internal filenames reduced to basenames; scientific geometry, alternatives and numerical counts retained. JSON reserialized; not exact full copy."
+    },
+    {
+      "input_basename": "assemble_fullmap.py",
+      "input_whole_file_sha256": "75cce8d1fbca44b3f7ab5afb6a5ab82875d1549484f3cde271aa229fcd0bbc09",
+      "output": "code/assemble_fullmap.py",
+      "output_sha256": "75cce8d1fbca44b3f7ab5afb6a5ab82875d1549484f3cde271aa229fcd0bbc09",
+      "transformation": "Byte-identical own source-inspected decision-ledger assembly helper. Requires byte-exact pinned private inputs; filtered public raw selections have different hashes and are not accepted as direct replacements."
+    },
+    {
+      "input_basename": "fullcard-map-v2.json",
+      "input_whole_file_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+      "output": "data/fullcard-map-v2.json",
+      "output_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+      "transformation": "Byte-identical pinned corrected v2 canonical map; frozen first-band records unchanged."
+    },
+    {
+      "input_basename": "fullcard-adjudication-evidence-v2.json",
+      "input_whole_file_sha256": "45ce70936dc1c3e9aa032d9eaf278e8b5d14d89f8de2021355a0c5046bc47abb",
+      "output": "data/fullcard-adjudication-evidence-v2.json",
+      "output_sha256": "240b82cb8be57ae0c00078dec6c35f91f920e309ba85927b2558e6e22293f4eb",
+      "transformation": "Removed operational view history/proof references; per-body context/exact-envelope/tight-candidate arrays reduced to filename/box summaries without individual image/RGB hashes. Retained decisions, observations, raw alternatives and numerical geometry. Whole proof-file hashes retained. JSON reserialized; not exact full copy."
+    },
+    {
+      "input_basename": "assemble_fullmap_v2.py",
+      "input_whole_file_sha256": "8032577c4f23fab0c816feb53be93bc9212d488c08ff780faea4b6b5f173c645",
+      "output": "code/assemble_fullmap_v2.py",
+      "output_sha256": "8032577c4f23fab0c816feb53be93bc9212d488c08ff780faea4b6b5f173c645",
+      "transformation": "Byte-identical source-reinspection decision helper; requires byte-exact pinned private v1/raw/proof inputs, not filtered public data."
+    },
+    {
+      "input_basename": "visual-repeat-groups-v2.json",
+      "input_whole_file_sha256": "acb520e1224d5ef4c80b02e718b4ffa3110d2ecc4b5a7360e9b5e1881f1f62cb",
+      "output": "data/visual-repeat-groups-v2.json",
+      "output_sha256": "acb520e1224d5ef4c80b02e718b4ffa3110d2ecc4b5a7360e9b5e1881f1f62cb",
+      "transformation": "Byte-identical checked visible-body graphical groups; no individual image/RGB hashes or pixels."
+    },
+    {
+      "input_basename": "visual-repeat-canonical-matching-evidence-v2.json",
+      "input_whole_file_sha256": "c67cc5e357b10ab575aadf5dbe10c9d413cff0d0ccb014e66494be6e645028f6",
+      "output": "data/visual-repeat-canonical-matching-evidence-v2.json",
+      "output_sha256": "3e11573d45c748dafbb5986a5e2f585f190fec31d32b5921d963abee088bb876",
+      "transformation": "Removed operational pre-view proof hash and per-decision actual-view history lists; preserved source criteria, source occurrence choices, alternatives, features, coordinates, membership and deferrals. Whole canonical view-proof file hash retained; no individual crop hashes. JSON reserialized; not exact full copy."
+    },
+    {
+      "input_basename": "independent-fullcard-scientific-review-v1.json",
+      "input_whole_file_sha256": "a6d656b076663052ba350e822f78464f4c534d6958a8e524e67b36bae5e2bf1c",
+      "output": "data/independent-fullcard-scientific-review-v1.json",
+      "output_sha256": "639cc16553b0a44806c6605fac1afb462820543061ed5cb39fc5a75fa6bb6d42",
+      "transformation": "Removed reviewer identity, completion timestamp and operational source-view chronology. Replaced detail chronology with aggregate scientific check counts; retained scientific findings, final judgments, alternatives, bounds, source identity and product hashes. No individual crop hashes. JSON reserialized; not exact full copy."
+    },
+    {
+      "input_basename": "fullcard-map-reproducibility-v2.json",
+      "input_whole_file_sha256": "e72dc2e9b2405207318940a1b90c9e2216d7479bcdcc94bdd91032c2b4b8349d",
+      "output": "data/fullcard-map-reproducibility-v2.json",
+      "output_sha256": "e72dc2e9b2405207318940a1b90c9e2216d7479bcdcc94bdd91032c2b4b8349d",
+      "transformation": "Byte-identical private pinned-input assembly/revision reproducibility evidence; not a full filtered-public-input rebuild."
+    }
+  ],
+  "superseded_private_revision_inputs": [
+    {
+      "input_basename": "fullcard-map-v1.json",
+      "input_whole_file_sha256": "dda78c5aad9d92e85c3804af53bdcdffde125595b0f72dca507d3176a6f8df50",
+      "publication_status": "Superseded private v1 retained locally; not included as public main result. V2 revision decisions document the corrections."
+    },
+    {
+      "input_basename": "fullcard-map-reproducibility-v1.json",
+      "input_whole_file_sha256": "4dc65b13efba49fc0e4c36e5225898a2488dbb85c3652e0d26812cf52c46ffdb",
+      "publication_status": "Superseded private v1 retained locally; not included as public main result. V2 revision decisions document the corrections."
+    },
+    {
+      "input_basename": "fullcard-adjudication-evidence-v1.json",
+      "input_whole_file_sha256": "e61ec74db3733112f363a9fcf78ba5b4a68396baeaef50f3c9c0a6fd867d76ac",
+      "publication_status": "Superseded private v1 retained locally; not included as public main result. V2 revision decisions document the corrections."
+    }
+  ],
+  "generated_public_checks": [
+    {
+      "output": "data/actual-fullmap-withgroups-validation-v2.json",
+      "output_sha256": "182309362381ed62b1c5a0045fbd47944f184982820343e3d9adc7ef85f40d4b",
+      "procedure": "Fresh public fullmap_checks.py CLI on exact public v2 map, pinned existing frozen canonical and exact public groups-v2; no source pixels or input mutation.",
+      "input_whole_file_sha256": {
+        "fullcard-map-v2.json": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+        "visual-repeat-groups-v2.json": "acb520e1224d5ef4c80b02e718b4ffa3110d2ecc4b5a7360e9b5e1881f1f62cb"
+      },
+      "frozen_input_sha256": "bdb98089160dea39306bdce159c0d9bed88fc6eab7f75aaf7bc6a25ed2cd9c91"
+    }
+  ]
+}

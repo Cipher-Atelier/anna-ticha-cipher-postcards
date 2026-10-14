@@ -1,0 +1,60 @@
+{
+  "schema": "source257-independent-scientific-status-prose-erratum-v1",
+  "trigger": "A subsequent actual-read review identified my false description of FC135 as already resolved. Exact immutable baseline metadata confirms UNRESOLVED_SPAN.",
+  "original_file": "independent-scientific-review-final-v2.json",
+  "original_sha256": "0d25d7d6bd949c71cbceff54a90c94f08f1736ba2e96d879d837db6e78b5d7e2",
+  "corrected_file": "independent-scientific-review-final-v3.json",
+  "corrected_sha256": "1c7cb00e79e2120ef32aa2f67c949bf9a58041f0feb4c47bd21113ac892e8846",
+  "json_pointer": "/limitations/3",
+  "before": "FC136 photographed clipping and FC135 already resolved bounded mark lie outside the117/cohort decisions and remain unchanged.",
+  "after": "FC135 remains UNRESOLVED_SPAN: its small isolated round-mark appearance does not resolve ownership or partition. FC136 remains UNRESOLVED_SPAN at the photographed card edge; intentional ending versus truncation remains unresolved. Both lie outside the117 WHOLE exclusions and the15-case cohort; their baseline statuses and ownership/partition ambiguities are unchanged.",
+  "changed_json_leaves": 1,
+  "schema_note": "The v3 filename identifies this one-leaf correction; the original v2 JSON schema identifier is retained because no structural schema changed.",
+  "source_evidence": {
+    "baseline_map": "fullcard-map-v2.json",
+    "baseline_map_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+    "FC135": {
+      "physical_extent_status": "UNRESOLVED_SPAN",
+      "native_bbox_xyxy_halfopen": [
+        1665,
+        602,
+        1677,
+        616
+      ],
+      "appearance": "Small dark isolated round mark.",
+      "ambiguity": "Ownership/partition/body boundary unresolved."
+    },
+    "FC136": {
+      "physical_extent_status": "UNRESOLVED_SPAN",
+      "native_bbox_xyxy_halfopen": [
+        1640,
+        577,
+        1707,
+        615
+      ],
+      "ambiguity": "Observed edge contact does not choose intentional ending versus physical truncation."
+    }
+  },
+  "other_status_statement_review": "Reviewed all other final SCI strings mentioning status, unresolved, resolved, unchanged, FC135 or FC136. No further status correction found. FC135 already appears among the31 distinct unresolved alias references and remains unchanged there.",
+  "unchanged": [
+    "PASS for all15 reviewed promotions",
+    "55 to70 eligible and117 to102 excluded",
+    "100 alias case/reference intersections and31 distinct references",
+    "all coordinates, feature judgments, allocations, metrics, pins and other scientific statements"
+  ],
+  "new_source_views": 0,
+  "new_tests": 0,
+  "v2_bytes_preserved": true,
+  "publication": {
+    "kind": "FILTERED_PUBLIC_SCI_STATUS_ERRATUM",
+    "original_input_basename": "independent-scientific-review-status-prose-erratum-v1.json",
+    "original_whole_file_sha256": "5327e54281ebf4034e67ca80265a71db87ad740fdfd9c2e15b4a6d2b276bf44d",
+    "byte_identical_to_original": false,
+    "review_type": "Independent AI-assisted source/scientific review, not independent human palaeographic or historical validation.",
+    "transformation": "Removed historical private_only flag and operational reviewer identifier; shortened original input/proof locators and neutralized operational Root-role wording in status-erratum trigger only. Scientific observations, self-corrections, limits, decisions, before/after text, coordinates, original pins and error history retained. UTF-8 LF serialization.",
+    "original_pin_scope": "Retained original whole-file SHA256 values identify the immutable original inputs/proof JSON and original full-source image, not filtered public outputs. All per-file output hashes are in the selection ledger.",
+    "proof_limit": "Unpublished proof-JSON locators identify unavailable private evidence. No source images, per-image/body hashes, raster or reconstruction arrays are supplied. Source-equivalent crops alone do not establish correct target binding.",
+    "accepted_scope": "All 15 fixed-cohort physical-profile promotions; 55 to70 eligible,117 to102 excluded;157 other whole profiles and135 unresolved record statuses/partitions unchanged. No class/letter/cipher-role assignment.",
+    "SCIv2_status_correction": "Final v3 corrects only /limitations/3 from private original v2. FC135 and FC136 remain UNRESOLVED_SPAN with stated ownership/partition or edge ambiguity unchanged. The separate public status erratum preserves original v2/v3 whole pins and exact before/after text."
+  }
+}

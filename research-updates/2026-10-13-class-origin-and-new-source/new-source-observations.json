@@ -1,0 +1,459 @@
+{
+  "schema": "new256-whole-and-cross-scientific-author-export-v1",
+  "selection": "Four selected scientific observation records; original full-file hashes and explicit field lists. Whole-source selections and later supplied-locator assessments remain separate. No source pixels or fresh cross views.",
+  "records": {
+    "whole_AI_A": {
+      "original_full_record_sha256": "6f5a7370bad33810d3a14a85ed4f7a2c466fbe0175500140289cb696fad85b70",
+      "published_field_list": [
+        "schema",
+        "record_status",
+        "source_image",
+        "scope",
+        "verification_before_display",
+        "actual_check_and_view_order",
+        "view_receipt",
+        "coordinate_frame",
+        "selection_basis",
+        "queries",
+        "limitations"
+      ],
+      "scientific_record": {
+        "schema": "new256_whole_physical_prototypes_reader_A_v1",
+        "record_status": "frozen_independent_source_only_observation",
+        "source_image": "pc_hcp_256_pic.JPG",
+        "scope": "Physical construction only. No historical class membership asserted; no letters, words, code identities, or class aliases assigned.",
+        "verification_before_display": {
+          "file_sha256": "6c09887f8534a4fd2fff092e05dced0f2ec6f18706fdc14cfde8abeac472bdaf",
+          "file_size_bytes": 1272129,
+          "native_format": "JPEG",
+          "native_mode": "RGB",
+          "native_dimensions_pixels": [
+            1785,
+            1175
+          ],
+          "exif_orientation": 1,
+          "orientation_correction_applied": false,
+          "decoded_rgb_dimensions_pixels": [
+            1785,
+            1175
+          ],
+          "decoded_rgb_byte_count": 6292125,
+          "decoded_rgb_sha256": "74c3fa1262e3d0078c83e844ffb1e1f1b36f30a797a0df6fecde1342e0854f58",
+          "matches_packet": true,
+          "completed_before_any_display_in_this_reader": true
+        },
+        "actual_check_and_view_order": [
+          "Read original bytes and compute original file SHA256.",
+          "Open original with Pillow; check JPEG, RGB, native 1785 by 1175 dimensions and EXIF orientation 1.",
+          "Decode RGB in memory without transpose; compute RGB byte count and SHA256; assert packet hash and image properties match.",
+          "Display original whole JPEG once using view_image detail original.",
+          "Inspect the returned unlabelled whole source visually and write this record."
+        ],
+        "view_receipt": {
+          "tool": "view_image",
+          "detail_requested": "original",
+          "detail_returned": "original",
+          "whole_source_display_count": 1,
+          "crops": 0,
+          "transforms": 0,
+          "enhancements": 0,
+          "brightness_diagnostics": 0,
+          "annotated_overlays": 0,
+          "additional_originals_viewed": 0
+        },
+        "coordinate_frame": {
+          "origin": "original native top left",
+          "x_direction": "right",
+          "y_direction": "down",
+          "bbox_format": "[left, top, right, bottom] enclosing visible body; visual estimates, not pixel-segmented masks"
+        },
+        "selection_basis": "Whole-source visible ink topology and surrounding paper. No expected row, ordinal, or body-center target used.",
+        "queries": {
+          "Q1": {
+            "physical_query": "Complete upper hook joined to diagonal descent and lower sweep.",
+            "result": "UNAVAILABLE",
+            "certified_candidates": [],
+            "exact_evidence_gap": "Hooked upper elements and oblique continuations are visible in the whole source, but this reader cannot certify a candidate whose lower sweep is both unambiguously part of that same body and bounded away from adjacent ink. The complete three-part topology, rather than source legibility as a whole, remains unverified under the single-view restriction.",
+            "interpretation": "No certified instance in this record. This does not assert class absence, physical-form absence, or historical membership."
+          },
+          "Q2": {
+            "physical_query": "Complete looped upper ascending part joined to a separate smaller lower rounded return belonging to one physical body.",
+            "result": "ONE_PHYSICAL_CONSTRUCTION_CERTIFIED",
+            "certified_candidates": [
+              {
+                "candidate_id": "A-Q2-1",
+                "native_bbox_pixels": [
+                  579,
+                  63,
+                  606,
+                  104
+                ],
+                "bbox_precision": "Approximate visible enclosing bounds from the authorized native whole-image display; not a measured segmentation.",
+                "ink_graph": "A tall narrow upper loop rises above the lower body, turns at its upper end, and returns obliquely downward. At its foot the dark ink bends through a smaller rounded return. The upper and lower structures visibly share a continuous dark-ink junction; the lower return is a distinct rounded portion of the same bounded construction.",
+                "positive_paper_boundaries": {
+                  "above": "Light paper separates the upper extremity from the postcard upper edge.",
+                  "left": "A visible light-paper gap separates this construction from the smaller preceding ink.",
+                  "right": "A narrow light-paper interval separates its main loop-and-return body from the next taller ink construction.",
+                  "below": "Light paper below the return separates it from the next band of handwriting."
+                },
+                "detached_marks": "No detached dark mark is required to complete the observed two-part body. Other nearby ink is not incorporated.",
+                "occlusion": "No illustration or broad grey overlay crosses this body. A fine reddish scratch approaches the upper region; it is visually distinguishable from the dark body and does not prevent following its upper loop and lower junction.",
+                "topology_alternatives": [
+                  "The small lower portion could be described as a rounded retracing or return instead of an independently closed lower loop; the query requires a rounded return, so closure of that lower portion is not asserted.",
+                  "No claim is made about pen-lift count or stroke chronology; continuity here is a visible ink-graph observation."
+                ],
+                "certification_scope": "Visible complete physical looped-upper/smaller-lower-return construction only. Completeness of any code sign or word and historical class membership are not established."
+              }
+            ]
+          }
+        },
+        "limitations": [
+          "The one original-detail whole-source view was the entire visual evidence.",
+          "No crop or second display was used to refine bounding coordinates or resolve Q1.",
+          "Candidate coordinates are honest visual estimates; no pixel-level boundary extraction was performed.",
+          "Independent frozen record; no comparison with other observers or corpus tables."
+        ]
+      }
+    },
+    "whole_AI_B": {
+      "original_full_record_sha256": "1145d52ebe411856029c54973c72e9cd84e978fe6981e67bc40524106895b2df",
+      "published_field_list": [
+        "schema",
+        "record_state",
+        "source_scope",
+        "provenance",
+        "check_and_view_order",
+        "view",
+        "query_results",
+        "independence_and_exclusions"
+      ],
+      "scientific_record": {
+        "schema": "new256-whole-prototypes-B-v1",
+        "record_state": "frozen independent observation",
+        "source_scope": "Only the source-only input packet and its untouched pc_hcp_256_pic.JPG were read. No other sources, metadata files, keys, labels, observer records, or corpus tables were opened.",
+        "provenance": {
+          "input_packet": "SOURCE_ONLY_INPUT_PACKET_v1.json",
+          "original_sha256": "6c09887f8534a4fd2fff092e05dced0f2ec6f18706fdc14cfde8abeac472bdaf",
+          "original_size_bytes": 1272129,
+          "native_format": "JPEG",
+          "native_mode": "RGB",
+          "native_dimensions_pixels": [
+            1785,
+            1175
+          ],
+          "exif_orientation": 1,
+          "decoded_rgb_mode": "RGB",
+          "decoded_rgb_dimensions_pixels": [
+            1785,
+            1175
+          ],
+          "decoded_rgb_byte_count": 6292125,
+          "decoded_rgb_sha256": "74c3fa1262e3d0078c83e844ffb1e1f1b36f30a797a0df6fecde1342e0854f58",
+          "decoder": "Pillow 11.3.0",
+          "all_checks_match_input_packet": true
+        },
+        "check_and_view_order": [
+          {
+            "order": 2,
+            "action": "Read original JPEG bytes; verify file SHA-256 and byte length against packet."
+          },
+          {
+            "order": 3,
+            "action": "Decode original without transpose using Pillow; verify native dimensions/mode and EXIF orientation."
+          },
+          {
+            "order": 4,
+            "action": "Compute SHA-256 of decoded RGB bytes and verify dimensions/mode/byte count against packet; no image displayed or RGB saved."
+          },
+          {
+            "order": 5,
+            "action": "Call view_image exactly once on original JPEG, detail=original; forward the returned whole-image pixels with original detail. Full image showed uncropped in native coordinate frame."
+          },
+          {
+            "order": 6,
+            "action": "Inspect the one whole unlabelled view for graphical physical constructs only, then write this record."
+          }
+        ],
+        "view": {
+          "count": 1,
+          "original_detail_requested": true,
+          "whole_image": true,
+          "native_coordinate_frame": "top-left origin; x increases rightward and y downward; bounding boxes [left,top,right,bottom] are approximate enclosing rectangles in native pixels",
+          "orientation_correction": false,
+          "crops": false,
+          "transforms": false,
+          "enhancement": false,
+          "brightness_diagnostics": false,
+          "annotated_overlays": false,
+          "saved_rgb_render": false,
+          "additional_views": false,
+          "orientation_gap": null,
+          "detail_limit": "Bounding coordinates are visual estimates from the sole whole-source view; no crop or additional diagnostic inspection was used."
+        },
+        "query_results": {
+          "Q1": {
+            "physical_query": "Complete upper hook joined to diagonal descent and lower sweep.",
+            "status": "NONE_CERTIFIED / UNAVAILABLE",
+            "candidates": [],
+            "exact_evidence_gap": "I did not isolate a body for which I could trace both the hook-to-diagonal connection and the diagonal-to-lower-sweep connection, while independently bounding the lower sweep with surrounding paper, in the sole permitted whole-source view. Short hook/diagonal-looking strokes do not by themselves establish the complete requested construct. No ambiguous short stroke is promoted to a candidate.",
+            "interpretation": "Insufficient certification from this observation; not a claim of physical or historical class absence."
+          },
+          "Q2": {
+            "physical_query": "Complete looped upper ascending part joined to a separate smaller lower rounded return belonging to one physical body.",
+            "status": "ONE_PHYSICAL_CANDIDATE_CERTIFIED",
+            "candidates": [
+              {
+                "candidate_id": "B-Q2-01",
+                "native_bbox_xyxy": [
+                  215,
+                  251,
+                  246,
+                  299
+                ],
+                "bbox_precision": "Approximate visual enclosing box, not segmentation-derived.",
+                "selection_basis": "A directly visible two-level connected ink construction with a tall upper loop and a smaller rounded return below; chosen from graphical evidence only.",
+                "ink_graph": "A slender ascending stroke reaches the high rightward-curving apex, folds back down toward the lower-left shared stem, and encloses an elongated upper opening. At the lower junction, ink bends leftward and rounds back toward the right, forming a smaller low return distinct from the high opening. The observed lower return and upper ascending loop meet within the same body. A short rightward terminal remains inside the enclosing box.",
+                "positive_paper_boundaries": {
+                  "left": "Pale paper separates the lower-left edge of this body from the earlier independent ink group to its left.",
+                  "right": "A narrow visible pale separation divides the terminal/upper loop from the neighboring tall body beginning to its right.",
+                  "above": "A visible pale gap separates the upper apex from the preceding line of inscription.",
+                  "below": "Pale paper beneath the low return separates it from the colored decorative marks farther below."
+                },
+                "detached_marks": "No detached mark was needed or assigned to this body. Neighboring inscription bodies and colored decoration were excluded.",
+                "occlusion": "No visible opaque obstruction crosses this body. Paper texture and ink thickness remain visible; no crossing by the large background graphic was needed to infer its construction.",
+                "topology_alternatives": [
+                  "The lower component can be described as a rounded returning bend rather than an independently closed loop; this does not change the observed two-level connected construction.",
+                  "The shared lower junction has finite ink width, so its precise pen route and stroke order are not recoverable from this still image.",
+                  "The nearby body on the right is separate by visible paper; including it would change the graph and is not supported."
+                ],
+                "certification_scope": "Certifies a complete physical two-level construction at the observed resolution only. It does not certify a complete code sign, word, reading, historical class membership, or semantic identity.",
+                "historical_class_membership": "UNPROVED"
+              }
+            ]
+          }
+        },
+        "independence_and_exclusions": {
+          "source_instances_selected_by_graphical_evidence_alone": true,
+          "no_expected_row_ordinal_or_body_center_used": true,
+          "no_class_aliases_or_letter_readings_assigned": true,
+          "no_words_decoded_or_transcribed": true,
+          "no_ordinary_printed_or_private_letter_text_used": true,
+          "no_numeric_class_cutoffs": true,
+          "no_other_observer_material_read": true,
+          "no_network_or_publication_or_git": true,
+          "physical_construct_is_not_equated_to_complete_code_sign_or_word": true
+        }
+      }
+    },
+    "cross_AI_A": {
+      "original_full_record_sha256": "add22cfa62e57313cdda316a605621cc6f9c04a8efe0c9ec11fafc3ac80d3050",
+      "published_field_list": [
+        "schema",
+        "record_status",
+        "source_image",
+        "query",
+        "supplied_locator_native_bbox",
+        "locator_selection_provenance",
+        "visual_evidence_provenance",
+        "integrity_provenance",
+        "result",
+        "whole_physical_path",
+        "positive_paper_boundaries",
+        "detached_marks",
+        "occlusion",
+        "topology_alternatives",
+        "role",
+        "historical_membership",
+        "certification_scope",
+        "precision_limit",
+        "preservation"
+      ],
+      "scientific_record": {
+        "schema": "new256_cross_locator_physical_check_A_v1",
+        "record_status": "frozen_additive_supplied_locator_check",
+        "source_image": "pc_hcp_256_pic.JPG",
+        "query": "Q2: complete looped upper ascending part joined to a separate smaller lower rounded return belonging to one physical body.",
+        "supplied_locator_native_bbox": [
+          215,
+          251,
+          246,
+          299
+        ],
+        "locator_selection_provenance": "Locator supplied in follow-up instruction. It was not independently selected in the original reader A record, and was outside that record’s selected candidate. This check is independent visual assessment at an exposed preselected location, not fresh source-instance selection.",
+        "visual_evidence_provenance": {
+          "reuse": "The original whole-image detail-original tool result already visible in this reader’s prior history.",
+          "original_whole_image_displays_before_this_check": 1,
+          "new_image_displays_in_this_check": 0,
+          "new_source_reads": 0,
+          "previous_record_rereads": 0,
+          "crops": 0,
+          "brightness_probes": 0,
+          "transforms": 0,
+          "enhancements": 0,
+          "other_reader_reports_accessed": false,
+          "expected_outcome_provided": false
+        },
+        "integrity_provenance": "The original file hash, decoded RGB hash, native 1785x1175 RGB dimensions, and EXIF orientation 1 were verified before the sole prior display. No new verification or source read was performed in this additive check.",
+        "result": "CERTIFIED_PHYSICAL_CONSTRUCTION",
+        "whole_physical_path": "Within the supplied locator, the dark construction has a tall narrow ascending loop: a stroke rises diagonally toward the upper right, turns around the upper extremity, and returns downward toward the lower junction. A distinct smaller rounded return occupies the lower left portion and visibly joins the same body near the foot of the upper loop. The two regions can be followed together as one bounded ink graph in the retained whole-source view.",
+        "positive_paper_boundaries": {
+          "above": "Light paper is visible immediately above the upper loop.",
+          "left": "Light-paper spacing separates the bounded dark body from the preceding shorter ink.",
+          "right": "A narrow visible paper interval separates the body from the adjacent tall construction on its right; the adjacent construction is not incorporated.",
+          "below": "A light-paper interval separates the lower dark return from the floral printing below and from other handwriting."
+        },
+        "detached_marks": "No detached dark mark is needed to complete the loop-and-return construction. Nearby dark strokes belong outside the supplied body and are excluded.",
+        "occlusion": "No broad grey overlay crosses this locus. Nearby pink floral printing approaches below the body, but the dark loop, lower return, and joining region remain visually traceable in the reused display.",
+        "topology_alternatives": [
+          "The small lower portion is certified as a rounded return; it is not asserted to be a fully closed second loop.",
+          "Stroke direction and pen-lift chronology are unknown; the observation concerns visible ink continuity."
+        ],
+        "role": "UNKNOWN",
+        "historical_membership": "UNKNOWN; no historical class, code identity, key, value, letter, or word inferred.",
+        "certification_scope": "Complete requested physical construction at the supplied locus only. This does not certify completeness of a code sign or word.",
+        "precision_limit": "The locator is supplied native coordinates. The physical assessment comes from the retained whole-source display; no pixel segmentation or rescue view was performed.",
+        "preservation": "Original new256-whole-prototypes-A-v1.json and its manifest were not read, edited, or replaced."
+      }
+    },
+    "cross_AI_B": {
+      "original_full_record_sha256": "89ae3ae68cf817a7206ea14d21d0797ada4559729ffeed76a7be6a91d17254d7",
+      "published_field_list": [
+        "schema",
+        "record_state",
+        "physical_query",
+        "locator_native_bbox_xyxy",
+        "locator_selection",
+        "view_provenance",
+        "assessment",
+        "check_order",
+        "exclusions"
+      ],
+      "scientific_record": {
+        "schema": "new256-cross-locator-B-v1",
+        "record_state": "frozen additive cross-binding observation; original independent record preserved",
+        "physical_query": "Q2: complete looped upper ascending part joined to a separate smaller lower rounded return belonging to one physical body",
+        "locator_native_bbox_xyxy": [
+          579,
+          63,
+          606,
+          104
+        ],
+        "locator_selection": {
+          "origin": "Preselected locator supplied in the follow-up locator.",
+          "nonfresh_locator_selection_exposure": true,
+          "independent_fresh_source_discovery": false,
+          "other_reader_report_or_expected_outcome_supplied": false,
+          "selection_limit": "This assessment independently evaluates the visible physical construct at the supplied locator, but its location was not independently selected by B in this additive check."
+        },
+        "view_provenance": {
+          "actual_previous_view_reuse": true,
+          "previous_view": "The one original-detail view of the entire untouched pc_hcp_256_pic.JPG already present in this observer history.",
+          "previous_source_file_sha256": "6c09887f8534a4fd2fff092e05dced0f2ec6f18706fdc14cfde8abeac472bdaf",
+          "previous_decoded_rgb_sha256": "74c3fa1262e3d0078c83e844ffb1e1f1b36f30a797a0df6fecde1342e0854f58",
+          "previous_native_dimensions_pixels": [
+            1785,
+            1175
+          ],
+          "previous_exif_orientation": 1,
+          "verification_order": "File hash, decode/native dimensions/mode/EXIF and decoded RGB hash were verified before the original whole view in the initial task.",
+          "new_views": 0,
+          "new_image_or_source_reads": 0,
+          "new_crops": 0,
+          "brightness_probes": 0,
+          "enhancement_or_transforms": 0,
+          "coordinate_precision": "Approximate visual localization in the native frame of the already displayed whole source; no fresh pixel-level inspection."
+        },
+        "assessment": {
+          "status": "CERTIFIED_PHYSICAL_Q2_CONSTRUCT",
+          "whole_physical_path": "Within the supplied rectangle, dark ink ascends from the low shared junction into a tall narrow upper loop, curves across its high apex, and returns downward toward the same lower junction. Below the elongated upper opening, the ink bends outward and rounds back into a smaller low return. The upper ascent and low rounded return visibly belong to one connected body, with a short terminal toward the right. The low return is a separate rounded component of that body, not a detached mark or the neighboring body.",
+          "positive_paper_boundaries": {
+            "above": "Pale paper is visible above the upper apex, separating it from the postcard upper edge.",
+            "left": "Pale space separates the entire ascending/low-return construction from the small detached ink body farther left.",
+            "right": "A narrow pale gap separates its right edge from the neighboring ascending body to the right.",
+            "below": "Pale paper below the lower rounded return separates it from the following inscription band."
+          },
+          "detached_marks": "No detached mark is required to complete this construct. The small body farther left and the next body on the right are excluded.",
+          "occlusion": "No visible opaque obstruction or crossing decoration interrupts the selected body. The background paper permits its outer contour to be followed in the retained view.",
+          "topology_alternatives": [
+            "The smaller lower return need not be treated as a fully closed second loop: its rounded out-and-back form is visible and distinct from the long upper loop.",
+            "The finite-width shared junction does not disclose stroke order or an exact pen trajectory; those are not certified."
+          ],
+          "certification_limit": "Certification is of the complete requested physical construction at the resolution of the previously displayed whole image. It does not establish a code-sign boundary beyond this physical body, a reading, a value, or historical class membership.",
+          "role": "UNKNOWN",
+          "historical_class_membership": "UNPROVED",
+          "key_or_value": "UNKNOWN",
+          "exact_evidence_gap": null
+        },
+        "check_order": [
+          "Receive one preselected native locator after initial record was frozen.",
+          "Reuse the original whole-source image already visible in this observer history; make no new source reads or views.",
+          "Assess physical path and paper separations at that locator without another reader report or semantic expectations.",
+          "Save this additive record and its SHA-256 manifest without changing the initial frozen record."
+        ],
+        "exclusions": {
+          "no_class_aliases": true,
+          "no_letter_or_word_reading": true,
+          "no_other_reader_reports": true,
+          "no_network": true,
+          "no_git_or_publication": true
+        }
+      }
+    }
+  },
+  "source_identity": {
+    "card": 256,
+    "catalogue_record": 1575,
+    "page": "https://crypto.hcportal.eu/dashboard/cryptograms/1575",
+    "original_url": "https://api.hcportal.eu/media/4785/pc_hcp_256_pic.JPG",
+    "sha256": "6c09887f8534a4fd2fff092e05dced0f2ec6f18706fdc14cfde8abeac472bdaf",
+    "RGB_sha256": "74c3fa1262e3d0078c83e844ffb1e1f1b36f30a797a0df6fecde1342e0854f58",
+    "bytes": 1272129,
+    "dims": [
+      1785,
+      1175
+    ],
+    "httpGET": 200,
+    "GET_requests": 1,
+    "retry_or_redirect": false
+  },
+  "crossbinding_scope": {
+    "source_original_sha256": "6c09887f8534a4fd2fff092e05dced0f2ec6f18706fdc14cfde8abeac472bdaf",
+    "decoded_RGB_sha256_from_pinned_provenance": "74c3fa1262e3d0078c83e844ffb1e1f1b36f30a797a0df6fecde1342e0854f58",
+    "native_dimensions": [
+      1785,
+      1175
+    ],
+    "frame": "native, EXIF1, no transform",
+    "Q1": "Neither initial reader certifies the complete hook-to-diagonal-to-lower-sweep body with sufficient attachment and paper boundaries. UNAVAILABLE means no certified instance in these records, not no instance exists or C14 absent.",
+    "Q2_candidates": [
+      {
+        "native_locator": [
+          579,
+          63,
+          606,
+          104
+        ],
+        "initial_selector": "A",
+        "second_assessment": "B additive supplied-locator check",
+        "physical_evidence": "Tall narrow looped upper ascent returns to its lower junction; smaller rounded lower return belongs to the same bounded graph. Four-side paper separation and exclusion of neighboring marks are described independently.",
+        "limits": "A notes a distinguishable fine reddish scratch near the upper region; B reports no visible interrupting obstruction. Preserve both observations; neither warrants inventing an occlusion-free pixel mask."
+      },
+      {
+        "native_locator": [
+          215,
+          251,
+          246,
+          299
+        ],
+        "initial_selector": "B",
+        "second_assessment": "A additive supplied-locator check",
+        "physical_evidence": "Tall upper loop and distinct smaller lower return share one body; both readers describe outer paper boundaries and exclude the adjacent tall body and colored decoration.",
+        "limits": "Supplied coordinates are approximate locators. Lower return need not be a fully closed second loop; exact pen route and chronology remain unresolved."
+      }
+    ],
+    "crossbinding_scope": "Two distinct outside-target physical loci now each have two recorded assessments, but each was independently discovered by only one reader. The other reader received that exact locus after their initial freeze and reused their already displayed whole image. This is independent assessment at a nonfresh supplied location, not two independent discoveries or blind replication of selection.",
+    "crossbinding_no_new_views": "Both additive records explicitly attest zero new image displays/reads/crops/diagnostics and no other-reader report or expected outcome exposure. These are retained actor attestations; this static review does not claim a new pixel certification.",
+    "historical_class_membership": "UNKNOWN for both loci, including any C23 attribution. Physical Q2 resemblance is not historical-category truth, code-sign completeness, word completeness or mapped value.",
+    "role": "UNKNOWN"
+  }
+}

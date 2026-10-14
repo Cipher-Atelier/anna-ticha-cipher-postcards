@@ -1,0 +1,238 @@
+{
+  "schema": "source257-inherited-candidate-sets-v1",
+  "candidate_sets": [
+    {
+      "id": "SCG001",
+      "member_ids": [
+        "FC066",
+        "FC074",
+        "FC092"
+      ],
+      "reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/0"
+      },
+      "status": "INHERITED_SOURCE_CHECKED_CANDIDATE_SET"
+    },
+    {
+      "id": "SCG002",
+      "member_ids": [
+        "FC019",
+        "FC043",
+        "FC081"
+      ],
+      "reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/1"
+      },
+      "status": "INHERITED_SOURCE_CHECKED_CANDIDATE_SET"
+    },
+    {
+      "id": "SCG003",
+      "member_ids": [
+        "FC013",
+        "FC068"
+      ],
+      "reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/2"
+      },
+      "status": "INHERITED_SOURCE_CHECKED_CANDIDATE_SET"
+    },
+    {
+      "id": "SCG004",
+      "member_ids": [
+        "U051",
+        "U053"
+      ],
+      "reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/3"
+      },
+      "status": "INHERITED_SOURCE_CHECKED_CANDIDATE_SET"
+    },
+    {
+      "id": "SCG005",
+      "member_ids": [
+        "U019",
+        "FC197"
+      ],
+      "reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/4"
+      },
+      "status": "INHERITED_SOURCE_CHECKED_CANDIDATE_SET"
+    },
+    {
+      "id": "SCG006",
+      "member_ids": [
+        "FC166",
+        "FC212"
+      ],
+      "reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/5"
+      },
+      "status": "INHERITED_SOURCE_CHECKED_CANDIDATE_SET"
+    },
+    {
+      "id": "SCG007",
+      "member_ids": [
+        "FC180",
+        "FC208"
+      ],
+      "reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/6"
+      },
+      "status": "INHERITED_SOURCE_CHECKED_CANDIDATE_SET"
+    }
+  ],
+  "positive_edges": [
+    {
+      "pair_id": "FC066--FC074",
+      "member_ids": [
+        "FC066",
+        "FC074"
+      ],
+      "candidate_set_id": "SCG001",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/0"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC066--FC092",
+      "member_ids": [
+        "FC066",
+        "FC092"
+      ],
+      "candidate_set_id": "SCG001",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/0"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC074--FC092",
+      "member_ids": [
+        "FC074",
+        "FC092"
+      ],
+      "candidate_set_id": "SCG001",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/0"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC019--FC043",
+      "member_ids": [
+        "FC019",
+        "FC043"
+      ],
+      "candidate_set_id": "SCG002",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/1"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC019--FC081",
+      "member_ids": [
+        "FC019",
+        "FC081"
+      ],
+      "candidate_set_id": "SCG002",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/1"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC043--FC081",
+      "member_ids": [
+        "FC043",
+        "FC081"
+      ],
+      "candidate_set_id": "SCG002",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/1"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC013--FC068",
+      "member_ids": [
+        "FC013",
+        "FC068"
+      ],
+      "candidate_set_id": "SCG003",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/2"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "U051--U053",
+      "member_ids": [
+        "U051",
+        "U053"
+      ],
+      "candidate_set_id": "SCG004",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/3"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC197--U019",
+      "member_ids": [
+        "FC197",
+        "U019"
+      ],
+      "candidate_set_id": "SCG005",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/4"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC166--FC212",
+      "member_ids": [
+        "FC166",
+        "FC212"
+      ],
+      "candidate_set_id": "SCG006",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/5"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    },
+    {
+      "pair_id": "FC180--FC208",
+      "member_ids": [
+        "FC180",
+        "FC208"
+      ],
+      "candidate_set_id": "SCG007",
+      "authority_reference": {
+        "input": "D10",
+        "json_pointer": "/candidate_classes/6"
+      },
+      "status": "INHERITED_POSITIVE_SOURCE_EDGE"
+    }
+  ],
+  "new_relation_claims": [],
+  "forbidden_inheritance": "NO_D9_S00x_EQUIVALENCE_LABELS_OR_LETTER_VALUES"
+}

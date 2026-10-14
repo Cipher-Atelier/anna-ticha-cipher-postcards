@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-13T05:12:30.120429+00:00",
+  "operations": [
+    {
+      "file": "picture-cw90.png",
+      "operation": "CW90_PIL_TRANSPOSE_ROTATE270",
+      "source_sha256": "a15baf618d8f34f3d48e1179a7cb1ef4a1fbcbaca53524219554013a0f29521e",
+      "dimensions": [
+        1175,
+        1785
+      ],
+      "sha256": "cff8112450502ec16ebfe28f8fc66b7f3e3249aafe1af1ecde46a214fe5d152d"
+    },
+    {
+      "file": "top-row-layout-NN2.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop_integerNN2",
+      "bbox": [
+        65,
+        65,
+        1125,
+        205
+      ],
+      "dimensions": [
+        2120,
+        280
+      ],
+      "sha256": "3f6a55384a909f6bb7936aea97df2626bb7991c818c2e47f560fa906674a0902"
+    },
+    {
+      "file": "sample-groups-NN4.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop_integerNN4",
+      "bbox": [
+        147,
+        73,
+        744,
+        175
+      ],
+      "dimensions": [
+        2388,
+        408
+      ],
+      "sha256": "7daef4f17644308373dbf1d8315bab5d47cd667abb632b32eff2f3add76dc370"
+    },
+    {
+      "file": "sample-g1g2-NN4.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop_integerNN4",
+      "bbox": [
+        151,
+        72,
+        414,
+        169
+      ],
+      "dimensions": [
+        1052,
+        388
+      ],
+      "sha256": "2a38b6a33a4336621040829d17fd8ddbabe38e28eeb4e893acf81c3865cd16cf"
+    },
+    {
+      "file": "sample-g3g4-NN4.png",
+      "parent": "picture-cw90.png",
+      "operation": "crop_integerNN4",
+      "bbox": [
+        411,
+        70,
+        738,
+        180
+      ],
+      "dimensions": [
+        1308,
+        440
+      ],
+      "sha256": "287822204c50796f9689732f0479848b3059e56245033450b5ce9c50e99f767d"
+    }
+  ],
+  "detail_created_utc": "2026-10-13T05:13:52.890074+00:00"
+}

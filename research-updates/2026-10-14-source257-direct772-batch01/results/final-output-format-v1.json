@@ -1,0 +1,61 @@
+{
+  "schema": "source257-direct772-final-output-format-v1",
+  "purpose": "FORMAT_GUIDANCE_ONLY_NO_SOURCE_ADJUDICATION",
+  "report_schema": "source257-direct772-final-ai-v1",
+  "phase": "FINAL_SOURCE_ADJUDICATION",
+  "source_fact_format_reference": {
+    "path": "source-reader-output-format-v2.json",
+    "sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d"
+  },
+  "required_root_fields": [
+    "schema",
+    "reviewer",
+    "phase",
+    "frozen_utc",
+    "input_pins",
+    "original_source_pins",
+    "whole_private_proof_json_sha256",
+    "proof_before_view",
+    "conditioning",
+    "coverage",
+    "target_observations",
+    "pair_observations"
+  ],
+  "root_field_shapes": {
+    "reviewer": "Safe human-readable label without operational task paths",
+    "frozen_utc": "ISO8601 with timezone after both immutable initial reports",
+    "input_pins": {
+      "protocol_sha256": "WHOLE_FILE_SHA256",
+      "safe_protocol_sha256": "WHOLE_FILE_SHA256",
+      "safe_intake_sha256": "WHOLE_FILE_SHA256",
+      "queue_sha256": "WHOLE_FILE_SHA256",
+      "context_index_sha256": "WHOLE_FILE_SHA256",
+      "output_format_sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d",
+      "final_output_format_sha256": "THIS_WHOLE_FORMAT_FILE_SHA256",
+      "reader_A_sha256": "ACTUAL_FROZEN_INITIAL_FILE_SHA256",
+      "reader_B_sha256": "ACTUAL_FROZEN_INITIAL_FILE_SHA256"
+    },
+    "conditioning": {
+      "both_initials_read": true,
+      "is_blind_agreement": false,
+      "details": "Truthful source/reports conditioning, explicitly same original pixels and separate AI judgment rather than independent historical sources"
+    },
+    "original_source_pins": "Same whole encoded/RGB fields as source fact format",
+    "whole_private_proof_json_sha256": "Actual whole private proof JSON SHA256 only; no private proof rows or per-panel pixel hashes",
+    "proof_before_view": "BOOLEAN truthful attestation",
+    "coverage": "Same FIXED_FIRST64_ONLY coverage structure: actual64 pair IDs,36 target IDs,16 board IDs",
+    "target_observations": "Fresh final source facts for exact36, same target_record_shape including continuity_source_witness per feature",
+    "pair_observations": "Exact64, same pair_record_shape plus adjudication_grounds string"
+  },
+  "per_pair_additional_field": {
+    "adjudication_grounds": "Concrete actual relevant source evidence and agreement/disagreement assessment; not category vote counts. Address each reader difference and why the specific common evidence supports a repeat/difference or remains uncertain."
+  },
+  "release_rules": [
+    "Full repeat requires all three actual reports to support complete construction/all8 owned FULL compatibility, with no unresolved significant variation.",
+    "Observed difference requires common specifically identified (feature,difference_kind) with positively supported owned FULL relevant evidence in both fresh readers and final. STRUCTURAL_FEATURE_DIFFERENCE and VISIBLE_FORM_VARIATION both keep cipher/allographic significance UNKNOWN; unrelated uncertainty need not erase a visible local fact.",
+    "Preserve every reader local difference, uncertainty and raw fact reference even if aggregate UNCERTAIN. A single unsupported local report does not become a released difference.",
+    "No observation or UNCERTAIN verdict for the unchecked708; no graph/sequence update, transitive inference, letters or cipher cannot-links.",
+    "Validate exact frozen input/report references; no fabricated source report or arbitrary caller-supplied final hash can authorize production output."
+  ],
+  "serialization": "Immutable UTF-8 JSON; final source review conditioned on both frozen initials, with independently checked actual native paired panels before views. Source locators are approximate, not route masks or mechanical target-binding proofs."
+}

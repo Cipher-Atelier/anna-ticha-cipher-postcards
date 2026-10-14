@@ -1,0 +1,2175 @@
+{
+  "schema": "source257-conflict-route-delta-v1",
+  "purpose": "SOURCE_GATED_GRAPHICAL_DELTA_NOT_CIPHER_IDENTITIES",
+  "baseline_reference": {
+    "path": "research-updates/2026-10-14-source257-repeat-sequence/data/canonical-repeat-evidence-v1.json",
+    "sha256": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348"
+  },
+  "input_sha256": {
+    "baseline": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348",
+    "protocol": "554f461bcf6a210b3bb91da3a36b78042410649083840002413f0bcc82d388dc",
+    "safe_protocol": "e17e2c6d026061ed5f0ced2488ff5ddca881ed433e8e8ea2fd36f2cf9c99750e",
+    "intake": "5f755122a874c6b6d036d540f9bcdcfb9b976c27eebbd37e2621bd5f24bb20b7",
+    "format": "f4b01c4d83d62e035f05a0d67a7ed83e59ec95ff8e6ea377077c426d2ca19138",
+    "audit_format": "13429c28449eb79c20da7e355d3a2b798b8072a25eb3dbee13282eef36b985e0",
+    "final_format": "8f8fbe14d69742bde90f9a4bde10e9fa1648489c8bcf37eff878eaf3c93a1ab1",
+    "dependency_format_addendum": "46dce07c66f6fca550a01c50fab12100e2dce3397f8084b57998dce7f4a5b3bf",
+    "reader_A": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+    "reader_B": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+    "historical_claims": "3a892b8661c6ca89f403e567e4ee3c31c3ac64d0c2f4e758c9712cd0566aece9",
+    "history_A": "4693e0df900dc4f004f03888e1513672ba5aeca26610cf9b2a1a6ad6cca274b0",
+    "history_B": "31f7b8788e8d90c9035e7879bc64b1568a842d46a0a1e6e47288915cbe8857a2",
+    "final_review": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+    "board_index": "9d23148b57a02d2f86e92379e3006887d560aa867e789942b2fff75ba7a0c18c"
+  },
+  "pair_dispositions": [
+    {
+      "pair_id": "FC002--FC114",
+      "member_ids": [
+        "FC002",
+        "FC114"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/0"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/0"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/0"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC002--FC125",
+      "member_ids": [
+        "FC002",
+        "FC125"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/1"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/1"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/1"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC013--FC078",
+      "member_ids": [
+        "FC013",
+        "FC078"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/2"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/2"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/2"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC015--FC056",
+      "member_ids": [
+        "FC015",
+        "FC056"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/3"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/3"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/3"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC015--FC121",
+      "member_ids": [
+        "FC015",
+        "FC121"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/4"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/4"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/4"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC015--FC179",
+      "member_ids": [
+        "FC015",
+        "FC179"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/5"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/5"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/5"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC019--FC114",
+      "member_ids": [
+        "FC019",
+        "FC114"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/6"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/6"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/6"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC019--FC125",
+      "member_ids": [
+        "FC019",
+        "FC125"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/7"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/7"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/7"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC025--FC114",
+      "member_ids": [
+        "FC025",
+        "FC114"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/8"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/8"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/8"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC025--FC125",
+      "member_ids": [
+        "FC025",
+        "FC125"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/9"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/9"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/9"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC043--FC114",
+      "member_ids": [
+        "FC043",
+        "FC114"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/10"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/10"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/10"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC043--FC125",
+      "member_ids": [
+        "FC043",
+        "FC125"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/11"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/11"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/11"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC045--FC114",
+      "member_ids": [
+        "FC045",
+        "FC114"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/12"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/12"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/12"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC045--FC125",
+      "member_ids": [
+        "FC045",
+        "FC125"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/13"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/13"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/13"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC056--FC089",
+      "member_ids": [
+        "FC056",
+        "FC089"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/14"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/14"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/14"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC056--FC104",
+      "member_ids": [
+        "FC056",
+        "FC104"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/15"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/15"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/15"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC056--FC109",
+      "member_ids": [
+        "FC056",
+        "FC109"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/16"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/16"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/16"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC056--FC126",
+      "member_ids": [
+        "FC056",
+        "FC126"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/17"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/17"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/17"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC066--FC089",
+      "member_ids": [
+        "FC066",
+        "FC089"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/18"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/18"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/18"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC066--FC126",
+      "member_ids": [
+        "FC066",
+        "FC126"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/19"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/19"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/19"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC068--FC078",
+      "member_ids": [
+        "FC068",
+        "FC078"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/20"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/20"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/20"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC074--FC109",
+      "member_ids": [
+        "FC074",
+        "FC109"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/21"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/21"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/21"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC089--FC121",
+      "member_ids": [
+        "FC089",
+        "FC121"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/22"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/22"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/22"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC089--FC179",
+      "member_ids": [
+        "FC089",
+        "FC179"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/23"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/23"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/23"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC090--FC108",
+      "member_ids": [
+        "FC090",
+        "FC108"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/24"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/24"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/24"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC090--FC182",
+      "member_ids": [
+        "FC090",
+        "FC182"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/25"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/25"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/25"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC090--FC209",
+      "member_ids": [
+        "FC090",
+        "FC209"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/26"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/26"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/26"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC092--FC104",
+      "member_ids": [
+        "FC092",
+        "FC104"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/27"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/27"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/27"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC102--FC107",
+      "member_ids": [
+        "FC102",
+        "FC107"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/28"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/28"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/28"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC102--FC122",
+      "member_ids": [
+        "FC102",
+        "FC122"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/29"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/29"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/29"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC104--FC121",
+      "member_ids": [
+        "FC104",
+        "FC121"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/30"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/30"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/30"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC104--FC179",
+      "member_ids": [
+        "FC104",
+        "FC179"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/31"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/31"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/31"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC107--FC122",
+      "member_ids": [
+        "FC107",
+        "FC122"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/32"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/32"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/32"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC108--FC123",
+      "member_ids": [
+        "FC108",
+        "FC123"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "VISIBLE_VARIATION_RELATION_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/33"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/33"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/33"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC109--FC121",
+      "member_ids": [
+        "FC109",
+        "FC121"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/34"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/34"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/34"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC109--FC179",
+      "member_ids": [
+        "FC109",
+        "FC179"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/35"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/35"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/35"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC121--FC126",
+      "member_ids": [
+        "FC121",
+        "FC126"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/36"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/36"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/36"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    },
+    {
+      "pair_id": "FC126--FC179",
+      "member_ids": [
+        "FC126",
+        "FC179"
+      ],
+      "status": "DEFERRED_BINDING",
+      "reader_A_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_B_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "final_AI_outcome": "CONNECTION_OR_BINDING_UNRESOLVED",
+      "reader_A_reference": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/pair_observations/37"
+      },
+      "reader_B_reference": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/pair_observations/37"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/pair_reviews/37"
+      },
+      "uncertainty_preservation": "RAW_INITIAL_AND_FINAL_OBSERVATIONS_RETAINED_BY_EXACT_REFERENCE",
+      "cipher_identity": "UNKNOWN"
+    }
+  ],
+  "target_fact_references": [
+    {
+      "id": "FC002",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/0"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/0"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/0"
+      }
+    },
+    {
+      "id": "FC013",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/1"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/1"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/1"
+      }
+    },
+    {
+      "id": "FC015",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/2"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/2"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/2"
+      }
+    },
+    {
+      "id": "FC019",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/3"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/3"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/3"
+      }
+    },
+    {
+      "id": "FC025",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/4"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/4"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/4"
+      }
+    },
+    {
+      "id": "FC043",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/5"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/5"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/5"
+      }
+    },
+    {
+      "id": "FC045",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/6"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/6"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/6"
+      }
+    },
+    {
+      "id": "FC056",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/7"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/7"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/7"
+      }
+    },
+    {
+      "id": "FC066",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/8"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/8"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/8"
+      }
+    },
+    {
+      "id": "FC068",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/9"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/9"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/9"
+      }
+    },
+    {
+      "id": "FC074",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/10"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/10"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/10"
+      }
+    },
+    {
+      "id": "FC078",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/11"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/11"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/11"
+      }
+    },
+    {
+      "id": "FC089",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/12"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/12"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/12"
+      }
+    },
+    {
+      "id": "FC090",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/13"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/13"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/13"
+      }
+    },
+    {
+      "id": "FC092",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/14"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/14"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/14"
+      }
+    },
+    {
+      "id": "FC102",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/15"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/15"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/15"
+      }
+    },
+    {
+      "id": "FC104",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/16"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/16"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/16"
+      }
+    },
+    {
+      "id": "FC107",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/17"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/17"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/17"
+      }
+    },
+    {
+      "id": "FC108",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/18"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/18"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/18"
+      }
+    },
+    {
+      "id": "FC109",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/19"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/19"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/19"
+      }
+    },
+    {
+      "id": "FC114",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/20"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/20"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/20"
+      }
+    },
+    {
+      "id": "FC121",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/21"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/21"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/21"
+      }
+    },
+    {
+      "id": "FC122",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/22"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/22"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/22"
+      }
+    },
+    {
+      "id": "FC123",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/23"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/23"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/23"
+      }
+    },
+    {
+      "id": "FC125",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/24"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/24"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/24"
+      }
+    },
+    {
+      "id": "FC126",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/25"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/25"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/25"
+      }
+    },
+    {
+      "id": "FC179",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/26"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/26"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/26"
+      }
+    },
+    {
+      "id": "FC182",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/27"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/27"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/27"
+      }
+    },
+    {
+      "id": "FC209",
+      "reader_A": {
+        "input": "reader_A",
+        "sha256": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+        "json_pointer": "/target_observations/28"
+      },
+      "reader_B": {
+        "input": "reader_B",
+        "sha256": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+        "json_pointer": "/target_observations/28"
+      },
+      "final_AI": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/target_observations/28"
+      }
+    }
+  ],
+  "correction_dispositions": [
+    {
+      "claim_id": "A-CORRECTION-FC209-LOCATOR-001",
+      "status": "SUPPORTED_SOURCE_FACT_CORRECTION",
+      "historical_addendum_reference": {
+        "input": "history_A",
+        "sha256": "4693e0df900dc4f004f03888e1513672ba5aeca26610cf9b2a1a6ad6cca274b0",
+        "json_pointer": "/correction_claims/0"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/correction_reviews/0"
+      },
+      "accepted_scope": "FINAL_SOURCE_GROUNDS_AND_WITNESSES_ONLY_NOT_ENTIRE_UNQUALIFIED_PROPOSED_CLAIM",
+      "source_statement_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/correction_reviews/0/grounds"
+      }
+    }
+  ],
+  "support_qualification_references": [
+    {
+      "qualification_id": "B-QUAL-FC209-WITNESS-LOCATOR",
+      "kind": "HISTORICAL_DISAGREEMENT_ONLY",
+      "status": "SUPPORTED_SOURCE_SUPPORT_QUALIFICATION",
+      "historical_addendum_reference": {
+        "input": "history_B",
+        "sha256": "31f7b8788e8d90c9035e7879bc64b1568a842d46a0a1e6e47288915cbe8857a2",
+        "json_pointer": "/support_qualification_records/0"
+      },
+      "final_AI_reference": {
+        "input": "final_review",
+        "sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+        "json_pointer": "/qualification_reviews/0"
+      },
+      "not_a_factual_opposite": true
+    }
+  ],
+  "current_graph_overlay": {
+    "baseline_historical_graph_unchanged": true,
+    "added_positive_pair_ids": [],
+    "quarantined_baseline_edges": [],
+    "unresolved_dependency_edges": [],
+    "dependency_review_dispositions": [],
+    "current_positive_pair_ids": [
+      "FC004--FC079",
+      "FC004--FC129",
+      "FC004--FC213",
+      "FC013--FC068",
+      "FC015--FC066",
+      "FC015--FC074",
+      "FC015--FC089",
+      "FC015--FC092",
+      "FC015--FC104",
+      "FC015--FC109",
+      "FC015--FC126",
+      "FC019--FC043",
+      "FC019--FC081",
+      "FC037--FC049",
+      "FC037--FC081",
+      "FC037--FC114",
+      "FC037--FC125",
+      "FC037--FC197",
+      "FC037--U019",
+      "FC043--FC081",
+      "FC049--FC081",
+      "FC049--FC114",
+      "FC049--FC125",
+      "FC049--FC197",
+      "FC049--U019",
+      "FC066--FC074",
+      "FC066--FC092",
+      "FC066--FC104",
+      "FC066--FC109",
+      "FC074--FC089",
+      "FC074--FC092",
+      "FC074--FC104",
+      "FC074--FC126",
+      "FC079--FC129",
+      "FC079--FC213",
+      "FC081--FC114",
+      "FC081--FC125",
+      "FC081--FC197",
+      "FC081--U019",
+      "FC089--FC092",
+      "FC089--FC104",
+      "FC089--FC109",
+      "FC089--FC126",
+      "FC092--FC109",
+      "FC092--FC126",
+      "FC104--FC109",
+      "FC104--FC126",
+      "FC109--FC126",
+      "FC114--FC125",
+      "FC114--FC197",
+      "FC114--U019",
+      "FC125--FC197",
+      "FC125--U019",
+      "FC129--FC213",
+      "FC166--FC212",
+      "FC180--FC208",
+      "FC197--U019",
+      "U051--U053"
+    ],
+    "maximal_edge_complete_cliques": [
+      {
+        "id": "GSET-65215a54843799e0",
+        "member_ids": [
+          "FC004",
+          "FC079",
+          "FC129",
+          "FC213"
+        ],
+        "edge_witness_pair_ids": [
+          "FC004--FC079",
+          "FC004--FC129",
+          "FC004--FC213",
+          "FC079--FC129",
+          "FC079--FC213",
+          "FC129--FC213"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-dbe09b9e9e92b13a",
+        "member_ids": [
+          "FC013",
+          "FC068"
+        ],
+        "edge_witness_pair_ids": [
+          "FC013--FC068"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-4d5ba9793b302082",
+        "member_ids": [
+          "FC015",
+          "FC066",
+          "FC074",
+          "FC092"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC066",
+          "FC015--FC074",
+          "FC015--FC092",
+          "FC066--FC074",
+          "FC066--FC092",
+          "FC074--FC092"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-b9153c5dedde1641",
+        "member_ids": [
+          "FC015",
+          "FC066",
+          "FC074",
+          "FC104"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC066",
+          "FC015--FC074",
+          "FC015--FC104",
+          "FC066--FC074",
+          "FC066--FC104",
+          "FC074--FC104"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-7b5c392117e2170b",
+        "member_ids": [
+          "FC015",
+          "FC066",
+          "FC092",
+          "FC109"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC066",
+          "FC015--FC092",
+          "FC015--FC109",
+          "FC066--FC092",
+          "FC066--FC109",
+          "FC092--FC109"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-5494e69433ab408e",
+        "member_ids": [
+          "FC015",
+          "FC066",
+          "FC104",
+          "FC109"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC066",
+          "FC015--FC104",
+          "FC015--FC109",
+          "FC066--FC104",
+          "FC066--FC109",
+          "FC104--FC109"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-1753eb85ed9a3e66",
+        "member_ids": [
+          "FC015",
+          "FC074",
+          "FC089",
+          "FC092",
+          "FC126"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC074",
+          "FC015--FC089",
+          "FC015--FC092",
+          "FC015--FC126",
+          "FC074--FC089",
+          "FC074--FC092",
+          "FC074--FC126",
+          "FC089--FC092",
+          "FC089--FC126",
+          "FC092--FC126"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-de70260107db3c50",
+        "member_ids": [
+          "FC015",
+          "FC074",
+          "FC089",
+          "FC104",
+          "FC126"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC074",
+          "FC015--FC089",
+          "FC015--FC104",
+          "FC015--FC126",
+          "FC074--FC089",
+          "FC074--FC104",
+          "FC074--FC126",
+          "FC089--FC104",
+          "FC089--FC126",
+          "FC104--FC126"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-273ad6ab5f51987f",
+        "member_ids": [
+          "FC015",
+          "FC089",
+          "FC092",
+          "FC109",
+          "FC126"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC089",
+          "FC015--FC092",
+          "FC015--FC109",
+          "FC015--FC126",
+          "FC089--FC092",
+          "FC089--FC109",
+          "FC089--FC126",
+          "FC092--FC109",
+          "FC092--FC126",
+          "FC109--FC126"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-da928d6293f8daae",
+        "member_ids": [
+          "FC015",
+          "FC089",
+          "FC104",
+          "FC109",
+          "FC126"
+        ],
+        "edge_witness_pair_ids": [
+          "FC015--FC089",
+          "FC015--FC104",
+          "FC015--FC109",
+          "FC015--FC126",
+          "FC089--FC104",
+          "FC089--FC109",
+          "FC089--FC126",
+          "FC104--FC109",
+          "FC104--FC126",
+          "FC109--FC126"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-4baea2a39b1072f0",
+        "member_ids": [
+          "FC019",
+          "FC043",
+          "FC081"
+        ],
+        "edge_witness_pair_ids": [
+          "FC019--FC043",
+          "FC019--FC081",
+          "FC043--FC081"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-e546464440c6b1e4",
+        "member_ids": [
+          "FC037",
+          "FC049",
+          "FC081",
+          "FC114",
+          "FC125",
+          "FC197",
+          "U019"
+        ],
+        "edge_witness_pair_ids": [
+          "FC037--FC049",
+          "FC037--FC081",
+          "FC037--FC114",
+          "FC037--FC125",
+          "FC037--FC197",
+          "FC037--U019",
+          "FC049--FC081",
+          "FC049--FC114",
+          "FC049--FC125",
+          "FC049--FC197",
+          "FC049--U019",
+          "FC081--FC114",
+          "FC081--FC125",
+          "FC081--FC197",
+          "FC081--U019",
+          "FC114--FC125",
+          "FC114--FC197",
+          "FC114--U019",
+          "FC125--FC197",
+          "FC125--U019",
+          "FC197--U019"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-00b71921f4708fe2",
+        "member_ids": [
+          "FC166",
+          "FC212"
+        ],
+        "edge_witness_pair_ids": [
+          "FC166--FC212"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-c30d50e3b4d5346e",
+        "member_ids": [
+          "FC180",
+          "FC208"
+        ],
+        "edge_witness_pair_ids": [
+          "FC180--FC208"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      },
+      {
+        "id": "GSET-9cd385a1d2989012",
+        "member_ids": [
+          "U051",
+          "U053"
+        ],
+        "edge_witness_pair_ids": [
+          "U051--U053"
+        ],
+        "membership_semantics": "SET_NOT_ALPHABET_PARTITION"
+      }
+    ],
+    "memberships_are_sets": true,
+    "memberships": {
+      "FC002": [],
+      "FC004": [
+        "GSET-65215a54843799e0"
+      ],
+      "FC013": [
+        "GSET-dbe09b9e9e92b13a"
+      ],
+      "FC015": [
+        "GSET-1753eb85ed9a3e66",
+        "GSET-273ad6ab5f51987f",
+        "GSET-4d5ba9793b302082",
+        "GSET-5494e69433ab408e",
+        "GSET-7b5c392117e2170b",
+        "GSET-b9153c5dedde1641",
+        "GSET-da928d6293f8daae",
+        "GSET-de70260107db3c50"
+      ],
+      "FC018": [],
+      "FC019": [
+        "GSET-4baea2a39b1072f0"
+      ],
+      "FC025": [],
+      "FC027": [],
+      "FC029": [],
+      "FC037": [
+        "GSET-e546464440c6b1e4"
+      ],
+      "FC043": [
+        "GSET-4baea2a39b1072f0"
+      ],
+      "FC045": [],
+      "FC048": [],
+      "FC049": [
+        "GSET-e546464440c6b1e4"
+      ],
+      "FC054": [],
+      "FC056": [],
+      "FC066": [
+        "GSET-4d5ba9793b302082",
+        "GSET-5494e69433ab408e",
+        "GSET-7b5c392117e2170b",
+        "GSET-b9153c5dedde1641"
+      ],
+      "FC068": [
+        "GSET-dbe09b9e9e92b13a"
+      ],
+      "FC074": [
+        "GSET-1753eb85ed9a3e66",
+        "GSET-4d5ba9793b302082",
+        "GSET-b9153c5dedde1641",
+        "GSET-de70260107db3c50"
+      ],
+      "FC078": [],
+      "FC079": [
+        "GSET-65215a54843799e0"
+      ],
+      "FC080": [],
+      "FC081": [
+        "GSET-4baea2a39b1072f0",
+        "GSET-e546464440c6b1e4"
+      ],
+      "FC086": [],
+      "FC089": [
+        "GSET-1753eb85ed9a3e66",
+        "GSET-273ad6ab5f51987f",
+        "GSET-da928d6293f8daae",
+        "GSET-de70260107db3c50"
+      ],
+      "FC090": [],
+      "FC092": [
+        "GSET-1753eb85ed9a3e66",
+        "GSET-273ad6ab5f51987f",
+        "GSET-4d5ba9793b302082",
+        "GSET-7b5c392117e2170b"
+      ],
+      "FC100": [],
+      "FC102": [],
+      "FC104": [
+        "GSET-5494e69433ab408e",
+        "GSET-b9153c5dedde1641",
+        "GSET-da928d6293f8daae",
+        "GSET-de70260107db3c50"
+      ],
+      "FC107": [],
+      "FC108": [],
+      "FC109": [
+        "GSET-273ad6ab5f51987f",
+        "GSET-5494e69433ab408e",
+        "GSET-7b5c392117e2170b",
+        "GSET-da928d6293f8daae"
+      ],
+      "FC114": [
+        "GSET-e546464440c6b1e4"
+      ],
+      "FC116": [],
+      "FC121": [],
+      "FC122": [],
+      "FC123": [],
+      "FC125": [
+        "GSET-e546464440c6b1e4"
+      ],
+      "FC126": [
+        "GSET-1753eb85ed9a3e66",
+        "GSET-273ad6ab5f51987f",
+        "GSET-da928d6293f8daae",
+        "GSET-de70260107db3c50"
+      ],
+      "FC127": [],
+      "FC129": [
+        "GSET-65215a54843799e0"
+      ],
+      "FC146": [],
+      "FC147": [],
+      "FC162": [],
+      "FC163": [],
+      "FC165": [],
+      "FC166": [
+        "GSET-00b71921f4708fe2"
+      ],
+      "FC179": [],
+      "FC180": [
+        "GSET-c30d50e3b4d5346e"
+      ],
+      "FC182": [],
+      "FC183": [],
+      "FC191": [],
+      "FC195": [],
+      "FC196": [],
+      "FC197": [
+        "GSET-e546464440c6b1e4"
+      ],
+      "FC208": [
+        "GSET-c30d50e3b4d5346e"
+      ],
+      "FC209": [],
+      "FC212": [
+        "GSET-00b71921f4708fe2"
+      ],
+      "FC213": [
+        "GSET-65215a54843799e0"
+      ],
+      "U002": [],
+      "U003": [],
+      "U004": [],
+      "U019": [
+        "GSET-e546464440c6b1e4"
+      ],
+      "U036": [],
+      "U037": [],
+      "U051": [
+        "GSET-9cd385a1d2989012"
+      ],
+      "U053": [
+        "GSET-9cd385a1d2989012"
+      ],
+      "U055": [],
+      "U056": []
+    }
+  },
+  "conditional772": {
+    "state": "NOT_EXECUTED_NO_ADMISSION_PRELOG",
+    "additional_comparisons": 0,
+    "scope_expansion_authorized_by_this_output": false
+  },
+  "fixed_scope": {
+    "review_pairs": 38,
+    "review_targets": 29,
+    "eligible_profiles": 70,
+    "excluded_whole": 102,
+    "unresolved_records": 135,
+    "annotation_refs": 307
+  },
+  "source_provenance": "PINNED_SOURCE_READER_AND_FINAL_AI_ATTESTATIONS_NO_CURRENT_JPEG_OR_PRIVATE_PROOF_READ_NO_MECHANICAL_TARGET_BINDING_PROOF",
+  "semantic_limits": "NO_ALPHABET_PARTITION_NO_CIPHER_CANNOT_LINK_NO_LETTERS_NO_NEW_READING_ORDER"
+}
