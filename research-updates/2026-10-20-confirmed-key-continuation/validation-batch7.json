@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Seventh source batch; four new candidates after merged PR26",
+  "base_commit": "d5c93a756d93b92b17b3a4a87dc9da1fc3a140e4",
+  "preparation_base_commit": "d5c93a756d93b92b17b3a4a87dc9da1fc3a140e4",
+  "base_relation": "Latest main includes 25 candidate records and historical reader editions. This follow-up preserves those records, the frozen key, decoder and checker and adds four source-based candidates.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278
+  ],
+  "new_card_ids": [
+    275,
+    276,
+    277,
+    278
+  ],
+  "selected_totals": {
+    "rows": 403,
+    "encoded_bodies": 10654,
+    "expanded_letters": 10621,
+    "ch_occurrences": 84,
+    "unknowns": 117
+  },
+  "new_selected_totals": {
+    "rows": 45,
+    "encoded_bodies": 1530,
+    "expanded_letters": 1525,
+    "ch_occurrences": 11,
+    "unknowns": 16
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 3,
+  "new_source_work": "Two frozen related AI source-only readings per card, each frozen before its tool decode or exchange of target readings. Frozen key visible; prior other-card context disclosed. Each second reader later reconciled both target readings nonblind. No third source-only reading, independent human or external confirmation claimed. All eight source/raw digests and four immutable initial selected snapshots were verified.",
+  "address_faces_checked": 29,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "275 current coverage notice was made card-specific after initial reconciliation; unrelated figure and ordering language was removed. Source, raw layers, selected strings, counters and immutable snapshot were unchanged.",
+    "278 current Czech and English proposals bracket the D-to-T repair in strict ROZDOMILE. A dated post-initial record preserves the correction; the immutable initial snapshot retains the earlier unbracketed rendering.",
+    "276 and 277 have qualified, dated lexical context for PAC using the primary SSJC pusa entry. The related whole farewell idiom does not define standalone PAC or establish a historical gesture. PAC remains unrendered/qualified; source, raw, strict strings, counters and initial snapshots are unchanged."
+  ],
+  "unresolved": {
+    "275": "Two low marked bodies remain masks, with competing marked-r interpretations retained. Five qualified repairs have exact literal spans; all sixteen rows have matching Czech/English scope. The date and names remain unverified; no flower symbolism is inferred.",
+    "276": "Zero selected masks does not mean complete. A separate angled/face-like figure with an internal 6.-like mark is excluded from selected replay, but its encoded status and function remain unresolved in the current cluster inventory. Both reader inclusion/exclusion treatments are preserved, and Czech/English retain a matching positional placeholder. Thirteen rows have full legible coverage with qualified repairs; final paragraph ordering is uncertain.",
+    "277": "Thirteen masks across eight rows remain where printed stems, a blackened body and a seam obscure ink. Both readable layers follow all rows as fragments and preserve literal-labeled gaps. Covered clauses and the broken closing formula are not reconstructed. Date month VI/VII remains uncertain.",
+    "278": "One mask in SLUZ?U and terminal-body PUS alternatives remain. Seven main rows and one upward margin stay separate. Four qualified repairs are bracketed and ledgered in both readable layers; F remains unassigned in the frozen key. USTY is not silently turned into a payment-on-credit statement. Date is unverified."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 29
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 550
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS: no confirmed or unresolved findings",
+    "limits": "Consistency of the research package; visual uncertainty remains and no external confirmation is implied.",
+    "verified": "Fingerprints, immutable snapshots, selected spans, coordinates and counters; paired Czech/English coverage, qualified repairs, links and privacy. All 89 earlier evidence files preserved. Fresh 24 focused tests and 29-card replay passed."
+  },
+  "next_priority_not_started": [
+    279,
+    280,
+    281,
+    282
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 550,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  }
+}
