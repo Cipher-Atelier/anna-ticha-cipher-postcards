@@ -18,6 +18,8 @@ Start with the [source catalogue or manuscript](https://crypto.hcportal.eu/dashb
 
 ## Read the current result
 
+The continuation package now has 77 canonical-key research candidates, including the dated 21 October 2026 candidates [323](research-updates/2026-10-20-confirmed-key-continuation/cards/323.md), [324](research-updates/2026-10-20-confirmed-key-continuation/cards/324.md), [325](research-updates/2026-10-20-confirmed-key-continuation/cards/325.md), [326](research-updates/2026-10-20-confirmed-key-continuation/cards/326.md). These four records have separate literal, qualified Czech and English layers. Their earlier legacy conditional reports remain unchanged among the 37 preserved reports; the new canonical 323 record is distinct from its historical report. Related AI readings and nonblind reconciliation are not external confirmation or solved-card claims.
+
 [All 37 card reports](anna-ticha/readings.md) distinguish literal readings, qualified English interpretations and evidence levels. Selected cards can be read in part. The most complete public checking package is for card 199: it records each of its 532 symbol positions and the proposed letters. Other cards have separate reading reports, with different amounts of evidence.
 
 Open [Card 199: literal reading](verification/anna-ticha/literal.txt) and the [research account](anna-ticha/article.md). A literal preserves the recorded output before making it smoother to read. An English explanation or translation adds interpretation and should not silently repair it.

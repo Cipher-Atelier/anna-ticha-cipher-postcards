@@ -9,9 +9,11 @@ Author: Maxim Egorov
 3. [Literal texts](saved-six-card-literals.md) and each card’s supporting evidence; [card 199](card-199.md) has the most complete public positional package
 4. [Methods](methods.md) and [dated historical audits](../research-updates/README.md), including the four Russian readers published in PR #19
 
-The public card reports are partial readings. Cards 205 and 323 remain partial/conditional; high mapping coverage is not verified accuracy. The author-reported external check of 204 does not validate the full collection. Card 460 is another team’s key comparison, not our solve.
+The preserved public card reports are partial readings. Their historical reports for cards 205 and 323 remain partial/conditional; the new canonical 323 candidate is linked separately below. High mapping coverage is not verified accuracy. The author-reported external check of 204 does not validate the full collection. Card 460 is another team’s key comparison, not our solve.
 
 ## Preserved research
+
+The continuation package now has 77 canonical-key research candidates, including the dated 21 October 2026 candidates [323](../research-updates/2026-10-20-confirmed-key-continuation/cards/323.md), [324](../research-updates/2026-10-20-confirmed-key-continuation/cards/324.md), [325](../research-updates/2026-10-20-confirmed-key-continuation/cards/325.md), [326](../research-updates/2026-10-20-confirmed-key-continuation/cards/326.md). These four records have separate literal, qualified Czech and English layers. Their earlier legacy conditional reports remain unchanged among the 37 preserved reports; the new canonical 323 record is distinct from its historical report. Related AI readings and nonblind reconciliation are not external confirmation or solved-card claims.
 
 | Record | What to expect |
 | --- | --- |
