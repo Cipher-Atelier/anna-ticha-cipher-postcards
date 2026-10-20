@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Ninth source batch; four new candidates after merged PR29 and full editorial expansion PR30",
+  "base_commit": "4479705b65d6c215fbfdca5d6ebde9b78c8f4fd0",
+  "preparation_base_commit": "1c3262fa2dd000d3d719307bebbce38514de7ab0",
+  "base_relation": "Fresh worktree fast-forwarded to latest main before assembly; preserve all 33 prior candidates/revisions/history and full paired editions 249/257 and 267/269 from parent PR30/PR28. Key, decoder, checker and anchor unchanged.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286
+  ],
+  "new_card_ids": [
+    283,
+    284,
+    285,
+    286
+  ],
+  "selected_totals": {
+    "rows": 512,
+    "encoded_bodies": 13933,
+    "expanded_letters": 13911,
+    "ch_occurrences": 117,
+    "unknowns": 139
+  },
+  "new_selected_totals": {
+    "rows": 56,
+    "encoded_bodies": 1598,
+    "expanded_letters": 1602,
+    "ch_occurrences": 18,
+    "unknowns": 14
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 5,
+  "new_source_work": "Two frozen related AI source-only readings per card, key visible and prior other-card context disclosed. All 8 raw/file/source hashes verified before nonblind reconciliation; curator roles 283/286 second reader and 284/285 first reader. Freeze chronology is recorded attestation/tool sequence, not proved by hashes. No third source-only read, human or external confirmation claimed.",
+  "address_faces_checked": 37,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "284 current inverted M01 whole-row locator enlarged to [590,105,1420,185] after source inspection; both frozen undershooting boxes retained exactly.",
+    "285 current terminal-curl locator clarifies frozen descriptive offset 8 versus intended final c at 37; original raw retained.",
+    "283 English T03 VZDYT restored as After all, in current physical-row and reflow editions; dated exact-span note, immutable initial snapshot retained.",
+    "285 NAC has a qualified contextual relative gloss linked to primary SSJČ; linguistic inference only, MICE remains uninterpreted.",
+    "Current285/286 prose spacing normalized with dated notes; selected strings, counters, raw layers and initial snapshots unchanged."
+  ],
+  "unresolved": {
+    "283": "Two unknown-length masks, three written questions; 32 rows in three oriented regions. Qualified arrow reflow and physical rows retained; lexical repairs bracketed both languages; date 13./V versus 13./IV 1902 unresolved. Unassigned raw 9 is historical; current canonical g selected only on stated source morphology.",
+    "284": "Eight masks across 12 rows/four frames, postmark and right-edge ambiguities. One written question; no cipher numerals. Full paired row fragments preserve missing constructions, PRINIHO/VZPOMALLA and unverified names. Tentative 23./III 1902 unverified.",
+    "285": "Two masks across 9 rows/three frames; qualified R→L→B continuation. One written question; NAC contextual gloss qualified, MICE unrendered, date 12./IV versus III 1902 unresolved. Terminal curl versus cipher c retained.",
+    "286": "Two unknown-length overtraced prefixes in three rows; PAC unrendered; happy/dear proposals bracketed in both languages. Date 28./III 1902 unverified; no specific holiday inferred."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 37
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 576
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS: no confirmed or unresolved findings",
+    "limits": "Research-package consistency only; no external confirmation or new source-only read.",
+    "verified": "Actual diff, full paired Czech/English coverage across 56 rows, exact editorial/uncertainty spans, eight raw/file/source hashes, four immutable snapshots, 120 protected files, queue records 283–288, privacy and corrected 284 M01 visually. Reviewer independently reran replay of 37 candidates plus the 14-row anchor, 24 focused tests and 100 existing tests. Closed first reads for 287/288 were not opened."
+  },
+  "next_priority_not_started": [
+    289,
+    290
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 576,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  },
+  "raw_consistency_scope": {
+    "result": "Mechanical checks passed with 0 errors; 2 disclosed locator scope issues clarified in current candidates, 3 row-context-only schema notes retained. Frozen QA report retains its original open-issue wording.",
+    "readings": 8,
+    "rows": 112,
+    "transcription_spans": 26,
+    "cluster_spans": 15,
+    "limits": "Coordinate bounds do not establish full glyph enclosure, exact substring match does not establish descriptive ownership, row-context locators do not delimit clusters. Unknown physical lengths remain unresolved; frozen inputs unchanged."
+  },
+  "next_source_pipeline": {
+    "priority": [
+      287,
+      288,
+      289,
+      290
+    ],
+    "in_progress": [
+      287,
+      288
+    ],
+    "state": "Parent attests original faces and first source-only raw reads 287/288 frozen privately. Pending target-unexposed second readers have not been given first transcripts. No own literal decode claimed for parent first reads; subsequent replay will state actual decoder provenance. 289/290 not started.",
+    "hash_scope": "Parent reported original saved FILE SHA256; canonical raw-object digest is a separate scope, deliberately not inspected yet."
+  }
+}
