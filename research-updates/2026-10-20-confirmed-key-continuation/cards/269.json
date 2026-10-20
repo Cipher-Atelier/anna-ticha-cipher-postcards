@@ -1992,64 +1992,66 @@
     "all_picture_and_margins_inspected": true
   },
   "editorial_proposals": {
-    "policy": "Limited readable excerpts only. Ordinary case, Czech diacritics and English translation are normalized; ellipses mark omitted text and do not restore it. No completion is proposed for the stamp-obscured phrases or malformed literal endings. No substantive letter/word repair is used in these excerpts.",
-    "czech_excerpts": [
+    "policy": "All nine selected rows addressed; stamp-obscured clauses remain literal fragments. Bracketed repairs affect only editorial language. Former excerpt payload retained in post_initial_editorial_updates.",
+    "czech": "Vřelý dík, zlato moje, za drahý lístek! Je mi líto, že ti působí … [?AM K.; neobnovený fragment] – nepříjemnosti.\n\n[ZA?O VE?; neobnovená slova] mi, drahoušku, srdéčko celé! Stýská se mi po tobě [nesmírně?; NESMIRNA]. Kdy jedeš na výstavu?\n\n– Vzpomeň na mne opět brzo [LIS?KEM; neobnovené slovo]. Tisíc pus posílá ti tvůj stále [vzpomínající?; VZPOMAJICI] a [věčně?; VECNA] tvůj, Pepouš.",
+    "english": "Warm thanks, my treasure, for the dear note! I am sorry that … cause(s) you … [?AM K.; unrestored fragment] — trouble.\n\n[ZA?O VE?; unrestored words] me, my darling, the whole little heart! I miss you [immensely?; NESMIRNA]. When are you going to the exhibition?\n\n— Remember me again soon [LIS?KEM; unrestored word]. A thousand kisses are sent to you by yours, always [remembering?; VZPOMAJICI] and [forever?; VECNA] yours, Pepouš.",
+    "substantive_restoration_ledger": [
       {
-        "line_ids": [
-          "269-L01",
-          "269-L02"
-        ],
-        "proposal": "Vřelý dík, zlato moje, za drahý lístek! …",
-        "basis": "VRELY DIK, ZLATO MOJE, ZA DRAHY / LISTEK!",
-        "restoration_ids": []
+        "line_id": "269-L06",
+        "literal_offset_start": 0,
+        "literal_offset_end": 8,
+        "literal": "NESMIRNA",
+        "proposed_czech": "[nesmírně?; NESMIRNA]",
+        "proposed_english": "[immensely?; NESMIRNA]",
+        "reason": "Final A→E lexical/grammatical repair, beyond diacritics.",
+        "kind": "lexical_or_semantic_repair",
+        "basis": "Editorial conjecture from saved strict literal only; no source reread or selected glyph change."
       },
       {
-        "line_ids": [
-          "269-L05",
-          "269-L06",
-          "269-L07"
-        ],
-        "proposal": "Stýská se mi po tobě … Kdy jedeš na výstavu?",
-        "basis": "STYSKA SE MI PO TOBE / KDY JEDES NA / VYSTAVU?",
-        "restoration_ids": []
+        "line_id": "269-L09",
+        "literal_offset_start": 6,
+        "literal_offset_end": 16,
+        "literal": "VZPOMAJICI",
+        "proposed_czech": "[vzpomínající?; VZPOMAJICI]",
+        "proposed_english": "[remembering?; VZPOMAJICI]",
+        "reason": "Conjectural insertion IN; strict selected joined area is not expanded from language.",
+        "kind": "lexical_or_semantic_repair",
+        "basis": "Editorial conjecture from saved strict literal only; no source reread or selected glyph change."
       },
       {
-        "line_ids": [
-          "269-L08"
-        ],
-        "proposal": "Tisíc pus posílá ti tvůj …",
-        "basis": "TISIC PUS POSILA TI TVUJ",
-        "restoration_ids": []
+        "line_id": "269-L09",
+        "literal_offset_start": 19,
+        "literal_offset_end": 24,
+        "literal": "VECNA",
+        "proposed_czech": "[věčně?; VECNA]",
+        "proposed_english": "[forever?; VECNA]",
+        "reason": "Final A→E lexical/grammatical repair, beyond diacritics.",
+        "kind": "lexical_or_semantic_repair",
+        "basis": "Editorial conjecture from saved strict literal only; no source reread or selected glyph change."
       }
     ],
-    "english_excerpts": [
-      {
-        "line_ids": [
-          "269-L01",
-          "269-L02"
-        ],
-        "proposal": "Warm thanks, my darling, for the dear card! …",
-        "restoration_ids": []
-      },
-      {
-        "line_ids": [
-          "269-L05",
-          "269-L06",
-          "269-L07"
-        ],
-        "proposal": "I miss you … When are you going to the exhibition?",
-        "restoration_ids": []
-      },
-      {
-        "line_ids": [
-          "269-L08"
-        ],
-        "proposal": "A thousand kisses are sent to you by yours …",
-        "restoration_ids": []
-      }
+    "czech_line_ids": [
+      "269-L01",
+      "269-L02",
+      "269-L03",
+      "269-L04",
+      "269-L05",
+      "269-L06",
+      "269-L07",
+      "269-L08",
+      "269-L09"
     ],
-    "substantive_restoration_ledger": [],
-    "omission_note": "The covered clauses, NESMIRNA, VZPOMAJICI and VECNA remain as strict readings only; no fluent narrative is reconstructed."
+    "english_line_ids": [
+      "269-L01",
+      "269-L02",
+      "269-L03",
+      "269-L04",
+      "269-L05",
+      "269-L06",
+      "269-L07",
+      "269-L08",
+      "269-L09"
+    ]
   },
   "candidate_themes": [
     {
@@ -2115,6 +2117,322 @@
     {
       "date_utc": "2026-10-20T14:39:52.239032+00:00",
       "change": "Current status label clarified as research candidate for review; initial snapshot retains private-preparation label. No source, raw, selected ciphertext/literal, count or editorial change."
+    }
+  ],
+  "editorial_restoration_ledger": [
+    {
+      "line_id": "269-L06",
+      "literal_offset_start": 0,
+      "literal_offset_end": 8,
+      "literal": "NESMIRNA",
+      "proposed_czech": "[nesmírně?; NESMIRNA]",
+      "proposed_english": "[immensely?; NESMIRNA]",
+      "reason": "Final A→E lexical/grammatical repair, beyond diacritics.",
+      "kind": "lexical_or_semantic_repair",
+      "basis": "Editorial conjecture from saved strict literal only; no source reread or selected glyph change."
+    },
+    {
+      "line_id": "269-L09",
+      "literal_offset_start": 6,
+      "literal_offset_end": 16,
+      "literal": "VZPOMAJICI",
+      "proposed_czech": "[vzpomínající?; VZPOMAJICI]",
+      "proposed_english": "[remembering?; VZPOMAJICI]",
+      "reason": "Conjectural insertion IN; strict selected joined area is not expanded from language.",
+      "kind": "lexical_or_semantic_repair",
+      "basis": "Editorial conjecture from saved strict literal only; no source reread or selected glyph change."
+    },
+    {
+      "line_id": "269-L09",
+      "literal_offset_start": 19,
+      "literal_offset_end": 24,
+      "literal": "VECNA",
+      "proposed_czech": "[věčně?; VECNA]",
+      "proposed_english": "[forever?; VECNA]",
+      "reason": "Final A→E lexical/grammatical repair, beyond diacritics.",
+      "kind": "lexical_or_semantic_repair",
+      "basis": "Editorial conjecture from saved strict literal only; no source reread or selected glyph change."
+    }
+  ],
+  "editorial_literal_fragment_ledger": [
+    {
+      "line_id": "269-L03",
+      "literal_offset_start": 4,
+      "literal_offset_end": 10,
+      "literal": "?AM K.",
+      "proposed_czech": "[?AM K.; neobnovený fragment]",
+      "proposed_english": "[?AM K.; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal retained; no missing letter, name identity or key value supplied."
+    },
+    {
+      "line_id": "269-L04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 8,
+      "literal": "ZA?O VE?",
+      "proposed_czech": "[ZA?O VE?; neobnovená slova]",
+      "proposed_english": "[ZA?O VE?; unrestored words]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal retained; no missing letter, name identity or key value supplied."
+    },
+    {
+      "line_id": "269-L08",
+      "literal_offset_start": 10,
+      "literal_offset_end": 17,
+      "literal": "LIS?KEM",
+      "proposed_czech": "[LIS?KEM; neobnovené slovo]",
+      "proposed_english": "[LIS?KEM; unrestored word]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal retained; no missing letter, name identity or key value supplied."
+    }
+  ],
+  "editorial_layout_normalizations": [
+    {
+      "kind": "written_line_end_hyphen_join",
+      "literal_spans": [
+        {
+          "line_id": "269-L02",
+          "literal_offset_start": 26,
+          "literal_offset_end": 31,
+          "literal": "PUSO-"
+        },
+        {
+          "line_id": "269-L03",
+          "literal_offset_start": 0,
+          "literal_offset_end": 3,
+          "literal": "BI."
+        }
+      ],
+      "normalized": "PUSOBI.",
+      "scope": "Editorial layout normalization only; selected ciphertext, literals and row boundaries unchanged."
+    },
+    {
+      "kind": "cross_row_phrase_presentation",
+      "literal_spans": [
+        {
+          "line_id": "269-L04",
+          "literal_offset_start": 24,
+          "literal_offset_end": 31,
+          "literal": "SRDECKO"
+        },
+        {
+          "line_id": "269-L05",
+          "literal_offset_start": 0,
+          "literal_offset_end": 5,
+          "literal": "CELE!"
+        }
+      ],
+      "normalized": "SRDECKO CELE!",
+      "scope": "Editorial layout normalization only; selected ciphertext, literals and row boundaries unchanged."
+    }
+  ],
+  "editorial_policy": "All substantive lexical/semantic repairs bracketed in both languages and tied to exact current literal codepoint spans. Unknowns remain exact literal-labeled fragments; no new cipher values or source judgments. Ordinary case/diacritics and English grammar normalized; explicit written hyphen joins separately recorded. Name-like strings, dates, itinerary and signature are not authenticated.",
+  "editorial_scope": {
+    "coverage": "All 9 selected visual rows represented; no selected row omitted.",
+    "regions": [
+      {
+        "region": "lower-right rows and bottom rows in saved order",
+        "included_line_ids": [
+          "269-L01",
+          "269-L02",
+          "269-L03",
+          "269-L04",
+          "269-L05",
+          "269-L06",
+          "269-L07",
+          "269-L08",
+          "269-L09"
+        ]
+      }
+    ],
+    "omitted_line_ids": [],
+    "order_policy": "Saved row order is presentation only. Separate regions remain separate; narrative/chronological order is not established.",
+    "semantic_limits": "Stamp-covered clauses remain fragments; repair proposals do not establish their subjects, causal relationships or a complete fluent narrative."
+  },
+  "editorial_coverage": [
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 31,
+      "literal": "VRELY DIK, ZLATO MOJE, ZA DRAHY",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 31,
+      "literal": "LISTEK! JE MI LITO, ZE TI PUSO-",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L03",
+      "literal_offset_start": 0,
+      "literal_offset_end": 27,
+      "literal": "BI. ?AM K. - NEPRIJEMNOSTI.",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 31,
+      "literal": "ZA?O VE? MI, DRAHOUSKU, SRDECKO",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L05",
+      "literal_offset_start": 0,
+      "literal_offset_end": 26,
+      "literal": "CELE! STYSKA SE MI PO TOBE",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L06",
+      "literal_offset_start": 0,
+      "literal_offset_end": 22,
+      "literal": "NESMIRNA. KDY JEDES NA",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L07",
+      "literal_offset_start": 0,
+      "literal_offset_end": 25,
+      "literal": "VYSTAVU? - VZPOMEN NA MNE",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L08",
+      "literal_offset_start": 0,
+      "literal_offset_end": 43,
+      "literal": "OPET BRZO LIS?KEM. TISIC PUS POSILA TI TVUJ",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    },
+    {
+      "region_id": "lower-right rows and bottom rows in saved order",
+      "line_id": "269-L09",
+      "literal_offset_start": 0,
+      "literal_offset_end": 38,
+      "literal": "STALE VZPOMAJICI A VECNA TVUJ, PEPOUS.",
+      "czech_status": "covered, including explicitly bracketed repair/fragment scope",
+      "english_status": "covered with identical repair/fragment scope",
+      "omission": false
+    }
+  ],
+  "editorial_coverage_notice": "All 9 selected visual rows addressed in paired Czech/English; masked or defective phrases remain visible, not a complete verified reading.",
+  "post_initial_editorial_updates": [
+    {
+      "at_utc": "2026-10-20T16:16:45.900959+00:00",
+      "date": "2026-10-20",
+      "type": "Post-initial editorial expansion from existing strict literals only",
+      "scope": "Current editorial Czech/English and coverage metadata only; source/raw/selected rows, counts, uncertainty ledgers, initial snapshots and history unchanged. No source reread.",
+      "previous_editorial_payload": {
+        "editorial_proposals": {
+          "policy": "Limited readable excerpts only. Ordinary case, Czech diacritics and English translation are normalized; ellipses mark omitted text and do not restore it. No completion is proposed for the stamp-obscured phrases or malformed literal endings. No substantive letter/word repair is used in these excerpts.",
+          "czech_excerpts": [
+            {
+              "line_ids": [
+                "269-L01",
+                "269-L02"
+              ],
+              "proposal": "Vřelý dík, zlato moje, za drahý lístek! …",
+              "basis": "VRELY DIK, ZLATO MOJE, ZA DRAHY / LISTEK!",
+              "restoration_ids": []
+            },
+            {
+              "line_ids": [
+                "269-L05",
+                "269-L06",
+                "269-L07"
+              ],
+              "proposal": "Stýská se mi po tobě … Kdy jedeš na výstavu?",
+              "basis": "STYSKA SE MI PO TOBE / KDY JEDES NA / VYSTAVU?",
+              "restoration_ids": []
+            },
+            {
+              "line_ids": [
+                "269-L08"
+              ],
+              "proposal": "Tisíc pus posílá ti tvůj …",
+              "basis": "TISIC PUS POSILA TI TVUJ",
+              "restoration_ids": []
+            }
+          ],
+          "english_excerpts": [
+            {
+              "line_ids": [
+                "269-L01",
+                "269-L02"
+              ],
+              "proposal": "Warm thanks, my darling, for the dear card! …",
+              "restoration_ids": []
+            },
+            {
+              "line_ids": [
+                "269-L05",
+                "269-L06",
+                "269-L07"
+              ],
+              "proposal": "I miss you … When are you going to the exhibition?",
+              "restoration_ids": []
+            },
+            {
+              "line_ids": [
+                "269-L08"
+              ],
+              "proposal": "A thousand kisses are sent to you by yours …",
+              "restoration_ids": []
+            }
+          ],
+          "substantive_restoration_ledger": [],
+          "omission_note": "The covered clauses, NESMIRNA, VZPOMAJICI and VECNA remain as strict readings only; no fluent narrative is reconstructed."
+        }
+      },
+      "current_coverage_notice": "All 9 selected visual rows addressed in paired Czech/English; masked or defective phrases remain visible, not a complete verified reading.",
+      "lexical_semantic_repair_count": 3,
+      "unrestored_literal_fragments": 3
+    }
+  ],
+  "editorial_syntax_qualifications": [
+    {
+      "line_id": "269-L02",
+      "literal_offset_start": 26,
+      "literal_offset_end": 31,
+      "literal": "PUSO-",
+      "additional_literal_spans": [
+        {
+          "line_id": "269-L03",
+          "literal_offset_start": 0,
+          "literal_offset_end": 3,
+          "literal": "BI."
+        }
+      ],
+      "kind": "unresolved_clause_syntax",
+      "czech_note": "Podmět a jeho číslo u PUSO-/BI. ani vazba k ?AM K. nejsou obnoveny; výpustky označují nezjištěnou větnou vazbu, ne vypuštěný čitelný text.",
+      "english_note": "The subject and its number in PUSO-/BI., and the relation to ?AM K., remain unresolved; cause(s) explicitly leaves singular/plural open. Ellipses mark unresolved syntax, not omitted readable text. No it, person, or name is supplied.",
+      "scope": "Source punctuation remains in strict rows; reader punctuation is editorial."
     }
   ]
 }
