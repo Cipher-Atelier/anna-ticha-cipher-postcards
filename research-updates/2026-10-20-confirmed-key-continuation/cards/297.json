@@ -1,0 +1,1291 @@
+{
+  "card_id": "297",
+  "notation": "pdf204-canonical",
+  "status": "Prepared private candidate; nonblind related-AI reconciliation; investigation continues",
+  "source": {
+    "url": "https://api.hcportal.eu/media/4908/pc_hcp_297_pic.JPG",
+    "sha256": "a6c444204e29bbbbea4bf9bf2ee5008b4be5871d2c96bccc04aecf4213fca123",
+    "bytes": 1324060,
+    "native_dimensions": [
+      1785,
+      1175
+    ]
+  },
+  "catalogue_id": 1616,
+  "catalogue_record_pointer": "/data/data/1609",
+  "catalogue_binding": {
+    "card_id": 297,
+    "catalogue_id": 1616,
+    "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1616",
+    "response_json_pointer": "/data/data/1609",
+    "picture_side_record": {
+      "title": "Picture side",
+      "original_url": "https://api.hcportal.eu/media/4908/pc_hcp_297_pic.JPG",
+      "data_item_id": 4039,
+      "response_json_pointer": "/data/data/1609/datagroups/0/data/0/image/original",
+      "access_status": "official recorded URL; original GET not implied"
+    }
+  },
+  "orientation": {
+    "native_dimensions": [
+      1785,
+      1175
+    ],
+    "regions": [
+      {
+        "region": "caption-adjacent fragment",
+        "reading_rotation_clockwise_degrees": 270,
+        "reading_dimensions": [
+          1175,
+          1785
+        ]
+      },
+      {
+        "region": "lower handwriting",
+        "reading_rotation_clockwise_degrees": 270,
+        "reading_dimensions": [
+          1175,
+          1785
+        ]
+      }
+    ],
+    "reading_to_native_bbox": "CCW90 / CW270: [1785 - reading_y1, reading_x0, 1785 - reading_y0, reading_x1]. Half-open whole-source pixel coordinates.",
+    "locator_limit": "Current contextual row boxes derived from assigned-FIRST locators and inspected original. Rectangles do not prove exact ink ownership, complete glyph enclosure or physical totals."
+  },
+  "reader": {
+    "model": "gpt-6.1-sol",
+    "role": "Assigned FIRST source reader, now NONBLIND curator",
+    "exact_deployment": null,
+    "temperature": null,
+    "seed": null
+  },
+  "raw_frozen_before_decoding": true,
+  "independent_readings": [
+    {
+      "reader": "first297",
+      "assigned_slot": "FIRST",
+      "related_ai": true,
+      "key_visible": true,
+      "own_replay": true
+    },
+    {
+      "reader": "blind297",
+      "assigned_slot": "SECOND",
+      "related_ai": true,
+      "key_visible": true,
+      "own_replay": true
+    }
+  ],
+  "raw_preservation": {
+    "first_raw": {
+      "rows": [
+        {
+          "line_id": "297-P01",
+          "ciphertext": "c",
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 0,
+              "selected": "c",
+              "alternatives": [
+                "c",
+                "[possibly caption-associated noncipher curl]"
+              ],
+              "note": "Small c-shaped ink after the printed caption differs from the printed type. Provisionally selected as a separate handwritten cipher fragment; printed versus handwritten ownership and possible punctuation role remain uncertain."
+            }
+          ],
+          "reading_bbox_xyxy": [
+            980,
+            1595,
+            1050,
+            1655
+          ],
+          "native_bbox_xyxy": [
+            130,
+            980,
+            190,
+            1050
+          ],
+          "reading_rotation_clockwise_degrees": 270,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "region": "caption-adjacent handwritten fragment",
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "297-L01",
+          "ciphertext": "m5cs4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 0,
+              "selected": "m5cs4c8m1n1",
+              "alternatives": [
+                "n5cs4c8m1n1",
+                "m5cs4c8m1m1"
+              ],
+              "note": "Initial low joined shoulders selected m, possible n. The final low shoulders alternate m/n provisionally. Low angular s versus open c remains qualified under print interference."
+            },
+            {
+              "offset": 12,
+              "selected": "b3gth6f1",
+              "alternatives": [
+                "b3gdh6f1",
+                "b3gth6f4"
+              ],
+              "note": "Tall crossed t between the open descending g and high-loop h; rounded d alternative. Final simple stroke selected 1, forked 4 alternative."
+            },
+            {
+              "offset": 23,
+              "selected": "b2c6n4",
+              "alternatives": [
+                "b2c6m4"
+              ],
+              "note": "Low single arch before final 4 selected n; joined m shoulders remain possible."
+            },
+            {
+              "offset": 33,
+              "selected": "g6c486",
+              "alternatives": [
+                "q6c486"
+              ],
+              "note": "Initial descending hook is broad and selected g; a narrower closed q return remains an alternative. No word-based replacement."
+            }
+          ],
+          "reading_bbox_xyxy": [
+            85,
+            1640,
+            1015,
+            1700
+          ],
+          "native_bbox_xyxy": [
+            85,
+            85,
+            145,
+            1015
+          ],
+          "reading_rotation_clockwise_degrees": 270,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "region": "lower handwriting",
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "297-L02",
+          "ciphertext": "df27 b5b32c.",
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 5,
+              "selected": "b5b32c",
+              "alternatives": [
+                "b5b32c",
+                "b5p32c"
+              ],
+              "note": "Second looped stem selected ascending b rather than descending p; final open curve and separate dot retained without signature identification."
+            }
+          ],
+          "reading_bbox_xyxy": [
+            580,
+            1680,
+            930,
+            1740
+          ],
+          "native_bbox_xyxy": [
+            45,
+            580,
+            105,
+            930
+          ],
+          "reading_rotation_clockwise_degrees": 270,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "region": "lower handwriting",
+          "physical_encoded_body_count": null
+        }
+      ],
+      "marks": [
+        {
+          "line_id": "297-P01",
+          "offset": 0,
+          "selected": "c",
+          "kind": "ambiguous caption-adjacent fragment",
+          "reading_rotation_clockwise_degrees": 270,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            980,
+            1595,
+            1050,
+            1655
+          ],
+          "native_bbox_xyxy": [
+            130,
+            980,
+            190,
+            1050
+          ],
+          "note": "Ambiguous source ownership retained, not silently discarded as printing or assigned a new value."
+        },
+        {
+          "region": "printed caption",
+          "kind": "printed matter excluded",
+          "note": "Large printed greeting, picture and printed decorations were inspected but are not cipher rows. The separate small c-shaped suffix is inventoried provisionally."
+        }
+      ],
+      "unresolved_clusters": [],
+      "ordinary_numerals": [],
+      "actual_question_punctuation": [],
+      "notes": [
+        "The complete original face and every margin were inspected, followed by a CCW90 whole-source view and enlarged lower context. Two handwritten rows below the large printed caption and one small c-shaped caption-adjacent fragment are selected.",
+        "All selected handwritten regions use a CCW90 / CW270 frame. Printed matter remains excluded except the explicitly ambiguous small fragment. No separate handwritten date inscription was observed; no chronology is inferred from printed wording.",
+        "No question punctuation, unknown cluster mask or in-cipher ordinary numeral span is selected. Zero masks does not certify source accuracy or completeness. Fragment ownership, low shoulders, loop returns and stem segmentation remain uncertain.",
+        "No fluent repair, plaintext interpretation, new key value or blanket mark normalization was applied. Unassigned shapes remain permissible unknowns rather than receiving legacy mappings. Physical body totals are unknown."
+      ],
+      "physical_encoded_body_count": null
+    },
+    "first_raw_sha256": "286b0a71035e3a2575386a90b9156dc1861477aeb73a15b9ca5efb8cb660809d",
+    "first_raw_file_sha256": "67749ba3af191f75f9b85cf0c0180e3a6a28990ea721990c7c941af37fb86cd6",
+    "first_raw_hash_scope": "Canonical compact sorted UTF-8 JSON of the raw object: ensure_ascii=False, sort_keys=True, separators comma/colon. Wrapper and original file bytes have separate scopes.",
+    "first_frozen_at_utc": "2026-10-20T18:20:15.702477+00:00",
+    "first_source_sha256": "a6c444204e29bbbbea4bf9bf2ee5008b4be5871d2c96bccc04aecf4213fca123",
+    "first_context": {
+      "programmatic_decode_before_freeze": false,
+      "current_target_exchange_before_freeze": false,
+      "both_own_raw_inputs_required_before_either_own_decode": true,
+      "no_plaintext_or_editorial_rendering_before_freeze": true
+    },
+    "first_wrapper_metadata": {
+      "card_id": "297",
+      "reader": "first297",
+      "assigned_source_slot": "FIRST, not a claim of chronological priority",
+      "model": "gpt-6.1-sol assigned; exact deployment unavailable",
+      "temperature": null,
+      "seed": null,
+      "phase": "Immutable source-only visual raw freeze",
+      "source": {
+        "card_id": 297,
+        "face": "Picture side",
+        "url": "https://api.hcportal.eu/media/4908/pc_hcp_297_pic.JPG",
+        "sha256": "a6c444204e29bbbbea4bf9bf2ee5008b4be5871d2c96bccc04aecf4213fca123",
+        "bytes": 1324060,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1616,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1616",
+        "record_json_pointer": "/data/data/1609",
+        "image_json_pointer": "/data/data/1609/datagroups/0/data/0/image/original",
+        "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; retain saved source bytes privately",
+        "http_status": 200,
+        "acquired_utc": "2026-10-20T18:14:08.948739+00:00"
+      },
+      "orientation": {
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "regions": [
+          {
+            "region": "caption-adjacent handwritten fragment",
+            "reading_rotation_clockwise_degrees": 270,
+            "reading_dimensions": [
+              1175,
+              1785
+            ]
+          },
+          {
+            "region": "lower handwriting",
+            "reading_rotation_clockwise_degrees": 270,
+            "reading_dimensions": [
+              1175,
+              1785
+            ]
+          }
+        ],
+        "reading_to_native_bbox": "CCW90 / CW270: [1785 - reading_y1, reading_x0, 1785 - reading_y0, reading_x1]. Half-open coordinates in the whole-source frame.",
+        "locator_precision": "Coarse contextual row rectangles, not exact ink boundaries or proof of body ownership."
+      },
+      "exposure": {
+        "canonical_key_visible": true,
+        "assigned_model": "gpt-6.1-sol",
+        "prior_other_card_context": "Prior source readings and nonblind curation of other cards, including 293/294, are visible in this related AI session.",
+        "target_unexposed": true,
+        "competing_current_target_outputs_opened": false,
+        "limits": "Related AI with shared prior influence and a visible key. No human, external, third-blind or cognitive-independence claim."
+      },
+      "raw_frozen_at_utc": "2026-10-20T18:20:15.702477+00:00",
+      "raw_sha256": "286b0a71035e3a2575386a90b9156dc1861477aeb73a15b9ca5efb8cb660809d",
+      "raw_hash_scope": "Canonical compact sorted UTF-8 JSON of the raw object: ensure_ascii=False, sort_keys=True, separators comma/colon. Wrapper and original file bytes have separate scopes.",
+      "physical_encoded_body_count": null,
+      "attestation": {
+        "programmatic_decode_before_freeze": false,
+        "current_target_exchange_before_freeze": false,
+        "both_own_raw_inputs_required_before_either_own_decode": true,
+        "no_plaintext_or_editorial_rendering_before_freeze": true
+      }
+    },
+    "first_strict_literal_file_sha256": "c7e3705d25727b11bc4ebdbd938a1d4c5ec4020e5bb97726a0978d15846c1f6a",
+    "blind_raw": {
+      "rows": [
+        {
+          "line_id": "297-P01",
+          "ciphertext": "c",
+          "reading_rotation_degrees_clockwise": 270,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            975,
+            1580,
+            1030,
+            1630
+          ],
+          "native_bbox_xyxy": [
+            155,
+            975,
+            205,
+            1030
+          ],
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 0,
+              "selected": "c",
+              "alternatives": [
+                ""
+              ],
+              "visual_basis": "Lone c-shaped sign beside printed caption. Handwritten/cipher versus printed ownership unresolved; separate slot not certified physical cipher body."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "297-R01",
+          "ciphertext": "m5c4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+          "reading_rotation_degrees_clockwise": 270,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            85,
+            1620,
+            1045,
+            1700
+          ],
+          "native_bbox_xyxy": [
+            85,
+            85,
+            165,
+            1045
+          ],
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 0,
+              "selected": "m5c4c8m1n1",
+              "alternatives": [
+                "m5c4c8m1m1",
+                "n5c4c8m1n1"
+              ],
+              "visual_basis": "Connected low arches/narrow final bodies provisional."
+            },
+            {
+              "offset": 11,
+              "selected": "b3gth6f1",
+              "alternatives": [
+                "b3qth6f1"
+              ],
+              "visual_basis": "Broad hooked descender g; q alternative."
+            },
+            {
+              "offset": 22,
+              "selected": "b2c6n4",
+              "alternatives": [
+                "b2c6m4"
+              ],
+              "visual_basis": "Low penultimate arches selected n; m alternative."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "297-R02",
+          "ciphertext": "df27 b5b32c.",
+          "reading_rotation_degrees_clockwise": 270,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            570,
+            1680,
+            890,
+            1740
+          ],
+          "native_bbox_xyxy": [
+            45,
+            570,
+            105,
+            890
+          ],
+          "transcription": [],
+          "uncertainties": [],
+          "physical_encoded_body_count": null
+        }
+      ],
+      "marks": [],
+      "unresolved_clusters": [],
+      "ordinary_numerals": [],
+      "actual_question_punctuation": [],
+      "segmentation_observations": [
+        {
+          "line_id": "297-P01",
+          "offset": 0,
+          "selected": "c",
+          "physical_encoded_body_count": null,
+          "observation": "Spaces and joined low-arch divisions are selected transcription, not independent physical-body tally."
+        },
+        {
+          "line_id": "297-R01",
+          "offset": 0,
+          "selected": "m5c4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+          "physical_encoded_body_count": null,
+          "observation": "Spaces and joined low-arch divisions are selected transcription, not independent physical-body tally."
+        },
+        {
+          "line_id": "297-R02",
+          "offset": 0,
+          "selected": "df27 b5b32c.",
+          "physical_encoded_body_count": null,
+          "observation": "Spaces and joined low-arch divisions are selected transcription, not independent physical-body tally."
+        }
+      ],
+      "physical_encoded_body_count": null,
+      "notes": [
+        "Complete source face and margins inspected; original printed matter and watermark unchanged. No competing target reading opened.",
+        "Half-open contextual whole-source coordinates; neighboring strokes may overlap. Geometry does not certify cluster enclosure, mark ownership or physical segmentation.",
+        "Source-only selected glyphs and alternatives; no lexical backfill, key change or legacy9 normalization. Unassigned families remain unassigned.",
+        "Unknown masks have null physical length. Actual written question explicitly punctuation. No numeral spans identified within cipher rows; dates separate/unverified.",
+        "All four own raw records must freeze before any own programmatic substitution.",
+        "Two lower rows plus lone c-shaped sign beside printed caption; ink ownership of lone sign unresolved."
+      ],
+      "separate_date_inscription": {
+        "visual_candidate": null,
+        "qualification": "No separate handwritten date identified on inspected face; no chronology inference."
+      }
+    },
+    "blind_raw_sha256": "dc11563f7a0d840298b6fcba142341c4a360e28e3789d11c3caba570133bb5c4",
+    "blind_raw_file_sha256": "fbec82a61ca171c766759219a14a66032fda8ce038b78335a1d394a42063b8dc",
+    "blind_raw_hash_scope": "Canonical raw-object UTF-8 JSON: ensure_ascii=False, sorted keys, compact separators; wrapper excluded. Original FILE hash recorded separately in strict output.",
+    "blind_frozen_at_utc": "2026-10-20T18:18:27.115539+00:00",
+    "blind_source_sha256": "a6c444204e29bbbbea4bf9bf2ee5008b4be5871d2c96bccc04aecf4213fca123",
+    "blind_context": {
+      "canonical_key_visible": true,
+      "prior_other_card_source_and_implementation_context": true,
+      "own_same_batch_source_context": "Own295/296 and297/298 sources inspected in this assignment; competing target reading never accessed.",
+      "related_AI": true,
+      "human_or_external_independence": false,
+      "third_blind_reading": false
+    },
+    "blind_wrapper_metadata": {
+      "card_id": 297,
+      "reading_role": "Target-unexposed SECOND assigned source-only slot",
+      "model": "gpt-6.1-sol",
+      "exact_deployment": null,
+      "temperature": null,
+      "seed": null,
+      "source": {
+        "card_id": 297,
+        "face": "Picture side",
+        "url": "https://api.hcportal.eu/media/4908/pc_hcp_297_pic.JPG",
+        "sha256": "a6c444204e29bbbbea4bf9bf2ee5008b4be5871d2c96bccc04aecf4213fca123",
+        "bytes": 1324060,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1616,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1616",
+        "record_json_pointer": "/data/data/1609",
+        "image_json_pointer": "/data/data/1609/datagroups/0/data/0/image/original",
+        "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; retain saved source bytes privately",
+        "http_status": 200,
+        "acquired_utc": "2026-10-20T18:14:08.948739+00:00"
+      },
+      "orientation": {
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_rotation_degrees_clockwise": 270,
+        "reading_to_native_bbox": "[1785-y1,x0,1785-y0,x1]"
+      },
+      "context": {
+        "canonical_key_visible": true,
+        "prior_other_card_source_and_implementation_context": true,
+        "own_same_batch_source_context": "Own295/296 and297/298 sources inspected in this assignment; competing target reading never accessed.",
+        "related_AI": true,
+        "human_or_external_independence": false,
+        "third_blind_reading": false
+      },
+      "raw_frozen_at_utc": "2026-10-20T18:18:27.115539+00:00",
+      "raw_sha256": "dc11563f7a0d840298b6fcba142341c4a360e28e3789d11c3caba570133bb5c4",
+      "raw_hash_scope": "Canonical raw-object UTF-8 JSON: ensure_ascii=False, sorted keys, compact separators; wrapper excluded. Original FILE hash recorded separately in strict output.",
+      "attestation": {
+        "competing_target_transcript_opened": false,
+        "programmatic_decode_before_freeze": false,
+        "all_four_own_freezes_required_before_any_own_decode": true,
+        "reader_slots_are_not_chronological_order": true
+      }
+    },
+    "blind_strict_literal_file_sha256": "8e933697def0e1fd9a9eb220080222fae875130e3406a75269226a95d644b40e",
+    "first_strict_provenance": {
+      "card_id": "297",
+      "executor": "Same assigned FIRST source actor performing own deterministic strict replay",
+      "notation": "pdf204-canonical",
+      "source_sha256": "a6c444204e29bbbbea4bf9bf2ee5008b4be5871d2c96bccc04aecf4213fca123",
+      "raw_sha256": "286b0a71035e3a2575386a90b9156dc1861477aeb73a15b9ca5efb8cb660809d",
+      "raw_file_sha256": "67749ba3af191f75f9b85cf0c0180e3a6a28990ea721990c7c941af37fb86cd6",
+      "raw_frozen_at_utc": "2026-10-20T18:20:15.702477+00:00",
+      "decoded_at_utc": "2026-10-20T18:20:15.721968+00:00",
+      "after_both_own_raw_freezes": true,
+      "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+      "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
+      "scope": "Unchanged fixed-key mechanical replay, with all raw supported transcription tags passed unchanged. Selected slots are not physical-body certification. Ambiguous source ownership and shape alternatives remain in raw; no editorial or semantic repair."
+    },
+    "first_executor_scope": "Same assigned source actor performed own strict replay after that actor’s entire required source group froze.",
+    "blind_strict_provenance": {
+      "card_id": 297,
+      "notation": "pdf204-canonical",
+      "executor": "Own deterministic strict replay after all four assigned source-only raw freezes.",
+      "decoded_at_utc": "2026-10-20T18:19:09.379751+00:00",
+      "after_all_four_own_raw_freezes": true,
+      "raw_frozen_at_utc": "2026-10-20T18:18:27.115539+00:00",
+      "raw_sha256": "dc11563f7a0d840298b6fcba142341c4a360e28e3789d11c3caba570133bb5c4",
+      "raw_file_sha256": "fbec82a61ca171c766759219a14a66032fda8ce038b78335a1d394a42063b8dc",
+      "source_sha256": "a6c444204e29bbbbea4bf9bf2ee5008b4be5871d2c96bccc04aecf4213fca123",
+      "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+      "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
+      "counts_policy": "Selected replay slots only, not independently counted physical bodies. Zero masks does not prove source accuracy or ownership. Actual punctuation excluded; no inferred numeral or legacy glyph mapping."
+    },
+    "blind_executor_scope": "Same assigned source actor performed own strict replay after that actor’s entire required source group froze.",
+    "chronology_scope": {
+      "assigned_slots_not_chronological": true,
+      "first_slot_froze_later_than_second_slot": true,
+      "checkpoint_checked_at_utc": "2026-10-20T18:21:35.418279+00:00",
+      "all_eight_raw_and_strict_fingerprints_before_target_exchange": true,
+      "curation_after_explicit_target_exchange_release": true,
+      "both_actors_performed_own_replay": true,
+      "limit": "UTC fields and attestations support the recorded sequence; fingerprints alone do not prove timing or cognitive independence."
+    },
+    "mechanical_qa": {
+      "reviewed_at_utc": "2026-10-20T18:23:44.332385+00:00",
+      "status": "mechanical_checks_passed_with_open_scope_findings",
+      "scope": "Read-only mechanical consistency QA of frozen inputs; no source fix, third blind reading, external/human validation or curator artifact inspection.",
+      "mechanical_errors": 0,
+      "batch_open_source_scope_findings": 2,
+      "target_open_source_scope_findings": [
+        {
+          "reader": "first297 and blind297",
+          "category": "open_source_ownership_scope",
+          "location": "297-P01 offset 0, selected c in both frozen layers",
+          "detail": "Caption-adjacent c-shaped sign provisionally included as a separate selected slot. Printed versus handwritten, punctuation and encoded ownership remain disputed; strict S output does not resolve source role. No language inference or source judgment performed."
+        }
+      ],
+      "third_source_judgment": false
+    }
+  },
+  "lines": [
+    {
+      "line_id": "297-P01",
+      "reading_bbox_xyxy": [
+        980,
+        1595,
+        1050,
+        1655
+      ],
+      "native_bbox_xyxy": [
+        130,
+        980,
+        190,
+        1050
+      ],
+      "ciphertext": "c",
+      "transcription": [],
+      "physical_encoded_body_count": null,
+      "first_frozen_reading_uncertainties": [
+        {
+          "offset": 0,
+          "selected": "c",
+          "alternatives": [
+            "c",
+            "[possibly caption-associated noncipher curl]"
+          ],
+          "note": "Small c-shaped ink after the printed caption differs from the printed type. Provisionally selected as a separate handwritten cipher fragment; printed versus handwritten ownership and possible punctuation role remain uncertain."
+        }
+      ],
+      "blind_frozen_reading_uncertainties": [
+        {
+          "offset": 0,
+          "selected": "c",
+          "alternatives": [
+            ""
+          ],
+          "visual_basis": "Lone c-shaped sign beside printed caption. Handwritten/cipher versus printed ownership unresolved; separate slot not certified physical cipher body."
+        }
+      ],
+      "source_selection_basis": "Both source actors select the same small c-shaped contour beside the printed caption. It is an open low curve separated from the large printed letters, but neither contour nor replay settles whether it is handwritten, printed, punctuation or encoded. Retain one provisional selected c slot for explicit coverage, keeping role and attachment alternatives unresolved. S is only the fixed-key replay, not proof of encoded ownership.",
+      "region": "caption-adjacent fragment",
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "literal": "S",
+      "encoded_bodies": 1,
+      "expanded_letters": 1,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "297-L01",
+      "reading_bbox_xyxy": [
+        85,
+        1640,
+        1015,
+        1700
+      ],
+      "native_bbox_xyxy": [
+        85,
+        85,
+        145,
+        1015
+      ],
+      "ciphertext": "m5cs4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+      "transcription": [],
+      "physical_encoded_body_count": null,
+      "first_frozen_reading_uncertainties": [
+        {
+          "offset": 0,
+          "selected": "m5cs4c8m1n1",
+          "alternatives": [
+            "n5cs4c8m1n1",
+            "m5cs4c8m1m1"
+          ],
+          "note": "Initial low joined shoulders selected m, possible n. The final low shoulders alternate m/n provisionally. Low angular s versus open c remains qualified under print interference."
+        },
+        {
+          "offset": 12,
+          "selected": "b3gth6f1",
+          "alternatives": [
+            "b3gdh6f1",
+            "b3gth6f4"
+          ],
+          "note": "Tall crossed t between the open descending g and high-loop h; rounded d alternative. Final simple stroke selected 1, forked 4 alternative."
+        },
+        {
+          "offset": 23,
+          "selected": "b2c6n4",
+          "alternatives": [
+            "b2c6m4"
+          ],
+          "note": "Low single arch before final 4 selected n; joined m shoulders remain possible."
+        },
+        {
+          "offset": 33,
+          "selected": "g6c486",
+          "alternatives": [
+            "q6c486"
+          ],
+          "note": "Initial descending hook is broad and selected g; a narrower closed q return remains an alternative. No word-based replacement."
+        }
+      ],
+      "blind_frozen_reading_uncertainties": [
+        {
+          "offset": 0,
+          "selected": "m5c4c8m1n1",
+          "alternatives": [
+            "m5c4c8m1m1",
+            "n5c4c8m1n1"
+          ],
+          "visual_basis": "Connected low arches/narrow final bodies provisional."
+        },
+        {
+          "offset": 11,
+          "selected": "b3gth6f1",
+          "alternatives": [
+            "b3qth6f1"
+          ],
+          "visual_basis": "Broad hooked descender g; q alternative."
+        },
+        {
+          "offset": 22,
+          "selected": "b2c6n4",
+          "alternatives": [
+            "b2c6m4"
+          ],
+          "visual_basis": "Low penultimate arches selected n; m alternative."
+        }
+      ],
+      "source_selection_basis": "Between the initial m5c and the following4 the original shows an additional low angular stroke with its own baseline turn: retain FIRST s rather than SECOND omission. The join is faint and extra-body versus connector ownership remains an explicit segmentation alternative. Initial m and terminal n/m humps remain provisional; no insertion is justified by the dictionary or a fluent word. In b3gth6f1 the high crossed t, separate looped h and final simple1 remain selected contours. The broad open initial hook in g6c486 is g, not linguistically replaced with q.",
+      "region": "lower handwriting",
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "literal": "NESCISLNYMY POZDRAVY A PUSAMI TI ZASILA",
+      "encoded_bodies": 34,
+      "expanded_letters": 34,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "297-L02",
+      "reading_bbox_xyxy": [
+        580,
+        1680,
+        930,
+        1740
+      ],
+      "native_bbox_xyxy": [
+        45,
+        580,
+        105,
+        930
+      ],
+      "ciphertext": "df27 b5b32c.",
+      "transcription": [],
+      "physical_encoded_body_count": null,
+      "first_frozen_reading_uncertainties": [
+        {
+          "offset": 5,
+          "selected": "b5b32c",
+          "alternatives": [
+            "b5b32c",
+            "b5p32c"
+          ],
+          "note": "Second looped stem selected ascending b rather than descending p; final open curve and separate dot retained without signature identification."
+        }
+      ],
+      "blind_frozen_reading_uncertainties": [],
+      "source_selection_basis": "Both source actors select the same short row. Ascending looped b bodies and final open c plus a separate dot remain provisional classifications. Signature-shaped text is an unauthenticated textual reading, not a confirmed identity.",
+      "region": "lower handwriting",
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "literal": "TVUJ PEPOUS.",
+      "encoded_bodies": 10,
+      "expanded_letters": 10,
+      "ch_occurrences": 0,
+      "unknowns": []
+    }
+  ],
+  "uncertainty_ledger": [
+    {
+      "line_id": "297-P01",
+      "offset": 0,
+      "selected": "c",
+      "alternatives": [
+        "c"
+      ],
+      "reason": "Both source actors select the same small c-shaped contour beside the printed caption. It is an open low curve separated from the large printed letters, but neither contour nor replay settles whether it is handwritten, printed, punctuation or encoded. Retain one provisional selected c slot for explicit coverage, keeping role and attachment alternatives unresolved. S is only the fixed-key replay, not proof of encoded ownership.",
+      "scope": "Whole-row selected reading; historical local alternatives preserved in raw layers.",
+      "native_bbox_xyxy": [
+        130,
+        980,
+        190,
+        1050
+      ]
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 0,
+      "selected": "m5cs4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+      "alternatives": [
+        "m5cs4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+        "m5c4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486"
+      ],
+      "reason": "Between the initial m5c and the following4 the original shows an additional low angular stroke with its own baseline turn: retain FIRST s rather than SECOND omission. The join is faint and extra-body versus connector ownership remains an explicit segmentation alternative. Initial m and terminal n/m humps remain provisional; no insertion is justified by the dictionary or a fluent word. In b3gth6f1 the high crossed t, separate looped h and final simple1 remain selected contours. The broad open initial hook in g6c486 is g, not linguistically replaced with q.",
+      "scope": "Whole-row selected reading; historical local alternatives preserved in raw layers.",
+      "native_bbox_xyxy": [
+        85,
+        85,
+        145,
+        1015
+      ]
+    },
+    {
+      "line_id": "297-L02",
+      "offset": 0,
+      "selected": "df27 b5b32c.",
+      "alternatives": [
+        "df27 b5b32c."
+      ],
+      "reason": "Both source actors select the same short row. Ascending looped b bodies and final open c plus a separate dot remain provisional classifications. Signature-shaped text is an unauthenticated textual reading, not a confirmed identity.",
+      "scope": "Whole-row selected reading; historical local alternatives preserved in raw layers.",
+      "native_bbox_xyxy": [
+        45,
+        580,
+        105,
+        930
+      ]
+    },
+    {
+      "line_id": "297-P01",
+      "offset": 0,
+      "selected": "c",
+      "alternatives": [
+        "c",
+        "[possibly caption-associated noncipher curl]"
+      ],
+      "comparison_reader": "first",
+      "reason": "Small c-shaped ink after the printed caption differs from the printed type. Provisionally selected as a separate handwritten cipher fragment; printed versus handwritten ownership and possible punctuation role remain uncertain."
+    },
+    {
+      "line_id": "297-P01",
+      "offset": 0,
+      "selected": "c",
+      "alternatives": [
+        ""
+      ],
+      "comparison_reader": "blind",
+      "reason": "Historical visual alternative retained."
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 0,
+      "selected": "m5cs4c8m1n1",
+      "alternatives": [
+        "n5cs4c8m1n1",
+        "m5cs4c8m1m1"
+      ],
+      "comparison_reader": "first",
+      "reason": "Initial low joined shoulders selected m, possible n. The final low shoulders alternate m/n provisionally. Low angular s versus open c remains qualified under print interference."
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 12,
+      "selected": "b3gth6f1",
+      "alternatives": [
+        "b3gdh6f1",
+        "b3gth6f4"
+      ],
+      "comparison_reader": "first",
+      "reason": "Tall crossed t between the open descending g and high-loop h; rounded d alternative. Final simple stroke selected 1, forked 4 alternative."
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 23,
+      "selected": "b2c6n4",
+      "alternatives": [
+        "b2c6m4"
+      ],
+      "comparison_reader": "first",
+      "reason": "Low single arch before final 4 selected n; joined m shoulders remain possible."
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 33,
+      "selected": "g6c486",
+      "alternatives": [
+        "q6c486"
+      ],
+      "comparison_reader": "first",
+      "reason": "Initial descending hook is broad and selected g; a narrower closed q return remains an alternative. No word-based replacement."
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 0,
+      "selected": "m5cs4c8m1n1",
+      "alternatives": [
+        "m5c4c8m1n1"
+      ],
+      "comparison_reader": "blind",
+      "reason": "Between the initial m5c and the following4 the original shows an additional low angular stroke with its own baseline turn: retain FIRST s rather than SECOND omission. The join is faint and extra-body versus connector ownership remains an explicit segmentation alternative. Initial m and terminal n/m humps remain provisional; no insertion is justified by the dictionary or a fluent word. In b3gth6f1 the high crossed t, separate looped h and final simple1 remain selected contours. The broad open initial hook in g6c486 is g, not linguistically replaced with q.",
+      "native_bbox_xyxy": [
+        85,
+        85,
+        145,
+        1015
+      ],
+      "bbox_precision": "Whole-row context only."
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 12,
+      "selected": "b3gth6f1",
+      "alternatives": [
+        "b3qth6f1"
+      ],
+      "comparison_reader": "blind",
+      "reason": "Historical visual alternative retained."
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 23,
+      "selected": "b2c6n4",
+      "alternatives": [
+        "b2c6m4"
+      ],
+      "comparison_reader": "blind",
+      "reason": "Historical visual alternative retained."
+    },
+    {
+      "line_id": "297-L02",
+      "offset": 5,
+      "selected": "b5b32c",
+      "alternatives": [
+        "b5b32c",
+        "b5p32c"
+      ],
+      "comparison_reader": "first",
+      "reason": "Second looped stem selected ascending b rather than descending p; final open curve and separate dot retained without signature identification."
+    }
+  ],
+  "unknown_clusters": [],
+  "physical_encoded_body_count": null,
+  "counts_policy": "Strict selected-symbol replay counts only. One mask counts one decoder slot despite unknown physical cluster length; zero masks never establishes complete/source-accurate reading. Ordinary date outside cipher counts.",
+  "initial_reconciliation": {
+    "utc": "2026-10-20T18:28:55.202804+00:00",
+    "date": "2026-10-20",
+    "model": "gpt-6.1-sol",
+    "temperature": "unavailable",
+    "seed": "unavailable",
+    "method": "Assigned FIRST source reader now NONBLIND curator. Slot labels are not chronology; both frozen layers and originals re-examined with prior other-card context. No human/external independence.",
+    "changes_from_first": [],
+    "reader_disagreements": [
+      {
+        "line_id": "297-L01",
+        "first_offset_start": 3,
+        "first_offset_end": 4,
+        "first": "s",
+        "blind_offset_start": 3,
+        "blind_offset_end": 3,
+        "blind": "",
+        "selected_line": "m5cs4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+        "source_basis": "Between the initial m5c and the following4 the original shows an additional low angular stroke with its own baseline turn: retain FIRST s rather than SECOND omission. The join is faint and extra-body versus connector ownership remains an explicit segmentation alternative. Initial m and terminal n/m humps remain provisional; no insertion is justified by the dictionary or a fluent word. In b3gth6f1 the high crossed t, separate looped h and final simple1 remain selected contours. The broad open initial hook in g6c486 is g, not linguistically replaced with q.",
+        "native_bbox_xyxy": [
+          85,
+          85,
+          145,
+          1015
+        ]
+      }
+    ],
+    "source_decisions": [
+      {
+        "line_id": "297-P01",
+        "selected": "c",
+        "source_basis": "Both source actors select the same small c-shaped contour beside the printed caption. It is an open low curve separated from the large printed letters, but neither contour nor replay settles whether it is handwritten, printed, punctuation or encoded. Retain one provisional selected c slot for explicit coverage, keeping role and attachment alternatives unresolved. S is only the fixed-key replay, not proof of encoded ownership."
+      },
+      {
+        "line_id": "297-L01",
+        "selected": "m5cs4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+        "source_basis": "Between the initial m5c and the following4 the original shows an additional low angular stroke with its own baseline turn: retain FIRST s rather than SECOND omission. The join is faint and extra-body versus connector ownership remains an explicit segmentation alternative. Initial m and terminal n/m humps remain provisional; no insertion is justified by the dictionary or a fluent word. In b3gth6f1 the high crossed t, separate looped h and final simple1 remain selected contours. The broad open initial hook in g6c486 is g, not linguistically replaced with q."
+      },
+      {
+        "line_id": "297-L02",
+        "selected": "df27 b5b32c.",
+        "source_basis": "Both source actors select the same short row. Ascending looped b bodies and final open c plus a separate dot remain provisional classifications. Signature-shaped text is an unauthenticated textual reading, not a confirmed identity."
+      }
+    ],
+    "snapshot_ref": "../revisions/297-initial-reconciliation.json",
+    "selected_snapshot_sha256": "a7d92148efff70362ad20cc56e37501cd97581b529d76bf00edb0371a4b94513"
+  },
+  "marks_and_segmentation_notes": {
+    "first_frozen_historical": [
+      {
+        "line_id": "297-P01",
+        "offset": 0,
+        "selected": "c",
+        "kind": "ambiguous caption-adjacent fragment",
+        "reading_rotation_clockwise_degrees": 270,
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_bbox_xyxy": [
+          980,
+          1595,
+          1050,
+          1655
+        ],
+        "native_bbox_xyxy": [
+          130,
+          980,
+          190,
+          1050
+        ],
+        "note": "Ambiguous source ownership retained, not silently discarded as printing or assigned a new value."
+      },
+      {
+        "region": "printed caption",
+        "kind": "printed matter excluded",
+        "note": "Large printed greeting, picture and printed decorations were inspected but are not cipher rows. The separate small c-shaped suffix is inventoried provisionally."
+      }
+    ],
+    "blind_frozen_historical": [],
+    "current": [
+      {
+        "line_id": "297-L02",
+        "offset": 11,
+        "selected": ".",
+        "kind": "written_punctuation",
+        "note": "Selected visible punctuation; reader alternatives retained in historical rows."
+      },
+      {
+        "line_id": "297-P01",
+        "offset": 0,
+        "selected": "c",
+        "kind": "caption_adjacent_sign_unresolved_role",
+        "reading_rotation_clockwise_degrees": 270,
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_bbox_xyxy": [
+          980,
+          1595,
+          1050,
+          1655
+        ],
+        "native_bbox_xyxy": [
+          130,
+          980,
+          190,
+          1050
+        ],
+        "alternatives": [
+          "handwritten encoded body",
+          "handwritten punctuation or connector",
+          "printed caption-associated shape or ornament"
+        ],
+        "note": "Retained as one provisional selected slot for exposure, not proof that it is encoded. Strict S neither resolves ink ownership nor establishes a preposition or caption-to-handwriting attachment."
+      }
+    ],
+    "ordering_and_segmentation": "Printed caption and the disputed sign are kept separate from the handwritten continuation; no proven encoded attachment or missing object is supplied."
+  },
+  "ordinary_numerals_outside_cipher": [],
+  "editorial_scope": {
+    "coverage": "Three selected source units: one provisional caption-adjacent slot and two handwritten rows, all represented in paired readable prose and exact fragment ledgers.",
+    "omitted_line_ids": [],
+    "order_policy": "Printed caption, provisional isolated sign and lower handwriting stay separate. No proven encoded role, attachment to the caption, narrative order or implicit object is inferred from the lone sign.",
+    "semantic_limits": "No authenticated identity, date, authorship, imagery interpretation or missing-clause reconstruction. Zero masks does not certify source accuracy."
+  },
+  "proposed_editorial_czech": "Samostatný znak u tištěného nápisu, prozatímně zařazený do výběru:\n[doslova S; role znaku nejasná]\n\nRukopisné pokračování, jehož předmět není v šifře vyjádřen:\n[nesčíslnými?; NESCISLNYMY] pozdravy a pusami ti zasílá [předmět v šifře není vyjádřen] tvůj Pepouš.",
+  "proposed_english_translation": "Separate sign beside the printed caption, provisionally included in the selection:\n[literal S; sign role uncertain]\n\nHandwritten continuation, with its object unexpressed in the cipher:\nYour Pepouš sends [object not stated in the cipher] to you with [countless?; NESCISLNYMY] greetings and kisses.",
+  "editorial_fragment_ledger": [
+    {
+      "line_id": "297-P01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 1,
+      "literal": "S",
+      "proposed_czech": "[doslova S; role znaku nejasná]",
+      "proposed_english": "[literal S; sign role uncertain]",
+      "scope": "Entire selected row, potentially a syntactic fragment; no inferred hidden clause."
+    },
+    {
+      "line_id": "297-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 39,
+      "literal": "NESCISLNYMY POZDRAVY A PUSAMI TI ZASILA",
+      "proposed_czech": "[nesčíslnými?; NESCISLNYMY] pozdravy a pusami ti zasílá [předmět v šifře není vyjádřen]",
+      "proposed_english": "With [countless?; NESCISLNYMY] greetings and kisses, sends [object not stated in the cipher] to you",
+      "scope": "Entire selected row, potentially a syntactic fragment; no inferred hidden clause."
+    },
+    {
+      "line_id": "297-L02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 12,
+      "literal": "TVUJ PEPOUS.",
+      "proposed_czech": "tvůj Pepouš.",
+      "proposed_english": "your Pepouš.",
+      "scope": "Entire selected row, potentially a syntactic fragment; no inferred hidden clause."
+    }
+  ],
+  "editorial_restoration_ledger": [
+    {
+      "line_id": "297-P01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 1,
+      "literal": "S",
+      "proposed_czech": "[doslova S; role znaku nejasná]",
+      "proposed_english": "[literal S; sign role uncertain]",
+      "reason": "Literal fragment label only. The selected c contour replays as S; no assumption that this is a preposition, a word or an encoded body."
+    },
+    {
+      "line_id": "297-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 11,
+      "literal": "NESCISLNYMY",
+      "proposed_czech": "[nesčíslnými?; NESCISLNYMY]",
+      "proposed_english": "[countless?; NESCISLNYMY]",
+      "reason": "Tentative final Y→I spelling repair, separately from ordinary diacritics. The source glyph1 continues to decode Y. SSJČ supports the lexical meaning only, not glyph ownership or this repair."
+    },
+    {
+      "line_id": "297-L01",
+      "literal_offset_start": 33,
+      "literal_offset_end": 39,
+      "literal": "ZASILA",
+      "proposed_czech": "zasílá [předmět v šifře není vyjádřen]",
+      "proposed_english": "sends [object not stated in the cipher]",
+      "reason": "Editorial syntax-gap label attached to the visible verb. No specific object, absent clause or connection to the printed caption is supplied."
+    }
+  ],
+  "layout_normalization_ledger": [
+    {
+      "operation": "Ordinary capitalization, Czech diacritics and English syntactic ordering within each separately labelled region. Substantive final-letter proposals are separately bracketed and ledgered."
+    }
+  ],
+  "editorial_policy": "Every selected row represented in Czech and English. Brackets mark substantive repairs, tentative expansions, or literal-labeled unresolved fragments. Row labels preserve physical layout; prose joining/order remains qualified. No key changes or masked-source reconstruction.",
+  "limits": [
+    "Assigned FIRST reader now NONBLIND curator; FIRST and SECOND are slots, not chronological priority. FIRST froze later than SECOND. Both actors replayed only after all their own required raw inputs froze; the all-eight checkpoint preceded released target exchange.",
+    "Three selected source units: one provisional caption-adjacent slot and two handwritten rows, all represented in paired readable prose and exact fragment ledgers.",
+    "Printed caption, provisional isolated sign and lower handwriting stay separate. No proven encoded role, attachment to the caption, narrative order or implicit object is inferred from the lone sign.",
+    "The caption-adjacent c shape remains printed/handwritten/punctuation/encoded-ownership disputed. Its selected S is one provisional replay slot only. Batch QA had zero mechanical errors and two open source-scope findings; this sign is the target finding, not a resolved classification.",
+    "The lower continuation does not state a direct object within the selected cipher. Both languages mark that absence explicitly and supply no noun or missing clause from the printed caption.",
+    "Final Y→I in NESCISLNYMY is a tentative bracketed spelling repair, distinct from diacritics. SSJČ informs meaning only. No handwritten date was identified on this face.",
+    "Related AI with a visible key and prior other-card influence; no human/external or third blind confirmation. Low shoulders, added-stroke segmentation, loop returns and ownership alternatives persist. Physical body totals remain null."
+  ],
+  "encoded_bodies": 45,
+  "expanded_letters": 45,
+  "ch_occurrences": 0,
+  "unknowns": 0,
+  "segmentation_ledger_current": [
+    {
+      "line_id": "297-P01",
+      "offset": 0,
+      "selected": "c",
+      "physical_encoded_body_count": null,
+      "note": "Both source actors select the same small c-shaped contour beside the printed caption. It is an open low curve separated from the large printed letters, but neither contour nor replay settles whether it is handwritten, printed, punctuation or encoded. Retain one provisional selected c slot for explicit coverage, keeping role and attachment alternatives unresolved. S is only the fixed-key replay, not proof of encoded ownership.",
+      "native_bbox_xyxy": [
+        130,
+        980,
+        190,
+        1050
+      ]
+    },
+    {
+      "line_id": "297-L01",
+      "offset": 0,
+      "selected": "m5cs4c8m1n1 b3gth6f1 6 b2c6n4 d4 g6c486",
+      "physical_encoded_body_count": null,
+      "note": "Between the initial m5c and the following4 the original shows an additional low angular stroke with its own baseline turn: retain FIRST s rather than SECOND omission. The join is faint and extra-body versus connector ownership remains an explicit segmentation alternative. Initial m and terminal n/m humps remain provisional; no insertion is justified by the dictionary or a fluent word. In b3gth6f1 the high crossed t, separate looped h and final simple1 remain selected contours. The broad open initial hook in g6c486 is g, not linguistically replaced with q.",
+      "native_bbox_xyxy": [
+        85,
+        85,
+        145,
+        1015
+      ]
+    },
+    {
+      "line_id": "297-L02",
+      "offset": 0,
+      "selected": "df27 b5b32c.",
+      "physical_encoded_body_count": null,
+      "note": "Both source actors select the same short row. Ascending looped b bodies and final open c plus a separate dot remain provisional classifications. Signature-shaped text is an unauthenticated textual reading, not a confirmed identity.",
+      "native_bbox_xyxy": [
+        45,
+        580,
+        105,
+        930
+      ]
+    }
+  ],
+  "actual_question_punctuation": [],
+  "ordinary_numeral_spans_in_cipher": [],
+  "editorial_coverage": [
+    {
+      "line_id": "297-P01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 1,
+      "literal": "S",
+      "paired_readable_coverage": true,
+      "region_status": "Provisional isolated literal fragment, ownership unresolved"
+    },
+    {
+      "line_id": "297-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 39,
+      "literal": "NESCISLNYMY POZDRAVY A PUSAMI TI ZASILA",
+      "paired_readable_coverage": true,
+      "region_status": "Handwritten continuation"
+    },
+    {
+      "line_id": "297-L02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 12,
+      "literal": "TVUJ PEPOUS.",
+      "paired_readable_coverage": true,
+      "region_status": "Handwritten continuation"
+    }
+  ],
+  "caption_adjacent_fragment": {
+    "line_id": "297-P01",
+    "offset": 0,
+    "selected": "c",
+    "literal": "S",
+    "selected_replay_slots": 1,
+    "physical_encoded_body_count": null,
+    "encoded_ownership": "unresolved",
+    "printed_or_handwritten": "unresolved",
+    "semantic_attachment": "unproved; excluded from the syntax of the lower handwritten proposal"
+  },
+  "printed_matter_outside_cipher": {
+    "caption_visual_text": "Srdečné přání k novému roku",
+    "english_context_translation": "Heartfelt wishes for the New Year",
+    "selected_cipher_counts_excluded": true,
+    "note": "Printed wording is separately identified for context only. Its implied object is not imported into the cipher translation; the following small sign remains separately disputed."
+  },
+  "editorial_lexical_context": {
+    "headword": "nesčíslný",
+    "source_url": "https://ssjc.ujc.cas.cz/search.php?heslo=nes%C4%8D%C3%ADsln%C3%BD&hsubstr=no",
+    "previous_access_utc": "2026-10-20T17:57:48.391426+00:00",
+    "saved_response_sha256": "bc9d8d5cddbc8ea0063f4362c1465249fba83dbae806e46f8109639ecfcfaf24",
+    "paraphrase": "SSJČ supports a meaning involving an uncountable or very large quantity.",
+    "limits": "Language context only. It cannot establish the extra s-shaped source stroke, final Y→I repair, caption sign ownership or a missing object. No new network access."
+  },
+  "editorial_spelling_repair_details": [
+    {
+      "line_id": "297-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 11,
+      "literal": "NESCISLNYMY",
+      "ordinary_diacritics": "nesčíslnýmy",
+      "substantive_letter_change": "Final Y→I proposed to give nesčíslnými; this is not ordinary diacritic restoration.",
+      "proposed_czech": "[nesčíslnými?; NESCISLNYMY]",
+      "proposed_english": "[countless?; NESCISLNYMY]"
+    }
+  ],
+  "validation": {
+    "check_card": "passed",
+    "report": {
+      "rows": 3,
+      "encoded_bodies": 45,
+      "expanded_letters": 45,
+      "ch_occurrences": 0,
+      "unknowns": 0
+    },
+    "coverage": "All3 rows in paired exact literal-offset fragment ledger;3 paired restoration/gap entries",
+    "scope": "Strict replay, frozen raw/source/catalogue hashes, native bounds, current selected spans, paired editorial spans and snapshot integrity; not source-accuracy or historical proof."
+  }
+}
