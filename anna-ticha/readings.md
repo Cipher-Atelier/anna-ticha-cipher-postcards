@@ -27,7 +27,7 @@ These reader editions interpret the **historical staged key and its secondary ru
 
 ## New candidate readings — 20 October 2026
 
-The [confirmed-key continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) adds fifty-seven source-based candidates with separate literal, editorial Czech and English layers. Each has two separately frozen, related AI source readings; later reconciliation is nonblind. These are not external human confirmation or solved-card claims. Cards 249 and 257 now address all selected rows as partial clauses and literal-labeled fragments; 267 and 269 address all selected rows with literal-labeled unresolved fragments and bracketed editorial conjectures; other cards also retain source and interpretation uncertainties, including cards with no displayed masks. These records are separate from the 37 preserved reports below.
+The [confirmed-key continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) adds sixty-one source-based candidates with separate literal, editorial Czech and English layers. Each has two separately frozen, related AI source readings; later reconciliation is nonblind. These are not external human confirmation or solved-card claims. Cards 249 and 257 now address all selected rows as partial clauses and literal-labeled fragments; 267 and 269 address all selected rows with literal-labeled unresolved fragments and bracketed editorial conjectures; other cards also retain source and interpretation uncertainties, including cards with no displayed masks. These records are separate from the 37 preserved reports below.
 
 - [Card 242](../research-updates/2026-10-20-confirmed-key-continuation/cards/242.md)
 - [Card 244](../research-updates/2026-10-20-confirmed-key-continuation/cards/244.md)
@@ -86,6 +86,10 @@ The [confirmed-key continuation package](../research-updates/2026-10-20-confirme
 - [Card 304](../research-updates/2026-10-20-confirmed-key-continuation/cards/304.md)
 - [Card 305](../research-updates/2026-10-20-confirmed-key-continuation/cards/305.md)
 - [Card 306](../research-updates/2026-10-20-confirmed-key-continuation/cards/306.md)
+- [Card 307](../research-updates/2026-10-20-confirmed-key-continuation/cards/307.md)
+- [Card 308](../research-updates/2026-10-20-confirmed-key-continuation/cards/308.md)
+- [Card 309](../research-updates/2026-10-20-confirmed-key-continuation/cards/309.md)
+- [Card 310](../research-updates/2026-10-20-confirmed-key-continuation/cards/310.md)
 
 The [official-catalogue inventory](../research-updates/2026-10-20-confirmed-key-continuation/README.md#catalogue-and-next-work) and [263-record queue](../research-updates/2026-10-20-confirmed-key-continuation/queue.json) distinguish catalogue records, acquired sources and candidate readings; they are not 263 solutions. The [reproduction instructions](../research-updates/2026-10-20-confirmed-key-continuation/README.md#reproduction) state what the saved replay checks establish.
 
