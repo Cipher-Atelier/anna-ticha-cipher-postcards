@@ -1,0 +1,163 @@
+{
+  "revision_id": "273-initial-reconciliation",
+  "date": "2026-10-20",
+  "created_at_utc": "2026-10-20T15:12:52.420612+00:00",
+  "card_id": "273",
+  "model": "gpt-6.1-sol",
+  "temperature": null,
+  "seed": null,
+  "status": "Immutable initial selected snapshot; subsequent corrections must be disclosed separately.",
+  "card_artifact_sha256": "b7ff766a3676db7dd388f61ce0e885c976adaf7e5c8548ae1c3e46cbcb987dd9",
+  "source_sha256": "2e4bd3919d9e18ef33aa2c5a808870135120ca2b457d5def3e54c95f63f0f8b6",
+  "raw_layer_fingerprints": [
+    {
+      "reader": "first",
+      "model": "gpt-6.1-sol",
+      "temperature": "unavailable",
+      "seed": "unavailable",
+      "phase": "FIRST source-only AI raw frozen before literal decoding",
+      "key_visible": true,
+      "raw_frozen_before_decode": true,
+      "raw_frozen_at_utc": "2026-10-20T15:06:29.041889+00:00",
+      "raw_sha256": "d74281b3c7f5299c438d806ea38399e2b69a2cf89574bf02b32991c2f2bb8d70",
+      "raw_hash_scope": "Canonical compact sorted UTF-8 JSON of raw object.",
+      "raw_file_sha256": "4903bd729c3e3b0db618ee9f0d221cd467128f7366e6a2b043db6a6468b33d18",
+      "literal_file_sha256": "4c6a0e77b06d9397db4db58b4e2a024f4b4771bf2ea78948ed4780f8b302dab1",
+      "exposure_attestation": "First source-only target reading with fixed key visible. No273 target transcript/current reader/plaintext accessed. Prior other-card readings/reconciliations through268/270 and own271 source/strict decode known; related AI, not human or external independent proof. Frozen before target decoder; seed/temperature unavailable."
+    },
+    {
+      "reader": "blind second",
+      "model": "gpt-6.1-sol",
+      "temperature": null,
+      "seed": null,
+      "phase": "SECOND source-only AI reading, raw frozen before literal decoding and before first-reader exposure",
+      "key_visible": true,
+      "raw_frozen_before_decode": true,
+      "raw_frozen_at_utc": "2026-10-20T15:09:27.816109+00:00",
+      "raw_sha256": "e6e44446ce76aaf2895c28808b3ebb82f24a5abcef9a6b09e7fe6e3640f1a4af",
+      "raw_hash_scope": "Canonical compact sorted UTF-8 JSON of raw object.",
+      "raw_file_sha256": "abd128cc37badc1ab55f743e87d0ffeff4219168546e77da8e50fcb1c11c349b",
+      "literal_file_sha256": "5dc4b259619d3bd3a48e20ce28c23779d9ea52bb843302e6622d2529a85a5ddc",
+      "exposure_attestation": "No first273 artifact or target273 plaintext/research/candidate consulted. Known fixed key visible. Prior other-card source reading/key implementation and own first272/274 context disclosed. Related AI source-only phase, not human or cognitive/external independence. Raw frozen before programmatic literal decoding; source metadata reused saved ordinaryGET record, no network in this phase. Only own private blind273 artifacts created; first272/274 left immutable, no repository/Git edits."
+    }
+  ],
+  "selected_snapshot": [
+    {
+      "line_id": "273-L01",
+      "ciphertext": "fh581 t4q g6 th6r1 84cd5q. t3b4c 3t5c82 f5 cth5t2 m5p3 f5 cdfhd5q.",
+      "transcription": [],
+      "literal": "VRELY DIK ZA DRAHY LISTEK. DOPIS ODESLU VE SDREDU NEBO VE STVRTEK."
+    },
+    {
+      "line_id": "273-L02",
+      "ciphertext": "bh3 bh4b6t, g5 f d1 tm1 m5p186 p1c f g4h3fm4s4, bh3c4n 3 gbh6f2.",
+      "transcription": [],
+      "literal": "PRO PRIPAD, ZE V TY DNY NEBYLA BYS V ZIROVNICI, PROSIM O ZPRAVU."
+    },
+    {
+      "line_id": "273-L03",
+      "ciphertext": "t3c81 n5 tf6 84cdq1 g q2dm5 r3h1? chd5sm1 b3gth6f 6 b2c2 3t b5b32c5.",
+      "transcription": [
+        {
+          "offset": 32,
+          "text": "?",
+          "kind": "punctuation",
+          "note": "Written elevated2-like curved question stem with detached dot; punctuation, not a masked cipher body."
+        }
+      ],
+      "literal": "DOSLY ME DVA LISTKY Z KUTNE HORY? SRTECNY POZDRAV A PUSU OD PEPOUSE."
+    }
+  ],
+  "selected_snapshot_sha256": "3d74696715aaf4068cce773d931b754385ec47f6f75fa34ce333637b1b0628f9",
+  "selected_snapshot_hash_scope": "Canonical compact sorted UTF-8 JSON of selected_snapshot list.",
+  "reader_disagreements": [
+    {
+      "line_id": "273-L01",
+      "first_offset_start": 29,
+      "first_offset_end": 30,
+      "first": "h",
+      "second_offset_start": 29,
+      "second_offset_end": 30,
+      "second": "b",
+      "current_selected_line": "fh581 t4q g6 th6r1 84cd5q. t3b4c 3t5c82 f5 cth5t2 m5p3 f5 cdfhd5q.",
+      "source_basis": "Select b in t3b4c: the disputed body has an upper ascending loop and a baseline bowl, comparable to b in first bodies of L02 bh3/bh4b6t; h has a returning arch rather than this bowl. Retain h in cth5t2: the third body rises into one connected loop and shoulder, with no secure separate caron. The marked ř alternative remains unselected; SDREDU is not repaired in cipher. Retain terminal q lower returns and the short r versus tall h distinction.",
+      "native_bbox_xyxy": [
+        153,
+        895,
+        1696,
+        978
+      ]
+    },
+    {
+      "line_id": "273-L02",
+      "first_offset_start": 29,
+      "first_offset_end": 30,
+      "first": "b",
+      "second_offset_start": 29,
+      "second_offset_end": 30,
+      "second": "6",
+      "current_selected_line": "bh3 bh4b6t, g5 f d1 tm1 m5p186 p1c f g4h3fm4s4, bh3c4n 3 gbh6f2.",
+      "source_basis": "Select terminal6 in m5p186: the upper stroke bends into a right-facing hook and a lower closed loop, like nearby6 forms; b normally shows a longer narrow upper loop. b remains a source-shape alternative, not erased. Keep initial m multiple arches, and g4h3fm4s4 with open-hook g/tall h; low n/m alternatives persist.",
+      "native_bbox_xyxy": [
+        87,
+        945,
+        1630,
+        1022
+      ]
+    },
+    {
+      "line_id": "273-L03",
+      "first_offset_start": 36,
+      "first_offset_end": 37,
+      "first": "d",
+      "second_offset_start": 36,
+      "second_offset_end": 37,
+      "second": "t",
+      "current_selected_line": "t3c81 n5 tf6 84cdq1 g q2dm5 r3h1? chd5sm1 b3gth6f 6 b2c2 3t b5b32c5.",
+      "source_basis": "Select d in chd5sm1: the body after h is a rising slanted stem attached to a closed baseline counter, matching d in 84cdq1; it lacks the free crossbar of t in t3c81. This preserves defective SRTECNY rather than fluent SRDECNY. Keep a visible space between b3gth6f and6: the f descender and following6 have a word-sized gap, though spacing remains interpretive. The elevated curved2-like stem with detached dot after r3h1 is actual question punctuation. Keep detached open-hook g followed by closed-return q in q2dm5, and final3/5 in b5b32c5; alternatives remain.",
+      "native_bbox_xyxy": [
+        83,
+        997,
+        1695,
+        1072
+      ]
+    },
+    {
+      "line_id": "273-L03",
+      "first_offset_start": 49,
+      "first_offset_end": 49,
+      "first": "",
+      "second_offset_start": 49,
+      "second_offset_end": 50,
+      "second": " ",
+      "current_selected_line": "t3c81 n5 tf6 84cdq1 g q2dm5 r3h1? chd5sm1 b3gth6f 6 b2c2 3t b5b32c5.",
+      "source_basis": "Select d in chd5sm1: the body after h is a rising slanted stem attached to a closed baseline counter, matching d in 84cdq1; it lacks the free crossbar of t in t3c81. This preserves defective SRTECNY rather than fluent SRDECNY. Keep a visible space between b3gth6f and6: the f descender and following6 have a word-sized gap, though spacing remains interpretive. The elevated curved2-like stem with detached dot after r3h1 is actual question punctuation. Keep detached open-hook g followed by closed-return q in q2dm5, and final3/5 in b5b32c5; alternatives remain.",
+      "native_bbox_xyxy": [
+        83,
+        997,
+        1695,
+        1072
+      ]
+    }
+  ],
+  "source_basis_by_line": [
+    "Select b in t3b4c: the disputed body has an upper ascending loop and a baseline bowl, comparable to b in first bodies of L02 bh3/bh4b6t; h has a returning arch rather than this bowl. Retain h in cth5t2: the third body rises into one connected loop and shoulder, with no secure separate caron. The marked ř alternative remains unselected; SDREDU is not repaired in cipher. Retain terminal q lower returns and the short r versus tall h distinction.",
+    "Select terminal6 in m5p186: the upper stroke bends into a right-facing hook and a lower closed loop, like nearby6 forms; b normally shows a longer narrow upper loop. b remains a source-shape alternative, not erased. Keep initial m multiple arches, and g4h3fm4s4 with open-hook g/tall h; low n/m alternatives persist.",
+    "Select d in chd5sm1: the body after h is a rising slanted stem attached to a closed baseline counter, matching d in 84cdq1; it lacks the free crossbar of t in t3c81. This preserves defective SRTECNY rather than fluent SRDECNY. Keep a visible space between b3gth6f and6: the f descender and following6 have a word-sized gap, though spacing remains interpretive. The elevated curved2-like stem with detached dot after r3h1 is actual question punctuation. Keep detached open-hook g followed by closed-return q in q2dm5, and final3/5 in b5b32c5; alternatives remain."
+  ],
+  "selected_slot_counts": {
+    "rows": 3,
+    "encoded_bodies": 156,
+    "expanded_letters": 156,
+    "ch_occurrences": 0,
+    "unknowns": 0
+  },
+  "physical_encoded_bodies": null,
+  "limits": [
+    "Two related AI key-visible source readings, each raw frozen before own decoder use. The second reader then saw both frozen readings and decoded outputs for this nonblind reconciliation; no third independent reading, human validation or external historical confirmation.",
+    "First-reader prior271/other-card context and second-reader prior272/274/key-implementation context disclosed in immutable attestations. Cognitive independence is not established by separate raw files.",
+    "Three source rows and complete margins inspected. No masked replay slots remain in selected text, but q/g, b/6, h/markedř, n/m, t/d and word-separation alternatives persist; zero masks does not prove source certainty. Physical totals remain null.",
+    "ZIROVNICI, KUTNE HORY and PEPOUSE are source-derived literal strings; proposals supply no verified place, route, writer or recipient identity. Date is a tentative inscription reading, not authenticated chronology.",
+    "Frozen key unchanged: no unassigned F/G/Q/W/X value inferred. Passing replay establishes saved substitution consistency, not historical or palaeographic truth."
+  ]
+}

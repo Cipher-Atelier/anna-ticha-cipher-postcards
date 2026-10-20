@@ -141,7 +141,7 @@ class ConfirmedKeyTests(unittest.TestCase):
                     self.checker().check_package(target)
 
     def test_current_package_sources_match_catalogue(self):
-        self.assertEqual(len(self.checker().check_package(ROOT)['cards']), 21)
+        self.assertEqual(len(self.checker().check_package(ROOT)['cards']), 25)
 
     def test_card_unknown_ledger_and_source_validation(self):
         check = self.checker()
