@@ -1,0 +1,479 @@
+{
+  "card": 244,
+  "source_first_procedural": true,
+  "key_projection_performed": false,
+  "reader": "ordinary_windowpeer244_new",
+  "faces": [
+    {
+      "face": "picture",
+      "source": {
+        "sha256": "61e8b514147ce427d6979041cb31815b3b5e01e091bd161b916a37c47aacdf37",
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "bytes": 1312384,
+        "source_url": "https://api.hcportal.eu/media/4749/pc_hcp_244_pic.JPG"
+      },
+      "orientation": "NONE",
+      "oriented_dimensions": [
+        1785,
+        1175
+      ],
+      "cipher_present": true,
+      "cipher_regions": [
+        {
+          "region_id": "FS244-PICTURE-CIPHER-01",
+          "role": "single_continuous_handwritten_cipher_field_with_tapered_lower_rows",
+          "orientation": "CW90",
+          "oriented_dimensions": [
+            1175,
+            1785
+          ],
+          "bbox_xyxy": [
+            55,
+            29,
+            907,
+            1095
+          ],
+          "bbox_coordinate_frame": "NONE",
+          "raw_region_bbox_xyxy": [
+            80,
+            55,
+            1146,
+            907
+          ],
+          "raw_region_coordinate_frame": "CW90",
+          "native_to_raw_transform": "CW90: oriented x=1175-native_y; oriented y=native_x; inverse rectangle [top,1175-right,bottom,1175-left]",
+          "raw_document": "picture-cipher-raw.json",
+          "observed_row_ids": [
+            "FS244-R01",
+            "FS244-R02",
+            "FS244-R03",
+            "FS244-R04",
+            "FS244-R05",
+            "FS244-R06",
+            "FS244-R07",
+            "FS244-R08",
+            "FS244-R09",
+            "FS244-R10",
+            "FS244-R11",
+            "FS244-R12",
+            "FS244-R13",
+            "FS244-R14",
+            "FS244-R15",
+            "FS244-R16",
+            "FS244-R17",
+            "FS244-R18",
+            "FS244-R19"
+          ],
+          "precision": "Approximate enclosing source context; row and body windows remain approximate."
+        }
+      ],
+      "edge_survey": {
+        "top": "Surveyed entire native top edge and adjoining margin. Cipher row ends occur near top-left area; no separate marginal cipher region beyond the main field. Faint scanner/edge dirt not treated as bodies.",
+        "right": "Surveyed entire native right edge. Printed portrait/photo and blank border; no cipher or ordinary inscription observed on that edge.",
+        "bottom": "Surveyed entire native bottom edge. Main cipher field begins close to left portion of edge; lower short rows/date elsewhere near lower-left region. No additional edge line hidden in cropped window assumptions.",
+        "left": "Surveyed entire native left edge. Main quarter-turned handwriting lies inside border; edge wear and scanning white strip remain nontext, no distinct extra cipher strip."
+      },
+      "ordinary_coverage": [
+        {
+          "coverage_id": "FS244-PICTURE-ORD01",
+          "diplomatic_record_index": 1,
+          "bbox_xyxy": [
+            350,
+            765,
+            416,
+            1026
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-PICTURE-ORD02",
+          "diplomatic_record_index": 2,
+          "bbox_xyxy": [
+            911,
+            863,
+            957,
+            1034
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_handwriting",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-PICTURE-ORD03",
+          "diplomatic_record_index": 3,
+          "bbox_xyxy": [
+            495,
+            109,
+            1695,
+            1108
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "nontext_graphical_observation",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-PICTURE-ORD04",
+          "diplomatic_record_index": 4,
+          "bbox_xyxy": [
+            370,
+            57,
+            1417,
+            1114
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "nontext_graphical_observation",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        }
+      ]
+    },
+    {
+      "face": "address",
+      "source": {
+        "sha256": "69b23c2578bc04ab92366483a77737a4c11933d33b329260b86f1c8af2234986",
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "bytes": 1161654,
+        "source_url": "https://api.hcportal.eu/media/4750/pc_hcp_244_adr.JPG"
+      },
+      "orientation": "NONE",
+      "oriented_dimensions": [
+        1785,
+        1175
+      ],
+      "cipher_present": false,
+      "cipher_regions": [],
+      "edge_survey": {
+        "top": "Surveyed native top edge and upper margin: printed multilingual heading, stamp and cancellation nearby. No cipher-like row or isolated cipher body found.",
+        "right": "Surveyed native right edge: stamp/postal impression above and otherwise card border/background; no cipher inscription observed.",
+        "bottom": "Surveyed native bottom edge beneath final address line and printed rules; no cipher or extra handwritten line observed.",
+        "left": "Surveyed native left edge: small vertically printed publisher/series inscription and otherwise paper margin; no cipher found."
+      },
+      "ordinary_coverage": [
+        {
+          "coverage_id": "FS244-ADDRESS-ORD01",
+          "diplomatic_record_index": 1,
+          "bbox_xyxy": [
+            220,
+            120,
+            862,
+            183
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD02",
+          "diplomatic_record_index": 2,
+          "bbox_xyxy": [
+            196,
+            186,
+            899,
+            231
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD03",
+          "diplomatic_record_index": 3,
+          "bbox_xyxy": [
+            140,
+            237,
+            947,
+            278
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD04",
+          "diplomatic_record_index": 4,
+          "bbox_xyxy": [
+            140,
+            286,
+            950,
+            325
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD05",
+          "diplomatic_record_index": 5,
+          "bbox_xyxy": [
+            140,
+            333,
+            950,
+            374
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD06",
+          "diplomatic_record_index": 6,
+          "bbox_xyxy": [
+            140,
+            378,
+            949,
+            421
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD07",
+          "diplomatic_record_index": 7,
+          "bbox_xyxy": [
+            106,
+            637,
+            144,
+            867
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD08",
+          "diplomatic_record_index": 8,
+          "bbox_xyxy": [
+            489,
+            521,
+            1105,
+            619
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_handwriting",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD09",
+          "diplomatic_record_index": 9,
+          "bbox_xyxy": [
+            568,
+            631,
+            1384,
+            737
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_handwriting",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD10",
+          "diplomatic_record_index": 10,
+          "bbox_xyxy": [
+            885,
+            737,
+            1174,
+            786
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_handwriting",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD11",
+          "diplomatic_record_index": 11,
+          "bbox_xyxy": [
+            915,
+            786,
+            1349,
+            880
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_handwriting",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD12",
+          "diplomatic_record_index": 12,
+          "bbox_xyxy": [
+            949,
+            885,
+            1316,
+            996
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_handwriting",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD13",
+          "diplomatic_record_index": 13,
+          "bbox_xyxy": [
+            1435,
+            120,
+            1578,
+            156
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD14",
+          "diplomatic_record_index": 14,
+          "bbox_xyxy": [
+            1398,
+            120,
+            1433,
+            165
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD15",
+          "diplomatic_record_index": 15,
+          "bbox_xyxy": [
+            1572,
+            121,
+            1606,
+            165
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD16",
+          "diplomatic_record_index": 16,
+          "bbox_xyxy": [
+            1432,
+            328,
+            1585,
+            363
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD17",
+          "diplomatic_record_index": 17,
+          "bbox_xyxy": [
+            1389,
+            110,
+            1618,
+            366
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "nontext_graphical_observation",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD18",
+          "diplomatic_record_index": 18,
+          "bbox_xyxy": [
+            1002,
+            157,
+            1308,
+            357
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD19",
+          "diplomatic_record_index": 19,
+          "bbox_xyxy": [
+            962,
+            339,
+            1287,
+            524
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD20",
+          "diplomatic_record_index": 20,
+          "bbox_xyxy": [
+            1043,
+            291,
+            1129,
+            367
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "direct_printed_text",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD21",
+          "diplomatic_record_index": 21,
+          "bbox_xyxy": [
+            1313,
+            77,
+            1691,
+            452
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "nontext_graphical_observation",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD22",
+          "diplomatic_record_index": 22,
+          "bbox_xyxy": [
+            172,
+            602,
+            1610,
+            989
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "nontext_graphical_observation",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD23",
+          "diplomatic_record_index": 23,
+          "bbox_xyxy": [
+            145,
+            198,
+            947,
+            222
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "nontext_graphical_observation",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        },
+        {
+          "coverage_id": "FS244-ADDRESS-ORD24",
+          "diplomatic_record_index": 24,
+          "bbox_xyxy": [
+            368,
+            52,
+            1428,
+            1106
+          ],
+          "coordinate_frame": "NONE",
+          "kind": "nontext_graphical_observation",
+          "ownership": "Exactly one coverage reference for this diplomatic record; graphical overlays can geometrically overlap source handwriting."
+        }
+      ]
+    }
+  ],
+  "ordinary_index_convention": "One-based diplomatic_record_index; each face index refers to that face records list.",
+  "scope": "Both complete original faces and all four native edges per face. One source-geometric cipher region, nineteen rows; no address cipher observed.",
+  "precision": "Approximate native context bounds and exact declared frame transform; no ink precision or accuracy certification.",
+  "prior_exposure_caveat": "Own eight windows and neutral calibration previously exposed; no global blindness claim.",
+  "date_clock_caveat": "Source date attempts retained with alternatives in ordinary; procedural UTC timestamps do not establish source-date precision."
+}

@@ -8,7 +8,7 @@ This is a navigation index to the full preserved records, not a new edition or a
 
 - [Card 204: Christmas wishes, original text and reported external check](card-204.md). The author reports manual validation on 20 October. The original diplomatic text, editorial Czech, English translation and twelve-entry uncertainty ledger are published separately from the 37 preserved partial reports below; no complete positional/replay package is added.
 - Card 460: another team’s reconstructed-key comparison, not a solve produced here. See the [comparison limit](card-204.md#card-460-comparison).
-- [Four later Russian readers and English explanations](../research-updates/README.md#four-russian-readers) are on **unmerged draft PR #19**. Its historical 71 conditional reports are not 71 solved cards or a complete public reader index.
+- [Four later Russian readers and English explanations](../research-updates/README.md#four-russian-readers) are preserved in the publication from **PR #19**. Its historical 71 conditional reports are not 71 solved cards or a complete public reader index.
 
 ## Evidence levels
 

@@ -1,0 +1,17 @@
+{
+  "schema": "source257-conflict-route-format-clarification-addendum-v1",
+  "parent_final_format_sha256": "8f8fbe14d69742bde90f9a4bde10e9fa1648489c8bcf37eff878eaf3c93a1ab1",
+  "historical_audit_pins": {
+    "A": "4693e0df900dc4f004f03888e1513672ba5aeca26610cf9b2a1a6ad6cca274b0",
+    "B": "31f7b8788e8d90c9035e7879bc64b1568a842d46a0a1e6e47288915cbe8857a2"
+  },
+  "dependency_review_coverage": "Every explicit historical dependent_edge_claims entry requires one final review identified by its pair_id plus claim_id or qualification_id. A final review may quarantine, retain with an exact evidence-accounting finding, or explicitly defer the dependency. Do not silently omit a dependency review.",
+  "enum_extensions": {
+    "decision": "DEFER_EXACT_DEPENDENCY",
+    "accepted_authority_effect": "DEPENDENCY_SOURCE_SUPPORT_UNRESOLVED"
+  },
+  "deferred_dependency_semantics": "Preserve the inherited candidate edge while explicitly flagging that exact dependency as unvalidated. This does not claim the accepted final evidence accounts for the disputed fact, does not resolve the source claim, and does not quarantine the edge. No transitive or all-incident-edge consequence is inferred.",
+  "production_pin_when_extension_used": "Final input_pins.dependency_format_addendum_sha256 must identify this exact file whenever a final review uses the new dependency enums.",
+  "current_scope_notice": "Both frozen historical audits have empty dependent_edge_claims lists. This completeness rule creates no current source-review case and prescribes no scientific outcome.",
+  "unchanged_guidance": "The parent final format remains byte-for-byte unchanged. All source-feature, ownership, visibility, conditioning and independent-final-review requirements remain in force."
+}

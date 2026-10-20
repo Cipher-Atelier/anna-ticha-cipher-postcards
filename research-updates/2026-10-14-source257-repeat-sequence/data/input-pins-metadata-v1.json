@@ -1,0 +1,2504 @@
+{
+  "schema": "source257-repeat-metadata-input-pins-v1",
+  "stage_status": "METADATA_ONLY_PROTOCOL_PENDING",
+  "inputs": {
+    "D10": {
+      "path_relative_to_corpus_root": "source257-class-candidates-next-20261013/results/candidate-inventory-v1.json",
+      "sha256": "a2f13278119c6437821a416e1cf56483e7d3d879a48e3adaa363023c314b87a0",
+      "declared_schema": "source257-full-visible-feature-candidate-inventory-v1"
+    },
+    "D11": {
+      "path_relative_to_corpus_root": "source257-exclusion-refinement-next-20261013/results/context-refinement-delta-v2.json",
+      "sha256": "9bc9f35a2427dc2fad36bdff3cae8ca7d7ae4fb5c74844a46885f4c5fc8926a4",
+      "declared_schema": "source257-context-refinement-delta-v1"
+    },
+    "D9": {
+      "path_relative_to_corpus_root": "source257-fullcard-annotation-next-20261013/results/fullcard-map-v2.json",
+      "sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+      "declared_schema": "source257-fullcard-physical-map-v2"
+    }
+  },
+  "source_image": {
+    "path_relative_to_corpus_root": "rebuild257258-run-20261013/source257/pc_hcp_257_pic.JPG",
+    "file_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+    "size": [
+      1785,
+      1175
+    ],
+    "rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94",
+    "verification": "D9_PINNED_METADATA_ONLY_NO_PIXEL_OPEN_OR_RGB_REDECODE"
+  },
+  "counts": {
+    "source_annotations": 307,
+    "whole_annotations": 172,
+    "unresolved_annotations": 135,
+    "retained_eligible": 55,
+    "newly_eligible": 15,
+    "effective_eligible": 70,
+    "unchanged_excluded_whole": 102,
+    "inherited_candidate_sets": 7,
+    "inherited_positive_edges": 11,
+    "new_old_pairs": 825,
+    "new_new_pairs": 105,
+    "initial_deferred_pairs": 930
+  },
+  "annotations": [
+    {
+      "id": "U001",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/0"
+      },
+      "immutable_record_canonical_sha256": "845e0f4c3602c734ac3412e29866ac13bf7290ad09b4d0427937ce6d8cba8793"
+    },
+    {
+      "id": "U002",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/1"
+      },
+      "immutable_record_canonical_sha256": "098fea58adceb483d878c97a277107e41fa362bca944567db4f6bc2e74df9816"
+    },
+    {
+      "id": "U003",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/2"
+      },
+      "immutable_record_canonical_sha256": "ccf4251e373a180a1d4a568d74be2a0a84e6d14365cf2e5e180fb8f214a3074a"
+    },
+    {
+      "id": "U004",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/3"
+      },
+      "immutable_record_canonical_sha256": "f5a801494999b82d324cd3c64a472fd03b7118bc855e75ed58f67b9c0aad59f8"
+    },
+    {
+      "id": "U005",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/4"
+      },
+      "immutable_record_canonical_sha256": "25d16ef4118b92eec7335eaaa99f81b97a8ae4881265868e7f2711a5d5711b2b"
+    },
+    {
+      "id": "U006",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/5"
+      },
+      "immutable_record_canonical_sha256": "65b96f617a67f7f950a51fca036cca1ae9d0b44ab1bdbb231da80a63effd044e"
+    },
+    {
+      "id": "U007",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/6"
+      },
+      "immutable_record_canonical_sha256": "4c900490d5402d1a13dc3a76544a0236220b0b1e2dae5da3aa9dfeb8b8db0d75"
+    },
+    {
+      "id": "U008",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/7"
+      },
+      "immutable_record_canonical_sha256": "f3940eb9d4a07b7dc18ba0cf9dd653d8b5d9ce3077cf8bf584048a9ca6300e51"
+    },
+    {
+      "id": "U009",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/8"
+      },
+      "immutable_record_canonical_sha256": "8afd200b3152edb29066b659a7a43be201925fc6e938e6e9c72e9931eddd31bf"
+    },
+    {
+      "id": "U010",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/9"
+      },
+      "immutable_record_canonical_sha256": "1c69d6fb20810c6ee0c796d2ac7009866a5f3e5cb4b64812c636eccdbedb65c7"
+    },
+    {
+      "id": "U011",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/10"
+      },
+      "immutable_record_canonical_sha256": "38e15cbe737c536e90c4f7ba6948ae30be32f086eb298cf4e4951fb21485ac52"
+    },
+    {
+      "id": "U012",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/11"
+      },
+      "immutable_record_canonical_sha256": "f4be3d7c97d6c072267272a9fd2823da0b64bd99fcad94939715f605ca202a74"
+    },
+    {
+      "id": "U013",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/12"
+      },
+      "immutable_record_canonical_sha256": "e8b4097ee67654659738976e559dcd22f154b05a556af7722eff154d5f1aa57d"
+    },
+    {
+      "id": "U014",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/13"
+      },
+      "immutable_record_canonical_sha256": "810d88cb70212f0dfbae78c93489bb9c03fbef0c3be73217dfc1e3764ebe2ffb"
+    },
+    {
+      "id": "U015",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/14"
+      },
+      "immutable_record_canonical_sha256": "cbd01e6f147bb1493a0c09f80be89eacb21dda8f6d1de4cfe32c32bfede9a681"
+    },
+    {
+      "id": "U016",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/15"
+      },
+      "immutable_record_canonical_sha256": "708063343205923ddf96c7dcd11400c77bf31f43f1127ff151cfbbd7301e3012"
+    },
+    {
+      "id": "U017",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/16"
+      },
+      "immutable_record_canonical_sha256": "d2c19b630b3ad5ea83d6382dd1074c416004aa341672d16b05f7bd392af1fb03"
+    },
+    {
+      "id": "U018",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/17"
+      },
+      "immutable_record_canonical_sha256": "5b5aa449550e546928abb5d36759bd62a3759228079bbb67e8767fa1f6ed0607"
+    },
+    {
+      "id": "U019",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/18"
+      },
+      "immutable_record_canonical_sha256": "8642a517e10033a05dfd8d570cdb6a1d051dc9774be11e92ecdde5d4e0e935a4"
+    },
+    {
+      "id": "U020",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/19"
+      },
+      "immutable_record_canonical_sha256": "24c73775db42b15e1fee4830e8122f16fc83b5001ab084169da2e770a12c96ad"
+    },
+    {
+      "id": "U021",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/20"
+      },
+      "immutable_record_canonical_sha256": "e7751a57e387e3e34a72004f50e1baf2e1920ccc816012fe1ed0c5702076f4b9"
+    },
+    {
+      "id": "U022",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/21"
+      },
+      "immutable_record_canonical_sha256": "0c8e6b8ee3194ce8e9df3da733d5d1a9da4d2b091e8fabfd3fb68b5b0bcf8d9e"
+    },
+    {
+      "id": "U023",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/22"
+      },
+      "immutable_record_canonical_sha256": "46a504e3ec407231666e5dbe23a7119c717f244558ba47d633255531dce246af"
+    },
+    {
+      "id": "U024",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/23"
+      },
+      "immutable_record_canonical_sha256": "d5f775c2262120d33c30c163fe93d05d8e5f2a17b0e23fc33eafb297a4145a07"
+    },
+    {
+      "id": "U025",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/24"
+      },
+      "immutable_record_canonical_sha256": "9594b86ae09a41a932474be0e5fd36b95babd3948b1829d54a5965c1d1575f52"
+    },
+    {
+      "id": "U026",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/25"
+      },
+      "immutable_record_canonical_sha256": "8fa7ce838fa146258f18bb85e763d4b2ab577480e81458ff885d82606eef2528"
+    },
+    {
+      "id": "U027",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/26"
+      },
+      "immutable_record_canonical_sha256": "b23cc05441a9a6cc825b445fb3d294ffef0d11ae0788578ba13d60dbc3561a20"
+    },
+    {
+      "id": "U028",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/27"
+      },
+      "immutable_record_canonical_sha256": "0f060d93c1b70b7478bd3177a598ff0925bb6fa0c47d49216ff671677f9184ee"
+    },
+    {
+      "id": "U029",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/28"
+      },
+      "immutable_record_canonical_sha256": "9fa7cd464181d4d3f978b2e8f8ee1a8c98939e4ddac244d9baf589c31b116320"
+    },
+    {
+      "id": "U030",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/29"
+      },
+      "immutable_record_canonical_sha256": "71be0d81e25a481af391470660e331786292f65bad0bfce6911511b68bae3f83"
+    },
+    {
+      "id": "U031",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/30"
+      },
+      "immutable_record_canonical_sha256": "3e5eab7524d0134610cb456dc341be9d8eda83090ac720f5784dc406c1424aba"
+    },
+    {
+      "id": "U032",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/31"
+      },
+      "immutable_record_canonical_sha256": "080dd189c6853cc945ecf8f878b3e56194d58c64e51a4c085b70913bd71f6de1"
+    },
+    {
+      "id": "U033",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/32"
+      },
+      "immutable_record_canonical_sha256": "7f75a5aa811d85d1837458bc46971edfd1539c2d6778d351aafa0292f2ec989f"
+    },
+    {
+      "id": "U034",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/33"
+      },
+      "immutable_record_canonical_sha256": "07e5f01769580164de9d7c9105808b526399eb2fbc45217d868ce3ce5a0fc9d1"
+    },
+    {
+      "id": "U035",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/34"
+      },
+      "immutable_record_canonical_sha256": "a779613e22f0252598f6c96daf5f2aba62dcc2b25f77c7f94a0a41a9dcff75bc"
+    },
+    {
+      "id": "U036",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/35"
+      },
+      "immutable_record_canonical_sha256": "5c944482e2f4100023af6998dfc1a68c5b864fcf5b8ee3010202f3ee45016f2a"
+    },
+    {
+      "id": "U037",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/36"
+      },
+      "immutable_record_canonical_sha256": "eda450a195e7445e8594eeb019b0c1ec74b7678c14433fb026ac023f98e5d756"
+    },
+    {
+      "id": "U038",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/37"
+      },
+      "immutable_record_canonical_sha256": "cb50795f8a65dccc8bf3853171bff492b3312f9571890a65e1b6c67abd5602f6"
+    },
+    {
+      "id": "U039",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/38"
+      },
+      "immutable_record_canonical_sha256": "adf6c6d35990ab8df496983321a676508200a5910c35ea38261f5c63e6714337"
+    },
+    {
+      "id": "U040",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/39"
+      },
+      "immutable_record_canonical_sha256": "59a2cdff28f87c95ef4a728d0978687eb9ca609ea55ad23464d184e854173754"
+    },
+    {
+      "id": "U041",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/40"
+      },
+      "immutable_record_canonical_sha256": "be93e1c38e03eed093ca381b2aa45467e084ddaa7cfc78370493c9ce3f1b6b60"
+    },
+    {
+      "id": "U042",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/41"
+      },
+      "immutable_record_canonical_sha256": "38a17dc4d82a6deef8d1fee4158d3f715c0789b35d8104a3c61356ea3e9b7e97"
+    },
+    {
+      "id": "U043",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/42"
+      },
+      "immutable_record_canonical_sha256": "fa2ed94f5e278ddedd5c52ba0819dcb39b00c76e4ca7d35135b6341bb1637925"
+    },
+    {
+      "id": "U044",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/43"
+      },
+      "immutable_record_canonical_sha256": "dedf956361fe7c8a2c52b82669e10e860236abe185cbb3bd99218fa085e24e35"
+    },
+    {
+      "id": "U045",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/44"
+      },
+      "immutable_record_canonical_sha256": "42ef5114abdd4d521e8a00ea8baf592ef48c326278b2da5c53712e91912ed2c0"
+    },
+    {
+      "id": "U046",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/45"
+      },
+      "immutable_record_canonical_sha256": "a8e260303c446d9a2c16d9628cf39908c7a775499a909c48dbac566d58246437"
+    },
+    {
+      "id": "U047",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/46"
+      },
+      "immutable_record_canonical_sha256": "24c2a9f0ce7f4a601b1782b08417e8578fb79162e0291fa68e113abc221002f7"
+    },
+    {
+      "id": "U048",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/47"
+      },
+      "immutable_record_canonical_sha256": "9429a17cef05ee08b6b5357505feaf43903b3f2a66ba584c77c3722ee6bf0267"
+    },
+    {
+      "id": "U049",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/48"
+      },
+      "immutable_record_canonical_sha256": "a3506a88ce2a31c2c51463451544ea73b17489bd1761eeec965cccc9da785921"
+    },
+    {
+      "id": "U050",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/49"
+      },
+      "immutable_record_canonical_sha256": "f5ab9f131344b461819ab99a44c57467cff6645c282d9c62b60733c51636775d"
+    },
+    {
+      "id": "U051",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/50"
+      },
+      "immutable_record_canonical_sha256": "6568bc3b195af2f640935f2cd6b6de26258785a0fbadd5ba7054a6cd0bdc8c3c"
+    },
+    {
+      "id": "U052",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/51"
+      },
+      "immutable_record_canonical_sha256": "ac274c1561aae7c084da96be83c03ecaa58b005f57a9b5ae369c238e3a7d8ff4"
+    },
+    {
+      "id": "U053",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/52"
+      },
+      "immutable_record_canonical_sha256": "acf3b732c21f99cc35927d44daac0bdcc52b73dfbec998316add14aa1b141ee3"
+    },
+    {
+      "id": "U054",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/53"
+      },
+      "immutable_record_canonical_sha256": "60aca3703a2d84aaa7dc878641efb3ae71eb735c3d02ec8e432202d535a68cd2"
+    },
+    {
+      "id": "U055",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/54"
+      },
+      "immutable_record_canonical_sha256": "8c360b5c1c034b825b8c70b54a2bd9a7099937d93dbd669557459b3217212b70"
+    },
+    {
+      "id": "U056",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/frozen_first_band/units/55"
+      },
+      "immutable_record_canonical_sha256": "23ec10208b57b396556f6e53d604fe5f7d55ee0bf74a23e897ac81a2973c20ea"
+    },
+    {
+      "id": "FC001",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/0"
+      },
+      "immutable_record_canonical_sha256": "c6207f71218cea11915f68b074711ad2a715fc9ea0c3f40280e4e2c7f5867326"
+    },
+    {
+      "id": "FC002",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/1"
+      },
+      "immutable_record_canonical_sha256": "ef0bf40565a3ce38444e150869a4aa58f5811bfd4c2804332fc1919e9759b3fd"
+    },
+    {
+      "id": "FC003",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/2"
+      },
+      "immutable_record_canonical_sha256": "42a84f9f05855f48c8497faa6dbe138a338730cd8b4a308dee9d27e7477d6f73"
+    },
+    {
+      "id": "FC004",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/3"
+      },
+      "immutable_record_canonical_sha256": "accd65d23126ea8a655556519c07af8946d529dd27afde64a6225de59ddea217"
+    },
+    {
+      "id": "FC005",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/4"
+      },
+      "immutable_record_canonical_sha256": "ea045c1f3fceb6c9a95675faa00d088fc510cb45702512a22d88930175277973"
+    },
+    {
+      "id": "FC006",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/5"
+      },
+      "immutable_record_canonical_sha256": "d54cbfe7d0a4060a2dca283076111d00c6d3c83b64be7223d799396fe5f4f0bf"
+    },
+    {
+      "id": "FC007",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/6"
+      },
+      "immutable_record_canonical_sha256": "3f837b58cd68accc99fcabee9cd8025c08ffaf395264817e15c26b5ba87ab31e"
+    },
+    {
+      "id": "FC008",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/7"
+      },
+      "immutable_record_canonical_sha256": "15151311cf244462f3c17308e6cc7c6c78a1bda9247412acd4ce52b05b2d7da6"
+    },
+    {
+      "id": "FC009",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/8"
+      },
+      "immutable_record_canonical_sha256": "8b25188774bf23eed9c19ec70ac674858c173c8b4833c0475ae96999954e8d51"
+    },
+    {
+      "id": "FC010",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/9"
+      },
+      "immutable_record_canonical_sha256": "cf8549700c069a0aab63fab225614967611217923bb77251ad228a15783b0125"
+    },
+    {
+      "id": "FC011",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/10"
+      },
+      "immutable_record_canonical_sha256": "dbb64b274bd416ba4ac738e09e2e32722f78289b93789472e155b1ed76b6e62c"
+    },
+    {
+      "id": "FC012",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/11"
+      },
+      "immutable_record_canonical_sha256": "d1d66809d02b9a0c054225887b20d6c9b53026c207c9c79fac2293d086946bb5"
+    },
+    {
+      "id": "FC013",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/12"
+      },
+      "immutable_record_canonical_sha256": "e08dd9c471b6a94ab9f28a3a95e4a4db3f1b697bd5af433dd76dce5210bc8542"
+    },
+    {
+      "id": "FC014",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/13"
+      },
+      "immutable_record_canonical_sha256": "6a64f6550163cb60176da1eef9c175f52f2803ecea1c011de07d38c1f257b92e"
+    },
+    {
+      "id": "FC015",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/14"
+      },
+      "immutable_record_canonical_sha256": "895bdcce694810e6cd74ee0060d19710118c75ae6c2b77c82ad4412c772e4246"
+    },
+    {
+      "id": "FC016",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/15"
+      },
+      "immutable_record_canonical_sha256": "58297f557071c46c524a116e5cce615c1a39692aa848bbcc792b6eebaf2147f9"
+    },
+    {
+      "id": "FC017",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/16"
+      },
+      "immutable_record_canonical_sha256": "e246b454a533495d05e0b4744514f6160995fcc45973d40a6763696b42800da3"
+    },
+    {
+      "id": "FC018",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/17"
+      },
+      "immutable_record_canonical_sha256": "8f8b509a4632c5ad47ec570ca3a6d0129f931b74ade1f62aa9eec757889b2809"
+    },
+    {
+      "id": "FC019",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/18"
+      },
+      "immutable_record_canonical_sha256": "7ff06e4b9933ad60537dd055c065f72f0eabfa530aae3e9811bf1747f20115b2"
+    },
+    {
+      "id": "FC020",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/19"
+      },
+      "immutable_record_canonical_sha256": "a7764ccd3571b6c1834f4dd360d82a3dc261b529521d1ddf288120cb361a79bb"
+    },
+    {
+      "id": "FC021",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/20"
+      },
+      "immutable_record_canonical_sha256": "952ce29898b648417942c0e519204181b638bfec8d70926de2826904b1a8e63f"
+    },
+    {
+      "id": "FC022",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/21"
+      },
+      "immutable_record_canonical_sha256": "924d542e7d4547222139cf5597f067887a7347edc049163c94805e72c6135753"
+    },
+    {
+      "id": "FC023",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/22"
+      },
+      "immutable_record_canonical_sha256": "e783cf547f6fdafd31d172b452169a397e6a248ffdbbec0e5152fea91af78785"
+    },
+    {
+      "id": "FC024",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/23"
+      },
+      "immutable_record_canonical_sha256": "6a1561f25be3c5044ca839117c514773e30f5e13f64ad45e233cfb97cbbe0b3c"
+    },
+    {
+      "id": "FC025",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/24"
+      },
+      "immutable_record_canonical_sha256": "92711a1419cd343bca7b3be140caabcf37198cad2fcf064e2e3175c017811db6"
+    },
+    {
+      "id": "FC026",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/25"
+      },
+      "immutable_record_canonical_sha256": "f8b4b64f321482daa5135d99a0276f0a88b86d7e2d15ab6fde169f65d759eb56"
+    },
+    {
+      "id": "FC027",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/26"
+      },
+      "immutable_record_canonical_sha256": "9c96d94f83e5a92df101fbffe3319fa285b0cf1768675511d3251e74d70acada"
+    },
+    {
+      "id": "FC028",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/27"
+      },
+      "immutable_record_canonical_sha256": "07f668b8ddad369bdca252b641506220630ae7fd2aabbc2855d66c62d3a55876"
+    },
+    {
+      "id": "FC029",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/28"
+      },
+      "immutable_record_canonical_sha256": "e1fe48ab26076847dc378e15007f528bb4dfc47574977be9ef839b4921439d98"
+    },
+    {
+      "id": "FC030",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/29"
+      },
+      "immutable_record_canonical_sha256": "b85af0d8747b8e4e381232a371d9467e509d3ece30ab5566169b23bda2a418ec"
+    },
+    {
+      "id": "FC031",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/30"
+      },
+      "immutable_record_canonical_sha256": "20199dfceaefb758f1f9b7dd42dd1856463ff438ef1090270d449ac398da812c"
+    },
+    {
+      "id": "FC032",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/31"
+      },
+      "immutable_record_canonical_sha256": "7da774d0fdf79c445c9233fc864254b44362c6378e0d7606f087993b4207aece"
+    },
+    {
+      "id": "FC033",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/32"
+      },
+      "immutable_record_canonical_sha256": "cb585a6e8e1d38fd9ecce7557b347f8349ed6d0733089cec1d6fbac95d217467"
+    },
+    {
+      "id": "FC034",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/33"
+      },
+      "immutable_record_canonical_sha256": "c8876dd345a64868222f58c1707be876b9b798dd0fe65768ed45d4576accca91"
+    },
+    {
+      "id": "FC035",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/34"
+      },
+      "immutable_record_canonical_sha256": "54ee5c89e2b1f548753070fcf11bcf48475df207eac7c7553d2254a4fd83bff3"
+    },
+    {
+      "id": "FC036",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/35"
+      },
+      "immutable_record_canonical_sha256": "713bb561e13c59ce8a3cc8f863f3c1791db68b4d50ea2c6def5eff0313907273"
+    },
+    {
+      "id": "FC037",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/36"
+      },
+      "immutable_record_canonical_sha256": "11628ee589dc2cf829c69c9efb8e456268e5484eda27cd4e4b5af739d67dc040"
+    },
+    {
+      "id": "FC038",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/37"
+      },
+      "immutable_record_canonical_sha256": "5b6c0de5c2c644a2b0504e513a4778d9a5db8a748921bf4a4f806b9bbd4e9c97"
+    },
+    {
+      "id": "FC039",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/38"
+      },
+      "immutable_record_canonical_sha256": "67a2264cf19dac3fd09aa4e0f78cbe347c20edda2a978166a59bbdda5e9928ec"
+    },
+    {
+      "id": "FC040",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/39"
+      },
+      "immutable_record_canonical_sha256": "4d712bbad9ba09e7d9b0c27d1080d2f0ab9fe1a4ce876669450d53a883855ed9"
+    },
+    {
+      "id": "FC041",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/40"
+      },
+      "immutable_record_canonical_sha256": "c4fbc591e3f0369e1717f5bd26eedee3384fe8e60883142a5bbdf00bc3b027d0"
+    },
+    {
+      "id": "FC042",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/41"
+      },
+      "immutable_record_canonical_sha256": "13fa087344e17f157257708b2d458ccb0ce1445c861fa76d41a3123748053def"
+    },
+    {
+      "id": "FC043",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/42"
+      },
+      "immutable_record_canonical_sha256": "25e8eea6370bb3eabf172f396fd5683f9d78ef67c16cb22ec59db61b20af51e0"
+    },
+    {
+      "id": "FC044",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/43"
+      },
+      "immutable_record_canonical_sha256": "096249cfe8c2f26f498ca854fadd5583e3f44932a67f48ed4964206c6d340d58"
+    },
+    {
+      "id": "FC045",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/44"
+      },
+      "immutable_record_canonical_sha256": "eca74cd4650aa0f1ba4f350109af4b6dce8bf0bb4753a79616cb9402049c494a"
+    },
+    {
+      "id": "FC046",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/45"
+      },
+      "immutable_record_canonical_sha256": "add38f50c58bed1200e350741ed3f2d5b75de3e1cf5d93992449d8fb2a5c0975"
+    },
+    {
+      "id": "FC047",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/46"
+      },
+      "immutable_record_canonical_sha256": "e5a480aab78b84f18ab5d11995775a036fa74a7774aa432fba6ea3d1204d1416"
+    },
+    {
+      "id": "FC048",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/47"
+      },
+      "immutable_record_canonical_sha256": "fb3648980280612523336d172b249dd884ae8b5f1b7d65c221da550c27d57417"
+    },
+    {
+      "id": "FC049",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/48"
+      },
+      "immutable_record_canonical_sha256": "8cbd555eb9a1d8417feb427119482d562eaa255596e49a49abd3c21d53ebab75"
+    },
+    {
+      "id": "FC050",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/49"
+      },
+      "immutable_record_canonical_sha256": "136fb299f07b600788946aa40468e4626ed0c08bd56f82f43453fc056bea9a5a"
+    },
+    {
+      "id": "FC051",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/50"
+      },
+      "immutable_record_canonical_sha256": "5d2231b381766b18d4b6c39fdea23fe79aea54ad2e62d3a44d5a175d32272e64"
+    },
+    {
+      "id": "FC052",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/51"
+      },
+      "immutable_record_canonical_sha256": "6817fe49ae1f33173d5106c733303b4e603a8b08287fa8aacdc3ef5e05d51572"
+    },
+    {
+      "id": "FC053",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/52"
+      },
+      "immutable_record_canonical_sha256": "28a28c8c1dfebe64509ed29402e2b9912926faaf9b6627e31fa6e30299a568c1"
+    },
+    {
+      "id": "FC054",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/53"
+      },
+      "immutable_record_canonical_sha256": "d276525d568419cac5733c738e4627021fbef0c5e5444817246d853e2eca3a1b"
+    },
+    {
+      "id": "FC055",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/54"
+      },
+      "immutable_record_canonical_sha256": "a874dfef5d39d8dc9c207f8c742d926cb3b5f4fddd2fe06eb9c40de88eba053a"
+    },
+    {
+      "id": "FC056",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/55"
+      },
+      "immutable_record_canonical_sha256": "e6a111adb62a81fd1a688a2c73c158633a86dc9af3d61a215819075561e668da"
+    },
+    {
+      "id": "FC057",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/56"
+      },
+      "immutable_record_canonical_sha256": "edb410775186894d8ae6be18a4132a8131c870564f69c373333f6ea52deb94df"
+    },
+    {
+      "id": "FC058",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/57"
+      },
+      "immutable_record_canonical_sha256": "8a76ff46798a973b63b0dc02ce7f629b614f0b395c4e0f6c52ca33036761fc09"
+    },
+    {
+      "id": "FC059",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/58"
+      },
+      "immutable_record_canonical_sha256": "0e2092f9a3e7bfe611fb89a3804706ec9c33803f6e3a5ea97bb52cd495a50b01"
+    },
+    {
+      "id": "FC060",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/59"
+      },
+      "immutable_record_canonical_sha256": "632ab99468a0b508958d55c127c30ee0b061578f42d04a5a71760efdc736e96c"
+    },
+    {
+      "id": "FC061",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/60"
+      },
+      "immutable_record_canonical_sha256": "bf13e0d726bdbe52b4b8cc78a504e58af891782e5014d9ffc93e27f8edb6e62f"
+    },
+    {
+      "id": "FC062",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/61"
+      },
+      "immutable_record_canonical_sha256": "7bc7bbb42bb2150198b39853d7619813bd71ae636685edd2c0c0dd07f502bdba"
+    },
+    {
+      "id": "FC063",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/62"
+      },
+      "immutable_record_canonical_sha256": "fbe0ad7c3607896f51d5f4b4aa546e4ed42d9fced82c9f994e986bbd20c63894"
+    },
+    {
+      "id": "FC064",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/63"
+      },
+      "immutable_record_canonical_sha256": "2366048e4f449a6985d184c06887679fb033af96409e4f4bfb3da676466ac3e0"
+    },
+    {
+      "id": "FC065",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/64"
+      },
+      "immutable_record_canonical_sha256": "1db0f013e5090dc78f609e5a62d4807f7a92884eefa094cccabfe1749c9adeb7"
+    },
+    {
+      "id": "FC066",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/65"
+      },
+      "immutable_record_canonical_sha256": "9d03c29bddd0e7bb8be9e89830200ee35cc69592eb9563753c9dbbe59f647696"
+    },
+    {
+      "id": "FC067",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/66"
+      },
+      "immutable_record_canonical_sha256": "869767f55f323633de7344bc5c86556f7691b6089b3a2e63edf670d6de0c912d"
+    },
+    {
+      "id": "FC068",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/67"
+      },
+      "immutable_record_canonical_sha256": "a43af7ee0c9ba321b6b91d46782a2473a6c9f5430bd9cbad1e0d8be933e63127"
+    },
+    {
+      "id": "FC069",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/68"
+      },
+      "immutable_record_canonical_sha256": "1078f688d793b0ad61c4a42426fa89762dd1d0d112d504d25d4c3d82ab489053"
+    },
+    {
+      "id": "FC070",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/69"
+      },
+      "immutable_record_canonical_sha256": "39c218f5003ca8ee35e824be2fbdd7725fe024a76de159cc67775aaf31b095c8"
+    },
+    {
+      "id": "FC071",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/70"
+      },
+      "immutable_record_canonical_sha256": "9f95f14f1dbef49e3e4a5db54e95ef039b9293da8d2b1f9c45b20519ad0d123c"
+    },
+    {
+      "id": "FC072",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/71"
+      },
+      "immutable_record_canonical_sha256": "971f2ef06e66819a3f4d2d13c9fa6dd7ae205c2ab12c0a8a5e3284bbb41c5f3b"
+    },
+    {
+      "id": "FC073",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/72"
+      },
+      "immutable_record_canonical_sha256": "4544433a83f69d83e2930d6dee2563b0140ee24ecb4fe9dbf36fb987eb14c8ce"
+    },
+    {
+      "id": "FC074",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/73"
+      },
+      "immutable_record_canonical_sha256": "e2f1225802dfc16b4d6d90875964d992c1f19749455c58295ec51f8327cc9230"
+    },
+    {
+      "id": "FC075",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/74"
+      },
+      "immutable_record_canonical_sha256": "6b1cbb942e6bec75ff47b99f2ba84f5739b2a86fdedd192d80881ce864248026"
+    },
+    {
+      "id": "FC076",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/75"
+      },
+      "immutable_record_canonical_sha256": "56a632858d8e831234061c9e26297fd26fbfca13d75244270772dc2857eea7d7"
+    },
+    {
+      "id": "FC077",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/76"
+      },
+      "immutable_record_canonical_sha256": "776fcf3bd26f0973c980a321370832864a9d2db46bb637b1d174764b5d0e61ed"
+    },
+    {
+      "id": "FC078",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/77"
+      },
+      "immutable_record_canonical_sha256": "8571cb3d13450db4ead8ac69005f108fab1f646715cd74c52920a08fb0f0266e"
+    },
+    {
+      "id": "FC079",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/78"
+      },
+      "immutable_record_canonical_sha256": "8099c27f3f15e35450b3c1f48aa3fa55342f29e28332f62ad6ab5b3b96483862"
+    },
+    {
+      "id": "FC080",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/79"
+      },
+      "immutable_record_canonical_sha256": "51aec37787a46a2f38352429293ca4b60ec90af057dd25ffe92a604ec25da76a"
+    },
+    {
+      "id": "FC081",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/80"
+      },
+      "immutable_record_canonical_sha256": "c23f79682ef4e4e4ba7c6a0ccc5fd5ce58499a1d7024e8fd85da5672f2cb083a"
+    },
+    {
+      "id": "FC082",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/81"
+      },
+      "immutable_record_canonical_sha256": "aaf2e6d411aa4f3d490823e5d0af8f30f22da466f079a9dcb7c6c5e4827fe2f8"
+    },
+    {
+      "id": "FC083",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/82"
+      },
+      "immutable_record_canonical_sha256": "4896234b682b20f4f74fadd7aea8e585502b2c66bd18dcedeeb724a991d67912"
+    },
+    {
+      "id": "FC084",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/83"
+      },
+      "immutable_record_canonical_sha256": "f5b793a3f12b5cb0b825de7f8ea649c6598ed2e6329440001763fe1f90389990"
+    },
+    {
+      "id": "FC085",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/84"
+      },
+      "immutable_record_canonical_sha256": "d4d648f03466814fa52e0410c6dfca6d13cfe8b19dcd7963ccec4a827b88d6db"
+    },
+    {
+      "id": "FC086",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/85"
+      },
+      "immutable_record_canonical_sha256": "51e13840130ad72a541185eba2ee716970aad98f80e3edacbc3fd7ab9f488003"
+    },
+    {
+      "id": "FC087",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/86"
+      },
+      "immutable_record_canonical_sha256": "1a93c2f7070903991925c6f48525f327622da9c964a88a4806801fadbc426532"
+    },
+    {
+      "id": "FC088",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/87"
+      },
+      "immutable_record_canonical_sha256": "99c6416911af2594a32ef94981534daa4120f0b93934ca1ce552d8a5ca290eb5"
+    },
+    {
+      "id": "FC089",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/88"
+      },
+      "immutable_record_canonical_sha256": "d6a523da194083da705cb4d1b55527bec27851ab32f5d585c432f5de98bb827b"
+    },
+    {
+      "id": "FC090",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/89"
+      },
+      "immutable_record_canonical_sha256": "d2d342a147c9fa4c92a23b102c54ffd279f9ead8b012bbc5911fbdccb458de5a"
+    },
+    {
+      "id": "FC091",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/90"
+      },
+      "immutable_record_canonical_sha256": "6b350dd06e2f621172bef1d550cbf5cc854a4b7af165457b8563c1090631c171"
+    },
+    {
+      "id": "FC092",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/91"
+      },
+      "immutable_record_canonical_sha256": "33a2558f008a0464cffadc7f66e9273f80f31fa636c1a180c673706a0770ea3b"
+    },
+    {
+      "id": "FC093",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/92"
+      },
+      "immutable_record_canonical_sha256": "a2b8ea9638485d67372379921b4ad6fb81f908406cf6336b60c3298b695f4e19"
+    },
+    {
+      "id": "FC094",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/93"
+      },
+      "immutable_record_canonical_sha256": "535e365aef8155642d685dcb9098d48bdca417da98810ce7c9fb7c523383a36d"
+    },
+    {
+      "id": "FC095",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/94"
+      },
+      "immutable_record_canonical_sha256": "75676c2bbd36427f62171a86d9987bac9909c0398365dccf8272dcbd8ab90d98"
+    },
+    {
+      "id": "FC096",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/95"
+      },
+      "immutable_record_canonical_sha256": "e481caa2ae27238d7496838e73340ad5f7d9b56c496c7da63dae2508397ba902"
+    },
+    {
+      "id": "FC097",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/96"
+      },
+      "immutable_record_canonical_sha256": "bebec2dded62e294366dc4d3d9e446f681516e8b33ac8eed8bb34ac075dade36"
+    },
+    {
+      "id": "FC098",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/97"
+      },
+      "immutable_record_canonical_sha256": "442e10f04b353458242a873f86cd68e1625ab9b385328a6cbb58301982dddc74"
+    },
+    {
+      "id": "FC099",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/98"
+      },
+      "immutable_record_canonical_sha256": "966cc5b977c72eaa4c70cef61135f9f6ba7bf622c8d1dfddae022c094dd2035c"
+    },
+    {
+      "id": "FC100",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/99"
+      },
+      "immutable_record_canonical_sha256": "4d969ebb4d757160eda17efccb32b644bad37fa2680f12b23ab5d39402ee57bb"
+    },
+    {
+      "id": "FC101",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/100"
+      },
+      "immutable_record_canonical_sha256": "57a96d24903fc283c332793cb51a275878a97c0f7dc67ce6905d0c9c62fd718b"
+    },
+    {
+      "id": "FC102",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/101"
+      },
+      "immutable_record_canonical_sha256": "016115bad2a09e0bb0a13cb8518ebe23c1ca74026758d57fd2ac471a55272876"
+    },
+    {
+      "id": "FC103",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/102"
+      },
+      "immutable_record_canonical_sha256": "aa225e0329ec6fb0cea19292effe8252e2392e98068c1ad1e6d4586afc40ac24"
+    },
+    {
+      "id": "FC104",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/103"
+      },
+      "immutable_record_canonical_sha256": "377aed11da215d2d062c2dedd75adcc1ea809545286e3fafdd44abaa6fb3f370"
+    },
+    {
+      "id": "FC105",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/104"
+      },
+      "immutable_record_canonical_sha256": "fbd0c662437fcfc003786dd238c03e3d1026cf63a153ead2720806158cdc82db"
+    },
+    {
+      "id": "FC106",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/105"
+      },
+      "immutable_record_canonical_sha256": "8901d14f33721700369535211c3171bf5d19abec5b6964c8a7a12ea702cb2bae"
+    },
+    {
+      "id": "FC107",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/106"
+      },
+      "immutable_record_canonical_sha256": "e38e94ccc45a3e712c9f1f146a949dcf80d6e4af52003f9a19717f67037c2d5d"
+    },
+    {
+      "id": "FC108",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/107"
+      },
+      "immutable_record_canonical_sha256": "36633192f6d61083c0e79d203d03d14efceb9bb9acbe7ddba1c89996b32d88d0"
+    },
+    {
+      "id": "FC109",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/108"
+      },
+      "immutable_record_canonical_sha256": "6c0c067a828dfb11487988e8686803a104e915ae7c88679498d106c477a4d926"
+    },
+    {
+      "id": "FC110",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/109"
+      },
+      "immutable_record_canonical_sha256": "4b9c91c38d70d57048875efed3e6fdc026262ef14d63a773536845df5bd8cd24"
+    },
+    {
+      "id": "FC111",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/110"
+      },
+      "immutable_record_canonical_sha256": "93741f2d29938ec40b7e568f29bf458b2397e564530a865f6025aab69244f004"
+    },
+    {
+      "id": "FC112",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/111"
+      },
+      "immutable_record_canonical_sha256": "f1a1b1860b3bd2b51cedcec79f2a0e60be1ac3b66c8988ad418680ceb72340e3"
+    },
+    {
+      "id": "FC113",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/112"
+      },
+      "immutable_record_canonical_sha256": "d6ec321bfb40da8b0b0b124e43c9a560003f76960325334c0d4ddeca05d03958"
+    },
+    {
+      "id": "FC114",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/113"
+      },
+      "immutable_record_canonical_sha256": "c83a8a5a46820c7eb3c3cba0d4a7b0ba1bff3d3e8ee03a91844e5df019d8f2cc"
+    },
+    {
+      "id": "FC115",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/114"
+      },
+      "immutable_record_canonical_sha256": "c92e7a2fe96eb26c12a0734d6138b1bce8b1f678dc0ed0acbf1fb43b9d7eeeae"
+    },
+    {
+      "id": "FC116",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/115"
+      },
+      "immutable_record_canonical_sha256": "c1ff750e094dcbc2b45451cd1243a5e996a726a3e1dc3bee8c26f7038415e919"
+    },
+    {
+      "id": "FC117",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/116"
+      },
+      "immutable_record_canonical_sha256": "a325f901e212bc5eaf17110ed216fed1fd848ff6ba7150cddd51c8c32b33a766"
+    },
+    {
+      "id": "FC118",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/117"
+      },
+      "immutable_record_canonical_sha256": "4f8da466db4bb1cb6c81aeddaae01642910b35fa1e14667dc7e00e08d825556d"
+    },
+    {
+      "id": "FC119",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/118"
+      },
+      "immutable_record_canonical_sha256": "3f60d09d6dbc09ff0db1699c073c18617576d6dde87aad89ddc670f01abe4005"
+    },
+    {
+      "id": "FC120",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/119"
+      },
+      "immutable_record_canonical_sha256": "204fd7df6963a7d38ab22579341134dec9f6347cbf4e1ef064e349242a57fc7d"
+    },
+    {
+      "id": "FC121",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/120"
+      },
+      "immutable_record_canonical_sha256": "e06553cd88c37196b94be4629b960ac54d88673271e553c8352cd35fd355987e"
+    },
+    {
+      "id": "FC122",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/121"
+      },
+      "immutable_record_canonical_sha256": "6c2018860fd33a434a81823c28fb228dce534634167802ae9ec9a40712b5cec6"
+    },
+    {
+      "id": "FC123",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/122"
+      },
+      "immutable_record_canonical_sha256": "7f4e3319110b629e875a9b1ffbe9d596fbb41f4dc92301c68ada2d562d29cdb9"
+    },
+    {
+      "id": "FC124",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/123"
+      },
+      "immutable_record_canonical_sha256": "bca05e4d18f50c9502ca85a5b89b1acc6f4750fe6cc3d230565ec174ddff3118"
+    },
+    {
+      "id": "FC125",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/124"
+      },
+      "immutable_record_canonical_sha256": "471a7c1dff57e2647d1d6a8074a105901ce30981de8c3de7a7f279d68ec4f99a"
+    },
+    {
+      "id": "FC126",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/125"
+      },
+      "immutable_record_canonical_sha256": "64fc01e1426d462fd01ccc61a8ab731b8ab3afafdb1b3dfc921fa6cbf2d0c334"
+    },
+    {
+      "id": "FC127",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/126"
+      },
+      "immutable_record_canonical_sha256": "f0aae11cb9d1f526733fffef1af364ee5b1f538d2570842320b6048a0351eafe"
+    },
+    {
+      "id": "FC128",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/127"
+      },
+      "immutable_record_canonical_sha256": "9c788b7f6f584a6f58f5674a712753933f2064223c54a78002c40a956fa27c4a"
+    },
+    {
+      "id": "FC129",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/128"
+      },
+      "immutable_record_canonical_sha256": "d88ed4427fadc421e0dbfcb38ec2a769c8e3120667b283b2b06723214525b271"
+    },
+    {
+      "id": "FC130",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/129"
+      },
+      "immutable_record_canonical_sha256": "20255a6048c13fba5c724e64764d05e9eb363101490f7bd50f3f945f897e61fb"
+    },
+    {
+      "id": "FC131",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/130"
+      },
+      "immutable_record_canonical_sha256": "f3e0dcc82a8094ac49d539a8c4c6922a385f18751922a3c976b543da1c336fac"
+    },
+    {
+      "id": "FC132",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/131"
+      },
+      "immutable_record_canonical_sha256": "c0d707a3596488aecaf0fa58879be44e0969d43aee6a2b7624304095152d5a6a"
+    },
+    {
+      "id": "FC133",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/132"
+      },
+      "immutable_record_canonical_sha256": "cbde5a3a41b55802d6a0605fadf632652ca5020b884f34171a520c89a11f1b0b"
+    },
+    {
+      "id": "FC134",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/133"
+      },
+      "immutable_record_canonical_sha256": "c709c70b068cd321e0ad8acad128a9f790dcfbb75c8b50a79947b04f81fb0288"
+    },
+    {
+      "id": "FC135",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/134"
+      },
+      "immutable_record_canonical_sha256": "ae5ac56f43cb139aefb08e57c1b4731b620c61811d041205c2bf1dac58fbbfee"
+    },
+    {
+      "id": "FC136",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/135"
+      },
+      "immutable_record_canonical_sha256": "308d0e89955834c1722b1c441136024f8ce0a06a33f939c564afb49575c8ecf4"
+    },
+    {
+      "id": "FC137",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/136"
+      },
+      "immutable_record_canonical_sha256": "ac8e895c10bcaf222198b57b36744f00c10fdbff673be98c4ee907775e837410"
+    },
+    {
+      "id": "FC138",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/137"
+      },
+      "immutable_record_canonical_sha256": "5316774e3424c903c3e794adf2d90afcab28442c8531dee2cccea3ce44c55fef"
+    },
+    {
+      "id": "FC139",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/138"
+      },
+      "immutable_record_canonical_sha256": "043bcf6c3f29136b4ce24cdfeb064af81f2d1662a521468d84ec42b2e9afb3b2"
+    },
+    {
+      "id": "FC140",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/139"
+      },
+      "immutable_record_canonical_sha256": "08529e1e613bed137bcd24fcbc17990fcbfa9c7c95fb21b22b05c7c0861d7599"
+    },
+    {
+      "id": "FC141",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/140"
+      },
+      "immutable_record_canonical_sha256": "06b08b4034fc07e987b0a24e6e94b9e53fbeae002672861acc1d6f5b23f030b3"
+    },
+    {
+      "id": "FC142",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/141"
+      },
+      "immutable_record_canonical_sha256": "d777291d50738fd405c855bef7c34f8d9092be87163f7c8a24e66cb64e584063"
+    },
+    {
+      "id": "FC143",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/142"
+      },
+      "immutable_record_canonical_sha256": "b3bc4a80909ef61d60e33fc06abe6fcf4a1195ebbb9c41b77bd5f8f675fd83ca"
+    },
+    {
+      "id": "FC144",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/143"
+      },
+      "immutable_record_canonical_sha256": "2edad66fa155d7384b6dd69eaa69c33eb35d0722af1a5f08d4bed54fb759f84d"
+    },
+    {
+      "id": "FC145",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/144"
+      },
+      "immutable_record_canonical_sha256": "113e07af0f091c0c36276de6f6351fd83f701faa71f89f7cf1d47ded8465aa95"
+    },
+    {
+      "id": "FC146",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/145"
+      },
+      "immutable_record_canonical_sha256": "141eb81ca1ad8e54751ccb0ab6c55ac54e8a4534f059eb1313857ca95d7366f0"
+    },
+    {
+      "id": "FC147",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/146"
+      },
+      "immutable_record_canonical_sha256": "e68d9ee83a8f87a5d023b32a7901c91fc839b6c1bd712c8bf4bcde9fbf963ba5"
+    },
+    {
+      "id": "FC148",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/147"
+      },
+      "immutable_record_canonical_sha256": "0b7dcff7a32c9a3be73fbb2215f54371a22f5bca8ed5dcb5a7124897321893b1"
+    },
+    {
+      "id": "FC149",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/148"
+      },
+      "immutable_record_canonical_sha256": "59ea080836add1532005416aa8f0db92fc3e9c0843986bd9dc6f37a447f8f10c"
+    },
+    {
+      "id": "FC150",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/149"
+      },
+      "immutable_record_canonical_sha256": "815a37294abdb610770f4eece99302d1f564551cbd02817fd566e393209bb825"
+    },
+    {
+      "id": "FC151",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/150"
+      },
+      "immutable_record_canonical_sha256": "fff909e26b60a60b080ecc92ba41a3f2fb277f2a440fe1252c43fd8360693fba"
+    },
+    {
+      "id": "FC152",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/151"
+      },
+      "immutable_record_canonical_sha256": "482f0cb25026bc1f8173e545a1f44245effa615d1dcfbcb355c4176a634af99e"
+    },
+    {
+      "id": "FC153",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/152"
+      },
+      "immutable_record_canonical_sha256": "d6a2f9e3b3ed0944adb34e03d9aa04968efc9043cc809f9190c2e81b8aa07577"
+    },
+    {
+      "id": "FC154",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/153"
+      },
+      "immutable_record_canonical_sha256": "74dafcf20f5a81c85909b8c1173981d89a096c0a7e8a09ef00b1bf89eb20fecf"
+    },
+    {
+      "id": "FC155",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/154"
+      },
+      "immutable_record_canonical_sha256": "afbe0a92e7c4e88b79eac44bf8f981231fddf04d35bed63ffe3c227a5252dcb3"
+    },
+    {
+      "id": "FC156",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/155"
+      },
+      "immutable_record_canonical_sha256": "33b46a43ab83d1f7f8476ffd9ff011f32dbb5f77225a70d7eaefc0ee2ca9851c"
+    },
+    {
+      "id": "FC157",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/156"
+      },
+      "immutable_record_canonical_sha256": "736349a956b53b63f18c08b4d1674cdeca3267c5f593a5f63929a70133768e87"
+    },
+    {
+      "id": "FC158",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/157"
+      },
+      "immutable_record_canonical_sha256": "0a2e4bab5fa80bd364b8b0f7c5ca98ad073bdaf7227a5438eb3fd1619355e93e"
+    },
+    {
+      "id": "FC159",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/158"
+      },
+      "immutable_record_canonical_sha256": "15b4fac6985e9e9501c18784c7f6dee75b135a8a55837cc71293ba4451fd4788"
+    },
+    {
+      "id": "FC160",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/159"
+      },
+      "immutable_record_canonical_sha256": "d8eeb24495df8859a3f3823e6c8e16cf19914cd7a2dc419f2b6f41976050c640"
+    },
+    {
+      "id": "FC161",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/160"
+      },
+      "immutable_record_canonical_sha256": "640da73693b3cc8ec931097cb58f183c26a7601b5707e9af57fceb1b6c715baf"
+    },
+    {
+      "id": "FC162",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/161"
+      },
+      "immutable_record_canonical_sha256": "90a8753c0461e8a9df779fec697a1bebdce58875d30b697dec1dce84dc87139a"
+    },
+    {
+      "id": "FC163",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/162"
+      },
+      "immutable_record_canonical_sha256": "cb4ec3eceb98c23b02e56a552e50ba6f23fd1366a69a9a9d39c8da54863be467"
+    },
+    {
+      "id": "FC164",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/163"
+      },
+      "immutable_record_canonical_sha256": "162ff032aea8041a3f5c3e76836711cbaae53614907e99cfc297897a60560dd6"
+    },
+    {
+      "id": "FC165",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/164"
+      },
+      "immutable_record_canonical_sha256": "8643f9df92ded7a65dd7057e1943f454cbd7f01ef651ab1e686a83053b7d6326"
+    },
+    {
+      "id": "FC166",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/165"
+      },
+      "immutable_record_canonical_sha256": "216fa50eaaa6f368253ad891bad22466ef729effd16eb4618189f8057288f0c9"
+    },
+    {
+      "id": "FC167",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/166"
+      },
+      "immutable_record_canonical_sha256": "971b709aae552383eaf45df405e744b808a79e91d213c61b71e984d73e4c58ef"
+    },
+    {
+      "id": "FC168",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/167"
+      },
+      "immutable_record_canonical_sha256": "8dcee95106459cb2a584d99fbcebc8f2ec44d21f5f03c8722fe9bf16d48df1b4"
+    },
+    {
+      "id": "FC169",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/168"
+      },
+      "immutable_record_canonical_sha256": "a0420db477d8b6d5ccdcfa1b0e3672a85446d72166494361e43bba601fbf9fed"
+    },
+    {
+      "id": "FC170",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/169"
+      },
+      "immutable_record_canonical_sha256": "9beb7bc369cd7e80c8674a3044fc8b7540c8f31bb51d6d26f0675a05d02d0758"
+    },
+    {
+      "id": "FC171",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/170"
+      },
+      "immutable_record_canonical_sha256": "96924a996014085de58c36aad31b1d06fff037459d9f8100ba6bafda6b684f90"
+    },
+    {
+      "id": "FC172",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/171"
+      },
+      "immutable_record_canonical_sha256": "9e535b2c5b54885673ef696ceb6377d9ff67ad7e6965571bd65596b1546b2c83"
+    },
+    {
+      "id": "FC173",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/172"
+      },
+      "immutable_record_canonical_sha256": "f2d52a0a8fc8db7034b7ef8cef4ef3142f710cc6f2e0a2b4fbed1669688949c4"
+    },
+    {
+      "id": "FC174",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/173"
+      },
+      "immutable_record_canonical_sha256": "8fba39a4f87b0e54231c3b837bd3734b94d0ea6500c2f87d18bbfea65b05f728"
+    },
+    {
+      "id": "FC175",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/174"
+      },
+      "immutable_record_canonical_sha256": "aa5cb7a1cfe126f26921759fd49bc867f7f9e1a0879df733e2b95f8940c217f8"
+    },
+    {
+      "id": "FC176",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/175"
+      },
+      "immutable_record_canonical_sha256": "54b5fbfda1627badc4e7d2bee8f142a0a7e8c8b28b204b71fa8450e69fa8c84c"
+    },
+    {
+      "id": "FC177",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/176"
+      },
+      "immutable_record_canonical_sha256": "99839577b07ad7d2cde34fc1db1e18072048f454f37ee5b30bf7704be47463cd"
+    },
+    {
+      "id": "FC178",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/177"
+      },
+      "immutable_record_canonical_sha256": "d8976b8cbf6c080ab2323c61a2ad9678e1b5cdbed129835bf29ea0812cd0d536"
+    },
+    {
+      "id": "FC179",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/178"
+      },
+      "immutable_record_canonical_sha256": "6906308cf3132b23050cb25734fd970cd4326ea9808c6c8feb300eb5d5770d8c"
+    },
+    {
+      "id": "FC180",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/179"
+      },
+      "immutable_record_canonical_sha256": "85627d94aa301667eb5e1d82c93b7ed3c921766ffd7cf9d452dd4bf91cf4acd7"
+    },
+    {
+      "id": "FC181",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/180"
+      },
+      "immutable_record_canonical_sha256": "e542e56d93fb95c33e21236bfa6387946ae50a45f8cce8df4776f27ce4c77e8c"
+    },
+    {
+      "id": "FC182",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/181"
+      },
+      "immutable_record_canonical_sha256": "c538cdd7d67aac7529d3a65138bbf15851e7a9ed53c0b328b72dffe6b595d5fb"
+    },
+    {
+      "id": "FC183",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/182"
+      },
+      "immutable_record_canonical_sha256": "5a6e8b78edd7fe7f6a1afd1b739340ba8374154590c718f23ddce60c7108975c"
+    },
+    {
+      "id": "FC184",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/183"
+      },
+      "immutable_record_canonical_sha256": "6e15b71f2e03f1ddaa9e3f773b05fd815812f938c1285b5cd8b4f12e52e40690"
+    },
+    {
+      "id": "FC185",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/184"
+      },
+      "immutable_record_canonical_sha256": "bd950aa2bd4328996ff39fc2dabe92e17ed13f04b7e363cc1ffa32bb3785b05f"
+    },
+    {
+      "id": "FC186",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/185"
+      },
+      "immutable_record_canonical_sha256": "790b60cd56345e1060d22dbeded8d8398ee94976f7249883559244c51daa926e"
+    },
+    {
+      "id": "FC187",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/186"
+      },
+      "immutable_record_canonical_sha256": "88949c1bda9cda3069f492b37366cea57c601157c9539096cfe455cece1c5929"
+    },
+    {
+      "id": "FC188",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/187"
+      },
+      "immutable_record_canonical_sha256": "50a3938a97e6dae890bb13b94ce35d1204a2cd4878514400099a53fb441a5643"
+    },
+    {
+      "id": "FC189",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/188"
+      },
+      "immutable_record_canonical_sha256": "44dbb6c6100f2b99b06fb5cdded3a831812c0de9e91b4a7f0680509504be7cd9"
+    },
+    {
+      "id": "FC190",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/189"
+      },
+      "immutable_record_canonical_sha256": "44178ea4d40509d74459d04b1660d4adf0f6282311fefd7fb776993e71c79989"
+    },
+    {
+      "id": "FC191",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/190"
+      },
+      "immutable_record_canonical_sha256": "55305da863b5c27e766dc50812caf30014267f02882e37ed416323993ee5a3f3"
+    },
+    {
+      "id": "FC192",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/191"
+      },
+      "immutable_record_canonical_sha256": "0fc54f1ca2b798db9b16a23733440998a45e3f292c585e7b1123dbfada6e5444"
+    },
+    {
+      "id": "FC193",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/192"
+      },
+      "immutable_record_canonical_sha256": "bff065719e0b2f84b4fd0dfc52e3f8c555e6b8235b74f721eb6fa8d981a63304"
+    },
+    {
+      "id": "FC194",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/193"
+      },
+      "immutable_record_canonical_sha256": "efec678822ffb2f8cabe7f22d1cca9e7d1af92ebe06182271c1a9acab7f04380"
+    },
+    {
+      "id": "FC195",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/194"
+      },
+      "immutable_record_canonical_sha256": "4ee135a7f4bc399b26168ed16d7e2f8328ad773f22dd81615b8973529e33c469"
+    },
+    {
+      "id": "FC196",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/195"
+      },
+      "immutable_record_canonical_sha256": "ea8862c963762f1faaf8acaf400d4b4d78ec034447187866c228a30e112068ae"
+    },
+    {
+      "id": "FC197",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/196"
+      },
+      "immutable_record_canonical_sha256": "e3ed63845f2ffc113fb0220423b508afe2361f883256b8769f5855529a4969c1"
+    },
+    {
+      "id": "FC198",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/197"
+      },
+      "immutable_record_canonical_sha256": "a4669a300e11e6cdd16ea61505b947f5d6cf88c18b1a82aafd9da7d55cfd9551"
+    },
+    {
+      "id": "FC199",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/198"
+      },
+      "immutable_record_canonical_sha256": "fa41158e723ba57140b0dba4f67d42ffa5e57692af40593d1de5831a3b53541b"
+    },
+    {
+      "id": "FC200",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/199"
+      },
+      "immutable_record_canonical_sha256": "2060cb252437a3e32981caa0fe1693c972680f646ac4efd0d355cc5a66cbf674"
+    },
+    {
+      "id": "FC201",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/200"
+      },
+      "immutable_record_canonical_sha256": "bcfb29b091568151144bf4df30cb95a8b57f046d4ced9749a0be9b2a805f6106"
+    },
+    {
+      "id": "FC202",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/201"
+      },
+      "immutable_record_canonical_sha256": "1d9ab9d97dd51c4c2c9b653100b8fc8883507d046549e8e56eb7851855492fa3"
+    },
+    {
+      "id": "FC203",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/202"
+      },
+      "immutable_record_canonical_sha256": "14c2f4d781e587db33d45dc1f06ce0c1a1bf67d52e9ce1d5dd295e301c919530"
+    },
+    {
+      "id": "FC204",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/203"
+      },
+      "immutable_record_canonical_sha256": "ada88be7f75cf208ff19a65678a8df0ac45ab5737d0780db72afab7f70ab7856"
+    },
+    {
+      "id": "FC205",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/204"
+      },
+      "immutable_record_canonical_sha256": "da8c811e46340be8ef26d0f12b2e76296e218ec0832dbb27a40cbc530885eb66"
+    },
+    {
+      "id": "FC206",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/205"
+      },
+      "immutable_record_canonical_sha256": "4e90ad8f2903b49d5093c7692c16ac93fed8a19ba4fdec689bedb807c76f7b39"
+    },
+    {
+      "id": "FC207",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/206"
+      },
+      "immutable_record_canonical_sha256": "472669ac00d357161e399500cc2b2f92a50c8acd26aa3fd0702626dabd1156c3"
+    },
+    {
+      "id": "FC208",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/207"
+      },
+      "immutable_record_canonical_sha256": "c2f0cf530a9d74175a95db0b1f99aa657c8682a8b169557fb0153c29570b1eda"
+    },
+    {
+      "id": "FC209",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/208"
+      },
+      "immutable_record_canonical_sha256": "155babc77bfab10676926b18eed6b9670e044cc3a91bdc4989efe6f3508efb7f"
+    },
+    {
+      "id": "FC210",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/209"
+      },
+      "immutable_record_canonical_sha256": "1a4f774fab85fe82c8fb423bfa29f0791f7bfa3ce835c8b41c2bce3f83d47ec8"
+    },
+    {
+      "id": "FC211",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/210"
+      },
+      "immutable_record_canonical_sha256": "c66a316aa2d7884102ca857d022974c78d85cb0da39c7b8e5b0ca34fa707326d"
+    },
+    {
+      "id": "FC212",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/211"
+      },
+      "immutable_record_canonical_sha256": "1b94eb75800fa6d80e63a9dd24031b21a98c2b3b8a216f27980f82005b3b65d5"
+    },
+    {
+      "id": "FC213",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/212"
+      },
+      "immutable_record_canonical_sha256": "01416f7abd0d74d98a2800d4f12d2d6e9685d4da704b67cea3852df8e54534a4"
+    },
+    {
+      "id": "FC214",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/213"
+      },
+      "immutable_record_canonical_sha256": "011d995f470db2a3310dea315602bc1a5bc0a7979480759881be23f339899938"
+    },
+    {
+      "id": "FC215",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/214"
+      },
+      "immutable_record_canonical_sha256": "d75034e607648bb8b4c0c7194ecb825156842099a5a6cde840d5973b8fab0005"
+    },
+    {
+      "id": "FC216",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/215"
+      },
+      "immutable_record_canonical_sha256": "21dce70cbde5b8ffccad8726c522486d97fb5380918462a083514895e39752e3"
+    },
+    {
+      "id": "FC217",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/216"
+      },
+      "immutable_record_canonical_sha256": "3209f231800b4c44c44afd8e7911f424b08035f02eb770e57397b669d191bea5"
+    },
+    {
+      "id": "FC218",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/217"
+      },
+      "immutable_record_canonical_sha256": "f8feda2b450dd9a3f494c539d9f5a1e6e8344e38ad507522047bc0bf08eb9d5e"
+    },
+    {
+      "id": "FC219",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/218"
+      },
+      "immutable_record_canonical_sha256": "0265ef6a595e6228e5ceadf17a4b9b6cf4087c4fb0e7c45e44a011f992579543"
+    },
+    {
+      "id": "FC220",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/219"
+      },
+      "immutable_record_canonical_sha256": "fd053136c05a4f0a70ba7c285cb73cc0efe0f11c0bf01ba4033cf6a5aa74cdee"
+    },
+    {
+      "id": "FC221",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/220"
+      },
+      "immutable_record_canonical_sha256": "66e3077d703c33bd652feaee2a78439e0ad7856f54b12f32585e74dd0d4e4e2e"
+    },
+    {
+      "id": "FC222",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/221"
+      },
+      "immutable_record_canonical_sha256": "acb1c4f2a09d897c6b1ce2671f783a2eba419451ed74a4794ae04b12a69a86b6"
+    },
+    {
+      "id": "FC223",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/222"
+      },
+      "immutable_record_canonical_sha256": "8c125faf79b427a3af4667e4d1869b016dd7e1fd5b6f42b0da111cf1d374b915"
+    },
+    {
+      "id": "FC224",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/223"
+      },
+      "immutable_record_canonical_sha256": "d666cd1497477bb22ab071fe0d35aff7f87645f3a195e149484b8b70ef8018bd"
+    },
+    {
+      "id": "FC225",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/224"
+      },
+      "immutable_record_canonical_sha256": "3ac33a8c7a0e926a7d90045b4fad81c2451aa9ae3667d0df7abf7dca41268dc9"
+    },
+    {
+      "id": "FC226",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/225"
+      },
+      "immutable_record_canonical_sha256": "225f3c25007001c78fb118012b49643f5c58cde89bf6afd706347e9f89cfef1e"
+    },
+    {
+      "id": "FC227",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/226"
+      },
+      "immutable_record_canonical_sha256": "9d5e779bb78b4e8a68de363815b193f3a3a580a2b4391f5d7492be82aec7f52c"
+    },
+    {
+      "id": "FC228",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/227"
+      },
+      "immutable_record_canonical_sha256": "0fd2be76a78bcb2499c2872414dbc15327f901173ad2b2354d38a371da5aee2e"
+    },
+    {
+      "id": "FC229",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/228"
+      },
+      "immutable_record_canonical_sha256": "847d9f1ceb05bf3c3d02b06f18367a2ac94bef4ed1c93246d2b4d8e695d1a9d5"
+    },
+    {
+      "id": "FC230",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/229"
+      },
+      "immutable_record_canonical_sha256": "74d918e63720dcf77b2e1177f19202e1ff9da9ed1965899b4ace696ab66a96fe"
+    },
+    {
+      "id": "FC231",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/230"
+      },
+      "immutable_record_canonical_sha256": "0881df90e60921b3333e6aeb44a04d99fa577f98d172359be904d423cc552bca"
+    },
+    {
+      "id": "FC232",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/231"
+      },
+      "immutable_record_canonical_sha256": "7291e04315f9efb3bf73e2c9fa51c9a963dacfb395cc6cd455e6a4578d8902d3"
+    },
+    {
+      "id": "FC233",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/232"
+      },
+      "immutable_record_canonical_sha256": "7610792286440897019f759a133dec71f8292439524cab72956ffdd498cb742e"
+    },
+    {
+      "id": "FC234",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/233"
+      },
+      "immutable_record_canonical_sha256": "e8f144821a50f96d5d8dbb7b8468953fd6a5512286ed0b2f7a8133c8070e4786"
+    },
+    {
+      "id": "FC235",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/234"
+      },
+      "immutable_record_canonical_sha256": "fd158592db33ad06b90d9f86ec8b9c6fd14d0a110ce0308c8733de878bfe1cc2"
+    },
+    {
+      "id": "FC236",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/235"
+      },
+      "immutable_record_canonical_sha256": "b7ef2abe65704350ac22e7adc5a6d47ada9da9f7a130f8f7703383bc08311226"
+    },
+    {
+      "id": "FC237",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/236"
+      },
+      "immutable_record_canonical_sha256": "de3bdb6706dc9bfd8ecf502d073cd78c0893da67ef4af6253ec91c03bf6e2b0b"
+    },
+    {
+      "id": "FC238",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/237"
+      },
+      "immutable_record_canonical_sha256": "0e26cc9bcde33224d1bd77f893f831284218de582c024d1233c2e9677ed1214d"
+    },
+    {
+      "id": "FC239",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/238"
+      },
+      "immutable_record_canonical_sha256": "e0072def43e454e391da3e5d16f8dd0a7432fe10b3a983861ed1fb8c5d27fc61"
+    },
+    {
+      "id": "FC240",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/239"
+      },
+      "immutable_record_canonical_sha256": "e7f2e75ea111b693455d8ba69dd810bc5f7328650b8da74b061e9e2a7e0ac3d4"
+    },
+    {
+      "id": "FC241",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/240"
+      },
+      "immutable_record_canonical_sha256": "6f1fd5321c20051ef3f345c71b41a93216978b5f77512a8480614866277e0ca3"
+    },
+    {
+      "id": "FC242",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/241"
+      },
+      "immutable_record_canonical_sha256": "3d3d271a371e479baedae0075cf696261af5455beb24607afa52f0a10ffe3e52"
+    },
+    {
+      "id": "FC243",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/242"
+      },
+      "immutable_record_canonical_sha256": "3d961e515241c92b72720e50b07a642da91a1514f8bbdab3edaa4b019479f99f"
+    },
+    {
+      "id": "FC244",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/243"
+      },
+      "immutable_record_canonical_sha256": "f044e4e2d05d8fcde3762404ad45104a5781b9c7aa90702b1d019cfe75476380"
+    },
+    {
+      "id": "FC245",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/244"
+      },
+      "immutable_record_canonical_sha256": "6fd7643041f55888abac94e857f89e4ec915d7035cae090c3fa9a1beb51b786c"
+    },
+    {
+      "id": "FC246",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/245"
+      },
+      "immutable_record_canonical_sha256": "bee42018c780b55e7569463c6fe65febf6714a4fbbfa22c7d58d9886f5340105"
+    },
+    {
+      "id": "FC247",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/246"
+      },
+      "immutable_record_canonical_sha256": "60800708a38afb0bcc54e190f7d01e219db5050d2ccebc8b986d38c106e1a507"
+    },
+    {
+      "id": "FC248",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/247"
+      },
+      "immutable_record_canonical_sha256": "8ac87899f3f1a40b71b239f021c91a773b578be577d3c91d54d8630a5845024b"
+    },
+    {
+      "id": "FC249",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/248"
+      },
+      "immutable_record_canonical_sha256": "eef05ffa2ac3336a1bcff380d0430611d6d61a8ba8f151e1e96619b2cb802c4c"
+    },
+    {
+      "id": "FC250",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/249"
+      },
+      "immutable_record_canonical_sha256": "2219f11bd1ba24b8c272666c080d5401219423c0f46eca2a4186ab524a8fab08"
+    },
+    {
+      "id": "FC251",
+      "reference": {
+        "input": "D9",
+        "json_pointer": "/new_units/250"
+      },
+      "immutable_record_canonical_sha256": "e28315ac0d95013cf0a0b15f4f63e00de9a8bbed990850590c90cac197d3cd18"
+    }
+  ],
+  "source_annotation_policy": "REFERENCE_ONLY_ALL_307_D9_RECORDS_IMMUTABLE_NO_ELIGIBILITY_OR_OWNERSHIP_RECHECK"
+}

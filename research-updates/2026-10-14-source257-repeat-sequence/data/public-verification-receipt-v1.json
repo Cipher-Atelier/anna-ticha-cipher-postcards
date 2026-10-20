@@ -1,0 +1,80 @@
+{
+  "schema": "source257-d12-public-verification-receipt-v1",
+  "status": "PASS_ACTUAL_SELECTED_DATA_AND_NEW_PACKAGE_CHECKS",
+  "new_package_fixtures": {
+    "status": "PASS",
+    "tests": 94,
+    "canonical": 43,
+    "spatial": 33,
+    "public_binding": 16,
+    "native_layout_mapping": 2,
+    "command": "python3 -m unittest discover -s research-updates/2026-10-14-source257-repeat-sequence/code -v",
+    "python": "3.13.9",
+    "source_images_or_private_proofs_required": false,
+    "old173_fixture_suite_rerun_locally": false
+  },
+  "actual_public_canonical_and_tsv": {
+    "status": "PASS_CANONICAL_SOURCE_GATES",
+    "canonical_whole_file_sha256": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348",
+    "tsv_whole_file_sha256": "5c03b3806bb7c7f2047e11b9054ec5b3648922e8805fac0ca2795650c88b57ac",
+    "validation_whole_file_sha256": "f9cb35fb6dc661c54c2b908f4354b562a87b1e26c87ff5835dbfe8b5ac2041ab",
+    "core_pairs": 930,
+    "core_accepted": 35,
+    "core_deferred": 895,
+    "closure_pairs": 12,
+    "closure_accepted": 12,
+    "inherited_edges": 11,
+    "graph_edges": 58,
+    "overlapping_maximal_cliques": 15,
+    "annotation_references": 307,
+    "source_pixel_io": "NONE_REQUIRED",
+    "exact_full_object_and_tsv_recomputation": true
+  },
+  "selected_input_byte_checks": {
+    "seed_evidence_files": 17,
+    "seed_ledger_whole_file_sha256": "6dbcd3ae6bcaedd4914ed656bc845a0f194f90a8b193d53ba6f01ce3d3dcaba0",
+    "final_reviews": 2,
+    "final_review_ledger_whole_file_sha256": "c13799beea54492d064e363321c34d96cab9de283d5df81d698070771aa991e7",
+    "copied_stage_files_all_byte_identical": 21,
+    "original_vs_selected_scientific_hashes_explicit": true,
+    "actual_selected_bytes_match_fixed_adapter_pins": true,
+    "all307_original_record_hashes_checked": true
+  },
+  "publication_adaptation_ledger_whole_file_sha256": "1df837d6f167629f87467aba52ebbd3d43331d2c73a3008c563ce9aa3d755500",
+  "private_canonical_freeze_document_whole_file_sha256": "6343370b6179200e73bb28bfd04f6a509f3de92766381c74a08ae94b83c35c89",
+  "independent_AI_code_review": {
+    "status_reported_by_parent": "PASS",
+    "review_document_whole_file_sha256": "3ba572c704c93faaec571b60ac71d0dedd7b6f390a664b59845ed1367c5d5a6b",
+    "scope": "Frozen canonical/checker and binding code review; not external expert validation."
+  },
+  "private_whole_proof_document_references": {
+    "context_builder_pixel_proof_json": "e87fec18c6724d1146c57a7f7f261b23ed2ea759480e6dba4befb18bfd28cf05",
+    "independent_source_panel_proof_json": "5124c2f1810d98b215e9d5142c3248a97e136539442d9bc8420288ab33c03936"
+  },
+  "prior_root_integrity": {
+    "original_manifest_bindings": 313,
+    "unchanged_original_bindings": 311,
+    "authorized_changed_bindings": [
+      "README.md",
+      ".github/workflows/verify.yml"
+    ],
+    "other_existing_tracked_file_bytes_unchanged": true,
+    "root_manifest_excludes_itself": true
+  },
+  "workflow": {
+    "two_D12_commands_added": true,
+    "all_prior_lines_preserved_in_order": true,
+    "existing_actions_dependencies_matrix_and_commands_preserved": true,
+    "python_matrix": [
+      "3.10",
+      "3.13"
+    ],
+    "remote_CI": "Required on eventual pushed revision; not represented as locally executed."
+  },
+  "final_root_offline_verification": {
+    "command": "python3 verification/check_all.py",
+    "execution_order": "Run once after this receipt and the package/root manifests are finalized. Its actual output and final manifest hashes are retained separately, avoiding self-reference.",
+    "scope": "Bounded manifest/saved-output replay; no original source comparison, old test-suite run or optimizer."
+  },
+  "scientific_limits": "Saved evidence-gate validation and separate AI review on the same original pixels; not blind corroboration, external expert validation, cipher identity, alphabet count or global reading order."
+}

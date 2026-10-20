@@ -2,7 +2,7 @@
 
 ## Start here — 20 October 2026
 
-Follow [overview and current status](README.md) → [cards and evidence levels](anna-ticha/readings.md) → the chosen card’s literal and supporting evidence → [methods](anna-ticha/methods.md) and [dated audits](research-updates/README.md). [Card 204](anna-ticha/card-204.md) publishes the original diplomatic reading, editorial Czech, English translation and twelve caveats, with an author-reported external check; no complete positional/replay package is added. The later [four Russian readers](research-updates/README.md#four-russian-readers) are selected conditional reports on unmerged draft PR #19; English guides explain their scope.
+Follow [overview and current status](README.md) → [cards and evidence levels](anna-ticha/readings.md) → the chosen card’s literal and supporting evidence → [methods](anna-ticha/methods.md) and [dated audits](research-updates/README.md). [Card 204](anna-ticha/card-204.md) publishes the original diplomatic reading, editorial Czech, English translation and twelve caveats, with an author-reported external check; no complete positional/replay package is added. The later [four Russian readers](research-updates/README.md#four-russian-readers) are selected conditional reports published in PR #19; English guides explain their scope.
 
 The examples below explain the existing public checking package. They do not establish the correctness of every source assignment; consult the [later key-foundation qualifications](research-updates/README.md#key-foundation-and-later-outcomes).
 

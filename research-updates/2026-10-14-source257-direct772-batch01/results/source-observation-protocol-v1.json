@@ -1,0 +1,53 @@
+{
+  "schema": "source257-direct772-source-observation-protocol-v1",
+  "scope": {
+    "selected_pairs": 64,
+    "selected_targets": 36,
+    "paired_boards": 16,
+    "order": "LEXICOGRAPHIC_PAIR_ID_ASCII; ADMINISTRATIVE_ORDER_NOT_SIMILARITY_OR_PROBABILITY",
+    "intake_is_exact_selected_batch": true
+  },
+  "input_pins": {
+    "queue_sha256": "ecfb18d68ac7135f3c3215f0ec1843a199f1eda20840ab6cf98003a8b37818c0",
+    "safe_intake_sha256": "64745684aecba5f547b4033d2d9425a8864955b94078f88aa9ae3620d0f96bca",
+    "output_format_sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d"
+  },
+  "original_source": {
+    "card": "257",
+    "encoded_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+    "rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94",
+    "size": [
+      1785,
+      1175
+    ],
+    "mode": "RGB",
+    "exif_orientation": 1
+  },
+  "feature_dimensions": [
+    "path_topology",
+    "enclosures",
+    "openings",
+    "stem_pattern",
+    "attached_bars",
+    "connected_extra_strokes",
+    "terminal_pattern",
+    "owned_mark_profile"
+  ],
+  "source_rules": [
+    "Verify original encoded/RGB pins and every saved native panel against original crop/exact clockwise90 transpose before the first source view. No resize, enhancement, filtering, OCR, image generation, segmentation or retouching. Whole proof JSON hash is reportable; private panel/row pixel hashes are not public evidence payloads.",
+    "Actually inspect both whole constructions in their paired tight AND expanded native views for every selected pair; observations derived only from separate per-target descriptions do not count as direct paired inspection.",
+    "Record all eight dimensions for each target and actual paired relation, free endpoints, bars, returns, junction continuity and competing neighboring routes. Search boxes are approximate locators, not masks, ownership certificates or complete route boundaries. A target-owned feature can extend outside its approximate box if expanded context and explicit continuity_source_witness demonstrate ownership; witness boxes must stay inside the correct expanded source context.",
+    "FULL_GRAPHICAL_REPEAT_SUPPORT requires the complete owned construction and all eight significant features positively compatible with full relevant visibility. Unknown cannot act as compatible wildcard; body-only similarity is insufficient. No silent normalization of terminal direction/extent, bar position/attachment, curl, enclosure or return differences is authorized. Ink color or line-weight alone is not a cipher-identity criterion.",
+    "OBSERVED_GRAPHICAL_DIFFERENCE requires a positively visible target-owned feature difference, exact left/right facts, native witnesses and FULL relevant visibility on both targets. Unrelated uncertain dimensions do not erase that local fact. STRUCTURAL_FEATURE_DIFFERENCE concerns positively established attachment/topology/enclosure/terminal-presence difference; VISIBLE_FORM_VARIATION records direction/extent/position/contour differences. Both leave cipher and allographic significance UNKNOWN.",
+    "Blur, crop cutoff, unclear contact, unknown ownership or literal prose inequality cannot establish absence or a graphical difference. Any absence claim requires positively supported ownership and full relevant route visibility.",
+    "UNCERTAIN preserves all actual visible variations and the exact unresolved binding/visibility/relation. A checked uncertain pair is different from a pair never inspected.",
+    "Freeze the initial report before reading historical feature/outcome claims or the other initial report. Supplied geometry/cohort conditions inspection; disclose actual exposure, including any prior inspection. These are separate AI readings of the same original pixels, not independent historical sources or external expert validation.",
+    "Do not infer letters, cipher-unit identity, allographic significance, an alphabet partition, transitive equivalence or linguistic reading order. Inspect no other source card, including258/222. Neighbor annotation IDs refer to this same card."
+  ],
+  "allowed_outcomes": [
+    "FULL_GRAPHICAL_REPEAT_SUPPORT",
+    "OBSERVED_GRAPHICAL_DIFFERENCE",
+    "UNCERTAIN"
+  ],
+  "reader_output": "Use frozen source-reader-output-format-v2.json; all individual source facts, variations and uncertainties remain immutable."
+}

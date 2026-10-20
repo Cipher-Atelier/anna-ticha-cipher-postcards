@@ -1,0 +1,2629 @@
+{
+  "schema": "source257-neighbor-ownership-B-v1",
+  "reader": "B",
+  "independence": {
+    "fresh_source_reading": true,
+    "other_new_reader_or_adjudication_outcomes_read": false,
+    "old_classes_letters_solver_corpus_other_cards_read": false,
+    "old_inputs_read": "Only pinned conditional physical alternative/locator cohort, protocols, native context index, private pixel proof and source.",
+    "no_OCR_filters_resize_retouched_pixels": true
+  },
+  "source_pins": {
+    "base_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+    "inventory_sha256": "a2f13278119c6437821a416e1cf56483e7d3d879a48e3adaa363023c314b87a0",
+    "protocol_sha256": "f4b4c8c35890f99b7dd24ce064f046b67a674f9fa1d2f426d066015f4b4f77aa",
+    "source_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4"
+  },
+  "input_whole_file_sha256": {
+    "neighbor-context-protocol-v1.json": "f4b4c8c35890f99b7dd24ce064f046b67a674f9fa1d2f426d066015f4b4f77aa",
+    "neighbor-ownership-assessment-protocol-v1.json": "9eb422f44900a795e2dc0f4cf2123dbf1571da33e2e748411e69c4520dee3de6",
+    "wider-context-ownership-cohort-suggestion-v1.json": "74bcf4144c0f305947c1e73ab902fa30e6618d42a8c54a322b108d9ef1dc100b",
+    "context-index.json": "c1dcfc1709b5c1d2e39b8f8414d2a7f7ed2d4389d1c9bef196ddc339be456d11",
+    "pixel-proof.json": "9eb1419893031d9c7940eebfa4a5e85bf9db8955f4fe7162bf8e675a5fed2d34"
+  },
+  "independent_view_proof_file": "unpublished-proof-json/neighbor-ownership-B-private-viewproof-v1.json",
+  "independent_view_proof_whole_sha256": "d82f7cb402d045b317b78c7c85cefb2b6302729b84c23e1e712f832778e4aaa2",
+  "coordinate_convention": "Original source x/y, half-open conservative enclosing rectangles, +/-4 native pixels unless otherwise stated. Observed locators sidecar only; immutable boxes retained. Native 1:1 RGB plus exact 90CW only.",
+  "baseline": {
+    "eligible_whole": 55,
+    "excluded_whole": 117,
+    "total_whole": 172,
+    "cohort_excluded": 15,
+    "no_claim_all_117_physically_bad": true
+  },
+  "all_predeclared_ids_returned": true,
+  "records": [
+    {
+      "old_id": "FC015",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1384,
+        334,
+        1408,
+        365
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1386,
+          348,
+          1407,
+          365
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-001",
+        "context-005"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/12/local_marks/0"
+          },
+          "old_native_locator": [
+            1384,
+            334,
+            1408,
+            347
+          ],
+          "old_appearance": "right adjacent curved/vertical fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC015-N-FC016"
+          ],
+          "evidence": "The old right fragment runs into the following short capped double-curve construction; its upper cap, descending bend and lower return are all visible beyond the old window.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/12/local_marks/0"
+          },
+          "old_native_locator": [
+            1384,
+            334,
+            1408,
+            365
+          ],
+          "old_appearance": "Base envelope contains crescent plus neighboring curved path; full-sign extent is not isolated",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC015-N-FC016"
+          ],
+          "evidence": "The old right fragment runs into the following short capped double-curve construction; its upper cap, descending bend and lower return are all visible beyond the old window.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC015-N-FC016",
+          "annotation_ref": "FC016",
+          "observed_complete_route_locator_native": [
+            1384,
+            320,
+            1409,
+            347
+          ],
+          "connection_region_native": [
+            1388,
+            333,
+            1408,
+            347
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The old right fragment runs into the following short capped double-curve construction; its upper cap, descending bend and lower return are all visible beyond the old window.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "One open crescent: rounded left/back sweep, upper and lower free terminals toward the following construction. No stem, bar, branch, loop or long return. The mouth remains visibly open.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC013",
+          "FC014",
+          "FC016",
+          "FC017",
+          "FC032",
+          "FC033",
+          "FC034",
+          "FC035",
+          "FC036",
+          "FC037",
+          "FC038",
+          "FC053",
+          "FC054",
+          "FC055",
+          "FC056",
+          "FC057",
+          "FC058",
+          "FC059",
+          "FC060"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC014",
+          "FC016"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC078",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1502,
+        440,
+        1545,
+        466
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1503,
+          445,
+          1544,
+          468
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-002",
+        "context-006"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/61/local_marks/0"
+          },
+          "old_native_locator": [
+            1502,
+            440,
+            1545,
+            451
+          ],
+          "old_appearance": "right adjacent curved fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC078-N-FC079"
+          ],
+          "evidence": "The right curve continues upward/back into the adjacent rising return and downward around its visibly enclosed lower oval. The tall crossbar construction at the old target stays separately bounded.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC078-N-FC079",
+          "annotation_ref": "FC079",
+          "observed_complete_route_locator_native": [
+            1508,
+            423,
+            1544,
+            445
+          ],
+          "connection_region_native": [
+            1518,
+            437,
+            1544,
+            447
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right curve continues upward/back into the adjacent rising return and downward around its visibly enclosed lower oval. The tall crossbar construction at the old target stays separately bounded.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "One long oblique upright/return crossed by one transverse bar, with an upper pointed terminal and lower curved foot. No enclosed counter; the crossing is a continuous dark junction. No separate branch or detached mark.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC031",
+          "FC032",
+          "FC033",
+          "FC034",
+          "FC035",
+          "FC052",
+          "FC053",
+          "FC054",
+          "FC055",
+          "FC056",
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC083",
+          "FC102",
+          "FC103",
+          "FC104",
+          "FC105",
+          "FC106",
+          "FC107",
+          "FC108",
+          "FC122",
+          "FC123",
+          "FC124",
+          "FC125",
+          "FC126",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC130"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC077",
+          "FC079"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC079",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1506,
+        420,
+        1545,
+        447
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1508,
+          423,
+          1544,
+          445
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-002",
+        "context-007"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/62/local_marks/0"
+          },
+          "old_native_locator": [
+            1506,
+            436,
+            1545,
+            447
+          ],
+          "old_appearance": "left adjacent transverse fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC079-N-FC078"
+          ],
+          "evidence": "The left transverse stroke follows the complete preceding long slant, across its stem and into its lower curved foot. Its route is different from the target oval and ascending return.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC079-N-FC078",
+          "annotation_ref": "FC078",
+          "observed_complete_route_locator_native": [
+            1503,
+            445,
+            1544,
+            468
+          ],
+          "connection_region_native": [
+            1515,
+            441,
+            1544,
+            452
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The left transverse stroke follows the complete preceding long slant, across its stem and into its lower curved foot. Its route is different from the target oval and ascending return.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "One ascending curved return ending high, descending into one closed lower oval with a pale counter; one lower round turn and one upper free terminal. No independent crossbar or branch. The apparent left transverse stroke is outside this route.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC031",
+          "FC032",
+          "FC033",
+          "FC034",
+          "FC035",
+          "FC053",
+          "FC054",
+          "FC055",
+          "FC056",
+          "FC057",
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC083",
+          "FC102",
+          "FC103",
+          "FC104",
+          "FC105",
+          "FC106",
+          "FC107",
+          "FC108",
+          "FC109",
+          "FC123",
+          "FC124",
+          "FC125",
+          "FC126",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC130"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC078",
+          "FC080"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC089",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1532,
+        114,
+        1558,
+        140
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1535,
+          123,
+          1558,
+          141
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-002",
+        "context-008"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/70/local_marks/0"
+          },
+          "old_native_locator": [
+            1532,
+            114,
+            1558,
+            125
+          ],
+          "old_appearance": "right angled fragment",
+          "old_physical_alternatives": [
+            "part of this visible construction",
+            "part of an adjacent construction or row",
+            "background/texture or overlapping trace"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC089-N-FC090"
+          ],
+          "evidence": "The right angled trace continues around the next compact slanted triangular/curved body, including both its outer rising edge and lower return. That complete body remains separate from the angular target.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC089-N-FC090",
+          "annotation_ref": "FC090",
+          "observed_complete_route_locator_native": [
+            1534,
+            97,
+            1557,
+            119
+          ],
+          "connection_region_native": [
+            1537,
+            112,
+            1557,
+            124
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right angled trace continues around the next compact slanted triangular/curved body, including both its outer rising edge and lower return. That complete body remains separate from the angular target.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Compact angular construction: rising diagonal, short upright, lower transverse/curved foot and their dark central junction. The interval between the raised arms is open; no closed loop or long return. Three exposed arm/foot ends are distinguishable.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC038",
+          "FC039",
+          "FC040",
+          "FC041",
+          "FC061",
+          "FC062",
+          "FC063",
+          "FC064",
+          "FC065",
+          "FC085",
+          "FC086",
+          "FC087",
+          "FC088",
+          "FC090",
+          "FC091",
+          "FC111",
+          "FC112",
+          "FC131",
+          "FC132"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC088",
+          "FC090"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC090",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1532,
+        96,
+        1559,
+        119
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1534,
+          97,
+          1557,
+          119
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-002",
+        "context-009"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/71/local_marks/0"
+          },
+          "old_native_locator": [
+            1532,
+            96,
+            1559,
+            119
+          ],
+          "old_appearance": "Envelope intersects neighboring slant body; extra fragment cannot be included as owned sign feature",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC090-N-FC089"
+          ],
+          "evidence": "The preceding angular body is completely visible, with diagonal, upright and lower foot; its rightmost foot is the competing left trace. The terminal target remains a separate complete outer route.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC090-N-FC089",
+          "annotation_ref": "FC089",
+          "observed_complete_route_locator_native": [
+            1535,
+            123,
+            1558,
+            141
+          ],
+          "connection_region_native": [
+            1540,
+            115,
+            1558,
+            127
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The preceding angular body is completely visible, with diagonal, upright and lower foot; its rightmost foot is the competing left trace. The terminal target remains a separate complete outer route.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Compact oblique triangular/arched dark body with a rising edge and curved lower return; upper and lower terminals are visible. No independent long stem or crossbar. A tiny pale region near its upper inner junction cannot securely be called either a closed counter or an open wedge at native sampling.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": false,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [
+        {
+          "category": "CLOSURE_OPENING_OR_DARK_JUNCTION",
+          "native_region": [
+            1538,
+            103,
+            1552,
+            114
+          ],
+          "reason": "Tiny upper inner pale wedge and thick joined edge do not settle open-versus-closed inner topology in this reading. Exterior allocation is clear; full counter topology is not.",
+          "remaining_kind": "recoverable_context_issue_not_resolved_here",
+          "true_pixel_information_loss_proved": false
+        }
+      ],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC038",
+          "FC039",
+          "FC040",
+          "FC041",
+          "FC061",
+          "FC062",
+          "FC063",
+          "FC064",
+          "FC065",
+          "FC086",
+          "FC087",
+          "FC088",
+          "FC089",
+          "FC091",
+          "FC111",
+          "FC112",
+          "FC131",
+          "FC132"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC089"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "EXCLUDED",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "UNRESOLVED",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "recoverable_context_issue_not_resolved_here",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC102",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1548,
+        523,
+        1585,
+        560
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1553,
+          530,
+          1585,
+          560
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-003",
+        "context-010"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/81/local_marks/0"
+          },
+          "old_native_locator": [
+            1548,
+            523,
+            1585,
+            538
+          ],
+          "old_appearance": "right capped-curve neighbor fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC102-N-FC103"
+          ],
+          "evidence": "The right capped curve belongs to the next complete short curved body: upper cap, inward bend, lower rounded lobe and terminal can be followed outside the base window. It is not the target long slanted return.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/81/local_marks/0"
+          },
+          "old_native_locator": [
+            1548,
+            523,
+            1585,
+            560
+          ],
+          "old_appearance": "Base envelope includes main looped body and substantial neighboring roof/lobe fragment",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC102-N-FC103"
+          ],
+          "evidence": "The right capped curve belongs to the next complete short curved body: upper cap, inward bend, lower rounded lobe and terminal can be followed outside the base window. It is not the target long slanted return.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC102-N-FC103",
+          "annotation_ref": "FC103",
+          "observed_complete_route_locator_native": [
+            1560,
+            506,
+            1585,
+            532
+          ],
+          "connection_region_native": [
+            1562,
+            522,
+            1585,
+            533
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right capped curve belongs to the next complete short curved body: upper cap, inward bend, lower rounded lobe and terminal can be followed outside the base window. It is not the target long slanted return.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "One lower oval bowl with a pale enclosed counter, an ascending slanted return from its right side and a short upper terminal/roof turn. One closed loop; no independent bar or extra branch. The lower left round return is included, not clipped.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC031",
+          "FC048",
+          "FC049",
+          "FC050",
+          "FC051",
+          "FC052",
+          "FC053",
+          "FC054",
+          "FC073",
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC079",
+          "FC100",
+          "FC101",
+          "FC103",
+          "FC104",
+          "FC105",
+          "FC106",
+          "FC119",
+          "FC120",
+          "FC121",
+          "FC122",
+          "FC123",
+          "FC124",
+          "FC125",
+          "FC126",
+          "FC127",
+          "FC134",
+          "FC136",
+          "FC137",
+          "FC138",
+          "FC139",
+          "FC140",
+          "FC141"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC101",
+          "FC103"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC104",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1560,
+        479,
+        1588,
+        511
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1562,
+          490,
+          1587,
+          511
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-003",
+        "context-011"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/83/local_marks/0"
+          },
+          "old_native_locator": [
+            1560,
+            479,
+            1588,
+            492
+          ],
+          "old_appearance": "right angled fragment",
+          "old_physical_alternatives": [
+            "part of this visible construction",
+            "part of an adjacent construction or row",
+            "background/texture or overlapping trace"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC104-N-FC105"
+          ],
+          "evidence": "The following angular body has its own rising arm, upright and low foot; the old right angled trace runs continuously into that junction and foot. The crescent has two independent free ends.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/83/local_marks/0"
+          },
+          "old_native_locator": [
+            1560,
+            479,
+            1588,
+            511
+          ],
+          "old_appearance": "Envelope reaches neighboring angular fork; one full sign not isolated",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC104-N-FC105"
+          ],
+          "evidence": "The following angular body has its own rising arm, upright and low foot; the old right angled trace runs continuously into that junction and foot. The crescent has two independent free ends.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC104-N-FC105",
+          "annotation_ref": "FC105",
+          "observed_complete_route_locator_native": [
+            1561,
+            461,
+            1589,
+            489
+          ],
+          "connection_region_native": [
+            1570,
+            478,
+            1589,
+            492
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The following angular body has its own rising arm, upright and low foot; the old right angled trace runs continuously into that junction and foot. The crescent has two independent free ends.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "One open crescent with upper and lower forward-facing free terminals and a curved back. No closure, stem, crossbar, branch or long return. Its mouth remains open across the full stroke width.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC050",
+          "FC051",
+          "FC052",
+          "FC053",
+          "FC054",
+          "FC055",
+          "FC073",
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC101",
+          "FC102",
+          "FC103",
+          "FC105",
+          "FC106",
+          "FC107",
+          "FC122",
+          "FC123",
+          "FC124",
+          "FC125",
+          "FC126",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC136",
+          "FC137",
+          "FC138",
+          "FC139",
+          "FC140",
+          "FC141"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC103",
+          "FC105"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC107",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1552,
+        366,
+        1593,
+        400
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1555,
+          373,
+          1592,
+          400
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-003",
+        "context-012"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/85/local_marks/0"
+          },
+          "old_native_locator": [
+            1552,
+            366,
+            1593,
+            380
+          ],
+          "old_appearance": "right hooked neighbor fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC107-N-FC108"
+          ],
+          "evidence": "The right hook is the raised arm/foot route of the following complete angular body. Its two raised arms and low turn are visible independently of the target long return and lower bowl.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/85/local_marks/0"
+          },
+          "old_native_locator": [
+            1552,
+            366,
+            1593,
+            400
+          ],
+          "old_appearance": "Envelope combines looped main body and substantial neighboring fork",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC107-N-FC108"
+          ],
+          "evidence": "The right hook is the raised arm/foot route of the following complete angular body. Its two raised arms and low turn are visible independently of the target long return and lower bowl.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC107-N-FC108",
+          "annotation_ref": "FC108",
+          "observed_complete_route_locator_native": [
+            1569,
+            348,
+            1594,
+            366
+          ],
+          "connection_region_native": [
+            1571,
+            363,
+            1594,
+            375
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right hook is the raised arm/foot route of the following complete angular body. Its two raised arms and low turn are visible independently of the target long return and lower bowl.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "A lower closed oval bowl with visible pale counter, a long rising oblique return and a hooked upper free terminal. One loop; no separate transverse bar or branch. The full lower and upper returns are visible.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC053",
+          "FC054",
+          "FC055",
+          "FC056",
+          "FC057",
+          "FC058",
+          "FC059",
+          "FC060",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC083",
+          "FC084",
+          "FC104",
+          "FC105",
+          "FC106",
+          "FC108",
+          "FC109",
+          "FC110",
+          "FC124",
+          "FC125",
+          "FC126",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC130",
+          "FC138",
+          "FC139",
+          "FC140",
+          "FC141"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC108"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC108",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1567,
+        343,
+        1595,
+        370
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1569,
+          348,
+          1594,
+          366
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-003",
+        "context-013"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/86/local_marks/0"
+          },
+          "old_native_locator": [
+            1567,
+            359,
+            1595,
+            370
+          ],
+          "old_appearance": "left tall neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC108-N-FC107"
+          ],
+          "evidence": "Left competitor continues into the preceding bowl and long ascending return; right competitor curves around the entire following open crescent, including its two free tips. Neither route enters the angular target junction.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/86/local_marks/1"
+          },
+          "old_native_locator": [
+            1567,
+            343,
+            1595,
+            354
+          ],
+          "old_appearance": "right crescent neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC108-N-FC109"
+          ],
+          "evidence": "Left competitor continues into the preceding bowl and long ascending return; right competitor curves around the entire following open crescent, including its two free tips. Neither route enters the angular target junction.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 2,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/86/local_marks/0"
+          },
+          "old_native_locator": [
+            1567,
+            343,
+            1595,
+            370
+          ],
+          "old_appearance": "Base window includes neighboring crescent; no strict complete-sign comparison",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC108-N-FC107",
+            "FC108-N-FC109"
+          ],
+          "evidence": "Left competitor continues into the preceding bowl and long ascending return; right competitor curves around the entire following open crescent, including its two free tips. Neither route enters the angular target junction.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC108-N-FC107",
+          "annotation_ref": "FC107",
+          "observed_complete_route_locator_native": [
+            1555,
+            373,
+            1592,
+            400
+          ],
+          "connection_region_native": [
+            1568,
+            363,
+            1592,
+            380
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "Left competitor continues into the preceding bowl and long ascending return; right competitor curves around the entire following open crescent, including its two free tips. Neither route enters the angular target junction.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        },
+        {
+          "component_ref": "FC108-N-FC109",
+          "annotation_ref": "FC109",
+          "observed_complete_route_locator_native": [
+            1569,
+            328,
+            1594,
+            346
+          ],
+          "connection_region_native": [
+            1570,
+            340,
+            1594,
+            354
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "Left competitor continues into the preceding bowl and long ascending return; right competitor curves around the entire following open crescent, including its two free tips. Neither route enters the angular target junction.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Compact angular body with diagonal arm, raised short upright and low transverse/curved foot joining at one dark junction. Open interval between the raised arms; no enclosed loop or long return. All arm ends are visible.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC053",
+          "FC054",
+          "FC055",
+          "FC056",
+          "FC057",
+          "FC058",
+          "FC059",
+          "FC060",
+          "FC078",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC083",
+          "FC084",
+          "FC105",
+          "FC106",
+          "FC107",
+          "FC109",
+          "FC110",
+          "FC111",
+          "FC126",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC130",
+          "FC140",
+          "FC141"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC107",
+          "FC109"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC109",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1566,
+        321,
+        1595,
+        347
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1569,
+          328,
+          1594,
+          346
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-003",
+        "context-014"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/87/local_marks/0"
+          },
+          "old_native_locator": [
+            1566,
+            321,
+            1595,
+            332
+          ],
+          "old_appearance": "right angled fragment",
+          "old_physical_alternatives": [
+            "part of this visible construction",
+            "part of an adjacent construction or row",
+            "background/texture or overlapping trace"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC109-N-FC110"
+          ],
+          "evidence": "The right angled trace leads through the following angular body junction into its upright and lower foot. It does not curve back into either target terminal.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/87/local_marks/0"
+          },
+          "old_native_locator": [
+            1566,
+            321,
+            1595,
+            347
+          ],
+          "old_appearance": "Neighboring angular path is included in envelope",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC109-N-FC110"
+          ],
+          "evidence": "The right angled trace leads through the following angular body junction into its upright and lower foot. It does not curve back into either target terminal.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC109-N-FC110",
+          "annotation_ref": "FC110",
+          "observed_complete_route_locator_native": [
+            1568,
+            301,
+            1595,
+            326
+          ],
+          "connection_region_native": [
+            1572,
+            319,
+            1595,
+            332
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right angled trace leads through the following angular body junction into its upright and lower foot. It does not curve back into either target terminal.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Open crescent, one curved back and two forward free terminals. No stem, bar, branch, closed counter or long return. Its upper and lower tips are both distinguishable.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC054",
+          "FC055",
+          "FC056",
+          "FC057",
+          "FC058",
+          "FC059",
+          "FC060",
+          "FC061",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC083",
+          "FC084",
+          "FC085",
+          "FC106",
+          "FC107",
+          "FC108",
+          "FC110",
+          "FC111",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC130",
+          "FC131",
+          "FC141"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC108",
+          "FC110"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC114",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1601,
+        777,
+        1628,
+        805
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1603,
+          783,
+          1627,
+          805
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-004",
+        "context-015"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/89/local_marks/0"
+          },
+          "old_native_locator": [
+            1601,
+            777,
+            1628,
+            789
+          ],
+          "old_appearance": "right neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC114-N-FC115"
+          ],
+          "evidence": "The right fragment belongs to the next complete short raised hook/zigzag construction, with its own upstroke, bend and lower terminal. Its route is separate from the target central descending bend.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/89/local_marks/0"
+          },
+          "old_native_locator": [
+            1601,
+            777,
+            1628,
+            805
+          ],
+          "old_appearance": "Base envelope contains adjacent curved path; main complete extent not isolated",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC114-N-FC115"
+          ],
+          "evidence": "The right fragment belongs to the next complete short raised hook/zigzag construction, with its own upstroke, bend and lower terminal. Its route is separate from the target central descending bend.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC114-N-FC115",
+          "annotation_ref": "FC115",
+          "observed_complete_route_locator_native": [
+            1603,
+            762,
+            1629,
+            783
+          ],
+          "connection_region_native": [
+            1605,
+            776,
+            1629,
+            789
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right fragment belongs to the next complete short raised hook/zigzag construction, with its own upstroke, bend and lower terminal. Its route is separate from the target central descending bend.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Descending double-curved body with an upper hook, a central oblique bend and lower leftward curl/terminal. No long stem or independent transverse bar. The small upper hook/neck is too thick here to settle whether it encloses a minute counter or remains open.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": false,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [
+        {
+          "category": "CLOSURE_OPENING_OR_DARK_JUNCTION",
+          "native_region": [
+            1604,
+            787,
+            1618,
+            799
+          ],
+          "reason": "Upper hook has a tiny light interior against a thick neck; closure/opening is not secure in this native reading, although the exterior route and neighbor separation are clear.",
+          "remaining_kind": "recoverable_context_issue_not_resolved_here",
+          "true_pixel_information_loss_proved": false
+        }
+      ],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "U053",
+          "U054",
+          "U055",
+          "U056",
+          "FC066",
+          "FC067",
+          "FC068",
+          "FC069",
+          "FC070",
+          "FC071",
+          "FC092",
+          "FC093",
+          "FC094",
+          "FC095",
+          "FC096",
+          "FC097",
+          "FC098",
+          "FC113",
+          "FC115",
+          "FC116",
+          "FC117",
+          "FC118"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC115"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [
+          "U053",
+          "U054",
+          "U055",
+          "U056"
+        ],
+        "new_occurrence_created": false,
+        "unresolved_span_specific_check": "U053–U056 are the marginal rotated side inscription at native y856–900; the target is the lower main-row curved body at y783–805. In context-004 and context-015 these are different stroke paths, with no shared route or terminal."
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "EXCLUDED",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "UNRESOLVED",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "recoverable_context_issue_not_resolved_here",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC122",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1594,
+        553,
+        1631,
+        585
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1597,
+          561,
+          1631,
+          585
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-004",
+        "context-016"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/96/local_marks/0"
+          },
+          "old_native_locator": [
+            1594,
+            553,
+            1631,
+            566
+          ],
+          "old_appearance": "right forked neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC122-N-FC123"
+          ],
+          "evidence": "The right fork is part of the next complete angular construction: its descending/raised arm joins its upright and lower foot in a separate junction. The target bowl does not share that junction.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/96/local_marks/0"
+          },
+          "old_native_locator": [
+            1594,
+            553,
+            1631,
+            585
+          ],
+          "old_appearance": "Envelope includes a substantial neighboring angular path",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC122-N-FC123"
+          ],
+          "evidence": "The right fork is part of the next complete angular construction: its descending/raised arm joins its upright and lower foot in a separate junction. The target bowl does not share that junction.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC122-N-FC123",
+          "annotation_ref": "FC123",
+          "observed_complete_route_locator_native": [
+            1607,
+            538,
+            1631,
+            562
+          ],
+          "connection_region_native": [
+            1610,
+            552,
+            1631,
+            566
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right fork is part of the next complete angular construction: its descending/raised arm joins its upright and lower foot in a separate junction. The target bowl does not share that junction.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Lower rounded closed bowl with pale counter, ascending oblique return and short upper terminal; one loop and no separate bar or branch. Both the lower round turn and long upper return are within the inspected route.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC071",
+          "FC072",
+          "FC073",
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC099",
+          "FC100",
+          "FC101",
+          "FC102",
+          "FC103",
+          "FC104",
+          "FC105",
+          "FC119",
+          "FC120",
+          "FC121",
+          "FC123",
+          "FC124",
+          "FC125",
+          "FC126",
+          "FC134",
+          "FC135",
+          "FC136",
+          "FC137",
+          "FC138",
+          "FC139",
+          "FC143"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC121",
+          "FC123"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC125",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1607,
+        463,
+        1636,
+        486
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1610,
+          470,
+          1635,
+          486
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-004",
+        "context-017"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/99/local_marks/0"
+          },
+          "old_native_locator": [
+            1607,
+            463,
+            1636,
+            473
+          ],
+          "old_appearance": "right curved neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC125-N-FC126"
+          ],
+          "evidence": "The right rounded trace continues around the complete following crescent, from its upper tip around its back to its lower tip. It does not continue into the target narrow middle.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/99/local_marks/0"
+          },
+          "old_native_locator": [
+            1607,
+            463,
+            1636,
+            486
+          ],
+          "old_appearance": "Neighboring crescent is inside base envelope",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC125-N-FC126"
+          ],
+          "evidence": "The right rounded trace continues around the complete following crescent, from its upper tip around its back to its lower tip. It does not continue into the target narrow middle.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC125-N-FC126",
+          "annotation_ref": "FC126",
+          "observed_complete_route_locator_native": [
+            1611,
+            448,
+            1635,
+            465
+          ],
+          "connection_region_native": [
+            1611,
+            459,
+            1635,
+            473
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "The right rounded trace continues around the complete following crescent, from its upper tip around its back to its lower tip. It does not continue into the target narrow middle.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Short double-curved body with upper and lower lobes joined at a narrow middle, and a lower turned terminal. No long stem, independent bar or large closed bowl. A minute upper light pocket versus open notch is unresolved at the thick upper junction.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": false,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [
+        {
+          "category": "CLOSURE_OPENING_OR_DARK_JUNCTION",
+          "native_region": [
+            1610,
+            476,
+            1622,
+            483
+          ],
+          "reason": "The compact upper lobe has too little light space in this reading to determine a tiny enclosed pocket versus an open notch; full topology therefore remains excluded.",
+          "remaining_kind": "recoverable_context_issue_not_resolved_here",
+          "true_pixel_information_loss_proved": false
+        }
+      ],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC073",
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC102",
+          "FC103",
+          "FC104",
+          "FC105",
+          "FC106",
+          "FC107",
+          "FC122",
+          "FC123",
+          "FC124",
+          "FC126",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC137",
+          "FC138",
+          "FC139",
+          "FC140",
+          "FC141",
+          "FC142",
+          "FC143"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC124",
+          "FC126"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "EXCLUDED",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "UNRESOLVED",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "recoverable_context_issue_not_resolved_here",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC126",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1607,
+        441,
+        1636,
+        465
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1611,
+          448,
+          1635,
+          465
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-004",
+        "context-018"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/100/local_marks/0"
+          },
+          "old_native_locator": [
+            1607,
+            455,
+            1636,
+            465
+          ],
+          "old_appearance": "left curved neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC126-N-FC125"
+          ],
+          "evidence": "Left alternative runs through the preceding double-curved body and its middle/lower return. Right alternative runs through the following angular junction, upright and low foot. These are distinct complete physical routes on opposite sides of the target crescent.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-B-v1.json",
+            "json_pointer": "/records/100/local_marks/0"
+          },
+          "old_native_locator": [
+            1607,
+            441,
+            1636,
+            465
+          ],
+          "old_appearance": "Neighboring angular body fragment included in base window",
+          "old_physical_alternatives": [
+            "neighboring substantial body or fragment",
+            "separate unassigned path; not owned by target merely because it is in base window"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC126-N-FC127"
+          ],
+          "evidence": "Left alternative runs through the preceding double-curved body and its middle/lower return. Right alternative runs through the following angular junction, upright and low foot. These are distinct complete physical routes on opposite sides of the target crescent.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC126-N-FC125",
+          "annotation_ref": "FC125",
+          "observed_complete_route_locator_native": [
+            1610,
+            470,
+            1635,
+            486
+          ],
+          "connection_region_native": [
+            1611,
+            462,
+            1635,
+            474
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "Left alternative runs through the preceding double-curved body and its middle/lower return. Right alternative runs through the following angular junction, upright and low foot. These are distinct complete physical routes on opposite sides of the target crescent.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        },
+        {
+          "component_ref": "FC126-N-FC127",
+          "annotation_ref": "FC127",
+          "observed_complete_route_locator_native": [
+            1608,
+            427,
+            1636,
+            443
+          ],
+          "connection_region_native": [
+            1610,
+            438,
+            1636,
+            447
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "Left alternative runs through the preceding double-curved body and its middle/lower return. Right alternative runs through the following angular junction, upright and low foot. These are distinct complete physical routes on opposite sides of the target crescent.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "One open crescent with rounded back and two forward free tips, no stem, bar, branch, loop or long return. The open mouth is visible. Both neighboring routes are explicitly excluded from the target component.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC102",
+          "FC103",
+          "FC104",
+          "FC105",
+          "FC106",
+          "FC107",
+          "FC108",
+          "FC122",
+          "FC123",
+          "FC124",
+          "FC125",
+          "FC127",
+          "FC128",
+          "FC129",
+          "FC130",
+          "FC137",
+          "FC138",
+          "FC139",
+          "FC140",
+          "FC141",
+          "FC142",
+          "FC143"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC125",
+          "FC127"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    },
+    {
+      "old_id": "FC127",
+      "immutable_base_bbox_native_xyxy_halfopen": [
+        1605,
+        421,
+        1638,
+        444
+      ],
+      "observed_target": {
+        "native_bbox_xyxy_halfopen": [
+          1608,
+          427,
+          1636,
+          443
+        ],
+        "precision_plus_minus_native_pixels": 4,
+        "bbox_is_conservative_locator_not_traced_contour": true,
+        "same_old_physical_target_identified": true
+      },
+      "inspected_verified_views": [
+        "context-004",
+        "context-019"
+      ],
+      "old_competing_alternatives": [
+        {
+          "old_alternative_index": 0,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/101/local_marks/0"
+          },
+          "old_native_locator": [
+            1605,
+            434,
+            1638,
+            444
+          ],
+          "old_appearance": "left neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC127-N-FC126"
+          ],
+          "evidence": "Left competitor is the complete preceding open crescent with two tips; right competitor runs around the following rounded double-lobed body, through its waist and lower oval. Neither is an extra target arm.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        },
+        {
+          "old_alternative_index": 1,
+          "old_source_ref": {
+            "source_path": "../source257-class-candidates-next-20261013/results/right-features-A-v1.json",
+            "json_pointer": "/records/101/local_marks/1"
+          },
+          "old_native_locator": [
+            1605,
+            421,
+            1638,
+            431
+          ],
+          "old_appearance": "right rounded neighboring fragment",
+          "old_physical_alternatives": [
+            "adjacent physical construction (provisional, no cipher role)",
+            "additional part of present construction (not excluded by proximity alone)"
+          ],
+          "new_physical_resolution": "CONTINUOUS_INTO_COMPLETE_NEIGHBOR_ROUTE",
+          "neighbor_component_refs": [
+            "FC127-N-FC128"
+          ],
+          "evidence": "Left competitor is the complete preceding open crescent with two tips; right competitor runs around the following rounded double-lobed body, through its waist and lower oval. Neither is an extra target arm.",
+          "not_target_or_background_basis": "The competing dark segment is followed through the named complete neighboring route, including its turns/junctions/terminals beyond the old envelope; the target route has its own observed terminals/topology. This is path tracing and complete construction comparison, not ownership assigned by a pale gap or window inclusion. Conservative old rectangles also include target/background; rectangle overlap is not a single pure mark.",
+          "historical_adjunct_or_token_owner": "UNKNOWN"
+        }
+      ],
+      "neighbor_components": [
+        {
+          "component_ref": "FC127-N-FC126",
+          "annotation_ref": "FC126",
+          "observed_complete_route_locator_native": [
+            1611,
+            448,
+            1635,
+            465
+          ],
+          "connection_region_native": [
+            1611,
+            459,
+            1635,
+            473
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "Left competitor is the complete preceding open crescent with two tips; right competitor runs around the following rounded double-lobed body, through its waist and lower oval. Neither is an extra target arm.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        },
+        {
+          "component_ref": "FC127-N-FC128",
+          "annotation_ref": "FC128",
+          "observed_complete_route_locator_native": [
+            1605,
+            405,
+            1636,
+            426
+          ],
+          "connection_region_native": [
+            1610,
+            419,
+            1636,
+            432
+          ],
+          "precision_plus_minus_native_pixels": 4,
+          "connection_region_meaning": "Region in which the old edge fragment can be followed into this neighboring route; not an asserted target-neighbor junction.",
+          "source_observation": "Left competitor is the complete preceding open crescent with two tips; right competitor runs around the following rounded double-lobed body, through its waist and lower oval. Neither is an extra target arm.",
+          "complete_route_reviewed": true,
+          "target_neighbor_relation": "Separately bounded complete neighboring physical route, with no observed ink continuation into target across the full reviewed relation.",
+          "separation_basis": "Both complete outer routes, all exposed ends and each return/junction were followed in focus and trajectory. Their trajectories terminate/return independently throughout; the gap alone is not the argument.",
+          "semantic_identity": "UNKNOWN"
+        }
+      ],
+      "complete_feature_inventory": {
+        "description": "Angular body with raised diagonal arm, short upright and low transverse/curved foot joined at one junction; the interval between arms is open. No enclosed loop or long return. All exposed arm/foot terminals remain visible.",
+        "detached_mark_inventory": "No newly isolated dot/dash/fleck has been assigned to target. Reported substantial competing traces are handled individually above; historical adjunct roles remain UNKNOWN.",
+        "all_visible_target_extents_reviewed": true,
+        "target_topology_fully_resolved": true,
+        "bars_branches_returns_terminals_reviewed": true
+      },
+      "newly_detected_blockers": [],
+      "same_instance_alias_check": {
+        "same_old_physical_target_identified": true,
+        "target_identification_basis": "Same central main route described in the old competing-fragment alternatives, at the old ID location, retained with a separate observed locator; no reassignment to a clearer adjacent route.",
+        "comparison_annotation_refs": [
+          "FC057",
+          "FC074",
+          "FC075",
+          "FC076",
+          "FC077",
+          "FC078",
+          "FC079",
+          "FC080",
+          "FC081",
+          "FC082",
+          "FC083",
+          "FC102",
+          "FC103",
+          "FC104",
+          "FC105",
+          "FC106",
+          "FC107",
+          "FC108",
+          "FC109",
+          "FC124",
+          "FC125",
+          "FC126",
+          "FC128",
+          "FC129",
+          "FC130",
+          "FC138",
+          "FC139",
+          "FC140",
+          "FC141",
+          "FC142"
+        ],
+        "most_relevant_same_row_refs": [
+          "FC126",
+          "FC128"
+        ],
+        "physical_result": "NO_SAME_INSTANCE_ALIAS_OBSERVED",
+        "source_basis": "In the complete trajectory the target has its own path and terminals. Adjacent same-row annotations follow the separately traced routes described here; adjacent-row marks have different cross-axis stroke tracks. Envelope intersections only truncate or enclose these distinct routes and do not make them identical. No unresolved span in the supplied focus follows the target path.",
+        "unresolved_refs_in_focus": [],
+        "new_occurrence_created": false
+      },
+      "window_barrier_before": "RETAINED",
+      "window_barrier_after": "DISCHARGED",
+      "window_discharge_scope": "Physical allocation of old edge competitors only; no historical token/adjunct role assigned.",
+      "full_feature_eligibility_before": "EXCLUDED",
+      "full_feature_eligibility_after": "ELIGIBLE_PROVISIONAL_READER_B_ONLY",
+      "full_feature_gate_results": {
+        "old_target_identity": "PASS",
+        "old_competing_marks_physical_allocation": "PASS",
+        "complete_target_topology": "PASS",
+        "same_instance_alias": "PASS",
+        "detached_semantic_roles": "UNKNOWN_NOT_ASSIGNED"
+      },
+      "cipher_value": "UNKNOWN",
+      "historical_symbol_identity": "UNKNOWN",
+      "functional_mark_role": "UNKNOWN",
+      "remaining_blocker_kind": "NONE_OBSERVED_WITHIN_THIS_METHOD",
+      "physical_impossibility_claim": false
+    }
+  ],
+  "counts": {
+    "cohort": 15,
+    "window_barrier_discharged": 15,
+    "window_barrier_partly_discharged": 0,
+    "window_barrier_retained": 0,
+    "full_feature_reader_B_provisional_eligible": 12,
+    "full_feature_remaining_excluded": 3,
+    "final_accepted_recoveries": 0,
+    "information_loss_certifications": 0
+  },
+  "acceptance_limitation": "Reader B suggestions only. Acceptance requires independent reader agreement and scientific source review of concrete graphical grounds. No baseline counts, classes, corpus, semantic assignments or solver state are mutated. The 3 excluded topology cases are not declared physically impossible; further intervention may resolve them.",
+  "semantic_fields": "UNKNOWN throughout; no class merges, token count claims or letter assignments.",
+  "publication": {
+    "kind": "FILTERED_PUBLIC_READER_HISTORY",
+    "original_input_basename": "neighbor-ownership-B-v1.json",
+    "original_whole_file_sha256": "dfae3a8431e3e993a50fbe308c2419df753adc5663e8ef211747f903a2cbe380",
+    "byte_identical_to_original": false,
+    "support_phase": "INITIAL_INDEPENDENT_READING",
+    "historical_status": "Historical reader judgments, errors, provisional eligibility and limitations are preserved as originally stated. Later correction reports remain separate; final canonical scientific adjudication is not supplied by this report.",
+    "private_proofs": "Referenced unpublished-source-proof PNGs and unpublished-proof-json files are unavailable public proof locators, not download links. No source pixels, per-image/per-body hashes or raster data are supplied. Whole original proof-JSON hashes and full original-source hashes may be retained.",
+    "original_pin_scope": "Original report and input/proof whole-file SHA256 pins identify immutable original files, not these filtered public copies. Retained scientific JSON pointers apply to original pinned inputs.",
+    "filtering": "Removed top private_only flag, normalized private proof/image locators and input-reference map keys, and removed operational Root-role label in the A addendum trigger only. All scientific records, errors, corrections, coordinates, alternatives, conditioning and historical counts retained; exact substitutions listed in the selection ledger.",
+    "scientific_limit": "Historical reader judgments and provisional counts are preserved. Final accepted scope is established separately by the published corrected v2 delta and final independent SCI v3. Post-feedback support is not initial blind consensus; source-equivalent pixels alone do not prove target binding."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-10-13T04:15:13.368858+00:00",
+  "original_sha256": "7391e04d7168f1d064be38f35be50e2872bda415caff3479e06d7d7a1ce5b12c",
+  "operations": [
+    {
+      "file": "picture-ccw90.png",
+      "operation": "PIL.Transpose.ROTATE_90",
+      "dimensions": [
+        1175,
+        1785
+      ],
+      "sha256": "74cf10a78f743c46e3fd90672ee1c586de23c304ed27da5638d1141ec23088ad"
+    },
+    {
+      "file": "writing-context.png",
+      "parent": "picture-ccw90.png",
+      "operation": "crop",
+      "crop_bbox": [
+        35,
+        1480,
+        1135,
+        1760
+      ],
+      "dimensions": [
+        1100,
+        280
+      ],
+      "sha256": "87d26da15f20476a82c9411d25557fefadde746df998720a64bfd6267bf84547"
+    },
+    {
+      "file": "writing-upper.png",
+      "parent": "picture-ccw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        35,
+        1480,
+        1135,
+        1608
+      ],
+      "dimensions": [
+        2200,
+        256
+      ],
+      "sha256": "b5c233a501aa98482967c198bed128b930ae464857625a78b54a77ea763f7632"
+    },
+    {
+      "file": "writing-lower.png",
+      "parent": "picture-ccw90.png",
+      "operation": "crop_then_integer_NN_2",
+      "crop_bbox": [
+        35,
+        1590,
+        1135,
+        1760
+      ],
+      "dimensions": [
+        2200,
+        340
+      ],
+      "sha256": "eeb7c71cb8a8428e4c111213d6c12275914dad96c5674cc21cf8c907183c913a"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "card": 249,
+  "saved_before_crop_creation_and_display": true,
+  "parent": "picture-CW90.png",
+  "parent_frame": "CW90",
+  "source_original_sha256": "f39fdf9a8d1d8ce22d97eaf0618bb1375e1f3175750114de58297ac5727f700f",
+  "operations": "exact RGB rectangular crops; no scaling/interpolation/enhancement",
+  "crops": [
+    {
+      "path": "picture-upper-left.png",
+      "bbox_xyxy": [
+        335,
+        520,
+        595,
+        825
+      ]
+    },
+    {
+      "path": "picture-upper-right.png",
+      "bbox_xyxy": [
+        805,
+        525,
+        1095,
+        725
+      ]
+    },
+    {
+      "path": "picture-lower.png",
+      "bbox_xyxy": [
+        75,
+        1400,
+        1120,
+        1705
+      ]
+    }
+  ],
+  "local_to_full": "add crop left/top to local point; all source coding uses full CW90 frame"
+}

@@ -1,0 +1,61 @@
+{
+  "card": 251,
+  "saved_before_crop_display": true,
+  "parent_view": {
+    "path": "views/picture-CCW90.png",
+    "sha256": "fe477237172be94a9825e8ad551377b7c499fbe8f59935f462fd34a71f2fa52f",
+    "RGB_sha256": "b427cc9d660c68a2194b8817c6145394a06dc1b960c1eda31c3814a1b0814165",
+    "frame": "CCW90",
+    "dimensions": [
+      1175,
+      1785
+    ]
+  },
+  "crops": [
+    {
+      "id": "picture-top",
+      "bbox_xyxy": [
+        65,
+        90,
+        1090,
+        440
+      ],
+      "output": "views/picture-top.png"
+    },
+    {
+      "id": "picture-middle",
+      "bbox_xyxy": [
+        65,
+        430,
+        1090,
+        680
+      ],
+      "output": "views/picture-middle.png"
+    },
+    {
+      "id": "picture-bottom-text",
+      "bbox_xyxy": [
+        65,
+        670,
+        1090,
+        830
+      ],
+      "output": "views/picture-bottom-text.png"
+    }
+  ],
+  "operation": "Exact integer RGB crop from already declared lossless orthogonal rendition; no scaling/interpolation/enhancement. Crop local coordinates are parent coordinates minus left/top. Save each PNG/RGB hash and dimensions before display.",
+  "address_crop": {
+    "id": "address-headings",
+    "source_path": "cards/card251/sources/pc_hcp_251_adr.JPG",
+    "source_sha256": "35b35cb5cd0b25311e67272e17bd90973e3b8dbe88d250fb74acfc987cdbe82b",
+    "frame": "NONE",
+    "bbox_xyxy": [
+      85,
+      50,
+      1045,
+      540
+    ],
+    "output": "views/address-headings.png",
+    "operation": "Decode RGB exact integer crop; no enhancement/scaling"
+  }
+}

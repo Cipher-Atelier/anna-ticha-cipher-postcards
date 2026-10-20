@@ -1,0 +1,692 @@
+{
+  "single_feature": "Affirmative exposed descending passage between upper rounded body and lower turn versus affirmatively shared local waist; UNKNOWN otherwise. No exact closure or numeric threshold.",
+  "fixed_training": [
+    "C04-E01",
+    "C08-E01"
+  ],
+  "fixed_held": [
+    "C04-E02",
+    "C08-E02"
+  ],
+  "held_result": {
+    "H01": {
+      "fixed_reference": "C08-E02",
+      "expected": "TRUE",
+      "A": "TRUE",
+      "B": "TRUE"
+    },
+    "H02": {
+      "fixed_reference": "C04-E02",
+      "expected": "FALSE",
+      "A": "FALSE",
+      "B": "FALSE"
+    }
+  },
+  "held_scope": "Two disjoint held fragments from same card199, two fresh observers correctly classified both; independent nonblind source audit supports contours with approximate coordinate disagreements preserved. Training disclosed brightness diagnostics; held and target original-only. Not random, globally cold or cross-writer validation.",
+  "target_result": {
+    "first": {
+      "A": "TRUE",
+      "B": "TRUE",
+      "bounded_interpretation": "Matches C08-side exposed-connector configuration of the proposed refinement. Conditional on C04 requiring shared-waist and C08 requiring exposed-connector, C04 is excluded for this target.",
+      "original_C04_classwide_eliminated": false,
+      "conditional_refinement_remainder": [
+        "C02",
+        "C05",
+        "C07",
+        "C08",
+        "C10",
+        "C11",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C21",
+        "C22",
+        "C23"
+      ],
+      "conditional_refinement_remainder_count": 16
+    },
+    "adjacent": {
+      "A": "UNKNOWN",
+      "B": "UNKNOWN",
+      "reason": "Required upper rounded body not demonstrated; cap and diagonal stem cannot substitute for it. Neither positive rule geometry demonstrated. No class eliminated.",
+      "conditional_refinement_remainder": [
+        "C03",
+        "C04",
+        "C05",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C22",
+        "C24"
+      ],
+      "conditional_refinement_remainder_count": 19
+    }
+  },
+  "original_conservative_sets": {
+    "first": [
+      "C02",
+      "C04",
+      "C05",
+      "C07",
+      "C08",
+      "C10",
+      "C11",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C21",
+      "C22",
+      "C23"
+    ],
+    "adjacent": [
+      "C03",
+      "C04",
+      "C05",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C22",
+      "C24"
+    ]
+  },
+  "original_conservative_counts": {
+    "first": 17,
+    "adjacent": 19
+  },
+  "original_sets_unchanged": true,
+  "original_minimal_relevant_confusers": {
+    "first": [
+      "C04",
+      "C14",
+      "C21",
+      "C23"
+    ],
+    "adjacent": [
+      "C03",
+      "C12",
+      "C14",
+      "C19",
+      "C24"
+    ]
+  },
+  "first_minimal_confusers_under_conditional_refinement": [
+    "C14",
+    "C21",
+    "C23"
+  ],
+  "strict_unconditional_limit": "Four observed examples do not establish an exhaustive historical class grammar. Original C04 definition is two stacked closed/nearly closed lobes and is not rewritten to universally forbid a connector. Thus this test separates the certified reference instances and supports a proposed refinement, but cannot unconditionally eliminate every possible C04 variant or establish unique C08 membership. All original conservative sets and registry/key/class definitions remain unchanged.",
+  "remaining_discriminators": "C14 upper hook/descent/lower sweep; C21 tall-left-bowl vs upper-head/return configuration; C23 upper ascender and separate smaller lower return. Adjacent residual C03,C12,C14,C19,C24 needs separate source predicates/reference support. Weak underdefined classes retained without positive match; missing references never negative evidence.",
+  "preserved_unknowns": [
+    "First upper closure and lower rejoin/free terminal",
+    "Adjacent body closure, cap crossing versus turn, basal return seam"
+  ],
+  "unique_class_obtained": false,
+  "reliable_new_letters": 0,
+  "new_mapped_value_or_key_lookup": false,
+  "class_registry_key_or_mask_changes": 0,
+  "external_segmentation_or_owner_repeat": false,
+  "target245_or222_access": false,
+  "full_protocol_compliance": false,
+  "target_verification_chronology": {
+    "required": "PNG, decoded RGB and dimensions before target view",
+    "actual": "Both observers checked PNG hash/header/dimensions before view and decoded RGB afterward",
+    "required_order_status": "FAIL",
+    "image_identity": "PNG hash before view identifies exact authorized immutable bytes; RGB matched afterward. This does not retroactively satisfy chronology.",
+    "disposition": "Whole ledgers and deviation preserved; no rerun, rescoring or timing repair. Scientific source support is qualified, not full protocol PASS."
+  },
+  "coordinate_qualification": "All A/B reference, held and target locators remain separate approximate observations, not exact segmentations or classifier thresholds. H01 lowerturn coordinates differ; nonblind source audit supports same bound contour without averaging or recruiting a disconnected lower-row mark.",
+  "scope_of_training_and_hold": "Two training instances plus TWO distinct held instances from same card199. Two independent held observers each correctly classified both (4 votes on 2 images). Earlier actors/root had source exposure; new split actors fresh without inherited history. No random/global-cold/cross-writer claim.",
+  "schema": "single-transition-derived-author-results-v1",
+  "accepted_scientific_result_sha256": "8def153913279a55d3b2c24f7c8e990ca0c4fcfe8d30c99bf79a970ef0f4589a",
+  "final_scientific_review_sha256": "42e1b9bc2b77c47fb381dac95acc92c203934e5c8d51d70a9624a727bac53216",
+  "selected_scientific_field_list": [
+    "single_feature",
+    "fixed_training",
+    "fixed_held",
+    "held_result",
+    "held_scope",
+    "target_result",
+    "original_conservative_sets",
+    "original_conservative_counts",
+    "original_sets_unchanged",
+    "original_minimal_relevant_confusers",
+    "first_minimal_confusers_under_conditional_refinement",
+    "strict_unconditional_limit",
+    "remaining_discriminators",
+    "preserved_unknowns",
+    "unique_class_obtained",
+    "reliable_new_letters",
+    "new_mapped_value_or_key_lookup",
+    "class_registry_key_or_mask_changes",
+    "external_segmentation_or_owner_repeat",
+    "target245_or222_access",
+    "full_protocol_compliance",
+    "target_verification_chronology",
+    "coordinate_qualification",
+    "scope_of_training_and_hold"
+  ],
+  "scientific_status": "QUALIFIED_SUPPORT_WITH_TARGET_PREVIEW_RGB_CHRONOLOGY_FAILURE",
+  "physical_source_premises": {
+    "externally_complete_physical_constructions": 2,
+    "complete_cipher_sign_established": false,
+    "complete_word_established": false,
+    "value_or_class_bridge_accepted": false,
+    "old_owner_experiment_repeated": false,
+    "fixed_adjacent_selection": "Exactly the immediate-right separately anchored same-row construction; no skip/replacement. Original complete external extent and all source UNKNOWNs control."
+  },
+  "source_packet_export_qualification": "Filtered retained physical fields were exact recursive subsets of original source objects. Their verbatim claims refer to supplied packets; original full files were not supplied unredacted. Original no-code/word/value and fixed-selection limits remain controlling.",
+  "source_packet_original_omissions": [
+    {
+      "source": "fullunit246-source-reader-A-v1.json",
+      "sha256": "40ea0f63e6ab42c9aa0971fe41cfd8883750e720830567183041c472a2fbca6f",
+      "retained_values_recursive_subset_exact": true,
+      "omitted_nested_paths": [
+        "/construction_extent/cipher_sign_status",
+        "/conclusion/full_code_sign",
+        "/conclusion/owner_P1_P2_rescored"
+      ]
+    },
+    {
+      "source": "fullunit246-source-reader-B-v1.json",
+      "sha256": "b533b1f736b1bf13f5fbdb3d2806b497c5210c1bd78a431497bf21693b25b0e9",
+      "retained_values_recursive_subset_exact": true,
+      "omitted_nested_paths": [
+        "/whole_construction_extent/not_cipher_sign_claim",
+        "/whole_construction_extent/full_word_extent",
+        "/conclusion/class_bridge_result",
+        "/conclusion/key_value_result",
+        "/conclusion/owner_P1_P2_repeat",
+        "/conclusion/no_consensus_fitting"
+      ]
+    },
+    {
+      "source": "adjacent246-source-reader-A-v1.json",
+      "sha256": "0f297d758da3874fa90fc0a0d555251194e20188718a09099f292d34e269af81",
+      "retained_values_recursive_subset_exact": true,
+      "omitted_nested_paths": [
+        "/selection/rule",
+        "/conclusion/code_sign_or_class",
+        "/conclusion/first_target_records_immutable",
+        "/conclusion/no_further_recruitment"
+      ]
+    },
+    {
+      "source": "adjacent246-source-reader-B-v1.json",
+      "sha256": "6c099dbc0c85505d4b95d86c75137bf74fb650cd51102ee64c5864676fbe914e",
+      "retained_values_recursive_subset_exact": true,
+      "omitted_nested_paths": [
+        "/extent/code_sign_status",
+        "/extent/whole_word_status",
+        "/remaining_blockers/class_discrimination",
+        "/remaining_blockers/code_sign_or_value",
+        "/conclusion/class_or_code_sign",
+        "/conclusion/key_or_value",
+        "/conclusion/first_target_records_changed",
+        "/conclusion/no_other_reader_crossreading"
+      ]
+    }
+  ],
+  "final_scientific_source_audit": {
+    "original_full_record_sha256": "42e1b9bc2b77c47fb381dac95acc92c203934e5c8d51d70a9624a727bac53216",
+    "selected_field_list": [
+      "actual_source_review",
+      "accepted_conclusion",
+      "coordinate_transform_checks",
+      "original_definition_check",
+      "protocol_deviation",
+      "source_packet_wording_qualification"
+    ],
+    "scientific_record": {
+      "actual_source_review": {
+        "first": "The fixed first upper rounded body visibly continues below its bulk along a descending course toward its lower turn, with adjoining light paper. This supports TRUE under the unchanged rule without choosing exact upper closure or lower rejoin/free-end topology. Accepted external extent and owner identity are premises; no segmentation or owner experiment was rerun.",
+        "adjacent": "The fixed adjacent construction has a lower rounded body and tall narrow capped course. No required rounded upper body is demonstrated. The cap cannot substitute for it; UNKNOWN is the unchanged rule outcome, not forced FALSE or negative class evidence.",
+        "coordinates": "A first upper locator local[56,45,72,62] and B[54,43,72,63], A lower[48,67,64,79] and B[47,67,65,79] remain separate. Different adjoining-paper regions and adjacent cap envelopes remain separate. These locate the same fixed bodies approximately; no averaging, mask, exact boundary or numeric classifier threshold is adopted.",
+        "transformation": "Every paired local/native evidence bbox was checked by the declared offset (575,875); results recorded below."
+      },
+      "accepted_conclusion": {
+        "first_original_conservative_count": 17,
+        "first_conditional_refinement_count": 16,
+        "conditional_removed_alias_only": "C04",
+        "adjacent_original_and_conditional_count": 19,
+        "interpretation": "The fixed target demonstrates the exposed-descent side of the exemplar-validated proposal. Conditional on the new shared-waist restriction for C04, it excludes that refined model for this target. Original C04 remains in the immutable conservative set.",
+        "unique_C08": false,
+        "universal_C04_exclusion": false,
+        "new_reliable_letters": 0,
+        "other_live_alternatives_preserved": true,
+        "atlas_registry_key_mutation": false
+      },
+      "coordinate_transform_checks": [
+        {
+          "actor": "A",
+          "target": "first",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            56,
+            45,
+            72,
+            62
+          ],
+          "native": [
+            631,
+            920,
+            647,
+            937
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "first",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            55,
+            60,
+            70,
+            72
+          ],
+          "native": [
+            630,
+            935,
+            645,
+            947
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "first",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            48,
+            67,
+            64,
+            79
+          ],
+          "native": [
+            623,
+            942,
+            639,
+            954
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "first",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            65,
+            63,
+            73,
+            73
+          ],
+          "native": [
+            640,
+            938,
+            648,
+            948
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "first",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            47,
+            66,
+            63,
+            79
+          ],
+          "native": [
+            622,
+            941,
+            638,
+            954
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "adjacent",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            74,
+            43,
+            92,
+            63
+          ],
+          "native": [
+            649,
+            918,
+            667,
+            938
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "adjacent",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            87,
+            29,
+            100,
+            52
+          ],
+          "native": [
+            662,
+            904,
+            675,
+            927
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "adjacent",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            93,
+            27,
+            103,
+            35
+          ],
+          "native": [
+            668,
+            902,
+            678,
+            910
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "adjacent",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            79,
+            28,
+            90,
+            42
+          ],
+          "native": [
+            654,
+            903,
+            665,
+            917
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "A",
+          "target": "adjacent",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            91,
+            22,
+            106,
+            27
+          ],
+          "native": [
+            666,
+            897,
+            681,
+            902
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "first",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            54,
+            43,
+            72,
+            63
+          ],
+          "native": [
+            629,
+            918,
+            647,
+            938
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "first",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            56,
+            59,
+            70,
+            73
+          ],
+          "native": [
+            631,
+            934,
+            645,
+            948
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "first",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            47,
+            67,
+            65,
+            79
+          ],
+          "native": [
+            622,
+            942,
+            640,
+            954
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "first",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            50,
+            62,
+            59,
+            69
+          ],
+          "native": [
+            625,
+            937,
+            634,
+            944
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "first",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            66,
+            63,
+            74,
+            75
+          ],
+          "native": [
+            641,
+            938,
+            649,
+            950
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "adjacent",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            73,
+            43,
+            93,
+            65
+          ],
+          "native": [
+            648,
+            918,
+            668,
+            940
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "adjacent",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            83,
+            27,
+            103,
+            56
+          ],
+          "native": [
+            658,
+            902,
+            678,
+            931
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "adjacent",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            92,
+            25,
+            107,
+            35
+          ],
+          "native": [
+            667,
+            900,
+            682,
+            910
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "adjacent",
+          "kind": "affirmative_ink_evidence",
+          "local": [
+            83,
+            55,
+            100,
+            66
+          ],
+          "native": [
+            658,
+            930,
+            675,
+            941
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "adjacent",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            83,
+            29,
+            94,
+            43
+          ],
+          "native": [
+            658,
+            904,
+            669,
+            918
+          ],
+          "exact_offset": true
+        },
+        {
+          "actor": "B",
+          "target": "adjacent",
+          "kind": "affirmative_adjoining_paper_evidence",
+          "local": [
+            98,
+            34,
+            108,
+            49
+          ],
+          "native": [
+            673,
+            909,
+            683,
+            924
+          ],
+          "exact_offset": true
+        }
+      ],
+      "original_definition_check": {
+        "clean_packet_sha256": "3b6d0f13af059df55e0551d35ca6049dd33a2f389e40205a2e8c2b382b1845f0",
+        "C04": "Two stacked closed or nearly closed lobes",
+        "implication": "Original wording does not universally require the new shared-waist predicate. Conditional exclusion under the proposed refinement cannot be reported as unconditional removal from original C04."
+      },
+      "protocol_deviation": {
+        "required": "PNG, decoded RGB and dimensions verification before target display.",
+        "actual": "Both target observers verified PNG hash/header/dimensions before display; both explicitly record decoded RGB verification only afterward.",
+        "verdict": "FAIL for the stipulated full pre-view verification chronology. Do not claim complete protocol compliance or describe RGB-before-view as passed.",
+        "identity_distinction": "The pre-view whole-PNG SHA identifies the authorized immutable image. Subsequent RGB matches and this reviewer pre-view RGB verification support that same image identity; they do not retroactively repair the ordering violation.",
+        "disposition": "Keep both whole ledgers and this deviation in the accepted result/public account. No observer rerun, rescoring or silent correction."
+      },
+      "source_packet_wording_qualification": "Observer verbatim claims are true of the supplied filtered packet, not of all original source JSON fields. Exact omission paths are recorded here. The original no-code/no-word/no-key conclusions and fixed adjacent selection rule remain controlling and are not overturned by packet omissions."
+    },
+    "review_exposure": {
+      "target_views": 1,
+      "detail": "original",
+      "PNG_RGB_dimensions_verified_before_reviewer_view": true,
+      "new_diagnostics_or_enhancement": false,
+      "prior_role": "Reviewer knows the prior rule, class association, reference observations and frozen target outcomes. This is a nonblind independent method/source audit, not a fresh blinded target prediction.",
+      "keys_literals_raw_atlas_access": false,
+      "245_222_access": false
+    }
+  }
+}

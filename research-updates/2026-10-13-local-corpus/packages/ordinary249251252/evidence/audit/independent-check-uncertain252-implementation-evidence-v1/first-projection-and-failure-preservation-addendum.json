@@ -1,0 +1,277 @@
+{
+  "complete_original_failedscope_receipt": {
+    "created_utc": "2026-10-13T10:23:05.758226+00:00",
+    "failed_call_count": 1,
+    "failed_original252_inputs_streams": [
+      {
+        "bytes": 999,
+        "path": "ordinary249251252-card252-INDEPENDENT_CHECKER_ATTEMPT-v1.json",
+        "sha256": "50e049838870b36fd506a46144081fef4cac8cd2cfe91d64788381524844029d",
+        "whole_original_text": "{\n  \"command\": [\n    \"<personal-home>/.pyenv/versions/3.13.9/bin/python3\",\n    \"<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/independent_case_check.py\",\n    \"--case\",\n    \"<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/cards/card252/case-data-new-v2/case-manifest.json\",\n    \"--release\",\n    \"<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/release014-packet010-249251252-v1.json\",\n    \"--release-sha\",\n    \"8df63075b28d88b370c376579b0786bddcebf22c116a1ef2dbbfa373f8e2ed0a\",\n    \"--output\",\n    \"<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/outputs/card252\",\n    \"--reproduction\",\n    \"<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/runtime-reproductions/release014-packet010-249251252-v1/card252\"\n  ],\n  \"created_utc\": \"2026-10-13T10:17:13.094596+00:00\",\n  \"original_checker_CLI_calls_authorized\": 1\n}\n"
+      },
+      {
+        "bytes": 0,
+        "path": "ordinary249251252-card252-INDEPENDENT_CHECKER_RESULT-v1.json",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "whole_original_text": ""
+      },
+      {
+        "bytes": 829,
+        "path": "ordinary249251252-card252-INDEPENDENT_CHECKER_STDERR-v1.txt",
+        "sha256": "85724ccb0aab32745f44be6ab3b2624c2a78b68a44bcf0fe9ae408f21b627f93",
+        "whole_original_text": "Traceback (most recent call last):\n  File \"<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/independent_case_check.py\", line 329, in <module>\n    print(json.dumps(check(args.case, args.release, args.release_sha, args.output, args.reproduction), ensure_ascii=False, indent=2))\n                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<personal-home>/Documents/Codex/2026-10-09/task-8/anna-corpus-completion-20261012/independent_case_check.py\", line 166, in check\n    assert unit['status'] in ('provisional_known_class', 'unresolved_shape', 'unresolved_span'), 'New status needs explicit check'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: New status needs explicit check\n"
+      }
+    ],
+    "new_separately_reviewed252_contract_pending": true,
+    "original_checker_replaced_or_mutated": false,
+    "passed249251_repeats": 0,
+    "passed_original_checkers": [
+      {
+        "card": 249,
+        "path": "ordinary249251252-card249-INDEPENDENT_CHECKER_RESULT-v1.json",
+        "sha256": "f4d6f4fd632656c64a83f376a1c4a6ed4e090c1ac21a6d255e7cc0659b782bf7",
+        "whole_original_result": {
+          "card_id": 249,
+          "cipher_rows": 17,
+          "compared_reproduction_files": 5,
+          "counts_by_document": {
+            "cipher-picture-CW90": {
+              "additional_source_review_masks": 48,
+              "capped_ch_slots": 0,
+              "emitted_known_letters": 12,
+              "masked_representation_slots": 111,
+              "observed_known_classes": 6,
+              "provisionally_mapped_slots": 12,
+              "recorded_punctuation_marks": 0,
+              "representation_slots": 123,
+              "uncertain_punctuation_masks": 0
+            }
+          },
+          "csv_records_all_fields": 123,
+          "exact_review_masks": 48,
+          "groups": 65,
+          "imports_of_runner_core_or_old_helpers": false,
+          "old_projections_or_suites_run": false,
+          "ordinary_records": 24,
+          "output_hashes": {
+            "both-face-literal.txt": "b6cd845c74070e270f23ab3a1a96bfede972c36dd8be2875e2d1147fe53a3e5c",
+            "both-face-uncertainty-notes.txt": "fa12594ce98defb7c625aaee6d7761846ecd227b5c3e345ee22d5766671f6090",
+            "cipher-picture-CW90-literal-lines.txt": "915e4e52e547e3a94cb42d79d8140ffc6797cda85f6e350d4d84df992d515c51",
+            "cipher-picture-CW90-tokens.csv": "b662d5631779f7245738cef25706d731ff4fe48abde1bdcff01bb95ff934937b",
+            "replay-receipt.json": "a3aa3edf24018bd46dd01b23ac15c14e629a70487d54db263ab3006455953a04"
+          },
+          "reconstructed_output_files": 4,
+          "status": "PASS",
+          "unique_manifest_refs": 210,
+          "warning_objects": 402
+        }
+      },
+      {
+        "card": 251,
+        "path": "ordinary249251252-card251-INDEPENDENT_CHECKER_RESULT-v1.json",
+        "sha256": "6ab8f78d98a0992a3385e14fd35baa7807797e63388d588c9e8c7661d205c355",
+        "whole_original_result": {
+          "card_id": 251,
+          "cipher_rows": 15,
+          "compared_reproduction_files": 5,
+          "counts_by_document": {
+            "cipher-picture-CCW90": {
+              "additional_source_review_masks": 116,
+              "capped_ch_slots": 0,
+              "emitted_known_letters": 3,
+              "masked_representation_slots": 219,
+              "observed_known_classes": 1,
+              "provisionally_mapped_slots": 3,
+              "recorded_punctuation_marks": 0,
+              "representation_slots": 222,
+              "uncertain_punctuation_masks": 0
+            }
+          },
+          "csv_records_all_fields": 222,
+          "exact_review_masks": 116,
+          "groups": 111,
+          "imports_of_runner_core_or_old_helpers": false,
+          "old_projections_or_suites_run": false,
+          "ordinary_records": 25,
+          "output_hashes": {
+            "both-face-literal.txt": "badf04270e85384eecc46f381f47889e3c0a65853d03f8d8b959ba828231f44d",
+            "both-face-uncertainty-notes.txt": "a3e8d7f11aed3eb9ff1943a7d5edf66034160ed08c883eef77ef727f730621e6",
+            "cipher-picture-CCW90-literal-lines.txt": "dca55ca0aaf31316a1254597ef9a246e063cbb54df2b94b249b2fa9592543ee3",
+            "cipher-picture-CCW90-tokens.csv": "e8e9474473e9ad517f581d8b199c3ca98a9cbf1513183ac4c460391b7f1d78e2",
+            "replay-receipt.json": "db7bdc02feb04902d543a2f77f7858f23a2b4255eb63c12ee4c38e6c4df63877"
+          },
+          "reconstructed_output_files": 4,
+          "status": "PASS",
+          "unique_manifest_refs": 207,
+          "warning_objects": 396
+        }
+      }
+    ],
+    "schema": "root-independentcheckers-partial-failure-preservation-v1",
+    "status": "PARTIAL_249251PASS_252UNSUPPORTED_UNCERTAIN_STATUS"
+  },
+  "created_utc": "2026-10-13T10:27:31.291826+00:00",
+  "first_original_CLI_stdout_hash_baseline": {
+    "path": "ordinary249251252-ORIGINAL_CLI_STDOUT-v1.json",
+    "sha256": "85fab1eea49a044b0f288f53dfe198de18ddfd1fa0120aa11dac6a85989991e7"
+  },
+  "first_projection_bytes": 551864984,
+  "implementation_receipt_ref": {
+    "path": "independent-check-uncertain252-implementation-evidence-v1/implementation-receipt.json",
+    "sha256": "160a5e0602f19d65f07ec5859c982545efaa520863721c82766647552bb6cdf1"
+  },
+  "metadata_inspection_failure_history": "A diagnostic loop initially treated original CLI stdout JSON list as a dict and raised AttributeError; no files edited, no scientific/helper/checker operation. Continued with original list structure for17file fingerprint comparison only.",
+  "no_actual_csv_or_literal_content_parsed": true,
+  "no_checker_key_or_projection_run": true,
+  "original252empty_or_partial_stdout_result_ref": {
+    "path": "ordinary249251252-card252-INDEPENDENT_CHECKER_RESULT-v1.json",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "original_failedchecker_partial_scope_ref": {
+    "path": "ordinary249251252-INDEPENDENT_CHECKERS_PARTIAL_AND252FAILURE-v1.json",
+    "sha256": "c26394564d8fcf1ae2f6dee5c6d31fa146b0690c02f94c514b4ef3b5f90cadce"
+  },
+  "original_first_projection17files": [
+    {
+      "current_ref": {
+        "path": "outputs/card249/cipher-picture-CW90-tokens.csv",
+        "sha256": "b662d5631779f7245738cef25706d731ff4fe48abde1bdcff01bb95ff934937b"
+      },
+      "original_first_CLI_frozen_hash": "b662d5631779f7245738cef25706d731ff4fe48abde1bdcff01bb95ff934937b",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card249/cipher-picture-CW90-literal-lines.txt",
+        "sha256": "915e4e52e547e3a94cb42d79d8140ffc6797cda85f6e350d4d84df992d515c51"
+      },
+      "original_first_CLI_frozen_hash": "915e4e52e547e3a94cb42d79d8140ffc6797cda85f6e350d4d84df992d515c51",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card249/both-face-literal.txt",
+        "sha256": "b6cd845c74070e270f23ab3a1a96bfede972c36dd8be2875e2d1147fe53a3e5c"
+      },
+      "original_first_CLI_frozen_hash": "b6cd845c74070e270f23ab3a1a96bfede972c36dd8be2875e2d1147fe53a3e5c",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card249/both-face-uncertainty-notes.txt",
+        "sha256": "fa12594ce98defb7c625aaee6d7761846ecd227b5c3e345ee22d5766671f6090"
+      },
+      "original_first_CLI_frozen_hash": "fa12594ce98defb7c625aaee6d7761846ecd227b5c3e345ee22d5766671f6090",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card249/replay-receipt.json",
+        "sha256": "a3aa3edf24018bd46dd01b23ac15c14e629a70487d54db263ab3006455953a04"
+      },
+      "original_first_CLI_frozen_hash": "a3aa3edf24018bd46dd01b23ac15c14e629a70487d54db263ab3006455953a04",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card251/cipher-picture-CCW90-tokens.csv",
+        "sha256": "e8e9474473e9ad517f581d8b199c3ca98a9cbf1513183ac4c460391b7f1d78e2"
+      },
+      "original_first_CLI_frozen_hash": "e8e9474473e9ad517f581d8b199c3ca98a9cbf1513183ac4c460391b7f1d78e2",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card251/cipher-picture-CCW90-literal-lines.txt",
+        "sha256": "dca55ca0aaf31316a1254597ef9a246e063cbb54df2b94b249b2fa9592543ee3"
+      },
+      "original_first_CLI_frozen_hash": "dca55ca0aaf31316a1254597ef9a246e063cbb54df2b94b249b2fa9592543ee3",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card251/both-face-literal.txt",
+        "sha256": "badf04270e85384eecc46f381f47889e3c0a65853d03f8d8b959ba828231f44d"
+      },
+      "original_first_CLI_frozen_hash": "badf04270e85384eecc46f381f47889e3c0a65853d03f8d8b959ba828231f44d",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card251/both-face-uncertainty-notes.txt",
+        "sha256": "a3e8d7f11aed3eb9ff1943a7d5edf66034160ed08c883eef77ef727f730621e6"
+      },
+      "original_first_CLI_frozen_hash": "a3e8d7f11aed3eb9ff1943a7d5edf66034160ed08c883eef77ef727f730621e6",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card251/replay-receipt.json",
+        "sha256": "db7bdc02feb04902d543a2f77f7858f23a2b4255eb63c12ee4c38e6c4df63877"
+      },
+      "original_first_CLI_frozen_hash": "db7bdc02feb04902d543a2f77f7858f23a2b4255eb63c12ee4c38e6c4df63877",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card252/cipher-upper-tokens.csv",
+        "sha256": "22caf7a4c2ec8c32e08cb3eb7cc620173b088e51a8375c8b05c370379c3b2e22"
+      },
+      "original_first_CLI_frozen_hash": "22caf7a4c2ec8c32e08cb3eb7cc620173b088e51a8375c8b05c370379c3b2e22",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card252/cipher-upper-literal-lines.txt",
+        "sha256": "93a6005b3eec98bf68698760e1e6122c35a4f8416a084d20c4f74eff4c35b3a5"
+      },
+      "original_first_CLI_frozen_hash": "93a6005b3eec98bf68698760e1e6122c35a4f8416a084d20c4f74eff4c35b3a5",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card252/cipher-lower-tokens.csv",
+        "sha256": "7248afe464d733b02901ec73f0eaa50006081f1bb38f8348d9cc060d488c2115"
+      },
+      "original_first_CLI_frozen_hash": "7248afe464d733b02901ec73f0eaa50006081f1bb38f8348d9cc060d488c2115",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card252/cipher-lower-literal-lines.txt",
+        "sha256": "bcdb21cbb83ce705fdd22637994b91e35a7191511da83bdba5feeb4e8deca0b9"
+      },
+      "original_first_CLI_frozen_hash": "bcdb21cbb83ce705fdd22637994b91e35a7191511da83bdba5feeb4e8deca0b9",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card252/both-face-literal.txt",
+        "sha256": "7c3e1708bdce0dcdd966ff2661552372ac306f240341e30f2db818b78d7c1f53"
+      },
+      "original_first_CLI_frozen_hash": "7c3e1708bdce0dcdd966ff2661552372ac306f240341e30f2db818b78d7c1f53",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card252/both-face-uncertainty-notes.txt",
+        "sha256": "b407da453531e37d90f735a1f6dc63952dc155f967a82254621dd602be94f23a"
+      },
+      "original_first_CLI_frozen_hash": "b407da453531e37d90f735a1f6dc63952dc155f967a82254621dd602be94f23a",
+      "unchanged": true
+    },
+    {
+      "current_ref": {
+        "path": "outputs/card252/replay-receipt.json",
+        "sha256": "bdc63577f96afa69a27da3117d217588217d93897eb60f88a18509da4d6d1b42"
+      },
+      "original_first_CLI_frozen_hash": "bdc63577f96afa69a27da3117d217588217d93897eb60f88a18509da4d6d1b42",
+      "unchanged": true
+    }
+  ],
+  "schema": "anna-uncertain252-firstprojection-identity-preservation-addendum-v1",
+  "variant_ref": {
+    "path": "independent_case_check_uncertain252_v1.py",
+    "sha256": "8da5ecb6add0a074562ea92d672bc3e64e7f86d737d6639389b4269cfd2099c7"
+  }
+}

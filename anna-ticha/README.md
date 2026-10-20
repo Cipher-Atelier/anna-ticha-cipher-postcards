@@ -7,7 +7,7 @@ Author: Maxim Egorov
 1. [Current status and overview](../README.md#current-status--20-october-2026)
 2. [Cards and evidence levels](readings.md), including [card 204’s original reading and reported check](card-204.md)
 3. [Literal texts](saved-six-card-literals.md) and each card’s supporting evidence; [card 199](card-199.md) has the most complete public positional package
-4. [Methods](methods.md) and [dated historical audits](../research-updates/README.md), including the four Russian readers on unmerged draft PR #19
+4. [Methods](methods.md) and [dated historical audits](../research-updates/README.md), including the four Russian readers published in PR #19
 
 The public card reports are partial readings. Cards 205 and 323 remain partial/conditional; high mapping coverage is not verified accuracy. The author-reported external check of 204 does not validate the full collection. Card 460 is another team’s key comparison, not our solve.
 

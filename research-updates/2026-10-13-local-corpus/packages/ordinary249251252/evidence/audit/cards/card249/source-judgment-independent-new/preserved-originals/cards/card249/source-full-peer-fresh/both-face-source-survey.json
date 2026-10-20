@@ -1,0 +1,691 @@
+{
+  "card": 249,
+  "source_first_procedural": true,
+  "key_projection_performed": false,
+  "physical_body_count": null,
+  "faces": [
+    {
+      "face": "picture",
+      "source": {
+        "sha256": "f39fdf9a8d1d8ce22d97eaf0618bb1375e1f3175750114de58297ac5727f700f",
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "bytes": 1315174,
+        "source_url": "https://api.hcportal.eu/media/4764/pc_hcp_249_pic.JPG"
+      },
+      "orientation": "NONE",
+      "oriented_dimensions": [
+        1785,
+        1175
+      ],
+      "cipher_present": true,
+      "cipher_regions": [
+        {
+          "region_id": "FP249-LEFT",
+          "role": "left_upper_cipher",
+          "orientation": "CW90",
+          "oriented_dimensions": [
+            1175,
+            1785
+          ],
+          "bbox_xyxy": [
+            525,
+            585,
+            835,
+            825
+          ],
+          "native_bbox_precision": "Enclosing context region, not ink segmentation",
+          "observed_row_ids": [
+            "FP249-L01",
+            "FP249-L02",
+            "FP249-L03",
+            "FP249-L04",
+            "FP249-L05",
+            "FP249-L06"
+          ]
+        },
+        {
+          "region_id": "FP249-RIGHT",
+          "role": "right_upper_cipher",
+          "orientation": "CW90",
+          "oriented_dimensions": [
+            1175,
+            1785
+          ],
+          "bbox_xyxy": [
+            520,
+            75,
+            725,
+            355
+          ],
+          "native_bbox_precision": "Enclosing context region, not ink segmentation",
+          "observed_row_ids": [
+            "FP249-R01",
+            "FP249-R02",
+            "FP249-R03",
+            "FP249-R04"
+          ]
+        },
+        {
+          "region_id": "FP249-BOTTOM",
+          "role": "bottom_cipher",
+          "orientation": "CW90",
+          "oriented_dimensions": [
+            1175,
+            1785
+          ],
+          "bbox_xyxy": [
+            1415,
+            55,
+            1715,
+            1110
+          ],
+          "native_bbox_precision": "Enclosing context region, not ink segmentation",
+          "observed_row_ids": [
+            "FP249-B01",
+            "FP249-B02",
+            "FP249-B03",
+            "FP249-B04",
+            "FP249-B05",
+            "FP249-B06",
+            "FP249-B07"
+          ]
+        }
+      ],
+      "edge_survey": {
+        "top": "Entire white outer margin and card top edge inspected. Picture: tree/flower design and region near native upper right; address: printed heading/stamp upper border. No separately omitted cipher row observed.",
+        "right": "Entire native right edge inspected. Picture: cipher lower-block boundary and ordinary date are inside this side; address: stamp/cancellation and stains. No extra edge cipher region observed.",
+        "bottom": "Entire native bottom edge inspected. Picture: illustration/card border and left upper cipher margin inside card; address: bottom ruled address line and border. No separate lower-edge cipher region observed.",
+        "left": "Entire native left edge inspected. Picture: illustration/flowers and border; address: printed headings and blank/ruled address space. No separate left-margin cipher observed."
+      },
+      "ordinary_coverage": [
+        {
+          "diplomatic_record_index": 1,
+          "bbox_xyxy": [
+            1650,
+            315,
+            1705,
+            540
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "CW90",
+          "record_bbox_xyxy": [
+            635,
+            1650,
+            860,
+            1705
+          ],
+          "kind": "direct_handwriting",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 2,
+          "bbox_xyxy": [
+            200,
+            65,
+            1460,
+            1115
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            200,
+            65,
+            1460,
+            1115
+          ],
+          "kind": "nontext_graphical_overlay",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        }
+      ],
+      "nontext_survey": "Illustration, border wear, gray/colored stains and semitransparent overlay observed; no text invented from them."
+    },
+    {
+      "face": "address",
+      "source": {
+        "sha256": "021bfb52ca79cfa67fe40fa3acf586b65f7aa66cf8c33a4adfc527a329037a12",
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "bytes": 1118141,
+        "source_url": "https://api.hcportal.eu/media/4765/pc_hcp_249_adr.JPG"
+      },
+      "orientation": "NONE",
+      "oriented_dimensions": [
+        1785,
+        1175
+      ],
+      "cipher_present": false,
+      "cipher_regions": [],
+      "edge_survey": {
+        "top": "Entire white outer margin and card top edge inspected. Picture: tree/flower design and region near native upper right; address: printed heading/stamp upper border. No separately omitted cipher row observed.",
+        "right": "Entire native right edge inspected. Picture: cipher lower-block boundary and ordinary date are inside this side; address: stamp/cancellation and stains. No extra edge cipher region observed.",
+        "bottom": "Entire native bottom edge inspected. Picture: illustration/card border and left upper cipher margin inside card; address: bottom ruled address line and border. No separate lower-edge cipher region observed.",
+        "left": "Entire native left edge inspected. Picture: illustration/flowers and border; address: printed headings and blank/ruled address space. No separate left-margin cipher observed."
+      },
+      "ordinary_coverage": [
+        {
+          "diplomatic_record_index": 1,
+          "bbox_xyxy": [
+            115,
+            84,
+            822,
+            137
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            115,
+            84,
+            822,
+            137
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 2,
+          "bbox_xyxy": [
+            115,
+            141,
+            817,
+            180
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            115,
+            141,
+            817,
+            180
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 3,
+          "bbox_xyxy": [
+            170,
+            184,
+            764,
+            224
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            170,
+            184,
+            764,
+            224
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 4,
+          "bbox_xyxy": [
+            170,
+            223,
+            765,
+            259
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            170,
+            223,
+            765,
+            259
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 5,
+          "bbox_xyxy": [
+            170,
+            259,
+            765,
+            295
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            170,
+            259,
+            765,
+            295
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 6,
+          "bbox_xyxy": [
+            171,
+            295,
+            764,
+            331
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            171,
+            295,
+            764,
+            331
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 7,
+          "bbox_xyxy": [
+            171,
+            331,
+            767,
+            367
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            171,
+            331,
+            767,
+            367
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 8,
+          "bbox_xyxy": [
+            350,
+            373,
+            586,
+            414
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            350,
+            373,
+            586,
+            414
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 9,
+          "bbox_xyxy": [
+            275,
+            414,
+            663,
+            453
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            275,
+            414,
+            663,
+            453
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 10,
+          "bbox_xyxy": [
+            495,
+            455,
+            1127,
+            554
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            495,
+            455,
+            1127,
+            554
+          ],
+          "kind": "direct_handwriting",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 11,
+          "bbox_xyxy": [
+            556,
+            584,
+            1343,
+            696
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            556,
+            584,
+            1343,
+            696
+          ],
+          "kind": "direct_handwriting",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 12,
+          "bbox_xyxy": [
+            895,
+            694,
+            1144,
+            758
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            895,
+            694,
+            1144,
+            758
+          ],
+          "kind": "direct_handwriting",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 13,
+          "bbox_xyxy": [
+            810,
+            756,
+            1349,
+            862
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            810,
+            756,
+            1349,
+            862
+          ],
+          "kind": "direct_handwriting",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 14,
+          "bbox_xyxy": [
+            914,
+            896,
+            1327,
+            999
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            914,
+            896,
+            1327,
+            999
+          ],
+          "kind": "direct_handwriting",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 15,
+          "bbox_xyxy": [
+            1381,
+            113,
+            1616,
+            375
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1381,
+            113,
+            1616,
+            375
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 16,
+          "bbox_xyxy": [
+            1420,
+            120,
+            1575,
+            169
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1420,
+            120,
+            1575,
+            169
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 17,
+          "bbox_xyxy": [
+            1425,
+            329,
+            1578,
+            370
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1425,
+            329,
+            1578,
+            370
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 18,
+          "bbox_xyxy": [
+            1385,
+            118,
+            1435,
+            169
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1385,
+            118,
+            1435,
+            169
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 19,
+          "bbox_xyxy": [
+            1550,
+            119,
+            1609,
+            171
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1550,
+            119,
+            1609,
+            171
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 20,
+          "bbox_xyxy": [
+            1389,
+            314,
+            1442,
+            369
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1389,
+            314,
+            1442,
+            369
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 21,
+          "bbox_xyxy": [
+            1555,
+            314,
+            1614,
+            370
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1555,
+            314,
+            1614,
+            370
+          ],
+          "kind": "direct_printed_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 22,
+          "bbox_xyxy": [
+            1302,
+            143,
+            1397,
+            357
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1302,
+            143,
+            1397,
+            357
+          ],
+          "kind": "direct_postmark_text",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 23,
+          "bbox_xyxy": [
+            1300,
+            112,
+            1669,
+            504
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1300,
+            112,
+            1669,
+            504
+          ],
+          "kind": "nontext_or_unreadable_postmark",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 24,
+          "bbox_xyxy": [
+            805,
+            194,
+            1209,
+            518
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            805,
+            194,
+            1209,
+            518
+          ],
+          "kind": "nontext_or_unreadable_postmark",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 25,
+          "bbox_xyxy": [
+            120,
+            536,
+            1620,
+            994
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            120,
+            536,
+            1620,
+            994
+          ],
+          "kind": "nontext_printed_ruling",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 26,
+          "bbox_xyxy": [
+            337,
+            54,
+            1468,
+            1110
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            337,
+            54,
+            1468,
+            1110
+          ],
+          "kind": "nontext_graphical_overlay",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        },
+        {
+          "diplomatic_record_index": 27,
+          "bbox_xyxy": [
+            1390,
+            510,
+            1645,
+            931
+          ],
+          "coordinate_frame": "NONE",
+          "record_coordinate_frame": "NONE",
+          "record_bbox_xyxy": [
+            1390,
+            510,
+            1645,
+            931
+          ],
+          "kind": "nontext_source_stains",
+          "ownership": "source-context coverage, not ink-exclusive segmentation"
+        }
+      ],
+      "nontext_survey": "Illustration, border wear, gray/colored stains and semitransparent overlay observed; no text invented from them."
+    }
+  ],
+  "complete_face_survey": true,
+  "independence": "Independent full-source observations by same actor after eight nominated windows; may be primed. No primary coding/selection/judgments read.",
+  "geometric_display_order": "Picture region order left upper (earlier CW90 y), right upper, bottom. Rows top-to-bottom within each region and bodies left-to-right. Address ordinary records printed header first, handwriting top-to-bottom, stamp/cancellations/other marks after. Chosen without cipher values.",
+  "bodywork": "Partial independent individual-body work with all-region residual coverage; physical census not certified."
+}

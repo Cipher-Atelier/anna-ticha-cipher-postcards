@@ -1,0 +1,29 @@
+{
+  "schema": "old-input-diagnosis-v2",
+  "numerical_input_issues": [
+    {
+      "field": "classes",
+      "cause": "original empty list gives zero classes; first numeric class-count guard requires 7..27"
+    },
+    {
+      "field": "variants",
+      "cause": "finite transcription variants UNESTABLISHED; original [] is unavailable, not established zero interpretations"
+    },
+    {
+      "field": "common_identity_stable_occurrences",
+      "cause": "raw common field is list rather than integer",
+      "raw_value": []
+    }
+  ],
+  "class_count": 0,
+  "variants_status": "UNESTABLISHED",
+  "raw_common_field_type": "list",
+  "scientific_readiness_information": {
+    "coverage": "whole-card coverage not established; separate from numerical code guards",
+    "role": "cipher-unit role not established by source-only data; no external historical authority prerequisite",
+    "physical_annotation_permitted": true
+  },
+  "source_integrity": "No corrupt source bytes or decode observed in verified provenance. Input-field issues do not imply bad image.",
+  "policy": "No scorer rerun, automatic physical-to-cipher conversion or hidden masking.",
+  "input_sha256": "9cfdfe59f2eef198d69fd920f1b972406bd7bcef5657be8862a4a9a6dbaef203"
+}

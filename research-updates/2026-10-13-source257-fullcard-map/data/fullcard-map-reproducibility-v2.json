@@ -1,0 +1,27 @@
+{
+  "schema": "fullcard-map-reproducibility-v2",
+  "frozen_and_v1_modified": false,
+  "typed_revision_checks": {
+    "all39_bottom_previous_whole_audited": true,
+    "ten_envelope_corrections": true,
+    "seven_whole_downgrades": true,
+    "frozen_deep_equal": true,
+    "raw_refs_unchanged": true,
+    "right_bounds_extents_unchanged": true,
+    "cipher_roles_unknown": true
+  },
+  "outputs": [
+    {
+      "filename": "fullcard-map-v2.json",
+      "byte_equal": true,
+      "file_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34"
+    },
+    {
+      "filename": "fullcard-adjudication-evidence-v2.json",
+      "byte_equal": true,
+      "file_sha256": "45ce70936dc1c3e9aa032d9eaf278e8b5d14d89f8de2021355a0c5046bc47abb"
+    }
+  ],
+  "changed_pinned_input_rejected_without_json_output": true,
+  "scope": "Typed revision integrity, pin rejection and byte reproduction only; no independent visual or historical truth proof."
+}

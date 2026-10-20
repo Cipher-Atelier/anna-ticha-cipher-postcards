@@ -1,0 +1,174 @@
+{
+  "schema": "executed-rebuild-algorithm-corpus-author-export-v1",
+  "preimage_freeze_sha256": "8a27f65c2a86d5f5ea62c7e30c10843407ced6e30a39dce7f51a0c9704f49f6f",
+  "freeze_status": "ACTUAL_CORPUS_ALGORITHM_CRITERIA_BASELINES_CONTROLS_FROZEN_BEFORE257_GET_AND_ANY258_GET_OR_VIEW",
+  "actual_runtime": {
+    "python": "3.13.9 (main, Nov 26 2025, 02:17:55) [Clang 17.0.0 (clang-1700.4.4.1)]",
+    "numpy": "2.3.3",
+    "Pillow": "11.3.0",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "pdftotext": "26.10.0"
+  },
+  "frozen_asset_metadata_only": [
+    {
+      "path": "assets/corpus-response-headers.txt",
+      "bytes": 343,
+      "sha256": "e3df40ce345373c3e993995e0b751aaf37764778a0f91b9dd032410141a80fa6"
+    },
+    {
+      "path": "assets/counts.npz",
+      "bytes": 3803030,
+      "sha256": "666cc59df428419d45e82b47455a23098453d775f89bedaedf9a71445e47cf69"
+    },
+    {
+      "path": "assets/listy_I.pdf",
+      "bytes": 1141729,
+      "sha256": "904b56685abd379dcfa458b3708310c7e369f56d352558c36c2b9070c2c35798"
+    },
+    {
+      "path": "assets/listy_I.txt",
+      "bytes": 320865,
+      "sha256": "ed5f7afdca233d427adcfb3c908b341e7b8023f779987a29c586e1a8f36b82af"
+    },
+    {
+      "path": "code/build_counts.py",
+      "bytes": 1273,
+      "sha256": "0932bd0c6066c4337bcb88265d50ded2509888e97b6ee070692a6f5b3d96a458"
+    },
+    {
+      "path": "code/finite_model.py",
+      "bytes": 4371,
+      "sha256": "c4a5a75a90481cbfd4de12b496ec5de55ad9736662f6fbc4413b0cfcf1aef319"
+    },
+    {
+      "path": "code/run_experiment.py",
+      "bytes": 9533,
+      "sha256": "5048603b9a4c9b074dacd160c205bf721f36b63f98ec53c7f421e617e5f5facf"
+    },
+    {
+      "path": "code/test_mechanical.py",
+      "bytes": 1303,
+      "sha256": "d87e7017ad959680afa99bd9164155d13dd39febb1767a962ee31d5d863db979"
+    },
+    {
+      "path": "code/test_phase_api.py",
+      "bytes": 2134,
+      "sha256": "5618f11bdd71fc2e2004b2eb8f2c688dc5bd85ea6dcd3af55a294d57c1561f24"
+    }
+  ],
+  "corpus": {
+    "url": "https://web2.mlp.cz/koweb/00/03/34/99/42/listy_I.pdf",
+    "pdf_sha256": "904b56685abd379dcfa458b3708310c7e369f56d352558c36c2b9070c2c35798",
+    "pdf_bytes": 1141729,
+    "pages": 217,
+    "extraction": "pdftotext26.10.0 -enc UTF-8, allpages, fulltext incl frontmatter/headers, no filtering",
+    "text_sha256": "ed5f7afdca233d427adcfb3c908b341e7b8023f779987a29c586e1a8f36b82af",
+    "text_bytes": 320865,
+    "normalization": "NFKD removecombining lowercase ASCIIa-z; all other characters breakruns; no crossword concatenation",
+    "publication": "Book/extracted text/counttable remain private; publish own code/sourcecitation/hash/statistics, no quoted booktext."
+  },
+  "fixed_controls": {
+    "synthetic": {
+      "n": 3,
+      "generator_seeds": [
+        101,
+        102,
+        103
+      ],
+      "true_key_seeds": [
+        10101,
+        10102,
+        10103
+      ],
+      "construction": "LM-backed Markov4 character runs max12,256developmentchars/128heldchars, collapse adjacentch toatomicunit then encrypt under random27token substitution",
+      "procedure": "Same16x2000 optimizer and full frozen alternative evaluation; measure knowntruthusedclass/character recovery and truthscore. Generator shares languageprior: not independent corpus validation. Retain failures without tuning."
+    },
+    "IID_null": {
+      "n": 3,
+      "seeds": [
+        901,
+        902,
+        903
+      ],
+      "development_units": 256,
+      "held_units": 128,
+      "classes": 27,
+      "runs_max_units": 12,
+      "procedure": "Uniform IID class sequences; same optimizer/frozen heldalternative evaluation; rankings/readability cannot mean truth."
+    },
+    "random_key_baselines": {
+      "n": 64,
+      "seeds": "2000..2063",
+      "scope": "Freeze complete27slot randomkeys beforehistoricalview; diagnostic scores separate from <=367key mainendpoint."
+    },
+    "held_order_null": {
+      "n": 16,
+      "seeds": "9000..9015",
+      "scope": "Once frozenheld source: shuffle classorder independently within every certifiedrun, preserving frequencies/masks/runlengths. Score fixedKstar only; no refit, no pvalue, no endpoint selection."
+    }
+  },
+  "source_prerequisites": "150common development physicalbodypositions,7..27anonymousclasses,<=64fullcorrelatedvariants;80held; no legacy7assignments or other oldkeys seeded.",
+  "endpoint": "Robust finite ranking across<=367 completekeys/allsourcevariants, tol1e-9; counterexample ifsamecompetitorwinsall; ties/mixed/insufficient=>NONUNIQUE/UNAVAILABLE. Baseline64randomkeys/16heldordershuffles diagnostic only. No independentlyconfirmedhistoricalletters inferred.",
+  "guard_correction": {
+    "original_full_record_sha256": "d9be4005ecb1df5d4a3cba37f959c95797744652a4fb19613fdeacdb289ad7b6",
+    "selected_field_list": [
+      "schema",
+      "code_sha256",
+      "counts_sha256",
+      "method_sha256",
+      "controls_preservation_and_numeric_checks",
+      "phase_API",
+      "reason"
+    ],
+    "scientific_record": {
+      "schema": "correction-v2",
+      "code_sha256": {
+        "build_counts.py": "0932bd0c6066c4337bcb88265d50ded2509888e97b6ee070692a6f5b3d96a458",
+        "finite_model.py": "c4a5a75a90481cbfd4de12b496ec5de55ad9736662f6fbc4413b0cfcf1aef319",
+        "run_experiment.py": "5048603b9a4c9b074dacd160c205bf721f36b63f98ec53c7f421e617e5f5facf",
+        "test_mechanical.py": "d87e7017ad959680afa99bd9164155d13dd39febb1767a962ee31d5d863db979",
+        "test_phase_api.py": "5618f11bdd71fc2e2004b2eb8f2c688dc5bd85ea6dcd3af55a294d57c1561f24"
+      },
+      "counts_sha256": "666cc59df428419d45e82b47455a23098453d775f89bedaedf9a71445e47cf69",
+      "method_sha256": "5386bfb71e4c9c6dff1645fd776a114f427746de2329902f48df12503307b466",
+      "controls_preservation_and_numeric_checks": [
+        {
+          "file": "control-iid-901.json",
+          "byte_preserved": true,
+          "all_main_scores_exactly_equal": true
+        },
+        {
+          "file": "control-iid-902.json",
+          "byte_preserved": true,
+          "all_main_scores_exactly_equal": true
+        },
+        {
+          "file": "control-iid-903.json",
+          "byte_preserved": true,
+          "all_main_scores_exactly_equal": true
+        },
+        {
+          "file": "control-markov-101.json",
+          "byte_preserved": true,
+          "all_main_scores_exactly_equal": true
+        },
+        {
+          "file": "control-markov-102.json",
+          "byte_preserved": true,
+          "all_main_scores_exactly_equal": true
+        },
+        {
+          "file": "control-markov-103.json",
+          "byte_preserved": true,
+          "all_main_scores_exactly_equal": true
+        }
+      ],
+      "phase_API": {
+        "learn": "--learn-development PACKET --freeze NEW_FREEZE",
+        "held": "--evaluate-held PACKET --freeze EXISTING_FREEZE --output NEW_RESULT"
+      },
+      "reason": "Prospective phase isolation and fail-closed input validation; no scorer/optimizer numerical tuning, no control reruns."
+    }
+  },
+  "publication_boundary": "Five numerical code files and generated controls published; book/PDF/text/count arrays and source images not published. This is not the complete historical decipherment pipeline. --controls needs externally supplied assets/listy_I.txt; learning APIs additionally reference sibling key-foundation-audit-next-20261013/one-practical-rebuild-test-v1.json absent from this public folder. Actual runtime NumPy2.3.3; CI2.2.6 fixtures are not full numeric replication."
+}

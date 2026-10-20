@@ -1,0 +1,40 @@
+{
+  "schema": "source257-conditional772-stop-assessment-v1",
+  "assessed_utc": "2026-10-14T02:13:44Z",
+  "assessment_after_complete_fixed38_barrier": true,
+  "input_sha256": {
+    "protocol": "554f461bcf6a210b3bb91da3a36b78042410649083840002413f0bcc82d388dc",
+    "reader_A": "d198a1afbc883d908f986359c574f7efec9ccd1513d391a6e0ea8bf3ed145215",
+    "reader_B": "1e37a9ade8e23035dd76c0e00d1e74366eb6eef81ebba54eaeea6d4c1104f599",
+    "historical_A": "4693e0df900dc4f004f03888e1513672ba5aeca26610cf9b2a1a6ad6cca274b0",
+    "historical_B": "31f7b8788e8d90c9035e7879bc64b1568a842d46a0a1e6e47288915cbe8857a2",
+    "final_AI": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+    "baseline": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348"
+  },
+  "fixed_review_pairs": 38,
+  "fixed_review_targets": 29,
+  "conditional_available_pairs": 772,
+  "newly_admitted_pair_ids": [],
+  "additional_direct_comparisons": 0,
+  "decision": "STOP_NO_CONCRETE_NEW_FULL_FEATURE_REPEAT_LEAD",
+  "grounds": "The fixed review preserves visible variations and unresolved contacts without a new supported repeat or a source-specific discriminating feature with a concrete second-profile witness for plausible agreement of all eight features. The FC209 erratum corrects a whole-route containment assertion; it does not discover the raised branches or leftward low foot, which D12 already described. Reopening pairs on generic body resemblance or the same pre-existing features would not satisfy the frozen admission rule.",
+  "new_finding_reference": {
+    "artifact_sha256": "f267c434acf59b2f2ebc63e880928a236a2d053edf918d31462c5ace1874bb00",
+    "json_pointer": "/correction_reviews/0",
+    "scope": "CONNECTED_LOW_FOOT_OUTSIDE_LOCATOR; NOT_CERTIFICATION_OF_EVERY_ENDPOINT"
+  },
+  "preexisting_feature_references": [
+    {
+      "artifact_sha256": "57c34ca20119a8de119fef941f5d3be18e9d7185f0f7c5060e485b41d93160b2",
+      "json_pointer": "/observation_dictionary/FC209/source_specific_variation",
+      "literal": "High right arm and short left arm; thick low line projects far left."
+    },
+    {
+      "artifact_sha256": "1ee9e7f155562098018fbf7b471c8a83713b1216ddef5a8b78f057eb396f586d",
+      "json_pointer": "/source_observations/57/features/path_topology",
+      "literal": "Two raised angular arms join a short descending body with a low bent return."
+    }
+  ],
+  "judgment_conditioning": "Coordinator assessment after actual fixed38 source inspection and all frozen reports, with a separate final AI research judgment based on the same already inspected pixels and historical claims. No new source views or candidate-pair selection were performed for this assessment; it is not independent-source or external-expert corroboration.",
+  "limit": "The 772 pairs have available source pixels and remain uninspected in direct paired views. This bounded stop does not establish their inequality, impossibility of later recovery, or physical absence of information. No previous comparison is repeated beyond the explicitly authorized fixed38 review."
+}

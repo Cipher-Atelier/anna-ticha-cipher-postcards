@@ -1,0 +1,119 @@
+{
+  "schema": "visual-repeat-canonical-matching-evidence-v2",
+  "supersedes": "visual-repeat-canonical-matching-evidence-v1.json",
+  "raw_phase1_sha256": "5c1777b06ec7c56a5759651cffb5be195a844207a70f61d917497b6c89912329",
+  "canonical_fullmap_sha256": "f58877d0b28fcedfac8ab6b336757988283aebdcc843aa1e8d90bccea82f1d34",
+  "final_groups_sha256": "acb520e1224d5ef4c80b02e718b4ffa3110d2ecc4b5a7360e9b5e1881f1f62cb",
+  "canonical_v2_view_proof_sha256": "734e72e568d69c4b6b7bcfffce357561d73927276b28980988423c7a7955286a",
+  "phase1_frozen_before_canonical_read": true,
+  "canonical_whole_features_actually_compared": true,
+  "matching_method": "Native source occurrence, complete connecting paths, complete body and nearby exclusions inspected visually. Box intersection used only as a candidate shortlist; corrected canonical crops hashed/proven before actual inspection.",
+  "decisions": [
+    {
+      "raw_occurrence_id": "p1-b1",
+      "canonical_id": "FC179",
+      "candidate_alternatives": [
+        "FC179"
+      ],
+      "decision": "ACCEPTED_COMPLETE_BODY_MATCH",
+      "reason": "Native detail and bottom tile show the complete single bowed return without an ascender or attached neighbor."
+    },
+    {
+      "raw_occurrence_id": "p1-b2",
+      "canonical_id": "FC183",
+      "candidate_alternatives": [
+        "FC183"
+      ],
+      "decision": "ACCEPTED_COMPLETE_BODY_MATCH",
+      "reason": "Complete single bowed return at the same source occurrence; variable darkness and lower terminal length do not add a second body."
+    },
+    {
+      "raw_occurrence_id": "p1-b3",
+      "canonical_id": "FC195",
+      "candidate_alternatives": [
+        "FC195",
+        "FC213"
+      ],
+      "decision": "ACCEPTED_COMPLETE_BODY_MATCH",
+      "reason": "V2 corrected [240,1045,264,1081] window contains the complete intended single open curved body. Rechecked native source context and corrected exact crop; adjacent hooked ink is separate and excluded, not an attached stroke removed for matching.",
+      "rejected_alternatives": {
+        "FC213": "Separate lower-trajectory tall-loop construction."
+      }
+    },
+    {
+      "raw_occurrence_id": "p1-r1",
+      "canonical_id": "FC066",
+      "candidate_alternatives": [
+        "FC066",
+        "FC067"
+      ],
+      "decision": "ACCEPTED_COMPLETE_BODY_MATCH",
+      "reason": "Exact90CW canonical crop and full tile identify the same compact open body. FC067 is the neighboring tall slanted construction and differs by its attached ascending stem."
+    },
+    {
+      "raw_occurrence_id": "p1-r2",
+      "canonical_id": "FC121",
+      "candidate_alternatives": [
+        "FC120",
+        "FC121"
+      ],
+      "decision": "ACCEPTED_COMPLETE_BODY_MATCH",
+      "reason": "The complete curved body with short low point is FC121; FC120 is the neighboring rising hook with a different connecting path, not the curved body."
+    },
+    {
+      "raw_occurrence_id": "p2-b2",
+      "canonical_id": null,
+      "candidate_alternatives": [
+        "FC192",
+        "FC193",
+        "FC211"
+      ],
+      "decision": "DEFERRED_UNRESOLVED_CANONICAL_SPAN",
+      "reason": "V2 FC193 is UNRESOLVED_SPAN [165,1036,203,1079]. Expanded view includes the rounded/opposing upper bend and neighboring tall ink; whole ownership and comparison remain unresolved. FC192 and FC211 are neighboring/different-trajectory alternatives, not this occurrence."
+    },
+    {
+      "raw_occurrence_id": "p2-b3",
+      "canonical_id": "FC196",
+      "candidate_alternatives": [
+        "FC195",
+        "FC196",
+        "FC213"
+      ],
+      "decision": "ACCEPTED_COMPLETE_BODY_MATCH",
+      "reason": "V2 corrected [262,1045,292,1081] window now contains the complete upper bar, descending left neck, and rounded lower return observed in frozen source proposal. The neighboring curved body is separate, not a shared substroke.",
+      "rejected_alternatives": {
+        "FC195": "Separate adjacent open curved body; not this upper-bar hooked construction.",
+        "FC213": "Separate lower-trajectory tall-loop construction."
+      }
+    },
+    {
+      "raw_occurrence_id": "p2-r1",
+      "canonical_id": "FC093",
+      "candidate_alternatives": [
+        "FC092",
+        "FC093"
+      ],
+      "decision": "ACCEPTED_COMPLETE_BODY_MATCH",
+      "reason": "The complete upper-bar/left-neck/lower-return body FC093 matches the source proposal after exact90CW. V2 corrected FC196 supplies the second whole source-backed occurrence; FC092 remains a neighboring simple curved body lacking this complete construction."
+    }
+  ],
+  "v2_changes": [
+    "FC195 corrected window independently rechecked and mapped to frozen p1-b3 source occurrence.",
+    "FC196 corrected window independently rechecked and mapped to frozen p2-b3 source occurrence; permits two-member hooked-body group with FC093.",
+    "FC193 expanded and downgraded unresolved; remains deferred.",
+    "Opening direction in canonical FC179/FC183/FC195 descriptors now agrees with observed source right opening."
+  ],
+  "accepted_group_count": 2,
+  "accepted_member_count": 7,
+  "ungrouped_count": 300,
+  "deferred_record_count": 3,
+  "limits": [
+    "Visual similarity of complete visible connected bodies does not establish repeated cipher-unit identity or historical truth.",
+    "Every accepted member is canonical declared whole with no frozen-instance overlap or frozen sidecar conflict.",
+    "Only unowned neighboring ink/flecks are excluded. No attached stem, bar, bowl, or connecting path is removed to make agreement.",
+    "Native source resolution, variable ink thickness, approximate envelopes and detached-mark ownership limit confidence; no exact ink-mask or stroke-order claim.",
+    "Nonexhaustive source-backed groups; all remaining canonical records, including every unresolved span, remain ungrouped.",
+    "Phase 1 proposals and canonical-v1 group/evidence snapshots preserved byte-for-byte; v2 only supersedes canonical matching after actual corrected-source inspection.",
+    "No semantic identities, prescribed class count, historical truth, or unbounded detached-mark allocation claimed."
+  ]
+}

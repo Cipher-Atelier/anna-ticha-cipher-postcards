@@ -1,0 +1,66 @@
+{
+  "card": 251,
+  "source_first_procedural": true,
+  "key_projection_performed": false,
+  "physical_body_count": null,
+  "both_original_faces_viewed": true,
+  "observed_cipher_regions": [
+    {
+      "face": "picture",
+      "frame": "CCW90",
+      "context_bbox_xyxy": [
+        80,
+        97,
+        1075,
+        825
+      ],
+      "description": "Fifteen visible cipher row contexts in upper writing area after exact transpose; large ordinary greeting interrupts right side and date is below last long rows. Context is not ink segmentation.",
+      "physical_body_count": null
+    }
+  ],
+  "faces": [
+    {
+      "face": "picture",
+      "orientation": "NONE",
+      "source": {
+        "sha256": "adc0226ffc9eb7935a0d09599d28ed0cc36770ccb6fd59c4a1066cc8007c05d9",
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "bytes": 1136349,
+        "source_url": "https://api.hcportal.eu/media/4770/pc_hcp_251_pic.JPG"
+      },
+      "edge_survey": {
+        "top": "Full native top edge and white border inspected; small wear/specks, cipher column starts inward from right. No separate edge cipher observed.",
+        "right": "Full native right border inspected; row entries visible inside border, no independently observed extra cut-off cipher region.",
+        "bottom": "Full native bottom border and portrait/card perimeter inspected; fading and wear, no separate cipher strip observed.",
+        "left": "Full native left border, portrait and faded background inspected; no additional cipher region observed."
+      },
+      "cipher_present": true
+    },
+    {
+      "face": "address",
+      "orientation": "NONE",
+      "source": {
+        "face": "address",
+        "path": "cards/card251/sources/pc_hcp_251_adr.JPG",
+        "sha256": "35b35cb5cd0b25311e67272e17bd90973e3b8dbe88d250fb74acfc987cdbe82b",
+        "bytes": 1029211,
+        "dimensions": [
+          1785,
+          1175
+        ],
+        "source_url": "https://api.hcportal.eu/media/4771/pc_hcp_251_adr.JPG"
+      },
+      "edge_survey": {
+        "top": "Printed multilingual heading and stamp/cancellations inward from worn top border; no cipher strip observed.",
+        "right": "Blank worn side margin around stamp and address endpoints; no extra cipher region observed.",
+        "bottom": "Dotted guide, clover-like emblem and paper wear above/beside lower border; no cipher line observed.",
+        "left": "Blank margin, lower instruction entry and small emblem; no cipher region observed."
+      },
+      "cipher_present": false
+    }
+  ],
+  "coverage_limit": "Full-face/all-edge visual pass and supplied record enumeration completed; individual owned-body adjudication remains PARTIAL, not exhaustive ink census or family-absence proof."
+}

@@ -1,0 +1,61 @@
+{
+  "card": 252,
+  "source_sha256": "383736b752f791918d5470df4e83dba460b0a7b5c5f940e9d544e6bab95f228c",
+  "raw_document_order": [
+    "cipher-upper.json",
+    "cipher-lower.json"
+  ],
+  "regions": [
+    {
+      "region_id": "P_TOP",
+      "role": "upper_cipher_block_in_CW90_pose",
+      "orientation": "CW90",
+      "oriented_dimensions": [
+        1175,
+        1785
+      ],
+      "bbox_xyxy": [
+        100,
+        75,
+        1123,
+        480
+      ],
+      "raw_document": "cipher-upper.json",
+      "observed_row_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ]
+    },
+    {
+      "region_id": "P_BOTTOM",
+      "role": "lower_cipher_block_in_CW90_pose",
+      "orientation": "CW90",
+      "oriented_dimensions": [
+        1175,
+        1785
+      ],
+      "bbox_xyxy": [
+        100,
+        1485,
+        1115,
+        1685
+      ],
+      "raw_document": "cipher-lower.json",
+      "observed_row_ids": [
+        "P10",
+        "P11",
+        "P12",
+        "P13"
+      ]
+    }
+  ],
+  "physical_body_count": null,
+  "key_projection_performed": false
+}

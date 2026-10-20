@@ -1,0 +1,42 @@
+{
+  "schema": "source257-direct772-method-protocol-gate-private-v1",
+  "status": "PASS",
+  "blockers": [],
+  "source_protocol_path": "results/direct772-protocol-v2.json",
+  "source_protocol_sha256": "43d8e1c6dd86520b0b0e4f58f88c19bdfb025830978aacff3069852f709b0797",
+  "safe_view_sha256": "647b640943976508ea1020c9699f51819cde6acb6db9ba47ddb658c8f2daa844",
+  "queue_sha256": "ecfb18d68ac7135f3c3215f0ec1843a199f1eda20840ab6cf98003a8b37818c0",
+  "safe_intake_sha256": "64745684aecba5f547b4033d2d9425a8864955b94078f88aa9ae3620d0f96bca",
+  "output_format_sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d",
+  "method_checks": {
+    "alternative_repeat_or_common_difference_gates_unambiguous": true,
+    "local_owned_visible_difference_not_erased_by_unrelated_uncertainty": true,
+    "structural_and_form_variation_distinguished_without_cipher_identity": true,
+    "complete_eight_feature_repeat_gate_required": true,
+    "outside_target_box_witness_requires_source_continuity_not_overlap": true,
+    "fresh_initial_freezes_and_nonblind_final_review_disclosed": true,
+    "all_raw_differences_and_uncertainty_preserved": true,
+    "no_negative_graph_or_transitive_classes": true,
+    "safe_view_equals_full_protocol_source_reader_view": true,
+    "safe_intake_geometry_keys_only_no_historical_feature_or_outcome_claims": true
+  },
+  "queue_verification": {
+    "basis": "Independently reconstructed from pinned original private D12 canonical and cross-checked original A/B direct-coverage metadata; no publication checkout accessed. Public canonical identity is the supplied queue provenance pin.",
+    "private_canonical_sha256": "f0ca8fda6f56dda62c47920d6d955af8fd530f7c3e6945eebd8db1a7e017996a",
+    "exact_queue_pairs": 772,
+    "unique_queue_pairs": 772,
+    "selected_first_lexical_pairs": 64,
+    "selected_profiles": 36,
+    "remaining_not_checked": 708,
+    "next_ordinal": 65,
+    "next_pair_id": "FC015--FC125",
+    "original_A_direct_pairs_excluded": 126,
+    "original_B_direct_pairs_excluded": 39,
+    "later_confirmation_accepted_closure_D13_scope_disjoint": true,
+    "intersection_with_prior_direct_or_accepted_or_closure_or_D13_pairs": 0
+  },
+  "resolved_finding": "The v1 uncertain-rule Boolean ambiguity is resolved by the authoritative pre-view v2: aggregate UNCERTAIN only when neither alternative positive observation gate passes. Safe source view and cohort are unchanged.",
+  "images_viewed": false,
+  "new_D14_comparison_results_viewed": false,
+  "claim_limit": "Protocol and metadata/no-repeat gate only. Crop fidelity, physical target binding, source observation truth and publication readiness remain subsequent checks. The64 limit is a declared checkpoint, not a conclusion about the usefulness or physical availability of the708 remainder."
+}

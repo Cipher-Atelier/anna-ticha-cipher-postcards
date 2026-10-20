@@ -1,0 +1,4166 @@
+{
+  "schema": "selected-source257-scientific-author-export-v1",
+  "selection": "Four selected scientific objects preserve source readers, reconciliation and model separately; all physical observations, alternatives, UNKNOWNs, uncertified extents, partial tallies and check/view chronology retained. Only operational actor labels/private paths omitted; original full-record hashes and field lists supplied.",
+  "records": {
+    "AI_A": {
+      "original_full_record_sha256": "17aea08daecbefaabfa9eca04fb496fe24efd8fa32917fdf34bda9cd980d1c8a",
+      "selected_field_list": [
+        "record_type",
+        "version",
+        "status",
+        "source",
+        "exposure",
+        "coordinate_system",
+        "regions",
+        "classes",
+        "occurrences",
+        "alternative_set",
+        "limits",
+        "counts"
+      ],
+      "scientific_record": {
+        "record_type": "source-only anonymous physical observation",
+        "version": 1,
+        "status": "INSUFFICIENT_FOR_EXHAUSTIVE_TRANSCRIPTION",
+        "source": {
+          "byte_count": 1288265,
+          "sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+          "native_dimensions": [
+            1785,
+            1175
+          ],
+          "exif_orientation": 1,
+          "decoded_rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94"
+        },
+        "exposure": {
+          "ordered_events": [
+            {
+              "sequence": 1,
+              "action": "read_source_bytes_and_decode_RGB_without_visual_display",
+              "checks": "All supplied byte count, byte hash, dimensions, EXIF orientation, and decoded RGB hash matched."
+            },
+            {
+              "sequence": 2,
+              "action": "view_image",
+              "detail": "original",
+              "orientation": "native, unrotated"
+            }
+          ],
+          "actual_visualization_count": 1,
+          "rotation_count": 0,
+          "other_project_files_read": 0,
+          "network_or_git_used": false,
+          "transformations": [],
+          "constraints": "No crop, resize, filtering, retouching, OCR, language analysis, or expected alphabet supplied."
+        },
+        "coordinate_system": "native source pixels; xyxy enclosing bounds are observational estimates, not pixel segmentation",
+        "regions": [
+          {
+            "id": "R1",
+            "bbox_xyxy": [
+              94,
+              827,
+              1700,
+              1131
+            ],
+            "kind": "dense repetitive handwritten graphical construction",
+            "orientation": "approximately horizontal",
+            "visible_line_bands": [
+              [
+                827,
+                882
+              ],
+              [
+                879,
+                936
+              ],
+              [
+                928,
+                991
+              ],
+              [
+                981,
+                1043
+              ],
+              [
+                1030,
+                1096
+              ],
+              [
+                1080,
+                1131
+              ]
+            ],
+            "line_band_uncertainty": "Sloping baselines, descenders, and neighboring-line marks overlap these bands. Six bands is an observation, not a certified line segmentation.",
+            "enumerated_extent": "Only initial approximate bodies in first band; remainder unenumerated."
+          },
+          {
+            "id": "R2",
+            "bbox_xyxy": [
+              1348,
+              56,
+              1691,
+              851
+            ],
+            "kind": "dense repetitive handwritten graphical construction",
+            "orientation": "quarter-turn relative to R1",
+            "enumerated_extent": "Entire region unenumerated; no rotation performed.",
+            "uncertainty": "At its lower end R2 approaches R1; ownership at meeting area unresolved."
+          },
+          {
+            "id": "R3",
+            "bbox_xyxy": [
+              1640,
+              357,
+              1705,
+              671
+            ],
+            "kind": "separate ordinary-writing-like short annotation",
+            "enumerated_extent": "No private words transcribed.",
+            "uncertainty": "May share graphical conventions with R2; neither textual function nor classification certified."
+          },
+          {
+            "id": "R4",
+            "bbox_xyxy": [
+              61,
+              49,
+              1707,
+              1131
+            ],
+            "kind": "printed illustration/background",
+            "note": "Color portrait, ornamental surround, paper texture, wear, and discoloration excluded from handwriting inventory."
+          },
+          {
+            "id": "R5",
+            "bbox_xyxy": [
+              350,
+              57,
+              1429,
+              1129
+            ],
+            "kind": "translucent overlaid circular graphic and central shapes",
+            "note": "Large regular printed/overlaid construction distinct from dark manuscript strokes; no literal transcription."
+          }
+        ],
+        "classes": [],
+        "occurrences": [
+          {
+            "id": "O001",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 1,
+            "bbox_xyxy": [
+              189,
+              831,
+              210,
+              864
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Tall slender oblique stroke with a lower bend; short neighboring ink may or may not be owned.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O002",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 2,
+            "bbox_xyxy": [
+              210,
+              841,
+              226,
+              863
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Small open curved body with raised left segment and a short rightward terminal.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O003",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 3,
+            "bbox_xyxy": [
+              229,
+              844,
+              244,
+              866
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Small rounded open curve; aperture and right terminal distinguishability unresolved.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O004",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 4,
+            "bbox_xyxy": [
+              245,
+              847,
+              261,
+              868
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Compact bent construction with a low curve and upper short stroke; detached ink uncertain.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O005",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 5,
+            "bbox_xyxy": [
+              266,
+              845,
+              282,
+              865
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Rounded low bowl with a rising upper stroke; junction indistinct.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O006",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 6,
+            "bbox_xyxy": [
+              284,
+              845,
+              300,
+              868
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Compact angular/curved construction with upper-to-lower transition; boundary to right uncertain.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O007",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 7,
+            "bbox_xyxy": [
+              301,
+              846,
+              316,
+              868
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Low short bent stroke cluster; possible attachment to preceding body.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O008",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 8,
+            "bbox_xyxy": [
+              319,
+              847,
+              335,
+              869
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Narrow descending-and-returning construction; nearby upper ink ownership uncertain.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O009",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 9,
+            "bbox_xyxy": [
+              336,
+              849,
+              350,
+              872
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Compact pointed/bent construction with an upward right segment.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O010",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 10,
+            "bbox_xyxy": [
+              381,
+              839,
+              400,
+              868
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Tall rising diagonal body with lower turn and a short lateral stroke.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O011",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 11,
+            "bbox_xyxy": [
+              400,
+              846,
+              418,
+              869
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Compact low curved construction adjoining a small upper stroke.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          },
+          {
+            "id": "O012",
+            "region_id": "R1",
+            "line_band": 1,
+            "source_order": 12,
+            "bbox_xyxy": [
+              420,
+              848,
+              440,
+              872
+            ],
+            "complete_body": "UNKNOWN",
+            "candidate_class_ids": "UNKNOWN",
+            "positive_contour_features": "Compact rounded/bent construction; trailing ink may be a separate punctuation-like mark.",
+            "wholly_owned_parts": "UNKNOWN",
+            "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+            "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+            "grouping_run_boundary": "UNKNOWN",
+            "pre_model_mask": true,
+            "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+          }
+        ],
+        "alternative_set": {
+          "source_order": "R1 initial left-to-right order is local only; R1/R2 reading order not selected.",
+          "grouping": "Spacing suggests groups but none certified as lexical units.",
+          "split_merge_alternatives": [
+            {
+              "occurrences": [
+                "O006",
+                "O007"
+              ],
+              "alternatives": [
+                "two local bodies",
+                "one joined body with internal stroke"
+              ],
+              "selected": false
+            },
+            {
+              "occurrences": [
+                "O010",
+                "O011",
+                "O012"
+              ],
+              "alternatives": [
+                "three local bodies",
+                "different attachment of small upper or trailing strokes"
+              ],
+              "selected": false
+            }
+          ],
+          "correlations": [],
+          "unknowns": [
+            {
+              "occurrence_id": "O001",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O002",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O003",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O004",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O005",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O006",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O007",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O008",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O009",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O010",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O011",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            },
+            {
+              "occurrence_id": "O012",
+              "unresolved": [
+                "body completeness",
+                "whole contour identity",
+                "mark ownership",
+                "split/merge"
+              ]
+            }
+          ],
+          "masks": [
+            {
+              "occurrence_id": "O001",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O002",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O003",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O004",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O005",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O006",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O007",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O008",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O009",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O010",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O011",
+              "reason": "unresolved required body ownership"
+            },
+            {
+              "occurrence_id": "O012",
+              "reason": "unresolved required body ownership"
+            }
+          ]
+        },
+        "limits": {
+          "exhaustive": false,
+          "uniquely_bound_all_regions": false,
+          "reason": "Single whole-source observation gives credible presence and local contour evidence, but the small, sloping, sometimes touching bodies and detached marks cannot all be uniquely segmented and classified. This record does not invent the omitted inventory.",
+          "unenumerated_extent": [
+            "R1 beyond the initial prefix, including all lower five observed line bands",
+            "All of R2",
+            "R3 annotation"
+          ],
+          "literal_output_or_language_guesses": false
+        },
+        "counts": {
+          "positively_observed_local_ink_constructions": 12,
+          "certified_complete_glyph_bodies": 0,
+          "certified_classes": 0,
+          "modeled_tokens": 0,
+          "pre_model_masks": 12,
+          "whole_source_glyph_count": "UNKNOWN",
+          "lower_bound_note": "12 observed local constructions are not 12 certified glyphs; no whole-source glyph lower bound asserted."
+        }
+      }
+    },
+    "AI_B": {
+      "original_full_record_sha256": "718232826233cce596721df96432729aae5d70b4f535e8fdd5e5c52ba06c3773",
+      "selected_field_list": [
+        "schema",
+        "source",
+        "exposure",
+        "inventory",
+        "enumeration",
+        "classes",
+        "occurrences",
+        "finite_interpretation_set",
+        "limits"
+      ],
+      "scientific_record": {
+        "schema": "anonymous-physical-transcription-partial-v1",
+        "source": {
+          "bytes": 1288265,
+          "sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+          "width": 1785,
+          "height": 1175,
+          "exif_orientation": 1,
+          "decoded_RGB_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94"
+        },
+        "exposure": {
+          "check_order": [
+            "file byte length and SHA256",
+            "native dimensions and EXIF orientation",
+            "decoded RGB SHA256",
+            "whole original view",
+            "exact 90-degree counterclockwise whole view"
+          ],
+          "actual_views": [
+            {
+              "ordinal": 1,
+              "detail": "original",
+              "orientation": "native",
+              "transform": "none"
+            },
+            {
+              "ordinal": 2,
+              "detail": "original",
+              "orientation": "90 degrees counterclockwise",
+              "transform": "lossless pixel transpose; PNG container"
+            }
+          ],
+          "whole_visualizations": 2,
+          "crop_resize_filter_retouch_OCR": false,
+          "external_context_read": false,
+          "network_or_git": false,
+          "notes": "Second view left the right-hand handwritten block inverted; no third visualization used."
+        },
+        "inventory": [
+          {
+            "id": "R1",
+            "bbox_native_xyxy": [
+              94,
+              827,
+              1706,
+              1124
+            ],
+            "kind": "handwritten repetitive construction",
+            "orientation": "approximately native horizontal",
+            "visible_line_bands_native_y": [
+              [
+                827,
+                884
+              ],
+              [
+                876,
+                936
+              ],
+              [
+                927,
+                990
+              ],
+              [
+                977,
+                1039
+              ],
+              [
+                1025,
+                1091
+              ],
+              [
+                1080,
+                1124
+              ]
+            ],
+            "extent": "Dense multiple rows; enumerated only initial ten candidate bodies of first row; all remaining constructions unenumerated."
+          },
+          {
+            "id": "R2",
+            "bbox_native_xyxy": [
+              1352,
+              56,
+              1664,
+              848
+            ],
+            "kind": "handwritten repetitive construction",
+            "orientation": "approximately 90 degrees clockwise from native horizontal",
+            "extent": "Several long parallel lines of repeated constructions; all bodies unenumerated; small dot-like marks and row ends visible."
+          },
+          {
+            "id": "R3",
+            "bbox_native_xyxy": [
+              1638,
+              380,
+              1702,
+              688
+            ],
+            "kind": "separate ordinary-writing-like short inscription",
+            "extent": "Excluded without transcribing words or contextual interpretation; relation to R2 uncertain."
+          },
+          {
+            "id": "R4",
+            "bbox_native_xyxy": [
+              356,
+              66,
+              1432,
+              1105
+            ],
+            "kind": "translucent repeated graphical overlay",
+            "extent": "Large annular compartmented graphic with discrete printed symbols around circumference, central geometric emblem and smaller printed symbols; not inventoried as handwritten bodies. Could be cipherlike graphical construction, but provenance and intended role unknown."
+          },
+          {
+            "id": "R5",
+            "bbox_native_xyxy": [
+              63,
+              54,
+              1709,
+              1134
+            ],
+            "kind": "printed pictorial background and surface noise",
+            "extent": "Portrait illustration, textured color print, stains and scratches. No anonymous transcription of depicted person or ordinary printed/private content."
+          }
+        ],
+        "enumeration": {
+          "status": "partial; exhaustive physical enumeration impossible at permitted one-pass full-image scale",
+          "certified_complete_body_lower_bound": 8,
+          "candidate_body_records": 10,
+          "exhaustive_body_count": null,
+          "distinct_identity_count_certified": null,
+          "anonymous_prototype_count": 10,
+          "unenumerated_extent": "R1 after initial ten candidates, entire R2, and discrete symbols of R4. No upper bound certified."
+        },
+        "classes": [
+          {
+            "id": "B001",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              191,
+              832,
+              211,
+              862
+            ],
+            "positive_whole_body_test": "long narrow oblique ascending stroke with a curved foot; no closed enclosure",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B002",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              213,
+              844,
+              229,
+              865
+            ],
+            "positive_whole_body_test": "small open concave hooked contour, taller at right",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B003",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              234,
+              843,
+              251,
+              865
+            ],
+            "positive_whole_body_test": "small curved open contour with short upper turn",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B004",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              260,
+              842,
+              279,
+              867
+            ],
+            "positive_whole_body_test": "short angled upright joined to a rightward low curved stroke",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B005",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              286,
+              847,
+              304,
+              867
+            ],
+            "positive_whole_body_test": "compact small closed or nearly closed rounded enclosure with an upper attachment",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B006",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              309,
+              837,
+              326,
+              864
+            ],
+            "positive_whole_body_test": "tall oblique stem joined to a short crossing or lateral stroke",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B007",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              331,
+              852,
+              347,
+              870
+            ],
+            "positive_whole_body_test": "low shallow two-turn contour with short terminal rise",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B008",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              380,
+              839,
+              399,
+              865
+            ],
+            "positive_whole_body_test": "long slanted stem with small curved low foot",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B009",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              401,
+              851,
+              418,
+              868
+            ],
+            "positive_whole_body_test": "small open bent contour with a short raised terminal",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          },
+          {
+            "id": "B010",
+            "status": "local prototype only; cross-occurrence identity untested",
+            "prototype_native_bbox_xyxy": [
+              425,
+              852,
+              444,
+              870
+            ],
+            "positive_whole_body_test": "compact curved loop-like contour, closure not certified",
+            "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+            "allograph_claim": false
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "O001",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 1,
+            "bbox_native_xyxy": [
+              191,
+              832,
+              211,
+              862
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B001"
+            ],
+            "positive_owner_features": "long narrow oblique ascending stroke with a curved foot; no closed enclosure",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O002",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 2,
+            "bbox_native_xyxy": [
+              213,
+              844,
+              229,
+              865
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B002"
+            ],
+            "positive_owner_features": "small open concave hooked contour, taller at right",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O003",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 3,
+            "bbox_native_xyxy": [
+              234,
+              843,
+              251,
+              865
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B003"
+            ],
+            "positive_owner_features": "small curved open contour with short upper turn",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O004",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 4,
+            "bbox_native_xyxy": [
+              260,
+              842,
+              279,
+              867
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B004"
+            ],
+            "positive_owner_features": "short angled upright joined to a rightward low curved stroke",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O005",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 5,
+            "bbox_native_xyxy": [
+              286,
+              847,
+              304,
+              867
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": "UNKNOWN",
+            "class_candidates": [
+              "B005",
+              "UNKNOWN"
+            ],
+            "positive_owner_features": "compact small closed or nearly closed rounded enclosure with an upper attachment",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O006",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 6,
+            "bbox_native_xyxy": [
+              309,
+              837,
+              326,
+              864
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B006"
+            ],
+            "positive_owner_features": "tall oblique stem joined to a short crossing or lateral stroke",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O007",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 7,
+            "bbox_native_xyxy": [
+              331,
+              852,
+              347,
+              870
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B007"
+            ],
+            "positive_owner_features": "low shallow two-turn contour with short terminal rise",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O008",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 8,
+            "bbox_native_xyxy": [
+              380,
+              839,
+              399,
+              865
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B008"
+            ],
+            "positive_owner_features": "long slanted stem with small curved low foot",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O009",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 9,
+            "bbox_native_xyxy": [
+              401,
+              851,
+              418,
+              868
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": true,
+            "class_candidates": [
+              "B009"
+            ],
+            "positive_owner_features": "small open bent contour with a short raised terminal",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          },
+          {
+            "id": "O010",
+            "region": "R1",
+            "line": "R1-L1",
+            "source_order": 10,
+            "bbox_native_xyxy": [
+              425,
+              852,
+              444,
+              870
+            ],
+            "bbox_precision": "approximate observational envelope",
+            "completebody": "UNKNOWN",
+            "class_candidates": [
+              "B010",
+              "UNKNOWN"
+            ],
+            "positive_owner_features": "compact curved loop-like contour, closure not certified",
+            "owned_marks": {
+              "status": "UNKNOWN",
+              "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+            },
+            "run_grouping": "UNKNOWN",
+            "boundary_alternatives": [
+              "one body within stated envelope",
+              "boundary may include an adjacent fine stroke"
+            ],
+            "identity_correlations": "No repeated-identity constraint certified."
+          }
+        ],
+        "finite_interpretation_set": {
+          "status": "NOT FROZEN: full alternatives cannot be finitely enumerated credibly from these whole-image observations",
+          "enumerated_local_alternatives": "Per-occurrence alternatives are conservative local records, not a complete model. Unknown detached-mark owners and adjacent boundaries remain open.",
+          "split_merge_order_grouping_unknowns": [
+            "R1 versus R2 reading priority unknown",
+            "within R1 approximate left-to-right order used only as locator convention",
+            "R2 line direction and grouping not certified",
+            "nearby fine strokes can require split or merge of the ten local envelopes",
+            "R4 symbols not segmented"
+          ],
+          "language_branch_selection": false
+        },
+        "limits": [
+          "No letters, language, plaintext, date or name interpretation recorded.",
+          "Boxes estimated from whole original image; no crop-assisted boundary audit.",
+          "Local classes describe distinct prototypes, not proven distinct cipher identities.",
+          "Required exhaustive enumeration and finite interpretation freeze are not achieved. This is an actual partial observation record, not a count certification."
+        ]
+      }
+    },
+    "source_reconciliation": {
+      "original_full_record_sha256": "2e1012cbeef59f5a544db94709c6459ef8ef82c1b1ede95338a7d689a5e4f881",
+      "selected_field_list": [
+        "schema",
+        "status",
+        "source",
+        "source_verification",
+        "exposure",
+        "actual_observations",
+        "A_B_binding",
+        "disagreements",
+        "independent_reader_records",
+        "counts",
+        "actual_bounds",
+        "all_limits",
+        "finite_interpretation_set"
+      ],
+      "scientific_record": {
+        "schema": "development-source-reconciliation-v1",
+        "status": "UNAVAILABLE_SOURCE_MODEL_INCOMPLETE",
+        "source": {
+          "byte_count": 1288265,
+          "sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+          "native_dimensions": [
+            1785,
+            1175
+          ],
+          "exif_orientation": 1,
+          "decoded_rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94"
+        },
+        "source_verification": "All five supplied properties matched before visual display.",
+        "exposure": {
+          "ordered_events": [
+            {
+              "sequence": 1,
+              "action": "read permitted reader A and B records and verify source bytes/dimensions/EXIF/decoded RGB without view"
+            },
+            {
+              "sequence": 2,
+              "action": "whole-source native view",
+              "detail": "original",
+              "transform": "none"
+            },
+            {
+              "sequence": 3,
+              "action": "whole-source clockwise right-angle view",
+              "detail": "original",
+              "transform": "RGB pixel transpose ROTATE_270, PNG container",
+              "dimensions": [
+                1175,
+                1785
+              ]
+            }
+          ],
+          "whole_visualizations": 2,
+          "source_passes": 1,
+          "rotation_count": 1,
+          "crop_rescale_filter_OCR": false,
+          "network_Git_other_project_session_key_atlas_corpus_language_data": false,
+          "literal_transcription_or_expected_letters": false,
+          "additional_rescue_views": 0
+        },
+        "actual_observations": [
+          {
+            "id": "S1",
+            "bbox_native_xyxy": [
+              94,
+              827,
+              1706,
+              1131
+            ],
+            "kind": "cipherlike manuscript by repeated small hooked, looped, angled and ascending contours",
+            "line_bands_native_y": [
+              [
+                827,
+                884
+              ],
+              [
+                876,
+                936
+              ],
+              [
+                927,
+                991
+              ],
+              [
+                977,
+                1043
+              ],
+              [
+                1025,
+                1096
+              ],
+              [
+                1080,
+                1131
+              ]
+            ],
+            "certification": "Six visible bands, approximate; no exhaustive body partition. First band begins farther right than subsequent bands. Final band runs near paper edge and ends in a rightward arrow-like flourish."
+          },
+          {
+            "id": "S2",
+            "bbox_native_xyxy": [
+              1348,
+              56,
+              1645,
+              851
+            ],
+            "kind": "cipherlike manuscript by repetition of contours visually shared with S1",
+            "line_bands_native_x": [
+              [
+                1348,
+                1410
+              ],
+              [
+                1400,
+                1458
+              ],
+              [
+                1450,
+                1505
+              ],
+              [
+                1496,
+                1550
+              ],
+              [
+                1540,
+                1593
+              ],
+              [
+                1583,
+                1645
+              ]
+            ],
+            "certification": "Clockwise whole view reveals six parallel approximately horizontal bands in rotated coordinates; these native x bands are envelopes, not certified line segmentation. Detached dots, high stems and descending loops complicate ownership."
+          },
+          {
+            "id": "S3",
+            "bbox_native_xyxy": [
+              1638,
+              355,
+              1705,
+              689
+            ],
+            "kind": "separate short ordinary-annotation-like construction",
+            "certification": "Larger sparse baseline inscription, separated from dense repetitive bands; graphical function uncertain. Curved enclosing flourish and slashes visible. No literal content transcribed; not certified exclusion from all cipherlike material."
+          },
+          {
+            "id": "S4",
+            "bbox_native_xyxy": [
+              350,
+              57,
+              1432,
+              1129
+            ],
+            "kind": "translucent regular annular compartmented overlay and central graphic",
+            "certification": "Large fixed-width symbols and geometric cells, distinct scale/opacity from dark manuscript; symbol extents unenumerated, cipherlike graphical role unresolved."
+          },
+          {
+            "id": "S5",
+            "bbox_native_xyxy": [
+              61,
+              49,
+              1709,
+              1134
+            ],
+            "kind": "printed pictorial background, paper damage and texture",
+            "certification": "Portrait/color fields, halftone texture, stains and scratches differentiated graphically from manuscript; tiny dark specks cannot all be assigned to ink versus surface."
+          }
+        ],
+        "A_B_binding": [
+          {
+            "reader_A_locator": "O001",
+            "A_bbox": [
+              189,
+              831,
+              210,
+              864
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O001",
+                "intersection_area_native_pixels": 570,
+                "B_bbox": [
+                  191,
+                  832,
+                  211,
+                  862
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O002",
+            "A_bbox": [
+              210,
+              841,
+              226,
+              863
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O001",
+                "intersection_area_native_pixels": 21,
+                "B_bbox": [
+                  191,
+                  832,
+                  211,
+                  862
+                ]
+              },
+              {
+                "reader_B_locator": "O002",
+                "intersection_area_native_pixels": 247,
+                "B_bbox": [
+                  213,
+                  844,
+                  229,
+                  865
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O003",
+            "A_bbox": [
+              229,
+              844,
+              244,
+              866
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O003",
+                "intersection_area_native_pixels": 210,
+                "B_bbox": [
+                  234,
+                  843,
+                  251,
+                  865
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O004",
+            "A_bbox": [
+              245,
+              847,
+              261,
+              868
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O003",
+                "intersection_area_native_pixels": 108,
+                "B_bbox": [
+                  234,
+                  843,
+                  251,
+                  865
+                ]
+              },
+              {
+                "reader_B_locator": "O004",
+                "intersection_area_native_pixels": 20,
+                "B_bbox": [
+                  260,
+                  842,
+                  279,
+                  867
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O005",
+            "A_bbox": [
+              266,
+              845,
+              282,
+              865
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O004",
+                "intersection_area_native_pixels": 260,
+                "B_bbox": [
+                  260,
+                  842,
+                  279,
+                  867
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O006",
+            "A_bbox": [
+              284,
+              845,
+              300,
+              868
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O005",
+                "intersection_area_native_pixels": 280,
+                "B_bbox": [
+                  286,
+                  847,
+                  304,
+                  867
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O007",
+            "A_bbox": [
+              301,
+              846,
+              316,
+              868
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O005",
+                "intersection_area_native_pixels": 60,
+                "B_bbox": [
+                  286,
+                  847,
+                  304,
+                  867
+                ]
+              },
+              {
+                "reader_B_locator": "O006",
+                "intersection_area_native_pixels": 126,
+                "B_bbox": [
+                  309,
+                  837,
+                  326,
+                  864
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O008",
+            "A_bbox": [
+              319,
+              847,
+              335,
+              869
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O006",
+                "intersection_area_native_pixels": 119,
+                "B_bbox": [
+                  309,
+                  837,
+                  326,
+                  864
+                ]
+              },
+              {
+                "reader_B_locator": "O007",
+                "intersection_area_native_pixels": 68,
+                "B_bbox": [
+                  331,
+                  852,
+                  347,
+                  870
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O009",
+            "A_bbox": [
+              336,
+              849,
+              350,
+              872
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O007",
+                "intersection_area_native_pixels": 198,
+                "B_bbox": [
+                  331,
+                  852,
+                  347,
+                  870
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O010",
+            "A_bbox": [
+              381,
+              839,
+              400,
+              868
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O008",
+                "intersection_area_native_pixels": 468,
+                "B_bbox": [
+                  380,
+                  839,
+                  399,
+                  865
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O011",
+            "A_bbox": [
+              400,
+              846,
+              418,
+              869
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O009",
+                "intersection_area_native_pixels": 289,
+                "B_bbox": [
+                  401,
+                  851,
+                  418,
+                  868
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          },
+          {
+            "reader_A_locator": "O012",
+            "A_bbox": [
+              420,
+              848,
+              440,
+              872
+            ],
+            "geometric_overlap_candidates": [
+              {
+                "reader_B_locator": "O010",
+                "intersection_area_native_pixels": 270,
+                "B_bbox": [
+                  425,
+                  852,
+                  444,
+                  870
+                ]
+              }
+            ],
+            "binding_status": "UNRESOLVED",
+            "reason": "Overlapping envelopes are locator evidence only; no positive whole-contour plus owned-mark identity certified. Same occurrence IDs do not establish binding."
+          }
+        ],
+        "disagreements": [
+          {
+            "extent_native_xyxy": [
+              189,
+              831,
+              350,
+              872
+            ],
+            "issue": "A has nine local envelopes in first cluster; B has seven. B third envelope overlaps both A third and fourth; B fourth overlaps A fourth/fifth; B sixth overlaps A seventh/eighth; B seventh overlaps A eighth/ninth. Not uniquely reconciled."
+          },
+          {
+            "extent_native_xyxy": [
+              380,
+              839,
+              444,
+              872
+            ],
+            "issue": "Three-envelope cluster has close geometric correspondence A O010-012 versus B O008-010, but A leaves body completeness unknown and B retains boundary/mark alternatives. Same whole identity not certified."
+          },
+          {
+            "issue": "A zero certified complete bodies versus B eight asserted complete bodies: preserved as distinct source-reader assertions, not averaged or voted."
+          },
+          {
+            "issue": "Readers use differing identifiers for overlay/background regions; correspondence established by region kind and native extent, not label equality."
+          }
+        ],
+        "independent_reader_records": {
+          "A": {
+            "record_type": "source-only anonymous physical observation",
+            "version": 1,
+            "status": "INSUFFICIENT_FOR_EXHAUSTIVE_TRANSCRIPTION",
+            "source": {
+              "byte_count": 1288265,
+              "sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+              "native_dimensions": [
+                1785,
+                1175
+              ],
+              "exif_orientation": 1,
+              "decoded_rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94"
+            },
+            "exposure": {
+              "ordered_events": [
+                {
+                  "sequence": 1,
+                  "action": "read_source_bytes_and_decode_RGB_without_visual_display",
+                  "checks": "All supplied byte count, byte hash, dimensions, EXIF orientation, and decoded RGB hash matched."
+                },
+                {
+                  "sequence": 2,
+                  "action": "view_image",
+                  "detail": "original",
+                  "orientation": "native, unrotated"
+                }
+              ],
+              "actual_visualization_count": 1,
+              "rotation_count": 0,
+              "other_project_files_read": 0,
+              "network_or_git_used": false,
+              "transformations": [],
+              "constraints": "No crop, resize, filtering, retouching, OCR, language analysis, or expected alphabet supplied."
+            },
+            "coordinate_system": "native source pixels; xyxy enclosing bounds are observational estimates, not pixel segmentation",
+            "regions": [
+              {
+                "id": "R1",
+                "bbox_xyxy": [
+                  94,
+                  827,
+                  1700,
+                  1131
+                ],
+                "kind": "dense repetitive handwritten graphical construction",
+                "orientation": "approximately horizontal",
+                "visible_line_bands": [
+                  [
+                    827,
+                    882
+                  ],
+                  [
+                    879,
+                    936
+                  ],
+                  [
+                    928,
+                    991
+                  ],
+                  [
+                    981,
+                    1043
+                  ],
+                  [
+                    1030,
+                    1096
+                  ],
+                  [
+                    1080,
+                    1131
+                  ]
+                ],
+                "line_band_uncertainty": "Sloping baselines, descenders, and neighboring-line marks overlap these bands. Six bands is an observation, not a certified line segmentation.",
+                "enumerated_extent": "Only initial approximate bodies in first band; remainder unenumerated."
+              },
+              {
+                "id": "R2",
+                "bbox_xyxy": [
+                  1348,
+                  56,
+                  1691,
+                  851
+                ],
+                "kind": "dense repetitive handwritten graphical construction",
+                "orientation": "quarter-turn relative to R1",
+                "enumerated_extent": "Entire region unenumerated; no rotation performed.",
+                "uncertainty": "At its lower end R2 approaches R1; ownership at meeting area unresolved."
+              },
+              {
+                "id": "R3",
+                "bbox_xyxy": [
+                  1640,
+                  357,
+                  1705,
+                  671
+                ],
+                "kind": "separate ordinary-writing-like short annotation",
+                "enumerated_extent": "No private words transcribed.",
+                "uncertainty": "May share graphical conventions with R2; neither textual function nor classification certified."
+              },
+              {
+                "id": "R4",
+                "bbox_xyxy": [
+                  61,
+                  49,
+                  1707,
+                  1131
+                ],
+                "kind": "printed illustration/background",
+                "note": "Color portrait, ornamental surround, paper texture, wear, and discoloration excluded from handwriting inventory."
+              },
+              {
+                "id": "R5",
+                "bbox_xyxy": [
+                  350,
+                  57,
+                  1429,
+                  1129
+                ],
+                "kind": "translucent overlaid circular graphic and central shapes",
+                "note": "Large regular printed/overlaid construction distinct from dark manuscript strokes; no literal transcription."
+              }
+            ],
+            "classes": [],
+            "occurrences": [
+              {
+                "id": "O001",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 1,
+                "bbox_xyxy": [
+                  189,
+                  831,
+                  210,
+                  864
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Tall slender oblique stroke with a lower bend; short neighboring ink may or may not be owned.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O002",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 2,
+                "bbox_xyxy": [
+                  210,
+                  841,
+                  226,
+                  863
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Small open curved body with raised left segment and a short rightward terminal.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O003",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 3,
+                "bbox_xyxy": [
+                  229,
+                  844,
+                  244,
+                  866
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Small rounded open curve; aperture and right terminal distinguishability unresolved.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O004",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 4,
+                "bbox_xyxy": [
+                  245,
+                  847,
+                  261,
+                  868
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Compact bent construction with a low curve and upper short stroke; detached ink uncertain.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O005",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 5,
+                "bbox_xyxy": [
+                  266,
+                  845,
+                  282,
+                  865
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Rounded low bowl with a rising upper stroke; junction indistinct.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O006",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 6,
+                "bbox_xyxy": [
+                  284,
+                  845,
+                  300,
+                  868
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Compact angular/curved construction with upper-to-lower transition; boundary to right uncertain.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O007",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 7,
+                "bbox_xyxy": [
+                  301,
+                  846,
+                  316,
+                  868
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Low short bent stroke cluster; possible attachment to preceding body.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O008",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 8,
+                "bbox_xyxy": [
+                  319,
+                  847,
+                  335,
+                  869
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Narrow descending-and-returning construction; nearby upper ink ownership uncertain.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O009",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 9,
+                "bbox_xyxy": [
+                  336,
+                  849,
+                  350,
+                  872
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Compact pointed/bent construction with an upward right segment.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O010",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 10,
+                "bbox_xyxy": [
+                  381,
+                  839,
+                  400,
+                  868
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Tall rising diagonal body with lower turn and a short lateral stroke.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O011",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 11,
+                "bbox_xyxy": [
+                  400,
+                  846,
+                  418,
+                  869
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Compact low curved construction adjoining a small upper stroke.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              },
+              {
+                "id": "O012",
+                "region_id": "R1",
+                "line_band": 1,
+                "source_order": 12,
+                "bbox_xyxy": [
+                  420,
+                  848,
+                  440,
+                  872
+                ],
+                "complete_body": "UNKNOWN",
+                "candidate_class_ids": "UNKNOWN",
+                "positive_contour_features": "Compact rounded/bent construction; trailing ink may be a separate punctuation-like mark.",
+                "wholly_owned_parts": "UNKNOWN",
+                "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+                "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+                "grouping_run_boundary": "UNKNOWN",
+                "pre_model_mask": true,
+                "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+              }
+            ],
+            "alternative_set": {
+              "source_order": "R1 initial left-to-right order is local only; R1/R2 reading order not selected.",
+              "grouping": "Spacing suggests groups but none certified as lexical units.",
+              "split_merge_alternatives": [
+                {
+                  "occurrences": [
+                    "O006",
+                    "O007"
+                  ],
+                  "alternatives": [
+                    "two local bodies",
+                    "one joined body with internal stroke"
+                  ],
+                  "selected": false
+                },
+                {
+                  "occurrences": [
+                    "O010",
+                    "O011",
+                    "O012"
+                  ],
+                  "alternatives": [
+                    "three local bodies",
+                    "different attachment of small upper or trailing strokes"
+                  ],
+                  "selected": false
+                }
+              ],
+              "correlations": [],
+              "unknowns": [
+                {
+                  "occurrence_id": "O001",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O002",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O003",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O004",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O005",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O006",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O007",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O008",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O009",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O010",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O011",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                },
+                {
+                  "occurrence_id": "O012",
+                  "unresolved": [
+                    "body completeness",
+                    "whole contour identity",
+                    "mark ownership",
+                    "split/merge"
+                  ]
+                }
+              ],
+              "masks": [
+                {
+                  "occurrence_id": "O001",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O002",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O003",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O004",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O005",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O006",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O007",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O008",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O009",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O010",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O011",
+                  "reason": "unresolved required body ownership"
+                },
+                {
+                  "occurrence_id": "O012",
+                  "reason": "unresolved required body ownership"
+                }
+              ]
+            },
+            "limits": {
+              "exhaustive": false,
+              "uniquely_bound_all_regions": false,
+              "reason": "Single whole-source observation gives credible presence and local contour evidence, but the small, sloping, sometimes touching bodies and detached marks cannot all be uniquely segmented and classified. This record does not invent the omitted inventory.",
+              "unenumerated_extent": [
+                "R1 beyond the initial prefix, including all lower five observed line bands",
+                "All of R2",
+                "R3 annotation"
+              ],
+              "literal_output_or_language_guesses": false
+            },
+            "counts": {
+              "positively_observed_local_ink_constructions": 12,
+              "certified_complete_glyph_bodies": 0,
+              "certified_classes": 0,
+              "modeled_tokens": 0,
+              "pre_model_masks": 12,
+              "whole_source_glyph_count": "UNKNOWN",
+              "lower_bound_note": "12 observed local constructions are not 12 certified glyphs; no whole-source glyph lower bound asserted."
+            }
+          },
+          "B": {
+            "schema": "anonymous-physical-transcription-partial-v1",
+            "source": {
+              "bytes": 1288265,
+              "sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+              "width": 1785,
+              "height": 1175,
+              "exif_orientation": 1,
+              "decoded_RGB_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94"
+            },
+            "exposure": {
+              "check_order": [
+                "file byte length and SHA256",
+                "native dimensions and EXIF orientation",
+                "decoded RGB SHA256",
+                "whole original view",
+                "exact 90-degree counterclockwise whole view"
+              ],
+              "actual_views": [
+                {
+                  "ordinal": 1,
+                  "detail": "original",
+                  "orientation": "native",
+                  "transform": "none"
+                },
+                {
+                  "ordinal": 2,
+                  "detail": "original",
+                  "orientation": "90 degrees counterclockwise",
+                  "transform": "lossless pixel transpose; PNG container"
+                }
+              ],
+              "whole_visualizations": 2,
+              "crop_resize_filter_retouch_OCR": false,
+              "external_context_read": false,
+              "network_or_git": false,
+              "notes": "Second view left the right-hand handwritten block inverted; no third visualization used."
+            },
+            "inventory": [
+              {
+                "id": "R1",
+                "bbox_native_xyxy": [
+                  94,
+                  827,
+                  1706,
+                  1124
+                ],
+                "kind": "handwritten repetitive construction",
+                "orientation": "approximately native horizontal",
+                "visible_line_bands_native_y": [
+                  [
+                    827,
+                    884
+                  ],
+                  [
+                    876,
+                    936
+                  ],
+                  [
+                    927,
+                    990
+                  ],
+                  [
+                    977,
+                    1039
+                  ],
+                  [
+                    1025,
+                    1091
+                  ],
+                  [
+                    1080,
+                    1124
+                  ]
+                ],
+                "extent": "Dense multiple rows; enumerated only initial ten candidate bodies of first row; all remaining constructions unenumerated."
+              },
+              {
+                "id": "R2",
+                "bbox_native_xyxy": [
+                  1352,
+                  56,
+                  1664,
+                  848
+                ],
+                "kind": "handwritten repetitive construction",
+                "orientation": "approximately 90 degrees clockwise from native horizontal",
+                "extent": "Several long parallel lines of repeated constructions; all bodies unenumerated; small dot-like marks and row ends visible."
+              },
+              {
+                "id": "R3",
+                "bbox_native_xyxy": [
+                  1638,
+                  380,
+                  1702,
+                  688
+                ],
+                "kind": "separate ordinary-writing-like short inscription",
+                "extent": "Excluded without transcribing words or contextual interpretation; relation to R2 uncertain."
+              },
+              {
+                "id": "R4",
+                "bbox_native_xyxy": [
+                  356,
+                  66,
+                  1432,
+                  1105
+                ],
+                "kind": "translucent repeated graphical overlay",
+                "extent": "Large annular compartmented graphic with discrete printed symbols around circumference, central geometric emblem and smaller printed symbols; not inventoried as handwritten bodies. Could be cipherlike graphical construction, but provenance and intended role unknown."
+              },
+              {
+                "id": "R5",
+                "bbox_native_xyxy": [
+                  63,
+                  54,
+                  1709,
+                  1134
+                ],
+                "kind": "printed pictorial background and surface noise",
+                "extent": "Portrait illustration, textured color print, stains and scratches. No anonymous transcription of depicted person or ordinary printed/private content."
+              }
+            ],
+            "enumeration": {
+              "status": "partial; exhaustive physical enumeration impossible at permitted one-pass full-image scale",
+              "certified_complete_body_lower_bound": 8,
+              "candidate_body_records": 10,
+              "exhaustive_body_count": null,
+              "distinct_identity_count_certified": null,
+              "anonymous_prototype_count": 10,
+              "unenumerated_extent": "R1 after initial ten candidates, entire R2, and discrete symbols of R4. No upper bound certified."
+            },
+            "classes": [
+              {
+                "id": "B001",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  191,
+                  832,
+                  211,
+                  862
+                ],
+                "positive_whole_body_test": "long narrow oblique ascending stroke with a curved foot; no closed enclosure",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B002",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  213,
+                  844,
+                  229,
+                  865
+                ],
+                "positive_whole_body_test": "small open concave hooked contour, taller at right",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B003",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  234,
+                  843,
+                  251,
+                  865
+                ],
+                "positive_whole_body_test": "small curved open contour with short upper turn",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B004",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  260,
+                  842,
+                  279,
+                  867
+                ],
+                "positive_whole_body_test": "short angled upright joined to a rightward low curved stroke",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B005",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  286,
+                  847,
+                  304,
+                  867
+                ],
+                "positive_whole_body_test": "compact small closed or nearly closed rounded enclosure with an upper attachment",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B006",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  309,
+                  837,
+                  326,
+                  864
+                ],
+                "positive_whole_body_test": "tall oblique stem joined to a short crossing or lateral stroke",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B007",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  331,
+                  852,
+                  347,
+                  870
+                ],
+                "positive_whole_body_test": "low shallow two-turn contour with short terminal rise",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B008",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  380,
+                  839,
+                  399,
+                  865
+                ],
+                "positive_whole_body_test": "long slanted stem with small curved low foot",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B009",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  401,
+                  851,
+                  418,
+                  868
+                ],
+                "positive_whole_body_test": "small open bent contour with a short raised terminal",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              },
+              {
+                "id": "B010",
+                "status": "local prototype only; cross-occurrence identity untested",
+                "prototype_native_bbox_xyxy": [
+                  425,
+                  852,
+                  444,
+                  870
+                ],
+                "positive_whole_body_test": "compact curved loop-like contour, closure not certified",
+                "confusers": "Other slanted stems, small open hooks, or compact enclosures elsewhere; none eliminated by full-image observation.",
+                "allograph_claim": false
+              }
+            ],
+            "occurrences": [
+              {
+                "id": "O001",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 1,
+                "bbox_native_xyxy": [
+                  191,
+                  832,
+                  211,
+                  862
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B001"
+                ],
+                "positive_owner_features": "long narrow oblique ascending stroke with a curved foot; no closed enclosure",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O002",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 2,
+                "bbox_native_xyxy": [
+                  213,
+                  844,
+                  229,
+                  865
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B002"
+                ],
+                "positive_owner_features": "small open concave hooked contour, taller at right",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O003",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 3,
+                "bbox_native_xyxy": [
+                  234,
+                  843,
+                  251,
+                  865
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B003"
+                ],
+                "positive_owner_features": "small curved open contour with short upper turn",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O004",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 4,
+                "bbox_native_xyxy": [
+                  260,
+                  842,
+                  279,
+                  867
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B004"
+                ],
+                "positive_owner_features": "short angled upright joined to a rightward low curved stroke",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O005",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 5,
+                "bbox_native_xyxy": [
+                  286,
+                  847,
+                  304,
+                  867
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": "UNKNOWN",
+                "class_candidates": [
+                  "B005",
+                  "UNKNOWN"
+                ],
+                "positive_owner_features": "compact small closed or nearly closed rounded enclosure with an upper attachment",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O006",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 6,
+                "bbox_native_xyxy": [
+                  309,
+                  837,
+                  326,
+                  864
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B006"
+                ],
+                "positive_owner_features": "tall oblique stem joined to a short crossing or lateral stroke",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O007",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 7,
+                "bbox_native_xyxy": [
+                  331,
+                  852,
+                  347,
+                  870
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B007"
+                ],
+                "positive_owner_features": "low shallow two-turn contour with short terminal rise",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O008",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 8,
+                "bbox_native_xyxy": [
+                  380,
+                  839,
+                  399,
+                  865
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B008"
+                ],
+                "positive_owner_features": "long slanted stem with small curved low foot",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O009",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 9,
+                "bbox_native_xyxy": [
+                  401,
+                  851,
+                  418,
+                  868
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": true,
+                "class_candidates": [
+                  "B009"
+                ],
+                "positive_owner_features": "small open bent contour with a short raised terminal",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              },
+              {
+                "id": "O010",
+                "region": "R1",
+                "line": "R1-L1",
+                "source_order": 10,
+                "bbox_native_xyxy": [
+                  425,
+                  852,
+                  444,
+                  870
+                ],
+                "bbox_precision": "approximate observational envelope",
+                "completebody": "UNKNOWN",
+                "class_candidates": [
+                  "B010",
+                  "UNKNOWN"
+                ],
+                "positive_owner_features": "compact curved loop-like contour, closure not certified",
+                "owned_marks": {
+                  "status": "UNKNOWN",
+                  "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+                },
+                "run_grouping": "UNKNOWN",
+                "boundary_alternatives": [
+                  "one body within stated envelope",
+                  "boundary may include an adjacent fine stroke"
+                ],
+                "identity_correlations": "No repeated-identity constraint certified."
+              }
+            ],
+            "finite_interpretation_set": {
+              "status": "NOT FROZEN: full alternatives cannot be finitely enumerated credibly from these whole-image observations",
+              "enumerated_local_alternatives": "Per-occurrence alternatives are conservative local records, not a complete model. Unknown detached-mark owners and adjacent boundaries remain open.",
+              "split_merge_order_grouping_unknowns": [
+                "R1 versus R2 reading priority unknown",
+                "within R1 approximate left-to-right order used only as locator convention",
+                "R2 line direction and grouping not certified",
+                "nearby fine strokes can require split or merge of the ten local envelopes",
+                "R4 symbols not segmented"
+              ],
+              "language_branch_selection": false
+            },
+            "limits": [
+              "No letters, language, plaintext, date or name interpretation recorded.",
+              "Boxes estimated from whole original image; no crop-assisted boundary audit.",
+              "Local classes describe distinct prototypes, not proven distinct cipher identities.",
+              "Required exhaustive enumeration and finite interpretation freeze are not achieved. This is an actual partial observation record, not a count certification."
+            ]
+          }
+        },
+        "counts": {
+          "reader_A_local_ink_locators": 12,
+          "reader_B_local_prototypes": 10,
+          "union_count": "UNKNOWN because binding and split/merge unresolved",
+          "certified_anonymous_classes": 0
+        },
+        "actual_bounds": {
+          "whole_source_complete_body_count": {
+            "lower": 0,
+            "upper": null,
+            "upper_status": "not certified"
+          },
+          "certified_class_count": 0,
+          "stable_occurrence_count": 0,
+          "note": "Zero is only the count certified by this reconciliation, not an assertion that no physical glyphs exist."
+        },
+        "all_limits": [
+          "Complete physical inventory not established: nearly all of S1 and all of S2 bodies remain individually unbounded.",
+          "Required detached-mark ownership and split/merge alternatives remain open; no complete finite correlated interpretation set can be certified.",
+          "A records twelve local envelopes; B records ten differently partitioned envelopes. B asserts eight complete bodies but also leaves all owned marks and fine-stroke boundaries unknown; this is not a certified whole-body identity count.",
+          "The six observed bands in each manuscript block are not a certified order/group partition. S1/S2 priority, directions, row endpoints and grouping remain unknown.",
+          "S3 relation to manuscript and S4 discrete symbols remain unresolved. No global exclusion based on reading private text."
+        ],
+        "finite_interpretation_set": "Unavailable; no invented Cartesian variants, no masked-away certified class alternatives."
+      }
+    },
+    "machine_model": {
+      "original_full_record_sha256": "9cfdfe59f2eef198d69fd920f1b972406bd7bcef5657be8862a4a9a6dbaef203",
+      "selected_field_list": [
+        "schema",
+        "status",
+        "source",
+        "machine_eligible",
+        "classes",
+        "occurrences",
+        "variants",
+        "variants_status",
+        "common_identity_stable_occurrences",
+        "common_identity_stability_justification",
+        "partial_prototype_tally",
+        "uncertified_extents",
+        "bounds",
+        "incompleteness_reasons",
+        "unknown_dimensions",
+        "unknown_masks"
+      ],
+      "scientific_record": {
+        "schema": "development-model-source-only-v1",
+        "status": "UNAVAILABLE_SOURCE_MODEL_INCOMPLETE",
+        "source": {
+          "byte_count": 1288265,
+          "sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+          "native_dimensions": [
+            1785,
+            1175
+          ],
+          "exif_orientation": 1,
+          "decoded_rgb_sha256": "5861cd6fe98334bc983dda575a6c36bb3222e73a71329865a42e8cc492f2db94"
+        },
+        "machine_eligible": false,
+        "classes": [],
+        "occurrences": [
+          {
+            "id": "A-O001",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              189,
+              831,
+              210,
+              864
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Tall slender oblique stroke with a lower bend; short neighboring ink may or may not be owned.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O001",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 1,
+              "bbox_xyxy": [
+                189,
+                831,
+                210,
+                864
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Tall slender oblique stroke with a lower bend; short neighboring ink may or may not be owned.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O002",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              210,
+              841,
+              226,
+              863
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Small open curved body with raised left segment and a short rightward terminal.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O002",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 2,
+              "bbox_xyxy": [
+                210,
+                841,
+                226,
+                863
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Small open curved body with raised left segment and a short rightward terminal.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O003",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              229,
+              844,
+              244,
+              866
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Small rounded open curve; aperture and right terminal distinguishability unresolved.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O003",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 3,
+              "bbox_xyxy": [
+                229,
+                844,
+                244,
+                866
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Small rounded open curve; aperture and right terminal distinguishability unresolved.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O004",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              245,
+              847,
+              261,
+              868
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Compact bent construction with a low curve and upper short stroke; detached ink uncertain.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O004",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 4,
+              "bbox_xyxy": [
+                245,
+                847,
+                261,
+                868
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Compact bent construction with a low curve and upper short stroke; detached ink uncertain.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O005",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              266,
+              845,
+              282,
+              865
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Rounded low bowl with a rising upper stroke; junction indistinct.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O005",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 5,
+              "bbox_xyxy": [
+                266,
+                845,
+                282,
+                865
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Rounded low bowl with a rising upper stroke; junction indistinct.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O006",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              284,
+              845,
+              300,
+              868
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Compact angular/curved construction with upper-to-lower transition; boundary to right uncertain.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O006",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 6,
+              "bbox_xyxy": [
+                284,
+                845,
+                300,
+                868
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Compact angular/curved construction with upper-to-lower transition; boundary to right uncertain.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O007",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              301,
+              846,
+              316,
+              868
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Low short bent stroke cluster; possible attachment to preceding body.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O007",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 7,
+              "bbox_xyxy": [
+                301,
+                846,
+                316,
+                868
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Low short bent stroke cluster; possible attachment to preceding body.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O008",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              319,
+              847,
+              335,
+              869
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Narrow descending-and-returning construction; nearby upper ink ownership uncertain.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O008",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 8,
+              "bbox_xyxy": [
+                319,
+                847,
+                335,
+                869
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Narrow descending-and-returning construction; nearby upper ink ownership uncertain.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O009",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              336,
+              849,
+              350,
+              872
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Compact pointed/bent construction with an upward right segment.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O009",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 9,
+              "bbox_xyxy": [
+                336,
+                849,
+                350,
+                872
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Compact pointed/bent construction with an upward right segment.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O010",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              381,
+              839,
+              400,
+              868
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Tall rising diagonal body with lower turn and a short lateral stroke.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O010",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 10,
+              "bbox_xyxy": [
+                381,
+                839,
+                400,
+                868
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Tall rising diagonal body with lower turn and a short lateral stroke.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O011",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              400,
+              846,
+              418,
+              869
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Compact low curved construction adjoining a small upper stroke.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O011",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 11,
+              "bbox_xyxy": [
+                400,
+                846,
+                418,
+                869
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Compact low curved construction adjoining a small upper stroke.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "A-O012",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              420,
+              848,
+              440,
+              872
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "Compact rounded/bent construction; trailing ink may be a separate punctuation-like mark.",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O012",
+              "region_id": "R1",
+              "line_band": 1,
+              "source_order": 12,
+              "bbox_xyxy": [
+                420,
+                848,
+                440,
+                872
+              ],
+              "complete_body": "UNKNOWN",
+              "candidate_class_ids": "UNKNOWN",
+              "positive_contour_features": "Compact rounded/bent construction; trailing ink may be a separate punctuation-like mark.",
+              "wholly_owned_parts": "UNKNOWN",
+              "mark_ownership_uncertainty": "Local ink and any detached marks were not uniquely attributed in the single whole-source view.",
+              "boundary_uncertainty": "Approximate body box; split/merge not certified.",
+              "grouping_run_boundary": "UNKNOWN",
+              "pre_model_mask": true,
+              "mask_reason": "Required whole body/mark ownership unresolved; cannot certify a model token."
+            }
+          },
+          {
+            "id": "B-O001",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              191,
+              832,
+              211,
+              862
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "long narrow oblique ascending stroke with a curved foot; no closed enclosure",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O001",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 1,
+              "bbox_native_xyxy": [
+                191,
+                832,
+                211,
+                862
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B001"
+              ],
+              "positive_owner_features": "long narrow oblique ascending stroke with a curved foot; no closed enclosure",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O002",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              213,
+              844,
+              229,
+              865
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "small open concave hooked contour, taller at right",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O002",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 2,
+              "bbox_native_xyxy": [
+                213,
+                844,
+                229,
+                865
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B002"
+              ],
+              "positive_owner_features": "small open concave hooked contour, taller at right",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O003",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              234,
+              843,
+              251,
+              865
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "small curved open contour with short upper turn",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O003",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 3,
+              "bbox_native_xyxy": [
+                234,
+                843,
+                251,
+                865
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B003"
+              ],
+              "positive_owner_features": "small curved open contour with short upper turn",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O004",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              260,
+              842,
+              279,
+              867
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "short angled upright joined to a rightward low curved stroke",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O004",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 4,
+              "bbox_native_xyxy": [
+                260,
+                842,
+                279,
+                867
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B004"
+              ],
+              "positive_owner_features": "short angled upright joined to a rightward low curved stroke",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O005",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              286,
+              847,
+              304,
+              867
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "compact small closed or nearly closed rounded enclosure with an upper attachment",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O005",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 5,
+              "bbox_native_xyxy": [
+                286,
+                847,
+                304,
+                867
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": "UNKNOWN",
+              "class_candidates": [
+                "B005",
+                "UNKNOWN"
+              ],
+              "positive_owner_features": "compact small closed or nearly closed rounded enclosure with an upper attachment",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O006",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              309,
+              837,
+              326,
+              864
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "tall oblique stem joined to a short crossing or lateral stroke",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O006",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 6,
+              "bbox_native_xyxy": [
+                309,
+                837,
+                326,
+                864
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B006"
+              ],
+              "positive_owner_features": "tall oblique stem joined to a short crossing or lateral stroke",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O007",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              331,
+              852,
+              347,
+              870
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "low shallow two-turn contour with short terminal rise",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O007",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 7,
+              "bbox_native_xyxy": [
+                331,
+                852,
+                347,
+                870
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B007"
+              ],
+              "positive_owner_features": "low shallow two-turn contour with short terminal rise",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O008",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              380,
+              839,
+              399,
+              865
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "long slanted stem with small curved low foot",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O008",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 8,
+              "bbox_native_xyxy": [
+                380,
+                839,
+                399,
+                865
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B008"
+              ],
+              "positive_owner_features": "long slanted stem with small curved low foot",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O009",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              401,
+              851,
+              418,
+              868
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "small open bent contour with a short raised terminal",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O009",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 9,
+              "bbox_native_xyxy": [
+                401,
+                851,
+                418,
+                868
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": true,
+              "class_candidates": [
+                "B009"
+              ],
+              "positive_owner_features": "small open bent contour with a short raised terminal",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          },
+          {
+            "id": "B-O010",
+            "region_id": "S1",
+            "native_bbox_xyxy": [
+              425,
+              852,
+              444,
+              870
+            ],
+            "record_role": "partial ink locator, not certified whole occurrence",
+            "positive_contour_evidence": "compact curved loop-like contour, closure not certified",
+            "whole_body_identity": "UNKNOWN",
+            "owned_marks": "UNKNOWN",
+            "class_candidates": [
+              "UNKNOWN"
+            ],
+            "required_unknown_mask": true,
+            "order": "local x-order only",
+            "confusers": [
+              "neighboring fine stroke or detached mark",
+              "open curve versus nearly closed loop",
+              "one joined body versus adjacent bodies"
+            ],
+            "source_reader_assertion": {
+              "id": "O010",
+              "region": "R1",
+              "line": "R1-L1",
+              "source_order": 10,
+              "bbox_native_xyxy": [
+                425,
+                852,
+                444,
+                870
+              ],
+              "bbox_precision": "approximate observational envelope",
+              "completebody": "UNKNOWN",
+              "class_candidates": [
+                "B010",
+                "UNKNOWN"
+              ],
+              "positive_owner_features": "compact curved loop-like contour, closure not certified",
+              "owned_marks": {
+                "status": "UNKNOWN",
+                "notes": "No detached mark assigned; nearby fine strokes or faded ink may belong to body or neighboring construction."
+              },
+              "run_grouping": "UNKNOWN",
+              "boundary_alternatives": [
+                "one body within stated envelope",
+                "boundary may include an adjacent fine stroke"
+              ],
+              "identity_correlations": "No repeated-identity constraint certified."
+            }
+          }
+        ],
+        "variants": [],
+        "variants_status": "NOT_ESTABLISHED; empty list means unavailable, not zero admissible interpretations",
+        "common_identity_stable_occurrences": [],
+        "common_identity_stability_justification": "No certified same identity positions in every admissible variant; variants have not been frozen.",
+        "partial_prototype_tally": {
+          "reader_A_local_ink_locators": 12,
+          "reader_B_local_prototypes": 10,
+          "union_count": "UNKNOWN because binding and split/merge unresolved",
+          "certified_anonymous_classes": 0
+        },
+        "uncertified_extents": [
+          {
+            "id": "S1",
+            "bbox_native_xyxy": [
+              94,
+              827,
+              1706,
+              1131
+            ],
+            "kind": "cipherlike manuscript by repeated small hooked, looped, angled and ascending contours",
+            "line_bands_native_y": [
+              [
+                827,
+                884
+              ],
+              [
+                876,
+                936
+              ],
+              [
+                927,
+                991
+              ],
+              [
+                977,
+                1043
+              ],
+              [
+                1025,
+                1096
+              ],
+              [
+                1080,
+                1131
+              ]
+            ],
+            "certification": "Six visible bands, approximate; no exhaustive body partition. First band begins farther right than subsequent bands. Final band runs near paper edge and ends in a rightward arrow-like flourish."
+          },
+          {
+            "id": "S2",
+            "bbox_native_xyxy": [
+              1348,
+              56,
+              1645,
+              851
+            ],
+            "kind": "cipherlike manuscript by repetition of contours visually shared with S1",
+            "line_bands_native_x": [
+              [
+                1348,
+                1410
+              ],
+              [
+                1400,
+                1458
+              ],
+              [
+                1450,
+                1505
+              ],
+              [
+                1496,
+                1550
+              ],
+              [
+                1540,
+                1593
+              ],
+              [
+                1583,
+                1645
+              ]
+            ],
+            "certification": "Clockwise whole view reveals six parallel approximately horizontal bands in rotated coordinates; these native x bands are envelopes, not certified line segmentation. Detached dots, high stems and descending loops complicate ownership."
+          },
+          {
+            "id": "S3",
+            "bbox_native_xyxy": [
+              1638,
+              355,
+              1705,
+              689
+            ],
+            "kind": "separate short ordinary-annotation-like construction",
+            "certification": "Larger sparse baseline inscription, separated from dense repetitive bands; graphical function uncertain. Curved enclosing flourish and slashes visible. No literal content transcribed; not certified exclusion from all cipherlike material."
+          },
+          {
+            "id": "S4",
+            "bbox_native_xyxy": [
+              350,
+              57,
+              1432,
+              1129
+            ],
+            "kind": "translucent regular annular compartmented overlay and central graphic",
+            "certification": "Large fixed-width symbols and geometric cells, distinct scale/opacity from dark manuscript; symbol extents unenumerated, cipherlike graphical role unresolved."
+          },
+          {
+            "id": "S5",
+            "bbox_native_xyxy": [
+              61,
+              49,
+              1709,
+              1134
+            ],
+            "kind": "printed pictorial background, paper damage and texture",
+            "certification": "Portrait/color fields, halftone texture, stains and scratches differentiated graphically from manuscript; tiny dark specks cannot all be assigned to ink versus surface."
+          }
+        ],
+        "bounds": {
+          "whole_source_complete_body_count": {
+            "lower": 0,
+            "upper": null,
+            "upper_status": "not certified"
+          },
+          "certified_class_count": 0,
+          "stable_occurrence_count": 0,
+          "note": "Zero is only the count certified by this reconciliation, not an assertion that no physical glyphs exist."
+        },
+        "incompleteness_reasons": [
+          "Complete physical inventory not established: nearly all of S1 and all of S2 bodies remain individually unbounded.",
+          "Required detached-mark ownership and split/merge alternatives remain open; no complete finite correlated interpretation set can be certified.",
+          "A records twelve local envelopes; B records ten differently partitioned envelopes. B asserts eight complete bodies but also leaves all owned marks and fine-stroke boundaries unknown; this is not a certified whole-body identity count.",
+          "The six observed bands in each manuscript block are not a certified order/group partition. S1/S2 priority, directions, row endpoints and grouping remain unknown.",
+          "S3 relation to manuscript and S4 discrete symbols remain unresolved. No global exclusion based on reading private text."
+        ],
+        "unknown_dimensions": [
+          "class candidate",
+          "mark owner",
+          "body boundary",
+          "order",
+          "grouping",
+          "split/merge",
+          "S3 inclusion",
+          "S4 inclusion"
+        ],
+        "unknown_masks": [
+          "A-O001",
+          "A-O002",
+          "A-O003",
+          "A-O004",
+          "A-O005",
+          "A-O006",
+          "A-O007",
+          "A-O008",
+          "A-O009",
+          "A-O010",
+          "A-O011",
+          "A-O012",
+          "B-O001",
+          "B-O002",
+          "B-O003",
+          "B-O004",
+          "B-O005",
+          "B-O006",
+          "B-O007",
+          "B-O008",
+          "B-O009",
+          "B-O010"
+        ]
+      }
+    }
+  },
+  "controlling_interpretation": "Reader B initial assertion of eight complete bodies is not reconciled complete source certification; certified whole classes0 is a certification limit, not no physical glyphs. Source views A1native/B2native+wrongCCW/reconciliation2native+CW are preserved."
+}

@@ -1,0 +1,486 @@
+{
+  "schema": "source257-targeted-closure-prelog-v1",
+  "frozen_before_phase2_targeted_pair_view": true,
+  "frozen_utc": "2026-10-14T01:00:34.250015+00:00",
+  "protocol_sha256": "e0d0f9563e29af6463621f168b2d0797025b41d6fcb5d5e005063b098697691a",
+  "reader_initial_pins": {
+    "A": "1ee9e7f155562098018fbf7b471c8a83713b1216ddef5a8b78f057eb396f586d",
+    "B": "57c34ca20119a8de119fef941f5d3be18e9d7185f0f7c5060e485b41d93160b2"
+  },
+  "core_candidate_intersection": [
+    "FC004--FC079",
+    "FC015--FC066",
+    "FC015--FC074",
+    "FC015--FC089",
+    "FC015--FC092",
+    "FC015--FC104",
+    "FC015--FC109",
+    "FC015--FC126",
+    "FC037--FC114",
+    "FC037--FC125",
+    "FC049--FC114",
+    "FC049--FC125",
+    "FC066--FC104",
+    "FC066--FC109",
+    "FC074--FC089",
+    "FC074--FC104",
+    "FC074--FC126",
+    "FC079--FC129",
+    "FC079--FC213",
+    "FC081--FC114",
+    "FC081--FC125",
+    "FC089--FC092",
+    "FC089--FC104",
+    "FC089--FC109",
+    "FC089--FC126",
+    "FC090--FC108",
+    "FC092--FC109",
+    "FC092--FC126",
+    "FC104--FC109",
+    "FC104--FC126",
+    "FC109--FC126",
+    "FC114--FC125",
+    "FC114--FC197",
+    "FC114--U019",
+    "FC125--FC197",
+    "FC125--U019"
+  ],
+  "excluded_inherited_pair_ids": [
+    "FC013--FC068",
+    "FC019--FC043",
+    "FC019--FC081",
+    "FC043--FC081",
+    "FC066--FC074",
+    "FC066--FC092",
+    "FC074--FC092",
+    "FC166--FC212",
+    "FC180--FC208",
+    "FC197--U019",
+    "U051--U053"
+  ],
+  "requests": [
+    {
+      "pair_id": "FC004--FC129",
+      "member_ids": [
+        "FC004",
+        "FC129"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC079",
+          "proposed_set": [
+            "FC004",
+            "FC079",
+            "FC129"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC004--FC079",
+            "FC079--FC129"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC004--FC213",
+      "member_ids": [
+        "FC004",
+        "FC213"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC079",
+          "proposed_set": [
+            "FC004",
+            "FC079",
+            "FC213"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC004--FC079",
+            "FC079--FC213"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC037--FC049",
+      "member_ids": [
+        "FC037",
+        "FC049"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC037",
+            "FC049",
+            "FC114"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC114",
+            "FC049--FC114"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC037",
+            "FC049",
+            "FC125"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC125",
+            "FC049--FC125"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC037--FC081",
+      "member_ids": [
+        "FC037",
+        "FC081"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC037",
+            "FC081",
+            "FC114"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC114",
+            "FC081--FC114"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC037",
+            "FC081",
+            "FC125"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC125",
+            "FC081--FC125"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC037--FC197",
+      "member_ids": [
+        "FC037",
+        "FC197"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC037",
+            "FC114",
+            "FC197"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC114",
+            "FC114--FC197"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC037",
+            "FC125",
+            "FC197"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC125",
+            "FC125--FC197"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC037--U019",
+      "member_ids": [
+        "FC037",
+        "U019"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC037",
+            "FC114",
+            "U019"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC114",
+            "FC114--U019"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC037",
+            "FC125",
+            "U019"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC037--FC125",
+            "FC125--U019"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC049--FC081",
+      "member_ids": [
+        "FC049",
+        "FC081"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC049",
+            "FC081",
+            "FC114"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC049--FC114",
+            "FC081--FC114"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC049",
+            "FC081",
+            "FC125"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC049--FC125",
+            "FC081--FC125"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC049--FC197",
+      "member_ids": [
+        "FC049",
+        "FC197"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC049",
+            "FC114",
+            "FC197"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC049--FC114",
+            "FC114--FC197"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC049",
+            "FC125",
+            "FC197"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC049--FC125",
+            "FC125--FC197"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC049--U019",
+      "member_ids": [
+        "FC049",
+        "U019"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC049",
+            "FC114",
+            "U019"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC049--FC114",
+            "FC114--U019"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC049",
+            "FC125",
+            "U019"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC049--FC125",
+            "FC125--U019"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC081--FC197",
+      "member_ids": [
+        "FC081",
+        "FC197"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC081",
+            "FC114",
+            "FC197"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC081--FC114",
+            "FC114--FC197"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC081",
+            "FC125",
+            "FC197"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC081--FC125",
+            "FC125--FC197"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC081--U019",
+      "member_ids": [
+        "FC081",
+        "U019"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC114",
+          "proposed_set": [
+            "FC081",
+            "FC114",
+            "U019"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC081--FC114",
+            "FC114--U019"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        },
+        {
+          "trigger_new_id": "FC125",
+          "proposed_set": [
+            "FC081",
+            "FC125",
+            "U019"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC081--FC125",
+            "FC125--U019"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    },
+    {
+      "pair_id": "FC129--FC213",
+      "member_ids": [
+        "FC129",
+        "FC213"
+      ],
+      "triggers": [
+        {
+          "trigger_new_id": "FC079",
+          "proposed_set": [
+            "FC079",
+            "FC129",
+            "FC213"
+          ],
+          "existing_core_candidate_witnesses": [
+            "FC079--FC129",
+            "FC079--FC213"
+          ],
+          "witness_state": "BOTH_INITIAL_READERS_SUPPORT_FINAL_AI_REVIEW_PENDING"
+        }
+      ],
+      "why_needed": "Missing old-old edge for a proposed all-edge clique already supported through the listed new-member core edges; no transitive equality inferred.",
+      "comparison_gate": "SAME_FROZEN_8_FEATURE_TWO_READER_FINAL_AI_SOURCE_GATE",
+      "status": "PRELOG_ONLY_NOT_YET_EXECUTED"
+    }
+  ],
+  "limits": [
+    "Exactly these12 old-old comparisons only; no general old55 all-pairs expansion.",
+    "Inherited11 reused, not reinspected.",
+    "Initial reader conflicts retained; other37 one-reader positive candidates not closure triggers.",
+    "Source graphical candidates remain distinct from cipher identity/letters."
+  ]
+}

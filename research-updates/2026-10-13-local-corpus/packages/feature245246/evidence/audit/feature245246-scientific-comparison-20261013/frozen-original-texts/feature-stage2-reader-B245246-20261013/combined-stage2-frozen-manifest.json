@@ -1,0 +1,68 @@
+{
+  "actor": "B",
+  "frozen_utc": "2026-10-13T05:34:25.227380+00:00",
+  "stage2_card_freezes": {
+    "245": {
+      "path": "card245/stage2-freeze-manifest.json",
+      "sha256": "916ee739b5ca5608d71d981e9835e103984281683ce1b7bf7d8d9fb5cef6c764"
+    },
+    "246": {
+      "path": "card246/stage2-freeze-manifest.json",
+      "sha256": "3492bcdcc5156e2a83e931a3128951aab2de968c900bf604eb7b7d488b4ec88f"
+    }
+  },
+  "root_files": {
+    "stage1-text-hash-closure.json": "eba2be7222b9bc4074f9a725117329e0b3ea7bfb841ee41bed4f709f81cf2c0e",
+    "applied-frozen-clauses.json": "ba5a37c36984ccd5efb7577197377f713ddfc8c8de39d39257f808e29e53e4e2"
+  },
+  "separate_card_summaries": [
+    {
+      "card": 245,
+      "role": "primary",
+      "scope": "four frozen groups in top row of largest cipher block; full survey retained separately",
+      "original_body_representation_count": 23,
+      "embedded_residual_representation_count": 1,
+      "body_G06_outputs": {
+        "NONMATCH": 22,
+        "UNKNOWN_BODY_ADMISSION": 1
+      },
+      "residual_G06_outputs": {
+        "UNKNOWN_BODY_ADMISSION": 1
+      },
+      "body_binary_topology": {
+        "TOPOLOGY_FORK_ABSENT": 21,
+        "TOPOLOGY_FORK_PRESENT": 1,
+        "UNAVAILABLE": 1
+      },
+      "G21": "UNAVAILABLE_UNDERSPECIFIED_CLASS_BOUNDARY",
+      "G06_FEATURE_MATCH_count": 0,
+      "association_errors": [],
+      "no_peer_comparison": true,
+      "no_scientific_PASS": true
+    },
+    {
+      "card": 246,
+      "role": "separate supplementary",
+      "scope": "four frozen groups in top row of largest cipher block; full survey retained separately",
+      "original_body_representation_count": 13,
+      "embedded_residual_representation_count": 1,
+      "body_G06_outputs": {
+        "NONMATCH": 13
+      },
+      "residual_G06_outputs": {
+        "UNKNOWN_BODY_ADMISSION": 1
+      },
+      "body_binary_topology": {
+        "TOPOLOGY_FORK_ABSENT": 12,
+        "UNAVAILABLE": 1
+      },
+      "G21": "UNAVAILABLE_UNDERSPECIFIED_CLASS_BOUNDARY",
+      "G06_FEATURE_MATCH_count": 0,
+      "association_errors": [],
+      "no_peer_comparison": true,
+      "no_scientific_PASS": true
+    }
+  ],
+  "no_source_views_or_Stage1_edits_or_peer_comparison": true,
+  "no_scientific_PASS": true
+}

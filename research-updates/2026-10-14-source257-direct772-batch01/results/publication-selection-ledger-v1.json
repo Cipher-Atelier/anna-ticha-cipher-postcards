@@ -1,0 +1,230 @@
+{
+  "schema": "source257-d14-publication-selection-ledger-v1",
+  "plan_sha256": "d17f9667c5e267bda5ef85ee991f9fa4d4bd99e84f5fc105c3a925bf72ba2afc",
+  "final_assembly_bindings_sha256": "56bdd7150d0b5458da2c99329806c98e68fd1a757f556fa46c636f090b9b30db",
+  "files": [
+    {
+      "source": "results/direct772-protocol-v2.json",
+      "selected_file": "results/direct772-protocol-v2.json",
+      "original_sha256": "43d8e1c6dd86520b0b0e4f58f88c19bdfb025830978aacff3069852f709b0797",
+      "selected_sha256": "43d8e1c6dd86520b0b0e4f58f88c19bdfb025830978aacff3069852f709b0797",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/source-observation-protocol-v1.json",
+      "selected_file": "results/source-observation-protocol-v1.json",
+      "original_sha256": "647b640943976508ea1020c9699f51819cde6acb6db9ba47ddb658c8f2daa844",
+      "selected_sha256": "647b640943976508ea1020c9699f51819cde6acb6db9ba47ddb658c8f2daa844",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/direct772-queue-v1.json",
+      "selected_file": "results/direct772-queue-v1.json",
+      "original_sha256": "ecfb18d68ac7135f3c3215f0ec1843a199f1eda20840ab6cf98003a8b37818c0",
+      "selected_sha256": "ecfb18d68ac7135f3c3215f0ec1843a199f1eda20840ab6cf98003a8b37818c0",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/judge-source-geometry-intake-v1.json",
+      "selected_file": "results/judge-source-geometry-intake-v1.json",
+      "original_sha256": "64745684aecba5f547b4033d2d9425a8864955b94078f88aa9ae3620d0f96bca",
+      "selected_sha256": "64745684aecba5f547b4033d2d9425a8864955b94078f88aa9ae3620d0f96bca",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/source-reader-output-format-v2.json",
+      "selected_file": "results/source-reader-output-format-v2.json",
+      "original_sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d",
+      "selected_sha256": "5f4b05db7c5babc6836dcfdecfcd904a5ca32205fb392e615dc711ff40b0843d",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/final-output-format-v1.json",
+      "selected_file": "results/final-output-format-v1.json",
+      "original_sha256": "1c17bdcc929a7c1e5d279c2ad1435f56279f3c469cc8092b2841b291a0f4b4b1",
+      "selected_sha256": "1c17bdcc929a7c1e5d279c2ad1435f56279f3c469cc8092b2841b291a0f4b4b1",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/method-protocol-gate-private-v1.json",
+      "selected_file": "results/method-protocol-gate-private-v1.json",
+      "original_sha256": "bec5786f9e46968044d84740bd42b249de604ec4d7ed5eb30fb044cd47da6fee",
+      "selected_sha256": "bec5786f9e46968044d84740bd42b249de604ec4d7ed5eb30fb044cd47da6fee",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "pair-context-pack-v1/pair-index-v1.json",
+      "selected_file": "pair-context-pack-v1/pair-index-v1.json",
+      "original_sha256": "e5bde69314dd64b6fde7df429688808e3a12b74429addfa4f566fc3bca37a7fb",
+      "selected_sha256": "e5bde69314dd64b6fde7df429688808e3a12b74429addfa4f566fc3bca37a7fb",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "code/prepare_direct772_pack.py",
+      "selected_file": "code/prepare_direct772_pack.py",
+      "original_sha256": "485aad5a8110d256aaa8e158d494c298a07027b2d8b1f8b747cfbdc9ef7394e2",
+      "selected_sha256": "485aad5a8110d256aaa8e158d494c298a07027b2d8b1f8b747cfbdc9ef7394e2",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "code/build_direct64_native_pack.py",
+      "selected_file": "code/build_direct64_native_pack.py",
+      "original_sha256": "ea046efc0f7c06e2d5efd56a5d5ee806e933cf95d8bb7404aa1f905398160da4",
+      "selected_sha256": "ea046efc0f7c06e2d5efd56a5d5ee806e933cf95d8bb7404aa1f905398160da4",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "code/test_prepare_direct772_pack.py",
+      "selected_file": "code/test_prepare_direct772_pack.py",
+      "original_sha256": "e1296fba85b21b402444885c8404a479d72b56dd30b843513749d3902f7ef08b",
+      "selected_sha256": "e37aeedbbe17d390fb4d3bbcba9a5c223cb06ce0bc95231e7b2cf45093957206",
+      "byte_identical": false,
+      "exact_transformations": [
+        {
+          "before": "        repository = Path(os.environ[\"SOURCE257_PUBLIC_REPOSITORY\"])",
+          "after": "        repository = Path(os.environ.get(\"SOURCE257_PUBLIC_REPOSITORY\", Path(__file__).resolve().parents[3]))"
+        },
+        {
+          "before": "        d12 = STAGE.parent / \"source257-repeat-sequence-next-20261014\"",
+          "after": "        d12 = STAGE.parent / \"2026-10-14-source257-repeat-sequence\"\n        public_geometry = {\"references\": d12 / \"data/effective70-profile-references-v1.json\",\n                           \"context_index\": d12 / \"data/context-index-v1.json\"}"
+        },
+        {
+          "before": "            raw = ((d12 if key in {\"references\", \"context_index\"} else repository) / relative).read_bytes()",
+          "after": "            raw = (public_geometry[key] if key in public_geometry else repository / relative).read_bytes()"
+        }
+      ]
+    },
+    {
+      "source": "code/test_direct64_native_pack.py",
+      "selected_file": "code/test_direct64_native_pack.py",
+      "original_sha256": "b0d62aff8335cbc73c639d1984bcb415ff9578234119be6eb31fea4ae2fdefad",
+      "selected_sha256": "8535dee150dc0d3462300b7a4ec5b4cbedff3a46627c5bef92a6383a4ab10c6b",
+      "byte_identical": false,
+      "exact_transformations": [
+        {
+          "before": "        cls.helper = core.helper(STAGE.parent / \"source257-repeat-sequence-next-20261014\")",
+          "after": "        cls.helper = core.helper(STAGE.parent / \"2026-10-14-source257-repeat-sequence\")"
+        }
+      ]
+    },
+    {
+      "source": "results/source-reader-A-initial-v1.json",
+      "selected_file": "results/source-reader-A-initial-v1.json",
+      "original_sha256": "02a42214d3b1c84c98eb73f90c31442f4b58149540fc7d714d08b8b67ea51136",
+      "selected_sha256": "02a42214d3b1c84c98eb73f90c31442f4b58149540fc7d714d08b8b67ea51136",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/source-reader-B-initial-v1.json",
+      "selected_file": "results/source-reader-B-initial-v1.json",
+      "original_sha256": "ce8c857aea674ef266bc22e6fa4a4fcd94c57eb1d4cd7bd86820157400e9278e",
+      "selected_sha256": "ce8c857aea674ef266bc22e6fa4a4fcd94c57eb1d4cd7bd86820157400e9278e",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/direct772-final-ai-v1.json",
+      "selected_file": "results/direct772-final-ai-v1.json",
+      "original_sha256": "c2bff888107c17cda8c1d4518e1c635642b88c5ca39c5518bd09b2008456fa3c",
+      "selected_sha256": "c2bff888107c17cda8c1d4518e1c635642b88c5ca39c5518bd09b2008456fa3c",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/direct772-checkpoint-v2.json",
+      "selected_file": "results/direct772-checkpoint-v2.json",
+      "original_sha256": "3e49c32aa621e463755080e3a6e84e203fa299dc415c1bc52efeb7867153a990",
+      "selected_sha256": "3e49c32aa621e463755080e3a6e84e203fa299dc415c1bc52efeb7867153a990",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/direct772-queue-status-v2.tsv",
+      "selected_file": "results/direct772-queue-status-v2.tsv",
+      "original_sha256": "2a2ce05909bec74184ddb6efdccaf4eec144c964481319d7b88301061869d0da",
+      "selected_sha256": "2a2ce05909bec74184ddb6efdccaf4eec144c964481319d7b88301061869d0da",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "code/direct772_checkpoint.py",
+      "selected_file": "code/direct772_checkpoint.py",
+      "original_sha256": "0a254ed07308a5e3fa4f4f215df0fec49a05fa9f41deb211c1c7e92b6d7378a5",
+      "selected_sha256": "0a254ed07308a5e3fa4f4f215df0fec49a05fa9f41deb211c1c7e92b6d7378a5",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "code/check_direct772_checkpoint.py",
+      "selected_file": "code/check_direct772_checkpoint.py",
+      "original_sha256": "9b68e48a7207b3c8aa75eb417a93d0dc667afceb0054f4e6f2bd6db566edfcf0",
+      "selected_sha256": "9b68e48a7207b3c8aa75eb417a93d0dc667afceb0054f4e6f2bd6db566edfcf0",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "code/test_direct772_checkpoint.py",
+      "selected_file": "code/test_direct772_checkpoint.py",
+      "original_sha256": "2120929cebe076af1cdea18fe55a6e9e773fa27ab02c0703e8da534cb03c2feb",
+      "selected_sha256": "2120929cebe076af1cdea18fe55a6e9e773fa27ab02c0703e8da534cb03c2feb",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/direct772-checker-receipt-v2.json",
+      "selected_file": "results/direct772-checker-receipt-v2.json",
+      "original_sha256": "8c52cee42b8ffe6889f93f28fa944807be779fe64f3793b4843f632f8df576e5",
+      "selected_sha256": "8c52cee42b8ffe6889f93f28fa944807be779fe64f3793b4843f632f8df576e5",
+      "byte_identical": true,
+      "exact_transformations": []
+    },
+    {
+      "source": "results/authored-public-README-v2.md",
+      "selected_file": "README.md",
+      "original_sha256": "8d2abe1e7cd8551f4ca7563d740b13b8a7a9b5d07001360f79050dfb1cd09696",
+      "selected_sha256": "8d2abe1e7cd8551f4ca7563d740b13b8a7a9b5d07001360f79050dfb1cd09696",
+      "byte_identical": true,
+      "exact_transformations": []
+    }
+  ],
+  "generated_authored_files": [
+    {
+      "selected_file": ".gitignore",
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "role": "PYTHON_CACHE_IGNORE_RULES"
+    }
+  ],
+  "public_fixture_execution_at_assembly": "NOT_YET_RUN_AT_PRIVATE_STAGING_TIME; see final integration/CI evidence",
+  "reused_baselines": {
+    "D12_baseline": {
+      "path": "research-updates/2026-10-14-source257-repeat-sequence/data/canonical-repeat-evidence-v1.json",
+      "sha256": "5083d313a78796ac32f21f71d93b9b53b230874782f8a4558324b12d7e2d8348"
+    },
+    "D13_protocol": {
+      "path": "research-updates/2026-10-14-source257-conflict-route-review/results/conflict-route-protocol-v1.json",
+      "sha256": "554f461bcf6a210b3bb91da3a36b78042410649083840002413f0bcc82d388dc"
+    },
+    "D13_delta": {
+      "path": "research-updates/2026-10-14-source257-conflict-route-review/results/conflict-route-delta-v1.json",
+      "sha256": "32e69668c238ab0ce02c08a257a3235ebc0235ae887e643627c28b5a7608049a"
+    },
+    "optional_fixture_D12_inputs": [
+      "data/effective70-profile-references-v1.json",
+      "data/context-index-v1.json",
+      "code/assemble_native_comparison_sheets.py"
+    ],
+    "policy": "Reuse existing public bytes; no duplicate baseline, old source reports or307-row spatial TSV. Historical58-edge/15-clique graph unchanged; no alphabet/group release."
+  },
+  "source_pixel_payloads_published": false
+}

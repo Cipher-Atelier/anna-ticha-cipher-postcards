@@ -1,0 +1,49 @@
+{
+  "card": 252,
+  "created_utc": "2026-10-13T08:06:20Z",
+  "timing": "After two original views and one whole CW90 display; before body coding or crop display.",
+  "frame_amendment": "Canonical cipher documents will use orientation CW90 and oriented_dimensions [1175,1785], the exact full-source transpose frame. Native survey retains NONE. This supersedes prospective native-body-box plan only, before body records exist, to permit direct geometry annotation in observed display.",
+  "geometric_order": "P_TOP rows 1 through 9, top-to-bottom; then P_BOTTOM rows 10 through 13, top-to-bottom. Within rows left-to-right in CW90 display. Printed greeting interrupts row 5 but is ordinary coverage, not cipher.",
+  "operations": [
+    {
+      "output": "upper-cipher-display.png",
+      "input": "picture-CW90-display.png",
+      "input_decoded_RGB_sha256": "5c54f769fb13193523203c5e27946b032416d57a230c4902b86bd729835e4e0b",
+      "bbox_in_CW90": [
+        75,
+        65,
+        1125,
+        475
+      ],
+      "output_dimensions": [
+        1050,
+        410
+      ],
+      "mapping": "crop pixel (x,y) -> full CW90 (x+75,y+65)"
+    },
+    {
+      "output": "lower-cipher-display.png",
+      "input": "picture-CW90-display.png",
+      "input_decoded_RGB_sha256": "5c54f769fb13193523203c5e27946b032416d57a230c4902b86bd729835e4e0b",
+      "bbox_in_CW90": [
+        75,
+        1480,
+        1120,
+        1685
+      ],
+      "output_dimensions": [
+        1045,
+        205
+      ],
+      "mapping": "crop pixel (x,y) -> full CW90 (x+75,y+1480)"
+    }
+  ],
+  "operation_limits": "One-off Pillow PNG open, exact integer crop, PNG export in original RGB. No scaling, enhancement, interpolation, rulers or normalization.",
+  "prior_target_views": {
+    "whole_original": 2,
+    "whole_transposed": 1,
+    "crops": 0
+  },
+  "physical_body_count": null,
+  "key_projection_performed": false
+}

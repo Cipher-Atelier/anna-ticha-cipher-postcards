@@ -1,0 +1,33 @@
+# Executed rebuild257/258: source unavailable, controls fail
+
+13 October 2026. This is an **actual bounded attempt**, not a proposal-only report. The original card257 image was acquired once and read by two fresh source-only actors plus a source-only reconciliation. The resulting physical model was UNAVAILABLE. The actual development CLI exited 1 with `ValueError: UNAVAILABLE: classes`, before optimizer/key-freeze calls. Card258 was never acquired, viewed or scored; historical transfer was **NOT_EXECUTED**, and new decoded letters remain 0.
+
+Separately, all six frozen numerical controls returned **ROBUST_COUNTEREXAMPLE** after 192,096 candidate-variant evaluations. Three controls with known generated substitution truth recovered only 4/27,3/27,2/27 used classes and 15/128,29/128,1/128 held aligned characters. This is a negative algorithm result under the fixed budget; the Markov generator shares the model's language prior and is not independent corpus validation. Three uniform IID controls have no plaintext truth.
+
+## What was frozen and executed
+
+The full 217-page *Listy I* PDF, extracted UTF-8 text including front matter/headers, counts, algorithm and finite controls were actually hashed and frozen before the card257 GET. The saved PDF SHA is 904b56685abd379dcfa458b3708310c7e369f56d352558c36c2b9070c2c35798; extracted text SHA is ed5f7afdca233d427adcfb3c908b341e7b8023f779987a29c586e1a8f36b82af. Corpus bytes are not redistributed. [Algorithm/corpus metadata](algorithm-and-corpus.json) retains citation, extraction/normalization criteria, runtime, code/asset hashes, control design and robust endpoint.
+
+The actual runtime was Python 3.13.9, NumPy 2.3.3 and Poppler 26.10.0, with Pillow 11.3.0 for source verification. Guard corrections before source acquisition changed phase separation/input validation only. All six original control JSONs and numerical score tables were retained byte-exact, without optimizer tuning or rerun. Each run evaluated 32,016 candidate/variant cases and froze 367 keys.
+
+## Source certification failed, not physical absence
+
+The whole source visibly contains dense repetitive handwritten contours and a differently oriented block. AI A used one native whole view. AI B used native and CCW whole views; the latter left the right block inverted. Reconciliation used native and CW whole views. Five total visualizations, no crops/OCR/resize or post-score rescue, are part of the result. The strict two-view maximum per actor was an additional cap on the original one-record bound; this constrains the negative source-ability inference.
+
+Partial loci, classes asserted by a reader, unresolved mark ownership and unenumerated extents were preserved. Reader B's assertion of eight complete bodies does not establish reconciled exhaustive whole-class certification. Certified classes 0 and stable positions 0 mean the frozen physical input prerequisite was unmet—not no glyphs, no possible interpretation or impossible decipherment. No finite full-source variant set was established; an empty variant list is not zero admissible interpretations. [Source observations](source-observations.json) retain all raw disagreements, geometry and UNKNOWNs. [Failure proof](sourcefailure-proof.json) binds the actual exit/error/call record; raw stderr is omitted because it contains local paths.
+
+No development optimization, new key freeze or historical held scoring occurred. Card222, old keys/atlas/masks/registry and conservative 17/19 outcomes remain untouched. Neither the seven hypothetical outputs nor other legacy key entries were supplied to new source/algorithm actors. An external expert is not a condition of further work; the evidential limit is actual source certification and tested algorithm behavior, not authority.
+
+## Generated controls and CH diagnostic
+
+The six [raw generated controls](controls/) preserve complete finite keys, score tables and endpoints. [Diagnostics](controls-diagnostics.json) retain 64 random keys and 16 within-run held-order shuffles per control, with no refit and no p-value. Counts include atomic `ch` source units and emitted-character denominators. For the three Markov controls, selected development keys used CH 10/22/18 times versus synthetic true counts 2/4/4. This is a descriptive bias observation, not a significance claim or a tuned correction.
+
+Poor known-truth recovery and failed finite rank transfer do not prove all substitution models false. IID readability/ranking cannot indicate real letter truth. No source rescue, altered corpus, seeds, threshold, scorer or parameter tuning followed these outcomes. Historical transfer remains absent and no language score is independent historical letter confirmation.
+
+## Published implementation and reproducibility boundary
+
+Five frozen [code files](code/) are copied byte-identically: corpus count builder, finite model, experiment driver and six mechanical/phase fixtures. No complete historical decipherment pipeline is claimed. `run_experiment.py --controls` needs an externally supplied book-text asset; historical learning/scoring also needs counts and an original sibling method descriptor not bundled here. The corpus PDF/text/count bytes, source JPEGs, rotated PNGs, private correspondence and decoded historical text are absent. `.gitignore` excludes local assets/results/source folders.
+
+The experiment dependency pin is NumPy 2.3.3. CI uses NumPy 2.2.6 binary wheels and fixture tests on supported Python 3.10/3.13; those checks are not replication of the six synthetic/IID numerical control runs. [run_fixture_tests.py](run_fixture_tests.py) copies the five frozen files to a temporary directory, builds counts from wholly invented `ab!ch a`, and creates an explicitly synthetic minimal method-provenance descriptor. It then runs the six unchanged fixtures and deletes the temporary directory. This descriptor is a dependency fixture, not the historical experimental method. The phase fixture stubs optimization and checks no refit. No corpus download, image retrieval or optimizer-control rerun belongs in CI. The root verification workflow keeps its existing action pins, matrix, permissions and earlier verification steps.
+
+[Results](results.json) state the completed negative outcome; [SHA256SUMS.txt](SHA256SUMS.txt) binds all 21 new companion files. Scientific JSONs are declared selected-field exports with whole original-record hashes and exact path/operational omissions. All original controls and code are whole byte-exact copies. The source readings and adjudication are AI observations, not expert-certified absence or historical truth.
