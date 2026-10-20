@@ -1,0 +1,565 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Seventeenth source batch; four new candidates after the merged 65-candidate checkpoint",
+  "base_commit": "fe50e61b52c578341b4e11a3e9e168445f0acb6e",
+  "preparation_base_commit": "e50c17f2b1768dd5b4a849258715caded722a3d8",
+  "base_relation": "Fresh worktree prepared from reviewed 65-candidate head and fast-forwarded to its same-tree main merge. All 65 prior cards, revisions, history and validations remain byte-exact, including full paired editions 249/257 and 267/269, dated 303/304/306 addenda, all 307–310 artifacts and frozen 311 errors/current corrections, plus dated 312 editorial brackets. Key, decoder, checker, anchor, catalogue and source inventory unchanged.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318
+  ],
+  "new_card_ids": [
+    315,
+    316,
+    317,
+    318
+  ],
+  "selected_totals": {
+    "rows": 731,
+    "encoded_bodies": 20295,
+    "expanded_letters": 20251,
+    "ch_occurrences": 154,
+    "unknowns": 198
+  },
+  "new_selected_totals": {
+    "rows": 19,
+    "encoded_bodies": 511,
+    "expanded_letters": 494,
+    "ch_occurrences": 0,
+    "unknowns": 17
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 1,
+  "new_source_work": "Two related AI source readings per card. Four own groups: B SECOND 315/316, A FIRST 317/318, C SECOND 317/318 and fresh D FIRST 315/316. Each actor froze both own inputs before either own replay; all eight executions belong to original source actors. Actual chronology is recorded in QA, not implied by assigned slots. D had no inherited other-card reading context; others had prior context. Key visible, shared AI/language effects not excluded. Root raw 8 plus own 8 and final strict 8 checkpoints preceded QA and curator exchange. Curators SECOND 315/316 and FIRST 317/318. Per-position question-role inventory and preflight required before freeze. No external/human/cognitive-independence claim.",
+  "address_faces_checked": 69,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "All eight per-card question inventories/native tags pass and checks precede their own raw freezes; stronger paired formal preflight timing fails C and D. Original stronger method claims remain historical and qualified; all four core raw-before-own-replay barriers pass.",
+    "One frozen FIRST 315 L6 descriptive locator/span error: old offset 36 selects c rather than o; unique correct offset 38. Dated current-only locator correction, no glyph/tag/strict replay change. Frozen mechanical error count remains one; strict replay/source-tag/schema error counts remain zero.",
+    "Immutable supplemental date count correction retains frozen QA summary four and separately records six bounded reading entries, not independent dates or authenticated inscriptions.",
+    "Question inventories are bounded reading entries rather than physical counts, completeness or external confirmation. Unknown slots include masks and unassigned bodies; any known mistag exclusions remain as recorded in actual QA.",
+    "All prior 65 cards remain unchanged, including frozen 311 errors/current corrections and dated 312 editorial brackets. No prior 312 alias study or public key change is included in this batch.",
+    "Only queue records 315–318 change; the other 259 remain exact. Future priority 319–322 is not started here; no future source-stage claim added."
+  ],
+  "unresolved": {
+    "315": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified.",
+    "316": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified.",
+    "317": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified.",
+    "318": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 69,
+      "anchor": 204
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 680
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS",
+    "limits": "Research-package consistency only; no external confirmation or new source-only reading.",
+    "findings": [],
+    "uncertain_concerns": [],
+    "scope": "Fresh read-only review of all 21 staged paths, full paired editions, preserved frozen evidence and snapshots, current locator correction, two timing deviations, corrected bounded date supplement and 680 manifest hashes. No new independent source reading."
+  },
+  "next_priority_not_started": [
+    319,
+    320,
+    321,
+    322
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 680,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  },
+  "raw_consistency_scope": {
+    "result": "Mechanical replay and protected-input identities checked separately from source-tag defects; exact frozen QA inventories and findings follow.",
+    "qa_file_sha256": "0b07c80c27392d6e23e8b132bacdedb2e4caca6d01042d14a2dcef546f4a5832",
+    "summary": {
+      "readings": 8,
+      "rows": 38,
+      "transcription_spans": 12,
+      "displayed_question_masks": 9,
+      "geometry_records": 86,
+      "exact_descriptive_spans": 147,
+      "descriptive_entries_without_exact_pair": 9,
+      "native_only_geometry_records": 13,
+      "unknown_glyph_spans": 9,
+      "unassigned_symbol_slots": 9,
+      "all_unknown_encoded_slots": 18,
+      "frozen_punctuation_tag_entries": 2,
+      "all_frozen_punctuation_spans": 3,
+      "ordinary_numeral_spans": 0,
+      "separate_date_entries": 4,
+      "source_written_question_entries": 2,
+      "source_tag_defect_count": 0,
+      "frozen_locator_defect_count": 1,
+      "protocol_timing_exception_count": 2,
+      "strict_replay_error_count": 0,
+      "frozen_span_error_count": 1,
+      "frozen_geometry_error_count": 0,
+      "mechanical_error_count": 1,
+      "schema_exception_count": 0,
+      "scope_finding_count": 5,
+      "all_group_barriers_pass": true,
+      "all_paired_question_preflight_barriers_pass": false,
+      "protected_inputs_unchanged": true,
+      "protected_file_count": 41
+    },
+    "schema_exceptions": [],
+    "source_findings": [
+      {
+        "card_id": 315,
+        "reader": "first315 and blind315",
+        "category": "unassigned_return_families_extra_body_and_locator",
+        "detail": "9/g/q families, overtraced initial form, possible extra short body and raised terminal loop remain source alternatives. The FIRST terminal mark ledger has a confirmed wrong raw-string offset; a later current-only locator correction must preserve original evidence. No new mapping or source repair inferred from language."
+      },
+      {
+        "card_id": 316,
+        "reader": "first316 and blind316",
+        "category": "faint_segmentation_and_source_roles",
+        "detail": "Faint overlapping lower handwriting produces differing mask and segmentation selections. Per-position question-role tags match their own inventories, without proving source accuracy or physical length. Ordinary inscription/date remains separate and unverified."
+      },
+      {
+        "card_id": 317,
+        "reader": "first317 and blind317",
+        "category": "contour_and_ordinary_date_limits",
+        "detail": "Two rotated handwriting rows retain loop/stem alternatives and separate unverified date. Zero masks does not certify completeness or source accuracy."
+      },
+      {
+        "card_id": 318,
+        "reader": "first318 and blind318",
+        "category": "multi_orientation_margin_order_flourish_and_overtrace",
+        "detail": "Four-row region and three separately oriented margin rows remain spatially ordered only. Overtraced cluster is individually masked; opposite margin terminal hook/dot is individually tagged question. Long terminal c-return curls retain letter-flourish versus punctuation alternatives. No proven cross-margin narrative order or hidden clauses."
+      },
+      {
+        "card_id": 310,
+        "reader": "inherited root address audit",
+        "category": "unchanged_address_notation_scope",
+        "detail": "Prior short grey address-side notation remains unclassified in the unchanged inherited65 address records; no cipher/numeral or authorship value assigned. No ordinary address transcription."
+      }
+    ],
+    "source_tag_defects": [],
+    "source_question_inventory_definition": "Bounded source-observed question reading entries and question-character punctuation tags, not completeness, distinct physical counts or external/cognitive proof. Two source-written entries, two question-character tags and three total punctuation spans remain separate from nine masks plus nine unassigned-symbol slots.",
+    "question_role_preflight": {
+      "per_card_inventory_exact_native_tags_pass": true,
+      "all_per_card_checks_before_own_raw_freeze": true,
+      "question_positions": 11,
+      "both_question_preflights_before_either_raw_freeze_all_groups": false,
+      "paired_timing_failed_actors": [
+        "C",
+        "D"
+      ],
+      "paired_timing_failure_count": 2,
+      "scope": "Per-position reading-entry inventory consistency and recorded assertion timing, not external/cognitive confirmation or proof of physical source-role accuracy.",
+      "per_reading_checks": [
+        {
+          "reader": "first315",
+          "question_positions": 1,
+          "checked_at_utc": "2026-10-20T21:28:07.226565+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:28:07.229805+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        },
+        {
+          "reader": "first316",
+          "question_positions": 4,
+          "checked_at_utc": "2026-10-20T21:28:07.230663+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:28:07.231775+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        },
+        {
+          "reader": "first317",
+          "question_positions": 0,
+          "checked_at_utc": "2026-10-20T21:26:21.492870+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:26:21.493244+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        },
+        {
+          "reader": "first318",
+          "question_positions": 2,
+          "checked_at_utc": "2026-10-20T21:26:21.493135+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:26:21.493909+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        },
+        {
+          "reader": "blind315",
+          "question_positions": 0,
+          "checked_at_utc": "2026-10-20T21:24:37.398245+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:24:37.399916+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        },
+        {
+          "reader": "blind316",
+          "question_positions": 2,
+          "checked_at_utc": "2026-10-20T21:24:37.399861+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:24:37.400417+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        },
+        {
+          "reader": "blind317",
+          "question_positions": 0,
+          "checked_at_utc": "2026-10-20T21:26:12.426206+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:26:12.428288+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        },
+        {
+          "reader": "blind318",
+          "question_positions": 2,
+          "checked_at_utc": "2026-10-20T21:26:12.428927+00:00",
+          "raw_frozen_at_utc": "2026-10-20T21:26:12.430329+00:00",
+          "before_own_raw_freeze": true,
+          "exact_inventory_native_tags": true
+        }
+      ]
+    },
+    "frozen_locator_defects": [
+      {
+        "card_id": 315,
+        "reader": "first315",
+        "ledger_location": "first315/mark_ledger/0",
+        "line_id": "L6",
+        "old_offset": 36,
+        "selected": "o",
+        "actual_raw_substring": "c",
+        "unambiguous_correct_raw_offset": 38,
+        "candidate_raw_offsets": [
+          38
+        ],
+        "correction_scope": "Frozen raw remains unchanged; correct only later current locator with dated provenance. No glyph/tag or frozen replay correction."
+      }
+    ],
+    "protocol_timing_exceptions": [
+      {
+        "actor": "C",
+        "readers": [
+          "blind317",
+          "blind318"
+        ],
+        "category": "paired_formal_question_preflight_after_first_raw_freeze",
+        "incident_path": "readers/blind317318-question-preflight-incident.json",
+        "incident_file_sha256": "d06a10711fd39cd00d138ff3e1256342e5ec7b54c9cdf3928200fab8f0535150",
+        "latest_question_preflight_utc": "2026-10-20T21:26:12.428927+00:00",
+        "earliest_own_raw_freeze_utc": "2026-10-20T21:26:12.428288+00:00",
+        "late_seconds": 0.000639,
+        "per_card_before_own_freeze": true,
+        "both_raw_before_either_own_replay": true,
+        "detail": "Formal second-card assertion/preflight executed after the first card raw freeze. Earlier visual source inspection is distinct from that formal assertion. Original method claims before either freeze remain historical and are qualified by this incident; no source/tag or replay edit."
+      },
+      {
+        "actor": "D",
+        "readers": [
+          "first315",
+          "first316"
+        ],
+        "category": "paired_formal_question_preflight_after_first_raw_freeze",
+        "incident_path": "readers/first315316-question-preflight-incident.json",
+        "incident_file_sha256": "ab929ff2f75feede586664d2cf19b9f18fc69f1a0a15ae5c8f7612bdea3e26a2",
+        "latest_question_preflight_utc": "2026-10-20T21:28:07.230663+00:00",
+        "earliest_own_raw_freeze_utc": "2026-10-20T21:28:07.229805+00:00",
+        "late_seconds": 0.000858,
+        "per_card_before_own_freeze": true,
+        "both_raw_before_either_own_replay": true,
+        "detail": "Formal second-card assertion/preflight executed after the first card raw freeze. Earlier visual source inspection is distinct from that formal assertion. Original method claims before either freeze remain historical and are qualified by this incident; no source/tag or replay edit."
+      }
+    ],
+    "chronology_groups": [
+      {
+        "actor": "B",
+        "readers": [
+          "blind315",
+          "blind316"
+        ],
+        "latest_own_raw_freeze_utc": "2026-10-20T21:24:37.400417+00:00",
+        "earliest_own_replay_utc": "2026-10-20T21:25:25.756311+00:00",
+        "both_raw_before_either_own_replay": true,
+        "latest_question_preflight_utc": "2026-10-20T21:24:37.399861+00:00",
+        "earliest_own_raw_freeze_utc": "2026-10-20T21:24:37.399916+00:00",
+        "both_question_preflights_before_either_raw_freeze": true
+      },
+      {
+        "actor": "A",
+        "readers": [
+          "first317",
+          "first318"
+        ],
+        "latest_own_raw_freeze_utc": "2026-10-20T21:26:21.493909+00:00",
+        "earliest_own_replay_utc": "2026-10-20T21:27:03.575388+00:00",
+        "both_raw_before_either_own_replay": true,
+        "latest_question_preflight_utc": "2026-10-20T21:26:21.493135+00:00",
+        "earliest_own_raw_freeze_utc": "2026-10-20T21:26:21.493244+00:00",
+        "both_question_preflights_before_either_raw_freeze": true
+      },
+      {
+        "actor": "C",
+        "readers": [
+          "blind317",
+          "blind318"
+        ],
+        "latest_own_raw_freeze_utc": "2026-10-20T21:26:12.430329+00:00",
+        "earliest_own_replay_utc": "2026-10-20T21:26:12.436158+00:00",
+        "both_raw_before_either_own_replay": true,
+        "latest_question_preflight_utc": "2026-10-20T21:26:12.428927+00:00",
+        "earliest_own_raw_freeze_utc": "2026-10-20T21:26:12.428288+00:00",
+        "both_question_preflights_before_either_raw_freeze": false
+      },
+      {
+        "actor": "D",
+        "readers": [
+          "first315",
+          "first316"
+        ],
+        "latest_own_raw_freeze_utc": "2026-10-20T21:28:07.231775+00:00",
+        "earliest_own_replay_utc": "2026-10-20T21:28:39.914439+00:00",
+        "both_raw_before_either_own_replay": true,
+        "latest_question_preflight_utc": "2026-10-20T21:28:07.230663+00:00",
+        "earliest_own_raw_freeze_utc": "2026-10-20T21:28:07.229805+00:00",
+        "both_question_preflights_before_either_raw_freeze": false
+      }
+    ],
+    "date_entry_supplement": {
+      "file_sha256": "8c33bb617ac86befd703e96bf14c42b3eeb8e26ac005fb91efdf9b77bd3ffbb2",
+      "record": {
+        "supplement_type": "Summary-only bounded date-entry counter correction",
+        "recorded_at_utc": "2026-10-20T21:37:29.477175+00:00",
+        "frozen_qa_path": "batch17-raw-consistency-review.json",
+        "frozen_qa_file_sha256": "0b07c80c27392d6e23e8b132bacdedb2e4caca6d01042d14a2dcef546f4a5832",
+        "frozen_summary_field": "summary.separate_date_entries",
+        "frozen_summary_value": 4,
+        "corrected_bounded_date_entry_count": 6,
+        "previously_counted_entries": 4,
+        "missed_entries": 2,
+        "exact_missed_dictionary_locators": [
+          {
+            "reader": "blind315",
+            "card_id": 315,
+            "object_locator": "raw.separate_date_inscription",
+            "value_locator": "raw.separate_date_inscription.candidate",
+            "candidate_field": "candidate",
+            "included_in_frozen_summary": false,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          },
+          {
+            "reader": "blind316",
+            "card_id": 316,
+            "object_locator": "raw.separate_date_inscription",
+            "value_locator": "raw.separate_date_inscription.candidate",
+            "candidate_field": "candidate",
+            "included_in_frozen_summary": false,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          }
+        ],
+        "complete_date_entry_enumeration": [
+          {
+            "reader": "first315",
+            "card_id": 315,
+            "object_locator": "raw.date_candidate",
+            "value_locator": "raw.date_candidate.text",
+            "candidate_field": "text",
+            "included_in_frozen_summary": true,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          },
+          {
+            "reader": "first316",
+            "card_id": 316,
+            "object_locator": "raw.date_candidate",
+            "value_locator": "raw.date_candidate.text",
+            "candidate_field": "text",
+            "included_in_frozen_summary": true,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          },
+          {
+            "reader": "first317",
+            "card_id": 317,
+            "object_locator": "raw.separate_date_inscription",
+            "value_locator": "raw.separate_date_inscription.text_candidate",
+            "candidate_field": "text_candidate",
+            "included_in_frozen_summary": true,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          },
+          {
+            "reader": "blind315",
+            "card_id": 315,
+            "object_locator": "raw.separate_date_inscription",
+            "value_locator": "raw.separate_date_inscription.candidate",
+            "candidate_field": "candidate",
+            "included_in_frozen_summary": false,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          },
+          {
+            "reader": "blind316",
+            "card_id": 316,
+            "object_locator": "raw.separate_date_inscription",
+            "value_locator": "raw.separate_date_inscription.candidate",
+            "candidate_field": "candidate",
+            "included_in_frozen_summary": false,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          },
+          {
+            "reader": "blind317",
+            "card_id": 317,
+            "object_locator": "raw.separate_date_inscription",
+            "value_locator": "raw.separate_date_inscription.visual_candidate",
+            "candidate_field": "visual_candidate",
+            "included_in_frozen_summary": true,
+            "scope": "One unverified ordinary date entry in this frozen reading; excluded from cipher counters."
+          }
+        ],
+        "cause": "QA counter recognized visual_candidate/text_candidate/text/unverified_date_candidate fields but omitted candidate used by blind315 and blind316. Both date dictionaries and native context boxes remained present in frozen raw and geometry checking.",
+        "limits": "Six bounded reading entries, not six independent dates or physical inscriptions. Both source actors may describe the same ordinary inscription. Candidates remain unverified and outside selected cipher. No chronology, location or authorship authentication. Picture318 has no selected separate date candidate in either layer.",
+        "unchanged_results": {
+          "mechanical_errors": 1,
+          "frozen_span_errors": 1,
+          "frozen_locator_defects": 1,
+          "strict_replay_errors": 0,
+          "source_tag_defects": 0,
+          "schema_exceptions": 0,
+          "protocol_timing_exceptions": 2
+        },
+        "verification": {
+          "protected_file_count": 41,
+          "all_protected_fingerprints_unchanged": true,
+          "frozen_qa_FILE_sha_unchanged": true,
+          "raw_strict_checkpoint_source_bytes_unchanged": true
+        },
+        "preservation": "Frozen QA/source/raw/strict/checkpoint files were not edited; this separate supplement qualifies only the summary date-entry counter."
+      }
+    },
+    "limits": "Frozen punctuation-tag inventory is distinct from source-written questions. Faithful replay does not validate source classification. Unknown encoded slots are not all masks. Geometry does not certify ink ownership, segmentation, completeness or source accuracy."
+  },
+  "next_source_pipeline": {
+    "priority": [
+      319,
+      320,
+      321,
+      322
+    ],
+    "in_progress": [],
+    "parent_reserved_first_source_only": [],
+    "continuation_readings_not_started": [
+      "FIRST and SECOND 319",
+      "FIRST and SECOND 320",
+      "FIRST and SECOND 321",
+      "FIRST and SECOND 322"
+    ],
+    "state": "Next priority only; continuation readings have not started here. This batch adds no future candidate or source-stage claim."
+  },
+  "chronology_scope": "Four own groups each froze both assigned inputs before either own strict replay. All eight executions belong to actual original source actors. Assigned FIRST/SECOND slots do not establish chronological priority. Root raw 8 plus own 8 and final strict 8 checkpoints preceded QA and curator exchange. Actual group chronology is in frozen QA; recorded times do not establish cryptographic timing or cognitive independence.",
+  "checkpoint_fingerprints": {
+    "batch17-frozen-reads-checkpoint.json": "be2caba18ea37cded5544d7fb5c3436007a92b4fcf579fcc06595a370ce9d71a",
+    "batch17-replays-checkpoint.json": "d81cdb98862ced15c28fa787cb64433a977a65559e1c9f62e10ff5950e60e63c"
+  },
+  "current_resolution": {
+    "known_frozen_locator_defects_currently_resolved": 1,
+    "card_id": 315,
+    "reader": "first315",
+    "frozen_line_id": "L6",
+    "frozen_bad_offset": 36,
+    "correct_frozen_offset": 38,
+    "current_line_id": "315-R06",
+    "current_selected_offset": 37,
+    "scope": "Root preimport confirms a dated current-only locator correction. Original frozen locator error remains; no glyph, transcription tag or frozen strict replay changed.",
+    "protocol_timing_exceptions_disclosed": 2,
+    "timing_scope": "C and D stronger paired formal preflight requirement failed; incidents qualify original claims without retroactive pass. Per-card and core raw-before-replay barriers remain separately passed."
+  }
+}
