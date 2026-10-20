@@ -1,0 +1,1527 @@
+{
+  "revision_id": "257-initial-reconciliation",
+  "date": "2026-10-20",
+  "type": "initial nonblind source reconciliation after two frozen raw readings",
+  "card_id": "257",
+  "source_sha256": "7407bb54bcfbf69af61d801fb04a0b4de8fce9d8c24976ba1a3f4c3f2120aae4",
+  "model": "gpt-6.1-sol",
+  "temperature": null,
+  "seed": null,
+  "card_artifact_sha256": "95c4a40d1416120cdd250012cb481ae5d1b27121e6ef7ea6071f1110e0699e2d",
+  "selected_rows_sha256": "830542f1600a3e2550c80cfa26479e833769c9ea04c845da854e818058915772",
+  "raw_layers": [
+    {
+      "reader": "root first257",
+      "raw_artifact_sha256": "181942370dd74d2d0d9a6b78c9db9ec9333a2e0479ea5d3fbfa8f1389cde84a4",
+      "reported_raw_rows_sha256": "61df8094141811740e2eff8baa8e8f328d336fa9c5bf77560b49af108d16653f",
+      "canonical_embedded_rows_sha256": "fead3489760e1df9d716e0cae3d49b7d8e7378cb63e78a3f3a6e0ee2d59d3c47"
+    },
+    {
+      "reader": "blind257",
+      "raw_artifact_sha256": "4d18c1af3c8f17b20f5c44fcb1f96a338232824533cced22e4ce4f63961b2edc",
+      "reported_raw_rows_sha256": "c89ac891c79131b58fcd4a8ae034e43ae45a8543fef528e3121d4ad1db7ec2a7",
+      "canonical_embedded_rows_sha256": "c89ac891c79131b58fcd4a8ae034e43ae45a8543fef528e3121d4ad1db7ec2a7"
+    }
+  ],
+  "raw_preservation": "Both original raw artifacts and embedded raw rows unchanged. This selection is a separate dated layer.",
+  "selected_rows": [
+    {
+      "line_id": "B01",
+      "ciphertext": "?4c4s5?1 t4q, ? n375 bh5th6r6, g6 ? ?4cd5q. 75t2 tm5c",
+      "literal": "?ISICE?Y DIK, ? MOJE PREDRAHA, ZA ? ?ISTEK. JEDU DNES"
+    },
+    {
+      "line_id": "B02",
+      "ciphertext": "bh5?5 t3 ? ?1ř ? ? ? ? f5qh3f4,",
+      "literal": "PRE?E DO ? ?YCH ? ? ? ? VEKROVI,"
+    },
+    {
+      "line_id": "B03",
+      "ciphertext": "qd5h1 nm5 ?t5 f m5t584 m6?cd4f48. 75 m6h2?4f1n r2t5pm4q5n 6 p2t5n5",
+      "literal": "KTERY MNE ?DE V NEDELI NA?STIVIL. JE NARU?IVYM HUDEBNIKEM A BUDEME"
+    },
+    {
+      "line_id": "B04",
+      "ciphertext": "c m4n 4 c ?4t4d585n ? ? bh3f3g3f6d4 s581 t5m r2tp2.",
+      "literal": "S NIM I S ?IDITELEM ? ? PROVOZOVATI CELY DEN HUDBU."
+    },
+    {
+      "line_id": "B05",
+      "ciphertext": "f5s5h c5 3b5d ?h6?4n. t3 bh6r1 3t75t2 6c4 f b6d5q f5s5h. 3t c5cdh5-",
+      "literal": "VECER SE OPET ?RA?IM. DO PRAHY ODJEDU ASI V PATEK VECER. OD SESTRE-"
+    },
+    {
+      "line_id": "B06",
+      "ciphertext": "m4c5 n6n f1?4t4d4 ? b3?2s5m4. ? ?5m6 m?m4 c5cdh5m4s5",
+      "literal": "NISE MAM VY?IDITI ? PO?UCENI. ? ?ENA N?NI SESTRENICE"
+    },
+    {
+      "line_id": "M01",
+      "ciphertext": "t3n6 6m4 75t4m32, d6 c5 fc6q gm3f6",
+      "literal": "DOMA ANI JEDINOU, TA SE VSAK ZNOVA"
+    },
+    {
+      "line_id": "M02",
+      "ciphertext": "f1 b3t3p? 6g ?4 75?5 t3 th6r1.",
+      "literal": "VY PODOB? AZ ?I JE?E DO DRAHY."
+    },
+    {
+      "line_id": "M03",
+      "ciphertext": "?3?3n f1r3f4n ? c f5r3 th6r5r3",
+      "literal": "?O?OM VYHOVIM ? S VEHO DRAHEHO"
+    },
+    {
+      "line_id": "M04",
+      "ciphertext": "cht5sq6. m6 cr85t6m32 ? m5c4?",
+      "literal": "SRDECKA. NA SHLEDANOU ? NESI?"
+    },
+    {
+      "line_id": "M05",
+      "ciphertext": "c5 d32g5pm5 d5c4 6 d4c4s fh581ř",
+      "literal": "SE TOUZEBNE TESI A TISIC VRELYCH"
+    },
+    {
+      "line_id": "M06",
+      "ciphertext": "t832r1ř b2c d4 b3c486 f5sm5 df27 b5b32c.",
+      "literal": "DLOUHYCH PUS TI POSILA VECNE TVUJ PEPOUS."
+    }
+  ],
+  "differences_from_raw_readings": [
+    {
+      "reader": "root",
+      "line_id": "B01",
+      "raw_ciphertext": "d4c4s5h1 t4q, n485mq3 n375 bh5th6r6, g6 b3c85tm4 84cd5q. 75t2 tm5c",
+      "selected_ciphertext": "?4c4s5?1 t4q, ? n375 bh5th6r6, g6 ? ?4cd5q. 75t2 tm5c",
+      "display_edits": [
+        {
+          "raw_start": 0,
+          "raw_end": 1,
+          "raw_text": "d",
+          "selected_start": 0,
+          "selected_end": 1,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 6,
+          "raw_end": 7,
+          "raw_text": "h",
+          "selected_start": 6,
+          "selected_end": 7,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 14,
+          "raw_end": 21,
+          "raw_text": "n485mq3",
+          "selected_start": 14,
+          "selected_end": 15,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 40,
+          "raw_end": 48,
+          "raw_text": "b3c85tm4",
+          "selected_start": 34,
+          "selected_end": 35,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 49,
+          "raw_end": 50,
+          "raw_text": "8",
+          "selected_start": 36,
+          "selected_end": 37,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Opening and two faded interior groups remain masked. Root n485mq3 and blind n483fmq3 have different internal segmentation, so neither is accepted. Two tall looped initial forms in bh5th6r6 are visible, supporting provisional b/h. The first body of ?4cd5q remains uncertain between a double-loop and descender family. Last tm5c retains its visible crossed low t-like body rather than repairing its literal."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "B01",
+      "raw_ciphertext": "?4c4s5?1 t4q, n483fmq3 n375 ?h5th6r6, g6 ?5h5?c4 g4cd5q. 75t2 tm5c",
+      "selected_ciphertext": "?4c4s5?1 t4q, ? n375 bh5th6r6, g6 ? ?4cd5q. 75t2 tm5c",
+      "display_edits": [
+        {
+          "raw_start": 14,
+          "raw_end": 22,
+          "raw_text": "n483fmq3",
+          "selected_start": 14,
+          "selected_end": 15,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 28,
+          "raw_end": 29,
+          "raw_text": "?",
+          "selected_start": 21,
+          "selected_end": 22,
+          "selected_text": "b"
+        },
+        {
+          "raw_start": 42,
+          "raw_end": 45,
+          "raw_text": "5h5",
+          "selected_start": 35,
+          "selected_end": 36,
+          "selected_text": " "
+        },
+        {
+          "raw_start": 46,
+          "raw_end": 50,
+          "raw_text": "c4 g",
+          "selected_start": 37,
+          "selected_end": 37,
+          "selected_text": ""
+        }
+      ],
+      "reason": "Opening and two faded interior groups remain masked. Root n485mq3 and blind n483fmq3 have different internal segmentation, so neither is accepted. Two tall looped initial forms in bh5th6r6 are visible, supporting provisional b/h. The first body of ?4cd5q remains uncertain between a double-loop and descender family. Last tm5c retains its visible crossed low t-like body rather than repairing its literal."
+    },
+    {
+      "reader": "root",
+      "line_id": "B02",
+      "raw_ciphertext": "bh5c5 t3 cf4d6f, 6p1ř g?c6d4c m5?cd5n cdh3?m5n2 2s4d584 f5qh3f4,",
+      "selected_ciphertext": "bh5?5 t3 ? ?1ř ? ? ? ? f5qh3f4,",
+      "display_edits": [
+        {
+          "raw_start": 3,
+          "raw_end": 4,
+          "raw_text": "c",
+          "selected_start": 3,
+          "selected_end": 4,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 9,
+          "raw_end": 16,
+          "raw_text": "cf4d6f,",
+          "selected_start": 9,
+          "selected_end": 10,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 17,
+          "raw_end": 19,
+          "raw_text": "6p",
+          "selected_start": 11,
+          "selected_end": 12,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 22,
+          "raw_end": 23,
+          "raw_text": "g",
+          "selected_start": 15,
+          "selected_end": 15,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 24,
+          "raw_end": 29,
+          "raw_text": "c6d4c",
+          "selected_start": 16,
+          "selected_end": 16,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 30,
+          "raw_end": 32,
+          "raw_text": "m5",
+          "selected_start": 17,
+          "selected_end": 17,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 33,
+          "raw_end": 37,
+          "raw_text": "cd5n",
+          "selected_start": 18,
+          "selected_end": 18,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 38,
+          "raw_end": 42,
+          "raw_text": "cdh3",
+          "selected_start": 19,
+          "selected_end": 19,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 43,
+          "raw_end": 47,
+          "raw_text": "m5n2",
+          "selected_start": 20,
+          "selected_end": 20,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 48,
+          "raw_end": 55,
+          "raw_text": "2s4d584",
+          "selected_start": 21,
+          "selected_end": 22,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "B02",
+      "raw_ciphertext": "bh5s5 t3 c?4d5?, ?1ř 3b5d4c m6?cd5?2 3tb3hmc5n2 23?d58? f5qh3f4,",
+      "selected_ciphertext": "bh5?5 t3 ? ?1ř ? ? ? ? f5qh3f4,",
+      "display_edits": [
+        {
+          "raw_start": 3,
+          "raw_end": 4,
+          "raw_text": "s",
+          "selected_start": 3,
+          "selected_end": 4,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 9,
+          "raw_end": 10,
+          "raw_text": "c",
+          "selected_start": 9,
+          "selected_end": 9,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 11,
+          "raw_end": 16,
+          "raw_text": "4d5?,",
+          "selected_start": 10,
+          "selected_end": 10,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 21,
+          "raw_end": 27,
+          "raw_text": "3b5d4c",
+          "selected_start": 15,
+          "selected_end": 16,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 28,
+          "raw_end": 30,
+          "raw_text": "m6",
+          "selected_start": 17,
+          "selected_end": 17,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 31,
+          "raw_end": 34,
+          "raw_text": "cd5",
+          "selected_start": 18,
+          "selected_end": 19,
+          "selected_text": " "
+        },
+        {
+          "raw_start": 35,
+          "raw_end": 36,
+          "raw_text": "2",
+          "selected_start": 20,
+          "selected_end": 20,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 37,
+          "raw_end": 54,
+          "raw_text": "3tb3hmc5n2 23?d58",
+          "selected_start": 21,
+          "selected_end": 21,
+          "selected_text": ""
+        }
+      ],
+      "reason": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "reader": "root",
+      "line_id": "B03",
+      "raw_ciphertext": "qd5h1 nm5 gt5 f m5t584 m6fcd4f48. 75 m6h2g4f1n r2t5pm4q5n 6 p2t5n5",
+      "selected_ciphertext": "qd5h1 nm5 ?t5 f m5t584 m6?cd4f48. 75 m6h2?4f1n r2t5pm4q5n 6 p2t5n5",
+      "display_edits": [
+        {
+          "raw_start": 10,
+          "raw_end": 11,
+          "raw_text": "g",
+          "selected_start": 10,
+          "selected_end": 11,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 25,
+          "raw_end": 26,
+          "raw_text": "f",
+          "selected_start": 25,
+          "selected_end": 26,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 41,
+          "raw_end": 42,
+          "raw_text": "g",
+          "selected_start": 41,
+          "selected_end": 42,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Root gt5 versus blind qt5 and g/q in m6h2?4f1n remain unresolved at lower-tail level. The narrow faint body in m6?cd4f48 lacks a uniquely established upper loop; no automatic f is inserted. Other selected high-loop/short-shoulder forms are candidates, not verified physical positions."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "B03",
+      "raw_ciphertext": "qd5h1 nm5 qt5 f m5t584 m6?cd4f48. 75 m6h2q4f1n r2t5pm4q5n 6 p2t5n5",
+      "selected_ciphertext": "qd5h1 nm5 ?t5 f m5t584 m6?cd4f48. 75 m6h2?4f1n r2t5pm4q5n 6 p2t5n5",
+      "display_edits": [
+        {
+          "raw_start": 10,
+          "raw_end": 11,
+          "raw_text": "q",
+          "selected_start": 10,
+          "selected_end": 11,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 41,
+          "raw_end": 42,
+          "raw_text": "q",
+          "selected_start": 41,
+          "selected_end": 42,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Root gt5 versus blind qt5 and g/q in m6h2?4f1n remain unresolved at lower-tail level. The narrow faint body in m6?cd4f48 lacks a uniquely established upper loop; no automatic f is inserted. Other selected high-loop/short-shoulder forms are candidates, not verified physical positions."
+    },
+    {
+      "reader": "root",
+      "line_id": "B04",
+      "raw_ciphertext": "c m4n 4 c h4t4d585n cf4d6fcq5 h568q1 bh3f3g3f6d4 s581 t5m r2tp2.",
+      "selected_ciphertext": "c m4n 4 c ?4t4d585n ? ? bh3f3g3f6d4 s581 t5m r2tp2.",
+      "display_edits": [
+        {
+          "raw_start": 10,
+          "raw_end": 11,
+          "raw_text": "h",
+          "selected_start": 10,
+          "selected_end": 11,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 20,
+          "raw_end": 29,
+          "raw_text": "cf4d6fcq5",
+          "selected_start": 20,
+          "selected_end": 21,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 30,
+          "raw_end": 36,
+          "raw_text": "h568q1",
+          "selected_start": 22,
+          "selected_end": 23,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Uncertain ascender/overstroke ownership remains in ?4t4d585n. Two further middle groups are cluster-masked because both shape and segmentation differ. In s581 the initial small angular curve favors s over open c, and the middle closed double-loop favors 8. Final m of t5m shows two low humps. These local preferences do not certify the surrounding words."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "B04",
+      "raw_ciphertext": "c m4n 4 c ?4t4d585n cf?d6?cq5 n5?8q1 bh3f3g3f6d4 c5?1 t5n r2tp2.",
+      "selected_ciphertext": "c m4n 4 c ?4t4d585n ? ? bh3f3g3f6d4 s581 t5m r2tp2.",
+      "display_edits": [
+        {
+          "raw_start": 20,
+          "raw_end": 22,
+          "raw_text": "cf",
+          "selected_start": 20,
+          "selected_end": 20,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 23,
+          "raw_end": 25,
+          "raw_text": "d6",
+          "selected_start": 21,
+          "selected_end": 22,
+          "selected_text": " "
+        },
+        {
+          "raw_start": 26,
+          "raw_end": 36,
+          "raw_text": "cq5 n5?8q1",
+          "selected_start": 23,
+          "selected_end": 23,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 49,
+          "raw_end": 50,
+          "raw_text": "c",
+          "selected_start": 36,
+          "selected_end": 37,
+          "selected_text": "s"
+        },
+        {
+          "raw_start": 51,
+          "raw_end": 52,
+          "raw_text": "?",
+          "selected_start": 38,
+          "selected_end": 39,
+          "selected_text": "8"
+        },
+        {
+          "raw_start": 56,
+          "raw_end": 57,
+          "raw_text": "n",
+          "selected_start": 43,
+          "selected_end": 44,
+          "selected_text": "m"
+        }
+      ],
+      "reason": "Uncertain ascender/overstroke ownership remains in ?4t4d585n. Two further middle groups are cluster-masked because both shape and segmentation differ. In s581 the initial small angular curve favors s over open c, and the middle closed double-loop favors 8. Final m of t5m shows two low humps. These local preferences do not certify the surrounding words."
+    },
+    {
+      "reader": "root",
+      "line_id": "B05",
+      "raw_ciphertext": "f5s5h c5 3b5d fh6d4n. t3 bh6r1 3t75t2 6c4 f b6d5q f5s5h. 3t c5cdh5-",
+      "selected_ciphertext": "f5s5h c5 3b5d ?h6?4n. t3 bh6r1 3t75t2 6c4 f b6d5q f5s5h. 3t c5cdh5-",
+      "display_edits": [
+        {
+          "raw_start": 14,
+          "raw_end": 15,
+          "raw_text": "f",
+          "selected_start": 14,
+          "selected_end": 15,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 17,
+          "raw_end": 18,
+          "raw_text": "d",
+          "selected_start": 17,
+          "selected_end": 18,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "The body after 3 in 3b5d shows an upper loop, favoring tall b over low shoulder p. The two faded positions in ?h6?4n remain masks; a smooth verb is not substituted. The line-end hyphen is retained without claiming a complete following word."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "B05",
+      "raw_ciphertext": "f5s5h c5 3p5d ?h6?4n. t3 bh6r1 3t75t2 6c4 f b6d5q f5s5h. 3t c5cdh5-",
+      "selected_ciphertext": "f5s5h c5 3b5d ?h6?4n. t3 bh6r1 3t75t2 6c4 f b6d5q f5s5h. 3t c5cdh5-",
+      "display_edits": [
+        {
+          "raw_start": 10,
+          "raw_end": 11,
+          "raw_text": "p",
+          "selected_start": 10,
+          "selected_end": 11,
+          "selected_text": "b"
+        }
+      ],
+      "reason": "The body after 3 in 3b5d shows an upper loop, favoring tall b over low shoulder p. The two faded positions in ?h6?4n remain masks; a smooth verb is not substituted. The line-end hyphen is retained without claiming a complete following word."
+    },
+    {
+      "reader": "root",
+      "line_id": "B06",
+      "raw_ciphertext": "m4s n6n f1h4t4d4 fg675nm5 b3h2s5m4. 3t53b4gm5 m5m6 m1m4 c5cdh5m4s5",
+      "selected_ciphertext": "m4c5 n6n f1?4t4d4 ? b3?2s5m4. ? ?5m6 m?m4 c5cdh5m4s5",
+      "display_edits": [
+        {
+          "raw_start": 2,
+          "raw_end": 3,
+          "raw_text": "s",
+          "selected_start": 2,
+          "selected_end": 4,
+          "selected_text": "c5"
+        },
+        {
+          "raw_start": 10,
+          "raw_end": 11,
+          "raw_text": "h",
+          "selected_start": 11,
+          "selected_end": 12,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 17,
+          "raw_end": 25,
+          "raw_text": "fg675nm5",
+          "selected_start": 18,
+          "selected_end": 19,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 28,
+          "raw_end": 29,
+          "raw_text": "h",
+          "selected_start": 22,
+          "selected_end": 23,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 36,
+          "raw_end": 45,
+          "raw_text": "3t53b4gm5",
+          "selected_start": 30,
+          "selected_end": 31,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 46,
+          "raw_end": 47,
+          "raw_text": "m",
+          "selected_start": 32,
+          "selected_end": 33,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 52,
+          "raw_end": 53,
+          "raw_text": "1",
+          "selected_start": 38,
+          "selected_end": 39,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "B06",
+      "raw_ciphertext": "m4c5 n6n f1?4t4d4 ? b3?2s5m4. 3t5b4g? n5m6 m4m4 c5cdh5m4s5",
+      "selected_ciphertext": "m4c5 n6n f1?4t4d4 ? b3?2s5m4. ? ?5m6 m?m4 c5cdh5m4s5",
+      "display_edits": [
+        {
+          "raw_start": 30,
+          "raw_end": 36,
+          "raw_text": "3t5b4g",
+          "selected_start": 30,
+          "selected_end": 30,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 38,
+          "raw_end": 39,
+          "raw_text": "n",
+          "selected_start": 32,
+          "selected_end": 33,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 44,
+          "raw_end": 45,
+          "raw_text": "4",
+          "selected_start": 38,
+          "selected_end": 39,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "reader": "root",
+      "line_id": "M01",
+      "raw_ciphertext": "t3n6 6m4 75t4m32. d6 c5 fc6q gm3f6",
+      "selected_ciphertext": "t3n6 6m4 75t4m32, d6 c5 fc6q gm3f6",
+      "display_edits": [
+        {
+          "raw_start": 16,
+          "raw_end": 17,
+          "raw_text": ".",
+          "selected_start": 16,
+          "selected_end": 17,
+          "selected_text": ","
+        }
+      ],
+      "reason": "Both readers agree on the sign sequence; punctuation after 75t4m32 differs. The comma is retained as a display candidate with period alternative. Internal spacing and final g/q remain uncertain."
+    },
+    {
+      "reader": "root",
+      "line_id": "M02",
+      "raw_ciphertext": "f4 b3t3pm4d4 61 84? 75cd5 t3 th6r1.",
+      "selected_ciphertext": "f1 b3t3p? 6g ?4 75?5 t3 th6r1.",
+      "display_edits": [
+        {
+          "raw_start": 1,
+          "raw_end": 2,
+          "raw_text": "4",
+          "selected_start": 1,
+          "selected_end": 2,
+          "selected_text": "1"
+        },
+        {
+          "raw_start": 8,
+          "raw_end": 12,
+          "raw_text": "m4d4",
+          "selected_start": 8,
+          "selected_end": 9,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 14,
+          "raw_end": 15,
+          "raw_text": "1",
+          "selected_start": 11,
+          "selected_end": 12,
+          "selected_text": "g"
+        },
+        {
+          "raw_start": 16,
+          "raw_end": 17,
+          "raw_text": "8",
+          "selected_start": 13,
+          "selected_end": 14,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 18,
+          "raw_end": 19,
+          "raw_text": "?",
+          "selected_start": 15,
+          "selected_end": 15,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 22,
+          "raw_end": 24,
+          "raw_text": "cd",
+          "selected_start": 18,
+          "selected_end": 19,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "The disputed initial second body favors a slanted 1 but keeps 4 alternative. The ending of b3t3p? has incompatible 1q2/4d4 interpretations and is cluster-masked. A hooked descender favors g in 6g. The competing 84?/bh4 group and 75cd5/75t5 body count remain masked. The final th6r1 starts with a crossed stem rather than tall looped b; its classification remains provisional."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "M02",
+      "raw_ciphertext": "f1 b3t3pm1q2 6g bh4 75t5 t3 bh6r1.",
+      "selected_ciphertext": "f1 b3t3p? 6g ?4 75?5 t3 th6r1.",
+      "display_edits": [
+        {
+          "raw_start": 8,
+          "raw_end": 12,
+          "raw_text": "m1q2",
+          "selected_start": 8,
+          "selected_end": 9,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 16,
+          "raw_end": 18,
+          "raw_text": "bh",
+          "selected_start": 13,
+          "selected_end": 14,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 22,
+          "raw_end": 23,
+          "raw_text": "t",
+          "selected_start": 18,
+          "selected_end": 19,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 28,
+          "raw_end": 29,
+          "raw_text": "b",
+          "selected_start": 24,
+          "selected_end": 25,
+          "selected_text": "t"
+        }
+      ],
+      "reason": "The disputed initial second body favors a slanted 1 but keeps 4 alternative. The ending of b3t3p? has incompatible 1q2/4d4 interpretations and is cluster-masked. A hooked descender favors g in 6g. The competing 84?/bh4 group and 75cd5/75t5 body count remain masked. The final th6r1 starts with a crossed stem rather than tall looped b; its classification remains provisional."
+    },
+    {
+      "reader": "root",
+      "line_id": "M03",
+      "raw_ciphertext": "h3t3n f1h3f4n 84p6m4 cf5r3 th6r5r3",
+      "selected_ciphertext": "?3?3n f1r3f4n ? c f5r3 th6r5r3",
+      "display_edits": [
+        {
+          "raw_start": 0,
+          "raw_end": 1,
+          "raw_text": "h",
+          "selected_start": 0,
+          "selected_end": 1,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 2,
+          "raw_end": 3,
+          "raw_text": "t",
+          "selected_start": 2,
+          "selected_end": 3,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 8,
+          "raw_end": 9,
+          "raw_text": "h",
+          "selected_start": 8,
+          "selected_end": 9,
+          "selected_text": "r"
+        },
+        {
+          "raw_start": 14,
+          "raw_end": 20,
+          "raw_text": "84p6m4",
+          "selected_start": 14,
+          "selected_end": 15,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 22,
+          "raw_end": 22,
+          "raw_text": "",
+          "selected_start": 17,
+          "selected_end": 18,
+          "selected_text": " "
+        }
+      ],
+      "reason": "Initial b/h and d/t differences in ?3?3n are masked. The third body of f1r3f4n is a low shoulder without the tall closed ascender of h, favoring r. The incompatible 84p6m4/bh6m4 group is cluster-masked rather than selecting a grammatical word. The visible separation c f5r3 is retained."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "M03",
+      "raw_ciphertext": "b3d3n f1r3f4n bh6m4 c f5r3 th6r5r3",
+      "selected_ciphertext": "?3?3n f1r3f4n ? c f5r3 th6r5r3",
+      "display_edits": [
+        {
+          "raw_start": 0,
+          "raw_end": 1,
+          "raw_text": "b",
+          "selected_start": 0,
+          "selected_end": 1,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 2,
+          "raw_end": 3,
+          "raw_text": "d",
+          "selected_start": 2,
+          "selected_end": 3,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 14,
+          "raw_end": 19,
+          "raw_text": "bh6m4",
+          "selected_start": 14,
+          "selected_end": 15,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "Initial b/h and d/t differences in ?3?3n are masked. The third body of f1r3f4n is a low shoulder without the tall closed ascender of h, favoring r. The incompatible 84p6m4/bh6m4 group is cluster-masked rather than selecting a grammatical word. The visible separation c f5r3 is retained."
+    },
+    {
+      "reader": "root",
+      "line_id": "M04",
+      "raw_ciphertext": "cht5sq6. m6 cr85t6m32 phg1 m5c4?",
+      "selected_ciphertext": "cht5sq6. m6 cr85t6m32 ? m5c4?",
+      "display_edits": [
+        {
+          "raw_start": 22,
+          "raw_end": 26,
+          "raw_text": "phg1",
+          "selected_start": 22,
+          "selected_end": 23,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "The two readers agree on cht5sq6 and cr85t6m32. The next group differs as phg1/bh4cd4 with different body counts and is cluster-masked. The final body of m5c4? is not assigned confidently."
+    },
+    {
+      "reader": "source-only AI",
+      "line_id": "M04",
+      "raw_ciphertext": "cht5sq6. m6 cr85t6m32 bh4cd4 m5c4s",
+      "selected_ciphertext": "cht5sq6. m6 cr85t6m32 ? m5c4?",
+      "display_edits": [
+        {
+          "raw_start": 22,
+          "raw_end": 28,
+          "raw_text": "bh4cd4",
+          "selected_start": 22,
+          "selected_end": 23,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 33,
+          "raw_end": 34,
+          "raw_text": "s",
+          "selected_start": 28,
+          "selected_end": 29,
+          "selected_text": "?"
+        }
+      ],
+      "reason": "The two readers agree on cht5sq6 and cr85t6m32. The next group differs as phg1/bh4cd4 with different body counts and is cluster-masked. The final body of m5c4? is not assigned confidently."
+    }
+  ],
+  "selected_slot_counts": {
+    "encoded_bodies": 411,
+    "expanded_letters": 380,
+    "ch_occurrences": 3,
+    "unknowns": 34
+  },
+  "physical_encoded_bodies": null,
+  "body_count_status": "selected replay slots only; physical body count unresolved",
+  "cluster_ledger": [
+    {
+      "line_id": "B01",
+      "offset": 0,
+      "text": "?",
+      "selected_replay_body_index": 0,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        180,
+        815,
+        1650,
+        890
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Opening and two faded interior groups remain masked. Root n485mq3 and blind n483fmq3 have different internal segmentation, so neither is accepted. Two tall looped initial forms in bh5th6r6 are visible, supporting provisional b/h. The first body of ?4cd5q remains uncertain between a double-loop and descender family. Last tm5c retains its visible crossed low t-like body rather than repairing its literal."
+    },
+    {
+      "line_id": "B01",
+      "offset": 6,
+      "text": "?",
+      "selected_replay_body_index": 6,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        180,
+        815,
+        1650,
+        890
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Opening and two faded interior groups remain masked. Root n485mq3 and blind n483fmq3 have different internal segmentation, so neither is accepted. Two tall looped initial forms in bh5th6r6 are visible, supporting provisional b/h. The first body of ?4cd5q remains uncertain between a double-loop and descender family. Last tm5c retains its visible crossed low t-like body rather than repairing its literal."
+    },
+    {
+      "line_id": "B01",
+      "offset": 14,
+      "text": "?",
+      "selected_replay_body_index": 11,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        180,
+        815,
+        1650,
+        890
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Opening and two faded interior groups remain masked. Root n485mq3 and blind n483fmq3 have different internal segmentation, so neither is accepted. Two tall looped initial forms in bh5th6r6 are visible, supporting provisional b/h. The first body of ?4cd5q remains uncertain between a double-loop and descender family. Last tm5c retains its visible crossed low t-like body rather than repairing its literal."
+    },
+    {
+      "line_id": "B01",
+      "offset": 34,
+      "text": "?",
+      "selected_replay_body_index": 26,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        180,
+        815,
+        1650,
+        890
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Opening and two faded interior groups remain masked. Root n485mq3 and blind n483fmq3 have different internal segmentation, so neither is accepted. Two tall looped initial forms in bh5th6r6 are visible, supporting provisional b/h. The first body of ?4cd5q remains uncertain between a double-loop and descender family. Last tm5c retains its visible crossed low t-like body rather than repairing its literal."
+    },
+    {
+      "line_id": "B01",
+      "offset": 36,
+      "text": "?",
+      "selected_replay_body_index": 27,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        180,
+        815,
+        1650,
+        890
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Opening and two faded interior groups remain masked. Root n485mq3 and blind n483fmq3 have different internal segmentation, so neither is accepted. Two tall looped initial forms in bh5th6r6 are visible, supporting provisional b/h. The first body of ?4cd5q remains uncertain between a double-loop and descender family. Last tm5c retains its visible crossed low t-like body rather than repairing its literal."
+    },
+    {
+      "line_id": "B02",
+      "offset": 3,
+      "text": "?",
+      "selected_replay_body_index": 3,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        860,
+        1695,
+        955
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "line_id": "B02",
+      "offset": 9,
+      "text": "?",
+      "selected_replay_body_index": 7,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        860,
+        1695,
+        955
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "line_id": "B02",
+      "offset": 11,
+      "text": "?",
+      "selected_replay_body_index": 8,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        860,
+        1695,
+        955
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "line_id": "B02",
+      "offset": 15,
+      "text": "?",
+      "selected_replay_body_index": 11,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        860,
+        1695,
+        955
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "line_id": "B02",
+      "offset": 17,
+      "text": "?",
+      "selected_replay_body_index": 12,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        860,
+        1695,
+        955
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "line_id": "B02",
+      "offset": 19,
+      "text": "?",
+      "selected_replay_body_index": 13,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        860,
+        1695,
+        955
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "line_id": "B02",
+      "offset": 21,
+      "text": "?",
+      "selected_replay_body_index": 14,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        860,
+        1695,
+        955
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Substantial disagreement in shapes, spacing and body count across the faded center. Whole groups are replaced by cluster masks, including competing cf4d6f/c?4d5?, g?c6d4c/3b5d4c, m5?cd5n/m6?cd5?2, cdh3?m5n2/3tb3hmc5n2 and 2s4d584/23?d58?. The visible roof over short r in ?1ř is retained, while its uncertain preceding group is a mask of unknown extent. No Svitavy or professional-role narrative is reconstructed from these groups."
+    },
+    {
+      "line_id": "B03",
+      "offset": 10,
+      "text": "?",
+      "selected_replay_body_index": 8,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        915,
+        1695,
+        995
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Root gt5 versus blind qt5 and g/q in m6h2?4f1n remain unresolved at lower-tail level. The narrow faint body in m6?cd4f48 lacks a uniquely established upper loop; no automatic f is inserted. Other selected high-loop/short-shoulder forms are candidates, not verified physical positions."
+    },
+    {
+      "line_id": "B03",
+      "offset": 25,
+      "text": "?",
+      "selected_replay_body_index": 20,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        915,
+        1695,
+        995
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Root gt5 versus blind qt5 and g/q in m6h2?4f1n remain unresolved at lower-tail level. The narrow faint body in m6?cd4f48 lacks a uniquely established upper loop; no automatic f is inserted. Other selected high-loop/short-shoulder forms are candidates, not verified physical positions."
+    },
+    {
+      "line_id": "B03",
+      "offset": 41,
+      "text": "?",
+      "selected_replay_body_index": 33,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        915,
+        1695,
+        995
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Root gt5 versus blind qt5 and g/q in m6h2?4f1n remain unresolved at lower-tail level. The narrow faint body in m6?cd4f48 lacks a uniquely established upper loop; no automatic f is inserted. Other selected high-loop/short-shoulder forms are candidates, not verified physical positions."
+    },
+    {
+      "line_id": "B04",
+      "offset": 10,
+      "text": "?",
+      "selected_replay_body_index": 6,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        960,
+        1695,
+        1040
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Uncertain ascender/overstroke ownership remains in ?4t4d585n. Two further middle groups are cluster-masked because both shape and segmentation differ. In s581 the initial small angular curve favors s over open c, and the middle closed double-loop favors 8. Final m of t5m shows two low humps. These local preferences do not certify the surrounding words."
+    },
+    {
+      "line_id": "B04",
+      "offset": 20,
+      "text": "?",
+      "selected_replay_body_index": 15,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        960,
+        1695,
+        1040
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Uncertain ascender/overstroke ownership remains in ?4t4d585n. Two further middle groups are cluster-masked because both shape and segmentation differ. In s581 the initial small angular curve favors s over open c, and the middle closed double-loop favors 8. Final m of t5m shows two low humps. These local preferences do not certify the surrounding words."
+    },
+    {
+      "line_id": "B04",
+      "offset": 22,
+      "text": "?",
+      "selected_replay_body_index": 16,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        960,
+        1695,
+        1040
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Uncertain ascender/overstroke ownership remains in ?4t4d585n. Two further middle groups are cluster-masked because both shape and segmentation differ. In s581 the initial small angular curve favors s over open c, and the middle closed double-loop favors 8. Final m of t5m shows two low humps. These local preferences do not certify the surrounding words."
+    },
+    {
+      "line_id": "B05",
+      "offset": 14,
+      "text": "?",
+      "selected_replay_body_index": 11,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1010,
+        1695,
+        1090
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "The body after 3 in 3b5d shows an upper loop, favoring tall b over low shoulder p. The two faded positions in ?h6?4n remain masks; a smooth verb is not substituted. The line-end hyphen is retained without claiming a complete following word."
+    },
+    {
+      "line_id": "B05",
+      "offset": 17,
+      "text": "?",
+      "selected_replay_body_index": 14,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1010,
+        1695,
+        1090
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "The body after 3 in 3b5d shows an upper loop, favoring tall b over low shoulder p. The two faded positions in ?h6?4n remain masks; a smooth verb is not substituted. The line-end hyphen is retained without claiming a complete following word."
+    },
+    {
+      "line_id": "B06",
+      "offset": 11,
+      "text": "?",
+      "selected_replay_body_index": 9,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1060,
+        1695,
+        1135
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "line_id": "B06",
+      "offset": 18,
+      "text": "?",
+      "selected_replay_body_index": 15,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1060,
+        1695,
+        1135
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "line_id": "B06",
+      "offset": 22,
+      "text": "?",
+      "selected_replay_body_index": 18,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1060,
+        1695,
+        1135
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "line_id": "B06",
+      "offset": 30,
+      "text": "?",
+      "selected_replay_body_index": 24,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1060,
+        1695,
+        1135
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "line_id": "B06",
+      "offset": 32,
+      "text": "?",
+      "selected_replay_body_index": 25,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1060,
+        1695,
+        1135
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "line_id": "B06",
+      "offset": 38,
+      "text": "?",
+      "selected_replay_body_index": 30,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        95,
+        1060,
+        1695,
+        1135
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Several groups differ in both body count and shape. The large middle mask and the mask after b3?2s5m4 replace uncertain clusters; they are not single physical bodies. Initial m4c5 retains a faint fourth body against root m4c, but the boundary is flagged. Low hump and digit distinctions near the end remain masked."
+    },
+    {
+      "line_id": "M02",
+      "offset": 8,
+      "text": "?",
+      "selected_replay_body_index": 7,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1390,
+        55,
+        1470,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "The disputed initial second body favors a slanted 1 but keeps 4 alternative. The ending of b3t3p? has incompatible 1q2/4d4 interpretations and is cluster-masked. A hooked descender favors g in 6g. The competing 84?/bh4 group and 75cd5/75t5 body count remain masked. The final th6r1 starts with a crossed stem rather than tall looped b; its classification remains provisional."
+    },
+    {
+      "line_id": "M02",
+      "offset": 13,
+      "text": "?",
+      "selected_replay_body_index": 10,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1390,
+        55,
+        1470,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "The disputed initial second body favors a slanted 1 but keeps 4 alternative. The ending of b3t3p? has incompatible 1q2/4d4 interpretations and is cluster-masked. A hooked descender favors g in 6g. The competing 84?/bh4 group and 75cd5/75t5 body count remain masked. The final th6r1 starts with a crossed stem rather than tall looped b; its classification remains provisional."
+    },
+    {
+      "line_id": "M02",
+      "offset": 18,
+      "text": "?",
+      "selected_replay_body_index": 14,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1390,
+        55,
+        1470,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "The disputed initial second body favors a slanted 1 but keeps 4 alternative. The ending of b3t3p? has incompatible 1q2/4d4 interpretations and is cluster-masked. A hooked descender favors g in 6g. The competing 84?/bh4 group and 75cd5/75t5 body count remain masked. The final th6r1 starts with a crossed stem rather than tall looped b; its classification remains provisional."
+    },
+    {
+      "line_id": "M03",
+      "offset": 0,
+      "text": "?",
+      "selected_replay_body_index": 0,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1440,
+        55,
+        1520,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Initial b/h and d/t differences in ?3?3n are masked. The third body of f1r3f4n is a low shoulder without the tall closed ascender of h, favoring r. The incompatible 84p6m4/bh6m4 group is cluster-masked rather than selecting a grammatical word. The visible separation c f5r3 is retained."
+    },
+    {
+      "line_id": "M03",
+      "offset": 2,
+      "text": "?",
+      "selected_replay_body_index": 2,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1440,
+        55,
+        1520,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Initial b/h and d/t differences in ?3?3n are masked. The third body of f1r3f4n is a low shoulder without the tall closed ascender of h, favoring r. The incompatible 84p6m4/bh6m4 group is cluster-masked rather than selecting a grammatical word. The visible separation c f5r3 is retained."
+    },
+    {
+      "line_id": "M03",
+      "offset": 14,
+      "text": "?",
+      "selected_replay_body_index": 12,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1440,
+        55,
+        1520,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "Initial b/h and d/t differences in ?3?3n are masked. The third body of f1r3f4n is a low shoulder without the tall closed ascender of h, favoring r. The incompatible 84p6m4/bh6m4 group is cluster-masked rather than selecting a grammatical word. The visible separation c f5r3 is retained."
+    },
+    {
+      "line_id": "M04",
+      "offset": 22,
+      "text": "?",
+      "selected_replay_body_index": 18,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1490,
+        55,
+        1570,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "The two readers agree on cht5sq6 and cr85t6m32. The next group differs as phg1/bh4cd4 with different body counts and is cluster-masked. The final body of m5c4? is not assigned confidently."
+    },
+    {
+      "line_id": "M04",
+      "offset": 28,
+      "text": "?",
+      "selected_replay_body_index": 23,
+      "kind": "unresolved glyph or cluster",
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "source_context_bbox_xyxy": [
+        1490,
+        55,
+        1570,
+        850
+      ],
+      "coordinate_frame": "native 1785x1175",
+      "bbox_scope": "complete-row source context; exact display position supplied by line and offset",
+      "interpretation": "One saved placeholder slot; may cover several source bodies or an unresolved individual body. It establishes no physical count.",
+      "source_note": "The two readers agree on cht5sq6 and cr85t6m32. The next group differs as phg1/bh4cd4 with different body counts and is cluster-masked. The final body of m5c4? is not assigned confidently."
+    }
+  ],
+  "limits": "Masked groups are not recovered words or counted physical bodies. Initial reconciliation does not certify the main narrative or named place."
+}

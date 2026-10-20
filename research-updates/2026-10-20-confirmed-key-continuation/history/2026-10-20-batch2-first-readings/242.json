@@ -1,0 +1,987 @@
+{
+  "card_id": "242",
+  "notation": "pdf204-canonical",
+  "status": "candidate; single FIRST AI source reading; independent source check PENDING",
+  "source": {
+    "url": "https://api.hcportal.eu/media/4743/pc_hcp_242_pic.JPG",
+    "sha256": "27c73bec5df3692a18eb8b96ba28763e8a293a70ad511a1767a57693191aebd1",
+    "native_dimensions": [
+      1785,
+      1175
+    ]
+  },
+  "orientation": {
+    "reading_rotation_degrees": 0,
+    "reading_dimensions": [
+      1785,
+      1175
+    ],
+    "bbox_convention": "approximate x0,y0,x1,y1 in native reading view"
+  },
+  "reader": {
+    "model": "gpt-6.1-sol",
+    "temperature": "unavailable",
+    "seed": "unavailable"
+  },
+  "raw_reading_sha256": "a1e03dc259ecca9441da2e8d135a11bf27b31901b52042dc0278217daa7c0280",
+  "raw_frozen_before_decoding": true,
+  "raw_freeze": {
+    "at_utc": "2026-10-20T13:01:29.880791+00:00",
+    "hash_convention": "canonical JSON {raw_rows,notes}; ensure_ascii=False,sort_keys=True,separators comma/colon",
+    "raw_rows": [
+      {
+        "line_id": "242-H01",
+        "ciphertext": "6m2ms5.",
+        "reading_bbox_xyxy": [
+          1160,
+          169,
+          1333,
+          201
+        ]
+      },
+      {
+        "line_id": "242-L01",
+        "ciphertext": "fh581 b6s 6 b2c2 g6 bh5th6r5, 6 d6q h3gd3n485 bh6m4 df375 6",
+        "reading_bbox_xyxy": [
+          377,
+          922,
+          1481,
+          979
+        ]
+      },
+      {
+        "line_id": "242-L02",
+        "ciphertext": "g6 qh6cm1 84cd5q df27. 3tb8f4n t3b4c5n f m67p84gc4ř tm5ř. b3d5c48",
+        "reading_bbox_xyxy": [
+          357,
+          966,
+          1485,
+          1011
+        ]
+      },
+      {
+        "line_id": "242-L03",
+        "ciphertext": "7c5n c5 gbh6f32, g5 6m2mq3 n375 75d4m6 74g c5 g3d6f485. n5cn4c",
+        "reading_bbox_xyxy": [
+          355,
+          999,
+          1487,
+          1048
+        ]
+      },
+      {
+        "line_id": "242-L04",
+        "ciphertext": "nm5, th6r32cq2 cd3m6d4 7c5n fg?1 f584s5 gm3 b3q3 75m3.",
+        "reading_bbox_xyxy": [
+          360,
+          1034,
+          1488,
+          1081
+        ]
+      },
+      {
+        "line_id": "242-L05",
+        "ciphertext": "d4c4s fh581ř b3gth6f2 6t82r1ř, f6cm4f1ř b2c b3c486 f5sm5 df27 b5b32c.",
+        "reading_bbox_xyxy": [
+          357,
+          1061,
+          1586,
+          1124
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "kind": "classification",
+        "id": "242-H01",
+        "text": "Separate short red cipher-like header above printed Czech poem; its angular/numeral forms differ from printed poem lettering. Included provisionally as added cipher; handwritten versus printed-added status uncertain."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "242-H01",
+        "offset": 3,
+        "selected": "m",
+        "alternatives": [
+          "8",
+          "n"
+        ],
+        "text": "Fourth red body looks like joined low humps; source m selected without language repair."
+      },
+      {
+        "kind": "printed_design",
+        "bbox": [
+          1055,
+          208,
+          1438,
+          362
+        ],
+        "text": "Five-line red Czech poem is printed design text and excluded from cipher rows. Short red rule below poem also design."
+      },
+      {
+        "kind": "date",
+        "bbox": [
+          1316,
+          484,
+          1497,
+          553
+        ],
+        "selected": "23./III.1903.",
+        "alternatives": [
+          "23./VIII.1903."
+        ],
+        "text": "Handwritten date-like item; day/year are plain decimal numerals, slash separator and underlined Roman month have uncertain stroke count. Recorded separately, excluded from encoded body totals."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "242-L01",
+        "token": "b6s",
+        "selected": "b",
+        "alternatives": [
+          "?"
+        ],
+        "text": "Tall looped initial body; lower joining curl b-like, potentially unassigned F-like form."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "242-L01",
+        "token": "h3gd3n485",
+        "selected": "g",
+        "alternatives": [
+          "q"
+        ],
+        "text": "Broad lower U tail appears open rather than closed returning q loop."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "242-L02",
+        "token": "3tb8f4n",
+        "selected": "8",
+        "alternatives": [
+          "3"
+        ],
+        "text": "Small double-lobed body dark; selected 8, uncertain upper lobe."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "242-L03",
+        "token": "gbh6f32",
+        "selected": "b",
+        "alternatives": [
+          "h"
+        ],
+        "text": "Second tall body with lower loop selected b."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "242-L04",
+        "token": "fg?1",
+        "selected": "?",
+        "alternatives": [
+          "t",
+          "ř"
+        ],
+        "text": "Third body long top bar/crossed stroke lacks secure family assignment. Unknown retained; no invented key."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "242-L04",
+        "token": "b3q3",
+        "selected": "q",
+        "alternatives": [
+          "g"
+        ],
+        "text": "Descending tail appears returning loop, but broad lower curve difficult."
+      },
+      {
+        "kind": "mark",
+        "line_id": "242-L05",
+        "token": "fh581ř",
+        "text": "8 heavily overinked; final ř has prominent caron and darkened stem. Retain 8 and one ř body with marks noted."
+      },
+      {
+        "kind": "mark",
+        "line_id": "242-L05",
+        "token": "6t82r1ř",
+        "text": "Short extra slash-like stroke above t/8 vicinity; last ř has distinct caron. Plain preceding r kept unmarked."
+      },
+      {
+        "kind": "mark",
+        "line_id": "242-L05",
+        "token": "f6cm4f1ř",
+        "text": "Visible caron above c-like third body; base c retained with additional mark noted separately (not mapped to new glyph). Final ř caron distinct. Whole phrase underlined."
+      },
+      {
+        "kind": "segmentation",
+        "text": "Bottom cipher has five physical rows. Spaces approximate. Row4 has period before row5; no line-end joins introduced. No question punctuation seen; ? in fg?1 is unknown body."
+      }
+    ],
+    "raw_file_sha256": "908a33d7c1d666226445965731e494989c8d654827895b83dfd33654db7a1d75"
+  },
+  "independent_readings": [
+    {
+      "reader": "first",
+      "model": "gpt-6.1-sol",
+      "source_only_raw_frozen_before_decoding": true,
+      "key_visible": true,
+      "independent_check": "PENDING; one AI reading is not independent human/external proof"
+    }
+  ],
+  "lines": [
+    {
+      "line_id": "242-H01",
+      "ciphertext": "6m2ms5.",
+      "reading_bbox_xyxy": [
+        1160,
+        169,
+        1333,
+        201
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "kind": "glyph_alternative",
+          "line_id": "242-H01",
+          "offset": 3,
+          "selected": "m",
+          "alternatives": [
+            "8",
+            "n"
+          ],
+          "text": "Fourth red body looks like joined low humps; source m selected without language repair.",
+          "reading_bbox_xyxy": [
+            1160,
+            169,
+            1333,
+            201
+          ]
+        }
+      ],
+      "literal": "ANUNCE.",
+      "encoded_bodies": 6,
+      "expanded_letters": 6,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "242-L01",
+      "ciphertext": "fh581 b6s 6 b2c2 g6 bh5th6r5, 6 d6q h3gd3n485 bh6m4 df375 6",
+      "reading_bbox_xyxy": [
+        377,
+        922,
+        1481,
+        979
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "kind": "glyph_alternative",
+          "line_id": "242-L01",
+          "token": "b6s",
+          "selected": "b",
+          "alternatives": [
+            "?"
+          ],
+          "text": "Tall looped initial body; lower joining curl b-like, potentially unassigned F-like form.",
+          "token_offset_start": 6,
+          "token_offset_end": 9,
+          "reading_bbox_xyxy": [
+            377,
+            922,
+            1481,
+            979
+          ]
+        },
+        {
+          "kind": "glyph_alternative",
+          "line_id": "242-L01",
+          "token": "h3gd3n485",
+          "selected": "g",
+          "alternatives": [
+            "q"
+          ],
+          "text": "Broad lower U tail appears open rather than closed returning q loop.",
+          "token_offset_start": 36,
+          "token_offset_end": 45,
+          "reading_bbox_xyxy": [
+            377,
+            922,
+            1481,
+            979
+          ]
+        }
+      ],
+      "literal": "VRELY PAC A PUSU ZA PREDRAHE, A TAK ROZTOMILE PRANI TVOJE A",
+      "encoded_bodies": 47,
+      "expanded_letters": 47,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "242-L02",
+      "ciphertext": "g6 qh6cm1 84cd5q df27. 3tb8f4n t3b4c5n f m67p84gc4ř tm5ř. b3d5c48",
+      "reading_bbox_xyxy": [
+        357,
+        966,
+        1485,
+        1011
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "kind": "glyph_alternative",
+          "line_id": "242-L02",
+          "token": "3tb8f4n",
+          "selected": "8",
+          "alternatives": [
+            "3"
+          ],
+          "text": "Small double-lobed body dark; selected 8, uncertain upper lobe.",
+          "token_offset_start": 23,
+          "token_offset_end": 30,
+          "reading_bbox_xyxy": [
+            357,
+            966,
+            1485,
+            1011
+          ]
+        }
+      ],
+      "literal": "ZA KRASNY LISTEK TVUJ. ODPLVIM DOPISEM V NAJBLIZSICH DNECH. POTESIL",
+      "encoded_bodies": 54,
+      "expanded_letters": 56,
+      "ch_occurrences": 2,
+      "unknowns": []
+    },
+    {
+      "line_id": "242-L03",
+      "ciphertext": "7c5n c5 gbh6f32, g5 6m2mq3 n375 75d4m6 74g c5 g3d6f485. n5cn4c",
+      "reading_bbox_xyxy": [
+        355,
+        999,
+        1487,
+        1048
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "kind": "glyph_alternative",
+          "line_id": "242-L03",
+          "token": "gbh6f32",
+          "selected": "b",
+          "alternatives": [
+            "h"
+          ],
+          "text": "Second tall body with lower loop selected b.",
+          "token_offset_start": 8,
+          "token_offset_end": 15,
+          "reading_bbox_xyxy": [
+            355,
+            999,
+            1487,
+            1048
+          ]
+        }
+      ],
+      "literal": "JSEM SE ZPRAVOU, ZE ANUNKO MOJE JETINA JIZ SE ZOTAVILE. MESMIS",
+      "encoded_bodies": 50,
+      "expanded_letters": 50,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "242-L04",
+      "ciphertext": "nm5, th6r32cq2 cd3m6d4 7c5n fg?1 f584s5 gm3 b3q3 75m3.",
+      "reading_bbox_xyxy": [
+        360,
+        1034,
+        1488,
+        1081
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "kind": "glyph_alternative",
+          "line_id": "242-L04",
+          "token": "fg?1",
+          "selected": "?",
+          "alternatives": [
+            "t",
+            "ř"
+          ],
+          "text": "Third body long top bar/crossed stroke lacks secure family assignment. Unknown retained; no invented key.",
+          "token_offset_start": 28,
+          "token_offset_end": 32,
+          "reading_bbox_xyxy": [
+            360,
+            1034,
+            1488,
+            1081
+          ]
+        },
+        {
+          "kind": "glyph_alternative",
+          "line_id": "242-L04",
+          "token": "b3q3",
+          "selected": "q",
+          "alternatives": [
+            "g"
+          ],
+          "text": "Descending tail appears returning loop, but broad lower curve difficult.",
+          "token_offset_start": 44,
+          "token_offset_end": 48,
+          "reading_bbox_xyxy": [
+            360,
+            1034,
+            1488,
+            1081
+          ]
+        }
+      ],
+      "literal": "MNE, DRAHOUSKU STONATI JSEM VZ?Y VELICE ZNO POKO JENO.",
+      "encoded_bodies": 44,
+      "expanded_letters": 43,
+      "ch_occurrences": 0,
+      "unknowns": [
+        {
+          "offset": 30,
+          "body_index": 25,
+          "symbol": "?",
+          "kind": "unknown_glyph"
+        }
+      ]
+    },
+    {
+      "line_id": "242-L05",
+      "ciphertext": "d4c4s fh581ř b3gth6f2 6t82r1ř, f6cm4f1ř b2c b3c486 f5sm5 df27 b5b32c.",
+      "reading_bbox_xyxy": [
+        357,
+        1061,
+        1586,
+        1124
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "kind": "mark",
+          "line_id": "242-L05",
+          "token": "fh581ř",
+          "text": "8 heavily overinked; final ř has prominent caron and darkened stem. Retain 8 and one ř body with marks noted.",
+          "token_offset_start": 6,
+          "token_offset_end": 12,
+          "reading_bbox_xyxy": [
+            357,
+            1061,
+            1586,
+            1124
+          ]
+        },
+        {
+          "kind": "mark",
+          "line_id": "242-L05",
+          "token": "6t82r1ř",
+          "text": "Short extra slash-like stroke above t/8 vicinity; last ř has distinct caron. Plain preceding r kept unmarked.",
+          "token_offset_start": 22,
+          "token_offset_end": 29,
+          "reading_bbox_xyxy": [
+            357,
+            1061,
+            1586,
+            1124
+          ]
+        },
+        {
+          "kind": "mark",
+          "line_id": "242-L05",
+          "token": "f6cm4f1ř",
+          "text": "Visible caron above c-like third body; base c retained with additional mark noted separately (not mapped to new glyph). Final ř caron distinct. Whole phrase underlined.",
+          "token_offset_start": 31,
+          "token_offset_end": 39,
+          "reading_bbox_xyxy": [
+            357,
+            1061,
+            1586,
+            1124
+          ]
+        }
+      ],
+      "literal": "TISIC VRELYCH POZDRAVU ADLUHYCH, VASNIVYCH PUS POSILA VECNE TVUJ PEPOUS.",
+      "encoded_bodies": 58,
+      "expanded_letters": 61,
+      "ch_occurrences": 3,
+      "unknowns": []
+    }
+  ],
+  "uncertainty_ledger": [
+    {
+      "kind": "classification",
+      "id": "242-H01",
+      "text": "Separate short red cipher-like header above printed Czech poem; its angular/numeral forms differ from printed poem lettering. Included provisionally as added cipher; handwritten versus printed-added status uncertain."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-H01",
+      "offset": 3,
+      "selected": "m",
+      "alternatives": [
+        "8",
+        "n"
+      ],
+      "text": "Fourth red body looks like joined low humps; source m selected without language repair.",
+      "reading_bbox_xyxy": [
+        1160,
+        169,
+        1333,
+        201
+      ]
+    },
+    {
+      "kind": "printed_design",
+      "bbox": [
+        1055,
+        208,
+        1438,
+        362
+      ],
+      "text": "Five-line red Czech poem is printed design text and excluded from cipher rows. Short red rule below poem also design."
+    },
+    {
+      "kind": "date",
+      "bbox": [
+        1316,
+        484,
+        1497,
+        553
+      ],
+      "selected": "23./III.1903.",
+      "alternatives": [
+        "23./VIII.1903."
+      ],
+      "text": "Handwritten date-like item; day/year are plain decimal numerals, slash separator and underlined Roman month have uncertain stroke count. Recorded separately, excluded from encoded body totals."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L01",
+      "token": "b6s",
+      "selected": "b",
+      "alternatives": [
+        "?"
+      ],
+      "text": "Tall looped initial body; lower joining curl b-like, potentially unassigned F-like form.",
+      "token_offset_start": 6,
+      "token_offset_end": 9,
+      "reading_bbox_xyxy": [
+        377,
+        922,
+        1481,
+        979
+      ]
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L01",
+      "token": "h3gd3n485",
+      "selected": "g",
+      "alternatives": [
+        "q"
+      ],
+      "text": "Broad lower U tail appears open rather than closed returning q loop.",
+      "token_offset_start": 36,
+      "token_offset_end": 45,
+      "reading_bbox_xyxy": [
+        377,
+        922,
+        1481,
+        979
+      ]
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L02",
+      "token": "3tb8f4n",
+      "selected": "8",
+      "alternatives": [
+        "3"
+      ],
+      "text": "Small double-lobed body dark; selected 8, uncertain upper lobe.",
+      "token_offset_start": 23,
+      "token_offset_end": 30,
+      "reading_bbox_xyxy": [
+        357,
+        966,
+        1485,
+        1011
+      ]
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L03",
+      "token": "gbh6f32",
+      "selected": "b",
+      "alternatives": [
+        "h"
+      ],
+      "text": "Second tall body with lower loop selected b.",
+      "token_offset_start": 8,
+      "token_offset_end": 15,
+      "reading_bbox_xyxy": [
+        355,
+        999,
+        1487,
+        1048
+      ]
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L04",
+      "token": "fg?1",
+      "selected": "?",
+      "alternatives": [
+        "t",
+        "ř"
+      ],
+      "text": "Third body long top bar/crossed stroke lacks secure family assignment. Unknown retained; no invented key.",
+      "token_offset_start": 28,
+      "token_offset_end": 32,
+      "reading_bbox_xyxy": [
+        360,
+        1034,
+        1488,
+        1081
+      ]
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L04",
+      "token": "b3q3",
+      "selected": "q",
+      "alternatives": [
+        "g"
+      ],
+      "text": "Descending tail appears returning loop, but broad lower curve difficult.",
+      "token_offset_start": 44,
+      "token_offset_end": 48,
+      "reading_bbox_xyxy": [
+        360,
+        1034,
+        1488,
+        1081
+      ]
+    },
+    {
+      "kind": "mark",
+      "line_id": "242-L05",
+      "token": "fh581ř",
+      "text": "8 heavily overinked; final ř has prominent caron and darkened stem. Retain 8 and one ř body with marks noted.",
+      "token_offset_start": 6,
+      "token_offset_end": 12,
+      "reading_bbox_xyxy": [
+        357,
+        1061,
+        1586,
+        1124
+      ]
+    },
+    {
+      "kind": "mark",
+      "line_id": "242-L05",
+      "token": "6t82r1ř",
+      "text": "Short extra slash-like stroke above t/8 vicinity; last ř has distinct caron. Plain preceding r kept unmarked.",
+      "token_offset_start": 22,
+      "token_offset_end": 29,
+      "reading_bbox_xyxy": [
+        357,
+        1061,
+        1586,
+        1124
+      ]
+    },
+    {
+      "kind": "mark",
+      "line_id": "242-L05",
+      "token": "f6cm4f1ř",
+      "text": "Visible caron above c-like third body; base c retained with additional mark noted separately (not mapped to new glyph). Final ř caron distinct. Whole phrase underlined.",
+      "token_offset_start": 31,
+      "token_offset_end": 39,
+      "reading_bbox_xyxy": [
+        357,
+        1061,
+        1586,
+        1124
+      ]
+    },
+    {
+      "kind": "segmentation",
+      "text": "Bottom cipher has five physical rows. Spaces approximate. Row4 has period before row5; no line-end joins introduced. No question punctuation seen; ? in fg?1 is unknown body."
+    },
+    {
+      "line_id": "242-L04",
+      "decode_unknown": {
+        "offset": 30,
+        "body_index": 25,
+        "symbol": "?",
+        "kind": "unknown_glyph"
+      },
+      "reading_bbox_xyxy": [
+        360,
+        1034,
+        1488,
+        1081
+      ]
+    }
+  ],
+  "marks_and_segmentation_notes": [
+    {
+      "kind": "classification",
+      "id": "242-H01",
+      "text": "Separate short red cipher-like header above printed Czech poem; its angular/numeral forms differ from printed poem lettering. Included provisionally as added cipher; handwritten versus printed-added status uncertain."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-H01",
+      "offset": 3,
+      "selected": "m",
+      "alternatives": [
+        "8",
+        "n"
+      ],
+      "text": "Fourth red body looks like joined low humps; source m selected without language repair."
+    },
+    {
+      "kind": "printed_design",
+      "bbox": [
+        1055,
+        208,
+        1438,
+        362
+      ],
+      "text": "Five-line red Czech poem is printed design text and excluded from cipher rows. Short red rule below poem also design."
+    },
+    {
+      "kind": "date",
+      "bbox": [
+        1316,
+        484,
+        1497,
+        553
+      ],
+      "selected": "23./III.1903.",
+      "alternatives": [
+        "23./VIII.1903."
+      ],
+      "text": "Handwritten date-like item; day/year are plain decimal numerals, slash separator and underlined Roman month have uncertain stroke count. Recorded separately, excluded from encoded body totals."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L01",
+      "token": "b6s",
+      "selected": "b",
+      "alternatives": [
+        "?"
+      ],
+      "text": "Tall looped initial body; lower joining curl b-like, potentially unassigned F-like form."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L01",
+      "token": "h3gd3n485",
+      "selected": "g",
+      "alternatives": [
+        "q"
+      ],
+      "text": "Broad lower U tail appears open rather than closed returning q loop."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L02",
+      "token": "3tb8f4n",
+      "selected": "8",
+      "alternatives": [
+        "3"
+      ],
+      "text": "Small double-lobed body dark; selected 8, uncertain upper lobe."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L03",
+      "token": "gbh6f32",
+      "selected": "b",
+      "alternatives": [
+        "h"
+      ],
+      "text": "Second tall body with lower loop selected b."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L04",
+      "token": "fg?1",
+      "selected": "?",
+      "alternatives": [
+        "t",
+        "ř"
+      ],
+      "text": "Third body long top bar/crossed stroke lacks secure family assignment. Unknown retained; no invented key."
+    },
+    {
+      "kind": "glyph_alternative",
+      "line_id": "242-L04",
+      "token": "b3q3",
+      "selected": "q",
+      "alternatives": [
+        "g"
+      ],
+      "text": "Descending tail appears returning loop, but broad lower curve difficult."
+    },
+    {
+      "kind": "mark",
+      "line_id": "242-L05",
+      "token": "fh581ř",
+      "text": "8 heavily overinked; final ř has prominent caron and darkened stem. Retain 8 and one ř body with marks noted."
+    },
+    {
+      "kind": "mark",
+      "line_id": "242-L05",
+      "token": "6t82r1ř",
+      "text": "Short extra slash-like stroke above t/8 vicinity; last ř has distinct caron. Plain preceding r kept unmarked."
+    },
+    {
+      "kind": "mark",
+      "line_id": "242-L05",
+      "token": "f6cm4f1ř",
+      "text": "Visible caron above c-like third body; base c retained with additional mark noted separately (not mapped to new glyph). Final ř caron distinct. Whole phrase underlined."
+    },
+    {
+      "kind": "segmentation",
+      "text": "Bottom cipher has five physical rows. Spaces approximate. Row4 has period before row5; no line-end joins introduced. No question punctuation seen; ? in fg?1 is unknown body."
+    }
+  ],
+  "noncipher_source_elements": [
+    {
+      "kind": "printed_design",
+      "bbox": [
+        1055,
+        208,
+        1438,
+        362
+      ],
+      "text": "Five-line red Czech poem is printed design text and excluded from cipher rows. Short red rule below poem also design."
+    },
+    {
+      "kind": "date",
+      "bbox": [
+        1316,
+        484,
+        1497,
+        553
+      ],
+      "selected": "23./III.1903.",
+      "alternatives": [
+        "23./VIII.1903."
+      ],
+      "text": "Handwritten date-like item; day/year are plain decimal numerals, slash separator and underlined Roman month have uncertain stroke count. Recorded separately, excluded from encoded body totals."
+    }
+  ],
+  "proposed_editorial_czech": "[Andulce?; ANUNCE, záhlaví nejistého zařazení].\nVřelý [pozdrav?; PAC] a pusu za předrahé, a tak roztomilé přání tvoje a za krásný lístek tvůj. [Odpovím?; ODPLVIM] dopisem v [nejbližších; NAJBLIZSICH] dnech. Potěšil jsem se zprávou, že [Andulko?; ANUNKO] moje [jediná; JETINA] již se [zotavila; ZOTAVILE]. [Nesmíš; MESMIS] mně, drahoušku, stonati; jsem [vždy?; VZ?Y] velice [znepokojen?; ZNO POKO JENO]. Tisíc vřelých pozdravů [a dlouhých; ADLUHYCH], vášnivých pus posílá věčně tvůj Pepouš.",
+  "proposed_english_translation": "[To Andulka?; editorial ANUNCE, heading classification uncertain].\nA warm [greeting?; unresolved PAC] and a kiss for your very dear and so sweet wishes, and for your lovely card. [I will answer?; editorial ODPLVIM] by letter in the [coming; editorial NAJBLIZSICH] days. I was pleased by the news that [my Andulka?; editorial ANUNKO], my [only one; editorial JETINA], has already [recovered; editorial ZOTAVILE]. [You must not; editorial MESMIS] be ill, my darling; I am [always?; editorial VZ?Y] very [worried?; editorial ZNO POKO JENO]. A thousand warm greetings [and long; editorial ADLUHYCH], passionate kisses are sent by your forever devoted Pepouš.",
+  "editorial_ledger": [
+    {
+      "line_id": "242-H01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 6,
+      "literal": "ANUNCE",
+      "proposal": "Andulce?",
+      "reason": "Name/address expansion conjectural; header classification remains uncertain."
+    },
+    {
+      "line_id": "242-L01",
+      "literal_offset_start": 6,
+      "literal_offset_end": 9,
+      "literal": "PAC",
+      "proposal": "pozdrav?",
+      "reason": "Opening word unresolved; greeting expansion conjectural."
+    },
+    {
+      "line_id": "242-L02",
+      "literal_offset_start": 23,
+      "literal_offset_end": 30,
+      "literal": "ODPLVIM",
+      "proposal": "odpovím?",
+      "reason": "Malformed source word; proposed verb conjectural."
+    },
+    {
+      "line_id": "242-L02",
+      "literal_offset_start": 41,
+      "literal_offset_end": 52,
+      "literal": "NAJBLIZSICH",
+      "proposal": "nejbližších",
+      "reason": "Vowel normalization is editorial."
+    },
+    {
+      "line_id": "242-L03",
+      "literal_offset_start": 20,
+      "literal_offset_end": 26,
+      "literal": "ANUNKO",
+      "proposal": "Andulko?",
+      "reason": "Name expansion conjectural."
+    },
+    {
+      "line_id": "242-L03",
+      "literal_offset_start": 32,
+      "literal_offset_end": 38,
+      "literal": "JETINA",
+      "proposal": "jediná",
+      "reason": "Consonant repair is editorial."
+    },
+    {
+      "line_id": "242-L03",
+      "literal_offset_start": 46,
+      "literal_offset_end": 54,
+      "literal": "ZOTAVILE",
+      "proposal": "zotavila",
+      "reason": "Ending repair is editorial."
+    },
+    {
+      "line_id": "242-L03",
+      "literal_offset_start": 56,
+      "literal_offset_end": 62,
+      "literal": "MESMIS",
+      "proposal": "nesmíš",
+      "reason": "Initial consonant repair is editorial."
+    },
+    {
+      "line_id": "242-L04",
+      "literal_offset_start": 28,
+      "literal_offset_end": 32,
+      "literal": "VZ?Y",
+      "proposal": "vždy?",
+      "reason": "Unknown body remains unknown in cipher; proposed word conjectural."
+    },
+    {
+      "line_id": "242-L04",
+      "literal_offset_start": 40,
+      "literal_offset_end": 53,
+      "literal": "ZNO POKO JENO",
+      "proposal": "znepokojen?",
+      "reason": "Malformed sequence and spacing; interpretation conjectural."
+    },
+    {
+      "line_id": "242-L05",
+      "literal_offset_start": 23,
+      "literal_offset_end": 31,
+      "literal": "ADLUHYCH",
+      "proposal": "a dlouhých",
+      "reason": "Missing separation/consonant repair is editorial."
+    }
+  ],
+  "editorial_status": "Tentative proposals. Substantive repairs and unresolved forms bracketed with strict literal basis; ordinary diacritics/capitalization/punctuation and translation grammar normalized. No editorial changes to frozen ciphertext.",
+  "limits": [
+    "Single AI source-only first reading; independent source check PENDING. Frozen key visible in instructions.",
+    "No previous postcard242 research, card, candidate or plaintext consulted.",
+    "Red short header provisionally treated as cipher; printed Czech poem excluded as design. Date recorded separately as numerals/Roman month with uncertain month strokes; no historical date claim.",
+    "Replay verifies substitution/counters, not visual accuracy, classification or editorial interpretation.",
+    "No original images, source bytes, PDFs, email contents or private paths included."
+  ],
+  "encoded_bodies": 259,
+  "expanded_letters": 263,
+  "ch_occurrences": 5,
+  "unknowns": 1
+}

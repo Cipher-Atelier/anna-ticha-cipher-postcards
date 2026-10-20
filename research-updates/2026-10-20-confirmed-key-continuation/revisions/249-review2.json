@@ -1,0 +1,760 @@
+{
+  "revision_id": "249-review2",
+  "date": "2026-10-20",
+  "card_id": "249",
+  "model": "gpt-6.1-sol",
+  "temperature": null,
+  "seed": null,
+  "type": "nonblind source reconciliation after two raw frozen phases",
+  "card_artifact_sha256": "ab3b40f1ba93e8891bbba0fa6ad813dbe0d0311c767634a8c98775143d849403",
+  "first_public_snapshot_sha256": "2fa6654e349830af51ade9a216005d51b7a0a1b6cad54fdecc5aa4d46ab84c5e",
+  "selected_rows_sha256": "60df69d861bc58be7352d2bfa3b1e6147eccc3a48e483048c018bd08b951b20d",
+  "raw_layers": [
+    {
+      "reader": "first249",
+      "raw_artifact_sha256": "039a12f8178e37c4d561ae0b33055967750af3f437df61a9e93a1ecb7361aa9c",
+      "canonical_embedded_rows_sha256": "68fa87c7407ce1226c890868735a3c40d391bc5d6bf3104bd606372f34d2a9f2"
+    },
+    {
+      "reader": "root second249",
+      "raw_artifact_sha256": "1f6ee48d2cafa7d5c4bd9f4e31b7e2ae4ea023187a38741339ab36457c401831",
+      "canonical_embedded_rows_sha256": "bc56fb03849ef87f844bbad59fd984bdf198a35cd1c99357d911bb6d9aa63350"
+    }
+  ],
+  "line_id_mapping": [
+    {
+      "root_line_id": "C01",
+      "selected_and_first_line_id": "249-A01",
+      "region": "left central"
+    },
+    {
+      "root_line_id": "C02",
+      "selected_and_first_line_id": "249-A02",
+      "region": "left central"
+    },
+    {
+      "root_line_id": "C03",
+      "selected_and_first_line_id": "249-A03",
+      "region": "left central"
+    },
+    {
+      "root_line_id": "C04",
+      "selected_and_first_line_id": "249-A04",
+      "region": "left central"
+    },
+    {
+      "root_line_id": "C05",
+      "selected_and_first_line_id": "249-A05",
+      "region": "left central"
+    },
+    {
+      "root_line_id": "C06",
+      "selected_and_first_line_id": "249-A06",
+      "region": "left central"
+    },
+    {
+      "root_line_id": "R01",
+      "selected_and_first_line_id": "249-B01",
+      "region": "right central"
+    },
+    {
+      "root_line_id": "R02",
+      "selected_and_first_line_id": "249-B02",
+      "region": "right central"
+    },
+    {
+      "root_line_id": "R03",
+      "selected_and_first_line_id": "249-B03",
+      "region": "right central"
+    },
+    {
+      "root_line_id": "R04",
+      "selected_and_first_line_id": "249-B04",
+      "region": "right central"
+    },
+    {
+      "root_line_id": "B01",
+      "selected_and_first_line_id": "249-L01",
+      "region": "bottom"
+    },
+    {
+      "root_line_id": "B02",
+      "selected_and_first_line_id": "249-L02",
+      "region": "bottom"
+    },
+    {
+      "root_line_id": "B03",
+      "selected_and_first_line_id": "249-L03",
+      "region": "bottom"
+    },
+    {
+      "root_line_id": "B04",
+      "selected_and_first_line_id": "249-L04",
+      "region": "bottom"
+    },
+    {
+      "root_line_id": "B05",
+      "selected_and_first_line_id": "249-L05",
+      "region": "bottom"
+    },
+    {
+      "root_line_id": "B06",
+      "selected_and_first_line_id": "249-L06",
+      "region": "bottom"
+    },
+    {
+      "root_line_id": "B07",
+      "selected_and_first_line_id": "249-L07",
+      "region": "bottom"
+    }
+  ],
+  "differences_from_raw": [
+    {
+      "reader": "root second",
+      "line_id": "249-A01",
+      "raw_ciphertext": "q5g p1řd5",
+      "selected_ciphertext": "q5g p1ř d5",
+      "display_edits": [
+        {
+          "raw_start": 7,
+          "raw_end": 7,
+          "raw_text": "",
+          "selected_start": 7,
+          "selected_end": 8,
+          "selected_text": " "
+        }
+      ],
+      "visual_rationale": "Low shoulder plus long descender supports p with r alternative; roof over final short r visible. A small source gap before d5 is retained; root joined p1řd5 remains in its raw layer."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-A05",
+      "raw_ciphertext": "qc3p5 6",
+      "selected_ciphertext": "q s3p5 6",
+      "display_edits": [
+        {
+          "raw_start": 1,
+          "raw_end": 2,
+          "raw_text": "c",
+          "selected_start": 1,
+          "selected_end": 3,
+          "selected_text": " s"
+        }
+      ],
+      "visual_rationale": "The small body after q has a pointed/filled upper turn and lower angular curve, visually favoring s over the open c curve elsewhere in the same panel. Retain K COBE A, without repairing C to S. Gap after q remains a display candidate; root qc3p5 and first qs3p5 joining alternative preserved."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-B02",
+      "raw_ciphertext": "t832r1ř",
+      "selected_ciphertext": "t832r1ř,",
+      "display_edits": [
+        {
+          "raw_start": 7,
+          "raw_end": 7,
+          "raw_text": "",
+          "selected_start": 7,
+          "selected_end": 8,
+          "selected_text": ","
+        }
+      ],
+      "visual_rationale": "Both readers agree on bodies; a small trailing downward stroke favors comma retained from first reading, with root no-comma alternative preserved. Final marked r distinct from earlier unmarked r."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-B04",
+      "raw_ciphertext": "b2c.",
+      "selected_ciphertext": "b2c!",
+      "display_edits": [
+        {
+          "raw_start": 3,
+          "raw_end": 4,
+          "raw_text": ".",
+          "selected_start": 3,
+          "selected_end": 4,
+          "selected_text": "!"
+        }
+      ],
+      "visual_rationale": "Long final flourish surrounds the group, followed by a separate vertical stroke and low dot. Prefer written exclamation over root period; body sequence b2c unchanged."
+    },
+    {
+      "reader": "first",
+      "line_id": "249-L01",
+      "raw_ciphertext": "6m4sq3 n375 h3gn486, bh3c4 n6",
+      "selected_ciphertext": "6m4sq3 n375 h3gn486, ? ?6",
+      "display_edits": [
+        {
+          "raw_start": 21,
+          "raw_end": 26,
+          "raw_text": "bh3c4",
+          "selected_start": 21,
+          "selected_end": 22,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 27,
+          "raw_end": 28,
+          "raw_text": "n",
+          "selected_start": 23,
+          "selected_end": 24,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "The first reader provisional bh3c4 passes through a broad smear. Whole-group mask retained from second reading; exact body count unknown. Final n6/m6 initial hump cannot be classified uniquely through the stain, so ?6 retained. ROZMILA is a selected shape reading, not a restored smeared phrase."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-L01",
+      "raw_ciphertext": "6m4sq3 n375 h3gn486, ? m6",
+      "selected_ciphertext": "6m4sq3 n375 h3gn486, ? ?6",
+      "display_edits": [
+        {
+          "raw_start": 23,
+          "raw_end": 24,
+          "raw_text": "m",
+          "selected_start": 23,
+          "selected_end": 24,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "The first reader provisional bh3c4 passes through a broad smear. Whole-group mask retained from second reading; exact body count unknown. Final n6/m6 initial hump cannot be classified uniquely through the stain, so ?6 retained. ROZMILA is a selected shape reading, not a restored smeared phrase."
+    },
+    {
+      "reader": "first",
+      "line_id": "249-L02",
+      "raw_ciphertext": "nm5 f m3f5n h3s5 g6b3n4m6c? s5 qh6cm5",
+      "selected_ciphertext": "nm5 f m3f5n h3s5 g6b3n4m6c? s5 q?",
+      "display_edits": [
+        {
+          "raw_start": 32,
+          "raw_end": 37,
+          "raw_text": "h6cm5",
+          "selected_start": 32,
+          "selected_end": 33,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "Initial m of m3f5n shows two low humps and h3s5 contains the pointed s form. Both readers agree on these selections. After written question mark, retain s5 and visibly looped q; the remaining smeared ending has incompatible h6cm5/6n shapes and body counts, so q? is not expanded to a fluent phrase."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-L02",
+      "raw_ciphertext": "nm5 f m3f5n h3s5 g6b3n4m6c? s5q6n ?",
+      "selected_ciphertext": "nm5 f m3f5n h3s5 g6b3n4m6c? s5 q?",
+      "display_edits": [
+        {
+          "raw_start": 30,
+          "raw_end": 30,
+          "raw_text": "",
+          "selected_start": 30,
+          "selected_end": 31,
+          "selected_text": " "
+        },
+        {
+          "raw_start": 31,
+          "raw_end": 34,
+          "raw_text": "6n ",
+          "selected_start": 32,
+          "selected_end": 32,
+          "selected_text": ""
+        }
+      ],
+      "visual_rationale": "Initial m of m3f5n shows two low humps and h3s5 contains the pointed s form. Both readers agree on these selections. After written question mark, retain s5 and visibly looped q; the remaining smeared ending has incompatible h6cm5/6n shapes and body counts, so q? is not expanded to a fluent phrase."
+    },
+    {
+      "reader": "first",
+      "line_id": "249-L03",
+      "raw_ciphertext": "p2t c84p5m1 t3b4c m5p 6cb3m 84cd5q c d32g5pm5c4,",
+      "selected_ciphertext": "p2t c84p5m1 t3b4c m5p 6cb3m 84cd5q c d32g5p?,",
+      "display_edits": [
+        {
+          "raw_start": 43,
+          "raw_end": 47,
+          "raw_text": "m5c4",
+          "selected_start": 43,
+          "selected_end": 44,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "Initial low shoulder and long descender favors p over root r, with alternative retained. Visible prefix d32g5p is retained; the following horizontal smear obscures terminal bodies and segmentation, so final cluster masked. Root comma after 84cd5q is not secure as distinct punctuation and remains an alternative."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-L03",
+      "raw_ciphertext": "r2t c84p5m1 t3b4c m5p 6cb3m 84cd5q, c d32g5pm3cd4,",
+      "selected_ciphertext": "p2t c84p5m1 t3b4c m5p 6cb3m 84cd5q c d32g5p?,",
+      "display_edits": [
+        {
+          "raw_start": 0,
+          "raw_end": 1,
+          "raw_text": "r",
+          "selected_start": 0,
+          "selected_end": 1,
+          "selected_text": "p"
+        },
+        {
+          "raw_start": 34,
+          "raw_end": 35,
+          "raw_text": ",",
+          "selected_start": 34,
+          "selected_end": 34,
+          "selected_text": ""
+        },
+        {
+          "raw_start": 44,
+          "raw_end": 49,
+          "raw_text": "m3cd4",
+          "selected_start": 43,
+          "selected_end": 44,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "Initial low shoulder and long descender favors p over root r, with alternative retained. Visible prefix d32g5p is retained; the following horizontal smear obscures terminal bodies and segmentation, so final cluster masked. Root comma after 84cd5q is not secure as distinct punctuation and remains an alternative."
+    },
+    {
+      "reader": "first",
+      "line_id": "249-L04",
+      "raw_ciphertext": "6f26q n6hm5. t3cd6m6 7c4 n5 84cd5q1 m6 n3f1 h3q 6 m6-",
+      "selected_ciphertext": "6fc6q n6hm5. t3cd686 7c4 n5 84cd?1 m6 n3f1 h3q 6 ?-",
+      "display_edits": [
+        {
+          "raw_start": 2,
+          "raw_end": 3,
+          "raw_text": "2",
+          "selected_start": 2,
+          "selected_end": 3,
+          "selected_text": "c"
+        },
+        {
+          "raw_start": 18,
+          "raw_end": 19,
+          "raw_text": "m",
+          "selected_start": 18,
+          "selected_end": 19,
+          "selected_text": "8"
+        },
+        {
+          "raw_start": 32,
+          "raw_end": 34,
+          "raw_text": "5q",
+          "selected_start": 32,
+          "selected_end": 33,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 50,
+          "raw_end": 52,
+          "raw_text": "m6",
+          "selected_start": 49,
+          "selected_end": 50,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "The third body of 6fc6q is a short open c curve without the top and descending diagonal structure of 2. The body after the first 6 in t3cd686 is double-loop 8, not a low m arch. These are visual changes to first selections. 84cd?1 masks incompatible 5q/q segmentation. First n of n3f1 retains its single-hump form, with root m alternative. Terminal m6 passes through smear and is replaced by ? before retained hyphen."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-L04",
+      "raw_ciphertext": "6fc6q n6hm5. t3cd686 7c4 n5 84cdq1 m6 m3f1 h3q 6 m6-",
+      "selected_ciphertext": "6fc6q n6hm5. t3cd686 7c4 n5 84cd?1 m6 n3f1 h3q 6 ?-",
+      "display_edits": [
+        {
+          "raw_start": 32,
+          "raw_end": 33,
+          "raw_text": "q",
+          "selected_start": 32,
+          "selected_end": 33,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 38,
+          "raw_end": 39,
+          "raw_text": "m",
+          "selected_start": 38,
+          "selected_end": 39,
+          "selected_text": "n"
+        },
+        {
+          "raw_start": 49,
+          "raw_end": 51,
+          "raw_text": "m6",
+          "selected_start": 49,
+          "selected_end": 50,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "The third body of 6fc6q is a short open c curve without the top and descending diagonal structure of 2. The body after the first 6 in t3cd686 is double-loop 8, not a low m arch. These are visual changes to first selections. 84cd?1 masks incompatible 5q/q segmentation. First n of n3f1 retains its single-hump form, with root m alternative. Terminal m6 passes through smear and is replaced by ? before retained hyphen."
+    },
+    {
+      "reader": "first",
+      "line_id": "249-L05",
+      "raw_ciphertext": "d5r3 85tm6? 7c4 ř2h6f6? 6cb3m 3 ch6d4sq32 g bh6f2",
+      "selected_ciphertext": "d5r3 85tm6? 7c4 ř2h6f6? 6cb3m ? ?h6d4sq32 g ?h6f2",
+      "display_edits": [
+        {
+          "raw_start": 30,
+          "raw_end": 31,
+          "raw_text": "3",
+          "selected_start": 30,
+          "selected_end": 31,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 32,
+          "raw_end": 33,
+          "raw_text": "c",
+          "selected_start": 32,
+          "selected_end": 33,
+          "selected_text": "?"
+        },
+        {
+          "raw_start": 44,
+          "raw_end": 45,
+          "raw_text": "b",
+          "selected_start": 44,
+          "selected_end": 45,
+          "selected_text": "?"
+        }
+      ],
+      "visual_rationale": "Short low shoulder r retained in d5r3; no tall h loop established. Two actual question marks stay punctuation. Isolated smeared body after 6cb3m remains masked. Following group has readable high-loop h and 6d4sq32 suffix, but its initial low curl is not securely assigned and remains ?. After g, b/t disagreement at ?h6f2 remains masked; no grammatical ZDRAVU repair or F mapping invented."
+    },
+    {
+      "reader": "root second",
+      "line_id": "249-L05",
+      "raw_ciphertext": "d5r3 85tm6? 7c4 ř2h6f6? 6cb3m ? ? gth6f2",
+      "selected_ciphertext": "d5r3 85tm6? 7c4 ř2h6f6? 6cb3m ? ?h6d4sq32 g ?h6f2",
+      "display_edits": [
+        {
+          "raw_start": 33,
+          "raw_end": 33,
+          "raw_text": "",
+          "selected_start": 33,
+          "selected_end": 41,
+          "selected_text": "h6d4sq32"
+        },
+        {
+          "raw_start": 35,
+          "raw_end": 36,
+          "raw_text": "t",
+          "selected_start": 43,
+          "selected_end": 45,
+          "selected_text": " ?"
+        }
+      ],
+      "visual_rationale": "Short low shoulder r retained in d5r3; no tall h loop established. Two actual question marks stay punctuation. Isolated smeared body after 6cb3m remains masked. Following group has readable high-loop h and 6d4sq32 suffix, but its initial low curl is not securely assigned and remains ?. After g, b/t disagreement at ?h6f2 remains masked; no grammatical ZDRAVU repair or F mapping invented."
+    }
+  ],
+  "selected_rows": [
+    {
+      "line_id": "249-A01",
+      "ciphertext": "q5g p1ř d5",
+      "literal": "KEZ BYCH TE"
+    },
+    {
+      "line_id": "249-A02",
+      "ciphertext": "n3r8 3b5d",
+      "literal": "MOHL OPET"
+    },
+    {
+      "line_id": "249-A03",
+      "ciphertext": "d6qd3 bh4-",
+      "literal": "TAKTO PRI-"
+    },
+    {
+      "line_id": "249-A04",
+      "ciphertext": "f4m32d4",
+      "literal": "VINOUTI"
+    },
+    {
+      "line_id": "249-A05",
+      "ciphertext": "q s3p5 6",
+      "literal": "K COBE A"
+    },
+    {
+      "line_id": "249-A06",
+      "ciphertext": "t6d4 d4",
+      "literal": "DATI TI"
+    },
+    {
+      "line_id": "249-B01",
+      "ciphertext": "m5cs4c8m1ř,",
+      "literal": "NESCISLNYCH,"
+    },
+    {
+      "line_id": "249-B02",
+      "ciphertext": "t832r1ř,",
+      "literal": "DLOUHYCH,"
+    },
+    {
+      "line_id": "249-B03",
+      "ciphertext": "f6cm4f1ř",
+      "literal": "VASNIVYCH"
+    },
+    {
+      "line_id": "249-B04",
+      "ciphertext": "b2c!",
+      "literal": "PUS!"
+    },
+    {
+      "line_id": "249-L01",
+      "ciphertext": "6m4sq3 n375 h3gn486, ? ?6",
+      "literal": "ANICKO MOJE ROZMILA, ? ?A"
+    },
+    {
+      "line_id": "249-L02",
+      "ciphertext": "nm5 f m3f5n h3s5 g6b3n4m6c? s5 q?",
+      "literal": "MNE V NOVEM ROCE ZAPOMINAS? CE K?"
+    },
+    {
+      "line_id": "249-L03",
+      "ciphertext": "p2t c84p5m1 t3b4c m5p 6cb3m 84cd5q c d32g5p?,",
+      "literal": "BUD SLIBENY DOPIS NEB ASPON LISTEK S TOUZEB?,"
+    },
+    {
+      "line_id": "249-L04",
+      "ciphertext": "6fc6q n6hm5. t3cd686 7c4 n5 84cd?1 m6 n3f1 h3q 6 ?-",
+      "literal": "AVSAK MARNE. DOSTALA JSI ME LIST?Y NA MOVY ROK A ?-"
+    },
+    {
+      "line_id": "249-L05",
+      "ciphertext": "d5r3 85tm6? 7c4 ř2h6f6? 6cb3m ? ?h6d4sq32 g ?h6f2",
+      "literal": "TEHO LEDNA? JSI CHURAVA? ASPON ? ?RATICKOU Z ?RAVU"
+    },
+    {
+      "line_id": "249-L06",
+      "ciphertext": "bh3c4 cd685 fgb3n4m674s4 6 d4c4s fh581ř b2c",
+      "literal": "PROSI STALE VZPOMINAJICI A TISIC VRELYCH PUS"
+    },
+    {
+      "line_id": "249-L07",
+      "ciphertext": "b3c48674s4 b5b32c.",
+      "literal": "POSILAJICI PEPOUS."
+    }
+  ],
+  "selected_slot_counts": {
+    "encoded_bodies": 285,
+    "expanded_letters": 282,
+    "ch_occurrences": 6,
+    "unknowns": 9
+  },
+  "physical_encoded_bodies": null,
+  "cluster_ledger": [
+    {
+      "line_id": "249-L01",
+      "offset": 21,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 17,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        440,
+        1416,
+        1081,
+        1485
+      ],
+      "original_source_context_bbox_xyxy": [
+        1416,
+        94,
+        1485,
+        735
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "The first reader provisional bh3c4 passes through a broad smear. Whole-group mask retained from second reading; exact body count unknown. Final n6/m6 initial hump cannot be classified uniquely through the stain, so ?6 retained. ROZMILA is a selected shape reading, not a restored smeared phrase."
+    },
+    {
+      "line_id": "249-L01",
+      "offset": 23,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 18,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        440,
+        1416,
+        1081,
+        1485
+      ],
+      "original_source_context_bbox_xyxy": [
+        1416,
+        94,
+        1485,
+        735
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "The first reader provisional bh3c4 passes through a broad smear. Whole-group mask retained from second reading; exact body count unknown. Final n6/m6 initial hump cannot be classified uniquely through the stain, so ?6 retained. ROZMILA is a selected shape reading, not a restored smeared phrase."
+    },
+    {
+      "line_id": "249-L02",
+      "offset": 32,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 25,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        225,
+        1447,
+        1086,
+        1520
+      ],
+      "original_source_context_bbox_xyxy": [
+        1447,
+        89,
+        1520,
+        950
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "Initial m of m3f5n shows two low humps and h3s5 contains the pointed s form. Both readers agree on these selections. After written question mark, retain s5 and visibly looped q; the remaining smeared ending has incompatible h6cm5/6n shapes and body counts, so q? is not expanded to a fluent phrase."
+    },
+    {
+      "line_id": "249-L03",
+      "offset": 43,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 36,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        78,
+        1480,
+        1102,
+        1550
+      ],
+      "original_source_context_bbox_xyxy": [
+        1480,
+        73,
+        1550,
+        1097
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "Initial low shoulder and long descender favors p over root r, with alternative retained. Visible prefix d32g5p is retained; the following horizontal smear obscures terminal bodies and segmentation, so final cluster masked. Root comma after 84cd5q is not secure as distinct punctuation and remains an alternative."
+    },
+    {
+      "line_id": "249-L04",
+      "offset": 32,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 26,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        77,
+        1517,
+        1111,
+        1590
+      ],
+      "original_source_context_bbox_xyxy": [
+        1517,
+        64,
+        1590,
+        1098
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "The third body of 6fc6q is a short open c curve without the top and descending diagonal structure of 2. The body after the first 6 in t3cd686 is double-loop 8, not a low m arch. These are visual changes to first selections. 84cd?1 masks incompatible 5q/q segmentation. First n of n3f1 retains its single-hump form, with root m alternative. Terminal m6 passes through smear and is replaced by ? before retained hyphen."
+    },
+    {
+      "line_id": "249-L04",
+      "offset": 49,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 38,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        77,
+        1517,
+        1111,
+        1590
+      ],
+      "original_source_context_bbox_xyxy": [
+        1517,
+        64,
+        1590,
+        1098
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "The third body of 6fc6q is a short open c curve without the top and descending diagonal structure of 2. The body after the first 6 in t3cd686 is double-loop 8, not a low m arch. These are visual changes to first selections. 84cd?1 masks incompatible 5q/q segmentation. First n of n3f1 retains its single-hump form, with root m alternative. Terminal m6 passes through smear and is replaced by ? before retained hyphen."
+    },
+    {
+      "line_id": "249-L05",
+      "offset": 30,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 23,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        80,
+        1552,
+        1104,
+        1630
+      ],
+      "original_source_context_bbox_xyxy": [
+        1552,
+        71,
+        1630,
+        1095
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "Short low shoulder r retained in d5r3; no tall h loop established. Two actual question marks stay punctuation. Isolated smeared body after 6cb3m remains masked. Following group has readable high-loop h and 6d4sq32 suffix, but its initial low curl is not securely assigned and remains ?. After g, b/t disagreement at ?h6f2 remains masked; no grammatical ZDRAVU repair or F mapping invented."
+    },
+    {
+      "line_id": "249-L05",
+      "offset": 32,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 24,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        80,
+        1552,
+        1104,
+        1630
+      ],
+      "original_source_context_bbox_xyxy": [
+        1552,
+        71,
+        1630,
+        1095
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "Short low shoulder r retained in d5r3; no tall h loop established. Two actual question marks stay punctuation. Isolated smeared body after 6cb3m remains masked. Following group has readable high-loop h and 6d4sq32 suffix, but its initial low curl is not securely assigned and remains ?. After g, b/t disagreement at ?h6f2 remains masked; no grammatical ZDRAVU repair or F mapping invented."
+    },
+    {
+      "line_id": "249-L05",
+      "offset": 44,
+      "text": "?",
+      "kind": "unresolved glyph or cluster",
+      "selected_replay_body_index": 34,
+      "source_body_count": null,
+      "physical_encoded_bodies": null,
+      "reading_source_context_bbox_xyxy": [
+        80,
+        1552,
+        1104,
+        1630
+      ],
+      "original_source_context_bbox_xyxy": [
+        1552,
+        71,
+        1630,
+        1095
+      ],
+      "bbox_scope": "complete-row context; exact mask location is the line/offset, not a tight glyph rectangle",
+      "interpretation": "One saved display slot, possibly covering several physical source bodies. No physical count established.",
+      "observation": "Short low shoulder r retained in d5r3; no tall h loop established. Two actual question marks stay punctuation. Isolated smeared body after 6cb3m remains masked. Following group has readable high-loop h and 6d4sq32 suffix, but its initial low curl is not securely assigned and remains ?. After g, b/t disagreement at ?h6f2 remains masked; no grammatical ZDRAVU repair or F mapping invented."
+    }
+  ],
+  "policy": "Both raw artifacts and first public snapshot unchanged; no semantic reconstruction through smears; all masks have unknown physical counts."
+}
