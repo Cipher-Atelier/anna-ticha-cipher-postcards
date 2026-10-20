@@ -1,0 +1,1827 @@
+{
+  "card_id": "294",
+  "notation": "pdf204-canonical",
+  "status": "Prepared private candidate; nonblind related-AI reconciliation; investigation continues",
+  "source": {
+    "url": "https://api.hcportal.eu/media/4899/pc_hcp_294_pic.JPG",
+    "sha256": "77483d636a211c98f75aba4470a966cedfb563498cdbefb68b34f1cd0e9a4684",
+    "bytes": 1241012,
+    "native_dimensions": [
+      1785,
+      1175
+    ]
+  },
+  "catalogue_id": 1613,
+  "catalogue_record_pointer": "/data/data/1606",
+  "catalogue_binding": {
+    "card_id": 294,
+    "record_name": "pc_hcp_294",
+    "catalogue_id": 1613,
+    "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1613",
+    "response_json_pointer": "/data/data/1606",
+    "image_records": [
+      {
+        "title": "Picture side",
+        "original_url": "https://api.hcportal.eu/media/4899/pc_hcp_294_pic.JPG",
+        "data_item_id": 4033,
+        "response_json_pointer": "/data/data/1606/datagroups/0/data/0/image/original",
+        "access_status": "official recorded URL; original GET not implied"
+      },
+      {
+        "title": "Address side",
+        "original_url": "https://api.hcportal.eu/media/4900/pc_hcp_294_adr.JPG",
+        "data_item_id": 4034,
+        "response_json_pointer": "/data/data/1606/datagroups/0/data/1/image/original",
+        "access_status": "official recorded URL; original GET not implied"
+      }
+    ],
+    "official_solution_status_label": "Not solved",
+    "solution_status_json_pointer": "/data/data/1606/solution/name"
+  },
+  "orientation": {
+    "regions": [
+      {
+        "region": "single lower block",
+        "reading_rotation_clockwise_degrees": 90,
+        "reading_dimensions": [
+          1175,
+          1785
+        ]
+      }
+    ],
+    "native_dimensions": [
+      1785,
+      1175
+    ],
+    "current_frame_policy": "Current coarse row boxes adopt assigned-FIRST source locators, rechecked against originals and explicit identity/CW90 transforms. Row context does not prove exact glyph ownership or complete physical segmentation."
+  },
+  "reader": {
+    "model": "gpt-6.1-sol",
+    "role": "Assigned FIRST source-reader slot, now NONBLIND curator",
+    "exact_deployment": null,
+    "temperature": null,
+    "seed": null
+  },
+  "raw_frozen_before_decoding": true,
+  "independent_readings": [
+    {
+      "reader": "first294",
+      "assigned_slot": "FIRST",
+      "related_ai": true,
+      "key_visible": true,
+      "own_tool_decode": true,
+      "context": "FIRST target-unexposed source reading. Fixed22 canonical key visible; prior own source work and nonblind curation on other cards including279–281,283,287–288 and own284/285 source passes known. Related AI/shared model influence, not human/external independence. No blind294, sibling/new-batch target raw/literal/prepared or target transcript accessed. No plaintext/editorial rendered before freeze."
+    },
+    {
+      "reader": "blind294",
+      "assigned_slot": "SECOND",
+      "related_ai": true,
+      "key_visible": true,
+      "own_tool_decode": true,
+      "context": {
+        "canonical_key_visible": true,
+        "prior_other_card_and_implementation_context": true,
+        "related_AI_context": true,
+        "human_or_external_independent_validation": false,
+        "competing_target_reading_or_plaintext_opened": false,
+        "own_same_task_context": "Assigned291–294 sources inspected; own first291/292 source shapes and prior other-card context visible during second293/294. No competing target reading accessed.",
+        "limits": "Related AI with visible fixed key, not human/external independent evidence or key-free blindness."
+      }
+    }
+  ],
+  "raw_preservation": {
+    "first_raw": {
+      "rows": [
+        {
+          "line_id": "294-L01",
+          "ciphertext": "n6n d5, t2c4sg3 n375, h6t - g b585r3 chts5",
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 0,
+              "selected": "n6n",
+              "alternatives": [
+                "m6n",
+                "n6m"
+              ],
+              "note": "Two low single arches selected n; joined m alternatives retained."
+            },
+            {
+              "offset": 8,
+              "selected": "t2c4sg3",
+              "alternatives": [
+                "t2c4sq3"
+              ],
+              "note": "Final descender broad open hook g versus closed q provisional."
+            },
+            {
+              "offset": 30,
+              "selected": "b585r3",
+              "alternatives": [
+                "p585r3",
+                "b585h3"
+              ],
+              "note": "Initial tall looped stem selected b, descending p alternative; short branching r/h ownership provisional."
+            },
+            {
+              "offset": 37,
+              "selected": "chts5",
+              "alternatives": [
+                "chds5",
+                "chts5"
+              ],
+              "note": "Crossed tall t versus rounded d; following low angular s selected by contour."
+            }
+          ],
+          "reading_bbox_xyxy": [
+            85,
+            1470,
+            1100,
+            1540
+          ],
+          "native_bbox_xyxy": [
+            1470,
+            75,
+            1540,
+            1090
+          ],
+          "reading_rotation_clockwise_degrees": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "region": "single lower block",
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "294-L02",
+          "ciphertext": "h6t! p186 7c4 fc6g f 84cdg2 cf6n f584s5 g832!",
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 14,
+              "selected": "fc6g",
+              "alternatives": [
+                "fc6q"
+              ],
+              "note": "Broad lower hook g selected, q alternative; tall f distinct from following low c."
+            },
+            {
+              "offset": 28,
+              "selected": "cf6n",
+              "alternatives": [
+                "cf6m"
+              ],
+              "note": "Terminal low single arch n versus joined m shoulders provisional."
+            }
+          ],
+          "reading_bbox_xyxy": [
+            85,
+            1518,
+            1100,
+            1588
+          ],
+          "native_bbox_xyxy": [
+            1518,
+            75,
+            1588,
+            1090
+          ],
+          "reading_rotation_clockwise_degrees": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "region": "single lower block",
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "294-L03",
+          "ciphertext": "m6 t3b4c c5 d5s4n m5cm4hm5. d4c4s fh581ř",
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 12,
+              "selected": "d5s4n",
+              "alternatives": [
+                "d5c4n"
+              ],
+              "note": "Third low body angular s selected, rounded open c alternative; no lexical correction."
+            },
+            {
+              "offset": 18,
+              "selected": "m5cm4hm5",
+              "alternatives": [
+                "m5cn4hm5",
+                "m5cm4rm5"
+              ],
+              "note": "Low joined m shoulders and high-loop h/short r alternatives remain."
+            },
+            {
+              "offset": 34,
+              "selected": "fh581ř",
+              "alternatives": [
+                "fh581r"
+              ],
+              "note": "Distinct detached roof on terminal short branch, selected ř; ordinary r alternative retained."
+            }
+          ],
+          "reading_bbox_xyxy": [
+            85,
+            1565,
+            1100,
+            1635
+          ],
+          "native_bbox_xyxy": [
+            1565,
+            75,
+            1635,
+            1090
+          ],
+          "reading_rotation_clockwise_degrees": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "region": "single lower block",
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "294-L04",
+          "ciphertext": "b2c 6 b3gth6f2 b3c486 d4 b5b32c.",
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 6,
+              "selected": "b3gth6f2",
+              "alternatives": [
+                "b3gdh6f2",
+                "b3gth6f2"
+              ],
+              "note": "Tall crossed t between descending g and high-loop h, rounded d alternative."
+            }
+          ],
+          "reading_bbox_xyxy": [
+            85,
+            1610,
+            1100,
+            1685
+          ],
+          "native_bbox_xyxy": [
+            1610,
+            75,
+            1685,
+            1090
+          ],
+          "reading_rotation_clockwise_degrees": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "region": "single lower block",
+          "physical_encoded_body_count": null
+        }
+      ],
+      "marks": [
+        {
+          "line_id": "294-L01",
+          "kind": "dash",
+          "note": "Separate horizontal dash afterh6t retained."
+        },
+        {
+          "line_id": "294-L02",
+          "kind": "two_written_exclamations",
+          "note": "Visible tall strokes with separate low dots after initialh6t and terminalg832. Not masks or cipher bodies."
+        },
+        {
+          "region": "printed credit",
+          "kind": "printed_text_excluded",
+          "note": "Printed publishing/artist credit beside ordinary date inspected, not handwritten cipher."
+        },
+        {
+          "line_id": "294-L03",
+          "offset": 39,
+          "selected": "ř",
+          "kind": "roof_short_r_family",
+          "note": "Visible detached roof owned by short branching body; r alternative retained, no generic marked-family normalization."
+        }
+      ],
+      "unresolved_clusters": [],
+      "ordinary_numerals": [
+        {
+          "visual_candidate": "25./I.1902.",
+          "kind": "ordinary_date",
+          "reading_rotation_clockwise_degrees": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            295,
+            1380,
+            525,
+            1460
+          ],
+          "native_bbox_xyxy": [
+            1380,
+            650,
+            1460,
+            880
+          ],
+          "note": "Separate date candidate with Roman I; stroke/month reading provisional, no authenticated chronology/authorship. Excluded from cipher rows."
+        }
+      ],
+      "actual_question_punctuation": [],
+      "notes": [
+        "Complete native face/all margins and CW90 whole-source overview inspected, plus enlarged full handwritten block. Four physical cipher rows in one CW90 region, not three; separate date above block. No additional cipher observed.",
+        "No actual question or unknown mask selected. Two written exclamations and a dash preserved. Zero masks does not establish source accuracy/completeness; b/p,g/q,m/n,c/s and tall stem alternatives explicitly retained. Physical totals unknown.",
+        "Only supported transcription kinds permitted; descriptive disputes outside tags. Ordinary date outside cipher; no in-cipher numeral span selected. Unassigned9/e/etc not mapped; no legacy9→Z/new family values and no editorial reconstruction."
+      ],
+      "physical_encoded_body_count": null
+    },
+    "first_raw_sha256": "d1bcc0ff6c8339d17ab5bdae80ec0c4e7c184e13e1bb41d7cf00c65b6238561e",
+    "first_raw_file_sha256": "9136a44cc8ef87d6c17ffb3dca5e667242a9c9af36fcf0116316f04b7544434a",
+    "first_raw_hash_scope": "Canonical compact sorted UTF-8 JSON raw object; ensure_ascii=False,sort_keys=True,separators comma/colon.",
+    "first_frozen_at_utc": "2026-10-20T17:49:08.638376+00:00",
+    "first_source_sha256": "77483d636a211c98f75aba4470a966cedfb563498cdbefb68b34f1cd0e9a4684",
+    "first_context": "FIRST target-unexposed source reading. Fixed22 canonical key visible; prior own source work and nonblind curation on other cards including279–281,283,287–288 and own284/285 source passes known. Related AI/shared model influence, not human/external independence. No blind294, sibling/new-batch target raw/literal/prepared or target transcript accessed. No plaintext/editorial rendered before freeze.",
+    "first_wrapper_metadata": {
+      "card_id": "294",
+      "reader": "first294",
+      "model": "gpt-6.1-sol assigned; exact deployment unavailable",
+      "temperature": null,
+      "seed": null,
+      "phase": "Immutable FIRST source-only visual raw freeze",
+      "source": {
+        "card_id": 294,
+        "face": "Picture side",
+        "url": "https://api.hcportal.eu/media/4899/pc_hcp_294_pic.JPG",
+        "sha256": "77483d636a211c98f75aba4470a966cedfb563498cdbefb68b34f1cd0e9a4684",
+        "bytes": 1241012,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1613,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1613",
+        "record_json_pointer": "/data/data/1606",
+        "image_json_pointer": "/data/data/1606/datagroups/0/data/0/image/original",
+        "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; retain saved source bytes privately",
+        "http_status": 200,
+        "acquired_utc": "2026-10-20T17:43:33.193331+00:00"
+      },
+      "orientation": {
+        "regions": [
+          {
+            "region": "single lower block",
+            "reading_rotation_clockwise_degrees": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ]
+          }
+        ],
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "inverse_reading_to_native_bbox": "Native0 identity; CW90=[yr0,1175-xr1,yr1,1175-xr0];CCW90/CW270=[1785-yr1,xr0,1785-yr0,xr1];180=[1785-xr1,1175-yr1,1785-xr0,1175-yr0]. Whole-source pixel coordinates.",
+        "locator_precision": "Coarse whole-row source locators, not exact glyph/cluster boundaries."
+      },
+      "context": "FIRST target-unexposed source reading. Fixed22 canonical key visible; prior own source work and nonblind curation on other cards including279–281,283,287–288 and own284/285 source passes known. Related AI/shared model influence, not human/external independence. No blind294, sibling/new-batch target raw/literal/prepared or target transcript accessed. No plaintext/editorial rendered before freeze.",
+      "raw_frozen_at_utc": "2026-10-20T17:49:08.638376+00:00",
+      "raw_sha256": "d1bcc0ff6c8339d17ab5bdae80ec0c4e7c184e13e1bb41d7cf00c65b6238561e",
+      "raw_hash_scope": "Canonical compact sorted UTF-8 JSON raw object; ensure_ascii=False,sort_keys=True,separators comma/colon.",
+      "physical_encoded_body_count": null,
+      "attestation": {
+        "programmatic_decode_before_freeze": false,
+        "sibling_target_accessed": false,
+        "both_own_raws_before_any_decode": true,
+        "independence": "Related AI source-only pass; no human/external or cognitive-independence assertion."
+      }
+    },
+    "first_strict_literal_file_sha256": "4bdcc10a7d863edd6e1db91d7e3ad0f04aa15d9082c5f41ef4a7606243d2c9eb",
+    "blind_raw": {
+      "rows": [
+        {
+          "line_id": "294-R01",
+          "ciphertext": "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5",
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            125,
+            1480,
+            1110,
+            1555
+          ],
+          "native_bbox_xyxy": [
+            1480,
+            65,
+            1555,
+            1050
+          ],
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 37,
+              "selected": "chts5",
+              "alternatives": [
+                "chds5",
+                "crts5"
+              ],
+              "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "294-R02",
+          "ciphertext": "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!",
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            85,
+            1520,
+            1120,
+            1610
+          ],
+          "native_bbox_xyxy": [
+            1520,
+            55,
+            1610,
+            1090
+          ],
+          "transcription": [
+            {
+              "offset": 3,
+              "text": "!",
+              "kind": "punctuation"
+            },
+            {
+              "offset": 44,
+              "text": "!",
+              "kind": "punctuation"
+            }
+          ],
+          "uncertainties": [
+            {
+              "offset": 14,
+              "selected": "fc6q",
+              "alternatives": [
+                "fc6g"
+              ],
+              "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "294-R03",
+          "ciphertext": "m6 t3b4c c5 d5s4n m5cn4hm5. d4c4s fh581ř",
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            90,
+            1570,
+            1120,
+            1650
+          ],
+          "native_bbox_xyxy": [
+            1570,
+            55,
+            1650,
+            1085
+          ],
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 18,
+              "selected": "m5cn4hm5",
+              "alternatives": [
+                "m5cm4hm5"
+              ],
+              "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "294-R04",
+          "ciphertext": "b2c 6 b3gth6f2 b3c486 d4 b5b32c.",
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            90,
+            1620,
+            1015,
+            1705
+          ],
+          "native_bbox_xyxy": [
+            1620,
+            160,
+            1705,
+            1085
+          ],
+          "transcription": [],
+          "uncertainties": [
+            {
+              "offset": 6,
+              "selected": "b3gth6f2",
+              "alternatives": [
+                "b3qth6f2"
+              ],
+              "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+            }
+          ],
+          "physical_encoded_body_count": null
+        }
+      ],
+      "marks": [
+        {
+          "line_id": "294-R03",
+          "offset": 39,
+          "selected": "ř",
+          "kind": "detached_roof_short_branch",
+          "reason": "Separate roof/fork above short shoulder; provisional marked-r classification."
+        }
+      ],
+      "unresolved_clusters": [],
+      "ordinary_numerals": [],
+      "actual_question_punctuation": [],
+      "separate_date_inscription": {
+        "visual_candidate": "25./I.1902.",
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_bbox_xyxy": [
+          285,
+          1375,
+          490,
+          1455
+        ],
+        "native_bbox_xyxy": [
+          1375,
+          685,
+          1455,
+          890
+        ],
+        "qualification": "Ordinary noncipher inscription; Roman strokes/day count tentative and unverified, no chronology inference."
+      },
+      "physical_encoded_body_count": null,
+      "notes": [
+        "Complete saved source face and margins inspected. Illustration, caption and watermark retained unchanged; excluded from cipher rows.",
+        "Half-open edge coordinates in whole-source frames. Broad row context can overlap adjacent strokes; neither physical segmentation nor exact glyph extents established.",
+        "Spaces, hyphens and stops preserve provisional visible grouping. Masks can span an unknown number of bodies. F/G/Q/W/X/9/e remain unassigned; no older notation bridge.",
+        "No in-cipher numeral spans selected; date is a separate unverified ordinary inscription. Genuine question hooks have punctuation tags; other question placeholders are unresolved masks.",
+        "No target plaintext/editorial proposals or programmatic substitution before raw freeze.",
+        "One principal cipher block inventoried; no additional cipher region observed."
+      ]
+    },
+    "blind_raw_sha256": "4ffa1d2277ae5a7348164e0192817f713ec3d87c30560c4e177d3c3bdba767f4",
+    "blind_raw_file_sha256": "272f13d519d85f8dbc963abb5b1f13b1c31401f94fc3e0ca758a42c1797fd634",
+    "blind_raw_hash_scope": "Canonical UTF-8 raw-object JSON: ensure_ascii=False, sorted keys, compact separators; excludes wrapper.",
+    "blind_frozen_at_utc": "2026-10-20T17:48:08.661671+00:00",
+    "blind_source_sha256": "77483d636a211c98f75aba4470a966cedfb563498cdbefb68b34f1cd0e9a4684",
+    "blind_context": {
+      "all_four_own_raws_required_before_decode": true,
+      "programmatic_decode_before_freeze": false,
+      "sibling_target_exchange_before_freeze": false
+    },
+    "blind_wrapper_metadata": {
+      "card_id": 294,
+      "reading_role": "Target-unexposed SECOND source-only reading",
+      "model": "gpt-6.1-sol",
+      "exact_deployment": null,
+      "temperature": null,
+      "seed": null,
+      "source": {
+        "card_id": 294,
+        "face": "Picture side",
+        "url": "https://api.hcportal.eu/media/4899/pc_hcp_294_pic.JPG",
+        "sha256": "77483d636a211c98f75aba4470a966cedfb563498cdbefb68b34f1cd0e9a4684",
+        "bytes": 1241012,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1613,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1613",
+        "record_json_pointer": "/data/data/1606",
+        "image_json_pointer": "/data/data/1606/datagroups/0/data/0/image/original",
+        "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; retain saved source bytes privately",
+        "http_status": 200,
+        "acquired_utc": "2026-10-20T17:43:33.193331+00:00"
+      },
+      "orientation": {
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_to_native_bbox": "[y0,1175-x1,y1,1175-x0]"
+      },
+      "exposure": {
+        "canonical_key_visible": true,
+        "prior_other_card_and_implementation_context": true,
+        "related_AI_context": true,
+        "human_or_external_independent_validation": false,
+        "competing_target_reading_or_plaintext_opened": false,
+        "own_same_task_context": "Assigned291–294 sources inspected; own first291/292 source shapes and prior other-card context visible during second293/294. No competing target reading accessed.",
+        "limits": "Related AI with visible fixed key, not human/external independent evidence or key-free blindness."
+      },
+      "raw_frozen_at_utc": "2026-10-20T17:48:08.661671+00:00",
+      "raw_sha256": "4ffa1d2277ae5a7348164e0192817f713ec3d87c30560c4e177d3c3bdba767f4",
+      "raw_hash_scope": "Canonical UTF-8 raw-object JSON: ensure_ascii=False, sorted keys, compact separators; excludes wrapper.",
+      "attestation": {
+        "all_four_own_raws_required_before_decode": true,
+        "programmatic_decode_before_freeze": false,
+        "sibling_target_exchange_before_freeze": false
+      }
+    },
+    "blind_strict_literal_file_sha256": "7d4dc51d6c5669dd8be4787dd4c618745832b57b6a93c6cbbd57bb469fb8b52c",
+    "first_strict_provenance": {
+      "card_id": "294",
+      "notation": "pdf204-canonical",
+      "source_sha256": "77483d636a211c98f75aba4470a966cedfb563498cdbefb68b34f1cd0e9a4684",
+      "raw_sha256": "d1bcc0ff6c8339d17ab5bdae80ec0c4e7c184e13e1bb41d7cf00c65b6238561e",
+      "raw_file_sha256": "9136a44cc8ef87d6c17ffb3dca5e667242a9c9af36fcf0116316f04b7544434a",
+      "raw_frozen_at_utc": "2026-10-20T17:49:08.638376+00:00",
+      "decoded_at_utc": "2026-10-20T17:49:08.642813+00:00",
+      "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+      "after_both_own_raw_freezes": true,
+      "policy": "Unchanged strict fixed-key replay only. All supported raw transcription spans passed unchanged. Actual questions excluded from bodies; unknown symbols stay unknown with no legacy mappings. Selected replay slots are not certified physical body counts. No editorial interpretation."
+    },
+    "first_decode_executor": "Same assigned source actor performed own deterministic replay after all own required raw freezes; not later parent/QA execution.",
+    "blind_strict_provenance": {
+      "card_id": 294,
+      "notation": "pdf204-canonical",
+      "decoded_at_utc": "2026-10-20T17:48:43.746519+00:00",
+      "after_all_four_own_raw_freezes": true,
+      "raw_frozen_at_utc": "2026-10-20T17:48:08.661671+00:00",
+      "raw_sha256": "4ffa1d2277ae5a7348164e0192817f713ec3d87c30560c4e177d3c3bdba767f4",
+      "raw_file_sha256": "272f13d519d85f8dbc963abb5b1f13b1c31401f94fc3e0ca758a42c1797fd634",
+      "source_sha256": "77483d636a211c98f75aba4470a966cedfb563498cdbefb68b34f1cd0e9a4684",
+      "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+      "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
+      "scope": "Own deterministic strict output after all four own immutable source-only freezes. Selected slots only; masks can cover unknown numbers of physical bodies. Written punctuation excluded, no implicit numeral or legacy mapping. No sibling target exchange or editorial edition."
+    },
+    "blind_decode_executor": "Same assigned source actor performed own deterministic replay after all own required raw freezes; not later parent/QA execution.",
+    "chronology_scope": {
+      "assigned_slots_not_chronological": true,
+      "first_slot_froze_later_than_second_slot": true,
+      "first_slot_raw_frozen_at_utc": "2026-10-20T17:49:08.638376+00:00",
+      "second_slot_raw_frozen_at_utc": "2026-10-20T17:48:08.661671+00:00",
+      "all_eight_checkpoint_checked_at_utc": "2026-10-20T17:51:03.682794+00:00",
+      "all_eight_checkpoint_before_curator_exchange": true,
+      "qa_group_freeze_before_own_decode_check": true,
+      "limit": "Recorded timestamps/attestations and tool sequence support chronology; fingerprints alone prove neither cognitive independence nor time."
+    },
+    "mechanical_qa": {
+      "reviewed_at_utc": "2026-10-20T17:53:28.038758+00:00",
+      "scope": "Read-only mechanical QA, not third source-glyph judgment, semantic proof, authentication or independent validation. Frozen raw/literal/source/checkpoint unchanged; no current curator files accessed.",
+      "status": "mechanical_checks_passed_with_explicit_scope_limits",
+      "mechanical_errors": 0,
+      "scope_exceptions": 0,
+      "third_source_judgment": false
+    }
+  },
+  "lines": [
+    {
+      "line_id": "294-L01",
+      "reading_bbox_xyxy": [
+        85,
+        1470,
+        1100,
+        1540
+      ],
+      "native_bbox_xyxy": [
+        1470,
+        75,
+        1540,
+        1090
+      ],
+      "ciphertext": "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5",
+      "transcription": [],
+      "physical_encoded_body_count": null,
+      "first_frozen_reading_uncertainties": [
+        {
+          "offset": 0,
+          "selected": "n6n",
+          "alternatives": [
+            "m6n",
+            "n6m"
+          ],
+          "note": "Two low single arches selected n; joined m alternatives retained."
+        },
+        {
+          "offset": 8,
+          "selected": "t2c4sg3",
+          "alternatives": [
+            "t2c4sq3"
+          ],
+          "note": "Final descender broad open hook g versus closed q provisional."
+        },
+        {
+          "offset": 30,
+          "selected": "b585r3",
+          "alternatives": [
+            "p585r3",
+            "b585h3"
+          ],
+          "note": "Initial tall looped stem selected b, descending p alternative; short branching r/h ownership provisional."
+        },
+        {
+          "offset": 37,
+          "selected": "chts5",
+          "alternatives": [
+            "chds5",
+            "chts5"
+          ],
+          "note": "Crossed tall t versus rounded d; following low angular s selected by contour."
+        }
+      ],
+      "blind_frozen_reading_uncertainties": [
+        {
+          "offset": 37,
+          "selected": "chts5",
+          "alternatives": [
+            "chds5",
+            "crts5"
+          ],
+          "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+        }
+      ],
+      "source_selection_basis": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+      "region": "single lower block",
+      "reading_rotation_clockwise_degrees": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "literal": "MAM TE, DUSICKO MOJE, RAD — Z PELEHO SRDCE",
+      "encoded_bodies": 31,
+      "expanded_letters": 31,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "294-L02",
+      "reading_bbox_xyxy": [
+        85,
+        1518,
+        1100,
+        1588
+      ],
+      "native_bbox_xyxy": [
+        1518,
+        75,
+        1588,
+        1090
+      ],
+      "ciphertext": "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!",
+      "transcription": [],
+      "physical_encoded_body_count": null,
+      "first_frozen_reading_uncertainties": [
+        {
+          "offset": 14,
+          "selected": "fc6g",
+          "alternatives": [
+            "fc6q"
+          ],
+          "note": "Broad lower hook g selected, q alternative; tall f distinct from following low c."
+        },
+        {
+          "offset": 28,
+          "selected": "cf6n",
+          "alternatives": [
+            "cf6m"
+          ],
+          "note": "Terminal low single arch n versus joined m shoulders provisional."
+        }
+      ],
+      "blind_frozen_reading_uncertainties": [
+        {
+          "offset": 14,
+          "selected": "fc6q",
+          "alternatives": [
+            "fc6g"
+          ],
+          "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+        }
+      ],
+      "source_selection_basis": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+      "region": "single lower block",
+      "reading_rotation_clockwise_degrees": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "literal": "RAD! BYLA JSI VSAK V LISTKU SVAM VELICE ZLOU!",
+      "encoded_bodies": 35,
+      "expanded_letters": 35,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "294-L03",
+      "reading_bbox_xyxy": [
+        85,
+        1565,
+        1100,
+        1635
+      ],
+      "native_bbox_xyxy": [
+        1565,
+        75,
+        1635,
+        1090
+      ],
+      "ciphertext": "m6 t3b4c c5 d5s4n m5cn4hm5. d4c4s fh581ř",
+      "transcription": [],
+      "physical_encoded_body_count": null,
+      "first_frozen_reading_uncertainties": [
+        {
+          "offset": 12,
+          "selected": "d5s4n",
+          "alternatives": [
+            "d5c4n"
+          ],
+          "note": "Third low body angular s selected, rounded open c alternative; no lexical correction."
+        },
+        {
+          "offset": 18,
+          "selected": "m5cm4hm5",
+          "alternatives": [
+            "m5cn4hm5",
+            "m5cm4rm5"
+          ],
+          "note": "Low joined m shoulders and high-loop h/short r alternatives remain."
+        },
+        {
+          "offset": 34,
+          "selected": "fh581ř",
+          "alternatives": [
+            "fh581r"
+          ],
+          "note": "Distinct detached roof on terminal short branch, selected ř; ordinary r alternative retained."
+        }
+      ],
+      "blind_frozen_reading_uncertainties": [
+        {
+          "offset": 18,
+          "selected": "m5cn4hm5",
+          "alternatives": [
+            "m5cm4hm5"
+          ],
+          "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+        }
+      ],
+      "source_selection_basis": "In m5cn4hm5 body afterc has one principal arch n, accepting SECOND over FIRSTm. In d5s4n third body remains low angulars, as both selected, rather than rounded openc from a fluent verb expectation; TECIM remains. Finalfh581ř has detached roof on short branch, no general mark equivalence.",
+      "region": "single lower block",
+      "reading_rotation_clockwise_degrees": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "literal": "NA DOPIS SE TECIM NESMIRNE. TISIC VRELYCH",
+      "encoded_bodies": 33,
+      "expanded_letters": 34,
+      "ch_occurrences": 1,
+      "unknowns": []
+    },
+    {
+      "line_id": "294-L04",
+      "reading_bbox_xyxy": [
+        85,
+        1610,
+        1100,
+        1685
+      ],
+      "native_bbox_xyxy": [
+        1610,
+        75,
+        1685,
+        1090
+      ],
+      "ciphertext": "b2c 6 b3gth6f2 b3c486 d4 b5b32c.",
+      "transcription": [],
+      "physical_encoded_body_count": null,
+      "first_frozen_reading_uncertainties": [
+        {
+          "offset": 6,
+          "selected": "b3gth6f2",
+          "alternatives": [
+            "b3gdh6f2",
+            "b3gth6f2"
+          ],
+          "note": "Tall crossed t between descending g and high-loop h, rounded d alternative."
+        }
+      ],
+      "blind_frozen_reading_uncertainties": [
+        {
+          "offset": 6,
+          "selected": "b3gth6f2",
+          "alternatives": [
+            "b3qth6f2"
+          ],
+          "observation": "Selected visible loop/stem/arch contour and provisional grouping; alternatives retain short/tall shoulder, hooked/returning descender or connected-body count ambiguity. No plaintext restoration used."
+        }
+      ],
+      "source_selection_basis": "Both select same visible row. Crossed t and tall loop h remain separate inb3gth6f2; low4/1 and m/n joins qualified. Final group retained as text candidate only, no authenticated sender.",
+      "region": "single lower block",
+      "reading_rotation_clockwise_degrees": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "literal": "PUS A POZDRAVU POSILA TI PEPOUS.",
+      "encoded_bodies": 26,
+      "expanded_letters": 26,
+      "ch_occurrences": 0,
+      "unknowns": []
+    }
+  ],
+  "uncertainty_ledger": [
+    {
+      "line_id": "294-L01",
+      "offset": 0,
+      "selected": "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5",
+      "alternatives": [
+        "n6n d5, t2c4sg3 n375, h6t - g b585r3 chts5",
+        "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5"
+      ],
+      "reason": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+      "scope": "Whole-row selected reading; historical local alternatives preserved in raw layers.",
+      "native_bbox_xyxy": [
+        1470,
+        75,
+        1540,
+        1090
+      ]
+    },
+    {
+      "line_id": "294-L02",
+      "offset": 0,
+      "selected": "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!",
+      "alternatives": [
+        "h6t! p186 7c4 fc6g f 84cdg2 cf6n f584s5 g832!",
+        "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!"
+      ],
+      "reason": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+      "scope": "Whole-row selected reading; historical local alternatives preserved in raw layers.",
+      "native_bbox_xyxy": [
+        1518,
+        75,
+        1588,
+        1090
+      ]
+    },
+    {
+      "line_id": "294-L03",
+      "offset": 0,
+      "selected": "m6 t3b4c c5 d5s4n m5cn4hm5. d4c4s fh581ř",
+      "alternatives": [
+        "m6 t3b4c c5 d5s4n m5cm4hm5. d4c4s fh581ř",
+        "m6 t3b4c c5 d5s4n m5cn4hm5. d4c4s fh581ř"
+      ],
+      "reason": "In m5cn4hm5 body afterc has one principal arch n, accepting SECOND over FIRSTm. In d5s4n third body remains low angulars, as both selected, rather than rounded openc from a fluent verb expectation; TECIM remains. Finalfh581ř has detached roof on short branch, no general mark equivalence.",
+      "scope": "Whole-row selected reading; historical local alternatives preserved in raw layers.",
+      "native_bbox_xyxy": [
+        1565,
+        75,
+        1635,
+        1090
+      ]
+    },
+    {
+      "line_id": "294-L04",
+      "offset": 0,
+      "selected": "b2c 6 b3gth6f2 b3c486 d4 b5b32c.",
+      "alternatives": [
+        "b2c 6 b3gth6f2 b3c486 d4 b5b32c."
+      ],
+      "reason": "Both select same visible row. Crossed t and tall loop h remain separate inb3gth6f2; low4/1 and m/n joins qualified. Final group retained as text candidate only, no authenticated sender.",
+      "scope": "Whole-row selected reading; historical local alternatives preserved in raw layers.",
+      "native_bbox_xyxy": [
+        1610,
+        75,
+        1685,
+        1090
+      ]
+    },
+    {
+      "line_id": "294-L01",
+      "offset": 8,
+      "selected": "t2c4sq3",
+      "alternatives": [
+        "t2c4sg3"
+      ],
+      "comparison_reader": "first",
+      "reason": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+      "native_bbox_xyxy": [
+        1470,
+        75,
+        1540,
+        1090
+      ],
+      "bbox_precision": "Whole row only."
+    },
+    {
+      "line_id": "294-L01",
+      "offset": 26,
+      "selected": "—",
+      "alternatives": [
+        "-"
+      ],
+      "comparison_reader": "first",
+      "reason": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+      "native_bbox_xyxy": [
+        1470,
+        75,
+        1540,
+        1090
+      ],
+      "bbox_precision": "Whole row only."
+    },
+    {
+      "line_id": "294-L01",
+      "offset": 0,
+      "selected": "n6n",
+      "alternatives": [
+        "m6n",
+        "n6m"
+      ],
+      "comparison_reader": "first",
+      "reason": "Two low single arches selected n; joined m alternatives retained."
+    },
+    {
+      "line_id": "294-L01",
+      "offset": 30,
+      "selected": "b585r3",
+      "alternatives": [
+        "p585r3",
+        "b585h3"
+      ],
+      "comparison_reader": "first",
+      "reason": "Initial tall looped stem selected b, descending p alternative; short branching r/h ownership provisional."
+    },
+    {
+      "line_id": "294-L01",
+      "offset": 37,
+      "selected": "chts5",
+      "alternatives": [
+        "chds5",
+        "chts5"
+      ],
+      "comparison_reader": "first",
+      "reason": "Crossed tall t versus rounded d; following low angular s selected by contour."
+    },
+    {
+      "line_id": "294-L01",
+      "offset": 37,
+      "selected": "chts5",
+      "alternatives": [
+        "chds5",
+        "crts5"
+      ],
+      "comparison_reader": "blind",
+      "reason": "Historical visual alternative retained."
+    },
+    {
+      "line_id": "294-L02",
+      "offset": 14,
+      "selected": "fc6q",
+      "alternatives": [
+        "fc6g"
+      ],
+      "comparison_reader": "first",
+      "reason": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+      "native_bbox_xyxy": [
+        1518,
+        75,
+        1588,
+        1090
+      ],
+      "bbox_precision": "Whole row only."
+    },
+    {
+      "line_id": "294-L02",
+      "offset": 21,
+      "selected": "84cdq2",
+      "alternatives": [
+        "84cdg2"
+      ],
+      "comparison_reader": "first",
+      "reason": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+      "native_bbox_xyxy": [
+        1518,
+        75,
+        1588,
+        1090
+      ],
+      "bbox_precision": "Whole row only."
+    },
+    {
+      "line_id": "294-L02",
+      "offset": 28,
+      "selected": "cf6n",
+      "alternatives": [
+        "cf6m"
+      ],
+      "comparison_reader": "first",
+      "reason": "Terminal low single arch n versus joined m shoulders provisional."
+    },
+    {
+      "line_id": "294-L02",
+      "offset": 14,
+      "selected": "fc6q",
+      "alternatives": [
+        "fc6g"
+      ],
+      "comparison_reader": "blind",
+      "reason": "Historical visual alternative retained."
+    },
+    {
+      "line_id": "294-L03",
+      "offset": 18,
+      "selected": "m5cn4hm5.",
+      "alternatives": [
+        "m5cm4hm5."
+      ],
+      "comparison_reader": "first",
+      "reason": "In m5cn4hm5 body afterc has one principal arch n, accepting SECOND over FIRSTm. In d5s4n third body remains low angulars, as both selected, rather than rounded openc from a fluent verb expectation; TECIM remains. Finalfh581ř has detached roof on short branch, no general mark equivalence.",
+      "native_bbox_xyxy": [
+        1565,
+        75,
+        1635,
+        1090
+      ],
+      "bbox_precision": "Whole row only."
+    },
+    {
+      "line_id": "294-L03",
+      "offset": 12,
+      "selected": "d5s4n",
+      "alternatives": [
+        "d5c4n"
+      ],
+      "comparison_reader": "first",
+      "reason": "Third low body angular s selected, rounded open c alternative; no lexical correction."
+    },
+    {
+      "line_id": "294-L03",
+      "offset": 34,
+      "selected": "fh581ř",
+      "alternatives": [
+        "fh581r"
+      ],
+      "comparison_reader": "first",
+      "reason": "Distinct detached roof on terminal short branch, selected ř; ordinary r alternative retained."
+    },
+    {
+      "line_id": "294-L03",
+      "offset": 18,
+      "selected": "m5cn4hm5",
+      "alternatives": [
+        "m5cm4hm5"
+      ],
+      "comparison_reader": "blind",
+      "reason": "Historical visual alternative retained."
+    },
+    {
+      "line_id": "294-L04",
+      "offset": 6,
+      "selected": "b3gth6f2",
+      "alternatives": [
+        "b3gdh6f2",
+        "b3gth6f2"
+      ],
+      "comparison_reader": "first",
+      "reason": "Tall crossed t between descending g and high-loop h, rounded d alternative."
+    },
+    {
+      "line_id": "294-L04",
+      "offset": 6,
+      "selected": "b3gth6f2",
+      "alternatives": [
+        "b3qth6f2"
+      ],
+      "comparison_reader": "blind",
+      "reason": "Historical visual alternative retained."
+    }
+  ],
+  "unknown_clusters": [],
+  "physical_encoded_body_count": null,
+  "counts_policy": "Strict selected-symbol replay counts only. One mask counts one decoder slot despite unknown physical cluster length; zero masks never establishes complete/source-accurate reading. Ordinary date outside cipher counts.",
+  "initial_reconciliation": {
+    "utc": "2026-10-20T17:57:47.675852+00:00",
+    "date": "2026-10-20",
+    "model": "gpt-6.1-sol",
+    "temperature": "unavailable",
+    "seed": "unavailable",
+    "method": "Assigned FIRST source reader now NONBLIND curator. Slot labels are not chronology; both frozen layers and originals re-examined with prior other-card context. No human/external independence.",
+    "changes_from_first": [
+      {
+        "line_id": "294-L01",
+        "old_offset_start": 13,
+        "old_offset_end": 14,
+        "old": "g",
+        "new_offset_start": 13,
+        "new_offset_end": 14,
+        "new": "q",
+        "source_basis": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+        "native_bbox_xyxy": [
+          1470,
+          75,
+          1540,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L01",
+        "old_offset_start": 26,
+        "old_offset_end": 27,
+        "old": "-",
+        "new_offset_start": 26,
+        "new_offset_end": 27,
+        "new": "—",
+        "source_basis": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+        "native_bbox_xyxy": [
+          1470,
+          75,
+          1540,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L02",
+        "old_offset_start": 17,
+        "old_offset_end": 18,
+        "old": "g",
+        "new_offset_start": 17,
+        "new_offset_end": 18,
+        "new": "q",
+        "source_basis": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+        "native_bbox_xyxy": [
+          1518,
+          75,
+          1588,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L02",
+        "old_offset_start": 25,
+        "old_offset_end": 26,
+        "old": "g",
+        "new_offset_start": 25,
+        "new_offset_end": 26,
+        "new": "q",
+        "source_basis": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+        "native_bbox_xyxy": [
+          1518,
+          75,
+          1588,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L03",
+        "old_offset_start": 21,
+        "old_offset_end": 22,
+        "old": "m",
+        "new_offset_start": 21,
+        "new_offset_end": 22,
+        "new": "n",
+        "source_basis": "In m5cn4hm5 body afterc has one principal arch n, accepting SECOND over FIRSTm. In d5s4n third body remains low angulars, as both selected, rather than rounded openc from a fluent verb expectation; TECIM remains. Finalfh581ř has detached roof on short branch, no general mark equivalence.",
+        "native_bbox_xyxy": [
+          1565,
+          75,
+          1635,
+          1090
+        ]
+      }
+    ],
+    "reader_disagreements": [
+      {
+        "line_id": "294-L01",
+        "first_offset_start": 13,
+        "first_offset_end": 14,
+        "first": "g",
+        "blind_offset_start": 13,
+        "blind_offset_end": 14,
+        "blind": "q",
+        "selected_line": "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5",
+        "source_basis": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+        "native_bbox_xyxy": [
+          1470,
+          75,
+          1540,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L01",
+        "first_offset_start": 26,
+        "first_offset_end": 27,
+        "first": "-",
+        "blind_offset_start": 26,
+        "blind_offset_end": 27,
+        "blind": "—",
+        "selected_line": "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5",
+        "source_basis": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+        "native_bbox_xyxy": [
+          1470,
+          75,
+          1540,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L02",
+        "first_offset_start": 17,
+        "first_offset_end": 18,
+        "first": "g",
+        "blind_offset_start": 17,
+        "blind_offset_end": 18,
+        "blind": "q",
+        "selected_line": "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!",
+        "source_basis": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+        "native_bbox_xyxy": [
+          1518,
+          75,
+          1588,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L02",
+        "first_offset_start": 25,
+        "first_offset_end": 26,
+        "first": "g",
+        "blind_offset_start": 25,
+        "blind_offset_end": 26,
+        "blind": "q",
+        "selected_line": "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!",
+        "source_basis": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+        "native_bbox_xyxy": [
+          1518,
+          75,
+          1588,
+          1090
+        ]
+      },
+      {
+        "line_id": "294-L03",
+        "first_offset_start": 21,
+        "first_offset_end": 22,
+        "first": "m",
+        "blind_offset_start": 21,
+        "blind_offset_end": 22,
+        "blind": "n",
+        "selected_line": "m6 t3b4c c5 d5s4n m5cn4hm5. d4c4s fh581ř",
+        "source_basis": "In m5cn4hm5 body afterc has one principal arch n, accepting SECOND over FIRSTm. In d5s4n third body remains low angulars, as both selected, rather than rounded openc from a fluent verb expectation; TECIM remains. Finalfh581ř has detached roof on short branch, no general mark equivalence.",
+        "native_bbox_xyxy": [
+          1565,
+          75,
+          1635,
+          1090
+        ]
+      }
+    ],
+    "source_decisions": [
+      {
+        "line_id": "294-L01",
+        "selected": "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5",
+        "source_basis": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext."
+      },
+      {
+        "line_id": "294-L02",
+        "selected": "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!",
+        "source_basis": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM."
+      },
+      {
+        "line_id": "294-L03",
+        "selected": "m6 t3b4c c5 d5s4n m5cn4hm5. d4c4s fh581ř",
+        "source_basis": "In m5cn4hm5 body afterc has one principal arch n, accepting SECOND over FIRSTm. In d5s4n third body remains low angulars, as both selected, rather than rounded openc from a fluent verb expectation; TECIM remains. Finalfh581ř has detached roof on short branch, no general mark equivalence."
+      },
+      {
+        "line_id": "294-L04",
+        "selected": "b2c 6 b3gth6f2 b3c486 d4 b5b32c.",
+        "source_basis": "Both select same visible row. Crossed t and tall loop h remain separate inb3gth6f2; low4/1 and m/n joins qualified. Final group retained as text candidate only, no authenticated sender."
+      }
+    ],
+    "snapshot_ref": "../revisions/294-initial-reconciliation.json",
+    "selected_snapshot_sha256": "5f2d90328f4d36fe8050ddd863754e736fbe5fa8a7533b5cf768e029d4984004"
+  },
+  "marks_and_segmentation_notes": {
+    "first_frozen_historical": [
+      {
+        "line_id": "294-L01",
+        "kind": "dash",
+        "note": "Separate horizontal dash afterh6t retained."
+      },
+      {
+        "line_id": "294-L02",
+        "kind": "two_written_exclamations",
+        "note": "Visible tall strokes with separate low dots after initialh6t and terminalg832. Not masks or cipher bodies."
+      },
+      {
+        "region": "printed credit",
+        "kind": "printed_text_excluded",
+        "note": "Printed publishing/artist credit beside ordinary date inspected, not handwritten cipher."
+      },
+      {
+        "line_id": "294-L03",
+        "offset": 39,
+        "selected": "ř",
+        "kind": "roof_short_r_family",
+        "note": "Visible detached roof owned by short branching body; r alternative retained, no generic marked-family normalization."
+      }
+    ],
+    "blind_frozen_historical": [
+      {
+        "line_id": "294-R03",
+        "offset": 39,
+        "selected": "ř",
+        "kind": "detached_roof_short_branch",
+        "reason": "Separate roof/fork above short shoulder; provisional marked-r classification."
+      }
+    ],
+    "current": [
+      {
+        "line_id": "294-L01",
+        "offset": 6,
+        "selected": ",",
+        "kind": "written_punctuation",
+        "note": "Selected visible punctuation; reader alternatives retained in historical rows.",
+        "native_bbox_xyxy": [
+          1470,
+          75,
+          1540,
+          1090
+        ],
+        "bbox_precision": "Coarse whole-row context."
+      },
+      {
+        "line_id": "294-L01",
+        "offset": 20,
+        "selected": ",",
+        "kind": "written_punctuation",
+        "note": "Selected visible punctuation; reader alternatives retained in historical rows.",
+        "native_bbox_xyxy": [
+          1470,
+          75,
+          1540,
+          1090
+        ],
+        "bbox_precision": "Coarse whole-row context."
+      },
+      {
+        "line_id": "294-L02",
+        "offset": 3,
+        "selected": "!",
+        "kind": "written_punctuation",
+        "note": "Selected visible punctuation; reader alternatives retained in historical rows.",
+        "native_bbox_xyxy": [
+          1518,
+          75,
+          1588,
+          1090
+        ],
+        "bbox_precision": "Coarse whole-row context."
+      },
+      {
+        "line_id": "294-L02",
+        "offset": 44,
+        "selected": "!",
+        "kind": "written_punctuation",
+        "note": "Selected visible punctuation; reader alternatives retained in historical rows.",
+        "native_bbox_xyxy": [
+          1518,
+          75,
+          1588,
+          1090
+        ],
+        "bbox_precision": "Coarse whole-row context."
+      },
+      {
+        "line_id": "294-L03",
+        "offset": 39,
+        "selected": "ř",
+        "kind": "roof_on_short_branch",
+        "alternatives": [
+          "r"
+        ],
+        "note": "Detached roof visually owned by short branching r-family body; CH from fixed key, no general mark rule.",
+        "native_bbox_xyxy": [
+          1565,
+          75,
+          1635,
+          1090
+        ],
+        "bbox_precision": "Coarse whole-row context."
+      },
+      {
+        "line_id": "294-L03",
+        "offset": 26,
+        "selected": ".",
+        "kind": "written_punctuation",
+        "note": "Selected visible punctuation; reader alternatives retained in historical rows.",
+        "native_bbox_xyxy": [
+          1565,
+          75,
+          1635,
+          1090
+        ],
+        "bbox_precision": "Coarse whole-row context."
+      },
+      {
+        "line_id": "294-L04",
+        "offset": 31,
+        "selected": ".",
+        "kind": "written_punctuation",
+        "note": "Selected visible punctuation; reader alternatives retained in historical rows.",
+        "native_bbox_xyxy": [
+          1610,
+          75,
+          1685,
+          1090
+        ],
+        "bbox_precision": "Coarse whole-row context."
+      }
+    ],
+    "ordering_and_segmentation": "One four-row block kept in written row order. Printed artist/publishing credit and illustration excluded from handwritten cipher; no narrative or identity evidence inferred from picture."
+  },
+  "ordinary_numerals_outside_cipher": [
+    {
+      "classification": "Unverified ordinary inscription",
+      "reader_candidates": {
+        "FIRST": "25./I.1902.",
+        "SECOND": "25./I.1902."
+      },
+      "provisional_reading": "25./I.1902.",
+      "reading_rotation_clockwise_degrees": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_bbox_xyxy": [
+        295,
+        1380,
+        525,
+        1460
+      ],
+      "native_bbox_xyxy": [
+        1380,
+        650,
+        1460,
+        880
+      ],
+      "cipher_counts_excluded": true,
+      "note": "Separate date above cipher block; Roman/month/day stroke count remains provisional, no authenticated chronology."
+    }
+  ],
+  "editorial_scope": {
+    "coverage": "All four source rows in one CW90 block covered in paired readable prose and exact row fragments. Dash and two genuine exclamations retained. No masks; PELEHO,SVAM,TECIM lexical repairs remain bracketed in both languages.",
+    "regions": [
+      {
+        "region": "single lower block",
+        "included_line_ids": [
+          "294-L01",
+          "294-L02",
+          "294-L03",
+          "294-L04"
+        ]
+      }
+    ],
+    "omitted_line_ids": [],
+    "unresolved_editorial_gaps": [],
+    "order_policy": "One four-row block kept in written row order. Printed artist/publishing credit and illustration excluded from handwritten cipher; no narrative or identity evidence inferred from picture.",
+    "semantic_limits": "Names, apparent places, date and affectionate language are textual proposals only; no authenticated identity, location, authorship, chronology or symbolism.",
+    "readable_proposal_fields": [
+      "proposed_editorial_czech",
+      "proposed_english_translation"
+    ],
+    "physical_row_fragments_retained": true
+  },
+  "proposed_editorial_czech": "Mám tě, dušičko moje, rád — z [celého?; PELEHO] srdce rád! Byla jsi však v lístku [svém?; SVAM] velice zlou! Na dopis se [těším?; TECIM] nesmírně. Tisíc vřelých pus a pozdravů posílá ti Pepouš.",
+  "proposed_english_translation": "I love you, my little soul — with my [whole?; PELEHO] heart, I love you! Yet you were very unkind in [your own?; SVAM] note! I [look forward?; TECIM] immensely to the letter. A thousand warm kisses and greetings are sent to you by Pepouš.",
+  "editorial_fragment_ledger": [
+    {
+      "line_id": "294-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 42,
+      "literal": "MAM TE, DUSICKO MOJE, RAD — Z PELEHO SRDCE",
+      "proposed_czech": "Mám tě, dušičko moje, rád — z [celého?; PELEHO] srdce",
+      "proposed_english": "I love you, my little soul — with my [whole?; PELEHO] heart,",
+      "scope": "Entire selected row, potentially a syntactic fragment; no inferred hidden clause."
+    },
+    {
+      "line_id": "294-L02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 45,
+      "literal": "RAD! BYLA JSI VSAK V LISTKU SVAM VELICE ZLOU!",
+      "proposed_czech": "rád! Byla jsi však v lístku [svém?; SVAM] velice zlou!",
+      "proposed_english": "I love you! Yet you were very unkind in [your own?; SVAM] note!",
+      "scope": "Entire selected row, potentially a syntactic fragment; no inferred hidden clause."
+    },
+    {
+      "line_id": "294-L03",
+      "literal_offset_start": 0,
+      "literal_offset_end": 41,
+      "literal": "NA DOPIS SE TECIM NESMIRNE. TISIC VRELYCH",
+      "proposed_czech": "Na dopis se [těším?; TECIM] nesmírně. Tisíc vřelých",
+      "proposed_english": "I [look forward?; TECIM] immensely to the letter. A thousand warm",
+      "scope": "Entire selected row, potentially a syntactic fragment; no inferred hidden clause."
+    },
+    {
+      "line_id": "294-L04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 32,
+      "literal": "PUS A POZDRAVU POSILA TI PEPOUS.",
+      "proposed_czech": "pus a pozdravů posílá ti Pepouš.",
+      "proposed_english": "kisses and greetings are sent to you by Pepouš.",
+      "scope": "Entire selected row, potentially a syntactic fragment; no inferred hidden clause."
+    }
+  ],
+  "editorial_restoration_ledger": [
+    {
+      "line_id": "294-L01",
+      "literal_offset_start": 30,
+      "literal_offset_end": 36,
+      "literal": "PELEHO",
+      "proposed_czech": "[celého?; PELEHO]",
+      "proposed_english": "[whole?; PELEHO]",
+      "reason": "Tentative initial P→C lexical repair only; selected looped b/P unchanged."
+    },
+    {
+      "line_id": "294-L02",
+      "literal_offset_start": 28,
+      "literal_offset_end": 32,
+      "literal": "SVAM",
+      "proposed_czech": "[svém?; SVAM]",
+      "proposed_english": "[your own?; SVAM]",
+      "reason": "Tentative A→E grammatical/lexical repair; visible source6/A retained, no source vowel replacement."
+    },
+    {
+      "line_id": "294-L03",
+      "literal_offset_start": 12,
+      "literal_offset_end": 17,
+      "literal": "TECIM",
+      "proposed_czech": "[těším?; TECIM]",
+      "proposed_english": "[look forward?; TECIM]",
+      "reason": "Tentative C→S lexical repair plus ordinary Czech diacritics; low angular source s/C not remapped."
+    }
+  ],
+  "layout_normalization_ledger": [
+    {
+      "line_ids": [
+        "294-L01",
+        "294-L02",
+        "294-L03",
+        "294-L04"
+      ],
+      "operations": [
+        "Capitalization and ordinary Czech diacritics",
+        "Conventional English syntax within each labelled row",
+        "Row labels preserve physical regions, without hidden-clause reconstruction"
+      ],
+      "note": "Substantive repairs, masked fragments and tentative lexical expansions are separately bracketed in both languages and ledgered."
+    }
+  ],
+  "editorial_policy": "Every selected row represented in Czech and English. Brackets mark substantive repairs, tentative expansions, or literal-labeled unresolved fragments. Row labels preserve physical layout; prose joining/order remains qualified. No key changes or masked-source reconstruction.",
+  "limits": [
+    "All four source rows in one CW90 block covered in paired readable prose and exact row fragments. Dash and two genuine exclamations retained. No masks; PELEHO,SVAM,TECIM lexical repairs remain bracketed in both languages.",
+    "Assigned FIRST actor now NONBLIND curator. FIRST/SECOND are assigned slots: the FIRST raw freeze is later than the SECOND raw freeze on both target cards. Both source actors performed their own replay after their own required raw freezes. All eight raw freezes and outputs were checkpointed before curator exchange.",
+    "Related AI with fixed canonical key and prior other-card context disclosed in exact wrappers. No human/external independence or third blind reading. Mechanical QA adds no source-glyph judgment.",
+    "Zero masks does not establish completeness/source accuracy. g/q,m/n,c/s,stem and segmentation alternatives remain; physical encoded-body totals unknown/null. Context rectangles are coarse, not fine glyph-ownership proof.",
+    "Separate ordinary dates are unverified text candidates; names, apparent places and imagery authenticate no identities, authorship, chronology or symbolism."
+  ],
+  "encoded_bodies": 125,
+  "expanded_letters": 126,
+  "ch_occurrences": 1,
+  "unknowns": 0,
+  "actual_question_punctuation": [],
+  "ordinary_numeral_spans_in_cipher": [],
+  "segmentation_ledger_current": [
+    {
+      "line_id": "294-L01",
+      "offset": 0,
+      "selected": "n6n d5, t2c4sq3 n375, h6t — g b585r3 chts5",
+      "note": "Final descender of t2c4sq3 returns narrowly as q rather than FIRST open g, accepting SECOND. Long horizontal dash selected as em dash rather than short hyphen, a punctuation/shape convention only. Initialb inb585r3 ascends with closed upper loop; descending p alternative retained. No fluent replacement of PELEHO in ciphertext.",
+      "native_bbox_xyxy": [
+        1470,
+        75,
+        1540,
+        1090
+      ],
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "294-L02",
+      "offset": 0,
+      "selected": "h6t! p186 7c4 fc6q f 84cdq2 cf6n f584s5 g832!",
+      "note": "Both fc6q and84cdq2 have narrow returning descenders: accept SECONDq over FIRSTg. The simple rounded6 in cf6n remains6 despite expectation of a different vowel; low terminaln single arch retained. Two exclamation strokes/dots separate from glyph bodies. No source repair of SVAM.",
+      "native_bbox_xyxy": [
+        1518,
+        75,
+        1588,
+        1090
+      ],
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "294-L03",
+      "offset": 0,
+      "selected": "m6 t3b4c c5 d5s4n m5cn4hm5. d4c4s fh581ř",
+      "note": "In m5cn4hm5 body afterc has one principal arch n, accepting SECOND over FIRSTm. In d5s4n third body remains low angulars, as both selected, rather than rounded openc from a fluent verb expectation; TECIM remains. Finalfh581ř has detached roof on short branch, no general mark equivalence.",
+      "native_bbox_xyxy": [
+        1565,
+        75,
+        1635,
+        1090
+      ],
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "294-L04",
+      "offset": 0,
+      "selected": "b2c 6 b3gth6f2 b3c486 d4 b5b32c.",
+      "note": "Both select same visible row. Crossed t and tall loop h remain separate inb3gth6f2; low4/1 and m/n joins qualified. Final group retained as text candidate only, no authenticated sender.",
+      "native_bbox_xyxy": [
+        1610,
+        75,
+        1685,
+        1090
+      ],
+      "physical_encoded_body_count": null
+    }
+  ],
+  "editorial_coverage": [
+    {
+      "line_id": "294-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 42,
+      "literal": "MAM TE, DUSICKO MOJE, RAD — Z PELEHO SRDCE",
+      "paired_full_row_coverage": true
+    },
+    {
+      "line_id": "294-L02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 45,
+      "literal": "RAD! BYLA JSI VSAK V LISTKU SVAM VELICE ZLOU!",
+      "paired_full_row_coverage": true
+    },
+    {
+      "line_id": "294-L03",
+      "literal_offset_start": 0,
+      "literal_offset_end": 41,
+      "literal": "NA DOPIS SE TECIM NESMIRNE. TISIC VRELYCH",
+      "paired_full_row_coverage": true
+    },
+    {
+      "line_id": "294-L04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 32,
+      "literal": "PUS A POZDRAVU POSILA TI PEPOUS.",
+      "paired_full_row_coverage": true
+    }
+  ],
+  "validation": {
+    "check_card": "passed",
+    "report": {
+      "rows": 4,
+      "encoded_bodies": 125,
+      "expanded_letters": 126,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "coverage": "All4 rows in paired exact literal-offset fragment ledger;3 paired restoration/gap entries",
+    "scope": "Strict replay, frozen raw/source/catalogue hashes, native bounds, current selected spans, paired editorial spans and snapshot integrity; not source-accuracy or historical proof."
+  },
+  "post_initial_editorial_updates": [
+    {
+      "utc": "2026-10-20T17:58:41.142913+00:00",
+      "type": "Paired readable region prose assembled from existing row edition",
+      "scope": "All current selected rows, grouped into the existing source regions. English word order made readable across row boundaries;293 lower-row verb remains at its actual B02 fragment rather than duplicated at B01. No new source repair or missing clause.",
+      "previous_czech_row_edition": "294-L01: Mám tě, dušičko moje, rád — z [celého?; PELEHO] srdce\n294-L02: rád! Byla jsi však v lístku [svém?; SVAM] velice zlou!\n294-L03: Na dopis se [těším?; TECIM] nesmírně. Tisíc vřelých\n294-L04: pus a pozdravů posílá ti Pepouš.",
+      "previous_english_row_edition": "294-L01: I love you, my little soul — with my [whole?; PELEHO] heart,\n294-L02: I love you! Yet you were very unkind in [your own?; SVAM] note!\n294-L03: I [look forward?; TECIM] immensely to the letter. A thousand warm\n294-L04: kisses and greetings are sent to you by Pepouš.",
+      "unchanged_initial_snapshot_sha256": "5f2d90328f4d36fe8050ddd863754e736fbe5fa8a7533b5cf768e029d4984004"
+    }
+  ]
+}
