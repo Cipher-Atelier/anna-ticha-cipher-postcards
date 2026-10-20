@@ -1,0 +1,2723 @@
+{
+  "card_id": "307",
+  "notation": "pdf204-canonical",
+  "status": "Full source regions inspected; provisional selected glyph transcription and strict decoded candidate; related AI nonblind reconciliation, not accuracy or physical-body confirmation.",
+  "source": {
+    "url": "https://api.hcportal.eu/media/4938/pc_hcp_307_pic.JPG",
+    "sha256": "f9a67fca9af268da227346d51ed27efaade26744e20fdf347a6c3f9a17814c34",
+    "native_dimensions": [
+      1785,
+      1175
+    ]
+  },
+  "catalogue_id": 1626,
+  "catalogue_record_pointer": "/data/data/1619",
+  "catalogue_binding": {
+    "picture_url": "https://api.hcportal.eu/media/4938/pc_hcp_307_pic.JPG",
+    "catalogue_id": 1626,
+    "picture_record_pointer": "/data/data/1619/datagroups/0/data/0/image/original"
+  },
+  "orientation": {
+    "native_dimensions": [
+      1785,
+      1175
+    ],
+    "inventory": "Five CW90 rows.",
+    "reading_frames": [
+      {
+        "rotation_degrees_clockwise": 90,
+        "dimensions": [
+          1175,
+          1785
+        ],
+        "reading_to_native_bbox": "[y0,1175-x1,y1,1175-x0]"
+      }
+    ],
+    "bbox_limit": "Half-open contextual row boxes; bounds/transforms do not certify exact ink enclosure or mark attachment."
+  },
+  "reader": {
+    "model": "gpt-6.1-sol",
+    "role": "Assigned SECOND source actor, now NONBLIND curator; not original FIRST or a third blind source reader.",
+    "temperature": null,
+    "seed": null,
+    "exact_deployment": null
+  },
+  "raw_frozen_before_decoding": true,
+  "independent_readings": [
+    {
+      "reader": "D FIRST assigned source slot",
+      "model": "gpt-6.1-sol",
+      "key_visible": true,
+      "fresh_no_inherited_other_card_readings": true,
+      "own_decode_performed": true,
+      "barrier": "Both own raw inputs froze before either own decoder execution.",
+      "limits": "Related AI; assigned role not chronology or cognitive/human/external independence."
+    },
+    {
+      "reader": "B SECOND assigned source slot, now curator",
+      "model": "gpt-6.1-sol",
+      "key_visible": true,
+      "prior_other_card_context": true,
+      "own_decode_performed": true,
+      "barrier": "Both own raw inputs froze before either own decoder import/run.",
+      "limits": "Related AI and prior other-card/source implementation context; shared model/language influence not excluded."
+    }
+  ],
+  "raw_preservation": {
+    "first_wrapper": {
+      "card_id": 307,
+      "reader": "FIRST",
+      "assigned_role": "FIRST source-only symbolic reader and own later deterministic replay",
+      "model": "gpt-6.1-sol",
+      "deployment": null,
+      "temperature": null,
+      "seed": null,
+      "source": {
+        "card_id": 307,
+        "face": "Picture side",
+        "url": "https://api.hcportal.eu/media/4938/pc_hcp_307_pic.JPG",
+        "sha256": "f9a67fca9af268da227346d51ed27efaade26744e20fdf347a6c3f9a17814c34",
+        "bytes": 1208932,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1626,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1626",
+        "record_json_pointer": "/data/data/1619",
+        "image_json_pointer": "/data/data/1619/datagroups/0/data/0/image/original",
+        "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; saved source bytes private",
+        "http_status": 200,
+        "acquired_utc": "2026-10-20T20:08:01.772202+00:00"
+      },
+      "orientation": {
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "clockwise90_dimensions": [
+          1175,
+          1785
+        ],
+        "native_orientation": "landscape artwork upright",
+        "reading_orientation": "clockwise90 for all cipher rows",
+        "coordinate_convention": "half-open xyxy; integer edge transform x_read=1175-y_native, y_read=x_native"
+      },
+      "context_attestation": {
+        "fresh_fork": true,
+        "inherited_conversation": false,
+        "key_visible": true,
+        "other_card_readings_exposed": false,
+        "competing_target_exposure": false,
+        "relatedAI": true,
+        "limitation": "Assigned FIRST slot; not chronological/cognitive independence or human/external blindness. Key-visible perceptual and language influence cannot be excluded. Only own two originals and thin source metadata viewed before both freezes."
+      },
+      "raw_frozen_at_utc": "2026-10-20T20:15:16.345216+00:00",
+      "raw_sha256": "64cd4a3e64e40eb420da896bd07ffd35323d0a7987bfd43b784cfc98bfdc70f2",
+      "raw_hash_scope": "SHA256 UTF8 json.dumps(raw,ensure_ascii=False,sort_keys=True,separators=(comma,colon)); original complete FILE-byte digest distinct",
+      "raw": {
+        "rows": [
+          {
+            "line_id": "R1",
+            "ciphertext": "n6n f58g32 cd6h3cd, n5n484 n375",
+            "transcription": {
+              "tags": [
+                {
+                  "offset": 18,
+                  "text": ",",
+                  "kind": "punctuation"
+                }
+              ]
+            },
+            "geometry": {
+              "reading_frame": "clockwise90",
+              "reading_bbox_xyxy": [
+                240,
+                1380,
+                970,
+                1434
+              ],
+              "native_bbox_xyxy": [
+                1380,
+                205,
+                1434,
+                935
+              ],
+              "box_scope": "half-open whole row context; not exact glyph outlines",
+              "transform": "x_read=1175-y_native; y_read=x_native"
+            },
+            "uncertainties": [
+              {
+                "alternatives": [
+                  "m6n",
+                  "n6m"
+                ],
+                "source_visual_basis": "Open low arches; n/m segmentation uncertain",
+                "mask": false,
+                "offset": 0,
+                "selected": "n6n"
+              }
+            ]
+          },
+          {
+            "line_id": "R2",
+            "ciphertext": "g86d6 6md284sg6 ř2b6f6. 3pthg586 7c4",
+            "transcription": {
+              "tags": [
+                {
+                  "offset": 22,
+                  "text": ".",
+                  "kind": "punctuation"
+                }
+              ]
+            },
+            "geometry": {
+              "reading_frame": "clockwise90",
+              "reading_bbox_xyxy": [
+                240,
+                1420,
+                970,
+                1470
+              ],
+              "native_bbox_xyxy": [
+                1420,
+                205,
+                1470,
+                935
+              ],
+              "box_scope": "half-open whole row context; not exact glyph outlines",
+              "transform": "x_read=1175-y_native; y_read=x_native"
+            },
+            "uncertainties": [
+              {
+                "alternatives": [
+                  "r",
+                  "7"
+                ],
+                "source_visual_basis": "Small roof above initial short stem; selected roofed r; no generic roof rule",
+                "mask": false,
+                "offset": 16,
+                "selected": "ř"
+              },
+              {
+                "alternatives": [
+                  "6md284sg6",
+                  "6nd284sg6"
+                ],
+                "source_visual_basis": "Dense middle arches; narrow s-like body before descending g",
+                "mask": false,
+                "offset": 6,
+                "selected": "6md284sg6"
+              },
+              {
+                "alternatives": [
+                  "3pthg586",
+                  "3pthg586"
+                ],
+                "source_visual_basis": "Tall crossed t followed by h-like loop; segmentation retained",
+                "mask": false,
+                "offset": 24,
+                "selected": "3pthg586"
+              }
+            ]
+          },
+          {
+            "line_id": "R3",
+            "ciphertext": "n27 84cd5g 6 t3b4c? bh3c4n, n3gm3-84,",
+            "transcription": {
+              "tags": [
+                {
+                  "offset": 26,
+                  "text": ",",
+                  "kind": "punctuation"
+                },
+                {
+                  "offset": 33,
+                  "text": "-",
+                  "kind": "punctuation"
+                },
+                {
+                  "offset": 36,
+                  "text": ",",
+                  "kind": "punctuation"
+                },
+                {
+                  "offset": 18,
+                  "text": "?",
+                  "kind": "punctuation"
+                }
+              ]
+            },
+            "geometry": {
+              "reading_frame": "clockwise90",
+              "reading_bbox_xyxy": [
+                240,
+                1460,
+                970,
+                1510
+              ],
+              "native_bbox_xyxy": [
+                1460,
+                205,
+                1510,
+                935
+              ],
+              "box_scope": "half-open whole row context; not exact glyph outlines",
+              "transform": "x_read=1175-y_native; y_read=x_native"
+            },
+            "uncertainties": [
+              {
+                "alternatives": [
+                  "n3gm3",
+                  "n3gn3"
+                ],
+                "source_visual_basis": "Three/arch sequence before hyphen",
+                "mask": false,
+                "offset": 28,
+                "selected": "n3gm3"
+              }
+            ]
+          },
+          {
+            "line_id": "R4",
+            "ciphertext": "6cb3m 3 tf6 h6tg1. d4c4s b2c 3t df5r3",
+            "transcription": {
+              "tags": [
+                {
+                  "offset": 17,
+                  "text": ".",
+                  "kind": "punctuation"
+                }
+              ]
+            },
+            "geometry": {
+              "reading_frame": "clockwise90",
+              "reading_bbox_xyxy": [
+                240,
+                1500,
+                970,
+                1550
+              ],
+              "native_bbox_xyxy": [
+                1500,
+                205,
+                1550,
+                935
+              ],
+              "box_scope": "half-open whole row context; not exact glyph outlines",
+              "transform": "x_read=1175-y_native; y_read=x_native"
+            },
+            "uncertainties": [
+              {
+                "alternatives": [
+                  "df5r3",
+                  "df5n3"
+                ],
+                "source_visual_basis": "Final low r has no clearly attached roof",
+                "mask": false,
+                "offset": 32,
+                "selected": "df5r3"
+              }
+            ]
+          },
+          {
+            "line_id": "R5",
+            "ciphertext": "cd685 fgb3n4m674s4r3 b5b32c5.",
+            "transcription": {
+              "tags": [
+                {
+                  "offset": 28,
+                  "text": ".",
+                  "kind": "punctuation"
+                }
+              ]
+            },
+            "geometry": {
+              "reading_frame": "clockwise90",
+              "reading_bbox_xyxy": [
+                240,
+                1540,
+                835,
+                1590
+              ],
+              "native_bbox_xyxy": [
+                1540,
+                340,
+                1590,
+                935
+              ],
+              "box_scope": "half-open whole row context; not exact glyph outlines",
+              "transform": "x_read=1175-y_native; y_read=x_native"
+            },
+            "uncertainties": [
+              {
+                "alternatives": [
+                  "fgb3n4m674s4r3",
+                  "fgb3n4m674s4n3"
+                ],
+                "source_visual_basis": "Long continuous sequence with low arches; no completion used",
+                "mask": false,
+                "offset": 6,
+                "selected": "fgb3n4m674s4r"
+              }
+            ]
+          }
+        ],
+        "row_order_proposal": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5"
+        ],
+        "marks_notes": [
+          "Dots and commas retained as punctuation; actual question marks tagged punctuation; unknown masks tagged unknown_glyph.",
+          "Roofs explicitly retained only where assigned to r; detached marks may have uncertain ownership."
+        ],
+        "segmentation_notes": [
+          "Spaces are visual intercluster gaps, not normalized word segmentation.",
+          "Densely joined or overwritten strokes can contain more or fewer bodies than selected symbolic characters. Physical body total remains null."
+        ],
+        "unresolved_notes": [
+          "n/m arch families and joined letterlike strokes remain perceptually uncertain; selected readings are provisional visual hypotheses."
+        ],
+        "context_notes": [
+          "Complete source face and all margins inspected. Artwork, official translucent circular alphabet watermark and decorative border excluded from cipher."
+        ],
+        "date_notes": [
+          {
+            "text": "4.X.1901.",
+            "ordinary_numerals_excluded_from_body_counts": true,
+            "native_bbox_xyxy": [
+              1320,
+              480,
+              1380,
+              680
+            ]
+          }
+        ],
+        "physical_encoded_body_count": null
+      },
+      "physical_encoded_body_count": null
+    },
+    "first_raw": {
+      "rows": [
+        {
+          "line_id": "R1",
+          "ciphertext": "n6n f58g32 cd6h3cd, n5n484 n375",
+          "transcription": {
+            "tags": [
+              {
+                "offset": 18,
+                "text": ",",
+                "kind": "punctuation"
+              }
+            ]
+          },
+          "geometry": {
+            "reading_frame": "clockwise90",
+            "reading_bbox_xyxy": [
+              240,
+              1380,
+              970,
+              1434
+            ],
+            "native_bbox_xyxy": [
+              1380,
+              205,
+              1434,
+              935
+            ],
+            "box_scope": "half-open whole row context; not exact glyph outlines",
+            "transform": "x_read=1175-y_native; y_read=x_native"
+          },
+          "uncertainties": [
+            {
+              "alternatives": [
+                "m6n",
+                "n6m"
+              ],
+              "source_visual_basis": "Open low arches; n/m segmentation uncertain",
+              "mask": false,
+              "offset": 0,
+              "selected": "n6n"
+            }
+          ]
+        },
+        {
+          "line_id": "R2",
+          "ciphertext": "g86d6 6md284sg6 ř2b6f6. 3pthg586 7c4",
+          "transcription": {
+            "tags": [
+              {
+                "offset": 22,
+                "text": ".",
+                "kind": "punctuation"
+              }
+            ]
+          },
+          "geometry": {
+            "reading_frame": "clockwise90",
+            "reading_bbox_xyxy": [
+              240,
+              1420,
+              970,
+              1470
+            ],
+            "native_bbox_xyxy": [
+              1420,
+              205,
+              1470,
+              935
+            ],
+            "box_scope": "half-open whole row context; not exact glyph outlines",
+            "transform": "x_read=1175-y_native; y_read=x_native"
+          },
+          "uncertainties": [
+            {
+              "alternatives": [
+                "r",
+                "7"
+              ],
+              "source_visual_basis": "Small roof above initial short stem; selected roofed r; no generic roof rule",
+              "mask": false,
+              "offset": 16,
+              "selected": "ř"
+            },
+            {
+              "alternatives": [
+                "6md284sg6",
+                "6nd284sg6"
+              ],
+              "source_visual_basis": "Dense middle arches; narrow s-like body before descending g",
+              "mask": false,
+              "offset": 6,
+              "selected": "6md284sg6"
+            },
+            {
+              "alternatives": [
+                "3pthg586",
+                "3pthg586"
+              ],
+              "source_visual_basis": "Tall crossed t followed by h-like loop; segmentation retained",
+              "mask": false,
+              "offset": 24,
+              "selected": "3pthg586"
+            }
+          ]
+        },
+        {
+          "line_id": "R3",
+          "ciphertext": "n27 84cd5g 6 t3b4c? bh3c4n, n3gm3-84,",
+          "transcription": {
+            "tags": [
+              {
+                "offset": 26,
+                "text": ",",
+                "kind": "punctuation"
+              },
+              {
+                "offset": 33,
+                "text": "-",
+                "kind": "punctuation"
+              },
+              {
+                "offset": 36,
+                "text": ",",
+                "kind": "punctuation"
+              },
+              {
+                "offset": 18,
+                "text": "?",
+                "kind": "punctuation"
+              }
+            ]
+          },
+          "geometry": {
+            "reading_frame": "clockwise90",
+            "reading_bbox_xyxy": [
+              240,
+              1460,
+              970,
+              1510
+            ],
+            "native_bbox_xyxy": [
+              1460,
+              205,
+              1510,
+              935
+            ],
+            "box_scope": "half-open whole row context; not exact glyph outlines",
+            "transform": "x_read=1175-y_native; y_read=x_native"
+          },
+          "uncertainties": [
+            {
+              "alternatives": [
+                "n3gm3",
+                "n3gn3"
+              ],
+              "source_visual_basis": "Three/arch sequence before hyphen",
+              "mask": false,
+              "offset": 28,
+              "selected": "n3gm3"
+            }
+          ]
+        },
+        {
+          "line_id": "R4",
+          "ciphertext": "6cb3m 3 tf6 h6tg1. d4c4s b2c 3t df5r3",
+          "transcription": {
+            "tags": [
+              {
+                "offset": 17,
+                "text": ".",
+                "kind": "punctuation"
+              }
+            ]
+          },
+          "geometry": {
+            "reading_frame": "clockwise90",
+            "reading_bbox_xyxy": [
+              240,
+              1500,
+              970,
+              1550
+            ],
+            "native_bbox_xyxy": [
+              1500,
+              205,
+              1550,
+              935
+            ],
+            "box_scope": "half-open whole row context; not exact glyph outlines",
+            "transform": "x_read=1175-y_native; y_read=x_native"
+          },
+          "uncertainties": [
+            {
+              "alternatives": [
+                "df5r3",
+                "df5n3"
+              ],
+              "source_visual_basis": "Final low r has no clearly attached roof",
+              "mask": false,
+              "offset": 32,
+              "selected": "df5r3"
+            }
+          ]
+        },
+        {
+          "line_id": "R5",
+          "ciphertext": "cd685 fgb3n4m674s4r3 b5b32c5.",
+          "transcription": {
+            "tags": [
+              {
+                "offset": 28,
+                "text": ".",
+                "kind": "punctuation"
+              }
+            ]
+          },
+          "geometry": {
+            "reading_frame": "clockwise90",
+            "reading_bbox_xyxy": [
+              240,
+              1540,
+              835,
+              1590
+            ],
+            "native_bbox_xyxy": [
+              1540,
+              340,
+              1590,
+              935
+            ],
+            "box_scope": "half-open whole row context; not exact glyph outlines",
+            "transform": "x_read=1175-y_native; y_read=x_native"
+          },
+          "uncertainties": [
+            {
+              "alternatives": [
+                "fgb3n4m674s4r3",
+                "fgb3n4m674s4n3"
+              ],
+              "source_visual_basis": "Long continuous sequence with low arches; no completion used",
+              "mask": false,
+              "offset": 6,
+              "selected": "fgb3n4m674s4r"
+            }
+          ]
+        }
+      ],
+      "row_order_proposal": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "marks_notes": [
+        "Dots and commas retained as punctuation; actual question marks tagged punctuation; unknown masks tagged unknown_glyph.",
+        "Roofs explicitly retained only where assigned to r; detached marks may have uncertain ownership."
+      ],
+      "segmentation_notes": [
+        "Spaces are visual intercluster gaps, not normalized word segmentation.",
+        "Densely joined or overwritten strokes can contain more or fewer bodies than selected symbolic characters. Physical body total remains null."
+      ],
+      "unresolved_notes": [
+        "n/m arch families and joined letterlike strokes remain perceptually uncertain; selected readings are provisional visual hypotheses."
+      ],
+      "context_notes": [
+        "Complete source face and all margins inspected. Artwork, official translucent circular alphabet watermark and decorative border excluded from cipher."
+      ],
+      "date_notes": [
+        {
+          "text": "4.X.1901.",
+          "ordinary_numerals_excluded_from_body_counts": true,
+          "native_bbox_xyxy": [
+            1320,
+            480,
+            1380,
+            680
+          ]
+        }
+      ],
+      "physical_encoded_body_count": null
+    },
+    "first_raw_sha256": "64cd4a3e64e40eb420da896bd07ffd35323d0a7987bfd43b784cfc98bfdc70f2",
+    "first_raw_hash_scope": "Canonical raw object only; original wrapper structurally preserved separately.",
+    "first_raw_file_sha256": "0ff32bb52ac9a42c579272da640e82cffca7d62c8e4a98320b4b8067a801874a",
+    "first_frozen_at_utc": "2026-10-20T20:15:16.345216+00:00",
+    "first_strict_file_sha256": "791e0cf98773843447152e2dd8a93a2b9b842fae8ddddbe43f7c6a82c2666f0e",
+    "first_strict_metadata": {
+      "card_id": 307,
+      "reader": "FIRST",
+      "decoded_at_utc": "2026-10-20T20:15:52.995745+00:00",
+      "executor": {
+        "original_source_reader": "FIRST",
+        "model": "gpt-6.1-sol",
+        "deployment": null,
+        "temperature": null,
+        "seed": null,
+        "relatedAI": true,
+        "own_raw_replay": true
+      },
+      "notation": "pdf204-canonical",
+      "identities": {
+        "raw_only_canonical_sha256": "64cd4a3e64e40eb420da896bd07ffd35323d0a7987bfd43b784cfc98bfdc70f2",
+        "original_raw_FILE_sha256": "0ff32bb52ac9a42c579272da640e82cffca7d62c8e4a98320b4b8067a801874a",
+        "original_source_sha256": "f9a67fca9af268da227346d51ed27efaade26744e20fdf347a6c3f9a17814c34",
+        "source_metadata_FILE_sha256": "0f0733489bbd59646ae903da22bdd47cc9b5d101b1f6ca519d675c27e01793c3",
+        "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+        "key_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875"
+      },
+      "both_raw_freezes": {
+        "307": "2026-10-20T20:15:16.345216+00:00",
+        "308": "2026-10-20T20:15:16.346691+00:00"
+      },
+      "call_contract": "decode.decode_text(ciphertext,notation=pdf204-canonical,transcription=row.transcription.tags); frozen raw stores native exact tag list inside tags wrapper",
+      "physical_encoded_body_count": null,
+      "verification": {
+        "raw_FILE_bytes_unchanged": true,
+        "raw_canonical_digest_unchanged": true,
+        "uncertainty_spans_exact": true,
+        "geometry_transform_and_bounds_valid": true
+      },
+      "issues": [
+        "Physical body count remains null; selected symbolic body counts are model counts.",
+        "Uncertainty alternatives are not substituted or decoded; frozen originals are unchanged."
+      ]
+    },
+    "first_strict_aggregate": {
+      "encoded_bodies": 140,
+      "expanded_letters": 141,
+      "ch_occurrences": 1,
+      "unknowns": [],
+      "physical_encoded_body_count": null
+    },
+    "blind_wrapper": {
+      "card_id": 307,
+      "notation": "pdf204-canonical",
+      "source": {
+        "card_id": 307,
+        "face": "Picture side",
+        "url": "https://api.hcportal.eu/media/4938/pc_hcp_307_pic.JPG",
+        "sha256": "f9a67fca9af268da227346d51ed27efaade26744e20fdf347a6c3f9a17814c34",
+        "bytes": 1208932,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1626,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1626",
+        "record_json_pointer": "/data/data/1619",
+        "image_json_pointer": "/data/data/1619/datagroups/0/data/0/image/original",
+        "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; saved source bytes private",
+        "http_status": 200,
+        "acquired_utc": "2026-10-20T20:08:01.772202+00:00"
+      },
+      "reader": {
+        "assigned_model": "gpt-6.1-sol",
+        "exact_deployment": null,
+        "temperature": null,
+        "seed": null,
+        "assigned_slot": "SECOND",
+        "role": "Target-unexposed source-only SECOND actor; first/second are assignments, not chronology.",
+        "context": "Canonical key visible; related AI and extensive prior other-card source/implementation/editorial context. Own307 source context precedes308. Not key-free, human/external or cognitive independence.",
+        "attestation": "No competing307/308 target reader, literal, first document or prepared artifact opened. Both own raw inputs frozen before decoder import/run or viewing either own literal."
+      },
+      "orientation": {
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "frames": "CW90 whole-source1175x1785 for307; native1785x1175 bottom and CW90 whole-source1175x1785 margin for308. Row-specific transforms authoritative."
+      },
+      "raw_frozen_at_utc": "2026-10-20T20:11:23.403382+00:00",
+      "raw_sha256": "cf4150c6821d3398100759961a590259653027c706a12f9e355a8778393e225c",
+      "raw_hash_scope": "Canonical compact sorted UTF-8 raw object only; distinct original saved FILE hash recorded in separate strict output.",
+      "raw": {
+        "rows": [
+          {
+            "line_id": "307-R01",
+            "ciphertext": "m6n f58q32 cd6h3cd, m5m484 m375",
+            "transcription": [],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              235,
+              1380,
+              1010,
+              1435
+            ],
+            "native_bbox_xyxy": [
+              1380,
+              165,
+              1435,
+              940
+            ],
+            "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+            "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+            "uncertainties": [
+              {
+                "offset": 0,
+                "selected": "m6n",
+                "alternatives": [
+                  "n6n",
+                  "m6m"
+                ],
+                "observation": "Low initial and terminal arches have uncertain counts; leading entry curl broadens initial body.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1380,
+                  1010,
+                  1435
+                ],
+                "native_bbox_xyxy": [
+                  1380,
+                  165,
+                  1435,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              },
+              {
+                "offset": 7,
+                "selected": "q",
+                "alternatives": [
+                  "g"
+                ],
+                "observation": "Closed bowl and descending return provisionally q; loop-width alternative g retained.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1380,
+                  1010,
+                  1435
+                ],
+                "native_bbox_xyxy": [
+                  1380,
+                  165,
+                  1435,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              },
+              {
+                "offset": 11,
+                "selected": "cd6h3cd",
+                "alternatives": [
+                  "cdbh3cd"
+                ],
+                "observation": "Rounded third body has numeral-like loop/top; tall looped b remains alternative.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1380,
+                  1010,
+                  1435
+                ],
+                "native_bbox_xyxy": [
+                  1380,
+                  165,
+                  1435,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "307-R02",
+            "ciphertext": "g86d6 6mt284sq6 ř2h6f6. 3pthg586 7c4",
+            "transcription": [],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              235,
+              1420,
+              1010,
+              1476
+            ],
+            "native_bbox_xyxy": [
+              1420,
+              165,
+              1476,
+              940
+            ],
+            "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+            "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+            "uncertainties": [
+              {
+                "offset": 16,
+                "selected": "ř",
+                "alternatives": [
+                  "r",
+                  "7"
+                ],
+                "observation": "Detached small roof above short crossed/angular base; not bare r by default.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1420,
+                  1010,
+                  1476
+                ],
+                "native_bbox_xyxy": [
+                  1420,
+                  165,
+                  1476,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              },
+              {
+                "offset": 24,
+                "selected": "3pthg586",
+                "alternatives": [
+                  "3bthg586",
+                  "3pthq586"
+                ],
+                "observation": "Second body has narrow open angular stem, provisionally p; descending return later provisionally g, with q alternative.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1420,
+                  1010,
+                  1476
+                ],
+                "native_bbox_xyxy": [
+                  1420,
+                  165,
+                  1476,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "307-R03",
+            "ciphertext": "m27 84cd5q 6 t3b4c? bh3c4n, m3gm3-84,",
+            "transcription": [
+              {
+                "offset": 18,
+                "text": "?",
+                "kind": "punctuation"
+              }
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              235,
+              1460,
+              1010,
+              1520
+            ],
+            "native_bbox_xyxy": [
+              1460,
+              165,
+              1520,
+              940
+            ],
+            "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+            "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+            "uncertainties": [
+              {
+                "offset": 20,
+                "selected": "bh3c4n",
+                "alternatives": [
+                  "ph3c4n",
+                  "bh3c4m"
+                ],
+                "observation": "Tall initial loop and terminal arch count remain provisional.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1460,
+                  1010,
+                  1520
+                ],
+                "native_bbox_xyxy": [
+                  1460,
+                  165,
+                  1520,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "307-R04",
+            "ciphertext": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+            "transcription": [],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              235,
+              1505,
+              1020,
+              1560
+            ],
+            "native_bbox_xyxy": [
+              1505,
+              155,
+              1560,
+              940
+            ],
+            "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+            "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+            "uncertainties": [
+              {
+                "offset": 12,
+                "selected": "h6tq1",
+                "alternatives": [
+                  "h6tg1"
+                ],
+                "observation": "Narrow descending return provisionally q, wider loop alternative g.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1505,
+                  1020,
+                  1560
+                ],
+                "native_bbox_xyxy": [
+                  1505,
+                  155,
+                  1560,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "307-R05",
+            "ciphertext": "cd685 fgb3n4m674s4r3 b5b32c5.",
+            "transcription": [],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              235,
+              1545,
+              1010,
+              1600
+            ],
+            "native_bbox_xyxy": [
+              1545,
+              165,
+              1600,
+              940
+            ],
+            "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+            "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+            "uncertainties": [
+              {
+                "offset": 18,
+                "selected": "r3",
+                "alternatives": [
+                  "h3"
+                ],
+                "observation": "Short angular stem selected r with tall looped h alternative; no roof securely attached.",
+                "reading_bbox_xyxy": [
+                  235,
+                  1545,
+                  1010,
+                  1600
+                ],
+                "native_bbox_xyxy": [
+                  1545,
+                  165,
+                  1600,
+                  940
+                ],
+                "reading_rotation_degrees_clockwise": 90,
+                "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+              }
+            ],
+            "physical_encoded_body_count": null
+          }
+        ],
+        "marks": [
+          {
+            "line_id": "307-R02",
+            "offset": 16,
+            "selected": "ř",
+            "kind": "Detached roof/base attachment",
+            "alternatives": [
+              "roof attachment uncertain"
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_bbox_xyxy": [
+              235,
+              1420,
+              1010,
+              1476
+            ],
+            "native_bbox_xyxy": [
+              1420,
+              165,
+              1476,
+              940
+            ],
+            "scope": "Contextual whole-row locator; no general roof or join normalization."
+          },
+          {
+            "line_id": "307-R03",
+            "offset": 33,
+            "selected": "-",
+            "kind": "Horizontal stroke / provisional separation",
+            "alternatives": [
+              "line continuation",
+              "separate dash"
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_bbox_xyxy": [
+              235,
+              1460,
+              1010,
+              1520
+            ],
+            "native_bbox_xyxy": [
+              1460,
+              165,
+              1520,
+              940
+            ],
+            "scope": "Contextual whole-row locator; no general roof or join normalization."
+          }
+        ],
+        "segmentation": [
+          {
+            "line_id": "307-R01",
+            "offset": 0,
+            "selected": "m6n f58q32 cd6h3cd, m5m484 m375",
+            "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+          },
+          {
+            "line_id": "307-R02",
+            "offset": 0,
+            "selected": "g86d6 6mt284sq6 ř2h6f6. 3pthg586 7c4",
+            "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+          },
+          {
+            "line_id": "307-R03",
+            "offset": 0,
+            "selected": "m27 84cd5q 6 t3b4c? bh3c4n, m3gm3-84,",
+            "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+          },
+          {
+            "line_id": "307-R04",
+            "offset": 0,
+            "selected": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+            "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+          },
+          {
+            "line_id": "307-R05",
+            "offset": 0,
+            "selected": "cd685 fgb3n4m674s4r3 b5b32c5.",
+            "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+          }
+        ],
+        "unresolved_clusters": [],
+        "ordinary_numerals": [],
+        "actual_question_punctuation": [
+          {
+            "line_id": "307-R03",
+            "offset": 18,
+            "selected": "?",
+            "observation": "Separate curved upper stroke and lower dot, actual written question punctuation."
+          }
+        ],
+        "noncipher_date": {
+          "candidate": "4./X.1901.",
+          "status": "Tentative ordinary inscription, not verified chronology; outside selected cipher.",
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_bbox_xyxy": [
+            500,
+            1330,
+            715,
+            1380
+          ],
+          "native_bbox_xyxy": [
+            1330,
+            460,
+            1380,
+            675
+          ]
+        },
+        "printed_exclusions": [],
+        "region_order": {
+          "inventory": "Five CW90 horizontal source rows beneath separate ordinary date.",
+          "arrow_native_context_bbox_xyxy": null
+        },
+        "notes": [
+          "Complete original and all margins inspected; watermark and printed imagery retained in private views.",
+          "Glyph-first symbolic source reading only; no tool substitution or editorial plaintext in this raw.",
+          "Body families and mark attachments are provisional contour selections; physical totals and unknown cluster lengths remain null.",
+          "Numeral-like characters within cipher are encoded symbols unless explicitly tagged numeral; ordinary date is outside selected rows."
+        ],
+        "physical_encoded_body_count": null
+      }
+    },
+    "blind_raw": {
+      "rows": [
+        {
+          "line_id": "307-R01",
+          "ciphertext": "m6n f58q32 cd6h3cd, m5m484 m375",
+          "transcription": [],
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            235,
+            1380,
+            1010,
+            1435
+          ],
+          "native_bbox_xyxy": [
+            1380,
+            165,
+            1435,
+            940
+          ],
+          "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+          "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+          "uncertainties": [
+            {
+              "offset": 0,
+              "selected": "m6n",
+              "alternatives": [
+                "n6n",
+                "m6m"
+              ],
+              "observation": "Low initial and terminal arches have uncertain counts; leading entry curl broadens initial body.",
+              "reading_bbox_xyxy": [
+                235,
+                1380,
+                1010,
+                1435
+              ],
+              "native_bbox_xyxy": [
+                1380,
+                165,
+                1435,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            },
+            {
+              "offset": 7,
+              "selected": "q",
+              "alternatives": [
+                "g"
+              ],
+              "observation": "Closed bowl and descending return provisionally q; loop-width alternative g retained.",
+              "reading_bbox_xyxy": [
+                235,
+                1380,
+                1010,
+                1435
+              ],
+              "native_bbox_xyxy": [
+                1380,
+                165,
+                1435,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            },
+            {
+              "offset": 11,
+              "selected": "cd6h3cd",
+              "alternatives": [
+                "cdbh3cd"
+              ],
+              "observation": "Rounded third body has numeral-like loop/top; tall looped b remains alternative.",
+              "reading_bbox_xyxy": [
+                235,
+                1380,
+                1010,
+                1435
+              ],
+              "native_bbox_xyxy": [
+                1380,
+                165,
+                1435,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "307-R02",
+          "ciphertext": "g86d6 6mt284sq6 ř2h6f6. 3pthg586 7c4",
+          "transcription": [],
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            235,
+            1420,
+            1010,
+            1476
+          ],
+          "native_bbox_xyxy": [
+            1420,
+            165,
+            1476,
+            940
+          ],
+          "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+          "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+          "uncertainties": [
+            {
+              "offset": 16,
+              "selected": "ř",
+              "alternatives": [
+                "r",
+                "7"
+              ],
+              "observation": "Detached small roof above short crossed/angular base; not bare r by default.",
+              "reading_bbox_xyxy": [
+                235,
+                1420,
+                1010,
+                1476
+              ],
+              "native_bbox_xyxy": [
+                1420,
+                165,
+                1476,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            },
+            {
+              "offset": 24,
+              "selected": "3pthg586",
+              "alternatives": [
+                "3bthg586",
+                "3pthq586"
+              ],
+              "observation": "Second body has narrow open angular stem, provisionally p; descending return later provisionally g, with q alternative.",
+              "reading_bbox_xyxy": [
+                235,
+                1420,
+                1010,
+                1476
+              ],
+              "native_bbox_xyxy": [
+                1420,
+                165,
+                1476,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "307-R03",
+          "ciphertext": "m27 84cd5q 6 t3b4c? bh3c4n, m3gm3-84,",
+          "transcription": [
+            {
+              "offset": 18,
+              "text": "?",
+              "kind": "punctuation"
+            }
+          ],
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            235,
+            1460,
+            1010,
+            1520
+          ],
+          "native_bbox_xyxy": [
+            1460,
+            165,
+            1520,
+            940
+          ],
+          "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+          "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+          "uncertainties": [
+            {
+              "offset": 20,
+              "selected": "bh3c4n",
+              "alternatives": [
+                "ph3c4n",
+                "bh3c4m"
+              ],
+              "observation": "Tall initial loop and terminal arch count remain provisional.",
+              "reading_bbox_xyxy": [
+                235,
+                1460,
+                1010,
+                1520
+              ],
+              "native_bbox_xyxy": [
+                1460,
+                165,
+                1520,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "307-R04",
+          "ciphertext": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+          "transcription": [],
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            235,
+            1505,
+            1020,
+            1560
+          ],
+          "native_bbox_xyxy": [
+            1505,
+            155,
+            1560,
+            940
+          ],
+          "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+          "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+          "uncertainties": [
+            {
+              "offset": 12,
+              "selected": "h6tq1",
+              "alternatives": [
+                "h6tg1"
+              ],
+              "observation": "Narrow descending return provisionally q, wider loop alternative g.",
+              "reading_bbox_xyxy": [
+                235,
+                1505,
+                1020,
+                1560
+              ],
+              "native_bbox_xyxy": [
+                1505,
+                155,
+                1560,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            }
+          ],
+          "physical_encoded_body_count": null
+        },
+        {
+          "line_id": "307-R05",
+          "ciphertext": "cd685 fgb3n4m674s4r3 b5b32c5.",
+          "transcription": [],
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_bbox_xyxy": [
+            235,
+            1545,
+            1010,
+            1600
+          ],
+          "native_bbox_xyxy": [
+            1545,
+            165,
+            1600,
+            940
+          ],
+          "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+          "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+          "uncertainties": [
+            {
+              "offset": 18,
+              "selected": "r3",
+              "alternatives": [
+                "h3"
+              ],
+              "observation": "Short angular stem selected r with tall looped h alternative; no roof securely attached.",
+              "reading_bbox_xyxy": [
+                235,
+                1545,
+                1010,
+                1600
+              ],
+              "native_bbox_xyxy": [
+                1545,
+                165,
+                1600,
+                940
+              ],
+              "reading_rotation_degrees_clockwise": 90,
+              "bbox_scope": "Whole-row contextual locator, not exact ink or attachment proof."
+            }
+          ],
+          "physical_encoded_body_count": null
+        }
+      ],
+      "marks": [
+        {
+          "line_id": "307-R02",
+          "offset": 16,
+          "selected": "ř",
+          "kind": "Detached roof/base attachment",
+          "alternatives": [
+            "roof attachment uncertain"
+          ],
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_bbox_xyxy": [
+            235,
+            1420,
+            1010,
+            1476
+          ],
+          "native_bbox_xyxy": [
+            1420,
+            165,
+            1476,
+            940
+          ],
+          "scope": "Contextual whole-row locator; no general roof or join normalization."
+        },
+        {
+          "line_id": "307-R03",
+          "offset": 33,
+          "selected": "-",
+          "kind": "Horizontal stroke / provisional separation",
+          "alternatives": [
+            "line continuation",
+            "separate dash"
+          ],
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_bbox_xyxy": [
+            235,
+            1460,
+            1010,
+            1520
+          ],
+          "native_bbox_xyxy": [
+            1460,
+            165,
+            1520,
+            940
+          ],
+          "scope": "Contextual whole-row locator; no general roof or join normalization."
+        }
+      ],
+      "segmentation": [
+        {
+          "line_id": "307-R01",
+          "offset": 0,
+          "selected": "m6n f58q32 cd6h3cd, m5m484 m375",
+          "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+        },
+        {
+          "line_id": "307-R02",
+          "offset": 0,
+          "selected": "g86d6 6mt284sq6 ř2h6f6. 3pthg586 7c4",
+          "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+        },
+        {
+          "line_id": "307-R03",
+          "offset": 0,
+          "selected": "m27 84cd5q 6 t3b4c? bh3c4n, m3gm3-84,",
+          "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+        },
+        {
+          "line_id": "307-R04",
+          "offset": 0,
+          "selected": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+          "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+        },
+        {
+          "line_id": "307-R05",
+          "offset": 0,
+          "selected": "cd685 fgb3n4m674s4r3 b5b32c5.",
+          "scope": "Visible spacing transcribed provisionally; source stroke continuity can obscure individual body boundaries."
+        }
+      ],
+      "unresolved_clusters": [],
+      "ordinary_numerals": [],
+      "actual_question_punctuation": [
+        {
+          "line_id": "307-R03",
+          "offset": 18,
+          "selected": "?",
+          "observation": "Separate curved upper stroke and lower dot, actual written question punctuation."
+        }
+      ],
+      "noncipher_date": {
+        "candidate": "4./X.1901.",
+        "status": "Tentative ordinary inscription, not verified chronology; outside selected cipher.",
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_bbox_xyxy": [
+          500,
+          1330,
+          715,
+          1380
+        ],
+        "native_bbox_xyxy": [
+          1330,
+          460,
+          1380,
+          675
+        ]
+      },
+      "printed_exclusions": [],
+      "region_order": {
+        "inventory": "Five CW90 horizontal source rows beneath separate ordinary date.",
+        "arrow_native_context_bbox_xyxy": null
+      },
+      "notes": [
+        "Complete original and all margins inspected; watermark and printed imagery retained in private views.",
+        "Glyph-first symbolic source reading only; no tool substitution or editorial plaintext in this raw.",
+        "Body families and mark attachments are provisional contour selections; physical totals and unknown cluster lengths remain null.",
+        "Numeral-like characters within cipher are encoded symbols unless explicitly tagged numeral; ordinary date is outside selected rows."
+      ],
+      "physical_encoded_body_count": null
+    },
+    "blind_raw_sha256": "cf4150c6821d3398100759961a590259653027c706a12f9e355a8778393e225c",
+    "blind_raw_hash_scope": "Canonical raw object only; original wrapper structurally preserved separately.",
+    "blind_raw_file_sha256": "d9cf6a86199e02f460203824aebab6d19b10b9a3c76b8e95ba0c75483fde38b9",
+    "blind_frozen_at_utc": "2026-10-20T20:11:23.403382+00:00",
+    "blind_strict_file_sha256": "6f30128abf359d343ea40d90b1ddcdf1998f292f9f204a96a55301e0db4c4850",
+    "blind_strict_metadata": {
+      "card_id": 307,
+      "reader": "Assigned SECOND source actor gpt-6.1-sol",
+      "executor": "Own deterministic strict replay after both assigned raw inputs froze; no other target reading opened.",
+      "notation": "pdf204-canonical",
+      "decoded_at_utc": "2026-10-20T20:11:43.368871+00:00",
+      "both_own_raws_existed_before_decoder_import_at_utc": "2026-10-20T20:11:43.365531+00:00",
+      "raw_frozen_at_utc": "2026-10-20T20:11:23.403382+00:00",
+      "raw_sha256": "cf4150c6821d3398100759961a590259653027c706a12f9e355a8778393e225c",
+      "raw_hash_scope": "Canonical compact sorted UTF-8 raw object only; distinct original saved FILE hash recorded in separate strict output.",
+      "raw_file_sha256": "d9cf6a86199e02f460203824aebab6d19b10b9a3c76b8e95ba0c75483fde38b9",
+      "source_sha256": "f9a67fca9af268da227346d51ed27efaade26744e20fdf347a6c3f9a17814c34",
+      "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+      "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
+      "physical_encoded_body_count": null,
+      "scope": "Strict fixed-key selected-slot replay only; no source accuracy, physical-body, lexical repair or mark-role confirmation."
+    },
+    "blind_strict_totals": {
+      "rows": 5,
+      "encoded_bodies": 140,
+      "expanded_letters": 141,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "historical_scope": "Both source wrappers and raw groups preserved structurally unchanged; original file hashes are separate. Historical uncertainty notes remain historical when current selection changes. Both source actors performed their own later strict replay; no parent FIRST or later QA replay stage."
+  },
+  "frozen_container_exceptions": [
+    {
+      "reader": "first307",
+      "operation": "Pass exact row['transcription']['tags'] list unchanged; frozen outer dictionary is not decoder-native.",
+      "projection": "No glyph, offset, text or kind rewrite. Current selected rows use native transcription lists."
+    }
+  ],
+  "lines": [
+    {
+      "line_id": "307-R01",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_bbox_xyxy": [
+        235,
+        1380,
+        1010,
+        1435
+      ],
+      "native_bbox_xyxy": [
+        1380,
+        165,
+        1435,
+        940
+      ],
+      "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+      "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+      "physical_encoded_body_count": null,
+      "ciphertext": "n6n f58q32 cd6h3cd, n5n484 n375",
+      "transcription": [],
+      "source_selection_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches.",
+      "literal": "MAM VELKOU STAROST, MEMILI MOJE",
+      "encoded_bodies": 26,
+      "expanded_letters": 26,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "307-R02",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_bbox_xyxy": [
+        235,
+        1420,
+        1010,
+        1476
+      ],
+      "native_bbox_xyxy": [
+        1420,
+        165,
+        1476,
+        940
+      ],
+      "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+      "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+      "physical_encoded_body_count": null,
+      "ciphertext": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+      "transcription": [],
+      "source_selection_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional.",
+      "literal": "ZLATA ANTULICKA CHURAVA. OBDRZELA JSI",
+      "encoded_bodies": 31,
+      "expanded_letters": 32,
+      "ch_occurrences": 1,
+      "unknowns": []
+    },
+    {
+      "line_id": "307-R03",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_bbox_xyxy": [
+        235,
+        1460,
+        1010,
+        1520
+      ],
+      "native_bbox_xyxy": [
+        1460,
+        165,
+        1520,
+        940
+      ],
+      "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+      "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+      "physical_encoded_body_count": null,
+      "ciphertext": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+      "transcription": [
+        {
+          "offset": 18,
+          "text": "?",
+          "kind": "punctuation"
+        }
+      ],
+      "source_selection_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained.",
+      "literal": "MUJ LISTEK A DOPIS? PROSIM, MOZNO-LI,",
+      "encoded_bodies": 28,
+      "expanded_letters": 28,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "307-R04",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_bbox_xyxy": [
+        235,
+        1505,
+        1020,
+        1560
+      ],
+      "native_bbox_xyxy": [
+        1505,
+        155,
+        1560,
+        940
+      ],
+      "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+      "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+      "physical_encoded_body_count": null,
+      "ciphertext": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+      "transcription": [],
+      "source_selection_basis": "Narrow upper bowl and descending return after h6t provisionally retains SECOND q, with FIRST g alternative. Short angular stem in final df5r3 remains r, not blanket roof-normalized. Other selected bodies agree.",
+      "literal": "ASPON O DVA RADKY. TISIC PUS OD TVEHO",
+      "encoded_bodies": 29,
+      "expanded_letters": 29,
+      "ch_occurrences": 0,
+      "unknowns": []
+    },
+    {
+      "line_id": "307-R05",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_bbox_xyxy": [
+        235,
+        1545,
+        1010,
+        1600
+      ],
+      "native_bbox_xyxy": [
+        1545,
+        165,
+        1600,
+        940
+      ],
+      "coordinate_frame": "Half-open whole-source native or CW90 reading frame; contextual whole-row bounds.",
+      "reading_to_native_bbox_transform": "[y0,1175-x1,y1,1175-x0]",
+      "physical_encoded_body_count": null,
+      "ciphertext": "cd685 fgb3n4m674s4r3 b5b32c5.",
+      "transcription": [],
+      "source_selection_basis": "Both layers agree in selected bodies and full sequence; low arch and short r/h alternatives remain source uncertainty. Final stop is retained.",
+      "literal": "STALE VZPOMINAJICIHO PEPOUSE.",
+      "encoded_bodies": 26,
+      "expanded_letters": 26,
+      "ch_occurrences": 0,
+      "unknowns": []
+    }
+  ],
+  "uncertainty_ledger": [
+    {
+      "line_id": "307-R01",
+      "offset": 0,
+      "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+      "alternatives": [
+        "n6n f58g32 cd6h3cd, n5n484 n375",
+        "m6n f58q32 cd6h3cd, m5m484 m375"
+      ],
+      "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches.",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        235,
+        1380,
+        1010,
+        1435
+      ],
+      "native_bbox_xyxy": [
+        1380,
+        165,
+        1435,
+        940
+      ],
+      "scope": "Full current row context; exact differing immutable spans are separately recorded, not silently rewritten."
+    },
+    {
+      "line_id": "307-R02",
+      "offset": 0,
+      "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+      "alternatives": [
+        "g86d6 6md284sg6 ř2b6f6. 3pthg586 7c4",
+        "g86d6 6mt284sq6 ř2h6f6. 3pthg586 7c4"
+      ],
+      "source_visual_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional.",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        235,
+        1420,
+        1010,
+        1476
+      ],
+      "native_bbox_xyxy": [
+        1420,
+        165,
+        1476,
+        940
+      ],
+      "scope": "Full current row context; exact differing immutable spans are separately recorded, not silently rewritten."
+    },
+    {
+      "line_id": "307-R03",
+      "offset": 0,
+      "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+      "alternatives": [
+        "n27 84cd5g 6 t3b4c? bh3c4n, n3gm3-84,",
+        "m27 84cd5q 6 t3b4c? bh3c4n, m3gm3-84,"
+      ],
+      "source_visual_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained.",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        235,
+        1460,
+        1010,
+        1520
+      ],
+      "native_bbox_xyxy": [
+        1460,
+        165,
+        1520,
+        940
+      ],
+      "scope": "Full current row context; exact differing immutable spans are separately recorded, not silently rewritten."
+    },
+    {
+      "line_id": "307-R04",
+      "offset": 0,
+      "selected": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+      "alternatives": [
+        "6cb3m 3 tf6 h6tg1. d4c4s b2c 3t df5r3",
+        "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3"
+      ],
+      "source_visual_basis": "Narrow upper bowl and descending return after h6t provisionally retains SECOND q, with FIRST g alternative. Short angular stem in final df5r3 remains r, not blanket roof-normalized. Other selected bodies agree.",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        235,
+        1505,
+        1020,
+        1560
+      ],
+      "native_bbox_xyxy": [
+        1505,
+        155,
+        1560,
+        940
+      ],
+      "scope": "Full current row context; exact differing immutable spans are separately recorded, not silently rewritten."
+    },
+    {
+      "line_id": "307-R05",
+      "offset": 0,
+      "selected": "cd685 fgb3n4m674s4r3 b5b32c5.",
+      "alternatives": [
+        "cd685 fgb3n4m674s4r3 b5b32c5.",
+        "cd685 fgb3n4m674s4r3 b5b32c5."
+      ],
+      "source_visual_basis": "Both layers agree in selected bodies and full sequence; low arch and short r/h alternatives remain source uncertainty. Final stop is retained.",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        235,
+        1545,
+        1010,
+        1600
+      ],
+      "native_bbox_xyxy": [
+        1545,
+        165,
+        1600,
+        940
+      ],
+      "scope": "Full current row context; exact differing immutable spans are separately recorded, not silently rewritten."
+    }
+  ],
+  "marks_and_segmentation_notes": [
+    {
+      "line_id": "307-R02",
+      "offset": 16,
+      "selected": "ř",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        235,
+        1420,
+        1010,
+        1476
+      ],
+      "native_bbox_xyxy": [
+        1420,
+        165,
+        1476,
+        940
+      ],
+      "observation": "Roof/base attachment remains provisional; no blanket CH rule."
+    },
+    {
+      "line_id": "307-R03",
+      "offset": 33,
+      "selected": "-",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        235,
+        1460,
+        1010,
+        1520
+      ],
+      "native_bbox_xyxy": [
+        1460,
+        165,
+        1520,
+        940
+      ],
+      "observation": "Horizontal stroke retained; no silent lexical joining."
+    }
+  ],
+  "unknown_clusters": [],
+  "unassigned_shapes": [],
+  "actual_question_punctuation": [
+    {
+      "line_id": "307-R03",
+      "offset": 18,
+      "selected": "?",
+      "reading_bbox_xyxy": [
+        235,
+        1460,
+        1010,
+        1520
+      ],
+      "native_bbox_xyxy": [
+        1460,
+        165,
+        1520,
+        940
+      ],
+      "reading_rotation_degrees_clockwise": 90,
+      "bbox_scope": "Whole current row context, not exact cluster ink enclosure.",
+      "observation": "Actual upper question stroke and separate lower dot; not an unknown mask."
+    }
+  ],
+  "ordinary_numerals_inside_cipher": [],
+  "segmentation_ledger": [
+    {
+      "line_id": "307-R01",
+      "offset": 0,
+      "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+      "scope": "Current visual divisions provisional; all source alternatives retained in frozen layers and disagreement records; no physical count derived."
+    },
+    {
+      "line_id": "307-R02",
+      "offset": 0,
+      "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+      "scope": "Current visual divisions provisional; all source alternatives retained in frozen layers and disagreement records; no physical count derived."
+    },
+    {
+      "line_id": "307-R03",
+      "offset": 0,
+      "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+      "scope": "Current visual divisions provisional; all source alternatives retained in frozen layers and disagreement records; no physical count derived."
+    },
+    {
+      "line_id": "307-R04",
+      "offset": 0,
+      "selected": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+      "scope": "Current visual divisions provisional; all source alternatives retained in frozen layers and disagreement records; no physical count derived."
+    },
+    {
+      "line_id": "307-R05",
+      "offset": 0,
+      "selected": "cd685 fgb3n4m674s4r3 b5b32c5.",
+      "scope": "Current visual divisions provisional; all source alternatives retained in frozen layers and disagreement records; no physical count derived."
+    }
+  ],
+  "physical_encoded_body_count": null,
+  "counts_policy": "Counts are selected replay slots and expanded letters; unknown slots include unassigned glyphs as well as displayed masks. Written questions and ordinary numeral tags do not count as unknown encoded bodies. Unknown physical lengths and total remain null.",
+  "ordinary_numerals_outside_cipher": {
+    "candidate": "4./X.1901.",
+    "status": "Tentative ordinary inscription, not verified chronology; outside selected cipher.",
+    "reading_rotation_degrees_clockwise": 90,
+    "reading_bbox_xyxy": [
+      500,
+      1330,
+      715,
+      1380
+    ],
+    "native_bbox_xyxy": [
+      1330,
+      460,
+      1380,
+      675
+    ]
+  },
+  "printed_exclusions": [],
+  "region_order_evidence": {
+    "inventory": "Five CW90 horizontal source rows beneath separate ordinary date.",
+    "arrow_native_context_bbox_xyxy": null
+  },
+  "proposed_editorial_czech": "[Jedna otočená šifrová oblast; řádky jsou uvedeny shora dolů, bez závěru o datu či chronologii.]\n\nMám velkou starost, [není-li?; MEMILI] moje zlatá [Andulička?; ANTULICKA] churavá. Obdržela jsi můj lístek a dopis? Prosím, možno-li, aspoň o dva řádky. Tisíc pus od tvého stále vzpomínajícího [PEPOUSE; neověřený jmenný tvar].",
+  "proposed_english_translation": "[One rotated cipher region; rows are presented top to bottom, without establishing date or chronology.]\n\nI am very worried [whether?; MEMILI] my golden [Andulička?; ANTULICKA] is ill. Have you received my card and letter? I ask, if possible, for at least two lines. A thousand kisses from your [PEPOUSE; unverified name-like form], who is always remembering.",
+  "editorial_blocks": [
+    {
+      "block_id": 1,
+      "source_line_ids": [
+        "307-R01",
+        "307-R02",
+        "307-R03",
+        "307-R04",
+        "307-R05"
+      ],
+      "czech": "[Jedna otočená šifrová oblast; řádky jsou uvedeny shora dolů, bez závěru o datu či chronologii.]\n\nMám velkou starost, [není-li?; MEMILI] moje zlatá [Andulička?; ANTULICKA] churavá. Obdržela jsi můj lístek a dopis? Prosím, možno-li, aspoň o dva řádky. Tisíc pus od tvého stále vzpomínajícího [PEPOUSE; neověřený jmenný tvar].",
+      "english": "[One rotated cipher region; rows are presented top to bottom, without establishing date or chronology.]\n\nI am very worried [whether?; MEMILI] my golden [Andulička?; ANTULICKA] is ill. Have you received my card and letter? I ask, if possible, for at least two lines. A thousand kisses from your [PEPOUSE; unverified name-like form], who is always remembering."
+    }
+  ],
+  "editorial_spatial_order_notices": [
+    {
+      "before_block_id": 1,
+      "source_line_ids": [
+        "307-R01",
+        "307-R02",
+        "307-R03",
+        "307-R04",
+        "307-R05"
+      ],
+      "czech": "[Jedna otočená šifrová oblast; řádky jsou uvedeny shora dolů, bez závěru o datu či chronologii.]",
+      "english": "[One rotated cipher region; rows are presented top to bottom, without establishing date or chronology.]"
+    }
+  ],
+  "editorial_restoration_ledger": [
+    {
+      "line_id": "307-R01",
+      "literal_offset_start": 20,
+      "literal_offset_end": 26,
+      "literal": "MEMILI",
+      "proposed_czech": "[není-li?; MEMILI]",
+      "proposed_english": "[whether?; MEMILI]",
+      "basis": "Tentative two M-to-N substitutions and division NENI-LI; uncertainty in conditional construction is retained in both languages, not used to choose source arches."
+    },
+    {
+      "line_id": "307-R02",
+      "literal_offset_start": 6,
+      "literal_offset_end": 15,
+      "literal": "ANTULICKA",
+      "proposed_czech": "[Andulička?; ANTULICKA]",
+      "proposed_english": "[Andulička?; ANTULICKA]",
+      "basis": "Tentative T-to-D repair plus ordinary diacritics and qualified name-like rendering; no identity established."
+    }
+  ],
+  "editorial_literal_fragment_ledger": [
+    {
+      "line_id": "307-R05",
+      "literal_offset_start": 21,
+      "literal_offset_end": 28,
+      "literal": "PEPOUSE",
+      "proposed_czech": "[PEPOUSE; neověřený jmenný tvar]",
+      "proposed_english": "[PEPOUSE; unverified name-like form]",
+      "basis": "Literal name-like form retained without person attribution."
+    }
+  ],
+  "editorial_coverage": [
+    {
+      "line_id": "307-R01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 31,
+      "literal": "MAM VELKOU STAROST, MEMILI MOJE",
+      "editorial_block_id": 1,
+      "czech_status": "All selected clauses rendered with identical source gaps and qualified repair scope as English.",
+      "english_status": "All selected clauses rendered with identical source gaps and qualified repair scope as Czech.",
+      "omission": false,
+      "spatial_order_qualification": "Paired bracketed region notices are editorial, not source text."
+    },
+    {
+      "line_id": "307-R02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 37,
+      "literal": "ZLATA ANTULICKA CHURAVA. OBDRZELA JSI",
+      "editorial_block_id": 1,
+      "czech_status": "All selected clauses rendered with identical source gaps and qualified repair scope as English.",
+      "english_status": "All selected clauses rendered with identical source gaps and qualified repair scope as Czech.",
+      "omission": false,
+      "spatial_order_qualification": "Paired bracketed region notices are editorial, not source text."
+    },
+    {
+      "line_id": "307-R03",
+      "literal_offset_start": 0,
+      "literal_offset_end": 37,
+      "literal": "MUJ LISTEK A DOPIS? PROSIM, MOZNO-LI,",
+      "editorial_block_id": 1,
+      "czech_status": "All selected clauses rendered with identical source gaps and qualified repair scope as English.",
+      "english_status": "All selected clauses rendered with identical source gaps and qualified repair scope as Czech.",
+      "omission": false,
+      "spatial_order_qualification": "Paired bracketed region notices are editorial, not source text."
+    },
+    {
+      "line_id": "307-R04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 37,
+      "literal": "ASPON O DVA RADKY. TISIC PUS OD TVEHO",
+      "editorial_block_id": 1,
+      "czech_status": "All selected clauses rendered with identical source gaps and qualified repair scope as English.",
+      "english_status": "All selected clauses rendered with identical source gaps and qualified repair scope as Czech.",
+      "omission": false,
+      "spatial_order_qualification": "Paired bracketed region notices are editorial, not source text."
+    },
+    {
+      "line_id": "307-R05",
+      "literal_offset_start": 0,
+      "literal_offset_end": 29,
+      "literal": "STALE VZPOMINAJICIHO PEPOUSE.",
+      "editorial_block_id": 1,
+      "czech_status": "All selected clauses rendered with identical source gaps and qualified repair scope as English.",
+      "english_status": "All selected clauses rendered with identical source gaps and qualified repair scope as Czech.",
+      "omission": false,
+      "spatial_order_qualification": "Paired bracketed region notices are editorial, not source text."
+    }
+  ],
+  "editorial_layout_normalizations": [],
+  "editorial_policy": "Ordinary diacritics, punctuation spacing and translation word order are normalized. Every substantive letter substitution, mask completion, word division and uncertain name/title-like proposal is bracketed in both languages and tied to exact current literal spans. Region notices are separate editorial additions. No hidden clause, remembered object, extra subject or printed-poem wording supplied.",
+  "editorial_scope": {
+    "coverage_notice": "All five selected rows and every legible clause have paired coverage.",
+    "source_limits": "No person, place, rank, author, date, relationship, contact or historical event authenticated."
+  },
+  "provenance_sequence": {
+    "first_second_are_assignments_not_chronology": true,
+    "first_froze_after_second": true,
+    "four_own_two_input_groups": true,
+    "every_actor_own_replay": true,
+    "no_parent_first_or_later_qa_replay_stage": true,
+    "raw_checkpoint_sha256": "380d19008bc418aa7dd34007e264ab530a8645eebc8b8a8f50a042847c57f3a9",
+    "final_replay_checkpoint_sha256": "44725be81d96d50ed4e18be5d87027379cbb8e947fa0c31d148c2d64018fe057",
+    "barrier": "All eight raw and own strict fingerprints checkpointed before exchange; final strict checkpoint before QA and curator release. Recorded timestamps do not prove cognitive independence."
+  },
+  "batch_mechanical_qa": {
+    "record_sha256": "6d8fad6511270f9344c02909a0d7097c28a2108bad4af9c7a983850fa1932271",
+    "summary": {
+      "readings": 8,
+      "rows": 60,
+      "transcription_spans": 34,
+      "geometry_records": 103,
+      "exact_descriptive_spans": 172,
+      "native_only_geometry_records": 4,
+      "unknown_glyph_spans": 10,
+      "unassigned_symbol_slots": 5,
+      "all_unknown_encoded_slots": 15,
+      "actual_question_entries": 4,
+      "ordinary_numeral_spans": 0,
+      "separate_date_entries": 8,
+      "displayed_question_masks": 9,
+      "descriptive_entries_without_exact_pair": 4,
+      "mechanical_error_count": 0,
+      "schema_exception_count": 2,
+      "scope_finding_count": 4,
+      "all_group_barriers_pass": true,
+      "protected_inputs_unchanged": true
+    },
+    "schema_exceptions": [
+      {
+        "reader": "first307",
+        "category": "frozen_row_transcription_container",
+        "affected_rows": 5,
+        "operation": "Pass exact row['transcription']['tags'] list unchanged to decoder; outer dictionary is not decoder-native.",
+        "no_glyph_offset_text_or_kind_projection": true,
+        "original_own_strict_call_contract": "decode.decode_text(ciphertext,notation=pdf204-canonical,transcription=row.transcription.tags); frozen raw stores native exact tag list inside tags wrapper"
+      },
+      {
+        "reader": "first308",
+        "category": "frozen_row_transcription_container",
+        "affected_rows": 9,
+        "operation": "Pass exact row['transcription']['tags'] list unchanged to decoder; outer dictionary is not decoder-native.",
+        "no_glyph_offset_text_or_kind_projection": true,
+        "original_own_strict_call_contract": "decode.decode_text(ciphertext,notation=pdf204-canonical,transcription=row.transcription.tags); frozen raw stores native exact tag list inside tags wrapper"
+      }
+    ],
+    "applicable_findings": [],
+    "limits": "Zero mechanical errors with two documented nested-tag extraction exceptions; four batch source-scope findings remain. Other-card findings are outside this reconciliation. No count establishes family, ownership or narrative order."
+  },
+  "initial_reconciliation": {
+    "curator_role": "Assigned SECOND source actor, now nonblind reconciler after explicit exchange release.",
+    "disagreements": [
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 0,
+        "left_offset_end": 1,
+        "left": "n",
+        "right_offset_start": 0,
+        "right_offset_end": 1,
+        "right": "m",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 7,
+        "left_offset_end": 8,
+        "left": "g",
+        "right_offset_start": 7,
+        "right_offset_end": 8,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 20,
+        "left_offset_end": 21,
+        "left": "n",
+        "right_offset_start": 20,
+        "right_offset_end": 21,
+        "right": "m",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 22,
+        "left_offset_end": 23,
+        "left": "n",
+        "right_offset_start": 22,
+        "right_offset_end": 23,
+        "right": "m",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 27,
+        "left_offset_end": 28,
+        "left": "n",
+        "right_offset_start": 27,
+        "right_offset_end": 28,
+        "right": "m",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "FIRST versus CURRENT",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 7,
+        "left_offset_end": 8,
+        "left": "g",
+        "right_offset_start": 7,
+        "right_offset_end": 8,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "SECOND versus CURRENT",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 0,
+        "left_offset_end": 1,
+        "left": "m",
+        "right_offset_start": 0,
+        "right_offset_end": 1,
+        "right": "n",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "SECOND versus CURRENT",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 20,
+        "left_offset_end": 21,
+        "left": "m",
+        "right_offset_start": 20,
+        "right_offset_end": 21,
+        "right": "n",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "SECOND versus CURRENT",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 22,
+        "left_offset_end": 23,
+        "left": "m",
+        "right_offset_start": 22,
+        "right_offset_end": 23,
+        "right": "n",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "SECOND versus CURRENT",
+        "line_id": "307-R01",
+        "first_line_id": "R1",
+        "second_line_id": "307-R01",
+        "operation": "replace",
+        "left_offset_start": 27,
+        "left_offset_end": 28,
+        "left": "m",
+        "right_offset_start": 27,
+        "right_offset_end": 28,
+        "right": "n",
+        "current_offset": 0,
+        "selected": "n6n f58q32 cd6h3cd, n5n484 n375",
+        "source_visual_basis": "Leading entry curl is followed by a single low arch, provisionally n, and the similar later low arches retain FIRST n rather than SECOND m. Narrow closed bowl/descending return retains SECOND q in f58q32, with FIRST g alternative. Numeral-like rounded third body in cd6h3cd agrees in both; no pronoun or conditional phrase used to choose arches."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R02",
+        "first_line_id": "R2",
+        "second_line_id": "307-R02",
+        "operation": "replace",
+        "left_offset_start": 8,
+        "left_offset_end": 9,
+        "left": "d",
+        "right_offset_start": 8,
+        "right_offset_end": 9,
+        "right": "t",
+        "current_offset": 0,
+        "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+        "source_visual_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R02",
+        "first_line_id": "R2",
+        "second_line_id": "307-R02",
+        "operation": "replace",
+        "left_offset_start": 13,
+        "left_offset_end": 14,
+        "left": "g",
+        "right_offset_start": 13,
+        "right_offset_end": 14,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+        "source_visual_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R02",
+        "first_line_id": "R2",
+        "second_line_id": "307-R02",
+        "operation": "replace",
+        "left_offset_start": 18,
+        "left_offset_end": 19,
+        "left": "b",
+        "right_offset_start": 18,
+        "right_offset_end": 19,
+        "right": "h",
+        "current_offset": 0,
+        "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+        "source_visual_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional."
+      },
+      {
+        "comparison": "FIRST versus CURRENT",
+        "line_id": "307-R02",
+        "first_line_id": "R2",
+        "second_line_id": "307-R02",
+        "operation": "replace",
+        "left_offset_start": 13,
+        "left_offset_end": 14,
+        "left": "g",
+        "right_offset_start": 13,
+        "right_offset_end": 14,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+        "source_visual_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional."
+      },
+      {
+        "comparison": "FIRST versus CURRENT",
+        "line_id": "307-R02",
+        "first_line_id": "R2",
+        "second_line_id": "307-R02",
+        "operation": "replace",
+        "left_offset_start": 18,
+        "left_offset_end": 19,
+        "left": "b",
+        "right_offset_start": 18,
+        "right_offset_end": 19,
+        "right": "h",
+        "current_offset": 0,
+        "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+        "source_visual_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional."
+      },
+      {
+        "comparison": "SECOND versus CURRENT",
+        "line_id": "307-R02",
+        "first_line_id": "R2",
+        "second_line_id": "307-R02",
+        "operation": "replace",
+        "left_offset_start": 8,
+        "left_offset_end": 9,
+        "left": "t",
+        "right_offset_start": 8,
+        "right_offset_end": 9,
+        "right": "d",
+        "current_offset": 0,
+        "selected": "g86d6 6md284sq6 ř2h6f6. 3pthg586 7c4",
+        "source_visual_basis": "Low double arch retains m. The following tall body has a rounded baseline bowl and ascending stem, provisionally FIRST d rather than SECOND t. Narrow descending return in the same group retains SECOND q with FIRST g alternative. Short crossed base with detached roof is provisionally ř; the taller loop after2 retains SECOND h against FIRST b. Both layers agree on 3pthg586; those p/t/h families remain visually provisional."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R03",
+        "first_line_id": "R3",
+        "second_line_id": "307-R03",
+        "operation": "replace",
+        "left_offset_start": 0,
+        "left_offset_end": 1,
+        "left": "n",
+        "right_offset_start": 0,
+        "right_offset_end": 1,
+        "right": "m",
+        "current_offset": 0,
+        "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+        "source_visual_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R03",
+        "first_line_id": "R3",
+        "second_line_id": "307-R03",
+        "operation": "replace",
+        "left_offset_start": 9,
+        "left_offset_end": 10,
+        "left": "g",
+        "right_offset_start": 9,
+        "right_offset_end": 10,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+        "source_visual_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R03",
+        "first_line_id": "R3",
+        "second_line_id": "307-R03",
+        "operation": "replace",
+        "left_offset_start": 28,
+        "left_offset_end": 29,
+        "left": "n",
+        "right_offset_start": 28,
+        "right_offset_end": 29,
+        "right": "m",
+        "current_offset": 0,
+        "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+        "source_visual_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained."
+      },
+      {
+        "comparison": "FIRST versus CURRENT",
+        "line_id": "307-R03",
+        "first_line_id": "R3",
+        "second_line_id": "307-R03",
+        "operation": "replace",
+        "left_offset_start": 9,
+        "left_offset_end": 10,
+        "left": "g",
+        "right_offset_start": 9,
+        "right_offset_end": 10,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+        "source_visual_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained."
+      },
+      {
+        "comparison": "SECOND versus CURRENT",
+        "line_id": "307-R03",
+        "first_line_id": "R3",
+        "second_line_id": "307-R03",
+        "operation": "replace",
+        "left_offset_start": 0,
+        "left_offset_end": 1,
+        "left": "m",
+        "right_offset_start": 0,
+        "right_offset_end": 1,
+        "right": "n",
+        "current_offset": 0,
+        "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+        "source_visual_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained."
+      },
+      {
+        "comparison": "SECOND versus CURRENT",
+        "line_id": "307-R03",
+        "first_line_id": "R3",
+        "second_line_id": "307-R03",
+        "operation": "replace",
+        "left_offset_start": 28,
+        "left_offset_end": 29,
+        "left": "m",
+        "right_offset_start": 28,
+        "right_offset_end": 29,
+        "right": "n",
+        "current_offset": 0,
+        "selected": "n27 84cd5q 6 t3b4c? bh3c4n, n3gm3-84,",
+        "source_visual_basis": "Initial short low arches retain FIRST n in n27 and n3gm3, with SECOND m alternatives. Descending return in 84cd5q remains narrow q provisionally, FIRST g alternative. Question has a separate upper curve and dot; comma, hyphen and final comma retained."
+      },
+      {
+        "comparison": "FIRST versus SECOND",
+        "line_id": "307-R04",
+        "first_line_id": "R4",
+        "second_line_id": "307-R04",
+        "operation": "replace",
+        "left_offset_start": 15,
+        "left_offset_end": 16,
+        "left": "g",
+        "right_offset_start": 15,
+        "right_offset_end": 16,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+        "source_visual_basis": "Narrow upper bowl and descending return after h6t provisionally retains SECOND q, with FIRST g alternative. Short angular stem in final df5r3 remains r, not blanket roof-normalized. Other selected bodies agree."
+      },
+      {
+        "comparison": "FIRST versus CURRENT",
+        "line_id": "307-R04",
+        "first_line_id": "R4",
+        "second_line_id": "307-R04",
+        "operation": "replace",
+        "left_offset_start": 15,
+        "left_offset_end": 16,
+        "left": "g",
+        "right_offset_start": 15,
+        "right_offset_end": 16,
+        "right": "q",
+        "current_offset": 0,
+        "selected": "6cb3m 3 tf6 h6tq1. d4c4s b2c 3t df5r3",
+        "source_visual_basis": "Narrow upper bowl and descending return after h6t provisionally retains SECOND q, with FIRST g alternative. Short angular stem in final df5r3 remains r, not blanket roof-normalized. Other selected bodies agree."
+      }
+    ],
+    "first_strict_counts": {
+      "rows": 5,
+      "encoded_bodies": 140,
+      "expanded_letters": 141,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "second_strict_counts": {
+      "rows": 5,
+      "encoded_bodies": 140,
+      "expanded_letters": 141,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "current_strict_counts": {
+      "rows": 5,
+      "encoded_bodies": 140,
+      "expanded_letters": 141,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "at_utc": "2026-10-20T20:26:52.507980+00:00",
+    "record": "../revisions/307-initial-reconciliation.json",
+    "selected_snapshot_sha256": "002f3716a4d31a30c679c44cd732c91a96dafdc14bac9a68e7da7b7908cba35a"
+  },
+  "limits": [
+    "All glyph selections and word divisions remain source-based candidates, not solved or authenticated readings.",
+    "No key changes, legacy unassigned-symbol bridge, blanket roof normalization or linguistic source backfill.",
+    "Physical totals and unknown cluster lengths remain null; context boxes do not establish individual-body counts.",
+    "Related AI, visible key and prior language/context influence limit independence claims."
+  ],
+  "encoded_bodies": 140,
+  "expanded_letters": 141,
+  "ch_occurrences": 1,
+  "unknowns": 0,
+  "post_initial_updates": [
+    {
+      "at_utc": "2026-10-20T20:28:17.286612+00:00",
+      "scope": "Current English sentence grammar only; no remembered object added. Raw/strict evidence, selected glyphs/counts, initial snapshot and restoration/fragment scope unchanged.",
+      "field": "proposed_english_translation and matching editorial block",
+      "prior": "[One rotated cipher region; rows are presented top to bottom, without establishing date or chronology.]\n\nI am very worried [whether?; MEMILI] my golden [Andulička?; ANTULICKA] is ill. Have you received my card and letter? I ask, if possible, for at least two lines. A thousand kisses from your ever-remembering [PEPOUSE; unverified name-like form].",
+      "current": "[One rotated cipher region; rows are presented top to bottom, without establishing date or chronology.]\n\nI am very worried [whether?; MEMILI] my golden [Andulička?; ANTULICKA] is ill. Have you received my card and letter? I ask, if possible, for at least two lines. A thousand kisses from your [PEPOUSE; unverified name-like form], who is always remembering."
+    }
+  ]
+}
