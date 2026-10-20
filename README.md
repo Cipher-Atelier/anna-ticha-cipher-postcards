@@ -2,6 +2,8 @@
 
 Research by Maxim Egorov on personal postcards written in cipher, with proposed Czech readings. The collection remains partly read; the writer’s identity and several dates remain unresolved.
 
+[Cipher Atelier](https://github.com/Cipher-Atelier) · [Research index](https://github.com/Cipher-Atelier/research-index) · [Reading guide](READING_GUIDE.md) · [Verification](verification/README.md)
+
 ## Current status — 20 October 2026
 
 | Status | Scope and evidence |
@@ -20,7 +22,17 @@ Card 460 belongs to another team’s comparison: the author reports consistency 
 3. **Literal text and supporting evidence:** open the card’s literal beside its interpretation. For a worked example, use [card 199](anna-ticha/card-199.md), its [saved literal](verification/anna-ticha/literal.txt) and [position table](verification/anna-ticha/data/card199_positions.csv).
 4. **Method and historical audits:** follow [methods](anna-ticha/methods.md) and the [dated audit index](research-updates/README.md). Later qualifications are linked separately from frozen records.
 
-## What can be checked publicly?
+## Reproduce the checks
+
+From this repository’s top-level folder, use Python 3.10 or later:
+
+```sh
+python3 verification/check_all.py
+```
+
+This standard-library command runs offline without extra packages. It checks file fingerprints and replays the saved proposals; it does not certify the source readings. The [verification instructions](verification/README.md) cover expected output, limitations and troubleshooting. The [existing CI workflow](.github/workflows/verify.yml) also runs regression tests and additional research fixtures with pinned NumPy and Pillow dependencies.
+
+### What can be checked publicly?
 
 | Evidence | Open this | Limit |
 | --- | --- | --- |
@@ -32,10 +44,16 @@ Card 460 belongs to another team’s comparison: the author reports consistency 
 
 Card 199’s two `ch` assignments explain why 522 mapped positions emit 524 letters. Twelve later cards have contextual-ledger replay, with additional card 318 marginal strips; see the [card index](anna-ticha/readings.md#evidence-levels). Card 330 has a separate [experimental graphical proposal](anna-ticha/card-330.md): 65 display groups, 264 encoded slots, 251 provisional assignments, 254 known letters and thirteen retained masks. Physical segmentation and written/postal date remain unresolved. Later [feature controls](research-updates/2026-10-11-card330-cross-card-feature-control.md) and [stroke-ownership checks](research-updates/2026-10-11-card330-stroke-ownership.md) accepted no additional letters; their collector/comparison scripts are not published.
 
-## Research records and contribution
+## Research scope and limitations
 
-[Sources and earlier work](anna-ticha/sources.md) retain item-specific credits and restrictions. Scans, crops, restricted materials and private correspondence are excluded. No new blanket licence is asserted. AI-assisted checks do not constitute external human expert review. The dated card 204 status note describes a separate author-reported check.
+AI-assisted checks do not constitute external human expert review. The dated card 204 status note describes a separate author-reported check. The collection remains partly read, with unresolved identity and dates; the status and evidence limits above apply to each saved proposal.
 
-This is part of [Cipher-Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). See the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md) and [research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md). To propose a bounded source check or alternative reading, use [Work on existing research](https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/issues/new?template=research.yml) and identify the card, position, source and effect on the saved output.
+## Contribute
+
+This is part of [Cipher Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). See the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md) and [research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md). To propose a bounded source check or alternative reading, use [Work on existing research](https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/issues/new?template=research.yml) and identify the card, position, source and effect on the saved output.
+
+## Sources and rights
+
+[Sources and earlier work](anna-ticha/sources.md) retain item-specific credits and restrictions. Scans, crops, restricted materials and private correspondence are excluded. No new blanket licence is asserted.
 
 [Publication provenance](SOURCE_PROVENANCE.json) records the original release. Historical research files remain preserved; current navigation and later qualifications are editorial additions.
