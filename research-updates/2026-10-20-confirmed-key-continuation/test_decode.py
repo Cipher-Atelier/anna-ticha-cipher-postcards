@@ -106,6 +106,35 @@ class ConfirmedKeyTests(unittest.TestCase):
                     {'line_id': 'L1', 'ciphertext': 'qg ř', 'literal': 'KZ CH'}],
                 'uncertainty_ledger': entries}
 
+    def test_card_numeral_only_is_not_an_unknown_slot(self):
+        card = self.ledger_card([])
+        card['lines'][0].update(
+            ciphertext='14', literal='14',
+            transcription=[{'offset': 0, 'text': '14', 'kind': 'numeral'}],
+            unknowns=[{'offset': 0, 'body_index': None, 'symbol': '14', 'kind': 'numeral'}])
+        self.assertEqual(self.checker().check_card(card), {
+            'rows': 1, 'encoded_bodies': 0, 'expanded_letters': 0,
+            'ch_occurrences': 0, 'unknowns': 0})
+        bad = copy.deepcopy(card)
+        bad['lines'][0]['unknowns'] = []
+        with self.assertRaisesRegex(ValueError, 'unknown ledger'):
+            self.checker().check_card(bad)
+
+    def test_card_numeral_with_unknown_preserves_body_and_ch_counts(self):
+        for symbol, kind in [('?', 'unknown_glyph'), ('9', 'unknown_symbol')]:
+            card = self.ledger_card([])
+            card['lines'][0].update(
+                ciphertext=f'14 {symbol} ř', literal=f'14 {symbol} CH',
+                transcription=[{'offset': 0, 'text': '14', 'kind': 'numeral'}],
+                unknowns=[
+                    {'offset': 0, 'body_index': None, 'symbol': '14', 'kind': 'numeral'},
+                    {'offset': 3, 'body_index': 0, 'symbol': symbol, 'kind': kind},
+                ])
+            with self.subTest(symbol=symbol):
+                self.assertEqual(self.checker().check_card(card), {
+                    'rows': 1, 'encoded_bodies': 2, 'expanded_letters': 2,
+                    'ch_occurrences': 1, 'unknowns': 1})
+
     def test_current_ledger_rejects_stale_selected_span(self):
         card = self.ledger_card([{'line_id': 'L1', 'offset': 0, 'selected': 'f6sm5'}])
         card['lines'][0].update(ciphertext='f5sm5', literal='VECNE')

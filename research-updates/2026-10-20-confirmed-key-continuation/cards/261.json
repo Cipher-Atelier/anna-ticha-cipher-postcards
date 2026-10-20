@@ -1,0 +1,4822 @@
+{
+  "card_id": "261",
+  "notation": "pdf204-canonical",
+  "status": "prepared candidate; two related AI source-only readings followed by nonblind initial reconciliation; no independent human/external proof",
+  "source": {
+    "url": "https://api.hcportal.eu/media/4800/pc_hcp_261_pic.JPG",
+    "sha256": "be76d34b729ce4757fc823800938706910bdc0e9dceeb5cbdd7e9b5a2caa5d20",
+    "catalogue_id": 1580,
+    "native_dimensions": [
+      1785,
+      1175
+    ]
+  },
+  "orientation": {
+    "rotation_clockwise_degrees": 270,
+    "rotation_counterclockwise_degrees": 90,
+    "reading_dimensions": [
+      1175,
+      1785
+    ],
+    "bbox_convention": "xyxy pixelboundaries; nativeandreadingperline"
+  },
+  "reader": {
+    "model": "gpt-6.1-sol",
+    "temperature": "unavailable",
+    "seed": "unavailable"
+  },
+  "reading_phases": [
+    {
+      "reader": "first",
+      "phase": "source-only raw frozen before own literal replay",
+      "raw_sha256": "638ead7b5f8d02ad70ddc58a758c8ca668c2e5e9b89d6de6c7e5da8ac6d6a6af",
+      "key_visible": true
+    },
+    {
+      "reader": "second",
+      "phase": "source-only raw frozen before own replay and firsttargetaccess",
+      "raw_sha256": "7521c878396845ee806e6b016f535d3d00f8b69c72d412524277d405e237e0ab",
+      "key_visible": true
+    },
+    {
+      "reader": "reconciliation",
+      "phase": "nonblindsourcecomparison afterbothfreezes",
+      "model": "gpt-6.1-sol",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00"
+    }
+  ],
+  "frozen_readings": [
+    {
+      "reader": "first",
+      "raw_sha256": "638ead7b5f8d02ad70ddc58a758c8ca668c2e5e9b89d6de6c7e5da8ac6d6a6af",
+      "raw_hash_scope": "canonical JSON {raw_rows,notes},ensure_ascii=False,sort_keys=True,separators comma/colon",
+      "frozen_at_utc": "2026-10-20T13:18:49.748505+00:00",
+      "raw": {
+        "raw_rows": [
+          {
+            "line_id": "261-L01",
+            "ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+            "reading_bbox_xyxy": [
+              109,
+              97,
+              1030,
+              150
+            ]
+          },
+          {
+            "line_id": "261-L02",
+            "ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+            "reading_bbox_xyxy": [
+              108,
+              146,
+              1052,
+              201
+            ]
+          },
+          {
+            "line_id": "261-L03",
+            "ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+            "reading_bbox_xyxy": [
+              109,
+              195,
+              1070,
+              253
+            ]
+          },
+          {
+            "line_id": "261-L04",
+            "ciphertext": "m57h6t574 rm5t 3b5d t3 f5c581 fh6d48! 76q",
+            "reading_bbox_xyxy": [
+              107,
+              242,
+              1090,
+              296
+            ]
+          },
+          {
+            "line_id": "261-L05",
+            "ciphertext": "t3cd686 7c4 c5 t3n2?",
+            "reading_bbox_xyxy": [
+              599,
+              299,
+              1090,
+              346
+            ]
+          },
+          {
+            "line_id": "261-L06",
+            "ciphertext": "7c4 gth6f6, m5m6ř86t486",
+            "reading_bbox_xyxy": [
+              603,
+              347,
+              1105,
+              397
+            ]
+          },
+          {
+            "line_id": "261-L07",
+            "ciphertext": "7c4 c5? 76 t3cd68 7c5n",
+            "reading_bbox_xyxy": [
+              608,
+              405,
+              1096,
+              454
+            ]
+          },
+          {
+            "line_id": "261-L08",
+            "ciphertext": "c5t3 bh6r1 b3r3t8m5",
+            "reading_bbox_xyxy": [
+              610,
+              454,
+              1093,
+              506
+            ]
+          },
+          {
+            "line_id": "261-L09",
+            "ciphertext": "6 f d5b85, b3m5f6tg",
+            "reading_bbox_xyxy": [
+              610,
+              514,
+              1087,
+              569
+            ]
+          },
+          {
+            "line_id": "261-L10",
+            "ciphertext": "c574g f h1ř84q2 d3-",
+            "reading_bbox_xyxy": [
+              607,
+              575,
+              1091,
+              632
+            ]
+          },
+          {
+            "line_id": "261-L11",
+            "ciphertext": "b483. f m3s4 c5",
+            "reading_bbox_xyxy": [
+              745,
+              640,
+              1078,
+              690
+            ]
+          },
+          {
+            "line_id": "261-L12",
+            "ciphertext": "n4 b6q qt683",
+            "reading_bbox_xyxy": [
+              811,
+              696,
+              1095,
+              746
+            ]
+          },
+          {
+            "line_id": "261-L13",
+            "ciphertext": "3 d3p5 cd685",
+            "reading_bbox_xyxy": [
+              869,
+              755,
+              1106,
+              806
+            ]
+          },
+          {
+            "line_id": "261-L14",
+            "ciphertext": "?6 n483f6m6",
+            "reading_bbox_xyxy": [
+              829,
+              810,
+              1106,
+              865
+            ]
+          },
+          {
+            "line_id": "261-L15",
+            "ciphertext": "6m2cq3!",
+            "reading_bbox_xyxy": [
+              862,
+              877,
+              1050,
+              927
+            ]
+          },
+          {
+            "line_id": "261-L16",
+            "ciphertext": "fgb3m4m6c",
+            "reading_bbox_xyxy": [
+              890,
+              937,
+              1105,
+              990
+            ]
+          },
+          {
+            "line_id": "261-L17",
+            "ciphertext": "d6q5? 6",
+            "reading_bbox_xyxy": [
+              921,
+              991,
+              1096,
+              1044
+            ]
+          },
+          {
+            "line_id": "261-L18",
+            "ciphertext": "fgb3m4-",
+            "reading_bbox_xyxy": [
+              939,
+              1056,
+              1108,
+              1112
+            ]
+          },
+          {
+            "line_id": "261-L19",
+            "ciphertext": "m6c m6 nm5",
+            "reading_bbox_xyxy": [
+              824,
+              1112,
+              1086,
+              1166
+            ]
+          },
+          {
+            "line_id": "261-L20",
+            "ciphertext": "r5gq1? d5c4n",
+            "reading_bbox_xyxy": [
+              824,
+              1172,
+              1096,
+              1225
+            ]
+          },
+          {
+            "line_id": "261-L21",
+            "ciphertext": "c5, g5 n4",
+            "reading_bbox_xyxy": [
+              858,
+              1231,
+              1066,
+              1279
+            ]
+          },
+          {
+            "line_id": "261-L22",
+            "ciphertext": "r3tm5 phq3",
+            "reading_bbox_xyxy": [
+              876,
+              1288,
+              1096,
+              1339
+            ]
+          },
+          {
+            "line_id": "261-L23",
+            "ciphertext": "b3c85c 3 c3p5",
+            "reading_bbox_xyxy": [
+              865,
+              1351,
+              1105,
+              1398
+            ]
+          },
+          {
+            "line_id": "261-L24",
+            "ciphertext": "qbh6f2.",
+            "reading_bbox_xyxy": [
+              881,
+              1396,
+              1078,
+              1445
+            ]
+          },
+          {
+            "line_id": "261-B01",
+            "ciphertext": "fh581 b6s",
+            "reading_bbox_xyxy": [
+              66,
+              1382,
+              320,
+              1443
+            ]
+          },
+          {
+            "line_id": "261-B02",
+            "ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+            "reading_bbox_xyxy": [
+              73,
+              1445,
+              853,
+              1507
+            ]
+          },
+          {
+            "line_id": "261-B03",
+            "ciphertext": "cf5 bh6th6r5, m5f1c83fm5 m483-",
+            "reading_bbox_xyxy": [
+              68,
+              1497,
+              889,
+              1555
+            ]
+          },
+          {
+            "line_id": "261-B04",
+            "ciphertext": "f6m5 6mt285 b3c486 f5sm5 7574 b5b32c.",
+            "reading_bbox_xyxy": [
+              49,
+              1550,
+              1087,
+              1611
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "kind": "orientation",
+            "text": "Upright main text requires90CCW (270CW) native rotation, reading1175x1785."
+          },
+          {
+            "kind": "coverage",
+            "text": "24 sequential top/right winding rows around rose artwork, plus four bottom closing rows. Empty art gaps not silently filled; first bottomrow shares height with last right rows but separately located."
+          },
+          {
+            "kind": "punctuation",
+            "line_ids": [
+              "261-L05",
+              "261-L07",
+              "261-L17",
+              "261-L20"
+            ],
+            "text": "Their terminal/interior? are actual source question marks, not unknowns."
+          },
+          {
+            "kind": "unknown_cluster",
+            "line_id": "261-L14",
+            "token": "?6",
+            "physical_encoded_body_count": null,
+            "selected_replay_slots": 2,
+            "text": "First form just beside leaf resembles shortshoulder body with detached mark; family unassigned, alternatives ř,r,n,m. One? replay slot but physical segmentation unresolved."
+          },
+          {
+            "kind": "mark",
+            "line_id": "261-L02",
+            "token": "řf485",
+            "text": "Initial shoulderbody bears distinct caron, řselected onebody. m5d58m4 firstm/tallloop joins uncertain."
+          },
+          {
+            "kind": "mark",
+            "line_id": "261-L03",
+            "tokens": [
+              "h1ř85",
+              "p1ř"
+            ],
+            "text": "Small carons above shortshoulder bodies clear. Initialp in p1ř has tall stem/shoulder, alternate r."
+          },
+          {
+            "kind": "glyph_alternative",
+            "line_id": "261-L04",
+            "token": "f5c581",
+            "alternatives": [
+              "f5c581",
+              "f3c581"
+            ],
+            "text": "Second digit has shortupperbar and bend,5selected;3alternative. Last76q descender selectedq butgpossible."
+          },
+          {
+            "kind": "glyph_alternative",
+            "line_id": "261-L06",
+            "token": "gth6f6",
+            "alternatives": [
+              "gth6f6",
+              "qth6f6"
+            ],
+            "text": "Initial descending loop appears openhook,gselected. In secondtoken ř has detachedsmallwedge above."
+          },
+          {
+            "kind": "mark",
+            "line_id": "261-L07",
+            "text": "Black speckled run below initial7 of final7c5n; resembles printing/ink drops, no extra bodies assigned."
+          },
+          {
+            "kind": "mark",
+            "line_id": "261-L09",
+            "token": "f",
+            "text": "Detached small upper stroke above d vicinity after isolatedf; not securely a caron/body, noted separately."
+          },
+          {
+            "kind": "mark",
+            "line_id": "261-L10",
+            "token": "h1ř84q2",
+            "text": "Clear caron above thirdbody, ř retained. Lower returningloop q; alternate g. Endhyphen continues d3-/b483 without joining raw."
+          },
+          {
+            "kind": "glyph_alternative",
+            "line_id": "261-L12",
+            "token": "qt683",
+            "alternatives": [
+              "qt683",
+              "gt683"
+            ],
+            "text": "Initial descendingform lowerloop looks closedq, contrast hookedg; alternative unresolved."
+          },
+          {
+            "kind": "glyph_alternative",
+            "line_id": "261-L16",
+            "token": "fgb3m4m6c",
+            "alternatives": [
+              "fgb3m4m6c",
+              "fgb3n4m6c"
+            ],
+            "text": "Fifthbody lowhumps m selected ratherthann, visible archcountuncertain."
+          },
+          {
+            "kind": "mark",
+            "line_id": "261-L20",
+            "token": "r5gq1",
+            "text": "Whole token underlined. Firstg descender openhook, nextq closedloop selected; possible gg/qg variants retained."
+          },
+          {
+            "kind": "glyph_alternative",
+            "line_id": "261-L22",
+            "token": "phq3",
+            "alternatives": [
+              "phq3",
+              "phg3"
+            ],
+            "text": "Lastdescendingbody before3 appears closedreturningloopq; openhookgpossible."
+          },
+          {
+            "kind": "glyph_alternative",
+            "line_id": "261-L24",
+            "token": "qbh6f2",
+            "alternatives": [
+              "qbh6f2",
+              "gbh6f2"
+            ],
+            "text": "Initiallowerloop slender closedq selected, g alternative."
+          },
+          {
+            "kind": "glyph_alternative",
+            "line_id": "261-B01",
+            "token": "b6s",
+            "alternatives": [
+              "b6s",
+              "?6s"
+            ],
+            "text": "Talllooped initial b selected; unassignedF-like glyph alternative retained, no extra key mapping."
+          },
+          {
+            "kind": "mark",
+            "line_id": "261-B02",
+            "tokens": [
+              "t832r1ř",
+              "2bh4nm1ř"
+            ],
+            "text": "Finalshortbody in each has caron. Firstbody2bh... joinedtallstems not split beyond visible labels. b2c finalc longflourish."
+          },
+          {
+            "kind": "segmentation",
+            "line_ids": [
+              "261-L18",
+              "261-B03"
+            ],
+            "text": "Written line-end hyphens retained; no silent joining."
+          },
+          {
+            "kind": "date",
+            "bbox": [
+              365,
+              1640,
+              666,
+              1713
+            ],
+            "selected": "30./IX.1902.",
+            "text": "Separate plainnumeral/Romanmonth inscription, excluded cipher counts. Finalperiodflourish retained conceptually."
+          },
+          {
+            "kind": "limits",
+            "text": "Source-only first reader; knownkeyvisible but complete raw frozen beforedecode. No old261 transcript/research/candidate access. n/m humps,q/g tails,t/d crossbars and tiny marks provisional."
+          }
+        ]
+      }
+    },
+    {
+      "reader": "second",
+      "raw_sha256": "7521c878396845ee806e6b016f535d3d00f8b69c72d412524277d405e237e0ab",
+      "raw_hash_scope": "canonicalcompactsortedUTF8JSONofrawobject",
+      "frozen_at_utc": "2026-10-20T13:25:36.864211+00:00",
+      "raw": {
+        "rows": [
+          {
+            "line_id": "261-L01",
+            "ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+            "reading_bbox_xyxy": [
+              103,
+              88,
+              1080,
+              147
+            ],
+            "native_bbox_xyxy": [
+              1638,
+              103,
+              1697,
+              1080
+            ],
+            "uncertainties": [
+              {
+                "token": "g86d4sq5",
+                "alternatives": [
+                  "g86d4cg5"
+                ],
+                "reason": "Triangulars then closedlowerq selected."
+              },
+              {
+                "token": "fgb3n4m6n",
+                "alternatives": [
+                  "fgb3m4m6n"
+                ],
+                "reason": "Lowarch after3 selectedn; humps indistinct."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 35
+          },
+          {
+            "line_id": "261-L02",
+            "ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+            "reading_bbox_xyxy": [
+              102,
+              138,
+              1089,
+              205
+            ],
+            "native_bbox_xyxy": [
+              1580,
+              102,
+              1647,
+              1089
+            ],
+            "uncertainties": [
+              {
+                "token": "qh6cm5",
+                "alternatives": [
+                  "gh6cm5"
+                ],
+                "reason": "Initial lowerreturnselectedq."
+              },
+              {
+                "token": "řf485",
+                "alternatives": [
+                  "rf485"
+                ],
+                "reason": "Initialshortbody has detachedupperchevron; followingtallloopselectedf."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 34
+          },
+          {
+            "line_id": "261-L03",
+            "ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+            "reading_bbox_xyxy": [
+              101,
+              191,
+              1094,
+              254
+            ],
+            "native_bbox_xyxy": [
+              1531,
+              101,
+              1594,
+              1094
+            ],
+            "uncertainties": [
+              {
+                "token": "p3r2g58",
+                "alternatives": [
+                  "p3r2q58"
+                ],
+                "reason": "9-like lower openhook selectedg."
+              },
+              {
+                "token": "2b81m281",
+                "alternatives": [
+                  "2b81n281"
+                ],
+                "reason": "Lowhumps after1 selectedm."
+              },
+              {
+                "token": "p1f68",
+                "alternatives": [
+                  "p1f68",
+                  "b1f68"
+                ],
+                "reason": "Pointedlowinitialbodyselectedp, tallb alternative."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 36
+          },
+          {
+            "line_id": "261-L04",
+            "ciphertext": "m57h6t574 rm5t 3b5d t3 f3c581 fh6d48! 76q",
+            "reading_bbox_xyxy": [
+              100,
+              239,
+              1100,
+              303
+            ],
+            "native_bbox_xyxy": [
+              1482,
+              100,
+              1546,
+              1100
+            ],
+            "uncertainties": [
+              {
+                "token": "rm5t",
+                "alternatives": [
+                  "rn5t",
+                  "rm5t"
+                ],
+                "reason": "Shortbranchr followedtwolowhumps selectedm; exactconnected-bodycount unclear."
+              },
+              {
+                "token": "f3c581",
+                "alternatives": [
+                  "f3c581",
+                  "f3c58l"
+                ],
+                "reason": "Laststraightdigit selected1, unassignedl-like alternative only; no mappinginferred."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": null
+          },
+          {
+            "line_id": "261-L05",
+            "ciphertext": "t3cd686 7c4 c5 t3n2?",
+            "reading_bbox_xyxy": [
+              594,
+              290,
+              1096,
+              353
+            ],
+            "native_bbox_xyxy": [
+              1432,
+              594,
+              1495,
+              1096
+            ],
+            "uncertainties": [],
+            "punctuation_question_offsets_0based": [
+              19
+            ],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 16
+          },
+          {
+            "line_id": "261-L06",
+            "ciphertext": "7c4 gth6f6, m5m6ř86t486",
+            "reading_bbox_xyxy": [
+              594,
+              344,
+              1111,
+              409
+            ],
+            "native_bbox_xyxy": [
+              1376,
+              594,
+              1441,
+              1111
+            ],
+            "uncertainties": [
+              {
+                "token": "m5m6ř86t486",
+                "alternatives": [
+                  "m5m6r86t486"
+                ],
+                "reason": "Chevron over shortfifthbodyselectedř."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 20
+          },
+          {
+            "line_id": "261-L07",
+            "ciphertext": "7c4 c5? 76, t3cd68 7c5n",
+            "reading_bbox_xyxy": [
+              594,
+              399,
+              1107,
+              463
+            ],
+            "native_bbox_xyxy": [
+              1322,
+              594,
+              1386,
+              1107
+            ],
+            "uncertainties": [
+              {
+                "token": "t3cd68",
+                "alternatives": [
+                  "t3cd686"
+                ],
+                "reason": "No secure final6 after8 before following7c5n; possibleadditionalbody retainedalternative."
+              }
+            ],
+            "punctuation_question_offsets_0based": [
+              6
+            ],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": null
+          },
+          {
+            "line_id": "261-L08",
+            "ciphertext": "c5 t3 bh6r1 b3r3t8m5",
+            "reading_bbox_xyxy": [
+              603,
+              452,
+              1100,
+              510
+            ],
+            "native_bbox_xyxy": [
+              1275,
+              603,
+              1333,
+              1100
+            ],
+            "uncertainties": [
+              {
+                "token": "bh6r1",
+                "alternatives": [
+                  "th6r1"
+                ],
+                "reason": "Tallinitialloop with lowercurl selectedb; barredd alternative notestablished."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 17
+          },
+          {
+            "line_id": "261-L09",
+            "ciphertext": "6 f d5b85, b3m5f6tq",
+            "reading_bbox_xyxy": [
+              604,
+              503,
+              1104,
+              570
+            ],
+            "native_bbox_xyxy": [
+              1215,
+              604,
+              1282,
+              1104
+            ],
+            "uncertainties": [
+              {
+                "token": "b3m5f6tq",
+                "alternatives": [
+                  "b3m5f6tg"
+                ],
+                "reason": "Finalnarrowreturnselectedq."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 15
+          },
+          {
+            "line_id": "261-L10",
+            "ciphertext": "c5 74g f h1ř84q2 d3-",
+            "reading_bbox_xyxy": [
+              603,
+              558,
+              1102,
+              632
+            ],
+            "native_bbox_xyxy": [
+              1153,
+              603,
+              1227,
+              1102
+            ],
+            "uncertainties": [
+              {
+                "token": "h1ř84q2",
+                "alternatives": [
+                  "h1r84q2",
+                  "h1ř84g2"
+                ],
+                "reason": "Chevron on thirdbody and lowerreturn q separatelyselected."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 15
+          },
+          {
+            "line_id": "261-L11",
+            "ciphertext": "b483. f m3s4 c5",
+            "reading_bbox_xyxy": [
+              745,
+              621,
+              1104,
+              684
+            ],
+            "native_bbox_xyxy": [
+              1101,
+              745,
+              1164,
+              1104
+            ],
+            "uncertainties": [
+              {
+                "token": "m3s4",
+                "alternatives": [
+                  "m3c4"
+                ],
+                "reason": "Triangular thirdbody selecteds."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 11
+          },
+          {
+            "line_id": "261-L12",
+            "ciphertext": "n4 b6q gt683",
+            "reading_bbox_xyxy": [
+              811,
+              677,
+              1105,
+              747
+            ],
+            "native_bbox_xyxy": [
+              1038,
+              811,
+              1108,
+              1105
+            ],
+            "uncertainties": [
+              {
+                "token": "b6q",
+                "alternatives": [
+                  "b6g"
+                ],
+                "reason": "Returningloopselectedq."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 10
+          },
+          {
+            "line_id": "261-L13",
+            "ciphertext": "3 d3p5 cd685,",
+            "reading_bbox_xyxy": [
+              866,
+              735,
+              1110,
+              809
+            ],
+            "native_bbox_xyxy": [
+              976,
+              866,
+              1050,
+              1110
+            ],
+            "uncertainties": [
+              {
+                "token": "3 d3p5 cd685,",
+                "alternatives": [
+                  "3d3p5 cd685,"
+                ],
+                "reason": "Small isolated3 besideleaf retained; wordgap approximate; no hiddenletters inferred."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 10
+          },
+          {
+            "line_id": "261-L14",
+            "ciphertext": "n6 n483f6m6",
+            "reading_bbox_xyxy": [
+              817,
+              791,
+              1105,
+              864
+            ],
+            "native_bbox_xyxy": [
+              921,
+              817,
+              994,
+              1105
+            ],
+            "uncertainties": [],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 10
+          },
+          {
+            "line_id": "261-L15",
+            "ciphertext": "6 m2cq3!",
+            "reading_bbox_xyxy": [
+              857,
+              850,
+              1094,
+              920
+            ],
+            "native_bbox_xyxy": [
+              865,
+              857,
+              935,
+              1094
+            ],
+            "uncertainties": [],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 6
+          },
+          {
+            "line_id": "261-L16",
+            "ciphertext": "fgb8m4m6c",
+            "reading_bbox_xyxy": [
+              881,
+              921,
+              1108,
+              987
+            ],
+            "native_bbox_xyxy": [
+              798,
+              881,
+              864,
+              1108
+            ],
+            "uncertainties": [
+              {
+                "token": "fgb8m4m6c",
+                "alternatives": [
+                  "fgb3m4m6c",
+                  "fgb8n4m6c"
+                ],
+                "reason": "Fourthbodyclosedlobesselected8; followinglowhumpsm/n uncertain."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 9
+          },
+          {
+            "line_id": "261-L17",
+            "ciphertext": "d6q5? 6",
+            "reading_bbox_xyxy": [
+              913,
+              978,
+              1096,
+              1041
+            ],
+            "native_bbox_xyxy": [
+              744,
+              913,
+              807,
+              1096
+            ],
+            "uncertainties": [],
+            "punctuation_question_offsets_0based": [
+              4
+            ],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 5
+          },
+          {
+            "line_id": "261-L18",
+            "ciphertext": "fgb3m4-",
+            "reading_bbox_xyxy": [
+              928,
+              1036,
+              1110,
+              1102
+            ],
+            "native_bbox_xyxy": [
+              683,
+              928,
+              749,
+              1110
+            ],
+            "uncertainties": [
+              {
+                "token": "fgb3m4-",
+                "alternatives": [
+                  "fgb3n4-"
+                ],
+                "reason": "Lowhumps after3 selectedm."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 6
+          },
+          {
+            "line_id": "261-L19",
+            "ciphertext": "m6c m6 nm6",
+            "reading_bbox_xyxy": [
+              810,
+              1100,
+              1106,
+              1167
+            ],
+            "native_bbox_xyxy": [
+              618,
+              810,
+              685,
+              1106
+            ],
+            "uncertainties": [
+              {
+                "token": "nm6",
+                "alternatives": [
+                  "mm6",
+                  "nn6"
+                ],
+                "reason": "Adjacentarch count ambiguous."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 8
+          },
+          {
+            "line_id": "261-L20",
+            "ciphertext": "r5gq1? d5c4n",
+            "reading_bbox_xyxy": [
+              808,
+              1155,
+              1108,
+              1223
+            ],
+            "native_bbox_xyxy": [
+              562,
+              808,
+              630,
+              1108
+            ],
+            "uncertainties": [
+              {
+                "token": "r5gq1?",
+                "alternatives": [
+                  "r5gg1?"
+                ],
+                "reason": "Two adjacentdescenders firstopenhookg, secondreturnq; underline crossinglowerloops weakensclosure."
+              }
+            ],
+            "punctuation_question_offsets_0based": [
+              5
+            ],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 10
+          },
+          {
+            "line_id": "261-L21",
+            "ciphertext": "c5, g5 n4",
+            "reading_bbox_xyxy": [
+              850,
+              1220,
+              1095,
+              1278
+            ],
+            "native_bbox_xyxy": [
+              507,
+              850,
+              565,
+              1095
+            ],
+            "uncertainties": [],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 6
+          },
+          {
+            "line_id": "261-L22",
+            "ciphertext": "r3tm5 phg3",
+            "reading_bbox_xyxy": [
+              846,
+              1274,
+              1104,
+              1333
+            ],
+            "native_bbox_xyxy": [
+              452,
+              846,
+              511,
+              1104
+            ],
+            "uncertainties": [],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 9
+          },
+          {
+            "line_id": "261-L23",
+            "ciphertext": "b3c85c 3 c3p5",
+            "reading_bbox_xyxy": [
+              858,
+              1324,
+              1105,
+              1390
+            ],
+            "native_bbox_xyxy": [
+              395,
+              858,
+              461,
+              1105
+            ],
+            "uncertainties": [
+              {
+                "token": "b3c85c",
+                "alternatives": [
+                  "b3c85s"
+                ],
+                "reason": "Lastbodyopen c selected."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 11
+          },
+          {
+            "line_id": "261-L24",
+            "ciphertext": "qbh6f2.",
+            "reading_bbox_xyxy": [
+              884,
+              1375,
+              1094,
+              1441
+            ],
+            "native_bbox_xyxy": [
+              344,
+              884,
+              410,
+              1094
+            ],
+            "uncertainties": [
+              {
+                "token": "qbh6f2.",
+                "alternatives": [
+                  "gbh6f2."
+                ],
+                "reason": "Lowerreturnselectedq; followingtallb/h shapesretained."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 6
+          },
+          {
+            "line_id": "261-L25",
+            "ciphertext": "fh581 b6s",
+            "reading_bbox_xyxy": [
+              63,
+              1379,
+              329,
+              1441
+            ],
+            "native_bbox_xyxy": [
+              344,
+              63,
+              406,
+              329
+            ],
+            "uncertainties": [
+              {
+                "token": "b6s",
+                "alternatives": [
+                  "?6s",
+                  "b6c"
+                ],
+                "reason": "Tallb selectedfromwholeloopbody, triangle s; no inventedFmapping."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 8
+          },
+          {
+            "line_id": "261-L26",
+            "ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+            "reading_bbox_xyxy": [
+              63,
+              1434,
+              846,
+              1518
+            ],
+            "native_bbox_xyxy": [
+              267,
+              63,
+              351,
+              846
+            ],
+            "uncertainties": [
+              {
+                "token": "2bh4nm1ř",
+                "alternatives": [
+                  "2bh4nm1r",
+                  "2bh4m1ř"
+                ],
+                "reason": "Caron visiblefinalbody; adjacentn/m archesmaycontainonecompoundbody ratherthantwo. Physicalcountnull."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": null
+          },
+          {
+            "line_id": "261-L27",
+            "ciphertext": "cf5 bh6th6r5, m5f1c83fm5 n483-",
+            "reading_bbox_xyxy": [
+              55,
+              1495,
+              904,
+              1568
+            ],
+            "native_bbox_xyxy": [
+              217,
+              55,
+              290,
+              904
+            ],
+            "uncertainties": [
+              {
+                "token": "bh6th6r5",
+                "alternatives": [
+                  "bh6dh6r5"
+                ],
+                "reason": "Tallcrossbarbodyt selected; d alternativegeometry."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 25
+          },
+          {
+            "line_id": "261-L28",
+            "ciphertext": "f6m5 6mt28s5 b3c486 f5sm5 7574 b5b32c.",
+            "reading_bbox_xyxy": [
+              48,
+              1551,
+              1094,
+              1637
+            ],
+            "native_bbox_xyxy": [
+              148,
+              48,
+              234,
+              1094
+            ],
+            "uncertainties": [
+              {
+                "token": "6mt28s5",
+                "alternatives": [
+                  "6mt28c5"
+                ],
+                "reason": "Penultimatetriangle selecteds."
+              }
+            ],
+            "punctuation_question_offsets_0based": [],
+            "unknown_glyph_offsets_0based": [],
+            "physical_body_count": 32
+          }
+        ],
+        "marks": [
+          {
+            "row": 2,
+            "token": "řf485",
+            "mark": "Initialshortbody upperchevronselectedř; followingf tallloop kept separate."
+          },
+          {
+            "row": 3,
+            "tokens": [
+              "h1ř85",
+              "p1ř"
+            ],
+            "mark": "Two distinctupperchevrons; selectedř bodiesnotdeleted."
+          },
+          {
+            "row": 6,
+            "token": "m5m6ř86t486",
+            "mark": "Upperchevronabove fifthbodyselectedř."
+          },
+          {
+            "row": 10,
+            "token": "h1ř84q2",
+            "mark": "Visibleupperchevronon thirdbodyselectedř."
+          },
+          {
+            "row": 20,
+            "token": "r5gq1?",
+            "mark": "Fullwordunderlined; lower g/qdescendersintersectunderline, recordedratherthannormalized."
+          },
+          {
+            "row": 26,
+            "tokens": [
+              "t832r1ř",
+              "2bh4nm1ř"
+            ],
+            "mark": "Finalupperchevronon eachtoken selectedř, twobodies."
+          },
+          {
+            "rows": [
+              5,
+              7,
+              17,
+              20
+            ],
+            "mark": "Visiblequestionhookwith separatedot selectedactualquestionpunctuation; metadatatags distinguishfromunknownbodies."
+          },
+          {
+            "rows": [
+              10,
+              18,
+              27
+            ],
+            "mark": "Line-enddashretained, no automatic wordjoining."
+          },
+          {
+            "row": 25,
+            "token": "b6s",
+            "mark": "Initialtallb loop and largeentryline recordedaswholebody; noF-family guessing."
+          }
+        ],
+        "unresolved_clusters": [
+          {
+            "line_id": "261-L04",
+            "span": "rm5t",
+            "physical_body_count": null,
+            "reason": "Connectedshortbranch/lowhumps may have differentbodysegmentation."
+          },
+          {
+            "line_id": "261-L07",
+            "span": "t3cd68",
+            "physical_body_count": null,
+            "reason": "Possibleadditionalterminal6 beforefollowingtoken; symbolicselectionprovisional."
+          },
+          {
+            "line_id": "261-L26",
+            "span": "2bh4nm1ř",
+            "physical_body_count": null,
+            "reason": "Adjacentn/marchescannotsecurelyestablishoneversustwobodyboundaries."
+          }
+        ],
+        "notes": [
+          "Full sourcecontext then270degreesCW(90CCW)readingview inspected.28physicalcipherrows:4wideupperrows,20narrowrightcontinuationrows,4bottomrows. No othercipherregionseen.",
+          "Native1785x1175; reading1175x1785. Readingboxes transformedtonative via[x0,y0,x1,y1]->[1785-y1,x0,1785-y0,x1].",
+          "Fouractualquestionpunctuations selectedrows5,7,17,20; no selectedunknownbodyplaceholders. Ambiguousfamily alternativesandsegmentationclustersremain.",
+          "q lowerreturnclosedloopversusg open9-likehook, h tallloop/rightshoulderversusrshortbranch comparedwithinthesource; no Czechfeedback.",
+          "Sevenselectedřbodieseachrecordedindividually; upperchevronsare notgenericdeletion/equivalencerule.",
+          "Apparentdate30./IX.1902. atreadingbbox[357,1630,677,1714], excludedfromciphercounts andnot historicalproof. Watermark/printedart excluded."
+        ]
+      }
+    }
+  ],
+  "lines": [
+    {
+      "line_id": "261-L01",
+      "ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+      "reading_bbox_xyxy": [
+        103,
+        88,
+        1080,
+        147
+      ],
+      "native_bbox_xyxy": [
+        1638,
+        103,
+        1697,
+        1080
+      ],
+      "reader_bboxes": {
+        "first": [
+          109,
+          97,
+          1030,
+          150
+        ],
+        "second": [
+          103,
+          88,
+          1080,
+          147
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "g86d4sq5",
+          "alternatives": [
+            "g86d4cg5"
+          ],
+          "reason": "Triangulars then closedlowerq selected."
+        },
+        {
+          "token": "fgb3n4m6n",
+          "alternatives": [
+            "fgb3m4m6n"
+          ],
+          "reason": "Lowarch after3 selectedn; humps indistinct."
+        }
+      ],
+      "literal": "SRDECKO MOJE ZLATICKE! VZPOMINAM S TOUHOU",
+      "encoded_bodies": 35,
+      "expanded_letters": 35,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 35,
+      "known_letters": 35
+    },
+    {
+      "line_id": "261-L02",
+      "ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+      "reading_bbox_xyxy": [
+        102,
+        138,
+        1089,
+        205
+      ],
+      "native_bbox_xyxy": [
+        1580,
+        102,
+        1647,
+        1089
+      ],
+      "reader_bboxes": {
+        "first": [
+          108,
+          146,
+          1052,
+          201
+        ],
+        "second": [
+          102,
+          138,
+          1089,
+          205
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "qh6cm5",
+          "alternatives": [
+            "gh6cm5"
+          ],
+          "reason": "Initial lowerreturnselectedq."
+        },
+        {
+          "token": "řf485",
+          "alternatives": [
+            "rf485"
+          ],
+          "reason": "Initialshortbody has detachedupperchevron; followingtallloopselectedf."
+        }
+      ],
+      "literal": "NEVYSLOVNOU NA KRASNE CHVILE NETELNI, JEZ",
+      "encoded_bodies": 34,
+      "expanded_letters": 35,
+      "ch_occurrences": 1,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 34,
+      "known_letters": 35
+    },
+    {
+      "line_id": "261-L03",
+      "ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+      "reading_bbox_xyxy": [
+        101,
+        191,
+        1094,
+        254
+      ],
+      "native_bbox_xyxy": [
+        1531,
+        101,
+        1594,
+        1094
+      ],
+      "reader_bboxes": {
+        "first": [
+          109,
+          195,
+          1070,
+          253
+        ],
+        "second": [
+          101,
+          191,
+          1094,
+          254
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "p3r2g58",
+          "alternatives": [
+            "p3r2q58"
+          ],
+          "reason": "9-like lower openhook selectedg."
+        },
+        {
+          "token": "2b81m281",
+          "alternatives": [
+            "2b81n281"
+          ],
+          "reason": "Lowhumps after1 selectedm."
+        },
+        {
+          "token": "p1f68",
+          "alternatives": [
+            "p1f68",
+            "b1f68"
+          ],
+          "reason": "Pointedlowinitialbodyselectedp, tallb alternative."
+        }
+      ],
+      "literal": "BOHUZEL TAK RYCHLE UPLYNULY. BYL BYCH SE BYVAL",
+      "encoded_bodies": 36,
+      "expanded_letters": 38,
+      "ch_occurrences": 2,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 36,
+      "known_letters": 38
+    },
+    {
+      "line_id": "261-L04",
+      "ciphertext": "m57h6t574 rm5t 3b5d t3 f5c581 fh6d48! 76q",
+      "reading_bbox_xyxy": [
+        100,
+        239,
+        1100,
+        303
+      ],
+      "native_bbox_xyxy": [
+        1482,
+        100,
+        1546,
+        1100
+      ],
+      "reader_bboxes": {
+        "first": [
+          107,
+          242,
+          1090,
+          296
+        ],
+        "second": [
+          100,
+          239,
+          1100,
+          303
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "rm5t",
+          "alternatives": [
+            "rn5t",
+            "rm5t"
+          ],
+          "reason": "Shortbranchr followedtwolowhumps selectedm; exactconnected-bodycount unclear."
+        },
+        {
+          "token": "f3c581",
+          "alternatives": [
+            "f3c581",
+            "f3c58l"
+          ],
+          "reason": "Laststraightdigit selected1, unassignedl-like alternative only; no mappinginferred."
+        }
+      ],
+      "literal": "NEJRADEJI HNED OPET DO VESELY VRATIL! JAK",
+      "encoded_bodies": 34,
+      "expanded_letters": 34,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 34,
+      "known_letters": 34
+    },
+    {
+      "line_id": "261-L05",
+      "ciphertext": "t3cd686 7c4 c5 t3n2?",
+      "reading_bbox_xyxy": [
+        594,
+        290,
+        1096,
+        353
+      ],
+      "native_bbox_xyxy": [
+        1432,
+        594,
+        1495,
+        1096
+      ],
+      "reader_bboxes": {
+        "first": [
+          599,
+          299,
+          1090,
+          346
+        ],
+        "second": [
+          594,
+          290,
+          1096,
+          353
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [
+        {
+          "offset": 19,
+          "text": "?",
+          "kind": "punctuation",
+          "note": "Actual sourcequestionhook+dot."
+        }
+      ],
+      "visual_uncertainties": [],
+      "literal": "DOSTALA JSI SE DOMU?",
+      "encoded_bodies": 16,
+      "expanded_letters": 16,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 16,
+      "known_letters": 16
+    },
+    {
+      "line_id": "261-L06",
+      "ciphertext": "7c4 gth6f6, m5m6ř86t486",
+      "reading_bbox_xyxy": [
+        594,
+        344,
+        1111,
+        409
+      ],
+      "native_bbox_xyxy": [
+        1376,
+        594,
+        1441,
+        1111
+      ],
+      "reader_bboxes": {
+        "first": [
+          603,
+          347,
+          1105,
+          397
+        ],
+        "second": [
+          594,
+          344,
+          1111,
+          409
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "m5m6ř86t486",
+          "alternatives": [
+            "m5m6r86t486"
+          ],
+          "reason": "Chevron over shortfifthbodyselectedř."
+        }
+      ],
+      "literal": "JSI ZDRAVA, NENACHLADILA",
+      "encoded_bodies": 20,
+      "expanded_letters": 21,
+      "ch_occurrences": 1,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 20,
+      "known_letters": 21
+    },
+    {
+      "line_id": "261-L07",
+      "ciphertext": "7c4 c5? 76, t3cd68 7c5n",
+      "reading_bbox_xyxy": [
+        594,
+        399,
+        1107,
+        463
+      ],
+      "native_bbox_xyxy": [
+        1322,
+        594,
+        1386,
+        1107
+      ],
+      "reader_bboxes": {
+        "first": [
+          608,
+          405,
+          1096,
+          454
+        ],
+        "second": [
+          594,
+          399,
+          1107,
+          463
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [
+        {
+          "offset": 6,
+          "text": "?",
+          "kind": "punctuation",
+          "note": "Actual sourcequestionhook+dot."
+        }
+      ],
+      "visual_uncertainties": [
+        {
+          "token": "t3cd68",
+          "alternatives": [
+            "t3cd686"
+          ],
+          "reason": "No secure final6 after8 before following7c5n; possibleadditionalbody retainedalternative."
+        }
+      ],
+      "literal": "JSI SE? JA, DOSTAL JSEM",
+      "encoded_bodies": 17,
+      "expanded_letters": 17,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 17,
+      "known_letters": 17
+    },
+    {
+      "line_id": "261-L08",
+      "ciphertext": "c5 t3 bh6r1 b3r3t8m5",
+      "reading_bbox_xyxy": [
+        603,
+        452,
+        1100,
+        510
+      ],
+      "native_bbox_xyxy": [
+        1275,
+        603,
+        1333,
+        1100
+      ],
+      "reader_bboxes": {
+        "first": [
+          610,
+          454,
+          1093,
+          506
+        ],
+        "second": [
+          603,
+          452,
+          1100,
+          510
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "bh6r1",
+          "alternatives": [
+            "th6r1"
+          ],
+          "reason": "Tallinitialloop with lowercurl selectedb; barredd alternative notestablished."
+        }
+      ],
+      "literal": "SE DO PRAHY POHODLNE",
+      "encoded_bodies": 17,
+      "expanded_letters": 17,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 17,
+      "known_letters": 17
+    },
+    {
+      "line_id": "261-L09",
+      "ciphertext": "6 f d5b85, b3m5f6tg",
+      "reading_bbox_xyxy": [
+        604,
+        503,
+        1104,
+        570
+      ],
+      "native_bbox_xyxy": [
+        1215,
+        604,
+        1282,
+        1104
+      ],
+      "reader_bboxes": {
+        "first": [
+          610,
+          514,
+          1087,
+          569
+        ],
+        "second": [
+          604,
+          503,
+          1104,
+          570
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "b3m5f6tq",
+          "alternatives": [
+            "b3m5f6tg"
+          ],
+          "reason": "Finalnarrowreturnselectedq."
+        }
+      ],
+      "literal": "A V TEPLE, PONEVADZ",
+      "encoded_bodies": 15,
+      "expanded_letters": 15,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 15,
+      "known_letters": 15
+    },
+    {
+      "line_id": "261-L10",
+      "ciphertext": "c5 74g f h1ř84q2 d3-",
+      "reading_bbox_xyxy": [
+        603,
+        558,
+        1102,
+        632
+      ],
+      "native_bbox_xyxy": [
+        1153,
+        603,
+        1227,
+        1102
+      ],
+      "reader_bboxes": {
+        "first": [
+          607,
+          575,
+          1091,
+          632
+        ],
+        "second": [
+          603,
+          558,
+          1102,
+          632
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "h1ř84q2",
+          "alternatives": [
+            "h1r84q2",
+            "h1ř84g2"
+          ],
+          "reason": "Chevron on thirdbody and lowerreturn q separatelyselected."
+        }
+      ],
+      "literal": "SE JIZ V RYCHLIKU TO-",
+      "encoded_bodies": 15,
+      "expanded_letters": 16,
+      "ch_occurrences": 1,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 15,
+      "known_letters": 16
+    },
+    {
+      "line_id": "261-L11",
+      "ciphertext": "b483. f m3s4 c5",
+      "reading_bbox_xyxy": [
+        745,
+        621,
+        1104,
+        684
+      ],
+      "native_bbox_xyxy": [
+        1101,
+        745,
+        1164,
+        1104
+      ],
+      "reader_bboxes": {
+        "first": [
+          745,
+          640,
+          1078,
+          690
+        ],
+        "second": [
+          745,
+          621,
+          1104,
+          684
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "m3s4",
+          "alternatives": [
+            "m3c4"
+          ],
+          "reason": "Triangular thirdbody selecteds."
+        }
+      ],
+      "literal": "PILO. V NOCI SE",
+      "encoded_bodies": 11,
+      "expanded_letters": 11,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 11,
+      "known_letters": 11
+    },
+    {
+      "line_id": "261-L12",
+      "ciphertext": "n4 b6q gt683",
+      "reading_bbox_xyxy": [
+        811,
+        677,
+        1105,
+        747
+      ],
+      "native_bbox_xyxy": [
+        1038,
+        811,
+        1108,
+        1105
+      ],
+      "reader_bboxes": {
+        "first": [
+          811,
+          696,
+          1095,
+          746
+        ],
+        "second": [
+          811,
+          677,
+          1105,
+          747
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "b6q",
+          "alternatives": [
+            "b6g"
+          ],
+          "reason": "Returningloopselectedq."
+        }
+      ],
+      "literal": "MI PAK ZDALO",
+      "encoded_bodies": 10,
+      "expanded_letters": 10,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 10,
+      "known_letters": 10
+    },
+    {
+      "line_id": "261-L13",
+      "ciphertext": "3 d3p5 cd685,",
+      "reading_bbox_xyxy": [
+        866,
+        735,
+        1110,
+        809
+      ],
+      "native_bbox_xyxy": [
+        976,
+        866,
+        1050,
+        1110
+      ],
+      "reader_bboxes": {
+        "first": [
+          869,
+          755,
+          1106,
+          806
+        ],
+        "second": [
+          866,
+          735,
+          1110,
+          809
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "3 d3p5 cd685,",
+          "alternatives": [
+            "3d3p5 cd685,"
+          ],
+          "reason": "Small isolated3 besideleaf retained; wordgap approximate; no hiddenletters inferred."
+        }
+      ],
+      "literal": "O TOBE STALE,",
+      "encoded_bodies": 10,
+      "expanded_letters": 10,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 10,
+      "known_letters": 10
+    },
+    {
+      "line_id": "261-L14",
+      "ciphertext": "?6 n483f6m6",
+      "reading_bbox_xyxy": [
+        817,
+        791,
+        1105,
+        864
+      ],
+      "native_bbox_xyxy": [
+        921,
+        817,
+        994,
+        1105
+      ],
+      "reader_bboxes": {
+        "first": [
+          829,
+          810,
+          1106,
+          865
+        ],
+        "second": [
+          817,
+          791,
+          1105,
+          864
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [
+        {
+          "offset": 0,
+          "text": "?",
+          "kind": "unknown_glyph",
+          "note": "One selectedunknown replay slot; physical cluster/body count unresolved."
+        }
+      ],
+      "visual_uncertainties": [],
+      "literal": "?A MILOVANA",
+      "encoded_bodies": 10,
+      "expanded_letters": 9,
+      "ch_occurrences": 0,
+      "unknowns": [
+        {
+          "offset": 0,
+          "body_index": 0,
+          "symbol": "?",
+          "kind": "unknown_glyph"
+        }
+      ],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 10,
+      "known_letters": 9
+    },
+    {
+      "line_id": "261-L15",
+      "ciphertext": "6m2cq3!",
+      "reading_bbox_xyxy": [
+        857,
+        850,
+        1094,
+        920
+      ],
+      "native_bbox_xyxy": [
+        865,
+        857,
+        935,
+        1094
+      ],
+      "reader_bboxes": {
+        "first": [
+          862,
+          877,
+          1050,
+          927
+        ],
+        "second": [
+          857,
+          850,
+          1094,
+          920
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [],
+      "literal": "ANUSKO!",
+      "encoded_bodies": 6,
+      "expanded_letters": 6,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 6,
+      "known_letters": 6
+    },
+    {
+      "line_id": "261-L16",
+      "ciphertext": "fgb3m4m6c",
+      "reading_bbox_xyxy": [
+        881,
+        921,
+        1108,
+        987
+      ],
+      "native_bbox_xyxy": [
+        798,
+        881,
+        864,
+        1108
+      ],
+      "reader_bboxes": {
+        "first": [
+          890,
+          937,
+          1105,
+          990
+        ],
+        "second": [
+          881,
+          921,
+          1108,
+          987
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "fgb8m4m6c",
+          "alternatives": [
+            "fgb3m4m6c",
+            "fgb8n4m6c"
+          ],
+          "reason": "Fourthbodyclosedlobesselected8; followinglowhumpsm/n uncertain."
+        }
+      ],
+      "literal": "VZPONINAS",
+      "encoded_bodies": 9,
+      "expanded_letters": 9,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 9,
+      "known_letters": 9
+    },
+    {
+      "line_id": "261-L17",
+      "ciphertext": "d6q5? 6",
+      "reading_bbox_xyxy": [
+        913,
+        978,
+        1096,
+        1041
+      ],
+      "native_bbox_xyxy": [
+        744,
+        913,
+        807,
+        1096
+      ],
+      "reader_bboxes": {
+        "first": [
+          921,
+          991,
+          1096,
+          1044
+        ],
+        "second": [
+          913,
+          978,
+          1096,
+          1041
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [
+        {
+          "offset": 4,
+          "text": "?",
+          "kind": "punctuation",
+          "note": "Actual sourcequestionhook+dot."
+        }
+      ],
+      "visual_uncertainties": [],
+      "literal": "TAKE? A",
+      "encoded_bodies": 5,
+      "expanded_letters": 5,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 5,
+      "known_letters": 5
+    },
+    {
+      "line_id": "261-L18",
+      "ciphertext": "fgb3m4-",
+      "reading_bbox_xyxy": [
+        928,
+        1036,
+        1110,
+        1102
+      ],
+      "native_bbox_xyxy": [
+        683,
+        928,
+        749,
+        1110
+      ],
+      "reader_bboxes": {
+        "first": [
+          939,
+          1056,
+          1108,
+          1112
+        ],
+        "second": [
+          928,
+          1036,
+          1110,
+          1102
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "fgb3m4-",
+          "alternatives": [
+            "fgb3n4-"
+          ],
+          "reason": "Lowhumps after3 selectedm."
+        }
+      ],
+      "literal": "VZPONI-",
+      "encoded_bodies": 6,
+      "expanded_letters": 6,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 6,
+      "known_letters": 6
+    },
+    {
+      "line_id": "261-L19",
+      "ciphertext": "m6c m6 nm6",
+      "reading_bbox_xyxy": [
+        810,
+        1100,
+        1106,
+        1167
+      ],
+      "native_bbox_xyxy": [
+        618,
+        810,
+        685,
+        1106
+      ],
+      "reader_bboxes": {
+        "first": [
+          824,
+          1112,
+          1086,
+          1166
+        ],
+        "second": [
+          810,
+          1100,
+          1106,
+          1167
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "nm6",
+          "alternatives": [
+            "mm6",
+            "nn6"
+          ],
+          "reason": "Adjacentarch count ambiguous."
+        }
+      ],
+      "literal": "NAS NA MNA",
+      "encoded_bodies": 8,
+      "expanded_letters": 8,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 8,
+      "known_letters": 8
+    },
+    {
+      "line_id": "261-L20",
+      "ciphertext": "r5gq1? d5c4n",
+      "reading_bbox_xyxy": [
+        808,
+        1155,
+        1108,
+        1223
+      ],
+      "native_bbox_xyxy": [
+        562,
+        808,
+        630,
+        1108
+      ],
+      "reader_bboxes": {
+        "first": [
+          824,
+          1172,
+          1096,
+          1225
+        ],
+        "second": [
+          808,
+          1155,
+          1108,
+          1223
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [
+        {
+          "offset": 5,
+          "text": "?",
+          "kind": "punctuation",
+          "note": "Actual sourcequestionhook+dot."
+        }
+      ],
+      "visual_uncertainties": [
+        {
+          "token": "r5gq1?",
+          "alternatives": [
+            "r5gg1?"
+          ],
+          "reason": "Two adjacentdescenders firstopenhookg, secondreturnq; underline crossinglowerloops weakensclosure."
+        }
+      ],
+      "literal": "HEZKY? TESIM",
+      "encoded_bodies": 10,
+      "expanded_letters": 10,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 10,
+      "known_letters": 10
+    },
+    {
+      "line_id": "261-L21",
+      "ciphertext": "c5, g5 n4",
+      "reading_bbox_xyxy": [
+        850,
+        1220,
+        1095,
+        1278
+      ],
+      "native_bbox_xyxy": [
+        507,
+        850,
+        565,
+        1095
+      ],
+      "reader_bboxes": {
+        "first": [
+          858,
+          1231,
+          1066,
+          1279
+        ],
+        "second": [
+          850,
+          1220,
+          1095,
+          1278
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [],
+      "literal": "SE, ZE MI",
+      "encoded_bodies": 6,
+      "expanded_letters": 6,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 6,
+      "known_letters": 6
+    },
+    {
+      "line_id": "261-L22",
+      "ciphertext": "r3tm5 phg3",
+      "reading_bbox_xyxy": [
+        846,
+        1274,
+        1104,
+        1333
+      ],
+      "native_bbox_xyxy": [
+        452,
+        846,
+        511,
+        1104
+      ],
+      "reader_bboxes": {
+        "first": [
+          876,
+          1288,
+          1096,
+          1339
+        ],
+        "second": [
+          846,
+          1274,
+          1104,
+          1333
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [],
+      "literal": "HODNE BRZO",
+      "encoded_bodies": 9,
+      "expanded_letters": 9,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 9,
+      "known_letters": 9
+    },
+    {
+      "line_id": "261-L23",
+      "ciphertext": "b3c85c 3 c3p5",
+      "reading_bbox_xyxy": [
+        858,
+        1324,
+        1105,
+        1390
+      ],
+      "native_bbox_xyxy": [
+        395,
+        858,
+        461,
+        1105
+      ],
+      "reader_bboxes": {
+        "first": [
+          865,
+          1351,
+          1105,
+          1398
+        ],
+        "second": [
+          858,
+          1324,
+          1105,
+          1390
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "b3c85c",
+          "alternatives": [
+            "b3c85s"
+          ],
+          "reason": "Lastbodyopen c selected."
+        }
+      ],
+      "literal": "POSLES O SOBE",
+      "encoded_bodies": 11,
+      "expanded_letters": 11,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 11,
+      "known_letters": 11
+    },
+    {
+      "line_id": "261-L24",
+      "ciphertext": "qbh6f2.",
+      "reading_bbox_xyxy": [
+        884,
+        1375,
+        1094,
+        1441
+      ],
+      "native_bbox_xyxy": [
+        344,
+        884,
+        410,
+        1094
+      ],
+      "reader_bboxes": {
+        "first": [
+          881,
+          1396,
+          1078,
+          1445
+        ],
+        "second": [
+          884,
+          1375,
+          1094,
+          1441
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "qbh6f2.",
+          "alternatives": [
+            "gbh6f2."
+          ],
+          "reason": "Lowerreturnselectedq; followingtallb/h shapesretained."
+        }
+      ],
+      "literal": "KPRAVU.",
+      "encoded_bodies": 6,
+      "expanded_letters": 6,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 6,
+      "known_letters": 6
+    },
+    {
+      "line_id": "261-B01",
+      "ciphertext": "fh581 b6s",
+      "reading_bbox_xyxy": [
+        63,
+        1379,
+        329,
+        1441
+      ],
+      "native_bbox_xyxy": [
+        344,
+        63,
+        406,
+        329
+      ],
+      "reader_bboxes": {
+        "first": [
+          66,
+          1382,
+          320,
+          1443
+        ],
+        "second": [
+          63,
+          1379,
+          329,
+          1441
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "b6s",
+          "alternatives": [
+            "?6s",
+            "b6c"
+          ],
+          "reason": "Tallb selectedfromwholeloopbody, triangle s; no inventedFmapping."
+        }
+      ],
+      "literal": "VRELY PAC",
+      "encoded_bodies": 8,
+      "expanded_letters": 8,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 8,
+      "known_letters": 8
+    },
+    {
+      "line_id": "261-B02",
+      "ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+      "reading_bbox_xyxy": [
+        63,
+        1434,
+        846,
+        1518
+      ],
+      "native_bbox_xyxy": [
+        267,
+        63,
+        351,
+        846
+      ],
+      "reader_bboxes": {
+        "first": [
+          73,
+          1445,
+          853,
+          1507
+        ],
+        "second": [
+          63,
+          1434,
+          846,
+          1518
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "2bh4nm1ř",
+          "alternatives": [
+            "2bh4nm1r",
+            "2bh4m1ř"
+          ],
+          "reason": "Caron visiblefinalbody; adjacentn/m archesmaycontainonecompoundbody ratherthantwo. Physicalcountnull."
+        }
+      ],
+      "literal": "A TISIC DLOUHYCH, UPRIMNYCH PUS",
+      "encoded_bodies": 24,
+      "expanded_letters": 26,
+      "ch_occurrences": 2,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 24,
+      "known_letters": 26
+    },
+    {
+      "line_id": "261-B03",
+      "ciphertext": "cf5 bh6th6r5, m5f1c83fm5 n483-",
+      "reading_bbox_xyxy": [
+        55,
+        1495,
+        904,
+        1568
+      ],
+      "native_bbox_xyxy": [
+        217,
+        55,
+        290,
+        904
+      ],
+      "reader_bboxes": {
+        "first": [
+          68,
+          1497,
+          889,
+          1555
+        ],
+        "second": [
+          55,
+          1495,
+          904,
+          1568
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "bh6th6r5",
+          "alternatives": [
+            "bh6dh6r5"
+          ],
+          "reason": "Tallcrossbarbodyt selected; d alternativegeometry."
+        }
+      ],
+      "literal": "SVE PRADRAHE, NEVYSLOVNE MILO-",
+      "encoded_bodies": 25,
+      "expanded_letters": 25,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 25,
+      "known_letters": 25
+    },
+    {
+      "line_id": "261-B04",
+      "ciphertext": "f6m5 6mt28s5 b3c486 f5sm5 7574 b5b32c.",
+      "reading_bbox_xyxy": [
+        48,
+        1551,
+        1094,
+        1637
+      ],
+      "native_bbox_xyxy": [
+        148,
+        48,
+        234,
+        1094
+      ],
+      "reader_bboxes": {
+        "first": [
+          49,
+          1550,
+          1087,
+          1611
+        ],
+        "second": [
+          48,
+          1551,
+          1094,
+          1637
+        ]
+      },
+      "reading_rotation_clockwise_degrees": 270,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "transcription": [],
+      "visual_uncertainties": [
+        {
+          "token": "6mt28s5",
+          "alternatives": [
+            "6mt28c5"
+          ],
+          "reason": "Penultimatetriangle selecteds."
+        }
+      ],
+      "literal": "VANE ANDULCE POSILA VECNE JEJI PEPOUS.",
+      "encoded_bodies": 32,
+      "expanded_letters": 32,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 32,
+      "known_letters": 32
+    }
+  ],
+  "uncertainty_ledger": [
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L01",
+      "second_line_id": "261-L01",
+      "first_ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+      "second_ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+      "selected_ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring; low n/m and q/g alternatives remain from both frozen phases."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L01",
+      "token": "g86d4sq5",
+      "alternatives": [
+        "g86d4cg5"
+      ],
+      "reason": "Triangulars then closedlowerq selected."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L01",
+      "token": "fgb3n4m6n",
+      "alternatives": [
+        "fgb3m4m6n"
+      ],
+      "reason": "Lowarch after3 selectedn; humps indistinct."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L02",
+      "second_line_id": "261-L02",
+      "first_ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+      "second_ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+      "selected_ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring. Initial shortbody upperchevron in řf485 retained separately from followingtallf."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L02",
+      "token": "qh6cm5",
+      "alternatives": [
+        "gh6cm5"
+      ],
+      "reason": "Initial lowerreturnselectedq."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L02",
+      "token": "řf485",
+      "alternatives": [
+        "rf485"
+      ],
+      "reason": "Initialshortbody has detachedupperchevron; followingtallloopselectedf."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L03",
+      "second_line_id": "261-L03",
+      "first_ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+      "second_ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+      "selected_ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring. Both caron-bearing shortbodies retained; pointedp and tallloop alternatives remain."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L03",
+      "token": "p3r2g58",
+      "alternatives": [
+        "p3r2q58"
+      ],
+      "reason": "9-like lower openhook selectedg."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L03",
+      "token": "2b81m281",
+      "alternatives": [
+        "2b81n281"
+      ],
+      "reason": "Lowhumps after1 selectedm."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L03",
+      "token": "p1f68",
+      "alternatives": [
+        "p1f68",
+        "b1f68"
+      ],
+      "reason": "Pointedlowinitialbodyselectedp, tallb alternative."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L04",
+      "second_line_id": "261-L04",
+      "first_ciphertext": "m57h6t574 rm5t 3b5d t3 f5c581 fh6d48! 76q",
+      "second_ciphertext": "m57h6t574 rm5t 3b5d t3 f3c581 fh6d48! 76q",
+      "selected_ciphertext": "m57h6t574 rm5t 3b5d t3 f5c581 fh6d48! 76q",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            24,
+            25
+          ],
+          "first_span": "5",
+          "second_offset": [
+            24,
+            25
+          ],
+          "second_span": "3",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Second digit inf5c581 has shortupperbar/bend supportingfirst5 but3 remains possible where joiningf crossstroke obscures edge. Retainfirst5. Connectedrm5t count unresolved in blindnotes."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L04",
+      "token": "rm5t",
+      "alternatives": [
+        "rn5t",
+        "rm5t"
+      ],
+      "reason": "Shortbranchr followedtwolowhumps selectedm; exactconnected-bodycount unclear."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L04",
+      "token": "f3c581",
+      "alternatives": [
+        "f3c581",
+        "f3c58l"
+      ],
+      "reason": "Laststraightdigit selected1, unassignedl-like alternative only; no mappinginferred."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L05",
+      "second_line_id": "261-L05",
+      "first_ciphertext": "t3cd686 7c4 c5 t3n2?",
+      "second_ciphertext": "t3cd686 7c4 c5 t3n2?",
+      "selected_ciphertext": "t3cd686 7c4 c5 t3n2?",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on actual writtenquestionmark; explicitly punctuation, not unknown body."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L06",
+      "second_line_id": "261-L06",
+      "first_ciphertext": "7c4 gth6f6, m5m6ř86t486",
+      "second_ciphertext": "7c4 gth6f6, m5m6ř86t486",
+      "selected_ciphertext": "7c4 gth6f6, m5m6ř86t486",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring; initialopenhookg and distinctupperchevron retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L06",
+      "token": "m5m6ř86t486",
+      "alternatives": [
+        "m5m6r86t486"
+      ],
+      "reason": "Chevron over shortfifthbodyselectedř."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L07",
+      "second_line_id": "261-L07",
+      "first_ciphertext": "7c4 c5? 76 t3cd68 7c5n",
+      "second_ciphertext": "7c4 c5? 76, t3cd68 7c5n",
+      "selected_ciphertext": "7c4 c5? 76, t3cd68 7c5n",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            10,
+            10
+          ],
+          "first_span": "",
+          "second_offset": [
+            10,
+            11
+          ],
+          "second_span": ",",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Detached lowcomma visible after76 beforet3; selectblindcomma. Both actualquestionmarks agree. Possibleadditional6 aftert3cd68 remains unsupported by separatebody boundary, retained as countuncertainty."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L07",
+      "token": "t3cd68",
+      "alternatives": [
+        "t3cd686"
+      ],
+      "reason": "No secure final6 after8 before following7c5n; possibleadditionalbody retainedalternative."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L08",
+      "second_line_id": "261-L08",
+      "first_ciphertext": "c5t3 bh6r1 b3r3t8m5",
+      "second_ciphertext": "c5 t3 bh6r1 b3r3t8m5",
+      "selected_ciphertext": "c5 t3 bh6r1 b3r3t8m5",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            2,
+            2
+          ],
+          "first_span": "",
+          "second_offset": [
+            2,
+            3
+          ],
+          "second_span": " ",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Gap afterc5 is larger than immediately adjacent within-token gaps; selectblindspace beforet3. Wordsegmentation provisional, no bodies changed."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L08",
+      "token": "bh6r1",
+      "alternatives": [
+        "th6r1"
+      ],
+      "reason": "Tallinitialloop with lowercurl selectedb; barredd alternative notestablished."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L09",
+      "second_line_id": "261-L09",
+      "first_ciphertext": "6 f d5b85, b3m5f6tg",
+      "second_ciphertext": "6 f d5b85, b3m5f6tq",
+      "selected_ciphertext": "6 f d5b85, b3m5f6tg",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            18,
+            19
+          ],
+          "first_span": "g",
+          "second_offset": [
+            18,
+            19
+          ],
+          "second_span": "q",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Terminal9-like descender inb3m5f6tg ends in open lowerhook rather than narrow returningloop; retainfirstg. Blindq remains alternative."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L09",
+      "token": "b3m5f6tq",
+      "alternatives": [
+        "b3m5f6tg"
+      ],
+      "reason": "Finalnarrowreturnselectedq."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L10",
+      "second_line_id": "261-L10",
+      "first_ciphertext": "c574g f h1ř84q2 d3-",
+      "second_ciphertext": "c5 74g f h1ř84q2 d3-",
+      "selected_ciphertext": "c5 74g f h1ř84q2 d3-",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            2,
+            2
+          ],
+          "first_span": "",
+          "second_offset": [
+            2,
+            3
+          ],
+          "second_span": " ",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Visible larger gap afterc5 selected as space before74g. All glyphs unchanged; spacingalternative retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L10",
+      "token": "h1ř84q2",
+      "alternatives": [
+        "h1r84q2",
+        "h1ř84g2"
+      ],
+      "reason": "Chevron on thirdbody and lowerreturn q separatelyselected."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L11",
+      "second_line_id": "261-L11",
+      "first_ciphertext": "b483. f m3s4 c5",
+      "second_ciphertext": "b483. f m3s4 c5",
+      "selected_ciphertext": "b483. f m3s4 c5",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Both rowstrings agree; triangularthirdbody in m3s4 retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L11",
+      "token": "m3s4",
+      "alternatives": [
+        "m3c4"
+      ],
+      "reason": "Triangular thirdbody selecteds."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L12",
+      "second_line_id": "261-L12",
+      "first_ciphertext": "n4 b6q qt683",
+      "second_ciphertext": "n4 b6q gt683",
+      "selected_ciphertext": "n4 b6q gt683",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            7,
+            8
+          ],
+          "first_span": "q",
+          "second_offset": [
+            7,
+            8
+          ],
+          "second_span": "g",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Initialbody in finalword has upperoval and descendingopenhook with no closedlowerreturn, compared to q in precedingb6q. Selectblindg in gt683; q alternative retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L12",
+      "token": "b6q",
+      "alternatives": [
+        "b6g"
+      ],
+      "reason": "Returningloopselectedq."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L13",
+      "second_line_id": "261-L13",
+      "first_ciphertext": "3 d3p5 cd685",
+      "second_ciphertext": "3 d3p5 cd685,",
+      "selected_ciphertext": "3 d3p5 cd685,",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            12,
+            12
+          ],
+          "first_span": "",
+          "second_offset": [
+            12,
+            13
+          ],
+          "second_span": ",",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Small lowcomma visible after final5, beyond baselineexit. Selectblindcomma; bareend alternative retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L13",
+      "token": "3 d3p5 cd685,",
+      "alternatives": [
+        "3d3p5 cd685,"
+      ],
+      "reason": "Small isolated3 besideleaf retained; wordgap approximate; no hiddenletters inferred."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L14",
+      "second_line_id": "261-L14",
+      "first_ciphertext": "?6 n483f6m6",
+      "second_ciphertext": "n6 n483f6m6",
+      "selected_ciphertext": "?6 n483f6m6",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            0,
+            1
+          ],
+          "first_span": "?",
+          "second_offset": [
+            0,
+            1
+          ],
+          "second_span": "n",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Body besideleaf has obscuredlowshoulder and detachedmark. Blindn possible but fullfamily/segmentation not established; retainfirst? rather than repair language. Exact physicalcount null."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L15",
+      "second_line_id": "261-L15",
+      "first_ciphertext": "6m2cq3!",
+      "second_ciphertext": "6 m2cq3!",
+      "selected_ciphertext": "6m2cq3!",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            1,
+            1
+          ],
+          "first_span": "",
+          "second_offset": [
+            1,
+            2
+          ],
+          "second_span": " ",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Gap after6 small/comparableto ordinarybody spacing; retainfirstjoinedtoken. Blindspace remains alternative."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L16",
+      "second_line_id": "261-L16",
+      "first_ciphertext": "fgb3m4m6c",
+      "second_ciphertext": "fgb8m4m6c",
+      "selected_ciphertext": "fgb3m4m6c",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            3,
+            4
+          ],
+          "first_span": "3",
+          "second_offset": [
+            3,
+            4
+          ],
+          "second_span": "8",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Fourthbodyafterfgb has open-left lobes plausibly3, but precedingb join can make8 closure. Inconclusive; retainfirst3, blind8 and n/m alternatives retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L16",
+      "token": "fgb8m4m6c",
+      "alternatives": [
+        "fgb3m4m6c",
+        "fgb8n4m6c"
+      ],
+      "reason": "Fourthbodyclosedlobesselected8; followinglowhumpsm/n uncertain."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L17",
+      "second_line_id": "261-L17",
+      "first_ciphertext": "d6q5? 6",
+      "second_ciphertext": "d6q5? 6",
+      "selected_ciphertext": "d6q5? 6",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on sourcequestionhook+dot; explicitpunctuation."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L18",
+      "second_line_id": "261-L18",
+      "first_ciphertext": "fgb3m4-",
+      "second_ciphertext": "fgb3m4-",
+      "selected_ciphertext": "fgb3m4-",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring, lowm/n humps unresolved, line-enddash retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L18",
+      "token": "fgb3m4-",
+      "alternatives": [
+        "fgb3n4-"
+      ],
+      "reason": "Lowhumps after3 selectedm."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L19",
+      "second_line_id": "261-L19",
+      "first_ciphertext": "m6c m6 nm5",
+      "second_ciphertext": "m6c m6 nm6",
+      "selected_ciphertext": "m6c m6 nm6",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            9,
+            10
+          ],
+          "first_span": "5",
+          "second_offset": [
+            9,
+            10
+          ],
+          "second_span": "6",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Finalbody has closedloweroval and risinghook without secure horizontal5topbar. Selectblind6, first5 remains alternative. Low n/m humps remain uncertain."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L19",
+      "token": "nm6",
+      "alternatives": [
+        "mm6",
+        "nn6"
+      ],
+      "reason": "Adjacentarch count ambiguous."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L20",
+      "second_line_id": "261-L20",
+      "first_ciphertext": "r5gq1? d5c4n",
+      "second_ciphertext": "r5gq1? d5c4n",
+      "selected_ciphertext": "r5gq1? d5c4n",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on underlinedword and writtenquestionmark. Underline crossings retained; g/q loopalternatives remain."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L20",
+      "token": "r5gq1?",
+      "alternatives": [
+        "r5gg1?"
+      ],
+      "reason": "Two adjacentdescenders firstopenhookg, secondreturnq; underline crossinglowerloops weakensclosure."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L21",
+      "second_line_id": "261-L21",
+      "first_ciphertext": "c5, g5 n4",
+      "second_ciphertext": "c5, g5 n4",
+      "selected_ciphertext": "c5, g5 n4",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on comma and rowstring."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L22",
+      "second_line_id": "261-L22",
+      "first_ciphertext": "r3tm5 phq3",
+      "second_ciphertext": "r3tm5 phg3",
+      "selected_ciphertext": "r3tm5 phg3",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            8,
+            9
+          ],
+          "first_span": "q",
+          "second_offset": [
+            8,
+            9
+          ],
+          "second_span": "g",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Thirdbody inphg3 has open lowerhook like g inL09, no narrowreturnloop. Selectblindg; firstq alternative retained."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L23",
+      "second_line_id": "261-L23",
+      "first_ciphertext": "b3c85c 3 c3p5",
+      "second_ciphertext": "b3c85c 3 c3p5",
+      "selected_ciphertext": "b3c85c 3 c3p5",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring; finalc versus triangulars alternative retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L23",
+      "token": "b3c85c",
+      "alternatives": [
+        "b3c85s"
+      ],
+      "reason": "Lastbodyopen c selected."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L24",
+      "second_line_id": "261-L24",
+      "first_ciphertext": "qbh6f2.",
+      "second_ciphertext": "qbh6f2.",
+      "selected_ciphertext": "qbh6f2.",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on selectedq; lowerreturn loop faint, g alternative retained."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-L24",
+      "token": "qbh6f2.",
+      "alternatives": [
+        "gbh6f2."
+      ],
+      "reason": "Lowerreturnselectedq; followingtallb/h shapesretained."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B01",
+      "second_line_id": "261-L25",
+      "first_ciphertext": "fh581 b6s",
+      "second_ciphertext": "fh581 b6s",
+      "selected_ciphertext": "fh581 b6s",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on selectedb6s; tallloopwholebody selectedb, unassignedfamily alternative remains. No newFmapping."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-B01",
+      "token": "b6s",
+      "alternatives": [
+        "?6s",
+        "b6c"
+      ],
+      "reason": "Tallb selectedfromwholeloopbody, triangle s; no inventedFmapping."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B02",
+      "second_line_id": "261-L26",
+      "first_ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+      "second_ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+      "selected_ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on symbols. Adjacentnm arches may be separate or compound; physicalcount null. Both finalupperchevrons retained, no genericmarkrule."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-B02",
+      "token": "2bh4nm1ř",
+      "alternatives": [
+        "2bh4nm1r",
+        "2bh4m1ř"
+      ],
+      "reason": "Caron visiblefinalbody; adjacentn/m archesmaycontainonecompoundbody ratherthantwo. Physicalcountnull."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B03",
+      "second_line_id": "261-L27",
+      "first_ciphertext": "cf5 bh6th6r5, m5f1c83fm5 m483-",
+      "second_ciphertext": "cf5 bh6th6r5, m5f1c83fm5 n483-",
+      "selected_ciphertext": "cf5 bh6th6r5, m5f1c83fm5 n483-",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            25,
+            26
+          ],
+          "first_span": "m",
+          "second_offset": [
+            25,
+            26
+          ],
+          "second_span": "n",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Firstbody of finalpartialword has singlelowarch/entry, compared with doublehumpedm earlier inrow. Selectblindn in n483-. Firstm alternative remains."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-B03",
+      "token": "bh6th6r5",
+      "alternatives": [
+        "bh6dh6r5"
+      ],
+      "reason": "Tallcrossbarbodyt selected; d alternativegeometry."
+    },
+    {
+      "kind": "row_comparison",
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B04",
+      "second_line_id": "261-L28",
+      "first_ciphertext": "f6m5 6mt285 b3c486 f5sm5 7574 b5b32c.",
+      "second_ciphertext": "f6m5 6mt28s5 b3c486 f5sm5 7574 b5b32c.",
+      "selected_ciphertext": "f6m5 6mt28s5 b3c486 f5sm5 7574 b5b32c.",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            10,
+            10
+          ],
+          "first_span": "",
+          "second_offset": [
+            10,
+            11
+          ],
+          "second_span": "s",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Between8 andfinal5 there is a distinct pointedtriangulars, with separate baselineentry/exit. Selectblindadditionalbody in6mt28s5; firstomission preserved as alternative and physicalcount qualified."
+    },
+    {
+      "kind": "second_frozen_uncertainty",
+      "line_id": "261-B04",
+      "token": "6mt28s5",
+      "alternatives": [
+        "6mt28c5"
+      ],
+      "reason": "Penultimatetriangle selecteds."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "orientation",
+      "text": "Upright main text requires90CCW (270CW) native rotation, reading1175x1785."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "coverage",
+      "text": "24 sequential top/right winding rows around rose artwork, plus four bottom closing rows. Empty art gaps not silently filled; first bottomrow shares height with last right rows but separately located."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "punctuation",
+      "line_ids": [
+        "261-L05",
+        "261-L07",
+        "261-L17",
+        "261-L20"
+      ],
+      "text": "Their terminal/interior? are actual source question marks, not unknowns."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "unknown_cluster",
+      "line_id": "261-L14",
+      "token": "?6",
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 2,
+      "text": "First form just beside leaf resembles shortshoulder body with detached mark; family unassigned, alternatives ř,r,n,m. One? replay slot but physical segmentation unresolved."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "mark",
+      "line_id": "261-L02",
+      "token": "řf485",
+      "text": "Initial shoulderbody bears distinct caron, řselected onebody. m5d58m4 firstm/tallloop joins uncertain."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "mark",
+      "line_id": "261-L03",
+      "tokens": [
+        "h1ř85",
+        "p1ř"
+      ],
+      "text": "Small carons above shortshoulder bodies clear. Initialp in p1ř has tall stem/shoulder, alternate r."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "glyph_alternative",
+      "line_id": "261-L04",
+      "token": "f5c581",
+      "alternatives": [
+        "f5c581",
+        "f3c581"
+      ],
+      "text": "Second digit has shortupperbar and bend,5selected;3alternative. Last76q descender selectedq butgpossible."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "glyph_alternative",
+      "line_id": "261-L06",
+      "token": "gth6f6",
+      "alternatives": [
+        "gth6f6",
+        "qth6f6"
+      ],
+      "text": "Initial descending loop appears openhook,gselected. In secondtoken ř has detachedsmallwedge above."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "mark",
+      "line_id": "261-L07",
+      "text": "Black speckled run below initial7 of final7c5n; resembles printing/ink drops, no extra bodies assigned."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "mark",
+      "line_id": "261-L09",
+      "token": "f",
+      "text": "Detached small upper stroke above d vicinity after isolatedf; not securely a caron/body, noted separately."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "mark",
+      "line_id": "261-L10",
+      "token": "h1ř84q2",
+      "text": "Clear caron above thirdbody, ř retained. Lower returningloop q; alternate g. Endhyphen continues d3-/b483 without joining raw."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "glyph_alternative",
+      "line_id": "261-L12",
+      "token": "qt683",
+      "alternatives": [
+        "qt683",
+        "gt683"
+      ],
+      "text": "Initial descendingform lowerloop looks closedq, contrast hookedg; alternative unresolved."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "glyph_alternative",
+      "line_id": "261-L16",
+      "token": "fgb3m4m6c",
+      "alternatives": [
+        "fgb3m4m6c",
+        "fgb3n4m6c"
+      ],
+      "text": "Fifthbody lowhumps m selected ratherthann, visible archcountuncertain."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "mark",
+      "line_id": "261-L20",
+      "token": "r5gq1",
+      "text": "Whole token underlined. Firstg descender openhook, nextq closedloop selected; possible gg/qg variants retained."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "glyph_alternative",
+      "line_id": "261-L22",
+      "token": "phq3",
+      "alternatives": [
+        "phq3",
+        "phg3"
+      ],
+      "text": "Lastdescendingbody before3 appears closedreturningloopq; openhookgpossible."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "glyph_alternative",
+      "line_id": "261-L24",
+      "token": "qbh6f2",
+      "alternatives": [
+        "qbh6f2",
+        "gbh6f2"
+      ],
+      "text": "Initiallowerloop slender closedq selected, g alternative."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "glyph_alternative",
+      "line_id": "261-B01",
+      "token": "b6s",
+      "alternatives": [
+        "b6s",
+        "?6s"
+      ],
+      "text": "Talllooped initial b selected; unassignedF-like glyph alternative retained, no extra key mapping."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "mark",
+      "line_id": "261-B02",
+      "tokens": [
+        "t832r1ř",
+        "2bh4nm1ř"
+      ],
+      "text": "Finalshortbody in each has caron. Firstbody2bh... joinedtallstems not split beyond visible labels. b2c finalc longflourish."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "segmentation",
+      "line_ids": [
+        "261-L18",
+        "261-B03"
+      ],
+      "text": "Written line-end hyphens retained; no silent joining."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "date",
+      "bbox": [
+        365,
+        1640,
+        666,
+        1713
+      ],
+      "selected": "30./IX.1902.",
+      "text": "Separate plainnumeral/Romanmonth inscription, excluded cipher counts. Finalperiodflourish retained conceptually."
+    },
+    {
+      "source_phase": "first frozen reading",
+      "kind": "limits",
+      "text": "Source-only first reader; knownkeyvisible but complete raw frozen beforedecode. No old261 transcript/research/candidate access. n/m humps,q/g tails,t/d crossbars and tiny marks provisional."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "row": 2,
+      "token": "řf485",
+      "mark": "Initialshortbody upperchevronselectedř; followingf tallloop kept separate."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "row": 3,
+      "tokens": [
+        "h1ř85",
+        "p1ř"
+      ],
+      "mark": "Two distinctupperchevrons; selectedř bodiesnotdeleted."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "row": 6,
+      "token": "m5m6ř86t486",
+      "mark": "Upperchevronabove fifthbodyselectedř."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "row": 10,
+      "token": "h1ř84q2",
+      "mark": "Visibleupperchevronon thirdbodyselectedř."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "row": 20,
+      "token": "r5gq1?",
+      "mark": "Fullwordunderlined; lower g/qdescendersintersectunderline, recordedratherthannormalized."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "row": 26,
+      "tokens": [
+        "t832r1ř",
+        "2bh4nm1ř"
+      ],
+      "mark": "Finalupperchevronon eachtoken selectedř, twobodies."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "rows": [
+        5,
+        7,
+        17,
+        20
+      ],
+      "mark": "Visiblequestionhookwith separatedot selectedactualquestionpunctuation; metadatatags distinguishfromunknownbodies."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "rows": [
+        10,
+        18,
+        27
+      ],
+      "mark": "Line-enddashretained, no automatic wordjoining."
+    },
+    {
+      "source_phase": "second frozen reading",
+      "kind": "visible_mark",
+      "row": 25,
+      "token": "b6s",
+      "mark": "Initialtallb loop and largeentryline recordedaswholebody; noF-family guessing."
+    }
+  ],
+  "unresolved_clusters": [
+    {
+      "line_id": "261-L04",
+      "span": "rm5t",
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 4,
+      "reason": "Connectedshortbranch/humps may be alternatebody segmentation."
+    },
+    {
+      "line_id": "261-L07",
+      "span": "t3cd68",
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 6,
+      "reason": "Possible extra final6 beforefollowing7c5n; currentchosen6slots provisional."
+    },
+    {
+      "line_id": "261-L14",
+      "span": "?6",
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 2,
+      "reason": "Leaf-obscuredshoulder and mark; unknownfamily/count. One? slot doesnotproveonephysicalbody."
+    },
+    {
+      "line_id": "261-B02",
+      "span": "2bh4nm1ř",
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 8,
+      "reason": "Adjacentn/marchescannotestablishsecurephysicalboundaries."
+    },
+    {
+      "line_id": "261-B04",
+      "span": "6mt28s5",
+      "physical_encoded_body_count": null,
+      "selected_replay_slots": 7,
+      "reason": "Source-selected extra triangle s differs fromfirstomission; replay7slots, physicalcount not independentlyestablished."
+    }
+  ],
+  "marks_and_variants": {
+    "first_notes": [
+      {
+        "kind": "orientation",
+        "text": "Upright main text requires90CCW (270CW) native rotation, reading1175x1785."
+      },
+      {
+        "kind": "coverage",
+        "text": "24 sequential top/right winding rows around rose artwork, plus four bottom closing rows. Empty art gaps not silently filled; first bottomrow shares height with last right rows but separately located."
+      },
+      {
+        "kind": "punctuation",
+        "line_ids": [
+          "261-L05",
+          "261-L07",
+          "261-L17",
+          "261-L20"
+        ],
+        "text": "Their terminal/interior? are actual source question marks, not unknowns."
+      },
+      {
+        "kind": "unknown_cluster",
+        "line_id": "261-L14",
+        "token": "?6",
+        "physical_encoded_body_count": null,
+        "selected_replay_slots": 2,
+        "text": "First form just beside leaf resembles shortshoulder body with detached mark; family unassigned, alternatives ř,r,n,m. One? replay slot but physical segmentation unresolved."
+      },
+      {
+        "kind": "mark",
+        "line_id": "261-L02",
+        "token": "řf485",
+        "text": "Initial shoulderbody bears distinct caron, řselected onebody. m5d58m4 firstm/tallloop joins uncertain."
+      },
+      {
+        "kind": "mark",
+        "line_id": "261-L03",
+        "tokens": [
+          "h1ř85",
+          "p1ř"
+        ],
+        "text": "Small carons above shortshoulder bodies clear. Initialp in p1ř has tall stem/shoulder, alternate r."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "261-L04",
+        "token": "f5c581",
+        "alternatives": [
+          "f5c581",
+          "f3c581"
+        ],
+        "text": "Second digit has shortupperbar and bend,5selected;3alternative. Last76q descender selectedq butgpossible."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "261-L06",
+        "token": "gth6f6",
+        "alternatives": [
+          "gth6f6",
+          "qth6f6"
+        ],
+        "text": "Initial descending loop appears openhook,gselected. In secondtoken ř has detachedsmallwedge above."
+      },
+      {
+        "kind": "mark",
+        "line_id": "261-L07",
+        "text": "Black speckled run below initial7 of final7c5n; resembles printing/ink drops, no extra bodies assigned."
+      },
+      {
+        "kind": "mark",
+        "line_id": "261-L09",
+        "token": "f",
+        "text": "Detached small upper stroke above d vicinity after isolatedf; not securely a caron/body, noted separately."
+      },
+      {
+        "kind": "mark",
+        "line_id": "261-L10",
+        "token": "h1ř84q2",
+        "text": "Clear caron above thirdbody, ř retained. Lower returningloop q; alternate g. Endhyphen continues d3-/b483 without joining raw."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "261-L12",
+        "token": "qt683",
+        "alternatives": [
+          "qt683",
+          "gt683"
+        ],
+        "text": "Initial descendingform lowerloop looks closedq, contrast hookedg; alternative unresolved."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "261-L16",
+        "token": "fgb3m4m6c",
+        "alternatives": [
+          "fgb3m4m6c",
+          "fgb3n4m6c"
+        ],
+        "text": "Fifthbody lowhumps m selected ratherthann, visible archcountuncertain."
+      },
+      {
+        "kind": "mark",
+        "line_id": "261-L20",
+        "token": "r5gq1",
+        "text": "Whole token underlined. Firstg descender openhook, nextq closedloop selected; possible gg/qg variants retained."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "261-L22",
+        "token": "phq3",
+        "alternatives": [
+          "phq3",
+          "phg3"
+        ],
+        "text": "Lastdescendingbody before3 appears closedreturningloopq; openhookgpossible."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "261-L24",
+        "token": "qbh6f2",
+        "alternatives": [
+          "qbh6f2",
+          "gbh6f2"
+        ],
+        "text": "Initiallowerloop slender closedq selected, g alternative."
+      },
+      {
+        "kind": "glyph_alternative",
+        "line_id": "261-B01",
+        "token": "b6s",
+        "alternatives": [
+          "b6s",
+          "?6s"
+        ],
+        "text": "Talllooped initial b selected; unassignedF-like glyph alternative retained, no extra key mapping."
+      },
+      {
+        "kind": "mark",
+        "line_id": "261-B02",
+        "tokens": [
+          "t832r1ř",
+          "2bh4nm1ř"
+        ],
+        "text": "Finalshortbody in each has caron. Firstbody2bh... joinedtallstems not split beyond visible labels. b2c finalc longflourish."
+      },
+      {
+        "kind": "segmentation",
+        "line_ids": [
+          "261-L18",
+          "261-B03"
+        ],
+        "text": "Written line-end hyphens retained; no silent joining."
+      },
+      {
+        "kind": "date",
+        "bbox": [
+          365,
+          1640,
+          666,
+          1713
+        ],
+        "selected": "30./IX.1902.",
+        "text": "Separate plainnumeral/Romanmonth inscription, excluded cipher counts. Finalperiodflourish retained conceptually."
+      },
+      {
+        "kind": "limits",
+        "text": "Source-only first reader; knownkeyvisible but complete raw frozen beforedecode. No old261 transcript/research/candidate access. n/m humps,q/g tails,t/d crossbars and tiny marks provisional."
+      }
+    ],
+    "second_marks": [
+      {
+        "row": 2,
+        "token": "řf485",
+        "mark": "Initialshortbody upperchevronselectedř; followingf tallloop kept separate."
+      },
+      {
+        "row": 3,
+        "tokens": [
+          "h1ř85",
+          "p1ř"
+        ],
+        "mark": "Two distinctupperchevrons; selectedř bodiesnotdeleted."
+      },
+      {
+        "row": 6,
+        "token": "m5m6ř86t486",
+        "mark": "Upperchevronabove fifthbodyselectedř."
+      },
+      {
+        "row": 10,
+        "token": "h1ř84q2",
+        "mark": "Visibleupperchevronon thirdbodyselectedř."
+      },
+      {
+        "row": 20,
+        "token": "r5gq1?",
+        "mark": "Fullwordunderlined; lower g/qdescendersintersectunderline, recordedratherthannormalized."
+      },
+      {
+        "row": 26,
+        "tokens": [
+          "t832r1ř",
+          "2bh4nm1ř"
+        ],
+        "mark": "Finalupperchevronon eachtoken selectedř, twobodies."
+      },
+      {
+        "rows": [
+          5,
+          7,
+          17,
+          20
+        ],
+        "mark": "Visiblequestionhookwith separatedot selectedactualquestionpunctuation; metadatatags distinguishfromunknownbodies."
+      },
+      {
+        "rows": [
+          10,
+          18,
+          27
+        ],
+        "mark": "Line-enddashretained, no automatic wordjoining."
+      },
+      {
+        "row": 25,
+        "token": "b6s",
+        "mark": "Initialtallb loop and largeentryline recordedaswholebody; noF-family guessing."
+      }
+    ],
+    "policy": "Seven selectedř bodies, underline intersections and detachedstrokes preservedindividually. No genericmark deletion/equivalence ornewkey."
+  },
+  "row_comparisons": [
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L01",
+      "second_line_id": "261-L01",
+      "first_ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+      "second_ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+      "selected_ciphertext": "cht5sq3 n375 g86d4sq5! fgb3n4m6n c d32r32",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring; low n/m and q/g alternatives remain from both frozen phases."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L02",
+      "second_line_id": "261-L02",
+      "first_ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+      "second_ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+      "selected_ciphertext": "m5f1c83fm32 m6 qh6cm5 řf485 m5d58m4, 75g",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring. Initial shortbody upperchevron in řf485 retained separately from followingtallf."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L03",
+      "second_line_id": "261-L03",
+      "first_ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+      "second_ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+      "selected_ciphertext": "p3r2g58 d6q h1ř85 2b81m281. p18 p1ř c5 p1f68",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring. Both caron-bearing shortbodies retained; pointedp and tallloop alternatives remain."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L04",
+      "second_line_id": "261-L04",
+      "first_ciphertext": "m57h6t574 rm5t 3b5d t3 f5c581 fh6d48! 76q",
+      "second_ciphertext": "m57h6t574 rm5t 3b5d t3 f3c581 fh6d48! 76q",
+      "selected_ciphertext": "m57h6t574 rm5t 3b5d t3 f5c581 fh6d48! 76q",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            24,
+            25
+          ],
+          "first_span": "5",
+          "second_offset": [
+            24,
+            25
+          ],
+          "second_span": "3",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Second digit inf5c581 has shortupperbar/bend supportingfirst5 but3 remains possible where joiningf crossstroke obscures edge. Retainfirst5. Connectedrm5t count unresolved in blindnotes."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L05",
+      "second_line_id": "261-L05",
+      "first_ciphertext": "t3cd686 7c4 c5 t3n2?",
+      "second_ciphertext": "t3cd686 7c4 c5 t3n2?",
+      "selected_ciphertext": "t3cd686 7c4 c5 t3n2?",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on actual writtenquestionmark; explicitly punctuation, not unknown body."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L06",
+      "second_line_id": "261-L06",
+      "first_ciphertext": "7c4 gth6f6, m5m6ř86t486",
+      "second_ciphertext": "7c4 gth6f6, m5m6ř86t486",
+      "selected_ciphertext": "7c4 gth6f6, m5m6ř86t486",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring; initialopenhookg and distinctupperchevron retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L07",
+      "second_line_id": "261-L07",
+      "first_ciphertext": "7c4 c5? 76 t3cd68 7c5n",
+      "second_ciphertext": "7c4 c5? 76, t3cd68 7c5n",
+      "selected_ciphertext": "7c4 c5? 76, t3cd68 7c5n",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            10,
+            10
+          ],
+          "first_span": "",
+          "second_offset": [
+            10,
+            11
+          ],
+          "second_span": ",",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Detached lowcomma visible after76 beforet3; selectblindcomma. Both actualquestionmarks agree. Possibleadditional6 aftert3cd68 remains unsupported by separatebody boundary, retained as countuncertainty."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L08",
+      "second_line_id": "261-L08",
+      "first_ciphertext": "c5t3 bh6r1 b3r3t8m5",
+      "second_ciphertext": "c5 t3 bh6r1 b3r3t8m5",
+      "selected_ciphertext": "c5 t3 bh6r1 b3r3t8m5",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            2,
+            2
+          ],
+          "first_span": "",
+          "second_offset": [
+            2,
+            3
+          ],
+          "second_span": " ",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Gap afterc5 is larger than immediately adjacent within-token gaps; selectblindspace beforet3. Wordsegmentation provisional, no bodies changed."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L09",
+      "second_line_id": "261-L09",
+      "first_ciphertext": "6 f d5b85, b3m5f6tg",
+      "second_ciphertext": "6 f d5b85, b3m5f6tq",
+      "selected_ciphertext": "6 f d5b85, b3m5f6tg",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            18,
+            19
+          ],
+          "first_span": "g",
+          "second_offset": [
+            18,
+            19
+          ],
+          "second_span": "q",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Terminal9-like descender inb3m5f6tg ends in open lowerhook rather than narrow returningloop; retainfirstg. Blindq remains alternative."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L10",
+      "second_line_id": "261-L10",
+      "first_ciphertext": "c574g f h1ř84q2 d3-",
+      "second_ciphertext": "c5 74g f h1ř84q2 d3-",
+      "selected_ciphertext": "c5 74g f h1ř84q2 d3-",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            2,
+            2
+          ],
+          "first_span": "",
+          "second_offset": [
+            2,
+            3
+          ],
+          "second_span": " ",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Visible larger gap afterc5 selected as space before74g. All glyphs unchanged; spacingalternative retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L11",
+      "second_line_id": "261-L11",
+      "first_ciphertext": "b483. f m3s4 c5",
+      "second_ciphertext": "b483. f m3s4 c5",
+      "selected_ciphertext": "b483. f m3s4 c5",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Both rowstrings agree; triangularthirdbody in m3s4 retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L12",
+      "second_line_id": "261-L12",
+      "first_ciphertext": "n4 b6q qt683",
+      "second_ciphertext": "n4 b6q gt683",
+      "selected_ciphertext": "n4 b6q gt683",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            7,
+            8
+          ],
+          "first_span": "q",
+          "second_offset": [
+            7,
+            8
+          ],
+          "second_span": "g",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Initialbody in finalword has upperoval and descendingopenhook with no closedlowerreturn, compared to q in precedingb6q. Selectblindg in gt683; q alternative retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L13",
+      "second_line_id": "261-L13",
+      "first_ciphertext": "3 d3p5 cd685",
+      "second_ciphertext": "3 d3p5 cd685,",
+      "selected_ciphertext": "3 d3p5 cd685,",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            12,
+            12
+          ],
+          "first_span": "",
+          "second_offset": [
+            12,
+            13
+          ],
+          "second_span": ",",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Small lowcomma visible after final5, beyond baselineexit. Selectblindcomma; bareend alternative retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L14",
+      "second_line_id": "261-L14",
+      "first_ciphertext": "?6 n483f6m6",
+      "second_ciphertext": "n6 n483f6m6",
+      "selected_ciphertext": "?6 n483f6m6",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            0,
+            1
+          ],
+          "first_span": "?",
+          "second_offset": [
+            0,
+            1
+          ],
+          "second_span": "n",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Body besideleaf has obscuredlowshoulder and detachedmark. Blindn possible but fullfamily/segmentation not established; retainfirst? rather than repair language. Exact physicalcount null."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L15",
+      "second_line_id": "261-L15",
+      "first_ciphertext": "6m2cq3!",
+      "second_ciphertext": "6 m2cq3!",
+      "selected_ciphertext": "6m2cq3!",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            1,
+            1
+          ],
+          "first_span": "",
+          "second_offset": [
+            1,
+            2
+          ],
+          "second_span": " ",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Gap after6 small/comparableto ordinarybody spacing; retainfirstjoinedtoken. Blindspace remains alternative."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L16",
+      "second_line_id": "261-L16",
+      "first_ciphertext": "fgb3m4m6c",
+      "second_ciphertext": "fgb8m4m6c",
+      "selected_ciphertext": "fgb3m4m6c",
+      "changed_from_first": false,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            3,
+            4
+          ],
+          "first_span": "3",
+          "second_offset": [
+            3,
+            4
+          ],
+          "second_span": "8",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Fourthbodyafterfgb has open-left lobes plausibly3, but precedingb join can make8 closure. Inconclusive; retainfirst3, blind8 and n/m alternatives retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L17",
+      "second_line_id": "261-L17",
+      "first_ciphertext": "d6q5? 6",
+      "second_ciphertext": "d6q5? 6",
+      "selected_ciphertext": "d6q5? 6",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on sourcequestionhook+dot; explicitpunctuation."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L18",
+      "second_line_id": "261-L18",
+      "first_ciphertext": "fgb3m4-",
+      "second_ciphertext": "fgb3m4-",
+      "selected_ciphertext": "fgb3m4-",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring, lowm/n humps unresolved, line-enddash retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L19",
+      "second_line_id": "261-L19",
+      "first_ciphertext": "m6c m6 nm5",
+      "second_ciphertext": "m6c m6 nm6",
+      "selected_ciphertext": "m6c m6 nm6",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            9,
+            10
+          ],
+          "first_span": "5",
+          "second_offset": [
+            9,
+            10
+          ],
+          "second_span": "6",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Finalbody has closedloweroval and risinghook without secure horizontal5topbar. Selectblind6, first5 remains alternative. Low n/m humps remain uncertain."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L20",
+      "second_line_id": "261-L20",
+      "first_ciphertext": "r5gq1? d5c4n",
+      "second_ciphertext": "r5gq1? d5c4n",
+      "selected_ciphertext": "r5gq1? d5c4n",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on underlinedword and writtenquestionmark. Underline crossings retained; g/q loopalternatives remain."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L21",
+      "second_line_id": "261-L21",
+      "first_ciphertext": "c5, g5 n4",
+      "second_ciphertext": "c5, g5 n4",
+      "selected_ciphertext": "c5, g5 n4",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on comma and rowstring."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L22",
+      "second_line_id": "261-L22",
+      "first_ciphertext": "r3tm5 phq3",
+      "second_ciphertext": "r3tm5 phg3",
+      "selected_ciphertext": "r3tm5 phg3",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            8,
+            9
+          ],
+          "first_span": "q",
+          "second_offset": [
+            8,
+            9
+          ],
+          "second_span": "g",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Thirdbody inphg3 has open lowerhook like g inL09, no narrowreturnloop. Selectblindg; firstq alternative retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L23",
+      "second_line_id": "261-L23",
+      "first_ciphertext": "b3c85c 3 c3p5",
+      "second_ciphertext": "b3c85c 3 c3p5",
+      "selected_ciphertext": "b3c85c 3 c3p5",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on rowstring; finalc versus triangulars alternative retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-L24",
+      "second_line_id": "261-L24",
+      "first_ciphertext": "qbh6f2.",
+      "second_ciphertext": "qbh6f2.",
+      "selected_ciphertext": "qbh6f2.",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on selectedq; lowerreturn loop faint, g alternative retained."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B01",
+      "second_line_id": "261-L25",
+      "first_ciphertext": "fh581 b6s",
+      "second_ciphertext": "fh581 b6s",
+      "selected_ciphertext": "fh581 b6s",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on selectedb6s; tallloopwholebody selectedb, unassignedfamily alternative remains. No newFmapping."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B02",
+      "second_line_id": "261-L26",
+      "first_ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+      "second_ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+      "selected_ciphertext": "6 d4c4s t832r1ř, 2bh4nm1ř b2c",
+      "changed_from_first": false,
+      "all_disagreement_spans": [],
+      "source_reason": "Agreement on symbols. Adjacentnm arches may be separate or compound; physicalcount null. Both finalupperchevrons retained, no genericmarkrule."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B03",
+      "second_line_id": "261-L27",
+      "first_ciphertext": "cf5 bh6th6r5, m5f1c83fm5 m483-",
+      "second_ciphertext": "cf5 bh6th6r5, m5f1c83fm5 n483-",
+      "selected_ciphertext": "cf5 bh6th6r5, m5f1c83fm5 n483-",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            25,
+            26
+          ],
+          "first_span": "m",
+          "second_offset": [
+            25,
+            26
+          ],
+          "second_span": "n",
+          "operation": "replace"
+        }
+      ],
+      "source_reason": "Firstbody of finalpartialword has singlelowarch/entry, compared with doublehumpedm earlier inrow. Selectblindn in n483-. Firstm alternative remains."
+    },
+    {
+      "date_utc": "2026-10-20T13:34:30.451642+00:00",
+      "first_line_id": "261-B04",
+      "second_line_id": "261-L28",
+      "first_ciphertext": "f6m5 6mt285 b3c486 f5sm5 7574 b5b32c.",
+      "second_ciphertext": "f6m5 6mt28s5 b3c486 f5sm5 7574 b5b32c.",
+      "selected_ciphertext": "f6m5 6mt28s5 b3c486 f5sm5 7574 b5b32c.",
+      "changed_from_first": true,
+      "all_disagreement_spans": [
+        {
+          "first_offset": [
+            10,
+            10
+          ],
+          "first_span": "",
+          "second_offset": [
+            10,
+            11
+          ],
+          "second_span": "s",
+          "operation": "insert"
+        }
+      ],
+      "source_reason": "Between8 andfinal5 there is a distinct pointedtriangulars, with separate baselineentry/exit. Selectblindadditionalbody in6mt28s5; firstomission preserved as alternative and physicalcount qualified."
+    }
+  ],
+  "physical_encoded_body_count": null,
+  "selected_replay_slots": 445,
+  "known_letters": 451,
+  "count_policy": "encoded_bodies totals are selectedlabel/replay-slot counts only; physicalbodycount null. A? cluster is one replay slot withoutasserting onephysicalbody. Realquestionmarks explicitly tagged punctuation.",
+  "proposed_editorial_czech": "Srdéčko moje zlatíčké! Vzpomínám s touhou nevýslovnou na krásné chvíle [nedělní], jež bohužel tak rychle uplynuly. Byl bych se býval nejraději hned opět do [Veselé?] vrátil! Jak dostala jsi se domů? Jsi zdráva, nenachladila jsi se? Já, dostal jsem se do Prahy pohodlně a v teple, poněvadž se již v rychlíku topilo. V noci se mi pak zdálo o tobě stále, [má?] milovaná Anuško! [Vzpomínáš] také? A [vzpomínáš] na [mne] hezky? Těším se, že mi hodně brzo pošleš o sobě [zprávu]. Vřelý [pozdrav?] a tisíc dlouhých, upřímných pus své [předrahé], nevýslovně milované Andulce posílá věčně její Pepouš.",
+  "proposed_english_translation": "My golden sweetheart! I long indescribably for those lovely [Sunday] moments, which unfortunately passed so quickly. I would gladly have returned to [Veselá?] straight away! How did you get home? Are you well, have you caught a cold? I reached Prague comfortably and warmly, because the express train was already heated. That night I dreamed of you constantly, [my?] beloved Anuška! Do you [remember] too? And do you [think] fondly of [me]? I look forward to receiving a [message] from you very soon. A warm [greeting?] and a thousand long, sincere kisses to his [dearest], indescribably beloved Andulka, from her forever devoted Pepouš.",
+  "editorial_restoration_ledger": [
+    {
+      "line_id": "261-L02",
+      "literal": "NETELNI",
+      "proposed_czech": "[nedělní]",
+      "proposed_english": "[Sunday]",
+      "reason": "T→D wordrepair; rawd retained."
+    },
+    {
+      "line_id": "261-L04",
+      "literal": "VESELY",
+      "proposed_czech": "[Veselé?]",
+      "proposed_english": "[Veselá?]",
+      "reason": "Properplaceword/ending interpretation uncertain; identity not established."
+    },
+    {
+      "line_id": "261-L14",
+      "literal": "?A",
+      "proposed_czech": "[má?]",
+      "proposed_english": "[my?]",
+      "reason": "Unknownfamily reconstruction, no sourceclassification inferred."
+    },
+    {
+      "line_id": "261-L16",
+      "literal": "VZPONINAS",
+      "proposed_czech": "[Vzpomínáš]",
+      "proposed_english": "[remember]",
+      "reason": "N→M wordrepair."
+    },
+    {
+      "line_id": "261-L18–L19",
+      "literal": "VZPONI- / NAS",
+      "proposed_czech": "[vzpomínáš]",
+      "proposed_english": "[think]",
+      "reason": "Linejoin withN→M proposal, rawdash remains."
+    },
+    {
+      "line_id": "261-L19",
+      "literal": "MNA",
+      "proposed_czech": "[mne]",
+      "proposed_english": "[me]",
+      "reason": "A→E proposal. Current6sourcechoice retained; language didnotselect5."
+    },
+    {
+      "line_id": "261-L24",
+      "literal": "KPRAVU",
+      "proposed_czech": "[zprávu]",
+      "proposed_english": "[message]",
+      "reason": "K→Z wordrepair, q retained."
+    },
+    {
+      "line_id": "261-B01",
+      "literal": "PAC",
+      "proposed_czech": "[pozdrav?]",
+      "proposed_english": "[greeting?]",
+      "reason": "Openingword unresolved; expansion conjectural."
+    },
+    {
+      "line_id": "261-B03",
+      "literal": "PRADRAHE",
+      "proposed_czech": "[předrahé]",
+      "proposed_english": "[dearest]",
+      "reason": "Vowelrepair, source6 remains."
+    }
+  ],
+  "editorial_status": "All substantive wordrepairs bracketedandledgered; ordinary diacritics,capitalization,punctuation,linejoins andtranslationgrammar areeditorialpresentation. No languagefeedback altered sourcechoices.",
+  "limits": [
+    "Same model andkey-visiblemethod forbothAIreads; separate source-onlyphases plusnonblindcomparison are nothuman/external proof.",
+    "All rowdisagreements, unknownfamily and possiblebodycounts retained, includingunchangedchoices.",
+    "Apparentdate30./IX.1902., names, places andrelationshiplanguage do not independentlyestablishhistory.",
+    "No sourcebytes,images,PDF,email orprivatefilesystempaths included."
+  ],
+  "encoded_bodies": 445,
+  "expanded_letters": 451,
+  "ch_occurrences": 7,
+  "unknowns": 1,
+  "initial_reconciliation_record": "revisions/261-initial-reconciliation.json",
+  "initial_selected_snapshot_sha256": "facbbc86bc771c33266946d3cfed171592c2cb1d783763c461e48d8df2a6c251"
+}

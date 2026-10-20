@@ -34,7 +34,8 @@ def replay(lines, notation):
         require(result['literal'] == line.get('literal'), f'{identifier}: literal mismatch')
         require(result['unknowns'] == line.get('unknowns', []), f'{identifier}: unknown ledger mismatch')
         for name in COUNTS:
-            value = len(result[name]) if name == 'unknowns' else result[name]
+            value = (sum(entry['kind'] != 'numeral' for entry in result[name])
+                     if name == 'unknowns' else result[name])
             if name in line:
                 require(line[name] == result[name], f'{identifier}: {name} mismatch')
             totals[name] += value

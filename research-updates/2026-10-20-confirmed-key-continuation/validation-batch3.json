@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Third source batch; ongoing investigation",
+  "base_commit": "9364969",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262
+  ],
+  "new_card_ids": [
+    259,
+    260,
+    261,
+    262
+  ],
+  "selected_totals": {
+    "rows": 210,
+    "encoded_bodies": 5146,
+    "expanded_letters": 5131,
+    "ch_occurrences": 48,
+    "unknowns": 63
+  },
+  "count_semantics": "Selected slots and unknown display masks, not physical glyph totals. Unknown clusters retain null physical length. Known emitted letters exclude masks and preserved ordinary numerals.",
+  "first_and_blind_raws": "Both frozen before target reader exchange; relatedAI/keyvisible; subsequent reconciliation nonblind.",
+  "prepared_sources": "All4 prepared privately first, individually checked with check_card, then imported; immutable initial reconciliation records preserve bothraws/firstselection.",
+  "address_faces_checked": 13,
+  "address_cipher_observed": false,
+  "catalogue": "Unchanged263actualrecords/526originalURLs; queue statuses updated to actual source checkpoints.",
+  "checks": [
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS after numeral aggregation correction",
+      "cards": 13
+    },
+    {
+      "command": "python3 -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 19
+    },
+    {
+      "command": "python3 -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS:475 files checked; historical replays passed",
+      "manifest_entries": 475
+    }
+  ],
+  "numeral_counter_issue": "Corrected replay aggregation to exclude explicit numeral ledger entries from unknown-slot totals while preserving exact per-line ledger checks. Two new tests cover numeral-only, numeral plus mask, and numeral plus untagged9/CH cases. Current13cards have no embedded numeral spans; their totals are unchanged.",
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS: no remaining confirmed defects in current diff",
+    "verified": "19 tests,13-card replay, frozen/new snapshot hashes, source and address bindings, queue, counters, physical nulls; original412manifest entries/files unchanged. Markdown snapshot links corrected before approval.",
+    "limits": "Data/code consistency review, not certification of every source reading."
+  },
+  "following_private_batch": [
+    263,
+    264,
+    265,
+    266
+  ],
+  "privacy": "Only derived text/code/metadata published; no scans,ordinaryaddresses,PDF,email or fullAPIpayload.",
+  "manifest_expected_entries": 475
+}
