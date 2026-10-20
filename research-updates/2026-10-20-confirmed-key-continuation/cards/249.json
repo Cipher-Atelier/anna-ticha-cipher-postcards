@@ -1966,29 +1966,33 @@
     ],
     "cipher_body": false
   },
-  "proposed_editorial_czech": "Kéž bych tě mohl opět takto přivinouti k [sobě?; doslova COBE] a dáti ti nesčíslných, dlouhých, vášnivých pus! [Nečitelné a nejisté úseky spodního textu vynechány.] Jsi churavá? [Další nejisté úseky vynechány.]",
-  "proposed_english_translation": "If only I could embrace you like this again, draw you [to myself?; literal COBE], and give you countless long, passionate kisses! [Unreadable and uncertain portions of the bottom text omitted.] Are you ill? [Further uncertain portions omitted.]",
+  "proposed_editorial_czech": "Střed A01–A06 (samostatný region):\nKéž bych tě mohl opět takto přivinouti k [sobě?; doslova COBE] a dáti ti\n\nPravý region B01–B04 (samostatný fragment):\nNesčíslných, dlouhých, vášnivých pus!\n\nDolní region L01–L07:\nAničko moje [ROZMILA; neobnovený fragment], [? ?A; neobnovený fragment] mne v novém roce zapomínáš? [CE K?; neobnovený fragment] buď slíbený dopis neb aspoň lístek s [TOUZEB?; neobnovený fragment], avšak marně. Dostala jsi mé [LIST?Y; neobnovený fragment] na [nový?; MOVY] rok a [?-; neobnovený fragment] [TEHO LEDNA; neobnovený fragment]? Jsi churavá? Aspoň [? ?RATICKOU; neobnovený fragment] [Z ?RAVU; neobnovený fragment] prosí stále vzpomínající a tisíc vřelých pus posílající Pepouš.",
+  "proposed_english_translation": "Centre A01–A06 (separate region):\nIf only I could hold you like this again [to myself?; literal COBE] and give you\n\nRight region B01–B04 (separate fragment):\nCountless long, passionate kisses!\n\nBottom region L01–L07:\nMy Aničko [ROZMILA; unrestored fragment], [? ?A; unrestored fragment] you forget me in the New Year? [CE K?; unrestored fragment] either the promised letter or at least a note with [TOUZEB?; unrestored fragment], but in vain. Did you receive my [LIST?Y; unrestored fragment] for the [new?; MOVY] year and [?-; unrestored fragment] [TEHO LEDNA; unrestored fragment]? Are you ill? Pepouš, always remembering and sending a thousand warm kisses, asks for at least [? ?RATICKOU; unrestored fragment] [Z ?RAVU; unrestored fragment].",
   "editorial_ledger": [
     {
       "line_id": "249-A05",
-      "literal": "K COBE A",
-      "proposal": "k [sobě?; doslova COBE] a",
-      "reason": "Explicit conjectural C-to-S substitution; frozen source candidate remains s/C, not silently repaired.",
-      "source_confirmed": false
+      "literal_offset_start": 2,
+      "literal_offset_end": 6,
+      "literal": "COBE",
+      "proposed_czech": "[sobě?; doslova COBE]",
+      "proposed_english": "[to myself?; literal COBE]",
+      "kind": "lexical_or_semantic_repair",
+      "reason": "Retain the earlier explicit C→S editorial proposal; the selected literal remains COBE.",
+      "basis": "Editorial conjecture only from saved strict text; no source reread, accepted glyph or key change."
     },
     {
-      "line_id": "249-A03–249-A04",
-      "literal": "PRI- / VINOUTI",
-      "proposal": "přivinouti",
-      "reason": "Editorial joining of retained line-end hyphen; source line layout remains unchanged."
-    },
-    {
-      "line_id": "249-L01–249-L07",
-      "proposal": "[Uncertain bottom narrative omitted]",
-      "reason": "No smudged phrase reconstructed; only selected CHURAVA question excerpt retained."
+      "line_id": "249-L04",
+      "literal_offset_start": 38,
+      "literal_offset_end": 42,
+      "literal": "MOVY",
+      "proposed_czech": "[nový?; MOVY]",
+      "proposed_english": "[new?; MOVY]",
+      "kind": "lexical_or_semantic_repair",
+      "reason": "M→N lexical proposal only; no change to the chosen hump/body or strict MOVY.",
+      "basis": "Editorial conjecture only from saved strict text; no source reread, accepted glyph or key change."
     }
   ],
-  "editorial_status": "Limited separated CZ/EN excerpts. Diacritics/capitalization normalized; substantive COBE repair bracketed and ledgered. Unreadable bottom narrative omitted.",
+  "editorial_status": "Paired editorial coverage of all 17 selected rows; three separate regions and all nine masks retained, not a complete verified reading.",
   "reconciliation_record": "../revisions/249-review2.json",
   "provenance": {
     "date": "2026-10-20",
@@ -2004,5 +2008,430 @@
     "Both raw layers, notes and all reader disagreements remain retained separately.",
     "No frozen-key changes or new unassigned F value.",
     "Replay verifies selected strings and counters, not image classification or historical accuracy."
+  ],
+  "editorial_restoration_ledger": [
+    {
+      "line_id": "249-A05",
+      "literal_offset_start": 2,
+      "literal_offset_end": 6,
+      "literal": "COBE",
+      "proposed_czech": "[sobě?; doslova COBE]",
+      "proposed_english": "[to myself?; literal COBE]",
+      "kind": "lexical_or_semantic_repair",
+      "reason": "Retain the earlier explicit C→S editorial proposal; the selected literal remains COBE.",
+      "basis": "Editorial conjecture only from saved strict text; no source reread, accepted glyph or key change."
+    },
+    {
+      "line_id": "249-L04",
+      "literal_offset_start": 38,
+      "literal_offset_end": 42,
+      "literal": "MOVY",
+      "proposed_czech": "[nový?; MOVY]",
+      "proposed_english": "[new?; MOVY]",
+      "kind": "lexical_or_semantic_repair",
+      "reason": "M→N lexical proposal only; no change to the chosen hump/body or strict MOVY.",
+      "basis": "Editorial conjecture only from saved strict text; no source reread, accepted glyph or key change."
+    }
+  ],
+  "editorial_literal_fragment_ledger": [
+    {
+      "line_id": "249-L01",
+      "literal_offset_start": 12,
+      "literal_offset_end": 19,
+      "literal": "ROZMILA",
+      "proposed_czech": "[ROZMILA; neobnovený fragment]",
+      "proposed_english": "[ROZMILA; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L01",
+      "literal_offset_start": 21,
+      "literal_offset_end": 25,
+      "literal": "? ?A",
+      "proposed_czech": "[? ?A; neobnovený fragment]",
+      "proposed_english": "[? ?A; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L02",
+      "literal_offset_start": 28,
+      "literal_offset_end": 33,
+      "literal": "CE K?",
+      "proposed_czech": "[CE K?; neobnovený fragment]",
+      "proposed_english": "[CE K?; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L03",
+      "literal_offset_start": 37,
+      "literal_offset_end": 44,
+      "literal": "TOUZEB?",
+      "proposed_czech": "[TOUZEB?; neobnovený fragment]",
+      "proposed_english": "[TOUZEB?; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L04",
+      "literal_offset_start": 28,
+      "literal_offset_end": 34,
+      "literal": "LIST?Y",
+      "proposed_czech": "[LIST?Y; neobnovený fragment]",
+      "proposed_english": "[LIST?Y; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L04",
+      "literal_offset_start": 49,
+      "literal_offset_end": 51,
+      "literal": "?-",
+      "proposed_czech": "[?-; neobnovený fragment]",
+      "proposed_english": "[?-; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L05",
+      "literal_offset_start": 0,
+      "literal_offset_end": 10,
+      "literal": "TEHO LEDNA",
+      "proposed_czech": "[TEHO LEDNA; neobnovený fragment]",
+      "proposed_english": "[TEHO LEDNA; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L05",
+      "literal_offset_start": 31,
+      "literal_offset_end": 42,
+      "literal": "? ?RATICKOU",
+      "proposed_czech": "[? ?RATICKOU; neobnovený fragment]",
+      "proposed_english": "[? ?RATICKOU; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    },
+    {
+      "line_id": "249-L05",
+      "literal_offset_start": 43,
+      "literal_offset_end": 50,
+      "literal": "Z ?RAVU",
+      "proposed_czech": "[Z ?RAVU; neobnovený fragment]",
+      "proposed_english": "[Z ?RAVU; unrestored fragment]",
+      "kind": "unrestored_literal_fragment",
+      "basis": "Exact current literal preserved; no masked body, noun, person, place or date value restored."
+    }
+  ],
+  "editorial_layout_normalizations": [
+    {
+      "kind": "written_line_end_hyphen_join",
+      "literal_spans": [
+        {
+          "line_id": "249-A03",
+          "literal_offset_start": 6,
+          "literal_offset_end": 10,
+          "literal": "PRI-"
+        },
+        {
+          "line_id": "249-A04",
+          "literal_offset_start": 0,
+          "literal_offset_end": 7,
+          "literal": "VINOUTI"
+        }
+      ],
+      "normalized": "PRIVINOUTI",
+      "scope": "Editorial word presentation only; strict row and region boundaries unchanged."
+    }
+  ],
+  "editorial_policy": "Paired coverage of every selected row, including exact literal-labeled fragments for all masked spans. Only explicitly bracketed lexical proposals may change letters in reader text; each is tied to current literal offsets. Case/diacritics and translation grammar normalized. Separate regions remain separate; arrows are layout evidence, not proof of narrative order. No source reread, new key value, body count, identity, occupation or calendar attribution.",
+  "editorial_scope": {
+    "coverage": "All 17 selected visual rows addressed in paired Czech/English; remains a partial reading.",
+    "regions": [
+      {
+        "region": "centre",
+        "included_line_ids": [
+          "249-A01",
+          "249-A02",
+          "249-A03",
+          "249-A04",
+          "249-A05",
+          "249-A06"
+        ]
+      },
+      {
+        "region": "right",
+        "included_line_ids": [
+          "249-B01",
+          "249-B02",
+          "249-B03",
+          "249-B04"
+        ]
+      },
+      {
+        "region": "bottom",
+        "included_line_ids": [
+          "249-L01",
+          "249-L02",
+          "249-L03",
+          "249-L04",
+          "249-L05",
+          "249-L06",
+          "249-L07"
+        ]
+      }
+    ],
+    "omitted_line_ids": [],
+    "order_policy": "Saved display order only; separate source regions do not establish a continuous letter or chronology.",
+    "syntax_and_semantic_limits": "Bottom CE K? and TOUZEB? remain unresolved: no missing waiting verb or fluent causal account supplied. TEHO LEDNA and its preceding masked ordinal remain literal-labeled, without an authenticated date. Initial address and signature-like text do not establish identities."
+  },
+  "editorial_coverage": [
+    {
+      "line_id": "249-A01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 11,
+      "literal": "KEZ BYCH TE",
+      "region_id": "centre",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-A02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 9,
+      "literal": "MOHL OPET",
+      "region_id": "centre",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-A03",
+      "literal_offset_start": 0,
+      "literal_offset_end": 10,
+      "literal": "TAKTO PRI-",
+      "region_id": "centre",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-A04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 7,
+      "literal": "VINOUTI",
+      "region_id": "centre",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-A05",
+      "literal_offset_start": 0,
+      "literal_offset_end": 8,
+      "literal": "K COBE A",
+      "region_id": "centre",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-A06",
+      "literal_offset_start": 0,
+      "literal_offset_end": 7,
+      "literal": "DATI TI",
+      "region_id": "centre",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-B01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 12,
+      "literal": "NESCISLNYCH,",
+      "region_id": "right",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-B02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 9,
+      "literal": "DLOUHYCH,",
+      "region_id": "right",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-B03",
+      "literal_offset_start": 0,
+      "literal_offset_end": 9,
+      "literal": "VASNIVYCH",
+      "region_id": "right",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-B04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 4,
+      "literal": "PUS!",
+      "region_id": "right",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-L01",
+      "literal_offset_start": 0,
+      "literal_offset_end": 25,
+      "literal": "ANICKO MOJE ROZMILA, ? ?A",
+      "region_id": "bottom",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-L02",
+      "literal_offset_start": 0,
+      "literal_offset_end": 33,
+      "literal": "MNE V NOVEM ROCE ZAPOMINAS? CE K?",
+      "region_id": "bottom",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-L03",
+      "literal_offset_start": 0,
+      "literal_offset_end": 45,
+      "literal": "BUD SLIBENY DOPIS NEB ASPON LISTEK S TOUZEB?,",
+      "region_id": "bottom",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-L04",
+      "literal_offset_start": 0,
+      "literal_offset_end": 51,
+      "literal": "AVSAK MARNE. DOSTALA JSI ME LIST?Y NA MOVY ROK A ?-",
+      "region_id": "bottom",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-L05",
+      "literal_offset_start": 0,
+      "literal_offset_end": 50,
+      "literal": "TEHO LEDNA? JSI CHURAVA? ASPON ? ?RATICKOU Z ?RAVU",
+      "region_id": "bottom",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-L06",
+      "literal_offset_start": 0,
+      "literal_offset_end": 44,
+      "literal": "PROSI STALE VZPOMINAJICI A TISIC VRELYCH PUS",
+      "region_id": "bottom",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    },
+    {
+      "line_id": "249-L07",
+      "literal_offset_start": 0,
+      "literal_offset_end": 18,
+      "literal": "POSILAJICI PEPOUS.",
+      "region_id": "bottom",
+      "czech_status": "covered with explicit literal fragments and any bracketed conjecture",
+      "english_status": "same scope as Czech",
+      "omission": false
+    }
+  ],
+  "editorial_coverage_notice": "All 17 selected visual rows addressed; 9 masked display positions remain unrestored literal fragments. Full selected-row coverage is not a complete transcription or solution.",
+  "editorial_czech_line_ids": [
+    "249-A01",
+    "249-A02",
+    "249-A03",
+    "249-A04",
+    "249-A05",
+    "249-A06",
+    "249-B01",
+    "249-B02",
+    "249-B03",
+    "249-B04",
+    "249-L01",
+    "249-L02",
+    "249-L03",
+    "249-L04",
+    "249-L05",
+    "249-L06",
+    "249-L07"
+  ],
+  "editorial_english_line_ids": [
+    "249-A01",
+    "249-A02",
+    "249-A03",
+    "249-A04",
+    "249-A05",
+    "249-A06",
+    "249-B01",
+    "249-B02",
+    "249-B03",
+    "249-B04",
+    "249-L01",
+    "249-L02",
+    "249-L03",
+    "249-L04",
+    "249-L05",
+    "249-L06",
+    "249-L07"
+  ],
+  "post_initial_editorial_updates": [
+    {
+      "at_utc": "2026-10-20T16:50:52.012587+00:00",
+      "date": "2026-10-20",
+      "type": "Editorial expansion from saved selected literals only",
+      "scope": "Current paired reader language/coverage only; source, raw, selected rows/counts, uncertainty/revisions/history/key unchanged. No source reread.",
+      "previous_editorial_payload": {
+        "proposed_editorial_czech": "Kéž bych tě mohl opět takto přivinouti k [sobě?; doslova COBE] a dáti ti nesčíslných, dlouhých, vášnivých pus! [Nečitelné a nejisté úseky spodního textu vynechány.] Jsi churavá? [Další nejisté úseky vynechány.]",
+        "proposed_english_translation": "If only I could embrace you like this again, draw you [to myself?; literal COBE], and give you countless long, passionate kisses! [Unreadable and uncertain portions of the bottom text omitted.] Are you ill? [Further uncertain portions omitted.]",
+        "editorial_ledger": [
+          {
+            "line_id": "249-A05",
+            "literal": "K COBE A",
+            "proposal": "k [sobě?; doslova COBE] a",
+            "reason": "Explicit conjectural C-to-S substitution; frozen source candidate remains s/C, not silently repaired.",
+            "source_confirmed": false
+          },
+          {
+            "line_id": "249-A03–249-A04",
+            "literal": "PRI- / VINOUTI",
+            "proposal": "přivinouti",
+            "reason": "Editorial joining of retained line-end hyphen; source line layout remains unchanged."
+          },
+          {
+            "line_id": "249-L01–249-L07",
+            "proposal": "[Uncertain bottom narrative omitted]",
+            "reason": "No smudged phrase reconstructed; only selected CHURAVA question excerpt retained."
+          }
+        ],
+        "editorial_status": "Limited separated CZ/EN excerpts. Diacritics/capitalization normalized; substantive COBE repair bracketed and ledgered. Unreadable bottom narrative omitted."
+      },
+      "current_coverage_notice": "All 17 selected visual rows addressed; 9 masked display positions remain unrestored literal fragments. Full selected-row coverage is not a complete transcription or solution.",
+      "substantive_repairs": 2,
+      "unrestored_literal_fragments": 9
+    }
   ]
 }
