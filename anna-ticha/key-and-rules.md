@@ -1,5 +1,7 @@
 # Anna Tichá partial key and mark rules
 
+**Current annotation — 20 October 2026:** this is the unchanged 4 October staged-model snapshot. Read the [later key-foundation audit and outcomes](../research-updates/README.md#key-foundation-and-later-outcomes) before treating a saved assignment as independent letter evidence. The audit concerns seven selected claims, not proof that all mappings or readings are false.
+
 The following is the complete, unchanged text of the [published reference](https://maxim-egorov.dev/downloads/anna-ticha-postcards/anna-ticha-partial-key-and-rules.txt). Its historical snapshot date and qualifications are preserved. Later card pages and updates do not revise this snapshot.
 
 [Investigation index](README.md) · [Methods](methods.md) · [Readings](readings.md)

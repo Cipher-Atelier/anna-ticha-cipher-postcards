@@ -1,5 +1,7 @@
 # Reading the Anna Tichá cipher postcards
 
+**Current navigation — 20 October 2026:** the article below is the preserved six-card study. For later evidence, use the [current status](../README.md#current-status--20-october-2026), [card 204 page](card-204.md), [card index](readings.md) and [key-foundation audit with later outcomes](../research-updates/README.md#key-foundation-and-later-outcomes). These annotations do not revise its dated results.
+
 A partial key transfers from one Czech postcard to five more, with preserved unknowns, staged tests, and a concert reference checked against 1904 newspaper notices.
 
 Author: Maxim Egorov

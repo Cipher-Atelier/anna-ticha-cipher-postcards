@@ -1,4 +1,6 @@
-# Anna Tichá public update log
+# Anna Tichá archived website updates — through 5 October 2026
+
+**Archived export, not the current repository log.** For current navigation use the [overview](../README.md), [card index](readings.md) and [dated audit index](../research-updates/README.md). The dated entries below retain their original wording.
 
 The entries below preserve the public update data, including its order, dates, wording and card associations. References such as “below” describe the source website layout.
 

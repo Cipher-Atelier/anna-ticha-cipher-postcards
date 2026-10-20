@@ -2,6 +2,27 @@
 
 This is a navigation index to the full preserved records, not a new edition or a pooled validation result. Each card page keeps the literal output, interpretation, uncertainties, method, status, dates and evidence links together. The original ordering is preserved; new repository records are appended separately.
 
+## Current status — 20 October 2026
+
+[Overview](../README.md) → cards and evidence → literal text on each card page → [methods and audits](../research-updates/README.md).
+
+- [Card 204: Christmas wishes, original text and reported external check](card-204.md). The author reports manual validation on 20 October. The original diplomatic text, editorial Czech, English translation and twelve-entry uncertainty ledger are published separately from the 37 preserved partial reports below; no complete positional/replay package is added.
+- Card 460: another team’s reconstructed-key comparison, not a solve produced here. See the [comparison limit](card-204.md#card-460-comparison).
+- [Four later Russian readers and English explanations](../research-updates/README.md#four-russian-readers) are preserved in the publication from **PR #19**. Its historical 71 conditional reports are not 71 solved cards or a complete public reader index.
+
+## Evidence levels
+
+| Public scope | Cards / route | What it establishes |
+| --- | --- | --- |
+| Complete positional checking package | [199](card-199.md) | Consistency of the saved 532-position proposal, including ten unknowns; not full historical accuracy |
+| Contextual-ledger replay | 314, 315, 316, 318, 319, 320, 322, 324, 325, 326, 327, 328; [reports below](#preliminary-reading-recorded-on-9-october-2026) | Saved contextual proposals and card 318 marginal strips, with unresolved masks |
+| Experimental graphical replay | [330](card-330.md) | Separate proposal with thirteen retained masks; physical body count and written/postal date unresolved |
+| Other partial/conditional reports | Remaining reports below, including [205](card-205.md) and [323](card-323.md) | Uneven public evidence; no automatic full positional replay or accuracy claim |
+
+Coverage counts mapped source units. Read literals before editorial interpretations, and consult the [later key-foundation qualifications](../research-updates/README.md#key-foundation-and-later-outcomes).
+
+## Preserved card reports
+
 - [Card 198: Plans for a spring meeting](card-198.md)
 - [Card 440: Letters that crossed in the post](card-440.md)
 - [Card 250: New Year wishes](card-250.md)
@@ -74,6 +95,6 @@ Each first replay below was recorded on 5 October 2026. Publication timing is se
 - [What the messages say](article.md#what-the-messages-say)
 - [The concert reference](article.md#a-concert-reference-with-an-external-match)
 - [Exact saved six-card literal snapshot](saved-six-card-literals.md)
-- [Public updates](updates.md)
+- [Archived website updates through 5 October](updates.md)
 
 [Investigation index](README.md) · [Methods](methods.md) · [Sources](sources.md)
