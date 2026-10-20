@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Sixth source batch; four new candidates after merged PR25 and historical reader-edition PR21",
+  "base_commit": "4019599778ab00cea07455bc8a154cae6ef115a1",
+  "preparation_base_commit": "1467ba685f86cdb353d133a8d48483af989fd137",
+  "base_relation": "Fast-forwarded the new worktree to latest main, including historical reader editions, before public metadata assembly. That main update preserved the existing 21 candidate records, key, decoder and checker. This follow-up adds four candidates.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274
+  ],
+  "new_card_ids": [
+    271,
+    272,
+    273,
+    274
+  ],
+  "selected_totals": {
+    "rows": 358,
+    "encoded_bodies": 9124,
+    "expanded_letters": 9096,
+    "ch_occurrences": 73,
+    "unknowns": 101
+  },
+  "new_selected_totals": {
+    "rows": 40,
+    "encoded_bodies": 1132,
+    "expanded_letters": 1122,
+    "ch_occurrences": 1,
+    "unknowns": 11
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 2,
+  "new_source_work": "Two frozen related AI source-only readings per card; frozen key visible, prior other-card context disclosed. Each second reader later reconciled both target readings nonblind. No third source-only reading, independent human or external confirmation claimed.",
+  "address_faces_checked": 25,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "271 current date metadata preserves the frozen VII/VIII disagreement; VII is tentatively preferred after visual recheck. The day/month uncertainty on 272 is explicit. Source, raw readings, ciphertext, literals, counters and immutable initial snapshots remain unchanged.",
+    "273 current Czech and English proposals explicitly qualify ME as ambiguous between possessive mé and a nonstandard recipient interpretation mě. The strict literal and immutable initial selected snapshot remain unchanged; a dated post-initial editorial note records the clarification.",
+    "Dated editorial expansions on271,272 and274 address all legible clauses with matching Czech/English coverage and exact literal-span ledgers. Initial excerpts and immutable selected snapshots are preserved; source, raw, ciphertext, strict literal and counters are unchanged. The three regions on274 remain separate."
+  ],
+  "unresolved": {
+    "271": "Two masks and glyph alternatives; malformed strict forms retained. Readable Czech/English address all seven selected rows with explicit proposals and unrestored fragments. Date month remains uncertain.",
+    "272": "Six masks, print/overwriting and segmentation; malformed strict forms retained. Czech/English address all twelve selected rows with bracketed proposals and unrestored fragments.",
+    "273": "Zero displayed masks, but glyph/mark alternatives and defective SDREDU/STVRTEK/SRTECNY remain. Lexical conjectures are bracketed in both full-scope proposals; ME ambiguity is explicit.",
+    "274": "Three masks and variant/segmentation limits including margin termination; one secure selected CH and one actual question mark. All eighteen rows addressed in three separate readable regions, with qualified repairs and an unrestored ?EK gap."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 25
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 537
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS: no confirmed or unresolved findings; prior checkpoint-link finding fixed",
+    "limits": "Consistency of the research package; visual uncertainty remains and no external confirmation is implied.",
+    "verified": "Core source/raw/snapshot hashes, spans, coordinates and counters; 77 earlier evidence files unchanged. Fresh editorial review approved matching Czech/English coverage, qualified repairs and exact literal spans. Public 460 reference attribution is bounded; fresh 25-card replay passed."
+  },
+  "next_priority_not_started": [
+    275,
+    276,
+    277,
+    278
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 537,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  }
+}

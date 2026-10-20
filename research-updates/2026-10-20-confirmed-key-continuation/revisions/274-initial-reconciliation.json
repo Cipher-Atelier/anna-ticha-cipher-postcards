@@ -1,0 +1,3515 @@
+{
+  "record_type": "Immutable initial selected reconciliation; no prior public first candidate",
+  "sha256": "72325fe2776cefda5565c237f16ba9fd786fa6906bedcb1888245aed20ed6bd5",
+  "hash_scope": "Canonical compact sorted UTF-8 JSON of selected_snapshot",
+  "selected_snapshot": {
+    "card_id": "274",
+    "notation": "pdf204-canonical",
+    "status": "Prepared candidate; nonblind related-AI reconciliation; investigation continues",
+    "source": {
+      "url": "https://api.hcportal.eu/media/4839/pc_hcp_274_pic.JPG",
+      "sha256": "c4fb3cfd8a513d74b2b9582574c347d6f3ae25b352d0c9fcc13395a88eec0528",
+      "bytes": 1266885,
+      "native_dimensions": [
+        1785,
+        1175
+      ]
+    },
+    "catalogue_id": 1593,
+    "catalogue_record_pointer": "/data/data/1586",
+    "orientation": {
+      "reading_rotation_degrees_counterclockwise": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "side_rows_local_rotation_degrees_counterclockwise": 0,
+      "bbox_convention": "xyxy native and global90CCW reading coordinates; reading to native [1785-y1,x0,1785-y0,x1]. Side rows read horizontally in native0."
+    },
+    "reader": {
+      "model": "gpt-6.1-sol",
+      "temperature": "unavailable",
+      "seed": "unavailable"
+    },
+    "raw_frozen_before_decoding": true,
+    "independent_readings": [
+      {
+        "reader": "first274",
+        "model": "gpt-6.1-sol",
+        "key_visible": true,
+        "raw_frozen_before_decode": true
+      },
+      {
+        "reader": "blind274",
+        "model": "gpt-6.1-sol",
+        "key_visible": true,
+        "raw_frozen_before_decode": true
+      }
+    ],
+    "raw_preservation": {
+      "first_raw": {
+        "rows": [
+          {
+            "line_id": "274-L01",
+            "ciphertext": "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bc6mq3.",
+            "reading_bbox_xyxy": [
+              90,
+              120,
+              1110,
+              175
+            ],
+            "native_bbox_xyxy": [
+              1610,
+              90,
+              1665,
+              1110
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "t4q",
+                "reason": "Closed descending return selected q; open-hook g alternative.",
+                "alternatives": [
+                  "t4g"
+                ]
+              },
+              {
+                "token": "bc6mq3",
+                "reason": "Whole-word enlargement shows separate b ascender and low c before6; neither merged nor omitted.",
+                "alternatives": [
+                  "b6mq3"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L02",
+            "ciphertext": "6fc6q, 6m4sq3, m6 g86d6 6m4sq3, g6hn32d486 7c4",
+            "reading_bbox_xyxy": [
+              82,
+              170,
+              1110,
+              225
+            ],
+            "native_bbox_xyxy": [
+              1560,
+              82,
+              1615,
+              1110
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "6m4sq3",
+                "reason": "Low angular s and closed-return q selected.",
+                "alternatives": [
+                  "6m4cq3",
+                  "6m4sg3"
+                ]
+              },
+              {
+                "token": "g6hn32d486",
+                "reason": "Shorter h/r-like body after6 and n/m arches remain morphological alternatives.",
+                "alternatives": [
+                  "g6rm32d486"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L03",
+            "ciphertext": "n4 f684s5 cht5sq3! t3nm4f68 7c5n c5, g5 n27",
+            "reading_bbox_xyxy": [
+              80,
+              222,
+              1107,
+              280
+            ],
+            "native_bbox_xyxy": [
+              1505,
+              80,
+              1563,
+              1107
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "t3nm4f68",
+                "reason": "Adjacent small arches selected n then m; alternate segmentation not secure.",
+                "alternatives": [
+                  "t3mm4f68"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L04",
+            "ciphertext": "t3b4c 3p5t fc5 m5g4 m6n4 f176c?4 - 6 t3s4848",
+            "reading_bbox_xyxy": [
+              79,
+              271,
+              1110,
+              329
+            ],
+            "native_bbox_xyxy": [
+              1456,
+              79,
+              1514,
+              1110
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [
+              {
+                "offset": 30,
+                "text": "?",
+                "kind": "unknown_glyph",
+                "note": "One saved mask; unclear low-body segmentation, physical count unknown."
+              }
+            ],
+            "uncertainties": [
+              {
+                "token": "f176c?4",
+                "reason": "Middle low bodies overlapped by print; one mask may represent multiple bodies.",
+                "alternatives": []
+              },
+              {
+                "token": "m5g4",
+                "reason": "Third body selected open-hook g; closed-return q remains possible.",
+                "alternatives": [
+                  "m5q4"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L05",
+            "ciphertext": "7c5n cf374 26h4nm3cd4 bh6f1 3p6q. bh5c fc5-",
+            "reading_bbox_xyxy": [
+              79,
+              322,
+              1110,
+              379
+            ],
+            "native_bbox_xyxy": [
+              1406,
+              79,
+              1463,
+              1110
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "bh6f1",
+                "reason": "Initial whole glyph ascends above line: b selected, unlike descending p of274-B01 phg3.",
+                "alternatives": [
+                  "ph6f1"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L06",
+            "ciphertext": "84q5 3p6sm5 274cd3f6m4, t6f6c n4 d5n5h g6g-",
+            "reading_bbox_xyxy": [
+              76,
+              370,
+              1110,
+              430
+            ],
+            "native_bbox_xyxy": [
+              1355,
+              76,
+              1415,
+              1110
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "t6f6c",
+                "reason": "Initial crossed tall form selected t; looped d alternative.",
+                "alternatives": [
+                  "d6f6c"
+                ]
+              },
+              {
+                "token": "g6g-",
+                "reason": "Both outer descenders selected g; q family remains possible.",
+                "alternatives": [
+                  "q6q-"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L07",
+            "ciphertext": "t1n h6tg5n cf374 m5t2f5h2 m6 75f3. n5g",
+            "reading_bbox_xyxy": [
+              76,
+              418,
+              1090,
+              479
+            ],
+            "native_bbox_xyxy": [
+              1306,
+              76,
+              1367,
+              1090
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "t1n",
+                "reason": "Initial body dark/crossed; t selected with visible extra stroke, no erasure performed.",
+                "alternatives": [
+                  "d1n"
+                ]
+              },
+              {
+                "token": "m5t2f5h2",
+                "reason": "Terminal tall loop selected h; short r alternative.",
+                "alternatives": [
+                  "m5t2f5r2"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L08",
+            "ciphertext": "p1 c5 6mt28q6 c5 nm32 c5dq686, h6t574 c5",
+            "reading_bbox_xyxy": [
+              81,
+              468,
+              1092,
+              527
+            ],
+            "native_bbox_xyxy": [
+              1258,
+              81,
+              1317,
+              1092
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "nm32",
+                "reason": "First low single arch n followed by multiple-arch m; joined humps can be segmented differently.",
+                "alternatives": [
+                  "nn32",
+                  "mm32"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L09",
+            "ciphertext": "7s5 n5 86cq1 gh4s4!!!",
+            "reading_bbox_xyxy": [
+              81,
+              519,
+              602,
+              580
+            ],
+            "native_bbox_xyxy": [
+              1205,
+              81,
+              1266,
+              602
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "7s5",
+                "reason": "Detached roof/caron-like mark over initial7 preserved separately, not assigned a new substitution.",
+                "alternatives": []
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L10",
+            "ciphertext": "6mt284sq3, 75 n4",
+            "reading_bbox_xyxy": [
+              81,
+              588,
+              590,
+              644
+            ],
+            "native_bbox_xyxy": [
+              1141,
+              81,
+              1197,
+              590
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "6mt284sq3",
+                "reason": "Separate small s-like body after4 is visible in enlarged ending crop; retained.",
+                "alternatives": [
+                  "6mt284q3"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L11",
+            "ciphertext": "f58n4 cm2dm5 f",
+            "reading_bbox_xyxy": [
+              80,
+              639,
+              447,
+              696
+            ],
+            "native_bbox_xyxy": [
+              1089,
+              80,
+              1146,
+              447
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L12",
+            "ciphertext": "cht5sq2!",
+            "reading_bbox_xyxy": [
+              79,
+              687,
+              314,
+              748
+            ],
+            "native_bbox_xyxy": [
+              1037,
+              79,
+              1098,
+              314
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "cht5sq2",
+                "reason": "Terminal mark has long vertical stroke above a dot: exclamation selected, not unknown body.",
+                "alternatives": [
+                  "cht5sq2."
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-B01",
+            "ciphertext": "t3b4c g3tb3f4n phg3, n3gm6 h5r5n bh4cd4r3",
+            "reading_bbox_xyxy": [
+              90,
+              1540,
+              1090,
+              1603
+            ],
+            "native_bbox_xyxy": [
+              182,
+              90,
+              245,
+              1090
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "phg3",
+                "reason": "Initial stem descends: p selected; following h ascends. Final body has open-hook g.",
+                "alternatives": [
+                  "bhg3",
+                  "phq3"
+                ]
+              },
+              {
+                "token": "bh4cd4r3",
+                "reason": "Initial stem ascends and loop closes: b selected. Short r near end remains variant.",
+                "alternatives": [
+                  "ph4cd4h3"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-B02",
+            "ciphertext": "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fh5-",
+            "reading_bbox_xyxy": [
+              91,
+              1590,
+              1101,
+              1660
+            ],
+            "native_bbox_xyxy": [
+              125,
+              91,
+              195,
+              1101
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "c585",
+                "reason": "Two5 forms selected with central8 loops; no lexical repair.",
+                "alternatives": [
+                  "c585",
+                  "c58c"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-B03",
+            "ciphertext": "81ř b3gth6f2 b3c486 df27 b5b32c.",
+            "reading_bbox_xyxy": [
+              92,
+              1640,
+              891,
+              1713
+            ],
+            "native_bbox_xyxy": [
+              72,
+              92,
+              145,
+              891
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "81ř",
+                "reason": "Distinct roof/caron over third short body: canonical ř, one body.",
+                "alternatives": []
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-M01",
+            "ciphertext": "m6 d6q5 m6phcdm4q m576q1 f4gm6n?",
+            "reading_bbox_xyxy": [
+              968,
+              596,
+              1024,
+              1445
+            ],
+            "native_bbox_xyxy": [
+              340,
+              968,
+              1189,
+              1024
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 0,
+            "transcription": [
+              {
+                "offset": 31,
+                "text": "?",
+                "kind": "punctuation",
+                "note": "Actual written question mark with curved stem and detached dot."
+              }
+            ],
+            "uncertainties": [
+              {
+                "token": "d6q5",
+                "reason": "Closed lower-return family q selected; g remains alternative.",
+                "alternatives": [
+                  "d6g5"
+                ]
+              },
+              {
+                "token": "m576q1",
+                "reason": "Crossed7 and closed-return q selected.",
+                "alternatives": [
+                  "m576g1"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-M02",
+            "ciphertext": "m6-84, d5t1 b3c486n 757 h5q f4gm6n2,",
+            "reading_bbox_xyxy": [
+              1019,
+              560,
+              1074,
+              1443
+            ],
+            "native_bbox_xyxy": [
+              342,
+              1019,
+              1225,
+              1074
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 0,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "h5q",
+                "reason": "Initial tall loop h and final lower-return q selected; short r/open g alternatives.",
+                "alternatives": [
+                  "r5g"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-M03",
+            "ciphertext": "b3m5f6tg n4 m5m4 gm6n.",
+            "reading_bbox_xyxy": [
+              1064,
+              738,
+              1118,
+              1443
+            ],
+            "native_bbox_xyxy": [
+              342,
+              1064,
+              1047,
+              1118
+            ],
+            "row_reading_rotation_counterclockwise_degrees": 0,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "m5m4",
+                "reason": "Low humps selected m; n alternatives remain.",
+                "alternatives": [
+                  "n5m4",
+                  "m5n4"
+                ]
+              }
+            ],
+            "physical_encoded_body_count": null
+          }
+        ],
+        "marks": [
+          {
+            "line_id": "274-L09",
+            "mark": "Detached roof/caron-like mark above initial7; retained graphically as note, no new value."
+          },
+          {
+            "line_id": "274-B03",
+            "mark": "Caron/roof over short third body of81ř; canonical ř."
+          },
+          {
+            "lines": [
+              "274-L03",
+              "274-L09",
+              "274-L12"
+            ],
+            "mark": "Exclamation punctuation retained: one, three, one respectively."
+          },
+          {
+            "lines": [
+              "274-L05",
+              "274-L06",
+              "274-B02",
+              "274-M02"
+            ],
+            "mark": "Written word/line dashes retained; no automatic joins."
+          },
+          {
+            "line_id": "274-M01",
+            "mark": "Terminal actual question mark tagged punctuation."
+          },
+          {
+            "region": "date",
+            "reading_bbox_xyxy": [
+              385,
+              845,
+              589,
+              916
+            ],
+            "text_candidate": "4./VIII.1902.",
+            "note": "Ordinary date inscription outside encoded rows; Roman month stroke count tentative."
+          }
+        ],
+        "unresolved_clusters": [
+          {
+            "line_id": "274-L04",
+            "offset": 30,
+            "selected": "?",
+            "reading_bbox_xyxy": [
+              79,
+              271,
+              1110,
+              329
+            ],
+            "physical_encoded_body_count": null,
+            "reason": "Low bodies afterf176c under printed/painted detail; mask not an exact physical glyph count."
+          }
+        ],
+        "notes": [
+          "Complete native original and margins inspected, CCW90 view plus upper, middle, bottom, native-margin and whole-word crops. Twelve upper rows, three bottom rows, three margin rows. No further cipher region seen.",
+          "All reading_bbox_xyxy rectangles use global CCW90 image1175×1785; margin lines themselves read at native0. Native rectangles are supplied for every row. Global reading→native [1785-y1,x0,1785-y0,x1].",
+          "No ordinary numeral span selected in ciphertext; date separate. Question mark onM01 is punctuation; mask onL04 is unassigned cluster. Source watermark, flowers and source bytes preserved.",
+          "q/g, p/b, h/r and n/m alternatives retained based on visible shape; no unassigned F/G/Q/W/X family given a new key value. Known key visible, no language completion through uncertainty."
+        ]
+      },
+      "first_raw_sha256": "f30ed967220c183f48112808628b6b0c342e548a3dfc13c21b1cf62f5fb6d0f3",
+      "first_raw_file_sha256": "c5c18bbd4166a14bfe2df020ce80b371046f86073e79bcc284fca330efd6c974",
+      "first_raw_hash_scope": "Canonical compact sorted UTF-8 JSON of raw object.",
+      "first_frozen_at_utc": "2026-10-20T15:06:51.623627+00:00",
+      "first_source_sha256": "c4fb3cfd8a513d74b2b9582574c347d6f3ae25b352d0c9fcc13395a88eec0528",
+      "blind_raw": {
+        "rows": [
+          {
+            "line_id": "274-L01",
+            "ciphertext": "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bcd6mq3.",
+            "reading_bbox_xyxy": [
+              93,
+              114,
+              1111,
+              179
+            ],
+            "native_bbox_xyxy": [
+              1606,
+              93,
+              1671,
+              1111
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "t4q",
+                "alternatives": [
+                  "t4g"
+                ],
+                "reason": "Narrow returning lower loop selected q."
+              },
+              {
+                "token": "bcd6mq3",
+                "alternatives": [
+                  "bcd6mg3"
+                ],
+                "reason": "Lower return selected q."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L02",
+            "ciphertext": "6fc6q, 6m4sq3, n6 g86d6 6m4sq3, g6hn32d486 7c4",
+            "reading_bbox_xyxy": [
+              88,
+              165,
+              1098,
+              229
+            ],
+            "native_bbox_xyxy": [
+              1556,
+              88,
+              1620,
+              1098
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L03",
+            "ciphertext": "n4 f684s5 cht5sq3! t3nm4f6 8 7c5n c5, g5 n27",
+            "reading_bbox_xyxy": [
+              89,
+              213,
+              1108,
+              277
+            ],
+            "native_bbox_xyxy": [
+              1508,
+              89,
+              1572,
+              1108
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "7c5n",
+                "alternatives": [
+                  "?c5n"
+                ],
+                "reason": "Surface speckling crosses first body, 7 selected from visible descending stroke and upper fork."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L04",
+            "ciphertext": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+            "reading_bbox_xyxy": [
+              85,
+              262,
+              1105,
+              327
+            ],
+            "native_bbox_xyxy": [
+              1458,
+              85,
+              1523,
+              1105
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L05",
+            "ciphertext": "7c5n cf374 2bh4nm3cd4 bh6f1 3b6q. bh5c fc5-",
+            "reading_bbox_xyxy": [
+              86,
+              310,
+              1114,
+              375
+            ],
+            "native_bbox_xyxy": [
+              1410,
+              86,
+              1475,
+              1114
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L06",
+            "ciphertext": "84q5 3b6sm5 274cd3f6m4, t6f6c n4 d5n5h q6g-",
+            "reading_bbox_xyxy": [
+              82,
+              358,
+              1108,
+              426
+            ],
+            "native_bbox_xyxy": [
+              1359,
+              82,
+              1427,
+              1108
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "q6g",
+                "alternatives": [
+                  "g6g",
+                  "q6q"
+                ],
+                "reason": "Initial returning loop selected q; last leftward open hook selected g."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L07",
+            "ciphertext": "?1n h6tq5n cf374 m5t2f5h2 n6 75f3. n5g",
+            "reading_bbox_xyxy": [
+              78,
+              407,
+              1113,
+              476
+            ],
+            "native_bbox_xyxy": [
+              1309,
+              78,
+              1378,
+              1113
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [
+              {
+                "offset": 0,
+                "text": "?",
+                "kind": "unknown_glyph"
+              }
+            ],
+            "uncertainties": [
+              {
+                "token": "?1n",
+                "alternatives": [
+                  "d1n",
+                  "t1n"
+                ],
+                "reason": "First body heavily overwritten/crossed, unassigned rather than guessing d or t."
+              },
+              {
+                "token": "m5t2f5h2",
+                "alternatives": [
+                  "m5t2f5r2"
+                ],
+                "reason": "Final ascender has full h-loop; h selected, r alternative."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L08",
+            "ciphertext": "p1 c5 6mt28q6 c5 nm32 c5dq686, h6t574 c5",
+            "reading_bbox_xyxy": [
+              83,
+              454,
+              1076,
+              525
+            ],
+            "native_bbox_xyxy": [
+              1260,
+              83,
+              1331,
+              1076
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L09",
+            "ciphertext": "7s5 n5 86cq1 gh4s4!!!",
+            "reading_bbox_xyxy": [
+              77,
+              504,
+              592,
+              590
+            ],
+            "native_bbox_xyxy": [
+              1195,
+              77,
+              1281,
+              592
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "7s5",
+                "alternatives": [
+                  "?s5"
+                ],
+                "reason": "Initial 7 has extra dark fork/upper fleck, preserved as marked variant without new key assignment."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L10",
+            "ciphertext": "6mt284sq3,75 n4",
+            "reading_bbox_xyxy": [
+              76,
+              597,
+              423,
+              652
+            ],
+            "native_bbox_xyxy": [
+              1133,
+              76,
+              1188,
+              423
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L11",
+            "ciphertext": "f58n4 cm2dm5 f",
+            "reading_bbox_xyxy": [
+              72,
+              642,
+              434,
+              706
+            ],
+            "native_bbox_xyxy": [
+              1079,
+              72,
+              1143,
+              434
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L12",
+            "ciphertext": "cht5sq2!",
+            "reading_bbox_xyxy": [
+              70,
+              691,
+              325,
+              751
+            ],
+            "native_bbox_xyxy": [
+              1034,
+              70,
+              1094,
+              325
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L13",
+            "ciphertext": "t3b4c g3tb3f4n phg3, n3gm6 p5r5n bh4cd4r3",
+            "reading_bbox_xyxy": [
+              94,
+              1543,
+              1091,
+              1603
+            ],
+            "native_bbox_xyxy": [
+              182,
+              94,
+              242,
+              1091
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "g3tb3f4n",
+                "alternatives": [
+                  "g3tb3r4n"
+                ],
+                "reason": "Tall medial loop selected f."
+              },
+              {
+                "token": "p5r5n",
+                "alternatives": [
+                  "p5h5n"
+                ],
+                "reason": "Short central stem selected r, no full h ascender."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L14",
+            "ciphertext": "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fř5-",
+            "reading_bbox_xyxy": [
+              93,
+              1585,
+              1101,
+              1654
+            ],
+            "native_bbox_xyxy": [
+              131,
+              93,
+              200,
+              1101
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "c585",
+                "alternatives": [
+                  "c888"
+                ],
+                "reason": "Two open5 forms separated by closed8 selected."
+              },
+              {
+                "token": "fř5-",
+                "alternatives": [
+                  "fr5-"
+                ],
+                "reason": "r-shaped body has detached caron; ř selected, one body/two decoded letters."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L15",
+            "ciphertext": "81ř b3gth6f2 b3c486 df27 b5b32c.",
+            "reading_bbox_xyxy": [
+              90,
+              1639,
+              897,
+              1711
+            ],
+            "native_bbox_xyxy": [
+              74,
+              90,
+              146,
+              897
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 90,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "81ř",
+                "alternatives": [
+                  "81r"
+                ],
+                "reason": "Final small r body has detached curved caron; ř selected."
+              },
+              {
+                "token": "df27",
+                "alternatives": [
+                  "df2?"
+                ],
+                "reason": "Final cross-stroke descender selected7 but unusually straight/bold."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L16",
+            "ciphertext": "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?",
+            "reading_bbox_xyxy": [
+              977,
+              612,
+              1041,
+              1442
+            ],
+            "native_bbox_xyxy": [
+              343,
+              977,
+              1173,
+              1041
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 0,
+            "transcription": [
+              {
+                "offset": 31,
+                "text": "?",
+                "kind": "punctuation"
+              }
+            ],
+            "uncertainties": [
+              {
+                "token": "f1gm6n",
+                "alternatives": [
+                  "f1qm6n"
+                ],
+                "reason": "Third body has open lower hook selected g; actual question mark follows."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L17",
+            "ciphertext": "n6-84, d5t1 b3c486n 757 p5q f1gm6n2,",
+            "reading_bbox_xyxy": [
+              1021,
+              605,
+              1088,
+              1444
+            ],
+            "native_bbox_xyxy": [
+              341,
+              1021,
+              1180,
+              1088
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 0,
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "274-L18",
+            "ciphertext": "b3m5f6tq n4 m5m1 gm6n.",
+            "reading_bbox_xyxy": [
+              1066,
+              767,
+              1121,
+              1445
+            ],
+            "native_bbox_xyxy": [
+              340,
+              1066,
+              1018,
+              1121
+            ],
+            "local_reading_rotation_counterclockwise_degrees": 0,
+            "transcription": [],
+            "uncertainties": [
+              {
+                "token": "gm6n",
+                "alternatives": [
+                  "qm6n",
+                  "gm6?"
+                ],
+                "reason": "Initial open hook selected g; terminal broad loop treated as n flourish, segmentation alternative retained."
+              }
+            ],
+            "physical_encoded_body_count": null
+          }
+        ],
+        "marks": [
+          {
+            "line_id": "274-L09",
+            "token": "7s5",
+            "description": "Extra dark upper fork/fleck at7, preserved; no separate key assignment."
+          },
+          {
+            "line_id": "274-L14",
+            "token": "fř5-",
+            "description": "Detached caron over r-shaped body; selectedř."
+          },
+          {
+            "line_id": "274-L15",
+            "token": "81ř",
+            "description": "Detached curved caron over short r; selectedř."
+          },
+          {
+            "line_id": "274-L18",
+            "token": "gm6n",
+            "description": "Long curved terminal flourish; no secure extra encoded body."
+          }
+        ],
+        "unresolved_clusters": [
+          {
+            "line_id": "274-L07",
+            "span": "?",
+            "selected_replay_slots": 1,
+            "physical_encoded_body_count": null,
+            "reason": "Crossed/overwritten initial body; selected single replay mask cannot establish physical stroke segmentation."
+          }
+        ],
+        "ordinary_numerals": [],
+        "actual_question_punctuation": [
+          {
+            "line_id": "274-L16",
+            "offset": 31,
+            "text": "?",
+            "reason": "Raised curved hook over separated dot, actual end-row punctuation."
+          }
+        ],
+        "notes": [
+          "Full original and rotated full view inspected, including margins. Main reading90CCW:12 upper rows,3 lower rows;3 side rows remain upright in original native orientation. All18 rows included.",
+          "Row enumeration upper block,lower block,side block is an inventory order; exact semantic continuation into side uncertain. Native bboxes in original1785x1175; reading bboxes in1175x1785 principal90CCW view. Side rows need local native0 to read horizontally.",
+          "Central handwritten date provisionally4./VIII.1902.; noncipher metadata. No ordinary numeral span identified within cipher; singleton8 retained as encoded body rather than assumed quantity. Printed design/signature/watermark excluded.",
+          "End-row hyphens and internal dash preserved; no line joining or fluent repair. Physical totals null because overwrite, marked variants and terminal flourish segmentation remain qualified."
+        ]
+      },
+      "blind_raw_sha256": "9012e5120494127266b450f719afc36bba1a871d5151d7fc7b83e920386ec064",
+      "blind_raw_file_sha256": "5634b784acb10a6b8f2ff4ded586d605f4ba4fff23cce410085d53773def871c",
+      "blind_raw_hash_scope": "Canonical compact sorted UTF-8 JSON of raw object.",
+      "blind_frozen_at_utc": "2026-10-20T15:08:51.511610+00:00",
+      "blind_source_sha256": "c4fb3cfd8a513d74b2b9582574c347d6f3ae25b352d0c9fcc13395a88eec0528"
+    },
+    "lines": [
+      {
+        "line_id": "274-L01",
+        "reading_bbox_xyxy": [
+          93,
+          114,
+          1111,
+          179
+        ],
+        "native_bbox_xyxy": [
+          1606,
+          93,
+          1671,
+          1111
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bc6mq3.",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "t4q",
+            "reason": "Closed descending return selected q; open-hook g alternative.",
+            "alternatives": [
+              "t4g"
+            ]
+          },
+          {
+            "token": "bc6mq3",
+            "reason": "Whole-word enlargement shows separate b ascender and low c before6; neither merged nor omitted.",
+            "alternatives": [
+              "b6mq3"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "t4q",
+            "alternatives": [
+              "t4g"
+            ],
+            "reason": "Narrow returning lower loop selected q."
+          },
+          {
+            "token": "bcd6mq3",
+            "alternatives": [
+              "bcd6mg3"
+            ],
+            "reason": "Lower return selected q."
+          }
+        ],
+        "source_selection_basis": "The final word has tall b, low c, then rounded6; there is no distinct tall d between c/6. Reject blind inserted d. Remaining q tails have narrow lower returns; low humps and baseline shapes retained.",
+        "transcription": [],
+        "literal": "VRELY DIK, MILENKO MOJE JEDINA, ZA DRAHE PSANKO.",
+        "encoded_bodies": 38,
+        "expanded_letters": 38,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L02",
+        "reading_bbox_xyxy": [
+          88,
+          165,
+          1098,
+          229
+        ],
+        "native_bbox_xyxy": [
+          1556,
+          88,
+          1620,
+          1098
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "6fc6q, 6m4sq3, n6 g86d6 6m4sq3, g6hn32d486 7c4",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "6m4sq3",
+            "reason": "Low angular s and closed-return q selected.",
+            "alternatives": [
+              "6m4cq3",
+              "6m4sg3"
+            ]
+          },
+          {
+            "token": "g6hn32d486",
+            "reason": "Shorter h/r-like body after6 and n/m arches remain morphological alternatives.",
+            "alternatives": [
+              "g6rm32d486"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "The isolated pre-g86d6 body has a single low arch n, not the multiple humps of m elsewhere. Select blind n6; the rounded loops and long lower q returns elsewhere remain visible. This is a shape decision even though its literal is awkward.",
+        "transcription": [],
+        "literal": "AVSAK, ANICKO, MA ZLATA ANICKO, ZARMOUTILA JSI",
+        "encoded_bodies": 37,
+        "expanded_letters": 37,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L03",
+        "reading_bbox_xyxy": [
+          89,
+          213,
+          1108,
+          277
+        ],
+        "native_bbox_xyxy": [
+          1508,
+          89,
+          1572,
+          1108
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "n4 f684s5 cht5sq3! t3nm4f68 7c5n c5, g5 n27",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "t3nm4f68",
+            "reason": "Adjacent small arches selected n then m; alternate segmentation not secure.",
+            "alternatives": [
+              "t3mm4f68"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "7c5n",
+            "alternatives": [
+              "?c5n"
+            ],
+            "reason": "Surface speckling crosses first body, 7 selected from visible descending stroke and upper fork."
+          }
+        ],
+        "source_selection_basis": "The rounded8 body follows6 on the same baseline without a secure word gap; retain first joined t3nm4f68. Low arch segmentation n/m remains qualified, and speckling crosses7c5n.",
+        "transcription": [],
+        "literal": "MI VALICE SRDECKO! DOMNIVAL JSEM SE, ZE MUJ",
+        "encoded_bodies": 34,
+        "expanded_letters": 34,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L04",
+        "reading_bbox_xyxy": [
+          85,
+          262,
+          1105,
+          327
+        ],
+        "native_bbox_xyxy": [
+          1458,
+          85,
+          1523,
+          1105
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "f176c?4",
+            "reason": "Middle low bodies overlapped by print; one mask may represent multiple bodies.",
+            "alternatives": []
+          },
+          {
+            "token": "m5g4",
+            "reason": "Third body selected open-hook g; closed-return q remains possible.",
+            "alternatives": [
+              "m5q4"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+        "transcription": [],
+        "literal": "DOPIS OPET VSE MEZI NAMI VYJASNI - A DOCILIL",
+        "encoded_bodies": 35,
+        "expanded_letters": 35,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L05",
+        "reading_bbox_xyxy": [
+          86,
+          310,
+          1114,
+          375
+        ],
+        "native_bbox_xyxy": [
+          1410,
+          86,
+          1475,
+          1114
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "7c5n cf374 2bh4nm3cd4 bh6f1 3b6q. bh5c fc5-",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "bh6f1",
+            "reason": "Initial whole glyph ascends above line: b selected, unlike descending p of274-B01 phg3.",
+            "alternatives": [
+              "ph6f1"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "After2 a clear tall closed loop supports b rather than the plain rounded6. After3 another tall loop supports b rather than descender p. These selections retain the actual ascender families without changing them to fit Czech.",
+        "transcription": [],
+        "literal": "JSEM SVOJI UPRIMNOSTI PRAVY OPAK. PRES VSE-",
+        "encoded_bodies": 35,
+        "expanded_letters": 35,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L06",
+        "reading_bbox_xyxy": [
+          82,
+          358,
+          1108,
+          426
+        ],
+        "native_bbox_xyxy": [
+          1359,
+          82,
+          1427,
+          1108
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "84q5 3b6sm5 274cd3f6m4, t6f6c n4 d5n5h q6g-",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "t6f6c",
+            "reason": "Initial crossed tall form selected t; looped d alternative.",
+            "alternatives": [
+              "d6f6c"
+            ]
+          },
+          {
+            "token": "g6g-",
+            "reason": "Both outer descenders selected g; q family remains possible.",
+            "alternatives": [
+              "q6q-"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "q6g",
+            "alternatives": [
+              "g6g",
+              "q6q"
+            ],
+            "reason": "Initial returning loop selected q; last leftward open hook selected g."
+          }
+        ],
+        "source_selection_basis": "After3 the tall loop again supports b rather than p. First tail of q6g returns upward narrowly, last tail is open-hooked g. The q/g closure remains weak enough to retain the first g6g alternative.",
+        "transcription": [],
+        "literal": "LIKE OPACNE UJISTOVANI, DAVAS MI TEMER KAZ-",
+        "encoded_bodies": 35,
+        "expanded_letters": 35,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L07",
+        "reading_bbox_xyxy": [
+          78,
+          407,
+          1113,
+          476
+        ],
+        "native_bbox_xyxy": [
+          1309,
+          78,
+          1378,
+          1113
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "?1n h6t?5n cf374 m5t2f5h2 n6 75f3. n5g",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "t1n",
+            "reason": "Initial body dark/crossed; t selected with visible extra stroke, no erasure performed.",
+            "alternatives": [
+              "d1n"
+            ]
+          },
+          {
+            "token": "m5t2f5h2",
+            "reason": "Terminal tall loop selected h; short r alternative.",
+            "alternatives": [
+              "m5t2f5r2"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "?1n",
+            "alternatives": [
+              "d1n",
+              "t1n"
+            ],
+            "reason": "First body heavily overwritten/crossed, unassigned rather than guessing d or t."
+          },
+          {
+            "token": "m5t2f5h2",
+            "alternatives": [
+              "m5t2f5r2"
+            ],
+            "reason": "Final ascender has full h-loop; h selected, r alternative."
+          }
+        ],
+        "source_selection_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+        "transcription": [
+          {
+            "offset": 0,
+            "text": "?",
+            "kind": "unknown_glyph",
+            "note": "Provisional unknown replay slot; physical cluster count remains null."
+          },
+          {
+            "offset": 7,
+            "text": "?",
+            "kind": "unknown_glyph",
+            "note": "Provisional unknown replay slot; physical cluster count remains null."
+          }
+        ],
+        "literal": "?YM RAD?EM SVOJI NEDUVERU MA JEVO. MEZ",
+        "encoded_bodies": 31,
+        "expanded_letters": 29,
+        "ch_occurrences": 0,
+        "unknowns": [
+          {
+            "offset": 0,
+            "body_index": 0,
+            "symbol": "?",
+            "kind": "unknown_glyph"
+          },
+          {
+            "offset": 7,
+            "body_index": 6,
+            "symbol": "?",
+            "kind": "unknown_glyph"
+          }
+        ]
+      },
+      {
+        "line_id": "274-L08",
+        "reading_bbox_xyxy": [
+          83,
+          454,
+          1076,
+          525
+        ],
+        "native_bbox_xyxy": [
+          1260,
+          83,
+          1331,
+          1076
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "p1 c5 6mt28q6 c5 nm32 c5dq686, h6t574 c5",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "nm32",
+            "reason": "First low single arch n followed by multiple-arch m; joined humps can be segmented differently.",
+            "alternatives": [
+              "nn32",
+              "mm32"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "Both rows agree. The separate low arch and multiple humps in nm32 remain a segmentation alternative rather than a language correction.",
+        "transcription": [],
+        "literal": "BY SE ANDULKA SE MNOU SETKALA, RADEJI SE",
+        "encoded_bodies": 32,
+        "expanded_letters": 32,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L09",
+        "reading_bbox_xyxy": [
+          77,
+          504,
+          592,
+          590
+        ],
+        "native_bbox_xyxy": [
+          1195,
+          77,
+          1281,
+          592
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "7s5 n5 86cq1 gh4s4!!!",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "7s5",
+            "reason": "Detached roof/caron-like mark over initial7 preserved separately, not assigned a new substitution.",
+            "alternatives": []
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "7s5",
+            "alternatives": [
+              "?s5"
+            ],
+            "reason": "Initial 7 has extra dark fork/upper fleck, preserved as marked variant without new key assignment."
+          }
+        ],
+        "source_selection_basis": "Both rows agree on7s5. Preserve the detached roof/fork-like ink above7 separately, with no new mark-to-letter rule. Triple exclamation marks are actual punctuation.",
+        "transcription": [],
+        "literal": "JCE ME LASKY ZRICI!!!",
+        "encoded_bodies": 15,
+        "expanded_letters": 15,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L10",
+        "reading_bbox_xyxy": [
+          76,
+          597,
+          423,
+          652
+        ],
+        "native_bbox_xyxy": [
+          1133,
+          76,
+          1188,
+          423
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "6mt284sq3, 75 n4",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "6mt284sq3",
+            "reason": "Separate small s-like body after4 is visible in enlarged ending crop; retained.",
+            "alternatives": [
+              "6mt284q3"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "Both readings have the same bodies; first explicit word gap after comma retained. Separate small s-like body after4 retained despite an unusual literal diminutive.",
+        "transcription": [],
+        "literal": "ANDULICKO, JE MI",
+        "encoded_bodies": 13,
+        "expanded_letters": 13,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L11",
+        "reading_bbox_xyxy": [
+          72,
+          642,
+          434,
+          706
+        ],
+        "native_bbox_xyxy": [
+          1079,
+          72,
+          1143,
+          434
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "f58n4 cm2dm5 f",
+        "first_frozen_reading_uncertainties": [],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "Both readings agree on cm2dm5: the body after c has multiple low humps m. Any SNUTNE to SMUTNE change belongs only to the editorial layer, not glyph selection.",
+        "transcription": [],
+        "literal": "VELMI SNUTNE V",
+        "encoded_bodies": 12,
+        "expanded_letters": 12,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-L12",
+        "reading_bbox_xyxy": [
+          70,
+          691,
+          325,
+          751
+        ],
+        "native_bbox_xyxy": [
+          1034,
+          70,
+          1094,
+          325
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "cht5sq2!",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "cht5sq2",
+            "reason": "Terminal mark has long vertical stroke above a dot: exclamation selected, not unknown body.",
+            "alternatives": [
+              "cht5sq2."
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "Both readings agree. Final vertical stroke with separate dot supports exclamation punctuation.",
+        "transcription": [],
+        "literal": "SRDECKU!",
+        "encoded_bodies": 7,
+        "expanded_letters": 7,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-B01",
+        "reading_bbox_xyxy": [
+          94,
+          1543,
+          1091,
+          1603
+        ],
+        "native_bbox_xyxy": [
+          182,
+          94,
+          242,
+          1091
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "t3b4c g3tb3f4n phg3, n3gm6 p5r5n bh4cd4r3",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "phg3",
+            "reason": "Initial stem descends: p selected; following h ascends. Final body has open-hook g.",
+            "alternatives": [
+              "bhg3",
+              "phq3"
+            ]
+          },
+          {
+            "token": "bh4cd4r3",
+            "reason": "Initial stem ascends and loop closes: b selected. Short r near end remains variant.",
+            "alternatives": [
+              "ph4cd4h3"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "g3tb3f4n",
+            "alternatives": [
+              "g3tb3r4n"
+            ],
+            "reason": "Tall medial loop selected f."
+          },
+          {
+            "token": "p5r5n",
+            "alternatives": [
+              "p5h5n"
+            ],
+            "reason": "Short central stem selected r, no full h ascender."
+          }
+        ],
+        "source_selection_basis": "The first disputed body in p5r5n is a short upper stroke with a descender, unlike the full tall-loop h at bh4cd4r3; select blind p, retaining first h alternative. Initial phg3 and the tall f in g3tb3f4n retained on whole-body shape.",
+        "transcription": [],
+        "literal": "DOPIS ZODPOVIM BRZO, MOZNA BEHEM PRISTIHO",
+        "encoded_bodies": 35,
+        "expanded_letters": 35,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-B02",
+        "reading_bbox_xyxy": [
+          93,
+          1585,
+          1101,
+          1654
+        ],
+        "native_bbox_xyxy": [
+          131,
+          93,
+          200,
+          1101
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fh5-",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "c585",
+            "reason": "Two5 forms selected with central8 loops; no lexical repair.",
+            "alternatives": [
+              "c585",
+              "c58c"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "c585",
+            "alternatives": [
+              "c888"
+            ],
+            "reason": "Two open5 forms separated by closed8 selected."
+          },
+          {
+            "token": "fř5-",
+            "alternatives": [
+              "fr5-"
+            ],
+            "reason": "r-shaped body has detached caron; ř selected, one body/two decoded letters."
+          }
+        ],
+        "source_selection_basis": "The body in fh5- is a full tall-loop h and no detached caron is secure; reject blindř and retain first h. Both ordinary h and markedr-family alternative stay documented, without treating the blind mark claim as a secure CH.",
+        "transcription": [],
+        "literal": "TYDNE. ZATIM TE Z SELE DUSE LIBA A TISIC VRE-",
+        "encoded_bodies": 34,
+        "expanded_letters": 34,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-B03",
+        "reading_bbox_xyxy": [
+          90,
+          1639,
+          897,
+          1711
+        ],
+        "native_bbox_xyxy": [
+          74,
+          90,
+          146,
+          897
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 90,
+        "physical_encoded_body_count": null,
+        "ciphertext": "81ř b3gth6f2 b3c486 df27 b5b32c.",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "81ř",
+            "reason": "Distinct roof/caron over third short body: canonical ř, one body.",
+            "alternatives": []
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "81ř",
+            "alternatives": [
+              "81r"
+            ],
+            "reason": "Final small r body has detached curved caron; ř selected."
+          },
+          {
+            "token": "df27",
+            "alternatives": [
+              "df2?"
+            ],
+            "reason": "Final cross-stroke descender selected7 but unusually straight/bold."
+          }
+        ],
+        "source_selection_basis": "Both readings agree. Distinct detached curved caron above short r-shaped third body in81ř supports canonicalř, one physical selected body/two decoded letters. Bold df27 crossing remains qualified.",
+        "transcription": [],
+        "literal": "LYCH POZDRAVU POSILA TVUJ PEPOUS.",
+        "encoded_bodies": 27,
+        "expanded_letters": 28,
+        "ch_occurrences": 1,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-M01",
+        "reading_bbox_xyxy": [
+          977,
+          612,
+          1041,
+          1442
+        ],
+        "native_bbox_xyxy": [
+          343,
+          977,
+          1173,
+          1041
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 0,
+        "physical_encoded_body_count": null,
+        "ciphertext": "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "d6q5",
+            "reason": "Closed lower-return family q selected; g remains alternative.",
+            "alternatives": [
+              "d6g5"
+            ]
+          },
+          {
+            "token": "m576q1",
+            "reason": "Crossed7 and closed-return q selected.",
+            "alternatives": [
+              "m576g1"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "f1gm6n",
+            "alternatives": [
+              "f1qm6n"
+            ],
+            "reason": "Third body has open lower hook selected g; actual question mark follows."
+          }
+        ],
+        "source_selection_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+        "transcription": [
+          {
+            "offset": 31,
+            "text": "?",
+            "kind": "punctuation",
+            "note": "Actual written question mark."
+          }
+        ],
+        "literal": "MA TAKE NAPRSTNIK NEJAKY VYZNAM?",
+        "encoded_bodies": 27,
+        "expanded_letters": 27,
+        "ch_occurrences": 0,
+        "unknowns": []
+      },
+      {
+        "line_id": "274-M02",
+        "reading_bbox_xyxy": [
+          1021,
+          605,
+          1088,
+          1444
+        ],
+        "native_bbox_xyxy": [
+          341,
+          1021,
+          1180,
+          1088
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 0,
+        "physical_encoded_body_count": null,
+        "ciphertext": "n6-84, d5t1 b3c486n 757 ?5q f1gm6n2,",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "h5q",
+            "reason": "Initial tall loop h and final lower-return q selected; short r/open g alternatives.",
+            "alternatives": [
+              "r5g"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [],
+        "source_selection_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+        "transcription": [
+          {
+            "offset": 24,
+            "text": "?",
+            "kind": "unknown_glyph",
+            "note": "Provisional unknown replay slot; physical cluster count remains null."
+          }
+        ],
+        "literal": "MA-LI, TEDY POSILAM JEJ ?EK VYZNAMU,",
+        "encoded_bodies": 28,
+        "expanded_letters": 27,
+        "ch_occurrences": 0,
+        "unknowns": [
+          {
+            "offset": 24,
+            "body_index": 18,
+            "symbol": "?",
+            "kind": "unknown_glyph"
+          }
+        ]
+      },
+      {
+        "line_id": "274-M03",
+        "reading_bbox_xyxy": [
+          1066,
+          767,
+          1121,
+          1445
+        ],
+        "native_bbox_xyxy": [
+          340,
+          1066,
+          1018,
+          1121
+        ],
+        "local_reading_rotation_counterclockwise_degrees": 0,
+        "physical_encoded_body_count": null,
+        "ciphertext": "b3m5f6tg n4 m5m1 gm6n.",
+        "first_frozen_reading_uncertainties": [
+          {
+            "token": "m5m4",
+            "reason": "Low humps selected m; n alternatives remain.",
+            "alternatives": [
+              "n5m4",
+              "m5n4"
+            ]
+          }
+        ],
+        "blind_frozen_reading_uncertainties": [
+          {
+            "token": "gm6n",
+            "alternatives": [
+              "qm6n",
+              "gm6?"
+            ],
+            "reason": "Initial open hook selected g; terminal broad loop treated as n flourish, segmentation alternative retained."
+          }
+        ],
+        "source_selection_basis": "Initial tail in b3m5f6tg is open leftward g rather than narrow returning q; retain first g. Final body of m5m1 has inclined1 with base, unlike angular4 in previous n4. The broad terminal loop in gm6n is treated provisionally as a flourish of n; an extra body cannot be excluded.",
+        "transcription": [],
+        "literal": "PONEVADZ MI NENY ZNAM.",
+        "encoded_bodies": 18,
+        "expanded_letters": 18,
+        "ch_occurrences": 0,
+        "unknowns": []
+      }
+    ],
+    "uncertainty_ledger": [
+      {
+        "line_id": "274-L01",
+        "offset": 0,
+        "selected": "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bc6mq3.",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bc6mq3.",
+          "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bcd6mq3."
+        ],
+        "reason": "The final word has tall b, low c, then rounded6; there is no distinct tall d between c/6. Reject blind inserted d. Remaining q tails have narrow lower returns; low humps and baseline shapes retained.",
+        "reading_bbox_xyxy": [
+          93,
+          114,
+          1111,
+          179
+        ],
+        "native_bbox_xyxy": [
+          1606,
+          93,
+          1671,
+          1111
+        ]
+      },
+      {
+        "line_id": "274-L02",
+        "offset": 0,
+        "selected": "6fc6q, 6m4sq3, n6 g86d6 6m4sq3, g6hn32d486 7c4",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "6fc6q, 6m4sq3, m6 g86d6 6m4sq3, g6hn32d486 7c4",
+          "6fc6q, 6m4sq3, n6 g86d6 6m4sq3, g6hn32d486 7c4"
+        ],
+        "reason": "The isolated pre-g86d6 body has a single low arch n, not the multiple humps of m elsewhere. Select blind n6; the rounded loops and long lower q returns elsewhere remain visible. This is a shape decision even though its literal is awkward.",
+        "reading_bbox_xyxy": [
+          88,
+          165,
+          1098,
+          229
+        ],
+        "native_bbox_xyxy": [
+          1556,
+          88,
+          1620,
+          1098
+        ]
+      },
+      {
+        "line_id": "274-L03",
+        "offset": 0,
+        "selected": "n4 f684s5 cht5sq3! t3nm4f68 7c5n c5, g5 n27",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "n4 f684s5 cht5sq3! t3nm4f68 7c5n c5, g5 n27",
+          "n4 f684s5 cht5sq3! t3nm4f6 8 7c5n c5, g5 n27"
+        ],
+        "reason": "The rounded8 body follows6 on the same baseline without a secure word gap; retain first joined t3nm4f68. Low arch segmentation n/m remains qualified, and speckling crosses7c5n.",
+        "reading_bbox_xyxy": [
+          89,
+          213,
+          1108,
+          277
+        ],
+        "native_bbox_xyxy": [
+          1508,
+          89,
+          1572,
+          1108
+        ]
+      },
+      {
+        "line_id": "274-L04",
+        "offset": 0,
+        "selected": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "t3b4c 3p5t fc5 m5g4 m6n4 f176c?4 - 6 t3s4848",
+          "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848"
+        ],
+        "reason": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+        "reading_bbox_xyxy": [
+          85,
+          262,
+          1105,
+          327
+        ],
+        "native_bbox_xyxy": [
+          1458,
+          85,
+          1523,
+          1105
+        ]
+      },
+      {
+        "line_id": "274-L05",
+        "offset": 0,
+        "selected": "7c5n cf374 2bh4nm3cd4 bh6f1 3b6q. bh5c fc5-",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "7c5n cf374 26h4nm3cd4 bh6f1 3p6q. bh5c fc5-",
+          "7c5n cf374 2bh4nm3cd4 bh6f1 3b6q. bh5c fc5-"
+        ],
+        "reason": "After2 a clear tall closed loop supports b rather than the plain rounded6. After3 another tall loop supports b rather than descender p. These selections retain the actual ascender families without changing them to fit Czech.",
+        "reading_bbox_xyxy": [
+          86,
+          310,
+          1114,
+          375
+        ],
+        "native_bbox_xyxy": [
+          1410,
+          86,
+          1475,
+          1114
+        ]
+      },
+      {
+        "line_id": "274-L06",
+        "offset": 0,
+        "selected": "84q5 3b6sm5 274cd3f6m4, t6f6c n4 d5n5h q6g-",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "84q5 3p6sm5 274cd3f6m4, t6f6c n4 d5n5h g6g-",
+          "84q5 3b6sm5 274cd3f6m4, t6f6c n4 d5n5h q6g-"
+        ],
+        "reason": "After3 the tall loop again supports b rather than p. First tail of q6g returns upward narrowly, last tail is open-hooked g. The q/g closure remains weak enough to retain the first g6g alternative.",
+        "reading_bbox_xyxy": [
+          82,
+          358,
+          1108,
+          426
+        ],
+        "native_bbox_xyxy": [
+          1359,
+          82,
+          1427,
+          1108
+        ]
+      },
+      {
+        "line_id": "274-L07",
+        "offset": 0,
+        "selected": "?1n h6t?5n cf374 m5t2f5h2 n6 75f3. n5g",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "t1n h6tg5n cf374 m5t2f5h2 m6 75f3. n5g",
+          "?1n h6tq5n cf374 m5t2f5h2 n6 75f3. n5g"
+        ],
+        "reason": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+        "reading_bbox_xyxy": [
+          78,
+          407,
+          1113,
+          476
+        ],
+        "native_bbox_xyxy": [
+          1309,
+          78,
+          1378,
+          1113
+        ]
+      },
+      {
+        "line_id": "274-L08",
+        "offset": 0,
+        "selected": "p1 c5 6mt28q6 c5 nm32 c5dq686, h6t574 c5",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "p1 c5 6mt28q6 c5 nm32 c5dq686, h6t574 c5"
+        ],
+        "reason": "Both rows agree. The separate low arch and multiple humps in nm32 remain a segmentation alternative rather than a language correction.",
+        "reading_bbox_xyxy": [
+          83,
+          454,
+          1076,
+          525
+        ],
+        "native_bbox_xyxy": [
+          1260,
+          83,
+          1331,
+          1076
+        ]
+      },
+      {
+        "line_id": "274-L09",
+        "offset": 0,
+        "selected": "7s5 n5 86cq1 gh4s4!!!",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "7s5 n5 86cq1 gh4s4!!!"
+        ],
+        "reason": "Both rows agree on7s5. Preserve the detached roof/fork-like ink above7 separately, with no new mark-to-letter rule. Triple exclamation marks are actual punctuation.",
+        "reading_bbox_xyxy": [
+          77,
+          504,
+          592,
+          590
+        ],
+        "native_bbox_xyxy": [
+          1195,
+          77,
+          1281,
+          592
+        ]
+      },
+      {
+        "line_id": "274-L10",
+        "offset": 0,
+        "selected": "6mt284sq3, 75 n4",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "6mt284sq3, 75 n4",
+          "6mt284sq3,75 n4"
+        ],
+        "reason": "Both readings have the same bodies; first explicit word gap after comma retained. Separate small s-like body after4 retained despite an unusual literal diminutive.",
+        "reading_bbox_xyxy": [
+          76,
+          597,
+          423,
+          652
+        ],
+        "native_bbox_xyxy": [
+          1133,
+          76,
+          1188,
+          423
+        ]
+      },
+      {
+        "line_id": "274-L11",
+        "offset": 0,
+        "selected": "f58n4 cm2dm5 f",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "f58n4 cm2dm5 f"
+        ],
+        "reason": "Both readings agree on cm2dm5: the body after c has multiple low humps m. Any SNUTNE to SMUTNE change belongs only to the editorial layer, not glyph selection.",
+        "reading_bbox_xyxy": [
+          72,
+          642,
+          434,
+          706
+        ],
+        "native_bbox_xyxy": [
+          1079,
+          72,
+          1143,
+          434
+        ]
+      },
+      {
+        "line_id": "274-L12",
+        "offset": 0,
+        "selected": "cht5sq2!",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "cht5sq2!"
+        ],
+        "reason": "Both readings agree. Final vertical stroke with separate dot supports exclamation punctuation.",
+        "reading_bbox_xyxy": [
+          70,
+          691,
+          325,
+          751
+        ],
+        "native_bbox_xyxy": [
+          1034,
+          70,
+          1094,
+          325
+        ]
+      },
+      {
+        "line_id": "274-B01",
+        "offset": 0,
+        "selected": "t3b4c g3tb3f4n phg3, n3gm6 p5r5n bh4cd4r3",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "t3b4c g3tb3f4n phg3, n3gm6 h5r5n bh4cd4r3",
+          "t3b4c g3tb3f4n phg3, n3gm6 p5r5n bh4cd4r3"
+        ],
+        "reason": "The first disputed body in p5r5n is a short upper stroke with a descender, unlike the full tall-loop h at bh4cd4r3; select blind p, retaining first h alternative. Initial phg3 and the tall f in g3tb3f4n retained on whole-body shape.",
+        "reading_bbox_xyxy": [
+          94,
+          1543,
+          1091,
+          1603
+        ],
+        "native_bbox_xyxy": [
+          182,
+          94,
+          242,
+          1091
+        ]
+      },
+      {
+        "line_id": "274-B02",
+        "offset": 0,
+        "selected": "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fh5-",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fh5-",
+          "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fř5-"
+        ],
+        "reason": "The body in fh5- is a full tall-loop h and no detached caron is secure; reject blindř and retain first h. Both ordinary h and markedr-family alternative stay documented, without treating the blind mark claim as a secure CH.",
+        "reading_bbox_xyxy": [
+          93,
+          1585,
+          1101,
+          1654
+        ],
+        "native_bbox_xyxy": [
+          131,
+          93,
+          200,
+          1101
+        ]
+      },
+      {
+        "line_id": "274-B03",
+        "offset": 0,
+        "selected": "81ř b3gth6f2 b3c486 df27 b5b32c.",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "81ř b3gth6f2 b3c486 df27 b5b32c."
+        ],
+        "reason": "Both readings agree. Distinct detached curved caron above short r-shaped third body in81ř supports canonicalř, one physical selected body/two decoded letters. Bold df27 crossing remains qualified.",
+        "reading_bbox_xyxy": [
+          90,
+          1639,
+          897,
+          1711
+        ],
+        "native_bbox_xyxy": [
+          74,
+          90,
+          146,
+          897
+        ]
+      },
+      {
+        "line_id": "274-M01",
+        "offset": 0,
+        "selected": "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "m6 d6q5 m6phcdm4q m576q1 f4gm6n?",
+          "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?"
+        ],
+        "reason": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+        "reading_bbox_xyxy": [
+          977,
+          612,
+          1041,
+          1442
+        ],
+        "native_bbox_xyxy": [
+          343,
+          977,
+          1173,
+          1041
+        ]
+      },
+      {
+        "line_id": "274-M02",
+        "offset": 0,
+        "selected": "n6-84, d5t1 b3c486n 757 ?5q f1gm6n2,",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "m6-84, d5t1 b3c486n 757 h5q f4gm6n2,",
+          "n6-84, d5t1 b3c486n 757 p5q f1gm6n2,"
+        ],
+        "reason": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+        "reading_bbox_xyxy": [
+          1021,
+          605,
+          1088,
+          1444
+        ],
+        "native_bbox_xyxy": [
+          341,
+          1021,
+          1180,
+          1088
+        ]
+      },
+      {
+        "line_id": "274-M03",
+        "offset": 0,
+        "selected": "b3m5f6tg n4 m5m1 gm6n.",
+        "kind": "whole_row_source_selection",
+        "alternatives": [
+          "b3m5f6tg n4 m5m4 gm6n.",
+          "b3m5f6tq n4 m5m1 gm6n."
+        ],
+        "reason": "Initial tail in b3m5f6tg is open leftward g rather than narrow returning q; retain first g. Final body of m5m1 has inclined1 with base, unlike angular4 in previous n4. The broad terminal loop in gm6n is treated provisionally as a flourish of n; an extra body cannot be excluded.",
+        "reading_bbox_xyxy": [
+          1066,
+          767,
+          1121,
+          1445
+        ],
+        "native_bbox_xyxy": [
+          340,
+          1066,
+          1018,
+          1121
+        ]
+      }
+    ],
+    "unknown_clusters": [
+      {
+        "line_id": "274-L07",
+        "offset": 0,
+        "span": "?",
+        "selected_unknown_slots": 1,
+        "physical_encoded_body_count": null,
+        "reason": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask."
+      },
+      {
+        "line_id": "274-L07",
+        "offset": 7,
+        "span": "?",
+        "selected_unknown_slots": 1,
+        "physical_encoded_body_count": null,
+        "reason": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask."
+      },
+      {
+        "line_id": "274-M02",
+        "offset": 24,
+        "span": "?",
+        "selected_unknown_slots": 1,
+        "physical_encoded_body_count": null,
+        "reason": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved."
+      }
+    ],
+    "physical_encoded_body_count": null,
+    "counts_policy": "Selected replay slots only, not established physical totals. CH one selected body/two letters. No new key assignment. Actual question punctuation excluded; ordinary date inscription excluded.",
+    "initial_reconciliation": {
+      "utc": "2026-10-20T15:12:40.305884+00:00",
+      "date": "2026-10-20",
+      "model": "gpt-6.1-sol",
+      "temperature": "unavailable",
+      "seed": "unavailable",
+      "method": "Two related AI source-only readings with the fixed key visible, followed by nonblind reconciliation by the blind second reader after its raw freeze and separate strict decode. Earlier other-card work, including271/273, was known. This is not human or external confirmation.",
+      "changes_from_first": [
+        {
+          "line_id": "274-L02",
+          "old_offset_start": 15,
+          "old_offset_end": 16,
+          "old": "m",
+          "new_offset_start": 15,
+          "new_offset_end": 16,
+          "new": "n",
+          "source_basis": "The isolated pre-g86d6 body has a single low arch n, not the multiple humps of m elsewhere. Select blind n6; the rounded loops and long lower q returns elsewhere remain visible. This is a shape decision even though its literal is awkward.",
+          "native_bbox_xyxy": [
+            1556,
+            88,
+            1620,
+            1098
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "old_offset_start": 7,
+          "old_offset_end": 8,
+          "old": "p",
+          "new_offset_start": 7,
+          "new_offset_end": 8,
+          "new": "b",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "old_offset_start": 9,
+          "old_offset_end": 10,
+          "old": "t",
+          "new_offset_start": 9,
+          "new_offset_end": 10,
+          "new": "d",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "old_offset_start": 15,
+          "old_offset_end": 16,
+          "old": "m",
+          "new_offset_start": 15,
+          "new_offset_end": 16,
+          "new": "n",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "old_offset_start": 30,
+          "old_offset_end": 31,
+          "old": "?",
+          "new_offset_start": 30,
+          "new_offset_end": 31,
+          "new": "m",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L05",
+          "old_offset_start": 12,
+          "old_offset_end": 13,
+          "old": "6",
+          "new_offset_start": 12,
+          "new_offset_end": 13,
+          "new": "b",
+          "source_basis": "After2 a clear tall closed loop supports b rather than the plain rounded6. After3 another tall loop supports b rather than descender p. These selections retain the actual ascender families without changing them to fit Czech.",
+          "native_bbox_xyxy": [
+            1410,
+            86,
+            1475,
+            1114
+          ]
+        },
+        {
+          "line_id": "274-L05",
+          "old_offset_start": 29,
+          "old_offset_end": 30,
+          "old": "p",
+          "new_offset_start": 29,
+          "new_offset_end": 30,
+          "new": "b",
+          "source_basis": "After2 a clear tall closed loop supports b rather than the plain rounded6. After3 another tall loop supports b rather than descender p. These selections retain the actual ascender families without changing them to fit Czech.",
+          "native_bbox_xyxy": [
+            1410,
+            86,
+            1475,
+            1114
+          ]
+        },
+        {
+          "line_id": "274-L06",
+          "old_offset_start": 6,
+          "old_offset_end": 7,
+          "old": "p",
+          "new_offset_start": 6,
+          "new_offset_end": 7,
+          "new": "b",
+          "source_basis": "After3 the tall loop again supports b rather than p. First tail of q6g returns upward narrowly, last tail is open-hooked g. The q/g closure remains weak enough to retain the first g6g alternative.",
+          "native_bbox_xyxy": [
+            1359,
+            82,
+            1427,
+            1108
+          ]
+        },
+        {
+          "line_id": "274-L06",
+          "old_offset_start": 39,
+          "old_offset_end": 40,
+          "old": "g",
+          "new_offset_start": 39,
+          "new_offset_end": 40,
+          "new": "q",
+          "source_basis": "After3 the tall loop again supports b rather than p. First tail of q6g returns upward narrowly, last tail is open-hooked g. The q/g closure remains weak enough to retain the first g6g alternative.",
+          "native_bbox_xyxy": [
+            1359,
+            82,
+            1427,
+            1108
+          ]
+        },
+        {
+          "line_id": "274-L07",
+          "old_offset_start": 0,
+          "old_offset_end": 1,
+          "old": "t",
+          "new_offset_start": 0,
+          "new_offset_end": 1,
+          "new": "?",
+          "source_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+          "native_bbox_xyxy": [
+            1309,
+            78,
+            1378,
+            1113
+          ]
+        },
+        {
+          "line_id": "274-L07",
+          "old_offset_start": 7,
+          "old_offset_end": 8,
+          "old": "g",
+          "new_offset_start": 7,
+          "new_offset_end": 8,
+          "new": "?",
+          "source_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+          "native_bbox_xyxy": [
+            1309,
+            78,
+            1378,
+            1113
+          ]
+        },
+        {
+          "line_id": "274-L07",
+          "old_offset_start": 26,
+          "old_offset_end": 27,
+          "old": "m",
+          "new_offset_start": 26,
+          "new_offset_end": 27,
+          "new": "n",
+          "source_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+          "native_bbox_xyxy": [
+            1309,
+            78,
+            1378,
+            1113
+          ]
+        },
+        {
+          "line_id": "274-B01",
+          "old_offset_start": 27,
+          "old_offset_end": 28,
+          "old": "h",
+          "new_offset_start": 27,
+          "new_offset_end": 28,
+          "new": "p",
+          "source_basis": "The first disputed body in p5r5n is a short upper stroke with a descender, unlike the full tall-loop h at bh4cd4r3; select blind p, retaining first h alternative. Initial phg3 and the tall f in g3tb3f4n retained on whole-body shape.",
+          "native_bbox_xyxy": [
+            182,
+            94,
+            242,
+            1091
+          ]
+        },
+        {
+          "line_id": "274-M01",
+          "old_offset_start": 0,
+          "old_offset_end": 1,
+          "old": "m",
+          "new_offset_start": 0,
+          "new_offset_end": 1,
+          "new": "n",
+          "source_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+          "native_bbox_xyxy": [
+            343,
+            977,
+            1173,
+            1041
+          ]
+        },
+        {
+          "line_id": "274-M01",
+          "old_offset_start": 10,
+          "old_offset_end": 11,
+          "old": "p",
+          "new_offset_start": 10,
+          "new_offset_end": 11,
+          "new": "b",
+          "source_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+          "native_bbox_xyxy": [
+            343,
+            977,
+            1173,
+            1041
+          ]
+        },
+        {
+          "line_id": "274-M01",
+          "old_offset_start": 26,
+          "old_offset_end": 27,
+          "old": "4",
+          "new_offset_start": 26,
+          "new_offset_end": 27,
+          "new": "1",
+          "source_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+          "native_bbox_xyxy": [
+            343,
+            977,
+            1173,
+            1041
+          ]
+        },
+        {
+          "line_id": "274-M02",
+          "old_offset_start": 0,
+          "old_offset_end": 1,
+          "old": "m",
+          "new_offset_start": 0,
+          "new_offset_end": 1,
+          "new": "n",
+          "source_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+          "native_bbox_xyxy": [
+            341,
+            1021,
+            1180,
+            1088
+          ]
+        },
+        {
+          "line_id": "274-M02",
+          "old_offset_start": 24,
+          "old_offset_end": 25,
+          "old": "h",
+          "new_offset_start": 24,
+          "new_offset_end": 25,
+          "new": "?",
+          "source_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+          "native_bbox_xyxy": [
+            341,
+            1021,
+            1180,
+            1088
+          ]
+        },
+        {
+          "line_id": "274-M02",
+          "old_offset_start": 29,
+          "old_offset_end": 30,
+          "old": "4",
+          "new_offset_start": 29,
+          "new_offset_end": 30,
+          "new": "1",
+          "source_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+          "native_bbox_xyxy": [
+            341,
+            1021,
+            1180,
+            1088
+          ]
+        },
+        {
+          "line_id": "274-M03",
+          "old_offset_start": 15,
+          "old_offset_end": 16,
+          "old": "4",
+          "new_offset_start": 15,
+          "new_offset_end": 16,
+          "new": "1",
+          "source_basis": "Initial tail in b3m5f6tg is open leftward g rather than narrow returning q; retain first g. Final body of m5m1 has inclined1 with base, unlike angular4 in previous n4. The broad terminal loop in gm6n is treated provisionally as a flourish of n; an extra body cannot be excluded.",
+          "native_bbox_xyxy": [
+            340,
+            1066,
+            1018,
+            1121
+          ]
+        }
+      ],
+      "reader_disagreements": [
+        {
+          "line_id": "274-L01",
+          "first_offset_start": 43,
+          "first_offset_end": 43,
+          "first": "",
+          "blind_offset_start": 43,
+          "blind_offset_end": 44,
+          "blind": "d",
+          "selected_line": "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bc6mq3.",
+          "source_basis": "The final word has tall b, low c, then rounded6; there is no distinct tall d between c/6. Reject blind inserted d. Remaining q tails have narrow lower returns; low humps and baseline shapes retained.",
+          "native_bbox_xyxy": [
+            1606,
+            93,
+            1671,
+            1111
+          ]
+        },
+        {
+          "line_id": "274-L02",
+          "first_offset_start": 15,
+          "first_offset_end": 16,
+          "first": "m",
+          "blind_offset_start": 15,
+          "blind_offset_end": 16,
+          "blind": "n",
+          "selected_line": "6fc6q, 6m4sq3, n6 g86d6 6m4sq3, g6hn32d486 7c4",
+          "source_basis": "The isolated pre-g86d6 body has a single low arch n, not the multiple humps of m elsewhere. Select blind n6; the rounded loops and long lower q returns elsewhere remain visible. This is a shape decision even though its literal is awkward.",
+          "native_bbox_xyxy": [
+            1556,
+            88,
+            1620,
+            1098
+          ]
+        },
+        {
+          "line_id": "274-L03",
+          "first_offset_start": 26,
+          "first_offset_end": 26,
+          "first": "",
+          "blind_offset_start": 26,
+          "blind_offset_end": 27,
+          "blind": " ",
+          "selected_line": "n4 f684s5 cht5sq3! t3nm4f68 7c5n c5, g5 n27",
+          "source_basis": "The rounded8 body follows6 on the same baseline without a secure word gap; retain first joined t3nm4f68. Low arch segmentation n/m remains qualified, and speckling crosses7c5n.",
+          "native_bbox_xyxy": [
+            1508,
+            89,
+            1572,
+            1108
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "first_offset_start": 7,
+          "first_offset_end": 8,
+          "first": "p",
+          "blind_offset_start": 7,
+          "blind_offset_end": 8,
+          "blind": "b",
+          "selected_line": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "first_offset_start": 9,
+          "first_offset_end": 10,
+          "first": "t",
+          "blind_offset_start": 9,
+          "blind_offset_end": 10,
+          "blind": "d",
+          "selected_line": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "first_offset_start": 15,
+          "first_offset_end": 16,
+          "first": "m",
+          "blind_offset_start": 15,
+          "blind_offset_end": 16,
+          "blind": "n",
+          "selected_line": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L04",
+          "first_offset_start": 30,
+          "first_offset_end": 31,
+          "first": "?",
+          "blind_offset_start": 30,
+          "blind_offset_end": 31,
+          "blind": "m",
+          "selected_line": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation.",
+          "native_bbox_xyxy": [
+            1458,
+            85,
+            1523,
+            1105
+          ]
+        },
+        {
+          "line_id": "274-L05",
+          "first_offset_start": 12,
+          "first_offset_end": 13,
+          "first": "6",
+          "blind_offset_start": 12,
+          "blind_offset_end": 13,
+          "blind": "b",
+          "selected_line": "7c5n cf374 2bh4nm3cd4 bh6f1 3b6q. bh5c fc5-",
+          "source_basis": "After2 a clear tall closed loop supports b rather than the plain rounded6. After3 another tall loop supports b rather than descender p. These selections retain the actual ascender families without changing them to fit Czech.",
+          "native_bbox_xyxy": [
+            1410,
+            86,
+            1475,
+            1114
+          ]
+        },
+        {
+          "line_id": "274-L05",
+          "first_offset_start": 29,
+          "first_offset_end": 30,
+          "first": "p",
+          "blind_offset_start": 29,
+          "blind_offset_end": 30,
+          "blind": "b",
+          "selected_line": "7c5n cf374 2bh4nm3cd4 bh6f1 3b6q. bh5c fc5-",
+          "source_basis": "After2 a clear tall closed loop supports b rather than the plain rounded6. After3 another tall loop supports b rather than descender p. These selections retain the actual ascender families without changing them to fit Czech.",
+          "native_bbox_xyxy": [
+            1410,
+            86,
+            1475,
+            1114
+          ]
+        },
+        {
+          "line_id": "274-L06",
+          "first_offset_start": 6,
+          "first_offset_end": 7,
+          "first": "p",
+          "blind_offset_start": 6,
+          "blind_offset_end": 7,
+          "blind": "b",
+          "selected_line": "84q5 3b6sm5 274cd3f6m4, t6f6c n4 d5n5h q6g-",
+          "source_basis": "After3 the tall loop again supports b rather than p. First tail of q6g returns upward narrowly, last tail is open-hooked g. The q/g closure remains weak enough to retain the first g6g alternative.",
+          "native_bbox_xyxy": [
+            1359,
+            82,
+            1427,
+            1108
+          ]
+        },
+        {
+          "line_id": "274-L06",
+          "first_offset_start": 39,
+          "first_offset_end": 40,
+          "first": "g",
+          "blind_offset_start": 39,
+          "blind_offset_end": 40,
+          "blind": "q",
+          "selected_line": "84q5 3b6sm5 274cd3f6m4, t6f6c n4 d5n5h q6g-",
+          "source_basis": "After3 the tall loop again supports b rather than p. First tail of q6g returns upward narrowly, last tail is open-hooked g. The q/g closure remains weak enough to retain the first g6g alternative.",
+          "native_bbox_xyxy": [
+            1359,
+            82,
+            1427,
+            1108
+          ]
+        },
+        {
+          "line_id": "274-L07",
+          "first_offset_start": 0,
+          "first_offset_end": 1,
+          "first": "t",
+          "blind_offset_start": 0,
+          "blind_offset_end": 1,
+          "blind": "?",
+          "selected_line": "?1n h6t?5n cf374 m5t2f5h2 n6 75f3. n5g",
+          "source_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+          "native_bbox_xyxy": [
+            1309,
+            78,
+            1378,
+            1113
+          ]
+        },
+        {
+          "line_id": "274-L07",
+          "first_offset_start": 7,
+          "first_offset_end": 8,
+          "first": "g",
+          "blind_offset_start": 7,
+          "blind_offset_end": 8,
+          "blind": "q",
+          "selected_line": "?1n h6t?5n cf374 m5t2f5h2 n6 75f3. n5g",
+          "source_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+          "native_bbox_xyxy": [
+            1309,
+            78,
+            1378,
+            1113
+          ]
+        },
+        {
+          "line_id": "274-L07",
+          "first_offset_start": 26,
+          "first_offset_end": 27,
+          "first": "m",
+          "blind_offset_start": 26,
+          "blind_offset_end": 27,
+          "blind": "n",
+          "selected_line": "?1n h6t?5n cf374 m5t2f5h2 n6 75f3. n5g",
+          "source_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask.",
+          "native_bbox_xyxy": [
+            1309,
+            78,
+            1378,
+            1113
+          ]
+        },
+        {
+          "line_id": "274-L10",
+          "first_offset_start": 10,
+          "first_offset_end": 11,
+          "first": " ",
+          "blind_offset_start": 10,
+          "blind_offset_end": 10,
+          "blind": "",
+          "selected_line": "6mt284sq3, 75 n4",
+          "source_basis": "Both readings have the same bodies; first explicit word gap after comma retained. Separate small s-like body after4 retained despite an unusual literal diminutive.",
+          "native_bbox_xyxy": [
+            1133,
+            76,
+            1188,
+            423
+          ]
+        },
+        {
+          "line_id": "274-B01",
+          "first_offset_start": 27,
+          "first_offset_end": 28,
+          "first": "h",
+          "blind_offset_start": 27,
+          "blind_offset_end": 28,
+          "blind": "p",
+          "selected_line": "t3b4c g3tb3f4n phg3, n3gm6 p5r5n bh4cd4r3",
+          "source_basis": "The first disputed body in p5r5n is a short upper stroke with a descender, unlike the full tall-loop h at bh4cd4r3; select blind p, retaining first h alternative. Initial phg3 and the tall f in g3tb3f4n retained on whole-body shape.",
+          "native_bbox_xyxy": [
+            182,
+            94,
+            242,
+            1091
+          ]
+        },
+        {
+          "line_id": "274-B02",
+          "first_offset_start": 42,
+          "first_offset_end": 43,
+          "first": "h",
+          "blind_offset_start": 42,
+          "blind_offset_end": 43,
+          "blind": "ř",
+          "selected_line": "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fh5-",
+          "source_basis": "The body in fh5- is a full tall-loop h and no detached caron is secure; reject blindř and retain first h. Both ordinary h and markedr-family alternative stay documented, without treating the blind mark claim as a secure CH.",
+          "native_bbox_xyxy": [
+            131,
+            93,
+            200,
+            1101
+          ]
+        },
+        {
+          "line_id": "274-M01",
+          "first_offset_start": 0,
+          "first_offset_end": 1,
+          "first": "m",
+          "blind_offset_start": 0,
+          "blind_offset_end": 1,
+          "blind": "n",
+          "selected_line": "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?",
+          "source_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+          "native_bbox_xyxy": [
+            343,
+            977,
+            1173,
+            1041
+          ]
+        },
+        {
+          "line_id": "274-M01",
+          "first_offset_start": 10,
+          "first_offset_end": 11,
+          "first": "p",
+          "blind_offset_start": 10,
+          "blind_offset_end": 11,
+          "blind": "b",
+          "selected_line": "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?",
+          "source_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+          "native_bbox_xyxy": [
+            343,
+            977,
+            1173,
+            1041
+          ]
+        },
+        {
+          "line_id": "274-M01",
+          "first_offset_start": 26,
+          "first_offset_end": 27,
+          "first": "4",
+          "blind_offset_start": 26,
+          "blind_offset_end": 27,
+          "blind": "1",
+          "selected_line": "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?",
+          "source_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation.",
+          "native_bbox_xyxy": [
+            343,
+            977,
+            1173,
+            1041
+          ]
+        },
+        {
+          "line_id": "274-M02",
+          "first_offset_start": 0,
+          "first_offset_end": 1,
+          "first": "m",
+          "blind_offset_start": 0,
+          "blind_offset_end": 1,
+          "blind": "n",
+          "selected_line": "n6-84, d5t1 b3c486n 757 ?5q f1gm6n2,",
+          "source_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+          "native_bbox_xyxy": [
+            341,
+            1021,
+            1180,
+            1088
+          ]
+        },
+        {
+          "line_id": "274-M02",
+          "first_offset_start": 24,
+          "first_offset_end": 25,
+          "first": "h",
+          "blind_offset_start": 24,
+          "blind_offset_end": 25,
+          "blind": "p",
+          "selected_line": "n6-84, d5t1 b3c486n 757 ?5q f1gm6n2,",
+          "source_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+          "native_bbox_xyxy": [
+            341,
+            1021,
+            1180,
+            1088
+          ]
+        },
+        {
+          "line_id": "274-M02",
+          "first_offset_start": 29,
+          "first_offset_end": 30,
+          "first": "4",
+          "blind_offset_start": 29,
+          "blind_offset_end": 30,
+          "blind": "1",
+          "selected_line": "n6-84, d5t1 b3c486n 757 ?5q f1gm6n2,",
+          "source_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved.",
+          "native_bbox_xyxy": [
+            341,
+            1021,
+            1180,
+            1088
+          ]
+        },
+        {
+          "line_id": "274-M03",
+          "first_offset_start": 7,
+          "first_offset_end": 8,
+          "first": "g",
+          "blind_offset_start": 7,
+          "blind_offset_end": 8,
+          "blind": "q",
+          "selected_line": "b3m5f6tg n4 m5m1 gm6n.",
+          "source_basis": "Initial tail in b3m5f6tg is open leftward g rather than narrow returning q; retain first g. Final body of m5m1 has inclined1 with base, unlike angular4 in previous n4. The broad terminal loop in gm6n is treated provisionally as a flourish of n; an extra body cannot be excluded.",
+          "native_bbox_xyxy": [
+            340,
+            1066,
+            1018,
+            1121
+          ]
+        },
+        {
+          "line_id": "274-M03",
+          "first_offset_start": 15,
+          "first_offset_end": 16,
+          "first": "4",
+          "blind_offset_start": 15,
+          "blind_offset_end": 16,
+          "blind": "1",
+          "selected_line": "b3m5f6tg n4 m5m1 gm6n.",
+          "source_basis": "Initial tail in b3m5f6tg is open leftward g rather than narrow returning q; retain first g. Final body of m5m1 has inclined1 with base, unlike angular4 in previous n4. The broad terminal loop in gm6n is treated provisionally as a flourish of n; an extra body cannot be excluded.",
+          "native_bbox_xyxy": [
+            340,
+            1066,
+            1018,
+            1121
+          ]
+        }
+      ],
+      "source_decisions": [
+        {
+          "line_id": "274-L01",
+          "selected": "fh581 t4q, n485mq3 n375 75t4m6, g6 th6r5 bc6mq3.",
+          "source_basis": "The final word has tall b, low c, then rounded6; there is no distinct tall d between c/6. Reject blind inserted d. Remaining q tails have narrow lower returns; low humps and baseline shapes retained."
+        },
+        {
+          "line_id": "274-L02",
+          "selected": "6fc6q, 6m4sq3, n6 g86d6 6m4sq3, g6hn32d486 7c4",
+          "source_basis": "The isolated pre-g86d6 body has a single low arch n, not the multiple humps of m elsewhere. Select blind n6; the rounded loops and long lower q returns elsewhere remain visible. This is a shape decision even though its literal is awkward."
+        },
+        {
+          "line_id": "274-L03",
+          "selected": "n4 f684s5 cht5sq3! t3nm4f68 7c5n c5, g5 n27",
+          "source_basis": "The rounded8 body follows6 on the same baseline without a secure word gap; retain first joined t3nm4f68. Low arch segmentation n/m remains qualified, and speckling crosses7c5n."
+        },
+        {
+          "line_id": "274-L04",
+          "selected": "t3b4c 3b5d fc5 n5g4 m6n4 f176cm4 - 6 t3s4848",
+          "source_basis": "After3 the looped body ascends like b rather than descends like p; final rounded tall stem selected d rather than crossed t. The body before5g4 has one low arch n. After f176c two low humps support m, accepting blind m in place of first mask; printed texture still qualifies segmentation."
+        },
+        {
+          "line_id": "274-L05",
+          "selected": "7c5n cf374 2bh4nm3cd4 bh6f1 3b6q. bh5c fc5-",
+          "source_basis": "After2 a clear tall closed loop supports b rather than the plain rounded6. After3 another tall loop supports b rather than descender p. These selections retain the actual ascender families without changing them to fit Czech."
+        },
+        {
+          "line_id": "274-L06",
+          "selected": "84q5 3b6sm5 274cd3f6m4, t6f6c n4 d5n5h q6g-",
+          "source_basis": "After3 the tall loop again supports b rather than p. First tail of q6g returns upward narrowly, last tail is open-hooked g. The q/g closure remains weak enough to retain the first g6g alternative."
+        },
+        {
+          "line_id": "274-L07",
+          "selected": "?1n h6t?5n cf374 m5t2f5h2 n6 75f3. n5g",
+          "source_basis": "The initial body has superimposed crossing strokes; t/d cannot be assigned securely and one mask retained. Lower tail in h6t?5n does not securely resolve first g versus blind q, so a new mask retains that disagreement. Isolated body before6 has one arch n. No expected Czech used to fill either mask."
+        },
+        {
+          "line_id": "274-L08",
+          "selected": "p1 c5 6mt28q6 c5 nm32 c5dq686, h6t574 c5",
+          "source_basis": "Both rows agree. The separate low arch and multiple humps in nm32 remain a segmentation alternative rather than a language correction."
+        },
+        {
+          "line_id": "274-L09",
+          "selected": "7s5 n5 86cq1 gh4s4!!!",
+          "source_basis": "Both rows agree on7s5. Preserve the detached roof/fork-like ink above7 separately, with no new mark-to-letter rule. Triple exclamation marks are actual punctuation."
+        },
+        {
+          "line_id": "274-L10",
+          "selected": "6mt284sq3, 75 n4",
+          "source_basis": "Both readings have the same bodies; first explicit word gap after comma retained. Separate small s-like body after4 retained despite an unusual literal diminutive."
+        },
+        {
+          "line_id": "274-L11",
+          "selected": "f58n4 cm2dm5 f",
+          "source_basis": "Both readings agree on cm2dm5: the body after c has multiple low humps m. Any SNUTNE to SMUTNE change belongs only to the editorial layer, not glyph selection."
+        },
+        {
+          "line_id": "274-L12",
+          "selected": "cht5sq2!",
+          "source_basis": "Both readings agree. Final vertical stroke with separate dot supports exclamation punctuation."
+        },
+        {
+          "line_id": "274-B01",
+          "selected": "t3b4c g3tb3f4n phg3, n3gm6 p5r5n bh4cd4r3",
+          "source_basis": "The first disputed body in p5r5n is a short upper stroke with a descender, unlike the full tall-loop h at bh4cd4r3; select blind p, retaining first h alternative. Initial phg3 and the tall f in g3tb3f4n retained on whole-body shape."
+        },
+        {
+          "line_id": "274-B02",
+          "selected": "d1tm5. g6d4n d5 g c585 t2c5 84p6 6 d4c4s fh5-",
+          "source_basis": "The body in fh5- is a full tall-loop h and no detached caron is secure; reject blindř and retain first h. Both ordinary h and markedr-family alternative stay documented, without treating the blind mark claim as a secure CH."
+        },
+        {
+          "line_id": "274-B03",
+          "selected": "81ř b3gth6f2 b3c486 df27 b5b32c.",
+          "source_basis": "Both readings agree. Distinct detached curved caron above short r-shaped third body in81ř supports canonicalř, one physical selected body/two decoded letters. Bold df27 crossing remains qualified."
+        },
+        {
+          "line_id": "274-M01",
+          "selected": "n6 d6q5 m6bhcdm4q m576q1 f1gm6n?",
+          "source_basis": "Initial isolated n6 has one low arch. The middle m6bhcdm4q body is a tall closed b loop, not descending p. The digit-shaped body in f1gm6n has a single inclined stroke and base, selected1 instead of first4. Final raised hook and separate dot are actual question punctuation."
+        },
+        {
+          "line_id": "274-M02",
+          "selected": "n6-84, d5t1 b3c486n 757 ?5q f1gm6n2,",
+          "source_basis": "Initial n6 has one low arch. The disputed initial of ?5q has two narrow high strokes merging into a lower stroke; first h and blind p cannot be secured, so mask retained. The body in f1gm6n2 has simple inclined1 without the angular cross-stroke of4. Internal hyphen and final comma preserved."
+        },
+        {
+          "line_id": "274-M03",
+          "selected": "b3m5f6tg n4 m5m1 gm6n.",
+          "source_basis": "Initial tail in b3m5f6tg is open leftward g rather than narrow returning q; retain first g. Final body of m5m1 has inclined1 with base, unlike angular4 in previous n4. The broad terminal loop in gm6n is treated provisionally as a flourish of n; an extra body cannot be excluded."
+        }
+      ]
+    },
+    "marks_and_segmentation_notes": {
+      "first_frozen_historical": [
+        {
+          "line_id": "274-L09",
+          "mark": "Detached roof/caron-like mark above initial7; retained graphically as note, no new value."
+        },
+        {
+          "line_id": "274-B03",
+          "mark": "Caron/roof over short third body of81ř; canonical ř."
+        },
+        {
+          "lines": [
+            "274-L03",
+            "274-L09",
+            "274-L12"
+          ],
+          "mark": "Exclamation punctuation retained: one, three, one respectively."
+        },
+        {
+          "lines": [
+            "274-L05",
+            "274-L06",
+            "274-B02",
+            "274-M02"
+          ],
+          "mark": "Written word/line dashes retained; no automatic joins."
+        },
+        {
+          "line_id": "274-M01",
+          "mark": "Terminal actual question mark tagged punctuation."
+        },
+        {
+          "region": "date",
+          "reading_bbox_xyxy": [
+            385,
+            845,
+            589,
+            916
+          ],
+          "text_candidate": "4./VIII.1902.",
+          "note": "Ordinary date inscription outside encoded rows; Roman month stroke count tentative."
+        }
+      ],
+      "blind_frozen_historical": [
+        {
+          "line_id": "274-L09",
+          "token": "7s5",
+          "description": "Extra dark upper fork/fleck at7, preserved; no separate key assignment."
+        },
+        {
+          "line_id": "274-L14",
+          "token": "fř5-",
+          "description": "Detached caron over r-shaped body; selectedř."
+        },
+        {
+          "line_id": "274-L15",
+          "token": "81ř",
+          "description": "Detached curved caron over short r; selectedř."
+        },
+        {
+          "line_id": "274-L18",
+          "token": "gm6n",
+          "description": "Long curved terminal flourish; no secure extra encoded body."
+        }
+      ],
+      "current": [
+        {
+          "line_id": "274-L09",
+          "span": "7s5",
+          "note": "Roof/fork-like upper ink retained as unassigned variant of selected7; no new mapping."
+        },
+        {
+          "line_id": "274-B02",
+          "span": "fh5-",
+          "note": "Selected plain h: no secure detached caron; blind ř claim retained only historically."
+        },
+        {
+          "line_id": "274-B03",
+          "span": "81ř",
+          "note": "Detached caron selected on short r; ř decodes CH, one body."
+        },
+        {
+          "line_id": "274-M03",
+          "span": "gm6n",
+          "note": "Terminal flourish versus additional body remains uncertain; physical count null."
+        }
+      ]
+    },
+    "ordinary_numerals_outside_cipher": [
+      {
+        "classification": "Unverified date inscription only",
+        "provisional_reading": "4./VIII.1902.",
+        "reading_bbox_xyxy": [
+          386,
+          832,
+          596,
+          923
+        ],
+        "cipher_counts_excluded": true,
+        "note": "Roman-month stroke reading provisional; no chronology, authorship or provenance inference."
+      }
+    ],
+    "editorial_scope": {
+      "included_line_ids": [
+        "274-L10",
+        "274-L11",
+        "274-L12"
+      ],
+      "omitted_line_ids": [
+        "274-L01",
+        "274-L02",
+        "274-L03",
+        "274-L04",
+        "274-L05",
+        "274-L06",
+        "274-L07",
+        "274-L08",
+        "274-L09",
+        "274-B01",
+        "274-B02",
+        "274-B03",
+        "274-M01",
+        "274-M02",
+        "274-M03"
+      ],
+      "reason": "Bounded excerpt only; all other body content is available in complete strict rows and intentionally has no editorial restoration or translation here."
+    },
+    "proposed_editorial_czech": "Anduličko, je mi velmi [smutně?; SNUTNE] v srdéčku!",
+    "proposed_english_translation": "Andulička, I feel very [sad?; SNUTNE] in my heart!",
+    "editorial_restoration_ledger": [
+      {
+        "line_id": "274-L11",
+        "literal_offset_start": 6,
+        "literal_offset_end": 12,
+        "literal": "SNUTNE",
+        "proposed_czech": "[smutně?; SNUTNE]",
+        "proposed_english": "[sad?; SNUTNE]",
+        "reason": "One-letter editorial substitution N to M in the current strict literal only; source m remains canonically N. Diacritics are ordinary editorial normalization."
+      }
+    ],
+    "editorial_policy": "Bounded L10-L12 excerpt; identical scope in Czech and English. The only substantive letter repair is bracketed and ledgered against current strict literal. Case/diacritics and ordinary translation grammar normalized. No other row repaired or translated.",
+    "limits": [
+      "Two related AI source-only readings with the fixed key visible, followed by nonblind reconciliation by the blind second reader after its raw freeze and separate strict decode. Earlier other-card work, including271/273, was known. This is not human or external confirmation.",
+      "All18 visual rows included:12 upper,3 lower,3 margin. Inventory order does not establish exact semantic continuation.",
+      "Selected unknown masks and stroke overlaps do not establish physical body counts. Whole-row alternatives, including unchanged reader disagreements, retained.",
+      "Strict literal deliberately retains malformed words and one-letter/suffix anomalies; omitted editorial rows are explicitly listed rather than silently repaired.",
+      "Apparent date is an unverified inscription only. No source image, PDF/email content or private path embedded."
+    ],
+    "encoded_bodies": 493,
+    "expanded_letters": 491,
+    "ch_occurrences": 1,
+    "unknowns": 3,
+    "validation": {
+      "check_card": "passed",
+      "report": {
+        "rows": 18,
+        "encoded_bodies": 493,
+        "expanded_letters": 491,
+        "ch_occurrences": 1,
+        "unknowns": 3
+      },
+      "scope": "Strict replay,counters,selected/editorial spans,source/raw digests,native bbox bounds and immutable snapshot integrity; not historical proof."
+    }
+  }
+}
