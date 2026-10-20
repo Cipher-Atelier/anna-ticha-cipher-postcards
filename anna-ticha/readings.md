@@ -4,14 +4,16 @@ This is a navigation index to the full preserved records, not a new edition or a
 
 ## Readable editions
 
-Connected Czech readings and English translations are available below. `‹…?›` marks a contextual restoration or repair; each marker links to a separate dispute ledger. The saved literals and original test stages remain on each page.
+Connected Czech readings and English translations for the original six-card study are available below. `‹…?›` marks a contextual restoration or repair; each marker links to a separate dispute ledger. Genuine gaps remain visible. The saved literals and original test stages remain on each page.
 
 | Card | Read the text | Separate evidence status and disputes |
 | --- | --- | --- |
 | 198 | [Czech](card-198.md#readable-czech) · [English](card-198.md#english-translation) | [Seven masked positions and a separate u insertion](uncertainties/card-198.md); no newly confirmed glyph values |
 | 199 | [Czech](card-199.md#readable-czech) · [English](card-199.md#english-translation) | [Ten source gaps, five substantive repairs and dictionary notes](uncertainties/card-199.md); no newly confirmed glyph values |
 | 250 | [Czech](card-250.md#readable-czech) · [English](card-250.md#english-translation) | [Local n → m correction under the inherited key](uncertainties/card-250.md#s01); all eighteen original unknowns retained |
+| 329 | [Czech](card-329.md#readable-czech) · [English](card-329.md#english-translation) | [Primary 223/298 and secondary 238/298 remain separate](uncertainties/card-329.md); waltz modifier and crossed closing remain gaps |
 | 440 | [Czech](card-440.md#readable-czech) · [English](card-440.md#english-translation) | [Eight unknowns in the later replay and a separate m → n proposal](uncertainties/card-440.md); first prediction and post-test replay stay distinct |
+| 453 | [Partial Czech](card-453.md#source-punctuated-partial-czech) · [Candidate Czech](card-453.md#readable-czech) · [English](card-453.md#english-translation) | [138/167 mapped, 29 gaps unchanged](uncertainties/card-453.md); possible 14 and reconstructed closing remain unproved |
 
 ## Current status — 20 October 2026
 

@@ -1,5 +1,46 @@
 # Card 453: Waiting for a promised letter
 
+[Card index](readings.md) · [Disputed places](uncertainties/card-453.md) · [Saved literal](#saved-literal-readings) · [Original image](https://api.hcportal.eu/media/5376/pc_hcp_453_pic.JPG)
+
+**Reader edition — 20 October 2026.** First-prediction coverage remains 138/167 mapped, with 29 unknown positions and no new accepted letters. The source-punctuated layer below fills none of them. `‹…?›` in the separate interpretation marks a candidate; the question marks outside proposals represent source punctuation.
+
+## Source-punctuated partial Czech
+
+`□` replaces each original unknown marker so question marks can mean punctuation. Capitalization is editorial; the punctuation observations were already recorded, not newly deciphered.
+
+```text
+Marn□ o□ek□v□m, drahou□ku, denn□
+sl□ben□ tvuj dopis. Provinil jsem se
+snad n□□□m? Jsi snad □urava? P□ed yi. dny zaslal
+jsem ti l□stek. Do□el? T□□im se, □e brzo po t□□□□ dopisem
+tv□ho v□ele t□ l□baj□c□ho
+Pepou□e.
+```
+
+The underlined pair remains `yi` plus a separate point. [Possible conventional `14`](uncertainties/card-453.md#n01) has an unresolved function and does not replace the literal. The separate inscription reads 1 March 1900; it does not establish a postal date.
+
+## Readable Czech
+
+A candidate interpretation from the earlier linguistic assessment, with every proposed completion exposed. `tvuj → tvůj` is editorial spelling normalization.
+
+[‹Marně?›](uncertainties/card-453.md#u01) [‹očekávám?›](uncertainties/card-453.md#u02), [‹drahoušku?›](uncertainties/card-453.md#u04), [‹denně?›](uncertainties/card-453.md#u01) [‹slíbený?›](uncertainties/card-453.md#u05) tvůj dopis. Provinil jsem se snad [‹něčím?›](uncertainties/card-453.md#u01)? Jsi snad [‹churavá?›](uncertainties/card-453.md#u07)? [‹Před?›](uncertainties/card-453.md#u08) [⟦yi; alternativně doslovná číslovka 14?⟧](uncertainties/card-453.md#n01) dny zaslal jsem ti [‹lístek?›](uncertainties/card-453.md#u05). [‹Došel?›](uncertainties/card-453.md#u04)? [‹Těším?›](uncertainties/card-453.md#u01) se, [‹že?›](uncertainties/card-453.md#u09) brzo ⟦po t□□□□; snad [‹potěšíš?›](uncertainties/card-453.md#n03)⟧ dopisem [‹tvého?›](uncertainties/card-453.md#u10) [‹vřele?›](uncertainties/card-453.md#u08) [‹tě?›](uncertainties/card-453.md#u01) [‹líbajícího?›](uncertainties/card-453.md#u05) [‹Pepouše?›](uncertainties/card-453.md#u04).
+
+## English translation
+
+A translation of the readable portions. Ellipses retain gaps in meaning; no number of days is supplied.
+
+[‹In vain I wait?›](uncertainties/card-453.md#u01), [‹darling?›](uncertainties/card-453.md#u04), [‹every day?›](uncertainties/card-453.md#u01) for your [‹promised?›](uncertainties/card-453.md#u05) letter. Have I done wrong [‹in some way?›](uncertainties/card-453.md#u01)? Are you perhaps [‹ill?›](uncertainties/card-453.md#u07)? … days [‹ago?›](uncertainties/card-453.md#u08) I sent you a [‹note?›](uncertainties/card-453.md#u05). [‹Did it arrive?›](uncertainties/card-453.md#u04)
+
+[‹I look forward?›](uncertainties/card-453.md#u01) … [‹that?›](uncertainties/card-453.md#u09) soon … with a letter …
+
+[‹your?›](uncertainties/card-453.md#u10) [‹warmly?›](uncertainties/card-453.md#u08) [‹kissing you?›](uncertainties/card-453.md#u05) [‹Pepouš?›](uncertainties/card-453.md#u04).
+
+If the old conjecture [‹potěšíš?›](uncertainties/card-453.md#n03) is accepted, the closing could hypothetically read: “[I look forward to your soon cheering, with a letter, your Pepouš, who kisses you warmly?]” This reconstructs the entire grammatical construction; it is not an additional deciphered passage.
+
+The [closing](uncertainties/card-453.md#n04), [illness candidate](uncertainties/card-453.md#u07) and [possible connection to card 329](uncertainties/card-453.md#n02) remain unproved. The [full reader notes](../research-updates/evidence/reader-edition-2026-10-20/card453/card-453-conservative-reader-en.md) separate earlier source observations from interpretation.
+
+## Preserved research report
+
 [Anna Tichá investigation](README.md) · [All card readings](readings.md) · [Original study](article.md)
 
 Card ID: 453
