@@ -1,10 +1,10 @@
 # Card 250: source correction and disputed readings
 
-[Readable Czech](../card-250.md#readable-czech) · [Russian translation](../card-250.md#russian-translation) · [Saved literal](../card-250.md#saved-literal-readings) · [Card index](../readings.md)
+[Readable Czech](../card-250.md#readable-czech) · [Saved literal](../card-250.md#saved-literal-readings) · [Card index](../readings.md)
 
 20 October 2026. **One already mapped glyph is corrected conditionally under the existing key; all eighteen unknowns remain.** This local comparison was corroborated by a second candidate-aware AI reader. It was not blind or external human validation. Correcting a mapped position does not increase the historical 254/272 coverage or validate the entire key/word.
 
-The [reviewed authored ledger](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_disputes.md), [reader and translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_readable_czech_ru.md) and [public source metadata](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_notes.json) retain the detailed basis. Integration instructions and local crop paths are omitted from this public edition. No images/crops are redistributed.
+The [reviewed authored ledger](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_disputes.md), [reader and translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_readable_czech.md) and [public source metadata](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_notes.json) retain the detailed basis. Integration instructions and local crop paths are omitted from this public edition. No images/crops are redistributed.
 
 ## Source and locators
 
@@ -22,7 +22,7 @@ The second candidate-aware reader corroborated one rounded shoulder, a right des
 
 **Unresolved full symbol:** L06 C10, `m?ti`. The base at `[335,1486,369,1555]` is i-like/G07, compared with same-word final i at C12 (`[391,1492,420,1555]`) and same-card clear i at L01 C24 (`[790,1125,835,1180]`). Irregular lower-left/downward ink, preceding-glyph crowding and unresolved mark ownership prevent accepting the whole symbol or accent, as the second reader also noted. **Strict `m?ti` remains; no i or í is newly accepted.** `‹míti?›` is contextual only.
 
-*Míti* is the older/bookish infinitive *mít*. `Budeš mne míti … ráda` concerns continued affection, naturally translated as «любить меня»; it is not *máti* (“mother”).
+*Míti* is the older/bookish infinitive *mít*. `Budeš mne míti … ráda` concerns continued affection, naturally translated as “love me”; it is not *máti* (“mother”).
 
 ## Open phrases
 
@@ -32,7 +32,7 @@ L05 C19–22, `?ov?`: `chová?` is a contextual candidate, not inserted into the
 
 ### U03
 
-L09 `v pel` / L10 `?rimo?e`: `v Pelhřimově?` remains the already-published place-name proposal. Tail context `[60,1655,310,1735]` contains the seven remaining bodies; the first is compatible with a short shoulder, while the second unknown is affected by a neighboring descender/edge context. This does not settle h/v or all diacritics. The conservative Czech retains `v Pel[…]`, Russian `в Пель[…]`; neither identifies the location securely. Both masks remain.
+L09 `v pel` / L10 `?rimo?e`: `v Pelhřimově?` remains the already-published place-name proposal. Tail context `[60,1655,310,1735]` contains the seven remaining bodies; the first is compatible with a short shoulder, while the second unknown is affected by a neighboring descender/edge context. This does not settle h/v or all diacritics. The conservative Czech retains `v Pel[…]`; neither identifies the location securely. Both masks remain.
 
 ## C01
 
@@ -48,7 +48,7 @@ L09 `v pel` / L10 `?rimo?e`: `v Pelhřimově?` remains the already-published pla
 | L07 C01 / C12 | `tak` / `dosud` |
 | L09 C05 | `obdržela` |
 
-These thirteen unknowns plus U01 and the four unknowns in U02/U03 account for all eighteen retained masks. In the displayed Russian, `думающего` is additionally marked to retain the doubt corresponding to Czech `‹vzpomínajícího?›`; this changes uncertainty notation only, not Russian letters. The supplied authored translation remains preserved in the appendix.
+These thirteen unknowns plus U01 and the four unknowns in U02/U03 account for all eighteen retained masks.
 
 ## Names, normalization and remaining limits
 

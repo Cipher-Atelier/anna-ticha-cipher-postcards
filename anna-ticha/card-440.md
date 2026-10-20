@@ -10,14 +10,6 @@ Tisícerý dík, zlato moje, za drahý dopis. [Kři‹ž?›oval](uncertainties/
 
 Přeje ti navzájem rovněž [šťastn‹é?›](uncertainties/card-440.md#u05) a veselé svátky, líbá tě v [‹du?›chu](uncertainties/card-440.md#u06) [‹…; snad nesčíslněkráte?›](uncertainties/card-440.md#e01) věčně tvůj [Pepou‹š?›](uncertainties/card-440.md#u08).
 
-## Russian translation
-
-An interpretive translation of the Czech reader layer, with unresolved proposals marked.
-
-Тысяча благодарностей, золото моё, за дорогое письмо. Оно [‹пересеклось?›](uncertainties/card-440.md#u01) с моей [‹запиской?›](uncertainties/card-440.md#u02), посланной в Жировнице. На [‹этот раз?›](uncertainties/card-440.md#u03) буду [‹более прилежным?›](uncertainties/card-440.md#u04) и отвечу тебе как можно скорее.
-
-В ответ таких же [‹счастливых?›](uncertainties/card-440.md#u05) и весёлых праздников тебе желает и [‹мысленно?›](uncertainties/card-440.md#u06) [‹…; возможно, бесчисленное множество раз?›](uncertainties/card-440.md#e01) целует тебя вечно твой [Пепоу‹ш?›](uncertainties/card-440.md#u08).
-
 The printed Christmas greeting and handwritten date support the [Christmas occasion](uncertainties/card-440.md#occasion-and-translation); the cipher word remains the general `svátky` (“holidays”). The original 178/196 prediction and later post-test 188/196 replay remain distinct stages below.
 
 ## Preserved research report

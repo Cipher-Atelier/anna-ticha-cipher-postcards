@@ -1,12 +1,12 @@
 # Card 440: disputed places and editorial choices
 
-[Readable Czech](../card-440.md#readable-czech) · [Russian translation](../card-440.md#russian-translation) · [Saved literals](../card-440.md#saved-literal-readings) · [Card index](../readings.md)
+[Readable Czech](../card-440.md#readable-czech) · [Saved literals](../card-440.md#saved-literal-readings) · [Card index](../readings.md)
 
 20 October 2026. **Eight source positions remain unknown in the later replay; newly accepted cipher values: 0.** The original 23-entry prediction remains 178/196 mapped (18 unknown); the post-test learned-t replay remains 188/196 (eight unknown). These stages and their saved outputs are unchanged. E01 below is a separate repair of a mapped letter, not an unknown completion.
 
 ## Evidence and locators
 
-The [complete authored dispute ledger](../../research-updates/evidence/reader-edition-2026-10-20/card440/card-440-disputed-positions.txt), [Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card440/card-440-readable-czech.txt) and [Russian translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card440/card-440-russian-translation.txt) retain the full source rationale.
+The [complete authored dispute ledger](../../research-updates/evidence/reader-edition-2026-10-20/card440/card-440-disputed-positions.txt), [Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card440/card-440-readable-czech.txt) retain the full source rationale.
 
 Source: [1785 × 1175 institutional picture](https://api.hcportal.eu/media/5337/pc_hcp_440_pic.JPG), SHA-256 `5bf484c2c9869a8e8c80e986c379a76aa5349f139686b3296211d27864f7cedf`. Boxes below are native-image `[x1,y1,x2,y2]` display locators, not certified segmentation boundaries. P001–P196 are reconstructed locators in the saved nine-line order, excluding spaces and counting an emitted `ch` as one source unit. Line ranges: 001–022, 023–046, 047–069, 070–089, 090–110, 111–130, 131–156, 157–181, 182–196. They agree with learned-t anchors but are not a newly released complete frozen positional transcript.
 
@@ -69,9 +69,7 @@ P001, P015, P080, P085, P104, P121, P138, P161, P180 and P187 changed from `?` i
 
 The reviewed non-cipher source information is the printed “Veselé vánoce.” and handwritten `24/XII/1901`, supporting the Christmas occasion. This is separate from decipherment: the cipher reading still says general `svátky`, not a newly recovered `Vánoce`. The earlier report's narrower cipher-only statement remains below the new reader layer unchanged.
 
-Russian `запиской` renders proposed `lístkem`; a note or postcard is possible, without establishing the kind of mailing. `Более прилежным` interprets “better / more dutiful” in light of the following promise to reply. `Мысленно` represents both unknown positions in `v ‹du?›chu`. The final nickname retains its unresolved š.
-
-The displayed Russian translation additionally marks `‹счастливых?›` at U05 so the doubt in Czech `šťastn‹é?›` remains visible in both languages. This adds an uncertainty marker, not a letter or a new translation; the supplied original translation notes remain preserved in the appendix.
+The English translation will preserve the same source gaps and distinguish contextual wording from cipher values.
 
 ## Limits
 

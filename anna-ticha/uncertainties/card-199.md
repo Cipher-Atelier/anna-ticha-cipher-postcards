@@ -1,10 +1,10 @@
 # Card 199: disputed places and editorial choices
 
-[Readable Czech](../card-199.md#readable-czech) · [Russian translation](../card-199.md#russian-translation) · [Saved literal](../card-199.md#saved-literal-readings) · [Card index](../readings.md)
+[Readable Czech](../card-199.md#readable-czech) · [Saved literal](../card-199.md#saved-literal-readings) · [Card index](../readings.md)
 
 20 October 2026. **All ten source gaps remain unresolved; newly confirmed glyph values: 0.** The original 522/532 mapped-body count is unchanged and is not measured accuracy. Contextual completions, repairs of known letters and dictionary-supported interpretations are distinguished below.
 
-The [complete reviewed dispute data](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-disputes.json), [Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-cs.txt) and [Russian translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-ru.txt) retain the full authored detail. The [frozen uncertainty record](../../verification/anna-ticha/data/card199_uncertainties.json), including S01–S10 segmentation alternatives affecting some already mapped positions, remains unchanged. Completing question marks would not verify the whole card.
+The [complete reviewed dispute data](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-disputes.json), [Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-cs.txt) retain the full authored detail. The [frozen uncertainty record](../../verification/anna-ticha/data/card199_uncertainties.json), including S01–S10 segmentation alternatives affecting some already mapped positions, remains unchanged. Completing question marks would not verify the whole card.
 
 ## Source and locators
 
@@ -118,7 +118,7 @@ These proposals change a mapped letter or insert a letter; none is a new key ass
 
 `vplesu` becomes `V plesu` by spacing and capitalization; it is not replaced with `na plese`. `premlou vati` becomes `přemlouvati` by joining groups and restoring diacritics, without base-letter insertion or deletion. Historical `jíti` is retained.
 
-`Bez [tebe?] by mne tam nebylo nic bavilo` retains the older conditional syntax. Russian conveys that the writer would not have enjoyed the ball without the recipient; it does not say that he attended and was bored. Russian `[купить?]` represents proposed `[ke?] koupi`, whose two unknown source positions precede the already read `koupi`. Pepouš remains a textual nickname, not an established legal identity.
+`Bez [tebe?] by mne tam nebylo nic bavilo` retains the older conditional syntax. The condition means that the writer would not have enjoyed the ball without the recipient; it does not state that he attended and was bored. Proposed `[ke?] koupi` contains two unknown source positions before the already-read `koupi`. Pepouš remains a textual nickname, not an established legal identity.
 
 ## Reading order and remaining evidence limits
 

@@ -1,12 +1,12 @@
 # Card 198: disputed places and editorial choices
 
-[Readable Czech](../card-198.md#readable-czech) · [Russian translation](../card-198.md#russian-translation) · [Saved literal](../card-198.md#saved-literal-readings) · [Card index](../readings.md)
+[Readable Czech](../card-198.md#readable-czech) · [Saved literal](../card-198.md#saved-literal-readings) · [Card index](../readings.md)
 
 20 October 2026. **All seven source positions remain UNKNOWN; newly confirmed glyph values: 0.** Six contextual word proposals organize the published reading. The separate E01 insertion is not one of the seven unknown positions. Mapping coverage remains 336/343, not measured accuracy; the retained 344-position segmentation alternative is not adopted.
 
 ## Evidence and scope
 
-The [complete authored ledger in Russian](../../research-updates/evidence/reader-edition-2026-10-20/card198/card-198-uncertainty-ledger.txt) preserves the observations, alternatives, locators and limits summarized below. See also the [original Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card198/card-198-readable-czech.txt) and [Russian translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card198/card-198-russian-translation.txt).
+The detailed English ledger below preserves the source observations, alternatives, locators and limits. See also the [original Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card198/card-198-readable-czech.txt).
 
 Source: [HCPortal picture](https://api.hcportal.eu/media/4611/pc_hcp_198_pic.JPG), SHA-256 `56fb1120d2e38f783f63a3e4ca30c94c0c20762ac1d4796d138d183abf1976fe`, native 1785 × 1175, EXIF orientation 1. Coordinates below refer to the 1175 × 1785 image after a 90° counterclockwise rotation; boxes are `[x0,y0,x1,y1]` inspection windows, not exact stroke boundaries. The authored review checked the retained 4 October observations against the source fingerprint; these alternatives are not new discoveries. The 20 October review was context-aware, not blind.
 
@@ -72,7 +72,7 @@ Diacritics, capitalization and punctuation are restored for reading, not as proo
 
 ### E05
 
-Russian expresses the interpreted sense: `mé poručení` becomes «мой привет», and «о тебе» supplies the implied object of the closing `vzpomínajícího`. These are translation choices, not extra ciphertext signs. «Пожалуйста» renders proposed `laskavě`.
+Translation choices will be specified with the reviewed English layer; they will not be treated as additional ciphertext signs.
 
 ## What would change the status?
 

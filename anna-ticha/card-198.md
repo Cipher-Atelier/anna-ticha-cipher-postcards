@@ -12,17 +12,7 @@ Ve Svinech [‹vzpomeň?›](uncertainties/card-198.md#u04) sobě také na mne. 
 
 Nyní se asi mé srdéčko [‹připravuje?›](uncertainties/card-198.md#u06) do plesu. Škoda, že [‹nemohu?›](uncertainties/card-198.md#u07) nyní k tobě. Tisíc [‹dlouhých?›](uncertainties/card-198.md#e01) vášnivých pus od toužebně vzpomínajícího Pepouše.
 
-## Russian translation
-
-An interpretive translation of the Czech reader layer, with the same unresolved proposals marked.
-
-Сердечное спасибо, дорогая, за [‹сегодняшнюю?›](uncertainties/card-198.md#u01) милую записку. Я надеялся, что всё-таки смогу уехать в [‹Будейовице?›](uncertainties/card-198.md#u03), но это никак не удалось. Всё же я радуюсь мысли, что весной мы встретимся и я смогу страстно расцеловать моё единственное сердечко.
-
-В Свинах [‹вспомни?›](uncertainties/card-198.md#u04) также обо мне. Передай, [‹пожалуйста?›](uncertainties/card-198.md#u05), барышне Янковой мой привет.
-
-Сейчас моё сердечко, вероятно, [‹готовится?›](uncertainties/card-198.md#u06) к балу. Как жаль, что я сейчас [‹не могу?›](uncertainties/card-198.md#u07) к тебе. Тысяча [‹долгих?›](uncertainties/card-198.md#e01) страстных поцелуев от Пепоуша, с тоской вспоминающего о тебе.
-
-The reading order follows the original card 198 report. [Editorial and translation notes](uncertainties/card-198.md#editorial-operations) explain spelling, word joins, place/name interpretations and Russian wording.
+The reading order follows the original card 198 report. [Editorial and translation notes](uncertainties/card-198.md#editorial-operations) explain spelling, word joins, place/name interpretations and translation choices.
 
 ## Preserved research report
 

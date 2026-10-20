@@ -14,18 +14,6 @@ Budeš mne [‹míti?›](uncertainties/card-250.md#u01), drahoušku, v novém r
 
 *31. XII. 1902*
 
-## Russian translation
-
-An interpretive translation of the Czech reader layer, with unresolved proposals marked.
-
-[‹Желаю тебе?›](uncertainties/card-250.md#c01), Аниско, [‹моя›](uncertainties/card-250.md#s01) горячо любимая, от [‹искреннего сердечка?›](uncertainties/card-250.md#c01), [‹всегда?›](uncertainties/card-250.md#c01) [‹думающего?›](uncertainties/card-250.md#c01) только о тебе, всего самого прекрасного в новом году, особенно исполнения [‹всех желаний?›](uncertainties/card-250.md#c01), [‹которые?›](uncertainties/card-250.md#c01) твоя милая [‹душенька?›](uncertainties/card-250.md#c01) [[…]](uncertainties/card-250.md#u02)!
-
-Будешь ли ты, дорогая, и в новом году [‹любить меня?›](uncertainties/card-250.md#u01) [‹так?›](uncertainties/card-250.md#c01) же, как [‹до сих пор?›](uncertainties/card-250.md#c01)? Тысячу поцелуев посылает тебе вечно твой Пепоуш.
-
-[‹Получила?›](uncertainties/card-250.md#c01) ли ты в воскресенье мою записочку в [Пель[…]](uncertainties/card-250.md#u03)?
-
-31 декабря 1902 года
-
 The [two open phrases and their candidates](uncertainties/card-250.md#open-phrases) remain outside this running reconstruction. `Anisko` is the form of address within the cipher, not a statement about the postal-address side or a personal identification. The [strict revised proposal](../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_supported_reading.txt) changes only the initial n of `noje`; it retains `m?ti` and all eighteen masks.
 
 ## Preserved research report
