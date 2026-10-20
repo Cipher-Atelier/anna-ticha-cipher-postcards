@@ -2,41 +2,25 @@
 
 Author: Maxim Egorov
 
-**Reader status reconciled — 11 October 2026:** [all 37 card reports](readings.md) are indexed. Card199 has a complete 532-position apparatus; cards314,315,316,318,319,320,322,324,325,326,327,328 have contextual ledger replay, with card318 margins. [Experimental card330](card-330.md) has a separate graphical replay and thirteen retained masks. Other reports have different public evidence levels; [the root reader guide](../READING_GUIDE.md) and [verification scopes](../verification/README.md) explain the limits. Collector/comparison scripts for card330’s perceptual follow-ups remain local.
+## Start here — 20 October 2026
 
-A partial investigation of postcards addressed to Anna Tichá. The [complete original article](article.md) preserves the dated six-card study. The separate records preserve the 11 original published card entries and new records for cards 201, 202, 203, 205, 323, 375, 313, 317, 321, 447, 223, 247 and 248, including later tests and a retrospective reconstruction. These stages should not be pooled as independent predictions.
+1. [Current status and overview](../README.md#current-status--20-october-2026)
+2. [Cards and evidence levels](readings.md), including [card 204’s original reading and reported check](card-204.md)
+3. [Literal texts](saved-six-card-literals.md) and each card’s supporting evidence; [card 199](card-199.md) has the most complete public positional package
+4. [Methods](methods.md) and [dated historical audits](../research-updates/README.md), including the four Russian readers on unmerged draft PR #19
 
-- [Article](article.md)
-- [All card readings](readings.md)
-- [New card 201: unchanged-key reading](card-201.md)
-- [New card 202: delayed replies and unchanged feelings](card-202.md)
-- [New card 203: meeting plans; written year unresolved](card-203.md)
-- [New card 205: postal delay and a dining-room account](card-205.md)
-- [New card 323: a request for a likeness or portrait number](card-323.md)
-- [New card 375: building concerns and an unresolved date](card-375.md)
-- [Card 313: replies, a possible home visit and an unresolved month](card-313.md)
-- [Card 317: a brief affectionate message with one unresolved cluster](card-317.md)
-- [Card 321: thanks for a letter and an ambiguous hoped-for arrival](card-321.md)
-- [Card 447: slow recuperation and an unresolved date](card-447.md)
-- [Card 223: longing, travel questions and an affectionate sign-off](card-223.md)
-- [Card 247: a ball, an undelivered note and unresolved handwriting](card-247.md)
-- [Card 248: thanks, a ball invitation and an incomplete affectionate message](card-248.md)
-- [Later contextual-ledger cards and card318 margins](readings.md#preliminary-reading-recorded-on-9-october-2026)
-- [Experimental card330 and follow-ups](card-330.md)
-- [Methods and staged key](methods.md)
-- [Sources and evidence](sources.md)
-- [Public updates](updates.md)
-- [Unchanged partial key and mark-rule snapshot](key-and-rules.md)
-- [Unchanged saved six-card literal snapshot](saved-six-card-literals.md)
+The public card reports are partial readings. Cards 205 and 323 remain partial/conditional; high mapping coverage is not verified accuracy. The author-reported external check of 204 does not validate the full collection. Card 460 is another team’s key comparison, not our solve.
 
-Current result: partial readings across selected cards; the full collection remains open. The unchanged-key records add card 201 (567 mapped slots across 570–572 possible bodies), card 202 (738 across 741–743) and card 203 (450 across 451–453), with three unresolved source records each. Card 203’s source date remains 12 January 190[?]: the catalogue gives 1904, while separate readers proposed 1901 and 1907 without resolving the year. It is not a fixed chronology anchor. Card 205 adds 389/389 mapped bodies under the same key; source alternatives, seven moderate-confidence assignments (five with retained alternatives), spacing and interpretation remain unresolved. Its date and address had prior exposure in a separate source audit. Card 323 adds 331 mapped loci across 336–339 possible bodies and five unknowns; its likeness-number request establishes neither a photographic medium nor a numbering system or personal identity. Its date/address also had prior exposure. Card 375 adds 1,021 mapped loci, 26 unresolved body/function records and 1,045–1,050 possible bodies. Its source date is 19/VIII/190[?], distinct from catalogue 19 July 1904; prior glyph screening and date/address exposure are disclosed.
+## Preserved research
 
-The later five records add thanks and correspondence plans (313), a short greeting (317), a conditional anticipated arrival whose object is unresolved (321), a noisy recuperation account with an unresolved date (447), and longing and travel questions (223). Their complete preferred literals and alternative-count qualifications are preserved on the separate pages. Card 447’s fluent interpretation requires ten known-letter repairs and five unknown fills; card 223’s optional display changes no known base letters and fills neither unknown. These are different evidence strengths.
-
-Card 247 adds a partial reading of all four rows, with 297 mapped and 23 unknown fixed bodies plus nine unresolved joint groups. Those fixed-record counts are not whole-card coverage. Its incompatible source packages must not be combined to create a fluent text; no full date or sender identity is established.
-
-Card 248 adds a partial reading across sixteen rows in three unordered bands. It maps 514 of 531 fixed active-body records, with 17 unknowns, 24 further mapped but conditionally active bodies and 15 unknown-count spans. The literal supports affectionate correspondence, thanks and discussion of a ball invitation; full wording, activity choices, date and sender identity remain unresolved.
-
-Coverage counts mapped source units, not verified plaintext accuracy. Unknowns, editorial interpretations and unresolved dates remain explicit.
+| Record | What to expect |
+| --- | --- |
+| [Original article](article.md) | The dated six-card study: 198, 199, 250, 329, 440 and 453 |
+| [Card index](readings.md) | 37 preserved reading reports plus a separate card 204 status page |
+| [Saved six-card literals](saved-six-card-literals.md) | Exact 4 October snapshot, with unknowns and malformed strings |
+| [Key and mark rules](key-and-rules.md) | Exact historical staged-model snapshot; [later foundation qualifications](../research-updates/README.md#key-foundation-and-later-outcomes) apply |
+| [Sources and earlier work](sources.md) | Source links, credits and restrictions |
+| [Archived updates](updates.md) | Website export through 5 October; current navigation is separate |
+| [Verification](../verification/README.md) | Saved positional, contextual-ledger and experimental replay scopes |
 
 [Source website](https://maxim-egorov.dev/research/anna-ticha-postcards/) · [Repository overview](../README.md)

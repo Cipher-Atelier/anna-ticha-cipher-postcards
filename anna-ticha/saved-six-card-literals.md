@@ -1,5 +1,7 @@
 # Anna Tichá saved six-card literal readings
 
+**Current annotation — 20 October 2026:** this snapshot covers 198, 199, 250, 329, 440 and 453. [Card 204 has a separate status page](card-204.md); it is not included below. Consult the [current card index](readings.md) and [later qualifications](../research-updates/README.md#key-foundation-and-later-outcomes). The frozen text and every literal below remain unchanged.
+
 The following is the complete, unchanged text of the [published reference](https://maxim-egorov.dev/downloads/anna-ticha-postcards/anna-ticha-saved-literal-readings.txt). Its historical snapshot date and qualifications are preserved. Later card pages and updates do not revise this snapshot.
 
 [Investigation index](README.md) · [Methods](methods.md) · [Readings](readings.md)
