@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Fourth source batch; separate follow-up after PR23 merge",
+  "base_commit": "0028d110d1681f76f3ec5fc1d3a482c47f777889",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266
+  ],
+  "new_card_ids": [
+    263,
+    264,
+    265,
+    266
+  ],
+  "selected_totals": {
+    "rows": 249,
+    "encoded_bodies": 6579,
+    "expanded_letters": 6569,
+    "ch_occurrences": 63,
+    "unknowns": 73
+  },
+  "count_semantics": "Selected replay slots and unknown masks, not exact physical glyph totals. Explicit ordinary numeral spans remain in ledgers but outside encoded/unknown counts. Unknown clusters retain null physical length.",
+  "new_preserved_numeral_spans": 4,
+  "new_source_work": "Two frozen related AI source-only readings per card; key visible; later reconciliation nonblind. Source, raw and initial snapshot hashes retained. No independent human/external confirmation.",
+  "address_faces_checked": 17,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "263 current editorial TOBE repair bracketed/ledgered; erroneous NESMIRNE letter-repair rationale removed. Immutable initial snapshot preserved.",
+    "264/266 inherited row observations labeled as first-reader evidence; current physical row counts null. Initial snapshots preserved.",
+    "Address-audit stale nine-face limit corrected to explicit current17; four new observations were complete-face contact views.",
+    "Queue partial list includes262 because recorded segmentation remains unresolved despite zero masks."
+  ],
+  "checks": [
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 17
+    },
+    {
+      "command": "python3 -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 489
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS: no confirmed defects or unresolved review findings",
+    "verified": "All24 tests and17-card replay; source/raw/snapshot hashes, current uncertainty spans, editorial corrections, links and absence of private paths. Previous13currentcards, history, key, decoder and checker unchanged.",
+    "limits": "Research-package consistency only; source-image ambiguities remain."
+  },
+  "next_priority_not_started": [
+    267,
+    268,
+    269,
+    270
+  ],
+  "privacy": "Only derived text/code/metadata; no scans, PDF, email, ordinary address text or full API response in Git.",
+  "manifest_expected_entries": 489
+}
