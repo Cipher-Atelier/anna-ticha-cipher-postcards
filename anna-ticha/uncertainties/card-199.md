@@ -6,6 +6,10 @@
 
 The [reviewed English translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-en.txt) [complete reviewed dispute data](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-disputes.json) and [Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-cs.txt) retain the full authored detail. The [frozen uncertainty record](../../verification/anna-ticha/data/card199_uncertainties.json), including S01–S10 segmentation alternatives affecting some already mapped positions, remains unchanged. Completing question marks would not verify the whole card.
 
+## Legacy Rudolfina and the later audit
+
+**Publication qualification — 20 October 2026.** The reader's Rudolfina and saved `rudolfina` belong to the historical staged-key output. The later [bounded canonical audit](../../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md), [record `199.rudolfina`](../../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.json), records `h2t38?4m6` → `RUDOL?INA`. The separately visible low v-like legacy G16 body remains unassigned under the supplied 22-entry 204/460 key, which has no F assignment. Canonical `f` means V and denotes a different tall-looped body. The legacy literal and running historical interpretation remain unchanged; neither supplies a new assignment or a complete bridge between key notations.
+
 ## Source and locators
 
 [Original 1785 × 1175 picture](https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG), SHA-256 `f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce`. Boxes below are half-open `[x0,y0,x1,y1]` windows in the original image before the stated quarter-turn; they are context windows, not ink-tight masks. Graphical exemplar IDs are recorded in the linked JSON. This is a context-aware editorial reconstruction, not a new source-secure decipherment.

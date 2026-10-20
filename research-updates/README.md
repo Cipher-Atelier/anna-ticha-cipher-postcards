@@ -4,6 +4,10 @@
 
 Navigation checked on 20 October 2026. **The 13–14 October packages below are preserved in the publication from [PR #19](https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/pull/19).** Links to them are pinned to `d1949dc` so the cited evidence stays identifiable. This index summarizes existing public records; it adds no decryption or source judgment.
 
+## Confirmed-key continuation — 20 October 2026
+
+The [new continuation package](2026-10-20-confirmed-key-continuation/README.md) contains twenty-one candidate readings: 242, 244, 249, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269 and 270. Separate literal, editorial Czech and English layers retain uncertainties; 257, 267 and 269 offer bounded readable excerpts. Two related AI source readings per card and subsequent nonblind reconciliation do not constitute external confirmation. The [card route](../anna-ticha/readings.md#new-candidate-readings--20-october-2026), [official-catalogue inventory and 263-record queue](2026-10-20-confirmed-key-continuation/README.md#catalogue-and-next-work), and [reproduction scope](2026-10-20-confirmed-key-continuation/README.md#reproduction) separate source acquisition, candidate readings and mechanical replay. No 263-card decipherment is claimed. The 13–14 October records below retain their historical scope.
+
 ## Evidence status
 
 - **Confirmed result:** confirmation applies only to the stated check and evidence. Successful replay confirms a saved calculation, not historical accuracy. The [card 204 note](../anna-ticha/card-204.md) records an **author-reported external check**, with original text layers and twelve caveats; it does not supply public independent key replication or a complete positional package.

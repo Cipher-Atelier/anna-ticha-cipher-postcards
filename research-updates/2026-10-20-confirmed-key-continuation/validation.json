@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-20",
+  "scope": "First bounded confirmed-key source batch; historical corpus completion not claimed",
+  "base_commit": "83de9f8ab71ced38afe0773c0187ff8a7357d727",
+  "commands": [
+    {
+      "command": "python3 -m unittest -v test_decode",
+      "cwd": "experiment directory",
+      "result": "PASS",
+      "tests": 10
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "cwd": "repository root",
+      "result": "PASS",
+      "anchor_rows": 14,
+      "anchor_bodies": 571,
+      "anchor_known_expanded_letters": 576,
+      "anchor_CH_bodies": 5,
+      "cards": [
+        253,
+        254,
+        255,
+        256,
+        258
+      ]
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "cwd": "repository root",
+      "result": "PASS baseline412 entries; final extension checked after this record is frozen",
+      "manifest_entries": 412,
+      "final_manifest_expected_entries": 433
+    },
+    {
+      "command": "python3 -m unittest discover -s verification/tests -v",
+      "cwd": "repository root",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "old-six audit standard-library replay documented in old-six-audit.md",
+      "result": "PASS",
+      "cards": 6,
+      "loci": 14
+    }
+  ],
+  "review": {
+    "reviewer_role": "independent read-only code-reviewer",
+    "model": "gpt-6.1-sol",
+    "seed": null,
+    "temperature": null,
+    "first_pass": "No confirmed defects; ready for draft as candidate research with limitations. Source256/258 independent checks remain pending.",
+    "scope_limit": "Initial review covered decoder,anchor,key,five candidate cards,old-six audit; final README,queue,inventory and latest253 source changes require final follow-up review.",
+    "final_followup_status": "PASS; no confirmed defects. Ready for draft after mechanical validation-record and manifest update.",
+    "final_followup_scope": "Final README, queue, source inventory, latest253 nonblind reinspection, allfive candidate counts; no claim of historical/source accuracy.",
+    "final_followup_totals": {
+      "visual_rows": 81,
+      "encoded_bodies": 2084,
+      "known_expanded_letters": 2091,
+      "ch_bodies": 14,
+      "unknown_bodies": 7
+    },
+    "review_limit": "Related AI review of bounded scientific/code consistency; not independent human/external confirmation."
+  },
+  "evidence_limits": [
+    "Substitution consistency does not establish visual accuracy or historical truth.",
+    "Source253/254/255 have separately frozen related AI readings and nonblind reconciliation.",
+    "Source256/258 have one source-only reader; blind second reading pending.",
+    "Source inventory is55 explicit recorded card IDs, not full historical catalogue."
+  ],
+  "privacy": "Only derived text/code/metadata included; scans, PDF and private email remain outside repository.",
+  "additional_checks": [
+    "Six-card14-locus literals and unknown ledgers replayed exactly.",
+    "All2521 source-inventory URL line locations match tracked evidence;55IDs83URLs228files.",
+    "Queue55IDs equal inventory IDs.",
+    "git diff --check passed.",
+    "Alladded artifact extensions are JSON/Markdown/Python; scan found no private filesystem paths, embedded image data or email addresses."
+  ]
+}

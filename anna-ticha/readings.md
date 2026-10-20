@@ -6,11 +6,13 @@ This is a navigation index to the full preserved records, not a new edition or a
 
 Connected Czech readings and English translations for the original six-card study are available below. `‹…?›` marks a contextual restoration or repair; each marker links to a separate dispute ledger. Genuine gaps remain visible. The saved literals and original test stages remain on each page.
 
+These reader editions interpret the **historical staged key and its secondary rules**, retaining their saved outputs and test stages. They are separate from the current supplied **22-entry 204/460 key**. The later [14-locus reinspection of the six older cards](../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md), with its [machine-readable observations](../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.json), is a bounded, nonblind audit rather than six new full-card readings or a complete bridge between the two keys.
+
 | Card | Read the text | Separate evidence status and disputes |
 | --- | --- | --- |
 | 198 | [Czech](card-198.md#readable-czech) · [English](card-198.md#english-translation) | [Seven masked positions and a separate u insertion](uncertainties/card-198.md); no newly confirmed glyph values |
 | 199 | [Czech](card-199.md#readable-czech) · [English](card-199.md#english-translation) | [Ten source gaps, five substantive repairs and dictionary notes](uncertainties/card-199.md); no newly confirmed glyph values |
-| 250 | [Czech](card-250.md#readable-czech) · [English](card-250.md#english-translation) | [Local n → m correction under the inherited key](uncertainties/card-250.md#s01); all eighteen original unknowns retained |
+| 250 | [Czech](card-250.md#readable-czech) · [English](card-250.md#english-translation) | [Source-based MOJE candidate used in the interpretation](uncertainties/card-250.md#s01); later canonical audit retains `?OJE` and M/N alternatives; all eighteen original unknowns retained |
 | 329 | [Czech](card-329.md#readable-czech) · [English](card-329.md#english-translation) | [Primary 223/298 and secondary 238/298 remain separate](uncertainties/card-329.md); waltz modifier and crossed closing remain gaps |
 | 440 | [Czech](card-440.md#readable-czech) · [English](card-440.md#english-translation) | [Eight unknowns in the later replay and a separate m → n proposal](uncertainties/card-440.md); first prediction and post-test replay stay distinct |
 | 453 | [Partial Czech](card-453.md#source-punctuated-partial-czech) · [Candidate Czech](card-453.md#readable-czech) · [English](card-453.md#english-translation) | [138/167 mapped, 29 gaps unchanged](uncertainties/card-453.md); possible 14 and reconstructed closing remain unproved |
@@ -22,6 +24,34 @@ Connected Czech readings and English translations for the original six-card stud
 - [Card 204: Christmas wishes, original text and reported external check](card-204.md). The author reports manual validation on 20 October. The original diplomatic text, editorial Czech, English translation and twelve-entry uncertainty ledger are published separately from the 37 preserved partial reports below; no complete positional/replay package is added.
 - Card 460: another team’s reconstructed-key comparison, not a solve produced here. See the [comparison limit](card-204.md#card-460-comparison).
 - [Four later Russian readers and English explanations](../research-updates/README.md#four-russian-readers) are preserved in the publication from **PR #19**. Its historical 71 conditional reports are not 71 solved cards or a complete public reader index.
+
+## New candidate readings — 20 October 2026
+
+The [confirmed-key continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) adds twenty-one source-based candidates with separate literal, editorial Czech and English layers. Each has two separately frozen, related AI source readings; later reconciliation is nonblind. These are not external human confirmation or solved-card claims. Cards 257, 267 and 269 offer bounded readable excerpts; other cards also retain source and interpretation uncertainties, including cards with no displayed masks. These records are separate from the 37 preserved reports below.
+
+- [Card 242](../research-updates/2026-10-20-confirmed-key-continuation/cards/242.md)
+- [Card 244](../research-updates/2026-10-20-confirmed-key-continuation/cards/244.md)
+- [Card 249](../research-updates/2026-10-20-confirmed-key-continuation/cards/249.md)
+- [Card 253](../research-updates/2026-10-20-confirmed-key-continuation/cards/253.md)
+- [Card 254](../research-updates/2026-10-20-confirmed-key-continuation/cards/254.md)
+- [Card 255](../research-updates/2026-10-20-confirmed-key-continuation/cards/255.md)
+- [Card 256](../research-updates/2026-10-20-confirmed-key-continuation/cards/256.md)
+- [Card 257](../research-updates/2026-10-20-confirmed-key-continuation/cards/257.md)
+- [Card 258](../research-updates/2026-10-20-confirmed-key-continuation/cards/258.md)
+- [Card 259](../research-updates/2026-10-20-confirmed-key-continuation/cards/259.md)
+- [Card 260](../research-updates/2026-10-20-confirmed-key-continuation/cards/260.md)
+- [Card 261](../research-updates/2026-10-20-confirmed-key-continuation/cards/261.md)
+- [Card 262](../research-updates/2026-10-20-confirmed-key-continuation/cards/262.md)
+- [Card 263](../research-updates/2026-10-20-confirmed-key-continuation/cards/263.md)
+- [Card 264](../research-updates/2026-10-20-confirmed-key-continuation/cards/264.md)
+- [Card 265](../research-updates/2026-10-20-confirmed-key-continuation/cards/265.md)
+- [Card 266](../research-updates/2026-10-20-confirmed-key-continuation/cards/266.md)
+- [Card 267](../research-updates/2026-10-20-confirmed-key-continuation/cards/267.md)
+- [Card 268](../research-updates/2026-10-20-confirmed-key-continuation/cards/268.md)
+- [Card 269](../research-updates/2026-10-20-confirmed-key-continuation/cards/269.md)
+- [Card 270](../research-updates/2026-10-20-confirmed-key-continuation/cards/270.md)
+
+The [official-catalogue inventory](../research-updates/2026-10-20-confirmed-key-continuation/README.md#catalogue-and-next-work) and [263-record queue](../research-updates/2026-10-20-confirmed-key-continuation/queue.json) distinguish catalogue records, acquired sources and candidate readings; they are not 263 solutions. The [reproduction instructions](../research-updates/2026-10-20-confirmed-key-continuation/README.md#reproduction) state what the saved replay checks establish.
 
 ## Evidence levels
 

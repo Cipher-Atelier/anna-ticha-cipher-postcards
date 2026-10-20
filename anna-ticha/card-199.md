@@ -4,6 +4,8 @@
 
 **Reader edition — 20 October 2026.** A readable reconstruction of the published partial fixed-key reading; no newly confirmed glyph values. All ten source gaps remain. `‹…?›` marks contextual completion or a substantive repair, with linked notes. Accents and punctuation are editorial.
 
+**Publication qualification — 20 October 2026.** This reader interprets the historical staged-key output. Its `rudolfina` / Rudolfina is retained as that legacy reading and interpretation. The later [22-entry-key audit](../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md) records `199.rudolfina` as `RUDOL?INA`: the low source body remains unassigned because that key has no F assignment; canonical `f` means V. No new value or complete legacy-to-current-key bridge is asserted. See the [separate ledger](uncertainties/card-199.md#legacy-rudolfina-and-the-later-audit).
+
 ## Readable Czech
 
 Vřelý dík za drahý lístek. Byl jsem žárliv na vaši sanici, dokud jsem nevěděl, s kým jsi jela.

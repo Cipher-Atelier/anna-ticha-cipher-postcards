@@ -1,0 +1,611 @@
+{
+  "audit_id": "old-six-visual-loci-20261020",
+  "date": "2026-10-20",
+  "model": "gpt-6.1-sol",
+  "temperature": null,
+  "seed": null,
+  "context_exposure": "Nonblind: prior literal strings, audit locators, confirmed key and repository discussions were seen before this source recheck. No independent confirmation claimed.",
+  "scope": "Bounded reinspection of specified disputed loci in six saved picture-side originals, not full six-card transcription or full six-card validation.",
+  "tools": [
+    "Pillow for private rotations/crops only",
+    "view_image for full source contexts and enlarged loci",
+    "decode.py for fixed canonical substitution",
+    "hashlib for saved original SHA256 verification"
+  ],
+  "coordinate_convention": "Integer pixel xyxy rectangles with exclusive right/bottom edges; orientation_degrees_ccw rotates original 1785x1175 image before applying oriented bbox. Original bboxes also supplied. Context windows intentionally include neighboring ink.",
+  "privacy": "Only derived original observations and metadata published. Source image bytes and private input history are omitted. No source refetch.",
+  "cards": [
+    {
+      "card_id": "198",
+      "source": {
+        "card_id": 198,
+        "url": "https://api.hcportal.eu/media/4611/pc_hcp_198_pic.JPG",
+        "sha256": "56fb1120d2e38f783f63a3e4ca30c94c0c20762ac1d4796d138d183abf1976fe",
+        "bytes": 1242453,
+        "native_size": [
+          1785,
+          1175
+        ]
+      },
+      "status": "partial_locus_audit",
+      "complete_source_context_inspected": true,
+      "full_transcript": false,
+      "loci": [
+        {
+          "locus_id": "198.close.dlohych",
+          "historical_literal_or_label": "dlohych",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            695,
+            1445,
+            918,
+            1520
+          ],
+          "original_bbox_xyxy": [
+            265,
+            695,
+            340,
+            918
+          ],
+          "locator": "Main inscription line 10, after tisic and before vasni-",
+          "ciphertext": "t83r1ř",
+          "transcription": [],
+          "literal": "DLOHYCH",
+          "encoded_bodies": 6,
+          "expanded_letters": 7,
+          "ch_occurrences": 1,
+          "unknowns": [],
+          "visual_observation": "Six visible bodies: crossed t-like, double-loop 8, 3, short-shoulder r, 1, roofed r. No 2-shaped body is visible between 3 and r.",
+          "decision": "Retain DLOHYCH; do not insert U. Roofed final r is transcribed ř as one CH body.",
+          "uncertainties": []
+        }
+      ]
+    },
+    {
+      "card_id": "199",
+      "source": {
+        "card_id": 199,
+        "url": "https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG",
+        "sha256": "f50ac01e9e219b7f50d79a2373a81355ce81dbf94da43b12be1b1e7ff9a6a9ce",
+        "bytes": 1369530,
+        "native_size": [
+          1785,
+          1175
+        ]
+      },
+      "status": "partial_locus_audit",
+      "complete_source_context_inspected": true,
+      "full_transcript": false,
+      "loci": [
+        {
+          "locus_id": "199.q-g",
+          "historical_literal_or_label": "q/g discriminator",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            640,
+            1135,
+            850,
+            1245
+          ],
+          "original_bbox_xyxy": [
+            540,
+            640,
+            650,
+            850
+          ],
+          "locator": "C199.L01.T08 and T09; L01.G02/G03",
+          "ciphertext": "t4q g6",
+          "transcription": [],
+          "literal": "DIK ZA",
+          "encoded_bodies": 5,
+          "expanded_letters": 5,
+          "ch_occurrences": 0,
+          "unknowns": [],
+          "visual_observation": "Two adjacent looped-descender forms differ: the first has a returning looped lower stroke, while the next has a shorter open hooked tail. Read in the complete dik za group, not isolated legacy labels.",
+          "decision": "Local visual reading q/g supports K/Z in these two occurrences only; no complete G-class bridge is inferred.",
+          "uncertainties": []
+        },
+        {
+          "locus_id": "199.ch1",
+          "historical_literal_or_label": "CH example",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            666,
+            1340,
+            728,
+            1455
+          ],
+          "original_bbox_xyxy": [
+            330,
+            666,
+            445,
+            728
+          ],
+          "locator": "C199.L05.T15; start of group chvili",
+          "ciphertext": "ř",
+          "transcription": [],
+          "literal": "CH",
+          "encoded_bodies": 1,
+          "expanded_letters": 2,
+          "ch_occurrences": 1,
+          "unknowns": [],
+          "visual_observation": "A short shoulder body bears a distinct overhead two-wing roof. The neighboring tall looped glyph belongs to the next body.",
+          "decision": "Retain roofed-r ř as one encoded CH body.",
+          "uncertainties": []
+        },
+        {
+          "locus_id": "199.rudolfina",
+          "historical_literal_or_label": "rudolfina; legacy G16/f",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            620,
+            1510,
+            930,
+            1620
+          ],
+          "original_bbox_xyxy": [
+            165,
+            620,
+            275,
+            930
+          ],
+          "locator": "C199.L09.G06; disputed C199.L09.T28 original bbox [150,758,271,819]",
+          "ciphertext": "h2t38?4m6",
+          "transcription": [],
+          "literal": "RUDOL?INA",
+          "encoded_bodies": 9,
+          "expanded_letters": 8,
+          "ch_occurrences": 0,
+          "unknowns": [
+            {
+              "offset": 5,
+              "body_index": 5,
+              "symbol": "?",
+              "kind": "unknown_glyph"
+            }
+          ],
+          "visual_observation": "Between the 8-shaped body and 4-shaped body is a low open v-like body, without the tall loop-and-descender structure of canonical f (V). It remains visibly present.",
+          "decision": "Retain RUDOL?INA under this key. Do not assign F, delete the glyph, or equate legacy f with canonical f.",
+          "uncertainties": [
+            {
+              "offset": 5,
+              "description": "Unassigned low v-like body; legacy G16. New key has no assigned F."
+            }
+          ]
+        },
+        {
+          "locus_id": "199.curnalistu",
+          "historical_literal_or_label": "curnalistu",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            250,
+            1570,
+            575,
+            1690
+          ],
+          "original_bbox_xyxy": [
+            95,
+            250,
+            215,
+            575
+          ],
+          "locator": "C199.L10.G02; first body C199.L10.T08",
+          "ciphertext": "s2hm684cd2",
+          "transcription": [],
+          "literal": "CURNALISTU",
+          "encoded_bodies": 10,
+          "expanded_letters": 10,
+          "ch_occurrences": 0,
+          "unknowns": [],
+          "visual_observation": "The first glyph is a compact s-like body with an angular upper turn and lower curve, not the looped-descender q/g pair. The remaining group is visibly continuous.",
+          "decision": "Retain CURNALISTU; no visually supported substitution to Z accepted.",
+          "uncertainties": []
+        },
+        {
+          "locus_id": "199.ch2",
+          "historical_literal_or_label": "CH example",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            540,
+            1570,
+            730,
+            1690
+          ],
+          "original_bbox_xyxy": [
+            95,
+            540,
+            215,
+            730
+          ],
+          "locator": "C199.L10.T19; group chtel",
+          "ciphertext": "řd58",
+          "transcription": [],
+          "literal": "CHTEL",
+          "encoded_bodies": 4,
+          "expanded_letters": 5,
+          "ch_occurrences": 1,
+          "unknowns": [],
+          "visual_observation": "A detached roof sits above the short shoulder, followed by crossed d-like body, 5 and 8.",
+          "decision": "Retain CHTEL; CH occupies one body.",
+          "uncertainties": []
+        },
+        {
+          "locus_id": "199.velkoleba",
+          "historical_literal_or_label": "velkoleba",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": -90,
+          "oriented_bbox_xyxy": [
+            385,
+            1430,
+            715,
+            1540
+          ],
+          "original_bbox_xyxy": [
+            1430,
+            460,
+            1540,
+            790
+          ],
+          "locator": "C199.R01.G03; disputed C199.R01.T22 original bbox [1415,550,1540,621]",
+          "ciphertext": "f58q385?6",
+          "transcription": [],
+          "literal": "VELKOLE?A",
+          "encoded_bodies": 9,
+          "expanded_letters": 8,
+          "ch_occurrences": 0,
+          "unknowns": [
+            {
+              "offset": 7,
+              "body_index": 7,
+              "symbol": "?",
+              "kind": "unknown_glyph"
+            }
+          ],
+          "visual_observation": "The penultimate glyph has a descending stem and short rising shoulder. At this scale its p/r boundary remains ambiguous; it is not a tall looped b glyph.",
+          "decision": "Keep VELKOLE?A masked. B/H are local alternatives; P is not accepted merely to form velkolepa.",
+          "uncertainties": [
+            {
+              "offset": 7,
+              "canonical_candidates": [
+                "p",
+                "r"
+              ],
+              "literal_candidates": [
+                "B",
+                "H"
+              ],
+              "description": "Short shoulder and descender remain insufficient for a unique p/r decision."
+            }
+          ]
+        },
+        {
+          "locus_id": "199.avaak",
+          "historical_literal_or_label": "avaak",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": -90,
+          "oriented_bbox_xyxy": [
+            825,
+            1525,
+            1080,
+            1600
+          ],
+          "original_bbox_xyxy": [
+            1525,
+            95,
+            1600,
+            350
+          ],
+          "locator": "C199.R03.G08; disputed C199.R03.T38 original bbox [1518,189,1650,250]",
+          "ciphertext": "6f66q",
+          "transcription": [],
+          "literal": "AVAAK",
+          "encoded_bodies": 5,
+          "expanded_letters": 5,
+          "ch_occurrences": 0,
+          "unknowns": [],
+          "visual_observation": "Five bodies are visible. The two interior bodies after the looped f are 6-shaped: both show a closed lower bowl and upper hook. The final q has a long terminal flourish.",
+          "decision": "Retain AVAAK. Do not substitute S for the first interior A.",
+          "uncertainties": []
+        },
+        {
+          "locus_id": "199.vyradne",
+          "historical_literal_or_label": "vyradne",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": -90,
+          "oriented_bbox_xyxy": [
+            745,
+            1580,
+            975,
+            1660
+          ],
+          "original_bbox_xyxy": [
+            1580,
+            200,
+            1660,
+            430
+          ],
+          "locator": "C199.R04.G06; T30 through T36",
+          "ciphertext": "f1h6tm5",
+          "transcription": [],
+          "literal": "VYRADNE",
+          "encoded_bodies": 7,
+          "expanded_letters": 7,
+          "ch_occurrences": 0,
+          "unknowns": [],
+          "visual_observation": "Seven bodies are visible; after f and 1 comes a single tall looped h-like glyph. The middle shoulder is part of that connected body. No separate short r-shaped H body is established.",
+          "decision": "Retain VYRADNE. No extra H is inserted.",
+          "uncertainties": []
+        }
+      ]
+    },
+    {
+      "card_id": "250",
+      "source": {
+        "card_id": 250,
+        "url": "https://api.hcportal.eu/media/4767/pc_hcp_250_pic.JPG",
+        "sha256": "067ff6b7e474e3a10894eb61cc8e8c5143f0a1ae515210c518d4330496ef3858",
+        "bytes": 1454486,
+        "native_size": [
+          1785,
+          1175
+        ]
+      },
+      "status": "partial_locus_audit",
+      "complete_source_context_inspected": true,
+      "full_transcript": false,
+      "loci": [
+        {
+          "locus_id": "250.anisko",
+          "historical_literal_or_label": "anisko",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            315,
+            1110,
+            640,
+            1205
+          ],
+          "original_bbox_xyxy": [
+            580,
+            315,
+            675,
+            640
+          ],
+          "locator": "Upper inscription line 1, address word after ti",
+          "ciphertext": "6m4cq3",
+          "transcription": [],
+          "literal": "ANISKO",
+          "encoded_bodies": 6,
+          "expanded_letters": 6,
+          "ch_occurrences": 0,
+          "unknowns": [],
+          "visual_observation": "The fourth body is a low open c-shaped curve, followed by a loop-and-descender q. No distinct s-shaped replacement is established. Printed stems and watermark cross the group.",
+          "decision": "Retain ANISKO, with background interference disclosed. ANICKO would require changing the fourth body.",
+          "uncertainties": []
+        },
+        {
+          "locus_id": "250.noje",
+          "historical_literal_or_label": "noje",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 90,
+          "oriented_bbox_xyxy": [
+            480,
+            1110,
+            820,
+            1200
+          ],
+          "original_bbox_xyxy": [
+            585,
+            480,
+            675,
+            820
+          ],
+          "locator": "Upper inscription line 1, immediately after address word",
+          "ciphertext": "?375",
+          "transcription": [],
+          "literal": "?OJE",
+          "encoded_bodies": 4,
+          "expanded_letters": 3,
+          "ch_occurrences": 0,
+          "unknowns": [
+            {
+              "offset": 0,
+              "body_index": 0,
+              "symbol": "?",
+              "kind": "unknown_glyph"
+            }
+          ],
+          "visual_observation": "Initial low humped body is partly affected by printed vertical stems. It appears to have one principal shoulder, closer to n in the lower nm5 group than the following m; the hump boundary is not secure enough for unique classification.",
+          "decision": "Retain ?OJE as the conservative audit literal. n/M is visually favored, but MOJE is a candidate rather than an accepted correction of historical NOJE.",
+          "uncertainties": [
+            {
+              "offset": 0,
+              "canonical_candidates": [
+                "n",
+                "m"
+              ],
+              "literal_candidates": [
+                "M",
+                "N"
+              ],
+              "description": "Printed background and hump boundary prevent unique n/m classification; compare lower text nm5 at oriented [180,1490,395,1575]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "card_id": "329",
+      "source": {
+        "card_id": 329,
+        "url": "https://api.hcportal.eu/media/5004/pc_hcp_329_pic.JPG",
+        "sha256": "6627d9a804391756803089c3094e808d00e70b9f1a44c34a26b2cef9c90c90cf",
+        "bytes": 1306867,
+        "native_size": [
+          1785,
+          1175
+        ]
+      },
+      "status": "partial_locus_audit",
+      "complete_source_context_inspected": true,
+      "full_transcript": false,
+      "loci": [
+        {
+          "locus_id": "329.nelreba",
+          "historical_literal_or_label": "nelreba",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 180,
+          "oriented_bbox_xyxy": [
+            550,
+            925,
+            810,
+            1010
+          ],
+          "original_bbox_xyxy": [
+            975,
+            165,
+            1235,
+            250
+          ],
+          "locator": "Section II, second horizontal line, first group",
+          "ciphertext": "m58h5p6",
+          "transcription": [],
+          "literal": "NELREBA",
+          "encoded_bodies": 7,
+          "expanded_letters": 7,
+          "ch_occurrences": 0,
+          "unknowns": [],
+          "visual_observation": "The third body is a closed double-loop 8, clearly distinct from a crossed t-like form. The following body has a tall loop and right shoulder. The overhead descending loop crosses nearby from the preceding line and is not a new accepted mark on this group.",
+          "decision": "Retain NELREBA. NETREBA would change the visible third body.",
+          "uncertainties": []
+        }
+      ]
+    },
+    {
+      "card_id": "440",
+      "source": {
+        "card_id": 440,
+        "url": "https://api.hcportal.eu/media/5337/pc_hcp_440_pic.JPG",
+        "sha256": "5bf484c2c9869a8e8c80e986c379a76aa5349f139686b3296211d27864f7cedf",
+        "bytes": 1254445,
+        "native_size": [
+          1785,
+          1175
+        ]
+      },
+      "status": "partial_locus_audit",
+      "complete_source_context_inspected": true,
+      "full_transcript": false,
+      "loci": [
+        {
+          "locus_id": "440.mescislnekrate",
+          "historical_literal_or_label": "mescislnekrate",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 0,
+          "oriented_bbox_xyxy": [
+            1340,
+            1020,
+            1680,
+            1105
+          ],
+          "original_bbox_xyxy": [
+            1340,
+            1020,
+            1680,
+            1105
+          ],
+          "locator": "Lower-right inscription, line 8, group following v duchu",
+          "ciphertext": "n5cs4c8m5qh6d5",
+          "transcription": [],
+          "literal": "MESCISLNEKRATE",
+          "encoded_bodies": 14,
+          "expanded_letters": 14,
+          "ch_occurrences": 0,
+          "unknowns": [],
+          "visual_observation": "The initial body has one low arch/shoulder; later in the same group the m-like body has two. The remaining sequence includes clear low c/s-shaped curves, 4 and 8, then q and a tall looped h.",
+          "decision": "Retain MESCISLNEKRATE in this canonical reading; do not change its initial M to N to improve Czech.",
+          "uncertainties": []
+        }
+      ]
+    },
+    {
+      "card_id": "453",
+      "source": {
+        "card_id": 453,
+        "url": "https://api.hcportal.eu/media/5376/pc_hcp_453_pic.JPG",
+        "sha256": "b467dff59df57f807ec48b3332ebb7d74635106df3c91f882ec4c1897f057978",
+        "bytes": 1088727,
+        "native_size": [
+          1785,
+          1175
+        ]
+      },
+      "status": "partial_locus_audit",
+      "complete_source_context_inspected": true,
+      "full_transcript": false,
+      "loci": [
+        {
+          "locus_id": "453.numeral14",
+          "historical_literal_or_label": "yi",
+          "notation": "pdf204-canonical",
+          "orientation_degrees_ccw": 0,
+          "oriented_bbox_xyxy": [
+            1290,
+            870,
+            1380,
+            950
+          ],
+          "original_bbox_xyxy": [
+            1290,
+            870,
+            1380,
+            950
+          ],
+          "locator": "Main inscription line 3, between pred and dny",
+          "ciphertext": "14",
+          "transcription": [
+            {
+              "offset": 0,
+              "text": "14",
+              "kind": "numeral"
+            }
+          ],
+          "literal": "14",
+          "encoded_bodies": 0,
+          "expanded_letters": 0,
+          "ch_occurrences": 0,
+          "unknowns": [
+            {
+              "offset": 0,
+              "body_index": null,
+              "symbol": "14",
+              "kind": "numeral"
+            }
+          ],
+          "visual_observation": "The pair has conventional 1 and 4 forms, is separated from the neighboring cipher groups and bears two parallel horizontal underline strokes.",
+          "decision": "Prefer a local numeral interpretation 14 with explicit numeral metadata; retain YI as the alternative obtained by treating the same shapes as ordinary cipher bodies. This does not establish a universal underline rule or identify a referenced card.",
+          "uncertainties": [
+            {
+              "description": "Numeral-versus-cipher classification is an interpretation of the marked pair, not an additional key mapping.",
+              "alternative_literal": "YI",
+              "alternative_encoded_bodies": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No global canonical-ASCII to legacy G-class mapping is inferred from plaintext values.",
+    "No old key, literal, manifest or report is modified.",
+    "Single nonblind AI visual audit; no human or external expert confirmation.",
+    "Czech spelling and punctuation have not been normalized in audit literals.",
+    "No complete source positions or full-card coverage percentages are claimed."
+  ]
+}

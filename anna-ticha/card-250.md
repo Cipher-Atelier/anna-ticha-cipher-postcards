@@ -2,11 +2,11 @@
 
 [Card index](readings.md) · [Disputed places](uncertainties/card-250.md) · [Saved literal](#saved-literal-readings) · [Original image](https://api.hcportal.eu/media/4767/pc_hcp_250_pic.JPG)
 
-**Reader edition — 20 October 2026.** One local source-supported correction, `noje → moje`, is accepted conditionally under the existing key; all eighteen unknowns remain. `‹…?›` marks contextual completion; `‹moje›` links to the separate source correction. `[…]` leaves two phrases open. The frozen literal and 254/272 historical coverage are unchanged.
+**Reader edition — 20 October 2026; publication qualification.** The source-based `MOJE` candidate is used in this interpretation of the historical staged-key output, not accepted as a uniquely established correction. The later [canonical audit](../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md), locus `250.noje`, retains `?OJE` and M/N alternatives despite visually favoring M. All eighteen historical unknowns remain. `‹…?›`, including `‹moje?›` / `‹my?›`, marks a proposal linked to the dispute ledger; `[…]` leaves two phrases open. The frozen literal and 254/272 historical coverage are unchanged.
 
 ## Readable Czech
 
-[‹Přeji Ti?›](uncertainties/card-250.md#c01), Anisko, [‹moje›](uncertainties/card-250.md#s01) vřele milovaná, z [‹upřímného srdečka?›](uncertainties/card-250.md#c01), [‹stále?›](uncertainties/card-250.md#c01) jen na Tebe [‹vzpomínajícího?›](uncertainties/card-250.md#c01), vše nejhezčí k novému roku, zejména pak splnění [‹veškerých přání?›](uncertainties/card-250.md#c01), [‹jež?›](uncertainties/card-250.md#c01) sladká Tvoje [‹dušička?›](uncertainties/card-250.md#c01) [[…]](uncertainties/card-250.md#u02)!
+[‹Přeji Ti?›](uncertainties/card-250.md#c01), Anisko, [‹moje?›](uncertainties/card-250.md#s01) vřele milovaná, z [‹upřímného srdečka?›](uncertainties/card-250.md#c01), [‹stále?›](uncertainties/card-250.md#c01) jen na Tebe [‹vzpomínajícího?›](uncertainties/card-250.md#c01), vše nejhezčí k novému roku, zejména pak splnění [‹veškerých přání?›](uncertainties/card-250.md#c01), [‹jež?›](uncertainties/card-250.md#c01) sladká Tvoje [‹dušička?›](uncertainties/card-250.md#c01) [[…]](uncertainties/card-250.md#u02)!
 
 Budeš mne [‹míti?›](uncertainties/card-250.md#u01), drahoušku, v novém roce zase [‹tak?›](uncertainties/card-250.md#c01) ráda jako [‹dosud?›](uncertainties/card-250.md#c01)? Tisíc pus posílá Ti věčně Tvůj Pepouš.
 
@@ -18,15 +18,15 @@ Budeš mne [‹míti?›](uncertainties/card-250.md#u01), drahoušku, v novém r
 
 An interpretive translation of the Czech reader layer, preserving its marked proposals and open phrases.
 
-[‹I wish you?›](uncertainties/card-250.md#c01), Anisko, [‹my›](uncertainties/card-250.md#s01) dearly beloved, all the very best for the New Year, from [‹a sincere little heart?›](uncertainties/card-250.md#c01) [‹always?›](uncertainties/card-250.md#c01) [‹thinking?›](uncertainties/card-250.md#c01) only of you, especially the fulfilment of [‹every wish?›](uncertainties/card-250.md#c01) [‹that?›](uncertainties/card-250.md#c01) your sweet [‹little soul?›](uncertainties/card-250.md#c01) [[…]](uncertainties/card-250.md#u02)!
+[‹I wish you?›](uncertainties/card-250.md#c01), Anisko, [‹my?›](uncertainties/card-250.md#s01) dearly beloved, all the very best for the New Year, from [‹a sincere little heart?›](uncertainties/card-250.md#c01) [‹always?›](uncertainties/card-250.md#c01) [‹thinking?›](uncertainties/card-250.md#c01) only of you, especially the fulfilment of [‹every wish?›](uncertainties/card-250.md#c01) [‹that?›](uncertainties/card-250.md#c01) your sweet [‹little soul?›](uncertainties/card-250.md#c01) [[…]](uncertainties/card-250.md#u02)!
 
-Will you, darling, still [‹love me?›](uncertainties/card-250.md#u01) in the New Year [‹as?›](uncertainties/card-250.md#c01) much as [‹before?›?](uncertainties/card-250.md#c01) Pepouš, forever yours, sends you a thousand kisses.
+Will you, darling, still [‹love me?›](uncertainties/card-250.md#u01) in the New Year [‹as?›](uncertainties/card-250.md#c01) much as [‹before?›](uncertainties/card-250.md#c01)? Pepouš, forever yours, sends you a thousand kisses.
 
 [‹Did you receive?›](uncertainties/card-250.md#c01) my little note in [Pel[…]](uncertainties/card-250.md#u03) on Sunday?
 
 31 December 1902
 
-The [two open phrases and their candidates](uncertainties/card-250.md#open-phrases) remain outside this running reconstruction. `Anisko` is the form of address within the cipher, not a statement about the postal-address side or a personal identification. The [strict revised proposal](../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_supported_reading.txt) changes only the initial n of `noje`; it retains `m?ti` and all eighteen masks.
+The [two open phrases and their candidates](uncertainties/card-250.md#open-phrases) remain outside this running reconstruction. `Anisko` is the form of address within the cipher, not a statement about the postal-address side or a personal identification. The historical [one-character source-based proposal](../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_supported_reading.txt) changes only the initial n of `noje`; it retains `m?ti` and all eighteen masks. This authored candidate-aware comparison is preserved, while the later canonical audit keeps the disputed initial masked.
 
 ## Preserved research report
 

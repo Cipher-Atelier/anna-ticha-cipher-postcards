@@ -1,8 +1,8 @@
-# Card 250: source correction and disputed readings
+# Card 250: source-based candidate and disputed readings
 
 [Readable Czech](../card-250.md#readable-czech) · [English translation](../card-250.md#english-translation) · [Saved literal](../card-250.md#saved-literal-readings) · [Card index](../readings.md)
 
-20 October 2026. **One already mapped glyph is corrected conditionally under the existing key; all eighteen unknowns remain.** This local comparison was corroborated by a second candidate-aware AI reader. It was not blind or external human validation. Correcting a mapped position does not increase the historical 254/272 coverage or validate the entire key/word.
+20 October 2026; publication qualification. **MOJE is a source-based candidate used in the interpretation, not an accepted unique correction; all eighteen historical unknowns remain.** The historical comparison used the inherited key and a second candidate-aware AI reader; it was not blind or external human validation. The later [22-entry-key audit](../../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md), [locus `250.noje`](../../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.json), retains `?OJE` and M/N alternatives despite visually favoring M. No increase in historical 254/272 coverage or whole-key/word validation follows.
 
 The [reviewed authored ledger](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_disputes.md), [reader and translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_readable_czech_en.md) and [public source metadata](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_notes.json) retain the detailed basis. Integration instructions and local crop paths are omitted from this public edition. No images/crops are redistributed.
 
@@ -14,9 +14,9 @@ L01–L10 follow the saved literal. C counts non-space characters, not physical 
 
 ## S01
 
-**Source-supported correction of a mapped glyph:** L01 C14, `noje` → `moje`. Target `[500,1128,554,1180]` has a low single shoulder, unlike the multi-hump n controls at L01 C09 in `anisko` (`[332,1125,391,1180]`) and C29 in `milovana` (`[925,1125,985,1180]`). The mapped m at C23 in `milovana` (`[754,1125,805,1180]`) supplies the positive comparison under existing G15=m / G14=n definitions.
+**Historical source-based candidate for a mapped glyph:** L01 C14, `noje` → `moje`. Target `[500,1128,554,1180]` has a low single shoulder, unlike the multi-hump n controls at L01 C09 in `anisko` (`[332,1125,391,1180]`) and C29 in `milovana` (`[925,1125,985,1180]`). The mapped m at C23 in `milovana` (`[754,1125,805,1180]`) supplies the positive comparison under existing G15=m / G14=n definitions.
 
-The second candidate-aware reader corroborated one rounded shoulder, a right descending stroke and short rising exit, with no extra n-like shoulder. The next glyph is separate and no detached target mark was seen; nearby printed cords remain part of the context. This supports the specific local correction under the inherited mapping, not independent whole-word or key truth. The [revised source-supported proposal](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_supported_reading.txt) changes only this n → m; it does not replace the original literal.
+The second candidate-aware reader corroborated one rounded shoulder, a right descending stroke and short rising exit, with no extra n-like shoulder. The next glyph is separate and no detached target mark was seen; nearby printed cords remain part of the context. This is the preserved candidate-aware basis for proposing M under the inherited mapping, not independent whole-word or key truth. The later canonical audit identifies printed-background interference and an insecure hump boundary: it keeps canonical n/m (literal M/N) alternatives and selects `?OJE`, with M favored rather than accepted uniquely. The running reader therefore uses `‹moje?›` / `‹my?›`. The historical [one-character source-based proposal](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_supported_reading.txt) changes only this n → m; it does not replace the original literal.
 
 ## U01
 
