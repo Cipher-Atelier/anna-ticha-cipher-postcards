@@ -1,7 +1,7 @@
 {
   "card_id": "258",
   "notation": "pdf204-canonical",
-  "status": "candidate; single AI source reading; independent source check pending",
+  "status": "candidate; two related AI source readings followed by nonblind visual reconciliation; no independent human/external verification",
   "source": {
     "url": "https://api.hcportal.eu/media/4791/pc_hcp_258_pic.JPG",
     "sha256": "1465e79af1be571d1301581e550b1f7cc758cebb4f36ade7d160ddbbd676d065",
@@ -29,10 +29,23 @@
   "independent_readings": [
     {
       "reader": "first",
-      "type": "single AI source read",
       "model": "gpt-6.1-sol",
-      "source_only_raw_frozen_before_decoding": true,
-      "independent_check": "PENDING; root/reviewer inspection is not blind independent human proof"
+      "temperature": "unavailable",
+      "seed": "unavailable",
+      "phase": "source-only raw frozen before own literal decoding",
+      "raw_sha256": "82e35e558455e83a7796bf41a6413a79dced1832f64ed328fee1d9e1bbd8d6e5",
+      "raw_hash_scope": "original frozen first-reading artifact bytes",
+      "relation": "AI reading; key-visible protocol, not independent human proof"
+    },
+    {
+      "reader": "second",
+      "model": "gpt-6.1-sol",
+      "temperature": "unavailable",
+      "seed": "unavailable",
+      "phase": "source-only raw frozen before own literal decoding and before seeing first reading",
+      "raw_sha256": "d5c9727df1066229021a1e2011e778500905caf53b1282b79358c0c917eb2179",
+      "raw_hash_scope": "canonical compact sorted UTF-8 JSON of raw_rows and raw_notes",
+      "relation": "related AI model/session method; key provided but raw frozen before decoding; not independent human proof"
     }
   ],
   "lines": [
@@ -60,12 +73,34 @@
             "n"
           ],
           "visual_explanation": "Short up/down right branch resembles cursive r but slight arch may be n."
+        },
+        {
+          "token": "n485mq3",
+          "alternatives": [
+            "n485 mq3"
+          ],
+          "kind": "segmentation",
+          "visual_explanation": "Gap between 5 and m is wider than some neighbours but the continuous baseline placement permits either grouping; retain first segmentation and record the alternative."
         }
-      ]
+      ],
+      "reader_bboxes": {
+        "first": [
+          1123,
+          111,
+          1634,
+          176
+        ],
+        "second": [
+          1120,
+          108,
+          1640,
+          175
+        ]
+      }
     },
     {
       "line_id": "258-L02",
-      "ciphertext": "h3gd32g5 m5r3 cht5sq6 b3c486n",
+      "ciphertext": "h3gd32g5m5r3 cht5sq6 b3c486n",
       "reading_bbox_xyxy": [
         1119,
         174,
@@ -73,12 +108,26 @@
         232
       ],
       "transcription": [],
-      "literal": "ROZTOUZE NEHO SRDECKA POSILAM",
+      "literal": "ROZTOUZENEHO SRDECKA POSILAM",
       "encoded_bodies": 26,
       "expanded_letters": 26,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          1119,
+          174,
+          1690,
+          232
+        ],
+        "second": [
+          1120,
+          170,
+          1695,
+          230
+        ]
+      }
     },
     {
       "line_id": "258-L03",
@@ -95,7 +144,31 @@
       "expanded_letters": 22,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [
+        {
+          "token": "b3gth6f!",
+          "offset_in_token_1based": 7,
+          "alternatives": [
+            "f",
+            "p"
+          ],
+          "visual_explanation": "Last body is tall with long descender like f, but its right-hand loop and weak/absent mid crossbar also admit p. Whole-body comparison with preceding f and row5 p remains inconclusive. Retain first label with explicit f/p dispute."
+        }
+      ],
+      "reader_bboxes": {
+        "first": [
+          1120,
+          228,
+          1656,
+          286
+        ],
+        "second": [
+          1120,
+          225,
+          1655,
+          287
+        ]
+      }
     },
     {
       "line_id": "258-L04",
@@ -112,7 +185,31 @@
       "expanded_letters": 22,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [
+        {
+          "token": "n4",
+          "offset_in_token_1based": 1,
+          "alternatives": [
+            "n",
+            "m"
+          ],
+          "visual_explanation": "Small terminal arch can be read as one n arch plus entry stroke or m humps. Compared with initial n and nearby m in same row; no decisive visual separation."
+        }
+      ],
+      "reader_bboxes": {
+        "first": [
+          1116,
+          281,
+          1661,
+          339
+        ],
+        "second": [
+          1115,
+          279,
+          1660,
+          337
+        ]
+      }
     },
     {
       "line_id": "258-L05",
@@ -129,7 +226,21 @@
       "expanded_letters": 22,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          1118,
+          337,
+          1662,
+          394
+        ],
+        "second": [
+          1115,
+          337,
+          1670,
+          389
+        ]
+      }
     },
     {
       "line_id": "258-L06",
@@ -156,7 +267,21 @@
           ],
           "visual_explanation": "Small curled terminal digit runs into line-end dash; resembles 2."
         }
-      ]
+      ],
+      "reader_bboxes": {
+        "first": [
+          1119,
+          392,
+          1693,
+          449
+        ],
+        "second": [
+          1115,
+          388,
+          1700,
+          445
+        ]
+      }
     },
     {
       "line_id": "258-L07",
@@ -173,7 +298,21 @@
       "expanded_letters": 24,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          1117,
+          447,
+          1686,
+          501
+        ],
+        "second": [
+          1115,
+          446,
+          1697,
+          501
+        ]
+      }
     },
     {
       "line_id": "258-L08",
@@ -197,7 +336,21 @@
       "expanded_letters": 21,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          1118,
+          501,
+          1647,
+          554
+        ],
+        "second": [
+          1115,
+          499,
+          1665,
+          560
+        ]
+      }
     },
     {
       "line_id": "258-L09",
@@ -221,7 +374,21 @@
       "expanded_letters": 17,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          1116,
+          553,
+          1619,
+          608
+        ],
+        "second": [
+          1115,
+          558,
+          1640,
+          610
+        ]
+      }
     },
     {
       "line_id": "258-L10",
@@ -238,7 +405,21 @@
       "expanded_letters": 24,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          1110,
+          605,
+          1694,
+          667
+        ],
+        "second": [
+          1110,
+          607,
+          1695,
+          671
+        ]
+      }
     },
     {
       "line_id": "258-L11",
@@ -263,7 +444,21 @@
           ],
           "visual_explanation": "First descender has open curled hook (g); following and later descenders have narrow closed loops (q). Final caron visible above short r."
         }
-      ]
+      ],
+      "reader_bboxes": {
+        "first": [
+          1109,
+          662,
+          1662,
+          720
+        ],
+        "second": [
+          1105,
+          663,
+          1670,
+          724
+        ]
+      }
     },
     {
       "line_id": "258-L12",
@@ -280,7 +475,30 @@
       "expanded_letters": 25,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [
+        {
+          "token": "cb3q375m5",
+          "alternatives": [
+            "cb3q375 m5"
+          ],
+          "kind": "segmentation",
+          "visual_explanation": "Gap before final m5 is a visible interbody gap; both segmentation choices remain plausible. Retain first tokenization; no bodies inserted or removed."
+        }
+      ],
+      "reader_bboxes": {
+        "first": [
+          1111,
+          716,
+          1701,
+          770
+        ],
+        "second": [
+          1105,
+          719,
+          1700,
+          773
+        ]
+      }
     },
     {
       "line_id": "258-L13",
@@ -297,7 +515,21 @@
       "expanded_letters": 24,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          1112,
+          770,
+          1684,
+          825
+        ],
+        "second": [
+          1105,
+          772,
+          1685,
+          821
+        ]
+      }
     },
     {
       "line_id": "258-L14",
@@ -308,7 +540,14 @@
         1649,
         875
       ],
-      "transcription": [],
+      "transcription": [
+        {
+          "offset": 3,
+          "text": "?",
+          "kind": "unknown_glyph",
+          "note": "Overinked encoded body; not a written punctuation question mark."
+        }
+      ],
       "literal": "NA ?ECILII, DOSUD URCITE",
       "encoded_bodies": 20,
       "expanded_letters": 19,
@@ -331,8 +570,42 @@
             "d"
           ],
           "visual_explanation": "Body is dark broad triangular overinked form with upper point and possible cross stroke, unlike secure ordinary family."
+        },
+        {
+          "token": "?5s4844",
+          "alternatives": [
+            "?5s4 844"
+          ],
+          "kind": "segmentation",
+          "visual_explanation": "Wider gap before 8 can indicate a word break or intratoken spacing. Initial overinked body remains unassigned; combined alternatives t,s,d,b,6 do not establish any mapping."
+        },
+        {
+          "token": "?5s4844",
+          "offset_in_token_1based": 1,
+          "alternatives": [
+            "t",
+            "s",
+            "d",
+            "b",
+            "6"
+          ],
+          "visual_explanation": "Union of first and second visual alternatives; heavy overinking prevents reliable whole-body assignment. Selected ? remains an unknown encoded body."
         }
-      ]
+      ],
+      "reader_bboxes": {
+        "first": [
+          1111,
+          819,
+          1649,
+          875
+        ],
+        "second": [
+          1105,
+          817,
+          1675,
+          871
+        ]
+      }
     },
     {
       "line_id": "258-L15",
@@ -349,7 +622,21 @@
       "expanded_letters": 31,
       "ch_occurrences": 0,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          773,
+          864,
+          1667,
+          930
+        ],
+        "second": [
+          772,
+          864,
+          1700,
+          929
+        ]
+      }
     },
     {
       "line_id": "258-L16",
@@ -376,11 +663,25 @@
           ],
           "visual_explanation": "Small curled digit partly joins preceding 3; two-level stroke favours 2."
         }
-      ]
+      ],
+      "reader_bboxes": {
+        "first": [
+          392,
+          903,
+          1660,
+          969
+        ],
+        "second": [
+          390,
+          908,
+          1680,
+          973
+        ]
+      }
     },
     {
       "line_id": "258-L17",
-      "ciphertext": "c d5p32 3b3n5m28. fgb3n5m d5g r3tm5 ph4g3 m5q384q6 h6tq6 m6",
+      "ciphertext": "c d5p32 3b3n5m28. fgb3n5m d5g r3tm5 phg3 m5q384q6 h6tq6 m6",
       "reading_bbox_xyxy": [
         387,
         958,
@@ -388,9 +689,9 @@
         1021
       ],
       "transcription": [],
-      "literal": "S TEBOU OPOMENUL. VZPOMEN TEZ HODNE BRIZO NEKOLIKA RADKA NA",
-      "encoded_bodies": 49,
-      "expanded_letters": 49,
+      "literal": "S TEBOU OPOMENUL. VZPOMEN TEZ HODNE BRZO NEKOLIKA RADKA NA",
+      "encoded_bodies": 48,
+      "expanded_letters": 48,
       "ch_occurrences": 0,
       "unknowns": [],
       "visual_uncertainties": [
@@ -400,8 +701,31 @@
             "q/g distinction"
           ],
           "visual_explanation": "Both looped descenders classified q; first crosses circular watermark, second narrow closed loop remains visible."
+        },
+        {
+          "token": "3b3n5m28.",
+          "offset_in_token_1based": 2,
+          "alternatives": [
+            "b",
+            "?"
+          ],
+          "visual_explanation": "Ascending upper loop and small lower loop favour b; close join to following 3 remains difficult."
         }
-      ]
+      ],
+      "reader_bboxes": {
+        "first": [
+          387,
+          958,
+          1673,
+          1021
+        ],
+        "second": [
+          385,
+          956,
+          1690,
+          1028
+        ]
+      }
     },
     {
       "line_id": "258-L18",
@@ -418,7 +742,21 @@
       "expanded_letters": 54,
       "ch_occurrences": 2,
       "unknowns": [],
-      "visual_uncertainties": []
+      "visual_uncertainties": [],
+      "reader_bboxes": {
+        "first": [
+          385,
+          1007,
+          1679,
+          1076
+        ],
+        "second": [
+          380,
+          1004,
+          1685,
+          1075
+        ]
+      }
     }
   ],
   "uncertainty_ledger": [
@@ -431,6 +769,35 @@
         "n"
       ],
       "visual_explanation": "Short up/down right branch resembles cursive r but slight arch may be n."
+    },
+    {
+      "line_id": "258-L01",
+      "token": "n485mq3",
+      "alternatives": [
+        "n485 mq3"
+      ],
+      "kind": "segmentation",
+      "visual_explanation": "Gap between 5 and m is wider than some neighbours but the continuous baseline placement permits either grouping; retain first segmentation and record the alternative."
+    },
+    {
+      "line_id": "258-L03",
+      "token": "b3gth6f!",
+      "offset_in_token_1based": 7,
+      "alternatives": [
+        "f",
+        "p"
+      ],
+      "visual_explanation": "Last body is tall with long descender like f, but its right-hand loop and weak/absent mid crossbar also admit p. Whole-body comparison with preceding f and row5 p remains inconclusive. Retain first label with explicit f/p dispute."
+    },
+    {
+      "line_id": "258-L04",
+      "token": "n4",
+      "offset_in_token_1based": 1,
+      "alternatives": [
+        "n",
+        "m"
+      ],
+      "visual_explanation": "Small terminal arch can be read as one n arch plus entry stroke or m humps. Compared with initial n and nearby m in same row; no decisive visual separation."
     },
     {
       "line_id": "258-L06",
@@ -451,6 +818,15 @@
       "visual_explanation": "First descender has open curled hook (g); following and later descenders have narrow closed loops (q). Final caron visible above short r."
     },
     {
+      "line_id": "258-L12",
+      "token": "cb3q375m5",
+      "alternatives": [
+        "cb3q375 m5"
+      ],
+      "kind": "segmentation",
+      "visual_explanation": "Gap before final m5 is a visible interbody gap; both segmentation choices remain plausible. Retain first tokenization; no bodies inserted or removed."
+    },
+    {
       "line_id": "258-L14",
       "token": "?5s4844",
       "offset_in_token_1based": 1,
@@ -460,6 +836,28 @@
         "d"
       ],
       "visual_explanation": "Body is dark broad triangular overinked form with upper point and possible cross stroke, unlike secure ordinary family."
+    },
+    {
+      "line_id": "258-L14",
+      "token": "?5s4844",
+      "alternatives": [
+        "?5s4 844"
+      ],
+      "kind": "segmentation",
+      "visual_explanation": "Wider gap before 8 can indicate a word break or intratoken spacing. Initial overinked body remains unassigned; combined alternatives t,s,d,b,6 do not establish any mapping."
+    },
+    {
+      "line_id": "258-L14",
+      "token": "?5s4844",
+      "offset_in_token_1based": 1,
+      "alternatives": [
+        "t",
+        "s",
+        "d",
+        "b",
+        "6"
+      ],
+      "visual_explanation": "Union of first and second visual alternatives; heavy overinking prevents reliable whole-body assignment. Selected ? remains an unknown encoded body."
     },
     {
       "line_id": "258-L14",
@@ -487,6 +885,110 @@
         "q/g distinction"
       ],
       "visual_explanation": "Both looped descenders classified q; first crosses circular watermark, second narrow closed loop remains visible."
+    },
+    {
+      "line_id": "258-L17",
+      "token": "3b3n5m28.",
+      "offset_in_token_1based": 2,
+      "alternatives": [
+        "b",
+        "?"
+      ],
+      "visual_explanation": "Ascending upper loop and small lower loop favour b; close join to following 3 remains difficult."
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 1,
+      "token_index_1based": 1,
+      "glyph_index_1based": 4,
+      "base": "5",
+      "mark": "visible caron-like upper tick; exact marked variant 5̌"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 6,
+      "token_index_1based": 3,
+      "glyph_indices_1based": [
+        3,
+        5
+      ],
+      "base": "5",
+      "mark": "upper tips/caron-like ticks visible; retain as potentially marked 5̌ variants"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 6,
+      "token_index_1based": 4,
+      "glyph_index_1based": 8,
+      "base": "5",
+      "mark": "upper caron-like tick on final 5"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 9,
+      "token_index_1based": 1,
+      "glyph_index_1based": 2,
+      "base": "5",
+      "mark": "upper tip may be caron-like, uncertain"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 10,
+      "token_index_1based": 2,
+      "glyph_index_1based": 3,
+      "base": "5",
+      "mark": "upper caron-like tick, uncertain"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 11,
+      "tokens": [
+        "3tp1d1ř",
+        "gq32cq6ř"
+      ],
+      "base": "r",
+      "mark": "clear caron: canonical ř, not unmarked r"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 18,
+      "tokens": [
+        "t832r1ř,",
+        "fh581ř"
+      ],
+      "base": "r",
+      "mark": "clear caron: canonical ř, not unmarked r"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "row": 14,
+      "token": "?5s4",
+      "mark": "initial unknown visibly thickened/overwritten; preserved rather than deleted"
+    },
+    {
+      "kind": "visible_mark",
+      "source_phase": "second frozen source-only read",
+      "rows": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        13,
+        14,
+        17,
+        18
+      ],
+      "base": "d",
+      "mark": "d often has extended horizontal top stroke, retained as d body; no deletion"
     }
   ],
   "marks_and_segmentation_notes": [
@@ -495,25 +997,95 @@
     "Spaces are approximate visual separations; original line-end hyphens are retained. Punctuation and extra visible carons are retained; ř is one encoded body.",
     "Bounding boxes reproduce the first-reading approximate line boxes; they are not pixel-tight glyph boxes.",
     "A full reading pass is not a certification that every minute incidental mark was recognized.",
-    "Separate authored date-like inscription visually read 18./11.1902.; box [174,515,363,585]. Recorded as an apparent inscription only, not proof of date, sending, or reception."
+    "Separate authored date-like inscription visually read 18./11.1902.; box [174,515,363,585]. Recorded as an apparent inscription only, not proof of date, sending, or reception.",
+    "Second frozen notes identify caron-like upper ticks on body5 in L01/L06, with uncertain ticks in L09/L10. All are preserved in visible_mark ledger; base-body replay does not assert that marked variants have an independently established mapping.",
+    "L11 and L18 each have two clear ř bodies. Each is one encoded body yielding two letters CH; no split into c+h.",
+    "Two written question marks at L08/L09 are explicit punctuation metadata. The L14 question mark represents a visibly unknown body, explicitly tagged unknown_glyph.",
+    "L02 spacing changed and L17 one spurious 4 removed by visual whole-body comparison; frozen layers and dated span reasons retained. Other reader differences remain recorded without language repair."
   ],
-  "proposed_editorial_czech": "Milenko moje předrahá, z roztouženého srdéčka posílám ti tisícerý vřelý pozdrav! Vzpomínám neustále a je mi zde nyní velice smutno bez mé tak vřele milované Anduličky. Jak dostala jsi se domů? A kdy jsi odjela? Říkala ti [nejasný přívlastek] paní něco? — Přeji svému srdéčku, aby nyní po odbytých zkouškách trávilo hodně spokojené a šťastné dny. Pojedu-li tento týden do Ústí na [Cecílii?], dosud určitě nevím, myslím však, že ano. Vyřiď, prosím, též moje poručení slečně Jankové, jež jsem při loučení se s tebou opomenul. Vzpomeň též hodně brzo několika řádky na tisíc dlouhých, vřelých pus ti posílajícího, věčně tvého Pepouše.",
-  "proposed_english_translation": "My dearest darling, I send you a thousand warm greetings from my yearning heart! I think of you constantly, and I am very sad here now without my so dearly loved Andulička. How did you get home? And when did you leave? Did the [unclear description] lady say anything to you? I wish my sweetheart many contented and happy days now that the examinations are over. I do not yet know for certain whether I shall travel to Ústí this week for [Cecilia?], but I think I shall. Please also give my regards to Miss Janková, which I forgot when saying goodbye to you. Remember before long, with a few lines, the one sending you a thousand long, warm kisses: your forever devoted Pepouš.",
-  "editorial_status": "Tentative language proposals; no historical or date certainty. Neither proposal changes the frozen transcription.",
+  "proposed_editorial_czech": "Milenko moje předrahá, z roztouženého srdéčka posílám ti tisícerý vřelý pozdrav! Vzpomínám neustále a je mi zde nyní velice smutno bez mé tak vřele milované Anduličky. Jak dostala jsi se domů? A kdy jsi odjela? Říkala ti [nejasný přívlastek: NECOSTI VA] paní něco? — Přeji svému srdéčku, aby nyní po odbytých zkouškách [trávilo] hodně spokojené a šťastné dny. Pojedu-li tento týden do Ústí na [Cecílii?], dosud určitě nevím, myslím však, že ano. [Vyřiď], prosím, též moje poručení slečně Jankové, jež jsem při loučení se s tebou opomenul. Vzpomeň též hodně brzo několika [řádky] na tisíc dlouhých, vřelých pus ti posílajícího, věčně tvého Pepouše.",
+  "proposed_english_translation": "My dearest darling, I send you a thousand warm greetings from my yearning heart! I think of you constantly, and I am very sad here now without my so dearly loved Andulička. How did you get home? And when did you leave? Did the [unclear description: NECOSTI VA] lady say anything to you? I wish my sweetheart to [spend] many contented and happy days now that the examinations are over. I do not yet know for certain whether I shall travel to Ústí this week for [Cecilia?], but I think I shall. Please [pass on] my regards to Miss Janková, which I forgot when saying goodbye to you. Remember before long, with [a few lines], the one sending you a thousand long, warm kisses: your forever devoted Pepouš.",
+  "editorial_status": "Tentative Czech/English proposals. Substantive restorations are bracketed and ledgered; ordinary diacritics, capitalization, line joining and translation syntax are editorial presentation. Selected disputed glyph readings remain visibly tentative.",
   "editorial_notes": [
-    "NECOSTI VA is unresolved as language; the proposed text leaves the description of the lady open.",
-    "DRAVILO → trávilo, VYRID → vyřiď and RADKA → řádky are editorial language proposals, not changes to the literal.",
-    "?ECILII is provisionally presented as Cecílii; neither the glyph nor an event identity is established.",
-    "Names, place, apparent authored date and relationship language are readings/proposals, not independently established historical facts."
+    "All substantive language restorations are bracketed and listed in editorial_restoration_ledger.",
+    "Czech/English proposals follow selected first f at L03 and n at L04; alternative literal readings remain in visual ledger.",
+    "The apparent date, personal/place names and relationship language do not establish historical identities or events."
   ],
   "limits": [
-    "Only one AI source reading; no blind independent source verification.",
-    "No candidate plaintext or other transcript consulted during the source-only pass.",
-    "Replay validates substitution and counters, not visual transcription accuracy.",
-    "No image, PDF, email content, or source bytes are included in this derived-data package."
+    "Two related AI reads using the same model and key-visible method; second was blind to the first transcript until both raw freezes, but this is not independent human or external proof.",
+    "Nonblind reconciliation has access to both source readings and their literals; it must not be relabelled as a third blind reading.",
+    "Replay verifies the frozen substitution and derived counters only; it does not validate glyph accuracy, marked-variant mapping, language restoration or history.",
+    "No source bytes, image/PDF files or private filesystem paths are included in this derived package."
   ],
-  "encoded_bodies": 492,
-  "expanded_letters": 495,
+  "encoded_bodies": 491,
+  "expanded_letters": 494,
   "ch_occurrences": 4,
-  "unknowns": 1
+  "unknowns": 1,
+  "reconciliation": {
+    "date_utc": "2026-10-20T12:59:46.827263+00:00",
+    "model": "gpt-6.1-sol",
+    "temperature": "unavailable",
+    "seed": "unavailable",
+    "phase": "nonblind source comparison after both raw freezes and literal passes",
+    "revision_record": "revisions/258-review2.json",
+    "history_first_candidate": "history/2026-10-20-batch1-b9bbdb9/258.json",
+    "history_first_candidate_sha256": "7388d362be4d38eba0b611c41a89583a7d20cfd2225fda8a68bd4f61d849ba44",
+    "raw_layer_policy": "Frozen rows unchanged in revision record. Current rows are reconciled derivative, not newly blind raw.",
+    "changed_lines": [
+      "258-L02",
+      "258-L17"
+    ],
+    "remaining": "One unknown encoded body at L14; f/p, n/m, spacing, q/g, marked-5 and prior small-digit uncertainties remain in ledger."
+  },
+  "editorial_restoration_ledger": [
+    {
+      "line_id": "258-L09",
+      "literal": "NECOSTI VA",
+      "czech": "[nejasný přívlastek: NECOSTI VA]",
+      "english": "[unclear description: NECOSTI VA]",
+      "status": "unresolved language; no glyph alteration"
+    },
+    {
+      "line_id": "258-L11",
+      "literal": "DRAVILO",
+      "czech": "[trávilo]",
+      "english": "[spend]",
+      "status": "substantive editorial proposal; initial D→T is not a transcription correction"
+    },
+    {
+      "line_id": "258-L14",
+      "literal": "?ECILII",
+      "czech": "[Cecílii?]",
+      "english": "[Cecilia?]",
+      "status": "unknown-glyph and identity proposal only; no event identification established"
+    },
+    {
+      "line_id": "258-L15",
+      "literal": "VYRID",
+      "czech": "[Vyřiď]",
+      "english": "[pass on]",
+      "status": "substantive diacritic/word restoration; not strict literal"
+    },
+    {
+      "line_id": "258-L17",
+      "literal": "RADKA",
+      "czech": "[řádky]",
+      "english": "[a few lines]",
+      "status": "case/number and diacritic proposal, not a transcription change"
+    },
+    {
+      "line_id": "258-L03",
+      "literal": "POZDRAV (alternative POZDRAB)",
+      "czech": "pozdrav",
+      "english": "greetings",
+      "status": "translation follows selected f reading; p alternative remains in visual ledger"
+    },
+    {
+      "line_id": "258-L04",
+      "literal": "MI (alternative NI)",
+      "czech": "mi",
+      "english": "I am",
+      "status": "translation follows selected n reading; m alternative remains in visual ledger"
+    }
+  ]
 }

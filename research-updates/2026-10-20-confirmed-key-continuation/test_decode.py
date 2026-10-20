@@ -99,6 +99,59 @@ class ConfirmedKeyTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             check.check_card(bad)
 
+    def ledger_card(self, entries):
+        return {'card_id': 'ledger-test', 'notation': 'pdf204-canonical',
+                'source': {'url': 'https://example.org/source.JPG', 'sha256': 'a' * 64},
+                'orientation': 'native', 'lines': [
+                    {'line_id': 'L1', 'ciphertext': 'qg ř', 'literal': 'KZ CH'}],
+                'uncertainty_ledger': entries}
+
+    def test_current_ledger_rejects_stale_selected_span(self):
+        card = self.ledger_card([{'line_id': 'L1', 'offset': 0, 'selected': 'f6sm5'}])
+        card['lines'][0].update(ciphertext='f5sm5', literal='VECNE')
+        with self.assertRaisesRegex(ValueError, 'selected span'):
+            self.checker().check_card(card)
+
+    def test_current_ledger_rejects_unknown_line(self):
+        card = self.ledger_card([{'line_id': 'missing', 'offset': 0, 'selected': 'q'}])
+        with self.assertRaisesRegex(ValueError, 'line_id'):
+            self.checker().check_card(card)
+
+    def test_current_ledger_rejects_invalid_or_out_of_range_offset(self):
+        for offset in (-1, True, False, 0.0, '0', None, 4, 999):
+            card = self.ledger_card([{'line_id': 'L1', 'offset': offset, 'selected': 'q'}])
+            with self.subTest(offset=offset), self.assertRaisesRegex(ValueError, 'offset|selected span'):
+                self.checker().check_card(card)
+
+    def test_current_ledger_rejects_invalid_selected_text(self):
+        for selected in (None, 1, ['q']):
+            card = self.ledger_card([{'line_id': 'L1', 'offset': 0, 'selected': selected}])
+            with self.subTest(selected=selected), self.assertRaisesRegex(ValueError, 'selected'):
+                self.checker().check_card(card)
+
+    def test_current_ledger_accepts_empty_selection_at_valid_boundaries(self):
+        card = self.ledger_card([
+            {'line_id': 'L1', 'offset': 0, 'selected': ''},
+            {'line_id': 'L1', 'offset': 4, 'selected': ''},
+        ])
+        self.assertEqual(self.checker().check_card(card)['encoded_bodies'], 3)
+
+    def test_current_ledger_rejects_empty_selection_beyond_end(self):
+        card = self.ledger_card([{'line_id': 'L1', 'offset': 5, 'selected': ''}])
+        with self.assertRaisesRegex(ValueError, 'offset'):
+            self.checker().check_card(card)
+
+    def test_current_ledger_allows_overlap_and_skips_unpaired_notes(self):
+        card = self.ledger_card([
+            {'line_id': 'L1', 'offset': 0, 'selected': 'qg'},
+            {'line_id': 'L1', 'offset': 1, 'selected': 'g'},
+            {'line_id': 'L1', 'offset': 3, 'selected': 'ř'},
+            {'line_id': 'historical', 'selected': None},
+            {'line_id': 'historical', 'offset': -1},
+            {'observation': 'Historical note without selected span'},
+        ])
+        self.assertEqual(self.checker().check_card(card)['encoded_bodies'], 3)
+
     def test_cli_requires_explicit_notation(self):
         self.decoder()
         result = subprocess.run([sys.executable, str(ROOT / 'decode.py'), 'qg'], capture_output=True, text=True)

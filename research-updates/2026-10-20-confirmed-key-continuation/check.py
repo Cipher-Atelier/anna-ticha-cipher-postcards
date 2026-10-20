@@ -48,6 +48,20 @@ def check_card(card):
     require(isinstance(source.get('sha256'), str) and re.fullmatch('[0-9a-f]{64}', source['sha256']), 'Invalid source SHA256')
     require(bool(card.get('orientation')), 'Missing orientation')
     totals = replay(card.get('lines'), card.get('notation'))
+    lines = {line['line_id']: line['ciphertext'] for line in card['lines']}
+    for entry in card.get('uncertainty_ledger', []):
+        if 'offset' not in entry or 'selected' not in entry:
+            continue
+        identifier = entry.get('line_id')
+        require(isinstance(identifier, str) and identifier in lines,
+                'Current uncertainty ledger has unknown line_id')
+        offset, selected = entry['offset'], entry['selected']
+        require(type(offset) is int and 0 <= offset <= len(lines[identifier]),
+                f'{identifier}: invalid uncertainty offset')
+        require(isinstance(selected, str),
+                f'{identifier}: invalid uncertainty selected text')
+        require(lines[identifier][offset:offset + len(selected)] == selected,
+                f'{identifier}: uncertainty selected span mismatch')
     for name in COUNTS:
         if name in card:
             require(card[name] == totals[name], f'Card {name} mismatch')

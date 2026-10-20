@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-20",
+  "method": "Ordinary anonymous GET of publicly served frontend and public API endpoints actually referenced in its JavaScript; no token,cookies or authentication supplied.",
+  "discovery": [
+    {
+      "url": "https://crypto.hcportal.eu/dashboard/cryptograms/1576",
+      "http_status": 200,
+      "sha256": "afbc44d396c91b92624ff561385603e62459fb1a79ba807010463891706b8e15",
+      "observed_script_src": "/static/js/main.9ff47b65.js"
+    },
+    {
+      "url": "https://crypto.hcportal.eu/static/js/main.9ff47b65.js",
+      "http_status": 200,
+      "sha256": "56d3eba684e920c33fd0ce929beecca2a864955182842f0ee871ca8dd8703b0a",
+      "observed_public_read_routes": [
+        "api/cryptograms?detailed=1",
+        "api/cryptograms/{record_id}"
+      ],
+      "route_template_note": "Template is shown by frontend; only directly discovered/returnedIDs used."
+    },
+    {
+      "url": "https://api.hcportal.eu/api/cryptograms/1576",
+      "http_status": 200,
+      "sha256": "0faf956868f86bd0655f460544a288b357d4ce2a8aaeef831fe11cbe103c2dba",
+      "identity_observed": {
+        "id": 1576,
+        "name": "pc_hcp_257"
+      }
+    },
+    {
+      "url": "https://api.hcportal.eu/api/cryptograms?detailed=1",
+      "http_status": 200,
+      "sha256": "9437ef58ebd03eca64955864efc64b19551202f92cde9bfd2cf2098d0985eb62",
+      "pagination_complete": true
+    }
+  ],
+  "web_tool_limit": "web open could not access the SPA URL; ordinary anonymousGET of that sameURL returned200. This is a tool accessibility limit, not evidence of an HTTP access denial.",
+  "privacy": "No sourcebytes,fullAPIpayload,privatePDF,email,credentials or person/address fields included."
+}

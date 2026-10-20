@@ -1,0 +1,386 @@
+{
+  "audit_id": "fourth253255-disputes",
+  "date": "2026-10-20",
+  "model": "gpt-6.1-sol",
+  "temperature": null,
+  "seed": null,
+  "reader_status": "NONBLIND focused reinspection by the same agent that made third253; not a fourth independent reader",
+  "exposure": "Prior raw readings, public candidates, editorial/literal outcomes and third253 findings were visible before this pass. No independent validation claimed.",
+  "reference": {
+    "pdf_sha256": "da35fdcacd0e47014e34c9d22cfeca74d577b7ed1526ec8a36b17106d5d4a11b",
+    "scope": "Page3 supplies canonical labels; whole handwritten contours are compared in page4 strips. Typeset glyph names alone are not handwriting evidence.",
+    "complete_pdf_pages_inspected": [
+      3,
+      4
+    ]
+  },
+  "sources": {
+    "253": {
+      "url": "https://api.hcportal.eu/media/4776/pc_hcp_253_pic.JPG",
+      "sha256": "47d4c50805220d59df824da7349f355422d2b16ee65b2f2f7bbe3e787b7e97cd",
+      "public_snapshot_sha256": "94081588d9e5f4d97581a2f102e2b0e570b0b1a1d7a176e3edcc7be5dd87fb21",
+      "full_reading_view_inspected": true
+    },
+    "254": {
+      "url": "https://api.hcportal.eu/media/4779/pc_hcp_254_pic.JPG",
+      "sha256": "b681f95bd0b674512cdd1d73edd8258d2be252fa1786a739dc495e7ccec9d3a8",
+      "public_snapshot_sha256": "9aa5fed44f64aa35be7a8d6e964a23b8d93a6409bc434cf2931e7172bd178bc9",
+      "full_reading_view_inspected": true
+    },
+    "255": {
+      "url": "https://api.hcportal.eu/media/4782/pc_hcp_255_pic.JPG",
+      "sha256": "cf538c5f2cdf61fc5307bcc458fe5db4735f518767e43afd99dd4a3b3d9f839d",
+      "public_snapshot_sha256": "bc7bf0ab4b3cfadff962fed47fadb1f3dc8b081816eb18017b2178567bea11bf",
+      "full_reading_view_inspected": true
+    }
+  },
+  "coordinate_convention": "Offsets are zero-based Unicode codepoints in the exact frozen_row; windows are xyxy on unscaled CCW90 1175x1785 reading view. Original coordinates supplied too. Context crops include full ascenders/descenders and neighboring ink.",
+  "tools": [
+    "view_image",
+    "Pillow private source crops only",
+    "hashlib source verification"
+  ],
+  "judgments": [
+    {
+      "card_id": "253",
+      "line_id": "L04",
+      "offset_zero_based_unicode_codepoints": 39,
+      "frozen_row": "b5b32c5n 6 m57c4 d1 74g n32 d6q fh585 n383 f6m32",
+      "prior": "3",
+      "selected": "3",
+      "alternatives": [
+        "4"
+      ],
+      "status": "visual_preference",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        825,
+        225,
+        1085,
+        300
+      ],
+      "original_context_bbox_xyxy": [
+        1485,
+        825,
+        1560,
+        1085
+      ],
+      "whole_glyph_rationale": "The disputed body has two curved right-facing lobes, with no angular open upper arm or upright junction as in clear 4 bodies elsewhere on 253. Enlarged native group retains a 3 shape. The visible gap before f6m32 remains; a more fluent joined word is not evidence."
+    },
+    {
+      "card_id": "253",
+      "line_id": "L06",
+      "offset_zero_based_unicode_codepoints": 10,
+      "frozen_row": "c5cd5r3 d3h3d3 n5c4s5? bh3c4n 6cb3m 3 m5q384q",
+      "prior": "h",
+      "selected": "h",
+      "alternatives": [
+        "r"
+      ],
+      "status": "visual_preference",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        220,
+        325,
+        365,
+        395
+      ],
+      "original_context_bbox_xyxy": [
+        1390,
+        220,
+        1460,
+        365
+      ],
+      "whole_glyph_rationale": "An elongated enclosed loop rises well above the neighboring 3 bodies and returns to a lower right shoulder. This is the full h-like structure seen in PDF204 th6r1, whereas PDF r in t832r1ř is low and short. The loop cannot be removed merely to improve TOROTO."
+    },
+    {
+      "card_id": "253",
+      "line_id": "L07",
+      "offset_zero_based_unicode_codepoints": 14,
+      "frozen_row": "c83f. cht5sq3 m5 75 f584s5 cn2dm5 6 m5q84tm5.",
+      "prior": "m5 75",
+      "selected": "m5 75",
+      "alternatives": [
+        "n375"
+      ],
+      "status": "visual_preference",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        340,
+        375,
+        475,
+        440
+      ],
+      "original_context_bbox_xyxy": [
+        1345,
+        340,
+        1410,
+        475
+      ],
+      "whole_glyph_rationale": "The initial body shows two low humps; the next has a straight top bar and lower bowl as a 5. The following 7 has its own descending crossed stroke and a visible preceding gap. This differs from one-hump n followed by double-curved 3. Retain the source segmentation and awkward literal."
+    },
+    {
+      "card_id": "254",
+      "line_id": "L02",
+      "offset_zero_based_unicode_codepoints": 10,
+      "frozen_row": "g6 th6r1, r3g32nq1 84cd5q. p5h2 d5 g6 c83f3",
+      "prior": "r",
+      "selected": "r",
+      "alternatives": [
+        "h",
+        "unvalidated loopless h-like variant"
+      ],
+      "status": "visual_preference",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        250,
+        140,
+        530,
+        220
+      ],
+      "original_context_bbox_xyxy": [
+        1565,
+        250,
+        1645,
+        530
+      ],
+      "whole_glyph_rationale": "The first body is short, with an upright/oblique entry and a right shoulder at approximately digit height; it has no tall enclosed ascender loop. It resembles PDF unmarked r more than tall h. Eight body slots are visible in the full group; no extra body is introduced to obtain a familiar word. An unlooped allograph of h remains a hypothesis requiring examples, not a new rule.",
+      "group_under_review": "r3g32nq1",
+      "visible_body_slots": 8,
+      "group_body_count_is_local_visual_judgment": true,
+      "additional_note": "The low humped middle body remains susceptible to n/m convention; no new global bridge or unique full-word classification is asserted."
+    },
+    {
+      "card_id": "254",
+      "line_id": "L04",
+      "offset_zero_based_unicode_codepoints": 20,
+      "frozen_row": "bh47586 nm5 c m4 m6p?d4. t32?6n",
+      "prior": "?",
+      "selected": null,
+      "alternatives": [
+        "unassigned obscured body"
+      ],
+      "status": "unresolved",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        430,
+        245,
+        840,
+        325
+      ],
+      "original_context_bbox_xyxy": [
+        1460,
+        430,
+        1540,
+        840
+      ],
+      "whole_glyph_rationale": "The body between p and d intersects the dark printed head edge. Short upper strokes remain, but the lower/connecting contour cannot be separated from the printed silhouette. A complete 4, f or other assigned form is not established. Preserve the mask and do not infer an I/F from a familiar word.",
+      "recommended_public_rendering": "?",
+      "group_under_review": "m6p?d4"
+    },
+    {
+      "card_id": "254",
+      "line_id": "L04",
+      "offset_zero_based_unicode_codepoints": 28,
+      "frozen_row": "bh47586 nm5 c m4 m6p?d4. t32?6n",
+      "prior": "?",
+      "selected": null,
+      "alternatives": [
+        "unassigned low v-like body"
+      ],
+      "status": "unresolved_unassigned_visible_body",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        430,
+        245,
+        840,
+        325
+      ],
+      "original_context_bbox_xyxy": [
+        1460,
+        430,
+        1540,
+        840
+      ],
+      "whole_glyph_rationale": "The body between 2 and 6 is a low open v/shoulder form. Its contour is clearer than the other masked body, but it lacks the tall upper loop and descending loop structure of canonical f in PDF fh581. The 22-entry key does not assign this low form; resemblance to legacy F hypotheses is not a mapping.",
+      "recommended_public_rendering": "?",
+      "group_under_review": "t32?6n",
+      "glyph_visibility": "one low v-like body visible; value unassigned"
+    },
+    {
+      "card_id": "254",
+      "line_id": "L19",
+      "offset_zero_based_unicode_codepoints": 0,
+      "frozen_row": "?4c4s fh581? t832-",
+      "prior": "?",
+      "selected": "t",
+      "alternatives": [
+        "d",
+        "unassigned damaged t-like variant"
+      ],
+      "status": "t_candidate_damage_limited",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        50,
+        1390,
+        510,
+        1480
+      ],
+      "original_context_bbox_xyxy": [
+        305,
+        50,
+        395,
+        510
+      ],
+      "whole_glyph_rationale": "The initial glyph has a heavy diagonal upright and a transverse stroke, without the clear left loop/bowl seen in PDF d4 or in the next-line d4. Its outline closely resembles the t at the right of this same line in t832-. Surface abrasion and thick ink limit certainty. A literal D from canonical t is retained as a candidate rather than forcing TISIC."
+    },
+    {
+      "card_id": "254",
+      "line_id": "L19",
+      "offset_zero_based_unicode_codepoints": 11,
+      "frozen_row": "?4c4s fh581? t832-",
+      "prior": "?",
+      "selected": "r",
+      "alternatives": [
+        "ř",
+        "unassigned damaged short-shoulder variant"
+      ],
+      "status": "body_r_preferred_mark_ownership_unresolved",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        50,
+        1340,
+        510,
+        1535
+      ],
+      "original_context_bbox_xyxy": [
+        250,
+        50,
+        445,
+        510
+      ],
+      "whole_glyph_rationale": "A low short-shoulder r-like body is visible after 1. The large dark loop immediately above continues from the previous-line q descender and cannot safely be assigned as an overmark to this body. Other isolated dashes fall in a heavily abraded area. Unlike the clearly separated roof on next-line r1ř and PDF marked-r examples, no secure owned roof is established here.",
+      "recommended_public_rendering": "retain ? unless provisional r is explicitly flagged",
+      "mark_ownership": "unresolved; prominent upper loop belongs to previous-line q",
+      "group_under_review": "fh581?"
+    },
+    {
+      "card_id": "255",
+      "line_id": "L04",
+      "offset_zero_based_unicode_codepoints": 19,
+      "frozen_row": "p18 d5bhf5 3tb385tm6 g6",
+      "prior": "6",
+      "selected": "6",
+      "alternatives": [
+        "5"
+      ],
+      "status": "visual_preference",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        865,
+        1225,
+        1060,
+        1300
+      ],
+      "original_context_bbox_xyxy": [
+        485,
+        865,
+        560,
+        1060
+      ],
+      "whole_glyph_rationale": "The final body has an enclosed lower oval and a curved rising upper hook/beak. Its top is not a straight left-to-right bar as in nearby 5 bodies. This supports 6 even though the resulting final A remains linguistically awkward.",
+      "group_under_review": "3tb385tm6"
+    },
+    {
+      "card_id": "255",
+      "line_id": "L07",
+      "offset_zero_based_unicode_codepoints": 5,
+      "frozen_row": "b3mt5ns5 c m4 3nhg586? fgt1d",
+      "prior": "n",
+      "selected": "n",
+      "alternatives": [
+        "m"
+      ],
+      "status": "visual_preference",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        580,
+        1350,
+        795,
+        1425
+      ],
+      "original_context_bbox_xyxy": [
+        360,
+        580,
+        435,
+        795
+      ],
+      "whole_glyph_rationale": "The body after 5 has one low principal shoulder rather than the two separate humps of m, which is visible earlier in the same group at the third position. Background lines cross this region, but they do not establish an additional handwritten hump. Retain n/M and the literal PONDEMCE.",
+      "group_under_review": "b3mt5ns5"
+    },
+    {
+      "card_id": "255",
+      "line_id": "L11",
+      "offset_zero_based_unicode_codepoints": 43,
+      "frozen_row": "74g m5p384, g6 d3 fc6q cht5sq3 f584s5 b3 d3b5",
+      "prior": "b",
+      "selected": "b",
+      "alternatives": [
+        "p"
+      ],
+      "status": "visual_preference",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        930,
+        1530,
+        1100,
+        1615
+      ],
+      "original_context_bbox_xyxy": [
+        170,
+        930,
+        255,
+        1100
+      ],
+      "whole_glyph_rationale": "The disputed body in d3b5 has a tall closed ascender loop and a lower right bowl/exit. This matches b in PDF b2c/b5b32c; p in PDF 6p1 has a low shoulder and descender without this high loop. Retain b/P and the literal TOPE."
+    },
+    {
+      "card_id": "255",
+      "line_id": "L14",
+      "offset_zero_based_unicode_codepoints": 11,
+      "frozen_row": "b3c486 d4 f6sm5 df27 b5b32c.",
+      "prior": "6",
+      "selected": "5",
+      "alternatives": [
+        "6"
+      ],
+      "status": "5_preferred_upper_bar_distinguishes",
+      "orientation_degrees_ccw": 90,
+      "reading_context_bbox_xyxy": [
+        255,
+        1670,
+        455,
+        1745
+      ],
+      "original_context_bbox_xyxy": [
+        40,
+        255,
+        115,
+        455
+      ],
+      "whole_glyph_rationale": "The body immediately after f begins with a short flat horizontal top bar and drops on the left into a lower bowl. This is closer to the adjacent final 5 and PDF 5 shapes than to the curved ascending hook of 6 (compare the 255 L04 final 6 just inspected). The lower bowl is closed by thick ink, which alone does not make the body 6. Prefer 5 from the upper-stroke structure; retain 6 as the prior alternative.",
+      "group_under_review": "f6sm5",
+      "proposed_group": "f5sm5",
+      "result_if_selected": "VECNE",
+      "linguistic_caution": "A fluent resulting word was already visible in task context; this is nonblind visual preference, not independent confirmation."
+    }
+  ],
+  "scope_limits": [
+    "Twelve bounded groups/glyph judgments, not full-card source certification.",
+    "Masked 254 L04 bodies remain unassigned; no F mapping is invented.",
+    "254 L19 mark ownership remains unresolved, and proposed t/r choices are candidates.",
+    "No public files, source originals, keys or existing private reader records edited. No network or refetch."
+  ],
+  "private_raw_judgment_sha256": "6a078ddf4245c8091c0d48a4acc131345cdd3a8eeda20fc6650d14f53ab1db04",
+  "application_policy": "Only255L14 6→5 applied. Other judgments either retain primary choices or remain unresolved;254 marks/body alternatives do not authorize a whole-glyph value."
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Second source batch and blind-source continuation; investigation active",
+  "base_commit": "b9bbdb9db1944d3cb16db25099adaa54f3530ad9",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258
+  ],
+  "selected_replay_totals": {
+    "rows": 135,
+    "encoded_bodies": 3563,
+    "expanded_letters": 3540,
+    "ch_occurrences": 34,
+    "unknowns": 57
+  },
+  "count_semantics": "Selected replay slots and unknown display positions; several masks cover unknown physical lengths. No exact aggregate physical-body count or accuracy percentage.",
+  "source_work": {
+    "two_frozen_related_ai_readings": [
+      242,
+      244,
+      249,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258
+    ],
+    "reconciliation": "Nonblind; source-shaped decisions and unchanged alternatives retained",
+    "address_faces_checked": 9,
+    "additional_cipher_observed_on_address_faces": false,
+    "complete_cipher_solution_claimed": false
+  },
+  "catalogue": {
+    "official_explicit_records": 263,
+    "exact_original_image_urls": 526,
+    "pagination": "One complete1875-record response; no next page",
+    "validation": "PASS: all263 id/name bindings and526 image JSON pointers matched saved response SHA256; queue263 IDs match",
+    "external_source_bytes": "Private; only thin derived records public"
+  },
+  "history": "First-batch b9bbdb9 five card JSONs and three batch2 first-candidate JSONs copied byte-exact; all frozen raw layers retained.",
+  "checks": [
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "scope": "Frozen anchor and nine current selected candidate records"
+    },
+    {
+      "command": "Standalone source catalogue pointer/queue validation",
+      "result": "PASS",
+      "records": 263,
+      "image_urls": 526
+    },
+    {
+      "command": "python3 -m unittest -v test_decode",
+      "result": "PASS fresh root and independent reviewer runs",
+      "tests": 17
+    },
+    {
+      "command": "python3 -m unittest discover -s verification/tests -v",
+      "result": "PASS fresh root run;100tests",
+      "tests": 100
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only code/evidence reviewer",
+    "status": "PASS after two metadata fixes and new span guard review; no remaining confirmed defects",
+    "initial_findings": [
+      "Partial-transcription queue omitted249; fixed by explicit masked-record policy.",
+      "255 whole-word current ledger retained priorf6sm5 after source choicef5sm5; fixed with original alternative preserved."
+    ],
+    "followup": "Independent reviewer reran17focused tests, nine-card replay, queue/history/old-audit/key integrity and approved draft update.",
+    "limitations": "AI review of bounded code/evidence consistency, not certification of source accuracy or historical truth."
+  },
+  "next_batch": {
+    "card_ids": [
+      259,
+      260,
+      261,
+      262
+    ],
+    "status": "Private source-only first and blind second readings in progress; outside nine-card public replay"
+  },
+  "limits": [
+    "Passing replay cannot verify ink/classification, physical body counts, cognitive independence or history.",
+    "Related AI source agreement is not independent human/external confirmation.",
+    "Official catalogue range coverage is not a solution or proof of historical corpus identity."
+  ],
+  "checker_guard": {
+    "scope": "Current uncertainty entries declaring offset and selected must match current ciphertext; existingline and integer bounds required. Valid empty-boundary absence selections allowed; overlaps allowed; unpaired historical notes skipped.",
+    "tdd": "Expected failures captured privately before implementation, including empty-boundary regression before allowing valid absence observations.",
+    "source_accuracy_claim": false
+  },
+  "manifest_expected_entries": 462
+}

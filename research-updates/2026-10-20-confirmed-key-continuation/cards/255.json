@@ -242,8 +242,8 @@
     },
     {
       "line_id": "L14",
-      "ciphertext": "b3c486 d4 f6sm5 df27 b5b32c.",
-      "literal": "POSILA TI VACNE TVUJ PEPOUS.",
+      "ciphertext": "b3c486 d4 f5sm5 df27 b5b32c.",
+      "literal": "POSILA TI VECNE TVUJ PEPOUS.",
       "encoded_bodies": 23,
       "expanded_letters": 23,
       "ch_occurrences": 0,
@@ -912,11 +912,11 @@
     {
       "line_id": "L14",
       "offset": 11,
-      "selected": "6",
+      "selected": "5",
       "alternatives": [
-        "5"
+        "6"
       ],
-      "observation": "Reader disagreement rechecked against source. Selected visible body count/shape or spacing remains a candidate; no Czech repair applied.",
+      "observation": "Review2: flat upper bar favors5; prior6 retained as alternative. Nonblind contour comparison, not a language repair.",
       "reader_difference": {
         "reader": "root",
         "raw_segment": "5"
@@ -970,11 +970,11 @@
     {
       "line_id": "L14",
       "offset": 10,
-      "selected": "f6sm5",
+      "selected": "f5sm5",
       "alternatives": [
-        "f5sm5"
+        "f6sm5"
       ],
-      "observation": "Second body 6/5 remains disputed.",
+      "observation": "Review2: second body now selected5 from flat upper bar; original6 remains an alternative. Whole-word ledger matches current ciphertext.",
       "reader_difference": true,
       "secure": false
     },
@@ -1176,7 +1176,7 @@
   "solved": false,
   "editorial_czech": {
     "status": "proposed, not literal",
-    "text": "Tisícerý dík, Aničko moje líbezná, za včerejší lístek, který dodán byl teprve [odpoledne?] za mé nepřítomnosti. Jak mohla se domysleti, že mne [korespondence?] s ní omrzela? Vždyť se vždy na její drahé řádky tak toužebně těším. Vždyť také já mám tě, Aničko moje jediná, tak z celé, vřelé duše, tak vášnivě rád. Hlavička, moje zlato, již nebolí, za to však srdéčko velice po [tobě?] stůně. Jsi ty též [alternativa: teď?] zase úplně zdráva. Nenachladila se mi na ledě. Tisíc vřelých dlouhých, vášnivých pus posílá ti [věčně?] tvůj Pepouš.",
+    "text": "Tisícerý dík, Aničko moje líbezná, za včerejší lístek, který dodán byl teprve [odpoledne?] za mé nepřítomnosti. Jak mohla se domysleti, že mne [korespondence?] s ní omrzela? Vždyť se vždy na její drahé řádky tak toužebně těším. Vždyť také já mám tě, Aničko moje jediná, tak z celé, vřelé duše, tak vášnivě rád. Hlavička, moje zlato, již nebolí, za to však srdéčko velice po [tobě?] stůně. Jsi ty též [alternativa: teď?] zase úplně zdráva. Nenachladila se mi na ledě. Tisíc vřelých dlouhých, vášnivých pus posílá ti věčně tvůj Pepouš.",
     "policy": "Diacritics and capitalization are supplied editorially. Every substantive body replacement, addition or conjectural word joining is bracketed or explicitly named as an alternative and listed in restoration_ledger. Written line-end hyphens may be joined; such joins are not cipher evidence. Ciphertext and literal lines remain unchanged.",
     "restoration_ledger": [
       {
@@ -1206,19 +1206,12 @@
         "proposal": "též [alternativa: teď?]",
         "reason": "Primary TEZ supports též (also), not teď (now). The alternative teď requires Z→D and is not the primary decode; root raw TEK is also retained independently.",
         "source_confirmed": false
-      },
-      {
-        "line_id": "L14",
-        "literal_span": "VACNE",
-        "proposal": "[věčně?]",
-        "reason": "Replaces A with E; source6/5 remains unresolved.",
-        "source_confirmed": false
       }
     ]
   },
   "english_translation": {
     "status": "proposed translation of editorial Czech, not independent evidence",
-    "text": "A thousand thanks, my lovely Anička, for yesterday’s note, which was delivered only in the [afternoon?] during my absence. How could she imagine that [correspondence?] with her had become tiresome to me? I always look forward so eagerly to her dear lines. I too love you, my only Anička, with all my warm soul, so passionately. The little head, my darling, no longer hurts, but my heart aches very much for [you?]. You are also [alternative: now?] completely well again. She has not caught cold on the ice, to my concern [literal wording remains unusual]. A thousand warm, long, passionate kisses are sent to you [forever?] by your Pepouš.",
+    "text": "A thousand thanks, my lovely Anička, for yesterday’s note, which was delivered only in the [afternoon?] during my absence. How could she imagine that [correspondence?] with her had become tiresome to me? I always look forward so eagerly to her dear lines. I too love you, my only Anička, with all my warm soul, so passionately. The little head, my darling, no longer hurts, but my heart aches very much for [you?]. You are also [alternative: now?] completely well again. She has not caught cold on the ice, to my concern [literal wording remains unusual]. A thousand warm, long, passionate kisses are sent to you forever by your Pepouš.",
     "basis": "Translation of the editorial proposal, not of a certified source transcription; bracketed or explicitly labeled alternatives carry restoration uncertainty."
   },
   "offset_convention": "All final uncertainty and mark offsets are zero-based Unicode codepoints in the cited final line. Historical raw word-number notes are not used as final locators.",
@@ -1232,5 +1225,11 @@
       1110,
       1005
     ]
+  },
+  "review2_source_reinspection": {
+    "record": "../revisions/253-255-review2.json",
+    "status": "Nonblind reinspection by an existing reader, not an additional independent reader",
+    "selected_changes": "L14 final-wordsecondbody6→5",
+    "original_snapshot": "../history/2026-10-20-batch1-b9bbdb9/255.json"
   }
 }
