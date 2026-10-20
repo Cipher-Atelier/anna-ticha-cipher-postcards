@@ -40,7 +40,11 @@
     283,
     284,
     285,
-    286
+    286,
+    287,
+    288,
+    289,
+    290
   ],
   "partial_cipher_transcription_ids": [
     242,
@@ -75,7 +79,9 @@
     283,
     284,
     285,
-    286
+    286,
+    287,
+    289
   ],
   "old_six_locus_audit_ids": [
     198,
@@ -85,18 +91,15 @@
     440,
     453
   ],
-  "next_in_progress_card_ids": [
-    287,
-    288
-  ],
+  "next_in_progress_card_ids": [],
   "next_priority": [
     {
-      "task": "Next source batch:287/288 first source-only reads frozen privately by parent attestation; target-unexposed seconds pending.289/290 not started. Freeze separate raw readings before exchange/reconciliation.",
+      "task": "Next source batch, not yet acquired/read in this continuation: freeze first and target-unexposed second source-only readings before nonblind reconciliation.",
       "card_ids": [
-        287,
-        288,
-        289,
-        290
+        291,
+        292,
+        293,
+        294
       ]
     },
     {
@@ -2413,11 +2416,11 @@
     },
     {
       "card_id": 287,
-      "transcription_status": "first source-only raw reading frozen privately by parent attestation; target-unexposed second reading pending; no current candidate",
-      "decode_status": "not checked",
-      "independent_ai_source_check": "first frozen AI source read attested; second source read pending",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph/segmentation alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Keep parent first raw unread until a target-unexposed second source-only reading freezes; then replay with explicit actual decoder provenance and reconcile nonblind.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1606
       ],
@@ -2429,16 +2432,28 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4879/pc_hcp_287_adr.JPG"
       ],
-      "source_status": "both original faces acquired privately with HTTP200, by parent attestation; not reacquired for this batch",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original acquired privately; SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "2978e699b24cf688432778cabe57fd98b4230a6d06a8b65235d5a115fc75450a",
+      "counts": {
+        "rows": 5,
+        "encoded_bodies": 160,
+        "expanded_letters": 158,
+        "ch_occurrences": 2,
+        "unknowns": 4
+      },
+      "artifact": "cards/287.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "original acquired and complete saved face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Regions/order remain qualified."
     },
     {
       "card_id": 288,
-      "transcription_status": "first source-only raw reading frozen privately by parent attestation; target-unexposed second reading pending; no current candidate",
-      "decode_status": "not checked",
-      "independent_ai_source_check": "first frozen AI source read attested; second source read pending",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph/segmentation alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Keep parent first raw unread until a target-unexposed second source-only reading freezes; then replay with explicit actual decoder provenance and reconcile nonblind.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1607
       ],
@@ -2450,16 +2465,28 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4882/pc_hcp_288_adr.JPG"
       ],
-      "source_status": "both original faces acquired privately with HTTP200, by parent attestation; not reacquired for this batch",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original acquired privately; SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "9ce84ccc36cbc3ab96adbee078710e0c4f6427560148e83a741a7effca1a62b8",
+      "counts": {
+        "rows": 6,
+        "encoded_bodies": 203,
+        "expanded_letters": 205,
+        "ch_occurrences": 2,
+        "unknowns": 0
+      },
+      "artifact": "cards/288.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "original acquired and complete saved face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Regions/order remain qualified."
     },
     {
       "card_id": 289,
-      "transcription_status": "not yet transcribed in this investigation",
-      "decode_status": "not checked",
-      "independent_ai_source_check": "not performed",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph/segmentation alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Acquire exact official source normally, inspect both faces, freeze source-only reading, then apply unchanged key.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1608
       ],
@@ -2471,16 +2498,28 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4885/pc_hcp_289_adr.JPG"
       ],
-      "source_status": "exact official URL recorded; original GET not performed in this run",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original acquired privately; SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "b9a715df67b90f52f6b786dc95a76728fca7ebab3959062c46820f5a61b9a156",
+      "counts": {
+        "rows": 5,
+        "encoded_bodies": 184,
+        "expanded_letters": 186,
+        "ch_occurrences": 3,
+        "unknowns": 1
+      },
+      "artifact": "cards/289.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "original acquired and complete saved face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Regions/order remain qualified."
     },
     {
       "card_id": 290,
-      "transcription_status": "not yet transcribed in this investigation",
-      "decode_status": "not checked",
-      "independent_ai_source_check": "not performed",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph/segmentation alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Acquire exact official source normally, inspect both faces, freeze source-only reading, then apply unchanged key.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1609
       ],
@@ -2492,8 +2531,20 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4888/pc_hcp_290_adr.JPG"
       ],
-      "source_status": "exact official URL recorded; original GET not performed in this run",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original acquired privately; SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "9e04f6bfb01715c427f248b237fe07a66add02bb9f18b80433f9f4d3bff859f8",
+      "counts": {
+        "rows": 4,
+        "encoded_bodies": 179,
+        "expanded_letters": 179,
+        "ch_occurrences": 0,
+        "unknowns": 0
+      },
+      "artifact": "cards/290.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "original acquired and complete saved face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Regions/order remain qualified."
     },
     {
       "card_id": 291,
