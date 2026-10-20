@@ -56,7 +56,11 @@
     299,
     300,
     301,
-    302
+    302,
+    303,
+    304,
+    305,
+    306
   ],
   "partial_cipher_transcription_ids": [
     242,
@@ -99,7 +103,9 @@
     295,
     296,
     301,
-    302
+    302,
+    303,
+    304
   ],
   "old_six_locus_audit_ids": [
     198,
@@ -109,18 +115,15 @@
     440,
     453
   ],
-  "next_in_progress_card_ids": [
-    303,
-    304
-  ],
+  "next_in_progress_card_ids": [],
   "next_priority": [
     {
-      "task": "Parent reports frozen FIRST source-only 303/304; continuation must freeze target-unexposed SECOND 303/304 and complete both source slots305/306 before the full next-batch checkpoint and exchange. Parent FIRST documents remain unopened here. First/second are assigned slots, not chronology.",
+      "task": "Next priority is 307–310; continuation readings have not started here. This batch adds no future candidate or source-stage claim. Preserve two-input freezes and checkpoint barriers for subsequent continuation work.",
       "card_ids": [
-        303,
-        304,
-        305,
-        306
+        307,
+        308,
+        309,
+        310
       ]
     },
     {
@@ -2965,11 +2968,11 @@
     },
     {
       "card_id": 303,
-      "transcription_status": "Private preparation: parent reports frozen FIRST source-only document; continuation SECOND not started; no public candidate.",
-      "decode_status": "Parent FIRST has no own decode stage; later QA execution pending; no current selected candidate.",
-      "independent_ai_source_check": "Private parent FIRST source-only layer; cold counterpart has not started.",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph, segmentation and mark alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Freeze target-unexposed SECOND before opening parent FIRST; complete both source slots305/306 and full next-batch checkpoint before exchange.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1622
       ],
@@ -2981,16 +2984,28 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4927/pc_hcp_303_adr.JPG"
       ],
-      "source_status": "Original sources available privately from supervising thread; no duplicate GET by this continuation.",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original available privately; saved source SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "fcd0d57ab3a5bc7f0f334b643d8de69946a04c4b9833a516ef53f0cf6cdcb291",
+      "counts": {
+        "rows": 21,
+        "encoded_bodies": 298,
+        "expanded_letters": 299,
+        "ch_occurrences": 2,
+        "unknowns": 1
+      },
+      "artifact": "cards/303.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "complete saved original face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit."
     },
     {
       "card_id": 304,
-      "transcription_status": "Private preparation: parent reports frozen FIRST source-only document; continuation SECOND not started; no public candidate.",
-      "decode_status": "Parent FIRST has no own decode stage; later QA execution pending; no current selected candidate.",
-      "independent_ai_source_check": "Private parent FIRST source-only layer; cold counterpart has not started.",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph, segmentation and mark alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Freeze target-unexposed SECOND before opening parent FIRST; complete both source slots305/306 and full next-batch checkpoint before exchange.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1623
       ],
@@ -3002,16 +3017,28 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4930/pc_hcp_304_adr.JPG"
       ],
-      "source_status": "Original sources available privately from supervising thread; no duplicate GET by this continuation.",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original available privately; saved source SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "8dd8cffa092552252e522ea94be1b13b5d37323cf1aa897424b76836922f0fca",
+      "counts": {
+        "rows": 5,
+        "encoded_bodies": 249,
+        "expanded_letters": 249,
+        "ch_occurrences": 1,
+        "unknowns": 1
+      },
+      "artifact": "cards/304.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "complete saved original face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit."
     },
     {
       "card_id": 305,
-      "transcription_status": "not yet transcribed in this investigation",
-      "decode_status": "not checked",
-      "independent_ai_source_check": "not performed",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph, segmentation and mark alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Acquire exact official source normally, inspect both faces, freeze source-only reading, then apply unchanged key.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1624
       ],
@@ -3023,16 +3050,28 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4933/pc_hcp_305_adr.JPG"
       ],
-      "source_status": "exact official URL recorded; original GET not performed in this run",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original available privately; saved source SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "196f78c6d49d2ab6a8688c86075720a33944bc817c82b6ab02de36ec3cc9552c",
+      "counts": {
+        "rows": 6,
+        "encoded_bodies": 164,
+        "expanded_letters": 167,
+        "ch_occurrences": 3,
+        "unknowns": 0
+      },
+      "artifact": "cards/305.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "complete saved original face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit."
     },
     {
       "card_id": 306,
-      "transcription_status": "not yet transcribed in this investigation",
-      "decode_status": "not checked",
-      "independent_ai_source_check": "not performed",
+      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph, segmentation and mark alternatives retained",
+      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Acquire exact official source normally, inspect both faces, freeze source-only reading, then apply unchanged key.",
+      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
       "catalogue_ids": [
         1625
       ],
@@ -3044,8 +3083,20 @@
       "address_urls": [
         "https://api.hcportal.eu/media/4936/pc_hcp_306_adr.JPG"
       ],
-      "source_status": "exact official URL recorded; original GET not performed in this run",
-      "official_solution_status_label": "Not solved"
+      "source_status": "original available privately; saved source SHA256 verified",
+      "official_solution_status_label": "Not solved",
+      "source_sha256": "e2502a929fefe80ad3ea04774fd0f8589670cce77829c87083fca13c19901357",
+      "counts": {
+        "rows": 11,
+        "encoded_bodies": 510,
+        "expanded_letters": 512,
+        "ch_occurrences": 2,
+        "unknowns": 0
+      },
+      "artifact": "cards/306.json",
+      "physical_body_count_status": "selected replay slots only; physical totals not independently established",
+      "address_face_status": "complete saved original face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit."
     },
     {
       "card_id": 307,
@@ -6289,8 +6340,5 @@
     }
   ],
   "partial_status_policy": "Includes candidates with unknown display slots or an explicit unresolved-cluster inventory, including262 despite zero masks. Zero masks can retain glyph alternatives; this list is not a solved/unsolved classifier.",
-  "parent_reserved_first_source_only_card_ids": [
-    303,
-    304
-  ]
+  "parent_reserved_first_source_only_card_ids": []
 }
