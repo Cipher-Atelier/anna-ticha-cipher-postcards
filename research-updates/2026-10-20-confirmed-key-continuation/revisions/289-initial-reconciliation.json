@@ -1,0 +1,1134 @@
+{
+  "record_type": "initial nonblind reconciliation selected snapshot",
+  "sha256": "700392fb8e0a008f7969831751edc60b77aad7dd051e0b1029982f739b4045ac",
+  "hash_scope": "Canonical UTF-8 JSON selected_snapshot; ensure_ascii=False, sorted keys, compact separators. Current card adds revision reference afterwards. Frozen raw objects are retained exactly inside the snapshot.",
+  "selected_snapshot": {
+    "card_id": "289",
+    "notation": "pdf204-canonical",
+    "status": "Partial proposed reading; related-AI nonblind reconciliation; investigation continues.",
+    "source": {
+      "url": "https://api.hcportal.eu/media/4884/pc_hcp_289_pic.JPG",
+      "sha256": "b9a715df67b90f52f6b786dc95a76728fca7ebab3959062c46820f5a61b9a156",
+      "native_dimensions": [
+        1785,
+        1175
+      ]
+    },
+    "catalogue_id": 1608,
+    "catalogue_record_pointer": "/data/data/1601",
+    "catalogue_binding": {
+      "picture_url": "https://api.hcportal.eu/media/4884/pc_hcp_289_pic.JPG",
+      "catalogue_id": 1608,
+      "image_json_pointer": "/data/data/1601/datagroups/0/data/0/image/original"
+    },
+    "orientation": {
+      "rotation_degrees_clockwise": 90,
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "native_dimensions": [
+        1785,
+        1175
+      ],
+      "reading_to_native_bbox": "[y0,1175-x1,y1,1175-x0]",
+      "bbox_convention": "Half-open edge coordinates; contextual row boxes, not precision glyph outlines."
+    },
+    "reader": {
+      "model": "gpt-6.1-sol",
+      "role": "second source-only reader, now nonblind curator",
+      "exact_deployment": null,
+      "temperature": null,
+      "seed": null
+    },
+    "raw_frozen_before_decoding": true,
+    "independent_readings": [
+      {
+        "reader": "first",
+        "model": "gpt-6.1-sol",
+        "key_visible": true,
+        "raw_frozen_before_decode": true,
+        "limits": "Related source-only AI with prior other-card context; not human or external independence. No third source-only reading."
+      },
+      {
+        "reader": "blind",
+        "model": "gpt-6.1-sol",
+        "key_visible": true,
+        "raw_frozen_before_decode": true,
+        "limits": "Related source-only AI with prior other-card context; not human or external independence. No third source-only reading."
+      }
+    ],
+    "raw_preservation": {
+      "first_raw": {
+        "rows": [
+          {
+            "line_id": "R01",
+            "ciphertext": "fh581 14g g6 th6r1 84cd5q, r382p41q3 n375 g86d6! m6 bc6mq3",
+            "bbox_native": [
+              1450,
+              65,
+              1515,
+              1095
+            ],
+            "bbox_reading": [
+              80,
+              1450,
+              1110,
+              1515
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 27,
+                "selected": "r382p41q3",
+                "observation": "Last descending loop selected q; alternate g retained as whole-glyph family uncertainty, not a language correction."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "R02",
+            "ciphertext": "d5c4n c5 m5cn4hm5, d5md3 d1t5m mn5 g6c5 c32g486",
+            "bbox_native": [
+              1500,
+              75,
+              1565,
+              1100
+            ],
+            "bbox_reading": [
+              75,
+              1500,
+              1100,
+              1565
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 31,
+                "selected": "mn5",
+                "observation": "Low joined arches preserve selected m+n segmentation; alternative division or arch count remains possible."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "R03",
+            "ciphertext": "řh4bg6: p18 7c5n b3 dh4 ?1 t3m6. tm5c 75 74g",
+            "bbox_native": [
+              1545,
+              75,
+              1615,
+              1100
+            ],
+            "bbox_reading": [
+              75,
+              1545,
+              1100,
+              1615
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "transcription": [
+              {
+                "offset": 24,
+                "text": "?",
+                "kind": "unknown_glyph"
+              }
+            ],
+            "uncertainties": [
+              {
+                "offset": 0,
+                "selected": "řh4bg6",
+                "observation": "Fourth body selected b from its loop and descending stem; p alternate retained."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "R04",
+            "ciphertext": "th3ře 85p5. d4c4s b3gth6f2 6 fh581ř b2c 3t",
+            "bbox_native": [
+              1590,
+              75,
+              1660,
+              1100
+            ],
+            "bbox_reading": [
+              75,
+              1590,
+              1100,
+              1660
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 36,
+                "selected": "b2c",
+                "observation": "Initial loop is darkened/overwritten; selected b is provisional; no extra body inserted."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "R05",
+            "ciphertext": "df5r3 cd685 fgb3n4m674s4r3 b5b32c5.",
+            "bbox_native": [
+              1635,
+              105,
+              1705,
+              980
+            ],
+            "bbox_reading": [
+              195,
+              1635,
+              1070,
+              1705
+            ],
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 12,
+                "selected": "fgb3n4m674s4r3",
+                "observation": "Connected middle arches selected n/m by visible grouping; no silent extra glyph supplied."
+              }
+            ],
+            "physical_encoded_body_count": null
+          }
+        ],
+        "marks": [
+          {
+            "line_id": "R03",
+            "offset": 0,
+            "selected": "ř",
+            "kind": "marked_r_family",
+            "observation": "Short r-family body has separate small roof or fork above; selected canonical marked form; exact branch shape remains descriptive."
+          },
+          {
+            "line_id": "R04",
+            "offset": 3,
+            "selected": "ř",
+            "kind": "marked_r_family",
+            "observation": "Short r-family body has separate small roof or fork above; selected canonical marked form; exact branch shape remains descriptive."
+          },
+          {
+            "line_id": "R04",
+            "offset": 34,
+            "selected": "ř",
+            "kind": "marked_r_family",
+            "observation": "Short r-family body has separate small roof or fork above; selected canonical marked form; exact branch shape remains descriptive."
+          }
+        ],
+        "unresolved_clusters": [
+          {
+            "line_id": "R03",
+            "offset": 24,
+            "selected": "?",
+            "physical_length": null,
+            "bbox_reading": [
+              485,
+              1545,
+              570,
+              1610
+            ],
+            "bbox_native": [
+              1545,
+              605,
+              1610,
+              690
+            ],
+            "observation": "Crossed or overwritten short cluster before terminal 1; strokes do not securely establish a glyph family or physical body count."
+          }
+        ],
+        "ordinary_numerals": [],
+        "actual_question_punctuation": [],
+        "separate_date_inscription": {
+          "text": "8./III.1902.",
+          "bbox_reading": [
+            375,
+            1360,
+            685,
+            1425
+          ],
+          "bbox_native": [
+            1360,
+            490,
+            1425,
+            800
+          ],
+          "status": "Unverified source inscription only; no date or chronology inference; excluded from cipher replay."
+        },
+        "physical_encoded_body_count": null,
+        "notes": [
+          "Complete saved picture face and margins inspected; no additional cipher regions observed. Printed caption and illustration are excluded from cipher rows.",
+          "Spaces preserve provisional visible grouping; row context rectangles may overlap adjacent ascenders/descenders. Rectangles are not exact glyph silhouettes.",
+          "No editorial or plaintext proposals are part of this raw record. Date has ordinary numerals in a separate noncipher inscription; no numeral spans were identified within selected cipher rows.",
+          "Unmarked question-mask denotes unresolved source strokes, not a genuine written question. No actual question punctuation selected."
+        ]
+      },
+      "first_record": {
+        "raw_sha256": "c96236855722ed70b5eb876113611bcfbbabec36ea4e838b66314eb6404441b0",
+        "raw_file_sha256": "912cb12a3cbe9aabd73b69d43c8375e0b78cd15d27c855c164105a4ec5e52cbe",
+        "strict_file_sha256": "646e222a28655bc92e53239075c82cd3528a5b7696f5f382408e9f0761346b33",
+        "raw_frozen_at_utc": "2026-10-20T17:18:42.645612+00:00",
+        "decoded_at_utc": "2026-10-20T17:19:18.603857+00:00",
+        "source_sha256": "b9a715df67b90f52f6b786dc95a76728fca7ebab3959062c46820f5a61b9a156",
+        "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+        "exposure": {
+          "visible_frozen_key": true,
+          "prior_other_card_context": true,
+          "related_AI_context": true,
+          "target_other_reader_exposure_before_freeze": false,
+          "human_or_external_independent_validation": false,
+          "limitations": "Related AI reader with prior other-card source and key implementation context; visible key can influence perception. Glyph-first source transcription, not a blind key-free experiment."
+        },
+        "hash_scope": "UTF-8 JSON raw object, ensure_ascii=False, sorted keys, compact separators; excludes wrapper."
+      },
+      "blind_raw": {
+        "rows": [
+          {
+            "line_id": "289-L01",
+            "ciphertext": "fh581 t4q g6 th6r1 84cd5q, r382p4sq3 n375 g86d6! m6 bc6mq3",
+            "reading_frame": "frame270ccw",
+            "reading_rotation_degrees_counterclockwise": 270,
+            "reading_bbox_xyxy": [
+              95,
+              1450,
+              1110,
+              1515
+            ],
+            "native_bbox_xyxy": [
+              1450,
+              65,
+              1515,
+              1080
+            ],
+            "transcription": [
+              {
+                "offset": 47,
+                "text": "!",
+                "kind": "punctuation"
+              }
+            ],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "289-L02",
+            "ciphertext": "d5c4n c5 m5cn4hm5, d5md3 d1t5m nm5 g6c5 c32g486",
+            "reading_frame": "frame270ccw",
+            "reading_rotation_degrees_counterclockwise": 270,
+            "reading_bbox_xyxy": [
+              80,
+              1495,
+              1105,
+              1560
+            ],
+            "native_bbox_xyxy": [
+              1495,
+              70,
+              1560,
+              1095
+            ],
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "289-L03",
+            "ciphertext": "řh4bq6. p18 7c5n b3 dh4 tm1 t3n6. tm5c 75 74g",
+            "reading_frame": "frame270ccw",
+            "reading_rotation_degrees_counterclockwise": 270,
+            "reading_bbox_xyxy": [
+              80,
+              1535,
+              1100,
+              1600
+            ],
+            "native_bbox_xyxy": [
+              1535,
+              75,
+              1600,
+              1095
+            ],
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "289-L04",
+            "ciphertext": "dh3ř2 85b5. d4c4s b3gth6f2 6 fh581ř b2c 3t",
+            "reading_frame": "frame270ccw",
+            "reading_rotation_degrees_counterclockwise": 270,
+            "reading_bbox_xyxy": [
+              80,
+              1575,
+              1100,
+              1640
+            ],
+            "native_bbox_xyxy": [
+              1575,
+              75,
+              1640,
+              1095
+            ],
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "289-L05",
+            "ciphertext": "df5r3 cd685 fgb3n4m674s4r3 b5b32c5.",
+            "reading_frame": "frame270ccw",
+            "reading_rotation_degrees_counterclockwise": 270,
+            "reading_bbox_xyxy": [
+              185,
+              1620,
+              1045,
+              1690
+            ],
+            "native_bbox_xyxy": [
+              1620,
+              130,
+              1690,
+              990
+            ],
+            "transcription": [],
+            "uncertainties": [],
+            "physical_encoded_body_count": null
+          }
+        ],
+        "marks": [
+          {
+            "line_id": "289-L03",
+            "token": "řh4bq6",
+            "description": "Detached roof over initial short branch;ř provisional."
+          },
+          {
+            "line_id": "289-L04",
+            "token": "dh3ř2;fh581ř",
+            "description": "Detached roofs over short branch families;marked-r classification provisional."
+          },
+          {
+            "line_id": "289-L03",
+            "token": "tm1",
+            "description": "Dark overtrace on firstbody; crossedstem selected, unknowncluster alternative remains."
+          }
+        ],
+        "unresolved_clusters": [],
+        "ordinary_numerals": [],
+        "actual_question_punctuation": [],
+        "date": {
+          "visual_candidate": "8./III.1902.",
+          "reading_frame": "frame270ccw",
+          "reading_bbox_xyxy": [
+            395,
+            1360,
+            655,
+            1425
+          ],
+          "native_bbox_xyxy": [
+            1360,
+            520,
+            1425,
+            780
+          ],
+          "certainty": "Tentative ordinary inscription only; no chronology/authorship proof."
+        },
+        "notes": [
+          "Complete saved native face and all margins inspected; then270CCW/90CW upright source and enlarged lower text. Five handwritten rows in one lower region, plus separate handwritten date. Printed caption and publisher prose excluded; no further handwritten cipher observed.",
+          "q/g narrow-return versus open-hook families tentative throughout t4q,84cd5q,r382p4sq3,bc6mq3/c32g486. Lowm/n arch count likewise provisional; no language normalization.",
+          "L02m5cn4hm5 low one-archn afterc versusm alternative retained; tallh versus shortr alternative. d5md3 andd1t5m body families selected from visible strokes.",
+          "L03 firstř carries detached roof above short branchingr-family body; h afterit is tall. tm1 initialstem is dark/overtraced: crossedt selected from full stroke extent, alternative unassigned joined cluster remains. Physical segmentation unknown.",
+          "L04 firstbody indh3ř2 is loopyoval with ascending rightstroke favoringd rather than crossbar t; marked short third/fourth branch selectedř withr alternative. fh581ř final separate roof selectedř.",
+          "L05df5r3 retains short branchr rather than tallh; fgb3n4m674s4r3 source hump/branch shapes remain candidates. Last5 upperbar with separate finalperiod selected, no actual questionmark.",
+          "No unknown masks selected and no actual written questionpunctuation identified. No ordinary numeral span selected inside cipher; exclamation onL01 is punctuation. Zero masks does not imply source accuracy/physical counts.",
+          "Separate source inscription8./III.1902. observed, day/month stroke count tentative and unverified, no chronology inference.",
+          "Assignedgpt-6.1-sol, exactdeployment/temp/seed unavailable. RelatedAI secondsource-only reader with visiblecanonicalkey and earlier other-card source/nonblind context. No first289/290,sibling targetraw/literal/prepared artifact or receipt accessed. Physicaltotalsnull."
+        ],
+        "physical_encoded_body_count": null
+      },
+      "blind_record": {
+        "raw_sha256": "5983789b11f091a8fc04a25980835d35e200f411396b8e3d3121da19a5d70253",
+        "raw_file_sha256": "1c9e60f0b83c5d7ea0ee817cf7c268ec0380427a4337b5bed0f4629fb82cb585",
+        "strict_file_sha256": "329df617aaa453e1be9319134e7d7b76beabe781bb5aeef95ac7dfd7b4999f05",
+        "raw_frozen_at_utc": "2026-10-20T17:20:06.852610+00:00",
+        "decoded_at_utc": "2026-10-20T17:23:30.119304+00:00",
+        "source_sha256": "b9a715df67b90f52f6b786dc95a76728fca7ebab3959062c46820f5a61b9a156",
+        "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+        "exposure": {
+          "first289_accessed": false,
+          "other_target289_reading_accessed": false,
+          "programmatic_decode_before_both_own_freezes": false,
+          "prior_context": "Canonicalkey and earlier other-card source/nonblind research visible; relatedAI, not independenthuman/external evidence."
+        },
+        "hash_scope": "Canonical compact sorted UTF-8 JSON raw object; ensure_ascii=False, sort_keys=True, separators comma/colon."
+      }
+    },
+    "lines": [
+      {
+        "line_id": "289-L01",
+        "ciphertext": "fh581 t4q g6 th6r1 84cd5q, r382p4sq3 n375 g86d6! m6 bc6mq3",
+        "transcription": [
+          {
+            "offset": 47,
+            "text": "!",
+            "kind": "punctuation"
+          }
+        ],
+        "literal": "VRELY DIK ZA DRAHY LISTEK, HOLUBICKO MOJE ZLATA! NA PSANKO",
+        "encoded_bodies": 47,
+        "expanded_letters": 47,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "cw90",
+        "reading_bbox_xyxy": [
+          75,
+          1450,
+          1110,
+          1515
+        ],
+        "native_bbox_xyxy": [
+          1450,
+          65,
+          1515,
+          1100
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "289-L02",
+        "ciphertext": "d5c4n c5 m5cn4hm5, d5md3 d1t5m nm5 g6c5 c32g486",
+        "transcription": [],
+        "literal": "TESIM SE NESMIRNE, TENTO TYDEN MNE ZASE SOUZILA",
+        "encoded_bodies": 39,
+        "expanded_letters": 39,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "cw90",
+        "reading_bbox_xyxy": [
+          75,
+          1495,
+          1105,
+          1565
+        ],
+        "native_bbox_xyxy": [
+          1495,
+          70,
+          1565,
+          1100
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "289-L03",
+        "ciphertext": "řh4bq6: p18 7c5n b3 dh4 ?1 t3n6. tm5c 75 74g",
+        "transcription": [
+          {
+            "offset": 24,
+            "text": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "literal": "CHRIPKA: BYL JSEM PO TRI ?Y DOMA. DNES JE JIZ",
+        "encoded_bodies": 33,
+        "expanded_letters": 33,
+        "ch_occurrences": 1,
+        "unknowns": [
+          {
+            "offset": 24,
+            "body_index": 18,
+            "symbol": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "reading_frame": "cw90",
+        "reading_bbox_xyxy": [
+          75,
+          1535,
+          1100,
+          1615
+        ],
+        "native_bbox_xyxy": [
+          1535,
+          75,
+          1615,
+          1100
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "289-L04",
+        "ciphertext": "dh3ř2 85p5. d4c4s b3gth6f2 6 fh581ř b2c 3t",
+        "transcription": [],
+        "literal": "TROCHU LEBE. TISIC POZDRAVU A VRELYCH PUS OD",
+        "encoded_bodies": 34,
+        "expanded_letters": 36,
+        "ch_occurrences": 2,
+        "unknowns": [],
+        "reading_frame": "cw90",
+        "reading_bbox_xyxy": [
+          75,
+          1575,
+          1100,
+          1660
+        ],
+        "native_bbox_xyxy": [
+          1575,
+          75,
+          1660,
+          1100
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "289-L05",
+        "ciphertext": "df5r3 cd685 fgb3n4m674s4r3 b5b32c5.",
+        "transcription": [],
+        "literal": "TVEHO STALE VZPOMINAJICIHO PEPOUSE.",
+        "encoded_bodies": 31,
+        "expanded_letters": 31,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "cw90",
+        "reading_bbox_xyxy": [
+          185,
+          1620,
+          1070,
+          1705
+        ],
+        "native_bbox_xyxy": [
+          1620,
+          105,
+          1705,
+          990
+        ],
+        "physical_encoded_body_count": null
+      }
+    ],
+    "uncertainty_ledger": [
+      {
+        "line_id": "289-L01",
+        "offset": 6,
+        "selected": "t4q",
+        "alternatives": [
+          "14g"
+        ],
+        "source_visual_basis": "Crossed tall initial stem favors t; terminal descender has a returning loop favoring q over g. Frozen first selection retained separately."
+      },
+      {
+        "line_id": "289-L01",
+        "offset": 27,
+        "selected": "r382p4sq3",
+        "alternatives": [
+          "r382p41q3"
+        ],
+        "source_visual_basis": "Short angular body after 4 favors s rather than a tall numeral-like 1; narrow returning q follows."
+      },
+      {
+        "line_id": "289-L02",
+        "offset": 31,
+        "selected": "nm5",
+        "alternatives": [
+          "mn5"
+        ],
+        "source_visual_basis": "First low arch is shorter than following double-arch form; n then m provisionally selected. Joined strokes limit segmentation certainty."
+      },
+      {
+        "line_id": "289-L03",
+        "offset": 0,
+        "selected": "řh4bq6:",
+        "alternatives": [
+          "řh4bg6:",
+          "řh4bq6."
+        ],
+        "source_visual_basis": "Detached roof over short r-family body retained; descending return favors q. Two vertically displaced points favor colon, with period alternative."
+      },
+      {
+        "line_id": "289-L03",
+        "offset": 24,
+        "selected": "?1",
+        "alternatives": [
+          "tm1"
+        ],
+        "source_visual_basis": "Overwritten crossed stem and low joined arches before 1 do not securely establish body boundaries; mask retains unresolved cluster rather than selecting from expected language."
+      },
+      {
+        "line_id": "289-L03",
+        "offset": 27,
+        "selected": "t3n6",
+        "alternatives": [
+          "t3m6"
+        ],
+        "source_visual_basis": "Single low arch after 3 provisionally supports n rather than double-arch m."
+      },
+      {
+        "line_id": "289-L04",
+        "offset": 0,
+        "selected": "dh3ř2",
+        "alternatives": [
+          "th3ře",
+          "dh3ře",
+          "dh3ř?"
+        ],
+        "source_visual_basis": "Initial rounded loop and ascending stroke favor d; marked short r family retained. Final body has rounded upper turn and baseline return compatible with 2 elsewhere. Unassigned e-like contour remains an alternative; no e mapping is introduced."
+      },
+      {
+        "line_id": "289-L04",
+        "offset": 6,
+        "selected": "85p5",
+        "alternatives": [
+          "85b5"
+        ],
+        "source_visual_basis": "Third body has a descending stem below baseline rather than the ascending loop seen in b elsewhere; p selected despite producing LEBE. No language repair in selected cipher."
+      },
+      {
+        "line_id": "289-L04",
+        "offset": 36,
+        "selected": "b2c",
+        "alternatives": [
+          "p2c"
+        ],
+        "source_visual_basis": "Dark tall loop/ascender favors b; descender alternative retained."
+      },
+      {
+        "line_id": "289-L05",
+        "offset": 12,
+        "selected": "fgb3n4m674s4r3",
+        "alternatives": [
+          "fgb3m4m674s4r3"
+        ],
+        "source_visual_basis": "Low arch after 3 provisionally n; connected arches remain uncertain."
+      },
+      {
+        "line_id": "289-L03",
+        "offset": 24,
+        "selected": "?",
+        "alternatives": [
+          "t",
+          "tm",
+          "unresolved joined cluster"
+        ],
+        "source_visual_basis": "Mask is not written question punctuation; physical length unknown."
+      }
+    ],
+    "marks_and_segmentation_notes": [
+      {
+        "line_id": "289-L03",
+        "offset": 0,
+        "selected": "ř",
+        "note": "Detached roof over short branched r-family body supports canonical marked-r selection; no new key rule."
+      },
+      {
+        "line_id": "289-L04",
+        "offset": 3,
+        "selected": "ř",
+        "note": "Detached roof over short branched r-family body supports canonical marked-r selection; no new key rule."
+      },
+      {
+        "line_id": "289-L04",
+        "offset": 34,
+        "selected": "ř",
+        "note": "Detached roof over short branched r-family body supports canonical marked-r selection; no new key rule."
+      }
+    ],
+    "segmentation_ledger": [
+      {
+        "line_id": "289-L02",
+        "offset": 31,
+        "selected": "nm5",
+        "physical_encoded_body_count": null,
+        "note": "Low connected arches remain a segmentation limit."
+      },
+      {
+        "line_id": "289-L03",
+        "offset": 24,
+        "selected": "?1",
+        "physical_length": null,
+        "note": "Current one display mask replaces blind tm before final 1; first mask also covered unresolved prefix. No known body-count claim."
+      }
+    ],
+    "unknown_clusters": [
+      {
+        "line_id": "289-L03",
+        "offset": 24,
+        "selected": "?",
+        "alternatives": [
+          "t",
+          "tm",
+          "unresolved joined cluster"
+        ],
+        "source_visual_basis": "Mask is not written question punctuation; physical length unknown.",
+        "physical_length": null,
+        "physical_encoded_body_count": null,
+        "reading_bbox_xyxy": [
+          485,
+          1535,
+          625,
+          1615
+        ],
+        "native_bbox_xyxy": [
+          1535,
+          550,
+          1615,
+          690
+        ]
+      }
+    ],
+    "physical_encoded_body_count": null,
+    "counts_policy": "Counts are selected decoder slots, not established physical bodies. One mask can cover multiple bodies; all unknown physical lengths remain null.",
+    "ordinary_numerals_outside_cipher": [],
+    "actual_question_punctuation": [],
+    "date_inscription": {
+      "source_observed_candidates": {
+        "first": "8./III.1902.",
+        "blind": "8./III.1902."
+      },
+      "status": "Tentative separate ordinary inscription, unverified; no chronology or calendar inference.",
+      "reading_bbox_xyxy": [
+        375,
+        1360,
+        685,
+        1425
+      ],
+      "native_bbox_xyxy": [
+        1360,
+        490,
+        1425,
+        800
+      ]
+    },
+    "region_order_evidence": "One lower handwritten strip of five visual rows; top-to-bottom order follows alignment and spacing. Printed caption and artwork are separately inventoried, excluded from selected cipher.",
+    "excluded_source_regions": [
+      {
+        "region": "printed caption and publisher text",
+        "status": "Printed matter excluded from handwritten cipher selection; no symbolism or authorship inference."
+      },
+      {
+        "region": "artwork and surrounding margins",
+        "status": "Whole source inspected; no additional selected cipher region."
+      }
+    ],
+    "limits": "Two related AI source-only freezes with visible key, followed by same-second-reader nonblind reconciliation. Neither fluency nor mechanical replay confirms glyph accuracy, historical identity, authorship, date, or completeness.",
+    "current_provenance_corrections": [
+      {
+        "first_line_id": "R04",
+        "first_offset": 4,
+        "frozen_selected": "e",
+        "current_line_id": "289-L04",
+        "current_offset": 4,
+        "selected": "2",
+        "basis": "Source-contour selection after nonblind comparison, not substitution through the key. Frozen unassigned e is preserved unchanged; 2/e/? alternatives remain current."
+      }
+    ],
+    "proposed_editorial_czech": "Vřelý dík za drahý lístek, holubičko moje zlatá! Na psánko\ntěším se nesmírně, tento týden mne zase soužila\nchřipka: byl jsem po tři [dny?; ?Y] doma. Dnes je již\ntrochu [lépe?; LEBE]. Tisíc pozdravů a vřelých pus od\nTvého stále vzpomínajícího [PEPOUSE; neověřený podpis].",
+    "proposed_english_translation": "Warm thanks for the dear note, my golden little dove! For a little letter\nI long immensely; this week I was again troubled by\ninfluenza: I was at home for three [days?; ?Y]. Today it is already\na little [better?; LEBE]. A thousand greetings and warm kisses from\nyour constantly remembering [PEPOUSE; unverified signature].",
+    "editorial_restoration_ledger": [
+      {
+        "line_id": "289-L03",
+        "literal_offset_start": 25,
+        "literal_offset_end": 27,
+        "literal": "?Y",
+        "proposed_czech": "[dny?; ?Y]",
+        "proposed_english": "[days?; ?Y]",
+        "basis": "Editorial interpretation only; strict source and fixed-key output unchanged.",
+        "reason": "Tentative completion of unknown-length overtraced prefix; source does not establish the proposed DN bodies."
+      },
+      {
+        "line_id": "289-L04",
+        "literal_offset_start": 7,
+        "literal_offset_end": 11,
+        "literal": "LEBE",
+        "proposed_czech": "[lépe?; LEBE]",
+        "proposed_english": "[better?; LEBE]",
+        "basis": "Editorial interpretation only; strict source and fixed-key output unchanged.",
+        "reason": "Single-letter B to P editorial proposal; visible descender selection p remains literal B."
+      }
+    ],
+    "editorial_literal_fragment_ledger": [
+      {
+        "line_id": "289-L05",
+        "literal_offset_start": 27,
+        "literal_offset_end": 34,
+        "literal": "PEPOUSE",
+        "proposed_czech": "[PEPOUSE; neověřený podpis]",
+        "proposed_english": "[PEPOUSE; unverified signature]",
+        "basis": "Editorial interpretation only; strict source and fixed-key output unchanged.",
+        "reason": "Literal signature-like fragment retained without identifying a person."
+      }
+    ],
+    "editorial_coverage": [
+      {
+        "line_id": "289-L01",
+        "literal_offset_start": 0,
+        "literal_offset_end": 58,
+        "literal": "VRELY DIK ZA DRAHY LISTEK, HOLUBICKO MOJE ZLATA! NA PSANKO",
+        "proposed_czech": "Vřelý dík za drahý lístek, holubičko moje zlatá! Na psánko",
+        "proposed_english": "Warm thanks for the dear note, my golden little dove! For a little letter",
+        "omission": false,
+        "scope": "Entire selected visual row; matching repairs and literal fragments in both languages."
+      },
+      {
+        "line_id": "289-L02",
+        "literal_offset_start": 0,
+        "literal_offset_end": 47,
+        "literal": "TESIM SE NESMIRNE, TENTO TYDEN MNE ZASE SOUZILA",
+        "proposed_czech": "těším se nesmírně, tento týden mne zase soužila",
+        "proposed_english": "I long immensely; this week I was again troubled by",
+        "omission": false,
+        "scope": "Entire selected visual row; matching repairs and literal fragments in both languages."
+      },
+      {
+        "line_id": "289-L03",
+        "literal_offset_start": 0,
+        "literal_offset_end": 45,
+        "literal": "CHRIPKA: BYL JSEM PO TRI ?Y DOMA. DNES JE JIZ",
+        "proposed_czech": "chřipka: byl jsem po tři [dny?; ?Y] doma. Dnes je již",
+        "proposed_english": "influenza: I was at home for three [days?; ?Y]. Today it is already",
+        "omission": false,
+        "scope": "Entire selected visual row; matching repairs and literal fragments in both languages."
+      },
+      {
+        "line_id": "289-L04",
+        "literal_offset_start": 0,
+        "literal_offset_end": 44,
+        "literal": "TROCHU LEBE. TISIC POZDRAVU A VRELYCH PUS OD",
+        "proposed_czech": "trochu [lépe?; LEBE]. Tisíc pozdravů a vřelých pus od",
+        "proposed_english": "a little [better?; LEBE]. A thousand greetings and warm kisses from",
+        "omission": false,
+        "scope": "Entire selected visual row; matching repairs and literal fragments in both languages."
+      },
+      {
+        "line_id": "289-L05",
+        "literal_offset_start": 0,
+        "literal_offset_end": 35,
+        "literal": "TVEHO STALE VZPOMINAJICIHO PEPOUSE.",
+        "proposed_czech": "Tvého stále vzpomínajícího [PEPOUSE; neověřený podpis].",
+        "proposed_english": "your constantly remembering [PEPOUSE; unverified signature].",
+        "omission": false,
+        "scope": "Entire selected visual row; matching repairs and literal fragments in both languages."
+      }
+    ],
+    "editorial_scope": "All 5 selected visual rows and every legible clause are covered in both editions; no clause omitted. Unknown-length fragment ?Y and literal LEBE have paired bracketed proposals, and PEPOUSE remains an unidentified literal signature-like fragment. Date, printed caption, publisher text and artwork are separate from cipher coverage.",
+    "editorial_layout_normalizations": [
+      "Ordinary Czech diacritics, capitalization and sentence layout supplied without changing strict letters.",
+      "The clause crossing rows 1–2 remains one clause; English syntax differs only for ordinary translation. No unstated object is added to VZPOMINAJICIHO."
+    ],
+    "editorial_policy": "All lexical repair and unknown-prefix completion is bracketed and ledgered in both editions; fluent text is not glyph evidence. No historical person, place, date or symbolism is authenticated.",
+    "initial_reconciliation": {
+      "point": "Initial nonblind curation after frozen two-reader raw checkpoint and separate strict replay; mechanical QA is not a third source reading.",
+      "at_utc": "2026-10-20T17:31:19.435076+00:00",
+      "curator_role": "second source-only reader, now nonblind curator",
+      "disagreements": [
+        {
+          "reader": "first",
+          "raw_line_id": "R01",
+          "old_offset_start": 6,
+          "old_offset_end": 7,
+          "old_selected": "1",
+          "line_id": "289-L01",
+          "offset": 6,
+          "selected": "t",
+          "source_visual_basis": "Crossbars, returning descenders and short angular body support current t/q/s selections.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R01",
+          "old_offset_start": 8,
+          "old_offset_end": 9,
+          "old_selected": "g",
+          "line_id": "289-L01",
+          "offset": 8,
+          "selected": "q",
+          "source_visual_basis": "Crossbars, returning descenders and short angular body support current t/q/s selections.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R01",
+          "old_offset_start": 33,
+          "old_offset_end": 34,
+          "old_selected": "1",
+          "line_id": "289-L01",
+          "offset": 33,
+          "selected": "s",
+          "source_visual_basis": "Crossbars, returning descenders and short angular body support current t/q/s selections.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R02",
+          "old_offset_start": 31,
+          "old_offset_end": 31,
+          "old_selected": "",
+          "line_id": "289-L02",
+          "offset": 31,
+          "selected": "n",
+          "source_visual_basis": "Low first arch and longer following double arch support n/m order provisionally.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R02",
+          "old_offset_start": 32,
+          "old_offset_end": 33,
+          "old_selected": "n",
+          "line_id": "289-L02",
+          "offset": 33,
+          "selected": "",
+          "source_visual_basis": "Low first arch and longer following double arch support n/m order provisionally.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R03",
+          "old_offset_start": 4,
+          "old_offset_end": 5,
+          "old_selected": "g",
+          "line_id": "289-L03",
+          "offset": 4,
+          "selected": "q",
+          "source_visual_basis": "Narrow return favors q; two points favor colon. Overwritten prefix remains masked. Single low arch after 3 favors n.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R03",
+          "old_offset_start": 29,
+          "old_offset_end": 30,
+          "old_selected": "m",
+          "line_id": "289-L03",
+          "offset": 29,
+          "selected": "n",
+          "source_visual_basis": "Narrow return favors q; two points favor colon. Overwritten prefix remains masked. Single low arch after 3 favors n.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "289-L03",
+          "old_offset_start": 6,
+          "old_offset_end": 7,
+          "old_selected": ".",
+          "line_id": "289-L03",
+          "offset": 6,
+          "selected": ":",
+          "source_visual_basis": "Narrow return favors q; two points favor colon. Overwritten prefix remains masked. Single low arch after 3 favors n.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "289-L03",
+          "old_offset_start": 24,
+          "old_offset_end": 26,
+          "old_selected": "tm",
+          "line_id": "289-L03",
+          "offset": 24,
+          "selected": "?",
+          "source_visual_basis": "Narrow return favors q; two points favor colon. Overwritten prefix remains masked. Single low arch after 3 favors n.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R04",
+          "old_offset_start": 0,
+          "old_offset_end": 1,
+          "old_selected": "t",
+          "line_id": "289-L04",
+          "offset": 0,
+          "selected": "d",
+          "source_visual_basis": "Rounded initial loop favors d, final numeral-like return favors 2 with e/? alternatives. Descending p in 85p5 retained rather than fluent b; tall loop favors b in b2c.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "R04",
+          "old_offset_start": 4,
+          "old_offset_end": 5,
+          "old_selected": "e",
+          "line_id": "289-L04",
+          "offset": 4,
+          "selected": "2",
+          "source_visual_basis": "Rounded initial loop favors d, final numeral-like return favors 2 with e/? alternatives. Descending p in 85p5 retained rather than fluent b; tall loop favors b in b2c.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "289-L04",
+          "old_offset_start": 8,
+          "old_offset_end": 9,
+          "old_selected": "b",
+          "line_id": "289-L04",
+          "offset": 8,
+          "selected": "p",
+          "source_visual_basis": "Rounded initial loop favors d, final numeral-like return favors 2 with e/? alternatives. Descending p in 85p5 retained rather than fluent b; tall loop favors b in b2c.",
+          "linguistic_basis": "None for source selection; editorial proposals are separate."
+        }
+      ],
+      "count_comparison": {
+        "first": {
+          "rows": 5,
+          "encoded_bodies": 184,
+          "expanded_letters": 185,
+          "ch_occurrences": 3,
+          "unknowns": 2
+        },
+        "blind": {
+          "encoded_bodies": 185,
+          "expanded_letters": 188,
+          "ch_occurrences": 3,
+          "unknowns": 0
+        },
+        "current": {
+          "rows": 5,
+          "encoded_bodies": 184,
+          "expanded_letters": 186,
+          "ch_occurrences": 3,
+          "unknowns": 1
+        }
+      },
+      "uncertainty_change": "One current unknown-length mask retained from first-reader concern despite blind zero masks. Frozen unassigned e replaced provisionally by contour-selected canonical 2; alternatives remain. Descending p retained from first reading despite blind b."
+    },
+    "encoded_bodies": 184,
+    "expanded_letters": 186,
+    "ch_occurrences": 3,
+    "unknowns": 1,
+    "validation": {
+      "check_card": "passed",
+      "report": {
+        "rows": 5,
+        "encoded_bodies": 184,
+        "expanded_letters": 186,
+        "ch_occurrences": 3,
+        "unknowns": 1
+      },
+      "raw_source_file_hashes": "passed",
+      "catalogue_binding": "passed",
+      "current_exact_spans_and_frame_bounds": "passed",
+      "paired_editorial_spans_and_full_coverage": "passed",
+      "privacy": "No private filesystem paths or image/address/document payloads embedded."
+    }
+  }
+}
