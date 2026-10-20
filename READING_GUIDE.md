@@ -8,6 +8,8 @@ The examples below explain the existing public checking package. They do not est
 
 [Repository overview](README.md) · [Technical verification](verification/README.md)
 
+For connected text, choose a [readable Czech/Russian edition](anna-ticha/readings.md#readable-editions). Contextual proposals stay marked and linked to disputes; card 250’s one source-supported correction is separate from its unchanged frozen literal.
+
 ## Understand the document
 
 A set of personal postcards written in cipher and addressed to Anna Tichá. The proposed readings are in Czech; the writer’s identity and several dates remain unresolved.

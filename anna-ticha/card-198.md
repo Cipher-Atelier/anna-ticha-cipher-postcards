@@ -1,5 +1,31 @@
 # Card 198: Plans for a spring meeting
 
+[Card index](readings.md) · [Disputed places](uncertainties/card-198.md) · [Saved literal](#saved-literal-readings) · [Original image](https://api.hcportal.eu/media/4611/pc_hcp_198_pic.JPG)
+
+**Reader edition — 20 October 2026.** A readable reconstruction of the published partial development reading; no newly confirmed glyph values. The six contextual word proposals cover seven masked positions. `‹…?›` marks a proposal; linked notes explain it. The separate `dlouhých` proposal inserts a letter absent from the saved literal.
+
+## Readable Czech
+
+Vřelý dík, drahoušku, za [‹dnešní?›](uncertainties/card-198.md#u01) drahý lístek. Doufal jsem, že přece budu moci odejeti do [‹Budějovic?›](uncertainties/card-198.md#u03). Nešlo to však nikterak. Těším se však, že se během jara setkáme a že budu moci své jediné srdéčko vášnivě zlíbati.
+
+Ve Svinech [‹vzpomeň?›](uncertainties/card-198.md#u04) sobě také na mne. Vyřiď [‹laskavě?›](uncertainties/card-198.md#u05) slečně Jankové mé poručení.
+
+Nyní se asi mé srdéčko [‹připravuje?›](uncertainties/card-198.md#u06) do plesu. Škoda, že [‹nemohu?›](uncertainties/card-198.md#u07) nyní k tobě. Tisíc [‹dlouhých?›](uncertainties/card-198.md#e01) vášnivých pus od toužebně vzpomínajícího Pepouše.
+
+## Russian translation
+
+An interpretive translation of the Czech reader layer, with the same unresolved proposals marked.
+
+Сердечное спасибо, дорогая, за [‹сегодняшнюю?›](uncertainties/card-198.md#u01) милую записку. Я надеялся, что всё-таки смогу уехать в [‹Будейовице?›](uncertainties/card-198.md#u03), но это никак не удалось. Всё же я радуюсь мысли, что весной мы встретимся и я смогу страстно расцеловать моё единственное сердечко.
+
+В Свинах [‹вспомни?›](uncertainties/card-198.md#u04) также обо мне. Передай, [‹пожалуйста?›](uncertainties/card-198.md#u05), барышне Янковой мой привет.
+
+Сейчас моё сердечко, вероятно, [‹готовится?›](uncertainties/card-198.md#u06) к балу. Как жаль, что я сейчас [‹не могу?›](uncertainties/card-198.md#u07) к тебе. Тысяча [‹долгих?›](uncertainties/card-198.md#e01) страстных поцелуев от Пепоуша, с тоской вспоминающего о тебе.
+
+The reading order follows the original card 198 report. [Editorial and translation notes](uncertainties/card-198.md#editorial-operations) explain spelling, word joins, place/name interpretations and Russian wording.
+
+## Preserved research report
+
 [Anna Tichá investigation](README.md) · [All card readings](readings.md) · [Original study](article.md)
 
 Card ID: 198

@@ -2,6 +2,17 @@
 
 This is a navigation index to the full preserved records, not a new edition or a pooled validation result. Each card page keeps the literal output, interpretation, uncertainties, method, status, dates and evidence links together. The original ordering is preserved; new repository records are appended separately.
 
+## Readable editions
+
+Connected Czech readings and Russian translations are available below. `‹…?›` marks a contextual restoration or repair; each marker links to a separate dispute ledger. The saved literals and original test stages remain on each page.
+
+| Card | Read the text | Separate evidence status and disputes |
+| --- | --- | --- |
+| 198 | [Czech](card-198.md#readable-czech) · [Russian](card-198.md#russian-translation) | [Seven masked positions and a separate u insertion](uncertainties/card-198.md); no newly confirmed glyph values |
+| 199 | [Czech](card-199.md#readable-czech) · [Russian](card-199.md#russian-translation) | [Ten source gaps, five substantive repairs and dictionary notes](uncertainties/card-199.md); no newly confirmed glyph values |
+| 250 | [Czech](card-250.md#readable-czech) · [Russian](card-250.md#russian-translation) | [Local n → m correction under the inherited key](uncertainties/card-250.md#s01); all eighteen original unknowns retained |
+| 440 | [Czech](card-440.md#readable-czech) · [Russian](card-440.md#russian-translation) | [Eight unknowns in the later replay and a separate m → n proposal](uncertainties/card-440.md); first prediction and post-test replay stay distinct |
+
 ## Current status — 20 October 2026
 
 [Overview](../README.md) → cards and evidence → literal text on each card page → [methods and audits](../research-updates/README.md).

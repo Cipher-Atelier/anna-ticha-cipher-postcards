@@ -1,5 +1,35 @@
 # Card 199: A planned Rudolfinum concert
 
+[Card index](readings.md) · [Disputed places](uncertainties/card-199.md) · [Saved literal](#saved-literal-readings) · [Original image](https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG)
+
+**Reader edition — 20 October 2026.** A readable reconstruction of the published partial fixed-key reading; no newly confirmed glyph values. All ten source gaps remain. `‹…?›` marks contextual completion or a substantive repair, with linked notes. Accents and punctuation are editorial.
+
+## Readable Czech
+
+Vřelý dík za drahý lístek. Byl jsem žárliv na vaši sanici, dokud jsem nevěděl, s kým jsi jela.
+
+V plesu [‹jsem?›](uncertainties/card-199.md#e01) nebyl, ač výboři přišli ještě v poslední chvíli, večer v sobotu, mne přemlouvati. Ples se krásně vydařil. Bylo v [‹něm?›](uncertainties/card-199.md#u01) mnoho [‹známých?›](uncertainties/card-199.md#u02) dam. Netoužil jsem však po zábavě s nimi. Bez [‹tebe?›](uncertainties/card-199.md#u03) by mne tam nebylo nic bavilo.
+
+V pondělí půjdu do Rudolfina na třetí koncert [‹žurnalistů?›](uncertainties/card-199.md#e02). Chtěl jsem jíti již včera na druhý koncert, nebyly však již lístky [‹ke?›](uncertainties/card-199.md#u04) koupi. Na ten koncert se těším. Je prý [‹produkce?›](uncertainties/card-199.md#u06) školy Ševčíkovy [‹velkolepá?›](uncertainties/card-199.md#e03).
+
+Tisíc [‹vášnivých?›](uncertainties/card-199.md#u07) pus posílá věčně tvůj Pepouš, který svému [‹srdéčku?›](uncertainties/card-199.md#u08) přeje, aby se dobře bavilo, [‹avšak?›](uncertainties/card-199.md#e04) prosí, aby nezapomnělo, že náleží [‹výhradně?›](uncertainties/card-199.md#e05) [‹Pepoušovi?›](uncertainties/card-199.md#u09).
+
+## Russian translation
+
+An interpretive translation of the Czech reader layer, with the same unresolved proposals marked.
+
+Сердечное спасибо за милую весточку. Я ревновал из-за вашей прогулки на санях, пока не узнал, с кем ты ездила.
+
+[‹Я?›](uncertainties/card-199.md#e01) не был на балу, хотя члены комитета ещё в последний момент, в субботу вечером, приходили меня уговаривать. Бал удался прекрасно. На [‹нём?›](uncertainties/card-199.md#u01) было много [‹знакомых?›](uncertainties/card-199.md#u02) дам. Однако мне не хотелось развлекаться с ними. Без [‹тебя?›](uncertainties/card-199.md#u03) меня там ничто бы не развлекло.
+
+В понедельник пойду в Рудольфинум на третий концерт [‹журналистов?›](uncertainties/card-199.md#e02). Я хотел ещё вчера пойти на второй концерт, но билетов уже нельзя было [‹купить?›](uncertainties/card-199.md#u04). С нетерпением жду этого концерта. Говорят, [‹выступление?›](uncertainties/card-199.md#u06) школы Шевчика [‹великолепное?›](uncertainties/card-199.md#e03).
+
+Тысячу [‹страстных?›](uncertainties/card-199.md#u07) поцелуев посылает навеки твой Пепоуш. Он желает своему [‹сердечку?›](uncertainties/card-199.md#u08) хорошо повеселиться, [‹однако?›](uncertainties/card-199.md#e04) просит его не забывать, что оно принадлежит [‹исключительно?›](uncertainties/card-199.md#e05) [‹Пепоушу?›](uncertainties/card-199.md#u09).
+
+The meanings “sleigh riding” for `sanici` and “committee members” for `výboři` have [dictionary support](uncertainties/card-199.md#dictionary-supported-interpretations), without base-letter repairs. Joining LEFT_CCW to RIGHT_CW remains an editorial narrative order, not a verified cross-region order.
+
+## Preserved research report
+
 [Anna Tichá investigation](README.md) · [All card readings](readings.md) · [Original study](article.md)
 
 Card ID: 199
