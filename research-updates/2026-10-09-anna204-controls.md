@@ -1,5 +1,7 @@
 # Anna204: control audit, 9 October 2026
 
+**Current navigation — 20 October 2026:** [card 204’s reader/status page](../anna-ticha/card-204.md) separates the later author-reported check from this narrow failed-control audit. The historical findings below are unchanged; this report is not a full card decipherment.
+
 The tested image comparator failed its control gates. A later check of complete glyph boundaries also failed to admit the full control set, and a proposed new control pool stopped at metadata selection. These results support keeping M11.17 unresolved. The cipher key and earlier readings have not changed.
 
 ## Sources and scope
