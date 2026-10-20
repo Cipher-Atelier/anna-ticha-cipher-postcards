@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Fifth source batch; four new candidates after merged PR24",
+  "base_commit": "bf8c0a686695a002f49f935cd190d12ed0d28305",
+  "preparation_base_commit": "c5231b34d86ad9ca44932af6785f0e5bef0e393f",
+  "base_relation": "Fast-forwarded new worktree to main merge ofPR24; source tree identical to preparation base, working changes preserved. Existing17candidates on main; this follow-up adds4.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270
+  ],
+  "new_card_ids": [
+    267,
+    268,
+    269,
+    270
+  ],
+  "selected_totals": {
+    "rows": 318,
+    "encoded_bodies": 7992,
+    "expanded_letters": 7974,
+    "ch_occurrences": 72,
+    "unknowns": 90
+  },
+  "new_selected_totals": {
+    "rows": 69,
+    "encoded_bodies": 1413,
+    "expanded_letters": 1405,
+    "ch_occurrences": 9,
+    "unknowns": 17
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Explicit ordinary numeral spans are outside encoded/unknown counters; actual question punctuation tagged separately.",
+  "new_preserved_numeral_spans": 4,
+  "new_source_work": "Two frozen related AI source-only readings per card; visible frozen key, prior other-card context disclosed. Later reconciliation nonblind;268 uses a third related AI reconciler, not a third source-only reading. No independent human/external confirmation.",
+  "address_faces_checked": 21,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "267 current prose no longer calls valid MAK defective; neutral lexical wording and31+3+1 row description clarified. Raw/source/cipher/literal/counts/excerpts and immutable initial snapshot preserved.",
+    "269 current status label clarified for review; initial private-preparation snapshot preserved.270 prose calls rows selected visual rows. No source or selected literal change."
+  ],
+  "unresolved": {
+    "267": "Five masks, unassigned low forms, overlapped strokes and segmentation; limited CZ/EN excerpts.",
+    "268": "Two masks and compact joins; numeral10 preserved; substantive repairs bracketed.",
+    "269": "Four masks under postmark/joins, no selected CH on masked disputed forms; only readable excerpts. Exhibition unidentified; no hidden clause reconstruction.",
+    "270": "Six masks; REKONA?DOVANE retained literally, registered-post interpretation bracketed."
+  },
+  "checks": [
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 21
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 502
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS: no confirmed defects or unresolved review findings",
+    "verified": "All24tests and21-card replay; source/raw/snapshot hashes, current uncertainty spans, coordinates, editorial limits, queue, links and privacy. All65previous evidence files unchanged.",
+    "limits": "Consistency of the research package; visual uncertainty remains and no external confirmation is implied."
+  },
+  "next_priority_not_started": [
+    271,
+    272,
+    273,
+    274
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 502
+}

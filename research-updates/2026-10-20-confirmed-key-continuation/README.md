@@ -1,8 +1,8 @@
 # Confirmed-key continuation: source research in progress
 
-The unchanged supplied 204/460 key has been applied to seventeen selected picture sides: **242,244,249,253,254,255,256,257,258,259,260,261,262,263,264,265,266**. All remain research candidates. Two separately frozen, related AI source readings now exist for each; later reconciliation is nonblind. This is not independent human/external confirmation and none is declared solved.
+The unchanged supplied 204/460 key has been applied to twenty-one selected picture sides: **242, 244, 249, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270**. All remain research candidates. Two separately frozen, related AI source readings now exist for each; later reconciliation is nonblind. This is not independent human/external confirmation and none is declared solved.
 
-The source regions of all seventeen picture sides have been inspected. Cipher transcription remains partial where faded, overwritten or merged groups prevent confident glyph assignment or segmentation, especially257 and parts of242/244/249. Unknowns and awkward literals remain visible. The provisional red heading on 242 may be printed or handwritten; its cipher intent is not established.
+The source regions of all twenty-one picture sides have been inspected. Cipher transcription remains partial where faded, overwritten or merged groups prevent confident glyph assignment or segmentation, especially257 and parts of242/244/249. Unknowns and awkward literals remain visible. The provisional red heading on 242 may be printed or handwritten; its cipher intent is not established.
 
 | Card | Selected visual rows | Replay slots | Known emitted letters | CH slots | Unknown display slots |
 |---|---:|---:|---:|---:|---:|
@@ -23,14 +23,18 @@ The source regions of all seventeen picture sides have been inspected. Cipher tr
 | [264](cards/264.md) | 6 | 238 | 237 | 2 | 3 |
 | [265](cards/265.md) | 14 | 472 | 473 | 6 | 5 |
 | [266](cards/266.md) | 7 | 467 | 471 | 5 | 1 |
+| [267](cards/267.md) | 35 | 632 | 634 | 7 | 5 |
+| [268](cards/268.md) | 19 | 402 | 402 | 2 | 2 |
+| [269](cards/269.md) | 9 | 213 | 209 | 0 | 4 |
+| [270](cards/270.md) | 6 | 166 | 160 | 0 | 6 |
 
-Totals: **249 selected rows, 6579 replay slots, 6569 known emitted letters, 63 CH slots and 73 unknown display slots**. These are counters of the selected replay strings. Some `?` masks stand for clusters of unknown physical length, so neither their count nor replay-slot totals are exact physical glyph counts. Physical totals remain `null` where unresolved; no visual accuracy or source-coverage percentage is claimed. Known emitted letters exclude masks and preserved ordinary numerals; CH is one selected body emitting two letters. Zero masks, including on 253/255/262, do not eliminate alternative glyph readings.
+Totals: **318 selected rows, 7992 replay slots, 7974 known emitted letters, 72 CH slots and 90 unknown display slots**. These are counters of the selected replay strings. Some `?` masks stand for clusters of unknown physical length, so neither their count nor replay-slot totals are exact physical glyph counts. Physical totals remain `null` where unresolved; no visual accuracy or source-coverage percentage is claimed. Known emitted letters exclude masks and preserved ordinary numerals; CH is one selected body emitting two letters. Zero masks, including on 253/255/262, do not eliminate alternative glyph readings.
 
-Each card JSON contains source URL/hash, orientation and source locators, frozen reader layers or their linked revision record, strict canonical ciphertext/literal output and uncertainty/mark/segmentation ledgers. Czech editorial proposals and English translations are separate and substantive restorations are bracketed or explicitly ledgered.257 provides only readable excerpts rather than reconstructing a full narrative from faded groups.
+Each card JSON contains source URL/hash, orientation and source locators, frozen reader layers or their linked revision record, strict canonical ciphertext/literal output and uncertainty/mark/segmentation ledgers. Czech editorial proposals and English translations are separate and substantive restorations are bracketed or explicitly ledgered. Cards 257, 267 and 269 provide bounded readable excerpts rather than reconstructing a full narrative from obscured or malformed groups.
 
 The [first five candidate artifacts](history/2026-10-20-batch1-b9bbdb9/snapshot.json) remain byte-exact from commit `b9bbdb9`. The [first 242/244/249 artifacts](history/2026-10-20-batch2-first-readings/snapshot.json) were frozen before second-reading reconciliation. [Dated revisions](revisions/) preserve changed and unchanged disputes. One additional nonblind253–255 contour check preferred5 rather than6 in255’s closing `VECNE`; other high-value unresolved forms remain.
 
-The [address-face boundary audit](address-face-audit.json) records ordinary GETs and full-face visual inspection of the same seventeen address sides. No additional cipher group was observed. This is one nonblind AI face check, not independent proof. Sourcebytes and ordinary address text are not redistributed.
+The [address-face boundary audit](address-face-audit.json) records ordinary GETs and full-face visual inspection of the same twenty-one address sides. No additional cipher group was observed. This is one nonblind AI face check, not independent proof. Sourcebytes and ordinary address text are not redistributed.
 
 ## Catalogue and next work
 
@@ -40,7 +44,7 @@ As retrieved, the official status object labels460 “Solved” and the other262
 
 This verifies catalogue name-range coverage. It does not authenticate historical corpus identity/authorship, prove that every image URL currently resolves, or decipher 263 cards. The older [tracked-text inventory](source-inventory.json) remains unchanged: 55 observed IDs, 83 exact URLs and 2521 cited mentions. Its scope was narrower than the official response. 71 historical conditional reports are not71 solutions.
 
-The [263-record queue](queue.json) separates actual source acquisition, transcription, decoding candidates and source checking. The new batch **263,264,265,266** has both frozen source readings, nonblind reconciliation and immutable initial selected snapshots. Four ordinary numeral spans on cards 263 and 264 remain explicit metadata and are excluded from encoded and unknown-slot totals. Five masks and six unresolved clusters remain on card 265 where stems or marks obscure the writing. The next source priority is 267–270; acquisition has not started for that next batch. Work continues while sources are available; this is a progress checkpoint.
+The [263-record queue](queue.json) separates actual source acquisition, transcription, decoding candidates and source checking. The new batch **267–270** has two frozen source readings per card, nonblind reconciliation and immutable initial selected snapshots. Four new ordinary numeral spans on cards 267 and 268 remain explicit metadata outside encoded and unknown-slot totals. Stamp-covered and merged groups remain masked on cards 269/270; 267 and 269 offer only bounded editorial excerpts. The next source priority is 271–274; acquisition has not started for that next batch. Work continues while sources are available; this is a progress checkpoint.
 
 ## Key, provenance and scope
 
@@ -76,4 +80,4 @@ From the experiment directory:
 python3 -m unittest -v test_decode
 ```
 
-The separate 14-locus replay command is in [its audit](old-six-audit.md). The standard-library decoder was written after failing tests for CH,q/g conventions,unknown bodies,numerals,written question punctuation,invalid spans and frozen-anchor/literal mutations. 24 focused tests and 100 existing tests passed. [First checkpoint validation](validation.json) is historical; [second checkpoint validation](validation-batch2.json), [third checkpoint validation](validation-batch3.json) and [current checkpoint validation](validation-batch4.json) record the continued source work and review. Current selected uncertainty spans are also checked against their exact line/offset, including valid empty-boundary absence notes. Passing checks establishes saved-string/key consistency and integrity only; it does not inspect ink, resolve masks, prove reader independence, identify authors, authenticate dates or establish priority.
+The separate 14-locus replay command is in [its audit](old-six-audit.md). The standard-library decoder was written after failing tests for CH,q/g conventions,unknown bodies,numerals,written question punctuation,invalid spans and frozen-anchor/literal mutations. 24 focused tests and 100 existing tests passed. [First checkpoint validation](validation.json) is historical; [second checkpoint validation](validation-batch2.json), [third checkpoint validation](validation-batch3.json), [fourth checkpoint validation](validation-batch4.json) and [current checkpoint validation](validation-batch5.json) record the continued source work and review. Current selected uncertainty spans are also checked against their exact line/offset, including valid empty-boundary absence notes. Passing checks establishes saved-string/key consistency and integrity only; it does not inspect ink, resolve masks, prove reader independence, identify authors, authenticate dates or establish priority.
