@@ -8,6 +8,8 @@ The examples below explain the existing public checking package. They do not est
 
 [Repository overview](README.md) · [Technical verification](verification/README.md)
 
+For connected text from the original six-card study, choose a [readable Czech/English edition](anna-ticha/readings.md#readable-editions). Contextual proposals stay marked and linked to disputes; card 250’s source-based `MOJE` candidate is used in the interpretation, separately from its unchanged frozen literal. The later [canonical audit](research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md) retains `?OJE` and M/N alternatives, with M visually favored.
+
 ## Understand the document
 
 A set of personal postcards written in cipher and addressed to Anna Tichá. The proposed readings are in Czech; the writer’s identity and several dates remain unresolved.

@@ -25,6 +25,8 @@ The [official-catalogue inventory and 263-record queue](research-updates/2026-10
 3. **Literal text and supporting evidence:** open the card’s literal beside its interpretation. For a worked example, use [card 199](anna-ticha/card-199.md), its [saved literal](verification/anna-ticha/literal.txt) and [position table](verification/anna-ticha/data/card199_positions.csv).
 4. **Method and historical audits:** follow [methods](anna-ticha/methods.md) and the [dated audit index](research-updates/README.md). Later qualifications are linked separately from frozen records.
 
+[Readable editions for the original six cards—198, 199, 250, 329, 440 and 453](anna-ticha/readings.md#readable-editions) place connected Czech and English translations before the historical reports, with disputed places linked separately. These editions interpret historical staged-key outputs; the current bounded audit is linked from their index.
+
 ## Reproduce the checks
 
 From this repository’s top-level folder, use Python 3.10 or later:

@@ -1,5 +1,31 @@
 # Card 198: Plans for a spring meeting
 
+[Card index](readings.md) · [Disputed places](uncertainties/card-198.md) · [Saved literal](#saved-literal-readings) · [Original image](https://api.hcportal.eu/media/4611/pc_hcp_198_pic.JPG)
+
+**Reader edition — 20 October 2026.** A readable reconstruction of the published partial development reading; no newly confirmed glyph values. The six contextual word proposals cover seven masked positions. `‹…?›` marks a proposal; linked notes explain it. The separate `dlouhých` proposal inserts a letter absent from the saved literal.
+
+## Readable Czech
+
+Vřelý dík, drahoušku, za [‹dnešní?›](uncertainties/card-198.md#u01) drahý lístek. Doufal jsem, že přece budu moci odejeti do [‹Budějovic?›](uncertainties/card-198.md#u03). Nešlo to však nikterak. Těším se však, že se během jara setkáme a že budu moci své jediné srdéčko vášnivě zlíbati.
+
+Ve Svinech [‹vzpomeň?›](uncertainties/card-198.md#u04) sobě také na mne. Vyřiď [‹laskavě?›](uncertainties/card-198.md#u05) slečně Jankové mé poručení.
+
+Nyní se asi mé srdéčko [‹připravuje?›](uncertainties/card-198.md#u06) do plesu. Škoda, že [‹nemohu?›](uncertainties/card-198.md#u07) nyní k tobě. Tisíc [‹dlouhých?›](uncertainties/card-198.md#e01) vášnivých pus od toužebně vzpomínajícího Pepouše.
+
+## English translation
+
+An interpretive translation of the Czech reader layer; the same content uncertainties remain linked below.
+
+Heartfelt thanks, darling, for [‹today’s?›](uncertainties/card-198.md#u01) dear note. I had hoped that I would be able to go to [‹Budějovice?›](uncertainties/card-198.md#u03) after all, but it simply could not be managed. Still, I look forward to our meeting during the spring and to being able to kiss my one and only sweetheart passionately.
+
+In Sviny, [‹remember?›](uncertainties/card-198.md#u04) me too. [‹Kindly?›](uncertainties/card-198.md#u05) pass on my regards to Miss Janková.
+
+My sweetheart is probably [‹getting ready?›](uncertainties/card-198.md#u06) for the ball just now. What a pity that I [‹cannot?›](uncertainties/card-198.md#u07) come to you now. A thousand [‹long?›](uncertainties/card-198.md#e01), passionate kisses from Pepouš, who thinks of you with longing.
+
+The reading order follows the original card 198 report. [Editorial and translation notes](uncertainties/card-198.md#editorial-operations) explain spelling, word joins, place/name interpretations and translation choices.
+
+## Preserved research report
+
 [Anna Tichá investigation](README.md) · [All card readings](readings.md) · [Original study](article.md)
 
 Card ID: 198

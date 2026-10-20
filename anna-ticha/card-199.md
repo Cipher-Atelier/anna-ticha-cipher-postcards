@@ -1,5 +1,37 @@
 # Card 199: A planned Rudolfinum concert
 
+[Card index](readings.md) · [Disputed places](uncertainties/card-199.md) · [Saved literal](#saved-literal-readings) · [Original image](https://api.hcportal.eu/media/4614/pc_hcp_199_pic.JPG)
+
+**Reader edition — 20 October 2026.** A readable reconstruction of the published partial fixed-key reading; no newly confirmed glyph values. All ten source gaps remain. `‹…?›` marks contextual completion or a substantive repair, with linked notes. Accents and punctuation are editorial.
+
+**Publication qualification — 20 October 2026.** This reader interprets the historical staged-key output. Its `rudolfina` / Rudolfina is retained as that legacy reading and interpretation. The later [22-entry-key audit](../research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md) records `199.rudolfina` as `RUDOL?INA`: the low source body remains unassigned because that key has no F assignment; canonical `f` means V. No new value or complete legacy-to-current-key bridge is asserted. See the [separate ledger](uncertainties/card-199.md#legacy-rudolfina-and-the-later-audit).
+
+## Readable Czech
+
+Vřelý dík za drahý lístek. Byl jsem žárliv na vaši sanici, dokud jsem nevěděl, s kým jsi jela.
+
+V plesu [‹jsem?›](uncertainties/card-199.md#e01) nebyl, ač výboři přišli ještě v poslední chvíli, večer v sobotu, mne přemlouvati. Ples se krásně vydařil. Bylo v [‹něm?›](uncertainties/card-199.md#u01) mnoho [‹známých?›](uncertainties/card-199.md#u02) dam. Netoužil jsem však po zábavě s nimi. Bez [‹tebe?›](uncertainties/card-199.md#u03) by mne tam nebylo nic bavilo.
+
+V pondělí půjdu do Rudolfina na třetí koncert [‹žurnalistů?›](uncertainties/card-199.md#e02). Chtěl jsem jíti již včera na druhý koncert, nebyly však již lístky [‹ke?›](uncertainties/card-199.md#u04) koupi. Na ten koncert se těším. Je prý [‹produkce?›](uncertainties/card-199.md#u06) školy Ševčíkovy [‹velkolepá?›](uncertainties/card-199.md#e03).
+
+Tisíc [‹vášnivých?›](uncertainties/card-199.md#u07) pus posílá věčně tvůj Pepouš, který svému [‹srdéčku?›](uncertainties/card-199.md#u08) přeje, aby se dobře bavilo, [‹avšak?›](uncertainties/card-199.md#e04) prosí, aby nezapomnělo, že náleží [‹výhradně?›](uncertainties/card-199.md#e05) [‹Pepoušovi?›](uncertainties/card-199.md#u09).
+
+## English translation
+
+An interpretive translation of the Czech reader layer; the same content uncertainties remain linked below.
+
+Warm thanks for your dear note. I was jealous about your sleigh outing until I found out who you had gone with.
+
+I did not go to the ball, although members of the committee came to persuade me at the very last moment, on Saturday evening. The ball turned out beautifully. There were many [‹ladies I knew?›](uncertainties/card-199.md#u02) [‹there?›](uncertainties/card-199.md#u01). But I had no wish to amuse myself in their company. Without [‹you?›](uncertainties/card-199.md#u03), nothing there would have amused me.
+
+On Monday I shall go to the Rudolfinum for the third concert of the [‹journalists?›](uncertainties/card-199.md#e02). I had wanted to go to the second concert yesterday, but there were no tickets left [‹to buy?›](uncertainties/card-199.md#u04). I am looking forward to this concert. The [‹performance?›](uncertainties/card-199.md#u06) by Ševčík’s school is said to be [‹magnificent?›](uncertainties/card-199.md#e03).
+
+Pepouš, forever yours, sends a thousand [‹passionate?›](uncertainties/card-199.md#u07) kisses. He wishes his [‹sweetheart?›](uncertainties/card-199.md#u08) a good time, [‹but?›](uncertainties/card-199.md#e04) asks her not to forget that she belongs [‹exclusively?›](uncertainties/card-199.md#e05) to [‹Pepouš?›](uncertainties/card-199.md#u09).
+
+The meanings “sleigh riding” for `sanici` and “committee members” for `výboři` have [dictionary support](uncertainties/card-199.md#dictionary-supported-interpretations), without base-letter repairs. Joining LEFT_CCW to RIGHT_CW remains an editorial narrative order, not a verified cross-region order.
+
+## Preserved research report
+
 [Anna Tichá investigation](README.md) · [All card readings](readings.md) · [Original study](article.md)
 
 Card ID: 199

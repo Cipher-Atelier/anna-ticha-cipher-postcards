@@ -1,5 +1,29 @@
 # Card 440: Letters that crossed in the post
 
+[Card index](readings.md) · [Disputed places](uncertainties/card-440.md) · [Saved literals](#saved-literal-readings) · [Original image](https://api.hcportal.eu/media/5337/pc_hcp_440_pic.JPG)
+
+**Reader edition — 20 October 2026.** The whole message is presented as a readable reconstruction; eight source positions remain unknown in the later replay, and no new cipher values are accepted. `‹…?›` marks a proposal with linked notes. The `nesčíslněkráte` proposal separately changes an already mapped m to n.
+
+## Readable Czech
+
+Tisícerý dík, zlato moje, za drahý dopis. [Kři‹ž?›oval](uncertainties/card-440.md#u01) se s mým [‹l?›ístkem](uncertainties/card-440.md#u02) do Žirovnice zaslaným. Budu [‹t?›entokráte](uncertainties/card-440.md#u03) [hodn‹ě?›jším](uncertainties/card-440.md#u04) a odpovím ti co nejdříve.
+
+Přeje ti navzájem rovněž [šťastn‹é?›](uncertainties/card-440.md#u05) a veselé svátky, líbá tě v [‹du?›chu](uncertainties/card-440.md#u06) [‹…; snad nesčíslněkráte?›](uncertainties/card-440.md#e01) věčně tvůj [Pepou‹š?›](uncertainties/card-440.md#u08).
+
+## English translation
+
+An interpretive translation of the Czech reader layer; the same content uncertainties remain linked below.
+
+A thousand thanks, my treasure, for your dear letter. It [‹crossed in the post?›](uncertainties/card-440.md#u01) with my [‹note?›](uncertainties/card-440.md#u02) sent to Žirovnice. I shall be [‹better behaved?›](uncertainties/card-440.md#u04) [‹this time?›](uncertainties/card-440.md#u03) and will answer you as soon as possible.
+
+Likewise wishing you [‹happy?›](uncertainties/card-440.md#u05) and merry holidays in return, and kissing you [‹in spirit?›](uncertainties/card-440.md#u06) [‹…; perhaps countless times?›](uncertainties/card-440.md#e01),<br>
+forever yours,<br>
+[Pepou‹š?›](uncertainties/card-440.md#u08).
+
+The printed Christmas greeting and handwritten date support the [Christmas occasion](uncertainties/card-440.md#occasion-and-translation); the cipher word remains the general `svátky` (“holidays”). The original 178/196 prediction and later post-test 188/196 replay remain distinct stages below.
+
+## Preserved research report
+
 [Anna Tichá investigation](README.md) · [All card readings](readings.md) · [Original study](article.md)
 
 Card ID: 440
