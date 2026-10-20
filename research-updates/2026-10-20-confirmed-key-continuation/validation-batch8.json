@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Eighth source batch; four new candidates after merged PR27 and editorial expansion PR28",
+  "base_commit": "63cdd83905982ac8757750fb5d30575e23a23c30",
+  "preparation_base_commit": "1a678605fa543540270dcb910f68eb8adae41554",
+  "base_relation": "Fast-forwarded the fresh worktree to latest main before public assembly, preserving merged full legible Czech/English editions of 267/269 from PR28. This follow-up preserves all 29 earlier candidates, revisions/history, key, decoder, checker and anchor and adds four candidates.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282
+  ],
+  "new_card_ids": [
+    279,
+    280,
+    281,
+    282
+  ],
+  "selected_totals": {
+    "rows": 456,
+    "encoded_bodies": 12335,
+    "expanded_letters": 12309,
+    "ch_occurrences": 99,
+    "unknowns": 125
+  },
+  "new_selected_totals": {
+    "rows": 53,
+    "encoded_bodies": 1681,
+    "expanded_letters": 1688,
+    "ch_occurrences": 15,
+    "unknowns": 8
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 4,
+  "new_source_work": "Two frozen related AI source-only readings per card, with key visible and prior other-card context disclosed. Raw layers frozen before own tool decode or target exchange; all eight raw/file/source digests verified before nonblind second-reader reconciliation. Freeze chronology rests on recorded attestations and tool sequence; fingerprints alone do not prove time. No third source-only reading, human or external confirmation claimed.",
+  "address_faces_checked": 33,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "279 current provenance ignores the blind wrapper’s unrelated 280 margin annotation; actual 279 row transforms remain verified. Frozen raw files and initial snapshots remain unchanged.",
+    "279/280 current provenance documents filtering only descriptive tentative_selected_glyph_cluster annotations from raw strict-replay input; raw text/spans stay exact. The 280 margin’s global-CW90 locator is distinguished from glyph-upright crop geometry.",
+    "280 includes a dated, qualified paired reflow using the observed arrow-linked rows alongside its physical-row edition. No missing clauses supplied; raw, selected strings, counters and immutable initial snapshot unchanged.",
+    "282 current English restores DRAHOUSKU and clarifies the cousin’s statement, with a dated exact-scope editorial correction. Its immutable initial snapshot retains the initial edition."
+  ],
+  "unresolved": {
+    "279": "Zero selected masks, but descender/arch/segmentation alternatives and three bracketed lexical repairs remain. Nine rows in two separate regions have full paired coverage. No date observed; names/places not externally authenticated.",
+    "280": "One unknown-length prefix/join mask; six selected CH; two actual written question marks. Thirteen physical rows plus a qualified paired arrow-based reflow and a separately oriented margin. Five distinct repaired source spans remain qualified. Ordinary 31./5.1902. inscription unverified; no authenticated lyrical quotation.",
+    "281": "Four stain-obscured unknown-length masks across five rows. Full paired row fragments retain visible literal remnants, two JCST occurrences and PELE as qualified repairs. Date candidates 24./V.1902. and24./IV.1902. retained; row boxes do not establish finer cluster boundaries.",
+    "282": "Three masks and two actual written questions across 26 rows in three separate regions. Names, arrow ordering and date-month X/V remain uncertain. POSHOVELA has a qualified primary-dictionary gloss; O SVATYCH does not identify a particular holiday."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 33
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 563
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS: no confirmed or unresolved findings",
+    "limits": "Consistency of the research package; visual and historical uncertainty remains, no external confirmation implied.",
+    "verified": "Hashes, immutable snapshots, exact selected/editorial spans, coordinates, paired Czech/English coverage, links and privacy; all 101 earlier evidence files preserved, including expanded 267/269. Fresh 24 focused tests and replay of 33 cards passed. Documented raw-schema and source limits retained."
+  },
+  "next_priority_not_started": [
+    283,
+    284,
+    285,
+    286
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 563,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  },
+  "raw_consistency_scope": {
+    "result": "PASS with 9 documented schema/scope exceptions; 0 consistency errors",
+    "readings": 8,
+    "rows": 106,
+    "transcription_spans": 33,
+    "cluster_spans": 9,
+    "limits": "Descriptive annotation filtering, unrelated copied orientation note, global margin frame, row-only cluster boxes, unknown physical-length representation and missing independent decode timestamps are documented. All frozen inputs unchanged; no new glyph judgment or third source-only reading."
+  }
+}
