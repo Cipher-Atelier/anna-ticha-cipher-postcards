@@ -1,4 +1,4 @@
-# Card 250: readable Czech reconstruction
+# Card 250: readable Czech reconstruction and English translation
 
 Prepared 20 October 2026 against the public repository snapshot `bcff4d9cb30463ef0f212f6e4101df0f365b8d02`. This is a new editorial reading, not a replacement of the frozen literal and not an externally validated plaintext.
 
@@ -26,11 +26,28 @@ The two remaining open phrases have strong contextual candidates:
 1. `?ov?` → **[chová?]**, yielding *jež sladká Tvoje dušička chová*. This is a linguistic proposal with a potentially relevant short-shoulder body in the source. The cap/mark ownership and final accented value have not been established here. It remains outside the conservative reconstruction.
 2. `v pel / ?rimo?e` → **[v Pelhřimově?]**. The place-name completion was already proposed on the public card page. The ending remains unresolved here; this is not a new decipherment.
 
+## English translation
+
+[I wish you], Anisko, [my] dearly beloved, all the very best for the New Year, from [a sincere little heart] [always] [thinking] only of you, especially the fulfilment of [every wish] [that] your sweet [little soul] […]!
+
+Will you, darling, still [love me] in the New Year [as] much as [before]? Pepouš, forever yours, sends you a thousand kisses.
+
+[Did you receive] my little note in Pel[…] on Sunday?
+
+31 December 1902
+
+Possible completions, not established readings of the signs:
+
+- If `?ov?` is indeed *chová*, the first passage would mean “especially the fulfilment of every wish that your sweet little soul cherishes.” This completion remains outside the conservative running text.
+- If the place-name completion is correct, the final question would mean “Did you receive my little note in Pelhřimov on Sunday?” This completion also remains outside the conservative running text.
+- *Míti* is an older/literary form of *mít*. In *míti někoho rád*, the natural meaning is “to love someone” or “to be fond of someone.” The strict source-supported layer retains *m?ti*; the translation “[love me]” depends on the contextual proposal *[míti?]*, not on an accepted i or í reading. *Máti* is not proposed.
+- **Anisko** preserves the saved *anisko* without changing it to **Aničko**. **Aniško** is a possible editorial addition of a diacritic, not a separately established reading or identification.
+
 ## What is new in this edition
 
 1. A first, source-supported proposal to correct the mapped **n** in `noje` to **m**, giving `moje`. The photographed target has the low single-shoulder form also present in the mapped `m` of `milovana`, unlike the same-line multi-hump `n` controls. A second, candidate-aware AI source reader corroborated this specific body comparison. It is accepted here as a local glyph correction under the existing key, not as independent validation of the whole word, key or historical plaintext. It does not rewrite the saved literal.
 2. The unknown in `m?ti` has an i-like base, also noted by the second candidate-aware AI reader, but irregular lower-left/downward ink and crowding from the preceding glyph prevent accepting the full symbol. The strict source-supported layer therefore retains **m?ti**. **[Míti?]** is a contextual reader proposal only; no i is counted as newly accepted.
-3. A complete, explicitly layered Czech reader. The continuous main message can be read without forcing the two remaining phrases.
+3. A complete, explicitly layered Czech reader and English translation. The continuous main message can be read without forcing the two remaining phrases.
 
 Already reported, not new: the New Year greeting; the question about continued affection; the thousand kisses and Pepouš signoff; the Sunday-note query; and the possible identification of Pelhřimov. The saved **254/272** figure is mapping coverage, not a verified accuracy measure. Correcting one already mapped position does not increase coverage. All 18 saved unknowns remain unknown in the strict source-supported layer; no new coverage count is claimed.
 

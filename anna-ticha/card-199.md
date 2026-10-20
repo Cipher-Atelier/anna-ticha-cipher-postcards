@@ -14,6 +14,18 @@ V pondělí půjdu do Rudolfina na třetí koncert [‹žurnalistů?›](uncerta
 
 Tisíc [‹vášnivých?›](uncertainties/card-199.md#u07) pus posílá věčně tvůj Pepouš, který svému [‹srdéčku?›](uncertainties/card-199.md#u08) přeje, aby se dobře bavilo, [‹avšak?›](uncertainties/card-199.md#e04) prosí, aby nezapomnělo, že náleží [‹výhradně?›](uncertainties/card-199.md#e05) [‹Pepoušovi?›](uncertainties/card-199.md#u09).
 
+## English translation
+
+An interpretive translation of the Czech reader layer; the same content uncertainties remain linked below.
+
+Warm thanks for your dear note. I was jealous about your sleigh outing until I found out who you had gone with.
+
+I did not go to the ball, although members of the committee came to persuade me at the very last moment, on Saturday evening. The ball turned out beautifully. There were many [‹ladies I knew?›](uncertainties/card-199.md#u02) [‹there?›](uncertainties/card-199.md#u01). But I had no wish to amuse myself in their company. Without [‹you?›](uncertainties/card-199.md#u03), nothing there would have amused me.
+
+On Monday I shall go to the Rudolfinum for the third concert of the [‹journalists?›](uncertainties/card-199.md#e02). I had wanted to go to the second concert yesterday, but there were no tickets left [‹to buy?›](uncertainties/card-199.md#u04). I am looking forward to this concert. The [‹performance?›](uncertainties/card-199.md#u06) by Ševčík’s school is said to be [‹magnificent?›](uncertainties/card-199.md#e03).
+
+Pepouš, forever yours, sends a thousand [‹passionate?›](uncertainties/card-199.md#u07) kisses. He wishes his [‹sweetheart?›](uncertainties/card-199.md#u08) a good time, [‹but?›](uncertainties/card-199.md#e04) asks her not to forget that she belongs [‹exclusively?›](uncertainties/card-199.md#e05) to [‹Pepouš?›](uncertainties/card-199.md#u09).
+
 The meanings “sleigh riding” for `sanici` and “committee members” for `výboři` have [dictionary support](uncertainties/card-199.md#dictionary-supported-interpretations), without base-letter repairs. Joining LEFT_CCW to RIGHT_CW remains an editorial narrative order, not a verified cross-region order.
 
 ## Preserved research report

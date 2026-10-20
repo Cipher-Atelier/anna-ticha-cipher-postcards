@@ -1,6 +1,6 @@
 # Card 198: disputed places and editorial choices
 
-[Readable Czech](../card-198.md#readable-czech) · [Saved literal](../card-198.md#saved-literal-readings) · [Card index](../readings.md)
+[Readable Czech](../card-198.md#readable-czech) · [English translation](../card-198.md#english-translation) · [Saved literal](../card-198.md#saved-literal-readings) · [Card index](../readings.md)
 
 20 October 2026. **All seven source positions remain UNKNOWN; newly confirmed glyph values: 0.** Six contextual word proposals organize the published reading. The separate E01 insertion is not one of the seven unknown positions. Mapping coverage remains 336/343, not measured accuracy; the retained 344-position segmentation alternative is not adopted.
 
@@ -72,7 +72,7 @@ Diacritics, capitalization and punctuation are restored for reading, not as proo
 
 ### E05
 
-Translation choices will be specified with the reviewed English layer; they will not be treated as additional ciphertext signs.
+The [reviewed English notes](../../research-updates/evidence/reader-edition-2026-10-20/card198/card-198-english-translation.txt) explain translation choices: `srdéčko`, literally “little heart,” becomes “sweetheart,” and `mé poručení` becomes “my regards.” Closing “you” supplies the naturally implied object, not another cipher word. The English does not reproduce historical `odejeti`, `zlíbati` or the literal `do plesu` construction. These choices do not resolve a source mask.
 
 ## What would change the status?
 

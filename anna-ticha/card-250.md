@@ -14,6 +14,18 @@ Budeš mne [‹míti?›](uncertainties/card-250.md#u01), drahoušku, v novém r
 
 *31. XII. 1902*
 
+## English translation
+
+An interpretive translation of the Czech reader layer, preserving its marked proposals and open phrases.
+
+[‹I wish you?›](uncertainties/card-250.md#c01), Anisko, [‹my›](uncertainties/card-250.md#s01) dearly beloved, all the very best for the New Year, from [‹a sincere little heart?›](uncertainties/card-250.md#c01) [‹always?›](uncertainties/card-250.md#c01) [‹thinking?›](uncertainties/card-250.md#c01) only of you, especially the fulfilment of [‹every wish?›](uncertainties/card-250.md#c01) [‹that?›](uncertainties/card-250.md#c01) your sweet [‹little soul?›](uncertainties/card-250.md#c01) [[…]](uncertainties/card-250.md#u02)!
+
+Will you, darling, still [‹love me?›](uncertainties/card-250.md#u01) in the New Year [‹as?›](uncertainties/card-250.md#c01) much as [‹before?›?](uncertainties/card-250.md#c01) Pepouš, forever yours, sends you a thousand kisses.
+
+[‹Did you receive?›](uncertainties/card-250.md#c01) my little note in [Pel[…]](uncertainties/card-250.md#u03) on Sunday?
+
+31 December 1902
+
 The [two open phrases and their candidates](uncertainties/card-250.md#open-phrases) remain outside this running reconstruction. `Anisko` is the form of address within the cipher, not a statement about the postal-address side or a personal identification. The [strict revised proposal](../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_supported_reading.txt) changes only the initial n of `noje`; it retains `m?ti` and all eighteen masks.
 
 ## Preserved research report

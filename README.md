@@ -20,7 +20,7 @@ Card 460 belongs to another team’s comparison: the author reports consistency 
 3. **Literal text and supporting evidence:** open the card’s literal beside its interpretation. For a worked example, use [card 199](anna-ticha/card-199.md), its [saved literal](verification/anna-ticha/literal.txt) and [position table](verification/anna-ticha/data/card199_positions.csv).
 4. **Method and historical audits:** follow [methods](anna-ticha/methods.md) and the [dated audit index](research-updates/README.md). Later qualifications are linked separately from frozen records.
 
-[Readable editions for cards 198, 199, 250 and 440](anna-ticha/readings.md#readable-editions) place connected Czech readings before the historical reports, with disputed places linked separately.
+[Readable editions for cards 198, 199, 250 and 440](anna-ticha/readings.md#readable-editions) place connected Czech and English translations before the historical reports, with disputed places linked separately.
 
 ## What can be checked publicly?
 

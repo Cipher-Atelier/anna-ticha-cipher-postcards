@@ -1,10 +1,10 @@
 # Card 250: source correction and disputed readings
 
-[Readable Czech](../card-250.md#readable-czech) · [Saved literal](../card-250.md#saved-literal-readings) · [Card index](../readings.md)
+[Readable Czech](../card-250.md#readable-czech) · [English translation](../card-250.md#english-translation) · [Saved literal](../card-250.md#saved-literal-readings) · [Card index](../readings.md)
 
 20 October 2026. **One already mapped glyph is corrected conditionally under the existing key; all eighteen unknowns remain.** This local comparison was corroborated by a second candidate-aware AI reader. It was not blind or external human validation. Correcting a mapped position does not increase the historical 254/272 coverage or validate the entire key/word.
 
-The [reviewed authored ledger](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_disputes.md), [reader and translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_readable_czech.md) and [public source metadata](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_notes.json) retain the detailed basis. Integration instructions and local crop paths are omitted from this public edition. No images/crops are redistributed.
+The [reviewed authored ledger](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_disputes.md), [reader and translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_readable_czech_en.md) and [public source metadata](../../research-updates/evidence/reader-edition-2026-10-20/card250/card250_source_notes.json) retain the detailed basis. Integration instructions and local crop paths are omitted from this public edition. No images/crops are redistributed.
 
 ## Source and locators
 

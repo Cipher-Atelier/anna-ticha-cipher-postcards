@@ -1,10 +1,10 @@
 # Card 199: disputed places and editorial choices
 
-[Readable Czech](../card-199.md#readable-czech) · [Saved literal](../card-199.md#saved-literal-readings) · [Card index](../readings.md)
+[Readable Czech](../card-199.md#readable-czech) · [English translation](../card-199.md#english-translation) · [Saved literal](../card-199.md#saved-literal-readings) · [Card index](../readings.md)
 
 20 October 2026. **All ten source gaps remain unresolved; newly confirmed glyph values: 0.** The original 522/532 mapped-body count is unchanged and is not measured accuracy. Contextual completions, repairs of known letters and dictionary-supported interpretations are distinguished below.
 
-The [complete reviewed dispute data](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-disputes.json), [Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-cs.txt) retain the full authored detail. The [frozen uncertainty record](../../verification/anna-ticha/data/card199_uncertainties.json), including S01–S10 segmentation alternatives affecting some already mapped positions, remains unchanged. Completing question marks would not verify the whole card.
+The [reviewed English translation notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-en.txt) [complete reviewed dispute data](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-disputes.json) and [Czech reader notes](../../research-updates/evidence/reader-edition-2026-10-20/card199/card-199-reading-cs.txt) retain the full authored detail. The [frozen uncertainty record](../../verification/anna-ticha/data/card199_uncertainties.json), including S01–S10 segmentation alternatives affecting some already mapped positions, remains unchanged. Completing question marks would not verify the whole card.
 
 ## Source and locators
 
@@ -91,7 +91,7 @@ These proposals change a mapped letter or insert a letter; none is a new key ass
 
 ### E01
 
-`sem` → `[jsem?]`. Insert j before sem. Explicit editorial normalization; no source glyph for inserted j asserted. Locator: C199.L04.T07-T09 / L04.G02; body indexes 80-82.
+`sem` → `[jsem?]`. Insert j before sem. Explicit editorial normalization; no source glyph for inserted j asserted. Locator: C199.L04.T07-T09 / L04.G02; body indexes 80-82. The English “I did not go” is unmarked: this uncertainty concerns proposed Czech spelling, not the identity of the speaker.
 
 ### E02
 
