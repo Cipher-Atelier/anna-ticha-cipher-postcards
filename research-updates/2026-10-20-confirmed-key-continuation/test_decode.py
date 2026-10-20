@@ -67,6 +67,13 @@ class ConfirmedKeyTests(unittest.TestCase):
         result = self.checker().check_package(ROOT, include_cards=False)
         self.assertEqual(result['anchor'], {'rows': 14, 'encoded_bodies': 571, 'expanded_letters': 576, 'ch_occurrences': 5, 'unknowns': 0})
 
+    def test_anchor_only_does_not_require_catalogue(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory)
+            for name in ('key.json', 'anchor204.json'):
+                (target / name).write_bytes((ROOT / name).read_bytes())
+            self.assertEqual(self.checker().check_package(target, include_cards=False)['cards'], {})
+
     def test_checker_rejects_coherently_changed_anchor(self):
         self.decoder()
         check = self.checker()
@@ -80,6 +87,61 @@ class ConfirmedKeyTests(unittest.TestCase):
             (target / 'anchor204.json').write_text(json.dumps(data))
             with self.assertRaises(ValueError):
                 check.check_package(target, include_cards=False)
+
+    def source_package(self, directory):
+        target = Path(directory)
+        for name in ('key.json', 'anchor204.json'):
+            (target / name).write_bytes((ROOT / name).read_bytes())
+        (target / 'cards').mkdir()
+        card = json.loads((ROOT / 'cards/244.json').read_text())
+        catalogue = json.loads((ROOT / 'catalogue-records.json').read_text())
+        record = next(row for row in catalogue['cards'] if row['card_id'] == 244)
+        return target, card, record
+
+    def write_source_package(self, target, card, records):
+        (target / 'cards/244.json').write_text(json.dumps(card))
+        (target / 'catalogue-records.json').write_text(json.dumps({'cards': records}))
+
+    def test_package_accepts_matching_picture_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target, card, record = self.source_package(directory)
+            card['source']['url'] = next(image['original_url'] for image in record['image_records']
+                                         if image['title'] == 'Picture side')
+            self.write_source_package(target, card, [record])
+            self.assertEqual(set(self.checker().check_package(target)['cards']), {'244'})
+
+    def test_package_rejects_source_url_mismatch(self):
+        catalogue = json.loads((ROOT / 'catalogue-records.json').read_text())
+        other = next(row for row in catalogue['cards'] if row['card_id'] == 242)
+        other_url = next(image['original_url'] for image in other['image_records']
+                         if image['title'] == 'Picture side')
+        for url in ('https://api.hcportal.eu/media/4791/pc_hcp_244_pic.JPG',
+                    'https://api.hcportal.eu/media/4750/pc_hcp_244_adr.JPG', other_url):
+            with self.subTest(url=url), tempfile.TemporaryDirectory() as directory:
+                target, card, record = self.source_package(directory)
+                card['source']['url'] = url
+                self.write_source_package(target, card, [record, other])
+                with self.assertRaisesRegex(ValueError, 'catalogue.*source|source.*catalogue'):
+                    self.checker().check_package(target)
+
+    def test_package_rejects_missing_catalogue_binding(self):
+        for missing in ('card', 'picture', 'url'):
+            with self.subTest(missing=missing), tempfile.TemporaryDirectory() as directory:
+                target, card, record = self.source_package(directory)
+                if missing == 'card':
+                    record['card_id'] = 245
+                elif missing == 'picture':
+                    record['image_records'] = [image for image in record['image_records']
+                                               if image['title'] != 'Picture side']
+                else:
+                    for image in record['image_records']:
+                        image.pop('original_url', None)
+                self.write_source_package(target, card, [record])
+                with self.assertRaisesRegex(ValueError, 'catalogue.*source|source.*catalogue'):
+                    self.checker().check_package(target)
+
+    def test_current_package_sources_match_catalogue(self):
+        self.assertEqual(len(self.checker().check_package(ROOT)['cards']), 13)
 
     def test_card_unknown_ledger_and_source_validation(self):
         check = self.checker()

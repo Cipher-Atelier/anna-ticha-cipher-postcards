@@ -35,6 +35,8 @@ jobs:
         run: |
           test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
           python3 -m unittest discover -s verification/tests -v
+          python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py -v
+          python3 research-updates/2026-10-20-confirmed-key-continuation/check.py
           python3 research-updates/2026-10-13-executed-rebuild257258/run_fixture_tests.py
           python3 -m unittest discover -s research-updates/2026-10-13-native-source257-annotation/code -v
           python3 -m unittest discover -s research-updates/2026-10-13-source257-fullcard-map/code -v

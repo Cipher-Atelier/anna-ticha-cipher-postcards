@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-20",
+  "scope": "Publication source correction and offline current-card catalogue binding; earlier validation checkpoints remain historical.",
+  "source_correction": {
+    "card_id": 244,
+    "catalogue_id": 1563,
+    "field": "source.url",
+    "previous_url": "https://api.hcportal.eu/media/4791/pc_hcp_244_pic.JPG",
+    "current_url": "https://api.hcportal.eu/media/4749/pc_hcp_244_pic.JPG",
+    "saved_source_sha256": "61e8b514147ce427d6979041cb31815b3b5e01e091bd161b916a37c47aacdf37",
+    "review_evidence": "Publication reviewer reported old URL HTTP 404, official Picture side URL HTTP 200 and source bytes matching saved SHA256.",
+    "preserved": "Only current top-level source.url changed in card JSON; frozen_raw, independent_readings, history, source SHA256, glyph decisions and selected literals remain unchanged."
+  },
+  "regression_check": {
+    "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py -v",
+    "before_binding_check": "23 tests; 6 subtest failures: ValueError not raised for missing/mismatched bindings, including original bad card244 URL.",
+    "after_binding_check_before_url_correction": "Current-package test rejected card244: source URL does not match catalogue Picture side.",
+    "after_correction": "24 tests passed, including anchor-only replay without a catalogue.",
+    "scope": "Current-card URLs must match their own saved official catalogue Picture side; anchor-only replay does not load catalogue; no network in checker."
+  },
+  "navigation_ci_hash_changes": [
+    {
+      "path": "README.md",
+      "previous_sha256": "b96057273a9cbcb2c9af66323f9f240c280b197b55a23176132748e0a1256a6b",
+      "publication_sha256": "1175ddc6aaebaa41de53e7c4f4d8eb71b1124f7b75c7bdb456cc38699da65f77"
+    },
+    {
+      "path": "anna-ticha/readings.md",
+      "previous_sha256": "cb57acff74f54ae4d8c829974bed4624d18ddeb36f469c5bd73de6ad48736d88",
+      "publication_sha256": "3f9ace5a345f66cb0c233ca389070e92c426eca8d037a487570141c3aea39145"
+    },
+    {
+      "path": "research-updates/README.md",
+      "previous_sha256": "202b447bf8473666cf9dafd030c8b10878f8711ffcfb407a76e158923af58bac",
+      "publication_sha256": "1c4f914eb4dac83f26d054f91c7a5e371a60d2af8f0e1870af83f3060b023afc"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "previous_sha256": "692a03aa82e4d33842283272511af436f132fee889d7295b99d3f436f1283e1d",
+      "publication_sha256": "09ac728a9a8b736cc75a83be5417618661e4633f54c70373f1712d1b86e7491f"
+    }
+  ],
+  "limits": [
+    "Offline binding checks consistency with the saved official catalogue, not current URL availability or image-level correctness.",
+    "No new decipherment, independent human confirmation or removal of source/interpretation uncertainties."
+  ]
+}

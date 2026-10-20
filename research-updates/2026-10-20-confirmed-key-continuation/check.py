@@ -85,10 +85,19 @@ def check_package(directory, *, include_cards=True):
     require(totals == {'rows': 14, 'encoded_bodies': 571, 'expanded_letters': 576, 'ch_occurrences': 5, 'unknowns': 0}, 'Anchor totals mismatch')
     cards = {}
     if include_cards:
+        catalogue = json.loads((directory / 'catalogue-records.json').read_text(encoding='utf-8'))
         for path in sorted((directory / 'cards').glob('*.json')):
             card = json.loads(path.read_text(encoding='utf-8'))
             identifier = str(card.get('card_id'))
             require(identifier not in cards, f'Duplicate card ID: {identifier}')
+            records = [record for record in catalogue['cards']
+                       if str(record.get('card_id')) == identifier]
+            require(len(records) == 1, f'{identifier}: missing or duplicate catalogue source record')
+            pictures = [image.get('original_url') for image in records[0].get('image_records', [])
+                        if image.get('title') == 'Picture side']
+            require(len(pictures) == 1 and isinstance(pictures[0], str) and pictures[0]
+                    and card.get('source', {}).get('url') == pictures[0],
+                    f'{identifier}: source URL does not match catalogue Picture side')
             cards[identifier] = check_card(card)
     return {'status': 'passed', 'anchor': totals, 'cards': cards}
 

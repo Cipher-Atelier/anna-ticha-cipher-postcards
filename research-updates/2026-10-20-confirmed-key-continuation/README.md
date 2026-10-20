@@ -46,9 +46,15 @@ The user reports external confirmation of 204 and agreement with an independentl
 
 The [old-six audit](old-six-audit.md) reinspects 14 disputed loci on 198,199,250,329,440,453. Source-supported defective forms remain, and the separate low glyph in `RUDOL?INA` is unassigned by this key. Local q/g/CH checks do not build a complete legacy G-class bridge. 453’s underlined 14 is a local numeral candidate with YI retained as the cipher alternative. Historical keys/first outputs and their original manifest entries remain unchanged.
 
-All original scans and the supplied PDF/email remain private, with source watermarks retained. Public artifacts contain derived original observations/transcriptions, hashes and cited metadata. HCPortal/source rights holders retain their rights. No email, merge or personal-site update is performed.
+All original scans and the supplied PDF/email remain private, with source watermarks retained. Public artifacts contain derived original observations/transcriptions, hashes and cited metadata. HCPortal/source rights holders retain their rights. No email or personal-site update is performed.
 
 Readers/reconcilers and the separate read-only reviewer used gpt-6.1-sol. The supervising Codex session inherited a GPT-6-family deployment whose exact identifier was unavailable. Temperature and seed were unavailable. Tools: local view_image; Pillow for private rotation/crop/enlargement and disclosed contrast views; standard-library hashing/substitution; ordinary anonymous public HTTP GET; Git. The key was visible during source-only reading; language influence and shared-model effects cannot be excluded. Raw layers froze before decoding/other target transcripts, with individual exposure statements. Reconciliation after exchange is explicitly nonblind. No general mark-normalization rule is inferred and every minute incidental stroke has not been classified.
+
+## Publication correction — 20 October 2026
+
+[Card 244’s current source URL](cards/244.md#publication-source-correction--20-october-2026) was corrected from the historical `/media/4791/pc_hcp_244_pic.JPG` (404) to the saved official catalogue’s `/media/4749/pc_hcp_244_pic.JPG`. Publication review verified that the corrected image matches the saved source SHA256; source bytes, glyph judgments and selected literals are unchanged. Frozen raw layers and historical snapshots retain the incorrect old URL. The checker now binds each current card’s source URL to that card’s Picture side in the saved official catalogue, offline; anchor-only replay does not require the catalogue.
+
+The [publication validation note](publication-validation.json) records this correction and the current test scope. Earlier `validation*.json` files remain historical checkpoints. Four navigation/CI files also received publication edits with refreshed root-manifest hashes: the repository README, card index, audit index and verification workflow. These edits add routes and replay commands, without changing historical evidence.
 
 ## Reproduction
 
