@@ -1,0 +1,3299 @@
+{
+  "record_type": "initial nonblind reconciliation selected snapshot",
+  "sha256": "889bd6b9baa2456892e48c6f811d1cdc3e99b788a15100409a4e863309df9a0d",
+  "hash_scope": "Canonical UTF-8 JSON selected_snapshot only: ensure_ascii=False, sorted keys, compact comma/colon separators. Current card adds revision path/digest references afterwards. Frozen raw objects plus frozen wrapper metadata are preserved unchanged inside the snapshot.",
+  "selected_snapshot": {
+    "card_id": "302",
+    "notation": "pdf204-canonical",
+    "status": "Partial proposed reading; related-AI nonblind curation; investigation continues.",
+    "source": {
+      "url": "https://api.hcportal.eu/media/4923/pc_hcp_302_pic.JPG",
+      "sha256": "71835a0dd7707c04553af97fdb4990d9b224134bfadddbaba29fe89ff8a70e92",
+      "native_dimensions": [
+        1785,
+        1175
+      ]
+    },
+    "catalogue_id": 1621,
+    "catalogue_record_pointer": "/data/data/1614",
+    "catalogue_binding": {
+      "picture_url": "https://api.hcportal.eu/media/4923/pc_hcp_302_pic.JPG",
+      "catalogue_id": 1621,
+      "image_json_pointer": "/data/data/1614/datagroups/0/data/0/image/original"
+    },
+    "orientation": {
+      "frames": {
+        "native": {
+          "reading_rotation_degrees_clockwise": 0,
+          "reading_dimensions": [
+            1785,
+            1175
+          ],
+          "reading_to_native_bbox": "[x0,y0,x1,y1]"
+        },
+        "cw90": {
+          "reading_rotation_degrees_clockwise": 90,
+          "reading_dimensions": [
+            1175,
+            1785
+          ],
+          "reading_to_native_bbox": "[y0,1175-x1,y1,1175-x0]"
+        }
+      },
+      "native_dimensions": [
+        1785,
+        1175
+      ],
+      "bbox_convention": "Half-open contextual coordinates; row frames explicit, no exact glyph boundary claim."
+    },
+    "reader": {
+      "model": "gpt-6.1-sol",
+      "role": "assigned FIRST source-only actor for this card, now NONBLIND curator",
+      "exact_deployment": null,
+      "temperature": null,
+      "seed": null
+    },
+    "raw_frozen_before_decoding": true,
+    "independent_readings": [
+      {
+        "assigned_slot": "FIRST",
+        "model": "gpt-6.1-sol",
+        "key_visible": true,
+        "prior_other_card_context": true,
+        "limits": "Related AI; no human/external or third blind confirmation. Assigned slots do not establish chronological order."
+      },
+      {
+        "assigned_slot": "SECOND",
+        "model": "gpt-6.1-sol",
+        "key_visible": true,
+        "prior_other_card_context": true,
+        "limits": "Related AI; no human/external or third blind confirmation. Assigned slots do not establish chronological order."
+      }
+    ],
+    "source_only_freeze_protocol": "Both target source actors performed their own replay after their own two-input group froze. All-eight raw fingerprint checkpoint preceded QA exposure; the later all-eight strict replay checkpoint preceded curator exchange. Current nonblind curation followed authorized exchange. These target FIRST records are own raw-object freezes with own replay, not parent whole-document/no-own-decode records.",
+    "raw_preservation": {
+      "first_raw": {
+        "rows": [
+          {
+            "line_id": "302-M01",
+            "ciphertext": "g86d3 n375! — bh3n4m n4, g5",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              1135,
+              655,
+              1705,
+              723
+            ],
+            "native_bbox_xyxy": [
+              1135,
+              655,
+              1705,
+              723
+            ],
+            "transcription": [
+              {
+                "offset": 10,
+                "text": "!",
+                "kind": "punctuation"
+              }
+            ],
+            "uncertainties": [
+              {
+                "line_id": "302-M01",
+                "offset": 0,
+                "selected": "g86d3",
+                "alternatives": [
+                  "q86d3"
+                ],
+                "source_visual_basis": "Broad descending initial return provisionally g, narrow q alternative."
+              },
+              {
+                "line_id": "302-M01",
+                "offset": 14,
+                "selected": "bh3n4m",
+                "alternatives": [
+                  "bh3m4m",
+                  "bh3n4n"
+                ],
+                "source_visual_basis": "First internal low single arch after3 and final broader double arch after4 provisionally n then m."
+              },
+              {
+                "line_id": "302-M01",
+                "offset": 17,
+                "selected": "n4",
+                "alternatives": [
+                  "m4"
+                ],
+                "source_visual_basis": "Single low arch then forked4; low joining provisional."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M02",
+            "ciphertext": "t3c2t m53t5c868 7c5n d4 c84p5m5",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              1055,
+              710,
+              1705,
+              780
+            ],
+            "native_bbox_xyxy": [
+              1055,
+              710,
+              1705,
+              780
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "line_id": "302-M02",
+                "offset": 6,
+                "selected": "m53t5c868",
+                "alternatives": [
+                  "n53t5c868",
+                  "m53d5c868"
+                ],
+                "source_visual_basis": "Initial low double arch m and crossed t after3 provisionally selected; later paired loops retained separately."
+              },
+              {
+                "line_id": "302-M02",
+                "offset": 24,
+                "selected": "c84p5m5",
+                "alternatives": [
+                  "c84b5n5",
+                  "s84p5m5"
+                ],
+                "source_visual_basis": "Open curve c, forked4, descending p and low double arch m selected provisionally."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M03",
+            "ciphertext": "bc6mq3. 85g58 7c5n c ?h4bq32",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              1050,
+              758,
+              1705,
+              830
+            ],
+            "native_bbox_xyxy": [
+              1050,
+              758,
+              1705,
+              830
+            ],
+            "transcription": [
+              {
+                "offset": 21,
+                "text": "?",
+                "kind": "unknown_glyph"
+              }
+            ],
+            "uncertainties": [
+              {
+                "line_id": "302-M03",
+                "offset": 0,
+                "selected": "bc6mq3",
+                "alternatives": [
+                  "pc6ng3"
+                ],
+                "source_visual_basis": "Tall initial loop b, low double arch m and narrow descending q selected provisionally."
+              },
+              {
+                "line_id": "302-M03",
+                "offset": 8,
+                "selected": "85g58",
+                "alternatives": [
+                  "85q58"
+                ],
+                "source_visual_basis": "Broad rounded return of middle descender provisionally g; narrow q alternative."
+              },
+              {
+                "line_id": "302-M03",
+                "offset": 21,
+                "selected": "?h4bq32",
+                "alternatives": [
+                  "řh4bq32",
+                  "řch4bq32",
+                  "rh4bq32"
+                ],
+                "source_visual_basis": "Roofed short-stem cluster has an adjacent small open curve whose ownership/independent body status is unresolved. Mask covers unknown physical length before visible tall h; no fluent cluster completion."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M04",
+            "ciphertext": "sd4h1 tm1 6 tm5c 7c5n 3b5d",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              1050,
+              808,
+              1705,
+              882
+            ],
+            "native_bbox_xyxy": [
+              1050,
+              808,
+              1705,
+              882
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "line_id": "302-M04",
+                "offset": 0,
+                "selected": "sd4h1",
+                "alternatives": [
+                  "sd1h1",
+                  "cd4h4"
+                ],
+                "source_visual_basis": "Initial short angular s, rounded d, forked4, tall h and final flag-and-baseline1 selected from contours; no word repair."
+              },
+              {
+                "line_id": "302-M04",
+                "offset": 6,
+                "selected": "tm1",
+                "alternatives": [
+                  "tn1",
+                  "tm4"
+                ],
+                "source_visual_basis": "Low double arch and final flag-and-baseline1 provisional."
+              },
+              {
+                "line_id": "302-M04",
+                "offset": 22,
+                "selected": "3b5d",
+                "alternatives": [
+                  "3p5t"
+                ],
+                "source_visual_basis": "Tall ascending b and closed lower oval d selected, with descending/crossed alternatives."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M05",
+            "ciphertext": "b3bhf5 f 2h6t5. g6c82 t3b4c",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              1050,
+              860,
+              1705,
+              934
+            ],
+            "native_bbox_xyxy": [
+              1050,
+              860,
+              1705,
+              934
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "line_id": "302-M05",
+                "offset": 0,
+                "selected": "b3bhf5",
+                "alternatives": [
+                  "b3prf5"
+                ],
+                "source_visual_basis": "Two ascending b forms, tall h and long descending f selected; joined stems limit certainty."
+              },
+              {
+                "line_id": "302-M05",
+                "offset": 9,
+                "selected": "2h6t5",
+                "alternatives": [
+                  "2r6d5"
+                ],
+                "source_visual_basis": "Tall loop h and crossed t selected provisionally, not short branch r or oval d."
+              },
+              {
+                "line_id": "302-M05",
+                "offset": 16,
+                "selected": "g6c82",
+                "alternatives": [
+                  "q6c82",
+                  "g6s82"
+                ],
+                "source_visual_basis": "Broad initial return g and small open c retained provisionally."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M06",
+            "ciphertext": "s3 m57th4f5 6 3gm6n4n 757 84cdq5n.",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              880,
+              908,
+              1705,
+              985
+            ],
+            "native_bbox_xyxy": [
+              880,
+              908,
+              1705,
+              985
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "line_id": "302-M06",
+                "offset": 0,
+                "selected": "s3",
+                "alternatives": [
+                  "c3"
+                ],
+                "source_visual_basis": "Short angular first body provisionally s rather than open c."
+              },
+              {
+                "line_id": "302-M06",
+                "offset": 3,
+                "selected": "m57th4f5",
+                "alternatives": [
+                  "m57tr4f5"
+                ],
+                "source_visual_basis": "Crossed t then tall looped h before forked4, with short r alternative."
+              },
+              {
+                "line_id": "302-M06",
+                "offset": 14,
+                "selected": "3gm6n4n",
+                "alternatives": [
+                  "3qm6m4m"
+                ],
+                "source_visual_basis": "Broad g, double arch before6 and single low arches after6/4 provisionally selected."
+              },
+              {
+                "line_id": "302-M06",
+                "offset": 26,
+                "selected": "84cdq5n",
+                "alternatives": [
+                  "84ctg5m"
+                ],
+                "source_visual_basis": "Closed oval d then narrow q; final low single arch n, provisional."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M07",
+            "ciphertext": "76q t6h4 c5 d3p5, n485mq3 n375 th6r6?",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              835,
+              958,
+              1705,
+              1040
+            ],
+            "native_bbox_xyxy": [
+              835,
+              958,
+              1705,
+              1040
+            ],
+            "transcription": [
+              {
+                "offset": 36,
+                "text": "?",
+                "kind": "punctuation"
+              }
+            ],
+            "uncertainties": [
+              {
+                "line_id": "302-M07",
+                "offset": 0,
+                "selected": "76q",
+                "alternatives": [
+                  "76g"
+                ],
+                "source_visual_basis": "Narrow returning loop provisionally q, broad g alternate."
+              },
+              {
+                "line_id": "302-M07",
+                "offset": 12,
+                "selected": "d3p5",
+                "alternatives": [
+                  "t3b5"
+                ],
+                "source_visual_basis": "Rounded d and descending p selected from whole stem outlines."
+              },
+              {
+                "line_id": "302-M07",
+                "offset": 18,
+                "selected": "n485mq3",
+                "alternatives": [
+                  "n486ng3"
+                ],
+                "source_visual_basis": "Single initial arch, flat-topped5 after8, later double arch m and narrow return q provisional."
+              },
+              {
+                "line_id": "302-M07",
+                "offset": 31,
+                "selected": "th6r6",
+                "alternatives": [
+                  "tr6h6"
+                ],
+                "source_visual_basis": "Tall loop h before6 then short branched r selected provisionally."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M08",
+            "ciphertext": "qt1 75t5s t3 g4h3fm4s5? fh585 fgb3n4m6n.",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              830,
+              1010,
+              1710,
+              1105
+            ],
+            "native_bbox_xyxy": [
+              830,
+              1010,
+              1710,
+              1105
+            ],
+            "transcription": [
+              {
+                "offset": 22,
+                "text": "?",
+                "kind": "punctuation"
+              }
+            ],
+            "uncertainties": [
+              {
+                "line_id": "302-M08",
+                "offset": 0,
+                "selected": "qt1",
+                "alternatives": [
+                  "gt4"
+                ],
+                "source_visual_basis": "Narrow returning initial q, crossed t and flag-and-baseline1 provisionally selected."
+              },
+              {
+                "line_id": "302-M08",
+                "offset": 4,
+                "selected": "75t5s",
+                "alternatives": [
+                  "75t5c"
+                ],
+                "source_visual_basis": "Final short angular/triangular s selected rather than open c; no language repair."
+              },
+              {
+                "line_id": "302-M08",
+                "offset": 13,
+                "selected": "g4h3fm4s5",
+                "alternatives": [
+                  "q4r3fn4c5"
+                ],
+                "source_visual_basis": "Broad initial return g, tall h, long descending f, low double arch m and short angular s provisional."
+              },
+              {
+                "line_id": "302-M08",
+                "offset": 30,
+                "selected": "fgb3n4m6n.",
+                "alternatives": [
+                  "fgb3m4m6n.",
+                  "fgb3n4n6m",
+                  "fgb3n4m6n"
+                ],
+                "source_visual_basis": "Low connected arches and cramped terminal stroke near source edge remain provisional; final detached stop tentative."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-S01",
+            "ciphertext": "d4c4?5h3 2bh4nm1ř b2c",
+            "reading_frame": "cw90",
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              510,
+              1450,
+              1110,
+              1525
+            ],
+            "native_bbox_xyxy": [
+              1450,
+              65,
+              1525,
+              665
+            ],
+            "transcription": [
+              {
+                "offset": 4,
+                "text": "?",
+                "kind": "unknown_glyph"
+              }
+            ],
+            "uncertainties": [
+              {
+                "line_id": "302-S01",
+                "offset": 0,
+                "selected": "d4c4?5h3",
+                "alternatives": [
+                  "d4c4s5h3",
+                  "d4c4b5h3"
+                ],
+                "source_visual_basis": "Dark body overlaps printed flower/stem edge. Open/angular versus tall-loop family and whole extent unresolved; mask retained without word completion."
+              },
+              {
+                "line_id": "302-S01",
+                "offset": 9,
+                "selected": "2bh4nm1ř",
+                "alternatives": [
+                  "2bh4mm1ř",
+                  "2bh4nn1ř"
+                ],
+                "source_visual_basis": "Low single then double arch before flag1 and roofed short branch provisionally selected; joins remain uncertain."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-S02",
+            "ciphertext": "6 b3gth6f2 3t f5sm5 df5r3",
+            "reading_frame": "cw90",
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              510,
+              1510,
+              1110,
+              1590
+            ],
+            "native_bbox_xyxy": [
+              1510,
+              65,
+              1590,
+              665
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "line_id": "302-S02",
+                "offset": 2,
+                "selected": "b3gth6f2",
+                "alternatives": [
+                  "b3qtr6f2"
+                ],
+                "source_visual_basis": "Broad g, crossed t, tall loop h and long descending f provisionally selected."
+              },
+              {
+                "line_id": "302-S02",
+                "offset": 14,
+                "selected": "f5sm5",
+                "alternatives": [
+                  "f54n5",
+                  "f5cm5"
+                ],
+                "source_visual_basis": "Short angular s after5 lacks a secure forked4 stem; following low double arch m provisional."
+              },
+              {
+                "line_id": "302-S02",
+                "offset": 20,
+                "selected": "df5r3",
+                "alternatives": [
+                  "tf5h3"
+                ],
+                "source_visual_basis": "Closed oval d, descending f and short branch r selected provisionally."
+              }
+            ],
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-S03",
+            "ciphertext": "b5b32c5.",
+            "reading_frame": "cw90",
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              510,
+              1575,
+              855,
+              1648
+            ],
+            "native_bbox_xyxy": [
+              1575,
+              320,
+              1648,
+              665
+            ],
+            "transcription": [],
+            "uncertainties": [
+              {
+                "line_id": "302-S03",
+                "offset": 0,
+                "selected": "b5b32c5",
+                "alternatives": [
+                  "b5p32s5"
+                ],
+                "source_visual_basis": "Tall looped b shapes and small open curve c; final5 with upper stroke and lower curve, provisional."
+              }
+            ],
+            "physical_encoded_body_count": null
+          }
+        ],
+        "marks": [
+          {
+            "line_id": "302-M01",
+            "offset": 12,
+            "selected": "—",
+            "description": "Visible horizontal stroke after exclamation retained as dash punctuation, no encoded/numeric meaning assigned."
+          },
+          {
+            "line_id": "302-M03",
+            "offset": 21,
+            "selected": "?",
+            "description": "Small detached roof above short-stem/open-curve cluster; base/mark ownership and number of bodies unresolved. Mask retained, no blanket marked-r normalization."
+          },
+          {
+            "line_id": "302-S01",
+            "offset": 16,
+            "selected": "ř",
+            "description": "Detached roof above short branched final base selected provisionally as canonical marked-r; low-arch spacing and neighboring ownership remain alternatives."
+          }
+        ],
+        "segmentation_ledger": [
+          {
+            "line_id": "302-M01",
+            "offset": 14,
+            "selected": "bh3n4m",
+            "alternatives": [
+              "bh3m4m",
+              "bh3n4n"
+            ],
+            "source_visual_basis": "First internal low single arch after3 and final broader double arch after4 provisionally n then m.",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M03",
+            "offset": 21,
+            "selected": "?h4bq32",
+            "alternatives": [
+              "řh4bq32",
+              "řch4bq32",
+              "rh4bq32"
+            ],
+            "source_visual_basis": "Roofed short-stem cluster has an adjacent small open curve whose ownership/independent body status is unresolved. Mask covers unknown physical length before visible tall h; no fluent cluster completion.",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M06",
+            "offset": 14,
+            "selected": "3gm6n4n",
+            "alternatives": [
+              "3qm6m4m"
+            ],
+            "source_visual_basis": "Broad g, double arch before6 and single low arches after6/4 provisionally selected.",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M08",
+            "offset": 30,
+            "selected": "fgb3n4m6n.",
+            "alternatives": [
+              "fgb3m4m6n.",
+              "fgb3n4n6m",
+              "fgb3n4m6n"
+            ],
+            "source_visual_basis": "Low connected arches and cramped terminal stroke near source edge remain provisional; final detached stop tentative.",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-S01",
+            "offset": 0,
+            "selected": "d4c4?5h3",
+            "alternatives": [
+              "d4c4s5h3",
+              "d4c4b5h3"
+            ],
+            "source_visual_basis": "Dark body overlaps printed flower/stem edge. Open/angular versus tall-loop family and whole extent unresolved; mask retained without word completion.",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-S01",
+            "offset": 9,
+            "selected": "2bh4nm1ř",
+            "alternatives": [
+              "2bh4mm1ř",
+              "2bh4nn1ř"
+            ],
+            "source_visual_basis": "Low single then double arch before flag1 and roofed short branch provisionally selected; joins remain uncertain.",
+            "physical_encoded_body_count": null
+          }
+        ],
+        "unresolved_clusters": [
+          {
+            "line_id": "302-M03",
+            "offset": 21,
+            "selected": "?",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              1490,
+              758,
+              1555,
+              830
+            ],
+            "native_bbox_xyxy": [
+              1490,
+              758,
+              1555,
+              830
+            ],
+            "physical_length": null,
+            "physical_encoded_body_count": null,
+            "bbox_precision": "Contextual cluster box only; no exact ink or physical-body enclosure claim.",
+            "reason": "Roofed cluster and adjacent open curve have unresolved attachment and physical segmentation before tall h; unknown length, not question punctuation."
+          },
+          {
+            "line_id": "302-S01",
+            "offset": 4,
+            "selected": "?",
+            "reading_frame": "cw90",
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              648,
+              1450,
+              708,
+              1525
+            ],
+            "native_bbox_xyxy": [
+              1450,
+              467,
+              1525,
+              527
+            ],
+            "physical_length": null,
+            "physical_encoded_body_count": null,
+            "bbox_precision": "Contextual cluster box only; no exact ink or physical-body enclosure claim.",
+            "reason": "Dark glyph/cluster near printed stem overlap after d4c4; family and physical length unresolved, not question punctuation."
+          }
+        ],
+        "ordinary_numerals": [],
+        "actual_question_punctuation": [
+          {
+            "line_id": "302-M07",
+            "offset": 36,
+            "selected": "?",
+            "reason": "Visible raised hooked/curved question shape with separate lower dot; written punctuation, not a missing-glyph mask."
+          },
+          {
+            "line_id": "302-M08",
+            "offset": 22,
+            "selected": "?",
+            "reason": "Visible raised hooked/curved question shape with separate lower dot; written punctuation, not a missing-glyph mask."
+          }
+        ],
+        "region_inventory": [
+          {
+            "region_id": "lower native block",
+            "reading_frame": "native",
+            "reading_rotation_degrees_clockwise": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              825,
+              645,
+              1715,
+              1110
+            ],
+            "native_bbox_xyxy": [
+              825,
+              645,
+              1715,
+              1110
+            ],
+            "rows": [
+              "302-M01",
+              "302-M02",
+              "302-M03",
+              "302-M04",
+              "302-M05",
+              "302-M06",
+              "302-M07",
+              "302-M08"
+            ]
+          },
+          {
+            "region_id": "side three-row block",
+            "reading_frame": "cw90",
+            "reading_rotation_degrees_clockwise": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "reading_bbox_xyxy": [
+              500,
+              1445,
+              1115,
+              1655
+            ],
+            "native_bbox_xyxy": [
+              1445,
+              60,
+              1655,
+              675
+            ],
+            "rows": [
+              "302-S01",
+              "302-S02",
+              "302-S03"
+            ]
+          }
+        ],
+        "notes": [
+          "Complete original face and all margins inspected natively, plus whole-source clockwise90 view for side writing. Main lower block has eight selected visual rows; side block has three selected visual rows in clockwise90 frame.",
+          "Region order is not inferred from fluency. Main and side rows remain separate with their own frame/rotation/dimensions; no hidden connecting clause or narrative sequence supplied.",
+          "Two actual written question hooks in main rows are punctuation. Two question placeholders at main marked cluster and side dark body are unknown-length masks.",
+          "Marked cluster in main row3 remains unresolved with both one-body marked-r and marked-r-plus-curve alternatives. Side roofed short branch is evaluated separately, not globally normalized.",
+          "Low arch counts, q/g returns and short angular versus forked forms remain provisional. No key change, legacy mapping or fluent source repair.",
+          "No ordinary numeral span selected inside cipher; canonical numeral-shaped glyphs remain encoded notation. Date is separate, ordinary, tentative and unverified.",
+          "All contextual reading/native geometry is half-open in explicit whole-source frames. Bboxes are not exact ink/body proof. Physical total and unknown-cluster lengths remain null.",
+          "No competing target transcript, target literal/prepared output, parent-first299/300 or future303/304 document/receipt was accessed before freeze. Own programmatic replay waits for both raw freezes."
+        ],
+        "physical_encoded_body_count": null,
+        "excluded_printed_context": [
+          {
+            "region": "flower illustration and watermark",
+            "status": "Artwork/printed texture retained, excluded from selected cipher; overlap near side dark body recorded as source limit, no symbolic meaning inferred."
+          }
+        ],
+        "separate_date_inscription": {
+          "text_candidate": "26./XI.1901.",
+          "reading_frame": "native",
+          "reading_rotation_degrees_clockwise": 0,
+          "reading_dimensions": [
+            1785,
+            1175
+          ],
+          "reading_bbox_xyxy": [
+            320,
+            73,
+            595,
+            158
+          ],
+          "native_bbox_xyxy": [
+            320,
+            73,
+            595,
+            158
+          ],
+          "qualification": "Separate ordinary source inscription, tentative and unverified; excluded from cipher selection, no chronology or calendar inference."
+        }
+      },
+      "first_record": {
+        "frozen_wrapper": {
+          "card_id": "302",
+          "reader": "first302",
+          "phase": "immutable assigned FIRST source-only raw freeze",
+          "model": "gpt-6.1-sol",
+          "exact_deployment": null,
+          "temperature": null,
+          "seed": null,
+          "source": {
+            "card_id": 302,
+            "face": "Picture side",
+            "url": "https://api.hcportal.eu/media/4923/pc_hcp_302_pic.JPG",
+            "sha256": "71835a0dd7707c04553af97fdb4990d9b224134bfadddbaba29fe89ff8a70e92",
+            "bytes": 1301799,
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "catalogue_id": 1621,
+            "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1621",
+            "record_json_pointer": "/data/data/1614",
+            "image_json_pointer": "/data/data/1614/datagroups/0/data/0/image/original",
+            "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; retain saved source bytes privately",
+            "http_status": 200,
+            "acquired_utc": "2026-10-20T18:43:13.426206+00:00"
+          },
+          "orientation": {
+            "frames": {
+              "native": {
+                "reading_rotation_degrees_clockwise": 0,
+                "reading_dimensions": [
+                  1785,
+                  1175
+                ],
+                "reading_to_native_bbox": "[x0,y0,x1,y1]"
+              },
+              "cw90": {
+                "reading_rotation_degrees_clockwise": 90,
+                "reading_dimensions": [
+                  1175,
+                  1785
+                ],
+                "reading_to_native_bbox": "[y0,1175-x1,y1,1175-x0]"
+              }
+            },
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "bbox_convention": "Half-open contextual coordinates; row frames explicit, no exact glyph boundary claim."
+          },
+          "raw_frozen_at_utc": "2026-10-20T18:50:07.670511+00:00",
+          "raw_sha256": "d5660165bfaf2beb032381a7f2669c378513715fb1ac597122fab6eb45a762e0",
+          "raw_hash_scope": "Canonical UTF-8 raw-object JSON only: ensure_ascii=False, sorted keys, compact comma/colon separators. Wrapper excluded; original complete FILE hash is recorded separately in own strict output.",
+          "physical_encoded_body_count": null,
+          "attestation": {
+            "assigned_slot": "FIRST; assigned slots are not chronological order",
+            "competing_target_reading_literal_or_prepared_accessed": false,
+            "other_current_batch_or_future_documents_accessed": false,
+            "programmatic_decode_before_both_own_raw_freezes": false,
+            "visible_canonical_key": true,
+            "related_AI": true,
+            "prior_other_card_source_and_nonblind_context": true,
+            "limitations": "Visible key and earlier other-card research may influence perception. Source-only means no competing target transcript before freeze; no key-free blindness, human/external independence or third blind reading is claimed."
+          }
+        },
+        "raw_sha256": "d5660165bfaf2beb032381a7f2669c378513715fb1ac597122fab6eb45a762e0",
+        "raw_file_sha256": "096037a454fd110673352073fd87f6fcb19ae32abea38b8473e957a1c71b541f",
+        "strict_file_sha256": "f0e74477d112802f1dbbcc252cceb1f324d55d68d82dc1481b7e43630323aef8",
+        "strict_metadata": {
+          "card_id": "302",
+          "reading_role": "FIRST assigned source-only slot; not chronological ordering",
+          "notation": "pdf204-canonical",
+          "executor": "Own deterministic strict replay after both own301/302 immutable source-only raw inputs froze.",
+          "decoded_at_utc": "2026-10-20T18:51:13.445042+00:00",
+          "after_both_own_raw_freezes": true,
+          "raw_frozen_at_utc": "2026-10-20T18:50:07.670511+00:00",
+          "raw_sha256": "d5660165bfaf2beb032381a7f2669c378513715fb1ac597122fab6eb45a762e0",
+          "raw_file_sha256": "096037a454fd110673352073fd87f6fcb19ae32abea38b8473e957a1c71b541f",
+          "source_sha256": "71835a0dd7707c04553af97fdb4990d9b224134bfadddbaba29fe89ff8a70e92",
+          "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+          "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
+          "counts": {
+            "encoded_bodies": 249,
+            "expanded_letters": 248,
+            "ch_occurrences": 1,
+            "unknowns": 2
+          },
+          "physical_encoded_body_count": null,
+          "counting_policy": "Selected decoder slots only, not established physical bodies. Actual question punctuation excluded from unknown counters; unknown cluster lengths remain null. Dates/printed context excluded from selected cipher.",
+          "limits": "Related AI with visible key and prior other-card context; no human/external independence or third blind claim. No competing target exchange, source repair or editorial edition.",
+          "validation": "Canonical raw, original FILE and source fingerprints; exact transcription/uncertainty/mark/segmentation/cluster/punctuation spans; all explicit frame geometry transforms/bounds; both own freezes before own replay passed. Frozen raw bytes unchanged."
+        },
+        "preservation": "Raw object plus original wrapper metadata collectively preserve the entire frozen source record unchanged. Strict fingerprint identifies historical own replay, not current selection."
+      },
+      "blind_raw": {
+        "rows": [
+          {
+            "line_id": "302-L01",
+            "ciphertext": "g86d3 n375! - bh3n4m n4,g5",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 14,
+                "selected": "bh3n4m",
+                "alternatives": [
+                  "bh3m4m",
+                  "bh3n4n"
+                ],
+                "note": "Low shoulders alternate n/m provisionally; tall second body selected looped h."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              1120,
+              665,
+              1720,
+              735
+            ],
+            "native_bbox_xyxy": [
+              1120,
+              665,
+              1720,
+              735
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-L02",
+            "ciphertext": "t3c2t m53t5c868 7c5n d4 c84p5m5",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 6,
+                "selected": "m53t5c868",
+                "alternatives": [
+                  "m53d5c868",
+                  "m53t5c86b"
+                ],
+                "note": "Crossed tall t selected. Final closed double-loop body selected 8; looped b alternative and joined segmentation remain possible."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              1060,
+              715,
+              1730,
+              785
+            ],
+            "native_bbox_xyxy": [
+              1060,
+              715,
+              1730,
+              785
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-L03",
+            "ciphertext": "bc6mg3. 85g58 7c5n c řch4 bg32",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 21,
+                "selected": "řch4",
+                "alternatives": [
+                  "rch4",
+                  "řsh4",
+                  "řh4"
+                ],
+                "note": "Visible wedge over a short branching body followed by an open c and tall loop h. Three body segmentation and roof attachment are provisional, not inferred from a word."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              1060,
+              765,
+              1720,
+              835
+            ],
+            "native_bbox_xyxy": [
+              1060,
+              765,
+              1720,
+              835
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-L04",
+            "ciphertext": "cd4h1 tm1 6 tm5c 7c5n 3b5d",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 0,
+                "selected": "cd4h1",
+                "alternatives": [
+                  "sd4h1",
+                  "cd4r1"
+                ],
+                "note": "First low curved shape selected c versus angular s; high loop selected h versus short r."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              1060,
+              815,
+              1720,
+              885
+            ],
+            "native_bbox_xyxy": [
+              1060,
+              815,
+              1720,
+              885
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-L05",
+            "ciphertext": "b3bhf5 f 2h6t5. g6c82 t3b4c",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 9,
+                "selected": "2h6t5",
+                "alternatives": [
+                  "2h6d5"
+                ],
+                "note": "Final tall crossed body selected t; rounded d alternative."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              1060,
+              865,
+              1730,
+              935
+            ],
+            "native_bbox_xyxy": [
+              1060,
+              865,
+              1730,
+              935
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-L06",
+            "ciphertext": "s3 m57th4f5 6 3gm6n4n 757 84cdg5n.",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 14,
+                "selected": "3gm6n4n",
+                "alternatives": [
+                  "3gn6n4n",
+                  "3gm6m4m"
+                ],
+                "note": "Descending rounded body selected g; adjacent low shoulder boundaries between m/n remain provisional. No completion by word meaning."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              890,
+              915,
+              1730,
+              985
+            ],
+            "native_bbox_xyxy": [
+              890,
+              915,
+              1730,
+              985
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-L07",
+            "ciphertext": "76g t6h4 c5 d3p5, n485mg3 n375 th6r6?",
+            "transcription": [
+              {
+                "offset": 36,
+                "length": 1,
+                "kind": "punctuation"
+              }
+            ],
+            "uncertainties": [
+              {
+                "offset": 31,
+                "selected": "th6r6",
+                "alternatives": [
+                  "th6h6",
+                  "dh6r6"
+                ],
+                "note": "First crossed tall body selected t, final short branch r. Loop/stem contour alternatives retained."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              850,
+              960,
+              1740,
+              1035
+            ],
+            "native_bbox_xyxy": [
+              850,
+              960,
+              1740,
+              1035
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-L08",
+            "ciphertext": "gt1 75t5s t3 g4h3fm4s5? fh585 fgb3n4m6n4",
+            "transcription": [
+              {
+                "offset": 22,
+                "length": 1,
+                "kind": "punctuation"
+              }
+            ],
+            "uncertainties": [
+              {
+                "offset": 13,
+                "selected": "g4h3fm4s5",
+                "alternatives": [
+                  "g4h3fn4s5",
+                  "g4h3fm4c5"
+                ],
+                "note": "Low joined shoulders selected m; final angular body selected s, open c alternative."
+              },
+              {
+                "offset": 30,
+                "selected": "fgb3n4m6n4",
+                "alternatives": [
+                  "fgb3n4m6n1",
+                  "fgb3m4m6n4"
+                ],
+                "note": "Tightly joined low bodies at lower right remain tentative; final forked stroke selected 4, simple 1 alternative. No signature identification."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              825,
+              1010,
+              1745,
+              1095
+            ],
+            "native_bbox_xyxy": [
+              825,
+              1010,
+              1745,
+              1095
+            ],
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "region": "main block",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M01",
+            "ciphertext": "d4c4 b5h3 2bh4nm1ř b2c",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 0,
+                "selected": "d4c4",
+                "alternatives": [
+                  "d4s4",
+                  "d4?4"
+                ],
+                "note": "Low c-shaped body is heavily retraced and darker than neighboring ink; open c selected provisionally, angular s or indistinct cluster alternative."
+              },
+              {
+                "offset": 5,
+                "selected": "b5h3",
+                "alternatives": [
+                  "b5r3",
+                  "b5h3"
+                ],
+                "note": "Initial looped body is retraced; subsequent high loop selected h rather than short r."
+              },
+              {
+                "offset": 10,
+                "selected": "2bh4nm1ř",
+                "alternatives": [
+                  "2bh4mm1ř",
+                  "2bh4nm1r"
+                ],
+                "note": "Low shoulders selected n then m; terminal short branching body has an overhead wedge. Ownership and body segmentation remain provisional."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              505,
+              1460,
+              1125,
+              1528
+            ],
+            "native_bbox_xyxy": [
+              1460,
+              50,
+              1528,
+              670
+            ],
+            "reading_rotation_clockwise_degrees": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "region": "right margin",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M02",
+            "ciphertext": "6 b3gth6 f2 3t f5cm5 df5r3",
+            "transcription": [],
+            "uncertainties": [
+              {
+                "offset": 21,
+                "selected": "df5r3",
+                "alternatives": [
+                  "df5h3",
+                  "df5r3"
+                ],
+                "note": "Short branching body after 5 selected r; high-loop h remains an alternative in crowded terminal ink."
+              }
+            ],
+            "reading_bbox_xyxy": [
+              505,
+              1515,
+              1125,
+              1585
+            ],
+            "native_bbox_xyxy": [
+              1515,
+              50,
+              1585,
+              670
+            ],
+            "reading_rotation_clockwise_degrees": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "region": "right margin",
+            "physical_encoded_body_count": null
+          },
+          {
+            "line_id": "302-M03",
+            "ciphertext": "b5b32c5.",
+            "transcription": [],
+            "uncertainties": [],
+            "reading_bbox_xyxy": [
+              505,
+              1570,
+              800,
+              1645
+            ],
+            "native_bbox_xyxy": [
+              1570,
+              375,
+              1645,
+              670
+            ],
+            "reading_rotation_clockwise_degrees": 90,
+            "reading_dimensions": [
+              1175,
+              1785
+            ],
+            "region": "right margin",
+            "physical_encoded_body_count": null
+          }
+        ],
+        "marks": [
+          {
+            "line_id": "302-L03",
+            "offset": 21,
+            "selected": "ř",
+            "kind": "provisional marked r",
+            "alternatives": [
+              "r with unattached roof",
+              "h with adjacent mark"
+            ],
+            "note": "Visible overhead wedge described in row uncertainties; row rectangles are contextual, not cluster-specific ink boundaries."
+          },
+          {
+            "line_id": "302-M01",
+            "offset": 17,
+            "selected": "ř",
+            "kind": "provisional marked r",
+            "alternatives": [
+              "r with unattached roof",
+              "h with adjacent mark"
+            ],
+            "note": "Visible overhead wedge described in row uncertainties; row rectangles are contextual, not cluster-specific ink boundaries."
+          }
+        ],
+        "unresolved_clusters": [],
+        "ordinary_numerals": [
+          {
+            "visual_candidate": "26./XI.1901.",
+            "kind": "separate ordinary date",
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              320,
+              65,
+              590,
+              145
+            ],
+            "native_bbox_xyxy": [
+              320,
+              65,
+              590,
+              145
+            ],
+            "note": "Separate noncipher inscription; visual date candidate only, not authenticated chronology. No in-cipher numeral tag or counter contribution."
+          }
+        ],
+        "actual_question_punctuation": [
+          {
+            "line_id": "302-L07",
+            "offset": 36,
+            "selected": "?",
+            "physical_encoded_body_count": null,
+            "note": "Written hooked question form with a separate lower dot; punctuation, not a mask."
+          },
+          {
+            "line_id": "302-L08",
+            "offset": 22,
+            "selected": "?",
+            "physical_encoded_body_count": null,
+            "note": "Written hooked question form with a separate lower dot; punctuation, not a mask."
+          }
+        ],
+        "notes": [
+          "The entire original face and margins were inspected, with enlarged main handwriting, rotated right margin, lower-right termination and separate date. Eight main physical rows use native orientation; three right-margin rows read in a whole-source CW90 frame.",
+          "Main and margin order is inventoried spatially rather than established as a narrative sequence. Decorative image and printed publishing marks are excluded. No explicit linking arrow was securely identified in the inspected margin.",
+          "Written questions are punctuation rather than masks. Zero selected masks does not certify source accuracy or completeness: retracing, low shoulders, segmentation and mark attachment remain uncertain. Date remains separate and unverified. No plaintext, fluent repair, new key value or blanket mark rule was applied. Physical totals remain null."
+        ],
+        "physical_encoded_body_count": null
+      },
+      "blind_record": {
+        "frozen_wrapper": {
+          "card_id": "302",
+          "reader": "blind302",
+          "model": "gpt-6.1-sol assigned; exact deployment unavailable",
+          "assigned_source_slot": "SECOND; assignment label, not chronological priority",
+          "phase": "Immutable source-only visual raw freeze",
+          "source": {
+            "card_id": 302,
+            "face": "Picture side",
+            "url": "https://api.hcportal.eu/media/4923/pc_hcp_302_pic.JPG",
+            "sha256": "71835a0dd7707c04553af97fdb4990d9b224134bfadddbaba29fe89ff8a70e92",
+            "bytes": 1301799,
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "catalogue_id": 1621,
+            "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1621",
+            "record_json_pointer": "/data/data/1614",
+            "image_json_pointer": "/data/data/1614/datagroups/0/data/0/image/original",
+            "acquisition": "Ordinary anonymous public GET; explicitly returned official URL; retain saved source bytes privately",
+            "http_status": 200,
+            "acquired_utc": "2026-10-20T18:43:13.426206+00:00"
+          },
+          "orientation": {
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "regions": [
+              {
+                "region": "main block",
+                "reading_rotation_clockwise_degrees": 0,
+                "reading_dimensions": [
+                  1785,
+                  1175
+                ]
+              },
+              {
+                "region": "right margin",
+                "reading_rotation_clockwise_degrees": 90,
+                "reading_dimensions": [
+                  1175,
+                  1785
+                ]
+              }
+            ],
+            "reading_to_native_bbox": "Rotation 0: identity. CW90: [reading_y0, 1175-reading_x1, reading_y1, 1175-reading_x0]. All rectangles half-open in whole-source frames.",
+            "locator_precision": "Coarse contextual row boxes, not exact ink boundaries, body counts or proof of ink ownership."
+          },
+          "exposure": {
+            "canonical_key_visible": true,
+            "prior_other_card_context": "Prior source readings and nonblind curation of other postcards, including 297/298, are present in this related AI session.",
+            "target_unexposed": true,
+            "competing_current_target_outputs_opened": false,
+            "limits": "Related AI with shared prior influence and visible key; no human, external, third-blind or cognitive independence claim."
+          },
+          "raw_frozen_at_utc": "2026-10-20T18:50:05.383953+00:00",
+          "raw_sha256": "65516c61e28256089c9a2578ef2d986d005533fc148016d27083cb2105b6b9f8",
+          "raw_hash_scope": "Canonical compact sorted UTF-8 JSON of raw only, ensure_ascii=False, sort_keys=True, separators comma/colon. Original file bytes and wrapper have distinct scopes.",
+          "physical_encoded_body_count": null,
+          "attestation": {
+            "programmatic_decode_before_freeze": false,
+            "current_target_exchange_before_freeze": false,
+            "both_own_raw_inputs_required_before_either_own_decode": true,
+            "no_plaintext_or_editorial_rendering_before_freeze": true
+          }
+        },
+        "raw_sha256": "65516c61e28256089c9a2578ef2d986d005533fc148016d27083cb2105b6b9f8",
+        "raw_file_sha256": "e0c8be4036a108af6d116259e0866b59873afd313769f22457010afa48a6e8a5",
+        "strict_file_sha256": "fabde8afa84663c69615a0092e99c201fbdf6a1f40bd9df7d042ad0c6b8f1902",
+        "strict_metadata": {
+          "card_id": "302",
+          "reader": "blind302",
+          "executor": "Same assigned SECOND source actor performing own deterministic strict replay",
+          "notation": "pdf204-canonical",
+          "source_sha256": "71835a0dd7707c04553af97fdb4990d9b224134bfadddbaba29fe89ff8a70e92",
+          "raw_sha256": "65516c61e28256089c9a2578ef2d986d005533fc148016d27083cb2105b6b9f8",
+          "raw_file_sha256": "e0c8be4036a108af6d116259e0866b59873afd313769f22457010afa48a6e8a5",
+          "raw_frozen_at_utc": "2026-10-20T18:50:05.383953+00:00",
+          "decoded_at_utc": "2026-10-20T18:50:30.458505+00:00",
+          "after_both_own_raw_freezes": true,
+          "decoder_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
+          "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
+          "totals": {
+            "encoded_bodies": 251,
+            "expanded_letters": 253,
+            "ch_occurrences": 2,
+            "rows": 11,
+            "unknowns": 0,
+            "unknown_encoded_slots": 0,
+            "preserved_numeral_spans": 0
+          },
+          "physical_encoded_body_count": null,
+          "transcription_projection": [
+            {
+              "line_id": "302-L07",
+              "raw_transcription": [
+                {
+                  "offset": 36,
+                  "length": 1,
+                  "kind": "punctuation"
+                }
+              ],
+              "decoder_transcription": [
+                {
+                  "offset": 36,
+                  "text": "?",
+                  "kind": "punctuation"
+                }
+              ]
+            },
+            {
+              "line_id": "302-L08",
+              "raw_transcription": [
+                {
+                  "offset": 22,
+                  "length": 1,
+                  "kind": "punctuation"
+                }
+              ],
+              "decoder_transcription": [
+                {
+                  "offset": 22,
+                  "text": "?",
+                  "kind": "punctuation"
+                }
+              ]
+            }
+          ],
+          "metadata_exception": "Frozen raw tags have offset/length/kind rather than decoder-required offset/text/kind. Replay deterministically derives exact raw text from offset and length, retaining kind and offset. Initial direct replay rejected metadata before producing a strict output. Frozen source/raw remain unchanged.",
+          "scope": "Unchanged fixed-key replay after the explicitly recorded exact-span transcription metadata projection. Decoder selected slots are not physical body evidence. Ambiguous shapes, segmentation and mark attachment remain in immutable raw; no editorial repair."
+        },
+        "preservation": "Raw object plus original wrapper metadata collectively preserve the entire frozen source record unchanged. Strict fingerprint identifies historical own replay, not current selection."
+      }
+    },
+    "frozen_schema_limits": {
+      "SECOND_raw_direct_decoder_compatible": false,
+      "description": "Frozen SECOND tags use offset/length/kind. Historical own strict replay projected exact raw ciphertext slices into offset/text/kind without changing text, offset or kind; its metadata_exception and projection are preserved in strict_metadata. No direct-compatibility claim and no frozen correction.",
+      "current_tags": "Current selected rows use exact offset/text/kind tags supported by unchanged decoder."
+    },
+    "lines": [
+      {
+        "line_id": "302-M01",
+        "ciphertext": "g86d3 n375! — bh3n4m n4, g5",
+        "transcription": [
+          {
+            "offset": 10,
+            "text": "!",
+            "kind": "punctuation"
+          }
+        ],
+        "literal": "ZLATO MOJE! — PROMIN MI, ZE",
+        "encoded_bodies": 19,
+        "expanded_letters": 19,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          1135,
+          655,
+          1705,
+          723
+        ],
+        "native_bbox_xyxy": [
+          1135,
+          655,
+          1705,
+          723
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M02",
+        "ciphertext": "t3c2t m53t5c868 7c5n d4 c84p5m5",
+        "transcription": [],
+        "literal": "DOSUD NEODESLAL JSEM TI SLIBENE",
+        "encoded_bodies": 27,
+        "expanded_letters": 27,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          1055,
+          710,
+          1705,
+          780
+        ],
+        "native_bbox_xyxy": [
+          1055,
+          710,
+          1705,
+          780
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M03",
+        "ciphertext": "bc6mq3. 85g58 7c5n c ?h4bq32",
+        "transcription": [
+          {
+            "offset": 21,
+            "text": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "literal": "PSANKO. LEZEL JSEM S ?RIPKOU",
+        "encoded_bodies": 23,
+        "expanded_letters": 22,
+        "ch_occurrences": 0,
+        "unknowns": [
+          {
+            "offset": 21,
+            "body_index": 16,
+            "symbol": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          1050,
+          758,
+          1705,
+          830
+        ],
+        "native_bbox_xyxy": [
+          1050,
+          758,
+          1705,
+          830
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M04",
+        "ciphertext": "sd4h1 tm1 6 tm5c 7c5n 3b5d",
+        "transcription": [],
+        "literal": "CTIRY DNY A DNES JSEM OPET",
+        "encoded_bodies": 21,
+        "expanded_letters": 21,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          1050,
+          808,
+          1705,
+          882
+        ],
+        "native_bbox_xyxy": [
+          1050,
+          808,
+          1705,
+          882
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M05",
+        "ciphertext": "b3bhf5 f 2h6t5. g6c82 t3b4c",
+        "transcription": [],
+        "literal": "POPRVE V URADE. ZASLU DOPIS",
+        "encoded_bodies": 22,
+        "expanded_letters": 22,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          1050,
+          860,
+          1705,
+          934
+        ],
+        "native_bbox_xyxy": [
+          1050,
+          860,
+          1705,
+          934
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M06",
+        "ciphertext": "s3 m57th4f5 6 3gm6n4n 757 84cdq5n.",
+        "transcription": [],
+        "literal": "CO NEJDRIVE A OZNAMIM JEJ LISTKEM.",
+        "encoded_bodies": 28,
+        "expanded_letters": 28,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          880,
+          908,
+          1705,
+          985
+        ],
+        "native_bbox_xyxy": [
+          880,
+          908,
+          1705,
+          985
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M07",
+        "ciphertext": "76q t6h4 c5 d3p5, n485mq3 n375 th6r6?",
+        "transcription": [
+          {
+            "offset": 36,
+            "text": "?",
+            "kind": "punctuation"
+          }
+        ],
+        "literal": "JAK DARI SE TOBE, MILENKO MOJE DRAHA?",
+        "encoded_bodies": 29,
+        "expanded_letters": 29,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          835,
+          958,
+          1705,
+          1040
+        ],
+        "native_bbox_xyxy": [
+          835,
+          958,
+          1705,
+          1040
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M08",
+        "ciphertext": "qt1 75t5s t3 g4h3fm4s5? fh585 fgb3n4m6n?",
+        "transcription": [
+          {
+            "offset": 22,
+            "text": "?",
+            "kind": "punctuation"
+          },
+          {
+            "offset": 39,
+            "text": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "literal": "KDY JEDEC DO ZIROVNICE? VRELE VZPOMINAM?",
+        "encoded_bodies": 34,
+        "expanded_letters": 33,
+        "ch_occurrences": 0,
+        "unknowns": [
+          {
+            "offset": 39,
+            "body_index": 33,
+            "symbol": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          830,
+          1010,
+          1710,
+          1105
+        ],
+        "native_bbox_xyxy": [
+          830,
+          1010,
+          1710,
+          1105
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-S01",
+        "ciphertext": "d4c4 ?5h3 2bh4nm1ř b2c",
+        "transcription": [
+          {
+            "offset": 5,
+            "text": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "literal": "TISI ?ERO UPRIMNYCH PUS",
+        "encoded_bodies": 19,
+        "expanded_letters": 19,
+        "ch_occurrences": 1,
+        "unknowns": [
+          {
+            "offset": 5,
+            "body_index": 4,
+            "symbol": "?",
+            "kind": "unknown_glyph"
+          }
+        ],
+        "reading_frame": "cw90",
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_bbox_xyxy": [
+          510,
+          1450,
+          1110,
+          1525
+        ],
+        "native_bbox_xyxy": [
+          1450,
+          65,
+          1525,
+          665
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-S02",
+        "ciphertext": "6 b3gth6f2 3t f5sm5 df5r3",
+        "transcription": [],
+        "literal": "A POZDRAVU OD VECNE TVEHO",
+        "encoded_bodies": 21,
+        "expanded_letters": 21,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "cw90",
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_bbox_xyxy": [
+          510,
+          1510,
+          1110,
+          1590
+        ],
+        "native_bbox_xyxy": [
+          1510,
+          65,
+          1590,
+          665
+        ],
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-S03",
+        "ciphertext": "b5b32c5.",
+        "transcription": [],
+        "literal": "PEPOUSE.",
+        "encoded_bodies": 7,
+        "expanded_letters": 7,
+        "ch_occurrences": 0,
+        "unknowns": [],
+        "reading_frame": "cw90",
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_bbox_xyxy": [
+          510,
+          1575,
+          855,
+          1648
+        ],
+        "native_bbox_xyxy": [
+          1575,
+          320,
+          1648,
+          665
+        ],
+        "physical_encoded_body_count": null
+      }
+    ],
+    "uncertainty_ledger": [
+      {
+        "line_id": "302-M01",
+        "offset": 0,
+        "selected": "g86d3 n375! — bh3n4m n4, g5",
+        "alternatives": [
+          "g86d3 n375! — bh3n4m n4, g5",
+          "g86d3 n375! - bh3n4m n4,g5"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Dash represented as em dash from visible horizontal stroke; ordinary spacing after comma is a transcription choice, with second compact grouping preserved separately."
+      },
+      {
+        "line_id": "302-M02",
+        "offset": 0,
+        "selected": "t3c2t m53t5c868 7c5n d4 c84p5m5",
+        "alternatives": [
+          "t3c2t m53t5c868 7c5n d4 c84p5m5"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Both agree on selected bodies; crossed t, final8 loop and low-arch alternatives retained."
+      },
+      {
+        "line_id": "302-M03",
+        "offset": 0,
+        "selected": "bc6mq3. 85g58 7c5n c ?h4bq32",
+        "alternatives": [
+          "bc6mq3. 85g58 7c5n c ?h4bq32",
+          "bc6mg3. 85g58 7c5n c řch4 bg32"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Narrow q inbc6mq3 selected over second g. Roofed base plus neighboring open curve may be one/ several bodies: retain first mask before tall h instead of forcing second marked-r/c/h sequence. Narrow q after ascending b provisionally selected over second g; gap/segmentation alternatives retained."
+      },
+      {
+        "line_id": "302-M04",
+        "offset": 0,
+        "selected": "sd4h1 tm1 6 tm5c 7c5n 3b5d",
+        "alternatives": [
+          "sd4h1 tm1 6 tm5c 7c5n 3b5d",
+          "cd4h1 tm1 6 tm5c 7c5n 3b5d"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Initial short triangular/angular body provisionally s, not second open c; forked4 and tall h retained. Current CTIRY not made fluent in source."
+      },
+      {
+        "line_id": "302-M05",
+        "offset": 0,
+        "selected": "b3bhf5 f 2h6t5. g6c82 t3b4c",
+        "alternatives": [
+          "b3bhf5 f 2h6t5. g6c82 t3b4c"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Both reads agree; crossed t versus oval d alternative remains."
+      },
+      {
+        "line_id": "302-M06",
+        "offset": 0,
+        "selected": "s3 m57th4f5 6 3gm6n4n 757 84cdq5n.",
+        "alternatives": [
+          "s3 m57th4f5 6 3gm6n4n 757 84cdq5n.",
+          "s3 m57th4f5 6 3gm6n4n 757 84cdg5n."
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Narrow returning q in 84cdq5n provisionally selected over second g; low m/n arches unresolved."
+      },
+      {
+        "line_id": "302-M07",
+        "offset": 0,
+        "selected": "76q t6h4 c5 d3p5, n485mq3 n375 th6r6?",
+        "alternatives": [
+          "76q t6h4 c5 d3p5, n485mq3 n375 th6r6?",
+          "76g t6h4 c5 d3p5, n485mg3 n375 th6r6?"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Narrow returning q in 76q and n485mq3 selected individually over second g; other low arches and h/r alternatives remain."
+      },
+      {
+        "line_id": "302-M08",
+        "offset": 0,
+        "selected": "qt1 75t5s t3 g4h3fm4s5? fh585 fgb3n4m6n?",
+        "alternatives": [
+          "qt1 75t5s t3 g4h3fm4s5? fh585 fgb3n4m6n.",
+          "gt1 75t5s t3 g4h3fm4s5? fh585 fgb3n4m6n4"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Initial narrow returning q selected over second broad g. Terminal stroke after fgb3n4m6n is neither secure period nor secure forked4/simple1: retain an unknown mask with encoded-versus-punctuation status unresolved."
+      },
+      {
+        "line_id": "302-S01",
+        "offset": 0,
+        "selected": "d4c4 ?5h3 2bh4nm1ř b2c",
+        "alternatives": [
+          "d4c4?5h3 2bh4nm1ř b2c",
+          "d4c4 b5h3 2bh4nm1ř b2c"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Dark body at flower/stem overlap remains masked rather than second b. Wider gap after d4c4 retained; any word join is editorial. Roof over final short branch remains provisional."
+      },
+      {
+        "line_id": "302-S02",
+        "offset": 0,
+        "selected": "6 b3gth6f2 3t f5sm5 df5r3",
+        "alternatives": [
+          "6 b3gth6f2 3t f5sm5 df5r3",
+          "6 b3gth6 f2 3t f5cm5 df5r3"
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Interbody distance between6 and descending f comparable to neighboring ascender spacing, first joined b3gth6f2 provisionally retained with second gap alternative. Short angular s in f5sm5 selected over second c."
+      },
+      {
+        "line_id": "302-S03",
+        "offset": 0,
+        "selected": "b5b32c5.",
+        "alternatives": [
+          "b5b32c5."
+        ],
+        "scope": "Whole-row current selection with both frozen row alternatives; exact disagreement substrings and narrower critical limits are separately ledgered.",
+        "source_visual_basis": "Both reads agree; signature-like string not identified."
+      },
+      {
+        "line_id": "302-M03",
+        "offset": 21,
+        "selected": "?h4bq32",
+        "alternatives": [
+          "řch4 bg32",
+          "řh4bq32",
+          "řch4bq32"
+        ],
+        "source_visual_basis": "Roofed cluster plus adjacent open curve remains masked as unknown length; marked-r/c/h sequence, gap and body/attachment alternatives preserved without forcing a CH word solution."
+      },
+      {
+        "line_id": "302-M04",
+        "offset": 0,
+        "selected": "sd4h1",
+        "alternatives": [
+          "cd4h1",
+          "sd1h1"
+        ],
+        "source_visual_basis": "Initial angular s provisionally selected over open c. Forked4 retained; current CTIRY not silently changed to a Czech word."
+      },
+      {
+        "line_id": "302-M08",
+        "offset": 30,
+        "selected": "fgb3n4m6n?",
+        "alternatives": [
+          "fgb3n4m6n.",
+          "fgb3n4m6n4",
+          "fgb3n4m6n1"
+        ],
+        "source_visual_basis": "Separate cramped terminal stroke cannot securely be period, forked4 or simple1. One display mask has undetermined body/punctuation role; known prefix retained."
+      },
+      {
+        "line_id": "302-S01",
+        "offset": 0,
+        "selected": "d4c4 ?5h3",
+        "alternatives": [
+          "d4c4 b5h3",
+          "d4c4?5h3",
+          "d4c4s5h3"
+        ],
+        "source_visual_basis": "Dark body beside flower/stem overlap unresolved; wider visible gap retained, current word division not silently joined."
+      },
+      {
+        "line_id": "302-S02",
+        "offset": 2,
+        "selected": "b3gth6f2",
+        "alternatives": [
+          "b3gth6 f2"
+        ],
+        "source_visual_basis": "Interbody distance near6/f comparable to neighboring ascender spacing; joined display provisional, second gap retained as alternate."
+      },
+      {
+        "line_id": "302-S02",
+        "offset": 14,
+        "selected": "f5sm5",
+        "alternatives": [
+          "f5cm5"
+        ],
+        "source_visual_basis": "Short angular s provisionally selected rather than second open c; no fluent source correction."
+      }
+    ],
+    "marks_and_segmentation_notes": [
+      {
+        "line_id": "302-M01",
+        "offset": 12,
+        "selected": "—",
+        "note": "Visible horizontal stroke retained as punctuation/display dash; no numeric value or automatic word continuation inferred."
+      },
+      {
+        "line_id": "302-S01",
+        "offset": 17,
+        "selected": "ř",
+        "note": "Detached wedge above a short branched base, provisionally canonical marked-r; r/h/base/neighbor ownership alternatives remain and no generic roof mapping added."
+      },
+      {
+        "line_id": "302-M03",
+        "offset": 21,
+        "selected": "?",
+        "note": "Overhead wedge and neighboring small curve remain in masked cluster; no automatic roof/CH normalization. Historical SECOND marked-r/open-c/h alternative preserved."
+      }
+    ],
+    "segmentation_ledger": [
+      {
+        "line_id": "302-M03",
+        "offset": 21,
+        "selected": "?h4bq32",
+        "alternatives": [
+          "řch4 bg32",
+          "řh4bq32",
+          "řch4bq32"
+        ],
+        "source_visual_basis": "Roofed cluster plus adjacent open curve remains masked as unknown length; marked-r/c/h sequence, gap and body/attachment alternatives preserved without forcing a CH word solution.",
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M04",
+        "offset": 0,
+        "selected": "sd4h1",
+        "alternatives": [
+          "cd4h1",
+          "sd1h1"
+        ],
+        "source_visual_basis": "Initial angular s provisionally selected over open c. Forked4 retained; current CTIRY not silently changed to a Czech word.",
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-M08",
+        "offset": 30,
+        "selected": "fgb3n4m6n?",
+        "alternatives": [
+          "fgb3n4m6n.",
+          "fgb3n4m6n4",
+          "fgb3n4m6n1"
+        ],
+        "source_visual_basis": "Separate cramped terminal stroke cannot securely be period, forked4 or simple1. One display mask has undetermined body/punctuation role; known prefix retained.",
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-S01",
+        "offset": 0,
+        "selected": "d4c4 ?5h3",
+        "alternatives": [
+          "d4c4 b5h3",
+          "d4c4?5h3",
+          "d4c4s5h3"
+        ],
+        "source_visual_basis": "Dark body beside flower/stem overlap unresolved; wider visible gap retained, current word division not silently joined.",
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-S02",
+        "offset": 2,
+        "selected": "b3gth6f2",
+        "alternatives": [
+          "b3gth6 f2"
+        ],
+        "source_visual_basis": "Interbody distance near6/f comparable to neighboring ascender spacing; joined display provisional, second gap retained as alternate.",
+        "physical_encoded_body_count": null
+      },
+      {
+        "line_id": "302-S02",
+        "offset": 14,
+        "selected": "f5sm5",
+        "alternatives": [
+          "f5cm5"
+        ],
+        "source_visual_basis": "Short angular s provisionally selected rather than second open c; no fluent source correction.",
+        "physical_encoded_body_count": null
+      }
+    ],
+    "unknown_clusters": [
+      {
+        "line_id": "302-M03",
+        "offset": 21,
+        "selected": "?",
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          1490,
+          758,
+          1555,
+          830
+        ],
+        "native_bbox_xyxy": [
+          1490,
+          758,
+          1555,
+          830
+        ],
+        "physical_length": null,
+        "physical_encoded_body_count": null,
+        "encoded_role": "encoded family unresolved",
+        "bbox_precision": "Contextual local box only, no exact body/ink boundary proof.",
+        "reason": "Roofed cluster/open curve before tall h remains unresolved; possible one/ several bodies and neighboring mark ownership alternatives retained."
+      },
+      {
+        "line_id": "302-S01",
+        "offset": 5,
+        "selected": "?",
+        "reading_frame": "cw90",
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_bbox_xyxy": [
+          648,
+          1450,
+          708,
+          1525
+        ],
+        "native_bbox_xyxy": [
+          1450,
+          467,
+          1525,
+          527
+        ],
+        "physical_length": null,
+        "physical_encoded_body_count": null,
+        "encoded_role": "encoded family unresolved",
+        "bbox_precision": "Contextual local box only, no exact body/ink boundary proof.",
+        "reason": "Dark glyph/cluster adjoining printed stem, family and length unresolved; visible preceding gap retained."
+      },
+      {
+        "line_id": "302-M08",
+        "offset": 39,
+        "selected": "?",
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          1663,
+          1035,
+          1715,
+          1105
+        ],
+        "native_bbox_xyxy": [
+          1663,
+          1035,
+          1715,
+          1105
+        ],
+        "physical_length": null,
+        "physical_encoded_body_count": null,
+        "encoded_role": "undetermined encoded body versus punctuation",
+        "bbox_precision": "Contextual local box only, no exact body/ink boundary proof.",
+        "reason": "Cramped terminal stroke follows known prefix; first period and SECOND 4/1 alternatives unresolved. Mask contributes a selected display slot, not proof of an encoded body."
+      }
+    ],
+    "current_provenance_corrections": [],
+    "physical_encoded_body_count": null,
+    "counts_policy": "Selected display/decoder slots only, not established physical encoded bodies. Unknown physical lengths and totals remain null; masks may cover several bodies or an unresolved body/punctuation role. Zero masks would not settle mark/segmentation alternatives.",
+    "ordinary_numerals_outside_cipher": [],
+    "actual_question_punctuation": [
+      {
+        "line_id": "302-M07",
+        "offset": 36,
+        "selected": "?",
+        "reason": "Source has a raised hook with detached lower dot; written punctuation, not an unknown body."
+      },
+      {
+        "line_id": "302-M08",
+        "offset": 22,
+        "selected": "?",
+        "reason": "Source has a raised hook with detached lower dot; written punctuation, not an unknown body."
+      }
+    ],
+    "date_inscription": {
+      "candidates": {
+        "first": {
+          "text_candidate": "26./XI.1901.",
+          "reading_frame": "native",
+          "reading_rotation_degrees_clockwise": 0,
+          "reading_dimensions": [
+            1785,
+            1175
+          ],
+          "reading_bbox_xyxy": [
+            320,
+            73,
+            595,
+            158
+          ],
+          "native_bbox_xyxy": [
+            320,
+            73,
+            595,
+            158
+          ],
+          "qualification": "Separate ordinary source inscription, tentative and unverified; excluded from cipher selection, no chronology or calendar inference."
+        },
+        "blind": [
+          {
+            "visual_candidate": "26./XI.1901.",
+            "kind": "separate ordinary date",
+            "reading_rotation_clockwise_degrees": 0,
+            "reading_dimensions": [
+              1785,
+              1175
+            ],
+            "reading_bbox_xyxy": [
+              320,
+              65,
+              590,
+              145
+            ],
+            "native_bbox_xyxy": [
+              320,
+              65,
+              590,
+              145
+            ],
+            "note": "Separate noncipher inscription; visual date candidate only, not authenticated chronology. No in-cipher numeral tag or counter contribution."
+          }
+        ]
+      },
+      "status": "Separate tentative ordinary source inscriptions, unverified; no authenticated chronology or calendar inference and no selected cipher counter contribution."
+    },
+    "editorial_restoration_ledger": [
+      {
+        "line_id": "302-M03",
+        "literal_offset_start": 21,
+        "literal_offset_end": 28,
+        "literal": "?RIPKOU",
+        "proposed_czech": "[chřipkou?; ?RIPKOU]",
+        "proposed_english": "[influenza?; ?RIPKOU]",
+        "basis": "Editorial proposal only, not source or cipher validation.",
+        "kind": "repair",
+        "reason": "Propose CH for unknown-length cluster. If the alternative separate c is an independent S body, this proposed rendering would not retain it; that possible omitted body lies within the explicitly unresolved mask scope. No forced glyph/CH selection."
+      },
+      {
+        "line_id": "302-M04",
+        "literal_offset_start": 0,
+        "literal_offset_end": 5,
+        "literal": "CTIRY",
+        "proposed_czech": "[čtyři?; CTIRY]",
+        "proposed_english": "[four?; CTIRY]",
+        "basis": "Editorial proposal only, not source or cipher validation.",
+        "kind": "repair",
+        "reason": "Single-letter I to Y contextual proposal; initial C diacritic ordinary, current forked4 remains I."
+      },
+      {
+        "line_id": "302-M08",
+        "literal_offset_start": 4,
+        "literal_offset_end": 9,
+        "literal": "JEDEC",
+        "proposed_czech": "[jedeš?; JEDEC]",
+        "proposed_english": "[are you going?; JEDEC]",
+        "basis": "Editorial proposal only, not source or cipher validation.",
+        "kind": "repair",
+        "reason": "Single-letter final C to S proposal with ordinary diacritic; current angular s glyph remains canonical C."
+      },
+      {
+        "line_id": "302-S01",
+        "literal_offset_start": 0,
+        "literal_offset_end": 9,
+        "literal": "TISI ?ERO",
+        "proposed_czech": "[Tisícero?; TISI ?ERO]",
+        "proposed_english": "[A thousand?; TISI ?ERO]",
+        "basis": "Editorial proposal only, not source or cipher validation.",
+        "kind": "repair",
+        "reason": "Propose C completion of dark unknown-length body and join visible gap; both substantive actions bracketed, source unchanged."
+      }
+    ],
+    "editorial_literal_fragment_ledger": [
+      {
+        "line_id": "302-M07",
+        "literal_offset_start": 18,
+        "literal_offset_end": 25,
+        "literal": "MILENKO",
+        "proposed_czech": "[MILENKO; neověřené oslovení]",
+        "proposed_english": "[MILENKO; unverified address term]",
+        "basis": "Editorial proposal only, not source or cipher validation.",
+        "kind": "literal fragment",
+        "reason": "Literal address-like term retained without identifying a person."
+      },
+      {
+        "line_id": "302-M08",
+        "literal_offset_start": 13,
+        "literal_offset_end": 22,
+        "literal": "ZIROVNICE",
+        "proposed_czech": "[ZIROVNICE; neověřený místní řetězec]",
+        "proposed_english": "[ZIROVNICE; unverified place-like string]",
+        "basis": "Editorial proposal only, not source or cipher validation.",
+        "kind": "literal fragment",
+        "reason": "Literal place-like string retained without location, spelling or itinerary authentication."
+      },
+      {
+        "line_id": "302-M08",
+        "literal_offset_start": 39,
+        "literal_offset_end": 40,
+        "literal": "?",
+        "proposed_czech": "[nevyložený koncový tah; ?]",
+        "proposed_english": "[terminal stroke unresolved; ?]",
+        "basis": "Literal unresolved terminal fragment, no completion or cipher validation.",
+        "kind": "literal fragment",
+        "reason": "Terminal unknown marker after known VZPOMINAM prefix: no ending restored or erased. Known prefix translated without asserting the stroke is punctuation or a further letter."
+      },
+      {
+        "line_id": "302-S03",
+        "literal_offset_start": 0,
+        "literal_offset_end": 7,
+        "literal": "PEPOUSE",
+        "proposed_czech": "[PEPOUSE; neověřený podpis]",
+        "proposed_english": "[PEPOUSE; unverified signature]",
+        "basis": "Editorial proposal only, not source or cipher validation.",
+        "kind": "literal fragment",
+        "reason": "Literal signature-like string without person identification."
+      }
+    ],
+    "editorial_layout_normalizations": [
+      {
+        "description": "Ordinary Czech diacritics, case and connected paragraph layout without silent letter repairs. Every substantive letter, missing-body and word-division proposal remains bracketed in both languages.",
+        "literal_spans": [
+          {
+            "line_id": "302-M01",
+            "literal_offset_start": 0,
+            "literal_offset_end": 27,
+            "literal": "ZLATO MOJE! — PROMIN MI, ZE"
+          },
+          {
+            "line_id": "302-M02",
+            "literal_offset_start": 0,
+            "literal_offset_end": 31,
+            "literal": "DOSUD NEODESLAL JSEM TI SLIBENE"
+          },
+          {
+            "line_id": "302-M03",
+            "literal_offset_start": 0,
+            "literal_offset_end": 28,
+            "literal": "PSANKO. LEZEL JSEM S ?RIPKOU"
+          },
+          {
+            "line_id": "302-M04",
+            "literal_offset_start": 0,
+            "literal_offset_end": 26,
+            "literal": "CTIRY DNY A DNES JSEM OPET"
+          },
+          {
+            "line_id": "302-M05",
+            "literal_offset_start": 0,
+            "literal_offset_end": 27,
+            "literal": "POPRVE V URADE. ZASLU DOPIS"
+          },
+          {
+            "line_id": "302-M06",
+            "literal_offset_start": 0,
+            "literal_offset_end": 34,
+            "literal": "CO NEJDRIVE A OZNAMIM JEJ LISTKEM."
+          },
+          {
+            "line_id": "302-M07",
+            "literal_offset_start": 0,
+            "literal_offset_end": 37,
+            "literal": "JAK DARI SE TOBE, MILENKO MOJE DRAHA?"
+          },
+          {
+            "line_id": "302-M08",
+            "literal_offset_start": 0,
+            "literal_offset_end": 40,
+            "literal": "KDY JEDEC DO ZIROVNICE? VRELE VZPOMINAM?"
+          },
+          {
+            "line_id": "302-S01",
+            "literal_offset_start": 0,
+            "literal_offset_end": 23,
+            "literal": "TISI ?ERO UPRIMNYCH PUS"
+          },
+          {
+            "line_id": "302-S02",
+            "literal_offset_start": 0,
+            "literal_offset_end": 25,
+            "literal": "A POZDRAVU OD VECNE TVEHO"
+          },
+          {
+            "line_id": "302-S03",
+            "literal_offset_start": 0,
+            "literal_offset_end": 8,
+            "literal": "PEPOUSE."
+          }
+        ]
+      },
+      {
+        "description": "English grammatical word order may co-cover adjacent row phrases and move the signature-like subject/possessive formula; no unstated object of remembering, hidden clause or authenticated identity supplied. Region order remains qualified.",
+        "literal_spans": [
+          {
+            "line_id": "302-M01",
+            "literal_offset_start": 0,
+            "literal_offset_end": 27,
+            "literal": "ZLATO MOJE! — PROMIN MI, ZE"
+          },
+          {
+            "line_id": "302-M02",
+            "literal_offset_start": 0,
+            "literal_offset_end": 31,
+            "literal": "DOSUD NEODESLAL JSEM TI SLIBENE"
+          },
+          {
+            "line_id": "302-M03",
+            "literal_offset_start": 0,
+            "literal_offset_end": 28,
+            "literal": "PSANKO. LEZEL JSEM S ?RIPKOU"
+          },
+          {
+            "line_id": "302-M04",
+            "literal_offset_start": 0,
+            "literal_offset_end": 26,
+            "literal": "CTIRY DNY A DNES JSEM OPET"
+          },
+          {
+            "line_id": "302-M05",
+            "literal_offset_start": 0,
+            "literal_offset_end": 27,
+            "literal": "POPRVE V URADE. ZASLU DOPIS"
+          },
+          {
+            "line_id": "302-M06",
+            "literal_offset_start": 0,
+            "literal_offset_end": 34,
+            "literal": "CO NEJDRIVE A OZNAMIM JEJ LISTKEM."
+          },
+          {
+            "line_id": "302-M07",
+            "literal_offset_start": 0,
+            "literal_offset_end": 37,
+            "literal": "JAK DARI SE TOBE, MILENKO MOJE DRAHA?"
+          },
+          {
+            "line_id": "302-M08",
+            "literal_offset_start": 0,
+            "literal_offset_end": 40,
+            "literal": "KDY JEDEC DO ZIROVNICE? VRELE VZPOMINAM?"
+          },
+          {
+            "line_id": "302-S01",
+            "literal_offset_start": 0,
+            "literal_offset_end": 23,
+            "literal": "TISI ?ERO UPRIMNYCH PUS"
+          },
+          {
+            "line_id": "302-S02",
+            "literal_offset_start": 0,
+            "literal_offset_end": 25,
+            "literal": "A POZDRAVU OD VECNE TVEHO"
+          },
+          {
+            "line_id": "302-S03",
+            "literal_offset_start": 0,
+            "literal_offset_end": 8,
+            "literal": "PEPOUSE."
+          }
+        ]
+      }
+    ],
+    "unselected_paratext": [],
+    "limits": "Two related source-only AI layers with visible key and prior other-card context, then same-FIRST-actor nonblind curation. Fluent proposals and mechanical replay do not confirm glyph accuracy, identities, authorship, history, image meaning, itinerary or complete physical counts.",
+    "qa_context": {
+      "mechanical_errors": 0,
+      "schema_projection_exceptions": [
+        {
+          "reader": "blind301",
+          "category": "frozen_transcription_metadata_projection",
+          "span_count": 4,
+          "exact_spans": [
+            {
+              "line_id": "301-L04",
+              "offset": 15,
+              "length": 1,
+              "kind": "punctuation",
+              "text": "?"
+            },
+            {
+              "line_id": "301-L04",
+              "offset": 46,
+              "length": 1,
+              "kind": "punctuation",
+              "text": "?"
+            },
+            {
+              "line_id": "301-L05",
+              "offset": 5,
+              "length": 1,
+              "kind": "unknown_glyph",
+              "text": "?"
+            },
+            {
+              "line_id": "301-L05",
+              "offset": 36,
+              "length": 1,
+              "kind": "unknown_glyph",
+              "text": "?"
+            }
+          ],
+          "detail": "Raw uses supported kinds with offset/length, not directly accepted offset/text schema. Own strict artifact explicitly projects exact raw substring without changing text, offset or kind."
+        },
+        {
+          "reader": "blind302",
+          "category": "frozen_transcription_metadata_projection",
+          "span_count": 2,
+          "exact_spans": [
+            {
+              "line_id": "302-L07",
+              "offset": 36,
+              "length": 1,
+              "kind": "punctuation",
+              "text": "?"
+            },
+            {
+              "line_id": "302-L08",
+              "offset": 22,
+              "length": 1,
+              "kind": "punctuation",
+              "text": "?"
+            }
+          ],
+          "detail": "Raw uses supported kinds with offset/length, not directly accepted offset/text schema. Own strict artifact explicitly projects exact raw substring without changing text, offset or kind."
+        }
+      ],
+      "source_findings": [
+        {
+          "reader": "blind301",
+          "category": "frozen_mask_vs_written_question_classification_error",
+          "line_id": "301-L05",
+          "offset": 36,
+          "selected": "?",
+          "frozen_kind": "unknown_glyph",
+          "source_observation": "This terminal hooked form and separate lower dot were observed as written question punctuation by the same source reader; the row-wide mask condition wrongly classified it. The genuine stained mask is at offset 5.",
+          "effect": "Frozen own strict output retains two mask slots and two question entries, including one excess selected body and unknown. Any current correction requires exact-source verification, dated reconciliation and separate current replay; neither frozen layer changed."
+        },
+        {
+          "reader": "first302 and blind302",
+          "category": "open_mark_family_and_segmentation_scope",
+          "detail": "First302 M03 offset21 retains an unknown cluster under detached roof; blind302 L03 selects a marked-r/open-c/tall-h sequence with explicit body and roof attachment alternatives. Mechanical replay does not establish body family, physical length or ownership. Curator must compare contours before current selection."
+        }
+      ],
+      "relevant_card": "302",
+      "summary": "Zero mechanical errors, two preserved SECOND schema projection exceptions and two source findings; no zero-scope-exceptions or third-source-read claim. All three own-group timings passed; protected inputs unchanged.",
+      "review_sha256": "b3aebfdb46cac93d916556be4593fe81471e18d1970d1a9286f54eed8286fa65",
+      "raw_checkpoint_sha256": "d71912566b5dd9e7b73283a299a1016bb4ab9f154b0b18c67f575120aaed4419",
+      "replays_checkpoint_sha256": "4e4f6f23ec42b2276079e40ceec19ddc85b6a2b5297a476e658df5ed87124c5a"
+    },
+    "initial_reconciliation": {
+      "point": "Initial nonblind curation after target-reading exchange; the all-eight raw fingerprint checkpoint and all-eight strict replay checkpoint preceded that exchange.",
+      "at_utc": "2026-10-20T19:07:41.648718+00:00",
+      "curator_role": "assigned FIRST source-only actor for this card, now NONBLIND curator",
+      "disagreements": [
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L01",
+          "old_offset_start": 12,
+          "old_offset_end": 13,
+          "old_selected": "-",
+          "line_id": "302-M01",
+          "offset": 12,
+          "selected": "—",
+          "source_visual_basis": "Dash represented as em dash from visible horizontal stroke; ordinary spacing after comma is a transcription choice, with second compact grouping preserved separately.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L01",
+          "old_offset_start": 24,
+          "old_offset_end": 24,
+          "old_selected": "",
+          "line_id": "302-M01",
+          "offset": 24,
+          "selected": " ",
+          "source_visual_basis": "Dash represented as em dash from visible horizontal stroke; ordinary spacing after comma is a transcription choice, with second compact grouping preserved separately.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L03",
+          "old_offset_start": 4,
+          "old_offset_end": 5,
+          "old_selected": "g",
+          "line_id": "302-M03",
+          "offset": 4,
+          "selected": "q",
+          "source_visual_basis": "Narrow q inbc6mq3 selected over second g. Roofed base plus neighboring open curve may be one/ several bodies: retain first mask before tall h instead of forcing second marked-r/c/h sequence. Narrow q after ascending b provisionally selected over second g; gap/segmentation alternatives retained.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L03",
+          "old_offset_start": 21,
+          "old_offset_end": 23,
+          "old_selected": "řc",
+          "line_id": "302-M03",
+          "offset": 21,
+          "selected": "?",
+          "source_visual_basis": "Narrow q inbc6mq3 selected over second g. Roofed base plus neighboring open curve may be one/ several bodies: retain first mask before tall h instead of forcing second marked-r/c/h sequence. Narrow q after ascending b provisionally selected over second g; gap/segmentation alternatives retained.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L03",
+          "old_offset_start": 25,
+          "old_offset_end": 26,
+          "old_selected": " ",
+          "line_id": "302-M03",
+          "offset": 24,
+          "selected": "",
+          "source_visual_basis": "Narrow q inbc6mq3 selected over second g. Roofed base plus neighboring open curve may be one/ several bodies: retain first mask before tall h instead of forcing second marked-r/c/h sequence. Narrow q after ascending b provisionally selected over second g; gap/segmentation alternatives retained.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L03",
+          "old_offset_start": 27,
+          "old_offset_end": 28,
+          "old_selected": "g",
+          "line_id": "302-M03",
+          "offset": 25,
+          "selected": "q",
+          "source_visual_basis": "Narrow q inbc6mq3 selected over second g. Roofed base plus neighboring open curve may be one/ several bodies: retain first mask before tall h instead of forcing second marked-r/c/h sequence. Narrow q after ascending b provisionally selected over second g; gap/segmentation alternatives retained.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L04",
+          "old_offset_start": 0,
+          "old_offset_end": 1,
+          "old_selected": "c",
+          "line_id": "302-M04",
+          "offset": 0,
+          "selected": "s",
+          "source_visual_basis": "Initial short triangular/angular body provisionally s, not second open c; forked4 and tall h retained. Current CTIRY not made fluent in source.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L06",
+          "old_offset_start": 30,
+          "old_offset_end": 31,
+          "old_selected": "g",
+          "line_id": "302-M06",
+          "offset": 30,
+          "selected": "q",
+          "source_visual_basis": "Narrow returning q in 84cdq5n provisionally selected over second g; low m/n arches unresolved.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L07",
+          "old_offset_start": 2,
+          "old_offset_end": 3,
+          "old_selected": "g",
+          "line_id": "302-M07",
+          "offset": 2,
+          "selected": "q",
+          "source_visual_basis": "Narrow returning q in 76q and n485mq3 selected individually over second g; other low arches and h/r alternatives remain.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L07",
+          "old_offset_start": 23,
+          "old_offset_end": 24,
+          "old_selected": "g",
+          "line_id": "302-M07",
+          "offset": 23,
+          "selected": "q",
+          "source_visual_basis": "Narrow returning q in 76q and n485mq3 selected individually over second g; other low arches and h/r alternatives remain.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "302-M08",
+          "old_offset_start": 39,
+          "old_offset_end": 40,
+          "old_selected": ".",
+          "line_id": "302-M08",
+          "offset": 39,
+          "selected": "?",
+          "source_visual_basis": "Initial narrow returning q selected over second broad g. Terminal stroke after fgb3n4m6n is neither secure period nor secure forked4/simple1: retain an unknown mask with encoded-versus-punctuation status unresolved.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L08",
+          "old_offset_start": 0,
+          "old_offset_end": 1,
+          "old_selected": "g",
+          "line_id": "302-M08",
+          "offset": 0,
+          "selected": "q",
+          "source_visual_basis": "Initial narrow returning q selected over second broad g. Terminal stroke after fgb3n4m6n is neither secure period nor secure forked4/simple1: retain an unknown mask with encoded-versus-punctuation status unresolved.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-L08",
+          "old_offset_start": 39,
+          "old_offset_end": 40,
+          "old_selected": "4",
+          "line_id": "302-M08",
+          "offset": 39,
+          "selected": "?",
+          "source_visual_basis": "Initial narrow returning q selected over second broad g. Terminal stroke after fgb3n4m6n is neither secure period nor secure forked4/simple1: retain an unknown mask with encoded-versus-punctuation status unresolved.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "first",
+          "raw_line_id": "302-S01",
+          "old_offset_start": 4,
+          "old_offset_end": 4,
+          "old_selected": "",
+          "line_id": "302-S01",
+          "offset": 4,
+          "selected": " ",
+          "source_visual_basis": "Dark body at flower/stem overlap remains masked rather than second b. Wider gap after d4c4 retained; any word join is editorial. Roof over final short branch remains provisional.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-M01",
+          "old_offset_start": 5,
+          "old_offset_end": 6,
+          "old_selected": "b",
+          "line_id": "302-S01",
+          "offset": 5,
+          "selected": "?",
+          "source_visual_basis": "Dark body at flower/stem overlap remains masked rather than second b. Wider gap after d4c4 retained; any word join is editorial. Roof over final short branch remains provisional.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-M02",
+          "old_offset_start": 8,
+          "old_offset_end": 9,
+          "old_selected": " ",
+          "line_id": "302-S02",
+          "offset": 8,
+          "selected": "",
+          "source_visual_basis": "Interbody distance between6 and descending f comparable to neighboring ascender spacing, first joined b3gth6f2 provisionally retained with second gap alternative. Short angular s in f5sm5 selected over second c.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        },
+        {
+          "reader": "blind",
+          "raw_line_id": "302-M02",
+          "old_offset_start": 17,
+          "old_offset_end": 18,
+          "old_selected": "c",
+          "line_id": "302-S02",
+          "offset": 16,
+          "selected": "s",
+          "source_visual_basis": "Interbody distance between6 and descending f comparable to neighboring ascender spacing, first joined b3gth6f2 provisionally retained with second gap alternative. Short angular s in f5sm5 selected over second c.",
+          "linguistic_basis": "None for source classification; editorial repairs are separately bracketed."
+        }
+      ],
+      "raw_freeze_times": {
+        "first": "2026-10-20T18:50:07.670511+00:00",
+        "blind": "2026-10-20T18:50:05.383953+00:00"
+      },
+      "count_comparison": {
+        "first": {
+          "encoded_bodies": 249,
+          "expanded_letters": 248,
+          "ch_occurrences": 1,
+          "unknowns": 2
+        },
+        "blind": {
+          "encoded_bodies": 251,
+          "expanded_letters": 253,
+          "ch_occurrences": 2,
+          "rows": 11,
+          "unknowns": 0,
+          "unknown_encoded_slots": 0,
+          "preserved_numeral_spans": 0
+        },
+        "current": {
+          "rows": 11,
+          "encoded_bodies": 250,
+          "expanded_letters": 248,
+          "ch_occurrences": 1,
+          "unknowns": 3
+        }
+      },
+      "uncertainty_change": "Current retains roofed-cluster mask rather than SECOND marked-r/c/h solution, dark side-body mask with visible source gap, and adds terminal-stroke mask where FIRST period versus SECOND 4/1 remain unresolved. Narrow q/g, angular/open-curve and low-arch choices remain explicit. This is a partial candidate, not resolved by readable Czech.",
+      "current_written_questions": 2
+    },
+    "region_inventory": [
+      {
+        "region_id": "lower main",
+        "reading_frame": "native",
+        "reading_rotation_degrees_clockwise": 0,
+        "reading_dimensions": [
+          1785,
+          1175
+        ],
+        "reading_bbox_xyxy": [
+          825,
+          645,
+          1715,
+          1110
+        ],
+        "native_bbox_xyxy": [
+          825,
+          645,
+          1715,
+          1110
+        ],
+        "rows": [
+          "302-M01",
+          "302-M02",
+          "302-M03",
+          "302-M04",
+          "302-M05",
+          "302-M06",
+          "302-M07",
+          "302-M08"
+        ]
+      },
+      {
+        "region_id": "rotated side",
+        "reading_frame": "cw90",
+        "reading_rotation_degrees_clockwise": 90,
+        "reading_dimensions": [
+          1175,
+          1785
+        ],
+        "reading_bbox_xyxy": [
+          500,
+          1445,
+          1115,
+          1655
+        ],
+        "native_bbox_xyxy": [
+          1445,
+          60,
+          1655,
+          675
+        ],
+        "rows": [
+          "302-S01",
+          "302-S02",
+          "302-S03"
+        ]
+      }
+    ],
+    "region_order_evidence": "Eight main rows in native frame and three side rows in whole-source clockwise90 frame. Editions present main then side as a qualified spatial reading; no explicit connecting arrow was securely identified and narrative continuation/order is not independently proven.",
+    "excluded_source_regions": [
+      {
+        "region": "flower illustration, watermark and publishing texture",
+        "status": "Complete original face and all margins inspected. Printed/artwork overlap at side dark cluster is a source limit, not interpreted symbolism or an extra selected cipher region."
+      }
+    ],
+    "proposed_editorial_czech": "Zlato moje! — Promiň mi, že dosud neodeslal jsem Ti slíbené psánko. Ležel jsem s [chřipkou?; ?RIPKOU] [čtyři?; CTIRY] dny a dnes jsem opět poprvé v úřadě. Zašlu dopis co nejdříve a oznámím jej lístkem. Jak daří se Tobě, [MILENKO; neověřené oslovení] moje drahá? Kdy [jedeš?; JEDEC] do [ZIROVNICE; neověřený místní řetězec]? Vřele vzpomínám [nevyložený koncový tah; ?].\n\n[Tisícero?; TISI ?ERO] upřímných pus a pozdravů od věčně Tvého [PEPOUSE; neověřený podpis].",
+    "proposed_english_translation": "My precious! — Forgive me for not yet having sent you the promised little letter. I lay with [influenza?; ?RIPKOU] for [four?; CTIRY] days, and today I am back at the office for the first time. I will send a letter as soon as possible and announce it by a note. How are you doing, my dear [MILENKO; unverified address term]? When [are you going?; JEDEC] to [ZIROVNICE; unverified place-like string]? I remember warmly [terminal stroke unresolved; ?].\n\n[A thousand?; TISI ?ERO] sincere kisses and greetings from [PEPOUSE; unverified signature], forever yours.",
+    "editorial_coverage": [
+      {
+        "line_id": "302-M01",
+        "literal_offset_start": 0,
+        "literal_offset_end": 27,
+        "literal": "ZLATO MOJE! — PROMIN MI, ZE",
+        "czech_segments": [
+          "Zlato moje! — Promiň mi, že"
+        ],
+        "english_segments": [
+          "My precious! — Forgive me for"
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-M02",
+        "literal_offset_start": 0,
+        "literal_offset_end": 31,
+        "literal": "DOSUD NEODESLAL JSEM TI SLIBENE",
+        "czech_segments": [
+          "dosud neodeslal jsem Ti slíbené"
+        ],
+        "english_segments": [
+          "not yet having sent you the promised little letter."
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-M03",
+        "literal_offset_start": 0,
+        "literal_offset_end": 28,
+        "literal": "PSANKO. LEZEL JSEM S ?RIPKOU",
+        "czech_segments": [
+          "psánko. Ležel jsem s [chřipkou?; ?RIPKOU]"
+        ],
+        "english_segments": [
+          "little letter. I lay with [influenza?; ?RIPKOU]"
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-M04",
+        "literal_offset_start": 0,
+        "literal_offset_end": 26,
+        "literal": "CTIRY DNY A DNES JSEM OPET",
+        "czech_segments": [
+          "[čtyři?; CTIRY] dny a dnes jsem opět"
+        ],
+        "english_segments": [
+          "for [four?; CTIRY] days, and today I am back at the office for the first time."
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-M05",
+        "literal_offset_start": 0,
+        "literal_offset_end": 27,
+        "literal": "POPRVE V URADE. ZASLU DOPIS",
+        "czech_segments": [
+          "poprvé v úřadě. Zašlu dopis"
+        ],
+        "english_segments": [
+          "at the office for the first time. I will send a letter"
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-M06",
+        "literal_offset_start": 0,
+        "literal_offset_end": 34,
+        "literal": "CO NEJDRIVE A OZNAMIM JEJ LISTKEM.",
+        "czech_segments": [
+          "co nejdříve a oznámím jej lístkem."
+        ],
+        "english_segments": [
+          "as soon as possible and announce it by a note."
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-M07",
+        "literal_offset_start": 0,
+        "literal_offset_end": 37,
+        "literal": "JAK DARI SE TOBE, MILENKO MOJE DRAHA?",
+        "czech_segments": [
+          "Jak daří se Tobě, [MILENKO; neověřené oslovení] moje drahá?"
+        ],
+        "english_segments": [
+          "How are you doing, my dear [MILENKO; unverified address term]?"
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-M08",
+        "literal_offset_start": 0,
+        "literal_offset_end": 40,
+        "literal": "KDY JEDEC DO ZIROVNICE? VRELE VZPOMINAM?",
+        "czech_segments": [
+          "Kdy [jedeš?; JEDEC] do [ZIROVNICE; neověřený místní řetězec]? Vřele vzpomínám [nevyložený koncový tah; ?]."
+        ],
+        "english_segments": [
+          "When [are you going?; JEDEC] to [ZIROVNICE; unverified place-like string]? I remember warmly [terminal stroke unresolved; ?]."
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-S01",
+        "literal_offset_start": 0,
+        "literal_offset_end": 23,
+        "literal": "TISI ?ERO UPRIMNYCH PUS",
+        "czech_segments": [
+          "[Tisícero?; TISI ?ERO] upřímných pus"
+        ],
+        "english_segments": [
+          "[A thousand?; TISI ?ERO] sincere kisses"
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-S02",
+        "literal_offset_start": 0,
+        "literal_offset_end": 25,
+        "literal": "A POZDRAVU OD VECNE TVEHO",
+        "czech_segments": [
+          "a pozdravů od věčně Tvého"
+        ],
+        "english_segments": [
+          "and greetings from",
+          "forever yours"
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      },
+      {
+        "line_id": "302-S03",
+        "literal_offset_start": 0,
+        "literal_offset_end": 8,
+        "literal": "PEPOUSE.",
+        "czech_segments": [
+          "[PEPOUSE; neověřený podpis]."
+        ],
+        "english_segments": [
+          "[PEPOUSE; unverified signature]"
+        ],
+        "omission": false,
+        "scope": "Entire selected visual row. English ordinary syntax co-covers little letter across main rows 2/3 and back/first time/office across main rows 4/5. Side signature is moved next to from, with forever yours co-covering preceding possessive phrase. No missing clause or object supplied."
+      }
+    ],
+    "editorial_scope": "All 11 selected visual rows and every legible clause are covered in paired editions, without omission. Three current unresolved clusters include roof/curve segmentation, dark side body and terminal stroke. All repairs/gaps and literal address/place/signature fragments are paired and bracketed. Main/rotated-side order stays qualified; no person, location, itinerary, date or imagery authenticated.",
+    "encoded_bodies": 250,
+    "expanded_letters": 248,
+    "ch_occurrences": 1,
+    "unknowns": 3,
+    "validation": {
+      "check_card": "passed",
+      "report": {
+        "rows": 11,
+        "encoded_bodies": 250,
+        "expanded_letters": 248,
+        "ch_occurrences": 1,
+        "unknowns": 3
+      },
+      "canonical_raw_original_FILE_source_strict_key_decoder_fingerprints": "passed",
+      "frozen_raw_objects_and_wrapper_metadata": "unchanged",
+      "SECOND_exact_schema_projection_replay": "passed; two historical projection exceptions preserved, no native direct-compatibility claim",
+      "all_eight_raw_and_replay_checkpoint_identity": "passed",
+      "current_source_mark_segmentation_transcription_spans": "passed",
+      "editorial_restoration_fragment_gap_layout_spans": "passed",
+      "paired_every_row_coverage": "passed",
+      "context_geometry_bounds_transforms": "passed",
+      "catalogue_source_binding": "passed",
+      "privacy": "No private filesystem paths, scans, addresses, PDF/email or full API payloads embedded.",
+      "qa_limits": "Zero mechanical errors, two schema exceptions and two source findings integrated. Current correction and unresolved source scope remain separate from historical frozen replay."
+    }
+  }
+}

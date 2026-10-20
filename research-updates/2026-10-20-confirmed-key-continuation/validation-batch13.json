@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Thirteenth source batch; four new candidates after parent merged PR34",
+  "base_commit": "01dabc567bf8fed3bacb1d04c311900593867326",
+  "preparation_base_commit": "3f7f306bc910f93104f27ad0c68f419e8af219ba",
+  "base_relation": "Fresh worktree prepared from reviewed PR34 head and fast-forwarded to its merge on main before assembly. All 49 prior candidates/revisions/history remain byte-exact, including full paired editions 249/257 and 267/269. Key, decoder, checker and anchor unchanged.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302
+  ],
+  "new_card_ids": [
+    299,
+    300,
+    301,
+    302
+  ],
+  "selected_totals": {
+    "rows": 602,
+    "encoded_bodies": 16671,
+    "expanded_letters": 16653,
+    "ch_occurrences": 137,
+    "unknowns": 155
+  },
+  "new_selected_totals": {
+    "rows": 30,
+    "encoded_bodies": 842,
+    "expanded_letters": 843,
+    "ch_occurrences": 5,
+    "unknowns": 4
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 7,
+  "new_source_work": "Two frozen related AI source-only readings per card, key visible and prior other-card context disclosed. Parent FIRST 299/300 originals are entire parsed JSON documents; canonical entire-document digests and original FILE hashes are separate. Original parent actors performed no decode. Later QA executions by source SECOND 301/302 actor at 2026-10-20T18:53:52.283127/284532+00:00 are attributed to actual executor/time. Own SECOND 299/300 and FIRST 301/302/SECOND 301/302 groups each froze both inputs before own replay. Raw8 checkpoint preceded QA exposure; replay 8 checkpoint preceded nonblind curator exchange. Curators SECOND 299/300 and FIRST 301/302. Slots are not chronology; no third source-only, human or external confirmation.",
+  "address_faces_checked": 53,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "Parent FIRST 299/300 historical receipt raw_sha256 is FILE-scoped; public provenance distinguishes whole-document canonical digest and original saved FILE digest. Original JSON documents unchanged; private absolute receipt raw_file values excluded from public metadata.",
+    "Parent FIRST 299/300 had no own decoder stage. Separate later QA executions identify actual executor, time, source/raw/key/decoder fingerprints.",
+    "Frozen SECOND 301/302 tags use offset/length; their own strict outputs explicitly project exact source substrings into offset/text without changing glyphs, offsets or kinds. Both frozen schema exceptions are retained.",
+    "Frozen SECOND 301 L05 offset36 was incorrectly tagged as unknown_glyph rather than written question punctuation. Original raw and own strict counts remain historical; source-verified current category and replay are separately ledgered.",
+    "Queue303/304 records private parent FIRST preparation only; no future transcript, plaintext, count or candidate artifact published."
+  ],
+  "unresolved": {
+    "299": "Source word divisions, contour alternatives and unresolved referential form retained in paired editions; date unverified. Zero masks does not establish segmentation or glyph accuracy.",
+    "300": "Two bottom handwritten rows separate from printed poem and other print. Contour alternatives remain; date and name-like ending unverified.",
+    "301": "Stained cluster and glyph alternatives retained. Frozen SECOND mask-versus-question error remains preserved historically; current source-based punctuation correction separately recorded. Distinct upper/lower blocks and printed poem remain qualified.",
+    "302": "Main and rotated margin frames remain explicit; detached-roof/body-family/segmentation alternatives persist. Physical cluster lengths and date unauthenticated."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 53
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 628
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS; no findings",
+    "limits": "Research-package consistency only; no external confirmation or new source-only read."
+  },
+  "next_priority_not_started": [
+    305,
+    306
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 628,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  },
+  "raw_consistency_scope": {
+    "result": "PASS under disclosed strict metadata adapters: zero mechanical errors; two frozen schema exceptions and two source findings retained. Protected inputs unchanged.",
+    "readings": 8,
+    "rows": 60,
+    "transcription_spans": 21,
+    "exact_descriptive_spans_checked": 160,
+    "descriptive_entries_without_selected_offset_pair": 2,
+    "geometry_records_checked": 93,
+    "unknown_clusters": 5,
+    "actual_question_entries": 13,
+    "separate_date_entries": 8,
+    "all_three_own_group_chronologies_pass": true,
+    "parent_first_no_own_decode": true,
+    "schema_exceptions": [
+      "SECOND 301 offset/length to exact offset/text projection",
+      "SECOND 302 offset/length to exact offset/text projection"
+    ],
+    "source_findings": [
+      "Frozen SECOND 301 written question misclassified as mask; current correction separately source-verified",
+      "302 detached-roof family and segmentation remain disputed"
+    ],
+    "limits": "Counts describe original frozen layers, including the preserved classification mistake. Two descriptions lack exact selected/offset pairs and are distinguished from exact-span checks. Context boxes do not establish glyph/mark ownership. Physical totals null; replay does not confirm ink."
+  },
+  "next_source_pipeline": {
+    "priority": [
+      303,
+      304,
+      305,
+      306
+    ],
+    "in_progress": [
+      303,
+      304
+    ],
+    "parent_reserved_first_source_only": [
+      303,
+      304
+    ],
+    "continuation_readings_not_started": [
+      "SECOND 303",
+      "SECOND 304",
+      "FIRST and SECOND 305",
+      "FIRST and SECOND 306"
+    ],
+    "state": "Parent reports immutable FIRST 303/304, no own decode. Original documents/receipts remain unopened here pending cold SECOND own-group freezes and full next-batch checkpoint; private continuation after draft ready handoff."
+  },
+  "chronology_scope": "Root accessed parent FIRST 299/300 schema/hash only after the corresponding cold SECOND group and all own301/302 raw/strict outputs froze. Original raw 8 checkpoint preceded QA target exposure. Later parent 2 strict executions were checkpointed with the six own outputs before curator exchange. Own groups froze before own replay; parent actors had no own replay. Times/attestations do not prove cryptographic time or cognitive independence."
+}
