@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-20",
+  "checkpoint": "Eleventh source batch; four new candidates after parent merged PR32",
+  "base_commit": "3a0403d04dd98182fc9e9dc0526fc9926c918a7f",
+  "preparation_base_commit": "e707f0927dd7a34df86d142a9e1b4570519f53d5",
+  "base_relation": "Fresh worktree prepared from reviewed PR32 head and fast-forwarded to its merge on main before assembly. All 41 prior candidates/revisions/history remain byte-exact, including full paired editions 249/257 and 267/269. Key, decoder, checker and anchor unchanged.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294
+  ],
+  "new_card_ids": [
+    291,
+    292,
+    293,
+    294
+  ],
+  "selected_totals": {
+    "rows": 551,
+    "encoded_bodies": 15383,
+    "expanded_letters": 15365,
+    "ch_occurrences": 131,
+    "unknowns": 149
+  },
+  "new_selected_totals": {
+    "rows": 19,
+    "encoded_bodies": 724,
+    "expanded_letters": 726,
+    "ch_occurrences": 7,
+    "unknowns": 5
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 2,
+  "new_source_work": "Two frozen related AI source-only readings per card, key visible and prior other-card context disclosed. First/second are assigned slots, not chronological freeze order; some second-slot raws froze before their first-slot counterparts. Each actor froze every input in its own assigned group before its own deterministic replay. All eight raw/file/source digests and separate strict outputs were checked before nonblind curator exchange. Curators assigned second 291/292 and first 293/294. Both slots performed their own replay; no parent-first or later-QA-executor substitution applies to this batch. No third source-only reading, human or external confirmation claimed.",
+  "address_faces_checked": 45,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "Current 291 uses primary SSJČ poshověti language context; the literal POSHOV and following faded cluster remain unchanged.",
+    "Current 292 has a dated postinitial primary SSJČ nesčíslný/nesčíslně note supporting a qualified immeasurably-long gloss; NESCISLNE, counters and initial snapshot unchanged. Its separate boxed cross/mark remains of unresolved function and encoded status and is excluded from selected replay.",
+    "Current 293/294 group paired prose by source region in dated postinitial notes; all original selected rows and immutable snapshots retained. Current 293 ledger records HODNEJ-/SIM and OVENCI TI layout joins without inserting letters.",
+    "Current 291/292 initial_reconciliation.point now states that nonblind curation followed target-reading exchange; the all-eight checkpoint and separate outputs preceded exchange. Dated errata retain the ambiguous original point wording; immutable initial snapshots, raw inputs, selected lines and editions are unchanged."
+  ],
+  "unresolved": {
+    "291": "Five rows and four unknown display masks. Proposed word divisions and repairs are bracketed in both languages; address, name and signature are unverified literal fragments. Separate date remains unverified.",
+    "292": "Four rows and one signature mask, one actual written question. Separate boxed cross/mark excluded from selected replay with unresolved role. TIK, LI and NESCISLNE have paired qualified proposals; address term and signature remain literal fragments. Separate date unverified.",
+    "293": "Six rows in upper and lower regions; zero masks leaves g/q, arch, stem and segmentation alternatives. Lower ZEK repair qualified in both languages. One actual written question; date unverified.",
+    "294": "Four rows; zero masks leaves contour alternatives. PELEHO, SVAM and TECIM repairs qualified in both languages; strict strings unchanged. Separate date unverified."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 45
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 602
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS; no remaining findings after narrowly scoped metadata clarification",
+    "limits": "Research-package consistency only; no external confirmation or new source-only read.",
+    "followup": "Current 291/292 chronology wording re-reviewed; only point and dated errata changed. Immutable snapshots and selected lines unchanged."
+  },
+  "next_priority_not_started": [
+    295,
+    296,
+    297,
+    298
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 602,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  },
+  "raw_consistency_scope": {
+    "result": "PASS: zero mechanical errors and zero scope exceptions; protected inputs unchanged.",
+    "readings": 8,
+    "rows": 38,
+    "transcription_spans": 20,
+    "descriptive_selected_spans_checked": 105,
+    "geometry_records_checked": 60,
+    "unknown_clusters": 9,
+    "actual_question_entries": 4,
+    "separate_date_entries": 8,
+    "all_own_reader_group_chronologies_pass": true,
+    "limits": "Exact spans and contextual coordinate transforms were checked; context boxes do not establish glyph/mark ownership. Physical totals remain null. Mechanical consistency does not confirm ink readings."
+  },
+  "next_source_pipeline": {
+    "priority": [
+      295,
+      296,
+      297,
+      298
+    ],
+    "in_progress": [],
+    "state": "Not acquired or source-read at this checkpoint; authorized for private continuation only after this draft PR ready handoff."
+  },
+  "chronology_scope": "Assigned first/second slots are not temporal ordering. B froze first 291/292 and second 293/294 as one own-input group; A froze second 291/292; C froze first 293/294. Every group froze before its own replay. All eight immutable fingerprints and separate replay outputs were verified before curator exchange. Reported attestations/tool sequence do not establish cryptographic time or cognitive independence."
+}
