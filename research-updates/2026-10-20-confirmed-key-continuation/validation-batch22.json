@@ -12244,5 +12244,22 @@
       "status": "passed",
       "files_checked": 745
     }
+  },
+  "publication_review_addendum": {
+    "reviewed_at_utc": "2026-10-21T02:59:58.580652+00:00",
+    "reviewed_parent_head": "f3c6e55689ab1d4f4defbc1f7827cb88f37c2b32",
+    "finding": {
+      "paths": [
+        "research-updates/2026-10-20-confirmed-key-continuation/cards/335.md",
+        "research-updates/2026-10-20-confirmed-key-continuation/cards/336.md"
+      ],
+      "wording": "No public assembly or snapshots performed.",
+      "issue": "Unscoped publication wording contradicts the adjacent statement that the initial reconciliation snapshot was created."
+    },
+    "resolution": {
+      "scope": "Current Markdown sentence only; historical scope clarified.",
+      "wording": "At the initial snapshot, public package assembly and package checks had not run; later results are recorded in the batch validation.",
+      "frozen_evidence_untouched": true
+    }
   }
 }
