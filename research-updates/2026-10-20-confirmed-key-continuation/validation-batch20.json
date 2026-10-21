@@ -1,0 +1,2992 @@
+{
+  "date": "2026-10-21",
+  "checkpoint": "Twentieth source batch; four new canonical candidates after the merged 77-candidate checkpoint",
+  "base_commit": "6ac00a9e89b99b90fcd73af0f2802db719883c17",
+  "preparation_base_commit": "99cb88c0b30d1210e0b45e41b3220eca4c8c53b2",
+  "base_relation": "Fresh worktree prepared from reviewed 77-candidate head and fast-forwarded to its same-tree main merge. All 77 prior cards, revisions, history and validations remain byte-exact, including full paired editions 249/257 and 267/269, dated 303/304/306 addenda, all 307–310 artifacts and frozen 311 errors/current corrections, plus dated 312 editorial brackets. Key, decoder, checker, anchor, catalogue and source inventory unchanged.",
+  "public_card_ids": [
+    242,
+    244,
+    249,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330
+  ],
+  "new_card_ids": [
+    327,
+    328,
+    329,
+    330
+  ],
+  "selected_totals": {
+    "rows": 836,
+    "encoded_bodies": 23018,
+    "expanded_letters": 22890,
+    "ch_occurrences": 175,
+    "unknowns": 303
+  },
+  "new_selected_totals": {
+    "rows": 34,
+    "encoded_bodies": 1120,
+    "expanded_letters": 1051,
+    "ch_occurrences": 9,
+    "unknowns": 78
+  },
+  "count_semantics": "Selected replay slots and known emitted letters, not exact physical glyph totals. Masks may span unknown physical lengths. Ordinary numeral spans are outside encoded/unknown counters; actual question punctuation is tagged separately. Dates are noncipher metadata.",
+  "new_preserved_numeral_spans": 0,
+  "new_actual_question_punctuation": 6,
+  "new_source_work": "Four fresh fork-none source actors with actual target-exposure attestations before imagery. All legacy 327–330 target text, including six-card 329 and experimental330, withheld until raw8/own8/two-root-checkpoint exchange barrier. Model pretraining remains unauditable; key visible, no cognitive/human/external independence claim. Paired preflight/freeze/replay transaction required; actual records derive from final QA. Canonical raw-object hashes exclude wrappers; FILE hashes cover complete wrappers. Minimal wrapper identity envelopes are deliberate and distinct from original metadata. Public strict privacy projections follow only exact root-declared header omissions; no silent adapter.",
+  "address_faces_checked": 81,
+  "additional_address_cipher_observed": false,
+  "metadata_corrections": [
+    "New dated canonical 327–330 candidates remain separate from legacy37 reports, original six-card329 article/saved literal and old experimental330 code/data. All those artifacts and historical counters remain unchanged.",
+    "Child acquisition was one initial327 picture GET HTTP466; remaining seven child face attempts were not made. Parent made seven successful ordinary GET recoveries and reused existing329 picture, SHA6627d9a804391756803089c3094e808d00e70b9f1a44c34a26b2cef9c90c90cf. No new329 picture GET or invented acquisition date; public assembly no additional GET.",
+    "Original thin source329 metadata {url,sha256,bytes,native_size} remains whole; wrapper dimensions derive from native_size. Other metadata derives dimensions from width/height; root proof separately binds validated catalogue URLs/dimensions without rewriting originals.",
+    "Actual finalQA source-tag/mask/question/unassigned/locator/timing/documentation categories remain separate. Full source findings are preserved; no prior batch19 locator defect is copied as a current finding.",
+    "Eleven source-content locator defects remain frozen; dated current-only mappings may reference alternate-only 330 marks absent from current selection. Broad row bounds remain context, not precise ink repairs. No original raw, glyph, tag or strict execution is corrected.",
+    "Two frozen empty SECOND 327/328 mark ledgers affect five retained ř positions. Preserve the original documentation deficiency separately from later dated current documentation; no retrospective completeness PASS.",
+    "Frozen unknown counters include nine masks, 82 combining-accent codepoints, 38 precomposed-accent codepoints and 13 other unassigned-sourceglyph codepoints. These 142 entries are not 142 physical bodies; no normalization or new key is inferred.",
+    "Public-only FIRST 329/330 strict projections each omit exactly two group_barrier/paired_inputs path fields. All original private strict files and other fields remain unchanged, with explicit omission provenance; no silent row adapter.",
+    "Nine bounded date/context reading entries include eight handwritten candidates/contexts and one separately excluded printed date-like context; not a physical-date count or invented acquisition timestamp.",
+    "Address327 pink/red marks and329 grey hatches remain unclassified, with role/material/authorship/cipher/numeral values unestablished. No continuous encoded message group identified; earlier310/320/321 qualifications unchanged.",
+    "Only queue327–330 records change;259 others and77 earlier address objects remain exact. Next331–334 priority only, not started here; no new source-stage claim."
+  ],
+  "unresolved": {
+    "327": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified.",
+    "328": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified.",
+    "329": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified.",
+    "330": "Source and editorial alternatives remain qualified in paired editions and ledgers. Physical totals remain null where unresolved; dates unverified."
+  },
+  "checks": [
+    {
+      "command": "python3 -B research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "result": "PASS",
+      "cards": 81,
+      "anchor": 204
+    },
+    {
+      "command": "python3 -B -m unittest -v test_decode",
+      "result": "PASS",
+      "tests": 24
+    },
+    {
+      "command": "python3 -B -m unittest discover -s verification/tests -v",
+      "result": "PASS",
+      "tests": 100
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "result": "PASS",
+      "files_checked": 719
+    }
+  ],
+  "review": {
+    "model": "gpt-6.1-sol",
+    "role": "Independent read-only reviewer",
+    "status": "PASS",
+    "limits": "Research-package consistency and preservation review; no external confirmation or new source-only reading. Every visual source-content decision was not independently repeated.",
+    "reviewed_at_utc": "2026-10-21T00:08:17.018968+00:00",
+    "reviewed_index_tree": "b1eed71462eef5c236180ab7f4e3b5c0a8d3681c",
+    "private_review_receipt_sha256": "aa89a16753325a5804c997e273767ea16b83adb36beaa03c75bc5a17abcc4601",
+    "findings": "No confirmed or unconfirmed findings. Root finalized only review/check bookkeeping and corresponding manifest hash after the reviewed tree."
+  },
+  "next_priority_not_started": [
+    331,
+    332,
+    333,
+    334
+  ],
+  "privacy": "Only derived text/code/metadata. No scans, PDF, email, ordinary address text, full API response or private paths in Git.",
+  "manifest_expected_entries": 719,
+  "public_460_reference": {
+    "url": "https://ai.hcportal.eu/register/docs/HCPortal_460_report.pdf",
+    "catalogue_record_id": 1779,
+    "record_link_json_pointer": "/data/datagroups/1/data/0/link",
+    "sha256": "59f084521c50616086ac36b22e4820553a340801b63dcd6debcb85f97324fc62",
+    "pages": 4,
+    "key_page_visually_inspected": 3,
+    "reported_session_date": "2026-10-19",
+    "scope": "Public AI-assisted 460 comparison: 21 ordinary assignments using 9→Z and g→K; marked-r CH is a single-occurrence hypothesis. Distinct notation; key unchanged. The report is not public confirmation of 204 or new candidates.",
+    "access": "Reused normally acquired public report; saved bytes hashed and key page visually inspected. No PDF bytes added to Git."
+  },
+  "raw_consistency_scope": {
+    "result": "Mechanical replay and protected-input identities checked separately from source-tag defects; exact frozen QA inventories and findings follow.",
+    "qa_file_sha256": "c1a53acfc9b520c03dda658993ee5d5832de8d2edc6542410e7b0ce5b41bd84c",
+    "summary": {
+      "readings": 8,
+      "rows": 68,
+      "encoded_bodies": 2239,
+      "expanded_letters": 2115,
+      "ch_occurrences": 18,
+      "unknowns": 142,
+      "transcription_spans": 21,
+      "displayed_question_characters": 21,
+      "displayed_question_masks": 9,
+      "unknown_glyph_spans": 9,
+      "unassigned_symbol_slots": 133,
+      "all_unknown_encoded_slots": 142,
+      "frozen_punctuation_tag_entries": 12,
+      "all_frozen_punctuation_spans": 12,
+      "ordinary_numeral_spans": 0,
+      "source_written_question_entries": 12,
+      "paired_geometry_records": 297,
+      "exact_descriptive_spans": 247,
+      "separate_date_entries": 9,
+      "source_tag_defect_count": 0,
+      "frozen_locator_defect_count": 11,
+      "protocol_timing_exception_count": 0,
+      "strict_replay_error_count": 0,
+      "frozen_span_error_count": 0,
+      "frozen_geometry_arithmetic_error_count": 0,
+      "mechanical_error_count": 0,
+      "schema_exception_count": 0,
+      "scope_finding_count": 9,
+      "documentation_limitation_count": 2,
+      "documentation_affected_positions": 5,
+      "all_group_barriers_pass": true,
+      "all_paired_question_preflight_barriers_pass": true,
+      "protected_inputs_unchanged": true,
+      "protected_file_count": 42
+    },
+    "schema_exceptions": [],
+    "source_findings": [
+      {
+        "kind": "bounded_accent_source_variants",
+        "detail": "329/330 preserve original precomposed and combining accent codepoints literally. Exact decoder counts unknown codepoints, not physical glyph bodies; no Unicode normalization, accent stripping, generic roof rule or new key.",
+        "typed_unassigned_categories": [
+          {
+            "reading": "first327",
+            "categories": {
+              "masked_unknown_span": 3
+            },
+            "symbols": {
+              "?": 3
+            }
+          },
+          {
+            "reading": "blind327",
+            "categories": {},
+            "symbols": {}
+          },
+          {
+            "reading": "first328",
+            "categories": {
+              "masked_unknown_span": 4
+            },
+            "symbols": {
+              "?": 4
+            }
+          },
+          {
+            "reading": "blind328",
+            "categories": {
+              "masked_unknown_span": 2
+            },
+            "symbols": {
+              "?": 2
+            }
+          },
+          {
+            "reading": "first329",
+            "categories": {
+              "precomposed_accent_codepoint": 16,
+              "combining_accent_codepoint": 42,
+              "unassigned_sourceglyph_codepoint": 2
+            },
+            "symbols": {
+              "ś": 7,
+              "ĩ": 4,
+              "̌": 32,
+              "ć": 5,
+              "́": 10,
+              "=": 1,
+              "v": 1
+            }
+          },
+          {
+            "reading": "blind329",
+            "categories": {
+              "precomposed_accent_codepoint": 13,
+              "combining_accent_codepoint": 37,
+              "unassigned_sourceglyph_codepoint": 2
+            },
+            "symbols": {
+              "ś": 4,
+              "̌": 35,
+              "ć": 4,
+              "ǵ": 3,
+              "=": 1,
+              "́": 2,
+              "ǧ": 2,
+              "v": 1
+            }
+          },
+          {
+            "reading": "first330",
+            "categories": {
+              "precomposed_accent_codepoint": 8,
+              "unassigned_sourceglyph_codepoint": 4
+            },
+            "symbols": {
+              "ś": 5,
+              "0": 4,
+              "ā": 3
+            }
+          },
+          {
+            "reading": "blind330",
+            "categories": {
+              "unassigned_sourceglyph_codepoint": 5,
+              "precomposed_accent_codepoint": 1,
+              "combining_accent_codepoint": 3
+            },
+            "symbols": {
+              "0": 1,
+              "o": 3,
+              "v": 1,
+              "ď": 1,
+              "̌": 3
+            }
+          }
+        ],
+        "aggregate_categories": {
+          "masked_unknown_span": 9,
+          "precomposed_accent_codepoint": 38,
+          "combining_accent_codepoint": 82,
+          "unassigned_sourceglyph_codepoint": 13
+        },
+        "definition": "Decoder unknown ledger entries excluding numeral entries. Combining accent codepoint means Unicode category M; precomposed accent codepoint means decomposition-bearing unassigned codepoint; other unassigned sourceglyph codepoint includes o,v,0 and symbol-category equals. Masks are separately tagged unresolved spans, physical cluster length unknown."
+      },
+      {
+        "kind": "bounded_monogram_variant",
+        "detail": "328 FIRST retains terminal ornate monogram as unknown mask; SECOND excludes it with provisional signature role. Source judgment remains bounded; no definitive authorship/cipher assignment."
+      },
+      {
+        "kind": "broad_context_limits",
+        "detail": "FIRST mark ledgers expressly use broad whole-row context; these pass arithmetic and selected-span checks without certifying individual ink ownership. SECOND329 mostly local marked-body boxes were inspected; tiny modifier attachment remains provisional. SECOND330 intended-position mismatches are separately listed."
+      },
+      {
+        "kind": "question_context_coverage_limit",
+        "detail": "SECOND327 b3 question box contains intended question/dot but trims upper curl; intended-location support is bounded and complete-ink coverage is not certified."
+      },
+      {
+        "kind": "minimal_metadata_identity_envelopes",
+        "detail": "All raw source wrappers intentionally normalize url/hash/native_dimensions. Original329 metadata remains thin with native_size and no acquisition timestamp; catalogue binding comes from root byte proofs. No schema exception or invented GET/date."
+      },
+      {
+        "kind": "private_header_projection",
+        "detail": "All16 private raw/strict JSON values scanned for local-path strings. Four absolute private path values appear only in FIRST329/FIRST330 strict paired_inputs path fields. Root-authorized later public-only explicit projection may omit these four exact pointers; frozen originals and private QA hashes preserve every field.",
+        "private_path_entries": [
+          {
+            "file": "first329-literal.json",
+            "path": "/group_barrier/paired_inputs/0/path",
+            "classification": "private absolute path value"
+          },
+          {
+            "file": "first329-literal.json",
+            "path": "/group_barrier/paired_inputs/1/path",
+            "classification": "private absolute path value"
+          },
+          {
+            "file": "first330-literal.json",
+            "path": "/group_barrier/paired_inputs/0/path",
+            "classification": "private absolute path value"
+          },
+          {
+            "file": "first330-literal.json",
+            "path": "/group_barrier/paired_inputs/1/path",
+            "classification": "private absolute path value"
+          }
+        ]
+      },
+      {
+        "kind": "acquisition_scope",
+        "detail": "Child attempted initial327 picture GET466 only; seven child faces unattempted. Parent recovery performed seven GET200 and reused existing329 picture without GET or invented acquisition timestamp. Initial failure proof unchanged."
+      },
+      {
+        "kind": "source_context_and_independence",
+        "detail": "QA reviewer is original SECOND327/328 source actor, now explicitly NONBLIND after release/CP1/CP2; no new fresh/cognitive independence claim. All8 source actors have exposure attestations; assigned FIRST/SECOND roles are not chronology claims. Legacy target plaintext was not opened by this reviewer."
+      },
+      {
+        "kind": "frozen_documentation_omission",
+        "detail": "Two empty SECOND327/328 mark ledgers cover five selected ř positions. They remain frozen deficiencies, separately recorded under documentation_limitations, not silently certified complete."
+      }
+    ],
+    "source_tag_defects": [],
+    "documentation_limitations": [
+      {
+        "reading": "blind327",
+        "kind": "frozen_empty_mark_ledger",
+        "classification": "documentation limitation distinct from native tag/schema/strict replay errors",
+        "frozen_mark_ledger_is_empty": true,
+        "affected_positions": [
+          {
+            "line_id": "b4",
+            "offset": 6,
+            "selected": "ř",
+            "source_context_row_native_bbox_xyxy": [
+              1410,
+              1060,
+              1625,
+              1102
+            ],
+            "proposed_reading_rotation_degrees_clockwise": 0,
+            "proposed_reading_bbox_xyxy": [
+              1552,
+              1060,
+              1586,
+              1098
+            ],
+            "proposed_native_bbox_xyxy": [
+              1552,
+              1060,
+              1586,
+              1098
+            ],
+            "source_reason": "Individually visible r-like baseline body with separate small v-shaped upper mark; context contains intended marked body, association bounded; no universal roof-to-CH or new-key rule."
+          },
+          {
+            "line_id": "r1",
+            "offset": 9,
+            "selected": "ř",
+            "source_context_row_native_bbox_xyxy": [
+              1620,
+              67,
+              1666,
+              1035
+            ],
+            "proposed_reading_rotation_degrees_clockwise": 90,
+            "proposed_reading_bbox_xyxy": [
+              390,
+              1627,
+              418,
+              1666
+            ],
+            "proposed_native_bbox_xyxy": [
+              1627,
+              757,
+              1666,
+              785
+            ],
+            "source_reason": "Individually visible r-like baseline body with separate small v-shaped upper mark; context contains intended marked body, association bounded; no universal roof-to-CH or new-key rule."
+          }
+        ],
+        "proposed_current_only_documentation_date": "2026-10-21",
+        "proposal_status": "Source-checked later dated proposal only; not inserted into frozen raw or strict and no retrospective completeness PASS.",
+        "source_check_artifact": "qa20-mark-proposals.png",
+        "incident_notice_file_sha256": "26051d1632151e9513bfe8c61a5543b52c6f73d8111c6f5e5d9cd5c11f3d7d72"
+      },
+      {
+        "reading": "blind328",
+        "kind": "frozen_empty_mark_ledger",
+        "classification": "documentation limitation distinct from native tag/schema/strict replay errors",
+        "frozen_mark_ledger_is_empty": true,
+        "affected_positions": [
+          {
+            "line_id": "l9",
+            "offset": 6,
+            "selected": "ř",
+            "source_context_row_native_bbox_xyxy": [
+              83,
+              991,
+              674,
+              1054
+            ],
+            "proposed_reading_rotation_degrees_clockwise": 0,
+            "proposed_reading_bbox_xyxy": [
+              255,
+              992,
+              291,
+              1045
+            ],
+            "proposed_native_bbox_xyxy": [
+              255,
+              992,
+              291,
+              1045
+            ],
+            "source_reason": "Individually visible r-like baseline body with separate small v-shaped upper mark; context contains intended marked body, association bounded; no universal roof-to-CH or new-key rule."
+          },
+          {
+            "line_id": "l10",
+            "offset": 20,
+            "selected": "ř",
+            "source_context_row_native_bbox_xyxy": [
+              83,
+              1043,
+              664,
+              1104
+            ],
+            "proposed_reading_rotation_degrees_clockwise": 0,
+            "proposed_reading_bbox_xyxy": [
+              602,
+              1038,
+              632,
+              1092
+            ],
+            "proposed_native_bbox_xyxy": [
+              602,
+              1038,
+              632,
+              1092
+            ],
+            "source_reason": "Individually visible r-like baseline body with separate small v-shaped upper mark; context contains intended marked body, association bounded; no universal roof-to-CH or new-key rule."
+          },
+          {
+            "line_id": "l11",
+            "offset": 0,
+            "selected": "ř",
+            "source_context_row_native_bbox_xyxy": [
+              80,
+              1080,
+              666,
+              1136
+            ],
+            "proposed_reading_rotation_degrees_clockwise": 0,
+            "proposed_reading_bbox_xyxy": [
+              79,
+              1076,
+              111,
+              1137
+            ],
+            "proposed_native_bbox_xyxy": [
+              79,
+              1076,
+              111,
+              1137
+            ],
+            "source_reason": "Individually visible r-like baseline body with separate small v-shaped upper mark; context contains intended marked body, association bounded; no universal roof-to-CH or new-key rule."
+          }
+        ],
+        "proposed_current_only_documentation_date": "2026-10-21",
+        "proposal_status": "Source-checked later dated proposal only; not inserted into frozen raw or strict and no retrospective completeness PASS.",
+        "source_check_artifact": "qa20-mark-proposals.png",
+        "incident_notice_file_sha256": "26051d1632151e9513bfe8c61a5543b52c6f73d8111c6f5e5d9cd5c11f3d7d72"
+      }
+    ],
+    "unknown_category_counts": {
+      "masked_unknown_span": 9,
+      "precomposed_accent_codepoint": 38,
+      "combining_accent_codepoint": 82,
+      "unassigned_sourceglyph_codepoint": 13
+    },
+    "unknown_typed_inventory": [
+      {
+        "reading": "first327",
+        "line_id": "r4",
+        "offset": 3,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "first327",
+        "line_id": "r6",
+        "offset": 36,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "first327",
+        "line_id": "r6",
+        "offset": 47,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "first328",
+        "line_id": "r3",
+        "offset": 31,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "first328",
+        "line_id": "r5",
+        "offset": 4,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "first328",
+        "line_id": "r7",
+        "offset": 22,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "first328",
+        "line_id": "r11",
+        "offset": 25,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "blind328",
+        "line_id": "l2",
+        "offset": 13,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "blind328",
+        "line_id": "l7",
+        "offset": 22,
+        "symbol": "?",
+        "kind": "unknown_glyph",
+        "category": "masked_unknown_span",
+        "unicode_name": "QUESTION MARK"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.1",
+        "offset": 4,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.1",
+        "offset": 6,
+        "symbol": "ĩ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER I WITH TILDE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.1",
+        "offset": 10,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.1",
+        "offset": 25,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.1",
+        "offset": 29,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.1",
+        "offset": 40,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.2",
+        "offset": 5,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.2",
+        "offset": 13,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.2",
+        "offset": 32,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.3",
+        "offset": 4,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.3",
+        "offset": 11,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.3",
+        "offset": 13,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.3",
+        "offset": 19,
+        "symbol": "ĩ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER I WITH TILDE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.3",
+        "offset": 36,
+        "symbol": "=",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "EQUALS SIGN"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 0,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 2,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 9,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 18,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 19,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 21,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 27,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.4",
+        "offset": 34,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.5",
+        "offset": 2,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.5",
+        "offset": 13,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.5",
+        "offset": 17,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.6",
+        "offset": 2,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.6",
+        "offset": 12,
+        "symbol": "ĩ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER I WITH TILDE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.6",
+        "offset": 19,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.6",
+        "offset": 26,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.6",
+        "offset": 28,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "I.6",
+        "offset": 32,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.1",
+        "offset": 12,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.1",
+        "offset": 19,
+        "symbol": "ĩ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER I WITH TILDE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.1",
+        "offset": 20,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.1",
+        "offset": 29,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 12,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 16,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 18,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 20,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 25,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 27,
+        "symbol": "v",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "LATIN SMALL LETTER V"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 34,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.2",
+        "offset": 44,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.3",
+        "offset": 2,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.3",
+        "offset": 6,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.3",
+        "offset": 9,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.3",
+        "offset": 17,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.3",
+        "offset": 25,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.3",
+        "offset": 34,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.3",
+        "offset": 41,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 2,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 16,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 24,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 25,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 27,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 39,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 43,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 46,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.4",
+        "offset": 51,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "first329",
+        "line_id": "II.5",
+        "offset": 5,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.1",
+        "offset": 4,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.1",
+        "offset": 7,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.1",
+        "offset": 11,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.1",
+        "offset": 26,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.1",
+        "offset": 30,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.1",
+        "offset": 41,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.2",
+        "offset": 5,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.2",
+        "offset": 13,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.2",
+        "offset": 32,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.3",
+        "offset": 4,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.3",
+        "offset": 11,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.3",
+        "offset": 12,
+        "symbol": "ǵ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER G WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.3",
+        "offset": 19,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.3",
+        "offset": 36,
+        "symbol": "=",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "EQUALS SIGN"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 0,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 2,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 9,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 17,
+        "symbol": "ǵ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER G WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 18,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 20,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 26,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.4",
+        "offset": 33,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.5",
+        "offset": 2,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.5",
+        "offset": 13,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.5",
+        "offset": 17,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.6",
+        "offset": 2,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.6",
+        "offset": 13,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.6",
+        "offset": 21,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.6",
+        "offset": 27,
+        "symbol": "ǵ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER G WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.6",
+        "offset": 29,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "I.6",
+        "offset": 33,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.1",
+        "offset": 21,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.2",
+        "offset": 12,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.2",
+        "offset": 17,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.2",
+        "offset": 19,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.2",
+        "offset": 23,
+        "symbol": "ǧ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER G WITH CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.2",
+        "offset": 25,
+        "symbol": "v",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "LATIN SMALL LETTER V"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.2",
+        "offset": 32,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.3",
+        "offset": 1,
+        "symbol": "ǧ",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER G WITH CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.3",
+        "offset": 5,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.3",
+        "offset": 8,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.3",
+        "offset": 16,
+        "symbol": "́",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING ACUTE ACCENT"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.3",
+        "offset": 24,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.3",
+        "offset": 39,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 2,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 24,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 25,
+        "symbol": "ć",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER C WITH ACUTE"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 27,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 39,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 43,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 46,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind329",
+        "line_id": "II.4",
+        "offset": 51,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "first330",
+        "line_id": "1",
+        "offset": 15,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first330",
+        "line_id": "1",
+        "offset": 45,
+        "symbol": "0",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "DIGIT ZERO"
+      },
+      {
+        "reading": "first330",
+        "line_id": "1",
+        "offset": 59,
+        "symbol": "0",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "DIGIT ZERO"
+      },
+      {
+        "reading": "first330",
+        "line_id": "2",
+        "offset": 24,
+        "symbol": "ā",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER A WITH MACRON"
+      },
+      {
+        "reading": "first330",
+        "line_id": "2",
+        "offset": 67,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first330",
+        "line_id": "2",
+        "offset": 68,
+        "symbol": "0",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "DIGIT ZERO"
+      },
+      {
+        "reading": "first330",
+        "line_id": "3",
+        "offset": 0,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first330",
+        "line_id": "3",
+        "offset": 3,
+        "symbol": "ā",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER A WITH MACRON"
+      },
+      {
+        "reading": "first330",
+        "line_id": "3",
+        "offset": 48,
+        "symbol": "0",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "DIGIT ZERO"
+      },
+      {
+        "reading": "first330",
+        "line_id": "3",
+        "offset": 73,
+        "symbol": "ā",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER A WITH MACRON"
+      },
+      {
+        "reading": "first330",
+        "line_id": "5",
+        "offset": 14,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "first330",
+        "line_id": "5",
+        "offset": 43,
+        "symbol": "ś",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER S WITH ACUTE"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "1",
+        "offset": 46,
+        "symbol": "0",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "DIGIT ZERO"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "1",
+        "offset": 60,
+        "symbol": "o",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "LATIN SMALL LETTER O"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "2",
+        "offset": 2,
+        "symbol": "v",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "LATIN SMALL LETTER V"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "2",
+        "offset": 24,
+        "symbol": "ď",
+        "kind": "unknown_symbol",
+        "category": "precomposed_accent_codepoint",
+        "unicode_name": "LATIN SMALL LETTER D WITH CARON"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "2",
+        "offset": 68,
+        "symbol": "o",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "LATIN SMALL LETTER O"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "3",
+        "offset": 66,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "4",
+        "offset": 58,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "5",
+        "offset": 14,
+        "symbol": "̌",
+        "kind": "unknown_symbol",
+        "category": "combining_accent_codepoint",
+        "unicode_name": "COMBINING CARON"
+      },
+      {
+        "reading": "blind330",
+        "line_id": "5",
+        "offset": 28,
+        "symbol": "o",
+        "kind": "unknown_symbol",
+        "category": "unassigned_sourceglyph_codepoint",
+        "unicode_name": "LATIN SMALL LETTER O"
+      }
+    ],
+    "frozen_public_projection_authorization": "Only four FIRST329/FIRST330 strict paired_inputs path values may later be omitted in explicit public-only projections with omission ledger and original FILE hash. No omission in protected private files.",
+    "public_strict_projection_scope": {
+      "omitted_private_headers": [
+        {
+          "reading": "first329",
+          "pointer": "/group_barrier/paired_inputs/0/path"
+        },
+        {
+          "reading": "first329",
+          "pointer": "/group_barrier/paired_inputs/1/path"
+        },
+        {
+          "reading": "first330",
+          "pointer": "/group_barrier/paired_inputs/0/path"
+        },
+        {
+          "reading": "first330",
+          "pointer": "/group_barrier/paired_inputs/1/path"
+        }
+      ],
+      "scope": "Public-only omission of four private path headers in FIRST329/330; all remaining values/types whole-original exact. Original complete FILE SHA remains separately preserved."
+    },
+    "source_question_inventory_definition": "Bounded source-observed question reading entries and question-character punctuation tags, not completeness, distinct physical counts or external/cognitive proof. Actual QA summary/category definitions distinguish masks, unassigned symbols and any known mistag exclusions.",
+    "question_role_preflight": {
+      "per_reading_checks": [
+        {
+          "reading": "first327",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "first327",
+              "line_id": "r3",
+              "offset": 49,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Raised 2-like hooked stroke above a separate dot, visually question punctuation.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                1408,
+                1034,
+                1454,
+                1077
+              ],
+              "native_bbox_xyxy": [
+                1408,
+                1034,
+                1454,
+                1077
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": false,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first327",
+              "line_id": "r4",
+              "offset": 3,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Overwritten, intertwined or ornate body cannot be assigned confidently; single mask does not imply one physical body.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                1482,
+                1062,
+                1523,
+                1097
+              ],
+              "native_bbox_xyxy": [
+                1482,
+                1062,
+                1523,
+                1097
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first327",
+              "line_id": "r4",
+              "offset": 8,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Raised 2-like hooked stroke above a separate dot, visually question punctuation.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                1595,
+                1056,
+                1628,
+                1095
+              ],
+              "native_bbox_xyxy": [
+                1595,
+                1056,
+                1628,
+                1095
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first327",
+              "line_id": "r6",
+              "offset": 36,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Overwritten, intertwined or ornate body cannot be assigned confidently; single mask does not imply one physical body.",
+              "reading_rotation_degrees_clockwise": 90,
+              "reading_bbox_xyxy": [
+                845,
+                1650,
+                883,
+                1698
+              ],
+              "native_bbox_xyxy": [
+                1650,
+                292,
+                1698,
+                330
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first327",
+              "line_id": "r6",
+              "offset": 47,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Overwritten, intertwined or ornate body cannot be assigned confidently; single mask does not imply one physical body.",
+              "reading_rotation_degrees_clockwise": 90,
+              "reading_bbox_xyxy": [
+                1058,
+                1651,
+                1091,
+                1693
+              ],
+              "native_bbox_xyxy": [
+                1651,
+                84,
+                1693,
+                117
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": false
+        },
+        {
+          "reading": "blind327",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "blind327",
+              "line_id": "b3",
+              "offset": 49,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Sinuous raised upper stroke with a separate low dot, following final 4.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                1174,
+                1045,
+                1209,
+                1081
+              ],
+              "native_bbox_xyxy": [
+                1174,
+                1045,
+                1209,
+                1081
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "blind327",
+              "line_id": "b4",
+              "offset": 8,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Small added row ends in raised curl and detached dot.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                1598,
+                1052,
+                1622,
+                1090
+              ],
+              "native_bbox_xyxy": [
+                1598,
+                1052,
+                1622,
+                1090
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": true
+        },
+        {
+          "reading": "first328",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "first328",
+              "line_id": "r3",
+              "offset": 31,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Overwritten, intertwined or ornate body cannot be assigned confidently; single mask does not imply one physical body.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                866,
+                677,
+                910,
+                723
+              ],
+              "native_bbox_xyxy": [
+                866,
+                677,
+                910,
+                723
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first328",
+              "line_id": "r3",
+              "offset": 34,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Raised 2-like hooked stroke above a separate dot, visually question punctuation.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                966,
+                676,
+                993,
+                725
+              ],
+              "native_bbox_xyxy": [
+                966,
+                676,
+                993,
+                725
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first328",
+              "line_id": "r5",
+              "offset": 4,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Overwritten, intertwined or ornate body cannot be assigned confidently; single mask does not imply one physical body.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                216,
+                769,
+                251,
+                811
+              ],
+              "native_bbox_xyxy": [
+                216,
+                769,
+                251,
+                811
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first328",
+              "line_id": "r7",
+              "offset": 22,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Overwritten, intertwined or ornate body cannot be assigned confidently; single mask does not imply one physical body.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                754,
+                902,
+                789,
+                945
+              ],
+              "native_bbox_xyxy": [
+                754,
+                902,
+                789,
+                945
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first328",
+              "line_id": "r9",
+              "offset": 7,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Raised 2-like hooked stroke above a separate dot, visually question punctuation.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                323,
+                998,
+                352,
+                1046
+              ],
+              "native_bbox_xyxy": [
+                323,
+                998,
+                352,
+                1046
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": false,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "first328",
+              "line_id": "r11",
+              "offset": 25,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Overwritten, intertwined or ornate body cannot be assigned confidently; single mask does not imply one physical body.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                638,
+                1085,
+                683,
+                1131
+              ],
+              "native_bbox_xyxy": [
+                638,
+                1085,
+                683,
+                1131
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": false
+        },
+        {
+          "reading": "blind328",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "blind328",
+              "line_id": "l2",
+              "offset": 13,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Long-loop crossed/overwritten body immediately before h4; b/f contour unresolved.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                408,
+                599,
+                458,
+                671
+              ],
+              "native_bbox_xyxy": [
+                408,
+                599,
+                458,
+                671
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "blind328",
+              "line_id": "l3",
+              "offset": 34,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Raised curl and separate low dot after final 1; nearby dot may be duplication or paper/ink mark.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                959,
+                674,
+                988,
+                726
+              ],
+              "native_bbox_xyxy": [
+                959,
+                674,
+                988,
+                726
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "blind328",
+              "line_id": "l7",
+              "offset": 22,
+              "selected": "?",
+              "role": "unknown_mask",
+              "source_observation": "Dark overwritten cluster after 5 before final 2; body identity and physical cluster length unresolved.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                749,
+                899,
+                787,
+                944
+              ],
+              "native_bbox_xyxy": [
+                749,
+                899,
+                787,
+                944
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            },
+            {
+              "reading": "blind328",
+              "line_id": "l9",
+              "offset": 7,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Raised curved stroke with detached baseline dot after visibly caroned r.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                287,
+                997,
+                314,
+                1041
+              ],
+              "native_bbox_xyxy": [
+                287,
+                997,
+                314,
+                1041
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": true
+        },
+        {
+          "reading": "first329",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "first329",
+              "line_id": "I.6",
+              "offset": 13,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Individually re-inspected enlarged source crop: separate raised curled, 2-like hook over a detached low dot. Selected as a written punctuation question; not inferred from the surrounding symbols.",
+              "reading_rotation_degrees_clockwise": 90,
+              "reading_bbox_xyxy": [
+                475,
+                1589,
+                502,
+                1636
+              ],
+              "native_bbox_xyxy": [
+                1589,
+                673,
+                1636,
+                700
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": true
+        },
+        {
+          "reading": "blind329",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "blind329",
+              "line_id": "I.6",
+              "offset": 14,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Individually inspected curled raised stroke plus detached lower dot; source punctuation, not an unresolved body mask.",
+              "reading_rotation_degrees_clockwise": 90,
+              "reading_bbox_xyxy": [
+                470,
+                1580,
+                495,
+                1635
+              ],
+              "native_bbox_xyxy": [
+                1580,
+                680,
+                1635,
+                705
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": true
+        },
+        {
+          "reading": "first330",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "first330",
+              "line_id": "2",
+              "offset": 18,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Individually re-inspected enlarged source crop: separate raised curled, 2-like hook over a detached low dot. Selected as a written punctuation question; not inferred from the surrounding symbols.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                488,
+                878,
+                513,
+                916
+              ],
+              "native_bbox_xyxy": [
+                488,
+                878,
+                513,
+                916
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": true,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": true
+        },
+        {
+          "reading": "blind330",
+          "native_list_tags_exact": true,
+          "all_displayed_question_positions_covered": true,
+          "no_rowwide_question_role_rule": true,
+          "per_position_source_checks": [
+            {
+              "reading": "blind330",
+              "line_id": "2",
+              "offset": 18,
+              "selected": "?",
+              "role": "written_question",
+              "source_observation": "Individually inspected curled raised stroke plus detached lower dot; source punctuation, not an unresolved body mask.",
+              "reading_rotation_degrees_clockwise": 0,
+              "reading_bbox_xyxy": [
+                521,
+                875,
+                548,
+                920
+              ],
+              "native_bbox_xyxy": [
+                521,
+                875,
+                548,
+                920
+              ],
+              "mathematical_position_tag_role_geometry_pass": true,
+              "source_role_supported": true,
+              "intended_source_locator_pass": false,
+              "source_review": "Individually inspected local source crop and adjacent context; hook+detached dot for written question, unresolved body/cluster for mask. Role not inferred from decoded language.",
+              "physical_cluster_length": null,
+              "complete_ink_segmentation_certified": false
+            }
+          ],
+          "mathematical_pass": true,
+          "intended_source_locator_pass": false
+        }
+      ],
+      "all_native_tag_and_position_assertions_pass": true,
+      "source_role_support_per_position": true,
+      "mathematical_pass_does_not_certify_intended_source_box": true
+    },
+    "frozen_locator_defects": [
+      {
+        "reading": "first327",
+        "ledger": "question_role_inventory",
+        "line_id": "r3",
+        "offset": 49,
+        "selected": "?",
+        "frozen_reading_bbox_xyxy": [
+          1408,
+          1034,
+          1454,
+          1077
+        ],
+        "frozen_native_bbox_xyxy": [
+          1408,
+          1034,
+          1454,
+          1077
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers later d1g686 baseline run instead of intended raised question hook/dot.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-questions0.png / qa20-questions1.png / qa20-questions2.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "first328",
+        "ledger": "question_role_inventory",
+        "line_id": "r9",
+        "offset": 7,
+        "selected": "?",
+        "frozen_reading_bbox_xyxy": [
+          323,
+          998,
+          352,
+          1046
+        ],
+        "frozen_native_bbox_xyxy": [
+          323,
+          998,
+          352,
+          1046
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers following b-loop instead of preceding raised question hook/dot.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-questions0.png / qa20-questions1.png / qa20-questions2.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "question_role_inventory",
+        "line_id": "2",
+        "offset": 18,
+        "selected": "?",
+        "frozen_reading_bbox_xyxy": [
+          521,
+          875,
+          548,
+          920
+        ],
+        "frozen_native_bbox_xyxy": [
+          521,
+          875,
+          548,
+          920
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers following f-loop instead of preceding raised question hook/dot.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-questions0.png / qa20-questions1.png / qa20-questions2.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "2",
+        "offset": 24,
+        "selected": "ď",
+        "frozen_reading_bbox_xyxy": [
+          638,
+          868,
+          677,
+          936
+        ],
+        "frozen_native_bbox_xyxy": [
+          638,
+          868,
+          677,
+          936
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers following n/6 context; intended accented d-like body lies to its left.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "2",
+        "offset": 53,
+        "selected": "ř",
+        "frozen_reading_bbox_xyxy": [
+          1443,
+          868,
+          1482,
+          936
+        ],
+        "frozen_native_bbox_xyxy": [
+          1443,
+          868,
+          1482,
+          936
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers later n/6 context instead of intended caroned-r body.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "3",
+        "offset": 66,
+        "selected": "̌",
+        "frozen_reading_bbox_xyxy": [
+          1555,
+          923,
+          1594,
+          984
+        ],
+        "frozen_native_bbox_xyxy": [
+          1555,
+          923,
+          1594,
+          984
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers following gt5 context instead of intended marked 5 in preceding 7c5 cluster.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "4",
+        "offset": 58,
+        "selected": "̌",
+        "frozen_reading_bbox_xyxy": [
+          1521,
+          967,
+          1560,
+          1024
+        ],
+        "frozen_native_bbox_xyxy": [
+          1521,
+          967,
+          1560,
+          1024
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers later fh581 context instead of intended overhead mark in preceding m5cn4hm5 cluster.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "5",
+        "offset": 23,
+        "selected": "ř",
+        "frozen_reading_bbox_xyxy": [
+          603,
+          1004,
+          642,
+          1060
+        ],
+        "frozen_native_bbox_xyxy": [
+          603,
+          1004,
+          642,
+          1060
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers following f/6 context instead of preceding caroned-r body.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "5",
+        "offset": 33,
+        "selected": "ř",
+        "frozen_reading_bbox_xyxy": [
+          797,
+          1004,
+          836,
+          1060
+        ],
+        "frozen_native_bbox_xyxy": [
+          797,
+          1004,
+          836,
+          1060
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers following b context instead of preceding caroned-r body.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "2",
+        "offset": 55,
+        "selected": "c",
+        "frozen_reading_bbox_xyxy": [
+          1460,
+          873,
+          1490,
+          927
+        ],
+        "frozen_native_bbox_xyxy": [
+          1460,
+          873,
+          1490,
+          927
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers later n/6 context instead of intended c in earlier ř1c cluster.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      },
+      {
+        "reading": "blind330",
+        "ledger": "mark_ledger",
+        "line_id": "3",
+        "offset": 51,
+        "selected": "f",
+        "frozen_reading_bbox_xyxy": [
+          1210,
+          925,
+          1250,
+          980
+        ],
+        "frozen_native_bbox_xyxy": [
+          1210,
+          925,
+          1250,
+          980
+        ],
+        "classification": "source-intended-position locator mismatch; mathematical geometry and selected substring pass",
+        "source_observation": "Box covers subsequent b/3 baseline context instead of initial f in intended fgb3 cluster.",
+        "question_role_or_native_tag_changed": false,
+        "source_check_artifact": "qa20-330markswide.png",
+        "action": "Preserve frozen original; later dated current-only source locator documentation, never silent repair."
+      }
+    ],
+    "protocol_timing_exceptions": [],
+    "chronology_groups": [
+      {
+        "readings": [
+          "first327",
+          "first328"
+        ],
+        "latest_all_preflight_at_utc": "2026-10-20T23:39:35.788190+00:00",
+        "earliest_raw_freeze_at_utc": "2026-10-20T23:39:35.788194+00:00",
+        "latest_raw_freeze_at_utc": "2026-10-20T23:39:35.788884+00:00",
+        "earliest_own_replay_at_utc": "2026-10-20T23:40:04.850963+00:00",
+        "both_preflight_before_either_freeze": true,
+        "both_frozen_before_either_replay": true
+      },
+      {
+        "readings": [
+          "blind327",
+          "blind328"
+        ],
+        "latest_all_preflight_at_utc": "2026-10-20T23:39:40.621851+00:00",
+        "earliest_raw_freeze_at_utc": "2026-10-20T23:39:40.621855+00:00",
+        "latest_raw_freeze_at_utc": "2026-10-20T23:39:40.622428+00:00",
+        "earliest_own_replay_at_utc": "2026-10-20T23:40:10.043340+00:00",
+        "both_preflight_before_either_freeze": true,
+        "both_frozen_before_either_replay": true
+      },
+      {
+        "readings": [
+          "first329",
+          "first330"
+        ],
+        "latest_all_preflight_at_utc": "2026-10-20T23:40:41.614900+00:00",
+        "earliest_raw_freeze_at_utc": "2026-10-20T23:40:41.614904+00:00",
+        "latest_raw_freeze_at_utc": "2026-10-20T23:40:41.615754+00:00",
+        "earliest_own_replay_at_utc": "2026-10-20T23:41:17.420749+00:00",
+        "both_preflight_before_either_freeze": true,
+        "both_frozen_before_either_replay": true
+      },
+      {
+        "readings": [
+          "blind329",
+          "blind330"
+        ],
+        "latest_all_preflight_at_utc": "2026-10-20T23:44:35.855357+00:00",
+        "earliest_raw_freeze_at_utc": "2026-10-20T23:44:35.855360+00:00",
+        "latest_raw_freeze_at_utc": "2026-10-20T23:44:35.856184+00:00",
+        "earliest_own_replay_at_utc": "2026-10-20T23:45:06.637877+00:00",
+        "both_preflight_before_either_freeze": true,
+        "both_frozen_before_either_replay": true
+      }
+    ],
+    "frozen_selected_aggregate": {
+      "rows": 68,
+      "encoded_bodies": 2239,
+      "expanded_letters": 2115,
+      "ch_occurrences": 18,
+      "unknowns": 142
+    },
+    "bounded_date_entry_inventory": [
+      {
+        "reading": "first327",
+        "path": "/excluded_contexts/0",
+        "entry": {
+          "region": "upper margin handwriting",
+          "role": "ordinary date outside cipher",
+          "unverified_date_candidate": "11./IX.1900.",
+          "verified": false
+        }
+      },
+      {
+        "reading": "blind327",
+        "path": "/excluded_contexts/0",
+        "entry": {
+          "kind": "ordinary date",
+          "native_bbox_xyxy": [
+            480,
+            45,
+            740,
+            90
+          ],
+          "unverified_date_candidate": "11./IX.1900.",
+          "verified": false
+        }
+      },
+      {
+        "reading": "first328",
+        "path": "/excluded_contexts/0",
+        "entry": {
+          "region": "upper margin handwriting",
+          "role": "ordinary date outside cipher",
+          "unverified_date_candidate": "30./V.1900.",
+          "verified": false
+        }
+      },
+      {
+        "reading": "blind328",
+        "path": "/excluded_contexts/0",
+        "entry": {
+          "kind": "ordinary date",
+          "native_bbox_xyxy": [
+            1050,
+            58,
+            1290,
+            123
+          ],
+          "unverified_date_candidate": "30./V.1900.",
+          "verified": false
+        }
+      },
+      {
+        "reading": "first329",
+        "path": "/excluded_contexts/1",
+        "entry": {
+          "context": "Separate handwritten date-like span in picture-side margin",
+          "native_bbox_xyxy": [
+            650,
+            1020,
+            1020,
+            1130
+          ],
+          "status": "outside cipher; unverified date candidate",
+          "candidate": "15 / II - 1900",
+          "candidate_verified": false
+        }
+      },
+      {
+        "reading": "blind329",
+        "path": "/region_inventory",
+        "entry": {
+          "complete_original_and_all_margins_inspected": true,
+          "regions": [
+            "I: six lines, native right margin; read CW90",
+            "II: four lines plus short lower continuation, native top margin; read 180"
+          ],
+          "order_evidence": "Written I and II region labels; each region top-to-bottom in its own reading frame.",
+          "excluded_contexts": [
+            "printed picture caption, publisher/plate marks, image watermark; handwritten date outside cipher"
+          ],
+          "unverified_date_candidate": "15/II 1900; unverified date reading, excluded from cipher"
+        }
+      },
+      {
+        "reading": "first330",
+        "path": "/excluded_contexts/0",
+        "entry": {
+          "context": "Printed red place caption and publisher/date-like print",
+          "native_bbox_xyxy": [
+            130,
+            831,
+            550,
+            1082
+          ],
+          "status": "ordinary printed context excluded; overlaps context band only, not ink assignment"
+        }
+      },
+      {
+        "reading": "first330",
+        "path": "/excluded_contexts/1",
+        "entry": {
+          "context": "Separate lower-right handwritten date-like span",
+          "native_bbox_xyxy": [
+            1430,
+            1040,
+            1685,
+            1098
+          ],
+          "status": "outside cipher; unverified date candidate",
+          "candidate": "14 / IV - 1903",
+          "candidate_verified": false
+        }
+      },
+      {
+        "reading": "blind330",
+        "path": "/region_inventory",
+        "entry": {
+          "complete_original_and_all_margins_inspected": true,
+          "regions": [
+            "five manuscript lines across bottom margin"
+          ],
+          "order_evidence": "Five distinct successive baselines; continuation hyphen retained.",
+          "excluded_contexts": [
+            "red printed town and publisher lines; watermark; handwritten date at lower right"
+          ],
+          "unverified_date_candidate": "14/IV 1903; unverified date reading, excluded from cipher"
+        }
+      }
+    ],
+    "date_inventory_scope": "Reading-entry count: each nonnull candidate scalar/dictionary is one entry; a separately stored excluded ordinary/date-like context dictionary without an embedded candidate is another entry. Candidate dictionary children are not counted twice. Includes8 handwritten candidate/context entries and1 separately excluded printed date-like context. Not physical-date count, authenticated chronology, acquisition timestamps, or an invented acquisition date for reused329 metadata.",
+    "geometry_count_scope": "Contextual geometry records may repeat rectangles across ledgers; they are not unique physical regions. Counts retain the actual frozen QA scope.",
+    "limits": "Frozen punctuation-tag inventory is distinct from source-written questions. Faithful replay does not validate source classification. Unknown encoded slots are not all masks. Geometry does not certify ink ownership, segmentation, completeness or source accuracy."
+  },
+  "next_source_pipeline": {
+    "priority": [
+      331,
+      332,
+      333,
+      334
+    ],
+    "in_progress": [],
+    "parent_reserved_first_source_only": [],
+    "continuation_readings_not_started": [
+      "FIRST and SECOND 331",
+      "FIRST and SECOND 332",
+      "FIRST and SECOND 333",
+      "FIRST and SECOND 334"
+    ],
+    "state": "Next priority only; continuation readings have not started here. This batch adds no future candidate or source-stage claim."
+  },
+  "chronology_scope": "Four own groups each froze both assigned inputs before either own strict replay. All eight executions belong to actual original source actors. Assigned FIRST/SECOND slots do not establish chronological priority. Exactly two immutable checkpoints preceded QA and curator exchange: CP1 records all eight raw and eight original own-strict FILE identities; CP2 records eight exact root replays. Original own strict executions remain distinct from subsequent root verification replays. Actual group chronology is in frozen QA; recorded times do not establish cryptographic timing or cognitive independence.",
+  "checkpoint_fingerprints": {
+    "batch20-frozen-reads-checkpoint.json": "79139dcf9cf996bc1d56a74ca8ec8326d4752f011bd37b413e0d78df0f2c5a62",
+    "batch20-replays-checkpoint.json": "02e6ca9fb4f3199938be7428629a46b947cd80fcdb098e3d2360d6177165b67d"
+  },
+  "current_resolution": {
+    "source_tag_defects_resolved": 0,
+    "frozen_locator_defects_resolved": 11,
+    "protocol_timing_exceptions_disclosed": 0,
+    "locator_scope": "Current-only dated mappings preserve 11 frozen source-content defects. Alternate-only 330 marks may be absent from selected rows; broad row contexts are not precise ink repairs. No frozen raw/strict/glyph/tag correction.",
+    "documentation_scope": "Two frozen empty SECOND 327/328 mark ledgers affecting five ř positions remain deficient; dated current documentation is separate and does not confer retrospective completeness.",
+    "scope": "Current batch20 resolution only; exact actual defects and timing records remain separately preserved. No inherited batch17 correction or retrospective timing pass."
+  }
+}
