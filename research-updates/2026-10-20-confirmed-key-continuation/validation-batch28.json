@@ -337624,5 +337624,598 @@
       "scope": "Successful test receipts had a literal trailing backslash-n outside JSON. Whole original bytes and valid versioned receipts retained; no test command rerun or native QA/source change."
     }
   ],
-  "existing100_local_runs_in_batch28": 1
+  "existing100_local_runs_in_batch28": 1,
+  "publication_corrections_addendum": {
+    "recorded_at_utc": "2026-10-21T15:06:52.871104+00:00",
+    "source_Git_HEAD": "2d19046d78b4c4145dbacb332b987f697fbb2b55",
+    "source_Git_TREE": "91c2012ea536bf8cc8aa20a90830119183ab6ea6",
+    "parent_authorization": {
+      "file": "parent-pr50-publication-corrections-decision-v2.json",
+      "FILE_sha256": "5d59180a2eaf5cfe07dc8b1c1018a3724cac70c1d63f0e3756f349140153ad1f"
+    },
+    "validation_addendum_reference": "validation-batch28.json#/publication_corrections_addendum",
+    "scope": "Current publication correction only; original preparation-state initial reconciliation and all source/literal/native QA objects remain unchanged.",
+    "status": "PUBLICATION_CORRECTIONS_PREPARED_FOR_PARENT_REVIEW_BEFORE_COMMIT",
+    "original_validation": {
+      "file": "validation-batch28.json",
+      "FILE_sha256": "cabdb3475db9b47ae43945a286067106d418c7ad315219c6ca70559242ff9262"
+    },
+    "actual_failed_CI_observation": {
+      "file": "batch28-source-HEAD-first-generation-CI-observed.json",
+      "FILE_sha256": "9f9e91b3f7eed77f0781e45a149a613c11c2c840b7079d0484d4acd061f5b94a",
+      "whole_actual_failed_run_job_records": [
+        {
+          "databaseId": 39621240041,
+          "event": "push",
+          "headSha": "2d19046d78b4c4145dbacb332b987f697fbb2b55",
+          "conclusion": "failure",
+          "status": "completed",
+          "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/actions/runs/39621240041",
+          "jobs": [
+            {
+              "completedAt": "2026-10-21T14:56:53Z",
+              "conclusion": "failure",
+              "databaseId": 119294899122,
+              "name": "verify (3.13)",
+              "startedAt": "2026-10-21T14:56:13Z",
+              "status": "completed",
+              "steps": [
+                {
+                  "completedAt": "2026-10-21T14:56:14Z",
+                  "conclusion": "success",
+                  "name": "Set up job",
+                  "number": 1,
+                  "startedAt": "2026-10-21T14:56:14Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:19Z",
+                  "conclusion": "success",
+                  "name": "Check out the triggering revision",
+                  "number": 2,
+                  "startedAt": "2026-10-21T14:56:14Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:19Z",
+                  "conclusion": "success",
+                  "name": "Set up Python",
+                  "number": 3,
+                  "startedAt": "2026-10-21T14:56:19Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:23Z",
+                  "conclusion": "success",
+                  "name": "Install numerical fixture dependency",
+                  "number": 4,
+                  "startedAt": "2026-10-21T14:56:19Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:51Z",
+                  "conclusion": "failure",
+                  "name": "Run regressions and offline verification at the checked-out SHA",
+                  "number": 5,
+                  "startedAt": "2026-10-21T14:56:23Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:51Z",
+                  "conclusion": "skipped",
+                  "name": "Post Set up Python",
+                  "number": 9,
+                  "startedAt": "2026-10-21T14:56:51Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:51Z",
+                  "conclusion": "success",
+                  "name": "Post Check out the triggering revision",
+                  "number": 10,
+                  "startedAt": "2026-10-21T14:56:51Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:51Z",
+                  "conclusion": "success",
+                  "name": "Complete job",
+                  "number": 11,
+                  "startedAt": "2026-10-21T14:56:51Z",
+                  "status": "completed"
+                }
+              ],
+              "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/actions/runs/39621240041/job/119294899122"
+            },
+            {
+              "completedAt": "2026-10-21T14:56:59Z",
+              "conclusion": "failure",
+              "databaseId": 119294899733,
+              "name": "verify (3.10)",
+              "startedAt": "2026-10-21T14:56:14Z",
+              "status": "completed",
+              "steps": [
+                {
+                  "completedAt": "2026-10-21T14:56:15Z",
+                  "conclusion": "success",
+                  "name": "Set up job",
+                  "number": 1,
+                  "startedAt": "2026-10-21T14:56:14Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:20Z",
+                  "conclusion": "success",
+                  "name": "Check out the triggering revision",
+                  "number": 2,
+                  "startedAt": "2026-10-21T14:56:15Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:20Z",
+                  "conclusion": "success",
+                  "name": "Set up Python",
+                  "number": 3,
+                  "startedAt": "2026-10-21T14:56:20Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:25Z",
+                  "conclusion": "success",
+                  "name": "Install numerical fixture dependency",
+                  "number": 4,
+                  "startedAt": "2026-10-21T14:56:20Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:56Z",
+                  "conclusion": "failure",
+                  "name": "Run regressions and offline verification at the checked-out SHA",
+                  "number": 5,
+                  "startedAt": "2026-10-21T14:56:25Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:56Z",
+                  "conclusion": "skipped",
+                  "name": "Post Set up Python",
+                  "number": 9,
+                  "startedAt": "2026-10-21T14:56:56Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:56Z",
+                  "conclusion": "success",
+                  "name": "Post Check out the triggering revision",
+                  "number": 10,
+                  "startedAt": "2026-10-21T14:56:56Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:56Z",
+                  "conclusion": "success",
+                  "name": "Complete job",
+                  "number": 11,
+                  "startedAt": "2026-10-21T14:56:56Z",
+                  "status": "completed"
+                }
+              ],
+              "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/actions/runs/39621240041/job/119294899733"
+            }
+          ]
+        },
+        {
+          "databaseId": 39621277035,
+          "event": "pull_request",
+          "headSha": "2d19046d78b4c4145dbacb332b987f697fbb2b55",
+          "conclusion": "",
+          "status": "in_progress",
+          "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/actions/runs/39621277035",
+          "jobs": [
+            {
+              "completedAt": "2026-10-21T14:56:57Z",
+              "conclusion": "failure",
+              "databaseId": 119295038081,
+              "name": "verify (3.13)",
+              "startedAt": "2026-10-21T14:56:29Z",
+              "status": "completed",
+              "steps": [
+                {
+                  "completedAt": "2026-10-21T14:56:31Z",
+                  "conclusion": "success",
+                  "name": "Set up job",
+                  "number": 1,
+                  "startedAt": "2026-10-21T14:56:29Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:35Z",
+                  "conclusion": "success",
+                  "name": "Check out the triggering revision",
+                  "number": 2,
+                  "startedAt": "2026-10-21T14:56:31Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:35Z",
+                  "conclusion": "success",
+                  "name": "Set up Python",
+                  "number": 3,
+                  "startedAt": "2026-10-21T14:56:35Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:38Z",
+                  "conclusion": "success",
+                  "name": "Install numerical fixture dependency",
+                  "number": 4,
+                  "startedAt": "2026-10-21T14:56:35Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:55Z",
+                  "conclusion": "failure",
+                  "name": "Run regressions and offline verification at the checked-out SHA",
+                  "number": 5,
+                  "startedAt": "2026-10-21T14:56:38Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:55Z",
+                  "conclusion": "skipped",
+                  "name": "Post Set up Python",
+                  "number": 9,
+                  "startedAt": "2026-10-21T14:56:55Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:55Z",
+                  "conclusion": "success",
+                  "name": "Post Check out the triggering revision",
+                  "number": 10,
+                  "startedAt": "2026-10-21T14:56:55Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:55Z",
+                  "conclusion": "success",
+                  "name": "Complete job",
+                  "number": 11,
+                  "startedAt": "2026-10-21T14:56:55Z",
+                  "status": "completed"
+                }
+              ],
+              "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/actions/runs/39621277035/job/119295038081"
+            },
+            {
+              "completedAt": "2026-10-21T14:57:28Z",
+              "conclusion": "failure",
+              "databaseId": 119295038444,
+              "name": "verify (3.10)",
+              "startedAt": "2026-10-21T14:56:29Z",
+              "status": "completed",
+              "steps": [
+                {
+                  "completedAt": "2026-10-21T14:56:31Z",
+                  "conclusion": "success",
+                  "name": "Set up job",
+                  "number": 1,
+                  "startedAt": "2026-10-21T14:56:30Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:36Z",
+                  "conclusion": "success",
+                  "name": "Check out the triggering revision",
+                  "number": 2,
+                  "startedAt": "2026-10-21T14:56:31Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:43Z",
+                  "conclusion": "success",
+                  "name": "Set up Python",
+                  "number": 3,
+                  "startedAt": "2026-10-21T14:56:36Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:56:47Z",
+                  "conclusion": "success",
+                  "name": "Install numerical fixture dependency",
+                  "number": 4,
+                  "startedAt": "2026-10-21T14:56:43Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:57:21Z",
+                  "conclusion": "failure",
+                  "name": "Run regressions and offline verification at the checked-out SHA",
+                  "number": 5,
+                  "startedAt": "2026-10-21T14:56:47Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:57:21Z",
+                  "conclusion": "skipped",
+                  "name": "Post Set up Python",
+                  "number": 9,
+                  "startedAt": "2026-10-21T14:57:21Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:57:21Z",
+                  "conclusion": "success",
+                  "name": "Post Check out the triggering revision",
+                  "number": 10,
+                  "startedAt": "2026-10-21T14:57:21Z",
+                  "status": "completed"
+                },
+                {
+                  "completedAt": "2026-10-21T14:57:21Z",
+                  "conclusion": "success",
+                  "name": "Complete job",
+                  "number": 11,
+                  "startedAt": "2026-10-21T14:57:21Z",
+                  "status": "completed"
+                }
+              ],
+              "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/actions/runs/39621277035/job/119295038444"
+            }
+          ]
+        }
+      ]
+    },
+    "actual_EOF_blocker": {
+      "file": "batch28-source-CI-EOF-true-blocker.json",
+      "FILE_sha256": "044b566bd0750aac35ca7de0b019ce619198b66e0570b6b3dd376c6d5115e62a",
+      "actual_error_lines": [
+        "verify (3.13)\tRun regressions and offline verification at the checked-out SHA\t2026-10-21T14:56:51.7002408Z research-updates/2026-10-20-confirmed-key-continuation/cards/359.md:158: new blank line at EOF.",
+        "verify (3.13)\tRun regressions and offline verification at the checked-out SHA\t2026-10-21T14:56:51.7003680Z research-updates/2026-10-20-confirmed-key-continuation/cards/360.md:142: new blank line at EOF.",
+        "verify (3.13)\tRun regressions and offline verification at the checked-out SHA\t2026-10-21T14:56:51.7056115Z ##[error]Process completed with exit code 2."
+      ],
+      "root_cause": "Mandatory workflow git diff --check rejects two cosmetic new blank lines at EOF in alreadyfrozen current Markdown and initial snapshot MDhashes. Root/fresh review accepted style but did not satisfy mandatory CI."
+    },
+    "parent_review_English_finding": {
+      "card_id": 361,
+      "old_current_JSON_FILE_sha256": "ad2ecb0c831ea024a9baa866c169e2fca373448aa0018fe361b58dff27f366d0",
+      "old_current_MD_FILE_sha256": "92a37160bc37c0fa6ff0715be2474c57ff2309bae0e791dea8756c8e554e2707",
+      "finding": "Englishr03 doesnot have plusr04 nothingtodo creates wrong double negative against Czech nema nicco delati.",
+      "smallest_correction": "Change only current361-r04 proposed English prefix nothing to do, and who is to me, as far as... to anything to do, and who is to me, as far as...; same correction in current wholeEnglishpassage and Markdown occurrence copies. Preserve r03andallCzech/source/literal/Unicode/tag/native results.",
+      "current_JSON_fields_allowed": "/lines/3/proposed_english, corresponding current /passages English field(s), affected current editorial_occurrences bracketed_text/text_end/markdown_offset/markdown_end fields, /curation_provenance/readable_MD_FILE_sha256, and one appended dated publication_language_revision. No frozen or QA/protocol strings globally replaced.",
+      "offset_requirements": "Recalculate affected text and Markdown occurrence offsets after one-character longer English replacement; preserve every literal_components, Czech/currentotherlanguages and every source/raw/own identity."
+    },
+    "current_file_identities": {
+      "research-updates/2026-10-20-confirmed-key-continuation/cards/359.md": {
+        "original_FILE_sha256": "aef4f1717b69c95aed33760ba2cab65217eec511abcc0ebe84c17aa9e8e1c333",
+        "corrected_FILE_sha256": "a29a5e40c246bc9bde9b92cec7cc4c3774f6eedb70afe7e711dc9ad51f42049b"
+      },
+      "research-updates/2026-10-20-confirmed-key-continuation/cards/360.md": {
+        "original_FILE_sha256": "e765aa695fc8f6d7ad04dbe8830efee7ffe39c951552930914c7321cf90fc284",
+        "corrected_FILE_sha256": "add5e852ca4af5466b51f900e70b82ab1150674b05a9bafc68483c40bceaf033"
+      },
+      "research-updates/2026-10-20-confirmed-key-continuation/cards/361.md": {
+        "original_FILE_sha256": "92a37160bc37c0fa6ff0715be2474c57ff2309bae0e791dea8756c8e554e2707",
+        "corrected_FILE_sha256": "93718a3828327fff1166b2c0e6dca4335f9c7ac18d90abb77559c07e63889ebe"
+      },
+      "research-updates/2026-10-20-confirmed-key-continuation/cards/359.json": {
+        "original_FILE_sha256": "0a7c57764f2d3af6efad14afd1bd7d5589d63b3c549140eb02df30ee21ddf778",
+        "corrected_FILE_sha256": "4e3493274c2bc1e81e2b2a645e479479de34bb355bbf07c8df3d1b9de5b73385"
+      },
+      "research-updates/2026-10-20-confirmed-key-continuation/cards/360.json": {
+        "original_FILE_sha256": "496f2c16a7dd994117b63b779a530a1057e569488f3c6e181ec7c9dd9068c656",
+        "corrected_FILE_sha256": "48e2871bd0889e04a44a07e862660c790460589ad3bb99e174704a1bcdf0aab8"
+      },
+      "research-updates/2026-10-20-confirmed-key-continuation/cards/361.json": {
+        "original_FILE_sha256": "ad2ecb0c831ea024a9baa866c169e2fca373448aa0018fe361b58dff27f366d0",
+        "corrected_FILE_sha256": "df3501868e7145193bf0b508abae6403127b20da93da52865fd35e81388c9a57"
+      }
+    },
+    "unchanged_initial_snapshots": {
+      "359": {
+        "file": "research-updates/2026-10-20-confirmed-key-continuation/revisions/359-initial-reconciliation.json",
+        "FILE_sha256": "10d923e8ce43c17e1ca0c0f1fe946831d7f94a34f00afcab94622bdb96e5c533"
+      },
+      "360": {
+        "file": "research-updates/2026-10-20-confirmed-key-continuation/revisions/360-initial-reconciliation.json",
+        "FILE_sha256": "c8ff809dc5f273cfda36e6577cdb77edda706a1d8df91632c747fabf4942bd05"
+      },
+      "361": {
+        "file": "research-updates/2026-10-20-confirmed-key-continuation/revisions/361-initial-reconciliation.json",
+        "FILE_sha256": "1b32ef23d311cd34004607da902d19277ac443f9045bd47821206178d98eb684"
+      },
+      "362": {
+        "file": "research-updates/2026-10-20-confirmed-key-continuation/revisions/362-initial-reconciliation.json",
+        "FILE_sha256": "d18e8c45c40d72649e54bdddee275af18e808a26311281fbae087e736d915de0"
+      }
+    },
+    "current_JSON_changed_pointers": {
+      "359": [
+        "/curation_provenance/MD_FILE_sha256",
+        "/publication_formatting_revision"
+      ],
+      "360": [
+        "/curation_provenance/MD_FILE_sha256",
+        "/publication_formatting_revision"
+      ],
+      "361": [
+        "/curation_provenance/readable_MD_FILE_sha256",
+        "/editorial_occurrences/7/bracketed_text",
+        "/editorial_occurrences/7/markdown_end",
+        "/editorial_occurrences/7/text_end",
+        "/editorial_occurrences/8/markdown_end",
+        "/editorial_occurrences/8/markdown_offset",
+        "/editorial_occurrences/9/markdown_end",
+        "/editorial_occurrences/9/markdown_offset",
+        "/editorial_occurrences/10/markdown_end",
+        "/editorial_occurrences/10/markdown_offset",
+        "/editorial_occurrences/11/markdown_end",
+        "/editorial_occurrences/11/markdown_offset",
+        "/editorial_occurrences/12/markdown_end",
+        "/editorial_occurrences/12/markdown_offset",
+        "/editorial_occurrences/13/markdown_end",
+        "/editorial_occurrences/13/markdown_offset",
+        "/editorial_occurrences/14/markdown_end",
+        "/editorial_occurrences/14/markdown_offset",
+        "/editorial_occurrences/15/markdown_end",
+        "/editorial_occurrences/15/markdown_offset",
+        "/editorial_occurrences/16/markdown_end",
+        "/editorial_occurrences/16/markdown_offset",
+        "/editorial_occurrences/17/markdown_end",
+        "/editorial_occurrences/17/markdown_offset",
+        "/editorial_occurrences/18/markdown_end",
+        "/editorial_occurrences/18/markdown_offset",
+        "/editorial_occurrences/19/markdown_end",
+        "/editorial_occurrences/19/markdown_offset",
+        "/editorial_occurrences/20/markdown_end",
+        "/editorial_occurrences/20/markdown_offset",
+        "/editorial_occurrences/21/markdown_end",
+        "/editorial_occurrences/21/markdown_offset",
+        "/editorial_occurrences/22/markdown_end",
+        "/editorial_occurrences/22/markdown_offset",
+        "/editorial_occurrences/23/markdown_end",
+        "/editorial_occurrences/23/markdown_offset",
+        "/editorial_occurrences/24/markdown_end",
+        "/editorial_occurrences/24/markdown_offset",
+        "/editorial_occurrences/25/markdown_end",
+        "/editorial_occurrences/25/markdown_offset",
+        "/editorial_occurrences/26/markdown_end",
+        "/editorial_occurrences/26/markdown_offset",
+        "/editorial_occurrences/27/markdown_end",
+        "/editorial_occurrences/27/markdown_offset",
+        "/editorial_occurrences/28/markdown_end",
+        "/editorial_occurrences/28/markdown_offset",
+        "/editorial_occurrences/29/markdown_end",
+        "/editorial_occurrences/29/markdown_offset",
+        "/editorial_occurrences/30/markdown_end",
+        "/editorial_occurrences/30/markdown_offset",
+        "/editorial_occurrences/31/markdown_end",
+        "/editorial_occurrences/31/markdown_offset",
+        "/editorial_occurrences/32/markdown_end",
+        "/editorial_occurrences/32/markdown_offset",
+        "/editorial_occurrences/33/markdown_end",
+        "/editorial_occurrences/33/markdown_offset",
+        "/editorial_occurrences/34/markdown_end",
+        "/editorial_occurrences/34/markdown_offset",
+        "/editorial_occurrences/35/markdown_end",
+        "/editorial_occurrences/35/markdown_offset",
+        "/editorial_occurrences/36/markdown_end",
+        "/editorial_occurrences/36/markdown_offset",
+        "/editorial_occurrences/37/markdown_end",
+        "/editorial_occurrences/37/markdown_offset",
+        "/editorial_occurrences/38/markdown_end",
+        "/editorial_occurrences/38/markdown_offset",
+        "/editorial_occurrences/39/markdown_end",
+        "/editorial_occurrences/39/markdown_offset",
+        "/editorial_occurrences/40/markdown_end",
+        "/editorial_occurrences/40/markdown_offset",
+        "/editorial_occurrences/41/markdown_end",
+        "/editorial_occurrences/41/markdown_offset",
+        "/editorial_occurrences/42/markdown_end",
+        "/editorial_occurrences/42/markdown_offset",
+        "/editorial_occurrences/43/markdown_end",
+        "/editorial_occurrences/43/markdown_offset",
+        "/editorial_occurrences/44/markdown_end",
+        "/editorial_occurrences/44/markdown_offset",
+        "/editorial_occurrences/45/markdown_end",
+        "/editorial_occurrences/45/markdown_offset",
+        "/editorial_occurrences/46/markdown_end",
+        "/editorial_occurrences/46/markdown_offset",
+        "/editorial_occurrences/47/markdown_end",
+        "/editorial_occurrences/47/markdown_offset",
+        "/editorial_occurrences/48/markdown_end",
+        "/editorial_occurrences/48/markdown_offset",
+        "/editorial_occurrences/49/markdown_end",
+        "/editorial_occurrences/49/markdown_offset",
+        "/editorial_occurrences/50/markdown_end",
+        "/editorial_occurrences/50/markdown_offset",
+        "/editorial_occurrences/51/markdown_end",
+        "/editorial_occurrences/51/markdown_offset",
+        "/editorial_occurrences/52/markdown_end",
+        "/editorial_occurrences/52/markdown_offset",
+        "/editorial_occurrences/53/markdown_end",
+        "/editorial_occurrences/53/markdown_offset",
+        "/editorial_occurrences/54/markdown_end",
+        "/editorial_occurrences/54/markdown_offset",
+        "/editorial_occurrences/55/markdown_end",
+        "/editorial_occurrences/55/markdown_offset",
+        "/editorial_occurrences/56/markdown_end",
+        "/editorial_occurrences/56/markdown_offset",
+        "/editorial_occurrences/57/markdown_end",
+        "/editorial_occurrences/57/markdown_offset",
+        "/editorial_occurrences/58/markdown_end",
+        "/editorial_occurrences/58/markdown_offset",
+        "/editorial_occurrences/59/markdown_end",
+        "/editorial_occurrences/59/markdown_offset",
+        "/editorial_occurrences/60/bracketed_text",
+        "/editorial_occurrences/60/markdown_end",
+        "/editorial_occurrences/60/markdown_offset",
+        "/editorial_occurrences/60/text_end",
+        "/editorial_occurrences/61/markdown_end",
+        "/editorial_occurrences/61/markdown_offset",
+        "/editorial_occurrences/61/text_end",
+        "/editorial_occurrences/61/text_offset",
+        "/editorial_occurrences/62/markdown_end",
+        "/editorial_occurrences/62/markdown_offset",
+        "/editorial_occurrences/62/text_end",
+        "/editorial_occurrences/62/text_offset",
+        "/editorial_occurrences/63/markdown_end",
+        "/editorial_occurrences/63/markdown_offset",
+        "/editorial_occurrences/63/text_end",
+        "/editorial_occurrences/63/text_offset",
+        "/editorial_occurrences/64/markdown_end",
+        "/editorial_occurrences/64/markdown_offset",
+        "/editorial_occurrences/64/text_end",
+        "/editorial_occurrences/64/text_offset",
+        "/editorial_occurrences/65/markdown_end",
+        "/editorial_occurrences/65/markdown_offset",
+        "/editorial_occurrences/65/text_end",
+        "/editorial_occurrences/65/text_offset",
+        "/editorial_occurrences/66/markdown_end",
+        "/editorial_occurrences/66/markdown_offset",
+        "/editorial_occurrences/66/text_end",
+        "/editorial_occurrences/66/text_offset",
+        "/editorial_occurrences/67/markdown_end",
+        "/editorial_occurrences/67/markdown_offset",
+        "/editorial_occurrences/67/text_end",
+        "/editorial_occurrences/67/text_offset",
+        "/editorial_occurrences/68/markdown_end",
+        "/editorial_occurrences/68/markdown_offset",
+        "/editorial_occurrences/68/text_end",
+        "/editorial_occurrences/68/text_offset",
+        "/editorial_occurrences/69/markdown_end",
+        "/editorial_occurrences/69/markdown_offset",
+        "/editorial_occurrences/69/text_end",
+        "/editorial_occurrences/69/text_offset",
+        "/editorial_occurrences/70/markdown_end",
+        "/editorial_occurrences/70/markdown_offset",
+        "/editorial_occurrences/70/text_end",
+        "/editorial_occurrences/70/text_offset",
+        "/editorial_occurrences/71/markdown_end",
+        "/editorial_occurrences/71/markdown_offset",
+        "/editorial_occurrences/71/text_end",
+        "/editorial_occurrences/71/text_offset",
+        "/editorial_occurrences/72/markdown_end",
+        "/editorial_occurrences/72/markdown_offset",
+        "/editorial_occurrences/72/text_end",
+        "/editorial_occurrences/72/text_offset",
+        "/editorial_occurrences/73/markdown_end",
+        "/editorial_occurrences/73/markdown_offset",
+        "/editorial_occurrences/73/text_end",
+        "/editorial_occurrences/73/text_offset",
+        "/editorial_occurrences/74/markdown_end",
+        "/editorial_occurrences/74/markdown_offset",
+        "/editorial_occurrences/74/text_end",
+        "/editorial_occurrences/74/text_offset",
+        "/editorial_occurrences/75/markdown_end",
+        "/editorial_occurrences/75/markdown_offset",
+        "/editorial_occurrences/75/text_end",
+        "/editorial_occurrences/75/text_offset",
+        "/lines/3/proposed_english",
+        "/passages/proposed_english",
+        "/publication_language_revision"
+      ]
+    },
+    "immutable_scope": "Original four initial snapshots/references, current362, all private frozen source/raw/own/current12/projections/native final QA/history remain unchanged; prior checks/review/native QA are preserved at their original stages. New CI/review/commit/push remain parent-owned."
+  }
 }
