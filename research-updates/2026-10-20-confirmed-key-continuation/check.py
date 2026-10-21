@@ -93,11 +93,15 @@ def check_package(directory, *, include_cards=True):
             records = [record for record in catalogue['cards']
                        if str(record.get('card_id')) == identifier]
             require(len(records) == 1, f'{identifier}: missing or duplicate catalogue source record')
-            pictures = [image.get('original_url') for image in records[0].get('image_records', [])
-                        if image.get('title') == 'Picture side']
-            require(len(pictures) == 1 and isinstance(pictures[0], str) and pictures[0]
-                    and card.get('source', {}).get('url') == pictures[0],
-                    f'{identifier}: source URL does not match catalogue Picture side')
+            source = card.get('source', {})
+            face = source.get('face', 'Picture side')
+            require(isinstance(face, str) and face in ('Picture side', 'Address side'),
+                    f'{identifier}: invalid source face')
+            images = [image.get('original_url') for image in records[0].get('image_records', [])
+                      if image.get('title') == face]
+            require(len(images) == 1 and isinstance(images[0], str) and images[0]
+                    and source.get('url') == images[0],
+                    f'{identifier}: source URL does not match catalogue {face}')
             cards[identifier] = check_card(card)
     return {'status': 'passed', 'anchor': totals, 'cards': cards}
 

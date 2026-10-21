@@ -110,6 +110,97 @@ class ConfirmedKeyTests(unittest.TestCase):
             self.write_source_package(target, card, [record])
             self.assertEqual(set(self.checker().check_package(target)['cards']), {'244'})
 
+    def test_package_accepts_explicit_picture_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target, card, record = self.source_package(directory)
+            card['source']['face'] = 'Picture side'
+            self.write_source_package(target, card, [record])
+            self.assertEqual(set(self.checker().check_package(target)['cards']), {'244'})
+
+    def test_package_accepts_explicit_address_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target, card, record = self.source_package(directory)
+            card['source']['face'] = 'Address side'
+            card['source']['url'] = next(image['original_url'] for image in record['image_records']
+                                         if image['title'] == 'Address side')
+            self.write_source_package(target, card, [record])
+            self.assertEqual(set(self.checker().check_package(target)['cards']), {'244'})
+
+    def test_package_rejects_address_source_without_face(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target, card, record = self.source_package(directory)
+            card['source'].pop('face', None)
+            card['source']['url'] = next(image['original_url'] for image in record['image_records']
+                                         if image['title'] == 'Address side')
+            self.write_source_package(target, card, [record])
+            with self.assertRaises(ValueError):
+                self.checker().check_package(target)
+
+    def test_package_rejects_invalid_source_face(self):
+        for face in (None, '', 'picture side', 'Address', 'Unknown side',
+                     'Picture side ', [], ['Picture side'], {}, 0, True):
+            with self.subTest(face=face), tempfile.TemporaryDirectory() as directory:
+                target, card, record = self.source_package(directory)
+                card['source']['face'] = face
+                self.write_source_package(target, card, [record])
+                with self.assertRaisesRegex(ValueError, 'face'):
+                    self.checker().check_package(target)
+
+    def test_package_rejects_missing_or_duplicate_selected_face(self):
+        for face in ('Picture side', 'Address side'):
+            for duplicate in (False, True):
+                with self.subTest(face=face, duplicate=duplicate), tempfile.TemporaryDirectory() as directory:
+                    target, card, record = self.source_package(directory)
+                    selected = next(image for image in record['image_records'] if image['title'] == face)
+                    card['source'].update(face=face, url=selected['original_url'])
+                    if duplicate:
+                        record['image_records'].append(copy.deepcopy(selected))
+                    else:
+                        record['image_records'].remove(selected)
+                    self.write_source_package(target, card, [record])
+                    with self.assertRaises(ValueError):
+                        self.checker().check_package(target)
+
+    def test_package_rejects_invalid_selected_original_url(self):
+        for face in ('Picture side', 'Address side'):
+            for value in ('missing', None, '', ' ', [], {}, 1):
+                with self.subTest(face=face, value=value), tempfile.TemporaryDirectory() as directory:
+                    target, card, record = self.source_package(directory)
+                    selected = next(image for image in record['image_records'] if image['title'] == face)
+                    card['source'].update(face=face, url=selected['original_url'])
+                    if value == 'missing':
+                        selected.pop('original_url')
+                    else:
+                        selected['original_url'] = value
+                    self.write_source_package(target, card, [record])
+                    with self.assertRaises(ValueError):
+                        self.checker().check_package(target)
+
+    def test_package_rejects_opposite_face_url(self):
+        for face, opposite in (('Picture side', 'Address side'), ('Address side', 'Picture side')):
+            with self.subTest(face=face), tempfile.TemporaryDirectory() as directory:
+                target, card, record = self.source_package(directory)
+                card['source']['face'] = face
+                card['source']['url'] = next(image['original_url'] for image in record['image_records']
+                                             if image['title'] == opposite)
+                self.write_source_package(target, card, [record])
+                with self.assertRaises(ValueError):
+                    self.checker().check_package(target)
+
+    def test_package_rejects_other_card_address_url(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target, card, record = self.source_package(directory)
+            other = copy.deepcopy(record)
+            other['card_id'] = 245
+            other_url = 'https://example.org/245-address.JPG'
+            for image in other['image_records']:
+                if image['title'] == 'Address side':
+                    image['original_url'] = other_url
+            card['source'].update(face='Address side', url=other_url)
+            self.write_source_package(target, card, [record, other])
+            with self.assertRaises(ValueError):
+                self.checker().check_package(target)
+
     def test_package_rejects_source_url_mismatch(self):
         catalogue = json.loads((ROOT / 'catalogue-records.json').read_text())
         other = next(row for row in catalogue['cards'] if row['card_id'] == 242)
@@ -141,7 +232,7 @@ class ConfirmedKeyTests(unittest.TestCase):
                     self.checker().check_package(target)
 
     def test_current_package_sources_match_catalogue(self):
-        self.assertEqual(len(self.checker().check_package(ROOT)['cards']), 81)
+        self.assertEqual(len(self.checker().check_package(ROOT)['cards']), 85)
 
     def test_card_unknown_ledger_and_source_validation(self):
         check = self.checker()
