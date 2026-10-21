@@ -1,17 +1,18 @@
 {
   "date": "2026-10-21",
-  "scope": "Bounded address-face checks for81continuation candidates; prior77cardrecords preservedexact. Newcomplete saved327–330faces inspected, no ordinaryaddress transcription redistributed.",
+  "scope": "Bounded complete address-face checks for 85 records; prior 81 card objects remain exact. New 332 Address side contains an encoded message group, distinct from ordinary address fields; other three new address faces have no additional continuous encoded group identified.",
   "reader": {
     "model": "GPT-6/Codex inherited; exact deployment unavailable",
     "temperature": null,
     "seed": null,
     "status": "Single nonblind visual face audit; no independent human/external check"
   },
-  "tool": "Root view_image complete savedaddressfaces327–330; originalbytes SHAverified; earlierper-card/history tools unchanged.",
+  "tool": "Root view_image inspected complete saved address faces 331–334; root additionally inspected complete 332 picture face. Original bytes and whole metadata hashes verified; prior per-card tools/history unchanged.",
   "limits": [
-    "No additional continuous encoded message group identified in four newfaces327–330. Historical310/320/321 isolatedmarks remainunclassified; newisolatedfaint327pink/redmark and329greyhatches also remainunclassified withrole/material/authorshipunestablished. No cipher/numeralvalues assigned.",
-    "No full address transcription, authorship identification or authenticated postal chronology is claimed.",
-    "Imagebytes,postmarks and ordinary address text remain private; only source descriptors/hash and boundary observations included."
+    "An encoded handwritten message group is identified on address face 332; original source actors independently read that actual face after a source reassignment approved before either paired freeze. No encoded handwriting identified on complete picture face 332 is a separate bounded negative observation.",
+    "No additional continuous encoded message group identified on new address faces 331,333,334. Isolated pink/red traces on333 and grey/greenish marks on334 remain unclassified; role, material, authorship, cipher value, numeral value and physical body count are unestablished.",
+    "All prior 81 address objects and their qualifications remain exact, including unclassified310/320/321/327/329 marks.",
+    "No ordinary address transcription, personal identification, authorship or authenticated postal chronology. Original image bytes, ordinary address fields and postal markings remain private."
   ],
   "cards": [
     {
@@ -2194,11 +2195,233 @@
       "reader": "RootGPT-6/Codex inherited, exactdeployment unavailable; single nonblind source-boundary check",
       "scope_limit": "Bounded visualobservation only; no ordinaryaddress transcription, identity/authorship or authenticatedpostalchronology.",
       "inspected_at_utc": "2026-10-20T23:39:02.021404+00:00"
+    },
+    {
+      "card_id": 331,
+      "source": {
+        "card_id": 331,
+        "face": "Address side",
+        "url": "https://api.hcportal.eu/media/5011/pc_hcp_331_adr.JPG",
+        "sha256": "54c1d5a1a68c6c5adb8f4dde91501c885411935cbc756f14478422536cd68381",
+        "bytes": 991605,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1650,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1650",
+        "record_json_pointer": "/data/data/1643",
+        "image_json_pointer": "/data/data/1643/datagroups/0/data/1/image/original"
+      },
+      "orientation_degrees_ccw": 0,
+      "inspected_region_native_xyxy": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "observation": "Complete saved address face inspected: conventional printed postal layout, ordinary handwriting, stamp/postmarks and source watermark. No additional continuous encoded message group identified.",
+      "cipher_region_observed": false,
+      "reader": "Root GPT-6/Codex inherited; exact deployment unavailable; single nonblind source-boundary check",
+      "scope_limit": "Bounded source-face observation; no ordinary address transcription, identities/authorship or authenticated postal chronology. Context rectangles are not segmentation or exact ink bounds.",
+      "inspected_at_utc": "2026-10-21T00:21:38.716359+00:00"
+    },
+    {
+      "card_id": 332,
+      "source": {
+        "card_id": 332,
+        "face": "Address side",
+        "url": "https://api.hcportal.eu/media/5014/pc_hcp_332_adr.JPG",
+        "sha256": "1635cb9b875823eae32ad9b4f69c18f15c06831408d3d83bb2d9566f6d1def29",
+        "bytes": 933143,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1651,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1651",
+        "record_json_pointer": "/data/data/1644",
+        "image_json_pointer": "/data/data/1644/datagroups/0/data/1/image/original"
+      },
+      "orientation_degrees_ccw": 0,
+      "inspected_region_native_xyxy": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "observation": "Continuous handwritten encoded message group identified in left field of Address side; ordinary addressing remains separately excluded. Actual encoded source face is Address side, not a relabelled picture URL.",
+      "cipher_region_observed": true,
+      "reader": "Root GPT-6/Codex inherited; exact deployment unavailable; single nonblind source-boundary check",
+      "scope_limit": "Bounded source-face observation; no ordinary address transcription, identities/authorship or authenticated postal chronology. Context rectangles are not segmentation or exact ink bounds.",
+      "inspected_at_utc": "2026-10-21T00:21:38.716359+00:00",
+      "encoded_region_context_native_xyxy": [
+        126,
+        335,
+        704,
+        772
+      ],
+      "selected_encoded_source_face": "Address side",
+      "ordinary_address_transcribed": false,
+      "picture_side_negative_observation": {
+        "url": "https://api.hcportal.eu/media/5013/pc_hcp_332_pic.JPG",
+        "sha256": "9a95d3ed23f492128c1a60df91cc6d671c17e951ba43d5a4eb7fe3b5578dc20d",
+        "source_metadata_file_sha256": "01b07ebea796182d5f71467733a39dec97bf93033b00d98d550af1efdfb8d86d",
+        "complete_face_and_all_margins_inspected": true,
+        "no_encoded_handwriting_identified": true,
+        "limits": "Source-bound negative observation only; encoded message is present on other face. Original two actors separately preserve their own observations and actual timing."
+      },
+      "source_reassignment": "Parent approved actual Address side before either original331332 paired freeze; no fake source URL, decoder or key substitution."
+    },
+    {
+      "card_id": 333,
+      "source": {
+        "card_id": 333,
+        "face": "Address side",
+        "url": "https://api.hcportal.eu/media/5017/pc_hcp_333_adr.JPG",
+        "sha256": "fa507cae7d95b9fc1e647895cd802befcfa3bd0df54bf406c0c8c11e62693816",
+        "bytes": 998661,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1652,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1652",
+        "record_json_pointer": "/data/data/1645",
+        "image_json_pointer": "/data/data/1645/datagroups/0/data/1/image/original"
+      },
+      "orientation_degrees_ccw": 0,
+      "inspected_region_native_xyxy": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "observation": "Complete saved address face inspected: conventional printed postal layout, ordinary handwriting, stamp/postmarks and source watermark. No additional continuous encoded message group identified. Isolated light pink/red traces in right and lower-left context. Their roles and material remain unclassified.",
+      "cipher_region_observed": false,
+      "reader": "Root GPT-6/Codex inherited; exact deployment unavailable; single nonblind source-boundary check",
+      "scope_limit": "Bounded source-face observation; no ordinary address transcription, identities/authorship or authenticated postal chronology. Context rectangles are not segmentation or exact ink bounds.",
+      "inspected_at_utc": "2026-10-21T00:21:38.716359+00:00",
+      "unclassified_isolated_marks": [
+        {
+          "observation": "Isolated light pink/red traces in right and lower-left context.",
+          "context_native_bbox_xyxy": [
+            1330,
+            600,
+            1470,
+            810
+          ],
+          "role": null,
+          "material": null,
+          "authorship": null,
+          "cipher_value": null,
+          "numeral_value": null,
+          "physical_encoded_body_count": null,
+          "scope": "Broad visible mark context only; not a continuous encoded group, exact ink segmentation or definitive noncipher classification."
+        },
+        {
+          "observation": "Isolated light pink/red traces in right and lower-left context.",
+          "context_native_bbox_xyxy": [
+            233,
+            1000,
+            390,
+            1120
+          ],
+          "role": null,
+          "material": null,
+          "authorship": null,
+          "cipher_value": null,
+          "numeral_value": null,
+          "physical_encoded_body_count": null,
+          "scope": "Broad visible mark context only; not a continuous encoded group, exact ink segmentation or definitive noncipher classification."
+        }
+      ]
+    },
+    {
+      "card_id": 334,
+      "source": {
+        "card_id": 334,
+        "face": "Address side",
+        "url": "https://api.hcportal.eu/media/5020/pc_hcp_334_adr.JPG",
+        "sha256": "e4cecc4c9fc8c6b5b3ea8850becb89899f45ed00bae75b4f49efe94e7453932b",
+        "bytes": 992554,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1653,
+        "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1653",
+        "record_json_pointer": "/data/data/1646",
+        "image_json_pointer": "/data/data/1646/datagroups/0/data/1/image/original"
+      },
+      "orientation_degrees_ccw": 0,
+      "inspected_region_native_xyxy": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "observation": "Complete saved address face inspected: conventional printed postal layout, ordinary handwriting, stamp/postmarks and source watermark. No additional continuous encoded message group identified. Grey smudged/short marks beneath central ordinary handwriting and short greenish traces near edges/lower right. Their roles and material remain unclassified.",
+      "cipher_region_observed": false,
+      "reader": "Root GPT-6/Codex inherited; exact deployment unavailable; single nonblind source-boundary check",
+      "scope_limit": "Bounded source-face observation; no ordinary address transcription, identities/authorship or authenticated postal chronology. Context rectangles are not segmentation or exact ink bounds.",
+      "inspected_at_utc": "2026-10-21T00:21:38.716359+00:00",
+      "unclassified_isolated_marks": [
+        {
+          "observation": "Grey smudged/short marks beneath central ordinary handwriting and short greenish traces near edges/lower right.",
+          "context_native_bbox_xyxy": [
+            760,
+            680,
+            930,
+            850
+          ],
+          "role": null,
+          "material": null,
+          "authorship": null,
+          "cipher_value": null,
+          "numeral_value": null,
+          "physical_encoded_body_count": null,
+          "scope": "Broad visible mark context only; not a continuous encoded group, exact ink segmentation or definitive noncipher classification."
+        },
+        {
+          "observation": "Grey smudged/short marks beneath central ordinary handwriting and short greenish traces near edges/lower right.",
+          "context_native_bbox_xyxy": [
+            1310,
+            890,
+            1390,
+            975
+          ],
+          "role": null,
+          "material": null,
+          "authorship": null,
+          "cipher_value": null,
+          "numeral_value": null,
+          "physical_encoded_body_count": null,
+          "scope": "Broad visible mark context only; not a continuous encoded group, exact ink segmentation or definitive noncipher classification."
+        },
+        {
+          "observation": "Grey smudged/short marks beneath central ordinary handwriting and short greenish traces near edges/lower right.",
+          "context_native_bbox_xyxy": [
+            53,
+            150,
+            107,
+            218
+          ],
+          "role": null,
+          "material": null,
+          "authorship": null,
+          "cipher_value": null,
+          "numeral_value": null,
+          "physical_encoded_body_count": null,
+          "scope": "Broad visible mark context only; not a continuous encoded group, exact ink segmentation or definitive noncipher classification."
+        }
+      ]
     }
   ],
   "batch14_checked_at_utc": "2026-10-20T19:23:56.556141+00:00",
   "batch15_checked_at_utc": "2026-10-20T20:11:29.614588+00:00",
   "batch16_checked_at_utc": "2026-10-20T20:45:09.670138+00:00",
   "batch17_checked_at_utc": "2026-10-20T21:22:25.310832+00:00",
-  "batch18_checked_at_utc": "2026-10-20T22:06:37.547410+00:00"
+  "batch18_checked_at_utc": "2026-10-20T22:06:37.547410+00:00",
+  "batch21_checked_at_utc": "2026-10-21T00:21:38.716359+00:00"
 }
