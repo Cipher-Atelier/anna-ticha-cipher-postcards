@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-22",
+  "created_at_utc": "2026-10-22T12:23:19.706762+00:00",
+  "base_commit": "396a931082a35c21d8a1dca4ad8e487f7e22934d",
+  "card_ids": [
+    384,
+    385
+  ],
+  "stage": "complete editorial hypotheses; source decipherment remains preliminary",
+  "method": "Same key-visible root context, exposed to all prior raw/literal/editorial records; source text strips reread using private unchanged batch34 images. No new source acquisition or independent/blind reading.",
+  "change_scope": "Two Markdown editions, row-aligned editorial ledger, navigation notes and an active completion priority in the queue. All source/cipher/literal JSONs, all prior queue keys/263 card objects and counts are unchanged.",
+  "editorial_ledger": "revisions/384-385-complete-working-readings.json",
+  "checks_status": "passed editorial accounting/source-preservation and focused tests; manifest refreshed for final integrity execution",
+  "preparation_history": [
+    "An initial inspection used head on a one-line historical JSON and returned an excessively large truncated display. No historical artifact was changed; following inspection used bounded structured fields.",
+    "First private audit guard incorrectly rejected newly proposed interrogative punctuation as if it were an unrepaired original mask. Guard changed to require coverage of every original mask and replay all substantive letter repairs.",
+    "The subsequent guards exposed an omitted LISTE? → LISTEK proposal on384-lower5, an NI offset that matched inside ANI??O instead of standalone NI on385-lower1, and an omitted LISTE?I → LISTEK proposal on385-lower3. All three ledger defects corrected explicitly; the last ending restoration is also flagged in the reading.",
+    "Four initial audit invocations rejected preparation before the final successful audit. No selected source/cipher/literal or raw file changed."
+  ],
+  "limits": [
+    "Whole-text interpretation coverage is not source accuracy or external confirmation.",
+    "q/g and other glyph/segmentation alternatives remain in unchanged source records; editorial replacements do not settle them.",
+    "The holiday phrase and question about illness are proposed text, not authenticated dates, meetings or health facts."
+  ],
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-22T12:29:56.952956+00:00",
+    "full_row_hypotheses": 10,
+    "explicit_editorial_spans": 54,
+    "all_substantive_letter_changes_replayed": true,
+    "unchanged_candidate_jsons": 137,
+    "unchanged_other_candidate_markdowns": 135,
+    "unchanged_historical_artifacts": 159,
+    "internal_links_checked": 263,
+    "selected_totals_unchanged": {
+      "rows": 1493,
+      "encoded_bodies": 44342,
+      "expanded_letters": 43039,
+      "ch_occurrences": 313,
+      "unknowns": 1616
+    },
+    "source_glyph_corrections": 0,
+    "new_unique_card_readings": 0,
+    "limits": "Editorial repair replay establishes accounting, not graphical accuracy or independent Czech/source validation."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "Private completion audit.py",
+      "exit_code": 0,
+      "private_log_sha256": "d94f0468bebc925de844d490f59362d8d1577b854b4d48a02a34f450f1f6922d",
+      "scope": "Exact literal-to-editorial span replay and unknown-role accounting, normalized Czech letter equality,10/10 row coverage,137 source JSONs/135 other Markdown editions/historical preservation, source bindings, unchanged selected totals and links."
+    },
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py -v",
+      "exit_code": 0,
+      "tests": 32,
+      "private_log_sha256": "2a4a41807a2f4b716c6177d021fe0aaf7e368cbe35beefaffa7bf979ae14bbe7"
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "status": "passed",
+      "files_checked": 884,
+      "private_log_sha256": "53d8720564c4558cd79c69df7c4fa4a2ec5af2fb72680f2f29ae1d2b8e00426f",
+      "scope": "Actual earlier completion snapshot. Active-priority notes and final validation metadata added afterward; manifest refreshed and final integrity rerun. No self-hash assertion."
+    }
+  ],
+  "review": {
+    "reviewer": "same root author context",
+    "independent": false,
+    "blind": false,
+    "completed_at_utc": "2026-10-22T12:30:17.220794+00:00",
+    "scope": "Actual five-document diff and full editorial sidecar, all literal spans and Czech/English row proposals; initial versions remain available at pinned base commit. Reviewed the active-priority-only queue diff; all old queue keys/objects remain identical.",
+    "resolved": [
+      "Complete editorial interpretation now covers all ten recorded units.",
+      "SI retained on385, cluster restoration V?AHONINAN → VZPOMINAM, final LISTE?I restoration and lower-to-margin join made explicit."
+    ],
+    "open": [
+      "All source-level mask/contour/CH/segmentation issues remain; no glyph correction or second source reader in this revision.",
+      "Czech-language/source review required for complete hypotheses. No identity/date/meeting/health fact authenticated."
+    ],
+    "blocking_documentation_defects": 0
+  },
+  "artifact_sha256": {
+    "revisions/384-385-complete-working-readings.json": "614724678964544ea60475048338a6655c9730af6475a96e75ca2e8bb1aa8eb6",
+    "cards/384.md": "6c751684118f917483859924c46b3f957857fccf2baae26fd2b4267ef9e37d28",
+    "cards/385.md": "33876d322451beb7e9e3894245b2bcc2f1843ebbe134d69e2f8ae7c61f8ec251"
+  },
+  "queue_priority_check": {
+    "prior_keys_and263_card_objects_unchanged": true,
+    "only_new_key": "active_completion_priority",
+    "completion_order": [
+      384,
+      385,
+      383,
+      386
+    ],
+    "new_cards_held": [
+      387,
+      388,
+      389,
+      390
+    ]
+  }
+}
