@@ -21,6 +21,8 @@ These are counts of available readings, not counts of completely solved cards. I
 
 ## What is new
 
+The [completion revision for 384–385](research-updates/2026-10-20-confirmed-key-continuation/revisions/384-385-complete-working-readings.json) adds whole-text editorial hypotheses covering all ten recorded units, with each substantive literal repair listed. Selected glyphs, masks and reading counts are unchanged. Source-level confirmation remains open; this advances interpretation coverage without promoting either card to solved status.
+
 Cards 383–386 add four newly represented card numbers. Card 375 remains among the 21 overlaps with earlier reports; its earlier report is unchanged.
 
 The [current package and complete 137-card table](research-updates/2026-10-20-confirmed-key-continuation/README.md) cover **242, 244, 249 and 253–386**. Each card has a Markdown reading and a paired JSON evidence record. The [complete card index](anna-ticha/readings.md#new-candidate-readings--20-october-2026) links every reading directly to its JSON, selected original face and catalogue record. The key is the supplied 22-entry 204/460 key; it is separate from the historical staged key used in older reports.
@@ -36,7 +38,7 @@ Read the layers in order: recorded ciphertext → literal key output → qualifi
 | External validation | The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None of the 137 current candidates is declared solved. The reported check of 204 does not validate the other cards. |
 | Historical interpretation | Sender identity, several dates, cross-region reading order and shared authorship remain unresolved. Editorial serialization is not authenticated chronology. |
 | Evidence access | Original scans, private crops and supplied correspondence/PDFs are not bundled. Public records provide provider links, hashes and derived observations; private integrity references alone do not permit independent retrieval. |
-| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next priority is 387–390. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
+| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its active completion priority is 384–385, followed by 383 and 386; new-card priority 387–390 is held until then. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
 
 For corrections, identify the card, face/region, row or position, proposed source reading and effect on the literal. Keep glyph corrections separate from language repairs.
 

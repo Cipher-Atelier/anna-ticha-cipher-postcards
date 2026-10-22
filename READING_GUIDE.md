@@ -18,6 +18,8 @@ Start with the [source catalogue or manuscript](https://crypto.hcportal.eu/dashb
 
 ## Read the current result
 
+Cards [384](research-updates/2026-10-20-confirmed-key-continuation/cards/384.md#complete-working-reading--22-october-2026) and [385](research-updates/2026-10-20-confirmed-key-continuation/cards/385.md#complete-working-reading--22-october-2026) now have complete row-by-row Czech working texts and English interpretations. Substantive letter/cluster repairs are listed separately from their unchanged source literals. Complete editorial coverage does not establish a fully verified graphical decipherment. Current work prioritizes resolving these existing readings, followed by 383/386, before adding 387–390.
+
 For collection counts and a concise list of missing evidence, start with the [review overview](REVIEW_STATUS.md): 154 of the 263 cards have a published reading, including partial proposals. This is not a solved-card count.
 
 The [continuation package](research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 137 canonical-key research candidates, most recently cards 383–386 (22 October 2026), with separate literal, qualified Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None is declared solved. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
