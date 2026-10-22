@@ -4,7 +4,7 @@ Author: Maxim Egorov
 
 ## Start here — 22 October 2026
 
-1. [Review overview and remaining gaps](../REVIEW_STATUS.md), then [current status and overview](../README.md#current-status--21-october-2026)
+1. [Review overview and remaining gaps](../REVIEW_STATUS.md), then [current status and overview](../README.md#current-status--22-october-2026)
 2. [Cards and evidence levels](readings.md), including [card 204’s original reading and reported check](card-204.md)
 3. [Literal texts](saved-six-card-literals.md) and each card’s supporting evidence; [card 199](card-199.md) has the most complete public positional package
 4. [Methods](methods.md) and [dated historical audits](../research-updates/README.md), including the four Russian readers published in PR #19
@@ -13,7 +13,7 @@ The preserved public card reports are partial readings. Their historical reports
 
 ## Preserved research
 
-The [continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 117 canonical-key research candidates, most recently cards 363–366 (21 October 2026), with separate literal, qualified Czech and English layers. Related AI source readings and nonblind reconciliation do not establish external confirmation or solved cards. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
+The [continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 121 canonical-key research candidates, most recently cards 367–370 (22 October 2026), with separate literal, qualified Czech and English layers. Related AI source readings and nonblind reconciliation do not establish external confirmation or solved cards. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
 
 | Record | What to expect |
 | --- | --- |

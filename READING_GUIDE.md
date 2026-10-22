@@ -18,9 +18,9 @@ Start with the [source catalogue or manuscript](https://crypto.hcportal.eu/dashb
 
 ## Read the current result
 
-For collection counts and a concise list of missing evidence, start with the [review overview](REVIEW_STATUS.md): 135 of the 263 cards have a published reading, including partial proposals. This is not a solved-card count.
+For collection counts and a concise list of missing evidence, start with the [review overview](REVIEW_STATUS.md): 139 of the 263 cards have a published reading, including partial proposals. This is not a solved-card count.
 
-The [continuation package](research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 117 canonical-key research candidates, most recently cards 363–366 (21 October 2026), with separate literal, qualified Czech and English layers. Related AI source readings and nonblind reconciliation do not establish external confirmation or solved cards. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
+The [continuation package](research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 121 canonical-key research candidates, most recently cards 367–370 (22 October 2026), with separate literal, qualified Czech and English layers. Related AI source readings and nonblind reconciliation do not establish external confirmation or solved cards. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
 
 [All 37 card reports](anna-ticha/readings.md) distinguish literal readings, qualified English interpretations and evidence levels. Selected cards can be read in part. The most complete public checking package is for card 199: it records each of its 532 symbol positions and the proposed letters. Other cards have separate reading reports, with different amounts of evidence.
 
