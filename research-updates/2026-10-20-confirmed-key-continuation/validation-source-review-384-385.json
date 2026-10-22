@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-22",
+  "recorded_at_utc": "2026-10-22T13:08:53.121508+00:00",
+  "base_commit": "f6fd21faad42a387a60600619e5fb4def2664602",
+  "card_ids": [
+    384,
+    385
+  ],
+  "stage": "nonblind same-context comparative source revision",
+  "status": "MECHANICAL_PASS_PROVISIONAL_NONBLIND_SOURCE_AND_REFERENCE_REVISION",
+  "limits": [
+    "One key/literal/language-visible root context; no second reader or external confirmation.",
+    "19 provisional q/g choices, CH and punctuation/segmentation alternatives remain; zero masks is not accuracy.",
+    "Two overwritten384 groups remain masked; physical totals null.",
+    "Original scans/crops and ordinary writing remain private/excluded."
+  ],
+  "source_method": {
+    "actor": "same root source/author context",
+    "key_visible": true,
+    "previous_raw_literal_and_language_hypotheses_visible": true,
+    "independent": false,
+    "blind": false,
+    "new_source_gets": 2,
+    "new_target_gets": 0,
+    "new_reference204_gets": 2,
+    "original_target_private_batch": "2026-10-22-batch34",
+    "source_review": "Whole text strips/enlarged target rows and disputed groups reread; supplied204 first-row q/g contours compared nonblind. Both complete reference faces viewed; ordinary text excluded without transcription/authentication."
+  },
+  "source_revision": "revisions/384-385-source-review.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-22T13:07:25.418898+00:00",
+    "new_cards": {
+      "384": {
+        "rows": 5,
+        "encoded_bodies": 194,
+        "expanded_letters": 195,
+        "ch_occurrences": 3,
+        "unknowns": 2
+      },
+      "385": {
+        "rows": 5,
+        "encoded_bodies": 185,
+        "expanded_letters": 186,
+        "ch_occurrences": 1,
+        "unknowns": 0
+      }
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44334,
+      "expanded_letters": 43068,
+      "ch_occurrences": 313,
+      "unknowns": 1579
+    },
+    "remaining_editorial_spans": 3,
+    "question_punctuation_choices": 8,
+    "exclamation_choice": 1,
+    "reference204_gets": 2,
+    "provisional_q_g_assignments": 19,
+    "prior_candidate_files_unchanged": 270,
+    "historical_artifacts_unchanged": 161,
+    "other_queue_objects_unchanged": 261,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 268,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "Private source-review audit.py",
+      "exit_code": 0,
+      "private_log_sha256": "5cfe9a3a73b9eb37ead86edc08107fc51ec8554d7c71589eb36dded1abe551a9",
+      "scope": "Exact prior/current/raw binding and both edit replays; two original target-image hashes; two exact204 image/catalogue bindings;19 provisional q/g assignments; intermediate states;3 residual editorial spans and mask accounting;270 other candidate files/161 historical artifacts,261 other queue objects and263 source arrays unchanged; current totals/coverage and JSON-pointer/internal links."
+    },
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py -v",
+      "exit_code": 0,
+      "tests": 32,
+      "private_log_sha256": "50366a97ca7840d05328eff5b81988f42a19e737ebec0b7b32b1428000a2645b",
+      "scope": "Final selected source values, before path/prose metadata cleanup."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "candidate_count": 137,
+      "anchor": {
+        "rows": 14,
+        "encoded_bodies": 571,
+        "expanded_letters": 576,
+        "ch_occurrences": 5,
+        "unknowns": 0
+      },
+      "private_log_sha256": "5b9431c2f2c75ae4cc5a765e158dd0353ac7b59d60f938bba934d93ca019b4a1"
+    }
+  ],
+  "review": {
+    "reviewer": "same root source/author context",
+    "independent": false,
+    "blind": false,
+    "completed_at_utc": "2026-10-22T13:08:53.121892+00:00",
+    "scope": "Actual source/cipher/literal/ledger diff, metadata, all working rows, Markdown, queue/counters and pinned whole history; later reference comparison and provisional class alternatives.",
+    "resolved": [
+      "Corrected comparative h/r,n/m,s,numeral and segmentation choices with prior alternatives preserved.",
+      "Nineteen q/g have provisional selected classes after known204 contour comparison; alternate classes/unknown alternatives retained. No universal normalization or common authorship inferred.",
+      "Eight question-shaped hook+dot forms and one final stroke+dot assigned tentative punctuation roles with encoded-body alternatives.",
+      "385 has complete provisional literal values without remaining language letter restorations; SI retained.",
+      "384 has two masked overwritten groups; these plus source TIDEN/editorial TYDEN remain3 proposals.",
+      "Updated current orientation descriptions, removed stale current-mask claims, and repaired a JSON-pointer link whose identifier had acquired an erroneous space during prose cleanup."
+    ],
+    "open": [
+      "Two overwritten384 groups remain masked; selected contours,19 q/g classes,CH and mark roles need independent source review.",
+      "Whole texts/diacritics, spelling and cross-region order remain provisional; no historical identity/date/meeting/health authentication.",
+      "Zero masks on385 do not establish source accuracy or exact physical segmentation."
+    ],
+    "blocking_documentation_findings": 0
+  },
+  "preparation_history": [
+    "Early row previews included the printed header because y estimates were too high; subsequent crops included the intended text rows. Whole text-strip views remained available. No original image was refetched or changed.",
+    "No new source-first or blind reading claimed: previous54 editorial repairs were visible throughout.",
+    "First source-review build rejected an out-of-range question token locator before any public artifact write; token locators corrected.",
+    "Second build was rejected by unchanged check_card because old aggregate counters were still present before recomputation; cleared old counters before replay. No raw or source artifact was overwritten by either rejected attempt. Successful build starts from pinned base JSON/Markdown.",
+    "After initial successful local checks, two exact204 source URLs were acquired for further comparison. The earlier local12/9-mask states and their whole JSON/Markdown are preserved as unpublished_pre_reference_checkpoint.",
+    "A reference replacement guard found ambiguous substring ?5 before any writes; full space-delimited tokens were used on the successful retry. No source refetch/raw overwrite."
+  ],
+  "artifact_sha256": {
+    "revisions/384-385-source-review.json": "5503e26620a00c7fcfd9eda1b52afe447bb44fbee479026c9ae0d2bfc7fbaa51",
+    "cards/384.json": "22715cded742ca7abc601ea53270abb17306d26bcb063e0ddd4f83bcdff16756",
+    "cards/384.md": "eca0a3aacf559b8a57ffb1dc7fc6ebf7d50ca71d336525b28674f2be083ebec6",
+    "cards/385.json": "981812e9c8d5aa58e1f2e6602b80367d71520b5a515cc905b5b89d5ada299519",
+    "cards/385.md": "1befceef97a2ff2cdde0bc6d54ea36d0c28b5c642a6f5a60f126843424cd7f26"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_at_least_partial_reading": 154,
+    "no_reading_here": 109,
+    "catalogue_total": 263,
+    "newly_represented_cards": 0
+  },
+  "reference204_acquisition": [
+    {
+      "card_id": 204,
+      "face": "Picture side",
+      "url": "https://api.hcportal.eu/media/4629/pc_hcp_204_pic.JPG",
+      "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1523",
+      "requested_utc": "2026-10-22T12:57:28.264115+00:00",
+      "completed_utc": "2026-10-22T12:57:28.680276+00:00",
+      "http_status": 200,
+      "redirects": 0,
+      "retries": 0,
+      "bytes": 1289205,
+      "sha256": "4bef5c8218f2bdc21d93743e1e9f2862d2d08d38bec3f2356203338e86a06fb0",
+      "filename": "pc_hcp_204_pic.JPG",
+      "dimensions": [
+        1900,
+        1370
+      ],
+      "purpose": "Nonblind graphical comparison to supplied canonical anchor, not an independent reading or new target-card coverage."
+    },
+    {
+      "card_id": 204,
+      "face": "Address side",
+      "url": "https://api.hcportal.eu/media/4630/pc_hcp_204_adr.JPG",
+      "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1523",
+      "requested_utc": "2026-10-22T12:57:28.727471+00:00",
+      "completed_utc": "2026-10-22T12:57:28.956110+00:00",
+      "http_status": 200,
+      "redirects": 0,
+      "retries": 0,
+      "bytes": 1122303,
+      "sha256": "d44977d9ec875348bd07994719a9c226976bfffbfe2c9893d3aeb84de6bbe7f7",
+      "filename": "pc_hcp_204_adr.JPG",
+      "dimensions": [
+        1900,
+        1370
+      ],
+      "purpose": "Nonblind graphical comparison to supplied canonical anchor, not an independent reading or new target-card coverage."
+    }
+  ],
+  "pre_reference_local_integrity": {
+    "command": "python3 verification/check_all.py",
+    "exit_code": 0,
+    "files_checked": 886,
+    "private_log_sha256": "a9bba61dea5df464d559f7aa33c8c8e193ef036957292852e26e77f735d580d1",
+    "scope": "Actual earlier local12/9-mask snapshot before204 comparison, preserved as unpublished intermediate state. Final state has new validation/manifest checks below; this receipt does not certify the later snapshot."
+  }
+}
