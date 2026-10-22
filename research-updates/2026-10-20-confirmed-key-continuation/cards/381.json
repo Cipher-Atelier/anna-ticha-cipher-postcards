@@ -1,7 +1,7 @@
 {
   "card_id": 381,
   "notation": "pdf204-canonical",
-  "status": "partial preliminary single-reader research candidate",
+  "status": "preliminary source-revised single-reader candidate with complete provisional literal and editorial reading; numeral/connector roles unresolved",
   "source": {
     "card_id": 381,
     "catalogue_id": 1700,
@@ -45,17 +45,18 @@
     "solution_status_json_pointer": "/data/data/1693/solution/name"
   },
   "orientation": {
-    "description": "Eleven sloping/stepped lower rows clockwise270. The parenthetical numeral-like cluster after tm5 is masked: its ordinary/cipher/date/time role is not assigned or decoded as digits. Marked-r cap provisional; ordinary date-like heading/publisher matter excluded.",
+    "description": "Eleven preserved sloping/stepped lower Picture-side rows read CW270. Complete working edition follows source alignment with explicit cross-row word joins. Parenthetical 17 and 18 are provisionally numerals, with encoded/unknown alternatives; the intervening 6/A connector role remains open. No unknown-glyph masks remain, but q/g, CH, segmentation, numeral roles and three language proposals remain provisional. Separate ordinary date-like heading/publisher matter excluded.",
     "native_dimensions": [
       1785,
       1175
     ],
-    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x); native→CW180: (x,y)→(1785-x,1175-y). Bounds are broad whole-block context, not exact rows or physical bodies."
+    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x); native→CW180: (x,y)→(1785-x,1175-y). Bounds are broad whole-block context, not exact rows or physical bodies.",
+    "initial_description": "Eleven sloping/stepped lower rows clockwise270. The parenthetical numeral-like cluster after tm5 is masked: its ordinary/cipher/date/time role is not assigned or decoded as digits. Marked-r cap provisional; ordinary date-like heading/publisher matter excluded."
   },
   "lines": [
     {
       "line_id": "381-main-1",
-      "ciphertext": "6m4s?3 n375 h3?n486, b4c4",
+      "ciphertext": "6m4sq3 n375 h3gn486, b4c4",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -74,47 +75,24 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 4,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 14,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 19,
           "text": ",",
           "kind": "punctuation"
         }
       ],
-      "literal": "ANIC?O MOJE RO?MILA, PISI",
+      "literal": "ANICKO MOJE ROZMILA, PISI",
       "encoded_bodies": 21,
-      "expanded_letters": 19,
+      "expanded_letters": 21,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 4,
-          "body_index": 4,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 14,
-          "body_index": 12,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "381-main-2",
-      "ciphertext": "tm5c 75cd5 75tm32 m6c85t?5n",
+      "ciphertext": "tm5c 75cd5 75tm32 m6c85tq5n",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -133,27 +111,14 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in NASLEDKEM selected provisionally. Other selected contours retained; low n/M and m/N remain provisional. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 24,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "DNES JESTE JEDNOU NASLED?EM",
+      "transcription": [],
+      "literal": "DNES JESTE JEDNOU NASLEDKEM",
       "encoded_bodies": 24,
-      "expanded_letters": 23,
+      "expanded_letters": 24,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 24,
-          "body_index": 21,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "381-main-3",
@@ -176,7 +141,7 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Selected contours unchanged. High h/R in PREDVIDANE/PRACE/NARIDILO; low n/M and m/N remain provisional. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -193,7 +158,7 @@
     },
     {
       "line_id": "381-main-4",
-      "ciphertext": "tm5c d3d4? h5t4d58cd f4 2s5dm4 f4-",
+      "ciphertext": "tm5c d3d4g h5t4d58cdf4 2s5dm4 f1-",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -212,36 +177,24 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 9,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
+          "offset": 32,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "DNES TOTI? REDITELST VI UCETNI VI-",
+      "literal": "DNES TOTIZ REDITELSTVI UCETNI VY-",
       "encoded_bodies": 28,
-      "expanded_letters": 27,
+      "expanded_letters": 28,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 9,
-          "body_index": 8,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "381-main-5",
-      "ciphertext": "?6?1, c ?d5h1n4 m5n3r2 p1d4 bh5t",
+      "ciphertext": "q6g1, c qd5h1n4 m5n3r2 p1d4 bh5t",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -260,58 +213,24 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 2,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 4,
           "text": ",",
           "kind": "punctuation"
-        },
-        {
-          "offset": 8,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "?A?Y, S ?TERYMI NEMOHU BYTI PRED",
+      "literal": "KAZY, S KTERYMI NEMOHU BYTI PRED",
       "encoded_bodies": 26,
-      "expanded_letters": 23,
+      "expanded_letters": 26,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 2,
-          "body_index": 2,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 8,
-          "body_index": 5,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "381-main-6",
-      "ciphertext": "2d5h1n r3d3f, ?d5r3 tm5 c5 n674 bh5t-",
+      "ciphertext": "2d5h1n r3d3f, qd5h5r3 tm5 c5 n674 bh5t-",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -330,7 +249,7 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -339,32 +258,20 @@
           "kind": "punctuation"
         },
         {
-          "offset": 14,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
+          "offset": 38,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "UTERYM HOTOV, ?TEHO DNE SE MAJI PRED-",
-      "encoded_bodies": 29,
-      "expanded_letters": 28,
+      "literal": "UTERYM HOTOV, KTEREHO DNE SE MAJI PRED-",
+      "encoded_bodies": 31,
+      "expanded_letters": 31,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 14,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "381-main-7",
-      "ciphertext": "83?4d4. bh3c4n d2t4? cf5 cht3s?3, 6p1 r85t583",
+      "ciphertext": "83g4d4. bh3c4n d2t4g cf5 cht3sq3, 6p1 r85t583",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -383,28 +290,13 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 2,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 6,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 19,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "text": "?",
-          "kind": "unknown_glyph"
         },
         {
           "offset": 32,
@@ -412,34 +304,15 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "LO?ITI. PROSIM TUDI? SVE SRDOC?O, ABY HLEDELO",
+      "literal": "LOZITI. PROSIM TUDIZ SVE SRDOCKO, ABY HLEDELO",
       "encoded_bodies": 37,
-      "expanded_letters": 34,
+      "expanded_letters": 37,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 2,
-          "body_index": 2,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "body_index": 16,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "body_index": 25,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "381-main-8",
-      "ciphertext": "?6h4t4d4 ?b32cd t5 bh6s5 m6 m5t584 6 b3mt584",
+      "ciphertext": "g6h4t4d4 gb3h5t d5 bh6s5 m6 m5t584 6 b3mt584",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -458,42 +331,18 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 9,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "?ARIDITI ?POUST DE PRACE NA NEDELI A PONDELI",
+      "transcription": [],
+      "literal": "ZARIDITI ZPORED TE PRACE NA NEDELI A PONDELI",
       "encoded_bodies": 37,
-      "expanded_letters": 35,
+      "expanded_letters": 37,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 9,
-          "body_index": 8,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "381-main-9",
-      "ciphertext": "bh4cd4 (tm5 ?). d4c4s fh581ř b2c",
+      "ciphertext": "bh4cd4 (tm5 17. 6 18.). d4c4s fh581ř b2c",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -512,7 +361,7 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "The parenthetical group is provisionally segmented as numeral 17, period, canonical6/A connector, numeral 18 and period. Numeral roles are excluded from replay-body totals; encoded17/YJ and18/YL or unresolved-group alternatives remain. Connector 6/A versus ordinary alphabetic a is unresolved. Marked-r CH ownership in VRELYCH remains conditional. No calendar month/year or weekday consistency authenticated. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -522,30 +371,51 @@
         },
         {
           "offset": 12,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 13,
-          "text": ")",
-          "kind": "punctuation"
+          "text": "17",
+          "kind": "numeral"
         },
         {
           "offset": 14,
           "text": ".",
           "kind": "punctuation"
+        },
+        {
+          "offset": 18,
+          "text": "18",
+          "kind": "numeral"
+        },
+        {
+          "offset": 20,
+          "text": ".",
+          "kind": "punctuation"
+        },
+        {
+          "offset": 21,
+          "text": ")",
+          "kind": "punctuation"
+        },
+        {
+          "offset": 22,
+          "text": ".",
+          "kind": "punctuation"
         }
       ],
-      "literal": "PRISTI (DNE ?). TISIC VRELYCH PUS",
+      "literal": "PRISTI (DNE 17. A 18.). TISIC VRELYCH PUS",
       "encoded_bodies": 24,
-      "expanded_letters": 24,
+      "expanded_letters": 25,
       "ch_occurrences": 1,
       "unknowns": [
         {
           "offset": 12,
-          "body_index": 9,
-          "symbol": "?",
-          "kind": "unknown_glyph"
+          "body_index": null,
+          "symbol": "17",
+          "kind": "numeral"
+        },
+        {
+          "offset": 18,
+          "body_index": null,
+          "symbol": "18",
+          "kind": "numeral"
         }
       ]
     },
@@ -570,7 +440,7 @@
         675,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Selected contours unchanged. Punctuation and cross-row clause attachment editorial; nickname/referent not independently identified. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -592,7 +462,7 @@
     },
     {
       "line_id": "381-main-11",
-      "ciphertext": "n2?5-84 6m4s?6 f m6fhr?5m5 ? tm4 bh475d4.",
+      "ciphertext": "n2g5-84 6m4sq6 f m6fhrg5m5 tf6 tm1 bh475d4.",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -611,323 +481,702 @@
         675,
         1135
       ],
-      "editorial_notes": "Crowded short t6-like group has uncertain body count/role and is masked; do not restore two days or a schedule from grammar/numeral-like shapes.",
+      "editorial_notes": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/381-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 2,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 4,
           "text": "-",
           "kind": "punctuation"
         },
         {
-          "offset": 12,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 22,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 40,
+          "offset": 42,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "MU?E-LI ANIC?A V NAVRH?ENE ? DNI PRIJETI.",
-      "encoded_bodies": 33,
-      "expanded_letters": 29,
+      "literal": "MUZE-LI ANICKA V NAVRHZENE DVA DNY PRIJETI.",
+      "encoded_bodies": 35,
+      "expanded_letters": 35,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 2,
-          "body_index": 2,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 12,
-          "body_index": 10,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 22,
-          "body_index": 18,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "body_index": 22,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     }
   ],
   "physical_encoded_body_count": null,
   "interpretive_fragments": [
     {
       "line_id": "381-main-1",
-      "literal_offset": 21,
-      "literal_fragment": "PISI",
-      "proposed_czech": "[Píši…]",
-      "proposed_english": "[I am writing…]"
+      "literal_offset": 0,
+      "literal_fragment": "ANICKO MOJE ROZMILA, PISI",
+      "proposed_czech": "Aničko moje rozmilá, píši",
+      "proposed_english": "My dear Anička, I write",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     },
     {
       "line_id": "381-main-2",
       "literal_offset": 0,
-      "literal_fragment": "DNES JESTE JEDNOU NASLED?EM",
-      "proposed_czech": "[Dnes ještě jednou následkem…?; ? requires q → K; separate fragment.]",
-      "proposed_english": "[Once again today because of…?; ? requires q → K; separate fragment.]"
+      "literal_fragment": "DNES JESTE JEDNOU NASLEDKEM",
+      "proposed_czech": "dnes ještě jednou následkem",
+      "proposed_english": "once again today because of",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     },
     {
       "line_id": "381-main-3",
       "literal_offset": 0,
       "literal_fragment": "NEPREDVIDANE PRACE. NARIDILO NAM",
-      "proposed_czech": "[Nepředvídané práce. Nařídilo nám…; cross-row join with main-2 is editorial.]",
-      "proposed_english": "[Unforeseen work. Ordered us…; joining to main-2 is editorial; no subject supplied.]"
+      "proposed_czech": "nepředvídané práce. Nařídilo nám",
+      "proposed_english": "unforeseen work. We were ordered",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     },
     {
       "line_id": "381-main-4",
-      "literal_offset": 11,
-      "literal_fragment": "REDITELST VI UCETNI VI-",
-      "proposed_czech": "[Ředitelství … účetní VI-…?; REDITELST VI requires joining a visible gap, VI- remains an incomplete literal stem; no accounting deadline restored.]",
-      "proposed_english": "[The management … accounting …?; REDITELST VI requires joining a visible gap; VI- remains incomplete. Deadline unestablished.]"
+      "literal_offset": 0,
+      "literal_fragment": "DNES TOTIZ REDITELSTVI UCETNI VY-",
+      "proposed_czech": "dnes totiž ředitelství účetní vý-",
+      "proposed_english": "today by the management to prepare accounting state-",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "381-main-5",
+      "literal_offset": 0,
+      "literal_fragment": "KAZY, S KTERYMI NEMOHU BYTI PRED",
+      "proposed_czech": "kazy, s kterými nemohu býti před",
+      "proposed_english": "ments, which I cannot finish before",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     },
     {
       "line_id": "381-main-6",
       "literal_offset": 0,
-      "literal_fragment": "UTERYM HOTOV,",
-      "proposed_czech": "[Úterým hotov…; preceding “před” lies in the previous row; no calendar date established.]",
-      "proposed_english": "[Finished by/before Tuesday…; “before” requires a cross-row join to the preceding PRED; no calendar date established.]"
+      "literal_fragment": "UTERYM HOTOV, KTEREHO DNE SE MAJI PRED-",
+      "proposed_czech": "úterým hotov, kterého dne se mají před-",
+      "proposed_english": "Tuesday, the day on which they must be sub-",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "381-main-7",
+      "literal_offset": 0,
+      "literal_fragment": "LOZITI. PROSIM TUDIZ SVE SRDOCKO, ABY HLEDELO",
+      "proposed_czech": "ložiti. Prosím tudíž své [srdéčko?], aby hledělo",
+      "proposed_english": "mitted. I therefore ask my [sweetheart?] to try",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     },
     {
       "line_id": "381-main-8",
-      "literal_offset": 25,
-      "literal_fragment": "NA NEDELI A PONDELI",
-      "proposed_czech": "[Na neděli a pondělí…; only the weekday fragment, not an authenticated meeting or numbered date.]",
-      "proposed_english": "[For Sunday and Monday…; weekday fragment, not an authenticated meeting/date.]"
+      "literal_offset": 0,
+      "literal_fragment": "ZARIDITI ZPORED TE PRACE NA NEDELI A PONDELI",
+      "proposed_czech": "zaříditi [pořad?] té práce na neděli a pondělí",
+      "proposed_english": "to arrange [the schedule?] for this work for next Sunday and Monday",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "381-main-9",
+      "literal_offset": 0,
+      "literal_fragment": "PRISTI (DNE 17. A 18.). TISIC VRELYCH PUS",
+      "proposed_czech": "příští (dne 17. a 18.). Tisíc vřelých pus",
+      "proposed_english": "(the 17th and 18th). Your Pepouš sends you a thousand warm kisses.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     },
     {
       "line_id": "381-main-10",
       "literal_offset": 0,
       "literal_fragment": "TI POSILA TVUJ PEPOUS. PROSIM O SDELENI,",
-      "proposed_czech": "[Ti posílá tvůj Pepouš. Prosím o sdělení…; nickname unverified.]",
-      "proposed_english": "[Your Pepouš sends you. Please let me know…; incomplete first clause, nickname unverified.]"
+      "proposed_czech": "ti posílá tvůj Pepouš. Prosím o sdělení,",
+      "proposed_english": "Please let me know",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     },
     {
       "line_id": "381-main-11",
-      "literal_offset": 33,
-      "literal_fragment": "PRIJETI.",
-      "proposed_czech": "[Přijeti; surrounding proposed timing remains unresolved.]",
-      "proposed_english": "[To come; surrounding proposed timing remains unresolved.]"
+      "literal_offset": 0,
+      "literal_fragment": "MUZE-LI ANICKA V NAVRHZENE DVA DNY PRIJETI.",
+      "proposed_czech": "může-li Anička v [navržené?] dva dny přijeti.",
+      "proposed_english": "whether Anička can come on the [proposed?] two days.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and numeral-role interpretation editorial; substantive language repairs listed."
     }
   ],
-  "interpretation_scope": "Only listed literal-bound fragments have Czech/English proposals. Other text remains literal and unresolved; no complete fluent translation, order between opposite/margin blocks, identity or chronology is asserted. Question marks in editorial proposals signal tentative grammar/readings, not established source punctuation; literal masks retain their recorded unknown roles.",
+  "interpretation_scope": "All eleven preserved rows have literal-bound Czech hypotheses and English interpretations. Three substantive language repairs are explicit: SRDOCKO/SRDECKO, ZPORED/PORAD and NAVRHZENE/NAVRZENE. Source ROZMILA and all three awkward forms retained in literal output. Parenthetical 17/18 are provisional numerals, with 6/A versus ordinary a connector role unresolved; no calendar month/year or weekday consistency authenticated. No independent source reading or historical confirmation.",
   "uncertainty_ledger": [
     {
       "line_id": "381-main-1",
       "offset": 4,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+      "previous_span": {
+        "offset": 4,
+        "end": 5
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-1",
       "offset": 14,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+      "previous_span": {
+        "offset": 14,
+        "end": 15
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-1",
+      "offset": 4,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-1",
+      "offset": 14,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-2",
       "offset": 24,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in NASLEDKEM selected provisionally. Other selected contours retained; low n/M and m/N remain provisional.",
+      "previous_span": {
+        "offset": 24,
+        "end": 25
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-2",
+      "offset": 24,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in NASLEDKEM selected provisionally. Other selected contours retained; low n/M and m/N remain provisional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-4",
       "offset": 9,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+      "previous_span": {
+        "offset": 9,
+        "end": 10
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-4",
+      "offset": 20,
+      "selected": "",
+      "alternatives": [
+        " ",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+      "previous_span": {
+        "offset": 20,
+        "end": 21
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-4",
+      "offset": 31,
+      "selected": "1",
+      "alternatives": [
+        "4",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+      "previous_span": {
+        "offset": 32,
+        "end": 33
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-4",
+      "offset": 9,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-5",
       "offset": 0,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-5",
       "offset": 2,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+      "previous_span": {
+        "offset": 2,
+        "end": 3
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-5",
       "offset": 8,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+      "previous_span": {
+        "offset": 8,
+        "end": 9
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-5",
+      "offset": 0,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-5",
+      "offset": 2,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-5",
+      "offset": 8,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-6",
       "offset": 14,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial.",
+      "previous_span": {
+        "offset": 14,
+        "end": 15
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-6",
+      "offset": 16,
+      "selected": "5h",
+      "alternatives": [
+        "",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial.",
+      "previous_span": {
+        "offset": 16,
+        "end": 16
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-6",
+      "offset": 14,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-7",
       "offset": 2,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+      "previous_span": {
+        "offset": 2,
+        "end": 3
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-7",
       "offset": 19,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+      "previous_span": {
+        "offset": 19,
+        "end": 20
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-7",
       "offset": 30,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+      "previous_span": {
+        "offset": 30,
+        "end": 31
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-7",
+      "offset": 2,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-7",
+      "offset": 19,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-7",
+      "offset": 30,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-8",
       "offset": 0,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-8",
       "offset": 9,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+      "previous_span": {
+        "offset": 9,
+        "end": 10
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-8",
+      "offset": 12,
+      "selected": "h5t ",
+      "alternatives": [
+        "2c",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+      "previous_span": {
+        "offset": 12,
+        "end": 14
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-8",
+      "offset": 17,
+      "selected": "",
+      "alternatives": [
+        " t",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+      "previous_span": {
+        "offset": 15,
+        "end": 17
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-8",
+      "offset": 0,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-8",
+      "offset": 9,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-9",
       "offset": 12,
-      "selected": "?",
+      "selected": "17. 6 18.",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "The parenthetical group is provisionally segmented as numeral 17, period, canonical6/A connector, numeral 18 and period. Numeral roles are excluded from replay-body totals; encoded17/YJ and18/YL or unresolved-group alternatives remain. Connector 6/A versus ordinary alphabetic a is unresolved. Marked-r CH ownership in VRELYCH remains conditional. No calendar month/year or weekday consistency authenticated.",
+      "previous_span": {
+        "offset": 12,
+        "end": 13
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-9",
-      "offset": 27,
+      "offset": 35,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key and language visible. The parenthetical group is provisionally segmented as numeral 17, period, canonical6/A connector, numeral 18 and period. Numeral roles are excluded from replay-body totals; encoded17/YJ and18/YL or unresolved-group alternatives remain. Connector 6/A versus ordinary alphabetic a is unresolved. Marked-r CH ownership in VRELYCH remains conditional. No calendar month/year or weekday consistency authenticated.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-11",
       "offset": 2,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "previous_span": {
+        "offset": 2,
+        "end": 3
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-11",
       "offset": 12,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "previous_span": {
+        "offset": 12,
+        "end": 13
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-11",
       "offset": 22,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "previous_span": {
+        "offset": 22,
+        "end": 23
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "381-main-11",
       "offset": 27,
-      "selected": "?",
+      "selected": "tf6",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "previous_span": {
+        "offset": 27,
+        "end": 28
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-11",
+      "offset": 33,
+      "selected": "1",
+      "alternatives": [
+        "4",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "previous_span": {
+        "offset": 31,
+        "end": 32
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-11",
+      "offset": 2,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-11",
+      "offset": 12,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-11",
+      "offset": 22,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "381-main-9",
+      "offset": 12,
+      "selected": "17",
+      "kind": "numeral",
+      "alternatives": [
+        "encoded 17 → YJ",
+        "unresolved numeral-like cluster"
       ],
       "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Ordinal punctuation and encoded DNE context support this provisional number role, not an authenticated calendar date."
+    },
+    {
+      "line_id": "381-main-9",
+      "offset": 18,
+      "selected": "18",
+      "kind": "numeral",
+      "alternatives": [
+        "encoded 18 → YL",
+        "unresolved numeral-like cluster"
+      ],
+      "physical_encoded_body_count": null,
+      "reason": "Ordinal punctuation and encoded DNE context support this provisional number role, not an authenticated calendar date."
+    },
+    {
+      "line_id": "381-main-9",
+      "offset": 16,
+      "selected": "6",
+      "kind": "provisional canonical encoded body",
+      "alternatives": [
+        "ordinary alphabetic a",
+        "unknown body/role"
+      ],
+      "reason": "The 6-like connector is selected canonically, but its ordinary-versus-encoded role is not established; no new ordinary-letter key entry added.",
+      "physical_encoded_body_count": null
     }
   ],
   "original_readings": [
@@ -1383,38 +1632,606 @@
     ]
   },
   "later_review": {
-    "reader": "same root context",
+    "reader": "same root AI context",
     "blind": false,
     "independent": false,
-    "completed_utc": "2026-10-22T10:59:55.031470+00:00",
+    "completed_utc": "2026-10-22T16:56:13.503550+00:00",
     "all_text_changes_from_raw": [
+      {
+        "line_id": "381-main-1",
+        "operation": "replace",
+        "raw_offset": 4,
+        "raw_end": 5,
+        "raw_selected": "?",
+        "selected_offset": 4,
+        "selected_end": 5,
+        "selected": "q",
+        "reason": "Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-1",
+        "operation": "replace",
+        "raw_offset": 14,
+        "raw_end": 15,
+        "raw_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "g",
+        "reason": "Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-2",
+        "operation": "replace",
+        "raw_offset": 24,
+        "raw_end": 25,
+        "raw_selected": "?",
+        "selected_offset": 24,
+        "selected_end": 25,
+        "selected": "q",
+        "reason": "Returning q/K in NASLEDKEM selected provisionally. Other selected contours retained; low n/M and m/N remain provisional.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-4",
+        "operation": "replace",
+        "raw_offset": 9,
+        "raw_end": 10,
+        "raw_selected": "?",
+        "selected_offset": 9,
+        "selected_end": 10,
+        "selected": "g",
+        "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-4",
+        "operation": "delete",
+        "raw_offset": 20,
+        "raw_end": 21,
+        "raw_selected": " ",
+        "selected_offset": 20,
+        "selected_end": 20,
+        "selected": "",
+        "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-4",
+        "operation": "replace",
+        "raw_offset": 32,
+        "raw_end": 33,
+        "raw_selected": "4",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "1",
+        "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-5",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-5",
+        "operation": "replace",
+        "raw_offset": 2,
+        "raw_end": 3,
+        "raw_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-5",
+        "operation": "replace",
+        "raw_offset": 8,
+        "raw_end": 9,
+        "raw_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-6",
+        "operation": "replace",
+        "raw_offset": 14,
+        "raw_end": 15,
+        "raw_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "q",
+        "reason": "Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-6",
+        "operation": "insert",
+        "raw_offset": 16,
+        "raw_end": 16,
+        "raw_selected": "",
+        "selected_offset": 16,
+        "selected_end": 18,
+        "selected": "5h",
+        "reason": "Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-7",
+        "operation": "replace",
+        "raw_offset": 2,
+        "raw_end": 3,
+        "raw_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-7",
+        "operation": "replace",
+        "raw_offset": 19,
+        "raw_end": 20,
+        "raw_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "g",
+        "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-7",
+        "operation": "replace",
+        "raw_offset": 30,
+        "raw_end": 31,
+        "raw_selected": "?",
+        "selected_offset": 30,
+        "selected_end": 31,
+        "selected": "q",
+        "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "replace",
+        "raw_offset": 9,
+        "raw_end": 10,
+        "raw_selected": "?",
+        "selected_offset": 9,
+        "selected_end": 10,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "replace",
+        "raw_offset": 12,
+        "raw_end": 14,
+        "raw_selected": "2c",
+        "selected_offset": 12,
+        "selected_end": 16,
+        "selected": "h5t ",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "delete",
+        "raw_offset": 15,
+        "raw_end": 17,
+        "raw_selected": " t",
+        "selected_offset": 17,
+        "selected_end": 17,
+        "selected": "",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-9",
+        "operation": "replace",
+        "raw_offset": 12,
+        "raw_end": 13,
+        "raw_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 21,
+        "selected": "17. 6 18.",
+        "reason": "The parenthetical group is provisionally segmented as numeral 17, period, canonical6/A connector, numeral 18 and period. Numeral roles are excluded from replay-body totals; encoded17/YJ and18/YL or unresolved-group alternatives remain. Connector 6/A versus ordinary alphabetic a is unresolved. Marked-r CH ownership in VRELYCH remains conditional. No calendar month/year or weekday consistency authenticated.",
+        "stage": "same-context key/language-visible source completion"
+      },
       {
         "line_id": "381-main-11",
         "operation": "replace",
-        "raw_offset": 27,
-        "raw_end": 29,
-        "raw_selected": "t6",
-        "selected_offset": 27,
-        "selected_end": 28,
-        "selected": "?",
-        "reason": "Crowded short t6-like group has uncertain body count/role and is masked; do not restore two days or a schedule from grammar/numeral-like shapes.",
-        "stage": "same-context nonblind post-decode source review"
+        "raw_offset": 2,
+        "raw_end": 3,
+        "raw_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "raw_offset": 12,
+        "raw_end": 13,
+        "raw_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "q",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "raw_offset": 22,
+        "raw_end": 23,
+        "raw_selected": "?",
+        "selected_offset": 22,
+        "selected_end": 23,
+        "selected": "g",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "insert",
+        "raw_offset": 28,
+        "raw_end": 28,
+        "raw_selected": "",
+        "selected_offset": 28,
+        "selected_end": 29,
+        "selected": "f",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "raw_offset": 32,
+        "raw_end": 33,
+        "raw_selected": "4",
+        "selected_offset": 33,
+        "selected_end": 34,
+        "selected": "1",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
       }
     ],
-    "locator_corrections": []
+    "all_text_changes_from_previous": [
+      {
+        "line_id": "381-main-1",
+        "operation": "replace",
+        "previous_offset": 4,
+        "previous_end": 5,
+        "previous_selected": "?",
+        "selected_offset": 4,
+        "selected_end": 5,
+        "selected": "q",
+        "reason": "Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-1",
+        "operation": "replace",
+        "previous_offset": 14,
+        "previous_end": 15,
+        "previous_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "g",
+        "reason": "Returning-loop q/K in ANICKO and open-hook g/Z in ROZMILA, compared provisionally with the preceding known 204 contour reference. Source ROZMILA retained, with no TO inserted to make a longer modern adjective.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-2",
+        "operation": "replace",
+        "previous_offset": 24,
+        "previous_end": 25,
+        "previous_selected": "?",
+        "selected_offset": 24,
+        "selected_end": 25,
+        "selected": "q",
+        "reason": "Returning q/K in NASLEDKEM selected provisionally. Other selected contours retained; low n/M and m/N remain provisional.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-4",
+        "operation": "replace",
+        "previous_offset": 9,
+        "previous_end": 10,
+        "previous_selected": "?",
+        "selected_offset": 9,
+        "selected_end": 10,
+        "selected": "g",
+        "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-4",
+        "operation": "delete",
+        "previous_offset": 20,
+        "previous_end": 21,
+        "previous_selected": " ",
+        "selected_offset": 20,
+        "selected_end": 20,
+        "selected": "",
+        "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-4",
+        "operation": "replace",
+        "previous_offset": 32,
+        "previous_end": 33,
+        "previous_selected": "4",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "1",
+        "reason": "Open-hook g/Z in TOTIZ. REDITELSTVI is a word-division join, with no letter insertion. Final narrow1/Y rather than4/I provisionally selected in VY-, compared with BYTI and numeral-like narrow strokes; VY-/KAZY is editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-5",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-5",
+        "operation": "replace",
+        "previous_offset": 2,
+        "previous_end": 3,
+        "previous_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-5",
+        "operation": "replace",
+        "previous_offset": 8,
+        "previous_end": 9,
+        "previous_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning q/K and open g/Z in KAZY; returning q/K in KTERYMI. Selected narrow1/Y and other contours retained. This is the continuation of main4 VY-.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-6",
+        "operation": "replace",
+        "previous_offset": 14,
+        "previous_end": 15,
+        "previous_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "q",
+        "reason": "Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-6",
+        "operation": "insert",
+        "previous_offset": 16,
+        "previous_end": 16,
+        "previous_selected": "",
+        "selected_offset": 16,
+        "selected_end": 18,
+        "selected": "5h",
+        "reason": "Returning q/K followed t/D5/E, a high-loop h/R plus5/E before final r/H3/O provisionally separates KTEREHO from earlier merged KTEHO. The extra selected segment is source-visible but nonblind and may be wrong; preceding whole reading retained. Word continuation PRED-/LOZITI editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-7",
+        "operation": "replace",
+        "previous_offset": 2,
+        "previous_end": 3,
+        "previous_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-7",
+        "operation": "replace",
+        "previous_offset": 19,
+        "previous_end": 20,
+        "previous_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "g",
+        "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-7",
+        "operation": "replace",
+        "previous_offset": 30,
+        "previous_end": 31,
+        "previous_selected": "?",
+        "selected_offset": 30,
+        "selected_end": 31,
+        "selected": "q",
+        "reason": "Open-hook g/Z in LOZITI and TUDIZ, returning q/K in SRDOCKO. Source3/O in SRDOCKO retained despite grammatical SRDECKO; O→E is a language proposal only. No encoded mark ownership inferred from Czech spelling.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "replace",
+        "previous_offset": 9,
+        "previous_end": 10,
+        "previous_selected": "?",
+        "selected_offset": 9,
+        "selected_end": 10,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "replace",
+        "previous_offset": 12,
+        "previous_end": 14,
+        "previous_selected": "2c",
+        "selected_offset": 12,
+        "selected_end": 16,
+        "selected": "h5t ",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-8",
+        "operation": "delete",
+        "previous_offset": 15,
+        "previous_end": 17,
+        "previous_selected": " t",
+        "selected_offset": 17,
+        "selected_end": 17,
+        "selected": "",
+        "reason": "Open-hook g/Z in ZARIDITI and initial g/Z in ZPORED; tall b/P,3/O, high h/R,5/E and t/D provisionally segment ZPORED rather than prior ?POUST. Source ZPORED retained; PORAD is only a lexical/language hypothesis (delete Z, E→A), not an ink correction. Targeted dictionary searches gave no usable authoritative confirmation; do not infer an attested word or settled meaning.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-9",
+        "operation": "replace",
+        "previous_offset": 12,
+        "previous_end": 13,
+        "previous_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 21,
+        "selected": "17. 6 18.",
+        "reason": "The parenthetical group is provisionally segmented as numeral 17, period, canonical6/A connector, numeral 18 and period. Numeral roles are excluded from replay-body totals; encoded17/YJ and18/YL or unresolved-group alternatives remain. Connector 6/A versus ordinary alphabetic a is unresolved. Marked-r CH ownership in VRELYCH remains conditional. No calendar month/year or weekday consistency authenticated.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "previous_offset": 2,
+        "previous_end": 3,
+        "previous_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "previous_offset": 12,
+        "previous_end": 13,
+        "previous_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "q",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "previous_offset": 22,
+        "previous_end": 23,
+        "previous_selected": "?",
+        "selected_offset": 22,
+        "selected_end": 23,
+        "selected": "g",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "previous_offset": 27,
+        "previous_end": 28,
+        "previous_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 30,
+        "selected": "tf6",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "381-main-11",
+        "operation": "replace",
+        "previous_offset": 31,
+        "previous_end": 32,
+        "previous_selected": "4",
+        "selected_offset": 33,
+        "selected_end": 34,
+        "selected": "1",
+        "reason": "Open-hook g/Z in MUZE and returning q/K in ANICKA. Source NAVRHZENE retains the separate r/H between h/R and g/Z; Czech NAVRZENE proposes deletion of H only in the language layer. The formerly masked group is provisionally t/D,f/V,6/A DVA; final narrow1/Y gives DNY rather than earlier DNI. Numeral/date role and grammar remain separate from these shape choices.",
+        "stage": "same-context key/language-visible source completion"
+      }
+    ],
+    "locator_corrections": [],
+    "preceding_whole_review_preserved_in": "../revisions/381-source-completion.json#/whole_previous_json/later_review"
   },
   "limits": [
     "Single key-visible AI source reader; no blind, second-reader, human or external confirmation.",
-    "Oval-descender q/g distinctions masked. Other provisional shapes may be wrong.",
-    "Question masks may cover unknown-length clusters; all physical body totals null.",
     "Marked-r CH is conditional; r with detached/unassigned mark remains an alternative.",
-    "Ordinary address/date/people/postal/printed matter excluded without transcription or historical authentication.",
+    "Separate ordinary heading/address/date/people/postal/printed matter excluded without transcription/authentication; parenthetical message numerals are separately recorded provisional roles.",
     "Marked-r CH ownership is conditional; zero/low masks do not exclude glyph errors.",
     "Raw-before-computational-decode is not a blind reading: key and prior project context were visible.",
-    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval."
+    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval.",
+    "Selected q/g classes follow a provisional nonblind comparison with unchanged known 204 contours; alternatives retained.",
+    "Zero unknown display masks does not establish source accuracy, physical body totals or a solved card. Numeral/connector roles, all contours and three language proposals remain open."
   ],
-  "encoded_bodies": 319,
-  "expanded_letters": 302,
+  "source_completion_revision": "../revisions/381-source-completion.json",
+  "encoded_bodies": 323,
+  "expanded_letters": 324,
   "ch_occurrences": 1,
-  "unknowns": 18
+  "unknowns": 0
 }

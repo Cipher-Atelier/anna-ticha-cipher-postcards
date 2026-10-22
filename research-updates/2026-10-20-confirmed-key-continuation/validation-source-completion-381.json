@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-22",
+  "recorded_at_utc": "2026-10-22T16:57:56.350819+00:00",
+  "base_commit": "c6ec65cbb6657ac53b3fe7a749735bac52333c23",
+  "card_ids": [
+    381
+  ],
+  "stage": "same-context nonblind source completion, full editorial reading and provisional numeral/connector roles",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Every revised contour, q/g class, segmentation, CH and punctuation role is provisional. No second reader or human/external confirmation.",
+    "Complete editorial coverage and fewer masks do not establish source accuracy, complete decipherment or solved status.",
+    "Numeral roles, connector role and cross-row joins remain provisional; no identity, date, work schedule or historical event authenticated.",
+    "Ordinary addressing, separate ordinary date and printed/postal matter excluded without transcription/authentication."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 381 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Initial batch33 raw and first computational decoder returns preserved unchanged.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary handwritten addressing and postal/printed matter visible; no separate cipher-shaped run recognized in the visible complete frame. Bounded negative; no erased, obscured or unrecognized material certified absent. No ordinary writing transcribed or historically authenticated.",
+      "reader": "same root AI, key and language visible",
+      "individual_view_timestamps": null,
+      "new_original_image_http_requests": 0
+    },
+    "ordering": "Eleven CW270 source-aligned rows; cross-row word joins remain editorial.",
+    "lexical_lookup": {
+      "queries": [
+        "\"zpořad\" slovník",
+        "\"zpořed\" slovník",
+        "\"zpořad\" site:ujc.cas.cz",
+        "\"zpořed\" site:ujc.cas.cz",
+        "\"spořad\" site:ujc.cas.cz"
+      ],
+      "result": "No usable authoritative matching entry returned by these bounded queries. Irrelevant search results were not used as lexical evidence. This does not establish that the form is absent from Czech.",
+      "effect": "No lexical confirmation claimed; PORAD/schedule remains a language hypothesis.",
+      "performed_in_same_nonblind_context": true
+    }
+  },
+  "source_revision": "revisions/381-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-22T16:56:24.260649+00:00",
+    "card381": {
+      "rows": 11,
+      "encoded_bodies": 323,
+      "expanded_letters": 324,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44355,
+      "expanded_letters": 43313,
+      "ch_occurrences": 312,
+      "unknowns": 1354
+    },
+    "remaining_editorial_spans": 3,
+    "provisional_q_g_assignments": 16,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 169,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 283,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-22T16:56:24.260649+00:00",
+        "card381": {
+          "rows": 11,
+          "encoded_bodies": 323,
+          "expanded_letters": 324,
+          "ch_occurrences": 1,
+          "unknowns": 0
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44355,
+          "expanded_letters": 43313,
+          "ch_occurrences": 312,
+          "unknowns": 1354
+        },
+        "remaining_editorial_spans": 3,
+        "provisional_q_g_assignments": 16,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 169,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "all_source_raw_initial_decode_objects_unchanged": true,
+        "raw_and_previous_edit_replays": true,
+        "internal_links_checked": 283,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 894,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual source JSON, Markdown/guide/queue diff, all eleven literal-bound rows, numeral/connector alternatives, exact edits and immutable-source guards. Whole preceding JSON/Markdown and frozen raw/initial decode preserved.",
+    "findings": [
+      "Zero unknown-glyph display slots; two numeral spans, connector role, all 16 q/g classes and one CH slot remain provisional.",
+      "Three language proposals explicit: SRDOCKO/SRDECKO, ZPORED/PORAD and NAVRHZENE/NAVRZENE. All awkward source forms and ROZMILA retained. ZPORED meaning unconfirmed.",
+      "Numerals 17/18 retain encoded YJ/YL or unknown alternatives; 6/A retains ordinary a/unknown-role alternatives. No calendar month/year or weekday consistency authenticated.",
+      "Other 272 candidate files, 169 historical artifacts, 262 other queue objects and all 263 source arrays unchanged. Coverage stays 154/263 including partial readings."
+    ],
+    "disposition": "Publish provisional full working reading with explicit contour/role/language limitations; deepen earlier partial 380 next."
+  },
+  "preparation_history": [
+    "Existing originals reused and complete faces viewed. Private lossless crop/rotation/enlargement previews did not alter source bytes; no original-image acquisition failure or retry.",
+    "Parenthetical 17/18 are recorded as provisional number roles rather than silently decoded YJ/YL; physical totals remain null.",
+    "Targeted dictionary searches supplied no usable authoritative lexical confirmation; no lexical attestation claimed. All source awkward forms remain separate from language proposals.",
+    "Review clarified that excluded ordinary context refers to the separate heading/address/postal/printed matter, while message numerals have explicit provisional roles.",
+    "Focused tests, package replay and preservation/order/language-span/role audit passed. No failed mechanical check run recorded in this stage."
+  ],
+  "artifact_sha256": {
+    "cards/381.json": "70659981383c6d7cba0a2fb21264b98dca4dbf891ae682dda398fa336552609f",
+    "cards/381.md": "efc9dc16ce879f2b0b1aebfa834105909e1f2c9e0b0a729178a8bffe96f56647",
+    "revisions/381-source-completion.json": "a8c61c11e2b949a74d1d7cb01b88c6836390ff915d44c75a8ae048770022aafb"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
