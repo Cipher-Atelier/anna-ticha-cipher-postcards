@@ -1,7 +1,7 @@
 {
   "card_id": 382,
   "notation": "pdf204-canonical",
-  "status": "partial preliminary single-reader research candidate",
+  "status": "preliminary source-revised single-reader candidate with complete editorial working reading; two source clusters retained as unknown",
   "source": {
     "card_id": 382,
     "catalogue_id": 1701,
@@ -45,17 +45,18 @@
     "solution_status_json_pointer": "/data/data/1694/solution/name"
   },
   "orientation": {
-    "description": "Twenty-two selected main/closing spatial rows clockwise90 and one small interlinear run near main13–14. Tiny run attachment, sequence and exact body boundaries unresolved; serialized separately to avoid silently combining it with another row. All masks can have unknown physical length; ordinary date-like and publisher matter excluded.",
+    "description": "Twenty-two preserved main/closing spatial rows read CW90, plus a separately stored small interlinear run near main13–14. Full working edition proposes the insertion after main13, supported by placement and language; attachment and all cross-row joins remain editorial. Two unknown body/mark/overwritten clusters remain in main4 and the insertion. q/g, CH and five question-punctuation roles remain provisional. Ordinary date-like/publisher matter excluded.",
     "native_dimensions": [
       1785,
       1175
     ],
-    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x); native→CW180: (x,y)→(1785-x,1175-y). Bounds are broad whole-block context, not exact rows or physical bodies."
+    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x); native→CW180: (x,y)→(1785-x,1175-y). Bounds are broad whole-block context, not exact rows or physical bodies.",
+    "initial_description": "Twenty-two selected main/closing spatial rows clockwise90 and one small interlinear run near main13–14. Tiny run attachment, sequence and exact body boundaries unresolved; serialized separately to avoid silently combining it with another row. All masks can have unknown physical length; ordinary date-like and publisher matter excluded."
   },
   "lines": [
     {
       "line_id": "382-main-1",
-      "ciphertext": "fh581 t4?, ?86d4s?3 n375 75t4m5",
+      "ciphertext": "fh581 t4q, g86d4sq3 n375 75t4m5",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -74,58 +75,24 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 8,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 9,
           "text": ",",
           "kind": "punctuation"
-        },
-        {
-          "offset": 11,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "VRELY DI?, ?LATIC?O MOJE JEDINE",
+      "literal": "VRELY DIK, ZLATICKO MOJE JEDINE",
       "encoded_bodies": 26,
-      "expanded_letters": 23,
+      "expanded_letters": 26,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 8,
-          "body_index": 7,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 11,
-          "body_index": 8,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "body_index": 14,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-2",
-      "ciphertext": "?6 tm5cm4 th6r5 h6t?1. p18 7c5n",
+      "ciphertext": "g6 tm5cm4 th6r5 h6tq1. p18 7c5n",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -144,47 +111,24 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 21,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "?A DNESNI DRAHE RAD?Y. BYL JSEM",
+      "literal": "ZA DNESNI DRAHE RADKY. BYL JSEM",
       "encoded_bodies": 25,
-      "expanded_letters": 23,
+      "expanded_letters": 25,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "body_index": 16,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-3",
-      "ciphertext": "f58n4 cn2d5m, ?t4? 6m4 fs5h6 6m4",
+      "ciphertext": "f58n4 cn2d5m, qt1g 6m4 fs5h6 6m4",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -203,47 +147,24 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
           "offset": 12,
           "text": ",",
           "kind": "punctuation"
-        },
-        {
-          "offset": 14,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "VELMI SMUTEN, ?DI? ANI VCERA ANI",
+      "literal": "VELMI SMUTEN, KDYZ ANI VCERA ANI",
       "encoded_bodies": 26,
-      "expanded_letters": 24,
+      "expanded_letters": 26,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 14,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "body_index": 14,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-4",
-      "ciphertext": "tm5c bhfm4 b3cd32 m5t3cd6?81. f?b3-",
+      "ciphertext": "tm5c bhfm4 b3cd32 m5t3?6g581. fgb3-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -262,11 +183,11 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 25,
+          "offset": 22,
           "text": "?",
           "kind": "unknown_glyph"
         },
@@ -276,30 +197,19 @@
           "kind": "punctuation"
         },
         {
-          "offset": 31,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 34,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "DNES PRVNI POSTOU NEDOSTA?LY. V?PO-",
+      "literal": "DNES PRVNI POSTOU NEDO?AZELY. VZPO-",
       "encoded_bodies": 29,
-      "expanded_letters": 27,
+      "expanded_letters": 28,
       "ch_occurrences": 0,
       "unknowns": [
         {
-          "offset": 25,
-          "body_index": 22,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "body_index": 26,
+          "offset": 22,
+          "body_index": 19,
           "symbol": "?",
           "kind": "unknown_glyph"
         }
@@ -307,7 +217,7 @@
     },
     {
       "line_id": "382-main-5",
-      "ciphertext": "n4m6n m6 d5p5 3t b3c85tm4 cř2??1",
+      "ciphertext": "n4m6n m6 d5p5 3t b3c85tm4 cř2gq1",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -326,42 +236,18 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Low n/M and m/N, marked-r CH plus open g/Z and returning q/K in SCHUZKY. CH ownership remains conditional. The VZPO-/MINAM join follows adjacent source rows but remains editorial. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 29,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "MINAM NA TEBE OD POSLEDNI SCHU??Y",
+      "transcription": [],
+      "literal": "MINAM NA TEBE OD POSLEDNI SCHUZKY",
       "encoded_bodies": 27,
-      "expanded_letters": 26,
+      "expanded_letters": 28,
       "ch_occurrences": 1,
-      "unknowns": [
-        {
-          "offset": 29,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "body_index": 25,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-6",
-      "ciphertext": "m52cd685 6 cd1c?6 c5 n4 b3 d3p5",
+      "ciphertext": "m52cd685 6 cd1cq6 c5 n4 b3 d3p5",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -380,31 +266,18 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in STYSKA; low n/M in MI. Other selected contours unchanged; no language repair hidden in literal. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 15,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "NEUSTALE A STYS?A SE MI PO TOBE",
+      "transcription": [],
+      "literal": "NEUSTALE A STYSKA SE MI PO TOBE",
       "encoded_bodies": 25,
-      "expanded_letters": 24,
+      "expanded_letters": 25,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 15,
-          "body_index": 13,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-7",
-      "ciphertext": "m5cn4hm5. ?t3 75 3m5m df27 b6m",
+      "ciphertext": "m5cn4hm5. qt3 75 3m5m df27 b6m",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -423,36 +296,24 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in KDO; high h/R in NESMIRNE; hook7/J in TVUJ retained. No referent identified. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
           "offset": 8,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 10,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "NESMIRNE. ?DO JE ONEN TVUJ PAN",
+      "literal": "NESMIRNE. KDO JE ONEN TVUJ PAN",
       "encoded_bodies": 24,
-      "expanded_letters": 23,
+      "expanded_letters": 24,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 10,
-          "body_index": 8,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-8",
-      "ciphertext": "?h6dh6m5s b3r2c, 75m? d5 ?4dh6",
+      "ciphertext": "ph6dh6m5s p3r2c, 75mg d5 g4dh6",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -471,58 +332,24 @@
         1720,
         1130
       ],
-      "editorial_notes": "Initial body of hh6dh6m5s has competing oval/stem traces, not securely h versus b/p. Mask instead of identifying a relative or restoring a name from Czech.",
+      "editorial_notes": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 15,
           "text": ",",
           "kind": "punctuation"
-        },
-        {
-          "offset": 20,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 25,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "?RATRANEC POHUS, JEN? TE ?ITRA",
+      "literal": "BRATRANEC BOHUS, JENZ TE ZITRA",
       "encoded_bodies": 25,
-      "expanded_letters": 22,
+      "expanded_letters": 25,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 20,
-          "body_index": 17,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 25,
-          "body_index": 20,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-9",
-      "ciphertext": "m6fcd4f4? n4?t1 75r c5 3 m5n m5-",
+      "ciphertext": "m6fcd4f4 ? m4qt1 7c4 c5 3 m5n m5-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -541,47 +368,29 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 8,
+          "offset": 9,
           "text": "?",
-          "kind": "unknown_glyph"
+          "kind": "punctuation"
         },
         {
-          "offset": 12,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
+          "offset": 32,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "NAVSTIVI? MI?DY JEH SE O NEM NE-",
-      "encoded_bodies": 25,
-      "expanded_letters": 23,
+      "literal": "NAVSTIVI ? NIKDY JSI SE O NEM NE-",
+      "encoded_bodies": 24,
+      "expanded_letters": 24,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 8,
-          "body_index": 8,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 12,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-10",
-      "ciphertext": "?n4m486. 76? d3, ?5 d4 f6m275 d6?",
+      "ciphertext": "gn4m486. 76q d3, g5 d4 f6m275 d6q",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -600,74 +409,29 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 7,
           "text": ".",
           "kind": "punctuation"
         },
         {
-          "offset": 11,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 15,
           "text": ",",
           "kind": "punctuation"
-        },
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 32,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "?MINILA. JA? TO, ?E TI VANUJE TA?",
+      "literal": "ZMINILA. JAK TO, ZE TI VANUJE TAK",
       "encoded_bodies": 25,
-      "expanded_letters": 21,
+      "expanded_letters": 25,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 11,
-          "body_index": 9,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "body_index": 12,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 32,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-11",
-      "ciphertext": "t832r32 n4n3h6tm32 m6fcd5f2? m5c32-",
+      "ciphertext": "t832r32 n4n3h6tm32 m6fcd5f2 ? m5c32-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -686,32 +450,25 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Standalone hook/dot after NAVSTEVU provisionally question punctuation, not an unknown glyph. Tall h/R in MIMORADNOU and unmarked r/H in DLOUHOU retained; NESOU- continues into main12. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 27,
+          "offset": 28,
           "text": "?",
-          "kind": "unknown_glyph"
+          "kind": "punctuation"
         },
         {
-          "offset": 34,
+          "offset": 35,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "DLOUHOU MIMORADNOU NAVSTEVU? NESOU-",
-      "encoded_bodies": 31,
+      "literal": "DLOUHOU MIMORADNOU NAVSTEVU ? NESOU-",
+      "encoded_bodies": 30,
       "expanded_letters": 30,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 27,
-          "body_index": 25,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-12",
@@ -734,7 +491,7 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Selected contours unchanged. The NESOU-/VISI join with the preceding row and word division remain editorial. No conversation historically authenticated. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -751,7 +508,7 @@
     },
     {
       "line_id": "382-main-13",
-      "ciphertext": "?d5h1 7c4 n586 bh5t cf1n 3t75?t5n",
+      "ciphertext": "qd5h1 7c4 n586 bh5t cf1n 3t75gt5n",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -770,42 +527,18 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 29,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "?TERY JSI MELA PRED SVYM ODJE?DEM",
+      "transcription": [],
+      "literal": "KTERY JSI MELA PRED SVYM ODJEZDEM",
       "encoded_bodies": 28,
-      "expanded_letters": 26,
+      "expanded_letters": 28,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 29,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-14",
-      "ciphertext": "?6f4t4n n2, ?5 d5 p2t5 t5mm5 f4-",
+      "ciphertext": "g6f4t4n n2, g5 d5 p2t5 t5mm5 f4-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -824,23 +557,13 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 10,
           "text": ",",
           "kind": "punctuation"
-        },
-        {
-          "offset": 12,
-          "text": "?",
-          "kind": "unknown_glyph"
         },
         {
           "offset": 31,
@@ -848,28 +571,15 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "?AVIDIM MU, ?E TE BUDE DENNE VI-",
+      "literal": "ZAVIDIM MU, ZE TE BUDE DENNE VI-",
       "encoded_bodies": 24,
-      "expanded_letters": 22,
+      "expanded_letters": 24,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 12,
-          "body_index": 9,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-15",
-      "ciphertext": "t6d4 6 d5 t3bh3f6?5d4. d6?5 76,",
+      "ciphertext": "t6d4 6 d5 t3bh3f6g5d4. d6q5 76,",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -888,23 +598,13 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 21,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 25,
-          "text": "?",
-          "kind": "unknown_glyph"
         },
         {
           "offset": 30,
@@ -912,28 +612,15 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "DATI A TE DOPROVA?ETI. TA?E JA,",
+      "literal": "DATI A TE DOPROVAZETI. TAKE JA,",
       "encoded_bodies": 24,
-      "expanded_letters": 22,
+      "expanded_letters": 24,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 17,
-          "body_index": 14,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 25,
-          "body_index": 20,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-16",
-      "ciphertext": "6m4s?3 n375 75t4m6 s4d4n c5",
+      "ciphertext": "6m4sq3 n375 75t4m6 s4d4n c5",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -952,31 +639,18 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in ANICKO, angular s/C and narrow4/I. Other selected contours unchanged; name/reference unconfirmed. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 4,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "ANIC?O MOJE JEDINA CITIM SE",
+      "transcription": [],
+      "literal": "ANICKO MOJE JEDINA CITIM SE",
       "encoded_bodies": 23,
-      "expanded_letters": 22,
+      "expanded_letters": 23,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 4,
-          "body_index": 4,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-17",
-      "ciphertext": "2 d5p5 f?t1 d6? cd6cd5m. m5?6-",
+      "ciphertext": "2 d5p5 fgt1 d6q cd6cd5m. m5g6-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -995,63 +669,29 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 8,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 14,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 23,
           "text": ".",
           "kind": "punctuation"
         },
         {
-          "offset": 27,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 29,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "U TEBE V?DY TA? STASTEN. NE?A-",
+      "literal": "U TEBE VZDY TAK STASTEN. NEZA-",
       "encoded_bodies": 23,
-      "expanded_letters": 20,
+      "expanded_letters": 23,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 8,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 14,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "body_index": 21,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-18",
-      "ciphertext": "b3n5m5c m6 nm5? d4c4s t832r1ř, f6cm4-",
+      "ciphertext": "b3n5m5c m6 nm5 ? d4c4s t832r1ř, f6cm4-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -1070,37 +710,30 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Standalone question-shaped hook with low dot after MNE provisionally punctuation. Marked-r CH ownership in DLOUHYCH remains conditional; low n/M and m/N retained. VASNI- continues into main19. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 14,
+          "offset": 15,
           "text": "?",
-          "kind": "unknown_glyph"
+          "kind": "punctuation"
         },
         {
-          "offset": 29,
+          "offset": 30,
           "text": ",",
           "kind": "punctuation"
         },
         {
-          "offset": 36,
+          "offset": 37,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "POMENES NA MNE? TISIC DLOUHYCH, VASNI-",
-      "encoded_bodies": 30,
+      "literal": "POMENES NA MNE ? TISIC DLOUHYCH, VASNI-",
+      "encoded_bodies": 29,
       "expanded_letters": 30,
       "ch_occurrences": 1,
-      "unknowns": [
-        {
-          "offset": 14,
-          "body_index": 12,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-19",
@@ -1123,7 +756,7 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Selected contours unchanged; conditional marked-r CH in VYCH. VASNI-/VYCH join and punctuation/diacritics editorial. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [],
       "literal": "VYCH PUS TI POSILA JEN TVUJ A VECNE",
@@ -1134,7 +767,7 @@
     },
     {
       "line_id": "382-main-20",
-      "ciphertext": "df27 b5b32c. bh3c4n, b3c84 n4 ph?3 84-",
+      "ciphertext": "df27 b5b32c. bh3c4n, b3c84 n4 phg3 84-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -1153,7 +786,7 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open-hook g/Z in BRZO selected provisionally; high h/R retained. LI- joins following STEK; nickname/reference not independently identified. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -1167,32 +800,20 @@
           "kind": "punctuation"
         },
         {
-          "offset": 32,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 37,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "TVUJ PEPOUS. PROSIM, POSLI MI BR?O LI-",
+      "literal": "TVUJ PEPOUS. PROSIM, POSLI MI BRZO LI-",
       "encoded_bodies": 29,
-      "expanded_letters": 28,
+      "expanded_letters": 29,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 32,
-          "body_index": 25,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-21",
-      "ciphertext": "cd5?. f ?d5h1 t5m bh575 c4 n5 cht5s?3 n37 m6c85-",
+      "ciphertext": "cd5q. f qd5h1 t5m bh575 c4 n5 cht5sq3 n37 m6c85-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -1211,28 +832,13 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 3,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 4,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 8,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 35,
-          "text": "?",
-          "kind": "unknown_glyph"
         },
         {
           "offset": 47,
@@ -1240,34 +846,15 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "STE?. V ?TERY DEN PREJE SI ME SRDEC?O MOJ NASLE-",
+      "literal": "STEK. V KTERY DEN PREJE SI ME SRDECKO MOJ NASLE-",
       "encoded_bodies": 37,
-      "expanded_letters": 34,
+      "expanded_letters": 37,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 3,
-          "body_index": 3,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 8,
-          "body_index": 5,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 35,
-          "body_index": 27,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-main-22",
-      "ciphertext": "t274s4 84cd5??",
+      "ciphertext": "t274s4 84cd5q ?",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -1286,42 +873,24 @@
         1720,
         1130
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 12,
+          "offset": 14,
           "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 13,
-          "text": "?",
-          "kind": "unknown_glyph"
+          "kind": "punctuation"
         }
       ],
-      "literal": "DUJICI LISTE??",
-      "encoded_bodies": 13,
-      "expanded_letters": 11,
+      "literal": "DUJICI LISTEK ?",
+      "encoded_bodies": 12,
+      "expanded_letters": 12,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 12,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 13,
-          "body_index": 12,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "382-interlinear-1",
-      "ciphertext": "c n4?cd4f32 b6m4?",
+      "ciphertext": "c n4?cd4f32 b6m4 ?",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -1340,7 +909,7 @@
         1335,
         735
       ],
-      "editorial_notes": "The enlarged tiny run shows additional faint/merged curves between4 andc beyond the frozen segmentation. Retain an unknown-length mask; no fluent honorific or extra definite letters are supplied.",
+      "editorial_notes": "Tiny interlinear group overlaps descenders of main13. S and MI plus STIVOU are provisionally selected, but the central merged/overwritten cluster remains one unknown display slot of unknown physical length; LO is a language proposal only. Final small hook/dot provisionally question punctuation. Attachment after main13 is editorial and remains open. Same-context nonblind, provisional; preceding complete edition and all changes retained in ../revisions/382-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -1349,25 +918,19 @@
           "kind": "unknown_glyph"
         },
         {
-          "offset": 16,
+          "offset": 17,
           "text": "?",
-          "kind": "unknown_glyph"
+          "kind": "punctuation"
         }
       ],
-      "literal": "S MI?STIVOU PANI?",
-      "encoded_bodies": 15,
+      "literal": "S MI?STIVOU PANI ?",
+      "encoded_bodies": 14,
       "expanded_letters": 13,
       "ch_occurrences": 0,
       "unknowns": [
         {
           "offset": 4,
           "body_index": 3,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 16,
-          "body_index": 14,
           "symbol": "?",
           "kind": "unknown_glyph"
         }
@@ -1377,544 +940,1347 @@
   "physical_encoded_body_count": null,
   "interpretive_fragments": [
     {
+      "line_id": "382-main-1",
+      "literal_offset": 0,
+      "literal_fragment": "VRELY DIK, ZLATICKO MOJE JEDINE",
+      "proposed_czech": "Vřelý dík, zlatíčko moje jediné,",
+      "proposed_english": "Warm thanks, my one and only darling,",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-2",
+      "literal_offset": 0,
+      "literal_fragment": "ZA DNESNI DRAHE RADKY. BYL JSEM",
+      "proposed_czech": "za dnešní drahé řádky. Byl jsem",
+      "proposed_english": "for today’s dear lines. I was",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
       "line_id": "382-main-3",
       "literal_offset": 0,
-      "literal_fragment": "VELMI SMUTEN,",
-      "proposed_czech": "[Velmi smuten…]",
-      "proposed_english": "[Very sad…]"
+      "literal_fragment": "VELMI SMUTEN, KDYZ ANI VCERA ANI",
+      "proposed_czech": "velmi smuten, když ani včera ani",
+      "proposed_english": "very sad when neither yesterday nor",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-4",
+      "literal_offset": 0,
+      "literal_fragment": "DNES PRVNI POSTOU NEDO?AZELY. VZPO-",
+      "proposed_czech": "dnes první poštou [nedocházely?]. Vzpo-",
+      "proposed_english": "today did they [arrive?] with the first post. I have been think-",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-5",
       "literal_offset": 0,
-      "literal_fragment": "MINAM NA TEBE OD POSLEDNI SCHU??Y",
-      "proposed_czech": "[MINAM na tebe od poslední schůzky?; MINAM is the visible cross-row ending of a separate stem, no hidden prefix supplied; SCHU??Y requires Z/K, CH provisional.]",
-      "proposed_english": "[MINAM … of you since the last meeting?; MINAM is a cross-row ending, not a restored full verb; SCHU??Y requires Z/K, provisional CH.]"
+      "literal_fragment": "MINAM NA TEBE OD POSLEDNI SCHUZKY",
+      "proposed_czech": "mínám na tebe od poslední schůzky",
+      "proposed_english": "ing of you since our last meeting",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-6",
       "literal_offset": 0,
-      "literal_fragment": "NEUSTALE A STYS?A SE MI PO TOBE",
-      "proposed_czech": "[Neustále a stýská se mi po tobě?; ? requires q → K.]",
-      "proposed_english": "[Constantly, and I miss you?; ? requires q → K.]"
+      "literal_fragment": "NEUSTALE A STYSKA SE MI PO TOBE",
+      "proposed_czech": "neustále a stýská se mi po tobě",
+      "proposed_english": "constantly, and I miss you",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-7",
       "literal_offset": 0,
-      "literal_fragment": "NESMIRNE. ?DO JE ONEN TVUJ PAN",
-      "proposed_czech": "[Nesmírně. Kdo je onen tvůj pan…?; ? requires q → K; person/relationship left unresolved.]",
-      "proposed_english": "[Very much. Who is that gentleman of yours…?; ? requires q → K; person/relationship unresolved.]"
+      "literal_fragment": "NESMIRNE. KDO JE ONEN TVUJ PAN",
+      "proposed_czech": "nesmírně. Kdo je onen tvůj pan",
+      "proposed_english": "immensely. Who is that gentleman of yours,",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-8",
+      "literal_offset": 0,
+      "literal_fragment": "BRATRANEC BOHUS, JENZ TE ZITRA",
+      "proposed_czech": "bratranec Bohuš, jenž tě zítra",
+      "proposed_english": "your cousin Bohuš, who is to visit you tomorrow?",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-9",
+      "literal_offset": 0,
+      "literal_fragment": "NAVSTIVI ? NIKDY JSI SE O NEM NE-",
+      "proposed_czech": "navštíví? Nikdy jsi se o něm ne-",
+      "proposed_english": "You have never mentioned him be-",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-10",
+      "literal_offset": 0,
+      "literal_fragment": "ZMINILA. JAK TO, ZE TI VANUJE TAK",
+      "proposed_czech": "zmínila. Jak to, že ti [věnuje?] tak",
+      "proposed_english": "fore. How is it that he is [paying you?] such",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-11",
       "literal_offset": 0,
-      "literal_fragment": "DLOUHOU MIMORADNOU NAVSTEVU",
-      "proposed_czech": "[Dlouhou mimořádnou návštěvu…; fragment, not proof of an actual visit.]",
-      "proposed_english": "[A long exceptional visit…; fragment, not proof that a visit occurred.]"
+      "literal_fragment": "DLOUHOU MIMORADNOU NAVSTEVU ? NESOU-",
+      "proposed_czech": "dlouhou mimořádnou návštěvu? Nesou-",
+      "proposed_english": "a long, exceptional visit? Is his visit not",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-12",
       "literal_offset": 0,
       "literal_fragment": "VISI JEHO NAVSTEVA S ONIM HOVOREM,",
-      "proposed_czech": "[VISI jeho návštěva s oním hovorem…; VISI is a cross-row ending, no prefix or global order authenticated.]",
-      "proposed_english": "[VISI … his visit with that conversation…; VISI is a cross-row ending, no prefix/order authenticated.]"
+      "proposed_czech": "visí jeho návštěva s oním hovorem,",
+      "proposed_english": "connected with the conversation",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-13",
       "literal_offset": 0,
-      "literal_fragment": "?TERY JSI MELA PRED SVYM ODJE?DEM",
-      "proposed_czech": "[Který jsi měla před svým odjezdem?; conditional q/g choices.]",
-      "proposed_english": "[Which you had before your departure?; conditional q/g choices; departure not historically authenticated.]"
+      "literal_fragment": "KTERY JSI MELA PRED SVYM ODJEZDEM",
+      "proposed_czech": "který jsi měla před svým odjezdem",
+      "proposed_english": "you had before your departure",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-14",
+      "literal_offset": 0,
+      "literal_fragment": "ZAVIDIM MU, ZE TE BUDE DENNE VI-",
+      "proposed_czech": "Závidím mu, že tě bude denně ví-",
+      "proposed_english": "I envy him being able to see you every day",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-15",
       "literal_offset": 0,
-      "literal_fragment": "DATI A TE DOPROVA?ETI. TA?E JA,",
-      "proposed_czech": "[DATI a tě doprovázeti. Také já?; DATI is a separate cross-row ending; conditional g/q choices.]",
-      "proposed_english": "[DATI … and accompany you. I too?; DATI is a cross-row ending; conditional g/q choices.]"
+      "literal_fragment": "DATI A TE DOPROVAZETI. TAKE JA,",
+      "proposed_czech": "dati a tě doprovázeti. Také já,",
+      "proposed_english": "and accompany you. I too,",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-16",
       "literal_offset": 0,
-      "literal_fragment": "ANIC?O MOJE JEDINA CITIM SE",
-      "proposed_czech": "[Aničko moje jediná, cítím se…?; ? requires q → K, punctuation editorial.]",
-      "proposed_english": "[My one and only Anička, I feel…?; ? requires q → K, punctuation editorial.]"
+      "literal_fragment": "ANICKO MOJE JEDINA CITIM SE",
+      "proposed_czech": "Aničko moje jediná, cítím se",
+      "proposed_english": "my one and only Anička, feel",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-17",
       "literal_offset": 0,
-      "literal_fragment": "U TEBE V?DY TA? STASTEN.",
-      "proposed_czech": "[U tebe vždy tak šťasten?; ? require g → Z and q → K.]",
-      "proposed_english": "[Always so happy with you?; conditional g/q choices.]"
+      "literal_fragment": "U TEBE VZDY TAK STASTEN. NEZA-",
+      "proposed_czech": "u tebe vždy tak šťasten. Neza-",
+      "proposed_english": "so happy with you always. You won’t for-",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-18",
+      "literal_offset": 0,
+      "literal_fragment": "POMENES NA MNE ? TISIC DLOUHYCH, VASNI-",
+      "proposed_czech": "pomeneš na mne? Tisíc dlouhých, vášni-",
+      "proposed_english": "get me? A thousand long, passion-",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-19",
       "literal_offset": 0,
       "literal_fragment": "VYCH PUS TI POSILA JEN TVUJ A VECNE",
-      "proposed_czech": "[VYCH pus ti posílá jen tvůj a věčně…; VYCH is a separate ending; CH provisional.]",
-      "proposed_english": "[VYCH … kisses are sent to you only by yours and forever…; VYCH is a detached ending; provisional CH.]"
+      "proposed_czech": "vých pus ti posílá jen tvůj a věčně",
+      "proposed_english": "ate kisses are sent to you by yours alone and forever",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     },
     {
       "line_id": "382-main-20",
       "literal_offset": 0,
-      "literal_fragment": "TVUJ PEPOUS. PROSIM, POSLI MI BR?O LI-",
-      "proposed_czech": "[Tvůj Pepouš. Prosím, pošli mi brzo LI-…?; ? requires g → Z; LI- not silently joined to another row; nickname unidentified.]",
-      "proposed_english": "[Your Pepouš. Please send me soon LI-…?; ? requires g → Z; no silent cross-row join; nickname unidentified.]"
+      "literal_fragment": "TVUJ PEPOUS. PROSIM, POSLI MI BRZO LI-",
+      "proposed_czech": "tvůj Pepouš. Prosím, pošli mi brzo lí-",
+      "proposed_english": "your Pepouš. Please send me a little let-",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-21",
+      "literal_offset": 0,
+      "literal_fragment": "STEK. V KTERY DEN PREJE SI ME SRDECKO MOJ NASLE-",
+      "proposed_czech": "stek. V který den přeje si mé srdéčko moj násle-",
+      "proposed_english": "ter soon. On which day would my sweetheart like my next",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-main-22",
+      "literal_offset": 0,
+      "literal_fragment": "DUJICI LISTEK ?",
+      "proposed_czech": "dující lístek?",
+      "proposed_english": "little letter?",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
+    },
+    {
+      "line_id": "382-interlinear-1",
+      "literal_offset": 0,
+      "literal_fragment": "S MI?STIVOU PANI ?",
+      "proposed_czech": "s [milostivou?] paní?",
+      "proposed_english": "with [the gracious?] lady?",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, joins and interlinear attachment editorial; substantive language repairs listed."
     }
   ],
-  "interpretation_scope": "Only listed literal-bound fragments have Czech/English proposals. Other text remains literal and unresolved; no complete fluent translation, order between opposite/margin blocks, identity or chronology is asserted. Question marks in editorial proposals signal tentative grammar/readings, not established source punctuation; literal masks retain their recorded unknown roles.",
+  "interpretation_scope": "All twenty-three preserved spatial units have literal-bound Czech hypotheses and English interpretations in an explicit order proposing the interlinear run after main13. Three substantive language repairs remain explicit: NEDOCHAZELY, VENUJE and MILOSTIVOU. Source VANUJE and MOJ retained in literal output, with MOJ also retained in the Czech working text. No independent source reading, identity, relationship, date or historical event authenticated.",
   "uncertainty_ledger": [
     {
       "line_id": "382-main-1",
       "offset": 8,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+      "previous_span": {
+        "offset": 8,
+        "end": 9
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-1",
       "offset": 11,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+      "previous_span": {
+        "offset": 11,
+        "end": 12
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-1",
       "offset": 17,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+      "previous_span": {
+        "offset": 17,
+        "end": 18
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-1",
+      "offset": 8,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-1",
+      "offset": 11,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-1",
+      "offset": 17,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-2",
       "offset": 0,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-2",
       "offset": 19,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+      "previous_span": {
+        "offset": 19,
+        "end": 20
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-2",
+      "offset": 0,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-2",
+      "offset": 19,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-3",
       "offset": 14,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+      "previous_span": {
+        "offset": 14,
+        "end": 15
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-3",
+      "offset": 16,
+      "selected": "1g",
+      "alternatives": [
+        "4?",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+      "previous_span": {
+        "offset": 16,
+        "end": 18
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-3",
+      "offset": 14,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-3",
       "offset": 17,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "q",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-4",
-      "offset": 25,
+      "offset": 22,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "cd",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+      "previous_span": {
+        "offset": 22,
+        "end": 24
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-4",
+      "offset": 24,
+      "selected": "g5",
+      "alternatives": [
+        "?",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+      "previous_span": {
+        "offset": 25,
+        "end": 26
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-4",
       "offset": 31,
+      "selected": "g",
+      "alternatives": [
+        "?",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+      "previous_span": {
+        "offset": 31,
+        "end": 32
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-4",
+      "offset": 22,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "r/H with mark belonging to neighbouring ink",
+        "ř/CH with assigned mark",
+        "unresolved body/mark cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-4",
+      "offset": 24,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-4",
+      "offset": 31,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-5",
+      "offset": 29,
+      "selected": "gq",
+      "alternatives": [
+        "??",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Low n/M and m/N, marked-r CH plus open g/Z and returning q/K in SCHUZKY. CH ownership remains conditional. The VZPO-/MINAM join follows adjacent source rows but remains editorial.",
+      "previous_span": {
+        "offset": 29,
+        "end": 31
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-5",
       "offset": 27,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key and language visible. Low n/M and m/N, marked-r CH plus open g/Z and returning q/K in SCHUZKY. CH ownership remains conditional. The VZPO-/MINAM join follows adjacent source rows but remains editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-5",
       "offset": 29,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "q",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Low n/M and m/N, marked-r CH plus open g/Z and returning q/K in SCHUZKY. CH ownership remains conditional. The VZPO-/MINAM join follows adjacent source rows but remains editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-5",
       "offset": 30,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Low n/M and m/N, marked-r CH plus open g/Z and returning q/K in SCHUZKY. CH ownership remains conditional. The VZPO-/MINAM join follows adjacent source rows but remains editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-6",
       "offset": 15,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in STYSKA; low n/M in MI. Other selected contours unchanged; no language repair hidden in literal.",
+      "previous_span": {
+        "offset": 15,
+        "end": 16
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-6",
+      "offset": 15,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in STYSKA; low n/M in MI. Other selected contours unchanged; no language repair hidden in literal.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-7",
       "offset": 10,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KDO; high h/R in NESMIRNE; hook7/J in TVUJ retained. No referent identified.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-7",
+      "offset": 10,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in KDO; high h/R in NESMIRNE; hook7/J in TVUJ retained. No referent identified.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-8",
       "offset": 0,
-      "selected": "?",
+      "selected": "p",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-8",
+      "offset": 10,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-8",
       "offset": 20,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+      "previous_span": {
+        "offset": 20,
+        "end": 21
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-8",
       "offset": 25,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+      "previous_span": {
+        "offset": 25,
+        "end": 26
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-8",
+      "offset": 20,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-8",
+      "offset": 25,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-9",
       "offset": 8,
-      "selected": "?",
+      "selected": " ",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+      "previous_span": {
+        "offset": 8,
+        "end": 8
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-9",
-      "offset": 12,
+      "offset": 11,
+      "selected": "m",
+      "alternatives": [
+        "n",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-9",
+      "offset": 13,
+      "selected": "q",
+      "alternatives": [
+        "?",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+      "previous_span": {
+        "offset": 12,
+        "end": 13
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-9",
+      "offset": 18,
+      "selected": "c4",
+      "alternatives": [
+        "5r",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+      "previous_span": {
+        "offset": 17,
+        "end": 19
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-9",
+      "offset": 9,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown encoded body/cluster",
+        "detached mark or differently owned punctuation"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-9",
+      "offset": 13,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-10",
       "offset": 0,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-10",
       "offset": 11,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "previous_span": {
+        "offset": 11,
+        "end": 12
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-10",
       "offset": 17,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "previous_span": {
+        "offset": 17,
+        "end": 18
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-10",
       "offset": 32,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "previous_span": {
+        "offset": 32,
+        "end": 33
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-10",
+      "offset": 0,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-10",
+      "offset": 11,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-10",
+      "offset": 17,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-10",
+      "offset": 32,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-11",
       "offset": 27,
+      "selected": " ",
+      "alternatives": [
+        "",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Standalone hook/dot after NAVSTEVU provisionally question punctuation, not an unknown glyph. Tall h/R in MIMORADNOU and unmarked r/H in DLOUHOU retained; NESOU- continues into main12.",
+      "previous_span": {
+        "offset": 27,
+        "end": 27
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-11",
+      "offset": 28,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown encoded body/cluster",
+        "detached mark or differently owned punctuation"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Standalone hook/dot after NAVSTEVU provisionally question punctuation, not an unknown glyph. Tall h/R in MIMORADNOU and unmarked r/H in DLOUHOU retained; NESOU- continues into main12.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-13",
       "offset": 0,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-13",
       "offset": 29,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+      "previous_span": {
+        "offset": 29,
+        "end": 30
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-13",
+      "offset": 0,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-13",
+      "offset": 29,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-14",
       "offset": 0,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-14",
       "offset": 12,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+      "previous_span": {
+        "offset": 12,
+        "end": 13
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-14",
+      "offset": 0,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-14",
+      "offset": 12,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-15",
       "offset": 17,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+      "previous_span": {
+        "offset": 17,
+        "end": 18
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-15",
       "offset": 25,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+      "previous_span": {
+        "offset": 25,
+        "end": 26
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-15",
+      "offset": 17,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-15",
+      "offset": 25,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-16",
       "offset": 4,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in ANICKO, angular s/C and narrow4/I. Other selected contours unchanged; name/reference unconfirmed.",
+      "previous_span": {
+        "offset": 4,
+        "end": 5
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-16",
+      "offset": 4,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in ANICKO, angular s/C and narrow4/I. Other selected contours unchanged; name/reference unconfirmed.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-17",
       "offset": 8,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+      "previous_span": {
+        "offset": 8,
+        "end": 9
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-17",
       "offset": 14,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+      "previous_span": {
+        "offset": 14,
+        "end": 15
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-17",
       "offset": 27,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+      "previous_span": {
+        "offset": 27,
+        "end": 28
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-17",
+      "offset": 8,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-17",
+      "offset": 14,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-17",
+      "offset": 27,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-18",
       "offset": 14,
-      "selected": "?",
+      "selected": " ",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Standalone question-shaped hook with low dot after MNE provisionally punctuation. Marked-r CH ownership in DLOUHYCH remains conditional; low n/M and m/N retained. VASNI- continues into main19.",
+      "previous_span": {
+        "offset": 14,
+        "end": 14
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-18",
-      "offset": 28,
+      "offset": 15,
+      "selected": "?",
+      "alternatives": [
+        "unknown encoded body/cluster",
+        "detached mark or differently owned punctuation"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Standalone question-shaped hook with low dot after MNE provisionally punctuation. Marked-r CH ownership in DLOUHYCH remains conditional; low n/M and m/N retained. VASNI- continues into main19.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-18",
+      "offset": 29,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key and language visible. Standalone question-shaped hook with low dot after MNE provisionally punctuation. Marked-r CH ownership in DLOUHYCH remains conditional; low n/M and m/N retained. VASNI- continues into main19.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-19",
       "offset": 2,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key and language visible. Selected contours unchanged; conditional marked-r CH in VYCH. VASNI-/VYCH join and punctuation/diacritics editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-20",
       "offset": 32,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open-hook g/Z in BRZO selected provisionally; high h/R retained. LI- joins following STEK; nickname/reference not independently identified.",
+      "previous_span": {
+        "offset": 32,
+        "end": 33
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-20",
+      "offset": 32,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Open-hook g/Z in BRZO selected provisionally; high h/R retained. LI- joins following STEK; nickname/reference not independently identified.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-21",
       "offset": 3,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+      "previous_span": {
+        "offset": 3,
+        "end": 4
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-21",
       "offset": 8,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+      "previous_span": {
+        "offset": 8,
+        "end": 9
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-21",
       "offset": 35,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+      "previous_span": {
+        "offset": 35,
+        "end": 36
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-21",
+      "offset": 3,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-21",
+      "offset": 8,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-21",
+      "offset": 35,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-22",
       "offset": 12,
-      "selected": "?",
+      "selected": "q ",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "",
+        "unresolved or differently segmented contour/cluster"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+      "previous_span": {
+        "offset": 12,
+        "end": 12
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-main-22",
-      "offset": 13,
+      "offset": 15,
+      "selected": "",
+      "alternatives": [
+        "?",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+      "previous_span": {
+        "offset": 13,
+        "end": 14
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-22",
+      "offset": 12,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-main-22",
+      "offset": 14,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown encoded body/cluster",
+        "detached mark or differently owned punctuation"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "382-interlinear-1",
+      "offset": 16,
+      "selected": " ",
+      "alternatives": [
+        "",
+        "unresolved or differently segmented contour/cluster"
+      ],
+      "reason": "Tiny interlinear group overlaps descenders of main13. S and MI plus STIVOU are provisionally selected, but the central merged/overwritten cluster remains one unknown display slot of unknown physical length; LO is a language proposal only. Final small hook/dot provisionally question punctuation. Attachment after main13 is editorial and remains open.",
+      "previous_span": {
+        "offset": 16,
+        "end": 16
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-interlinear-1",
       "offset": 4,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "83/LO as two bodies",
+        "other merged/overwritten cluster of unknown length"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Tiny interlinear group overlaps descenders of main13. S and MI plus STIVOU are provisionally selected, but the central merged/overwritten cluster remains one unknown display slot of unknown physical length; LO is a language proposal only. Final small hook/dot provisionally question punctuation. Attachment after main13 is editorial and remains open.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "382-interlinear-1",
-      "offset": 16,
+      "offset": 17,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown encoded body/cluster",
+        "detached mark or differently owned punctuation"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key and language visible. Tiny interlinear group overlaps descenders of main13. S and MI plus STIVOU are provisionally selected, but the central merged/overwritten cluster remains one unknown display slot of unknown physical length; LO is a language proposal only. Final small hook/dot provisionally question punctuation. Attachment after main13 is editorial and remains open.",
+      "physical_encoded_body_count": null
     }
   ],
   "original_readings": [
@@ -2808,11 +3174,167 @@
     ]
   },
   "later_review": {
-    "reader": "same root context",
+    "reader": "same root AI context",
     "blind": false,
     "independent": false,
-    "completed_utc": "2026-10-22T10:59:55.033642+00:00",
+    "completed_utc": "2026-10-22T16:20:17.022211+00:00",
     "all_text_changes_from_raw": [
+      {
+        "line_id": "382-main-1",
+        "operation": "replace",
+        "raw_offset": 8,
+        "raw_end": 9,
+        "raw_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-1",
+        "operation": "replace",
+        "raw_offset": 11,
+        "raw_end": 12,
+        "raw_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "g",
+        "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-1",
+        "operation": "replace",
+        "raw_offset": 17,
+        "raw_end": 18,
+        "raw_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "q",
+        "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-2",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-2",
+        "operation": "replace",
+        "raw_offset": 19,
+        "raw_end": 20,
+        "raw_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "q",
+        "reason": "Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-3",
+        "operation": "replace",
+        "raw_offset": 14,
+        "raw_end": 15,
+        "raw_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "q",
+        "reason": "Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-3",
+        "operation": "replace",
+        "raw_offset": 16,
+        "raw_end": 18,
+        "raw_selected": "4?",
+        "selected_offset": 16,
+        "selected_end": 18,
+        "selected": "1g",
+        "reason": "Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-4",
+        "operation": "replace",
+        "raw_offset": 22,
+        "raw_end": 24,
+        "raw_selected": "cd",
+        "selected_offset": 22,
+        "selected_end": 23,
+        "selected": "?",
+        "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-4",
+        "operation": "replace",
+        "raw_offset": 25,
+        "raw_end": 26,
+        "raw_selected": "?",
+        "selected_offset": 24,
+        "selected_end": 26,
+        "selected": "g5",
+        "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-4",
+        "operation": "replace",
+        "raw_offset": 31,
+        "raw_end": 32,
+        "raw_selected": "?",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "g",
+        "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-5",
+        "operation": "replace",
+        "raw_offset": 29,
+        "raw_end": 31,
+        "raw_selected": "??",
+        "selected_offset": 29,
+        "selected_end": 31,
+        "selected": "gq",
+        "reason": "Low n/M and m/N, marked-r CH plus open g/Z and returning q/K in SCHUZKY. CH ownership remains conditional. The VZPO-/MINAM join follows adjacent source rows but remains editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-6",
+        "operation": "replace",
+        "raw_offset": 15,
+        "raw_end": 16,
+        "raw_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 16,
+        "selected": "q",
+        "reason": "Returning q/K in STYSKA; low n/M in MI. Other selected contours unchanged; no language repair hidden in literal.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-7",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in KDO; high h/R in NESMIRNE; hook7/J in TVUJ retained. No referent identified.",
+        "stage": "same-context key/language-visible source completion"
+      },
       {
         "line_id": "382-main-8",
         "operation": "replace",
@@ -2821,9 +3343,357 @@
         "raw_selected": "h",
         "selected_offset": 0,
         "selected_end": 1,
-        "selected": "?",
-        "reason": "Initial body of hh6dh6m5s has competing oval/stem traces, not securely h versus b/p. Mask instead of identifying a relative or restoring a name from Czech.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected": "p",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-8",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "b",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "p",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-8",
+        "operation": "replace",
+        "raw_offset": 20,
+        "raw_end": 21,
+        "raw_selected": "?",
+        "selected_offset": 20,
+        "selected_end": 21,
+        "selected": "g",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-8",
+        "operation": "replace",
+        "raw_offset": 25,
+        "raw_end": 26,
+        "raw_selected": "?",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "g",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "insert",
+        "raw_offset": 8,
+        "raw_end": 8,
+        "raw_selected": "",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": " ",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "n",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "m",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "replace",
+        "raw_offset": 12,
+        "raw_end": 13,
+        "raw_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "replace",
+        "raw_offset": 17,
+        "raw_end": 19,
+        "raw_selected": "5r",
+        "selected_offset": 18,
+        "selected_end": 20,
+        "selected": "c4",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "raw_offset": 11,
+        "raw_end": 12,
+        "raw_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "q",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "raw_offset": 17,
+        "raw_end": 18,
+        "raw_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "raw_offset": 32,
+        "raw_end": 33,
+        "raw_selected": "?",
+        "selected_offset": 32,
+        "selected_end": 33,
+        "selected": "q",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-11",
+        "operation": "insert",
+        "raw_offset": 27,
+        "raw_end": 27,
+        "raw_selected": "",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": " ",
+        "reason": "Standalone hook/dot after NAVSTEVU provisionally question punctuation, not an unknown glyph. Tall h/R in MIMORADNOU and unmarked r/H in DLOUHOU retained; NESOU- continues into main12.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-13",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-13",
+        "operation": "replace",
+        "raw_offset": 29,
+        "raw_end": 30,
+        "raw_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "g",
+        "reason": "Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-14",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-14",
+        "operation": "replace",
+        "raw_offset": 12,
+        "raw_end": 13,
+        "raw_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "g",
+        "reason": "Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-15",
+        "operation": "replace",
+        "raw_offset": 17,
+        "raw_end": 18,
+        "raw_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "g",
+        "reason": "Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-15",
+        "operation": "replace",
+        "raw_offset": 25,
+        "raw_end": 26,
+        "raw_selected": "?",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "q",
+        "reason": "Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-16",
+        "operation": "replace",
+        "raw_offset": 4,
+        "raw_end": 5,
+        "raw_selected": "?",
+        "selected_offset": 4,
+        "selected_end": 5,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKO, angular s/C and narrow4/I. Other selected contours unchanged; name/reference unconfirmed.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-17",
+        "operation": "replace",
+        "raw_offset": 8,
+        "raw_end": 9,
+        "raw_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "g",
+        "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-17",
+        "operation": "replace",
+        "raw_offset": 14,
+        "raw_end": 15,
+        "raw_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "q",
+        "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-17",
+        "operation": "replace",
+        "raw_offset": 27,
+        "raw_end": 28,
+        "raw_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "g",
+        "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-18",
+        "operation": "insert",
+        "raw_offset": 14,
+        "raw_end": 14,
+        "raw_selected": "",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": " ",
+        "reason": "Standalone question-shaped hook with low dot after MNE provisionally punctuation. Marked-r CH ownership in DLOUHYCH remains conditional; low n/M and m/N retained. VASNI- continues into main19.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-20",
+        "operation": "replace",
+        "raw_offset": 32,
+        "raw_end": 33,
+        "raw_selected": "?",
+        "selected_offset": 32,
+        "selected_end": 33,
+        "selected": "g",
+        "reason": "Open-hook g/Z in BRZO selected provisionally; high h/R retained. LI- joins following STEK; nickname/reference not independently identified.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-21",
+        "operation": "replace",
+        "raw_offset": 3,
+        "raw_end": 4,
+        "raw_selected": "?",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "q",
+        "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-21",
+        "operation": "replace",
+        "raw_offset": 8,
+        "raw_end": 9,
+        "raw_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-21",
+        "operation": "replace",
+        "raw_offset": 35,
+        "raw_end": 36,
+        "raw_selected": "?",
+        "selected_offset": 35,
+        "selected_end": 36,
+        "selected": "q",
+        "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-22",
+        "operation": "insert",
+        "raw_offset": 12,
+        "raw_end": 12,
+        "raw_selected": "",
+        "selected_offset": 12,
+        "selected_end": 14,
+        "selected": "q ",
+        "reason": "Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-22",
+        "operation": "delete",
+        "raw_offset": 13,
+        "raw_end": 14,
+        "raw_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 15,
+        "selected": "",
+        "reason": "Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+        "stage": "same-context key/language-visible source completion"
       },
       {
         "line_id": "382-interlinear-1",
@@ -2834,41 +3704,569 @@
         "selected_offset": 4,
         "selected_end": 5,
         "selected": "?",
-        "reason": "The enlarged tiny run shows additional faint/merged curves between4 andc beyond the frozen segmentation. Retain an unknown-length mask; no fluent honorific or extra definite letters are supplied.",
-        "stage": "same-context nonblind post-decode source review"
-      }
-    ],
-    "locator_corrections": [
+        "reason": "Tiny interlinear group overlaps descenders of main13. S and MI plus STIVOU are provisionally selected, but the central merged/overwritten cluster remains one unknown display slot of unknown physical length; LO is a language proposal only. Final small hook/dot provisionally question punctuation. Attachment after main13 is editorial and remains open.",
+        "stage": "same-context key/language-visible source completion"
+      },
       {
         "line_id": "382-interlinear-1",
-        "raw_box": [
-          450,
-          1150,
-          1135,
-          1260
-        ],
-        "selected_box": [
-          440,
-          1110,
-          1140,
-          1335
-        ],
-        "reason": "Enlarged contextual view includes complete tiny run and both neighbouring main rows; broad context only."
+        "operation": "insert",
+        "raw_offset": 15,
+        "raw_end": 15,
+        "raw_selected": "",
+        "selected_offset": 16,
+        "selected_end": 17,
+        "selected": " ",
+        "reason": "Tiny interlinear group overlaps descenders of main13. S and MI plus STIVOU are provisionally selected, but the central merged/overwritten cluster remains one unknown display slot of unknown physical length; LO is a language proposal only. Final small hook/dot provisionally question punctuation. Attachment after main13 is editorial and remains open.",
+        "stage": "same-context key/language-visible source completion"
       }
-    ]
+    ],
+    "all_text_changes_from_previous": [
+      {
+        "line_id": "382-main-1",
+        "operation": "replace",
+        "previous_offset": 8,
+        "previous_end": 9,
+        "previous_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-1",
+        "operation": "replace",
+        "previous_offset": 11,
+        "previous_end": 12,
+        "previous_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "g",
+        "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-1",
+        "operation": "replace",
+        "previous_offset": 17,
+        "previous_end": 18,
+        "previous_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "q",
+        "reason": "Returning-loop q/K in DIK and ZLATICKO, open-hook g/Z in ZLATICKO; angular s/C. Separate contour classes compared provisionally with the preceding known 204 reference; no universal shape rule inferred.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-2",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-2",
+        "operation": "replace",
+        "previous_offset": 19,
+        "previous_end": 20,
+        "previous_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "q",
+        "reason": "Open-hook g/Z; tall h/R versus r/H in DRAHE/RADKY; returning q/K. Low final n/M in JSEM. Source narrow1/Y in RADKY retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-3",
+        "operation": "replace",
+        "previous_offset": 14,
+        "previous_end": 15,
+        "previous_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "q",
+        "reason": "Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-3",
+        "operation": "replace",
+        "previous_offset": 16,
+        "previous_end": 18,
+        "previous_selected": "4?",
+        "selected_offset": 16,
+        "selected_end": 18,
+        "selected": "1g",
+        "reason": "Returning q/K, t/D, narrow1/Y and open-hook g/Z give KDYZ rather than earlier ?DI?. Other selected contours retained; tall h/R in VCERA.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-4",
+        "operation": "replace",
+        "previous_offset": 22,
+        "previous_end": 24,
+        "previous_selected": "cd",
+        "selected_offset": 22,
+        "selected_end": 23,
+        "selected": "?",
+        "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-4",
+        "operation": "replace",
+        "previous_offset": 25,
+        "previous_end": 26,
+        "previous_selected": "?",
+        "selected_offset": 24,
+        "selected_end": 26,
+        "selected": "g5",
+        "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-4",
+        "operation": "replace",
+        "previous_offset": 31,
+        "previous_end": 32,
+        "previous_selected": "?",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "g",
+        "reason": "The group after NEDO has an r-like body whose possible CH mark overlaps neighbouring ink/descender. Its modifier ownership is not secure; mask the entire body/mark group, retaining r/H and ř/CH alternatives. Following6/A, open-hook g/Z,5/E8/L1/Y selected provisionally. NEDOCHAZELY is a language proposal only; VZPO- continues into main5.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-5",
+        "operation": "replace",
+        "previous_offset": 29,
+        "previous_end": 31,
+        "previous_selected": "??",
+        "selected_offset": 29,
+        "selected_end": 31,
+        "selected": "gq",
+        "reason": "Low n/M and m/N, marked-r CH plus open g/Z and returning q/K in SCHUZKY. CH ownership remains conditional. The VZPO-/MINAM join follows adjacent source rows but remains editorial.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-6",
+        "operation": "replace",
+        "previous_offset": 15,
+        "previous_end": 16,
+        "previous_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 16,
+        "selected": "q",
+        "reason": "Returning q/K in STYSKA; low n/M in MI. Other selected contours unchanged; no language repair hidden in literal.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-7",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in KDO; high h/R in NESMIRNE; hook7/J in TVUJ retained. No referent identified.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-8",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "p",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-8",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "b",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "p",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-8",
+        "operation": "replace",
+        "previous_offset": 20,
+        "previous_end": 21,
+        "previous_selected": "?",
+        "selected_offset": 20,
+        "selected_end": 21,
+        "selected": "g",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-8",
+        "operation": "replace",
+        "previous_offset": 25,
+        "previous_end": 26,
+        "previous_selected": "?",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "g",
+        "reason": "Descending p/B rather than tall-loop b/P at both BRATRANEC and BOHUS, compared with BYL in main2 and PRVNI in main4. Tall h/R versus r/H; final angular s/C; open g/Z in JENZ and ZITRA. Name/referent is a provisional reading, not an identification.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "insert",
+        "previous_offset": 8,
+        "previous_end": 8,
+        "previous_selected": "",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": " ",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "n",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "m",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "replace",
+        "previous_offset": 12,
+        "previous_end": 13,
+        "previous_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-9",
+        "operation": "replace",
+        "previous_offset": 17,
+        "previous_end": 19,
+        "previous_selected": "5r",
+        "selected_offset": 18,
+        "selected_end": 20,
+        "selected": "c4",
+        "reason": "Standalone hook and low dot after NAVSTIVI provisionally question punctuation. In JSI, hook7/J, open c/S and narrow4/I selected rather than earlier75r JEH; source shape/segmentation choices remain provisional. Returning q/K in NIKDY.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "previous_offset": 11,
+        "previous_end": 12,
+        "previous_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "q",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "previous_offset": 17,
+        "previous_end": 18,
+        "previous_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "g",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-10",
+        "operation": "replace",
+        "previous_offset": 32,
+        "previous_end": 33,
+        "previous_selected": "?",
+        "selected_offset": 32,
+        "selected_end": 33,
+        "selected": "q",
+        "reason": "Open-hook g/Z in ZMINILA/ZE and returning q/K in JAK/TAK. Source f6m275 retains6/A and literal VANUJE, despite Czech VENUJE; A→E is a separate language proposal, not a source correction.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-11",
+        "operation": "insert",
+        "previous_offset": 27,
+        "previous_end": 27,
+        "previous_selected": "",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": " ",
+        "reason": "Standalone hook/dot after NAVSTEVU provisionally question punctuation, not an unknown glyph. Tall h/R in MIMORADNOU and unmarked r/H in DLOUHOU retained; NESOU- continues into main12.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-13",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-13",
+        "operation": "replace",
+        "previous_offset": 29,
+        "previous_end": 30,
+        "previous_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "g",
+        "reason": "Returning q/K in KTERY and open g/Z in ODJEZDEM provisionally selected. Small interlinear run is proposed after this row on spatial/linguistic grounds; it remains a separate stored unit.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-14",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "g",
+        "reason": "Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-14",
+        "operation": "replace",
+        "previous_offset": 12,
+        "previous_end": 13,
+        "previous_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "g",
+        "reason": "Open g/Z in ZAVIDIM and ZE. Source DENNE retains two low m/N bodies. VI- joins following DATI editorially; no authenticated schedule.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-15",
+        "operation": "replace",
+        "previous_offset": 17,
+        "previous_end": 18,
+        "previous_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "g",
+        "reason": "Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-15",
+        "operation": "replace",
+        "previous_offset": 25,
+        "previous_end": 26,
+        "previous_selected": "?",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "q",
+        "reason": "Open g/Z in DOPROVAZETI, returning q/K in TAKE. High h/R in the compound retained; source word continuation does not authenticate chronology.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-16",
+        "operation": "replace",
+        "previous_offset": 4,
+        "previous_end": 5,
+        "previous_selected": "?",
+        "selected_offset": 4,
+        "selected_end": 5,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKO, angular s/C and narrow4/I. Other selected contours unchanged; name/reference unconfirmed.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-17",
+        "operation": "replace",
+        "previous_offset": 8,
+        "previous_end": 9,
+        "previous_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "g",
+        "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-17",
+        "operation": "replace",
+        "previous_offset": 14,
+        "previous_end": 15,
+        "previous_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "q",
+        "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-17",
+        "operation": "replace",
+        "previous_offset": 27,
+        "previous_end": 28,
+        "previous_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "g",
+        "reason": "Open g/Z in VZDY and NEZA-, returning q/K in TAK. The NEZA-/POMENES join is an editorial continuation supported by the adjacent source lines.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-18",
+        "operation": "insert",
+        "previous_offset": 14,
+        "previous_end": 14,
+        "previous_selected": "",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": " ",
+        "reason": "Standalone question-shaped hook with low dot after MNE provisionally punctuation. Marked-r CH ownership in DLOUHYCH remains conditional; low n/M and m/N retained. VASNI- continues into main19.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-20",
+        "operation": "replace",
+        "previous_offset": 32,
+        "previous_end": 33,
+        "previous_selected": "?",
+        "selected_offset": 32,
+        "selected_end": 33,
+        "selected": "g",
+        "reason": "Open-hook g/Z in BRZO selected provisionally; high h/R retained. LI- joins following STEK; nickname/reference not independently identified.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-21",
+        "operation": "replace",
+        "previous_offset": 3,
+        "previous_end": 4,
+        "previous_selected": "?",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "q",
+        "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-21",
+        "operation": "replace",
+        "previous_offset": 8,
+        "previous_end": 9,
+        "previous_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-21",
+        "operation": "replace",
+        "previous_offset": 35,
+        "previous_end": 36,
+        "previous_selected": "?",
+        "selected_offset": 35,
+        "selected_end": 36,
+        "selected": "q",
+        "reason": "Returning q/K in STEK/KTERY/SRDECKO. The closing first q is ink-dense and remains a provisional class with unknown/other-class alternatives. Source n37 MOJ retained, rather than changing3/O to2/U to obtain MUJ; nonstandard source spelling explicitly retained.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-22",
+        "operation": "insert",
+        "previous_offset": 12,
+        "previous_end": 12,
+        "previous_selected": "",
+        "selected_offset": 12,
+        "selected_end": 14,
+        "selected": "q ",
+        "reason": "Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-main-22",
+        "operation": "delete",
+        "previous_offset": 13,
+        "previous_end": 14,
+        "previous_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 15,
+        "selected": "",
+        "reason": "Returning q/K in LISTEK followed by a distinct raised hook and low dot, provisionally question punctuation. Source ending DUJICI joins preceding NASLE-. Ordinary date-like writing remains excluded.",
+        "stage": "same-context key/language-visible source completion"
+      },
+      {
+        "line_id": "382-interlinear-1",
+        "operation": "insert",
+        "previous_offset": 16,
+        "previous_end": 16,
+        "previous_selected": "",
+        "selected_offset": 16,
+        "selected_end": 17,
+        "selected": " ",
+        "reason": "Tiny interlinear group overlaps descenders of main13. S and MI plus STIVOU are provisionally selected, but the central merged/overwritten cluster remains one unknown display slot of unknown physical length; LO is a language proposal only. Final small hook/dot provisionally question punctuation. Attachment after main13 is editorial and remains open.",
+        "stage": "same-context key/language-visible source completion"
+      }
+    ],
+    "locator_corrections": [],
+    "preceding_whole_review_preserved_in": "../revisions/382-source-completion.json#/whole_previous_json/later_review"
   },
   "limits": [
     "Single key-visible AI source reader; no blind, second-reader, human or external confirmation.",
-    "Oval-descender q/g distinctions masked. Other provisional shapes may be wrong.",
     "Question masks may cover unknown-length clusters; all physical body totals null.",
     "Marked-r CH is conditional; r with detached/unassigned mark remains an alternative.",
     "Ordinary address/date/people/postal/printed matter excluded without transcription or historical authentication.",
     "Marked-r CH ownership is conditional; zero/low masks do not exclude glyph errors.",
     "Raw-before-computational-decode is not a blind reading: key and prior project context were visible.",
-    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval."
+    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval.",
+    "Selected q/g classes follow a provisional nonblind comparison with unchanged known 204 contours; alternatives retained.",
+    "Two unknown display slots cover unresolved physical-length body/mark/overwritten clusters; five question-shaped forms are provisional punctuation, with alternatives."
   ],
-  "encoded_bodies": 589,
-  "expanded_letters": 550,
+  "source_completion_revision": "../revisions/382-source-completion.json",
+  "encoded_bodies": 584,
+  "expanded_letters": 585,
   "ch_occurrences": 3,
-  "unknowns": 42
+  "unknowns": 2
 }
