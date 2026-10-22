@@ -13,7 +13,7 @@ The preserved public card reports are partial readings. Their historical reports
 
 ## Preserved research
 
-The [continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 129 canonical-key research candidates, most recently cards 375–378 (22 October 2026), with separate literal, qualified Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–378 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None is declared solved. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
+The [continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 133 canonical-key research candidates, most recently cards 379–382 (22 October 2026), with separate literal, qualified Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–382 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None is declared solved. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
 
 | Record | What to expect |
 | --- | --- |
