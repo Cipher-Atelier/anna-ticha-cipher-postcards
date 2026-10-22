@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-22",
+  "recorded_at_utc": "2026-10-22T14:35:32.130151+00:00",
+  "base_commit": "c361d048988c4897109e0288d77371a44d7471ae",
+  "card_ids": [
+    386
+  ],
+  "stage": "same-context nonblind source completion, full editorial reading and explicit cross-gap order proposal",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Every revised contour, q/g class, segmentation, CH and punctuation role is provisional. No second reader or human/external confirmation.",
+    "Complete editorial coverage and fewer masks do not establish source accuracy, complete decipherment or a solved card.",
+    "Cross-gap reading order follows source alignment and language context but remains an editorial proposal; no chronology, identity, travel or date authenticated.",
+    "Ordinary addressing, separate ordinary date and printed/postal matter excluded without transcription/authentication."
+  ],
+  "source_method": {
+    "new_http_requests": 0,
+    "source_bytes": "Existing pinned private 386 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Initial batch34 raw and first computational decoder returns preserved unchanged.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary handwritten addressing and postal/printed matter visible; no separate cipher-shaped run recognized in the visible complete frame. Bounded negative; no erased, obscured or unrecognized material certified absent. No ordinary writing transcribed or historically authenticated.",
+      "reader": "same root AI, key and language visible",
+      "individual_view_timestamps": null,
+      "new_http_requests": 0
+    },
+    "ordering": "Same-height left/right pieces and explicit word continuations support an editorial interleaved order; all sixty unit IDs and broad locators preserved."
+  },
+  "source_revision": "revisions/386-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-22T14:34:48.868877+00:00",
+    "card386": {
+      "rows": 60,
+      "encoded_bodies": 978,
+      "expanded_letters": 991,
+      "ch_occurrences": 15,
+      "unknowns": 2
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44356,
+      "expanded_letters": 43256,
+      "ch_occurrences": 312,
+      "unknowns": 1412
+    },
+    "remaining_editorial_spans": 3,
+    "provisional_q_g_assignments": 65,
+    "new_source_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 165,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 271,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-22T14:34:48.868877+00:00",
+        "card386": {
+          "rows": 60,
+          "encoded_bodies": 978,
+          "expanded_letters": 991,
+          "ch_occurrences": 15,
+          "unknowns": 2
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44356,
+          "expanded_letters": 43256,
+          "ch_occurrences": 312,
+          "unknowns": 1412
+        },
+        "remaining_editorial_spans": 3,
+        "provisional_q_g_assignments": 65,
+        "new_source_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 165,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "all_source_raw_initial_decode_objects_unchanged": true,
+        "raw_and_previous_edit_replays": true,
+        "internal_links_checked": 271,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 890,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual source JSON, Markdown/guide/queue diff, all sixty literal-bound units, proposed order, exact edit replay and immutable-source guards. Complete former JSON/Markdown and frozen raw/initial decode preserved.",
+    "findings": [
+      "Two dark-source display masks in right11; three substantive language proposals remain explicit. All 65 q/g classes and fifteen CH slots provisional.",
+      "Source ZADNI retains I; VRELE and linking A remain language hypotheses. POUSTOVNIK source spelling retained; JEJZ attachment unresolved.",
+      "Question and three exclamation roles are provisional punctuation with alternatives. Interleaving and all cross-gap joins remain editorial.",
+      "Other 272 candidate files, 165 historical artifacts, 262 other queue objects and all 263 source arrays unchanged; coverage remains 154/263 including partial readings."
+    ],
+    "disposition": "Publish provisional full working reading with explicit limitations; deepen earlier partial 382 next."
+  },
+  "preparation_history": [
+    "Existing originals reused and complete faces viewed. Private lossless crop/rotation/enlargement previews did not alter source bytes; no acquisition failure or retry.",
+    "Source alignment and explicit continuations prompted an interleaved working edition; preceding column serialization preserved whole.",
+    "The two dark right11 bodies remain masked and source ZADNI is not normalized into ZADNA. English grammar and the possible JEJZ/LES attachment were reviewed separately from source choices.",
+    "Focused tests, package replay and preservation/order/language-span audit passed. No failed check run recorded in this stage."
+  ],
+  "artifact_sha256": {
+    "cards/386.json": "524a438622690131bc8a07897a8c3c75b61d8473e80fd76e6e4194cc022ce355",
+    "cards/386.md": "c66df783fbd45ecab880e1abe9c7db46197d65d5784a9fac8ceaab209e1d2ea9",
+    "revisions/386-source-completion.json": "8c9cd124acc4526844287fd73d31ae1c2afba427fd85f89f0f79e9d34948b984"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
