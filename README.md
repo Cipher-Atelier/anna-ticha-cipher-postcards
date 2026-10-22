@@ -2,14 +2,14 @@
 
 Research by Maxim Egorov on personal postcards written in cipher, with proposed Czech readings. The collection remains partly read; the writer’s identity and several dates remain unresolved.
 
-[Cipher Atelier](https://github.com/Cipher-Atelier) · [Research index](https://github.com/Cipher-Atelier/research-index) · [Reading guide](READING_GUIDE.md) · [Verification](verification/README.md)
+[Cipher Atelier](https://github.com/Cipher-Atelier) · [Research index](https://github.com/Cipher-Atelier/research-index) · [Reading guide](READING_GUIDE.md) · [Review overview](REVIEW_STATUS.md) · [Verification](verification/README.md)
 
 ## Current status — 21 October 2026
 
 | Status | Scope and evidence |
 | --- | --- |
 | Reported external check | [Card 204](anna-ticha/card-204.md): the author reports manual validation of its reading on 20 October. The [original diplomatic text, editorial Czech, English translation and uncertainty ledger](anna-ticha/card-204.md#diplomatic-reading) are published with their alternatives; this is not a claim of blind independent reconstruction. |
-| New candidate readings | [117 canonical-key research candidates](research-updates/2026-10-20-confirmed-key-continuation/README.md), most recently cards 363–366 (21 October 2026), with separate literal, qualified Czech and English layers. Related AI source readings and nonblind reconciliation do not establish external confirmation or solved cards. The 37 preserved legacy reports, original six-card records and separate experimental 330 proposal retain their distinct status. |
+| New candidate readings | [117 canonical-key research candidates](research-updates/2026-10-20-confirmed-key-continuation/README.md), most recently cards 363–366 (21 October 2026), with separate literal, qualified Czech and English layers. Related AI source readings and nonblind reconciliation do not establish external confirmation or solved cards. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct. |
 | Partial readings | [37 preserved card reports](anna-ticha/readings.md#preserved-card-reports). Card 199 has the most complete public positional package: 532 positions, 522 mapped, ten unknown. Historical reports for cards 205 and 323 remain partial/conditional; the new 21 October canonical candidate for 323 is a separate record in the continuation package. |
 | Conditional analysis | [Four later Russian readers](research-updates/README.md#four-russian-readers) and later graphical audits are collected in the audit index; [PR #19](https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/pull/19) records their publication. A historical registry of 71 conditional reports is not 71 solved cards or a public 71-card reader index. |
 | Archived methodology | The [six-card study](anna-ticha/article.md), [saved literals](anna-ticha/saved-six-card-literals.md), [key snapshot](anna-ticha/key-and-rules.md) and [website updates through 5 October](anna-ticha/updates.md) preserve their original stages. Read them with the [later qualifications](research-updates/README.md). |
@@ -18,10 +18,14 @@ Card 460 belongs to another team’s comparison: the author reports consistency 
 
 The [official-catalogue inventory and 263-record queue](research-updates/2026-10-20-confirmed-key-continuation/README.md#catalogue-and-next-work) track source availability and research stages; they do not represent 263 decipherments.
 
+## Reading coverage
+
+**263 catalogue records; 135 cards with a published reading, including partial proposals; 128 without a reading published here.** The 135 are 117 current candidates plus 37 earlier reports, minus 20 overlapping cards, plus card 204. This is reading coverage, not a solved-card count. See the [review overview](REVIEW_STATUS.md) for the breakdown, remaining gaps and review priorities.
+
 ## Start here
 
 1. **Overview:** read the status above and the [plain-language reading guide](READING_GUIDE.md).
-2. **Cards and evidence status:** choose a card in the [card index](anna-ticha/readings.md), including the [113 new candidates](research-updates/2026-10-20-confirmed-key-continuation/README.md) and [204’s reading and qualifications](anna-ticha/card-204.md).
+2. **Cards and evidence status:** choose a card in the [card index](anna-ticha/readings.md), including the [117 new candidates](research-updates/2026-10-20-confirmed-key-continuation/README.md) and [204’s reading and qualifications](anna-ticha/card-204.md).
 3. **Literal text and supporting evidence:** open the card’s literal beside its interpretation. For a worked example, use [card 199](anna-ticha/card-199.md), its [saved literal](verification/anna-ticha/literal.txt) and [position table](verification/anna-ticha/data/card199_positions.csv).
 4. **Method and historical audits:** follow [methods](anna-ticha/methods.md) and the [dated audit index](research-updates/README.md). Later qualifications are linked separately from frozen records.
 
