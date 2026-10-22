@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-22T23:30:45.253513+00:00",
+  "base_commit": "a0e105f00373fb29fe64c2551ae035658fab02fd",
+  "card_ids": [
+    380
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Every revised contour, q/g class, segmentation, CH and punctuation role is provisional. No second reader or human/external confirmation.",
+    "Complete editorial coverage and fewer masks do not establish source accuracy, complete decipherment or solved status.",
+    "The source form SVEM is retained; proposed SVEMU is a language repair only. No identity, date, work schedule or historical event authenticated.",
+    "Ordinary addressing, separate ordinary date and printed/postal matter excluded without transcription/authentication."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 380 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Initial batch33 raw and first computational decoder returns preserved unchanged.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary handwritten addressing and postal/printed matter visible; no separate cipher-shaped run recognized in the visible complete frame. Bounded negative; no erased, obscured or unrecognized material certified absent. No ordinary writing transcribed or historically authenticated.",
+      "reader": "same root AI, key and language visible",
+      "individual_view_timestamps": null,
+      "new_original_image_http_requests": 0
+    },
+    "ordering": "Twelve CW270 source-aligned rows; word division and cross-row clause joins remain editorial."
+  },
+  "source_revision": "revisions/380-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-22T23:30:07.093067+00:00",
+    "card380": {
+      "rows": 12,
+      "encoded_bodies": 311,
+      "expanded_letters": 315,
+      "ch_occurrences": 4,
+      "unknowns": 0
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44359,
+      "expanded_letters": 43338,
+      "ch_occurrences": 312,
+      "unknowns": 1333
+    },
+    "remaining_editorial_spans": 1,
+    "provisional_q_g_assignments": 19,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 171,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 289,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py (after pending validation artifact created)",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-22T23:30:07.093067+00:00",
+        "card380": {
+          "rows": 12,
+          "encoded_bodies": 311,
+          "expanded_letters": 315,
+          "ch_occurrences": 4,
+          "unknowns": 0
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44359,
+          "expanded_letters": 43338,
+          "ch_occurrences": 312,
+          "unknowns": 1333
+        },
+        "remaining_editorial_spans": 1,
+        "provisional_q_g_assignments": 19,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 171,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "all_source_raw_initial_decode_objects_unchanged": true,
+        "raw_and_previous_edit_replays": true,
+        "internal_links_checked": 289,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 896,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual source JSON, Markdown/guide/queue diff, all twelve literal-bound rows, UCTY d/T versus t/D and Y/I alternatives, exact edits and immutable-source guards. Whole preceding JSON/Markdown and frozen raw/initial decode preserved.",
+    "findings": [
+      "Zero unknown-glyph display slots; all 19 q/g classes, four CH slots and all contours/segmentation remain provisional.",
+      "One language proposal explicit: SVEM/SVEMU. Missing U is not inserted into selected ciphertext. JEHO and ME PO RUCENI retained; joining PORUCENI changes no letters.",
+      "Final row 7 group UCTY and row 9 ZVANOU are source segmentation proposals needing another reader. No person, historical work assignment or date authenticated.",
+      "Other 272 candidate files, 171 historical artifacts, 262 other queue objects and all 263 source arrays unchanged. Coverage stays 154/263 including partial readings."
+    ],
+    "disposition": "Publish provisional full working reading with explicit contour/segmentation/language limitations; deepen earlier partial 379 next."
+  },
+  "preparation_history": [
+    "Existing originals reused and complete faces viewed. Private lossless crop/rotation/enlargement previews did not alter source bytes; no original-image acquisition failure or retry.",
+    "First private audit reached link verification and failed because the new validation file had not yet been written. A clearly marked pending validation artifact was created; the full audit then passed. No source assertion or decoder result changed to bypass that check.",
+    "Review corrected a notation explanation from m/M to n/M and added explicit d/T versus t/D and Y/I alternatives for the final row 7 group.",
+    "Focused tests, package replay and preservation/order/language-span audit passed. Full manifest verification recorded below."
+  ],
+  "artifact_sha256": {
+    "cards/380.json": "e0cac8465f8c12bb41dccddec5a265244ccc867bb6a1c29f6d4bd7b2789ab6c0",
+    "cards/380.md": "61d7c67454e21964b2f1f5a04042b42f12817d42dae5d274ca9e8201fecb945c",
+    "revisions/380-source-completion.json": "b5b395dc4016a48d2e688718f56ab35e4bae788d9663758dc6b197041f8960e7"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
