@@ -21,7 +21,9 @@ These are counts of available readings, not counts of completely solved cards. I
 
 ## What is new
 
-The [completion revision for 384–385](research-updates/2026-10-20-confirmed-key-continuation/revisions/384-385-complete-working-readings.json) adds whole-text editorial hypotheses covering all ten recorded units, with each substantive literal repair listed. Selected glyphs, masks and reading counts are unchanged. Source-level confirmation remains open; this advances interpretation coverage without promoting either card to solved status.
+The [source review of 384–385](research-updates/2026-10-20-confirmed-key-continuation/revisions/384-385-source-review.json) follows enlarged original-image comparisons and revises several contour/segmentation and mark-role choices. After a nonblind contour comparison to 204, unknown display slots change from 22 to 2 and 17 to 0; physical totals and accuracy remain unestablished. 385 now has a complete provisional literal reading; 384 retains three editorial proposals (two overwritten groups and source TIDEN/editorial TYDEN). Other q/g, CH and mark-role alternatives remain open. The preceding checkpoint described below remains historical.
+
+The [completion revision for 384–385](research-updates/2026-10-20-confirmed-key-continuation/revisions/384-385-complete-working-readings.json) adds whole-text editorial hypotheses covering all ten recorded units, with each substantive literal repair listed. At that earlier editorial checkpoint, selected glyphs, masks and reading counts were unchanged. Source-level confirmation remains open; this advances interpretation coverage without promoting either card to solved status.
 
 Cards 383–386 add four newly represented card numbers. Card 375 remains among the 21 overlaps with earlier reports; its earlier report is unchanged.
 

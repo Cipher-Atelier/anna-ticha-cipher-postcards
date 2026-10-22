@@ -18,7 +18,7 @@ Start with the [source catalogue or manuscript](https://crypto.hcportal.eu/dashb
 
 ## Read the current result
 
-Cards [384](research-updates/2026-10-20-confirmed-key-continuation/cards/384.md#complete-working-reading--22-october-2026) and [385](research-updates/2026-10-20-confirmed-key-continuation/cards/385.md#complete-working-reading--22-october-2026) now have complete row-by-row Czech working texts and English interpretations. Substantive letter/cluster repairs are listed separately from their unchanged source literals. Complete editorial coverage does not establish a fully verified graphical decipherment. Current work prioritizes resolving these existing readings, followed by 383/386, before adding 387–390.
+Cards [384](research-updates/2026-10-20-confirmed-key-continuation/cards/384.md) and [385](research-updates/2026-10-20-confirmed-key-continuation/cards/385.md) have complete Czech working texts and English interpretations. Their latest enlarged source review corrects several provisional glyph/mark assignments; The latest 204 comparison yields a complete provisional literal reading for 385; 384 retains two masked overwritten groups plus a spelling proposal. q/g classes, CH and punctuation roles remain provisional despite selected values. Current work prioritizes completing these readings, followed by 383/386, before adding 387–390.
 
 For collection counts and a concise list of missing evidence, start with the [review overview](REVIEW_STATUS.md): 154 of the 263 cards have a published reading, including partial proposals. This is not a solved-card count.
 
