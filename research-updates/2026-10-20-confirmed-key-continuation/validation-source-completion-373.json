@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T10:35:50.233881+00:00",
+  "base_commit": "afa5d0c829882137cd4304cb91e378aee86af18d",
+  "card_ids": [
+    373
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "All revised contours, q/g, CH, segmentation and punctuation provisional. Same root AI with key/literal/language visible; no blind or second source reader or independent/human/external confirmation.",
+    "Nine unknown-glyph display slots remain, including unknown-length occluded clusters. Nine bracketed language-only restoration spans do not recover hidden ink or exact physical glyph lengths. Physical body totals remain null.",
+    "Lower CW90 six-unit block precedes opposing CW270 six-unit block only by proposed content order. Terminal reply question-punctuation role retains encoded 2/U, unknown-body/mark and separate-period alternatives.",
+    "No particular Hradec, actual letter dispatch/receipt, person, wish, meeting, date, relationship or chronology authenticated. Ordinary date/address/postal/printed writing and visible underlines excluded from replay; no intent attributed to black occlusions."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 373 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Initial batch31 raw and first computational decoder returns preserved unchanged.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary addressing and postal/printed writing visible; no separate continuous cipher-shaped run recognized in the complete visible frame. Bounded observation, not absence of erased/obscured/unrecognized material. Ordinary writing excluded without transcription/authentication.",
+      "reader": "same root AI, key and language visible",
+      "individual_view_timestamps": null,
+      "new_original_image_http_requests": 0
+    },
+    "ordering": {
+      "line_ids": [
+        "373-lower-1",
+        "373-lower-2",
+        "373-lower-3",
+        "373-lower-4",
+        "373-lower-5",
+        "373-lower-6",
+        "373-opposing-1",
+        "373-opposing-2",
+        "373-opposing-3",
+        "373-opposing-4",
+        "373-opposing-5",
+        "373-opposing-6"
+      ],
+      "basis": "Lower CW90 block then opposing CW270 by content only, not physical chronology.",
+      "key_examples": [
+        "lower1 O?AL / lower2 JSEM depends on ODESLAL restoration",
+        "lower6 RAD / opposing1 VYPLNIL is a proposed clause bridge",
+        "opposing3 DUSIC- / opposing4 KY forms DUSICKY provisionally"
+      ],
+      "physical_rows_or_chronology_established": false
+    }
+  },
+  "source_revision": "revisions/373-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T10:34:53.973747+00:00",
+    "card373": {
+      "rows": 12,
+      "encoded_bodies": 417,
+      "expanded_letters": 413,
+      "ch_occurrences": 5,
+      "unknowns": 9
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44432,
+      "expanded_letters": 43701,
+      "ch_occurrences": 312,
+      "unknowns": 1043
+    },
+    "remaining_editorial_spans": 9,
+    "provisional_q_g_assignments": 23,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 185,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 332,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T10:34:53.973747+00:00",
+        "card373": {
+          "rows": 12,
+          "encoded_bodies": 417,
+          "expanded_letters": 413,
+          "ch_occurrences": 5,
+          "unknowns": 9
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44432,
+          "expanded_letters": 43701,
+          "ch_occurrences": 312,
+          "unknowns": 1043
+        },
+        "remaining_editorial_spans": 9,
+        "provisional_q_g_assignments": 23,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 185,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "all_source_raw_initial_decode_objects_unchanged": true,
+        "raw_and_previous_edit_replays": true,
+        "internal_links_checked": 332,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 910,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual JSON/Markdown/guide/queue diff, all twelve literal-bound working units, nine masks/restoration spans, q/g/CH, terminal question role, lower/opposing order and clause/word joins, frozen source/initial records and whole preceding editions reviewed in the same context.",
+    "findings": [
+      "Twelve units now have Czech/English working hypotheses. Unknown-glyph display slots decrease from 41 to nine. Some are black-occluded clusters of unknown physical length; no obscured ink recovered or intent attributed to occlusions.",
+      "Nine language-only restorations explicitly separated from selected source: O?AL/ODESLAL, PR?I/PRANI, ? BYCH/ABYCH, ?IZ/TUDIZ, N?PREJE/NEPREJE, TES?M/TESIM, NAHLE?NOUTI/NAHLEDNOUTI, ROZ?ITE/ROZMANITE, POS?A/POSILA. Unresolved/different-restoration alternatives retained.",
+      "All 23 q/g assignments, five CH ownerships, other contours/segmentation and punctuation remain provisional. Visible proposals include HRADCE, MUSIM, HLOUBEJI, ZAPLASITI, POCHYBNOSTI and KDY/ODPOVED; fluency does not confirm the ink.",
+      "Terminal opposing6 mark provisionally question punctuation rather than old unknown body plus period; encoded 2/U, unknown-body/mark and separate-period alternatives retained. Source MATE remains formal/plural; English future timing of the answer question is interpretive.",
+      "Six lower CW90 then six opposing CW270 units only by proposed content order. RAD/VYPLNIL a clause bridge; DUSIC-/KY a word join. No particular Hradec, person, actual dispatch/receipt, wish, meeting, date, relationship or chronology authenticated.",
+      "Other 272 candidate files, 185 historical artifacts, 262 other queue objects and all 263 source arrays unchanged. Raw/first computational returns, key/decoder/tests/catalogue and preceding editions preserved. Coverage stays 154/263 including partial readings."
+    ],
+    "disposition": "Publish provisional complete editorial coverage with nine masks/restorations and explicit source/order/role limits; deepen earlier partial 372 next."
+  },
+  "preparation_history": [
+    "Existing batch31 originals and pinned 204 reference bytes reused unchanged. Both complete faces/all margins and enlarged rotated contexts inspected. Zero new original-image requests or retries.",
+    "Nine source masks retained despite fluent language proposals. More visible content provisionally segmented in MUSIM and ZAPLASITI; one formerly selected I in TESIM is now masked because of the black occlusion.",
+    "First private audit passed source/edit/language/order guards, then failed at a coverage assertion: broad adaptation of the private 15-unit template to twelve units accidentally changed the established 154-card guard to 124. Corrected only that private guard to 154 and reran successfully. No source/candidate/coverage data altered; the failure was not waived.",
+    "32 focused tests, 137-candidate/14-anchor replay and corrected full preservation/source-byte/edit/language-span/order/role/link audit passed. Full repository checks below bind final artifacts and manifest."
+  ],
+  "artifact_sha256": {
+    "cards/373.json": "48409b2e9d9afa65daa8cc5405e363c71f5316a287e05ebeeaeffb599387e3b4",
+    "cards/373.md": "2015121d4d06b93d03d110f9b12f1c6249e59a5dc5cb4af493c29b8016fe4eb3",
+    "revisions/373-source-completion.json": "6262c66f98126d252e2f8d7c6f87f7c7d0996de29f5a8912736d04ed849cb466"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}

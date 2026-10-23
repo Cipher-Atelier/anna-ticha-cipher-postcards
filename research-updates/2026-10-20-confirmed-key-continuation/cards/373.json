@@ -1,7 +1,7 @@
 {
   "card_id": 373,
   "notation": "pdf204-canonical",
-  "status": "partial preliminary single-reader research candidate",
+  "status": "preliminary source-revised candidate with complete editorial working coverage and nine source masks",
   "source": {
     "card_id": 373,
     "catalogue_id": 1692,
@@ -44,17 +44,18 @@
     "solution_status_json_pointer": "/data/data/1685/solution/name"
   },
   "orientation": {
-    "description": "Two opposite-orientation six-row blocks; their overall reading order unresolved. Black occlusions remain masks of unknown length. Multiple underlines visible; no semantic role assigned. Ordinary date excluded.",
+    "description": "Two preserved opposite-orientation six-unit blocks: lower CW90 then opposing CW270 by proposed content order. IDs, storage order, rotations and broad locators unchanged; word joins and physical chronology unestablished. Nine source masks and nine language-only restorations explicit. All q/g, CH and punctuation provisional, including final reply question role. Visible underlines and ordinary date-like writing excluded; black occlusion intent not inferred.",
     "native_dimensions": [
       1785,
       1175
     ],
-    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x). Bounds are broad whole-block context, not exact rows or physical bodies."
+    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x). Bounds are broad whole-block context, not exact rows or physical bodies.",
+    "initial_description": "Two opposite-orientation six-row blocks; their overall reading order unresolved. Black occlusions remain masks of unknown length. Multiple underlines visible; no semantic role assigned. Ordinary date excluded."
   },
   "lines": [
     {
       "line_id": "373-lower-1",
-      "ciphertext": "cht5sm1 t4? ?6 tm5cm4 84cd5?. c85sm5 ?6m?3f5 3?68",
+      "ciphertext": "cht5sm1 t4q g6 tm5cm4 84cd5q. c85sm5 q6mq3f5 3?68",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -73,38 +74,13 @@
         1730,
         1125
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 10,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 12,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 28,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 37,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 40,
-          "text": "?",
-          "kind": "unknown_glyph"
         },
         {
           "offset": 46,
@@ -112,41 +88,11 @@
           "kind": "unknown_glyph"
         }
       ],
-      "literal": "SRDECNY DI? ?A DNESNI LISTE?. SLECNE ?AN?OVE O?AL",
+      "literal": "SRDECNY DIK ZA DNESNI LISTEK. SLECNE KANKOVE O?AL",
       "encoded_bodies": 41,
-      "expanded_letters": 35,
+      "expanded_letters": 40,
       "ch_occurrences": 0,
       "unknowns": [
-        {
-          "offset": 10,
-          "body_index": 9,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 12,
-          "body_index": 10,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "body_index": 23,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 37,
-          "body_index": 30,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 40,
-          "body_index": 33,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 46,
           "body_index": 38,
@@ -157,7 +103,7 @@
     },
     {
       "line_id": "373-lower-2",
-      "ciphertext": "7c5n 84cd5? f c3p3d2 (c32s6cm5 c 84cd?5n d3b5) t3",
+      "ciphertext": "7c5n 84cd5q f c3p3d2 (c32s6cm5 c 84cdq5n d3p5) t3",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -176,23 +122,13 @@
         1730,
         1125
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 10,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 21,
           "text": "(",
           "kind": "punctuation"
-        },
-        {
-          "offset": 37,
-          "text": "?",
-          "kind": "unknown_glyph"
         },
         {
           "offset": 45,
@@ -200,28 +136,15 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "JSEM LISTE? V SOBOTU (SOUCASNE S LIST?EM TOPE) DO",
+      "literal": "JSEM LISTEK V SOBOTU (SOUCASNE S LISTKEM TOBE) DO",
       "encoded_bodies": 39,
-      "expanded_letters": 37,
+      "expanded_letters": 39,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 10,
-          "body_index": 9,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 37,
-          "body_index": 30,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "373-lower-3",
-      "ciphertext": "?6?45. b3?2t c5 d1s5 cb8m5m4 75?4r3 bh?n4 m6bc686",
+      "ciphertext": "rh6ts5. b3q2t c5 d1s5 cb8m5m4 7574r3 bh?4 m6bc686",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -240,72 +163,28 @@
         1730,
         1125
       ],
-      "editorial_notes": "Initial crowded place-like word and body r in 75t4r3 are not securely segmented/assigned. Replace uncertain groups by masks; no place or pronoun supplied.",
+      "editorial_notes": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 2,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 5,
+          "offset": 6,
           "text": ".",
           "kind": "punctuation"
         },
         {
-          "offset": 9,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 38,
+          "offset": 39,
           "text": "?",
           "kind": "unknown_glyph"
         }
       ],
-      "literal": "?A?IE. PO?UD SE TYCE SPLNENI JE?IHO PR?MI NAPSALA",
+      "literal": "HRADCE. POKUD SE TYCE SPLNENI JEJIHO PR?I NAPSALA",
       "encoded_bodies": 41,
-      "expanded_letters": 36,
+      "expanded_letters": 40,
       "ch_occurrences": 0,
       "unknowns": [
         {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 2,
-          "body_index": 2,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 9,
-          "body_index": 7,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "body_index": 25,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 38,
-          "body_index": 31,
+          "offset": 39,
+          "body_index": 32,
           "symbol": "?",
           "kind": "unknown_glyph"
         }
@@ -313,7 +192,7 @@
     },
     {
       "line_id": "373-lower-4",
-      "ciphertext": "n4 6m4s?6, ?5 b4c5 bh3d3 d6? d6?5nm5 ? ?1ř 7574",
+      "ciphertext": "n4 6m4sq6, g5 b4c5 bh3d3 d6q d675nm5 ? p1ř 7574",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -332,83 +211,28 @@
         1730,
         1125
       ],
-      "editorial_notes": "First body of b1ř has competing ascending/descending traces and is masked, preserving b/p alternatives. Provisional upper mark on ř stays qualified.",
+      "editorial_notes": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 7,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 9,
           "text": ",",
           "kind": "punctuation"
         },
         {
-          "offset": 11,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 37,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 39,
           "text": "?",
           "kind": "unknown_glyph"
         }
       ],
-      "literal": "MI ANIC?A, ?E PISE PROTO TA? TA?EMNE ? ?YCH JEJI",
+      "literal": "MI ANICKA, ZE PISE PROTO TAK TAJEMNE ? BYCH JEJI",
       "encoded_bodies": 37,
-      "expanded_letters": 32,
+      "expanded_letters": 37,
       "ch_occurrences": 1,
       "unknowns": [
         {
-          "offset": 7,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 11,
-          "body_index": 8,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "body_index": 21,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 37,
           "body_index": 29,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 39,
-          "body_index": 30,
           "symbol": "?",
           "kind": "unknown_glyph"
         }
@@ -416,7 +240,7 @@
     },
     {
       "line_id": "373-lower-5",
-      "ciphertext": "bh6n4 m5n3r8 cb8m4d4 ?4? c32t4d4 ?5 c4",
+      "ciphertext": "bh6m4 m5n3r8 cb8m4d4 n2c4n ?4g c32t4d4 g5 c4",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -435,45 +259,23 @@
         1730,
         1125
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 21,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 23,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
+          "offset": 27,
           "text": "?",
           "kind": "unknown_glyph"
         }
       ],
-      "literal": "PRAMI NEMOHL SPLNITI ?I? SOUDITI ?E SI",
-      "encoded_bodies": 32,
-      "expanded_letters": 29,
+      "literal": "PRANI NEMOHL SPLNITI MUSIM ?IZ SOUDITI ZE SI",
+      "encoded_bodies": 37,
+      "expanded_letters": 36,
       "ch_occurrences": 0,
       "unknowns": [
         {
-          "offset": 21,
-          "body_index": 18,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 23,
-          "body_index": 20,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
-          "body_index": 28,
+          "offset": 27,
+          "body_index": 23,
           "symbol": "?",
           "kind": "unknown_glyph"
         }
@@ -481,7 +283,7 @@
     },
     {
       "line_id": "373-lower-6",
-      "ciphertext": "cb8m5m4 75r3 3t5 nm5 n?b5575. ?674cd5 b1ř h6t",
+      "ciphertext": "cb8m5m4 75r3 3t5 nm5 m?bh575. g674cd5 p1ř h6t",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -500,7 +302,7 @@
         1730,
         1125
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -512,16 +314,11 @@
           "offset": 28,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 30,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "SPLNENI JEHO ODE MNE M?PEEJE. ?AJISTE PYCH RAD",
+      "literal": "SPLNENI JEHO ODE MNE N?PREJE. ZAJISTE BYCH RAD",
       "encoded_bodies": 37,
-      "expanded_letters": 36,
+      "expanded_letters": 37,
       "ch_occurrences": 1,
       "unknowns": [
         {
@@ -529,18 +326,12 @@
           "body_index": 18,
           "symbol": "?",
           "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
         }
       ]
     },
     {
       "line_id": "373-opposing-1",
-      "ciphertext": "f1b8m48 7574 ? d6?, b3?2t 75cd f ? n3?4.",
+      "ciphertext": "f1b8m48 7574 bh6m4 d6q, b3q2t 75cd f n5 n3s4.",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -559,85 +350,29 @@
         365,
         1135
       ],
-      "editorial_notes": "Hump/loop segmentation in b86n4, fm5 and final h-like body of n3r4 is unresolved in the dark image. Mask uncertain groups instead of supplying Czech grammar.",
+      "editorial_notes": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 13,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 18,
+          "offset": 22,
           "text": ",",
           "kind": "punctuation"
         },
         {
-          "offset": 22,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 37,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 39,
+          "offset": 44,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "VYPLNIL JEJI ? TA?, PO?UD JEST V ? MO?I.",
-      "encoded_bodies": 30,
-      "expanded_letters": 25,
+      "literal": "VYPLNIL JEJI PRANI TAK, POKUD JEST V ME MOCI.",
+      "encoded_bodies": 35,
+      "expanded_letters": 35,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 13,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "body_index": 14,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 22,
-          "body_index": 17,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
-          "body_index": 25,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 37,
-          "body_index": 28,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "373-opposing-2",
-      "ciphertext": "n6 c5d?6m4 c5 f584s5 d5c4n. d32c4n b8 d3n, b1ř",
+      "ciphertext": "m6 c5dq6m4 c5 f584s5 d5c?n. d32g4n b3 d3n, p1ř",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -656,11 +391,11 @@
         365,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 6,
+          "offset": 24,
           "text": "?",
           "kind": "unknown_glyph"
         },
@@ -675,14 +410,14 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "MA SET?ANI SE VELICE TESIM. TOUSIM PL TOM, PYCH",
+      "literal": "NA SETKANI SE VELICE TES?M. TOUZIM PO TOM, BYCH",
       "encoded_bodies": 36,
       "expanded_letters": 36,
       "ch_occurrences": 1,
       "unknowns": [
         {
-          "offset": 6,
-          "body_index": 5,
+          "offset": 24,
+          "body_index": 20,
           "symbol": "?",
           "kind": "unknown_glyph"
         }
@@ -690,7 +425,7 @@
     },
     {
       "line_id": "373-opposing-3",
-      "ciphertext": "3b5d n3r8 1h32b574 m6r86 ?m32d4 t3 df5 t2c4s-",
+      "ciphertext": "3b5d n3r8 r832p574 m6r85?m32d4 t3 df5 t2c4s-",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -709,27 +444,27 @@
         365,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 25,
+          "offset": 24,
           "text": "?",
           "kind": "unknown_glyph"
         },
         {
-          "offset": 44,
+          "offset": 43,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "OPET MOHL YROUPEJI NAHLA ?NOUTI DO TVE DUSIC-",
+      "literal": "OPET MOHL HLOUBEJI NAHLE?NOUTI DO TVE DUSIC-",
       "encoded_bodies": 37,
       "expanded_letters": 36,
       "ch_occurrences": 0,
       "unknowns": [
         {
-          "offset": 25,
+          "offset": 24,
           "body_index": 21,
           "symbol": "?",
           "kind": "unknown_glyph"
@@ -738,7 +473,7 @@
     },
     {
       "line_id": "373-opposing-4",
-      "ciphertext": "?1 6 ?6b6c4d4 d6? h3?n?n4d5 b3ř1n m3cd4.",
+      "ciphertext": "q1 6 g6b86c4d4 d6q h3g?4d5 b3ř1pm3cd4.",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -757,69 +492,25 @@
         365,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 5,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 16,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 20,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 22,
           "text": "?",
           "kind": "unknown_glyph"
         },
         {
-          "offset": 39,
+          "offset": 37,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "?Y A ?APASITI TA? RO?M?MITE POCHYM NOSTI.",
-      "encoded_bodies": 33,
-      "expanded_letters": 29,
+      "literal": "KY A ZAPLASITI TAK ROZ?ITE POCHYBNOSTI.",
+      "encoded_bodies": 32,
+      "expanded_letters": 32,
       "ch_occurrences": 1,
       "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 5,
-          "body_index": 3,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 16,
-          "body_index": 13,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 20,
-          "body_index": 16,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 22,
           "body_index": 18,
@@ -830,7 +521,7 @@
     },
     {
       "line_id": "373-opposing-5",
-      "ciphertext": "d4c4s fh581ř b2c d4 b3c?6 df27 b5b32c. ?d1",
+      "ciphertext": "d4c4s fh581ř b2c d4 b3c?6 df27 b5b32c. qt1",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -849,7 +540,7 @@
         365,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Dark cluster in POS?A retained; POSILA only language restoration. Final q/K+t/D+1/Y provisionally KDY rather than previous ?TY. CH conditional, nickname retained without identity authentication. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -861,16 +552,11 @@
           "offset": 37,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 39,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "TISIC VRELYCH PUS TI POS?A TVUJ PEPOUS. ?TY",
+      "literal": "TISIC VRELYCH PUS TI POS?A TVUJ PEPOUS. KDY",
       "encoded_bodies": 34,
-      "expanded_letters": 33,
+      "expanded_letters": 34,
       "ch_occurrences": 1,
       "unknowns": [
         {
@@ -878,18 +564,12 @@
           "body_index": 19,
           "symbol": "?",
           "kind": "unknown_glyph"
-        },
-        {
-          "offset": 39,
-          "body_index": 31,
-          "symbol": "?",
-          "kind": "unknown_glyph"
         }
       ]
     },
     {
       "line_id": "373-opposing-6",
-      "ciphertext": "n6d5 ?b?f5t?.",
+      "ciphertext": "n6d5 3tb3f5t?",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -908,54 +588,20 @@
         365,
         1135
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred. Same-context nonblind; whole preceding edition preserved in ../revisions/373-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 5,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 7,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 11,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 12,
-          "text": ".",
+          "text": "?",
           "kind": "punctuation"
         }
       ],
-      "literal": "MATE ?P?VED?.",
+      "literal": "MATE ODPOVED?",
       "encoded_bodies": 11,
-      "expanded_letters": 8,
+      "expanded_letters": 11,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 5,
-          "body_index": 4,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 7,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 11,
-          "body_index": 10,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     }
   ],
   "physical_encoded_body_count": null,
@@ -963,498 +609,1284 @@
     {
       "line_id": "373-lower-1",
       "literal_offset": 0,
-      "literal_fragment": "SRDECNY DI? ?A DNESNI LISTE?",
-      "proposed_czech": "[Srdečný dík za dnešní lístek?; conditional q/g choices.]",
-      "proposed_english": "[Heartfelt thanks for today’s little letter?; conditional q/g choices.]"
+      "literal_fragment": "SRDECNY DIK ZA DNESNI LISTEK. SLECNE KANKOVE O?AL",
+      "proposed_czech": "Srdečný dík za dnešní lístek. Slečně Kankové [odeslal?]",
+      "proposed_english": "Heartfelt thanks for today’s letter. I [sent?] Miss Kanková",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "373-lower-2",
       "literal_offset": 0,
-      "literal_fragment": "JSEM LISTE? V SOBOTU",
-      "proposed_czech": "[Jsem lístek v sobotu…; LISTE? requires q → K; do not bridge to another row.]",
-      "proposed_english": "[… the little letter on Saturday…; LISTE? requires q → K; incomplete clause, no cross-row bridge.]"
+      "literal_fragment": "JSEM LISTEK V SOBOTU (SOUCASNE S LISTKEM TOBE) DO",
+      "proposed_czech": "jsem lístek v sobotu (současně s lístkem Tobě) do",
+      "proposed_english": "a little letter on Saturday (at the same time as the one to you) to",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "373-lower-3",
-      "literal_offset": 7,
-      "literal_fragment": "PO?UD SE TYCE SPLNENI",
-      "proposed_czech": "[Pokud se týče splnění?; PO?UD requires q → K.]",
-      "proposed_english": "[As regards fulfilling…?; PO?UD requires q → K.]"
+      "literal_offset": 0,
+      "literal_fragment": "HRADCE. POKUD SE TYCE SPLNENI JEJIHO PR?I NAPSALA",
+      "proposed_czech": "Hradce. Pokud se týče splnění jejího [přání?], napsala",
+      "proposed_english": "Hradec. As regards fulfilling her [wish?], Anička wrote",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-lower-4",
+      "literal_offset": 0,
+      "literal_fragment": "MI ANICKA, ZE PISE PROTO TAK TAJEMNE ? BYCH JEJI",
+      "proposed_czech": "mi Anička, že píše proto tak tajemně, [abych?] její",
+      "proposed_english": "to me that she writes so mysteriously so that I [might] not fulfil her",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "373-lower-5",
-      "literal_offset": 6,
-      "literal_fragment": "NEMOHL SPLNITI",
-      "proposed_czech": "[Nemohl splniti…; only this fragment.]",
-      "proposed_english": "[Could not fulfil…; only this fragment.]"
+      "literal_offset": 0,
+      "literal_fragment": "PRANI NEMOHL SPLNITI MUSIM ?IZ SOUDITI ZE SI",
+      "proposed_czech": "přání nemohl splniti. Musím [tudíž?] souditi, že si",
+      "proposed_english": "wish. I must [therefore?] conclude that she",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-lower-6",
+      "literal_offset": 0,
+      "literal_fragment": "SPLNENI JEHO ODE MNE N?PREJE. ZAJISTE BYCH RAD",
+      "proposed_czech": "splnění jeho ode mne [nepřeje?]. Zajisté bych rád",
+      "proposed_english": "[does not wish?] me to fulfil it. I would certainly gladly",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-opposing-1",
+      "literal_offset": 0,
+      "literal_fragment": "VYPLNIL JEJI PRANI TAK, POKUD JEST V ME MOCI.",
+      "proposed_czech": "vyplnil její přání tak, pokud jest v mé moci.",
+      "proposed_english": "fulfil her wish, insofar as it is in my power.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-opposing-2",
+      "literal_offset": 0,
+      "literal_fragment": "NA SETKANI SE VELICE TES?M. TOUZIM PO TOM, BYCH",
+      "proposed_czech": "Na setkání se velice [těším?]. Toužím po tom, bych",
+      "proposed_english": "I am greatly [looking forward?] to our meeting. I long",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-opposing-3",
+      "literal_offset": 0,
+      "literal_fragment": "OPET MOHL HLOUBEJI NAHLE?NOUTI DO TVE DUSIC-",
+      "proposed_czech": "opět mohl hlouběji [nahlédnouti?] do Tvé dušič-",
+      "proposed_english": "to be able once again to look more deeply into your little soul",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-opposing-4",
+      "literal_offset": 0,
+      "literal_fragment": "KY A ZAPLASITI TAK ROZ?ITE POCHYBNOSTI.",
+      "proposed_czech": "ky a zaplašiti tak [rozmanité?] pochybnosti.",
+      "proposed_english": "and thus dispel such [varied?] doubts.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-opposing-5",
+      "literal_offset": 0,
+      "literal_fragment": "TISIC VRELYCH PUS TI POS?A TVUJ PEPOUS. KDY",
+      "proposed_czech": "Tisíc vřelých pus ti [posílá?] tvůj Pepouš. Kdy",
+      "proposed_english": "Your Pepouš [sends?] you a thousand warm kisses. When",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "373-opposing-6",
+      "literal_offset": 0,
+      "literal_fragment": "MATE ODPOVED?",
+      "proposed_czech": "máte odpověď?",
+      "proposed_english": "will you have an answer?",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     }
   ],
-  "interpretation_scope": "Only listed literal-bound fragments have Czech/English proposals. Other text remains literal and unresolved; no complete fluent translation, order between opposite/margin blocks, identity or chronology is asserted.",
+  "interpretation_scope": "All twelve preserved units have literal-bound Czech working hypotheses and English interpretations. Nine source masks and nine explicit language-only restoration spans remain. Occluded ink and physical counts unresolved; final question role and opposite-block order provisional. Names, place, dispatch, wish, meeting, relationship and chronology unconfirmed.",
   "uncertainty_ledger": [
     {
       "line_id": "373-lower-1",
       "offset": 10,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-1",
       "offset": 12,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "previous_span": {
+        "offset": 12,
+        "end": 13
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-1",
       "offset": 27,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "previous_span": {
+        "offset": 27,
+        "end": 28
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-1",
       "offset": 37,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "previous_span": {
+        "offset": 37,
+        "end": 38
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-1",
       "offset": 40,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "previous_span": {
+        "offset": 40,
+        "end": 41
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-1",
+      "offset": 10,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-1",
+      "offset": 12,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-1",
+      "offset": 27,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-1",
+      "offset": 37,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-1",
+      "offset": 40,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-1",
       "offset": 46,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-2",
       "offset": 10,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-2",
       "offset": 37,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+      "previous_span": {
+        "offset": 37,
+        "end": 38
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-2",
+      "offset": 43,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+      "previous_span": {
+        "offset": 43,
+        "end": 44
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-2",
+      "offset": 10,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-2",
+      "offset": 37,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-3",
       "offset": 0,
-      "selected": "?",
+      "selected": "rh",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-3",
-      "offset": 2,
-      "selected": "?",
+      "offset": 3,
+      "selected": "ts",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?4",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+      "previous_span": {
+        "offset": 2,
+        "end": 4
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-3",
-      "offset": 9,
-      "selected": "?",
+      "offset": 10,
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+      "previous_span": {
+        "offset": 9,
+        "end": 10
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-3",
-      "offset": 31,
-      "selected": "?",
+      "offset": 32,
+      "selected": "7",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+      "previous_span": {
+        "offset": 31,
+        "end": 32
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-3",
-      "offset": 38,
+      "offset": 40,
+      "selected": "",
+      "alternatives": [
+        "n",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+      "previous_span": {
+        "offset": 39,
+        "end": 40
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-3",
+      "offset": 10,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-3",
+      "offset": 39,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-4",
       "offset": 7,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "previous_span": {
+        "offset": 7,
+        "end": 8
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-4",
       "offset": 11,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "previous_span": {
+        "offset": 11,
+        "end": 12
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-4",
       "offset": 27,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "previous_span": {
+        "offset": 27,
+        "end": 28
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-4",
       "offset": 31,
-      "selected": "?",
+      "selected": "7",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "previous_span": {
+        "offset": 31,
+        "end": 32
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-4",
+      "offset": 39,
+      "selected": "p",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "previous_span": {
+        "offset": 39,
+        "end": 40
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-4",
+      "offset": 7,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-4",
+      "offset": 11,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-4",
+      "offset": 27,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-4",
       "offset": 37,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
-    },
-    {
-      "line_id": "373-lower-4",
-      "offset": 39,
-      "selected": "?",
-      "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
-      ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-4",
       "offset": 41,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-5",
+      "offset": 3,
+      "selected": "m",
+      "alternatives": [
+        "n",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+      "previous_span": {
+        "offset": 3,
+        "end": 4
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-5",
       "offset": 21,
-      "selected": "?",
+      "selected": "n2c4n ",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+      "previous_span": {
+        "offset": 21,
+        "end": 21
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-5",
-      "offset": 23,
-      "selected": "?",
+      "offset": 29,
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+      "previous_span": {
+        "offset": 23,
+        "end": 24
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-5",
-      "offset": 33,
+      "offset": 39,
+      "selected": "g",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+      "previous_span": {
+        "offset": 33,
+        "end": 34
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-5",
+      "offset": 27,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-5",
+      "offset": 29,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-5",
+      "offset": 39,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-6",
+      "offset": 21,
+      "selected": "m",
+      "alternatives": [
+        "n",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+      "previous_span": {
+        "offset": 21,
+        "end": 22
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-6",
+      "offset": 24,
+      "selected": "h",
+      "alternatives": [
+        "5",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+      "previous_span": {
+        "offset": 24,
+        "end": 25
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-6",
+      "offset": 30,
+      "selected": "g",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+      "previous_span": {
+        "offset": 30,
+        "end": 31
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-lower-6",
+      "offset": 38,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+      "previous_span": {
+        "offset": 38,
+        "end": 39
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-6",
       "offset": 22,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-6",
       "offset": 30,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "q",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-lower-6",
       "offset": 40,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-1",
       "offset": 13,
-      "selected": "?",
+      "selected": "bh6m4",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+      "previous_span": {
+        "offset": 13,
+        "end": 14
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-1",
-      "offset": 17,
-      "selected": "?",
+      "offset": 21,
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+      "previous_span": {
+        "offset": 17,
+        "end": 18
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-1",
-      "offset": 22,
-      "selected": "?",
+      "offset": 26,
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
-    },
-    {
-      "line_id": "373-opposing-1",
-      "offset": 33,
-      "selected": "?",
-      "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
-      ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+      "previous_span": {
+        "offset": 22,
+        "end": 23
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-1",
       "offset": 37,
-      "selected": "?",
+      "selected": "n5",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+      "previous_span": {
+        "offset": 33,
+        "end": 34
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-1",
+      "offset": 42,
+      "selected": "s",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+      "previous_span": {
+        "offset": 37,
+        "end": 38
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-1",
+      "offset": 21,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-1",
+      "offset": 26,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 0,
+      "selected": "m",
+      "alternatives": [
+        "n",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-2",
       "offset": 6,
+      "selected": "q",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "previous_span": {
+        "offset": 6,
+        "end": 7
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 24,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "4",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "previous_span": {
+        "offset": 24,
+        "end": 25
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 31,
+      "selected": "g",
+      "alternatives": [
+        "c",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "previous_span": {
+        "offset": 31,
+        "end": 32
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 36,
+      "selected": "3",
+      "alternatives": [
+        "8",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "previous_span": {
+        "offset": 36,
+        "end": 37
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 43,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "previous_span": {
+        "offset": 43,
+        "end": 44
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 6,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 24,
+      "selected": "?",
+      "alternatives": [
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-2",
+      "offset": 31,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-2",
       "offset": 45,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-3",
-      "offset": 25,
+      "offset": 10,
+      "selected": "r8",
+      "alternatives": [
+        "1h",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+      "previous_span": {
+        "offset": 10,
+        "end": 12
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-3",
+      "offset": 14,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+      "previous_span": {
+        "offset": 14,
+        "end": 15
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-3",
+      "offset": 23,
+      "selected": "5",
+      "alternatives": [
+        "6 ",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+      "previous_span": {
+        "offset": 23,
+        "end": 25
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-3",
+      "offset": 24,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-4",
       "offset": 0,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-4",
       "offset": 5,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "previous_span": {
+        "offset": 5,
+        "end": 6
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-4",
-      "offset": 16,
-      "selected": "?",
+      "offset": 8,
+      "selected": "8",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "previous_span": {
+        "offset": 8,
+        "end": 8
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-4",
-      "offset": 20,
-      "selected": "?",
+      "offset": 17,
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "previous_span": {
+        "offset": 16,
+        "end": 17
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-4",
+      "offset": 21,
+      "selected": "g",
+      "alternatives": [
+        "",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "previous_span": {
+        "offset": 20,
+        "end": 20
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-4",
+      "offset": 23,
+      "selected": "",
+      "alternatives": [
+        "n?n",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "previous_span": {
+        "offset": 21,
+        "end": 24
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-4",
+      "offset": 31,
+      "selected": "p",
+      "alternatives": [
+        "n ",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "previous_span": {
+        "offset": 32,
+        "end": 34
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-4",
+      "offset": 0,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-4",
+      "offset": 5,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-4",
+      "offset": 17,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-4",
+      "offset": 21,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-4",
       "offset": 22,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-4",
-      "offset": 30,
+      "offset": 29,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-5",
+      "offset": 39,
+      "selected": "qt",
+      "alternatives": [
+        "?d",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Dark cluster in POS?A retained; POSILA only language restoration. Final q/K+t/D+1/Y provisionally KDY rather than previous ?TY. CH conditional, nickname retained without identity authentication.",
+      "previous_span": {
+        "offset": 39,
+        "end": 41
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-5",
       "offset": 11,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Dark cluster in POS?A retained; POSILA only language restoration. Final q/K+t/D+1/Y provisionally KDY rather than previous ?TY. CH conditional, nickname retained without identity authentication.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-5",
       "offset": 23,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length obscured cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Dark cluster in POS?A retained; POSILA only language restoration. Final q/K+t/D+1/Y provisionally KDY rather than previous ?TY. CH conditional, nickname retained without identity authentication.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-5",
       "offset": 39,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Dark cluster in POS?A retained; POSILA only language restoration. Final q/K+t/D+1/Y provisionally KDY rather than previous ?TY. CH conditional, nickname retained without identity authentication.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-6",
       "offset": 5,
-      "selected": "?",
+      "selected": "3t",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+      "previous_span": {
+        "offset": 5,
+        "end": 6
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-6",
-      "offset": 7,
-      "selected": "?",
+      "offset": 8,
+      "selected": "3",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+      "previous_span": {
+        "offset": 7,
+        "end": 8
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "373-opposing-6",
-      "offset": 11,
+      "offset": 13,
+      "selected": "",
+      "alternatives": [
+        ".",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+      "previous_span": {
+        "offset": 12,
+        "end": 13
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "373-opposing-6",
+      "offset": 12,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "encoded 2/U",
+        "unknown body/mark or separate terminal period"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+      "physical_encoded_body_count": null
     }
   ],
   "original_readings": [
@@ -2031,34 +2463,154 @@
     ]
   },
   "later_review": {
-    "reader": "same root context",
+    "reader": "same root AI context",
     "blind": false,
     "independent": false,
-    "completed_utc": "2026-10-22T08:15:39.808451+00:00",
+    "completed_utc": "2026-10-23T10:33:08.341513+00:00",
     "all_text_changes_from_raw": [
       {
-        "line_id": "373-lower-3",
+        "line_id": "373-lower-1",
         "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "raw_offset": 12,
+        "raw_end": 13,
+        "raw_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "g",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "raw_offset": 27,
+        "raw_end": 28,
+        "raw_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "raw_offset": 37,
+        "raw_end": 38,
+        "raw_selected": "?",
+        "selected_offset": 37,
+        "selected_end": 38,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "raw_offset": 40,
+        "raw_end": 41,
+        "raw_selected": "?",
+        "selected_offset": 40,
+        "selected_end": 41,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-2",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-2",
+        "operation": "replace",
+        "raw_offset": 37,
+        "raw_end": 38,
+        "raw_selected": "?",
+        "selected_offset": 37,
+        "selected_end": 38,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-2",
+        "operation": "replace",
+        "raw_offset": 43,
+        "raw_end": 44,
+        "raw_selected": "b",
+        "selected_offset": 43,
+        "selected_end": 44,
+        "selected": "p",
+        "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "insert",
         "raw_offset": 0,
-        "raw_end": 2,
-        "raw_selected": "hr",
+        "raw_end": 0,
+        "raw_selected": "",
         "selected_offset": 0,
         "selected_end": 1,
-        "selected": "?",
-        "reason": "Initial crowded place-like word and body r in 75t4r3 are not securely segmented/assigned. Replace uncertain groups by masks; no place or pronoun supplied.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected": "r",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "delete",
+        "raw_offset": 1,
+        "raw_end": 2,
+        "raw_selected": "r",
+        "selected_offset": 2,
+        "selected_end": 2,
+        "selected": "",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "373-lower-3",
         "operation": "replace",
-        "raw_offset": 3,
-        "raw_end": 4,
-        "raw_selected": "t",
-        "selected_offset": 2,
-        "selected_end": 3,
-        "selected": "?",
-        "reason": "Initial crowded place-like word and body r in 75t4r3 are not securely segmented/assigned. Replace uncertain groups by masks; no place or pronoun supplied.",
-        "stage": "same-context nonblind post-decode source review"
+        "raw_offset": 4,
+        "raw_end": 5,
+        "raw_selected": "4",
+        "selected_offset": 4,
+        "selected_end": 5,
+        "selected": "s",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "373-lower-3",
@@ -2066,11 +2618,71 @@
         "raw_offset": 32,
         "raw_end": 33,
         "raw_selected": "t",
+        "selected_offset": 32,
+        "selected_end": 33,
+        "selected": "7",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "delete",
+        "raw_offset": 40,
+        "raw_end": 41,
+        "raw_selected": "n",
+        "selected_offset": 40,
+        "selected_end": 40,
+        "selected": "",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "raw_offset": 7,
+        "raw_end": 8,
+        "raw_selected": "?",
+        "selected_offset": 7,
+        "selected_end": 8,
+        "selected": "q",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "raw_offset": 11,
+        "raw_end": 12,
+        "raw_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "g",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "raw_offset": 27,
+        "raw_end": 28,
+        "raw_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "q",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "raw_offset": 31,
+        "raw_end": 32,
+        "raw_selected": "?",
         "selected_offset": 31,
         "selected_end": 32,
-        "selected": "?",
-        "reason": "Initial crowded place-like word and body r in 75t4r3 are not securely segmented/assigned. Replace uncertain groups by masks; no place or pronoun supplied.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected": "7",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "373-lower-4",
@@ -2080,33 +2692,165 @@
         "raw_selected": "b",
         "selected_offset": 39,
         "selected_end": 40,
-        "selected": "?",
-        "reason": "First body of b1ř has competing ascending/descending traces and is masked, preserving b/p alternatives. Provisional upper mark on ř stays qualified.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected": "p",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "replace",
+        "raw_offset": 3,
+        "raw_end": 4,
+        "raw_selected": "n",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "m",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "insert",
+        "raw_offset": 21,
+        "raw_end": 21,
+        "raw_selected": "",
+        "selected_offset": 21,
+        "selected_end": 27,
+        "selected": "n2c4n ",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "replace",
+        "raw_offset": 23,
+        "raw_end": 24,
+        "raw_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "g",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "replace",
+        "raw_offset": 33,
+        "raw_end": 34,
+        "raw_selected": "?",
+        "selected_offset": 39,
+        "selected_end": 40,
+        "selected": "g",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "raw_offset": 21,
+        "raw_end": 22,
+        "raw_selected": "n",
+        "selected_offset": 21,
+        "selected_end": 22,
+        "selected": "m",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "raw_offset": 24,
+        "raw_end": 25,
+        "raw_selected": "5",
+        "selected_offset": 24,
+        "selected_end": 25,
+        "selected": "h",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "raw_offset": 30,
+        "raw_end": 31,
+        "raw_selected": "?",
+        "selected_offset": 30,
+        "selected_end": 31,
+        "selected": "g",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "raw_offset": 38,
+        "raw_end": 39,
+        "raw_selected": "b",
+        "selected_offset": 38,
+        "selected_end": 39,
+        "selected": "p",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "373-opposing-1",
         "operation": "replace",
-        "raw_offset": 13,
-        "raw_end": 18,
-        "raw_selected": "b86n4",
-        "selected_offset": 13,
-        "selected_end": 14,
-        "selected": "?",
-        "reason": "Hump/loop segmentation in b86n4, fm5 and final h-like body of n3r4 is unresolved in the dark image. Mask uncertain groups instead of supplying Czech grammar.",
-        "stage": "same-context nonblind post-decode source review"
+        "raw_offset": 14,
+        "raw_end": 15,
+        "raw_selected": "8",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "h",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "raw_offset": 16,
+        "raw_end": 17,
+        "raw_selected": "n",
+        "selected_offset": 16,
+        "selected_end": 17,
+        "selected": "m",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "raw_offset": 21,
+        "raw_end": 22,
+        "raw_selected": "?",
+        "selected_offset": 21,
+        "selected_end": 22,
+        "selected": "q",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "raw_offset": 26,
+        "raw_end": 27,
+        "raw_selected": "?",
+        "selected_offset": 26,
+        "selected_end": 27,
+        "selected": "q",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "373-opposing-1",
         "operation": "replace",
         "raw_offset": 36,
-        "raw_end": 38,
-        "raw_selected": "m5",
-        "selected_offset": 32,
-        "selected_end": 34,
-        "selected": " ?",
-        "reason": "Hump/loop segmentation in b86n4, fm5 and final h-like body of n3r4 is unresolved in the dark image. Mask uncertain groups instead of supplying Czech grammar.",
-        "stage": "same-context nonblind post-decode source review"
+        "raw_end": 37,
+        "raw_selected": "m",
+        "selected_offset": 36,
+        "selected_end": 38,
+        "selected": " n",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "373-opposing-1",
@@ -2114,26 +2858,884 @@
         "raw_offset": 41,
         "raw_end": 42,
         "raw_selected": "r",
-        "selected_offset": 37,
-        "selected_end": 38,
+        "selected_offset": 42,
+        "selected_end": 43,
+        "selected": "s",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "n",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "m",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "raw_offset": 6,
+        "raw_end": 7,
+        "raw_selected": "?",
+        "selected_offset": 6,
+        "selected_end": 7,
+        "selected": "q",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "raw_offset": 24,
+        "raw_end": 25,
+        "raw_selected": "4",
+        "selected_offset": 24,
+        "selected_end": 25,
         "selected": "?",
-        "reason": "Hump/loop segmentation in b86n4, fm5 and final h-like body of n3r4 is unresolved in the dark image. Mask uncertain groups instead of supplying Czech grammar.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "raw_offset": 31,
+        "raw_end": 32,
+        "raw_selected": "c",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "g",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "raw_offset": 36,
+        "raw_end": 37,
+        "raw_selected": "8",
+        "selected_offset": 36,
+        "selected_end": 37,
+        "selected": "3",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "raw_offset": 43,
+        "raw_end": 44,
+        "raw_selected": "b",
+        "selected_offset": 43,
+        "selected_end": 44,
+        "selected": "p",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-3",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 12,
+        "raw_selected": "1h",
+        "selected_offset": 10,
+        "selected_end": 12,
+        "selected": "r8",
+        "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-3",
+        "operation": "replace",
+        "raw_offset": 14,
+        "raw_end": 15,
+        "raw_selected": "b",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "p",
+        "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-3",
+        "operation": "replace",
+        "raw_offset": 23,
+        "raw_end": 25,
+        "raw_selected": "6 ",
+        "selected_offset": 23,
+        "selected_end": 24,
+        "selected": "5",
+        "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "raw_offset": 5,
+        "raw_end": 6,
+        "raw_selected": "?",
+        "selected_offset": 5,
+        "selected_end": 6,
+        "selected": "g",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "insert",
+        "raw_offset": 8,
+        "raw_end": 8,
+        "raw_selected": "",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "8",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "raw_offset": 16,
+        "raw_end": 17,
+        "raw_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "q",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "insert",
+        "raw_offset": 20,
+        "raw_end": 20,
+        "raw_selected": "",
+        "selected_offset": 21,
+        "selected_end": 22,
+        "selected": "g",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "delete",
+        "raw_offset": 21,
+        "raw_end": 24,
+        "raw_selected": "n?n",
+        "selected_offset": 23,
+        "selected_end": 23,
+        "selected": "",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "raw_offset": 32,
+        "raw_end": 34,
+        "raw_selected": "n ",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "p",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-5",
+        "operation": "replace",
+        "raw_offset": 39,
+        "raw_end": 41,
+        "raw_selected": "?d",
+        "selected_offset": 39,
+        "selected_end": 41,
+        "selected": "qt",
+        "reason": "Dark cluster in POS?A retained; POSILA only language restoration. Final q/K+t/D+1/Y provisionally KDY rather than previous ?TY. CH conditional, nickname retained without identity authentication.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-6",
+        "operation": "replace",
+        "raw_offset": 5,
+        "raw_end": 6,
+        "raw_selected": "?",
+        "selected_offset": 5,
+        "selected_end": 7,
+        "selected": "3t",
+        "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-6",
+        "operation": "replace",
+        "raw_offset": 7,
+        "raw_end": 8,
+        "raw_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "3",
+        "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-6",
+        "operation": "delete",
+        "raw_offset": 12,
+        "raw_end": 13,
+        "raw_selected": ".",
+        "selected_offset": 13,
+        "selected_end": 13,
+        "selected": "",
+        "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+        "stage": "same-context nonblind source completion"
       }
     ],
-    "locator_corrections": []
+    "all_text_changes_from_previous": [
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "previous_offset": 12,
+        "previous_end": 13,
+        "previous_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "g",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "previous_offset": 27,
+        "previous_end": 28,
+        "previous_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "previous_offset": 37,
+        "previous_end": 38,
+        "previous_selected": "?",
+        "selected_offset": 37,
+        "selected_end": 38,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-1",
+        "operation": "replace",
+        "previous_offset": 40,
+        "previous_end": 41,
+        "previous_selected": "?",
+        "selected_offset": 40,
+        "selected_end": 41,
+        "selected": "q",
+        "reason": "Returning q/K in DIK/LISTEK/KANKOVE versus open g/Z in ZA provisional. Source name q6mq3f5 retained without identity/case authentication. Dark occlusion in final 3?68 remains an unknown-length cluster; ODESLAL is only a language restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-2",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-2",
+        "operation": "replace",
+        "previous_offset": 37,
+        "previous_end": 38,
+        "previous_selected": "?",
+        "selected_offset": 37,
+        "selected_end": 38,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-2",
+        "operation": "replace",
+        "previous_offset": 43,
+        "previous_end": 44,
+        "previous_selected": "b",
+        "selected_offset": 43,
+        "selected_end": 44,
+        "selected": "p",
+        "reason": "Returning q/K in LISTEK/LISTKEM. Low p/B in TOBE rather than prior b/P. Parentheses retained as punctuation. Cross-unit ODESLAL JSEM depends on the explicitly conjectural masked restoration.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 2,
+        "selected": "rh",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "replace",
+        "previous_offset": 2,
+        "previous_end": 4,
+        "previous_selected": "?4",
+        "selected_offset": 3,
+        "selected_end": 5,
+        "selected": "ts",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "replace",
+        "previous_offset": 9,
+        "previous_end": 10,
+        "previous_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "replace",
+        "previous_offset": 31,
+        "previous_end": 32,
+        "previous_selected": "?",
+        "selected_offset": 32,
+        "selected_end": 33,
+        "selected": "7",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-3",
+        "operation": "delete",
+        "previous_offset": 39,
+        "previous_end": 40,
+        "previous_selected": "n",
+        "selected_offset": 40,
+        "selected_end": 40,
+        "selected": "",
+        "reason": "Initial group provisionally r/H+h/R+6/A+t/D+s/C+5/E → HRADCE; prior crowded segmentation retained in archive. Returning q/K in POKUD and separate 7/J in JEJIHO. Dark PR?I remains a cluster mask; PRANI only language restoration. No particular Hradec identified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "previous_offset": 7,
+        "previous_end": 8,
+        "previous_selected": "?",
+        "selected_offset": 7,
+        "selected_end": 8,
+        "selected": "q",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "previous_offset": 11,
+        "previous_end": 12,
+        "previous_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "g",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "previous_offset": 27,
+        "previous_end": 28,
+        "previous_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "q",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "previous_offset": 31,
+        "previous_end": 32,
+        "previous_selected": "?",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "7",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-4",
+        "operation": "replace",
+        "previous_offset": 39,
+        "previous_end": 40,
+        "previous_selected": "?",
+        "selected_offset": 39,
+        "selected_end": 40,
+        "selected": "p",
+        "reason": "q/K in ANICKA/TAK versus g/Z in ZE. TAJEMNE provisionally 7/J rather than prior q/g mask. Occlusion before descending low p/B in BYCH remains unknown; ? BYCH→ABYCH is a language-only cluster restoration. CH ownership conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "replace",
+        "previous_offset": 3,
+        "previous_end": 4,
+        "previous_selected": "n",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "m",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "insert",
+        "previous_offset": 21,
+        "previous_end": 21,
+        "previous_selected": "",
+        "selected_offset": 21,
+        "selected_end": 27,
+        "selected": "n2c4n ",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "replace",
+        "previous_offset": 23,
+        "previous_end": 24,
+        "previous_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "g",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-5",
+        "operation": "replace",
+        "previous_offset": 33,
+        "previous_end": 34,
+        "previous_selected": "?",
+        "selected_offset": 39,
+        "selected_end": 40,
+        "selected": "g",
+        "reason": "Low m/N rather than n/M in PRANI. Enlarged source exposes provisional n/M+2/U+c/S+4/I+n/M → MUSIM, absent from preceding selected replay. Remaining black cluster before visible 4/I+g/Z is kept ? in ?IZ; TUDIZ is a language-only restoration with length/order alternatives. Source punctuation editorial; no missing word certified.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "previous_offset": 21,
+        "previous_end": 22,
+        "previous_selected": "n",
+        "selected_offset": 21,
+        "selected_end": 22,
+        "selected": "m",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "previous_offset": 24,
+        "previous_end": 25,
+        "previous_selected": "5",
+        "selected_offset": 24,
+        "selected_end": 25,
+        "selected": "h",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "previous_offset": 30,
+        "previous_end": 31,
+        "previous_selected": "?",
+        "selected_offset": 30,
+        "selected_end": 31,
+        "selected": "g",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-lower-6",
+        "operation": "replace",
+        "previous_offset": 38,
+        "previous_end": 39,
+        "previous_selected": "b",
+        "selected_offset": 38,
+        "selected_end": 39,
+        "selected": "p",
+        "reason": "First low m/N in N?PREJE rather than old n/M; dark following body remains unknown. Separate tall h/R and 7/J provisionally PREJE rather than earlier PEEJE. Open g/Z in ZAJISTE and low p/B in BYCH. NEPREJE remains a language restoration; conditional CH.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "previous_offset": 13,
+        "previous_end": 14,
+        "previous_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 18,
+        "selected": "bh6m4",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "previous_offset": 17,
+        "previous_end": 18,
+        "previous_selected": "?",
+        "selected_offset": 21,
+        "selected_end": 22,
+        "selected": "q",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "previous_offset": 22,
+        "previous_end": 23,
+        "previous_selected": "?",
+        "selected_offset": 26,
+        "selected_end": 27,
+        "selected": "q",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "previous_offset": 33,
+        "previous_end": 34,
+        "previous_selected": "?",
+        "selected_offset": 37,
+        "selected_end": 39,
+        "selected": "n5",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-1",
+        "operation": "replace",
+        "previous_offset": 37,
+        "previous_end": 38,
+        "previous_selected": "?",
+        "selected_offset": 42,
+        "selected_end": 43,
+        "selected": "s",
+        "reason": "Previously merged groups provisionally bh6m4 → PRANI and n5 → ME; final triangular s/C in MOCI. Returning q/K in TAK/POKUD. All low/tall humps and segmentation provisional. Opposing block follows lower block by content only; no physical chronology established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "n",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "m",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "previous_offset": 6,
+        "previous_end": 7,
+        "previous_selected": "?",
+        "selected_offset": 6,
+        "selected_end": 7,
+        "selected": "q",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "previous_offset": 24,
+        "previous_end": 25,
+        "previous_selected": "4",
+        "selected_offset": 24,
+        "selected_end": 25,
+        "selected": "?",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "previous_offset": 31,
+        "previous_end": 32,
+        "previous_selected": "c",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "g",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "previous_offset": 36,
+        "previous_end": 37,
+        "previous_selected": "8",
+        "selected_offset": 36,
+        "selected_end": 37,
+        "selected": "3",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-2",
+        "operation": "replace",
+        "previous_offset": 43,
+        "previous_end": 44,
+        "previous_selected": "b",
+        "selected_offset": 43,
+        "selected_end": 44,
+        "selected": "p",
+        "reason": "Low m/N gives NA rather than prior MA. Returning q/K in SETKANI; dark body in TES?M kept unknown, TESIM only language restoration. TOUZIM selects open g/Z rather than c/S; PO selects 3/O rather than 8/L; BYCH low p/B, CH conditional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-3",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 12,
+        "previous_selected": "1h",
+        "selected_offset": 10,
+        "selected_end": 12,
+        "selected": "r8",
+        "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-3",
+        "operation": "replace",
+        "previous_offset": 14,
+        "previous_end": 15,
+        "previous_selected": "b",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "p",
+        "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-3",
+        "operation": "replace",
+        "previous_offset": 23,
+        "previous_end": 25,
+        "previous_selected": "6 ",
+        "selected_offset": 23,
+        "selected_end": 24,
+        "selected": "5",
+        "reason": "HLOUBEJI provisionally r/H+8/L+3/O+2/U+p/B+5/E+7/J+4/I rather than prior YROUPEJI. NAHLE?NOUTI selects 5/E rather than 6/A, keeping the dark intervening body masked; D is language restoration only. DUSIC-/KY join editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "previous_offset": 5,
+        "previous_end": 6,
+        "previous_selected": "?",
+        "selected_offset": 5,
+        "selected_end": 6,
+        "selected": "g",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "insert",
+        "previous_offset": 8,
+        "previous_end": 8,
+        "previous_selected": "",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "8",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "previous_offset": 16,
+        "previous_end": 17,
+        "previous_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "q",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "insert",
+        "previous_offset": 20,
+        "previous_end": 20,
+        "previous_selected": "",
+        "selected_offset": 21,
+        "selected_end": 22,
+        "selected": "g",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "delete",
+        "previous_offset": 21,
+        "previous_end": 24,
+        "previous_selected": "n?n",
+        "selected_offset": 23,
+        "selected_end": 23,
+        "selected": "",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-4",
+        "operation": "replace",
+        "previous_offset": 32,
+        "previous_end": 34,
+        "previous_selected": "n ",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "p",
+        "reason": "Returning q/K at KY/TAK versus open g/Z in ZAPLASITI/ROZ?ITE. ZAPLASITI provisionally includes separate looped 8/L absent from earlier ZAPASITI. Occluded middle of ROZ?ITE retained as unknown-length cluster, MAN only language proposal. Low p/B and m/N in POCHYBNOSTI; CH conditional; underlining not an encoded body.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-5",
+        "operation": "replace",
+        "previous_offset": 39,
+        "previous_end": 41,
+        "previous_selected": "?d",
+        "selected_offset": 39,
+        "selected_end": 41,
+        "selected": "qt",
+        "reason": "Dark cluster in POS?A retained; POSILA only language restoration. Final q/K+t/D+1/Y provisionally KDY rather than previous ?TY. CH conditional, nickname retained without identity authentication.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-6",
+        "operation": "replace",
+        "previous_offset": 5,
+        "previous_end": 6,
+        "previous_selected": "?",
+        "selected_offset": 5,
+        "selected_end": 7,
+        "selected": "3t",
+        "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-6",
+        "operation": "replace",
+        "previous_offset": 7,
+        "previous_end": 8,
+        "previous_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "3",
+        "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "373-opposing-6",
+        "operation": "delete",
+        "previous_offset": 12,
+        "previous_end": 13,
+        "previous_selected": ".",
+        "selected_offset": 13,
+        "selected_end": 13,
+        "selected": "",
+        "reason": "Initial reply group provisionally 3/O+t/D+b/P+3/O rather than masked ?P?; f/V5/Et/D retained. Final question-like stroke provisionally punctuation, replacing old unknown-body-plus-period role, with encoded 2/U, unknown-body/mark and separate-period alternatives. Source MATE remains formal/plural máte, not changed to MAS. No addressee relationship or completed reply inferred.",
+        "stage": "same-context nonblind source completion"
+      }
+    ],
+    "locator_corrections": [],
+    "preceding_whole_review_preserved_in": "../revisions/373-source-completion.json#/whole_previous_json/later_review"
   },
   "limits": [
     "Single key-visible source reader with project context; no independent or blind reading.",
-    "All oval-descender q/g distinctions kept unknown. Other provisional shapes may still be wrong.",
-    "Question masks may cover unknown-length clusters. Physical encoded-body totals null.",
     "No ordinary addressing/date transcription or identity/chronology authentication.",
     "Marked-r CH ownership is conditional; zero/low masks do not exclude glyph errors.",
     "Raw-before-computational-decode is not a blind reading: key and prior project context were visible.",
-    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval."
+    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval.",
+    "All revised contours, q/g, CH, segmentation and punctuation provisional. Same root AI with key/literal/language visible; no blind or second source reader or independent/human/external confirmation.",
+    "Nine unknown-glyph display slots remain, including unknown-length occluded clusters. Nine bracketed language-only restoration spans do not recover hidden ink or exact physical glyph lengths. Physical body totals remain null.",
+    "Lower CW90 six-unit block precedes opposing CW270 six-unit block only by proposed content order. Terminal reply question-punctuation role retains encoded 2/U, unknown-body/mark and separate-period alternatives.",
+    "No particular Hradec, actual letter dispatch/receipt, person, wish, meeting, date, relationship or chronology authenticated. Ordinary date/address/postal/printed writing and visible underlines excluded from replay; no intent attributed to black occlusions."
   ],
-  "encoded_bodies": 408,
-  "expanded_letters": 372,
+  "source_completion_revision": "../revisions/373-source-completion.json",
+  "encoded_bodies": 417,
+  "expanded_letters": 413,
   "ch_occurrences": 5,
-  "unknowns": 41
+  "unknowns": 9
 }
