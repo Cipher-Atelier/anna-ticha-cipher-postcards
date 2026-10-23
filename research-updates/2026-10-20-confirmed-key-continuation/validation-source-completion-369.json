@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T14:09:28.808714+00:00",
+  "base_commit": "84f9dfba1794fcddb867a28a3307893337af4496",
+  "card_ids": [
+    369
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Same root AI with key/literal/language visible. Both existing ROOT/C records and C notation addendum remain unchanged; current completion adds no blind, independent, human or external confirmation.",
+    "All dark-flower contours, q/g, CH, segmentation and punctuation provisional. Six unknown-glyph display slots remain: three are language-restoration spans and three stay unread in main9. No obscured ink or physical cluster lengths recovered.",
+    "Four language-only word proposals: ?AHE/DRAHE, MODLI?BICKU/MODLITBICKU, VISVETLI?/VYSVETLIT, VASNIVICH/VASNIVYCH. Source VI kept third-person; no extra S supplied. Three raised question roles provisional with encoded 2/U, unknown-role/extra-stroke alternatives.",
+    "Nine CW90 main units and one separate CW180 edge serialized in proposed content order; no authenticated attachment/chronology. Floral gaps supply no new text. Existing Radost/Joy→Žádost/Request editorial correction history preserved unchanged; selecting g/Z in ZADOST does not authenticate a request. No actual prayer, request/condition, confession/date, identity, relationship or ordinary heading date established."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 369 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Both immutable batch30 ROOT/C raw records, C notation addendum and previous curator/first-decoder record preserved unchanged; exact old edition archived.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary handwritten addressing and postal/printed writing visible; no separate continuous cipher-shaped run recognized. Bounded visible-frame observation, not absence of erased/obscured/unrecognized ink. Ordinary matter excluded without transcription/authentication.",
+      "reader": "same root AI with key/language visible",
+      "new_original_image_http_requests": 0,
+      "individual_view_timestamps": null
+    },
+    "ordering": {
+      "line_ids": [
+        "369-main-1",
+        "369-main-2",
+        "369-main-3",
+        "369-main-4",
+        "369-main-5",
+        "369-main-6",
+        "369-main-7",
+        "369-main-8",
+        "369-main-9",
+        "369-edge-1"
+      ],
+      "basis": "CW90 main source alignment, then separate CW180 edge by content; no authenticated attachment/chronology.",
+      "key_examples": [
+        "main2 TVECISTE / TVE CISTE word division editorial",
+        "main3 O SVYCH / main4 DVOU ZADOSTECH and main7 DRUHA JEJI / main8 ZADOST clause joins",
+        "main9 unread O ?O? ?E retained; NEZAPOMEN / edge VSAK is a proposed continuation"
+      ],
+      "physical_rows_or_chronology_established": false
+    }
+  },
+  "source_revision": "revisions/369-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T14:09:28.522532+00:00",
+    "card369": {
+      "rows": 10,
+      "encoded_bodies": 350,
+      "expanded_letters": 349,
+      "ch_occurrences": 5,
+      "unknowns": 6
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44437,
+      "expanded_letters": 43831,
+      "ch_occurrences": 311,
+      "unknowns": 917
+    },
+    "remaining_editorial_spans": 4,
+    "retained_unread_spans": 3,
+    "provisional_q_g_assignments": 24,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 193,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "both_whole_raw_objects_and_C_addendum_unchanged": true,
+    "prior_curator_first_decoder_and_alignment_preserved": true,
+    "raw_actor_count": 2,
+    "both_raw_and_previous_edit_replays": true,
+    "all_frozen_row_references_resolve": true,
+    "internal_links_checked": 356,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Bounded mechanical consistency/source-byte binding, no independent source/language or historical validation."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T14:09:28.522532+00:00",
+        "card369": {
+          "rows": 10,
+          "encoded_bodies": 350,
+          "expanded_letters": 349,
+          "ch_occurrences": 5,
+          "unknowns": 6
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44437,
+          "expanded_letters": 43831,
+          "ch_occurrences": 311,
+          "unknowns": 917
+        },
+        "remaining_editorial_spans": 4,
+        "retained_unread_spans": 3,
+        "provisional_q_g_assignments": 24,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 193,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "both_whole_raw_objects_and_C_addendum_unchanged": true,
+        "prior_curator_first_decoder_and_alignment_preserved": true,
+        "raw_actor_count": 2,
+        "both_raw_and_previous_edit_replays": true,
+        "all_frozen_row_references_resolve": true,
+        "internal_links_checked": 356,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Bounded mechanical consistency/source-byte binding, no independent source/language or historical validation."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 918,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual JSON/Markdown/guide/queue diff, ten literal-bound units, four language-only proposals, three retained unread main9 clusters, q/g/CH/question alternatives, previous/current and both raw/current edits, original row references, whole preceding edition and earlier curator/alignment/correction history reviewed in the same root context.",
+    "findings": [
+      "Ten native units have Czech/English working coverage; unknown-glyph display slots decrease from 52 to six. Three source masks have bracketed word proposals; three unknown-length main9 clusters stay unread with visible O/E anchors. Complete editorial coverage is not a solved-card or physical-count claim.",
+      "Four bracketed language-only proposals preserve literal output: ?AHE/DRAHE (?→DR), MODLI?BICKU/MODLITBICKU (?→T), VISVETLI?/VYSVETLIT (I→Y and ?→T), VASNIVICH/VASNIVYCH (I→Y). Source VI stays third-person, without supplied S. No hidden ink or actual cluster lengths recovered.",
+      "All 24 q/g assignments, five CH ownerships, dark-flower contours, segmentation and punctuation provisional. Main6/main8/edge raised questions retain encoded 2/U, unknown-role and extra-stroke alternatives; each encoded-2 replay adds one slot/known letter without certifying physical counts.",
+      "DVOU ZADOSTECH and DRUHA JEJI are provisional readings; DRUHA retains curved 2/U rather than 6/A. Edge ZPOVEDI selects b/P and t/D versus previous 6/A and d/T. No request/condition, actual confession/date or private knowledge established. Wavy underline not a decoded modifier; no extra text supplied in floral gaps.",
+      "Both complete ROOT/C raw objects/hashes, C addendum, frozen row pointers and earlier Radost/Joy→Žádost/Request correction history unchanged. Prior whole JSON/Markdown includes curator/first-decoder record and all old alignment ledgers; their current-relative offsets apply to that archived edition. Current g/Z does not restore unsupported R or authenticate a request. Exact previous/current and both raw/current edits replay; current literals/proposals/components updated together.",
+      "Current root review is key/literal/language-visible, adds no independent reader or confirmation. Main→edge continuation and Czech/English clause joins interpretive; no physical chronology, identity, relationship or ordinary heading date established.",
+      "Other 272 candidate files, 193 historical artifacts, 262 other queue objects and all 263 source arrays unchanged. Key/decoder/tests/catalogue/source records preserved; coverage stays 154/263 including partial readings."
+    ],
+    "disposition": "Publish provisional editorial coverage with six source masks, three retained unread clusters, four language-only proposals and explicit paired-record/history/role limits; deepen earlier partial 368 next."
+  },
+  "preparation_history": [
+    "Existing batch30 originals and pinned 204 reference reused unchanged. Both complete faces/all margins and enlarged native contexts inspected; zero new original-image requests or retries.",
+    "Both raw objects, C addendum, frozen-row pointers and earlier editorial correction history retained. Whole previous edition archived; current-relative reconciliation/literal components replaced with current deltas/components and explicit links to archived earlier anchors.",
+    "Three main9 dark clusters retained unread. Four language-only word hypotheses remain separate from source; source VI preserved. Three punctuation roles and main/edge attachment remain provisional.",
+    "Review corrected stale generic terminal-trace wording in current row metadata to retained unread main9 clusters and made the Radost/Joy→Žádost/Request history label precise; source selections unchanged. Preservation audit rerun successfully.",
+    "32 focused tests, 137-candidate/14-anchor replay and complete source-byte/both-raw-edit/language/question/order/preservation/link audit passed. No failed mechanical run recorded in this stage. Full repository checks below bind final artifacts and manifest."
+  ],
+  "artifact_sha256": {
+    "cards/369.json": "d90200c7d7ac121343d89af9d37a1c39f6f38ec45ac9a8a6b5bf68338cb052c8",
+    "cards/369.md": "925b07fdae6c08c1bc6d24f9c926ec3f68f2b9ccf92036c41f479ce10f19fc07",
+    "revisions/369-source-completion.json": "5c38e5757297778dfce1b8c1b2689dcf1263a521c8e3ba56551dc6c6292f730f"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
