@@ -1,0 +1,870 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T20:46:16.479922+00:00",
+  "base_commit": "535f168476f0392018aa2c12de3d54b3ee535e5c",
+  "card_ids": [
+    358
+  ],
+  "status": "passed bounded mechanical checks; provisional source/mark/editorial reading, no independent confirmation",
+  "source_revision": "revisions/358-source-completion.json",
+  "stage": "nonblind base-body source review; unresolved marks and faint cluster retained",
+  "limits": [
+    "Same root AI with key, earlier literal and language visible; nonblind, no independent/human/external confirmation.",
+    "Five preserved editorial entries: three main rows, detached lower-right run and one unresolved faint cluster possibly overlapping that run. Not five certified physical rows; body count null.",
+    "Old 18 unknown display entries comprise 15 standalone combining annotations, two precomposed marked letters and one faint-cluster mask. New base-body replay excludes upper annotations from counters, retaining them unresolved in a separate register. This is representation/counting change, not 17 newly deciphered letters.",
+    "Both original reads retain exact Unicode and native tags. Current strings are explicit source-selected bodies; no generic normalization, accent stripping or new key/decoder alias. NFD is used only for annotation ledger labels. Canonical ř/CH remains an unchanged key token, not decomposed into r/H.",
+    "All mark values/ownerships unresolved. Equal-count base-slot alignment and grouping are mechanical, not physical segmentation or attachment. Register does not repair frozen-reader documentation.",
+    "Czech accents, word boundaries, NEU-/STALE join, English subject/word order and name reading editorial. POPOUS retained; no substitution of another card’s signature. No person, relationship, place, authorship, ordinary caption/date or chronology authenticated.",
+    "Detached comma interpretation retains encoded 1/Y or other body/punctuation alternatives; faint overlapping traces remain masked, with unknown extent/ownership. Ordinary date-like writing excluded without authentication.",
+    "Two anonymous original-image GET200 responses match pinned hashes; both complete faces/margins and enlarged contexts viewed, scans/crops private. No separate continuous Address cipher recognized within visible frame; this does not prove absence of faint/hidden/unrecognized writing.",
+    "Original reads/protocol references/initial reconciliation/publication projection unchanged. Whole preceding edition and QA/scientific maps Git-pinned with byte/blob and canonical identities. Current-relative earlier replay/curation/QA/editorial records apply to that archived edition. No private original reader/helper FILE-byte rereads."
+  ],
+  "source_method": {
+    "source_acquisition": [
+      {
+        "face": "Picture",
+        "url": "https://api.hcportal.eu/media/5091/pc_hcp_358_pic.JPG",
+        "status": 200,
+        "sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+        "bytes": 1706234,
+        "started_utc": "2026-10-23T20:39:01.907516+00:00",
+        "completed_utc": "2026-10-23T20:39:02.277786+00:00",
+        "redirects": 0,
+        "retries": 0
+      },
+      {
+        "face": "Address",
+        "url": "https://api.hcportal.eu/media/5092/pc_hcp_358_adr.JPG",
+        "status": 200,
+        "sha256": "b99a7ae237095cdcbdcbee5e41a7a01151408bb5066a5573d2cb988db7af1aae",
+        "bytes": 1051644,
+        "started_utc": "2026-10-23T20:39:02.277820+00:00",
+        "completed_utc": "2026-10-23T20:39:02.513535+00:00",
+        "redirects": 0,
+        "retries": 0
+      }
+    ],
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "No separate continuous cipher-shaped run recognized within visible Address frame; ordinary writing/stamps/print excluded without transcription/authentication.",
+      "private_contexts": [
+        {
+          "label": "main",
+          "native_bbox_xyxy": [
+            100,
+            925,
+            1050,
+            1125
+          ],
+          "scale": 3
+        },
+        {
+          "label": "detached",
+          "native_bbox_xyxy": [
+            990,
+            1000,
+            1430,
+            1130
+          ],
+          "scale": 3
+        }
+      ],
+      "individual_view_timestamps": null,
+      "public_scans_or_crops_added": false
+    },
+    "previous_edition": {
+      "json": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/358.json",
+        "commit": "535f168476f0392018aa2c12de3d54b3ee535e5c",
+        "sha256": "9835488b46cb5e87e2fd67d9ba070e8a834244c1b11a1055e5f82ef0dc69cbe2",
+        "git_blob_oid": "0af78316d57b7dff5dc20220283ea1c6a7b45343",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/535f168476f0392018aa2c12de3d54b3ee535e5c/research-updates/2026-10-20-confirmed-key-continuation/cards/358.json"
+      },
+      "markdown": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/358.md",
+        "commit": "535f168476f0392018aa2c12de3d54b3ee535e5c",
+        "sha256": "2e9793226911591d3a5e740a3c83f527344e9cb36dee631cb737c649208830f7",
+        "git_blob_oid": "7fd8c82098f1640a5da9c392817011a1b322e232",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/535f168476f0392018aa2c12de3d54b3ee535e5c/research-updates/2026-10-20-confirmed-key-continuation/cards/358.md"
+      }
+    },
+    "previous_QA_maps": {
+      "qa27-original-object-map.json": {
+        "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/535f168476f0392018aa2c12de3d54b3ee535e5c/research-updates/2026-10-20-confirmed-key-continuation/cards/358.json#/qa/native_final_QA/whole_scientific_maps/qa27-original-object-map.json",
+        "canonical_sha256": "f1bda9e822c6503091674948eafd6c62d07791741e4176532643606e51e0adec",
+        "objects": 126
+      },
+      "qa27-position-map.json": {
+        "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/535f168476f0392018aa2c12de3d54b3ee535e5c/research-updates/2026-10-20-confirmed-key-continuation/cards/358.json#/qa/native_final_QA/whole_scientific_maps/qa27-position-map.json",
+        "canonical_sha256": "5ce7de976a27f8bf5281de66fd4d07092e20ed2160b1b6adf33ab054ea29ba78",
+        "objects": null
+      },
+      "qa27-source-content-report.json": {
+        "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/535f168476f0392018aa2c12de3d54b3ee535e5c/research-updates/2026-10-20-confirmed-key-continuation/cards/358.json#/qa/native_final_QA/whole_scientific_maps/qa27-source-content-report.json",
+        "canonical_sha256": "65e41b97d7dd905398935a6964605ce21b1adfaa0229851c034b6a7d04ec98bd",
+        "objects": null
+      },
+      "qa27-transaction-map.json": {
+        "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/535f168476f0392018aa2c12de3d54b3ee535e5c/research-updates/2026-10-20-confirmed-key-continuation/cards/358.json#/qa/native_final_QA/whole_scientific_maps/qa27-transaction-map.json",
+        "canonical_sha256": "3eea7f4ebe0b834b03e280343deb0cd208c04e2bd5168ad4bfff32694e9611b2",
+        "objects": null
+      }
+    },
+    "preservation": "Four whole raw-wrapper/own-strict objects and both raw hashes checked against unchanged inline originals; nine native strict replays verified. Shared public protocol pointers checked. Whole prior QA/four maps remain in immutable Git; canonical map hashes checked there. 126-object original map retained whole, not claimed as 126 independently verified private FILE hashes. No original private reader/helper FILE-byte rereads.",
+    "base_body_scope": {
+      "mode": "Explicit base bodies with unresolved upper annotations separate",
+      "old_unknown_count": {
+        "combining_annotation_codepoints": 15,
+        "precomposed_marked_letters": 2,
+        "faint_cluster_mask": 1
+      },
+      "raw_mark_observations": 32,
+      "candidate_mark_groups": 17,
+      "raw_objects_modified": false,
+      "key_or_decoder_changed": false,
+      "selected_bodies_automatically_NFD_generated": false,
+      "unicode_decomposition_use": "Ledger labels/grouping only; canonical ř/CH explicitly excluded from generic decomposition.",
+      "physical_encoded_body_count": null
+    },
+    "mark_register": "32 exact raw annotation observations aligned to 17 candidate base-slot groups; values/ownership all unresolved. Two FIRST-only groups preserve actual SECOND gaps. Canonical ř/CH source alternatives separate; no generic decomposition or key alias.",
+    "prior_findings": {
+      "actual_source_tag_defects": [],
+      "documentation_provenance_mismatches": [
+        {
+          "actual_new_shared_context": {
+            "actual_shared_display": {
+              "actual_call_completed_utc": "2026-10-21 11:11:06 UTC",
+              "actual_call_started_utc": "2026-10-21 11:11:06 UTC",
+              "actual_call_succeeded": true,
+              "detail": "original",
+              "display_id": "qa27-display-007",
+              "file": "qa27-views/358-pic-whole.png",
+              "scope": "Actual shared display; no per-position event or precise body bounding box.",
+              "tool": "view_image"
+            },
+            "limits": "Shared context display, no individual glyph box or independent per-position timestamp; attachment and physical count unestablished.",
+            "native_geometry": {
+              "FILE_sha256": "5b6cfc3b567b55809fd694ece21ac1619d4e0951038e314857de917c87557702",
+              "bindings": [],
+              "file": "qa27-views/358-pic-whole.png",
+              "native_dimensions": [
+                1785,
+                1175
+              ],
+              "output_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_bbox_xyxy": [
+                0,
+                0,
+                1785,
+                1175
+              ],
+              "reading_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_rotation_degrees_clockwise": 0,
+              "resampling": "none",
+              "scale": 1,
+              "scope": "Complete original face, every margin retained; ordinary writing not transcribed.",
+              "source_FILE_sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+              "source_file": "sources/pc_hcp_358_pic.JPG"
+            },
+            "whole_private_view": {
+              "FILE_sha256": "5b6cfc3b567b55809fd694ece21ac1619d4e0951038e314857de917c87557702",
+              "bytes": 4142465,
+              "ctime_ns": 1792581042094905811,
+              "device": 16777234,
+              "file": "qa27-views/358-pic-whole.png",
+              "inode": 608020906,
+              "mode": "0o444",
+              "mtime_ns": 1792581042094406143,
+              "scope": "Whole immutable private file; no fields removed."
+            }
+          },
+          "alternatives": [
+            "ordinary handwritten caption",
+            "uncertain reproduction/material origin in delivered scan"
+          ],
+          "card_id": 358,
+          "file": "readers/first357358-face-boundary.json",
+          "finding_id": "qa27-ordinary-caption-material-origin",
+          "limits": "Scan alone does not establish ink history, authorship or chronology; original wording retained unchanged.",
+          "native_pointer": "/observations/1/excluded_ordinary_areas/0",
+          "source": {
+            "face": "Picture side",
+            "metadata_basename": "source358.json",
+            "metadata_file_sha256": "300e95294429dbb6fe0ff9fb01aaf6e38ed6a32c918e6f8eb66872eca2473fb1",
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+            "url": "https://api.hcportal.eu/media/5091/pc_hcp_358_pic.JPG"
+          },
+          "source_observation": "Upper-margin ordinary scenic caption has variable pen-like stroke and handwritten letterforms in the actual whole face. FIRST phase1 calls this top caption printed; SECOND phase1 identifies it as handwritten. This is a bounded material-origin classification mismatch; it remains excluded ordinary context with no text transcription or encoded values.",
+          "whole_native_value": "Pictorial scene, watermark, top printed caption, narrow left publisher imprint."
+        }
+      ],
+      "frozen_locator_defects": [],
+      "frozen_source_documentation_omissions": [],
+      "mechanical_schema_exceptions": [],
+      "original_own_capture_exceptions": [],
+      "possible_modifier_coverage_gaps": [
+        {
+          "action": "Retain both native readings and all source documentation unchanged; no alias, attachment or glyph repair.",
+          "actual_new_detail_context": {
+            "actual_shared_display": {
+              "actual_call_completed_utc": "2026-10-21 11:15:15 UTC",
+              "actual_call_started_utc": "2026-10-21 11:15:15 UTC",
+              "actual_call_succeeded": true,
+              "detail": "original",
+              "display_id": "qa27-display-035",
+              "file": "qa27-views/357-initial-ascender-context.png",
+              "scope": "Actual shared contextual supplemental display; no per-position event/body box.",
+              "tool": "view_image"
+            },
+            "limits": "Shared context display, no individual glyph box or independent per-position timestamp; attachment and physical count unestablished.",
+            "native_geometry": {
+              "FILE_sha256": "ef6bc27b2f263f2375a361c99dd6d1cf3abbf7fc9eafe929edb3628028ad21e3",
+              "file": "qa27-views/357-initial-ascender-context.png",
+              "reading_bbox_xyxy": [
+                195,
+                1180,
+                550,
+                1390
+              ],
+              "reading_dimensions": [
+                1175,
+                1785
+              ],
+              "reading_rotation_degrees_clockwise": 270,
+              "resampling": "nearest",
+              "scale": 3,
+              "scope": "New shared contextual reinspection region chosen from actual image; no individual body boundaries claimed.",
+              "source_FILE_sha256": "7c412fb86231ee883104ecdf518fc31043f5327e2bb3333c583e729b556ffcb7",
+              "source_file": "sources/pc_hcp_357_pic.JPG"
+            },
+            "whole_private_view": {
+              "FILE_sha256": "ef6bc27b2f263f2375a361c99dd6d1cf3abbf7fc9eafe929edb3628028ad21e3",
+              "bytes": 135966,
+              "ctime_ns": 1792581303678553195,
+              "device": 16777234,
+              "file": "qa27-views/357-initial-ascender-context.png",
+              "inode": 608027479,
+              "mode": "0o444",
+              "mtime_ns": 1792581303678079528,
+              "scope": "Whole immutable private file; no fields removed."
+            }
+          },
+          "actual_new_shared_context": {
+            "actual_shared_display": {
+              "actual_call_completed_utc": "2026-10-21 11:12:08 UTC",
+              "actual_call_started_utc": "2026-10-21 11:12:08 UTC",
+              "actual_call_succeeded": true,
+              "detail": "original",
+              "display_id": "qa27-display-022",
+              "file": "qa27-views/357-row-context-05.png",
+              "scope": "Actual shared display; no per-position event or precise body bounding box.",
+              "tool": "view_image"
+            },
+            "limits": "Shared context display, no individual glyph box or independent per-position timestamp; attachment and physical count unestablished.",
+            "native_geometry": {
+              "FILE_sha256": "4213424adb1ed2e546bcf9fd953c9a76ab90868d58dd39082c6d598696c01fe3",
+              "bindings": [
+                {
+                  "line_id": "357-R2",
+                  "native_row_pointer": "/raw/lines/1",
+                  "raw_file": "readers/blind357.json"
+                }
+              ],
+              "file": "qa27-views/357-row-context-05.png",
+              "native_dimensions": [
+                1785,
+                1175
+              ],
+              "output_dimensions": [
+                1840,
+                450
+              ],
+              "reading_bbox_xyxy": [
+                195,
+                1165,
+                1115,
+                1390
+              ],
+              "reading_dimensions": [
+                1175,
+                1785
+              ],
+              "reading_rotation_degrees_clockwise": 270,
+              "resampling": "nearest",
+              "scale": 2,
+              "scope": "Shared full-row plus adjacent context; no individual body boxes or physical association proof.",
+              "source_FILE_sha256": "7c412fb86231ee883104ecdf518fc31043f5327e2bb3333c583e729b556ffcb7",
+              "source_file": "sources/pc_hcp_357_pic.JPG"
+            },
+            "whole_private_view": {
+              "FILE_sha256": "4213424adb1ed2e546bcf9fd953c9a76ab90868d58dd39082c6d598696c01fe3",
+              "bytes": 308959,
+              "ctime_ns": 1792581041881689927,
+              "device": 16777234,
+              "file": "qa27-views/357-row-context-05.png",
+              "inode": 608020897,
+              "mode": "0o444",
+              "mtime_ns": 1792581041881508927,
+              "scope": "Whole immutable private file; no fields removed."
+            }
+          },
+          "alternatives": [
+            "possible modifier",
+            "integral/adjacent stroke",
+            "surface noise"
+          ],
+          "canonical_raw_sha256": "0285abf1fb978f5b0da4789ac90c5f4c42c9e69717cea0f47674d56ed0746555",
+          "classification": "bounded possible coverage gap; physical modifier and frozen documentary omission unproven",
+          "finding_id": "qa27-modifier-candidate-1",
+          "frozen_documentary_omission_proven": false,
+          "line_id": "357-R2",
+          "memberships": [
+            "QA_possible_modifier_coverage_candidate"
+          ],
+          "native_ledger_pointers": [],
+          "offset": 1,
+          "peer_native_binding": {
+            "file": "readers/first357.json",
+            "native_pointer": "/raw/mark_ledger/15",
+            "whole_native_entry": {
+              "alternatives": [
+                "ordinary speck/print trace",
+                "unattached modifier",
+                "part of f contour"
+              ],
+              "checked_at_utc": "2026-10-21T10:29:35.566998+00:00",
+              "crop_FILE_sha256": "1fbf2839a6330266806e59bc7aed4aadf5fe69dd42c1638f2defbb99461ea030",
+              "crop_file": "source27-views/first357358/357-row2-context.png",
+              "intended_body_bounds_not_established": true,
+              "line_id": "357-L02",
+              "locator_scope": "broad context only",
+              "native_bbox_xyxy": [
+                445,
+                230,
+                570,
+                1110
+              ],
+              "offset": 1,
+              "possible_modifier": true,
+              "reading_bbox_xyxy": [
+                230,
+                1215,
+                1110,
+                1340
+              ],
+              "reading_dimensions": [
+                1175,
+                1785
+              ],
+              "reading_rotation_degrees_clockwise": 270,
+              "review_id": "first357358-phase2-group2:357-row2-context",
+              "selected": "f",
+              "source_observation": "Small dark speck/short upper-left trace near the initial f ascender is visible in the row crop. It may be noise, adjacent print or an unowned mark; f is retained without assigning an accent. Neighbouring rows checked."
+            }
+          },
+          "physical_encoded_body_count": null,
+          "physical_modifier_proven": false,
+          "raw_file": "readers/blind357.json",
+          "selected": "f",
+          "source": {
+            "face": "Picture side",
+            "metadata_basename": "source357.json",
+            "metadata_file_sha256": "2b13dc0a07750d74817b308285c4dde53b8645c03ec3a1e77a7b79ce965bf08e",
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "sha256": "7c412fb86231ee883104ecdf518fc31043f5327e2bb3333c583e729b556ffcb7",
+            "url": "https://api.hcportal.eu/media/5088/pc_hcp_357_pic.JPG"
+          },
+          "source_observation": "A small dark upper-left dash/speck is visible beside the initial tall-loop f area. FIRST documents the candidate; SECOND has no native record at this selected f and no next-combining association. The new shared context cannot settle whether it is modifier, adjacent pen trace or surface mark.",
+          "wrapper_FILE_sha256": "bd3f641c259e6b63b3cb4421502745383685e5fcf5b16b2c0aff7e436a3beba6"
+        },
+        {
+          "action": "Retain both native readings and all source documentation unchanged; no alias, attachment or glyph repair.",
+          "actual_new_detail_context": {
+            "actual_shared_display": {
+              "actual_call_completed_utc": "2026-10-21 11:15:15 UTC",
+              "actual_call_started_utc": "2026-10-21 11:15:15 UTC",
+              "actual_call_succeeded": true,
+              "detail": "original",
+              "display_id": "qa27-display-036",
+              "file": "qa27-views/358-upper-middle-context.png",
+              "scope": "Actual shared contextual supplemental display; no per-position event/body box.",
+              "tool": "view_image"
+            },
+            "limits": "Shared context display, no individual glyph box or independent per-position timestamp; attachment and physical count unestablished.",
+            "native_geometry": {
+              "FILE_sha256": "c54afb18a5012ba73499eaf4f067adfde16e46444d8d0a1b11b9fdd0677d319e",
+              "file": "qa27-views/358-upper-middle-context.png",
+              "reading_bbox_xyxy": [
+                310,
+                920,
+                770,
+                1070
+              ],
+              "reading_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_rotation_degrees_clockwise": 0,
+              "resampling": "nearest",
+              "scale": 3,
+              "scope": "New shared contextual reinspection region chosen from actual image; no individual body boundaries claimed.",
+              "source_FILE_sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+              "source_file": "sources/pc_hcp_358_pic.JPG"
+            },
+            "whole_private_view": {
+              "FILE_sha256": "c54afb18a5012ba73499eaf4f067adfde16e46444d8d0a1b11b9fdd0677d319e",
+              "bytes": 155500,
+              "ctime_ns": 1792581303709305780,
+              "device": 16777234,
+              "file": "qa27-views/358-upper-middle-context.png",
+              "inode": 608027480,
+              "mode": "0o444",
+              "mtime_ns": 1792581303708812071,
+              "scope": "Whole immutable private file; no fields removed."
+            }
+          },
+          "actual_new_shared_context": {
+            "actual_shared_display": {
+              "actual_call_completed_utc": "2026-10-21 11:12:31 UTC",
+              "actual_call_started_utc": "2026-10-21 11:12:31 UTC",
+              "actual_call_succeeded": true,
+              "detail": "original",
+              "display_id": "qa27-display-030",
+              "file": "qa27-views/358-row-context-05.png",
+              "scope": "Actual shared display; no per-position event or precise body bounding box.",
+              "tool": "view_image"
+            },
+            "limits": "Shared context display, no individual glyph box or independent per-position timestamp; attachment and physical count unestablished.",
+            "native_geometry": {
+              "FILE_sha256": "a9b76dbf498cf9ad34a796ac021572e756a5e60c7580f04d32824443c33b45e9",
+              "bindings": [
+                {
+                  "line_id": "358-R1",
+                  "native_row_pointer": "/raw/lines/0",
+                  "raw_file": "readers/blind358.json"
+                }
+              ],
+              "file": "qa27-views/358-row-context-05.png",
+              "native_dimensions": [
+                1785,
+                1175
+              ],
+              "output_dimensions": [
+                1940,
+                410
+              ],
+              "reading_bbox_xyxy": [
+                105,
+                870,
+                1075,
+                1075
+              ],
+              "reading_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_rotation_degrees_clockwise": 0,
+              "resampling": "nearest",
+              "scale": 2,
+              "scope": "Shared full-row plus adjacent context; no individual body boxes or physical association proof.",
+              "source_FILE_sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+              "source_file": "sources/pc_hcp_358_pic.JPG"
+            },
+            "whole_private_view": {
+              "FILE_sha256": "a9b76dbf498cf9ad34a796ac021572e756a5e60c7580f04d32824443c33b45e9",
+              "bytes": 429930,
+              "ctime_ns": 1792581042490728368,
+              "device": 16777234,
+              "file": "qa27-views/358-row-context-05.png",
+              "inode": 608020930,
+              "mode": "0o444",
+              "mtime_ns": 1792581042490593409,
+              "scope": "Whole immutable private file; no fields removed."
+            }
+          },
+          "alternatives": [
+            "detached modifier",
+            "integral tall-loop return",
+            "neighbouring trace"
+          ],
+          "canonical_raw_sha256": "3be323582a31755f34de4767cf56160935871cacfa8371036b3c9a38bce7de33",
+          "classification": "bounded possible coverage gap; physical modifier and frozen documentary omission unproven",
+          "finding_id": "qa27-modifier-candidate-2",
+          "frozen_documentary_omission_proven": false,
+          "line_id": "358-R1",
+          "memberships": [
+            "QA_possible_modifier_coverage_candidate"
+          ],
+          "native_ledger_pointers": [],
+          "offset": 23,
+          "peer_native_binding": {
+            "file": "readers/first358.json",
+            "native_pointer": "/raw/mark_ledger/7",
+            "whole_native_entry": {
+              "alternatives": [
+                "detached unowned upper trace",
+                "different modifier contour; do not normalize or infer from language"
+              ],
+              "checked_at_utc": "2026-10-21T10:29:35.566998+00:00",
+              "crop_FILE_sha256": "bb6efd36487a4494573a2ee9e6c07bd29c1591b6c35cbcd130d5fcd8d9c61e1b",
+              "crop_file": "source27-views/first357358/358-row1-context.png",
+              "intended_body_bounds_not_established": true,
+              "line_id": "358-L01",
+              "locator_scope": "broad context only",
+              "native_bbox_xyxy": [
+                115,
+                920,
+                1050,
+                1035
+              ],
+              "offset": 23,
+              "reading_bbox_xyxy": [
+                115,
+                920,
+                1050,
+                1035
+              ],
+              "reading_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_rotation_degrees_clockwise": 0,
+              "review_id": "first357358-phase2-group2:358-row1-context",
+              "selected": "́",
+              "source_observation": "At this serialized position a short acute-like upper stroke is provisionally associated with preceding 'h'. Retained as separate exact combining codepoint U+0301; attachment, fine shape and physical body count not established by this broad row+adjacent crop. Nearby-row ink inspected in shared group2."
+            }
+          },
+          "physical_encoded_body_count": null,
+          "physical_modifier_proven": false,
+          "raw_file": "readers/blind358.json",
+          "selected": "h",
+          "source": {
+            "face": "Picture side",
+            "metadata_basename": "source358.json",
+            "metadata_file_sha256": "300e95294429dbb6fe0ff9fb01aaf6e38ed6a32c918e6f8eb66872eca2473fb1",
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+            "url": "https://api.hcportal.eu/media/5091/pc_hcp_358_pic.JPG"
+          },
+          "source_observation": "A short oblique upper-right trace is visible in the tall-loop cluster. FIRST retains a combining acute after its h with provisional attachment; SECOND retains h without a record at this base. The same trace may be a returning/integral stroke or belong to a neighbour; no mark is added.",
+          "wrapper_FILE_sha256": "cf13a32612a565711143a17f2aec20628b7a90966e6068c00d5ad1c08121d20f"
+        },
+        {
+          "action": "Retain both native readings and all source documentation unchanged; no alias, attachment or glyph repair.",
+          "actual_new_detail_context": {
+            "actual_shared_display": {
+              "actual_call_completed_utc": "2026-10-21 11:15:15 UTC",
+              "actual_call_started_utc": "2026-10-21 11:15:15 UTC",
+              "actual_call_succeeded": true,
+              "detail": "original",
+              "display_id": "qa27-display-036",
+              "file": "qa27-views/358-upper-middle-context.png",
+              "scope": "Actual shared contextual supplemental display; no per-position event/body box.",
+              "tool": "view_image"
+            },
+            "limits": "Shared context display, no individual glyph box or independent per-position timestamp; attachment and physical count unestablished.",
+            "native_geometry": {
+              "FILE_sha256": "c54afb18a5012ba73499eaf4f067adfde16e46444d8d0a1b11b9fdd0677d319e",
+              "file": "qa27-views/358-upper-middle-context.png",
+              "reading_bbox_xyxy": [
+                310,
+                920,
+                770,
+                1070
+              ],
+              "reading_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_rotation_degrees_clockwise": 0,
+              "resampling": "nearest",
+              "scale": 3,
+              "scope": "New shared contextual reinspection region chosen from actual image; no individual body boundaries claimed.",
+              "source_FILE_sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+              "source_file": "sources/pc_hcp_358_pic.JPG"
+            },
+            "whole_private_view": {
+              "FILE_sha256": "c54afb18a5012ba73499eaf4f067adfde16e46444d8d0a1b11b9fdd0677d319e",
+              "bytes": 155500,
+              "ctime_ns": 1792581303709305780,
+              "device": 16777234,
+              "file": "qa27-views/358-upper-middle-context.png",
+              "inode": 608027480,
+              "mode": "0o444",
+              "mtime_ns": 1792581303708812071,
+              "scope": "Whole immutable private file; no fields removed."
+            }
+          },
+          "actual_new_shared_context": {
+            "actual_shared_display": {
+              "actual_call_completed_utc": "2026-10-21 11:12:31 UTC",
+              "actual_call_started_utc": "2026-10-21 11:12:31 UTC",
+              "actual_call_succeeded": true,
+              "detail": "original",
+              "display_id": "qa27-display-031",
+              "file": "qa27-views/358-row-context-06.png",
+              "scope": "Actual shared display; no per-position event or precise body bounding box.",
+              "tool": "view_image"
+            },
+            "limits": "Shared context display, no individual glyph box or independent per-position timestamp; attachment and physical count unestablished.",
+            "native_geometry": {
+              "FILE_sha256": "d0e5bbe559ff3945748baacd0ac295ebf08ae93520a2559d45fa63d780394701",
+              "bindings": [
+                {
+                  "line_id": "358-R2",
+                  "native_row_pointer": "/raw/lines/1",
+                  "raw_file": "readers/blind358.json"
+                }
+              ],
+              "file": "qa27-views/358-row-context-06.png",
+              "native_dimensions": [
+                1785,
+                1175
+              ],
+              "output_dimensions": [
+                1960,
+                410
+              ],
+              "reading_bbox_xyxy": [
+                105,
+                925,
+                1085,
+                1130
+              ],
+              "reading_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_rotation_degrees_clockwise": 0,
+              "resampling": "nearest",
+              "scale": 2,
+              "scope": "Shared full-row plus adjacent context; no individual body boxes or physical association proof.",
+              "source_FILE_sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+              "source_file": "sources/pc_hcp_358_pic.JPG"
+            },
+            "whole_private_view": {
+              "FILE_sha256": "d0e5bbe559ff3945748baacd0ac295ebf08ae93520a2559d45fa63d780394701",
+              "bytes": 385048,
+              "ctime_ns": 1792581042534427262,
+              "device": 16777234,
+              "file": "qa27-views/358-row-context-06.png",
+              "inode": 608020935,
+              "mode": "0o444",
+              "mtime_ns": 1792581042534279512,
+              "scope": "Whole immutable private file; no fields removed."
+            }
+          },
+          "alternatives": [
+            "possible acute-like trace",
+            "integral ascender terminal",
+            "adjacent-row stroke"
+          ],
+          "canonical_raw_sha256": "3be323582a31755f34de4767cf56160935871cacfa8371036b3c9a38bce7de33",
+          "classification": "bounded possible coverage gap; physical modifier and frozen documentary omission unproven",
+          "finding_id": "qa27-modifier-candidate-3",
+          "frozen_documentary_omission_proven": false,
+          "line_id": "358-R2",
+          "memberships": [
+            "QA_possible_modifier_coverage_candidate"
+          ],
+          "native_ledger_pointers": [],
+          "offset": 9,
+          "peer_native_binding": {
+            "file": "readers/first358.json",
+            "native_pointer": "/raw/mark_ledger/13",
+            "whole_native_entry": {
+              "alternatives": [
+                "detached unowned upper trace",
+                "different modifier contour; do not normalize or infer from language"
+              ],
+              "checked_at_utc": "2026-10-21T10:29:35.566998+00:00",
+              "crop_FILE_sha256": "47ce32f07dd1949c20eb0b1ab7c28de819b7652f7645f94583c3bfb4d6410f1b",
+              "crop_file": "source27-views/first357358/358-row2-context.png",
+              "intended_body_bounds_not_established": true,
+              "line_id": "358-L02",
+              "locator_scope": "broad context only",
+              "native_bbox_xyxy": [
+                115,
+                975,
+                1050,
+                1080
+              ],
+              "offset": 10,
+              "reading_bbox_xyxy": [
+                115,
+                975,
+                1050,
+                1080
+              ],
+              "reading_dimensions": [
+                1785,
+                1175
+              ],
+              "reading_rotation_degrees_clockwise": 0,
+              "review_id": "first357358-phase2-group2:358-row2-context",
+              "selected": "́",
+              "source_observation": "At this serialized position a short acute-like upper stroke is provisionally associated with preceding 'h'. Retained as separate exact combining codepoint U+0301; attachment, fine shape and physical body count not established by this broad row+adjacent crop. Nearby-row ink inspected in shared group2."
+            }
+          },
+          "physical_encoded_body_count": null,
+          "physical_modifier_proven": false,
+          "raw_file": "readers/blind358.json",
+          "selected": "h",
+          "source": {
+            "face": "Picture side",
+            "metadata_basename": "source358.json",
+            "metadata_file_sha256": "300e95294429dbb6fe0ff9fb01aaf6e38ed6a32c918e6f8eb66872eca2473fb1",
+            "native_dimensions": [
+              1785,
+              1175
+            ],
+            "sha256": "5bdd98df7263fb6810d6807cc5fb7c653192f70893ca1e6994205e1f105cdd13",
+            "url": "https://api.hcportal.eu/media/5091/pc_hcp_358_pic.JPG"
+          },
+          "source_observation": "Upper-right continuation near the tall h-like body has a short oblique component. FIRST records provisional acute association; SECOND lacks a base record/next-combining association here. Broad overlap with adjacent writing prevents proving separate modifier or physical ownership.",
+          "wrapper_FILE_sha256": "cf13a32612a565711143a17f2aec20628b7a90966e6068c00d5ad1c08121d20f"
+        }
+      ],
+      "protocol_timing_exceptions": []
+    },
+    "current_modifier_reinspection": [
+      {
+        "finding_id": "qa27-modifier-candidate-2",
+        "raw_actor": "SECOND",
+        "raw_line_id": "358-R1",
+        "raw_offset": 23,
+        "line_id": "358-L01",
+        "current_offset": 19,
+        "selected": "h",
+        "current_observation": "Upper-right short trace remains possible integral/return stroke, modifier or neighboring ink; attachment/value unresolved.",
+        "historical_classification": "bounded possible coverage gap; physical modifier and frozen documentary omission unproven",
+        "mark_group_id": "358-L01:16",
+        "disposition": "No addition to frozen SECOND ledger; current group retains FIRST-only observation."
+      },
+      {
+        "finding_id": "qa27-modifier-candidate-3",
+        "raw_actor": "SECOND",
+        "raw_line_id": "358-R2",
+        "raw_offset": 9,
+        "line_id": "358-L02",
+        "current_offset": 8,
+        "selected": "h",
+        "current_observation": "Upper-right short trace remains possible integral/return stroke, modifier or neighboring ink; attachment/value unresolved.",
+        "historical_classification": "bounded possible coverage gap; physical modifier and frozen documentary omission unproven",
+        "mark_group_id": "358-L02:7",
+        "disposition": "No addition to frozen SECOND ledger; current group retains FIRST-only observation."
+      }
+    ]
+  },
+  "audit": {
+    "status": "passed",
+    "original_image_hashes": 2,
+    "original_raw_strict_rows": 9,
+    "original_inline_canonical_hashes": {
+      "FIRST": {
+        "raw_wrapper": "483319bf2ce2d7d419b124c641f6bafb1d6fb6e98de6a37e8049441d985df347",
+        "own_strict": "5eb88db8412d5c8670aa274150ec02841f08429f443f5bd04e8d2a953c0bd67c"
+      },
+      "SECOND": {
+        "raw_wrapper": "55bb143eaca7d3e504d2fe880337df340ebd01aa24af14485ada3e89a2b41429",
+        "own_strict": "306ed1ffa22a545abb4e179005e23015a57e75dde2e7e3eda57212c51c8c4127"
+      }
+    },
+    "public_protocol_references": 27,
+    "prior_QA_maps": 4,
+    "prior_object_map_entries": 126,
+    "raw_annotation_observations": 32,
+    "candidate_mark_groups": 17,
+    "unresolved_singleton_documentation_gaps": 2,
+    "canonical_CH_source_records": 2,
+    "unresolved_faint_cluster_masks": 1,
+    "unchanged_other_candidate_files": 272,
+    "unchanged_historical_artifacts": 205,
+    "unchanged_other_queue_objects": 262,
+    "unchanged_source_arrays": 263,
+    "local_markdown_links": 422,
+    "canonical_candidates": 137,
+    "aggregate_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44375,
+      "expanded_letters": 44067,
+      "ch_occurrences": 327,
+      "unknowns": 635
+    },
+    "limits": "Mechanical consistency and bounded source review; no physical mark ownership/value, source accuracy, independence or solved certification. Git-pinned map content checked, not private original FILE bytes."
+  },
+  "artifact_sha256": {
+    "cards/358.json": "ebd32f207e28569f7a149eeae17fada0930052d974fa9ea75b4d6e65ca1a2d43",
+    "cards/358.md": "dd4e285a166c31a971c591d81779e284bc1291b81c1845a904e6511ff26fa19e",
+    "revisions/358-source-completion.json": "5da350515c419884cbacdb5e02ae45ae84b67318388968b900496b055ec38a26"
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed in 0.967s; test file unchanged."
+    },
+    {
+      "command": "private audit.py invoking unchanged check_card/check_package",
+      "exit_code": 0,
+      "result": "Source hashes, exact raw/own strict replay, shared pointers, four Git-pinned QA maps, previous/current and raw/current edits, annotation coverage/native pointers/CH exceptions, two singleton gaps, language spans, preservation and 137-candidate/14-row anchor replay passed."
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 940,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context, nonblind; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual card JSON semantic diff, complete Markdown diff, guides/queue word diff, revision and validation; original source contexts viewed.",
+    "findings": [
+      "Five editorial entries retain native IDs/order/geometry: three main rows, detached V PRAZE inscription, one faint cluster possibly overlapping it. Physical body/row counts remain null. Faint cluster not deleted, no invented length.",
+      "Old 18 unknown Unicode entries are 15 combining annotations, two precomposed marked letters and one mask. Current 83-slot/83-letter/one-CH/one-mask base replay changes scope; not 17 newly deciphered letters. Raw Unicode/tags and key/decoder unchanged.",
+      "All 32 raw annotation observations (FIRST 17, SECOND 15) retained in 17 candidate groups, ownership/value unresolved. Exact raw spans/codepoints/current positions/native ledger references checked. Canonical ř remains CH rather than being generically decomposed into r/H; source alternatives retained.",
+      "Two SECOND h/R gaps in VRELY and UPRIMNYCH reinspected unresolved. Current groups contain only FIRST observations, preserving missing frozen-reader documentation. Shared 357 gap receives no new source review. Top-caption material-origin mismatch retained without authentication.",
+      "Literal POPOUS retained with name proposal [Popouš?]; no source-letter substitution from other cards. Czech accents and NEU-/STALE join editorial. English subject/pronoun/object supplied interpretations. Detached comma retains encoded1/Y, other body/punctuation alternatives. No person/place/relationship/caption/date/authorship/chronology authenticated.",
+      "Original reads, initial reconciliation, source and shared protocol references unchanged. Whole previous JSON/Markdown and all QA/maps pinned with SHA256/Git-blob/canonical identities, old current-relative records scoped there. Exact edits replayed for both native readers; SECOND has four rows and no separate L05 counterpart.",
+      "Other 272 candidate files, 205 historical revision/validation artifacts, 262 queue objects and all 263 source arrays unchanged. Aggregate 137-candidate counters explicitly change to 1493 units/44375 slots/44067 known letters/327 CH/635 unknown display slots. Unique coverage remains 154/263 including partial, 109 without a published reading."
+    ],
+    "disposition": "Publish provisional base-body working reading with one faint-cluster mask and 17 unresolved mark groups; next deeper source review 357."
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "catalogue_cards": 263,
+    "unique_cards_with_reading_including_partial": 154,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  },
+  "preparation_history": [
+    "Both pinned source originals acquired by two anonymous GET200 requests, no redirects/retries; whole faces/margins and two enlarged contexts inspected. Scans/crops private.",
+    "Explicit current base strings written after source viewing. Unicode decomposition used only for ledger labels/grouping; original Unicode/key/decoder unchanged.",
+    "First bounded audit passed. During diff review Czech faint-cluster wording changed from heading row to detached row; final bounded audit rerun after that wording change. No failed mechanical run recorded in this stage.",
+    "Local review is same-root nonblind; no independent approval claimed. Full repository checks below bind final artifacts and manifest."
+  ]
+}
