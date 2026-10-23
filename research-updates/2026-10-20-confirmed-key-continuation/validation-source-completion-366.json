@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T16:13:10.967457+00:00",
+  "base_commit": "a09ea9e033399d72b0a898fcaa30e00590704d47",
+  "card_ids": [
+    366
+  ],
+  "stage": "same-context nonblind source completion and content-order review",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Same root AI, key/literal/language visible. Whole FIRST/SECOND wrappers, own literals, all scientific originals, workflow references and earlier QAL29-3 history unchanged. Historical blind label is a reader role, not current independence; no human/external confirmation.",
+    "Zero unknown-glyph display slots, as before, does not certify source accuracy or solved status. All q/g, four CH ownerships, revised contours/segmentation and punctuation provisional. SUCATNIM→ZUCASTNIM (S→Z plus insert S) and VZDIT→VZDYT (I→Y) are language-only proposals. Physical body count null.",
+    "Storage order top4/left3/right5 unchanged; proposed content order right5→top4→left3 crosses CW90/CW180/CW270 frames. SE MU PO NI / VELICE STYSKA and VY-/HRADNE joins editorial, not physical attachment/chronology. Reflexive+dative preserved; no row-local missing predicate silently inserted.",
+    "Four curl/dot question roles retain encoded2/U/unknown-role alternatives; BUDE·LI middle dot is provisional separator, editorial hyphen not recovered ink. Negative NEZAMILUJE retained. Names/possessives, funeral/relative day, national/ethnic utterance, irony, identity, ordinary heading date and journey/permission/relationship not authenticated.",
+    "Two new anonymous original-image GET200 responses, zero redirects/retries, SHA256 equal to previously pinned source bytes. Old batch29 private raw files not found in current workspace; inline whole/canonical records and whole prior edition preserved/rechecked, not a new raw-file-byte reread. Source scans/crops remain private."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 2,
+    "source_bytes": "Both anonymous original-image GET200 responses matched previously pinned SHA256 bytes, zero redirects/retries. Current acquisition receipts retained in revision.",
+    "raw_preservation": "Both whole FIRST/SECOND wrappers and own literals, all 57 scientific originals, workflow references and earlier correction history unchanged. Old private batch29 raw files not found in current workspace; inline canonical objects and four stored original UTF8 text FILE hashes checked, not a new private raw FILE-byte reread.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation. Historical blind role does not confer current independence.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary address/postal/printed matter visible; no separate continuous cipher-shaped run recognized. Bounded frame observation, not absence of faint/erased/hidden or unrecognized ink. Ordinary matter excluded without transcription/authentication.",
+      "reader": "same root AI, key/literal/language visible",
+      "new_original_image_http_requests": 2,
+      "individual_view_timestamps": null
+    },
+    "ordering": {
+      "line_ids": [
+        "366-right-1",
+        "366-right-2",
+        "366-right-3",
+        "366-right-4",
+        "366-right-5",
+        "366-top-1",
+        "366-top-2",
+        "366-top-3",
+        "366-top-4",
+        "366-left-1",
+        "366-left-2",
+        "366-left-3"
+      ],
+      "storage_line_ids": [
+        "366-top-1",
+        "366-top-2",
+        "366-top-3",
+        "366-top-4",
+        "366-left-1",
+        "366-left-2",
+        "366-left-3",
+        "366-right-1",
+        "366-right-2",
+        "366-right-3",
+        "366-right-4",
+        "366-right-5"
+      ],
+      "basis": "CW90 right block precedes CW180 top block then CW270 left closing block by content only; storage order, source rows, broad locators and directions unchanged.",
+      "key_examples": [
+        "right5 SE MU PO NI / top1 VELICE STYSKA proposed predicate continuation",
+        "top1 VY- / top2 HRADNE hyphen join",
+        "top4 NEMEC / left1 TISIC kisses is proposed closing transition"
+      ],
+      "physical_rows_or_chronology_established": false
+    }
+  },
+  "source_revision": "revisions/366-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T16:13:08.051257+00:00",
+    "card366": {
+      "rows": 12,
+      "encoded_bodies": 469,
+      "expanded_letters": 473,
+      "ch_occurrences": 4,
+      "unknowns": 0
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44416,
+      "expanded_letters": 44043,
+      "ch_occurrences": 326,
+      "unknowns": 699
+    },
+    "remaining_editorial_spans": 2,
+    "provisional_q_g_assignments": 33,
+    "new_original_image_http_requests": 2,
+    "original_image_retries": 0,
+    "original_image_hashes_equal_prior": true,
+    "private_raw_files_reread": 0,
+    "whole_scientific_originals_preserved": 57,
+    "canonical_json_originals_verified": 53,
+    "original_UTF8_text_hashes_verified": 4,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 199,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "both_whole_raw_wrappers_and_own_literals_unchanged": true,
+    "prior_curation_QA_offsets_archived": true,
+    "whole_previous_edition_pinned_in_Git": true,
+    "earlier_QAL29_3_history_and_reflexive_dative_preserved": true,
+    "both_raw_and_previous_edit_replays": true,
+    "all_frozen_row_references_resolve": true,
+    "internal_links_checked": 374,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Bounded mechanical/source-hash/canonical-object consistency; no new private raw FILE-byte reread, independent source/language or historical validation."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed in 2.659s; test file unchanged."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T16:13:08.051257+00:00",
+        "card366": {
+          "rows": 12,
+          "encoded_bodies": 469,
+          "expanded_letters": 473,
+          "ch_occurrences": 4,
+          "unknowns": 0
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44416,
+          "expanded_letters": 44043,
+          "ch_occurrences": 326,
+          "unknowns": 699
+        },
+        "remaining_editorial_spans": 2,
+        "provisional_q_g_assignments": 33,
+        "new_original_image_http_requests": 2,
+        "original_image_retries": 0,
+        "original_image_hashes_equal_prior": true,
+        "private_raw_files_reread": 0,
+        "whole_scientific_originals_preserved": 57,
+        "canonical_json_originals_verified": 53,
+        "original_UTF8_text_hashes_verified": 4,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 199,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "both_whole_raw_wrappers_and_own_literals_unchanged": true,
+        "prior_curation_QA_offsets_archived": true,
+        "whole_previous_edition_pinned_in_Git": true,
+        "earlier_QAL29_3_history_and_reflexive_dative_preserved": true,
+        "both_raw_and_previous_edit_replays": true,
+        "all_frozen_row_references_resolve": true,
+        "internal_links_checked": 374,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Bounded mechanical/source-hash/canonical-object consistency; no new private raw FILE-byte reread, independent source/language or historical validation."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 924,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual JSON/Markdown/guide/queue diff; twelve literal-bound units, proposed content/storage orders, two language-only word proposals, q/g/CH/question/separator alternatives, SE MU cross-row join and earlier QAL29-3 history, exact previous/current and both raw/current deltas, old curation/QA/editorial scope, exact previous Git edition/hash/blob identities and original-object preservation reviewed.",
+    "findings": [
+      "Twelve units now form connected Czech/English working passages in proposed right5→top4→left3 order across CW90/CW180/CW270. Storage top4/left3/right5, IDs, boxes and rotations unchanged. Right5 SE MU PO NI joins top1 VELICE STYSKA editorially; VY-/HRADNE hyphen join editorial. No authenticated physical attachment/chronology.",
+      "Two language-only word proposals retain source: SUCATNIM→ZUCASTNIM changes initial S→Z and inserts S; VZDIT→VZDYT changes I→Y. Zero unknown-glyph display slots remains zero; replay totals remain 12 units, 469 slots, 473 known letters, four CH. Zero masks does not certify solved status, source accuracy or physical counts.",
+      "Provisional source choices include SAMA (n/M versus FIRST m/N), NEZAMILUJE (6/A and7/J versus FIRST b/P and g/Z), PRECE (final5/E versus both s/C), PO (3/O versus FIRST s/C), 33 q/g choices and four CH attachments. Negative NEZ and reflexive+dative SE MU retained. Four question roles have encoded2/U/unknown-role alternatives, each adding one replay slot/letter under encoded2; BUDE·LI separator alternatives explicit.",
+      "Earlier QAL29-3 correction/history unchanged. Right5 English ends that, without an imported row-local predicate or nominative after it; whole English he misses her renders joined dative-experiencer construction. English passive voice/order interpretive. Current source/source-row metadata explicitly nonblind, replacing previous FIRST-equality and source-only-selection claims.",
+      "Whole prior JSON/Markdown is pinned in immutable Git history with SHA256/blob identities, preserving previous FIRST/SECOND comparisons, QA/events/journal/replay, preparation/publication metadata, editorial occurrence offsets and readable-MD hash. Old current-relative records apply to that edition. Current raw-row pointers and literal components resolve; previous/current and both raw/current edits replay as algorithmic alignments, not physical glyph matches.",
+      "Both whole raw wrappers/own literals and all 57 scientific originals unchanged. Their canonical objects and stored text hashes checked; older private raw files not found, so no new raw FILE-byte reread claimed. Two anonymous original-image GET200 responses matched pinned bytes; source scans/crops private.",
+      "Other 272 candidate files, 199 historical artifacts, 262 queue objects and all 263 catalogue/source arrays unchanged. Key/decoder/checker/tests/anchor/source audit unchanged. Package totals and coverage remain unchanged: 154/263 including partial readings, 109 without a reading.",
+      "Names/possessives, composer/particular funeral, relative day/calendar, national/ethnic utterance or irony, ordinary heading date and journey/permission/relationship not authenticated. Current root review adds no independent source or human confirmation."
+    ],
+    "disposition": "Publish connected provisional reading with two language-only word proposals, current/history scope and role/order limits. Deeper source review moves to earlier provisional 365."
+  },
+  "preparation_history": [
+    "Older pinned 366 scans not found in current workspace/cache; two anonymous original-image GETs returned the exact pinned SHA256 bytes, zero redirects/retries. Both complete faces/all margins and rotated/enlarged contexts inspected with existing pinned 204 comparison.",
+    "Whole preceding edition pinned in immutable Git history with exact SHA256/blob identities. Existing original wrappers/own literals, scientific originals and correction history retained exactly; previous current-relative QA/curation/editorial records explicitly scoped to archive. New current deltas/components/raw-row pointers bind current source selection.",
+    "Proposed right→top→left content order connects former fragmentary passages. Reflexive+dative and negative NEZ retained; only two explicit language-only word proposals, no hidden source normalization or composer/national-identity authentication.",
+    "Initial publication tree request timed out with HTTP504 after a 185MB embedded archive was generated; remote branch absence checked. Replaced duplicate archive with immutable previous Git-file URLs, SHA256 and blob identities; exact old files remain in Git and private backup. No retry of that oversized tree. Reran preservation/package/full checks on compact revision. 32 decoder tests, 137-candidate/14-anchor replay and source-hash/canonical-object/both-raw-edit/language/role/order/preservation/link audit passed. No failed mechanical run recorded in this stage. Full repository receipts below bind final artifacts and manifest."
+  ],
+  "artifact_sha256": {
+    "cards/366.json": "1788d667895579c108f4495684c2cd81cdd9e47df90fa4896eb8b55cdc63a16b",
+    "cards/366.md": "47435215d0c8af00aacbe722afee00c0f0583e73d7a9b88277bef3690af39bf2",
+    "revisions/366-source-completion.json": "c0f4b55fbbd692acd1f6678e35482ac8c69297f29fea7f48e8c55d376c5c3aa5"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
