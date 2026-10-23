@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T00:04:19.724951+00:00",
+  "base_commit": "9cbc7b03bbad01f4a2972c8ff7ca49ec1990f746",
+  "card_ids": [
+    379
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Every revised contour, q/g class, segmentation, CH and punctuation role is provisional. No second reader or human/external confirmation.",
+    "Complete editorial coverage and fewer masks do not establish source accuracy, complete decipherment or solved status.",
+    "Two raised curved marks are provisionally question punctuation, retaining encoded 2/U or unresolved-role alternatives. No identity, date, excursion or historical event authenticated.",
+    "Ordinary addressing, separate ordinary date and printed/postal matter excluded without transcription/authentication."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 379 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Initial batch33 raw and first computational decoder returns preserved unchanged.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary handwritten addressing and postal/printed matter visible; no separate cipher-shaped run recognized in the visible complete frame. Bounded negative; no erased, obscured or unrecognized material certified absent. No ordinary writing transcribed or historically authenticated.",
+      "reader": "same root AI, key and language visible",
+      "individual_view_timestamps": null,
+      "new_original_image_http_requests": 0
+    },
+    "ordering": "Five CW270 source-aligned rows; word division and cross-row clause joins remain editorial."
+  },
+  "source_revision": "revisions/379-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T00:04:19.420120+00:00",
+    "card379": {
+      "rows": 5,
+      "encoded_bodies": 173,
+      "expanded_letters": 174,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44357,
+      "expanded_letters": 43349,
+      "ch_occurrences": 312,
+      "unknowns": 1320
+    },
+    "remaining_editorial_spans": 0,
+    "provisional_q_g_assignments": 11,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 173,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 295,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T00:04:19.420120+00:00",
+        "card379": {
+          "rows": 5,
+          "encoded_bodies": 173,
+          "expanded_letters": 174,
+          "ch_occurrences": 1,
+          "unknowns": 0
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44357,
+          "expanded_letters": 43349,
+          "ch_occurrences": 312,
+          "unknowns": 1320
+        },
+        "remaining_editorial_spans": 0,
+        "provisional_q_g_assignments": 11,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 173,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "all_source_raw_initial_decode_objects_unchanged": true,
+        "raw_and_previous_edit_replays": true,
+        "internal_links_checked": 295,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 898,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual source JSON, Markdown/guide/queue diff, all five literal-bound rows, both question-punctuation role alternatives, exact edits and immutable-source guards. Whole preceding JSON/Markdown and frozen raw/initial decode preserved.",
+    "findings": [
+      "Zero unknown-glyph display slots; all 11 q/g classes, one CH slot, both question-punctuation roles and all contours remain provisional.",
+      "No substantive Czech letter repairs. Low m/N rather than preceding n/M yields JANKOVE in selected literal. Proper-name readings KARLUSI/JANKOVE do not independently identify people.",
+      "Raised curved marks after KARLUSI and LEPE are provisional question punctuation; encoded 2/U and unresolved-role alternatives retained. Mechanical replay of encoded alternatives adds one slot/letter per mark, without establishing its actual role.",
+      "Other 272 candidate files, 173 historical artifacts, 262 other queue objects and all 263 source arrays unchanged. Coverage stays 154/263 including partial readings."
+    ],
+    "disposition": "Publish provisional full working reading with explicit contour/role/language limitations; deepen earlier partial 378 next."
+  },
+  "preparation_history": [
+    "Existing originals reused and complete faces viewed. Private lossless crop/rotation/enlargement previews did not alter source bytes; no original-image acquisition failure or retry.",
+    "Two question-shaped marks retain the same selected text characters while transcription metadata changes their provisional role from unknown glyph to punctuation. The whole earlier metadata and unknown ledgers remain in the archived edition.",
+    "Focused tests, package replay and preservation/order/language-span/role audit passed. No failed mechanical check run recorded in this stage.",
+    "Review corrected the singular CH-slot wording; no selected cipher body changed during that wording correction."
+  ],
+  "artifact_sha256": {
+    "cards/379.json": "d1c21fe610f8b796fbf5b3902fa100f828975a3a37fbfc5306d1167e6e4cbc11",
+    "cards/379.md": "6c57c893bbda0b01d06f3b4badb915b4d1fd8cc1983f078fb18a2b853a7285e0",
+    "revisions/379-source-completion.json": "51e8b1d9c95842114e2560d06afd3ed57904165b0cf35890635c5d4b71a30130"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
