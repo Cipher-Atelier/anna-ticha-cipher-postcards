@@ -127,7 +127,7 @@ The selected source regions of all 137 candidates have been inspected: 134 Pictu
 | [368](cards/368.md) | 18 | 576 | 504 | 0 | 72 |
 | [369](cards/369.md) | 10 | 348 | 301 | 5 | 52 |
 | [370](cards/370.md) | 7 | 427 | 395 | 5 | 37 |
-| [371](cards/371.md) | 19 | 446 | 426 | 6 | 26 |
+| [371](cards/371.md) | 19 | 452 | 455 | 5 | 2 |
 | [372](cards/372.md) | 8 | 291 | 291 | 1 | 1 |
 | [373](cards/373.md) | 12 | 417 | 413 | 5 | 9 |
 | [374](cards/374.md) | 15 | 472 | 476 | 5 | 1 |
@@ -144,7 +144,7 @@ The selected source regions of all 137 candidates have been inspected: 134 Pictu
 | [385](cards/385.md) | 5 | 185 | 186 | 1 | 0 |
 | [386](cards/386.md) | 60 | 978 | 991 | 15 | 2 |
 
-Totals: **1493 selected rows, 44430 replay slots, 43719 known emitted letters, 312 CH slots and 1023 unknown display slots**. These are counters of the selected replay strings. Some `?` masks stand for clusters of unknown physical length, so neither their count nor replay-slot totals are exact physical glyph counts. Physical totals remain `null` where unresolved; no visual accuracy or source-coverage percentage is claimed. Known emitted letters exclude masks and preserved ordinary numerals; CH is one selected body emitting two letters. Zero masks, including on 253/255/262/273/276/279/288/290/293/294/297/298/299/300/305/306/307/309/313/317/322, do not eliminate alternative glyph readings.
+Totals: **1493 selected rows, 44436 replay slots, 43748 known emitted letters, 311 CH slots and 999 unknown display slots**. These are counters of the selected replay strings. Some `?` masks stand for clusters of unknown physical length, so neither their count nor replay-slot totals are exact physical glyph counts. Physical totals remain `null` where unresolved; no visual accuracy or source-coverage percentage is claimed. Known emitted letters exclude masks and preserved ordinary numerals; CH is one selected body emitting two letters. Zero masks, including on 253/255/262/273/276/279/288/290/293/294/297/298/299/300/305/306/307/309/313/317/322, do not eliminate alternative glyph readings.
 
 Each card JSON contains source URL/hash, orientation and source locators, frozen reader layers or their linked revision record, strict canonical ciphertext/literal output and uncertainty/mark/segmentation ledgers. Czech editorial proposals and English translations are separate and substantive restorations are bracketed or explicitly ledgered. Cards 249 and 257 now address all selected rows as partial clauses and literal-labeled fragments; 257 remains substantially incomplete. The readable editions of 267, 269, 271, 272, 274 and 275–358 address all selected rows with explicit unresolved fragments and bracketed editorial proposals. Cards 274 and 278 keep regions separate where narrative continuation is uncertain; 277 retains row-by-row fragments through obscured groups. On 276 an unclassified figure is excluded from selected replay while its encoded status remains unresolved in the current inventory. Card349’s main panel and separately oriented upper-margin run remain separate, with their relation/order unresolved. Card350’s terminal encoded run is included; printed verse remains excluded. Card 351 retains three right-margin rows read after a clockwise quarter-turn; 352 has seven lower rows in native orientation; 353 retains five right-margin rows read after a clockwise quarter-turn plus one spatially separate bottom run in native orientation; 354 retains six lower rows in native orientation. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts. No exact physical body counts are asserted.
 
@@ -156,7 +156,21 @@ For 351–354, both original actors’ whole prefreeze complete-face boundary re
 
 For 355–358, complete original Address faces and all margins have bounded observations from both original source contexts and root. No clear separate candidate cipher run was identified in those visible frames; erased, obscured or unseen material remains outside this observation. Ordinary address/person/postal/date-like writing is excluded without transcription. Whole native eleven-key Address metadata is retained with actual FILE records separately. The root source thread acquired eight originals once each: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts.
 
-## Current source completion — card 372
+## Current source completion — card 371
+
+[371](cards/371.md#complete-working-reading--23-october-2026) now has literal-bound Czech working coverage and an English interpretation for all nineteen preserved units. Eighteen CW90 main units are followed by a separate native margin message for display only. IDs, storage order, rotations and broad locators unchanged; attachment, word joins and physical chronology unestablished.
+
+Selected replay is 452 slots, 455 known letters, five provisional CH slots and two unknown-glyph display slots, versus 446/426/six/26 previously. Struck-through main2 and the unclear main7 word after PRED remain [?], explicitly unread rather than restored or discarded. No substantive Czech letter repairs. Main7 possible MINISTRA segmentation is an alternative only; no title/name identified.
+
+Nonblind source proposals include ZLATO, BRA-/TRANCE, ZTRATI TI, ZIROVNI-/CI, OPET, CISARSKE, KNIHOVNE, VASNIVYCH, repeated OPET and BRZKY. Plain f/V rather than a former marked-r CH in NIVYCH reduces selected CH from six to five. All q/g, remaining CH ownerships, other contours/segmentation and punctuation provisional. OPET/HLIDAL remain separate words; final main18 period retains exclamation/unresolved-mark alternatives.
+
+Source MOCI stays mocí without deleting I; English badly interprets its uncertain adverbial force. ZTRAVIL stays ztrávil without normalization to STRAVIL. PAC stays Pac; affectionate-gesture gloss tentative. English stayed in bed interprets HLIDAL SVOJI POSTYLKU. No actual cousin/visitor, illness, institution/library, office, journey, place, date, identity, relationship or chronology authenticated. No intent attributed to the struck-through cluster.
+
+The [revision](revisions/371-source-completion.json) preserves whole preceding JSON/Markdown, initial raw and first decoder returns, exact edits, per-unit reasons, both retained unread spans and all source/order alternatives. [Validation](validation-source-completion-371.json) records bounded mechanical checks. Complete editorial coverage is not solved status, source accuracy or physical-count validation.
+
+Cards 371–386 now have complete editorial working coverage, retaining source uncertainty. Next active completion work is earlier partial [370](cards/370.md); new 387–390 remain held. Better evidence or another reader is needed for unresolved groups and all provisional 371–386 choices. Coverage stays 154 of 263 including partial readings; 109 have no published reading here. Following checkpoints retain historical scope and counters.
+
+## Historical source completion — card 372
 
 [372](cards/372.md#complete-working-reading--23-october-2026) now has literal-bound Czech working hypotheses and an English interpretation for all eight preserved CW270 units. Proposed source-aligned order, UJI-/STENI and VERI TI/VERITI joins remain editorial. IDs, storage order, rotation and broad locators unchanged; physical chronology unestablished.
 
@@ -166,7 +180,7 @@ Four bracketed language-only proposals remain separate from source: MAM ?/MAMLI 
 
 The [revision](revisions/372-source-completion.json) preserves whole preceding JSON/Markdown, initial raw and first decoder returns, exact edits, per-unit reasons, all four language proposals and question/numeral alternatives. [Validation](validation-source-completion-372.json) records bounded mechanical checks. Complete editorial coverage does not establish solved status, accuracy or physical counts.
 
-Cards 372–386 now have complete editorial working coverage, retaining source uncertainty. Next active completion work is earlier partial [371](cards/371.md); new 387–390 remain held. Better evidence or another reader is needed for unresolved groups and all provisional 372–386 choices. Coverage stays 154 of 263 including partial readings; 109 have no published reading here. Following checkpoints retain historical scope and counters.
+Cards 372–386 now have complete editorial working coverage, retaining source uncertainty. At that checkpoint, next active completion work was earlier partial [371](cards/371.md); new 387–390 remain held. Better evidence or another reader is needed for unresolved groups and all provisional 372–386 choices. Coverage stays 154 of 263 including partial readings; 109 have no published reading here. Following checkpoints retain historical scope and counters.
 
 ## Historical source completion — card 373
 
