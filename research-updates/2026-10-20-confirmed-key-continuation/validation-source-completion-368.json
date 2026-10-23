@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T15:17:56.244713+00:00",
+  "base_commit": "dc531cc0d16076036fffaa524fb5db557458aa7f",
+  "card_ids": [
+    368
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Same root AI, key/literal/language visible. Existing related A/B raw objects unchanged. No independent, blind, human or external confirmation. Each actor froze before that actor decoded; no stronger cross-actor chronology asserted.",
+    "One unknown-glyph display slot remains: round0-like body in SLE?NE; SLECNE restores C only editorially. Fourteen language-only word proposals change no selected signs. Seven CH ownerships, all q/g and revised contours/segmentation provisional. Physical body count remains null.",
+    "Three raised curl/dot marks in M02/M11/M15 provisionally question punctuation, with encoded2/U, unknown-role and extra-stroke alternatives. M01/M03 commas, B01 low point and M15 dash also provisional. No hidden text supplied across print/watermark intersections.",
+    "Main15 then opposite3 is proposed content order. PSAM-/KO joined only editorially as bracketed PSANKO with M→N; no IC inserted, authenticated lexical form or physical attachment. Source VOLSANECH, KABASTOU and RIKALO retained; ordinary date/address excluded. No actual visit, burial/person, geography, journey/calendar, identity or relationship established."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 368 Picture/Address and reference204 bytes reused unchanged.",
+    "raw_freeze": "Both whole immutable batch30 A/B raw objects/hashes, complete source ledgers and preceding curator/decoder/alignment records preserved. Whole previous edition archived. Each actor froze before that actor decoded; no stronger cross-actor chronology asserted.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary address/postal/printed matter visible; no separate continuous cipher-shaped run recognized. Bounded visible-frame observation, not absence of faint/erased/hidden or unrecognized ink. Ordinary matter excluded without transcription/authentication.",
+      "reader": "same root AI, key/literal/language visible",
+      "new_original_image_http_requests": 0,
+      "individual_view_timestamps": null
+    },
+    "ordering": {
+      "line_ids": [
+        "368-P-M01",
+        "368-P-M02",
+        "368-P-M03",
+        "368-P-M04",
+        "368-P-M05",
+        "368-P-M06",
+        "368-P-M07",
+        "368-P-M08",
+        "368-P-M09",
+        "368-P-M10",
+        "368-P-M11",
+        "368-P-M12",
+        "368-P-M13",
+        "368-P-M14",
+        "368-P-M15",
+        "368-P-B01",
+        "368-P-B02",
+        "368-P-B03"
+      ],
+      "basis": "Fifteen CW90 main units followed by three CW270 opposite units by content only; IDs, boxes, storage order and rotations unchanged.",
+      "key_examples": [
+        "PRIVO LAVAL and NAVSTI VITI word joins editorial",
+        "NA / VOLSANECH retained, not normalized to V OLSANECH",
+        "main15 long kisses / B01 PUS continuation proposed",
+        "B02 PSAM- / B03 KO gives bracketed PSANKO via M→N; no inserted IC"
+      ],
+      "physical_rows_or_chronology_established": false
+    }
+  },
+  "source_revision": "revisions/368-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T15:17:53.009408+00:00",
+    "card368": {
+      "rows": 18,
+      "encoded_bodies": 564,
+      "expanded_letters": 570,
+      "ch_occurrences": 7,
+      "unknowns": 1
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44425,
+      "expanded_letters": 43897,
+      "ch_occurrences": 318,
+      "unknowns": 846
+    },
+    "remaining_editorial_spans": 14,
+    "uninterpreted_destination_token": "SVUM",
+    "provisional_q_g_assignments": 33,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 195,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "both_whole_raw_objects_unchanged": true,
+    "prior_curator_decoder_and_alignment_preserved": true,
+    "raw_actor_count": 2,
+    "both_raw_and_previous_edit_replays": true,
+    "all_frozen_row_references_resolve": true,
+    "internal_links_checked": 362,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Bounded mechanical consistency/source-byte binding; no independent source/language or historical validation."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed in 5.117s; test file unchanged."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T15:17:53.009408+00:00",
+        "card368": {
+          "rows": 18,
+          "encoded_bodies": 564,
+          "expanded_letters": 570,
+          "ch_occurrences": 7,
+          "unknowns": 1
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44425,
+          "expanded_letters": 43897,
+          "ch_occurrences": 318,
+          "unknowns": 846
+        },
+        "remaining_editorial_spans": 14,
+        "uninterpreted_destination_token": "SVUM",
+        "provisional_q_g_assignments": 33,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 195,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "both_whole_raw_objects_unchanged": true,
+        "prior_curator_decoder_and_alignment_preserved": true,
+        "raw_actor_count": 2,
+        "both_raw_and_previous_edit_replays": true,
+        "all_frozen_row_references_resolve": true,
+        "internal_links_checked": 362,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Bounded mechanical consistency/source-byte binding; no independent source/language or historical validation."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 920,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual JSON/Markdown/guide/queue diff; all eighteen current literal-bound units, fourteen language-only word proposals, single round mask, uninterpreted SVUM, named tokens, q/g/CH/question alternatives, both raw/current and previous/current edits, raw-row pointers, preceding whole edition and curator/decoder/alignment archives reviewed.",
+    "findings": [
+      "Eighteen native units have Czech/English working coverage; unknown display slots decrease from 72 to one round0-like source body in SLE?NE. SLECNE restores C only in the language layer. No physical body total or solved-card claim.",
+      "Fourteen language-only word proposals remain separate from selected signs: TOUZEBHNE/TOUZEBNE, ZTRAVENE/STRAVENE, ODLOLEDNE/ODPOLEDNE, BILI/BYLI, JSNE/JSME, KOLEROU/KOLEGOU, KOLERY/KOLEGY, VUHRADNE/VYHRADNE, PRIJEDEC/PRIJEDES, KVEDNU/KVETNU, ASPOM/ASPON, SLE?NE/SLECNE, TISIY/TISIC and PSAM/PSAN. SVUM retained uninterpreted, without SVYM normalization or supplied noun.",
+      "All 33 q/g choices, seven CH attachments, revised contours/segmentation and punctuation remain provisional. Three raised-question roles retain encoded2/U, unknown-role/extra-stroke alternatives; each encoded2 replay adds one slot/known letter without certifying physical counts. The internal SLE?NE mask remains an unknown glyph, separately from the later question in the same row.",
+      "VOLSANECH after NA is not normalized to V OLSANECH; KABASTOU not changed to a G-initial name; RIKALO keeps neuter ending; thin1/Y in TISIY retained despite proposed TISIC. Machšíka/Karluši and named place tokens tentative. No biographical/geographical/calendar authentication.",
+      "Main15→opposite3 and PSAM-/KO joins are content hypotheses with unchanged IDs/boxes/directions. Bracketed PSANKO changes M→N without inserted IC or certified lexical form/meaning. English pronouns, phrase order, passive kissing sentence and visit/memory meanings interpretive, not extra encoded bodies.",
+      "Both whole A/B raw objects/hashes, complete original ledgers/source metadata, earlier curator/decoder/alignment records preserved. Previous current-relative projections apply to archived whole prior JSON/Markdown. Exact previous/current and both raw/current deltas replay. New current raw-row pointers resolve; old offset-bearing editorial notes replaced by current literal-bound notes/components.",
+      "Other 272 candidate files, 195 historical artifacts, 262 other queue objects and all 263 catalogue/source arrays unchanged. Key/decoder/checker/tests/anchor/source audit records unchanged. Unique coverage remains 154/263 including partial readings, with 109 without a reading.",
+      "Current root review is key/literal/language-visible, adds no independent reader or confirmation. No visit, grave/person, place, itinerary/calendar, ordinary date, identity or relationship established."
+    ],
+    "disposition": "Publish provisional working coverage with one round mask, fourteen language-only word proposals, uninterpreted SVUM and named/role/order limits. Deepen earlier partial 367 next."
+  },
+  "preparation_history": [
+    "Existing originals and pinned 204 reference inspected in full-frame and enlarged contexts, with zero new original-image requests or retries. No public scans/crops.",
+    "Both raw objects and prior whole edition preserved; obsolete current-relative editorial/alignment anchors moved to explicit archive scope. Current exact deltas, proposals/components and raw-row pointers bind the new selection.",
+    "During editorial preparation, withdrew tentative SVUM→SVYM normalization: selected SVUM remains an uninterpreted destination-shaped token. Round0-like body retained unknown, fifteen initial language proposals reduced to fourteen before final audit/tests.",
+    "Review set source_glyphs_changed from actual previous/current equality (unchanged B02 remains false), then reran package/preservation checks. 32 focused decoder tests, 137-candidate/14-anchor replay and source-byte/both-raw-edit/language/role/order/preservation/link audit passed. No failed mechanical run recorded in this stage. Full repository receipts below bind final artifacts and manifest."
+  ],
+  "artifact_sha256": {
+    "cards/368.json": "8ec85c93bbbc98df71b68e5f31b3c3e4485265c1bee9e22dd5d9df725d2dd46b",
+    "cards/368.md": "f210f547a49e72f0a97dbd694f872f4fbf6b75f2c5f5e4e49c0ee5b4ecc4d733",
+    "revisions/368-source-completion.json": "d1e5b1c8f07327c6b1decb56fb4513ca1c935789c2d633cd162a7981ce8adf53"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
