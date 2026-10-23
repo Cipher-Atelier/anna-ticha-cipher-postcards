@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T09:52:12.819651+00:00",
+  "base_commit": "cc5ba8a241878588cba87ab1d59ff3ae49fcc188",
+  "card_ids": [
+    374
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Every revised contour, q/g class, segmentation, CH and punctuation role is provisional. Same key/literal/language-visible root context; no second reader, blind reading or human/external confirmation.",
+    "Complete editorial coverage does not establish complete decipherment, source accuracy or solved status. One unknown-glyph mask remains in main6.",
+    "Two language-only word proposals: TELE?RAVICKY→TELEGRAFICKY (?→G and V→F), DRAKE→DRACE (K→C). The latter is a conjectural address; DRAKE/unresolved address and alternative g/Z contour remain possible. No new G/F mapping.",
+    "No actual train timetable, travel, meeting, date, place identification, postal instruction, illness, person or relationship authenticated. Ordinary addressing/date/postal/printed writing excluded without transcription/authentication."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 374 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Initial batch31 raw and first computational decoder returns preserved unchanged.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary addressing and postal/printed writing visible; no separate continuous cipher-shaped run recognized in the complete visible frame. Bounded observation, not absence of erased/obscured/unrecognized material. Ordinary writing excluded without transcription/authentication.",
+      "reader": "same root AI, key and language visible",
+      "individual_view_timestamps": null,
+      "new_original_image_http_requests": 0
+    },
+    "ordering": {
+      "line_ids": [
+        "374-main-1",
+        "374-main-2",
+        "374-main-3",
+        "374-main-4",
+        "374-main-5",
+        "374-main-6",
+        "374-main-7",
+        "374-main-8",
+        "374-main-9",
+        "374-main-10",
+        "374-main-11",
+        "374-main-12",
+        "374-opposing-1",
+        "374-opposing-2",
+        "374-opposing-3"
+      ],
+      "basis": "CW270 main source alignment, then opposing CW90 closing by content, not physical chronology.",
+      "key_examples": [
+        "main4 NA- → main5 DRAZI forms NADRAZI",
+        "main7 NE- → main8 MRZI forms NEMRZI",
+        "opposing2 NEVYSLOVNE- / opposing3 TESI remain separate words; dash not a word join"
+      ],
+      "physical_rows_or_chronology_established": false
+    }
+  },
+  "source_revision": "revisions/374-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T09:51:20.012554+00:00",
+    "card374": {
+      "rows": 15,
+      "encoded_bodies": 472,
+      "expanded_letters": 476,
+      "ch_occurrences": 5,
+      "unknowns": 1
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44423,
+      "expanded_letters": 43660,
+      "ch_occurrences": 312,
+      "unknowns": 1075
+    },
+    "remaining_editorial_spans": 2,
+    "provisional_q_g_assignments": 28,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 183,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 326,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T09:51:20.012554+00:00",
+        "card374": {
+          "rows": 15,
+          "encoded_bodies": 472,
+          "expanded_letters": 476,
+          "ch_occurrences": 5,
+          "unknowns": 1
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44423,
+          "expanded_letters": 43660,
+          "ch_occurrences": 312,
+          "unknowns": 1075
+        },
+        "remaining_editorial_spans": 2,
+        "provisional_q_g_assignments": 28,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 183,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "all_source_raw_initial_decode_objects_unchanged": true,
+        "raw_and_previous_edit_replays": true,
+        "internal_links_checked": 326,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 908,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual JSON/Markdown/guide/queue diff, all fifteen literal-bound units, one remaining mask, both language-only word proposals, q/g/CH/punctuation and opposing-block order, whole preceding editions and frozen initial records reviewed in the same source context.",
+    "findings": [
+      "All fifteen units have Czech/English working hypotheses. Unknown-glyph display slots decrease from 33 to one. All 28 q/g assignments, five CH ownerships, other contours/segmentation and punctuation remain provisional.",
+      "The main6 tall k-like body remains unknown. TELE?RAVICKY→TELEGRAFICKY changes ?→G and V→F only in the language layer; canonical key has no new G/F mapping.",
+      "Source DRAKE→conjectural DRACE changes K→C only in the language layer. Its address meaning and English little-dragon interpretation remain unsettled; retain source/unresolved address or g/Z giving DRAZE as alternatives.",
+      "Preserved source O PUL, RESTANTE, DOSUD and name KARLUSI. English poste restante expands the phrase editorially. No actual timetable, travel, meeting, postal delivery, date, place, person, illness or relationship authenticated.",
+      "Main twelve CW270 units followed by three opposing CW90 units only as proposed content order. NA-/DRAZI and NE-/MRZI join provisionally; NEVYSLOVNE-/TESI remain two words. Main8 underline excluded from replay; physical body count stays null.",
+      "Other 272 candidate files, 183 historical artifacts, 262 other queue objects and all 263 source arrays unchanged. Coverage stays 154/263 including partial readings; no newly read unique card."
+    ],
+    "disposition": "Publish provisional complete editorial coverage with one source mask and explicit language/address limits; deepen earlier partial 373 next."
+  },
+  "preparation_history": [
+    "Existing batch31 Picture/Address originals and pinned 204 reference bytes reused unchanged. Complete original faces/all margins viewed; source privately rotated/cropped/enlarged. Zero new original-image requests or retries.",
+    "Private initial main6 draft briefly assigned g/Z-class notation to the tall body. Inspection showed the k-like contour was not secure under the canonical notation, so the source mask was retained before the first build/audit. No G or F mapping inferred from Czech fluency.",
+    "Source proposals retain one unknown glyph and conditional q/g/CH/segmentation choices. DRAKE remains in literal output with a conjectural language-only address proposal, rather than an authenticated endearment.",
+    "32 focused tests, 137-candidate/14-anchor package replay and complete preservation/source-byte/edit/language-span/order/link audit passed. No failed mechanical run recorded in this stage."
+  ],
+  "artifact_sha256": {
+    "cards/374.json": "a6c21cce5be5162325a29a43f2746f5b730e0f5baa49139b13ddd9a281ffd400",
+    "cards/374.md": "53974ccead1835dbb58a31789798c298dd9d5c1690e41694e188345e1c0b971b",
+    "revisions/374-source-completion.json": "0fe29ee2e727196276cdb676f9d76029e1328ef15f45ac068d33e742770cc18b"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}

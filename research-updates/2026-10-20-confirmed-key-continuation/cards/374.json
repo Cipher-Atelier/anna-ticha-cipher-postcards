@@ -1,7 +1,7 @@
 {
   "card_id": 374,
   "notation": "pdf204-canonical",
-  "status": "partial preliminary single-reader research candidate",
+  "status": "preliminary source-revised candidate with complete editorial working coverage and one source mask",
   "source": {
     "card_id": 374,
     "catalogue_id": 1693,
@@ -44,17 +44,18 @@
     "solution_status_json_pointer": "/data/data/1686/solution/name"
   },
   "orientation": {
-    "description": "Twelve-row main plus opposite-orientation three-row run. Word underlined in main-8; underline not decoded. ř is provisional marked-r with detached-mark alternative; ordinary date excluded.",
+    "description": "Twelve preserved CW270 main units and three opposing CW90 closing units. Proposed main→closing content order and cross-row joins are editorial, not physical chronology. IDs, storage order, rotations and broad locators unchanged. Main8 underline excluded from replay; one tall k-like main6 contour remains masked. All q/g, CH, segmentation and punctuation provisional; two language-only word proposals explicit.",
     "native_dimensions": [
       1785,
       1175
     ],
-    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x). Bounds are broad whole-block context, not exact rows or physical bodies."
+    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x). Bounds are broad whole-block context, not exact rows or physical bodies.",
+    "initial_description": "Twelve-row main plus opposite-orientation three-row run. Word underlined in main-8; underline not decoded. ř is provisional marked-r with detached-mark alternative; ordinary date excluded."
   },
   "lines": [
     {
       "line_id": "374-main-1",
-      "ciphertext": "cht5sm1 t4? ?6 th6r1 84cd5?. bh475t2 d5t1",
+      "ciphertext": "cht5sm1 t4q g6 th6r1 84cd5q. bh475t2 d5t1",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -73,58 +74,24 @@
         835,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 10,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 12,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 26,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 27,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "SRDECNY DI? ?A DRAHY LISTE?. PRIJEDU TEDY",
+      "literal": "SRDECNY DIK ZA DRAHY LISTEK. PRIJEDU TEDY",
       "encoded_bodies": 34,
-      "expanded_letters": 31,
+      "expanded_letters": 34,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 10,
-          "body_index": 9,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 12,
-          "body_index": 10,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 26,
-          "body_index": 22,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-2",
-      "ciphertext": "f m5t584 h6m3 bh4n3 t3 b2t573f4s h1ř84?5n,",
+      "ciphertext": "f m5t584 h6m3 bh4n3 t3 p2t573f4s h1ř84q5n,",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -143,36 +110,24 @@
         835,
         1140
       ],
-      "editorial_notes": "Enlarged source shows two low humps in h6m3, supporting m over raw n, and a separate tall looped h after initial b in bh4n3. These are provisional visual corrections after decoding, not a second independent reading.",
+      "editorial_notes": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 38,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 41,
           "text": ",",
           "kind": "punctuation"
         }
       ],
-      "literal": "V NEDELI RANO PRIMO DO PUDEJOVIC RYCHLI?EM,",
+      "literal": "V NEDELI RANO PRIMO DO BUDEJOVIC RYCHLIKEM,",
       "encoded_bodies": 35,
-      "expanded_letters": 35,
+      "expanded_letters": 36,
       "ch_occurrences": 1,
-      "unknowns": [
-        {
-          "offset": 38,
-          "body_index": 32,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-3",
-      "ciphertext": "?d5h1 d6n t3h6?4 3 b28 75t5m6sd5. bh3c4n, b1",
+      "ciphertext": "qd5h1 d6n t3h6g4 3 b28 75t5m6sd5. bh3c4n, p1",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -191,19 +146,9 @@
         835,
         1140
       ],
-      "editorial_notes": "Bowl with ascending stem in b28 supports b over raw f (which would require a descending crossing loop). Retain original f alternative.",
+      "editorial_notes": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 14,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 32,
           "text": ".",
@@ -215,28 +160,15 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "?TERY TAM DORA?I O PUL JEDENACTE. PROSIM, PY",
+      "literal": "KTERY TAM DORAZI O PUL JEDENACTE. PROSIM, BY",
       "encoded_bodies": 35,
-      "expanded_letters": 33,
+      "expanded_letters": 35,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 14,
-          "body_index": 12,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-4",
-      "ciphertext": "nm5 d5t1 6m4s?6 f t3p2 d2 3s5?6f686 m6 m6-",
+      "ciphertext": "nm5 d5t1 6m4sq6 f t3p2 d2 3s5q6f686 m6 m6-",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -255,47 +187,24 @@
         835,
         1140
       ],
-      "editorial_notes": "The oval-headed stem descends below the baseline in t3p2, supporting p over raw b. Original b remains alternative.",
+      "editorial_notes": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 13,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 29,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 41,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "MNE TEDY ANIC?A V DOBU TU OCE?AVALA NA NA-",
+      "literal": "MNE TEDY ANICKA V DOBU TU OCEKAVALA NA NA-",
       "encoded_bodies": 33,
-      "expanded_letters": 31,
+      "expanded_letters": 33,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 13,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 29,
-          "body_index": 23,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-5",
-      "ciphertext": "th6?4. m5bh5tf4t6m5 cm6t bh3?6??2 3?m6n484",
+      "ciphertext": "th6g4. m5bh5tf4t6m5 cm6t bh5q6gq1 3gm6n484",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -314,80 +223,24 @@
         835,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 3,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 5,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 28,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 35,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "DRA?I. NEPREDVIDANE SNAD PRO?A??U O?NAMILI",
+      "literal": "DRAZI. NEPREDVIDANE SNAD PREKAZKY OZNAMILI",
       "encoded_bodies": 37,
-      "expanded_letters": 32,
+      "expanded_letters": 37,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 3,
-          "body_index": 3,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 28,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "body_index": 26,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "body_index": 27,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 35,
-          "body_index": 30,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-6",
-      "ciphertext": "b1ř3n c4 d585?h6f4s?2 m6 b3c?3fm4 2h6t",
+      "ciphertext": "p1ř3n c4 d585?h6f4sq1 m6 b3cd3fm4 2h6t",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -406,28 +259,18 @@
         835,
         1140
       ],
-      "editorial_notes": "Replace unsupported notation v by provisional looped descending f on the enlarged source. The upright crossed/lower-loop body in the next word is masked d/t rather than choosing POSTOVNI from language.",
+      "editorial_notes": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
           "offset": 13,
           "text": "?",
           "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 28,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "PYCHOM SI TELE?RAVIC?U NA POS?OVNI URAD",
+      "literal": "BYCHOM SI TELE?RAVICKY NA POSTOVNI URAD",
       "encoded_bodies": 33,
-      "expanded_letters": 31,
+      "expanded_letters": 33,
       "ch_occurrences": 1,
       "unknowns": [
         {
@@ -435,24 +278,12 @@
           "body_index": 11,
           "symbol": "?",
           "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "body_index": 17,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 28,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
         }
       ]
     },
     {
       "line_id": "374-main-7",
-      "ciphertext": "f b2t573f4s4ř h5cd6md5. cř2??6 nm5 m5-",
+      "ciphertext": "f p2t573f4s4ř h5cd6md5. cř2gq6 nm5 m5-",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -471,23 +302,13 @@
         835,
         1140
       ],
-      "editorial_notes": "The two-hump m after initial one-hump n in nm5 is provisionally visible; raw nn5 remains a live alternative.",
+      "editorial_notes": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
           "offset": 22,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 27,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 28,
-          "text": "?",
-          "kind": "unknown_glyph"
         },
         {
           "offset": 37,
@@ -495,28 +316,15 @@
           "kind": "punctuation"
         }
       ],
-      "literal": "V PUDEJOVICICH RESTANTE. SCHU??A MNE NE-",
+      "literal": "V BUDEJOVICICH RESTANTE. SCHUZKA MNE NE-",
       "encoded_bodies": 31,
-      "expanded_letters": 31,
+      "expanded_letters": 33,
       "ch_occurrences": 2,
-      "unknowns": [
-        {
-          "offset": 27,
-          "body_index": 23,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 28,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-8",
-      "ciphertext": "nh?4. m6 cf374 6m4s?2 7c5n c5 f?t1 2bh4nm5",
+      "ciphertext": "nhg4. m6 cf374 6m4sq2 7c5n c5 fgt1 2bh4nm5",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -535,58 +343,24 @@
         835,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 2,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 4,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 19,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "MR?I. NA SVOJI ANIC?U JSEM SE V?DY UPRIMNE",
+      "literal": "MRZI. NA SVOJI ANICKU JSEM SE VZDY UPRIMNE",
       "encoded_bodies": 34,
-      "expanded_letters": 31,
+      "expanded_letters": 34,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 2,
-          "body_index": 2,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "body_index": 15,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 31,
-          "body_index": 24,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-9",
-      "ciphertext": "6 t32?5?m5 d5c48 6 t3c2t d5c4n. c83f6 n6 3",
+      "ciphertext": "6 d32g5pm5 d5c48 6 t3c2t d5c4n. c83f6 n6 3",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -605,47 +379,24 @@
         835,
         1140
       ],
-      "editorial_notes": "Rising versus descending stem after 5 is unresolved b/p; mask instead of choosing a Czech adjective.",
+      "editorial_notes": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 5,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 7,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 30,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "A DOU?E?NE TESIL A DOSUD TESIM. SLOVA MA O",
+      "literal": "A TOUZEBNE TESIL A DOSUD TESIM. SLOVA MA O",
       "encoded_bodies": 33,
-      "expanded_letters": 31,
+      "expanded_letters": 33,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 5,
-          "body_index": 4,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 7,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-10",
-      "ciphertext": "c85sm5 ?6h82c4 c4 6m4s?6 cb6dm5 f??6.",
+      "ciphertext": "c85sm5 q6h82c4 c4 6m4sq6 cb6dm5 fg686.",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -664,69 +415,24 @@
         835,
         1140
       ],
-      "editorial_notes": "Crowded middle/end of final word has uncertain number of bowls and baseline joins. Broaden mask; do not repair V??LDA into a fluent verb.",
+      "editorial_notes": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 7,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 22,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 34,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
+          "offset": 37,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "SLECNE ?ARLUSI SI ANIC?A SPATNE V??A.",
-      "encoded_bodies": 31,
-      "expanded_letters": 27,
+      "literal": "SLECNE KARLUSI SI ANICKA SPATNE VZALA.",
+      "encoded_bodies": 32,
+      "expanded_letters": 32,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 7,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 22,
-          "body_index": 19,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
-          "body_index": 28,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 34,
-          "body_index": 29,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-11",
-      "ciphertext": "th6?5, 76 n6n c85sm2 h6t, d32?4n fc6?",
+      "ciphertext": "th6q5, 76 n6n c85sm2 h6t, d32g4n fc6q",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -745,14 +451,9 @@
         835,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 3,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 5,
           "text": ",",
@@ -762,46 +463,17 @@
           "offset": 24,
           "text": ",",
           "kind": "punctuation"
-        },
-        {
-          "offset": 29,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "DRA?E, JA MAM SLECNU RAD, TOU?IM VSA?",
+      "literal": "DRAKE, JA MAM SLECNU RAD, TOUZIM VSAK",
       "encoded_bodies": 29,
-      "expanded_letters": 26,
+      "expanded_letters": 29,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 3,
-          "body_index": 3,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 29,
-          "body_index": 22,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
-          "body_index": 28,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-main-12",
-      "ciphertext": "bh3n82f4d4 6 b3?4d4 c5 cf4n cht5s?5n 3 c6n3d5!",
+      "ciphertext": "bh3n82f4d4 6 b3p1d4 c5 cf1n cht5sq5n 3 c6n3d5!",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -820,43 +492,20 @@
         835,
         1140
       ],
-      "editorial_notes": "The disputed b/p-like body in b3b4d4 has unclear stem direction and is masked. No verb is silently restored from context.",
+      "editorial_notes": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 15,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 45,
           "text": "!",
           "kind": "punctuation"
         }
       ],
-      "literal": "PROMLUVITI A PO?ITI SE SVIM SRDEC?EM O SAMOTE!",
+      "literal": "PROMLUVITI A POBYTI SE SVYM SRDECKEM O SAMOTE!",
       "encoded_bodies": 38,
-      "expanded_letters": 36,
+      "expanded_letters": 38,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 15,
-          "body_index": 13,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 33,
-          "body_index": 28,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-opposing-1",
@@ -879,7 +528,7 @@
         1710,
         1125
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Selected contours retained; marked-r CH in VRELYCH conditional. Opposing CW90 block follows main CW270 block only by content; no physical chronology established. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -896,7 +545,7 @@
     },
     {
       "line_id": "374-opposing-2",
-      "ciphertext": "df27 b5b32c, ?d5h1 c5 m6 d5p5 m5f1c83fm5-",
+      "ciphertext": "df27 b5b32c, qd5h1 c5 m6 d5p5 m5f1c83fm5-",
       "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
@@ -915,7 +564,7 @@
         1710,
         1125
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning q/K in KTERY provisional. Source final dash after NEVYSLOVNE is not joined into the following verb TESI as one word. Nickname retained without identity authentication. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -924,28 +573,16 @@
           "kind": "punctuation"
         },
         {
-          "offset": 13,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 40,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "TVUJ PEPOUS, ?TERY SE NA TEBE NEVYSLOVNE-",
+      "literal": "TVUJ PEPOUS, KTERY SE NA TEBE NEVYSLOVNE-",
       "encoded_bodies": 33,
-      "expanded_letters": 32,
+      "expanded_letters": 33,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 13,
-          "body_index": 10,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "374-opposing-3",
@@ -968,7 +605,7 @@
         1710,
         1125
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Selected contours retained. Cross-unit clause and block order remain editorial. Same-context nonblind; whole preceding edition preserved in ../revisions/374-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -988,440 +625,1025 @@
   "interpretive_fragments": [
     {
       "line_id": "374-main-1",
-      "literal_offset": 29,
-      "literal_fragment": "PRIJEDU TEDY",
-      "proposed_czech": "[Přijedu tedy…]",
-      "proposed_english": "[I will therefore come…]"
+      "literal_offset": 0,
+      "literal_fragment": "SRDECNY DIK ZA DRAHY LISTEK. PRIJEDU TEDY",
+      "proposed_czech": "Srdečný dík za drahý lístek. Přijedu tedy",
+      "proposed_english": "Heartfelt thanks for your dear letter. I will therefore come",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "374-main-2",
       "literal_offset": 0,
-      "literal_fragment": "V NEDELI RANO PRIMO DO PUDEJOVIC RYCHLI?EM,",
-      "proposed_czech": "[V neděli ráno přímo do Budějovic rychlíkem?; literal PUDEJOVIC needs editorial P → B; ? → K and CH provisional.]",
-      "proposed_english": "[On Sunday morning directly to Budějovice by express train?; literal PUDEJOVIC needs editorial P → B, ? → K and provisional CH. Place identification remains editorial.]"
+      "literal_fragment": "V NEDELI RANO PRIMO DO BUDEJOVIC RYCHLIKEM,",
+      "proposed_czech": "v neděli ráno přímo do Budějovic rychlíkem,",
+      "proposed_english": "on Sunday morning directly to Budějovice by express train,",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "374-main-3",
-      "literal_offset": 17,
-      "literal_fragment": "O PUL JEDENACTE. PROSIM, PY",
-      "proposed_czech": "[O půl jedenácté. Prosím, by…?; literal PY needs editorial P → B.]",
-      "proposed_english": "[At half past ten. Please, that…?; literal PY needs editorial P → B.]"
+      "literal_offset": 0,
+      "literal_fragment": "KTERY TAM DORAZI O PUL JEDENACTE. PROSIM, BY",
+      "proposed_czech": "který tam dorazí o půl jedenácté. Prosím, by",
+      "proposed_english": "which arrives there at half past ten. Please would",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-4",
+      "literal_offset": 0,
+      "literal_fragment": "MNE TEDY ANICKA V DOBU TU OCEKAVALA NA NA-",
+      "proposed_czech": "mne tedy Anička v dobu tu očekávala na ná-",
+      "proposed_english": "Anička wait for me then, at that time, at the",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-5",
+      "literal_offset": 0,
+      "literal_fragment": "DRAZI. NEPREDVIDANE SNAD PREKAZKY OZNAMILI",
+      "proposed_czech": "draží. Nepředvídané snad překážky oznámili",
+      "proposed_english": "station. We would let each other know of any unforeseen obstacles",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-6",
+      "literal_offset": 0,
+      "literal_fragment": "BYCHOM SI TELE?RAVICKY NA POSTOVNI URAD",
+      "proposed_czech": "bychom si [telegraficky?] na poštovní úřad",
+      "proposed_english": "by [telegraph?], addressed to the post office",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "374-main-7",
-      "literal_offset": 15,
-      "literal_fragment": "RESTANTE.",
-      "proposed_czech": "[Restante; fragment, not a completed postal instruction.]",
-      "proposed_english": "[Restante; fragment, not a completed postal instruction.]"
+      "literal_offset": 0,
+      "literal_fragment": "V BUDEJOVICICH RESTANTE. SCHUZKA MNE NE-",
+      "proposed_czech": "v Budějovicích restante. Schůzka mne ne-",
+      "proposed_english": "in Budějovice, poste restante. The meeting does not",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-8",
+      "literal_offset": 0,
+      "literal_fragment": "MRZI. NA SVOJI ANICKU JSEM SE VZDY UPRIMNE",
+      "proposed_czech": "mrzí. Na svoji Aničku jsem se vždy upřímně",
+      "proposed_english": "displease me. I have always looked forward sincerely",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-9",
+      "literal_offset": 0,
+      "literal_fragment": "A TOUZEBNE TESIL A DOSUD TESIM. SLOVA MA O",
+      "proposed_czech": "a toužebně těšil a dosud těším. Slova má o",
+      "proposed_english": "and longingly to seeing my Anička, and still do. My words about",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-10",
+      "literal_offset": 0,
+      "literal_fragment": "SLECNE KARLUSI SI ANICKA SPATNE VZALA.",
+      "proposed_czech": "slečně Karluši si Anička špatně vzala.",
+      "proposed_english": "Miss Karluši were taken the wrong way by Anička.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-11",
+      "literal_offset": 0,
+      "literal_fragment": "DRAKE, JA MAM SLECNU RAD, TOUZIM VSAK",
+      "proposed_czech": "[Dráče?], já mám slečnu rád, toužím však",
+      "proposed_english": "[Unclear endearment: perhaps “little dragon”?], I am fond of the young lady, but I long",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "374-main-12",
+      "literal_offset": 0,
+      "literal_fragment": "PROMLUVITI A POBYTI SE SVYM SRDECKEM O SAMOTE!",
+      "proposed_czech": "promluviti a pobýti se svým srdéčkem o samotě!",
+      "proposed_english": "to talk and spend time alone with my sweetheart!",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "374-opposing-1",
       "literal_offset": 0,
       "literal_fragment": "TISIC VRELYCH PUS POSILA TI TVUJ, VECNE",
-      "proposed_czech": "[Tisíc vřelých pus posílá ti tvůj, věčně…; CH provisional.]",
-      "proposed_english": "[A thousand warm kisses are sent to you by yours, forever…; provisional CH.]"
+      "proposed_czech": "Tisíc vřelých pus posílá ti tvůj, věčně",
+      "proposed_english": "A thousand warm kisses are sent to you by yours, forever",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
-      "line_id": "374-main-12",
+      "line_id": "374-opposing-2",
       "literal_offset": 0,
-      "literal_fragment": "PROMLUVITI",
-      "proposed_czech": "[Promluviti…; the following verb is left unresolved.]",
-      "proposed_english": "[To talk…; the following verb is left unresolved.]"
+      "literal_fragment": "TVUJ PEPOUS, KTERY SE NA TEBE NEVYSLOVNE-",
+      "proposed_czech": "tvůj Pepouš, který se na tebe nevýslovně",
+      "proposed_english": "your Pepouš, who looks forward unspeakably",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
-      "line_id": "374-main-12",
-      "literal_offset": 20,
-      "literal_fragment": "SE SVIM SRDEC?EM O SAMOTE!",
-      "proposed_czech": "[Se svým srdéčkem o samotě?; SRDEC?EM requires q → K; separate fragment.]",
-      "proposed_english": "[With my sweetheart in private?; SRDEC?EM requires q → K; separate fragment.]"
+      "line_id": "374-opposing-3",
+      "literal_offset": 0,
+      "literal_fragment": "TESI.",
+      "proposed_czech": "těší.",
+      "proposed_english": "to seeing you.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     }
   ],
-  "interpretation_scope": "Only listed literal-bound fragments have Czech/English proposals. Other text remains literal and unresolved; no complete fluent translation, order between opposite/margin blocks, identity or chronology is asserted.",
+  "interpretation_scope": "All fifteen preserved units have literal-bound Czech working hypotheses and English interpretations. One main6 unknown glyph remains. TELE?RAVICKY→TELEGRAFICKY and DRAKE→DRACE are explicit language-only proposals; the address remains uncertain. Proposed main/closing order, meanings and historical referents unconfirmed.",
   "uncertainty_ledger": [
     {
       "line_id": "374-main-1",
       "offset": 10,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-1",
       "offset": 12,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+      "previous_span": {
+        "offset": 12,
+        "end": 13
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-1",
       "offset": 26,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+      "previous_span": {
+        "offset": 26,
+        "end": 27
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-1",
+      "offset": 10,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-1",
+      "offset": 12,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-1",
+      "offset": 26,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-2",
+      "offset": 23,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+      "previous_span": {
+        "offset": 23,
+        "end": 24
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-2",
+      "offset": 38,
+      "selected": "q",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+      "previous_span": {
+        "offset": 38,
+        "end": 39
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-2",
       "offset": 35,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-2",
       "offset": 38,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-3",
       "offset": 0,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-3",
       "offset": 14,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+      "previous_span": {
+        "offset": 14,
+        "end": 15
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-3",
+      "offset": 42,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+      "previous_span": {
+        "offset": 42,
+        "end": 43
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-3",
+      "offset": 0,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-3",
+      "offset": 14,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-4",
       "offset": 13,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+      "previous_span": {
+        "offset": 13,
+        "end": 14
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-4",
       "offset": 29,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+      "previous_span": {
+        "offset": 29,
+        "end": 30
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-4",
+      "offset": 13,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-4",
+      "offset": 29,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-5",
       "offset": 3,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "previous_span": {
+        "offset": 3,
+        "end": 4
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-5",
-      "offset": 28,
-      "selected": "?",
+      "offset": 27,
+      "selected": "5q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "3?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "previous_span": {
+        "offset": 27,
+        "end": 29
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-5",
       "offset": 30,
-      "selected": "?",
+      "selected": "gq1",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "??2",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
-    },
-    {
-      "line_id": "374-main-5",
-      "offset": 31,
-      "selected": "?",
-      "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
-      ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "previous_span": {
+        "offset": 30,
+        "end": 33
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-5",
       "offset": 35,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "previous_span": {
+        "offset": 35,
+        "end": 36
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-5",
+      "offset": 3,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-5",
+      "offset": 28,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-5",
+      "offset": 30,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-5",
+      "offset": 31,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-5",
+      "offset": 35,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-6",
+      "offset": 0,
+      "selected": "p",
+      "alternatives": [
+        "b",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+      "previous_span": {
+        "offset": 0,
+        "end": 1
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-6",
+      "offset": 19,
+      "selected": "q1",
+      "alternatives": [
+        "?2",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+      "previous_span": {
+        "offset": 19,
+        "end": 21
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-6",
+      "offset": 28,
+      "selected": "d",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+      "previous_span": {
+        "offset": 28,
+        "end": 29
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-6",
       "offset": 2,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-6",
       "offset": 13,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g/Z",
+        "unclassified tall k-like contour; no canonical G mapping established"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-6",
       "offset": 19,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+      "physical_encoded_body_count": null
     },
     {
-      "line_id": "374-main-6",
-      "offset": 28,
-      "selected": "?",
+      "line_id": "374-main-7",
+      "offset": 2,
+      "selected": "p",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "b",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+      "previous_span": {
+        "offset": 2,
+        "end": 3
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-7",
+      "offset": 27,
+      "selected": "gq",
+      "alternatives": [
+        "??",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+      "previous_span": {
+        "offset": 27,
+        "end": 29
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-7",
       "offset": 12,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-7",
       "offset": 25,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-7",
       "offset": 27,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "q",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-7",
       "offset": 28,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-8",
       "offset": 2,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+      "previous_span": {
+        "offset": 2,
+        "end": 3
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-8",
       "offset": 19,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+      "previous_span": {
+        "offset": 19,
+        "end": 20
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-8",
       "offset": 31,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+      "previous_span": {
+        "offset": 31,
+        "end": 32
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-8",
+      "offset": 2,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-8",
+      "offset": 19,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-8",
+      "offset": 31,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-9",
+      "offset": 2,
+      "selected": "d",
+      "alternatives": [
+        "t",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+      "previous_span": {
+        "offset": 2,
+        "end": 3
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-9",
       "offset": 5,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+      "previous_span": {
+        "offset": 5,
+        "end": 6
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-9",
       "offset": 7,
-      "selected": "?",
+      "selected": "p",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+      "previous_span": {
+        "offset": 7,
+        "end": 8
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-9",
+      "offset": 5,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-10",
       "offset": 7,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+      "previous_span": {
+        "offset": 7,
+        "end": 8
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-10",
       "offset": 22,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+      "previous_span": {
+        "offset": 22,
+        "end": 23
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-10",
       "offset": 33,
-      "selected": "?",
+      "selected": "g68",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "??",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+      "previous_span": {
+        "offset": 33,
+        "end": 35
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-10",
-      "offset": 34,
-      "selected": "?",
+      "offset": 7,
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-10",
+      "offset": 22,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-10",
+      "offset": 33,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-11",
       "offset": 3,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+      "previous_span": {
+        "offset": 3,
+        "end": 4
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-11",
       "offset": 29,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+      "previous_span": {
+        "offset": 29,
+        "end": 30
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-11",
       "offset": 36,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+      "previous_span": {
+        "offset": 36,
+        "end": 37
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-11",
+      "offset": 3,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-11",
+      "offset": 29,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-11",
+      "offset": 36,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-12",
       "offset": 15,
-      "selected": "?",
+      "selected": "p1",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?4",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+      "previous_span": {
+        "offset": 15,
+        "end": 17
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-12",
+      "offset": 25,
+      "selected": "1",
+      "alternatives": [
+        "4",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+      "previous_span": {
+        "offset": 25,
+        "end": 26
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-main-12",
       "offset": 33,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+      "previous_span": {
+        "offset": 33,
+        "end": 34
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-main-12",
+      "offset": 33,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-opposing-1",
       "offset": 11,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Selected contours retained; marked-r CH in VRELYCH conditional. Opposing CW90 block follows main CW270 block only by content; no physical chronology established.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "374-opposing-2",
       "offset": 13,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in KTERY provisional. Source final dash after NEVYSLOVNE is not joined into the following verb TESI as one word. Nickname retained without identity authentication.",
+      "previous_span": {
+        "offset": 13,
+        "end": 14
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "374-opposing-2",
+      "offset": 13,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in KTERY provisional. Source final dash after NEVYSLOVNE is not joined into the following verb TESI as one word. Nickname retained without identity authentication.",
+      "physical_encoded_body_count": null
     }
   ],
   "original_readings": [
@@ -2053,11 +2275,47 @@
     ]
   },
   "later_review": {
-    "reader": "same root context",
+    "reader": "same root AI context",
     "blind": false,
     "independent": false,
-    "completed_utc": "2026-10-22T08:15:39.810458+00:00",
+    "completed_utc": "2026-10-23T09:49:50.235953+00:00",
     "all_text_changes_from_raw": [
+      {
+        "line_id": "374-main-1",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-1",
+        "operation": "replace",
+        "raw_offset": 12,
+        "raw_end": 13,
+        "raw_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "g",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-1",
+        "operation": "replace",
+        "raw_offset": 26,
+        "raw_end": 27,
+        "raw_selected": "?",
+        "selected_offset": 26,
+        "selected_end": 27,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+        "stage": "same-context nonblind source completion"
+      },
       {
         "line_id": "374-main-2",
         "operation": "replace",
@@ -2067,8 +2325,8 @@
         "selected_offset": 11,
         "selected_end": 12,
         "selected": "m",
-        "reason": "Enlarged source shows two low humps in h6m3, supporting m over raw n, and a separate tall looped h after initial b in bh4n3. These are provisional visual corrections after decoding, not a second independent reading.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-2",
@@ -2079,8 +2337,56 @@
         "selected_offset": 15,
         "selected_end": 16,
         "selected": "h",
-        "reason": "Enlarged source shows two low humps in h6m3, supporting m over raw n, and a separate tall looped h after initial b in bh4n3. These are provisional visual corrections after decoding, not a second independent reading.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-2",
+        "operation": "replace",
+        "raw_offset": 22,
+        "raw_end": 23,
+        "raw_selected": "b",
+        "selected_offset": 23,
+        "selected_end": 24,
+        "selected": "p",
+        "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-2",
+        "operation": "replace",
+        "raw_offset": 37,
+        "raw_end": 38,
+        "raw_selected": "?",
+        "selected_offset": 38,
+        "selected_end": 39,
+        "selected": "q",
+        "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-3",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-3",
+        "operation": "replace",
+        "raw_offset": 14,
+        "raw_end": 15,
+        "raw_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "g",
+        "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-3",
@@ -2091,8 +2397,32 @@
         "selected_offset": 19,
         "selected_end": 20,
         "selected": "b",
-        "reason": "Bowl with ascending stem in b28 supports b over raw f (which would require a descending crossing loop). Retain original f alternative.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-3",
+        "operation": "replace",
+        "raw_offset": 42,
+        "raw_end": 43,
+        "raw_selected": "b",
+        "selected_offset": 42,
+        "selected_end": 43,
+        "selected": "p",
+        "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-4",
+        "operation": "replace",
+        "raw_offset": 13,
+        "raw_end": 14,
+        "raw_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-4",
@@ -2103,8 +2433,80 @@
         "selected_offset": 20,
         "selected_end": 21,
         "selected": "p",
-        "reason": "The oval-headed stem descends below the baseline in t3p2, supporting p over raw b. Original b remains alternative.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-4",
+        "operation": "replace",
+        "raw_offset": 29,
+        "raw_end": 30,
+        "raw_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "raw_offset": 3,
+        "raw_end": 4,
+        "raw_selected": "?",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "g",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "raw_offset": 27,
+        "raw_end": 29,
+        "raw_selected": "3?",
+        "selected_offset": 27,
+        "selected_end": 29,
+        "selected": "5q",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "raw_offset": 30,
+        "raw_end": 33,
+        "raw_selected": "??2",
+        "selected_offset": 30,
+        "selected_end": 33,
+        "selected": "gq1",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "raw_offset": 35,
+        "raw_end": 36,
+        "raw_selected": "?",
+        "selected_offset": 35,
+        "selected_end": 36,
+        "selected": "g",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-6",
+        "operation": "replace",
+        "raw_offset": 0,
+        "raw_end": 1,
+        "raw_selected": "b",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "p",
+        "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-6",
@@ -2115,8 +2517,20 @@
         "selected_offset": 16,
         "selected_end": 17,
         "selected": "f",
-        "reason": "Replace unsupported notation v by provisional looped descending f on the enlarged source. The upright crossed/lower-loop body in the next word is masked d/t rather than choosing POSTOVNI from language.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-6",
+        "operation": "replace",
+        "raw_offset": 19,
+        "raw_end": 21,
+        "raw_selected": "?2",
+        "selected_offset": 19,
+        "selected_end": 21,
+        "selected": "q1",
+        "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-6",
@@ -2126,9 +2540,33 @@
         "raw_selected": "t",
         "selected_offset": 28,
         "selected_end": 29,
-        "selected": "?",
-        "reason": "Replace unsupported notation v by provisional looped descending f on the enlarged source. The upright crossed/lower-loop body in the next word is masked d/t rather than choosing POSTOVNI from language.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected": "d",
+        "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-7",
+        "operation": "replace",
+        "raw_offset": 2,
+        "raw_end": 3,
+        "raw_selected": "b",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "p",
+        "reason": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-7",
+        "operation": "replace",
+        "raw_offset": 27,
+        "raw_end": 29,
+        "raw_selected": "??",
+        "selected_offset": 27,
+        "selected_end": 29,
+        "selected": "gq",
+        "reason": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-7",
@@ -2139,8 +2577,68 @@
         "selected_offset": 32,
         "selected_end": 33,
         "selected": "m",
-        "reason": "The two-hump m after initial one-hump n in nm5 is provisionally visible; raw nn5 remains a live alternative.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-8",
+        "operation": "replace",
+        "raw_offset": 2,
+        "raw_end": 3,
+        "raw_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-8",
+        "operation": "replace",
+        "raw_offset": 19,
+        "raw_end": 20,
+        "raw_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "q",
+        "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-8",
+        "operation": "replace",
+        "raw_offset": 31,
+        "raw_end": 32,
+        "raw_selected": "?",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "g",
+        "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-9",
+        "operation": "replace",
+        "raw_offset": 2,
+        "raw_end": 3,
+        "raw_selected": "t",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "d",
+        "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-9",
+        "operation": "replace",
+        "raw_offset": 5,
+        "raw_end": 6,
+        "raw_selected": "?",
+        "selected_offset": 5,
+        "selected_end": 6,
+        "selected": "g",
+        "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-9",
@@ -2150,48 +2648,582 @@
         "raw_selected": "b",
         "selected_offset": 7,
         "selected_end": 8,
-        "selected": "?",
-        "reason": "Rising versus descending stem after 5 is unresolved b/p; mask instead of choosing a Czech adjective.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected": "p",
+        "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-10",
+        "operation": "replace",
+        "raw_offset": 7,
+        "raw_end": 8,
+        "raw_selected": "?",
+        "selected_offset": 7,
+        "selected_end": 8,
+        "selected": "q",
+        "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-10",
+        "operation": "replace",
+        "raw_offset": 22,
+        "raw_end": 23,
+        "raw_selected": "?",
+        "selected_offset": 22,
+        "selected_end": 23,
+        "selected": "q",
+        "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-10",
+        "operation": "replace",
+        "raw_offset": 33,
+        "raw_end": 35,
+        "raw_selected": "??",
+        "selected_offset": 33,
+        "selected_end": 35,
+        "selected": "g6",
+        "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-10",
         "operation": "delete",
-        "raw_offset": 35,
+        "raw_offset": 36,
         "raw_end": 37,
-        "raw_selected": "8t",
-        "selected_offset": 35,
-        "selected_end": 35,
+        "raw_selected": "t",
+        "selected_offset": 36,
+        "selected_end": 36,
         "selected": "",
-        "reason": "Crowded middle/end of final word has uncertain number of bowls and baseline joins. Broaden mask; do not repair V??LDA into a fluent verb.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-11",
+        "operation": "replace",
+        "raw_offset": 3,
+        "raw_end": 4,
+        "raw_selected": "?",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "q",
+        "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-11",
+        "operation": "replace",
+        "raw_offset": 29,
+        "raw_end": 30,
+        "raw_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "g",
+        "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-11",
+        "operation": "replace",
+        "raw_offset": 36,
+        "raw_end": 37,
+        "raw_selected": "?",
+        "selected_offset": 36,
+        "selected_end": 37,
+        "selected": "q",
+        "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "374-main-12",
         "operation": "replace",
         "raw_offset": 15,
-        "raw_end": 16,
-        "raw_selected": "b",
+        "raw_end": 17,
+        "raw_selected": "b4",
         "selected_offset": 15,
-        "selected_end": 16,
-        "selected": "?",
-        "reason": "The disputed b/p-like body in b3b4d4 has unclear stem direction and is masked. No verb is silently restored from context.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected_end": 17,
+        "selected": "p1",
+        "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-12",
+        "operation": "replace",
+        "raw_offset": 25,
+        "raw_end": 26,
+        "raw_selected": "4",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "1",
+        "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-12",
+        "operation": "replace",
+        "raw_offset": 33,
+        "raw_end": 34,
+        "raw_selected": "?",
+        "selected_offset": 33,
+        "selected_end": 34,
+        "selected": "q",
+        "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-opposing-2",
+        "operation": "replace",
+        "raw_offset": 13,
+        "raw_end": 14,
+        "raw_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Returning q/K in KTERY provisional. Source final dash after NEVYSLOVNE is not joined into the following verb TESI as one word. Nickname retained without identity authentication.",
+        "stage": "same-context nonblind source completion"
       }
     ],
-    "locator_corrections": []
+    "all_text_changes_from_previous": [
+      {
+        "line_id": "374-main-1",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-1",
+        "operation": "replace",
+        "previous_offset": 12,
+        "previous_end": 13,
+        "previous_selected": "?",
+        "selected_offset": 12,
+        "selected_end": 13,
+        "selected": "g",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-1",
+        "operation": "replace",
+        "previous_offset": 26,
+        "previous_end": 27,
+        "previous_selected": "?",
+        "selected_offset": 26,
+        "selected_end": 27,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, provisionally compared with the pinned known 204 context. All other contours retained.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-2",
+        "operation": "replace",
+        "previous_offset": 23,
+        "previous_end": 24,
+        "previous_selected": "b",
+        "selected_offset": 23,
+        "selected_end": 24,
+        "selected": "p",
+        "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-2",
+        "operation": "replace",
+        "previous_offset": 38,
+        "previous_end": 39,
+        "previous_selected": "?",
+        "selected_offset": 38,
+        "selected_end": 39,
+        "selected": "q",
+        "reason": "Low descender p/B rather than tall b/P in BUDEJOVIC, a source proposal rather than the earlier language-only P→B repair. Returning q/K in RYCHLIKEM. CH mark ownership conditional; place/travel not authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-3",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "?",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "q",
+        "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-3",
+        "operation": "replace",
+        "previous_offset": 14,
+        "previous_end": 15,
+        "previous_selected": "?",
+        "selected_offset": 14,
+        "selected_end": 15,
+        "selected": "g",
+        "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-3",
+        "operation": "replace",
+        "previous_offset": 42,
+        "previous_end": 43,
+        "previous_selected": "b",
+        "selected_offset": 42,
+        "selected_end": 43,
+        "selected": "p",
+        "reason": "Returning q/K in KTERY versus open g/Z in DORAZI. Low p/B rather than b/P in BY. Source O PUL retained; time is message content, not timetable verification.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-4",
+        "operation": "replace",
+        "previous_offset": 13,
+        "previous_end": 14,
+        "previous_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-4",
+        "operation": "replace",
+        "previous_offset": 29,
+        "previous_end": 30,
+        "previous_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKA/OCEKAVALA provisionally selected. Preserved NA-/DRAZI join is editorial. All low m/n and p/B contours provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "previous_offset": 3,
+        "previous_end": 4,
+        "previous_selected": "?",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "g",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "previous_offset": 27,
+        "previous_end": 29,
+        "previous_selected": "3?",
+        "selected_offset": 27,
+        "selected_end": 29,
+        "selected": "5q",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "previous_offset": 30,
+        "previous_end": 33,
+        "previous_selected": "??2",
+        "selected_offset": 30,
+        "selected_end": 33,
+        "selected": "gq1",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-5",
+        "operation": "replace",
+        "previous_offset": 35,
+        "previous_end": 36,
+        "previous_selected": "?",
+        "selected_offset": 35,
+        "selected_end": 36,
+        "selected": "g",
+        "reason": "Open g/Z in DRAZI/OZNAMILI versus returning q/K around g/Z in PREKAZKY. The formerly compressed group provisionally bh5q6gq1 → PREKAZKY, selecting 5/E rather than 3/O and final narrow 1/Y. Long adjacent contours and segmentation remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-6",
+        "operation": "replace",
+        "previous_offset": 0,
+        "previous_end": 1,
+        "previous_selected": "b",
+        "selected_offset": 0,
+        "selected_end": 1,
+        "selected": "p",
+        "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-6",
+        "operation": "replace",
+        "previous_offset": 19,
+        "previous_end": 21,
+        "previous_selected": "?2",
+        "selected_offset": 19,
+        "selected_end": 21,
+        "selected": "q1",
+        "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-6",
+        "operation": "replace",
+        "previous_offset": 28,
+        "previous_end": 29,
+        "previous_selected": "?",
+        "selected_offset": 28,
+        "selected_end": 29,
+        "selected": "d",
+        "reason": "Low p/B in BYCHOM. The body after TELE has a tall k-like contour not securely assigned under the unchanged canonical notation; retain one unknown-glyph mask with g/Z and unresolved-body alternatives. Source f/V retained; final narrow 1/Y rather than 2/U; crossed d/T in POSTOVNI. The language-only proposal changes the mask to G and V to F; no new G/F symbol mapping is added.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-7",
+        "operation": "replace",
+        "previous_offset": 2,
+        "previous_end": 3,
+        "previous_selected": "b",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "p",
+        "reason": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-7",
+        "operation": "replace",
+        "previous_offset": 27,
+        "previous_end": 29,
+        "previous_selected": "??",
+        "selected_offset": 27,
+        "selected_end": 29,
+        "selected": "gq",
+        "reason": "Low p/B in BUDEJOVICICH. Open g/Z then returning q/K provisionally SCHUZKA; CH mark ownership conditional. The source says RESTANTE without a selected POSTE word. English poste restante expands the postal phrase editorially.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-8",
+        "operation": "replace",
+        "previous_offset": 2,
+        "previous_end": 3,
+        "previous_selected": "?",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "g",
+        "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-8",
+        "operation": "replace",
+        "previous_offset": 19,
+        "previous_end": 20,
+        "previous_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "q",
+        "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-8",
+        "operation": "replace",
+        "previous_offset": 31,
+        "previous_end": 32,
+        "previous_selected": "?",
+        "selected_offset": 31,
+        "selected_end": 32,
+        "selected": "g",
+        "reason": "Open g/Z in MRZI/VZDY versus returning q/K in ANICKU. Source underline on SVOJI is emphasis, not an encoded body. NE-/MRZI joins across units; literal MRZI retained without replacing by a different reaction.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-9",
+        "operation": "replace",
+        "previous_offset": 2,
+        "previous_end": 3,
+        "previous_selected": "t",
+        "selected_offset": 2,
+        "selected_end": 3,
+        "selected": "d",
+        "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-9",
+        "operation": "replace",
+        "previous_offset": 5,
+        "previous_end": 6,
+        "previous_selected": "?",
+        "selected_offset": 5,
+        "selected_end": 6,
+        "selected": "g",
+        "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-9",
+        "operation": "replace",
+        "previous_offset": 7,
+        "previous_end": 8,
+        "previous_selected": "?",
+        "selected_offset": 7,
+        "selected_end": 8,
+        "selected": "p",
+        "reason": "Open g/Z and descending low p/B in TOUZEBNE, formerly b/p unknown, provisionally selected. Source DOSUD and TESIM retained; language/order of English clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-10",
+        "operation": "replace",
+        "previous_offset": 7,
+        "previous_end": 8,
+        "previous_selected": "?",
+        "selected_offset": 7,
+        "selected_end": 8,
+        "selected": "q",
+        "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-10",
+        "operation": "replace",
+        "previous_offset": 22,
+        "previous_end": 23,
+        "previous_selected": "?",
+        "selected_offset": 22,
+        "selected_end": 23,
+        "selected": "q",
+        "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-10",
+        "operation": "replace",
+        "previous_offset": 33,
+        "previous_end": 35,
+        "previous_selected": "??",
+        "selected_offset": 33,
+        "selected_end": 36,
+        "selected": "g68",
+        "reason": "Returning q/K in KARLUSI/ANICKA. Final formerly compressed group provisionally f/V+g/Z+6/A+8/L+6/A → VZALA; no longer V??A. Source name final 4/I retained; spelling, case, referent and idiom interpretation unconfirmed.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-11",
+        "operation": "replace",
+        "previous_offset": 3,
+        "previous_end": 4,
+        "previous_selected": "?",
+        "selected_offset": 3,
+        "selected_end": 4,
+        "selected": "q",
+        "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-11",
+        "operation": "replace",
+        "previous_offset": 29,
+        "previous_end": 30,
+        "previous_selected": "?",
+        "selected_offset": 29,
+        "selected_end": 30,
+        "selected": "g",
+        "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-11",
+        "operation": "replace",
+        "previous_offset": 36,
+        "previous_end": 37,
+        "previous_selected": "?",
+        "selected_offset": 36,
+        "selected_end": 37,
+        "selected": "q",
+        "reason": "First oval-descender provisionally returning q/K gives source DRAKE, with g/Z or unresolved contour alternatives. DRACE (K→C) is only a conjectural Czech address, not a source correction; retain DRAKE/unresolved address as alternatives. Open g/Z in TOUZIM versus returning q/K in VSAK. No name or relationship authenticated.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-12",
+        "operation": "replace",
+        "previous_offset": 15,
+        "previous_end": 17,
+        "previous_selected": "?4",
+        "selected_offset": 15,
+        "selected_end": 17,
+        "selected": "p1",
+        "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-12",
+        "operation": "replace",
+        "previous_offset": 25,
+        "previous_end": 26,
+        "previous_selected": "4",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "1",
+        "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-main-12",
+        "operation": "replace",
+        "previous_offset": 33,
+        "previous_end": 34,
+        "previous_selected": "?",
+        "selected_offset": 33,
+        "selected_end": 34,
+        "selected": "q",
+        "reason": "Former b/p body provisionally low descending p/B, followed by narrow 1/Y rather than 4/I: POBYTI. Narrow 1/Y likewise provisionally SVYM rather than SVIM. Returning q/K in SRDECKEM. Final exclamation role and all small contours remain provisional; no completed private meeting asserted.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "374-opposing-2",
+        "operation": "replace",
+        "previous_offset": 13,
+        "previous_end": 14,
+        "previous_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Returning q/K in KTERY provisional. Source final dash after NEVYSLOVNE is not joined into the following verb TESI as one word. Nickname retained without identity authentication.",
+        "stage": "same-context nonblind source completion"
+      }
+    ],
+    "locator_corrections": [],
+    "preceding_whole_review_preserved_in": "../revisions/374-source-completion.json#/whole_previous_json/later_review"
   },
   "limits": [
     "Single key-visible source reader with project context; no independent or blind reading.",
-    "All oval-descender q/g distinctions kept unknown. Other provisional shapes may still be wrong.",
-    "Question masks may cover unknown-length clusters. Physical encoded-body totals null.",
     "No ordinary addressing/date transcription or identity/chronology authentication.",
     "Marked-r CH ownership is conditional; zero/low masks do not exclude glyph errors.",
     "Raw-before-computational-decode is not a blind reading: key and prior project context were visible.",
-    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval."
+    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval.",
+    "Every revised contour, q/g class, segmentation, CH and punctuation role is provisional. Same key/literal/language-visible root context; no second reader, blind reading or human/external confirmation.",
+    "Complete editorial coverage does not establish complete decipherment, source accuracy or solved status. One unknown-glyph mask remains in main6.",
+    "Two language-only word proposals: TELE?RAVICKY→TELEGRAFICKY (?→G and V→F), DRAKE→DRACE (K→C). The latter is a conjectural address; DRAKE/unresolved address and alternative g/Z contour remain possible. No new G/F mapping.",
+    "No actual train timetable, travel, meeting, date, place identification, postal instruction, illness, person or relationship authenticated. Ordinary addressing/date/postal/printed writing excluded without transcription/authentication."
   ],
-  "encoded_bodies": 471,
-  "expanded_letters": 443,
+  "source_completion_revision": "../revisions/374-source-completion.json",
+  "encoded_bodies": 472,
+  "expanded_letters": 476,
   "ch_occurrences": 5,
-  "unknowns": 33
+  "unknowns": 1
 }
