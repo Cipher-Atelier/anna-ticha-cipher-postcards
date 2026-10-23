@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T15:42:59.493609+00:00",
+  "base_commit": "d845f29ab7f4f76a967a0ac8a7a7725079ebfcb4",
+  "card_ids": [
+    367
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "Same root AI, key/literal/language visible. Existing related A/B raw objects/hashes unchanged. No independent, blind, human or external confirmation. Each actor froze before that actor decoded; no stronger cross-actor chronology asserted.",
+    "Three unknown-length source masks remain in NEPRIJEMNOST?, V?ODNYM and SCHUZ?E; I/H/C supplied only as bracketed language restorations. Fourteen language-only word proposals change no selected signs. All q/g, eight CH ownerships, dark portrait contours, segmentation and punctuation provisional; physical count null.",
+    "Two raised curl/dot roles in L22 provisionally question punctuation, with encoded2/U, unknown-role and extra-stroke alternatives. Low point after TAM and supplied editorial sentence boundaries do not establish a physical encoded body. Upper traces and underlines not new key modifiers.",
+    "All 22 units retain IDs, storage order, native/reading boxes and CW180 orientation. Clause joins and translations editorial. BEROUS retained as tentative Berouš, not normalized to PEPOUS; KLAVINKU→HLAVINKU changes K→H outside q/g K/Z alternatives. Ordinary heading/address excluded. No identity, relationship, marriage rumour, meeting/itinerary/holiday, ordinary date or posting/delivery chronology authenticated."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 367 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Both whole immutable batch30 A/B raw objects/hashes, complete source ledgers and preceding curator/decoder/alignment records preserved. Whole previous edition archived. Each actor froze before that actor decoded; no stronger cross-actor chronology asserted.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary address/postal/printed matter visible; no separate continuous cipher-shaped run recognized. Bounded visible-frame observation, not absence of faint/erased/hidden or unrecognized ink. Ordinary matter excluded without transcription/authentication.",
+      "reader": "same root AI, key/literal/language visible",
+      "new_original_image_http_requests": 0,
+      "individual_view_timestamps": null
+    },
+    "ordering": {
+      "line_ids": [
+        "367-P-L01",
+        "367-P-L02",
+        "367-P-L03",
+        "367-P-L04",
+        "367-P-L05",
+        "367-P-L06",
+        "367-P-L07",
+        "367-P-L08",
+        "367-P-L09",
+        "367-P-L10",
+        "367-P-L11",
+        "367-P-L12",
+        "367-P-L13",
+        "367-P-L14",
+        "367-P-L15",
+        "367-P-L16",
+        "367-P-L17",
+        "367-P-L18",
+        "367-P-L19",
+        "367-P-L20",
+        "367-P-L21",
+        "367-P-L22"
+      ],
+      "basis": "Twenty-two preserved CW180 units in source storage order; changing row lengths across portrait does not establish exact physical glyph bounds or chronology.",
+      "key_examples": [
+        "L01 VSAK / L02 ZARMOUTIL, L02 LETOSNI / L03 ROK joins editorial",
+        "L09 JEMTVUJ divided and M→N repaired only in language layer",
+        "L10 O / L11 BOZIM TELE is a textual holiday phrase, no calendar authentication",
+        "L21 KDO POVADEL / L22 MILOSTIVE PANI clause join editorial"
+      ],
+      "physical_rows_or_chronology_established": false
+    }
+  },
+  "source_revision": "revisions/367-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T15:41:58.385328+00:00",
+    "card367": {
+      "rows": 22,
+      "encoded_bodies": 1157,
+      "expanded_letters": 1162,
+      "ch_occurrences": 8,
+      "unknowns": 3
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44416,
+      "expanded_letters": 44043,
+      "ch_occurrences": 326,
+      "unknowns": 699
+    },
+    "remaining_editorial_spans": 14,
+    "retained_nickname_token": "BEROUS",
+    "provisional_q_g_assignments": 85,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 197,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "both_whole_raw_objects_unchanged": true,
+    "prior_curator_decoder_and_alignment_preserved": true,
+    "raw_actor_count": 2,
+    "both_raw_and_previous_edit_replays": true,
+    "all_frozen_row_references_resolve": true,
+    "internal_links_checked": 368,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Bounded mechanical consistency/source-byte binding; no independent source/language or historical validation."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed in 3.568s; test file unchanged."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T15:41:58.385328+00:00",
+        "card367": {
+          "rows": 22,
+          "encoded_bodies": 1157,
+          "expanded_letters": 1162,
+          "ch_occurrences": 8,
+          "unknowns": 3
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44416,
+          "expanded_letters": 44043,
+          "ch_occurrences": 326,
+          "unknowns": 699
+        },
+        "remaining_editorial_spans": 14,
+        "retained_nickname_token": "BEROUS",
+        "provisional_q_g_assignments": 85,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 197,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "both_whole_raw_objects_unchanged": true,
+        "prior_curator_decoder_and_alignment_preserved": true,
+        "raw_actor_count": 2,
+        "both_raw_and_previous_edit_replays": true,
+        "all_frozen_row_references_resolve": true,
+        "internal_links_checked": 368,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Bounded mechanical consistency/source-byte binding; no independent source/language or historical validation."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 922,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual JSON/Markdown/guide/queue diff, all twenty-two literal-bound units, fourteen language-only proposals, three retained source masks, unnormalized BEROUS, q/g/CH/question alternatives, previous/current and both raw/current edits, raw-row pointers and preceding whole edition/curator/decoder/alignment archives reviewed.",
+    "findings": [
+      "Twenty-two CW180 units have Czech/English working coverage; unknown display slots decrease from 150 to three. Crowded/margin NEPRIJEMNOST?, dark V?ODNYM and overwritten SCHUZ?E retain unknown-length source masks; I/H/C supplied only as language restorations. No physical count or solved-card certification.",
+      "Fourteen language-only word proposals preserve selected source: ZYELA/ZCELA, ZTRPCYJE/ZTRPCUJE, POCHIBNOSTI/POCHYBNOSTI, NEPLMYSLIL/NEPOMYSLIL, JEMTVUJ/JEN TVUJ, BUDA/BUDE, VRED/PRED, NEPRIJEMNOST?/NEPRIJEMNOSTI, V?ODNYM/VHODNYM, NED/NEZ, KLAVINKU/HLAVINKU, LIRA/LIBA, POVADEL/POVEDEL and SCHUZ?E/SCHUZCE. KLAVINKU initial H is outside q/g K/Z alternatives and is explicitly language-only.",
+      "All 85 q/g choices, eight CH attachments, portrait contours, segmentation and punctuation provisional. Two raised-question roles in L22 retain encoded2/U, unknown-role/extra-stroke alternatives; each encoded2 replay adds one slot/known letter without certifying physical counts. Internal SCHUZ?E mask remains unknown glyph independently of following question-role mark.",
+      "L12 crowded NECO, CO BY MU is a provisional source selection with both raw alternatives preserved. L16 BEZPECNA retains b/P and capped5/E; terminal mask stays unknown. L17 dark VHODNYM requires bracketed H. Underlines and upper traces not new key modifiers; TAM point and added editorial periods do not establish extra encoded bodies.",
+      "BEROUS retains source initial p/B and tall h/R as tentative Berouš, without normalization to PEPOUS or identity assertion. LIRA keeps h/R, LIBA changes R→B only editorially. Sládkovou/Koškovou diacritics and kinship only textual proposals; no historical identities, rumour, relationship, meetings/calendar or posting/delivery chronology established.",
+      "All IDs, storage order, rotations and broad boxes unchanged. BOZIM TELE and final posting question remain textual phrases, without an authenticated feast/date/chronology. English pronouns/order and passive kissing sentence interpretive, not extra encoded text.",
+      "Both whole immutable A/B raw objects/hashes, complete original ledgers/source metadata and preceding curator/decoder/alignment records preserved. Whole prior JSON/Markdown archived; previous current-relative projections apply there. Exact previous/current and both raw/current deltas replay; current raw-row pointers resolve and proposals/components agree.",
+      "Other 272 candidate files, 197 historical artifacts, 262 queue objects and all 263 source arrays unchanged. Key/decoder/checker/tests/anchor and source-audit records unchanged. Unique coverage remains 154/263 including partial readings, with 109 without a reading. Current root review adds no independent reader or source/language confirmation."
+    ],
+    "disposition": "Publish provisional working coverage with three source masks, fourteen explicit language-only proposals and named/role/meaning limits. Deeper source review moves to earlier provisional 366."
+  },
+  "preparation_history": [
+    "Both complete original faces/all margins, CW180 source contexts and enlarged critical crops inspected with pinned 204 comparison; zero new original-image HTTP requests or retries. No public scans/crops.",
+    "Both whole raw objects and previous whole edition preserved. Old current-relative editorial/alignment projections archived with explicit scope; current exact deltas, literal-bound notes/components and raw-row pointers agree.",
+    "Three crowded/dark/margin source groups remain unknown. Awkward source forms and BEROUS kept; fourteen linguistic proposals explicit. No restoration of opaque ink from fluent Czech.",
+    "32 decoder tests, 137-candidate/14-anchor replay and source-byte/both-raw-edit/language/role/order/preservation/link audit passed. Review fixed spacing in an All 22 metadata label without changing signs; preservation audit rerun. No failed mechanical run recorded in this stage. Full repository receipts below bind final artifacts and manifest."
+  ],
+  "artifact_sha256": {
+    "cards/367.json": "b8f1b0b2f9ebbee3ce97044412c79296482287f7a9ed3e744497864ed77eb8ad",
+    "cards/367.md": "e6dc0592a98517dcc599095005a0475f9d25da71ddf42b5c66108c539c02d71d",
+    "revisions/367-source-completion.json": "5700ccff87fde7d4d5dedf862e11980d146c59b1121c2fdc77c969a4f6486d61"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}
