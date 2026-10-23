@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T12:07:46.285404+00:00",
+  "base_commit": "a980c254acaaee7210e1839b7e604549653cb72d",
+  "card_ids": [
+    372
+  ],
+  "stage": "same-context nonblind source completion and full editorial reading",
+  "status": "passed bounded mechanical checks; provisional source and editorial reading, no independent confirmation",
+  "limits": [
+    "All revised contours, q/g, CH, segmentation, punctuation and numeral roles provisional. Same root AI with key/literal/language visible; no blind or second source reader or independent/human/external confirmation.",
+    "One unknown-glyph display slot remains in the crossed/smeared main1 cluster, of unknown physical length. Four explicit language-only proposals do not recover hidden ink or establish exact physical totals.",
+    "Main5 raised question role retains encoded 2/U or unknown-body/mark alternatives. Main8 ordinary numeral 29. role retains encoded 2/U plus unclassified 9-like body alternatives; numeral/punctuation excluded from encoded totals. Following 3 is encoded O of ODPOLEDNE, not a supplied month.",
+    "Eight preserved CW270 units follow a proposed source-aligned content order; UJI-/STENI and VERI TI/VERITI joins and all language interpretations editorial. No particular assurance, plan, meeting, confession, holiday, concert, actual delivery, identity, month/year or ordinary heading date authenticated."
+  ],
+  "source_method": {
+    "new_original_image_http_requests": 0,
+    "source_bytes": "Existing pinned private 372 Picture/Address and reference 204 bytes reused unchanged.",
+    "raw_freeze": "Initial batch31 raw and first computational decoder returns preserved unchanged.",
+    "reader": "Same root AI, key/literal/language visible; no second reader or independent/human/external confirmation.",
+    "face_review": {
+      "picture_complete_frame_and_all_margins_viewed": true,
+      "address_complete_frame_and_all_margins_viewed": true,
+      "address_observation": "Ordinary addressing and postal/printed writing visible; no separate continuous cipher-shaped run recognized in the complete visible frame. Bounded observation, not absence of erased/obscured/unrecognized material. Ordinary writing excluded without transcription/authentication.",
+      "reader": "same root AI, key and language visible",
+      "individual_view_timestamps": null,
+      "new_original_image_http_requests": 0
+    },
+    "ordering": {
+      "line_ids": [
+        "372-main-1",
+        "372-main-2",
+        "372-main-3",
+        "372-main-4",
+        "372-main-5",
+        "372-main-6",
+        "372-main-7",
+        "372-main-8"
+      ],
+      "basis": "Source-aligned CW270 block, not authenticated chronology.",
+      "key_examples": [
+        "main1 UJI- / main2 STENI forms UJISTENI provisionally",
+        "main2 VERI TI / VERITI is editorial word division",
+        "main8 29. ordinary numeral followed by encoded 3/O of ODPOLEDNE; no month supplied"
+      ],
+      "physical_rows_or_chronology_established": false
+    }
+  },
+  "source_revision": "revisions/372-source-completion.json",
+  "audit": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-23T12:06:28.943047+00:00",
+    "card372": {
+      "rows": 8,
+      "encoded_bodies": 291,
+      "expanded_letters": 291,
+      "ch_occurrences": 1,
+      "unknowns": 1
+    },
+    "current_selected_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44430,
+      "expanded_letters": 43719,
+      "ch_occurrences": 312,
+      "unknowns": 1023
+    },
+    "remaining_editorial_spans": 4,
+    "provisional_q_g_assignments": 16,
+    "new_original_image_http_requests": 0,
+    "prior_candidate_files_unchanged": 272,
+    "historical_artifacts_unchanged": 187,
+    "other_queue_objects_unchanged": 262,
+    "catalogue_source_arrays_unchanged": 263,
+    "all_source_raw_initial_decode_objects_unchanged": true,
+    "raw_and_previous_edit_replays": true,
+    "internal_links_checked": 338,
+    "canonical_cards": 137,
+    "unique_reading_coverage": 154,
+    "without_reading": 109,
+    "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed; unchanged test file."
+    },
+    {
+      "command": "python3 research-updates/2026-10-20-confirmed-key-continuation/check.py",
+      "exit_code": 0,
+      "result": "137 candidates and pinned 14-row anchor replayed successfully."
+    },
+    {
+      "command": "private audit.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "recorded_at_utc": "2026-10-23T12:06:28.943047+00:00",
+        "card372": {
+          "rows": 8,
+          "encoded_bodies": 291,
+          "expanded_letters": 291,
+          "ch_occurrences": 1,
+          "unknowns": 1
+        },
+        "current_selected_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44430,
+          "expanded_letters": 43719,
+          "ch_occurrences": 312,
+          "unknowns": 1023
+        },
+        "remaining_editorial_spans": 4,
+        "provisional_q_g_assignments": 16,
+        "new_original_image_http_requests": 0,
+        "prior_candidate_files_unchanged": 272,
+        "historical_artifacts_unchanged": 187,
+        "other_queue_objects_unchanged": 262,
+        "catalogue_source_arrays_unchanged": 263,
+        "all_source_raw_initial_decode_objects_unchanged": true,
+        "raw_and_previous_edit_replays": true,
+        "internal_links_checked": 338,
+        "canonical_cards": 137,
+        "unique_reading_coverage": 154,
+        "without_reading": 109,
+        "limits": "Mechanical consistency and source-byte binding; no independent source/language validation or accuracy claim."
+      }
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 912,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same root context; not independent",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual JSON/Markdown/guide/queue diff, all eight literal-bound working units, one crossed/smeared mask, four language proposals, q/g/CH, question and numeral roles, alternative replays, word joins, frozen source/initial records and whole preceding editions reviewed in the same context.",
+    "findings": [
+      "Eight CW270 units now have Czech/English working hypotheses. Unknown-glyph display slots decrease from 21 to one crossed/smeared cluster of unknown physical length; hidden ink and exact physical count not recovered.",
+      "Four bracketed language-only proposals separate from selected literal: MAM ?/MAMLI (mask→LI), ANICKU/ANICKY (U→Y), TRAVIC/TRAVIS (C→S), KONCERTI/KONCERTU (I→U). Opening grammar about believing Anička’s assurance depends on the first two conjectures. Unresolved/different grammar and contour alternatives retained.",
+      "All sixteen q/g choices, one CH ownership, other contours/segmentation and word joins provisional. Main4 MEMU is a source contour proposal. Source TRAVIC/KONCERTI preserved with direct c/S and 2/U contour alternatives.",
+      "Main5 raised question-like stroke provisionally punctuation, retaining encoded 2/U or unknown-body/mark/period alternatives. Counterfactual encoded-2 replay adds one slot/letter; this is not a physical count.",
+      "Main8 underlined 29. provisionally ordinary numeral plus period, excluded from encoded counts. Counterfactual encoded 2/U plus masked 9-like-body replay adds two slots/one known letter. Following 3 begins encoded ODPOLEDNE, not a month. No month/year, concert identity, actual delivery or ordinary heading date authenticated.",
+      "Proposed source-aligned order, UJI-/STENI and VERI TI/VERITI joins editorial. No actual assurance, plan, meeting, confession, holiday, concert, delivery or identity established. Complete editorial coverage is not solved status.",
+      "Other 272 candidate files, 187 historical artifacts, 262 other queue objects and all 263 source arrays unchanged. Key/decoder/tests/catalogue, source/raw/first computational records and preceding editions preserved. Coverage stays 154/263 including partial readings."
+    ],
+    "disposition": "Publish provisional complete editorial coverage with one source mask, four language proposals and explicit question/numeral limits; deepen earlier partial 371 next."
+  },
+  "preparation_history": [
+    "Existing batch31 originals and pinned 204 reference bytes reused unchanged. Both complete faces/all margins and enlarged rotated contexts inspected. Zero new original-image requests or retries.",
+    "Crossed main1 cluster retained unknown. Main5 question and main8 ordinary numeral roles assigned provisionally with alternatives; ordinary numeral 29 retained separately from emitted letters and encoded totals. Source C in TRAVIC, I in KONCERTI and U in ANICKU retained despite language proposals.",
+    "Four language proposals individually bound to source literals; numeral/question counterfactual replays and all raw/previous text edits checked. Source MAM ? cluster not certified LI; source address/name/date/identity not authenticated.",
+    "32 focused tests, 137-candidate/14-anchor replay and full preservation/source-byte/edit/language-span/order/role/link audit passed. No failed mechanical run recorded in this stage. Full repository checks below bind final artifacts and manifest."
+  ],
+  "artifact_sha256": {
+    "cards/372.json": "bca2b50da995b0a0a4fbcdc88875fc4260645cd6093d3a8988bf3a290cc8ef5e",
+    "cards/372.md": "b84dd59451f0010414d582e72ac5f7d8148f1e8a4bf29e9b9138828339b75253",
+    "revisions/372-source-completion.json": "ef1958eba191c486fdd35441ff9c6ffef0ec86e9a8e585349706b7a259bc455a"
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_cards": 263,
+    "without_reading": 109,
+    "new_unique_cards": 0
+  }
+}

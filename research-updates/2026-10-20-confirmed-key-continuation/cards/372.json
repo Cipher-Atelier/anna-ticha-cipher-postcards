@@ -1,7 +1,7 @@
 {
   "card_id": 372,
   "notation": "pdf204-canonical",
-  "status": "partial preliminary single-reader research candidate",
+  "status": "preliminary source-revised candidate with complete editorial working coverage and one source mask",
   "source": {
     "card_id": 372,
     "catalogue_id": 1691,
@@ -44,17 +44,18 @@
     "solution_status_json_pointer": "/data/data/1684/solution/name"
   },
   "orientation": {
-    "description": "Crossed/smeared cluster in main-1 and raised question-shaped mark in main-5 are masked; numeral/date-like cluster near end of main-8 is masked as role and segmentation unresolved. No ordinary date authentication.",
+    "description": "Eight preserved CW270 units in proposed source-aligned order. IDs, storage order, rotation and broad locators unchanged; joins editorial. One crossed/smeared main1 source mask and four language-only proposals remain. Main5 question and main8 numeral 29. roles provisional; all contours/q/g/CH/segmentation open. Numeral/underline excluded from encoded totals; no month/year or ordinary heading date authenticated.",
     "native_dimensions": [
       1785,
       1175
     ],
-    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x). Bounds are broad whole-block context, not exact rows or physical bodies."
+    "coordinate_convention": "xyxy continuous image-edge coordinates. Native→CW90: (x,y)→(1175-y,x); native→CW270: (x,y)→(y,1785-x). Bounds are broad whole-block context, not exact rows or physical bodies.",
+    "initial_description": "Crossed/smeared cluster in main-1 and raised question-shaped mark in main-5 are masked; numeral/date-like cluster near end of main-8 is masked as role and segmentation unresolved. No ordinary date authentication."
   },
   "lines": [
     {
       "line_id": "372-main-1",
-      "ciphertext": "fh581 t4? ?6 fs5h57c4 84cd5?. m5f4n, n6n ? 2?4-",
+      "ciphertext": "fh581 t4q g6 fs5h57c4 84cd5q. m5f4n, n6n ? 274-",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -73,24 +74,9 @@
         575,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 8,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 10,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 28,
           "text": ".",
@@ -107,48 +93,19 @@
           "kind": "unknown_glyph"
         },
         {
-          "offset": 44,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 46,
           "text": "-",
           "kind": "punctuation"
         }
       ],
-      "literal": "VRELY DI? ?A VCEREJSI LISTE?. NEVIM, MAM ? U?I-",
+      "literal": "VRELY DIK ZA VCEREJSI LISTEK. NEVIM, MAM ? UJI-",
       "encoded_bodies": 36,
-      "expanded_letters": 31,
+      "expanded_letters": 35,
       "ch_occurrences": 0,
       "unknowns": [
         {
-          "offset": 8,
-          "body_index": 7,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 10,
-          "body_index": 8,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "body_index": 23,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 41,
           "body_index": 32,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 44,
-          "body_index": 34,
           "symbol": "?",
           "kind": "unknown_glyph"
         }
@@ -156,7 +113,7 @@
     },
     {
       "line_id": "372-main-2",
-      "ciphertext": "cd5m4 6m4s?2 p5?b3tn4m5sm5 f5h4 d4 6 d32?4n",
+      "ciphertext": "cd5m4 6m4sq2 p5gb3tn4m5sm5 f5h4 d4 6 d32g4n",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -175,49 +132,14 @@
         575,
         1140
       ],
-      "editorial_notes": "Enlarged source shows a descending p-like stem at the long word start, no separately settled preceding body, and one-hump n after crossed t. Provisional p5?b3tn4m5sm5 replaces the original segmentation; q/g stays masked.",
+      "editorial_notes": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 10,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 15,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 40,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "STENI ANIC?U BE?PODMINECNE VERI TI A TOU?IM",
+      "transcription": [],
+      "literal": "STENI ANICKU BEZPODMINECNE VERI TI A TOUZIM",
       "encoded_bodies": 37,
-      "expanded_letters": 34,
+      "expanded_letters": 37,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 10,
-          "body_index": 9,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 15,
-          "body_index": 13,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 40,
-          "body_index": 34,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "372-main-3",
@@ -240,7 +162,7 @@
         575,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Selected source contours retained. Clause/order and English communicated-by-you wording interpretive; no actual plan or meeting authenticated. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -257,7 +179,7 @@
     },
     {
       "line_id": "372-main-4",
-      "ciphertext": "6 d5c4n c5 f584s5. m5m4 ?5n2 cht5s?2 75cd5",
+      "ciphertext": "6 d5c4n c5 f584s5. m5m4 n5n2 cht5sq2 75cd5",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -276,47 +198,24 @@
         575,
         1140
       ],
-      "editorial_notes": "Initial humps of m5n2 do not securely distinguish n/m. Mask that body rather than repairing NEMU from Czech.",
+      "editorial_notes": "Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
           "offset": 17,
           "text": ".",
           "kind": "punctuation"
-        },
-        {
-          "offset": 24,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 34,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "A TESIM SE VELICE. NENI ?EMU SRDEC?U JESTE",
+      "literal": "A TESIM SE VELICE. NENI MEMU SRDECKU JESTE",
       "encoded_bodies": 34,
-      "expanded_letters": 32,
+      "expanded_letters": 34,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 24,
-          "body_index": 18,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 34,
-          "body_index": 27,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "372-main-5",
-      "ciphertext": "m4s5r3 ?m6n3 3 tm2 ?b3f5t4 ?. - cf6d?1 dh6f4s",
+      "ciphertext": "m4s5r3 gm6n3 3 tm2 gb3f5t4 ? - cf6dq1 dh6f4s",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -335,74 +234,29 @@
         575,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
-          "offset": 7,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 27,
           "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 28,
-          "text": ".",
           "kind": "punctuation"
         },
         {
-          "offset": 30,
+          "offset": 29,
           "text": "-",
           "kind": "punctuation"
-        },
-        {
-          "offset": 36,
-          "text": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "literal": "NICEHO ?NAMO O DNU ?POVEDI ?. - SVAT?Y TRAVIC",
-      "encoded_bodies": 35,
-      "expanded_letters": 31,
+      "literal": "NICEHO ZNAMO O DNU ZPOVEDI ? - SVATKY TRAVIC",
+      "encoded_bodies": 34,
+      "expanded_letters": 34,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 7,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 19,
-          "body_index": 15,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 27,
-          "body_index": 22,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
-          "body_index": 27,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "372-main-6",
-      "ciphertext": "f5c58574 m5? 76 n6n d5md3?h6d5 nm3r3 bh6s5.",
+      "ciphertext": "f5c58574 m5g 76 n6n d5md3qh6d5 nm3r3 bh6s5.",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -421,47 +275,24 @@
         575,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
-        {
-          "offset": 11,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 25,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 42,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "VESELEJI NE? JA MAM TENTO?RATE MNOHO PRACE.",
+      "literal": "VESELEJI NEZ JA MAM TENTOKRATE MNOHO PRACE.",
       "encoded_bodies": 36,
-      "expanded_letters": 34,
+      "expanded_letters": 36,
       "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 11,
-          "body_index": 10,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 25,
-          "body_index": 21,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "372-main-7",
-      "ciphertext": "d4c4s 2bh4nm1ř b3?th6f2 6 b2c b3c486 d4 df27",
+      "ciphertext": "d4c4s 2bh4nm1ř b3gth6f2 6 b2c b3c486 d4 df27",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -480,31 +311,18 @@
         575,
         1140
       ],
-      "editorial_notes": "No selected-string change after same-context review. All assignments remain provisional.",
+      "editorial_notes": "Open g/Z in POZDRAVU provisional; marked-r CH ownership in UPRIMNYCH conditional, with detached/unassigned-mark alternative. English clause order editorial. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
-      "transcription": [
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "literal": "TISIC UPRIMNYCH PO?DRAVU A PUS POSILA TI TVUJ",
+      "transcription": [],
+      "literal": "TISIC UPRIMNYCH POZDRAVU A PUS POSILA TI TVUJ",
       "encoded_bodies": 37,
-      "expanded_letters": 37,
+      "expanded_letters": 38,
       "ch_occurrences": 1,
-      "unknowns": [
-        {
-          "offset": 17,
-          "body_index": 15,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ]
+      "unknowns": []
     },
     {
       "line_id": "372-main-8",
-      "ciphertext": "b5b32c. 84cd5? ? ?3ms5hd4 t3c58 d5bhf5 ? 3tb385tm5.",
+      "ciphertext": "b5b32c. 84cd5q g q3ms5hd4 t3c58 d5bhf5 29. 3tb385tm5.",
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
@@ -523,7 +341,7 @@
         575,
         1140
       ],
-      "editorial_notes": "Enlarged complete row shows the first tall glyph of hh as a double-bowl b with ascending stem; retain bh, with hh as raw alternative. The numeral-like cluster stays unknown.",
+      "editorial_notes": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded. Same-context nonblind; whole preceding edition preserved in ../revisions/372-source-completion.json.",
       "physical_encoded_body_count": null,
       "transcription": [
         {
@@ -532,59 +350,31 @@
           "kind": "punctuation"
         },
         {
-          "offset": 13,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 15,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 39,
-          "text": "?",
-          "kind": "unknown_glyph"
+          "text": "29",
+          "kind": "numeral"
         },
         {
-          "offset": 50,
+          "offset": 41,
+          "text": ".",
+          "kind": "punctuation"
+        },
+        {
+          "offset": 52,
           "text": ".",
           "kind": "punctuation"
         }
       ],
-      "literal": "PEPOUS. LISTE? ? ?ONCERTI DOSEL TEPRVE ? ODPOLEDNE.",
-      "encoded_bodies": 42,
-      "expanded_letters": 38,
+      "literal": "PEPOUS. LISTEK Z KONCERTI DOSEL TEPRVE 29. ODPOLEDNE.",
+      "encoded_bodies": 41,
+      "expanded_letters": 41,
       "ch_occurrences": 0,
       "unknowns": [
         {
-          "offset": 13,
-          "body_index": 11,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 15,
-          "body_index": 12,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 17,
-          "body_index": 13,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
           "offset": 39,
-          "body_index": 32,
-          "symbol": "?",
-          "kind": "unknown_glyph"
+          "body_index": null,
+          "symbol": "29",
+          "kind": "numeral"
         }
       ]
     }
@@ -594,261 +384,611 @@
     {
       "line_id": "372-main-1",
       "literal_offset": 0,
-      "literal_fragment": "VRELY DI? ?A VCEREJSI LISTE?",
-      "proposed_czech": "[Vřelý dík za včerejší lístek?; DI?/LISTE? require q → K, ?A requires g → Z.]",
-      "proposed_english": "[Warm thanks for yesterday’s little letter?; conditional q/g choices.]"
+      "literal_fragment": "VRELY DIK ZA VCEREJSI LISTEK. NEVIM, MAM ? UJI-",
+      "proposed_czech": "Vřelý dík za včerejší lístek. Nevím, [mám-li?] uji-",
+      "proposed_english": "Warm thanks for yesterday’s letter. I do not know [whether I should?]",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "372-main-2",
+      "literal_offset": 0,
+      "literal_fragment": "STENI ANICKU BEZPODMINECNE VERI TI A TOUZIM",
+      "proposed_czech": "štění [Aničky?] bezpodmínečně věřiti a toužím",
+      "proposed_english": "believe [Anička’s?] assurance unconditionally, and I long",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "372-main-3",
       "literal_offset": 0,
       "literal_fragment": "PO VYSVETLENI. S PLANEM SDELENYM SOUHLASIM",
-      "proposed_czech": "[Po vysvětlení. S plánem sděleným souhlasím; only these fragments.]",
-      "proposed_english": "[For an explanation. I agree with the communicated plan; only these fragments.]"
+      "proposed_czech": "po vysvětlení. S plánem sděleným souhlasím",
+      "proposed_english": "for an explanation. I agree with the plan you communicated",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "372-main-4",
       "literal_offset": 0,
-      "literal_fragment": "A TESIM SE VELICE.",
-      "proposed_czech": "[A těším se velice.]",
-      "proposed_english": "[And I look forward to it very much.]"
+      "literal_fragment": "A TESIM SE VELICE. NENI MEMU SRDECKU JESTE",
+      "proposed_czech": "a těším se velice. Není mému srdéčku ještě",
+      "proposed_english": "and look forward to it very much. Does my sweetheart still know nothing",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "372-main-5",
+      "literal_offset": 0,
+      "literal_fragment": "NICEHO ZNAMO O DNU ZPOVEDI ? - SVATKY TRAVIC",
+      "proposed_czech": "ničeho známo o dnu zpovědi? — Svátky [trávíš?]",
+      "proposed_english": "about the day of confession? — You are [spending?] the holidays",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "372-main-6",
-      "literal_offset": 13,
-      "literal_fragment": "JA MAM TENTO?RATE MNOHO PRACE.",
-      "proposed_czech": "[Já mám tentokráte mnoho práce?; TENTO?RATE requires q → K.]",
-      "proposed_english": "[I have a lot of work this time?; TENTO?RATE requires q → K.]"
+      "literal_offset": 0,
+      "literal_fragment": "VESELEJI NEZ JA MAM TENTOKRATE MNOHO PRACE.",
+      "proposed_czech": "veseleji než já, mám tentokráte mnoho práce.",
+      "proposed_english": "more cheerfully than I am; I have a lot of work this time.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     },
     {
       "line_id": "372-main-7",
       "literal_offset": 0,
-      "literal_fragment": "TISIC UPRIMNYCH PO?DRAVU A PUS POSILA TI TVUJ",
-      "proposed_czech": "[Tisíc upřímných pozdravů a pus posílá ti tvůj…; ? → Z and provisional CH.]",
-      "proposed_english": "[A thousand sincere greetings and kisses are sent to you by your…; ? → Z and provisional CH.]"
+      "literal_fragment": "TISIC UPRIMNYCH POZDRAVU A PUS POSILA TI TVUJ",
+      "proposed_czech": "Tisíc upřímných pozdravů a pus posílá ti tvůj",
+      "proposed_english": "A thousand sincere greetings and kisses to you from your",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
+    },
+    {
+      "line_id": "372-main-8",
+      "literal_offset": 0,
+      "literal_fragment": "PEPOUS. LISTEK Z KONCERTI DOSEL TEPRVE 29. ODPOLEDNE.",
+      "proposed_czech": "Pepouš. Lístek z [koncertu?] došel teprve 29. odpoledne.",
+      "proposed_english": "Pepouš. The card from the [concert?] only arrived on the afternoon of the 29th.",
+      "qualification": "Whole spatial-unit editorial hypothesis. Diacritics, punctuation, word division, clause joins and English word order editorial; all substantive language proposals listed."
     }
   ],
-  "interpretation_scope": "Only listed literal-bound fragments have Czech/English proposals. Other text remains literal and unresolved; no complete fluent translation, order between opposite/margin blocks, identity or chronology is asserted.",
+  "interpretation_scope": "All eight preserved units have literal-bound Czech working hypotheses and English interpretations. Four language-only proposals MAM ?/MAMLI, ANICKU/ANICKY, TRAVIC/TRAVIS and KONCERTI/KONCERTU. One main1 mask remains; question/numeral roles, word joins, meanings and historical referents provisional.",
   "uncertainty_ledger": [
     {
       "line_id": "372-main-1",
       "offset": 8,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "previous_span": {
+        "offset": 8,
+        "end": 9
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-1",
       "offset": 10,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-1",
       "offset": 27,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "previous_span": {
+        "offset": 27,
+        "end": 28
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-1",
+      "offset": 44,
+      "selected": "7",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "previous_span": {
+        "offset": 44,
+        "end": 45
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-1",
+      "offset": 8,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-1",
+      "offset": 10,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-1",
+      "offset": 27,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-1",
       "offset": 41,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "unknown-length crossed/smeared cluster",
+        "different body/segmentation; no physical count"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
-    },
-    {
-      "line_id": "372-main-1",
-      "offset": 44,
-      "selected": "?",
-      "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
-      ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-2",
       "offset": 10,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+      "previous_span": {
+        "offset": 10,
+        "end": 11
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-2",
       "offset": 15,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+      "previous_span": {
+        "offset": 15,
+        "end": 16
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-2",
       "offset": 40,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+      "previous_span": {
+        "offset": 40,
+        "end": 41
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-2",
+      "offset": 10,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-2",
+      "offset": 15,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-2",
+      "offset": 40,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-4",
       "offset": 24,
-      "selected": "?",
+      "selected": "n",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional.",
+      "previous_span": {
+        "offset": 24,
+        "end": 25
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-4",
       "offset": 34,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional.",
+      "previous_span": {
+        "offset": 34,
+        "end": 35
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-4",
+      "offset": 34,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-5",
       "offset": 7,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "previous_span": {
+        "offset": 7,
+        "end": 8
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-5",
       "offset": 19,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "previous_span": {
+        "offset": 19,
+        "end": 20
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-5",
+      "offset": 28,
+      "selected": "",
+      "alternatives": [
+        ".",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "previous_span": {
+        "offset": 28,
+        "end": 29
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-5",
+      "offset": 35,
+      "selected": "q",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "previous_span": {
+        "offset": 36,
+        "end": 37
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-5",
+      "offset": 7,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-5",
+      "offset": 19,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-5",
       "offset": 27,
       "selected": "?",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "encoded 2/U",
+        "unknown body/mark or period belonging to raised question stroke"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-5",
-      "offset": 36,
-      "selected": "?",
+      "offset": 35,
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "g",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-5",
+      "offset": 43,
+      "selected": "s",
+      "alternatives": [
+        "c/S",
+        "retain literal TRAVIC with language unresolved"
+      ],
+      "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-6",
       "offset": 11,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+      "previous_span": {
+        "offset": 11,
+        "end": 12
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-6",
       "offset": 25,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+      "previous_span": {
+        "offset": 25,
+        "end": 26
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-6",
+      "offset": 11,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-6",
+      "offset": 25,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-7",
+      "offset": 17,
+      "selected": "g",
+      "alternatives": [
+        "?",
+        "unresolved/differently segmented contour"
+      ],
+      "reason": "Open g/Z in POZDRAVU provisional; marked-r CH ownership in UPRIMNYCH conditional, with detached/unassigned-mark alternative. English clause order editorial.",
+      "previous_span": {
+        "offset": 17,
+        "end": 18
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-7",
       "offset": 13,
       "selected": "ř",
       "alternatives": [
-        "r → H plus unassigned/detached mark",
-        "different attachment/segmentation"
+        "r with detached/unassigned mark",
+        "unknown body/mark ownership"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Upper-cap ownership unresolved; CH is a provisional replay expansion, not a certified physical modifier."
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in POZDRAVU provisional; marked-r CH ownership in UPRIMNYCH conditional, with detached/unassigned-mark alternative. English clause order editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-7",
       "offset": 17,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "q",
+        "unresolved oval-descender"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Provisional contour/role choice; prior key/language visible. Open g/Z in POZDRAVU provisional; marked-r CH ownership in UPRIMNYCH conditional, with detached/unassigned-mark alternative. English clause order editorial.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-8",
       "offset": 13,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "previous_span": {
+        "offset": 13,
+        "end": 14
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-8",
       "offset": 15,
-      "selected": "?",
+      "selected": "g",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "previous_span": {
+        "offset": 15,
+        "end": 16
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-8",
       "offset": 17,
-      "selected": "?",
+      "selected": "q",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "previous_span": {
+        "offset": 17,
+        "end": 18
+      },
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "372-main-8",
       "offset": 39,
-      "selected": "?",
+      "selected": "29.",
       "alternatives": [
-        "unresolved body or cluster; q/g (K/Z) where oval-descender contour; other readings not excluded"
+        "?",
+        "unresolved/differently segmented contour"
       ],
-      "physical_encoded_body_count": null,
-      "reason": "Unknown physical length/role/assignment; no language completion."
+      "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "previous_span": {
+        "offset": 39,
+        "end": 40
+      },
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-8",
+      "offset": 13,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-8",
+      "offset": 15,
+      "selected": "g",
+      "alternatives": [
+        "q",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-8",
+      "offset": 17,
+      "selected": "q",
+      "alternatives": [
+        "g",
+        "unresolved oval-descender"
+      ],
+      "reason": "Provisional contour/role choice; prior key/language visible. Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-8",
+      "offset": 24,
+      "selected": "4",
+      "alternatives": [
+        "2/U",
+        "retain literal KONCERTI with case unresolved"
+      ],
+      "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "372-main-8",
+      "offset": 39,
+      "selected": "29",
+      "alternatives": [
+        "encoded 2/U plus unclassified 9-like body",
+        "unresolved ordinary numeral/body segmentation or role"
+      ],
+      "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+      "physical_encoded_body_count": null
     }
   ],
   "original_readings": [
@@ -1246,11 +1386,71 @@
     ]
   },
   "later_review": {
-    "reader": "same root context",
+    "reader": "same root AI context",
     "blind": false,
     "independent": false,
-    "completed_utc": "2026-10-22T08:15:39.806612+00:00",
+    "completed_utc": "2026-10-23T12:04:33.977065+00:00",
     "all_text_changes_from_raw": [
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "raw_offset": 8,
+        "raw_end": 9,
+        "raw_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "g",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "raw_offset": 27,
+        "raw_end": 28,
+        "raw_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "raw_offset": 44,
+        "raw_end": 45,
+        "raw_selected": "?",
+        "selected_offset": 44,
+        "selected_end": 45,
+        "selected": "7",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-2",
+        "operation": "replace",
+        "raw_offset": 10,
+        "raw_end": 11,
+        "raw_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
+      },
       {
         "line_id": "372-main-2",
         "operation": "replace",
@@ -1260,8 +1460,20 @@
         "selected_offset": 13,
         "selected_end": 14,
         "selected": "p",
-        "reason": "Enlarged source shows a descending p-like stem at the long word start, no separately settled preceding body, and one-hump n after crossed t. Provisional p5?b3tn4m5sm5 replaces the original segmentation; q/g stays masked.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-2",
+        "operation": "replace",
+        "raw_offset": 16,
+        "raw_end": 17,
+        "raw_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 16,
+        "selected": "g",
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "372-main-2",
@@ -1272,8 +1484,20 @@
         "selected_offset": 19,
         "selected_end": 20,
         "selected": "n",
-        "reason": "Enlarged source shows a descending p-like stem at the long word start, no separately settled preceding body, and one-hump n after crossed t. Provisional p5?b3tn4m5sm5 replaces the original segmentation; q/g stays masked.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-2",
+        "operation": "replace",
+        "raw_offset": 41,
+        "raw_end": 42,
+        "raw_selected": "?",
+        "selected_offset": 40,
+        "selected_end": 41,
+        "selected": "g",
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "372-main-4",
@@ -1283,9 +1507,141 @@
         "raw_selected": "m",
         "selected_offset": 24,
         "selected_end": 25,
-        "selected": "?",
-        "reason": "Initial humps of m5n2 do not securely distinguish n/m. Mask that body rather than repairing NEMU from Czech.",
-        "stage": "same-context nonblind post-decode source review"
+        "selected": "n",
+        "reason": "Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-4",
+        "operation": "replace",
+        "raw_offset": 34,
+        "raw_end": 35,
+        "raw_selected": "?",
+        "selected_offset": 34,
+        "selected_end": 35,
+        "selected": "q",
+        "reason": "Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "replace",
+        "raw_offset": 7,
+        "raw_end": 8,
+        "raw_selected": "?",
+        "selected_offset": 7,
+        "selected_end": 8,
+        "selected": "g",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "replace",
+        "raw_offset": 19,
+        "raw_end": 20,
+        "raw_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "g",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "delete",
+        "raw_offset": 28,
+        "raw_end": 29,
+        "raw_selected": ".",
+        "selected_offset": 28,
+        "selected_end": 28,
+        "selected": "",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "replace",
+        "raw_offset": 36,
+        "raw_end": 37,
+        "raw_selected": "?",
+        "selected_offset": 35,
+        "selected_end": 36,
+        "selected": "q",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-6",
+        "operation": "replace",
+        "raw_offset": 11,
+        "raw_end": 12,
+        "raw_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "g",
+        "reason": "Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-6",
+        "operation": "replace",
+        "raw_offset": 25,
+        "raw_end": 26,
+        "raw_selected": "?",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "q",
+        "reason": "Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-7",
+        "operation": "replace",
+        "raw_offset": 17,
+        "raw_end": 18,
+        "raw_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "g",
+        "reason": "Open g/Z in POZDRAVU provisional; marked-r CH ownership in UPRIMNYCH conditional, with detached/unassigned-mark alternative. English clause order editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "raw_offset": 13,
+        "raw_end": 14,
+        "raw_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "raw_offset": 15,
+        "raw_end": 16,
+        "raw_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 16,
+        "selected": "g",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "raw_offset": 17,
+        "raw_end": 18,
+        "raw_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
       },
       {
         "line_id": "372-main-8",
@@ -1296,23 +1652,281 @@
         "selected_offset": 34,
         "selected_end": 35,
         "selected": "b",
-        "reason": "Enlarged complete row shows the first tall glyph of hh as a double-bowl b with ascending stem; retain bh, with hh as raw alternative. The numeral-like cluster stays unknown.",
-        "stage": "same-context nonblind post-decode source review"
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "raw_offset": 39,
+        "raw_end": 40,
+        "raw_selected": "?",
+        "selected_offset": 39,
+        "selected_end": 42,
+        "selected": "29.",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
       }
     ],
-    "locator_corrections": []
+    "all_text_changes_from_previous": [
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "previous_offset": 8,
+        "previous_end": 9,
+        "previous_selected": "?",
+        "selected_offset": 8,
+        "selected_end": 9,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "g",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "previous_offset": 27,
+        "previous_end": 28,
+        "previous_selected": "?",
+        "selected_offset": 27,
+        "selected_end": 28,
+        "selected": "q",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-1",
+        "operation": "replace",
+        "previous_offset": 44,
+        "previous_end": 45,
+        "previous_selected": "?",
+        "selected_offset": 44,
+        "selected_end": 45,
+        "selected": "7",
+        "reason": "Returning lower-loop q/K in DIK/LISTEK versus open-hook g/Z in ZA, compared nonblind with pinned 204. Smeared/crossed cluster after MAM stays unknown-length ?; LI only language proposal. 7/J provisionally selected in UJI-, continuing into STENI. No hidden ink recovered.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-2",
+        "operation": "replace",
+        "previous_offset": 10,
+        "previous_end": 11,
+        "previous_selected": "?",
+        "selected_offset": 10,
+        "selected_end": 11,
+        "selected": "q",
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-2",
+        "operation": "replace",
+        "previous_offset": 15,
+        "previous_end": 16,
+        "previous_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 16,
+        "selected": "g",
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-2",
+        "operation": "replace",
+        "previous_offset": 40,
+        "previous_end": 41,
+        "previous_selected": "?",
+        "selected_offset": 40,
+        "selected_end": 41,
+        "selected": "g",
+        "reason": "Returning q/K in ANICKU, final 2/U retained. ANICKY changes U→Y only in language layer for the proposed genitive construction. Open g/Z in BEZPODMINECNE/TOUZIM. Source VERI TI joined editorially as infinitive VERITI, not independently a statement that I believe you. Low p/B, n/M and m/N provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-4",
+        "operation": "replace",
+        "previous_offset": 24,
+        "previous_end": 25,
+        "previous_selected": "?",
+        "selected_offset": 24,
+        "selected_end": 25,
+        "selected": "n",
+        "reason": "Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-4",
+        "operation": "replace",
+        "previous_offset": 34,
+        "previous_end": 35,
+        "previous_selected": "?",
+        "selected_offset": 34,
+        "selected_end": 35,
+        "selected": "q",
+        "reason": "Former masked initial body in MEMU provisionally one-hump n/M rather than low two-hump m/N; MEMU not NEMU. Returning q/K in SRDECKU. Negative question interpretation/editorial clause ordering remain provisional.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "replace",
+        "previous_offset": 7,
+        "previous_end": 8,
+        "previous_selected": "?",
+        "selected_offset": 7,
+        "selected_end": 8,
+        "selected": "g",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "replace",
+        "previous_offset": 19,
+        "previous_end": 20,
+        "previous_selected": "?",
+        "selected_offset": 19,
+        "selected_end": 20,
+        "selected": "g",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "delete",
+        "previous_offset": 28,
+        "previous_end": 29,
+        "previous_selected": ".",
+        "selected_offset": 28,
+        "selected_end": 28,
+        "selected": "",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-5",
+        "operation": "replace",
+        "previous_offset": 36,
+        "previous_end": 37,
+        "previous_selected": "?",
+        "selected_offset": 35,
+        "selected_end": 36,
+        "selected": "q",
+        "reason": "Open g/Z in ZNAMO/ZPOVEDI versus returning q/K in SVATKY. Raised question-like stroke provisionally punctuation rather than encoded 2/U or unknown body/mark; former separate period may belong to that mark. Final triangular s/C in TRAVIC retained; TRAVIS changes C→S only in language layer, with c/S contour alternative. No particular confession/holiday/date established.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-6",
+        "operation": "replace",
+        "previous_offset": 11,
+        "previous_end": 12,
+        "previous_selected": "?",
+        "selected_offset": 11,
+        "selected_end": 12,
+        "selected": "g",
+        "reason": "Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-6",
+        "operation": "replace",
+        "previous_offset": 25,
+        "previous_end": 26,
+        "previous_selected": "?",
+        "selected_offset": 25,
+        "selected_end": 26,
+        "selected": "q",
+        "reason": "Open g/Z in NEZ versus returning q/K in TENTOKRATE. Source JA MAM word division retained; punctuation joining the comparison and following clause editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-7",
+        "operation": "replace",
+        "previous_offset": 17,
+        "previous_end": 18,
+        "previous_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "g",
+        "reason": "Open g/Z in POZDRAVU provisional; marked-r CH ownership in UPRIMNYCH conditional, with detached/unassigned-mark alternative. English clause order editorial.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "previous_offset": 13,
+        "previous_end": 14,
+        "previous_selected": "?",
+        "selected_offset": 13,
+        "selected_end": 14,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "previous_offset": 15,
+        "previous_end": 16,
+        "previous_selected": "?",
+        "selected_offset": 15,
+        "selected_end": 16,
+        "selected": "g",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "previous_offset": 17,
+        "previous_end": 18,
+        "previous_selected": "?",
+        "selected_offset": 17,
+        "selected_end": 18,
+        "selected": "q",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
+      },
+      {
+        "line_id": "372-main-8",
+        "operation": "replace",
+        "previous_offset": 39,
+        "previous_end": 40,
+        "previous_selected": "?",
+        "selected_offset": 39,
+        "selected_end": 42,
+        "selected": "29.",
+        "reason": "Returning q/K in LISTEK/KONCERTI versus open g/Z in Z. Final 4/I in KONCERTI retained; KONCERTU changes I→U only in language layer, with 2/U contour alternative. Underlined 29. provisionally ordinary numeral plus punctuation, excluded from encoded-body/letter totals; encoded 2/U plus unclassified 9-like-body alternatives remain. Next 3/O begins ODPOLEDNE, not a supplied month. No month/year, concert identity, actual delivery or ordinary heading date authenticated; underline not decoded.",
+        "stage": "same-context nonblind source completion"
+      }
+    ],
+    "locator_corrections": [],
+    "preceding_whole_review_preserved_in": "../revisions/372-source-completion.json#/whole_previous_json/later_review"
   },
   "limits": [
     "Single key-visible source reader with project context; no independent or blind reading.",
-    "All oval-descender q/g distinctions kept unknown. Other provisional shapes may still be wrong.",
-    "Question masks may cover unknown-length clusters. Physical encoded-body totals null.",
     "No ordinary addressing/date transcription or identity/chronology authentication.",
     "Marked-r CH ownership is conditional; zero/low masks do not exclude glyph errors.",
     "Raw-before-computational-decode is not a blind reading: key and prior project context were visible.",
-    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval."
+    "Original images and crops are private; hashes identify image bytes without providing public scan retrieval.",
+    "All revised contours, q/g, CH, segmentation, punctuation and numeral roles provisional. Same root AI with key/literal/language visible; no blind or second source reader or independent/human/external confirmation.",
+    "One unknown-glyph display slot remains in the crossed/smeared main1 cluster, of unknown physical length. Four explicit language-only proposals do not recover hidden ink or establish exact physical totals.",
+    "Main5 raised question role retains encoded 2/U or unknown-body/mark alternatives. Main8 ordinary numeral 29. role retains encoded 2/U plus unclassified 9-like body alternatives; numeral/punctuation excluded from encoded totals. Following 3 is encoded O of ODPOLEDNE, not a supplied month.",
+    "Eight preserved CW270 units follow a proposed source-aligned content order; UJI-/STENI and VERI TI/VERITI joins and all language interpretations editorial. No particular assurance, plan, meeting, confession, holiday, concert, actual delivery, identity, month/year or ordinary heading date authenticated."
   ],
-  "encoded_bodies": 293,
-  "expanded_letters": 273,
+  "source_completion_revision": "../revisions/372-source-completion.json",
+  "encoded_bodies": 291,
+  "expanded_letters": 291,
   "ch_occurrences": 1,
-  "unknowns": 21
+  "unknowns": 1
 }
