@@ -1,6 +1,6 @@
 {
   "card_id": 343,
-  "status": "research candidate; final native QA applied with findings preserved",
+  "status": "provisional complete two-unit working reading; zero current unknowns, word resegmentation and source/mark/capture limitations",
   "notation": "pdf204-canonical",
   "source": {
     "card_id": 343,
@@ -46,23 +46,11 @@
   "lines": [
     {
       "line_id": "343-r1",
-      "ciphertext": "cht5?m? b3 9th6f6 b2c2 b3c486 9",
-      "transcription": [
-        {
-          "offset": 4,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 6,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_dimensions": [
-        1175,
-        1785
+      "native_bbox_xyxy": [
+        115,
+        70,
+        235,
+        1100
       ],
       "reading_bbox_xyxy": [
         70,
@@ -70,127 +58,45 @@
         1100,
         1670
       ],
-      "native_bbox_xyxy": [
-        115,
-        70,
-        235,
-        1100
-      ],
-      "source_visual_notes": "Whole encoded row and adjacent native context inspected; broad context geometry, without precise individual ink ownership certification.",
-      "physical_encoded_body_count": null,
-      "literal": "SRDE?N? PO 9DRAVA PUSU POSILA 9",
-      "encoded_bodies": 26,
-      "expanded_letters": 22,
-      "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 4,
-          "body_index": 4,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 6,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 11,
-          "body_index": 9,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        },
-        {
-          "offset": 30,
-          "body_index": 25,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        }
-      ],
-      "source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5046/pc_hcp_343_pic.JPG",
-        "sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_file": "source343.json",
-        "metadata_file_sha256": "bb43a9e4a22e0be513d2931376e1ccc60ec3eeb036df2e2845fadb34d144296d",
-        "source_record_ref": "source"
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "SECOND with explicitly separate later nonblind selection",
-        "file": "readers/blind343.json",
-        "file_sha256": "2b5b9da974ff0823421cb93733811eaec799cb7d53d90fb600a9aac181c8823e",
-        "canonical_raw_sha256": "e14c32ace17d86fdd8befc318ea2fbe20b0a6c4f6fa6992c55113f6ab8b58695",
-        "line_id": "343-r1",
-        "selection_status": "new current selection; original objects unchanged"
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T05:10:01.980192+00:00",
-        "completed_at_utc": "2026-10-21T05:10:01.980237+00:00",
-        "executor": "nonblind FIRST343344 curator CPython; current candidate replay, distinct from original source actors",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "result": {
-          "literal": "SRDE?N? PO 9DRAVA PUSU POSILA 9",
-          "encoded_bodies": 26,
-          "expanded_letters": 22,
-          "ch_occurrences": 0,
-          "unknowns": [
-            {
-              "offset": 4,
-              "body_index": 4,
-              "symbol": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 6,
-              "body_index": 6,
-              "symbol": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 11,
-              "body_index": 9,
-              "symbol": "9",
-              "kind": "unknown_symbol"
-            },
-            {
-              "offset": 30,
-              "body_index": 25,
-              "symbol": "9",
-              "kind": "unknown_symbol"
-            }
-          ]
-        },
-        "scope": "Exact current selected ciphertext/native list; no Unicode normalization. Not a replacement for original own execution."
-      }
-    },
-    {
-      "line_id": "343-r2",
-      "ciphertext": "f185d2 df27 b5b32?.",
-      "transcription": [
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
         1175,
         1785
+      ],
+      "reading_rotation_degrees_clockwise": 270,
+      "physical_encoded_body_count": null,
+      "ciphertext": "cht5sm1 b3 gth6f6 b2c2 b3c486 g",
+      "transcription": [],
+      "literal": "SRDECNY PO ZDRAVA PUSU POSILA Z",
+      "encoded_bodies": 26,
+      "expanded_letters": 26,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "proposed_czech": "[Srdečný?] [pozdrav a?] pusu posílá z",
+      "proposed_english": "A [heartfelt?] [greeting and?] a kiss are sent from",
+      "source_visual_notes": "Mask at raw/current 4 provisionally s/C: surviving narrow bowl/hook under surface speckling; mask/other composite retained. Last initial-group contour at 6 provisionally 1/Y from descending slant and broad foot, matching SECOND 1 and comparing the selected 1 in VYLETU; FIRST 2/U and obscured composite retained. Two descending-hook ovals at 11/30 provisionally g/Z with 9/q-K/other alternatives. Current word spaces PO ZDRAVA unchanged; prose resegments POZDRAV A. No new punctuation/exclusion or physical count.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/lines/0",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "original_read_index": 0,
+          "line_id": "343-L1",
+          "pointer": "/original_reads/0/raw_wrapper/raw/rows/0"
+        },
+        {
+          "actor": "SECOND",
+          "original_read_index": 1,
+          "line_id": "343-r1",
+          "pointer": "/original_reads/1/raw_wrapper/raw/rows/0"
+        }
+      ]
+    },
+    {
+      "line_id": "343-r2",
+      "native_bbox_xyxy": [
+        35,
+        60,
+        150,
+        880
       ],
       "reading_bbox_xyxy": [
         60,
@@ -198,112 +104,46 @@
         880,
         1750
       ],
-      "native_bbox_xyxy": [
-        35,
-        60,
-        150,
-        880
+      "reading_dimensions": [
+        1175,
+        1785
       ],
-      "source_visual_notes": "Whole encoded row and adjacent native context inspected; broad context geometry, without precise individual ink ownership certification.",
+      "reading_rotation_degrees_clockwise": 270,
       "physical_encoded_body_count": null,
-      "literal": "VYLETU TVUJ PEPOU?.",
+      "ciphertext": "f185d2 df27 b5b32c.",
+      "transcription": [],
+      "literal": "VYLETU TVUJ PEPOUS.",
       "encoded_bodies": 16,
-      "expanded_letters": 15,
+      "expanded_letters": 16,
       "ch_occurrences": 0,
-      "unknowns": [
+      "unknowns": [],
+      "proposed_czech": "výletu tvůj [Pepouš?].",
+      "proposed_english": "a trip by your [Pepouš?].",
+      "source_visual_notes": "Final bowl provisionally c/S from broad open low curve and rising sweep; upper/internal point and lower speck unassigned. Existing separate terminal period retained. Earlier mask/punctuation/composite alternatives remain, no roof/CH rule or attachment/value/physical-length determination. Signature/name and English subject/possessive relation editorial.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/lines/1",
+      "frozen_row_references": [
         {
-          "offset": 17,
-          "body_index": 15,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5046/pc_hcp_343_pic.JPG",
-        "sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_file": "source343.json",
-        "metadata_file_sha256": "bb43a9e4a22e0be513d2931376e1ccc60ec3eeb036df2e2845fadb34d144296d",
-        "source_record_ref": "source"
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "SECOND with explicitly separate later nonblind selection",
-        "file": "readers/blind343.json",
-        "file_sha256": "2b5b9da974ff0823421cb93733811eaec799cb7d53d90fb600a9aac181c8823e",
-        "canonical_raw_sha256": "e14c32ace17d86fdd8befc318ea2fbe20b0a6c4f6fa6992c55113f6ab8b58695",
-        "line_id": "343-r2",
-        "selection_status": "new current selection; original objects unchanged"
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T05:10:01.980347+00:00",
-        "completed_at_utc": "2026-10-21T05:10:01.980358+00:00",
-        "executor": "nonblind FIRST343344 curator CPython; current candidate replay, distinct from original source actors",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "result": {
-          "literal": "VYLETU TVUJ PEPOU?.",
-          "encoded_bodies": 16,
-          "expanded_letters": 15,
-          "ch_occurrences": 0,
-          "unknowns": [
-            {
-              "offset": 17,
-              "body_index": 15,
-              "symbol": "?",
-              "kind": "unknown_glyph"
-            }
-          ]
+          "actor": "FIRST",
+          "original_read_index": 0,
+          "line_id": "343-L2",
+          "pointer": "/original_reads/0/raw_wrapper/raw/rows/1"
         },
-        "scope": "Exact current selected ciphertext/native list; no Unicode normalization. Not a replacement for original own execution."
-      }
+        {
+          "actor": "SECOND",
+          "original_read_index": 1,
+          "line_id": "343-r2",
+          "pointer": "/original_reads/1/raw_wrapper/raw/rows/1"
+        }
+      ]
     }
   ],
   "rows": 2,
   "encoded_bodies": 42,
-  "expanded_letters": 37,
+  "expanded_letters": 42,
   "ch_occurrences": 0,
-  "unknowns": 5,
+  "unknowns": 0,
   "physical_encoded_body_count": null,
   "count_scope": "Current exact notation replay positions, never physical ink counts. Unknown masks may represent unknown-length composites.",
-  "source_curation": {
-    "prepared_at_utc": "2026-10-21T05:10:01.980933+00:00",
-    "actor": "FIRST343344 source reader continuing as nonblind curator",
-    "model": "gpt-6.1-sol",
-    "exact_deployment": null,
-    "source_actor_role_finished": true,
-    "nonblind_release": "batch24-nonblind-exchange-release.json",
-    "CP1": {
-      "file": "batch24-frozen-reads-checkpoint.json",
-      "file_sha256": "eadd4552bdde8b1d3e295c4d4c31a24b73766ee035f087137884c6cfa03e5595"
-    },
-    "CP2": {
-      "file": "batch24-replays-checkpoint.json",
-      "file_sha256": "c4d599cb726f6ba2de20d06f0e15388f5d228a4cb58e59f814eaedc22e801280"
-    },
-    "visible_key": true,
-    "independence": "Related AI source actors; key visible. Pretraining/cognitive independence unauditable; no human/external independence claim. Curator is related FIRST actor, later nonblind.",
-    "selection": "SECOND spatial grouping, unassigned 9 contours and terminal period retained after actual new source review. A new unknown mask preserves the FIRST2/SECOND1 digit dispute; original FIRST g alternatives remain visible.",
-    "new_source_observation": {
-      "complete_selected_originals_displayed_at_utc": "2026-10-21T05:05:38+00:00",
-      "recorded_at_utc": "2026-10-21T05:10:01.980936+00:00",
-      "context": "After explicit nonblind release, with both frozen readings visible.",
-      "observation": "Whole Picture originals and focused adjacent contexts inspected. All current decisions remain fallible source selections rather than external confirmation.",
-      "precision": "broad source context only; no exact ink attachment or physical count certificate"
-    },
-    "final_QA_projection_applied_at_utc": "2026-10-21T05:27:53.000897+00:00"
-  },
   "source_faces_original_metadata": [
     {
       "face": "Picture side",
@@ -356,125 +196,13 @@
       "actual_image_stat_bytes": 974053
     }
   ],
-  "source_differences": [
-    {
-      "id": "343-difference-1",
-      "compared_actor": "FIRST",
-      "scope": "exact notation sequence difference; offset spans are not physical ink bounds",
-      "status": "current selection explicit; native original unchanged",
-      "current_component": {
-        "line_id": "343-r1",
-        "offset": 6,
-        "end_offset": 7,
-        "selected": "?"
-      },
-      "original_component": {
-        "line_id": "343-L1",
-        "offset": 6,
-        "end_offset": 7,
-        "selected": "2"
-      },
-      "original_wrapper_file": "readers/first343.json",
-      "original_wrapper_FILE_sha256": "600a8b631762e000c434dbf564758ec4611fd5f449f75e032a0e83d5877d08b7",
-      "original_canonical_raw_sha256": "dfbc700d0f9b7ff95dfcc768e1bce3cc4e8491652e1688126ea9295c6b9507d0",
-      "source_claim": "New nonblind actual source review; no retrospective certification of original selection."
-    },
-    {
-      "id": "343-difference-2",
-      "compared_actor": "FIRST",
-      "scope": "exact notation sequence difference; offset spans are not physical ink bounds",
-      "status": "current selection explicit; native original unchanged",
-      "current_component": {
-        "line_id": "343-r1",
-        "offset": 10,
-        "end_offset": 12,
-        "selected": " 9"
-      },
-      "original_component": {
-        "line_id": "343-L1",
-        "offset": 10,
-        "end_offset": 11,
-        "selected": "g"
-      },
-      "original_wrapper_file": "readers/first343.json",
-      "original_wrapper_FILE_sha256": "600a8b631762e000c434dbf564758ec4611fd5f449f75e032a0e83d5877d08b7",
-      "original_canonical_raw_sha256": "dfbc700d0f9b7ff95dfcc768e1bce3cc4e8491652e1688126ea9295c6b9507d0",
-      "source_claim": "New nonblind actual source review; no retrospective certification of original selection."
-    },
-    {
-      "id": "343-difference-3",
-      "compared_actor": "FIRST",
-      "scope": "exact notation sequence difference; offset spans are not physical ink bounds",
-      "status": "current selection explicit; native original unchanged",
-      "current_component": {
-        "line_id": "343-r1",
-        "offset": 30,
-        "end_offset": 31,
-        "selected": "9"
-      },
-      "original_component": {
-        "line_id": "343-L1",
-        "offset": 29,
-        "end_offset": 30,
-        "selected": "g"
-      },
-      "original_wrapper_file": "readers/first343.json",
-      "original_wrapper_FILE_sha256": "600a8b631762e000c434dbf564758ec4611fd5f449f75e032a0e83d5877d08b7",
-      "original_canonical_raw_sha256": "dfbc700d0f9b7ff95dfcc768e1bce3cc4e8491652e1688126ea9295c6b9507d0",
-      "source_claim": "New nonblind actual source review; no retrospective certification of original selection."
-    },
-    {
-      "id": "343-difference-4",
-      "compared_actor": "FIRST",
-      "scope": "exact notation sequence difference; offset spans are not physical ink bounds",
-      "status": "current selection explicit; native original unchanged",
-      "current_component": {
-        "line_id": "343-r2",
-        "offset": 18,
-        "end_offset": 19,
-        "selected": "."
-      },
-      "original_component": {
-        "line_id": "343-L2",
-        "offset": 18,
-        "end_offset": 18,
-        "selected": ""
-      },
-      "original_wrapper_file": "readers/first343.json",
-      "original_wrapper_FILE_sha256": "600a8b631762e000c434dbf564758ec4611fd5f449f75e032a0e83d5877d08b7",
-      "original_canonical_raw_sha256": "dfbc700d0f9b7ff95dfcc768e1bce3cc4e8491652e1688126ea9295c6b9507d0",
-      "source_claim": "New nonblind actual source review; no retrospective certification of original selection."
-    },
-    {
-      "id": "343-difference-5",
-      "compared_actor": "SECOND",
-      "scope": "exact notation sequence difference; offset spans are not physical ink bounds",
-      "status": "current selection explicit; native original unchanged",
-      "current_component": {
-        "line_id": "343-r1",
-        "offset": 6,
-        "end_offset": 7,
-        "selected": "?"
-      },
-      "original_component": {
-        "line_id": "343-r1",
-        "offset": 6,
-        "end_offset": 7,
-        "selected": "1"
-      },
-      "original_wrapper_file": "readers/blind343.json",
-      "original_wrapper_FILE_sha256": "2b5b9da974ff0823421cb93733811eaec799cb7d53d90fb600a9aac181c8823e",
-      "original_canonical_raw_sha256": "e14c32ace17d86fdd8befc318ea2fbe20b0a6c4f6fa6992c55113f6ab8b58695",
-      "source_claim": "New nonblind actual source review; no retrospective certification of original selection."
-    }
-  ],
   "uncertainty_ledger": [
     {
       "entry_id": "343-current-1",
       "line_id": "343-r1",
       "offset": 4,
-      "selected": "?",
-      "kind": "unknown mask; possible modifier",
+      "selected": "s",
+      "kind": "provisional source body with unresolved alternatives",
       "source_observation": "Faint narrow body under grime after 5 remains obscured, with possible detached speck ownership unresolved.",
       "alternatives": [
         "s-like body",
@@ -502,14 +230,19 @@
       "review_manifest_file": "curate343344-current-source-view-manifest.json",
       "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
       "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true
+      "new_nonblind_observation": true,
+      "previous_selected": "?",
+      "previous_kind": "unknown mask; possible modifier",
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/uncertainty_ledger/0",
+      "selected_reading_recorded_at_utc": "2026-10-26T16:36:06.818014+00:00",
+      "current_stage_observation": "Original observation/timestamps describe the earlier unassigned/masked reading and remain historical. Current provisional s/C is separately recorded; mask/body/ownership alternatives remain, prior entry and raw unchanged."
     },
     {
       "entry_id": "343-current-2",
       "line_id": "343-r1",
       "offset": 6,
-      "selected": "?",
-      "kind": "new conservative unknown mask",
+      "selected": "1",
+      "kind": "provisional source body with unresolved alternatives",
       "source_observation": "Last narrow descending/footed numeral-like contour in first group does not securely distinguish original FIRST2 from SECOND1; current mask preserves disagreement.",
       "alternatives": [
         "1",
@@ -537,14 +270,19 @@
       "review_manifest_file": "curate343344-current-source-view-manifest.json",
       "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
       "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true
+      "new_nonblind_observation": true,
+      "previous_selected": "?",
+      "previous_kind": "new conservative unknown mask",
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/uncertainty_ledger/1",
+      "selected_reading_recorded_at_utc": "2026-10-26T16:36:06.818014+00:00",
+      "current_stage_observation": "Original observation/timestamps describe the earlier unassigned/masked reading and remain historical. Current provisional 1/Y is separately recorded; mask/body/ownership alternatives remain, prior entry and raw unchanged."
     },
     {
       "entry_id": "343-current-3",
       "line_id": "343-r1",
       "offset": 11,
-      "selected": "9",
-      "kind": "unassigned body",
+      "selected": "g",
+      "kind": "provisional source body with unresolved alternatives",
       "source_observation": "Single upper oval and simple hooked descending tail retained as unassigned9-like contour, distinct from selected loop-return q contours on card344. No g/q/value alias.",
       "alternatives": [
         "9-like unassigned",
@@ -572,14 +310,19 @@
       "review_manifest_file": "curate343344-current-source-view-manifest.json",
       "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
       "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true
+      "new_nonblind_observation": true,
+      "previous_selected": "9",
+      "previous_kind": "unassigned body",
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/uncertainty_ledger/2",
+      "selected_reading_recorded_at_utc": "2026-10-26T16:36:06.818014+00:00",
+      "current_stage_observation": "Original observation/timestamps describe the earlier unassigned/masked reading and remain historical. Current provisional g/Z is separately recorded; mask/body/ownership alternatives remain, prior entry and raw unchanged."
     },
     {
       "entry_id": "343-current-4",
       "line_id": "343-r1",
       "offset": 30,
-      "selected": "9",
-      "kind": "unassigned body",
+      "selected": "g",
+      "kind": "provisional source body with unresolved alternatives",
       "source_observation": "Single upper oval and simple hooked descending tail retained as unassigned9-like contour, distinct from selected loop-return q contours on card344. No g/q/value alias.",
       "alternatives": [
         "9-like unassigned",
@@ -607,14 +350,19 @@
       "review_manifest_file": "curate343344-current-source-view-manifest.json",
       "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
       "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true
+      "new_nonblind_observation": true,
+      "previous_selected": "9",
+      "previous_kind": "unassigned body",
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/uncertainty_ledger/3",
+      "selected_reading_recorded_at_utc": "2026-10-26T16:36:06.818014+00:00",
+      "current_stage_observation": "Original observation/timestamps describe the earlier unassigned/masked reading and remain historical. Current provisional g/Z is separately recorded; mask/body/ownership alternatives remain, prior entry and raw unchanged."
     },
     {
       "entry_id": "343-current-5",
       "line_id": "343-r2",
       "offset": 17,
-      "selected": "?",
-      "kind": "unknown mask; possible modifier",
+      "selected": "c",
+      "kind": "provisional source body with unresolved alternatives",
       "source_observation": "Open broad curve with upper point and lower speck remains unresolved body/punctuation/composite. Lower separate point retained as period in current row; no exact attachment claim.",
       "alternatives": [
         "c-like body with flourish",
@@ -642,989 +390,15 @@
       "review_manifest_file": "curate343344-current-source-view-manifest.json",
       "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
       "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true
-    }
-  ],
-  "current_mark_ledger": [
-    {
-      "entry_id": "343-current-1",
-      "line_id": "343-r1",
-      "offset": 4,
-      "selected": "?",
-      "kind": "unknown mask; possible modifier",
-      "source_observation": "Faint narrow body under grime after 5 remains obscured, with possible detached speck ownership unresolved.",
-      "alternatives": [
-        "s-like body",
-        "other body/composite",
-        "surface interference"
-      ],
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        100,
-        1560,
-        440,
-        1660
-      ],
-      "native_bbox_xyxy": [
-        125,
-        100,
-        225,
-        440
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "review_id": "343-initial",
-      "checked_at_utc": "2026-10-21T05:05:39+00:00",
-      "recorded_at_utc": "2026-10-21T05:10:01.980605+00:00",
-      "review_manifest_file": "curate343344-current-source-view-manifest.json",
-      "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
-      "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true
-    },
-    {
-      "entry_id": "343-current-5",
-      "line_id": "343-r2",
-      "offset": 17,
-      "selected": "?",
-      "kind": "unknown mask; possible modifier",
-      "source_observation": "Open broad curve with upper point and lower speck remains unresolved body/punctuation/composite. Lower separate point retained as period in current row; no exact attachment claim.",
-      "alternatives": [
-        "c-like body with flourish",
-        "terminal punctuation",
-        "composite of unknown physical length"
-      ],
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        625,
-        1640,
-        880,
-        1750
-      ],
-      "native_bbox_xyxy": [
-        35,
-        625,
-        145,
-        880
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "review_id": "343-terminal",
-      "checked_at_utc": "2026-10-21T05:05:39+00:00",
-      "recorded_at_utc": "2026-10-21T05:10:01.980744+00:00",
-      "review_manifest_file": "curate343344-current-source-view-manifest.json",
-      "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
-      "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true
-    }
-  ],
-  "current_question_role_inventory": [
-    {
-      "entry_id": "343-current-1",
-      "line_id": "343-r1",
-      "offset": 4,
-      "selected": "?",
-      "source_observation": "Faint narrow body under grime after 5 remains obscured, with possible detached speck ownership unresolved.",
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        100,
-        1560,
-        440,
-        1660
-      ],
-      "native_bbox_xyxy": [
-        125,
-        100,
-        225,
-        440
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "review_id": "343-initial",
-      "checked_at_utc": "2026-10-21T05:05:39+00:00",
-      "recorded_at_utc": "2026-10-21T05:10:01.980605+00:00",
-      "review_manifest_file": "curate343344-current-source-view-manifest.json",
-      "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
-      "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
       "new_nonblind_observation": true,
-      "role": "unknown_mask"
-    },
-    {
-      "entry_id": "343-current-2",
-      "line_id": "343-r1",
-      "offset": 6,
-      "selected": "?",
-      "source_observation": "Last narrow descending/footed numeral-like contour in first group does not securely distinguish original FIRST2 from SECOND1; current mask preserves disagreement.",
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        100,
-        1560,
-        440,
-        1660
-      ],
-      "native_bbox_xyxy": [
-        125,
-        100,
-        225,
-        440
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "review_id": "343-initial",
-      "checked_at_utc": "2026-10-21T05:05:39+00:00",
-      "recorded_at_utc": "2026-10-21T05:10:01.980652+00:00",
-      "review_manifest_file": "curate343344-current-source-view-manifest.json",
-      "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
-      "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true,
-      "role": "unknown_mask"
-    },
-    {
-      "entry_id": "343-current-5",
-      "line_id": "343-r2",
-      "offset": 17,
-      "selected": "?",
-      "source_observation": "Open broad curve with upper point and lower speck remains unresolved body/punctuation/composite. Lower separate point retained as period in current row; no exact attachment claim.",
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        625,
-        1640,
-        880,
-        1750
-      ],
-      "native_bbox_xyxy": [
-        35,
-        625,
-        145,
-        880
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "review_id": "343-terminal",
-      "checked_at_utc": "2026-10-21T05:05:39+00:00",
-      "recorded_at_utc": "2026-10-21T05:10:01.980744+00:00",
-      "review_manifest_file": "curate343344-current-source-view-manifest.json",
-      "review_manifest_FILE_sha256": "0ea3b0d0a28655f954d335cd2b5269366dc4bd013e5622596eb6be7130a211f3",
-      "source_sha256": "981c53a85e6b63d4b9e2685ba58e50c1c774ca5751147f7249616d871601c25b",
-      "new_nonblind_observation": true,
-      "role": "unknown_mask"
+      "previous_selected": "?",
+      "previous_kind": "unknown mask; possible modifier",
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/uncertainty_ledger/4",
+      "selected_reading_recorded_at_utc": "2026-10-26T16:36:06.818014+00:00",
+      "current_stage_observation": "Original observation/timestamps describe the earlier unassigned/masked reading and remain historical. Current provisional c/S is separately recorded; mask/body/ownership alternatives remain, prior entry and raw unchanged."
     }
   ],
-  "current_segmentation_ledger": [
-    {
-      "source_entry_id": "343-current-1",
-      "line_id": "343-r1",
-      "offset": 4,
-      "selected": "?",
-      "physical_encoded_body_count": null,
-      "review_id": "343-initial",
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "source_observation": "Faint narrow body under grime after 5 remains obscured, with possible detached speck ownership unresolved.",
-      "alternatives": [
-        "s-like body",
-        "other body/composite",
-        "surface interference"
-      ],
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        100,
-        1560,
-        440,
-        1660
-      ],
-      "native_bbox_xyxy": [
-        125,
-        100,
-        225,
-        440
-      ],
-      "checked_at_utc": "2026-10-21T05:05:39+00:00"
-    },
-    {
-      "source_entry_id": "343-current-2",
-      "line_id": "343-r1",
-      "offset": 6,
-      "selected": "?",
-      "physical_encoded_body_count": null,
-      "review_id": "343-initial",
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "source_observation": "Last narrow descending/footed numeral-like contour in first group does not securely distinguish original FIRST2 from SECOND1; current mask preserves disagreement.",
-      "alternatives": [
-        "1",
-        "2",
-        "obscured composite"
-      ],
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        100,
-        1560,
-        440,
-        1660
-      ],
-      "native_bbox_xyxy": [
-        125,
-        100,
-        225,
-        440
-      ],
-      "checked_at_utc": "2026-10-21T05:05:39+00:00"
-    },
-    {
-      "source_entry_id": "343-current-5",
-      "line_id": "343-r2",
-      "offset": 17,
-      "selected": "?",
-      "physical_encoded_body_count": null,
-      "review_id": "343-terminal",
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "source_observation": "Open broad curve with upper point and lower speck remains unresolved body/punctuation/composite. Lower separate point retained as period in current row; no exact attachment claim.",
-      "alternatives": [
-        "c-like body with flourish",
-        "terminal punctuation",
-        "composite of unknown physical length"
-      ],
-      "reading_rotation_degrees_clockwise": 270,
-      "reading_bbox_xyxy": [
-        625,
-        1640,
-        880,
-        1750
-      ],
-      "native_bbox_xyxy": [
-        35,
-        625,
-        145,
-        880
-      ],
-      "checked_at_utc": "2026-10-21T05:05:39+00:00"
-    }
-  ],
-  "current_source_evidence_scope": "Fresh later source checks are separate from original frozen source documentation; broad boxes remain broad, mark ownership and physical lengths unresolved.",
-  "editorial_reading": {
-    "status": "full paired Czech/English research proposals; unresolved source and linguistic alternatives retained",
-    "rows": [
-      {
-        "line_id": "343-r1",
-        "literal": "SRDE?N? PO 9DRAVA PUSU POSILA 9",
-        "cz": "[Srdečný?; doslovně SRDE?N?, koncovka neurčitá] [pozdrav a?; navržené spojení a rozdělení slov, 9 neurčeno] pusu posílá [z?; 9 neurčeno]",
-        "en": "[Heartfelt?; literal SRDE?N?, ending uncertain] [a greeting and?; proposed word joining and splitting, 9 unassigned] a kiss sends [from?; 9 unassigned]",
-        "whole_block_literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 0,
-            "end_offset": 31,
-            "selected": "SRDE?N? PO 9DRAVA PUSU POSILA 9",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          }
-        ],
-        "segments": [
-          {
-            "proposal_id": "343-E1-1",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 0,
-                "end_offset": 7,
-                "selected": "SRDE?N?",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "[Srdečný?; doslovně SRDE?N?, koncovka neurčitá]",
-            "en": "[Heartfelt?; literal SRDE?N?, ending uncertain]",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          },
-          {
-            "proposal_id": "343-E1-2",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 8,
-                "end_offset": 17,
-                "selected": "PO 9DRAVA",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "[pozdrav a?; navržené spojení a rozdělení slov, 9 neurčeno]",
-            "en": "[a greeting and?; proposed word joining and splitting, 9 unassigned]",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          },
-          {
-            "proposal_id": "343-E1-3",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 18,
-                "end_offset": 22,
-                "selected": "PUSU",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "pusu",
-            "en": "a kiss",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          },
-          {
-            "proposal_id": "343-E1-4",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 23,
-                "end_offset": 29,
-                "selected": "POSILA",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "posílá",
-            "en": "sends",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          },
-          {
-            "proposal_id": "343-E1-5",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 30,
-                "end_offset": 31,
-                "selected": "9",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "[z?; 9 neurčeno]",
-            "en": "[from?; 9 unassigned]",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "occurrence_id": "343-E1-1-cz-1",
-            "language": "cz",
-            "rendered_offset": 0,
-            "rendered_end_offset": 47,
-            "selected_rendered": "[Srdečný?; doslovně SRDE?N?, koncovka neurčitá]",
-            "proposal_id": "343-E1-1",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 0,
-                "end_offset": 7,
-                "selected": "SRDE?N?",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "343-E1-1-en-1",
-            "language": "en",
-            "rendered_offset": 0,
-            "rendered_end_offset": 47,
-            "selected_rendered": "[Heartfelt?; literal SRDE?N?, ending uncertain]",
-            "proposal_id": "343-E1-1",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 0,
-                "end_offset": 7,
-                "selected": "SRDE?N?",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "343-E1-2-cz-1",
-            "language": "cz",
-            "rendered_offset": 48,
-            "rendered_end_offset": 107,
-            "selected_rendered": "[pozdrav a?; navržené spojení a rozdělení slov, 9 neurčeno]",
-            "proposal_id": "343-E1-2",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 8,
-                "end_offset": 17,
-                "selected": "PO 9DRAVA",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "343-E1-2-en-1",
-            "language": "en",
-            "rendered_offset": 48,
-            "rendered_end_offset": 116,
-            "selected_rendered": "[a greeting and?; proposed word joining and splitting, 9 unassigned]",
-            "proposal_id": "343-E1-2",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 8,
-                "end_offset": 17,
-                "selected": "PO 9DRAVA",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "343-E1-5-cz-1",
-            "language": "cz",
-            "rendered_offset": 120,
-            "rendered_end_offset": 136,
-            "selected_rendered": "[z?; 9 neurčeno]",
-            "proposal_id": "343-E1-5",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 30,
-                "end_offset": 31,
-                "selected": "9",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "343-E1-5-en-1",
-            "language": "en",
-            "rendered_offset": 130,
-            "rendered_end_offset": 151,
-            "selected_rendered": "[from?; 9 unassigned]",
-            "proposal_id": "343-E1-5",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 30,
-                "end_offset": 31,
-                "selected": "9",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          }
-        ],
-        "coverage": "Full literal row including terminal/signature/unknown passages; spaces may be editorially joined/split only as qualified."
-      },
-      {
-        "line_id": "343-r2",
-        "literal": "VYLETU TVUJ PEPOU?.",
-        "cz": "výletu tvůj [Pepouš?; možné jméno či podpis, koncové tělo neurčeno].",
-        "en": "a trip yours [Pepouš?; possible name or signature, final body unknown].",
-        "whole_block_literal_components": [
-          {
-            "line_id": "343-r2",
-            "offset": 0,
-            "end_offset": 19,
-            "selected": "VYLETU TVUJ PEPOU?.",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          }
-        ],
-        "segments": [
-          {
-            "proposal_id": "343-E2-1",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r2",
-                "offset": 0,
-                "end_offset": 6,
-                "selected": "VYLETU",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "výletu",
-            "en": "a trip",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          },
-          {
-            "proposal_id": "343-E2-2",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r2",
-                "offset": 7,
-                "end_offset": 11,
-                "selected": "TVUJ",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "tvůj",
-            "en": "yours",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          },
-          {
-            "proposal_id": "343-E2-3",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r2",
-                "offset": 12,
-                "end_offset": 18,
-                "selected": "PEPOU?",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": "[Pepouš?; možné jméno či podpis, koncové tělo neurčeno]",
-            "en": "[Pepouš?; possible name or signature, final body unknown]",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          },
-          {
-            "proposal_id": "343-E2-4",
-            "status": "proposed editorial reading; unresolved alternatives retained",
-            "literal_components": [
-              {
-                "line_id": "343-r2",
-                "offset": 18,
-                "end_offset": 19,
-                "selected": ".",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ],
-            "cz": ".",
-            "en": ".",
-            "qualification_scope": "All accents, grammatical rendering and English wording are editorial. Brackets are proposals/limits, not source glyph assignments; name/relationship/gender/date/referrent qualifications apply in both languages."
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "occurrence_id": "343-E2-3-cz-1",
-            "language": "cz",
-            "rendered_offset": 12,
-            "rendered_end_offset": 67,
-            "selected_rendered": "[Pepouš?; možné jméno či podpis, koncové tělo neurčeno]",
-            "proposal_id": "343-E2-3",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r2",
-                "offset": 12,
-                "end_offset": 18,
-                "selected": "PEPOU?",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "343-E2-3-en-1",
-            "language": "en",
-            "rendered_offset": 13,
-            "rendered_end_offset": 70,
-            "selected_rendered": "[Pepouš?; possible name or signature, final body unknown]",
-            "proposal_id": "343-E2-3",
-            "status": "proposal, not established source/identity",
-            "literal_components": [
-              {
-                "line_id": "343-r2",
-                "offset": 12,
-                "end_offset": 18,
-                "selected": "PEPOU?",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          }
-        ],
-        "coverage": "Full literal row including terminal/signature/unknown passages; spaces may be editorially joined/split only as qualified."
-      }
-    ],
-    "whole_text_cz": "[Srdečný?; doslovně SRDE?N?, koncovka neurčitá] [pozdrav a?; navržené spojení a rozdělení slov, 9 neurčeno] pusu posílá [z?; 9 neurčeno]\nvýletu tvůj [Pepouš?; možné jméno či podpis, koncové tělo neurčeno].",
-    "whole_text_en": "[A heartfelt?; literal SRDE?N?, ending uncertain] [greeting and?; 9 unresolved, word joining and splitting proposed] a kiss are sent [from a trip?; 9 unassigned, cross-row join proposed]. Yours, [Pepouš?; possible name or signature, final body unknown].",
-    "whole_text_literal_components": [
-      {
-        "line_id": "343-r1",
-        "offset": 0,
-        "end_offset": 31,
-        "selected": "SRDE?N? PO 9DRAVA PUSU POSILA 9",
-        "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-      },
-      {
-        "line_id": "343-r2",
-        "offset": 0,
-        "end_offset": 19,
-        "selected": "VYLETU TVUJ PEPOU?.",
-        "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-      }
-    ],
-    "whole_text_bracketed_occurrence_mappings": [
-      {
-        "occurrence_id": "whole-343-E1-1-cz-1",
-        "language": "cz",
-        "rendered_offset": 0,
-        "rendered_end_offset": 47,
-        "selected_rendered": "[Srdečný?; doslovně SRDE?N?, koncovka neurčitá]",
-        "proposal_id": "343-E1-1",
-        "status": "proposal, not established source/identity",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 0,
-            "end_offset": 7,
-            "selected": "SRDE?N?",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          }
-        ]
-      },
-      {
-        "occurrence_id": "whole-343-E1-2-cz-1",
-        "language": "cz",
-        "rendered_offset": 48,
-        "rendered_end_offset": 107,
-        "selected_rendered": "[pozdrav a?; navržené spojení a rozdělení slov, 9 neurčeno]",
-        "proposal_id": "343-E1-2",
-        "status": "proposal, not established source/identity",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 8,
-            "end_offset": 17,
-            "selected": "PO 9DRAVA",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          }
-        ]
-      },
-      {
-        "occurrence_id": "whole-343-E1-5-cz-1",
-        "language": "cz",
-        "rendered_offset": 120,
-        "rendered_end_offset": 136,
-        "selected_rendered": "[z?; 9 neurčeno]",
-        "proposal_id": "343-E1-5",
-        "status": "proposal, not established source/identity",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 30,
-            "end_offset": 31,
-            "selected": "9",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          }
-        ]
-      },
-      {
-        "occurrence_id": "whole-343-E2-3-cz-1",
-        "language": "cz",
-        "rendered_offset": 149,
-        "rendered_end_offset": 204,
-        "selected_rendered": "[Pepouš?; možné jméno či podpis, koncové tělo neurčeno]",
-        "proposal_id": "343-E2-3",
-        "status": "proposal, not established source/identity",
-        "literal_components": [
-          {
-            "line_id": "343-r2",
-            "offset": 12,
-            "end_offset": 18,
-            "selected": "PEPOU?",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          }
-        ]
-      },
-      {
-        "occurrence_id": "343-whole-en-1-1",
-        "language": "en",
-        "rendered_offset": 0,
-        "rendered_end_offset": 49,
-        "selected_rendered": "[A heartfelt?; literal SRDE?N?, ending uncertain]",
-        "proposal_id": "343-whole-en-1",
-        "status": "proposal, not established source or identity",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 0,
-            "end_offset": 7,
-            "selected": "SRDE?N?",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ]
-      },
-      {
-        "occurrence_id": "343-whole-en-2-1",
-        "language": "en",
-        "rendered_offset": 50,
-        "rendered_end_offset": 116,
-        "selected_rendered": "[greeting and?; 9 unresolved, word joining and splitting proposed]",
-        "proposal_id": "343-whole-en-2",
-        "status": "proposal, not established source or identity",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 8,
-            "end_offset": 17,
-            "selected": "PO 9DRAVA",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ]
-      },
-      {
-        "occurrence_id": "343-whole-en-5-1",
-        "language": "en",
-        "rendered_offset": 133,
-        "rendered_end_offset": 186,
-        "selected_rendered": "[from a trip?; 9 unassigned, cross-row join proposed]",
-        "proposal_id": "343-whole-en-5",
-        "status": "proposal, not established source or identity",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 30,
-            "end_offset": 31,
-            "selected": "9",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          },
-          {
-            "line_id": "343-r2",
-            "offset": 0,
-            "end_offset": 6,
-            "selected": "VYLETU",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ]
-      },
-      {
-        "occurrence_id": "343-whole-en-8-1",
-        "language": "en",
-        "rendered_offset": 195,
-        "rendered_end_offset": 252,
-        "selected_rendered": "[Pepouš?; possible name or signature, final body unknown]",
-        "proposal_id": "343-whole-en-8",
-        "status": "proposal, not established source or identity",
-        "literal_components": [
-          {
-            "line_id": "343-r2",
-            "offset": 12,
-            "end_offset": 18,
-            "selected": "PEPOU?",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ]
-      }
-    ],
-    "cross_row_proposals": [
-      {
-        "proposal_id": "343-crossrow-from-trip",
-        "status": "proposed composite; first symbol remains unassigned",
-        "scope": "Noncontiguous cross-row join, no single fabricated span. Spatial continuation only.",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 30,
-            "end_offset": 31,
-            "selected": "9",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          },
-          {
-            "line_id": "343-r2",
-            "offset": 0,
-            "end_offset": 6,
-            "selected": "VYLETU",
-            "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-          }
-        ],
-        "cz": "[z výletu?; první znak 9 nevyřešen, spojení řádků navrženo]",
-        "en": "[from a trip?; initial symbol 9 unresolved, row join proposed]",
-        "bracketed_occurrence_mappings": [
-          {
-            "language": "cz",
-            "rendered_offset": 0,
-            "rendered_end_offset": 59,
-            "selected_rendered": "[z výletu?; první znak 9 nevyřešen, spojení řádků navrženo]",
-            "proposal_id": "343-crossrow-from-trip",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 30,
-                "end_offset": 31,
-                "selected": "9",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              },
-              {
-                "line_id": "343-r2",
-                "offset": 0,
-                "end_offset": 6,
-                "selected": "VYLETU",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          },
-          {
-            "language": "en",
-            "rendered_offset": 0,
-            "rendered_end_offset": 62,
-            "selected_rendered": "[from a trip?; initial symbol 9 unresolved, row join proposed]",
-            "proposal_id": "343-crossrow-from-trip",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "343-r1",
-                "offset": 30,
-                "end_offset": 31,
-                "selected": "9",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              },
-              {
-                "line_id": "343-r2",
-                "offset": 0,
-                "end_offset": 6,
-                "selected": "VYLETU",
-                "scope": "exact current literal Unicode codepoint span; linguistic evidence only, not physical ink bounds"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "method": "Current literal kept exact. Czech accents and English grammar are editorial, with specific uncertain repairs bracketed and mapped to literal spans. No proposed name, gender, relationship, place, date or referent establishes identity. English row fragments follow source order; cross-row proposals are separately qualified. Full English passage reorders grammatical components explicitly and supplies separate exact spans for each noncontiguous part; row English remains source-order fragments. Full English passage reorders grammatical components explicitly and supplies separate exact spans for each noncontiguous part; row English remains source-order fragments.",
-    "spatial_order_only": true,
-    "authenticated_chronology": false,
-    "identity_established": false,
-    "gender_date_referrent_scope": {
-      "cz": "Navržený podpis Pepouš neurčuje totožnost ani gender pisatele. Přivlastňovací tvar tvůj je mluvnická podoba, nikoli nezávislý důkaz genderu osoby. Žádné místo ani datum není z tohoto textu doloženo.",
-      "en": "The proposed signature Pepouš establishes neither identity nor the writer’s gender. The possessive tvůj is a grammatical form, not independent evidence of a person’s gender. No place or date is established by this text."
-    },
-    "whole_text_english_segments": [
-      {
-        "proposal_id": "343-whole-en-1",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": "[A heartfelt?; literal SRDE?N?, ending uncertain]",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 0,
-            "end_offset": 7,
-            "selected": "SRDE?N?",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-2",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": "[greeting and?; 9 unresolved, word joining and splitting proposed]",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 8,
-            "end_offset": 17,
-            "selected": "PO 9DRAVA",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-3",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": "a kiss",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 18,
-            "end_offset": 22,
-            "selected": "PUSU",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-4",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": "are sent",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 23,
-            "end_offset": 29,
-            "selected": "POSILA",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-5",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": "[from a trip?; 9 unassigned, cross-row join proposed]",
-        "literal_components": [
-          {
-            "line_id": "343-r1",
-            "offset": 30,
-            "end_offset": 31,
-            "selected": "9",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          },
-          {
-            "line_id": "343-r2",
-            "offset": 0,
-            "end_offset": 6,
-            "selected": "VYLETU",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-6",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": ".",
-        "literal_components": [],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-7",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": "Yours,",
-        "literal_components": [
-          {
-            "line_id": "343-r2",
-            "offset": 7,
-            "end_offset": 11,
-            "selected": "TVUJ",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-8",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": "[Pepouš?; possible name or signature, final body unknown]",
-        "literal_components": [
-          {
-            "line_id": "343-r2",
-            "offset": 12,
-            "end_offset": 18,
-            "selected": "PEPOU?",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      },
-      {
-        "proposal_id": "343-whole-en-9",
-        "status": "editorial full-passage proposal; source values unchanged",
-        "en": ".",
-        "literal_components": [
-          {
-            "line_id": "343-r2",
-            "offset": 18,
-            "end_offset": 19,
-            "selected": ".",
-            "scope": "exact current literal span; whole-text editorial composite, no physical ink claim"
-          }
-        ],
-        "scope": "Composite components explicit; empty components indicate added editorial punctuation only."
-      }
-    ]
-  },
+  "current_question_role_inventory": [],
   "qa": {
     "status": "actual final native QA applied; mechanical PASS with native source and capture findings preserved",
     "final_pending": false,
@@ -2099,7 +873,6 @@
     "later_execution_review_results": "validation-batch24.json",
     "scope": "Created once under explicit root release. INITIAL records preparation state; later execution, review, assembly and results belong to validation-batch24.json. All non-self-reference current fields remain typed-identical to authoritative V2 reviewed copies."
   },
-  "publication_stage": "INITIAL preparation state with actual final QA applied. Later snapshot execution, root review, public assembly and results are recorded in validation-batch24.json; initial-snapshot/public-assembly release not granted in this step.",
   "privacy_omissions": 0,
   "normalizations": 0,
   "original_reads": [
@@ -4457,5 +3230,199 @@
       "context": "After immutable CP1/CP2 and explicit nonblind exchange release; no historical target prose or lead material.",
       "limit": "Broad contexts do not certify precise ink bounds, exclusion of neighbours, detached mark ownership or physical glyph counts."
     }
+  },
+  "source_completion_revision": "../revisions/343-source-completion.json",
+  "limitations": [
+    "Same root AI, nonblind key/earlier literal/language-visible source review; no independent/human/external confirmation.",
+    "Two selected lower Picture units retain SECOND-based IDs/order/broad geometry after a 270-degree clockwise rotation. They are serialization units, not authenticated physical rows. Caption/publisher/date/address/person/postal material excluded without transcription/authentication; physical totals null. No journey, location, dispatch/receipt, date, person or relationship authenticated.",
+    "Five provisional occurrence-specific source substitutions: 343-r1 offset 4 mask→s/C under surface interference, offset 6 mask→1/Y with FIRST 2/U retained, offsets 11/30 former 9→g/Z; 343-r2 offset 17 mask→c/S. Earlier masks, 1/2, 9/q-K/other and terminal punctuation/composite alternatives remain. Damaged first body and terminal bowl particularly uncertain; Czech fit is not independent visual proof. No generic alias, roof/CH map, Unicode normalization or source-body exclusion.",
+    "Three current unknown-mask tags removed at those exact selected bodies; frozen raw/tags/codepoints unchanged. Existing terminal period retained separately, no new punctuation. Selected replay remains 42 slots, now 42 known letters/zero CH/zero unknown display slots, formerly 37 letters/five unknowns. Zero masks is not source accuracy or a solved-card claim.",
+    "No source-letter word substitutions. PO ZDRAVA is resegmented editorially as POZDRAV A (pozdrav a/greeting and); exact literal spaces remain unchanged. One cross-row Z / VYLETU join yields z výletu/from a trip. Czech accents, word boundaries and English syntax/subject order are editorial. Proposed Pepouš and tvůj are name/grammar interpretations, not verified identity or gender; printed caption does not authenticate a journey/place.",
+    "All two FIRST native mark records remain whole with exact raw/current spans. Faint first body and terminal bowl get provisional base values only; surface specks, detached component, flourish, punctuation/composite and ownership alternatives remain. No accent, modifier attachment/value or exact physical cluster length assigned. SECOND empty native flat mark ledger remains whole, not proof of absence/completeness.",
+    "All five current uncertainty entries stay ordered, with original observations/timestamps retained as historical and previous selected/kind pinned; current choices have a distinct timestamp. Old current-relative mark/question/segmentation/editorial/replay records apply to the complete preceding Git-pinned edition. Whole historical current_source_review_manifest remains the 21 October curator object; new 26 October source views are separately recorded.",
+    "Both whole raw wrappers and persisted own strict objects, two face metadata, four phase1 records, four original source manifests, five capture-provenance objects, whole FIRST JSONL return journal and whole historical QA/root review/late records unchanged. SECOND 343/344 first actual returns remain lost after serialization failure; original attempt 1 events/incident/scope qualification and distinct actual attempt 2 own objects remain whole. Fresh replay does not reconstruct or replace lost returns.",
+    "Supplied whole FIRST journal text includes 13 events, with two card 343 returned records checked against persisted FIRST own outputs. Other-card 344 journal records remain whole without new image inspection. Whole batch QA retains one FIRST 344 modifier documentary gap, one SECOND 343/344 own-capture exception and nine SECOND 345/346 frozen documentation omissions, other five categories zero. Those are historical batch findings, not new 343 defects. No frozen gap repaired or new 344/345/346 source review; canonical inline identities and supplied whole journal bytes checked, not original private FILE-byte rereads.",
+    "Both complete faces/all margins and five enlarged whole-message/start/loop/final-loop/signature contexts viewed. Two anonymous GET200 originals match pinned hashes, no redirects/retries; scans/crops private. No separate continuous Address cipher recognized within visible frame. Ordinary address/postal/date-like matter excluded without transcription/authentication; this does not prove absence of faint/hidden material."
+  ],
+  "totals": {
+    "rows": 2,
+    "encoded_bodies": 42,
+    "expanded_letters": 42,
+    "ch_occurrences": 0,
+    "unknowns": 0
+  },
+  "previous_unknown_dispositions": [
+    {
+      "line_id": "343-r1",
+      "previous_offset": 4,
+      "previous_symbol": "?",
+      "current_offset": 4,
+      "selected": "s",
+      "key_value": "C",
+      "disposition": "provisional occurrence-specific source choice; earlier masks/source/ownership alternatives retained",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "343-r1",
+      "previous_offset": 6,
+      "previous_symbol": "?",
+      "current_offset": 6,
+      "selected": "1",
+      "key_value": "Y",
+      "disposition": "provisional occurrence-specific source choice; earlier masks/source/ownership alternatives retained",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "343-r1",
+      "previous_offset": 11,
+      "previous_symbol": "9",
+      "current_offset": 11,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific source choice; earlier masks/source/ownership alternatives retained",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "343-r1",
+      "previous_offset": 30,
+      "previous_symbol": "9",
+      "current_offset": 30,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific source choice; earlier masks/source/ownership alternatives retained",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "343-r2",
+      "previous_offset": 17,
+      "previous_symbol": "?",
+      "current_offset": 17,
+      "selected": "c",
+      "key_value": "S",
+      "disposition": "provisional occurrence-specific source choice; earlier masks/source/ownership alternatives retained",
+      "physical_encoded_body_count": null
+    }
+  ],
+  "current_tag_changes": [
+    {
+      "line_id": "343-r1",
+      "offset": 4,
+      "previous_tag": {
+        "offset": 4,
+        "text": "?",
+        "kind": "unknown_glyph"
+      },
+      "current_tag": null,
+      "reason": "Current provisional selected base replaces mask; frozen original tags unchanged and uncertainty remains."
+    },
+    {
+      "line_id": "343-r1",
+      "offset": 6,
+      "previous_tag": {
+        "offset": 6,
+        "text": "?",
+        "kind": "unknown_glyph"
+      },
+      "current_tag": null,
+      "reason": "Current provisional selected base replaces mask; frozen original tags unchanged and uncertainty remains."
+    },
+    {
+      "line_id": "343-r2",
+      "offset": 17,
+      "previous_tag": {
+        "offset": 17,
+        "text": "?",
+        "kind": "unknown_glyph"
+      },
+      "current_tag": null,
+      "reason": "Current provisional selected base replaces mask; frozen original tags unchanged and uncertainty remains."
+    }
+  ],
+  "current_native_mark_reinspection": [
+    {
+      "actor": "FIRST",
+      "native_record_pointer": "/original_reads/0/raw_wrapper/raw/mark_ledger/0",
+      "raw_line_id": "343-L1",
+      "raw_offset": 4,
+      "raw_end": 5,
+      "raw_selected": "?",
+      "line_id": "343-r1",
+      "current_offset": 4,
+      "current_end": 5,
+      "current_selected": "s",
+      "key_value": "C",
+      "mapping_kind": "provisional base only; upper/internal specks/flourish/possible component remain unassigned",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record preserved whole; no selected accent, modifier value/attachment or physical length. Related SECOND uncertainty/segmentation records remain whole despite its empty native mark ledger."
+    },
+    {
+      "actor": "FIRST",
+      "native_record_pointer": "/original_reads/0/raw_wrapper/raw/mark_ledger/1",
+      "raw_line_id": "343-L2",
+      "raw_offset": 17,
+      "raw_end": 18,
+      "raw_selected": "?",
+      "line_id": "343-r2",
+      "current_offset": 17,
+      "current_end": 18,
+      "current_selected": "c",
+      "key_value": "S",
+      "mapping_kind": "provisional base only; upper/internal specks/flourish/possible component remain unassigned",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record preserved whole; no selected accent, modifier value/attachment or physical length. Related SECOND uncertainty/segmentation records remain whole despite its empty native mark ledger."
+    }
+  ],
+  "passages": {
+    "proposed_czech": "[Srdečný?] [pozdrav a?] pusu posílá z výletu tvůj [Pepouš?].",
+    "proposed_english": "Your [Pepouš?] sends a [heartfelt?] greeting and a kiss from a trip.",
+    "scope": "Two spatial rows joined editorially. PO ZDRAVA word boundaries become POZDRAV A; English moves final subject first and renders tvůj as your. No letter repair, name/identity/gender/place/date/journey authenticated."
+  },
+  "historical_provenance_scope": {
+    "previous_edition": {
+      "json": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/343.json",
+        "commit": "cb14dc2f8dc40188af0a391815b1fcf30102265e",
+        "sha256": "10d9ea5b77bfe18b0154ebb2177f73e6db5e88a8b299a77800da6711bbf43d2a",
+        "git_blob_oid": "f5787e80c983afa46cd8113950b277a28f3de5a9",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json"
+      },
+      "markdown": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/343.md",
+        "commit": "cb14dc2f8dc40188af0a391815b1fcf30102265e",
+        "sha256": "9fb4f23f78c61878d35012a30a231aaf0a3633740bf4aa32e62b6cc352499a5d",
+        "git_blob_oid": "033f2434d90cdf4eb6d89d7c21416207791ba331",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.md"
+      }
+    },
+    "prior_QA": {
+      "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/qa",
+      "canonical_sha256": "340d18d4c8447b40c563e025d430089bb26d46d670ecf61df7c96bdb9679b7ec",
+      "native_QA_pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/qa/actual_final_qa_native_object",
+      "native_QA_canonical_sha256": "7bd2daf7d0fba112839e27113527cd80d8fcef60144bd4ad7f80550d6a5d5697",
+      "capture_provenance_pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/original_capture_provenance",
+      "capture_provenance_canonical_sha256": "0cf1dfc88b8614d18748a012c849f37f866e67fd24048783ddda6ac741c37b3b",
+      "FIRST_journal_pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/cb14dc2f8dc40188af0a391815b1fcf30102265e/research-updates/2026-10-20-confirmed-key-continuation/cards/343.json#/original_FIRST_return_journal",
+      "FIRST_journal_canonical_sha256": "3d104e4b41548bae5697ade83e378ddcd1e136a9a3357140712e83509c0c89a1",
+      "scope": "Whole QA/root review/late record, all five capture objects and whole FIRST journal unchanged inline and Git-pinned. SECOND first actual returns stay lost; attempt2 remains distinct. No frozen-gap repair/reconstruction or private original FILE-byte reread."
+    },
+    "archived_fields": [
+      "status",
+      "source_curation",
+      "source_differences",
+      "uncertainty_ledger",
+      "current_mark_ledger",
+      "current_question_role_inventory",
+      "current_segmentation_ledger",
+      "current_source_evidence_scope",
+      "editorial_reading",
+      "publication_stage"
+    ],
+    "scope": "Earlier current-relative source/curation/editorial/replay records apply to archived edition. Retained whole current_source_review_manifest and unchanged ledger observations/timestamps remain historical21 October objects; this revision separately records current26 October review. Original raw offsets native; whole original science/capture/QA unchanged."
   }
 }
