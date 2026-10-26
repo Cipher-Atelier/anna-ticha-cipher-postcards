@@ -2,7 +2,7 @@
 
 The unchanged supplied 204/460 key has been applied to **137 current candidates: 242, 244, 249 and 253–386**. Selected faces are 134 Picture sides and the Address sides of 332, 338 and 339. All remain research candidates; none is declared solved.
 
-For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 343](#current-source-completion--card-343), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
+For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 342](#current-source-completion--card-342), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
 
 The earlier 121 candidates retain two frozen related AI source records; 371–386 have one key-visible source reading each, followed by same-context nonblind review. Neither stage is independent human/external confirmation.
 
@@ -104,7 +104,7 @@ The selected source regions of all 137 candidates have been inspected: 134 Pictu
 | [339](cards/339.md) | 10 | 195 | 183 | 0 | 12 |
 | [340](cards/340.md) | 7 | 284 | 271 | 0 | 13 |
 | [341](cards/341.md) | 7 | 441 | 421 | 4 | 24 |
-| [342](cards/342.md) | 4 | 113 | 105 | 0 | 8 |
+| [342](cards/342.md) | 4 | 111 | 112 | 1 | 0 |
 | [343](cards/343.md) | 2 | 42 | 42 | 0 | 0 |
 | [344](cards/344.md) | 5 | 140 | 140 | 0 | 0 |
 | [345](cards/345.md) | 3 | 141 | 142 | 1 | 0 |
@@ -150,7 +150,7 @@ The selected source regions of all 137 candidates have been inspected: 134 Pictu
 | [385](cards/385.md) | 5 | 185 | 186 | 1 | 0 |
 | [386](cards/386.md) | 60 | 978 | 991 | 15 | 2 |
 
-Totals: **1493 selected rows, 44364 replay slots, 44180 known emitted letters, 334 CH slots and 518 unknown display slots**. These are counters of the selected replay strings. Some `?` masks stand for clusters of unknown physical length, so neither their count nor replay-slot totals are exact physical glyph counts. Physical totals remain `null` where unresolved; no visual accuracy or source-coverage percentage is claimed. Known emitted letters exclude masks and preserved ordinary numerals; CH is one selected body emitting two letters. Zero masks, including on 253/255/262/273/276/279/288/290/293/294/297/298/299/300/305/306/307/309/313/317/322, do not eliminate alternative glyph readings. Card 357 counts explicit base bodies only: 16 unresolved annotation groups are separate and one obscured-cluster mask remains; the 16-entry reduction is not 16 newly deciphered letters. Card 358 also counts explicit base bodies only: its 17 unresolved upper-mark candidate groups are separate, and its faint-cluster mask remains. The 17-entry unknown-counter reduction is not 17 newly deciphered letters. Card 359 counts selected base bodies only: its 29 unresolved upper-mark candidate groups are recorded separately, so the decrease from 28 Unicode unknown entries is not 28 deciphered letters.
+Totals: **1493 selected rows, 44362 replay slots, 44187 known emitted letters, 335 CH slots and 510 unknown display slots**. These are counters of the selected replay strings. Some `?` masks stand for clusters of unknown physical length, so neither their count nor replay-slot totals are exact physical glyph counts. Physical totals remain `null` where unresolved; no visual accuracy or source-coverage percentage is claimed. Known emitted letters exclude masks and preserved ordinary numerals; CH is one selected body emitting two letters. Zero masks, including on 253/255/262/273/276/279/288/290/293/294/297/298/299/300/305/306/307/309/313/317/322, do not eliminate alternative glyph readings. Card 357 counts explicit base bodies only: 16 unresolved annotation groups are separate and one obscured-cluster mask remains; the 16-entry reduction is not 16 newly deciphered letters. Card 358 also counts explicit base bodies only: its 17 unresolved upper-mark candidate groups are separate, and its faint-cluster mask remains. The 17-entry unknown-counter reduction is not 17 newly deciphered letters. Card 359 counts selected base bodies only: its 29 unresolved upper-mark candidate groups are recorded separately, so the decrease from 28 Unicode unknown entries is not 28 deciphered letters.
 
 Each card JSON contains source URL/hash, orientation and source locators, frozen reader layers or their linked revision record, strict canonical ciphertext/literal output and uncertainty/mark/segmentation ledgers. Czech editorial proposals and English translations are separate and substantive restorations are bracketed or explicitly ledgered. Cards 249 and 257 now address all selected rows as partial clauses and literal-labeled fragments; 257 remains substantially incomplete. The readable editions of 267, 269, 271, 272, 274 and 275–358 address all selected rows with explicit unresolved fragments and bracketed editorial proposals. Cards 274 and 278 keep regions separate where narrative continuation is uncertain; 277 retains row-by-row fragments through obscured groups. On 276 an unclassified figure is excluded from selected replay while its encoded status remains unresolved in the current inventory. Card349’s main panel and separately oriented upper-margin run remain separate, with their relation/order unresolved. Card350’s terminal encoded run is included; printed verse remains excluded. Card 351 retains three right-margin rows read after a clockwise quarter-turn; 352 has seven lower rows in native orientation; 353 retains five right-margin rows read after a clockwise quarter-turn plus one spatially separate bottom run in native orientation; 354 retains six lower rows in native orientation. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts. No exact physical body counts are asserted.
 
@@ -162,7 +162,22 @@ For 351–354, both original actors’ whole prefreeze complete-face boundary re
 
 For 355–358, complete original Address faces and all margins have bounded observations from both original source contexts and root. No clear separate candidate cipher run was identified in those visible frames; erased, obscured or unseen material remains outside this observation. Ordinary address/person/postal/date-like writing is excluded without transcription. Whole native eleven-key Address metadata is retained with actual FILE records separately. The root source thread acquired eight originals once each: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts.
 
-## Current source completion — card 343
+## Current source completion — card 342
+
+[342](cards/342.md#complete-working-reading--26-october-2026) now has Czech/English working coverage of all four lower units after CW90. Three forked y forms provisionally 7/J, one provisionally p/B; two masks provisionally 7/J and canonical ř/CH. Five known-body changes yield SVOJI/VRELE/VDUCHU/PEPOUS, with prior source alternatives preserved. Existing g/Z in VLASSZY/AMUSZU/VZPOMINA and terminal c/S retained. No generic y/roof alias or Unicode normalization. Two current mask tags removed, originals unchanged.
+
+Two combining-circumflex annotations above retained 6/A bases move to two separate unresolved upper-annotation groups. Replay 113→111 base slots is notation reclassification, not two newly deciphered letters or physical glyph exclusions. Current 111 slots/112 known emitted letters/one CH/zero unknown base display slots, previously 113/105/zero/eight; upper ownership/value and physical totals remain unresolved/null. All 20 native mark records (FIRST 4, SECOND 16) retained with exact raw spans/bounded current token contexts; no one-to-one multi-body/ink correspondence or generic modifier assignment. Only the separately chosen R3 roofed r-like composite has provisional CH value.
+
+Three language-only letter repairs: VLASSZY→VLASSKY and AMUSZU→ANUSKU (M→N,Z→K). Literal remains VLASSZY/AMUSZU, with proposed names/places bracketed. One VDUCHU JI / LIBA cross-row join; Czech comma/sentence break, accents and English final-subject-first/possessives are editorial. The proposed sightseeing, warm thoughts and imagined kisses do not authenticate an itinerary, place, people/gender/relationship or chronology.
+
+Both complete faces/ten enlarged contexts viewed, two GET200 originals matched hashes with no redirects/retries, scans private. Both raw/own objects, two face metadata, four whole phase1 objects, two whole source manifests and historical already-projected batch23 QA/root review unchanged. Historical projection excludes only its recorded private path-map reference; all six QA categories remain zero within bounds. Original single-event versus start/completion import granularity preserved without invented times; no batch24 lost-return evidence imported. Whole previous JSON/Markdown Git/hash pinned. Same-root nonblind review, zero base masks is not independent confirmation or a solved-card claim.
+
+See the [card](cards/342.md), [revision](revisions/342-source-completion.json) and [validation](validation-source-completion-342.json). Cards 342–386 have editorial working coverage with remaining uncertainties. Next deeper source review: [341](cards/341.md). Unique coverage stays 154/263 including partial, 109 without a reading; new 387–390 held.
+
+<details>
+<summary>Earlier source reviews and publication checkpoints</summary>
+
+## Historical source completion — card 343
 
 [343](cards/343.md#complete-working-reading--26-october-2026) now has Czech/English working coverage of both lower units after a 270-degree clockwise rotation. Five provisional source choices: damaged mask→s/C, initial-word mask→1/Y matching SECOND with FIRST 2/U retained, two former 9→g/Z and terminal mask→c/S. Earlier masks, 1/2, 9/q-K/other and terminal punctuation/composite alternatives remain. Three current mask tags removed; frozen raw/tags/codepoints unchanged. Existing terminal period retained. Replay 42 slots/42 known letters/zero CH/zero unknown display slots, previously 37 letters/five unknowns; physical totals null.
 
@@ -171,9 +186,6 @@ No source-letter word repairs. Literal PO ZDRAVA is resegmented as POZDRAV A/poz
 Both complete faces/five enlarged contexts viewed, two GET200 originals matched hashes with no redirects/retries, scans private. All original science, whole historical QA/root review, five capture objects and FIRST journal preserved; 13 journal events include two card 343 returns. SECOND 343/344 first returns remain lost and distinct actual attempt 2 objects remain qualified; no reconstruction or frozen repair. Historical other-card QA findings remain whole without new other-card image review. Earlier current-relative records apply to the Git-pinned preceding edition. Same-root nonblind review; zero masks is not independent confirmation or a solved-card claim.
 
 See the [card](cards/343.md), [revision](revisions/343-source-completion.json) and [validation](validation-source-completion-343.json). Cards 343–386 have editorial working coverage with remaining uncertainties. Next deeper source review: [342](cards/342.md). Unique coverage stays 154/263 including partial, 109 without a reading; new 387–390 held.
-
-<details>
-<summary>Earlier source reviews and publication checkpoints</summary>
 
 ## Historical source completion — card 344
 
@@ -763,7 +775,7 @@ The [publication validation note](publication-validation.json) records this corr
 
 ## Reproduction
 
-The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 343 validation](validation-source-completion-343.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
+The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 342 validation](validation-source-completion-342.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
 
 From the repository root:
 
