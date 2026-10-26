@@ -1,7 +1,6 @@
 {
   "card_id": "353",
-  "candidate_date": "2026-10-21",
-  "status": "research_candidate_initial_reconciliation_preparation_snapshot",
+  "status": "provisional two-region working reading; one signature mask, fourteen language/spacing proposals and unresolved contour/mark/boundary alternatives",
   "notation": "pdf204-canonical",
   "source": {
     "face": "Picture side",
@@ -84,17 +83,14 @@
     ],
     "scope": "Editorial spatial arrangement only; no chronology inferred."
   },
-  "selection_policy": "Exact FIRST frozen native rows/tags/Unicode baseline, not source accuracy certification. SECOND differences retained. Spatial order editorial; physical body counts null.",
   "lines": [
     {
       "line_id": "353-R1",
-      "ciphertext": "d1c4sh1 t4g 96 gh6cm5, th6r5 84cdg1 ! c d32r32 m5cn4 h-",
-      "transcription": [],
-      "source_visual_notes": "Right margin line in clockwise90 reading frame. Broad whole-region context locates this ordinal row; no proportional per-glyph box or physical segmentation is asserted. Terminal short runs and nonlexical contours retained. Printed matter and ordinary date-like writing excluded.",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_dimensions": [
-        1175,
-        1785
+      "native_bbox_xyxy": [
+        1465,
+        40,
+        1715,
+        1110
       ],
       "reading_bbox_xyxy": [
         65,
@@ -102,86 +98,43 @@
         1135,
         1715
       ],
-      "native_bbox_xyxy": [
-        1465,
-        40,
-        1715,
-        1110
+      "reading_dimensions": [
+        1175,
+        1785
       ],
+      "reading_rotation_degrees_clockwise": 90,
       "physical_encoded_body_count": null,
-      "literal": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-",
-      "encoded_bodies": 42,
-      "expanded_letters": 41,
+      "ciphertext": "d1c4s5h1 t4g g6 gh6cm5, th6r5 84cdg1 ! c d32r32 m5cn4 h-",
+      "transcription": [],
+      "literal": "TYSICERY DIZ ZA ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-",
+      "encoded_bodies": 43,
+      "expanded_letters": 43,
       "ch_occurrences": 0,
-      "unknowns": [
+      "unknowns": [],
+      "proposed_czech": "[Tisícerý?] [dík?] za [krásné?], drahé [lístky?]! S touhou [nesmír-",
+      "proposed_english": "A thousand [thanks?] for the [lovely?], dear [cards?]! With [immense",
+      "source_visual_notes": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/lines/0",
+      "frozen_row_references": [
         {
-          "offset": 12,
-          "body_index": 10,
-          "symbol": "9",
-          "kind": "unknown_symbol"
+          "actor": "FIRST",
+          "line_id": "353-R1",
+          "pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/lines/0"
+        },
+        {
+          "actor": "SECOND",
+          "line_id": "R1",
+          "pointer": "/original_reads/SECOND/raw_wrapper/whole_original/raw/lines/0"
         }
-      ],
-      "selected_original_line": {
-        "file": "readers/first353.json",
-        "FILE_sha256": "536e34b1c3a13b8e60d80250e1862077539749a679294ce5a8b330b1b664ff9b",
-        "canonical_raw_sha256": "1358135168ce05a8bfaf52ca5d847172d62041bf6ac9ad871b53a9429844a7c5",
-        "pointer": "/raw/lines/0"
-      },
-      "selected_source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5076/pc_hcp_353_pic.JPG",
-        "sha256": "77407f98bfa4e187383451c7e98c004ffbb46bc1a4d1e3c45df72532cd9b8995",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_basename": "source353.json",
-        "metadata_file_sha256": "27b6c1d7a6afbb9db1c78a6e524544b9d81dcbe21f10f09b6faec66ce5835cb2",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "current_replay_provenance": {
-        "current_replay_file": "curate26-34-current-replay.json",
-        "FILE_sha256": "0b1e5a98d0ab39df0c4ee2712c3417b31e89560f0ad420469258b450bb7c05b4",
-        "return_index": 0,
-        "call_started_at_utc": "2026-10-21T09:20:17.161404+00:00",
-        "call_completed_at_utc": "2026-10-21T09:20:17.161522+00:00",
-        "first_return_journal": "curate26-34-current-returns.jsonl"
-      },
-      "proposed_czech": "[Tisícerý? dík? za? krásné?, drahé lístky?! S touhou nesmír- (neúplné; spojení s -nou v R2 je návrh).]",
-      "proposed_english": "[Many? thanks? for? lovely?, dear letters?! With immense longing (a proposed reading of the word broken across R1–R2).]",
-      "editorial_proposal_id": "353-editorial-row-1"
+      ]
     },
     {
       "line_id": "353-R2",
-      "ciphertext": "m32 f9b3 n4m6n m6 řf185 c d5b32 bh5t d1tm5n bh3-",
-      "transcription": [],
-      "source_visual_notes": "Right margin line in clockwise90 reading frame. Broad whole-region context locates this ordinal row; no proportional per-glyph box or physical segmentation is asserted. Terminal short runs and nonlexical contours retained. Printed matter and ordinary date-like writing excluded.",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_dimensions": [
-        1175,
-        1785
+      "native_bbox_xyxy": [
+        1465,
+        40,
+        1715,
+        1110
       ],
       "reading_bbox_xyxy": [
         65,
@@ -189,86 +142,43 @@
         1135,
         1715
       ],
-      "native_bbox_xyxy": [
-        1465,
-        40,
-        1715,
-        1110
+      "reading_dimensions": [
+        1175,
+        1785
       ],
+      "reading_rotation_degrees_clockwise": 90,
       "physical_encoded_body_count": null,
-      "literal": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-",
+      "ciphertext": "m32 fgb3 n4m6n m6 řf485 c d5b32 bh5t d1tm5n bh3-",
+      "transcription": [],
+      "literal": "NOU VZPO MINAM NA CHVILE S TEPOU PRED TYDNEM PRO-",
       "encoded_bodies": 38,
-      "expanded_letters": 38,
+      "expanded_letters": 39,
       "ch_occurrences": 1,
-      "unknowns": [
+      "unknowns": [],
+      "proposed_czech": "nou?] [vzpomínám?] na chvíle s [tebou?] před týdnem pro-",
+      "proposed_english": "longing?] I [remember?] the moments [with you?] a week ago, lived—",
+      "source_visual_notes": "9→g/Z in VZPO MINAM provisional. First1/Y in CHVYLE provisionally4/I, matching SECOND/short shelfed contour;1/unresolved retained. Original ř/CH unchanged. FIRST VZPO MINAM gap and TEPOU b/P retained versus linguistic joins/TEBOU; SECOND different letters/spacing not silently adopted.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/lines/1",
+      "frozen_row_references": [
         {
-          "offset": 5,
-          "body_index": 4,
-          "symbol": "9",
-          "kind": "unknown_symbol"
+          "actor": "FIRST",
+          "line_id": "353-R2",
+          "pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/lines/1"
+        },
+        {
+          "actor": "SECOND",
+          "line_id": "R2",
+          "pointer": "/original_reads/SECOND/raw_wrapper/whole_original/raw/lines/1"
         }
-      ],
-      "selected_original_line": {
-        "file": "readers/first353.json",
-        "FILE_sha256": "536e34b1c3a13b8e60d80250e1862077539749a679294ce5a8b330b1b664ff9b",
-        "canonical_raw_sha256": "1358135168ce05a8bfaf52ca5d847172d62041bf6ac9ad871b53a9429844a7c5",
-        "pointer": "/raw/lines/1"
-      },
-      "selected_source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5076/pc_hcp_353_pic.JPG",
-        "sha256": "77407f98bfa4e187383451c7e98c004ffbb46bc1a4d1e3c45df72532cd9b8995",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_basename": "source353.json",
-        "metadata_file_sha256": "27b6c1d7a6afbb9db1c78a6e524544b9d81dcbe21f10f09b6faec66ce5835cb2",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "current_replay_provenance": {
-        "current_replay_file": "curate26-34-current-replay.json",
-        "FILE_sha256": "0b1e5a98d0ab39df0c4ee2712c3417b31e89560f0ad420469258b450bb7c05b4",
-        "return_index": 1,
-        "call_started_at_utc": "2026-10-21T09:20:17.161724+00:00",
-        "call_completed_at_utc": "2026-10-21T09:20:17.161815+00:00",
-        "first_return_journal": "curate26-34-current-returns.jsonl"
-      },
-      "proposed_czech": "[-nou (možné dokončení předchozího slova); vzpomínám? na chvíle? s tebou? před týdnem pro- (neúplné).]",
-      "proposed_english": "[Possible completion of the preceding word; I remember? the moments? with you? a week ago, lived— (unfinished).]",
-      "editorial_proposal_id": "353-editorial-row-2"
+      ]
     },
     {
       "line_id": "353-R3",
-      "ciphertext": "94d5. n6n 9t5 m6fcd5f2 9 f6np6hg6 - ph6dh6ms5;",
-      "transcription": [],
-      "source_visual_notes": "Right margin line in clockwise90 reading frame. Broad whole-region context locates this ordinal row; no proportional per-glyph box or physical segmentation is asserted. Terminal short runs and nonlexical contours retained. Printed matter and ordinary date-like writing excluded.",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_dimensions": [
-        1175,
-        1785
+      "native_bbox_xyxy": [
+        1465,
+        40,
+        1715,
+        1110
       ],
       "reading_bbox_xyxy": [
         65,
@@ -276,98 +186,43 @@
         1135,
         1715
       ],
-      "native_bbox_xyxy": [
-        1465,
-        40,
-        1715,
-        1110
+      "reading_dimensions": [
+        1175,
+        1785
       ],
+      "reading_rotation_degrees_clockwise": 90,
       "physical_encoded_body_count": null,
-      "literal": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;",
+      "ciphertext": "g4d5. n6n gt5 m6fcd5f2 g f6np6hg6 - ph6dh6ms5;",
+      "transcription": [],
+      "literal": "ZITE. MAM ZDE NAVSTEVU Z VAMBARZA - BRATRANCE;",
       "encoded_bodies": 36,
-      "expanded_letters": 33,
+      "expanded_letters": 36,
       "ch_occurrences": 0,
-      "unknowns": [
+      "unknowns": [],
+      "proposed_czech": "žité. Mám zde návštěvu z [Vamberka?] — bratrance;",
+      "proposed_english": "—through. I have a visitor here from [Vamberk?] — a cousin;",
+      "source_visual_notes": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/lines/2",
+      "frozen_row_references": [
         {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "9",
-          "kind": "unknown_symbol"
+          "actor": "FIRST",
+          "line_id": "353-R3",
+          "pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/lines/2"
         },
         {
-          "offset": 10,
-          "body_index": 7,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        },
-        {
-          "offset": 23,
-          "body_index": 18,
-          "symbol": "9",
-          "kind": "unknown_symbol"
+          "actor": "SECOND",
+          "line_id": "R3",
+          "pointer": "/original_reads/SECOND/raw_wrapper/whole_original/raw/lines/2"
         }
-      ],
-      "selected_original_line": {
-        "file": "readers/first353.json",
-        "FILE_sha256": "536e34b1c3a13b8e60d80250e1862077539749a679294ce5a8b330b1b664ff9b",
-        "canonical_raw_sha256": "1358135168ce05a8bfaf52ca5d847172d62041bf6ac9ad871b53a9429844a7c5",
-        "pointer": "/raw/lines/2"
-      },
-      "selected_source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5076/pc_hcp_353_pic.JPG",
-        "sha256": "77407f98bfa4e187383451c7e98c004ffbb46bc1a4d1e3c45df72532cd9b8995",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_basename": "source353.json",
-        "metadata_file_sha256": "27b6c1d7a6afbb9db1c78a6e524544b9d81dcbe21f10f09b6faec66ce5835cb2",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "current_replay_provenance": {
-        "current_replay_file": "curate26-34-current-replay.json",
-        "FILE_sha256": "0b1e5a98d0ab39df0c4ee2712c3417b31e89560f0ad420469258b450bb7c05b4",
-        "return_index": 2,
-        "call_started_at_utc": "2026-10-21T09:20:17.161974+00:00",
-        "call_completed_at_utc": "2026-10-21T09:20:17.162061+00:00",
-        "first_return_journal": "curate26-34-current-returns.jsonl"
-      },
-      "proposed_czech": "[-žité? (možné dokončení pro- z R2). Mám zde? návštěvu z? VAMBARZA (nevyřešené označení) — bratrance?;]",
-      "proposed_english": "[—through? (possible completion of the fragment in R2). I have a visitor here?, from? VAMBARZA (unresolved designation) — a cousin?;]",
-      "editorial_proposal_id": "353-editorial-row-3"
+      ]
     },
     {
       "line_id": "353-R4",
-      "ciphertext": "t3 b4c 96c82 m57cb4c5 94dh6. m5c4c8 m5gh6d5 d5",
-      "transcription": [],
-      "source_visual_notes": "Right margin line in clockwise90 reading frame. Broad whole-region context locates this ordinal row; no proportional per-glyph box or physical segmentation is asserted. Terminal short runs and nonlexical contours retained. Printed matter and ordinary date-like writing excluded.",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_dimensions": [
-        1175,
-        1785
+      "native_bbox_xyxy": [
+        1465,
+        40,
+        1715,
+        1110
       ],
       "reading_bbox_xyxy": [
         65,
@@ -375,86 +230,57 @@
         1135,
         1715
       ],
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_rotation_degrees_clockwise": 90,
+      "physical_encoded_body_count": null,
+      "ciphertext": "t3 b4c g6c82 m57cb4c5 g4dh6. m5cs4c8 m5gh6d5 d5",
+      "transcription": [],
+      "literal": "DO PIS ZASLU NEJSPISE ZITRA. NESCISL NEZRATE TE",
+      "encoded_bodies": 39,
+      "expanded_letters": 39,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "proposed_czech": "[dopis?] zašlu nejspíše zítra. [Nesčíslněkráte?] tě",
+      "proposed_english": "I shall send [a letter?] most likely tomorrow. [Countless times?] you",
+      "source_visual_notes": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/lines/3",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "line_id": "353-R4",
+          "pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/lines/3"
+        },
+        {
+          "actor": "SECOND",
+          "line_id": "R4",
+          "pointer": "/original_reads/SECOND/raw_wrapper/whole_original/raw/lines/3"
+        }
+      ]
+    },
+    {
+      "line_id": "353-R5",
       "native_bbox_xyxy": [
         1465,
         40,
         1715,
         1110
       ],
-      "physical_encoded_body_count": null,
-      "literal": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE",
-      "encoded_bodies": 38,
-      "expanded_letters": 36,
-      "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 7,
-          "body_index": 5,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        },
-        {
-          "offset": 22,
-          "body_index": 18,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        }
+      "reading_bbox_xyxy": [
+        65,
+        1465,
+        1135,
+        1715
       ],
-      "selected_original_line": {
-        "file": "readers/first353.json",
-        "FILE_sha256": "536e34b1c3a13b8e60d80250e1862077539749a679294ce5a8b330b1b664ff9b",
-        "canonical_raw_sha256": "1358135168ce05a8bfaf52ca5d847172d62041bf6ac9ad871b53a9429844a7c5",
-        "pointer": "/raw/lines/3"
-      },
-      "selected_source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5076/pc_hcp_353_pic.JPG",
-        "sha256": "77407f98bfa4e187383451c7e98c004ffbb46bc1a4d1e3c45df72532cd9b8995",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_basename": "source353.json",
-        "metadata_file_sha256": "27b6c1d7a6afbb9db1c78a6e524544b9d81dcbe21f10f09b6faec66ce5835cb2",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "current_replay_provenance": {
-        "current_replay_file": "curate26-34-current-replay.json",
-        "FILE_sha256": "0b1e5a98d0ab39df0c4ee2712c3417b31e89560f0ad420469258b450bb7c05b4",
-        "return_index": 3,
-        "call_started_at_utc": "2026-10-21T09:20:17.162222+00:00",
-        "call_completed_at_utc": "2026-10-21T09:20:17.162306+00:00",
-        "first_return_journal": "curate26-34-current-returns.jsonl"
-      },
-      "proposed_czech": "[Dopis? zašlu? nejspíše zítra?. NESISL NEZRATE TE zůstává nevyřešeno; možné pokračování do R5.]",
-      "proposed_english": "[A letter? I shall send? most likely tomorrow?. NESISL NEZRATE TE remains unresolved; it may continue into R5.]",
-      "editorial_proposal_id": "353-editorial-row-4"
-    },
-    {
-      "line_id": "353-R5",
-      "ciphertext": "84p6 cd685 f9b3n4m6 74s4 6 bhsb9t1 df27 b5b32?.",
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_rotation_degrees_clockwise": 90,
+      "physical_encoded_body_count": null,
+      "ciphertext": "84p6 cd685 fgb3n4m6 74s4 6 bhsfgt1 df27 b5b32?.",
       "transcription": [
         {
           "offset": 45,
@@ -462,42 +288,11 @@
           "kind": "unknown_glyph"
         }
       ],
-      "source_visual_notes": "Right margin line in clockwise90 reading frame. Broad whole-region context locates this ordinal row; no proportional per-glyph box or physical segmentation is asserted. Terminal short runs and nonlexical contours retained. Printed matter and ordinary date-like writing excluded.",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_dimensions": [
-        1175,
-        1785
-      ],
-      "reading_bbox_xyxy": [
-        65,
-        1465,
-        1135,
-        1715
-      ],
-      "native_bbox_xyxy": [
-        1465,
-        40,
-        1715,
-        1110
-      ],
-      "physical_encoded_body_count": null,
-      "literal": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?.",
+      "literal": "LIBA STALE VZPOMINA JICI A PRCVZDY TVUJ PEPOU?.",
       "encoded_bodies": 39,
-      "expanded_letters": 36,
+      "expanded_letters": 38,
       "ch_occurrences": 0,
       "unknowns": [
-        {
-          "offset": 12,
-          "body_index": 10,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        },
-        {
-          "offset": 31,
-          "body_index": 26,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        },
         {
           "offset": 45,
           "body_index": 38,
@@ -505,67 +300,30 @@
           "kind": "unknown_glyph"
         }
       ],
-      "selected_original_line": {
-        "file": "readers/first353.json",
-        "FILE_sha256": "536e34b1c3a13b8e60d80250e1862077539749a679294ce5a8b330b1b664ff9b",
-        "canonical_raw_sha256": "1358135168ce05a8bfaf52ca5d847172d62041bf6ac9ad871b53a9429844a7c5",
-        "pointer": "/raw/lines/4"
-      },
-      "selected_source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5076/pc_hcp_353_pic.JPG",
-        "sha256": "77407f98bfa4e187383451c7e98c004ffbb46bc1a4d1e3c45df72532cd9b8995",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_basename": "source353.json",
-        "metadata_file_sha256": "27b6c1d7a6afbb9db1c78a6e524544b9d81dcbe21f10f09b6faec66ce5835cb2",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "current_replay_provenance": {
-        "current_replay_file": "curate26-34-current-replay.json",
-        "FILE_sha256": "0b1e5a98d0ab39df0c4ee2712c3417b31e89560f0ad420469258b450bb7c05b4",
-        "return_index": 4,
-        "call_started_at_utc": "2026-10-21T09:20:17.162458+00:00",
-        "call_completed_at_utc": "2026-10-21T09:20:17.162560+00:00",
-        "first_return_journal": "curate26-34-current-returns.jsonl"
-      },
-      "proposed_czech": "[Líbá?; stále vzpomínající? a PRCP9DY (nevyřešeno), tvůj PEPOU (neověřená podpisová podoba); koncová stopa nevyřešena.]",
-      "proposed_english": "[Kisses?; constantly remembering? and PRCP9DY (unresolved), yours, PEPOU (unverified signature-like form); terminal ink unresolved.]",
-      "editorial_proposal_id": "353-editorial-row-5"
+      "proposed_czech": "líbá stále [vzpomínající?] a [provždy?] tvůj [Pepouš?].",
+      "proposed_english": "are kissed by your constantly [remembering?] and [forever?] [Pepouš?].",
+      "source_visual_notes": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/lines/4",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "line_id": "353-R5",
+          "pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/lines/4"
+        },
+        {
+          "actor": "SECOND",
+          "line_id": "R5",
+          "pointer": "/original_reads/SECOND/raw_wrapper/whole_original/raw/lines/4"
+        }
+      ]
     },
     {
       "line_id": "353-B1",
-      "ciphertext": "/ b28 h3t4m1 3t 2cd4 :/",
-      "transcription": [],
-      "source_visual_notes": "Detached bottom horizontal handwritten run beside printed caption. Broad whole-region context locates this ordinal row; no proportional per-glyph box or physical segmentation is asserted. Terminal short runs and nonlexical contours retained. Printed matter and ordinary date-like writing excluded.",
-      "reading_rotation_degrees_clockwise": 0,
-      "reading_dimensions": [
-        1785,
-        1175
+      "native_bbox_xyxy": [
+        1025,
+        985,
+        1490,
+        1100
       ],
       "reading_bbox_xyxy": [
         1025,
@@ -573,82 +331,44 @@
         1490,
         1100
       ],
-      "native_bbox_xyxy": [
-        1025,
-        985,
-        1490,
-        1100
+      "reading_dimensions": [
+        1785,
+        1175
       ],
+      "reading_rotation_degrees_clockwise": 0,
       "physical_encoded_body_count": null,
+      "ciphertext": "/ b28 h3t4m1 3t 2cd4 :/",
+      "transcription": [],
       "literal": "/ PUL RODINY OD USTI :/",
       "encoded_bodies": 15,
       "expanded_letters": 15,
       "ch_occurrences": 0,
       "unknowns": [],
-      "selected_original_line": {
-        "file": "readers/first353.json",
-        "FILE_sha256": "536e34b1c3a13b8e60d80250e1862077539749a679294ce5a8b330b1b664ff9b",
-        "canonical_raw_sha256": "1358135168ce05a8bfaf52ca5d847172d62041bf6ac9ad871b53a9429844a7c5",
-        "pointer": "/raw/lines/5"
-      },
-      "selected_source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5076/pc_hcp_353_pic.JPG",
-        "sha256": "77407f98bfa4e187383451c7e98c004ffbb46bc1a4d1e3c45df72532cd9b8995",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_basename": "source353.json",
-        "metadata_file_sha256": "27b6c1d7a6afbb9db1c78a6e524544b9d81dcbe21f10f09b6faec66ce5835cb2",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "reading_rotation_degrees_clockwise": 0,
-        "reading_dimensions": [
-          1785,
-          1175
-        ],
-        "reading_bbox_xyxy": [
-          1025,
-          985,
-          1490,
-          1100
-        ],
-        "native_bbox_xyxy": [
-          1025,
-          985,
-          1490,
-          1100
-        ]
-      },
-      "current_replay_provenance": {
-        "current_replay_file": "curate26-34-current-replay.json",
-        "FILE_sha256": "0b1e5a98d0ab39df0c4ee2712c3417b31e89560f0ad420469258b450bb7c05b4",
-        "return_index": 5,
-        "call_started_at_utc": "2026-10-21T09:20:17.162723+00:00",
-        "call_completed_at_utc": "2026-10-21T09:20:17.162793+00:00",
-        "first_return_journal": "curate26-34-current-returns.jsonl"
-      },
-      "proposed_czech": "[Půl rodiny od USTI (možný místní název neověřen). Oddělený fragment; vztah k hlavnímu bloku a příslušnost počátečního tahu k tisku zůstávají otázkou zdrojového QA.]",
-      "proposed_english": "[Half the family from USTI (possible place name, unverified). Detached fragment; its relation to the main block and ownership of the leading stroke versus print remain source-QA questions.]",
-      "editorial_proposal_id": "353-editorial-row-6"
+      "proposed_czech": "[Půl hodiny?] od [Ústí?]. (Literal RODINY retained; family/hour alternatives unresolved.)",
+      "proposed_english": "[Half an hour?] from [Ústí?]. (Literal: half the family; RODINY/HODINY not resolved in source.)",
+      "source_visual_notes": "Native-orientation bottom run remains separate. FIRST leading slash and spacing retained against SECOND omission/spacing; slash adjacent to caption has unresolved authorship/ownership. Tall h/R retained in RODINY; r/H giving HODINY only linguistic alternative. Caption/date context excluded, no place or travel-time authentication.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/lines/5",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "line_id": "353-B1",
+          "pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/lines/5"
+        },
+        {
+          "actor": "SECOND",
+          "line_id": "B1",
+          "pointer": "/original_reads/SECOND/raw_wrapper/whole_original/raw/lines/5"
+        }
+      ]
     }
   ],
   "totals": {
     "rows": 6,
-    "encoded_bodies": 208,
-    "expanded_letters": 199,
+    "encoded_bodies": 210,
+    "expanded_letters": 210,
     "ch_occurrences": 1,
-    "unknowns": 10
+    "unknowns": 1
   },
-  "encoded_bodies": 208,
-  "expanded_letters": 199,
-  "ch_occurrences": 1,
-  "unknowns": 10,
   "physical_encoded_body_count": null,
   "original_reads": {
     "FIRST": {
@@ -14993,2039 +14713,588 @@
     ],
     "effective_version_rule": "Effective-version map supersedes historical unversioned-helper paragraphs: this FIRST pair actual v3 after preserved v2 preimport rejection; other three actual capture pairs v2. Whole original contracts/amendments preserved, not rewritten."
   },
-  "current_replay": {
-    "file": "curate26-34-current-replay.json",
-    "FILE_sha256": "0b1e5a98d0ab39df0c4ee2712c3417b31e89560f0ad420469258b450bb7c05b4",
-    "whole_original": {
-      "status": "CURRENT_NATIVE_REPLAY_PASS",
-      "pair": "curate26-34",
-      "model": "gpt-6.1-sol",
-      "exact_deployment": null,
-      "temperature": null,
-      "seed": null,
-      "phase_transition": "Related key-visible original source actor now explicitly nonblind curator after CP1/CP2/release. No independence claim.",
-      "completed_at_utc": "2026-10-21T09:20:17.165216+00:00",
-      "source_wrapper_FILE_hashes": {
-        "readers/first353.json": "536e34b1c3a13b8e60d80250e1862077539749a679294ce5a8b330b1b664ff9b",
-        "readers/first354.json": "893d1afc6704b9c6f89755c169930feed9ba59abd1fb37b3ad7150f321d11892"
-      },
-      "code_FILE_hashes": {
-        "decode.py": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key.json": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "check.py": "a7235f31ad577b67938846bb80f9856d03908821567e97adf1fda9629ca98d10"
-      },
-      "exchange_release": {
-        "file": "batch26-nonblind-exchange-release.json",
-        "FILE_sha256": "c53010e64e3ab2a402a6efda20d889e9ce4e35518734f56b36715773f7e4a8fc"
-      },
-      "call_contract": "decode_text(exact_ciphertext, notation='pdf204-canonical', transcription=exact_native_LIST); no normalization or adapter",
-      "events": [
-        {
-          "event": "import_started",
-          "at_utc": "2026-10-21T09:20:17.154369+00:00",
-          "decoder_file": "canonical-code/decode.py"
-        },
-        {
-          "event": "import_completed",
-          "at_utc": "2026-10-21T09:20:17.161218+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.161404+00:00",
-          "card_id": 353,
-          "line_id": "353-R1"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.161639+00:00",
-          "card_id": 353,
-          "line_id": "353-R1",
-          "call_completed_at_utc": "2026-10-21T09:20:17.161522+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.161724+00:00",
-          "card_id": 353,
-          "line_id": "353-R2"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.161895+00:00",
-          "card_id": 353,
-          "line_id": "353-R2",
-          "call_completed_at_utc": "2026-10-21T09:20:17.161815+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.161974+00:00",
-          "card_id": 353,
-          "line_id": "353-R3"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.162146+00:00",
-          "card_id": 353,
-          "line_id": "353-R3",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162061+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.162222+00:00",
-          "card_id": 353,
-          "line_id": "353-R4"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.162384+00:00",
-          "card_id": 353,
-          "line_id": "353-R4",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162306+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.162458+00:00",
-          "card_id": 353,
-          "line_id": "353-R5"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.162644+00:00",
-          "card_id": 353,
-          "line_id": "353-R5",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162560+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.162723+00:00",
-          "card_id": 353,
-          "line_id": "353-B1"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.162852+00:00",
-          "card_id": 353,
-          "line_id": "353-B1",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162793+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.162915+00:00",
-          "card_id": 354,
-          "line_id": "354-R1"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.163046+00:00",
-          "card_id": 354,
-          "line_id": "354-R1",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162982+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.163101+00:00",
-          "card_id": 354,
-          "line_id": "354-R2"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.163237+00:00",
-          "card_id": 354,
-          "line_id": "354-R2",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163170+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.163298+00:00",
-          "card_id": 354,
-          "line_id": "354-R3"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.163443+00:00",
-          "card_id": 354,
-          "line_id": "354-R3",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163376+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.163502+00:00",
-          "card_id": 354,
-          "line_id": "354-R4"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.163633+00:00",
-          "card_id": 354,
-          "line_id": "354-R4",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163566+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.163691+00:00",
-          "card_id": 354,
-          "line_id": "354-R5"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.163938+00:00",
-          "card_id": 354,
-          "line_id": "354-R5",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163799+00:00"
-        },
-        {
-          "event": "call_started",
-          "at_utc": "2026-10-21T09:20:17.164001+00:00",
-          "card_id": 354,
-          "line_id": "354-R6"
-        },
-        {
-          "event": "return_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.164138+00:00",
-          "card_id": 354,
-          "line_id": "354-R6",
-          "call_completed_at_utc": "2026-10-21T09:20:17.164074+00:00"
-        },
-        {
-          "event": "all12_first_current_returns_durably_captured",
-          "at_utc": "2026-10-21T09:20:17.164257+00:00",
-          "rows": 12
-        }
-      ],
-      "returns": [
-        {
-          "card_id": 353,
-          "line_id": "353-R1",
-          "call_started_at_utc": "2026-10-21T09:20:17.161404+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.161522+00:00",
-          "result": {
-            "literal": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-",
-            "encoded_bodies": 42,
-            "expanded_letters": 41,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 12,
-                "body_index": 10,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 353,
-          "line_id": "353-R2",
-          "call_started_at_utc": "2026-10-21T09:20:17.161724+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.161815+00:00",
-          "result": {
-            "literal": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-",
-            "encoded_bodies": 38,
-            "expanded_letters": 38,
-            "ch_occurrences": 1,
-            "unknowns": [
-              {
-                "offset": 5,
-                "body_index": 4,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 353,
-          "line_id": "353-R3",
-          "call_started_at_utc": "2026-10-21T09:20:17.161974+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162061+00:00",
-          "result": {
-            "literal": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;",
-            "encoded_bodies": 36,
-            "expanded_letters": 33,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 0,
-                "body_index": 0,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 10,
-                "body_index": 7,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 23,
-                "body_index": 18,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 353,
-          "line_id": "353-R4",
-          "call_started_at_utc": "2026-10-21T09:20:17.162222+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162306+00:00",
-          "result": {
-            "literal": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE",
-            "encoded_bodies": 38,
-            "expanded_letters": 36,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 7,
-                "body_index": 5,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 22,
-                "body_index": 18,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 353,
-          "line_id": "353-R5",
-          "call_started_at_utc": "2026-10-21T09:20:17.162458+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162560+00:00",
-          "result": {
-            "literal": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?.",
-            "encoded_bodies": 39,
-            "expanded_letters": 36,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 12,
-                "body_index": 10,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 31,
-                "body_index": 26,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 45,
-                "body_index": 38,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 353,
-          "line_id": "353-B1",
-          "call_started_at_utc": "2026-10-21T09:20:17.162723+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162793+00:00",
-          "result": {
-            "literal": "/ PUL RODINY OD USTI :/",
-            "encoded_bodies": 15,
-            "expanded_letters": 15,
-            "ch_occurrences": 0,
-            "unknowns": []
-          }
-        },
-        {
-          "card_id": 354,
-          "line_id": "354-R1",
-          "call_started_at_utc": "2026-10-21T09:20:17.162915+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.162982+00:00",
-          "result": {
-            "literal": "9 DOMOVA SVEHO POSILAM TI, MILENZO MOJE",
-            "encoded_bodies": 32,
-            "expanded_letters": 31,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 0,
-                "body_index": 0,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 354,
-          "line_id": "354-R2",
-          "call_started_at_utc": "2026-10-21T09:20:17.163101+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163170+00:00",
-          "result": {
-            "literal": "PREDRAHA, NEJVRELEJSI POZDRAVY. SDEL MI",
-            "encoded_bodies": 33,
-            "expanded_letters": 33,
-            "ch_occurrences": 0,
-            "unknowns": []
-          }
-        },
-        {
-          "card_id": 354,
-          "line_id": "354-R3",
-          "call_started_at_utc": "2026-10-21T09:20:17.163298+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163376+00:00",
-          "result": {
-            "literal": "LASZAVE LISTZEM, JAZ DOSTALA JSI SE DOMU A 9DALI DOSEL LISTEZ MUJ V ZOLINE MEZI.",
-            "encoded_bodies": 64,
-            "expanded_letters": 63,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 43,
-                "body_index": 34,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 354,
-          "line_id": "354-R4",
-          "call_started_at_utc": "2026-10-21T09:20:17.163502+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163566+00:00",
-          "result": {
-            "literal": "CESTOU NA POSTU DANY. 9APOMENUTE DOPISNICE 9ASLU TI SOUCASNE S DOPISEM.",
-            "encoded_bodies": 59,
-            "expanded_letters": 57,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 22,
-                "body_index": 17,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 43,
-                "body_index": 36,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 354,
-          "line_id": "354-R5",
-          "call_started_at_utc": "2026-10-21T09:20:17.163691+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.163799+00:00",
-          "result": {
-            "literal": "NEUSTALE NA BLAHE, PREZRASNE CHVILE S TEBOU PROZITE V9POMINA A V DUCHU NE-",
-            "encoded_bodies": 58,
-            "expanded_letters": 59,
-            "ch_occurrences": 2,
-            "unknowns": [
-              {
-                "offset": 52,
-                "body_index": 43,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          }
-        },
-        {
-          "card_id": 354,
-          "line_id": "354-R6",
-          "call_started_at_utc": "2026-10-21T09:20:17.164001+00:00",
-          "call_completed_at_utc": "2026-10-21T09:20:17.164074+00:00",
-          "result": {
-            "literal": "SCISL NEZRATE TE VRELE LIJA TVUJ UARIMNY PEPOU?.",
-            "encoded_bodies": 40,
-            "expanded_letters": 39,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 46,
-                "body_index": 39,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              }
-            ]
-          }
-        }
-      ],
-      "all12_typed_equal_selected_original_own": true,
-      "first_returns_journal": {
-        "file": "curate26-34-current-returns.jsonl",
-        "FILE_sha256": "3550468b749a6ae77c33552b31788c357af2940c11033e7b432ef7db90ae465e"
-      },
-      "events_journal": {
-        "file": "curate26-34-current-events.jsonl",
-        "FILE_sha256": "34669b2a64693f7e0410037336668a025dce0f5cf0daba99f995befc39a9a89f"
-      },
-      "actual_decoder_imports": 1,
-      "actual_native_calls": 12,
-      "automatic_retries": 0,
-      "physical_encoded_body_count": null
-    }
-  },
   "uncertainty_ledger": [
     {
       "line_id": "353-R1",
-      "native_current_unknown": {
-        "offset": 12,
-        "body_index": 10,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 5,
+      "selected": "5",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 5,
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 13,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 12,
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 13,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 13,
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 36,
+      "selected": " ",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 36,
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 53,
+      "selected": " ",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 52,
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 11,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 13,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 16,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R1",
+      "offset": 34,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Visible small5/E before tall h/R provisionally added, matching SECOND; original missing-body segmentation retained. 9→g/Z in ZA provisional. TYSICERY first1/Y and g/Z in DIZ,ZRASNE,LISTZY retained; Y→I and Z→K only language. FIRST gap NESMI R- and punctuation retained. Possible tall-loop/upper-trace ownership at h raw5/current6 unresolved.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R2",
-      "native_current_unknown": {
-        "offset": 5,
-        "body_index": 4,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 5,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 5,
+      "reason": "9→g/Z in VZPO MINAM provisional. First1/Y in CHVYLE provisionally4/I, matching SECOND/short shelfed contour;1/unresolved retained. Original ř/CH unchanged. FIRST VZPO MINAM gap and TEPOU b/P retained versus linguistic joins/TEBOU; SECOND different letters/spacing not silently adopted.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R2",
+      "offset": 20,
+      "selected": "4",
+      "alternatives": [
+        "1",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 20,
+      "reason": "9→g/Z in VZPO MINAM provisional. First1/Y in CHVYLE provisionally4/I, matching SECOND/short shelfed contour;1/unresolved retained. Original ř/CH unchanged. FIRST VZPO MINAM gap and TEPOU b/P retained versus linguistic joins/TEBOU; SECOND different letters/spacing not silently adopted.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R2",
+      "offset": 7,
+      "selected": "3 ",
+      "alternatives": [
+        "s",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 7,
+      "reason": "9→g/Z in VZPO MINAM provisional. First1/Y in CHVYLE provisionally4/I, matching SECOND/short shelfed contour;1/unresolved retained. Original ř/CH unchanged. FIRST VZPO MINAM gap and TEPOU b/P retained versus linguistic joins/TEBOU; SECOND different letters/spacing not silently adopted.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R2",
+      "offset": 11,
+      "selected": "m",
+      "alternatives": [
+        "nn",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 10,
+      "reason": "9→g/Z in VZPO MINAM provisional. First1/Y in CHVYLE provisionally4/I, matching SECOND/short shelfed contour;1/unresolved retained. Original ř/CH unchanged. FIRST VZPO MINAM gap and TEPOU b/P retained versus linguistic joins/TEBOU; SECOND different letters/spacing not silently adopted.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R2",
+      "offset": 5,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "9→g/Z in VZPO MINAM provisional. First1/Y in CHVYLE provisionally4/I, matching SECOND/short shelfed contour;1/unresolved retained. Original ř/CH unchanged. FIRST VZPO MINAM gap and TEPOU b/P retained versus linguistic joins/TEBOU; SECOND different letters/spacing not silently adopted.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R2",
+      "offset": 18,
+      "selected": "ř",
+      "alternatives": [
+        "r/H with unassigned upper trace",
+        "different attachment"
+      ],
+      "reason": "9→g/Z in VZPO MINAM provisional. First1/Y in CHVYLE provisionally4/I, matching SECOND/short shelfed contour;1/unresolved retained. Original ř/CH unchanged. FIRST VZPO MINAM gap and TEPOU b/P retained versus linguistic joins/TEBOU; SECOND different letters/spacing not silently adopted.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R3",
-      "native_current_unknown": {
-        "offset": 0,
-        "body_index": 0,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 0,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 0,
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R3",
-      "native_current_unknown": {
-        "offset": 10,
-        "body_index": 7,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 10,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 10,
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R3",
-      "native_current_unknown": {
-        "offset": 23,
-        "body_index": 18,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 23,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 23,
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 0,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 0,
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 23,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 23,
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 32,
+      "selected": "6",
+      "alternatives": [
+        "b",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 32,
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 43,
+      "selected": "",
+      "alternatives": [
+        "c",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 43,
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 0,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 10,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 23,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "offset": 31,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Three9-shaped contours provisionally g/Z in ZITE,ZDE and standalone Z, with unresolved alternatives. FIRST VAMBARZA final6/A retained against SECOND b/P; VAMBERKA only language. FIRST BRATRANCE retained against SECOND additional c/S and punctuation variants.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R4",
-      "native_current_unknown": {
-        "offset": 7,
-        "body_index": 5,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 7,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 7,
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R4",
-      "native_current_unknown": {
-        "offset": 22,
-        "body_index": 18,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 22,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 22,
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "offset": 32,
+      "selected": "s",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 32,
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "offset": 2,
+      "selected": " ",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 2,
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "offset": 7,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 6,
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "offset": 22,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 21,
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "offset": 7,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "offset": 22,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "offset": 39,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "9→g/Z in ZASLU,ZITRA provisional. Visible small s/C added to NESCISL, matching SECOND; missing-body/neighbor segmentation retained as alternative. FIRST DO PIS and NESCISL NEZRATE spaces and g/Z retained, joins/K only language.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R5",
-      "native_current_unknown": {
-        "offset": 12,
-        "body_index": 10,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 12,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 12,
+      "reason": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R5",
-      "native_current_unknown": {
-        "offset": 31,
-        "body_index": 26,
-        "symbol": "9",
-        "kind": "unknown_symbol"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 30,
+      "selected": "fg",
+      "alternatives": [
+        "b9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 30,
+      "reason": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "physical_encoded_body_count": null
     },
     {
       "line_id": "353-R5",
-      "native_current_unknown": {
-        "offset": 45,
-        "body_index": 38,
-        "symbol": "?",
-        "kind": "unknown_glyph"
-      },
-      "source_raw_uncertainty_pointer": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger"
+      "offset": 14,
+      "selected": "3",
+      "alternatives": [
+        "s",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 14,
+      "reason": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R5",
+      "offset": 19,
+      "selected": " ",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 19,
+      "reason": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R5",
+      "offset": 12,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R5",
+      "offset": 31,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R5",
+      "offset": 45,
+      "selected": "?",
+      "alternatives": [
+        "terminal c-like/overlaid cluster of unknown length"
+      ],
+      "reason": "Two9-shaped contours provisionally g/Z in VZPOMINA JICI and PRCVZDY. Provisional f/V rather than FIRST b/P in PRCVZDY follows long oblique/descending stroke and SECOND; b/unresolved retained. FIRST gap before JICI and s/C in PRCVZDY retained as literal C; O only language. Final curled signature trace remains mask, not assigned c/S or name S.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-B1",
+      "offset": 0,
+      "selected": "/ ",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 0,
+      "reason": "Native-orientation bottom run remains separate. FIRST leading slash and spacing retained against SECOND omission/spacing; slash adjacent to caption has unresolved authorship/ownership. Tall h/R retained in RODINY; r/H giving HODINY only linguistic alternative. Caption/date context excluded, no place or travel-time authentication.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-B1",
+      "offset": 20,
+      "selected": " ",
+      "alternatives": [
+        "",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 18,
+      "reason": "Native-orientation bottom run remains separate. FIRST leading slash and spacing retained against SECOND omission/spacing; slash adjacent to caption has unresolved authorship/ownership. Tall h/R retained in RODINY; r/H giving HODINY only linguistic alternative. Caption/date context excluded, no place or travel-time authentication.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-B1",
+      "offset": 0,
+      "selected": "/",
+      "alternatives": [
+        "handwritten boundary",
+        "caption-adjacent print/trace of unresolved ownership"
+      ],
+      "reason": "Native-orientation bottom run remains separate. FIRST leading slash and spacing retained against SECOND omission/spacing; slash adjacent to caption has unresolved authorship/ownership. Tall h/R retained in RODINY; r/H giving HODINY only linguistic alternative. Caption/date context excluded, no place or travel-time authentication.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-B1",
+      "offset": 6,
+      "selected": "h",
+      "alternatives": [
+        "r/H",
+        "unresolved tall loop"
+      ],
+      "reason": "Native-orientation bottom run remains separate. FIRST leading slash and spacing retained against SECOND omission/spacing; slash adjacent to caption has unresolved authorship/ownership. Tall h/R retained in RODINY; r/H giving HODINY only linguistic alternative. Caption/date context excluded, no place or travel-time authentication.",
+      "physical_encoded_body_count": null
     }
   ],
-  "source_ledger_references": {
-    "FIRST": {
-      "uncertainty_ledger": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/uncertainty_ledger",
-      "mark_ledger": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/mark_ledger",
-      "segmentation_ledger": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/segmentation_ledger",
-      "question_role_inventory": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/question_role_inventory",
-      "mark_coverage_inventory": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/mark_coverage_inventory",
-      "row_mark_sweep": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/row_mark_sweep",
-      "source_locator_preflight": "#/original_reads/FIRST/raw_wrapper/whole_original/raw/source_locator_preflight"
-    },
-    "SECOND": {
-      "uncertainty_ledger": "#/original_reads/SECOND/raw_wrapper/whole_original/raw/uncertainty_ledger",
-      "mark_ledger": "#/original_reads/SECOND/raw_wrapper/whole_original/raw/mark_ledger",
-      "segmentation_ledger": "#/original_reads/SECOND/raw_wrapper/whole_original/raw/segmentation_ledger",
-      "question_role_inventory": "#/original_reads/SECOND/raw_wrapper/whole_original/raw/question_role_inventory",
-      "mark_coverage_inventory": "#/original_reads/SECOND/raw_wrapper/whole_original/raw/mark_coverage_inventory",
-      "row_mark_sweep": "#/original_reads/SECOND/raw_wrapper/whole_original/raw/row_mark_sweep",
-      "source_locator_preflight": "#/original_reads/SECOND/raw_wrapper/whole_original/raw/source_locator_preflight"
-    }
-  },
-  "competing_source_differences": [
-    {
-      "selected_FIRST_line_id": "353-R1",
-      "competing_SECOND_line_id": "R1",
-      "alignment_scope": "Editorial ordinal alignment within the released region; not authenticated glyph segmentation or chronology.",
-      "FIRST_exact_ciphertext": "d1c4sh1 t4g 96 gh6cm5, th6r5 84cdg1 ! c d32r32 m5cn4 h-",
-      "SECOND_exact_ciphertext": "d1c4s5h1 t4g 96 gh6cm5, th6r5 84cdg1! c d32r32 m5cn4h-",
-      "ciphertext_differences": [
-        {
-          "operation": "insert",
-          "FIRST_offset": 5,
-          "FIRST_end": 5,
-          "FIRST_selected": "",
-          "SECOND_offset": 5,
-          "SECOND_end": 6,
-          "SECOND_selected": "5"
-        },
-        {
-          "operation": "delete",
-          "FIRST_offset": 35,
-          "FIRST_end": 36,
-          "FIRST_selected": " ",
-          "SECOND_offset": 36,
-          "SECOND_end": 36,
-          "SECOND_selected": ""
-        },
-        {
-          "operation": "delete",
-          "FIRST_offset": 52,
-          "FIRST_end": 53,
-          "FIRST_selected": " ",
-          "SECOND_offset": 52,
-          "SECOND_end": 52,
-          "SECOND_selected": ""
-        }
-      ],
-      "FIRST_native_transcription": [],
-      "SECOND_native_transcription": [],
-      "native_tags_equal": true,
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          50,
-          1470,
-          1125,
-          1710
-        ],
-        "native_bbox_xyxy": [
-          1470,
-          50,
-          1710,
-          1125
-        ]
-      },
-      "policy": "FIRST remains selected unchanged; no Czech-based glyph repair."
-    },
-    {
-      "selected_FIRST_line_id": "353-R2",
-      "competing_SECOND_line_id": "R2",
-      "alignment_scope": "Editorial ordinal alignment within the released region; not authenticated glyph segmentation or chronology.",
-      "FIRST_exact_ciphertext": "m32 f9b3 n4m6n m6 řf185 c d5b32 bh5t d1tm5n bh3-",
-      "SECOND_exact_ciphertext": "m32 fgbsn4nn6n m6 řf485 c d5b32 bh5t d1tm5n bh3-",
-      "ciphertext_differences": [
-        {
-          "operation": "replace",
-          "FIRST_offset": 5,
-          "FIRST_end": 6,
-          "FIRST_selected": "9",
-          "SECOND_offset": 5,
-          "SECOND_end": 6,
-          "SECOND_selected": "g"
-        },
-        {
-          "operation": "replace",
-          "FIRST_offset": 7,
-          "FIRST_end": 9,
-          "FIRST_selected": "3 ",
-          "SECOND_offset": 7,
-          "SECOND_end": 8,
-          "SECOND_selected": "s"
-        },
-        {
-          "operation": "replace",
-          "FIRST_offset": 11,
-          "FIRST_end": 12,
-          "FIRST_selected": "m",
-          "SECOND_offset": 10,
-          "SECOND_end": 12,
-          "SECOND_selected": "nn"
-        },
-        {
-          "operation": "replace",
-          "FIRST_offset": 20,
-          "FIRST_end": 21,
-          "FIRST_selected": "1",
-          "SECOND_offset": 20,
-          "SECOND_end": 21,
-          "SECOND_selected": "4"
-        }
-      ],
-      "FIRST_native_transcription": [],
-      "SECOND_native_transcription": [],
-      "native_tags_equal": true,
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          50,
-          1470,
-          1125,
-          1710
-        ],
-        "native_bbox_xyxy": [
-          1470,
-          50,
-          1710,
-          1125
-        ]
-      },
-      "policy": "FIRST remains selected unchanged; no Czech-based glyph repair."
-    },
-    {
-      "selected_FIRST_line_id": "353-R3",
-      "competing_SECOND_line_id": "R3",
-      "alignment_scope": "Editorial ordinal alignment within the released region; not authenticated glyph segmentation or chronology.",
-      "FIRST_exact_ciphertext": "94d5. n6n 9t5 m6fcd5f2 9 f6np6hg6 - ph6dh6ms5;",
-      "SECOND_exact_ciphertext": "94d5. n6n gt5 m6fcd5f2 9 f6np6hgb - ph6dh6mcs5;",
-      "ciphertext_differences": [
-        {
-          "operation": "replace",
-          "FIRST_offset": 10,
-          "FIRST_end": 11,
-          "FIRST_selected": "9",
-          "SECOND_offset": 10,
-          "SECOND_end": 11,
-          "SECOND_selected": "g"
-        },
-        {
-          "operation": "replace",
-          "FIRST_offset": 32,
-          "FIRST_end": 33,
-          "FIRST_selected": "6",
-          "SECOND_offset": 32,
-          "SECOND_end": 33,
-          "SECOND_selected": "b"
-        },
-        {
-          "operation": "insert",
-          "FIRST_offset": 43,
-          "FIRST_end": 43,
-          "FIRST_selected": "",
-          "SECOND_offset": 43,
-          "SECOND_end": 44,
-          "SECOND_selected": "c"
-        }
-      ],
-      "FIRST_native_transcription": [],
-      "SECOND_native_transcription": [],
-      "native_tags_equal": true,
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          50,
-          1470,
-          1125,
-          1710
-        ],
-        "native_bbox_xyxy": [
-          1470,
-          50,
-          1710,
-          1125
-        ]
-      },
-      "policy": "FIRST remains selected unchanged; no Czech-based glyph repair."
-    },
-    {
-      "selected_FIRST_line_id": "353-R4",
-      "competing_SECOND_line_id": "R4",
-      "alignment_scope": "Editorial ordinal alignment within the released region; not authenticated glyph segmentation or chronology.",
-      "FIRST_exact_ciphertext": "t3 b4c 96c82 m57cb4c5 94dh6. m5c4c8 m5gh6d5 d5",
-      "SECOND_exact_ciphertext": "t3b4c 96c82 m57cb4c5 94dh6. m5cs4c8 m5gh6d5 d5",
-      "ciphertext_differences": [
-        {
-          "operation": "delete",
-          "FIRST_offset": 2,
-          "FIRST_end": 3,
-          "FIRST_selected": " ",
-          "SECOND_offset": 2,
-          "SECOND_end": 2,
-          "SECOND_selected": ""
-        },
-        {
-          "operation": "insert",
-          "FIRST_offset": 32,
-          "FIRST_end": 32,
-          "FIRST_selected": "",
-          "SECOND_offset": 31,
-          "SECOND_end": 32,
-          "SECOND_selected": "s"
-        }
-      ],
-      "FIRST_native_transcription": [],
-      "SECOND_native_transcription": [],
-      "native_tags_equal": true,
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          50,
-          1470,
-          1125,
-          1710
-        ],
-        "native_bbox_xyxy": [
-          1470,
-          50,
-          1710,
-          1125
-        ]
-      },
-      "policy": "FIRST remains selected unchanged; no Czech-based glyph repair."
-    },
-    {
-      "selected_FIRST_line_id": "353-R5",
-      "competing_SECOND_line_id": "R5",
-      "alignment_scope": "Editorial ordinal alignment within the released region; not authenticated glyph segmentation or chronology.",
-      "FIRST_exact_ciphertext": "84p6 cd685 f9b3n4m6 74s4 6 bhsb9t1 df27 b5b32?.",
-      "SECOND_exact_ciphertext": "84p6 cd685 fgbsn4m674s4 6 bhsfgt1 df27 b5b32?.",
-      "ciphertext_differences": [
-        {
-          "operation": "replace",
-          "FIRST_offset": 12,
-          "FIRST_end": 13,
-          "FIRST_selected": "9",
-          "SECOND_offset": 12,
-          "SECOND_end": 13,
-          "SECOND_selected": "g"
-        },
-        {
-          "operation": "replace",
-          "FIRST_offset": 14,
-          "FIRST_end": 15,
-          "FIRST_selected": "3",
-          "SECOND_offset": 14,
-          "SECOND_end": 15,
-          "SECOND_selected": "s"
-        },
-        {
-          "operation": "delete",
-          "FIRST_offset": 19,
-          "FIRST_end": 20,
-          "FIRST_selected": " ",
-          "SECOND_offset": 19,
-          "SECOND_end": 19,
-          "SECOND_selected": ""
-        },
-        {
-          "operation": "replace",
-          "FIRST_offset": 30,
-          "FIRST_end": 32,
-          "FIRST_selected": "b9",
-          "SECOND_offset": 29,
-          "SECOND_end": 31,
-          "SECOND_selected": "fg"
-        }
-      ],
-      "FIRST_native_transcription": [
-        {
-          "offset": 45,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "SECOND_native_transcription": [
-        {
-          "offset": 44,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "native_tags_equal": false,
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          65,
-          1465,
-          1135,
-          1715
-        ],
-        "native_bbox_xyxy": [
-          1465,
-          40,
-          1715,
-          1110
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 90,
-        "reading_dimensions": [
-          1175,
-          1785
-        ],
-        "reading_bbox_xyxy": [
-          50,
-          1470,
-          1125,
-          1710
-        ],
-        "native_bbox_xyxy": [
-          1470,
-          50,
-          1710,
-          1125
-        ]
-      },
-      "policy": "FIRST remains selected unchanged; no Czech-based glyph repair."
-    },
-    {
-      "selected_FIRST_line_id": "353-B1",
-      "competing_SECOND_line_id": "B1",
-      "alignment_scope": "Editorial ordinal alignment within the released region; not authenticated glyph segmentation or chronology.",
-      "FIRST_exact_ciphertext": "/ b28 h3t4m1 3t 2cd4 :/",
-      "SECOND_exact_ciphertext": "b28 h3t4m1 3t 2cd4:/",
-      "ciphertext_differences": [
-        {
-          "operation": "delete",
-          "FIRST_offset": 0,
-          "FIRST_end": 2,
-          "FIRST_selected": "/ ",
-          "SECOND_offset": 0,
-          "SECOND_end": 0,
-          "SECOND_selected": ""
-        },
-        {
-          "operation": "delete",
-          "FIRST_offset": 20,
-          "FIRST_end": 21,
-          "FIRST_selected": " ",
-          "SECOND_offset": 18,
-          "SECOND_end": 18,
-          "SECOND_selected": ""
-        }
-      ],
-      "FIRST_native_transcription": [],
-      "SECOND_native_transcription": [],
-      "native_tags_equal": true,
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 0,
-        "reading_dimensions": [
-          1785,
-          1175
-        ],
-        "reading_bbox_xyxy": [
-          1025,
-          985,
-          1490,
-          1100
-        ],
-        "native_bbox_xyxy": [
-          1025,
-          985,
-          1490,
-          1100
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 0,
-        "reading_dimensions": [
-          1785,
-          1175
-        ],
-        "reading_bbox_xyxy": [
-          1000,
-          985,
-          1480,
-          1110
-        ],
-        "native_bbox_xyxy": [
-          1000,
-          985,
-          1480,
-          1110
-        ]
-      },
-      "policy": "FIRST remains selected unchanged; no Czech-based glyph repair."
-    }
-  ],
-  "passages": [
-    {
-      "passage_id": "353-full-paired-passage",
-      "line_ids": [
-        "353-R1",
-        "353-R2",
-        "353-R3",
-        "353-R4",
-        "353-R5",
-        "353-B1"
-      ],
-      "literal_components": [
-        {
-          "line_id": "353-R1",
-          "offset": 0,
-          "selected": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;"
-        },
-        {
-          "line_id": "353-R4",
-          "offset": 0,
-          "selected": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE"
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 0,
-          "selected": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?."
-        },
-        {
-          "line_id": "353-B1",
-          "offset": 0,
-          "selected": "/ PUL RODINY OD USTI :/"
-        }
-      ],
-      "proposed_czech": "[Tisícerý? dík? za? krásné?, drahé lístky?! S touhou nesmír- (neúplné; spojení s -nou v R2 je návrh).]\n[-nou (možné dokončení předchozího slova); vzpomínám? na chvíle? s tebou? před týdnem pro- (neúplné).]\n[-žité? (možné dokončení pro- z R2). Mám zde? návštěvu z? VAMBARZA (nevyřešené označení) — bratrance?;]\n[Dopis? zašlu? nejspíše zítra?. NESISL NEZRATE TE zůstává nevyřešeno; možné pokračování do R5.]\n[Líbá?; stále vzpomínající? a PRCP9DY (nevyřešeno), tvůj PEPOU (neověřená podpisová podoba); koncová stopa nevyřešena.]\n[Půl rodiny od USTI (možný místní název neověřen). Oddělený fragment; vztah k hlavnímu bloku a příslušnost počátečního tahu k tisku zůstávají otázkou zdrojového QA.]",
-      "proposed_english": "[Many? thanks? for? lovely?, dear letters?! With immense longing (a proposed reading of the word broken across R1–R2).]\n[Possible completion of the preceding word; I remember? the moments? with you? a week ago, lived— (unfinished).]\n[—through? (possible completion of the fragment in R2). I have a visitor here?, from? VAMBARZA (unresolved designation) — a cousin?;]\n[A letter? I shall send? most likely tomorrow?. NESISL NEZRATE TE remains unresolved; it may continue into R5.]\n[Kisses?; constantly remembering? and PRCP9DY (unresolved), yours, PEPOU (unverified signature-like form); terminal ink unresolved.]\n[Half the family from USTI (possible place name, unverified). Detached fragment; its relation to the main block and ownership of the leading stroke versus print remain source-QA questions.]",
-      "scope": "All six selected rows, including detached/terminal fragments; each bracket is an explicit tentative row proposal. Unknown strings and uncertain referents remain visible. No prose-driven glyph correction."
-    }
-  ],
-  "editorial_proposals": [
-    {
-      "proposal_id": "353-editorial-row-1",
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "kind": "paired_row_reading_with_explicit_unknowns",
-      "literal_components": [
-        {
-          "line_id": "353-R1",
-          "offset": 0,
-          "selected": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        }
-      ],
-      "composite_scope": [
-        "Proposed word join across 353-R1/R2: NESMI R- + NOU. Exact separate components; source spacing retained."
-      ],
-      "proposed_czech": "[Tisícerý? dík? za? krásné?, drahé lístky?! S touhou nesmír- (neúplné; spojení s -nou v R2 je návrh).]",
-      "proposed_english": "[Many? thanks? for? lovely?, dear letters?! With immense longing (a proposed reading of the word broken across R1–R2).]"
-    },
-    {
-      "proposal_id": "353-editorial-row-2",
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "kind": "paired_row_reading_with_explicit_unknowns",
-      "literal_components": [
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 4,
-          "selected": "V9PO"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 9,
-          "selected": "MINAM"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "composite_scope": [
-        "Proposed word join across 353-R1/R2: NESMI R- + NOU. Exact separate components; source spacing retained.",
-        "Tentative within-row word join V9PO + MINAM; intervening source space remains unchanged.",
-        "Proposed cross-row PRO- + 9ITE; no contiguous span is fabricated."
-      ],
-      "proposed_czech": "[-nou (možné dokončení předchozího slova); vzpomínám? na chvíle? s tebou? před týdnem pro- (neúplné).]",
-      "proposed_english": "[Possible completion of the preceding word; I remember? the moments? with you? a week ago, lived— (unfinished).]"
-    },
-    {
-      "proposal_id": "353-editorial-row-3",
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "kind": "paired_row_reading_with_explicit_unknowns",
-      "literal_components": [
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "composite_scope": [
-        "Proposed cross-row PRO- + 9ITE; no contiguous span is fabricated."
-      ],
-      "proposed_czech": "[-žité? (možné dokončení pro- z R2). Mám zde? návštěvu z? VAMBARZA (nevyřešené označení) — bratrance?;]",
-      "proposed_english": "[—through? (possible completion of the fragment in R2). I have a visitor here?, from? VAMBARZA (unresolved designation) — a cousin?;]"
-    },
-    {
-      "proposal_id": "353-editorial-row-4",
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "kind": "paired_row_reading_with_explicit_unknowns",
-      "literal_components": [
-        {
-          "line_id": "353-R4",
-          "offset": 0,
-          "selected": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE"
-        }
-      ],
-      "composite_scope": [
-        "Whole exact literal row; accents, word boundaries, lexical suggestions and translations are tentative editorial layers."
-      ],
-      "proposed_czech": "[Dopis? zašlu? nejspíše zítra?. NESISL NEZRATE TE zůstává nevyřešeno; možné pokračování do R5.]",
-      "proposed_english": "[A letter? I shall send? most likely tomorrow?. NESISL NEZRATE TE remains unresolved; it may continue into R5.]"
-    },
-    {
-      "proposal_id": "353-editorial-row-5",
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "kind": "paired_row_reading_with_explicit_unknowns",
-      "literal_components": [
-        {
-          "line_id": "353-R5",
-          "offset": 0,
-          "selected": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?."
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 11,
-          "selected": "V9POMINA"
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 20,
-          "selected": "JICI"
-        }
-      ],
-      "composite_scope": [
-        "Proposed within-row V9POMINA + JICI word join; exact separate literal components."
-      ],
-      "proposed_czech": "[Líbá?; stále vzpomínající? a PRCP9DY (nevyřešeno), tvůj PEPOU (neověřená podpisová podoba); koncová stopa nevyřešena.]",
-      "proposed_english": "[Kisses?; constantly remembering? and PRCP9DY (unresolved), yours, PEPOU (unverified signature-like form); terminal ink unresolved.]"
-    },
-    {
-      "proposal_id": "353-editorial-row-6",
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "kind": "paired_row_reading_with_explicit_unknowns",
-      "literal_components": [
-        {
-          "line_id": "353-B1",
-          "offset": 0,
-          "selected": "/ PUL RODINY OD USTI :/"
-        }
-      ],
-      "composite_scope": [
-        "Whole exact literal row; accents, word boundaries, lexical suggestions and translations are tentative editorial layers."
-      ],
-      "proposed_czech": "[Půl rodiny od USTI (možný místní název neověřen). Oddělený fragment; vztah k hlavnímu bloku a příslušnost počátečního tahu k tisku zůstávají otázkou zdrojového QA.]",
-      "proposed_english": "[Half the family from USTI (possible place name, unverified). Detached fragment; its relation to the main block and ownership of the leading stroke versus print remain source-QA questions.]"
-    }
-  ],
-  "editorial_occurrences": [
-    {
-      "field": "lines[0].proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 102,
-      "bracketed_text": "[Tisícerý? dík? za? krásné?, drahé lístky?! S touhou nesmír- (neúplné; spojení s -nou v R2 je návrh).]",
-      "proposal_id": "353-editorial-row-1",
-      "literal_components": [
-        {
-          "line_id": "353-R1",
-          "offset": 0,
-          "selected": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 767,
-      "markdown_end": 869
-    },
-    {
-      "field": "lines[0].proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 119,
-      "bracketed_text": "[Many? thanks? for? lovely?, dear letters?! With immense longing (a proposed reading of the word broken across R1–R2).]",
-      "proposal_id": "353-editorial-row-1",
-      "literal_components": [
-        {
-          "line_id": "353-R1",
-          "offset": 0,
-          "selected": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 890,
-      "markdown_end": 1009
-    },
-    {
-      "field": "lines[1].proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 102,
-      "bracketed_text": "[-nou (možné dokončení předchozího slova); vzpomínám? na chvíle? s tebou? před týdnem pro- (neúplné).]",
-      "proposal_id": "353-editorial-row-2",
-      "literal_components": [
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 4,
-          "selected": "V9PO"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 9,
-          "selected": "MINAM"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 1112,
-      "markdown_end": 1214
-    },
-    {
-      "field": "lines[1].proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 112,
-      "bracketed_text": "[Possible completion of the preceding word; I remember? the moments? with you? a week ago, lived— (unfinished).]",
-      "proposal_id": "353-editorial-row-2",
-      "literal_components": [
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 4,
-          "selected": "V9PO"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 9,
-          "selected": "MINAM"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 1235,
-      "markdown_end": 1347
-    },
-    {
-      "field": "lines[2].proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 103,
-      "bracketed_text": "[-žité? (možné dokončení pro- z R2). Mám zde? návštěvu z? VAMBARZA (nevyřešené označení) — bratrance?;]",
-      "proposal_id": "353-editorial-row-3",
-      "literal_components": [
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 1447,
-      "markdown_end": 1550
-    },
-    {
-      "field": "lines[2].proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 133,
-      "bracketed_text": "[—through? (possible completion of the fragment in R2). I have a visitor here?, from? VAMBARZA (unresolved designation) — a cousin?;]",
-      "proposal_id": "353-editorial-row-3",
-      "literal_components": [
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 1571,
-      "markdown_end": 1704
-    },
-    {
-      "field": "lines[3].proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 95,
-      "bracketed_text": "[Dopis? zašlu? nejspíše zítra?. NESISL NEZRATE TE zůstává nevyřešeno; možné pokračování do R5.]",
-      "proposal_id": "353-editorial-row-4",
-      "literal_components": [
-        {
-          "line_id": "353-R4",
-          "offset": 0,
-          "selected": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 1804,
-      "markdown_end": 1899
-    },
-    {
-      "field": "lines[3].proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 111,
-      "bracketed_text": "[A letter? I shall send? most likely tomorrow?. NESISL NEZRATE TE remains unresolved; it may continue into R5.]",
-      "proposal_id": "353-editorial-row-4",
-      "literal_components": [
-        {
-          "line_id": "353-R4",
-          "offset": 0,
-          "selected": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 1920,
-      "markdown_end": 2031
-    },
-    {
-      "field": "lines[4].proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 119,
-      "bracketed_text": "[Líbá?; stále vzpomínající? a PRCP9DY (nevyřešeno), tvůj PEPOU (neověřená podpisová podoba); koncová stopa nevyřešena.]",
-      "proposal_id": "353-editorial-row-5",
-      "literal_components": [
-        {
-          "line_id": "353-R5",
-          "offset": 0,
-          "selected": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?."
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 11,
-          "selected": "V9POMINA"
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 20,
-          "selected": "JICI"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 2132,
-      "markdown_end": 2251
-    },
-    {
-      "field": "lines[4].proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 132,
-      "bracketed_text": "[Kisses?; constantly remembering? and PRCP9DY (unresolved), yours, PEPOU (unverified signature-like form); terminal ink unresolved.]",
-      "proposal_id": "353-editorial-row-5",
-      "literal_components": [
-        {
-          "line_id": "353-R5",
-          "offset": 0,
-          "selected": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?."
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 11,
-          "selected": "V9POMINA"
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 20,
-          "selected": "JICI"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 2272,
-      "markdown_end": 2404
-    },
-    {
-      "field": "lines[5].proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 165,
-      "bracketed_text": "[Půl rodiny od USTI (možný místní název neověřen). Oddělený fragment; vztah k hlavnímu bloku a příslušnost počátečního tahu k tisku zůstávají otázkou zdrojového QA.]",
-      "proposal_id": "353-editorial-row-6",
-      "literal_components": [
-        {
-          "line_id": "353-B1",
-          "offset": 0,
-          "selected": "/ PUL RODINY OD USTI :/"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 2481,
-      "markdown_end": 2646
-    },
-    {
-      "field": "lines[5].proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 189,
-      "bracketed_text": "[Half the family from USTI (possible place name, unverified). Detached fragment; its relation to the main block and ownership of the leading stroke versus print remain source-QA questions.]",
-      "proposal_id": "353-editorial-row-6",
-      "literal_components": [
-        {
-          "line_id": "353-B1",
-          "offset": 0,
-          "selected": "/ PUL RODINY OD USTI :/"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 2667,
-      "markdown_end": 2856
-    },
-    {
-      "field": "passages[0].proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 119,
-      "bracketed_text": "[Many? thanks? for? lovely?, dear letters?! With immense longing (a proposed reading of the word broken across R1–R2).]",
-      "proposal_id": "353-editorial-row-1",
-      "literal_components": [
-        {
-          "line_id": "353-R1",
-          "offset": 0,
-          "selected": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 2892,
-      "markdown_end": 3011
-    },
-    {
-      "field": "passages[0].proposed_english",
-      "language": "en",
-      "text_offset": 120,
-      "text_end": 232,
-      "bracketed_text": "[Possible completion of the preceding word; I remember? the moments? with you? a week ago, lived— (unfinished).]",
-      "proposal_id": "353-editorial-row-2",
-      "literal_components": [
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 4,
-          "selected": "V9PO"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 9,
-          "selected": "MINAM"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3012,
-      "markdown_end": 3124
-    },
-    {
-      "field": "passages[0].proposed_english",
-      "language": "en",
-      "text_offset": 233,
-      "text_end": 366,
-      "bracketed_text": "[—through? (possible completion of the fragment in R2). I have a visitor here?, from? VAMBARZA (unresolved designation) — a cousin?;]",
-      "proposal_id": "353-editorial-row-3",
-      "literal_components": [
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3125,
-      "markdown_end": 3258
-    },
-    {
-      "field": "passages[0].proposed_english",
-      "language": "en",
-      "text_offset": 367,
-      "text_end": 478,
-      "bracketed_text": "[A letter? I shall send? most likely tomorrow?. NESISL NEZRATE TE remains unresolved; it may continue into R5.]",
-      "proposal_id": "353-editorial-row-4",
-      "literal_components": [
-        {
-          "line_id": "353-R4",
-          "offset": 0,
-          "selected": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3259,
-      "markdown_end": 3370
-    },
-    {
-      "field": "passages[0].proposed_english",
-      "language": "en",
-      "text_offset": 479,
-      "text_end": 611,
-      "bracketed_text": "[Kisses?; constantly remembering? and PRCP9DY (unresolved), yours, PEPOU (unverified signature-like form); terminal ink unresolved.]",
-      "proposal_id": "353-editorial-row-5",
-      "literal_components": [
-        {
-          "line_id": "353-R5",
-          "offset": 0,
-          "selected": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?."
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 11,
-          "selected": "V9POMINA"
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 20,
-          "selected": "JICI"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3371,
-      "markdown_end": 3503
-    },
-    {
-      "field": "passages[0].proposed_english",
-      "language": "en",
-      "text_offset": 612,
-      "text_end": 801,
-      "bracketed_text": "[Half the family from USTI (possible place name, unverified). Detached fragment; its relation to the main block and ownership of the leading stroke versus print remain source-QA questions.]",
-      "proposal_id": "353-editorial-row-6",
-      "literal_components": [
-        {
-          "line_id": "353-B1",
-          "offset": 0,
-          "selected": "/ PUL RODINY OD USTI :/"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3504,
-      "markdown_end": 3693
-    },
-    {
-      "field": "passages[0].proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 102,
-      "bracketed_text": "[Tisícerý? dík? za? krásné?, drahé lístky?! S touhou nesmír- (neúplné; spojení s -nou v R2 je návrh).]",
-      "proposal_id": "353-editorial-row-1",
-      "literal_components": [
-        {
-          "line_id": "353-R1",
-          "offset": 0,
-          "selected": "TYSICRY DIZ 9A ZRASNE, DRAHE LISTZY ! S TOUHOU NESMI R-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3727,
-      "markdown_end": 3829
-    },
-    {
-      "field": "passages[0].proposed_czech",
-      "language": "cs",
-      "text_offset": 103,
-      "text_end": 205,
-      "bracketed_text": "[-nou (možné dokončení předchozího slova); vzpomínám? na chvíle? s tebou? před týdnem pro- (neúplné).]",
-      "proposal_id": "353-editorial-row-2",
-      "literal_components": [
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU V9PO MINAM NA CHVYLE S TEPOU PRED TYDNEM PRO-"
-        },
-        {
-          "line_id": "353-R1",
-          "offset": 47,
-          "selected": "NESMI R-"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 0,
-          "selected": "NOU"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 4,
-          "selected": "V9PO"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 9,
-          "selected": "MINAM"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3830,
-      "markdown_end": 3932
-    },
-    {
-      "field": "passages[0].proposed_czech",
-      "language": "cs",
-      "text_offset": 206,
-      "text_end": 309,
-      "bracketed_text": "[-žité? (možné dokončení pro- z R2). Mám zde? návštěvu z? VAMBARZA (nevyřešené označení) — bratrance?;]",
-      "proposal_id": "353-editorial-row-3",
-      "literal_components": [
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE. MAM 9DE NAVSTEVU 9 VAMBARZA - BRATRANCE;"
-        },
-        {
-          "line_id": "353-R2",
-          "offset": 45,
-          "selected": "PRO-"
-        },
-        {
-          "line_id": "353-R3",
-          "offset": 0,
-          "selected": "9ITE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 3933,
-      "markdown_end": 4036
-    },
-    {
-      "field": "passages[0].proposed_czech",
-      "language": "cs",
-      "text_offset": 310,
-      "text_end": 405,
-      "bracketed_text": "[Dopis? zašlu? nejspíše zítra?. NESISL NEZRATE TE zůstává nevyřešeno; možné pokračování do R5.]",
-      "proposal_id": "353-editorial-row-4",
-      "literal_components": [
-        {
-          "line_id": "353-R4",
-          "offset": 0,
-          "selected": "DO PIS 9ASLU NEJSPISE 9ITRA. NESISL NEZRATE TE"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 4037,
-      "markdown_end": 4132
-    },
-    {
-      "field": "passages[0].proposed_czech",
-      "language": "cs",
-      "text_offset": 406,
-      "text_end": 525,
-      "bracketed_text": "[Líbá?; stále vzpomínající? a PRCP9DY (nevyřešeno), tvůj PEPOU (neověřená podpisová podoba); koncová stopa nevyřešena.]",
-      "proposal_id": "353-editorial-row-5",
-      "literal_components": [
-        {
-          "line_id": "353-R5",
-          "offset": 0,
-          "selected": "LIBA STALE V9POMINA JICI A PRCP9DY TVUJ PEPOU?."
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 11,
-          "selected": "V9POMINA"
-        },
-        {
-          "line_id": "353-R5",
-          "offset": 20,
-          "selected": "JICI"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 4133,
-      "markdown_end": 4252
-    },
-    {
-      "field": "passages[0].proposed_czech",
-      "language": "cs",
-      "text_offset": 526,
-      "text_end": 691,
-      "bracketed_text": "[Půl rodiny od USTI (možný místní název neověřen). Oddělený fragment; vztah k hlavnímu bloku a příslušnost počátečního tahu k tisku zůstávají otázkou zdrojového QA.]",
-      "proposal_id": "353-editorial-row-6",
-      "literal_components": [
-        {
-          "line_id": "353-B1",
-          "offset": 0,
-          "selected": "/ PUL RODINY OD USTI :/"
-        }
-      ],
-      "status": "tentative_editorial_proposal_not_source_reading",
-      "markdown_offset": 4253,
-      "markdown_end": 4418
-    }
-  ],
-  "editorial_scope": "All proposed row and full-passage text is bracketed, including accent restoration, word joins, gender/referent and name/place suggestions. Exact literal components use Unicode codepoint offsets. Cross-row and noncontiguous joins have separate explicit components. Complete English passage maps every selected row.",
-  "curation_provenance": {
-    "model": "gpt-6.1-sol",
-    "exact_deployment": null,
-    "temperature": null,
-    "seed": null,
-    "prepared_at_utc": "2026-10-21T09:23:55.630119+00:00",
-    "phase_transition": "Original related key-visible FIRST source actor became explicitly nonblind curator only after all8raw/all8own/CP1/CP2 and exchange release. No cognitive, human or external independence claim.",
-    "source_changes": 0,
-    "native_LIST_adapters": 0,
-    "Unicode_normalizations": 0,
-    "additional_decoder_replays_for_proof": 0,
-    "current_native_calls": 12,
-    "pair": "curate26-34",
-    "helper_FILE_descriptors": [
-      {
-        "file": "curate26-34-replay.py",
-        "FILE_sha256": "856dc9968ed6815c16cb567edf7a28de9d509fb083e44146d41df4c83dd0a842"
-      },
-      {
-        "file": "curate26-34-assemble.py",
-        "FILE_sha256": "d50f2033fc8745d729f2adac5ba970b48d301b57918cef03a43e3c98a5a79c1a"
-      },
-      {
-        "file": "curate26-34-assemble-v2.py",
-        "FILE_sha256": "96956ea172faa8839904eab719251aeb1ad2f9c97b496d7bfd3029649a3495d8"
-      },
-      {
-        "file": "curate26-34-readables.json",
-        "FILE_sha256": "e566a7085aef32b6f4525ef75b96678129f5148bb72ad900495df104f75fc1af"
-      }
-    ],
-    "selected_model": "gpt-6.1-sol",
-    "root_exact_deployment": null,
-    "related_original_FIRST_context": true,
-    "nonblind": true,
-    "independence_claim": false,
-    "final_QA_projection_recorded_at_utc": "2026-10-21T09:37:34.654902+00:00",
-    "projection_helper": {
-      "file": "curate26-34-project-final-QA.py",
-      "FILE_sha256": "6cc13a00f1567016a6d9569d61b7b69d807d3717392486181c3fbcd09152be69"
-    },
-    "initial_snapshot_stage_recorded_at_utc": "2026-10-21T09:43:39.995057+00:00",
-    "initial_snapshot_helper": {
-      "file": "curate26-34-freeze-initial.py",
-      "FILE_sha256": "56aac61858521fc4a91e44c5fca998df81ed3d1d1d1a4fcbeefaafe54ee4e9fb"
-    }
-  },
-  "publication_stage": {
-    "stage": "initial_reconciliation_preparation_snapshot",
-    "qa": "final_native_QA_projected_with_bounded_findings",
-    "initial_revision_snapshot_created": true,
-    "public_assembly_released": false,
-    "existing100_local_runs": 0,
-    "root_paired_review": "PASS",
-    "later_execution_results": "validation-batch26.json"
+  "passages": {
+    "main_proposed_czech": "[Tisícerý?] [dík?] za [krásné?], drahé [lístky?]! S touhou [nesmírnou?] [vzpomínám?] na chvíle s [tebou?] před týdnem prožité. Mám zde návštěvu z [Vamberka?] — bratrance; [dopis?] zašlu nejspíše zítra. [Nesčíslněkráte?] tě líbá stále [vzpomínající?] a [provždy?] tvůj [Pepouš?].",
+    "main_proposed_english": "A thousand [thanks?] for the [lovely?], dear [cards?]! With [immense longing?] I [remember?] the moments spent [with you?] a week ago. I have a visitor here from [Vamberk?] — a cousin; I shall send [a letter?] most likely tomorrow. Your constantly [remembering?] and [forever?] [Pepouš?] kisses you [countless times?].",
+    "bottom_proposed_czech": "[Půl hodiny?] od [Ústí?].",
+    "bottom_proposed_english": "[Half an hour?] from [Ústí?].",
+    "bottom_literal": "/ PUL RODINY OD USTI :/",
+    "scope": "Two spatial regions kept separate. Bottom HODINY is language-only alternative to literal RODINY (family), not a selected source r/H. USTI and VAMBARZA places unverified; chronology/connection unestablished."
   },
   "limitations": [
-    "Source accuracy, exact marked-body ownership and physical segmentation are unverified.",
-    "Related key-visible AI source readings followed by nonblind curation; no external or cognitive independence.",
-    "No authenticated person, sender, address, date, place or chronology.",
-    "Notation slot counts are not physical glyph counts.",
-    "Printed-caption/leading-stroke ownership, terminal flourishes and uncertain source contours remain subject to actual separate source QA.",
-    "Prior v2 static preimport rejection remains preserved; later v3 first-import success does not erase it."
+    "Same root AI, nonblind with key/earlier literal/language visible; no independent/human/external confirmation.",
+    "Five right-margin rows read after 90-degree clockwise rotation and one detached bottom run in native orientation retain IDs/order/broad geometry. Bottom run not joined narratively to main text; chronology, exact physical segmentation/body counts null or unestablished. Picture caption and ordinary date-like writing excluded.",
+    "Nine original FIRST 9 contours provisionally g/Z at separate occurrences, with 9/q-K/unresolved alternatives; no generic alias. Looped descending shapes compared in enlarged source. SECOND also selects g in several positions; source agreement is not independent confirmation.",
+    "Opening TYSICRY becomes TYSICERY by provisionally adding visible5/E before h/R; CHVYLE becomes CHVILE by1/Y→4/I; NESISL becomes NESCISL by adding s/C; PRCPZDY becomes PRCVZDY by b/P→f/V. These four choices agree with SECOND/enlarged context; former segmentation/contours retained as alternatives. Literal Y in TYSICERY, TEPOU b/P, VAMBARZA and C in PRCVZDY retained; lexical repairs only in language.",
+    "Fourteen language/spacing proposals retain TYSICERY/TISICERY,DIZ/DIK,ZRASNE/KRASNE,LISTZY/LISTKY,NESMI R-/NESMIR-,VZPO MINAM/VZPOMINAM,TEPOU/TEBOU,VAMBARZA/VAMBERKA,DO PIS/DOPIS,NESCISL NEZRATE/NESCISLNEKRATE,VZPOMINA JICI/VZPOMINAJICI,PRCVZDY/PROVZDY,PEPOU?/PEPOUS,RODINY/HODINY. NESMI R- plus NOU and PRO- plus ZITE joined only editorially. All literal spaces/hyphens retained, as are FIRST punctuation and bottom leading slash.",
+    "Bottom literal / PUL RODINY OD USTI :/ remains unchanged. Půl hodiny od Ústí is a language-only alternative to literal půl rodiny: R→H not assigned to the source. USTI/VAMBARZA spelling hypotheses do not authenticate geographic identity. Leading slash may be handwritten boundary, print-adjacent stroke or unresolved ownership; original frozen documentation omission retained, no retrospective repair.",
+    "Signature PEPOU? remains masked, physical extent unknown; S only in name proposal. All three native mark records retained whole (FIRST two, SECOND one), with current references through exact edits: FIRST h raw5→current6 after inserted5. Existing ř/CH token unchanged, no generic roof rule; modifier identity/ownership/value unresolved.",
+    "Both raw/own originals,14 shared source objects,37 whole protocol objects, initial reconciliation, whole prior QA/five projected findings unchanged. Whole previous edition Git-pinned; earlier current-relative replay/curation/editorial offsets apply there, original raw offsets remain native. No private original reader/helper FILE-byte rereads. Shared353/354 preimport incident is one historical incident, not new/lost decoder returns; original draft-mode/mark/boundary findings not repaired.",
+    "Both complete original faces/margins, clockwise-rotated Picture and enlarged main/bottom contexts viewed. Two anonymous GET200 images matched pinned hashes, no redirects/retries. Images/crops private; no separate continuous Address cipher recognized in visible frame, ordinary addressing/postal/print excluded without transcription/authentication. No proof of absence of faint/hidden material.",
+    "Names, accents, grammatical person/English subject/order, family/hour and visit/cousin/postal interpretations editorial. No sender/recipient/relationship, actual visit/posting/receipt/meeting, geography, ordinary date/place or chronology authenticated."
   ],
   "qa": {
     "status": "PASS_MECHANICAL_WITH_BOUNDED_NONBLIND_SOURCE_FINDINGS",
@@ -51360,11 +49629,6 @@
       }
     }
   ],
-  "readable_markdown_identity": {
-    "file": "prepared-batch26/cards/353.md",
-    "FILE_sha256": "d6a7dc389c7540be5ad072ea35a9970c0e16e9443be804d7a6f45636dc736521",
-    "offset_unit": "Unicode codepoints in exact UTF8-decoded Markdown text"
-  },
   "initial_reconciliation": {
     "file": "../revisions/353-initial-reconciliation.json",
     "selected_snapshot_sha256": "af466877b75b34b48a35532e1298287f1e54437534dc78ebb00a1b75a9c9ea21",
@@ -51376,5 +49640,201 @@
       "mode": "0o444"
     },
     "stage": "Initial preparation snapshot after final QA/root paired review; later execution in validation-batch26.json"
+  },
+  "source_completion_revision": "../revisions/353-source-completion.json",
+  "previous_unknown_dispositions": [
+    {
+      "line_id": "353-R1",
+      "previous_offset": 12,
+      "previous_symbol": "9",
+      "current_offset": 13,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R2",
+      "previous_offset": 5,
+      "previous_symbol": "9",
+      "current_offset": 5,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "previous_offset": 0,
+      "previous_symbol": "9",
+      "current_offset": 0,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "previous_offset": 10,
+      "previous_symbol": "9",
+      "current_offset": 10,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R3",
+      "previous_offset": 23,
+      "previous_symbol": "9",
+      "current_offset": 23,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "previous_offset": 7,
+      "previous_symbol": "9",
+      "current_offset": 7,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R4",
+      "previous_offset": 22,
+      "previous_symbol": "9",
+      "current_offset": 22,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R5",
+      "previous_offset": 12,
+      "previous_symbol": "9",
+      "current_offset": 12,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R5",
+      "previous_offset": 31,
+      "previous_symbol": "9",
+      "current_offset": 31,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "353-R5",
+      "previous_offset": 45,
+      "previous_symbol": "?",
+      "current_offset": 45,
+      "selected": "?",
+      "key_value": null,
+      "disposition": "retained unknown mask",
+      "physical_encoded_body_count": null
+    }
+  ],
+  "current_native_mark_reinspection": [
+    {
+      "actor": "FIRST",
+      "raw_line_id": "353-R2",
+      "raw_offset": 18,
+      "raw_selected": "ř",
+      "native_record_pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/mark_ledger/0",
+      "line_id": "353-R2",
+      "current_offset": 18,
+      "current_selected": "ř",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged row context retains upper/adjacent/loop/background alternatives. Mechanical string alignment and original Unicode do not certify mark ownership/value.",
+      "disposition": "Original record unchanged; no source modifier assignment or frozen documentation repair."
+    },
+    {
+      "actor": "FIRST",
+      "raw_line_id": "353-R1",
+      "raw_offset": 5,
+      "raw_selected": "h",
+      "native_record_pointer": "/original_reads/FIRST/raw_wrapper/whole_original/raw/mark_ledger/1",
+      "line_id": "353-R1",
+      "current_offset": 6,
+      "current_selected": "h",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged row context retains upper/adjacent/loop/background alternatives. Mechanical string alignment and original Unicode do not certify mark ownership/value.",
+      "disposition": "Original record unchanged; no source modifier assignment or frozen documentation repair."
+    },
+    {
+      "actor": "SECOND",
+      "raw_line_id": "R2",
+      "raw_offset": 18,
+      "raw_selected": "ř",
+      "native_record_pointer": "/original_reads/SECOND/raw_wrapper/whole_original/raw/mark_ledger/0",
+      "line_id": "353-R2",
+      "current_offset": 18,
+      "current_selected": "ř",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged row context retains upper/adjacent/loop/background alternatives. Mechanical string alignment and original Unicode do not certify mark ownership/value.",
+      "disposition": "Original record unchanged; no source modifier assignment or frozen documentation repair."
+    }
+  ],
+  "historical_provenance_scope": {
+    "previous_edition": {
+      "json": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/353.json",
+        "commit": "08606ee88a52d1ddd77db38bfee6d322d93944d7",
+        "sha256": "a532af918b85ce53a773032a04c73311d2db77df1938df7393167dc6d7907dfd",
+        "git_blob_oid": "6e33c21e99d5f52ffdfc5d8ce8aca7c7b846a0a3",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json"
+      },
+      "markdown": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/353.md",
+        "commit": "08606ee88a52d1ddd77db38bfee6d322d93944d7",
+        "sha256": "d6a7dc389c7540be5ad072ea35a9970c0e16e9443be804d7a6f45636dc736521",
+        "git_blob_oid": "127f5a28d9bbb2cb18a32d6de7e98732c3498076",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.md"
+      }
+    },
+    "prior_QA": {
+      "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/qa/whole_final_native_QA",
+      "canonical_sha256": "70ef20e121d600c46446cfcc32d92600bf71e48d31007c98e87a16c9e8611585",
+      "card_findings_pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/08606ee88a52d1ddd77db38bfee6d322d93944d7/research-updates/2026-10-20-confirmed-key-continuation/cards/353.json#/post_freeze_QA_findings",
+      "card_findings_canonical_sha256": "74de6db6d30bee82c8a84ae6a09eed37dd31b2c023e1c8da91bac261dd4eb2c7",
+      "scope": "Five card-projected historical findings/whole batch QA unchanged inline and Git-pinned; no private FILE-byte rereads or retrospective mark/boundary/documentation/permissions/preimport repair. Other cards receive no source review here."
+    },
+    "archived_fields": [
+      "candidate_date",
+      "status",
+      "selection_policy",
+      "encoded_bodies",
+      "expanded_letters",
+      "ch_occurrences",
+      "unknowns",
+      "current_replay",
+      "uncertainty_ledger",
+      "source_ledger_references",
+      "competing_source_differences",
+      "editorial_proposals",
+      "editorial_occurrences",
+      "editorial_scope",
+      "curation_provenance",
+      "publication_stage",
+      "limitations",
+      "readable_markdown_identity"
+    ],
+    "scope": "Earlier current-relative curation/replay/editorial records apply to archived edition. Original reads/source/context/protocol and prior QA/five findings unchanged; original raw offsets remain native."
   }
 }
