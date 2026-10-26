@@ -17,7 +17,7 @@ These reader editions interpret the **historical staged key and its secondary ru
 | 440 | [Czech](card-440.md#readable-czech) · [English](card-440.md#english-translation) | [Eight unknowns in the later replay and a separate m → n proposal](uncertainties/card-440.md); first prediction and post-test replay stay distinct |
 | 453 | [Partial Czech](card-453.md#source-punctuated-partial-czech) · [Candidate Czech](card-453.md#readable-czech) · [English](card-453.md#english-translation) | [138/167 mapped, 29 gaps unchanged](uncertainties/card-453.md); possible 14 and reconstructed closing remain unproved |
 
-## Current status — 22 October 2026
+## Current status — 26 October 2026
 
 [Overview](../README.md) → cards and evidence → literal text on each card page → [methods and audits](../research-updates/README.md).
 
@@ -27,7 +27,9 @@ These reader editions interpret the **historical staged key and its secondary ru
 
 ## New candidate readings — 20 October 2026
 
-The [confirmed-key continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) contains 137 source-based candidates, dated through 22 October 2026, with separate literal, editorial Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. These are not external human confirmation or solved-card claims. Cards 249 and 257 now address all selected rows as partial clauses and literal-labeled fragments; 267 and 269 address all selected rows with literal-labeled unresolved fragments and bracketed editorial conjectures; other cards also retain source and interpretation uncertainties, including cards with no displayed masks. These are separate research records, but 21 card numbers also occur among the 37 preserved reports below. The [review overview](../REVIEW_STATUS.md) explains the deduplicated total of 154 cards with a published reading, including card 204.
+Latest source review: [355](../research-updates/2026-10-20-confirmed-key-continuation/cards/355.md). Cards 355–386 have editorial working coverage with remaining uncertainties; next active review: [354](../research-updates/2026-10-20-confirmed-key-continuation/cards/354.md). This heading retains the package’s starting date; the [review overview](../REVIEW_STATUS.md) gives current status.
+
+The [confirmed-key continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) contains 137 source-based candidates, with new card numbers added through 22 October and source-review updates through 26 October 2026, with separate literal, editorial Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. These are not external human confirmation or solved-card claims. Cards 249 and 257 now address all selected rows as partial clauses and literal-labeled fragments; 267 and 269 address all selected rows with literal-labeled unresolved fragments and bracketed editorial conjectures; other cards also retain source and interpretation uncertainties, including cards with no displayed masks. These are separate research records, but 21 card numbers also occur among the 37 preserved reports below. The [review overview](../REVIEW_STATUS.md) explains the deduplicated total of 154 cards with a published reading, including card 204.
 
 | Card reading | Evidence record | Selected original face | Catalogue |
 | --- | --- | --- | --- |

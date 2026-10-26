@@ -2,9 +2,11 @@
 
 Author: Maxim Egorov
 
-## Start here — 22 October 2026
+## Start here
 
-1. [Review overview and remaining gaps](../REVIEW_STATUS.md), then [current status and overview](../README.md#current-status--22-october-2026)
+Updated 26 October 2026.
+
+1. [Review overview and remaining gaps](../REVIEW_STATUS.md), then [current status and overview](../README.md#current-status)
 2. [Cards and evidence levels](readings.md), including [card 204’s original reading and reported check](card-204.md)
 3. [Literal texts](saved-six-card-literals.md) and each card’s supporting evidence; [card 199](card-199.md) has the most complete public positional package
 4. [Methods](methods.md) and [dated historical audits](../research-updates/README.md), including the four Russian readers published in PR #19
@@ -13,7 +15,9 @@ The preserved public card reports are partial readings. Their historical reports
 
 ## Preserved research
 
-The [continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 137 canonical-key research candidates, most recently cards 383–386 (22 October 2026), with separate literal, qualified Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None is declared solved. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
+The latest source review is [355](../research-updates/2026-10-20-confirmed-key-continuation/cards/355.md); the next active review is [354](../research-updates/2026-10-20-confirmed-key-continuation/cards/354.md). See the [review overview](../REVIEW_STATUS.md) for current counts and gaps.
+
+The [continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 137 canonical-key research candidates, last expanded with new card numbers 383–386 on 22 October 2026, with separate literal, qualified Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None is declared solved. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
 
 | Record | What to expect |
 | --- | --- |
