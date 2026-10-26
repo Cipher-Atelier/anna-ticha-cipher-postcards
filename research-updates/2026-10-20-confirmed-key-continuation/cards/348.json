@@ -1,6 +1,6 @@
 {
   "card_id": "348",
-  "status": "RESEARCH_CANDIDATE_CANONICAL_KEY",
+  "status": "provisional two-row working reading; one obscured mask, two language/restoration proposals and unresolved contour/mark alternatives",
   "notation": "pdf204-canonical",
   "source": {
     "face": "Picture side",
@@ -40,33 +40,11 @@
   "lines": [
     {
       "line_id": "348-L01",
-      "ciphertext": "d4c4s b39th6f2 6 t83241? fh581? b2? ?f5 bh5th6r5 n485ms5",
-      "transcription": [
-        {
-          "offset": 23,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 34,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "reading_rotation_degrees_clockwise": 0,
-      "reading_dimensions": [
-        1785,
-        1175
+      "native_bbox_xyxy": [
+        190,
+        925,
+        1595,
+        1015
       ],
       "reading_bbox_xyxy": [
         190,
@@ -74,101 +52,56 @@
         1595,
         1015
       ],
-      "native_bbox_xyxy": [
-        190,
-        925,
-        1595,
-        1015
+      "reading_dimensions": [
+        1785,
+        1175
       ],
-      "source_visual_notes": "Spatial row transcription from displayed native-derived row with adjacent context. Rounded descending forms retained as unassigned 9-like forms; masks retain unresolved composites or obscured bodies. Broad context boxes do not establish exact individual body bounds, physical count, or ink attachment. Similar n/m, s/5, b/6 and 4-like contours remain visual reading limits; no word-based repairs.",
+      "reading_rotation_degrees_clockwise": 0,
       "physical_encoded_body_count": null,
-      "literal": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE",
+      "ciphertext": "d4c4s b3gth6f2 6 t832t1ř, fh581ř b2? cf5 bh5th6r5 n485ms5",
+      "transcription": [
+        {
+          "offset": 35,
+          "text": "?",
+          "kind": "unknown_glyph"
+        }
+      ],
+      "literal": "TISIC POZDRAVU A DLOUDYCH, VRELYCH PU? SVE PREDRAHE MILENCE",
       "encoded_bodies": 48,
-      "expanded_letters": 43,
-      "ch_occurrences": 0,
+      "expanded_letters": 49,
+      "ch_occurrences": 2,
       "unknowns": [
         {
-          "offset": 8,
-          "body_index": 7,
-          "symbol": "9",
-          "kind": "unknown_symbol"
-        },
-        {
-          "offset": 23,
-          "body_index": 20,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "body_index": 26,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 34,
+          "offset": 35,
           "body_index": 29,
           "symbol": "?",
           "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
-          "body_index": 30,
-          "symbol": "?",
-          "kind": "unknown_glyph"
         }
       ],
-      "source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5061/pc_hcp_348_pic.JPG",
-        "sha256": "3911ea4b9d80bee3f86fccd009aa47be93565c7ab9a1f61c48d91a0e4cf9a9f7",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "native_full_frame": [
-          0,
-          0,
-          1785,
-          1175
-        ]
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "first",
-        "file": "readers/first348.json",
-        "file_sha256": "ab1e0d5b3eacc6252a446fc508c3faf646515eee0775b6987d8cc47768511847",
-        "canonical_raw_sha256": "b802efc91739ab8356202e6f4b6ae56df0427a821acc389d2eadbfb781323362",
-        "line_id": "348-L01",
-        "selection_status": "frozen_FIRST_reproducible_baseline_not_accuracy_certificate",
-        "json_pointer": "/original_reads/first/original_wrapper/raw/lines/0"
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T07:24:11.291689+00:00",
-        "completed_at_utc": "2026-10-21T07:24:11.291704+00:00",
-        "executor": "related nonblind original FIRST source actor, gpt-6.1-sol",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "Unicode_normalization": false,
-        "result_ref": "/current_replay/original_object/rows/11/result",
-        "scope": "Actual separate fresh current native-LIST call; not an original own call or CP2 return."
-      }
+      "proposed_czech": "Tisíc pozdravů a [dlouhých?], vřelých [pus?] své předrahé milence",
+      "proposed_english": "A thousand greetings and [long?], warm [kisses?] to his very dear beloved",
+      "source_visual_notes": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/21ae7a82639fa2ec265f8e597923a180734476b5/research-updates/2026-10-20-confirmed-key-continuation/cards/348.json#/lines/0",
+      "frozen_row_references": [
+        {
+          "actor": "first",
+          "line_id": "348-L01",
+          "pointer": "/original_reads/first/original_wrapper/raw/lines/0"
+        },
+        {
+          "actor": "blind",
+          "line_id": "348-L01",
+          "pointer": "/original_reads/blind/original_wrapper/raw/lines/0"
+        }
+      ]
     },
     {
       "line_id": "348-L02",
-      "ciphertext": "b3c486 b5b32c.",
-      "transcription": [],
-      "reading_rotation_degrees_clockwise": 0,
-      "reading_dimensions": [
-        1785,
-        1175
+      "native_bbox_xyxy": [
+        190,
+        980,
+        1595,
+        1070
       ],
       "reading_bbox_xyxy": [
         190,
@@ -176,95 +109,44 @@
         1595,
         1070
       ],
-      "native_bbox_xyxy": [
-        190,
-        980,
-        1595,
-        1070
+      "reading_dimensions": [
+        1785,
+        1175
       ],
-      "source_visual_notes": "Spatial row transcription from displayed native-derived row with adjacent context. Rounded descending forms retained as unassigned 9-like forms; masks retain unresolved composites or obscured bodies. Broad context boxes do not establish exact individual body bounds, physical count, or ink attachment. Similar n/m, s/5, b/6 and 4-like contours remain visual reading limits; no word-based repairs.",
+      "reading_rotation_degrees_clockwise": 0,
       "physical_encoded_body_count": null,
+      "ciphertext": "b3c486 b5b32c.",
+      "transcription": [],
       "literal": "POSILA PEPOUS.",
       "encoded_bodies": 12,
       "expanded_letters": 12,
       "ch_occurrences": 0,
       "unknowns": [],
-      "source": {
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5061/pc_hcp_348_pic.JPG",
-        "sha256": "3911ea4b9d80bee3f86fccd009aa47be93565c7ab9a1f61c48d91a0e4cf9a9f7",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "native_full_frame": [
-          0,
-          0,
-          1785,
-          1175
-        ]
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "first",
-        "file": "readers/first348.json",
-        "file_sha256": "ab1e0d5b3eacc6252a446fc508c3faf646515eee0775b6987d8cc47768511847",
-        "canonical_raw_sha256": "b802efc91739ab8356202e6f4b6ae56df0427a821acc389d2eadbfb781323362",
-        "line_id": "348-L02",
-        "selection_status": "frozen_FIRST_reproducible_baseline_not_accuracy_certificate",
-        "json_pointer": "/original_reads/first/original_wrapper/raw/lines/1"
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T07:24:11.291761+00:00",
-        "completed_at_utc": "2026-10-21T07:24:11.291766+00:00",
-        "executor": "related nonblind original FIRST source actor, gpt-6.1-sol",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "Unicode_normalization": false,
-        "result_ref": "/current_replay/original_object/rows/12/result",
-        "scope": "Actual separate fresh current native-LIST call; not an original own call or CP2 return."
-      }
+      "proposed_czech": "posílá [Pepouš?].",
+      "proposed_english": "are sent by [Pepouš?].",
+      "source_visual_notes": "Whole identical FIRST/SECOND final row retained. Spatial join and signature/name/accents/English subject/pronoun interpretation editorial, no person or chronology authenticated.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/21ae7a82639fa2ec265f8e597923a180734476b5/research-updates/2026-10-20-confirmed-key-continuation/cards/348.json#/lines/1",
+      "frozen_row_references": [
+        {
+          "actor": "first",
+          "line_id": "348-L02",
+          "pointer": "/original_reads/first/original_wrapper/raw/lines/1"
+        },
+        {
+          "actor": "blind",
+          "line_id": "348-L02",
+          "pointer": "/original_reads/blind/original_wrapper/raw/lines/1"
+        }
+      ]
     }
   ],
   "rows": 2,
   "encoded_bodies": 60,
-  "expanded_letters": 55,
-  "ch_occurrences": 0,
-  "unknowns": 5,
+  "expanded_letters": 61,
+  "ch_occurrences": 2,
+  "unknowns": 1,
   "physical_encoded_body_count": null,
   "count_scope": "Decoder notation/replay slots and expanded letters only; no exact physical ink-body count. Possible modifiers on mapped bodies may remain source uncertainty without a decoder unknown.",
-  "source_curation": {
-    "prepared_at_utc": "2026-10-21T07:26:25.732032+00:00",
-    "actor": "related nonblind original FIRST source actor",
-    "model": "gpt-6.1-sol",
-    "exact_deployment": null,
-    "nonblind_release": {
-      "file": "batch25-nonblind-exchange-release.json",
-      "FILE_sha256": "0060e8abf0e5a1107f13720475e0409a99781724f3bbc825f24c6d6a1e48b8e4"
-    },
-    "CP1": {
-      "file": "batch25-frozen-reads-checkpoint.json",
-      "FILE_sha256": "36ffce48dab517cac3e461cf63fa3dfd3573f5a906960bff553d75b41b91eb83"
-    },
-    "CP2": {
-      "file": "batch25-replays-checkpoint.json",
-      "FILE_sha256": "68fcb956003de95c8fdcb3da39a11667d1e33180178833d79268aa1b7861870f"
-    },
-    "visible_key": true,
-    "independence": "Shared related AI/key-visible contexts. No human, external or cognitive independence claim; general pretraining unauditable.",
-    "selection": "FIRST exact frozen rows, ciphertext, native LIST tags, Unicode, IDs and paired geometry retained as a reproducible baseline; not an accuracy certificate.",
-    "new_source_observation": false,
-    "new_source_glyph_changes": false,
-    "current_replay_separate_from_original_own_and_CP2": true,
-    "curator_role": "nonblind curation after released immutable original source and original-own barriers"
-  },
   "source_faces_original_metadata": [
     {
       "face": "Picture side",
@@ -315,612 +197,168 @@
       ]
     }
   ],
-  "source_differences": [
-    {
-      "id": "348-source-difference-1",
-      "line_id": "348-L01",
-      "scope": "Exact native codepoint comparison; source spatial bounds and tag roles remain separate evidence.",
-      "status": "unresolved_source_alternatives",
-      "current_selection": "FIRST unchanged",
-      "ciphertext_changes": [
-        {
-          "operation": "replace",
-          "FIRST_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 21,
-            "selected": "4"
-          },
-          "SECOND_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 21,
-            "selected": "t"
-          }
-        },
-        {
-          "operation": "replace",
-          "FIRST_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 23,
-            "selected": "?"
-          },
-          "SECOND_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 23,
-            "selected": "ř,"
-          }
-        },
-        {
-          "operation": "replace",
-          "FIRST_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 30,
-            "selected": "?"
-          },
-          "SECOND_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 32,
-            "selected": "ř"
-          }
-        },
-        {
-          "operation": "replace",
-          "FIRST_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 34,
-            "selected": "?"
-          },
-          "SECOND_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 37,
-            "selected": "c"
-          }
-        },
-        {
-          "operation": "replace",
-          "FIRST_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 36,
-            "selected": "?"
-          },
-          "SECOND_ciphertext_component": {
-            "line_id": "348-L01",
-            "offset": 39,
-            "selected": "c"
-          }
-        }
-      ],
-      "FIRST_ciphertext": "d4c4s b39th6f2 6 t83241? fh581? b2? ?f5 bh5th6r5 n485ms5",
-      "SECOND_ciphertext": "d4c4s b39th6f2 6 t832t1ř, fh581ř b2c cf5 bh5th6r5 n485ms5",
-      "FIRST_transcription": [
-        {
-          "offset": 23,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 30,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 34,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 36,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "SECOND_transcription": [],
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 0,
-        "reading_dimensions": [
-          1785,
-          1175
-        ],
-        "reading_bbox_xyxy": [
-          190,
-          925,
-          1595,
-          1015
-        ],
-        "native_bbox_xyxy": [
-          190,
-          925,
-          1595,
-          1015
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 0,
-        "reading_dimensions": [
-          1785,
-          1175
-        ],
-        "reading_bbox_xyxy": [
-          215,
-          925,
-          1560,
-          1020
-        ],
-        "native_bbox_xyxy": [
-          215,
-          925,
-          1560,
-          1020
-        ]
-      },
-      "FIRST_original_ref": "/original_reads/first",
-      "SECOND_original_ref": "/original_reads/blind",
-      "source_claim": "Masks versus separate base/combining codepoints, spacing, ordinary contours and terminal possible trace remain visible. Neither decoded Czech nor prose proposals select glyphs."
-    },
-    {
-      "id": "348-source-difference-2",
-      "line_id": "348-L02",
-      "scope": "Exact native codepoint comparison; source spatial bounds and tag roles remain separate evidence.",
-      "status": "same_ciphertext_and_tags_not_independent_confirmation",
-      "current_selection": "FIRST unchanged",
-      "ciphertext_changes": [],
-      "FIRST_ciphertext": "b3c486 b5b32c.",
-      "SECOND_ciphertext": "b3c486 b5b32c.",
-      "FIRST_transcription": [],
-      "SECOND_transcription": [],
-      "FIRST_geometry": {
-        "reading_rotation_degrees_clockwise": 0,
-        "reading_dimensions": [
-          1785,
-          1175
-        ],
-        "reading_bbox_xyxy": [
-          190,
-          980,
-          1595,
-          1070
-        ],
-        "native_bbox_xyxy": [
-          190,
-          980,
-          1595,
-          1070
-        ]
-      },
-      "SECOND_geometry": {
-        "reading_rotation_degrees_clockwise": 0,
-        "reading_dimensions": [
-          1785,
-          1175
-        ],
-        "reading_bbox_xyxy": [
-          550,
-          990,
-          940,
-          1065
-        ],
-        "native_bbox_xyxy": [
-          550,
-          990,
-          940,
-          1065
-        ]
-      },
-      "FIRST_original_ref": "/original_reads/first",
-      "SECOND_original_ref": "/original_reads/blind",
-      "source_claim": "Masks versus separate base/combining codepoints, spacing, ordinary contours and terminal possible trace remain visible. Neither decoded Czech nor prose proposals select glyphs."
-    }
-  ],
   "uncertainty_ledger": [
     {
-      "entry_id": "348-uncertainty_ledger-0",
       "line_id": "348-L01",
       "offset": 8,
-      "selected": "9",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/uncertainty_ledger/0",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "first",
+      "raw_offset": 8,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-uncertainty_ledger-1",
+      "line_id": "348-L01",
+      "offset": 21,
+      "selected": "t",
+      "alternatives": [
+        "4",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "first",
+      "raw_offset": 21,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
+    },
+    {
       "line_id": "348-L01",
       "offset": 23,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/uncertainty_ledger/1",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "selected": "ř,",
+      "alternatives": [
+        "?",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "first",
+      "raw_offset": 23,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-uncertainty_ledger-2",
       "line_id": "348-L01",
-      "offset": 30,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/uncertainty_ledger/2",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "offset": 31,
+      "selected": "ř",
+      "alternatives": [
+        "?",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "first",
+      "raw_offset": 30,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-uncertainty_ledger-3",
       "line_id": "348-L01",
-      "offset": 34,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/uncertainty_ledger/3",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "offset": 37,
+      "selected": "c",
+      "alternatives": [
+        "?",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "first",
+      "raw_offset": 36,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-uncertainty_ledger-4",
       "line_id": "348-L01",
-      "offset": 36,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/uncertainty_ledger/4",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
-    }
-  ],
-  "current_mark_ledger": [
+      "offset": 8,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "blind",
+      "raw_offset": 8,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
+    },
     {
-      "entry_id": "348-mark_ledger-0",
       "line_id": "348-L01",
       "offset": 23,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/mark_ledger/0",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "selected": "ř",
+      "alternatives": [
+        "ř",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "blind",
+      "raw_offset": 23,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-mark_ledger-1",
       "line_id": "348-L01",
-      "offset": 30,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/mark_ledger/1",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "offset": 31,
+      "selected": "ř",
+      "alternatives": [
+        "ř",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "blind",
+      "raw_offset": 32,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-mark_ledger-2",
       "line_id": "348-L01",
-      "offset": 34,
+      "offset": 35,
       "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/mark_ledger/2",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "alternatives": [
+        "c",
+        "other unresolved contour/composite/segmentation"
+      ],
+      "raw_actor": "blind",
+      "raw_offset": 37,
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-mark_ledger-3",
       "line_id": "348-L01",
-      "offset": 36,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/mark_ledger/3",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
-    }
-  ],
-  "current_question_role_inventory": [
+      "offset": 8,
+      "selected": "g",
+      "alternatives": [
+        "9/q-K or other descending contour"
+      ],
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
+    },
     {
-      "entry_id": "348-question_role_inventory-0",
       "line_id": "348-L01",
       "offset": 23,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/question_role_inventory/0",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "selected": "ř",
+      "alternatives": [
+        "r/H plus unassigned overhead trace",
+        "mask/other composite; attachment unresolved"
+      ],
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-question_role_inventory-1",
       "line_id": "348-L01",
-      "offset": 30,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/question_role_inventory/1",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "offset": 31,
+      "selected": "ř",
+      "alternatives": [
+        "r/H plus unassigned overhead trace",
+        "mask/other composite; attachment unresolved"
+      ],
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     },
     {
-      "entry_id": "348-question_role_inventory-2",
       "line_id": "348-L01",
-      "offset": 34,
+      "offset": 35,
       "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/question_role_inventory/2",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
-    },
-    {
-      "entry_id": "348-question_role_inventory-3",
-      "line_id": "348-L01",
-      "offset": 36,
-      "selected": "?",
-      "original_entry_ref": "/original_reads/first/original_wrapper/raw/question_role_inventory/3",
-      "scope": "Exact current FIRST source entry; whole native source record and geometry preserved at reference, not rewritten by curation."
+      "alternatives": [
+        "obscured c/S proposal from SECOND",
+        "physical length/identity unresolved"
+      ],
+      "reason": "Descending loop provisionally g/Z in POZDRAVU; heavy crossed ascender t/D selected against FIRST 4/I, matching SECOND, so literal DLOUDYCH remains before language D→H repair. Two roofed r-like forms selected as canonical ř/CH, without accent stripping or general roof rule. Small lower stroke after first composite selected comma. Open contour before f5 provisionally c/S. Darkened PU? body remains masked against SECOND c/S. Earlier contour/composite/mask alternatives remain.",
+      "physical_encoded_body_count": null
     }
   ],
-  "current_segmentation_ledger": [],
-  "current_source_evidence_scope": {
-    "original_source_record_ref": "/original_reads/first/original_wrapper/raw",
-    "mark_coverage_inventory_ref": "/original_reads/first/original_wrapper/raw/mark_coverage_inventory",
-    "row_mark_sweep_ref": "/original_reads/first/original_wrapper/raw/row_mark_sweep",
-    "source_locator_preflight_ref": "/original_reads/first/original_wrapper/raw/source_locator_preflight",
-    "bounded_opposite_face_observations_ref": "/original_phase1_records",
-    "question_role": "Every selected ? is an unknown mask, not a claimed written question. Unknown masks may have unestablished physical length.",
-    "limits": "Whole original faces and broad source contexts do not establish exact body bounds, modifier ownership, physical segmentation, authenticated chronology, sender identity or exhaustive source completeness. Both original whole Address-face negative observations remain preserved before freezes.",
-    "ordinary_exclusions": "Ordinary address/person/postal writing, printed captions and separate numerical/date-like writing are excluded from transcription. Date context remains original and unverified; no date or identity inferred."
-  },
-  "editorial_reading": {
-    "status": "TENTATIVE_PROPOSED_CZ_EN_NOT_SOURCE_GLYPH_REPAIR",
-    "rows": [
-      {
-        "line_id": "348-L01",
-        "literal": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE",
-        "cz": "[Tisíc pozdravů a snad dlouhých, vřelých pus své předrahé milence — délka i koncovky polibků, doplnění přes masky a ženský adresát se zájmenným vztahem jsou návrhy.]",
-        "en": "[A thousand greetings and perhaps long, warm kisses to the sender's very dear beloved — the length and endings of the kisses, restorations across masks, feminine recipient and possessive relation are proposals.]",
-        "whole_block_literal_components": [
-          {
-            "line_id": "348-L01",
-            "offset": 0,
-            "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-          }
-        ],
-        "segments": [
-          {
-            "id": "348-L01-proposal-1",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L01",
-                "offset": 6,
-                "selected": "PO9DRAVU"
-              }
-            ],
-            "cz_proposal": "pozdravů; doplnění neznámého tvaru",
-            "en_proposal": "greetings; restoration of an unknown form",
-            "source_glyph_selection_changed": false
-          },
-          {
-            "id": "348-L01-proposal-2",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L01",
-                "offset": 17,
-                "selected": "DLOUIY? VRELY? PU? ?VE"
-              }
-            ],
-            "cz_proposal": "snad dlouhých, vřelých pus své; opravy nepravidelných tvarů a masky neřeší skutečnou segmentaci",
-            "en_proposal": "perhaps long, warm kisses to the sender's; repairs and masks do not establish actual segmentation",
-            "source_glyph_selection_changed": false
-          },
-          {
-            "id": "348-L01-proposal-3",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L01",
-                "offset": 40,
-                "selected": "PREDRAHE MILENCE"
-              }
-            ],
-            "cz_proposal": "předrahé milence; navržená ženská adresátka a vztah bez totožnosti",
-            "en_proposal": "very dear beloved; proposed feminine recipient and relation without identification",
-            "source_glyph_selection_changed": false
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "id": "348-L01-cz",
-            "language": "cz",
-            "occurrence": "[Tisíc pozdravů a snad dlouhých, vřelých pus své předrahé milence — délka i koncovky polibků, doplnění přes masky a ženský adresát se zájmenným vztahem jsou návrhy.]",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L01",
-                "offset": 0,
-                "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-              }
-            ],
-            "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-            "occurrence_field_ref": "/editorial_reading/rows/0/cz"
-          },
-          {
-            "id": "348-L01-en",
-            "language": "en",
-            "occurrence": "[A thousand greetings and perhaps long, warm kisses to the sender's very dear beloved — the length and endings of the kisses, restorations across masks, feminine recipient and possessive relation are proposals.]",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L01",
-                "offset": 0,
-                "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-              }
-            ],
-            "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-            "occurrence_field_ref": "/editorial_reading/rows/0/en"
-          }
-        ],
-        "coverage": "Entire selected row, including unassigned forms and any terminal fragment; no span claims physical count.",
-        "english_scope": "Tentative source-order fragment with matching Czech qualifications."
-      },
-      {
-        "line_id": "348-L02",
-        "literal": "POSILA PEPOUS.",
-        "cz": "[posílá snad Pepouš — možné jméno nebo podpis, bez určení totožnosti; spojení s předchozím řádkem je prostorový a výkladový návrh.]",
-        "en": "[sent by someone perhaps called Pepouš — a possible name or signature without an identified person; the connection with the previous row is a spatial and editorial proposal.]",
-        "whole_block_literal_components": [
-          {
-            "line_id": "348-L02",
-            "offset": 0,
-            "selected": "POSILA PEPOUS."
-          }
-        ],
-        "segments": [
-          {
-            "id": "348-L02-proposal-1",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L02",
-                "offset": 0,
-                "selected": "POSILA PEPOUS."
-              }
-            ],
-            "cz_proposal": "posílá snad Pepouš; navržená diakritika a možné jméno/podpis",
-            "en_proposal": "sent by someone perhaps called Pepouš; proposed diacritics and possible name/signature",
-            "source_glyph_selection_changed": false
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "id": "348-L02-cz",
-            "language": "cz",
-            "occurrence": "[posílá snad Pepouš — možné jméno nebo podpis, bez určení totožnosti; spojení s předchozím řádkem je prostorový a výkladový návrh.]",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L02",
-                "offset": 0,
-                "selected": "POSILA PEPOUS."
-              }
-            ],
-            "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-            "occurrence_field_ref": "/editorial_reading/rows/1/cz"
-          },
-          {
-            "id": "348-L02-en",
-            "language": "en",
-            "occurrence": "[sent by someone perhaps called Pepouš — a possible name or signature without an identified person; the connection with the previous row is a spatial and editorial proposal.]",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L02",
-                "offset": 0,
-                "selected": "POSILA PEPOUS."
-              }
-            ],
-            "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-            "occurrence_field_ref": "/editorial_reading/rows/1/en"
-          }
-        ],
-        "coverage": "Entire selected row, including unassigned forms and any terminal fragment; no span claims physical count.",
-        "english_scope": "Tentative source-order fragment with matching Czech qualifications."
-      }
-    ],
-    "whole_text_cz": "[Nejistá souvislá rekonstrukce: Tisíc pozdravů a snad dlouhých, vřelých pus své předrahé milence posílá snad Pepouš. Přídavné jméno dlouhých, koncovky přes masky, doplnění poškozených tvarů, diakritika, ženská adresátka, zájmenný vztah i možné jméno nebo podpis Pepouš jsou výkladové návrhy; skutečná segmentace neznámých shluků ani totožnost osob nejsou určeny.]",
-    "whole_text_en": "[Tentative connected reading: A sender perhaps called Pepouš sends a thousand greetings and perhaps long, warm kisses to the sender's very dear beloved. The adjective 'long', masked endings, restoration of obscured forms, diacritics, feminine recipient, possessive relation and possible name or signature Pepouš are interpretive proposals; the actual segmentation of unknown clusters and the identities of the people remain unestablished.]",
-    "whole_text_literal_components": [
-      {
-        "line_id": "348-L01",
-        "offset": 0,
-        "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-      },
-      {
-        "line_id": "348-L02",
-        "offset": 0,
-        "selected": "POSILA PEPOUS."
-      }
-    ],
-    "whole_passage_bracketed_occurrence_mappings": [
-      {
-        "id": "348-whole-cz",
-        "language": "cz",
-        "occurrence": "[Nejistá souvislá rekonstrukce: Tisíc pozdravů a snad dlouhých, vřelých pus své předrahé milence posílá snad Pepouš. Přídavné jméno dlouhých, koncovky přes masky, doplnění poškozených tvarů, diakritika, ženská adresátka, zájmenný vztah i možné jméno nebo podpis Pepouš jsou výkladové návrhy; skutečná segmentace neznámých shluků ani totožnost osob nejsou určeny.]",
-        "status": "tentative_editorial_proposal",
-        "literal_components": [
-          {
-            "line_id": "348-L01",
-            "offset": 0,
-            "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-          },
-          {
-            "line_id": "348-L02",
-            "offset": 0,
-            "selected": "POSILA PEPOUS."
-          }
-        ],
-        "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-        "occurrence_field_ref": "/editorial_reading/whole_text_cz"
-      },
-      {
-        "id": "348-whole-en",
-        "language": "en",
-        "occurrence": "[Tentative connected reading: A sender perhaps called Pepouš sends a thousand greetings and perhaps long, warm kisses to the sender's very dear beloved. The adjective 'long', masked endings, restoration of obscured forms, diacritics, feminine recipient, possessive relation and possible name or signature Pepouš are interpretive proposals; the actual segmentation of unknown clusters and the identities of the people remain unestablished.]",
-        "status": "tentative_editorial_proposal",
-        "literal_components": [
-          {
-            "line_id": "348-L01",
-            "offset": 0,
-            "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-          },
-          {
-            "line_id": "348-L02",
-            "offset": 0,
-            "selected": "POSILA PEPOUS."
-          }
-        ],
-        "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-        "occurrence_field_ref": "/editorial_reading/whole_text_en"
-      }
-    ],
-    "cross_row_proposals": [
-      {
-        "proposal_id": "348-J1",
-        "status": "tentative_noncontiguous_editorial_join",
-        "scope": "Separate literal components across source rows; no fabricated contiguous span, chronology or source-word-boundary assertion.",
-        "literal_components": [
-          {
-            "line_id": "348-L01",
-            "offset": 0,
-            "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-          },
-          {
-            "line_id": "348-L02",
-            "offset": 0,
-            "selected": "POSILA PEPOUS."
-          }
-        ],
-        "cz": "[Pozdravy a snad dlouhé, vřelé polibky své předrahé milence posílá snad Pepouš — propojení obou řádků, příjemkyně, přivlastnění, opravy a jméno jsou návrhy.]",
-        "en": "[Greetings and perhaps long, warm kisses to the sender's very dear beloved are sent by someone perhaps called Pepouš — the connection of both rows, feminine recipient, possessive relation, repairs and name are proposals.]",
-        "bracketed_occurrence_mappings": [
-          {
-            "id": "348-J1-cz",
-            "language": "cz",
-            "occurrence": "[Pozdravy a snad dlouhé, vřelé polibky své předrahé milence posílá snad Pepouš — propojení obou řádků, příjemkyně, přivlastnění, opravy a jméno jsou návrhy.]",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L01",
-                "offset": 0,
-                "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-              },
-              {
-                "line_id": "348-L02",
-                "offset": 0,
-                "selected": "POSILA PEPOUS."
-              }
-            ],
-            "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-            "occurrence_field_ref": "/editorial_reading/cross_row_proposals/0/cz"
-          },
-          {
-            "id": "348-J1-en",
-            "language": "en",
-            "occurrence": "[Greetings and perhaps long, warm kisses to the sender's very dear beloved are sent by someone perhaps called Pepouš — the connection of both rows, feminine recipient, possessive relation, repairs and name are proposals.]",
-            "status": "tentative_editorial_proposal",
-            "literal_components": [
-              {
-                "line_id": "348-L01",
-                "offset": 0,
-                "selected": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE"
-              },
-              {
-                "line_id": "348-L02",
-                "offset": 0,
-                "selected": "POSILA PEPOUS."
-              }
-            ],
-            "scope": "These exact selected literal spans support the proposal as a whole; this is not an assertion of physical glyph segmentation or a source-contiguous join.",
-            "occurrence_field_ref": "/editorial_reading/cross_row_proposals/0/en"
-          }
-        ]
-      }
-    ],
-    "qualifications": [
-      "All prose is proposed; original literal is retained unchanged.",
-      "Every bracketed Czech/English occurrence maps to exact selected literal codepoint spans. Whole passages cite every row. Cross-row proposals carry separate components.",
-      "Diacritics, grammatical endings, word boundaries, contractions, syntactic rearrangements and irregular literal repairs are editorial, never glyph selection.",
-      "Names, places, affectionate forms, gender, pronoun referents, count/day interpretation and signature function remain proposals without identities or chronology.",
-      "No ordinary date/address transcription or contextual identity inference."
-    ],
-    "method": "Full proposed source-order fragments, explicit uncertain joins and a connected full passage; uncertainty is retained rather than silently smoothed.",
-    "spatial_order_only": true,
-    "authenticated_chronology": false,
-    "identity_established": false,
-    "source_order_text_en": "The exact English source-order fragments are stored in editorial_reading.rows, en fields."
-  },
   "qa": {
     "status": "MECHANICAL_PASS_WITH_BOUNDED_SOURCE_FINDING",
     "final_pending": false,
@@ -32658,7 +32096,6 @@
       }
     }
   },
-  "publication_stage": "The initial snapshot records the candidate preparation state. Later execution, publication and review results belong in validation-batch25.json. This preparation does not itself authorize snapshot creation or public import.",
   "normalizations": [],
   "original_reads": {
     "first": {
@@ -46352,544 +45789,6 @@
       ]
     }
   ],
-  "current_replay": {
-    "id": "curate25-347348-current-replay.json",
-    "file": "curate25-347348-current-replay.json",
-    "file_sha256": "0208786855d78d8019d0b70ea298ea2ddda75788e701e2088025187f0633c036",
-    "format": "json",
-    "original_object": {
-      "status": "CURRENT_SELECTION_NATIVE_REPLAY_PASS",
-      "pair": "curate25-347348",
-      "executor": "related nonblind original FIRST source actor, gpt-6.1-sol",
-      "model": "gpt-6.1-sol",
-      "exact_deployment": null,
-      "seed": null,
-      "temperature": null,
-      "separate_from_original_own_and_CP2": true,
-      "nonblind_release_FILE_sha256": "0060e8abf0e5a1107f13720475e0409a99781724f3bbc825f24c6d6a1e48b8e4",
-      "import_started_at_utc": "2026-10-21T07:24:11.286784+00:00",
-      "import_completed_at_utc": "2026-10-21T07:24:11.290670+00:00",
-      "completed_at_utc": "2026-10-21T07:24:11.291953+00:00",
-      "code_FILE_sha256": {
-        "decode.py": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key.json": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "check.py": "a7235f31ad577b67938846bb80f9856d03908821567e97adf1fda9629ca98d10"
-      },
-      "call_contract": {
-        "function": "decode_text",
-        "notation": "pdf204-canonical",
-        "ciphertext": "exact frozen FIRST raw row",
-        "transcription": "exact native LIST from frozen FIRST raw row",
-        "adapter_used": false,
-        "Unicode_normalization": false
-      },
-      "journal": {
-        "file": "curate25-347348-current-replay.jsonl",
-        "FILE_sha256": "147e3472ac2863364bdb7f9befccc6b66dae2afc85886e4042fb784045dc30e6"
-      },
-      "rows": [
-        {
-          "card_id": 347,
-          "line_id": "347-L01",
-          "ciphertext": "986d3 n375! d4c4s5h1 t49 96 tmscm4 th6r1 84cd59",
-          "transcription": [],
-          "result": {
-            "literal": "9LATO MOJE! TISICERY DI9 9A DNCSNI DRAHY LISTE9",
-            "encoded_bodies": 39,
-            "expanded_letters": 35,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 0,
-                "body_index": 0,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 23,
-                "body_index": 19,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 25,
-                "body_index": 20,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 46,
-                "body_index": 38,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.290818+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.290838+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L02",
-          "ciphertext": "4 96 84cd59 9 96n5m4s5. 3tb2cd,95 n8s5m4n cf1n",
-          "transcription": [],
-          "result": {
-            "literal": "I 9A LISTE9 9 9AMENICE. ODPUST,9E MLCENIM SVYM",
-            "encoded_bodies": 37,
-            "expanded_letters": 32,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 2,
-                "body_index": 1,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 10,
-                "body_index": 8,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 12,
-                "body_index": 9,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 14,
-                "body_index": 10,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 31,
-                "body_index": 24,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.290962+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.290975+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L03",
-          "ciphertext": "9m5b393748 7c5n c86t95 cht5s93 df375. 9dh6f48 7c5n",
-          "transcription": [],
-          "result": {
-            "literal": "9NEPO9OJIL JSEM SLAD9E SRDEC9O TVOJE. 9TRAVIL JSEM",
-            "encoded_bodies": 43,
-            "expanded_letters": 38,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 0,
-                "body_index": 0,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 5,
-                "body_index": 5,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 20,
-                "body_index": 18,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 28,
-                "body_index": 25,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 38,
-                "body_index": 32,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291047+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291059+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L04",
-          "ciphertext": "f m2dm1? t3n6s4? 968594d3cd3? sd1h1 tm1 f2cd4",
-          "transcription": [
-            {
-              "offset": 7,
-              "text": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 15,
-              "text": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 28,
-              "text": "?",
-              "kind": "unknown_glyph"
-            }
-          ],
-          "result": {
-            "literal": "V NUTNY? DOMACI? 9ALE9ITOSTO? CTYRY DNY VUSTI",
-            "encoded_bodies": 39,
-            "expanded_letters": 34,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 7,
-                "body_index": 6,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              },
-              {
-                "offset": 15,
-                "body_index": 13,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              },
-              {
-                "offset": 17,
-                "body_index": 14,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 21,
-                "body_index": 18,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 28,
-                "body_index": 25,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291121+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291141+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L05",
-          "ciphertext": "6 n1n4 9t5 n6n5 96 bh4s4m32 93msshd2 93s46m3f6",
-          "transcription": [],
-          "result": {
-            "literal": "A MYMI 9DE MAME 9A PRICINOU 9ONCCRTU 9OCIANOVA",
-            "encoded_bodies": 39,
-            "expanded_letters": 35,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 7,
-                "body_index": 5,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 16,
-                "body_index": 12,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 28,
-                "body_index": 22,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 37,
-                "body_index": 30,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291197+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291207+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L06",
-          "ciphertext": "m6fcd5f32 b3cf3hd6 9 84bc96. bh3n4m n4 d4t49",
-          "transcription": [],
-          "result": {
-            "literal": "NAVSTEVOU POSVORTA 9 LIPS9A. PROMIN MI TIDI9",
-            "encoded_bodies": 37,
-            "expanded_letters": 34,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 19,
-                "body_index": 17,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 25,
-                "body_index": 22,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 43,
-                "body_index": 36,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291284+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291300+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L07",
-          "ciphertext": "c t3b4c5n 45cd5 m593849 n683 tm2. 7c5n m1m4,",
-          "transcription": [],
-          "result": {
-            "literal": "S DOPISEM IESTE NE9OLI9 MALO DNU. JSEM NYNI,",
-            "encoded_bodies": 35,
-            "expanded_letters": 33,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 18,
-                "body_index": 15,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 22,
-                "body_index": 19,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291387+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291397+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L08",
-          "ciphertext": "t491 p3r2, 9th6f 6 f9b3n4m6n m6 cf374 c86t932,",
-          "transcription": [],
-          "result": {
-            "literal": "DI9Y BOHU, 9DRAV A V9POMINAM NA SVOJI SLAD9OU,",
-            "encoded_bodies": 37,
-            "expanded_letters": 33,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 2,
-                "body_index": 2,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 11,
-                "body_index": 8,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 20,
-                "body_index": 15,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 42,
-                "body_index": 34,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291453+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291463+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L09",
-          "ciphertext": "h39d3ns832 6mt2892 s3 m57s6cd574. — nm3r3",
-          "transcription": [],
-          "result": {
-            "literal": "RO9TOMCLOU ANDUL9U CO NEJCASTEJI. — MNOHO",
-            "encoded_bodies": 34,
-            "expanded_letters": 32,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 2,
-                "body_index": 2,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 16,
-                "body_index": 15,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291517+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291529+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L10",
-          "ciphertext": "fh581? b2c 6 b39th6f2 d4 b3c486 f5sm5 df2r7",
-          "transcription": [
-            {
-              "offset": 5,
-              "text": "?",
-              "kind": "unknown_glyph"
-            }
-          ],
-          "result": {
-            "literal": "VRELY? PUS A PO9DRAVU TI POSILA VECNE TVUHJ",
-            "encoded_bodies": 36,
-            "expanded_letters": 34,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 5,
-                "body_index": 5,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              },
-              {
-                "offset": 15,
-                "body_index": 12,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291586+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291597+00:00"
-        },
-        {
-          "card_id": 347,
-          "line_id": "347-L11",
-          "ciphertext": "b5b32c.",
-          "transcription": [],
-          "result": {
-            "literal": "PEPOUS.",
-            "encoded_bodies": 6,
-            "expanded_letters": 6,
-            "ch_occurrences": 0,
-            "unknowns": []
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291642+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291646+00:00"
-        },
-        {
-          "card_id": 348,
-          "line_id": "348-L01",
-          "ciphertext": "d4c4s b39th6f2 6 t83241? fh581? b2? ?f5 bh5th6r5 n485ms5",
-          "transcription": [
-            {
-              "offset": 23,
-              "text": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 30,
-              "text": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 34,
-              "text": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 36,
-              "text": "?",
-              "kind": "unknown_glyph"
-            }
-          ],
-          "result": {
-            "literal": "TISIC PO9DRAVU A DLOUIY? VRELY? PU? ?VE PREDRAHE MILENCE",
-            "encoded_bodies": 48,
-            "expanded_letters": 43,
-            "ch_occurrences": 0,
-            "unknowns": [
-              {
-                "offset": 8,
-                "body_index": 7,
-                "symbol": "9",
-                "kind": "unknown_symbol"
-              },
-              {
-                "offset": 23,
-                "body_index": 20,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              },
-              {
-                "offset": 30,
-                "body_index": 26,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              },
-              {
-                "offset": 34,
-                "body_index": 29,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              },
-              {
-                "offset": 36,
-                "body_index": 30,
-                "symbol": "?",
-                "kind": "unknown_glyph"
-              }
-            ]
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291689+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291704+00:00"
-        },
-        {
-          "card_id": 348,
-          "line_id": "348-L02",
-          "ciphertext": "b3c486 b5b32c.",
-          "transcription": [],
-          "result": {
-            "literal": "POSILA PEPOUS.",
-            "encoded_bodies": 12,
-            "expanded_letters": 12,
-            "ch_occurrences": 0,
-            "unknowns": []
-          },
-          "call_started_at_utc": "2026-10-21T07:24:11.291761+00:00",
-          "call_completed_at_utc": "2026-10-21T07:24:11.291766+00:00"
-        }
-      ],
-      "actual_calls": 13,
-      "current_native_five_fields_equal_original_own": true,
-      "physical_encoded_body_count": null,
-      "scope": "Actual fresh current candidate replay after nonblind release; not an original own call or CP2 replacement. Saved-string reproduction does not establish ink accuracy or cognitive independence."
-    }
-  },
   "publication_projection": {
     "recorded_at_utc": "2026-10-21T07:44:58.641671+00:00",
     "status": "AUTHORIZED_TWO_OPERATOR_TEXT_PUBLIC_PROJECTION",
@@ -46967,5 +45866,292 @@
     "sha256": "a78693b03ad93d7c62c7275f6a6aaeb61b4f19152862c4b97f9b5d61368e66a1",
     "selected_sha256": "70c2c838563211efc450f7ebf7db798356a811ae5b270760e2d62f854a0cd6ff",
     "created_at_utc": "2026-10-21T07:48:17.827023+00:00"
+  },
+  "source_completion_revision": "../revisions/348-source-completion.json",
+  "limitations": [
+    "Same root AI, nonblind key/earlier literal/language-visible source review; no independent/human/external confirmation.",
+    "Two native-orientation lower-panel rows retain IDs/order/broad geometry. Prose joins their spatial sequence editorially; serialization is not authenticated chronology. Ordinary caption/date/address/person/postal material excluded without transcription/authentication. Physical encoded-body totals null.",
+    "Five occurrence-specific body choices: FIRST 9→g/Z in POZDRAVU; FIRST 4→t/D in DLOUDYCH matching SECOND and heavy crossed ascender; FIRST two terminal masks→canonical ř/CH from r-like bases with roofed contours matching SECOND r+U+030C representations; FIRST mask before f5→c/S from open rounded contour matching SECOND. A comma is selected after first CH, matching SECOND/visible small lower stroke. Earlier 9/q-K,4/I,mask/modified-body/other-boundary alternatives remain. No generic roof/9 alias or Unicode normalization applied.",
+    "Darkened body in PU? remains one unknown-glyph display slot against SECOND c/S proposal. Its identity/physical length unresolved; PUS is language-only restoration. One current mask does not establish one physical unread letter. All other FIRST gaps/punctuation retained apart from selected comma.",
+    "Two substantive language/restoration proposals: DLOUDYCH→DLOUHYCH (D→H only linguistic) and PU?→PUS. Accents, Pepouš signature interpretation, grammatical gender, possessive relation and English his are editorial; no actual person/relationship/sending/receipt/date or geographic identity authenticated.",
+    "All 8 native mark records retained whole (FIRST 4,SECOND 4) with explicit current spans. Both SECOND r+combining-caron pairs project to one canonical ř occurrence each; base and overhead trace records share a span, not a one-to-one codepoint/physical-body alignment. Provisional composite selection does not establish mark attachment/value or a generic modifier rule. FIRST current mask tags removed only at three assigned occurrences; remaining mask offset shifts by one for comma insertion. Frozen original strings/tags/codepoints unchanged.",
+    "Whole raw wrappers/own strict outputs, 2 source-face metadata, 4 phase1 records, 3 source-review manifests, 15 source-protocol entries and 6 execution records unchanged. Protocol comprises 12 whole JSON values, one whole text, two externally described operator-text FILE descriptors. Whole historical QA/root review unchanged; shared 350 upper-spot finding is not transferred to 348 or reinspected. Whole previous edition Git-pinned; older current-relative replay/curation/editorial ledgers apply there. No private original reader/helper FILE-byte rereads.",
+    "Both complete faces/all margins and enlarged main/roofed/obscured contexts viewed. Two anonymous GET200 originals match pinned hashes, no redirects/retries; images/crops private. No separate continuous Address cipher recognized in visible frame; ordinary addressing/postal writing excluded without authentication, no proof of absence of faint/hidden material. Full proposed sentence does not certify source accuracy or solve."
+  ],
+  "totals": {
+    "rows": 2,
+    "encoded_bodies": 60,
+    "expanded_letters": 61,
+    "ch_occurrences": 2,
+    "unknowns": 1
+  },
+  "previous_unknown_dispositions": [
+    {
+      "line_id": "348-L01",
+      "previous_offset": 8,
+      "previous_symbol": "9",
+      "current_offset": 8,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour/composite assignment; earlier alternatives retained",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "348-L01",
+      "previous_offset": 23,
+      "previous_symbol": "?",
+      "current_offset": 23,
+      "selected": "ř",
+      "key_value": "CH",
+      "disposition": "provisional occurrence-specific contour/composite assignment; earlier alternatives retained",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "348-L01",
+      "previous_offset": 30,
+      "previous_symbol": "?",
+      "current_offset": 31,
+      "selected": "ř",
+      "key_value": "CH",
+      "disposition": "provisional occurrence-specific contour/composite assignment; earlier alternatives retained",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "348-L01",
+      "previous_offset": 34,
+      "previous_symbol": "?",
+      "current_offset": 35,
+      "selected": "?",
+      "key_value": null,
+      "disposition": "retained obscured unknown mask",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "348-L01",
+      "previous_offset": 36,
+      "previous_symbol": "?",
+      "current_offset": 37,
+      "selected": "c",
+      "key_value": "S",
+      "disposition": "provisional occurrence-specific contour/composite assignment; earlier alternatives retained",
+      "physical_encoded_body_count": null
+    }
+  ],
+  "current_tag_changes": [
+    {
+      "line_id": "348-L01",
+      "previous_tags": [
+        {
+          "offset": 23,
+          "text": "?",
+          "kind": "unknown_glyph"
+        },
+        {
+          "offset": 30,
+          "text": "?",
+          "kind": "unknown_glyph"
+        },
+        {
+          "offset": 34,
+          "text": "?",
+          "kind": "unknown_glyph"
+        },
+        {
+          "offset": 36,
+          "text": "?",
+          "kind": "unknown_glyph"
+        }
+      ],
+      "current_tags": [
+        {
+          "offset": 35,
+          "text": "?",
+          "kind": "unknown_glyph"
+        }
+      ],
+      "removed_previous_offsets": [
+        23,
+        30,
+        36
+      ],
+      "retained_previous_offset": 34,
+      "retained_current_offset": 35,
+      "offset_shift_reason": "one comma inserted after first selected CH",
+      "scope": "Current tags only; frozen original tags unchanged."
+    }
+  ],
+  "passages": {
+    "proposed_czech": "Tisíc pozdravů a [dlouhých?], vřelých [pus?] své předrahé milence posílá [Pepouš?].",
+    "proposed_english": "[Pepouš?] sends a thousand greetings and [long?], warm [kisses?] to his very dear beloved.",
+    "scope": "Both selected rows joined editorially in spatial order. English moves final signature subject first and uses his editorially; no person/relationship/chronology authenticated. Masked PUS restoration and D→H adjective repair remain language-only."
+  },
+  "current_native_mark_reinspection": [
+    {
+      "actor": "first",
+      "raw_line_id": "348-L01",
+      "raw_offset": 23,
+      "raw_selected": "?",
+      "native_record_pointer": "/original_reads/first/original_wrapper/raw/mark_ledger/0",
+      "line_id": "348-L01",
+      "current_offset": 23,
+      "current_end": 24,
+      "current_selected": "ř",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    },
+    {
+      "actor": "first",
+      "raw_line_id": "348-L01",
+      "raw_offset": 30,
+      "raw_selected": "?",
+      "native_record_pointer": "/original_reads/first/original_wrapper/raw/mark_ledger/1",
+      "line_id": "348-L01",
+      "current_offset": 31,
+      "current_end": 32,
+      "current_selected": "ř",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    },
+    {
+      "actor": "first",
+      "raw_line_id": "348-L01",
+      "raw_offset": 34,
+      "raw_selected": "?",
+      "native_record_pointer": "/original_reads/first/original_wrapper/raw/mark_ledger/2",
+      "line_id": "348-L01",
+      "current_offset": 35,
+      "current_end": 36,
+      "current_selected": "?",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    },
+    {
+      "actor": "first",
+      "raw_line_id": "348-L01",
+      "raw_offset": 36,
+      "raw_selected": "?",
+      "native_record_pointer": "/original_reads/first/original_wrapper/raw/mark_ledger/3",
+      "line_id": "348-L01",
+      "current_offset": 37,
+      "current_end": 38,
+      "current_selected": "c",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    },
+    {
+      "actor": "blind",
+      "raw_line_id": "348-L01",
+      "raw_offset": 23,
+      "raw_selected": "r",
+      "native_record_pointer": "/original_reads/blind/original_wrapper/raw/mark_ledger/0",
+      "line_id": "348-L01",
+      "current_offset": 23,
+      "current_end": 24,
+      "current_selected": "ř",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    },
+    {
+      "actor": "blind",
+      "raw_line_id": "348-L01",
+      "raw_offset": 24,
+      "raw_selected": "̌",
+      "native_record_pointer": "/original_reads/blind/original_wrapper/raw/mark_ledger/1",
+      "line_id": "348-L01",
+      "current_offset": 23,
+      "current_end": 24,
+      "current_selected": "ř",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    },
+    {
+      "actor": "blind",
+      "raw_line_id": "348-L01",
+      "raw_offset": 32,
+      "raw_selected": "r",
+      "native_record_pointer": "/original_reads/blind/original_wrapper/raw/mark_ledger/2",
+      "line_id": "348-L01",
+      "current_offset": 31,
+      "current_end": 32,
+      "current_selected": "ř",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    },
+    {
+      "actor": "blind",
+      "raw_line_id": "348-L01",
+      "raw_offset": 33,
+      "raw_selected": "̌",
+      "native_record_pointer": "/original_reads/blind/original_wrapper/raw/mark_ledger/3",
+      "line_id": "348-L01",
+      "current_offset": 31,
+      "current_end": 32,
+      "current_selected": "ř",
+      "mapping_kind": "explicit occurrence projection; SECOND base and U+030C share a single working-sign span, not one-to-one codepoint or physical alignment",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Roofed r-like contours provisionally selected canonical ř/CH; detached-trace ownership/value unresolved. Darkened PU? remains masked. Whole original record unchanged; no generic mark/normalization rule."
+    }
+  ],
+  "historical_provenance_scope": {
+    "previous_edition": {
+      "json": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/348.json",
+        "commit": "21ae7a82639fa2ec265f8e597923a180734476b5",
+        "sha256": "88e5cb5a68c2a3b9dfaae5f0e18f0bf7e3540b6913dac1a6fd88b3025e42c914",
+        "git_blob_oid": "c4f9e57b90edf5e143f7b3bf09010b3984e691c3",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/21ae7a82639fa2ec265f8e597923a180734476b5/research-updates/2026-10-20-confirmed-key-continuation/cards/348.json"
+      },
+      "markdown": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/348.md",
+        "commit": "21ae7a82639fa2ec265f8e597923a180734476b5",
+        "sha256": "690b24f15557fe4a3da51d3a40b9bcf23f07f7ed1d873c9d0bd81edb4448fd85",
+        "git_blob_oid": "10a87c2963f5083c3e7fa61e829563797098bf07",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/21ae7a82639fa2ec265f8e597923a180734476b5/research-updates/2026-10-20-confirmed-key-continuation/cards/348.md"
+      }
+    },
+    "prior_QA": {
+      "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/21ae7a82639fa2ec265f8e597923a180734476b5/research-updates/2026-10-20-confirmed-key-continuation/cards/348.json#/qa",
+      "canonical_sha256": "d83ce5a3487f192c0aecca9f394de7dd76a31af081a2626c27a21c57c64043df",
+      "native_QA_pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/21ae7a82639fa2ec265f8e597923a180734476b5/research-updates/2026-10-20-confirmed-key-continuation/cards/348.json#/qa/actual_final_qa_native_object",
+      "native_QA_canonical_sha256": "e1c50981590c80d6423b0e36e336d5ba61e6a7855ddc3ef52d0e87674e9fbacd",
+      "scope": "Whole historical QA/root review unchanged inline and Git-pinned. Shared350 spot remains historical, not a348 finding and not reinspected. No private FILE-byte rereads or frozen documentation repair."
+    },
+    "archived_fields": [
+      "status",
+      "source_curation",
+      "source_differences",
+      "uncertainty_ledger",
+      "current_mark_ledger",
+      "current_question_role_inventory",
+      "current_segmentation_ledger",
+      "current_source_evidence_scope",
+      "editorial_reading",
+      "publication_stage",
+      "current_replay"
+    ],
+    "scope": "Earlier current-relative source/curation/replay/editorial/mark/question/segmentation records apply to archived edition; original raw offsets native. All original scientific/protocol/QA objects unchanged."
   }
 }
