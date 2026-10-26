@@ -21,18 +21,18 @@ These are counts of available readings, not counts of completely solved cards. I
 
 ## What is new
 
-The latest source review is [card 348](research-updates/2026-10-20-confirmed-key-continuation/cards/348.md), with Czech/English working text for both lower-panel rows. Its selected replay retains one obscured mask, two language/restoration proposals and unresolved contour/mark alternatives; the proposed full sentence does not establish a solved card. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/348-source-completion.json) preserves the changes and earlier evidence; [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-348.json) records the checks.
+The latest source review is [card 347](research-updates/2026-10-20-confirmed-key-continuation/cards/347.md), with Czech/English working text for all eleven rotated lower/right rows. Its selected replay has zero unknown display slots, but 32 g/Z choices retain q/K alternatives and twenty language/spacing proposals remain; this is not a solved-card claim. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/347-source-completion.json) preserves the changes and earlier evidence; [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-347.json) records the checks.
 
 | Current work | Status |
 | --- | --- |
-| Cards 348–386 | Editorial working coverage of selected entries; masks, word hypotheses, mark/contour alternatives and some ordering questions remain. |
-| Next source review | [Card 347](research-updates/2026-10-20-confirmed-key-continuation/cards/347.md), followed by the [active completion queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json). |
+| Cards 347–386 | Editorial working coverage of selected entries; masks, word hypotheses, mark/contour alternatives and some ordering questions remain. |
+| Next source review | [Card 346](research-updates/2026-10-20-confirmed-key-continuation/cards/346.md), followed by the [active completion queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json). |
 | New card numbers | The latest addition was 383–386 on 22 October. New 387–390 remain held during deeper completion of existing readings. |
 | Source and language confirmation | Independent human/external review is still needed. None of the 137 current candidates is declared solved. |
 
 The [complete card index](anna-ticha/readings.md) links directly to readings, evidence JSON, selected original faces and catalogue records. The [current candidate table](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings) lists all 137 candidates: 242, 244, 249 and 253–386. The key is the supplied 22-entry 204/460 key, separate from the historical staged key used in earlier reports.
 
-For per-card changes and earlier checkpoints, open the [package's dated source-review history](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-348). Its earlier counts and review statuses apply to their recorded stages. For an accessible current example use [348](research-updates/2026-10-20-confirmed-key-continuation/cards/348.md); for a substantially incomplete example use [257](research-updates/2026-10-20-confirmed-key-continuation/cards/257.md).
+For per-card changes and earlier checkpoints, open the [package's dated source-review history](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-347). Its earlier counts and review statuses apply to their recorded stages. For an accessible current example use [347](research-updates/2026-10-20-confirmed-key-continuation/cards/347.md); for a substantially incomplete example use [257](research-updates/2026-10-20-confirmed-key-continuation/cards/257.md).
 
 ## What still needs checking
 
@@ -43,7 +43,7 @@ For per-card changes and earlier checkpoints, open the [package's dated source-r
 | External validation | The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None of the 137 current candidates is declared solved. The reported check of 204 does not validate the other cards. |
 | Historical interpretation | Sender identity, several dates, cross-region reading order and shared authorship remain unresolved. Editorial serialization is not authenticated chronology. |
 | Evidence access | Original scans, private crops and supplied correspondence/PDFs are not bundled. Public records provide provider links, hashes and derived observations; private integrity references alone do not permit independent retrieval. |
-| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next active source-completion work is 347; unresolved groups and provisional 348–386 contour/role/language choices await better evidence or another reader. New-card priority 387–390 remains held. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
+| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next active source-completion work is 346; unresolved groups and provisional 347–386 contour/role/language choices await better evidence or another reader. New-card priority 387–390 remains held. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
 
 For corrections, identify the card, face/region, row or position, proposed source reading and effect on the literal. Keep glyph corrections separate from language repairs.
 
