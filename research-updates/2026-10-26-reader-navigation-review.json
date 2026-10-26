@@ -1,0 +1,314 @@
+{
+  "date": "2026-10-26",
+  "recorded_at_utc": "2026-10-26T10:48:23.229966+00:00",
+  "base_commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+  "status": "passed bounded navigation, preservation and mechanical checks; research remains partial",
+  "stage": "reader-facing repository navigation and bounded readiness review",
+  "reviewer": "same root AI context; no independent human usability/source review",
+  "changes": [
+    "Root status and sibling entry pages updated through 26 October; latest source review 355 distinguished from last addition of new card numbers 383–386 on 22 October.",
+    "Reading-guide route and layer tables replace the long per-card wall. Review overview reduced from 5042 to 882 words; detailed per-card history remains in the package.",
+    "Two package history sections default to collapsed details, with full recorded content retained. Current data table, latest review, key/provenance, catalogue and reproduction commands directly linked.",
+    "Stable root current-status heading and legacy 20/22October anchors preserve incoming navigation and repair one historical article link without changing the article.",
+    "No card reading, source judgment, key, decoder, queue, historical source evidence or test code changed."
+  ],
+  "audit": {
+    "status": "passed",
+    "markdown_files": 228,
+    "local_links_and_anchors_checked": 1990,
+    "link_findings": [],
+    "legacy_root_status_anchors": [
+      "current-status--20-october-2026",
+      "current-status--22-october-2026"
+    ],
+    "canonical_candidates": 137,
+    "legacy_report_files_including204": 38,
+    "overlap": 21,
+    "unique_cards_with_reading_including_partial": 154,
+    "catalogue_records": 263,
+    "without_reading": 109,
+    "existing_queue_counter_fields_checked": 105,
+    "queue_unchanged": true,
+    "aggregate_replay": {
+      "rows": 1493,
+      "encoded_bodies": 44363,
+      "expanded_letters": 44075,
+      "ch_occurrences": 327,
+      "unknowns": 615
+    },
+    "candidate_table_rows": 137,
+    "historical_package_blocks_preserved": true,
+    "scientific_files_changed": [],
+    "changed_docs": [
+      "README.md",
+      "READING_GUIDE.md",
+      "REVIEW_STATUS.md",
+      "anna-ticha/README.md",
+      "anna-ticha/readings.md",
+      "research-updates/2026-10-20-confirmed-key-continuation/README.md",
+      "CHANGELOG.md"
+    ],
+    "document_sizes": {
+      "README.md": {
+        "before_words": 989,
+        "after_words": 1009,
+        "before_max_line": 763,
+        "after_max_line": 763
+      },
+      "READING_GUIDE.md": {
+        "before_words": 1990,
+        "after_words": 1276,
+        "before_max_line": 7815,
+        "after_max_line": 631
+      },
+      "REVIEW_STATUS.md": {
+        "before_words": 5042,
+        "after_words": 882,
+        "before_max_line": 1804,
+        "after_max_line": 535
+      },
+      "anna-ticha/README.md": {
+        "before_words": 323,
+        "after_words": 348,
+        "before_max_line": 638,
+        "after_max_line": 655
+      },
+      "anna-ticha/readings.md": {
+        "before_words": 3250,
+        "after_words": 3290,
+        "before_max_line": 1089,
+        "after_max_line": 1156
+      },
+      "research-updates/2026-10-20-confirmed-key-continuation/README.md": {
+        "before_words": 17645,
+        "after_words": 17591,
+        "before_max_line": 3453,
+        "after_max_line": 3453
+      },
+      "CHANGELOG.md": {
+        "before_words": 79,
+        "after_words": 136,
+        "before_max_line": 431,
+        "after_max_line": 474
+      }
+    },
+    "limits": "Local Markdown paths/heading anchors and mechanical consistency; not all external URLs or human usability tested. Reading/source accuracy, authorship and dates remain outside these checks."
+  },
+  "markdown_render_preview": [
+    {
+      "path": "README.md",
+      "status": "passed GitHub Markdown render structure",
+      "tables": 2,
+      "closed_details": 0,
+      "headings": 9,
+      "custom_anchors": 2
+    },
+    {
+      "path": "READING_GUIDE.md",
+      "status": "passed GitHub Markdown render structure",
+      "tables": 4,
+      "closed_details": 0,
+      "headings": 8,
+      "custom_anchors": 0
+    },
+    {
+      "path": "REVIEW_STATUS.md",
+      "status": "passed GitHub Markdown render structure",
+      "tables": 3,
+      "closed_details": 0,
+      "headings": 5,
+      "custom_anchors": 0
+    },
+    {
+      "path": "anna-ticha/README.md",
+      "status": "passed GitHub Markdown render structure",
+      "tables": 1,
+      "closed_details": 0,
+      "headings": 3,
+      "custom_anchors": 0
+    },
+    {
+      "path": "anna-ticha/readings.md",
+      "status": "passed GitHub Markdown render structure",
+      "tables": 3,
+      "closed_details": 0,
+      "headings": 12,
+      "custom_anchors": 0
+    },
+    {
+      "path": "research-updates/2026-10-20-confirmed-key-continuation/README.md",
+      "status": "passed GitHub Markdown render structure",
+      "tables": 1,
+      "closed_details": 2,
+      "headings": 44,
+      "custom_anchors": 0
+    },
+    {
+      "path": "CHANGELOG.md",
+      "status": "passed GitHub Markdown render structure",
+      "tables": 0,
+      "closed_details": 0,
+      "headings": 1,
+      "custom_anchors": 0
+    }
+  ],
+  "link_audit": {
+    "before_markdown_files": 228,
+    "before_local_links": 2033,
+    "before_findings": [
+      {
+        "file": "anna-ticha/article.md",
+        "target": "../README.md#current-status--20-october-2026",
+        "kind": "anchor requires review"
+      }
+    ],
+    "after_local_links": 1990,
+    "after_findings": []
+  },
+  "queue_counter_policy": "Checked all 105 existing counts/selected_totals fields against actual current replay. Other queue entries use different schemas or omit counters; an absent selected_totals key is not a numerical contradiction. Queue bytes unchanged.",
+  "additional_integrity_checks": {
+    "local_corpus": {
+      "archive_members": 1220,
+      "bytes": 46564722,
+      "files": 465,
+      "scope": "publication bytes, safe paths, privacy patterns and text syntax only",
+      "status": "PASS"
+    },
+    "local_corpus_manifest": {
+      "path": "research-updates/2026-10-13-local-corpus/PUBLICATION_MANIFEST.json",
+      "sha256": "e8122318a4675bf9eef5922081be5ef94ee058c6c4d8702d9ad615cc0b533aa3"
+    },
+    "g08": {
+      "status": "passed",
+      "files": 3,
+      "manifest": "research-updates/evidence/g08-owner-study-20261013/SHA256SUMS.txt",
+      "manifest_sha256": "4eb51037a4949d069cc841e1d58be79cbbcdc17a546f74574eae7f76ad0765bd"
+    }
+  },
+  "external_resource_checks": [
+    {
+      "repository": "Cipher-Atelier/.github",
+      "path": "CONTRIBUTING.md",
+      "result": "gh api contents request succeeded"
+    },
+    {
+      "repository": "Cipher-Atelier/research-index",
+      "path": "START_HERE.md",
+      "result": "gh api contents request succeeded"
+    },
+    {
+      "repository": "Cipher-Atelier/.github",
+      "path": ".github/ISSUE_TEMPLATE/research.yml",
+      "result": "gh api contents request succeeded"
+    }
+  ],
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s verification/tests -v",
+      "exit_code": 0,
+      "result": "100 tests passed in 3.702s."
+    },
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "32 tests passed in 1.051s."
+    },
+    {
+      "command": "private audit.py invoking unchanged check_package",
+      "exit_code": 0,
+      "result": "1990 local Markdown links/anchors; 137 candidates/14-row anchor; 105 existing queue counters; 263-record/154-reading/109-without union; 137 table rows and aggregate counters passed."
+    },
+    {
+      "command": "python3 verify_publication.py (inside local-corpus package)",
+      "exit_code": 0,
+      "result": {
+        "archive_members": 1220,
+        "bytes": 46564722,
+        "files": 465,
+        "scope": "publication bytes, safe paths, privacy patterns and text syntax only",
+        "status": "PASS"
+      }
+    },
+    {
+      "command": "private render.py using GitHub Markdown API",
+      "exit_code": 0,
+      "result": "Seven Markdown fragments rendered; tables, explicit legacy anchors, expected heading texts and two closed details sections checked. No browser screenshot or human usability test."
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 947,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "preservation": {
+    "changed_scientific_files": [],
+    "unchanged_queue": true,
+    "unchanged_candidate_files": 274,
+    "old_guide_versions": {
+      "README.md": {
+        "commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+        "sha256": "f5bf3d2778f468e47d205dbb607c28d83ec85abd7363964c7996a73ccd0ed260",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e8b55ee268bf38d0283d32ff6daf0da258eccf5b/README.md"
+      },
+      "READING_GUIDE.md": {
+        "commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+        "sha256": "5f885575dbd47bd1d629f96110038b1a8b630c8da94a521d53eaafa3760f593f",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e8b55ee268bf38d0283d32ff6daf0da258eccf5b/READING_GUIDE.md"
+      },
+      "REVIEW_STATUS.md": {
+        "commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+        "sha256": "fe8edfc8b1a96df0ddeba3f5f78d871e4866255707a527f3dd6fe4f972161fa0",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e8b55ee268bf38d0283d32ff6daf0da258eccf5b/REVIEW_STATUS.md"
+      },
+      "anna-ticha/README.md": {
+        "commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+        "sha256": "7cac4e9ffccf52c7a46263fecc7a337e7d742a987738e1da6543717aafb96f81",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e8b55ee268bf38d0283d32ff6daf0da258eccf5b/anna-ticha/README.md"
+      },
+      "anna-ticha/readings.md": {
+        "commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+        "sha256": "6154bfa89daa0edcf0c8721b57de2f9a254c1515ae15c303be4c72ca0c016c30",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e8b55ee268bf38d0283d32ff6daf0da258eccf5b/anna-ticha/readings.md"
+      },
+      "research-updates/2026-10-20-confirmed-key-continuation/README.md": {
+        "commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+        "sha256": "d0a29016967942c249556bb2e26a3dd1c275e6c6a3c7920631b80998f75893d3",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e8b55ee268bf38d0283d32ff6daf0da258eccf5b/research-updates/2026-10-20-confirmed-key-continuation/README.md"
+      },
+      "CHANGELOG.md": {
+        "commit": "e8b55ee268bf38d0283d32ff6daf0da258eccf5b",
+        "sha256": "d97445f0789eace070e138cb3971758dc09fb7b0669823ccd54841dc35886bfc",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e8b55ee268bf38d0283d32ff6daf0da258eccf5b/CHANGELOG.md"
+      }
+    },
+    "history_scope": "Earlier package source-review block remains verbatim. Historical reproduction text retained with Current batch34 label changed to Historical batch34. Full former entry-page versions remain in Git."
+  },
+  "artifact_sha256": {
+    "README.md": "5427526af305f62170ba95ab9cb115dbe23d2ea4ad6dfa01f41edbb676b2a0e6",
+    "READING_GUIDE.md": "7c830fd8a600dbb9bdc635422c31ecea77c4ea401cb182ae8a0864154e9e4842",
+    "REVIEW_STATUS.md": "80e95b7d1bddeb67a58a58f11bf9b034aba5d1a250bb2040f29e7518a805da32",
+    "anna-ticha/README.md": "dbf235b987ffd319bebb0a1babefd13b3f89147ffb8746018ca70cf6f63bc88d",
+    "anna-ticha/readings.md": "6dd99372e9c4cbef4770f308d239d052abdb04d612866969f0d7753f9782b722",
+    "research-updates/2026-10-20-confirmed-key-continuation/README.md": "1694c875d67230c0c6c6690928cc21ab697eda39cd593a854695624e98545399",
+    "CHANGELOG.md": "7836cd88822d6a51ac6a50acd7a121b9b79afa752b3597562d118ebff398e311"
+  },
+  "limits": [
+    "This is a documentation/replay readiness check, not a completed decipherment. 154/263 cards have a published reading including partial proposals; 109 have none here.",
+    "Source signs, word repairs, identity, dates and historical interpretations remain provisional; external expert confirmation is still needed.",
+    "Link checking covers inline local Markdown targets/heading anchors, with seven GitHub Markdown fragment previews and three external contribution resources. It is not an exhaustive external-URL availability check or a human/browser usability study.",
+    "Root SHA manifest covers its recorded subset. Separate local-corpus and G08 manifests were additionally checked; their hashes are pinned here. Consistency and hashes do not certify source accuracy or defeat coherent coordinated edits."
+  ],
+  "preparation_history": [
+    "Initial audit found one stale internal anchor in the preserved article and oversized entry-page progress paragraphs; current coverage counts and all existing queue counters agreed with data.",
+    "New entry routes and current status summaries assembled; package history retained in closed details. Source/data/queue/test bytes unchanged.",
+    "Initial GitHub-render harness incorrectly expected automatic heading IDs from the Markdown API. The API preserves explicit IDs but leaves automatic heading anchors to the page renderer; the harness was corrected to check explicit anchors and heading text. All seven previews then passed.",
+    "100 verification tests, 32 decoder tests, local-corpus 465-file validation, three G08 hashes, link/count/preservation audit and current package replay passed. Final root receipts below bind updated documentation and report."
+  ]
+}
