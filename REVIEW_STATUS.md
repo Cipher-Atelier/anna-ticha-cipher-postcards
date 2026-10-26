@@ -21,18 +21,18 @@ These are counts of available readings, not counts of completely solved cards. I
 
 ## What is new
 
-The latest source review is [card 342](research-updates/2026-10-20-confirmed-key-continuation/cards/342.md), with Czech/English working text for all four lower units. Six unassigned base positions are provisionally selected, including one CH; two upper-annotation groups remain separately unresolved. Replay has 111 base slots/112 known emitted letters/zero unknown base slots. The two-slot reduction reclassifies annotations, with three language-only letter repairs retained; this is not a solved-card claim. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/342-source-completion.json) preserves the changes and earlier evidence; [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-342.json) records the checks.
+The latest source review is [card 341](research-updates/2026-10-20-confirmed-key-continuation/cards/341.md), with Czech/English working text for the separate top note and all six lower units. Current replay has 445 slots/451 known letters/six CH/zero unknown display slots, with two upper traces separately unresolved. Three provisional group expansions add four notation slots; eight language proposals contain nine primary letter substitutions, with VAC→PAC and alternate DIK conjectural. All alternatives remain; this is not a solved-card claim. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/341-source-completion.json) preserves the changes and earlier evidence; [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-341.json) records the checks.
 
 | Current work | Status |
 | --- | --- |
-| Cards 342–386 | Editorial working coverage of selected entries; masks, word hypotheses, mark/contour alternatives and some ordering questions remain. |
-| Next source review | [Card 341](research-updates/2026-10-20-confirmed-key-continuation/cards/341.md), followed by the [active completion queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json). |
+| Cards 341–386 | Editorial working coverage of selected entries; masks, word hypotheses, mark/contour alternatives and some ordering questions remain. |
+| Next source review | [Card 340](research-updates/2026-10-20-confirmed-key-continuation/cards/340.md), followed by the [active completion queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json). |
 | New card numbers | The latest addition was 383–386 on 22 October. New 387–390 remain held during deeper completion of existing readings. |
 | Source and language confirmation | Independent human/external review is still needed. None of the 137 current candidates is declared solved. |
 
 The [complete card index](anna-ticha/readings.md) links directly to readings, evidence JSON, selected original faces and catalogue records. The [current candidate table](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings) lists all 137 candidates: 242, 244, 249 and 253–386. The key is the supplied 22-entry 204/460 key, separate from the historical staged key used in earlier reports.
 
-For per-card changes and earlier checkpoints, open the [package's dated source-review history](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-342). Its earlier counts and review statuses apply to their recorded stages. For an accessible current example use [342](research-updates/2026-10-20-confirmed-key-continuation/cards/342.md); for a substantially incomplete example use [257](research-updates/2026-10-20-confirmed-key-continuation/cards/257.md).
+For per-card changes and earlier checkpoints, open the [package's dated source-review history](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-341). Its earlier counts and review statuses apply to their recorded stages. For an accessible current example use [341](research-updates/2026-10-20-confirmed-key-continuation/cards/341.md); for a substantially incomplete example use [257](research-updates/2026-10-20-confirmed-key-continuation/cards/257.md).
 
 ## What still needs checking
 
@@ -43,7 +43,7 @@ For per-card changes and earlier checkpoints, open the [package's dated source-r
 | External validation | The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None of the 137 current candidates is declared solved. The reported check of 204 does not validate the other cards. |
 | Historical interpretation | Sender identity, several dates, cross-region reading order and shared authorship remain unresolved. Editorial serialization is not authenticated chronology. |
 | Evidence access | Original scans, private crops and supplied correspondence/PDFs are not bundled. Public records provide provider links, hashes and derived observations; private integrity references alone do not permit independent retrieval. |
-| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next active source-completion work is 341; unresolved groups and provisional 342–386 contour/role/language choices await better evidence or another reader. New-card priority 387–390 remains held. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
+| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next active source-completion work is 340; unresolved groups and provisional 341–386 contour/role/language choices await better evidence or another reader. New-card priority 387–390 remains held. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
 
 For corrections, identify the card, face/region, row or position, proposed source reading and effect on the literal. Keep glyph corrections separate from language repairs.
 
