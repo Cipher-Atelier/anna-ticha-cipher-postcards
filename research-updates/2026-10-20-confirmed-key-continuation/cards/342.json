@@ -1,6 +1,6 @@
 {
   "card_id": 342,
-  "status": "QUALIFIED_RECONCILED_PROVISIONAL",
+  "status": "provisional complete four-unit reading; two upper-annotation groups unresolved, source and language alternatives retained",
   "notation": "pdf204-canonical",
   "source": {
     "card_id": 342,
@@ -45,12 +45,11 @@
   "lines": [
     {
       "line_id": "R1",
-      "ciphertext": "bh3c84 ycn5 t3c2t c5t85s 6̂ f86ccg1 tf2h.",
-      "transcription": [],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_dimensions": [
-        1175,
-        1785
+      "native_bbox_xyxy": [
+        1470,
+        45,
+        1550,
+        1130
       ],
       "reading_bbox_xyxy": [
         45,
@@ -58,113 +57,45 @@
         1130,
         1550
       ],
-      "native_bbox_xyxy": [
-        1470,
-        45,
-        1550,
-        1130
-      ],
-      "source_visual_notes": "Spatial row from selected Picture side; overlapping adjacent-row context retained. All source forms provisional where documented in flat uncertainty/mark ledgers. No predicted words used.",
-      "physical_encoded_body_count": null,
-      "literal": "PROSLI ySME DOSUD SEDLEC Â VLASSZY DVUR.",
-      "encoded_bodies": 34,
-      "expanded_letters": 32,
-      "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 7,
-          "body_index": 6,
-          "symbol": "y",
-          "kind": "unknown_symbol"
-        },
-        {
-          "offset": 26,
-          "body_index": 22,
-          "symbol": "̂",
-          "kind": "unknown_symbol"
-        }
-      ],
-      "source": {
-        "card_id": 342,
-        "face": "Picture side",
-        "image_file": "pc_hcp_342_pic.JPG",
-        "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-        "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_file": "source342.json",
-        "metadata_file_sha256": "2c133802c79ba4d03aa6e1a80506c7acedc7f0c7494f1699eb6f0641cfb976e9",
-        "original_metadata": {
-          "card_id": 342,
-          "face": "pic",
-          "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-          "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-          "bytes": 1500027,
-          "width": 1785,
-          "height": 1175,
-          "catalogue_id": 1661,
-          "response_json_pointer": "/data/data/1654/datagroups/0/data/0/image/original",
-          "acquired_utc": "2026-10-21T03:02:57.146548+00:00",
-          "access": "single ordinary anonymous GET200",
-          "scope": "Private original bytes; no transcription/ordinary address text in metadata"
-        },
-        "metadata_file_hash_scope": "exact original metadata FILE bytes",
-        "source_file_hash_scope": "exact complete original image FILE bytes"
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "FIRST",
-        "file": "first342.json",
-        "file_sha256": "ffa0b18a9ad2eaf01e280efea2d83b4bcdbc4b897975cc208d2e8b6068304b5c",
-        "canonical_raw_sha256": "a8f6fb0af8473c61c271951345dfac468cfcc598e4da6332c8ee7ab2d3219535",
-        "line_id": "R1",
-        "selection_status": "Provisional display base only; SECOND differences are unresolved, not overridden."
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T03:59:46.594848+00:00",
-        "executor": "related AI nonblind curate341342",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "result": {
-          "literal": "PROSLI ySME DOSUD SEDLEC Â VLASSZY DVUR.",
-          "encoded_bodies": 34,
-          "expanded_letters": 32,
-          "ch_occurrences": 0,
-          "unknowns": [
-            {
-              "offset": 7,
-              "body_index": 6,
-              "symbol": "y",
-              "kind": "unknown_symbol"
-            },
-            {
-              "offset": 26,
-              "body_index": 22,
-              "symbol": "̂",
-              "kind": "unknown_symbol"
-            }
-          ]
-        },
-        "scope": "Current replay does not replace original own execution."
-      }
-    },
-    {
-      "line_id": "R2",
-      "ciphertext": "3tb385tm5 bh3yt5n5 3cd6dm4 b6n6dm3cd4,",
-      "transcription": [],
-      "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
         1785
+      ],
+      "reading_rotation_degrees_clockwise": 90,
+      "physical_encoded_body_count": null,
+      "ciphertext": "bh3c84 7cn5 t3c2t c5t85s 6 f86ccg1 tf2h.",
+      "transcription": [],
+      "literal": "PROSLI JSME DOSUD SEDLEC A VLASSZY DVUR.",
+      "encoded_bodies": 33,
+      "expanded_letters": 33,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "proposed_czech": "Prošli jsme dosud [Sedlec?] a [Vlašský?] [dvůr?].",
+      "proposed_english": "So far we have been through [Sedlec?] and [Vlašský dvůr?].",
+      "source_visual_notes": "Forked/crossed y-like body provisionally 7/J. Retained 6/A with high angle separately noted, no CH/mark value. Existing g/Z in VLASSZY retained; VLASSZY→VLASSKY is language-only. Sedlec/Vlašský dvůr text proposals, not authenticated itinerary or identification from caption.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/lines/0",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "original_read_index": 0,
+          "line_id": "R1",
+          "pointer": "/original_reads/0/original_wrapper/raw/rows/0"
+        },
+        {
+          "actor": "SECOND",
+          "original_read_index": 1,
+          "line_id": "342-B1",
+          "pointer": "/original_reads/1/original_wrapper/raw/rows/0"
+        }
+      ]
+    },
+    {
+      "line_id": "R2",
+      "native_bbox_xyxy": [
+        1535,
+        45,
+        1620,
+        1130
       ],
       "reading_bbox_xyxy": [
         45,
@@ -172,112 +103,45 @@
         1130,
         1620
       ],
-      "native_bbox_xyxy": [
-        1535,
-        45,
-        1620,
-        1130
-      ],
-      "source_visual_notes": "Spatial row from selected Picture side; overlapping adjacent-row context retained. All source forms provisional where documented in flat uncertainty/mark ledgers. No predicted words used.",
-      "physical_encoded_body_count": null,
-      "literal": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-      "encoded_bodies": 34,
-      "expanded_letters": 33,
-      "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 13,
-          "body_index": 12,
-          "symbol": "y",
-          "kind": "unknown_symbol"
-        }
-      ],
-      "source": {
-        "card_id": 342,
-        "face": "Picture side",
-        "image_file": "pc_hcp_342_pic.JPG",
-        "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-        "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_file": "source342.json",
-        "metadata_file_sha256": "2c133802c79ba4d03aa6e1a80506c7acedc7f0c7494f1699eb6f0641cfb976e9",
-        "original_metadata": {
-          "card_id": 342,
-          "face": "pic",
-          "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-          "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-          "bytes": 1500027,
-          "width": 1785,
-          "height": 1175,
-          "catalogue_id": 1661,
-          "response_json_pointer": "/data/data/1654/datagroups/0/data/0/image/original",
-          "acquired_utc": "2026-10-21T03:02:57.146548+00:00",
-          "access": "single ordinary anonymous GET200",
-          "scope": "Private original bytes; no transcription/ordinary address text in metadata"
-        },
-        "metadata_file_hash_scope": "exact original metadata FILE bytes",
-        "source_file_hash_scope": "exact complete original image FILE bytes"
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "FIRST",
-        "file": "first342.json",
-        "file_sha256": "ffa0b18a9ad2eaf01e280efea2d83b4bcdbc4b897975cc208d2e8b6068304b5c",
-        "canonical_raw_sha256": "a8f6fb0af8473c61c271951345dfac468cfcc598e4da6332c8ee7ab2d3219535",
-        "line_id": "R2",
-        "selection_status": "Provisional display base only; SECOND differences are unresolved, not overridden."
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T03:59:46.595160+00:00",
-        "executor": "related AI nonblind curate341342",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "result": {
-          "literal": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-          "encoded_bodies": 34,
-          "expanded_letters": 33,
-          "ch_occurrences": 0,
-          "unknowns": [
-            {
-              "offset": 13,
-              "body_index": 12,
-              "symbol": "y",
-              "kind": "unknown_symbol"
-            }
-          ]
-        },
-        "scope": "Current replay does not replace original own execution."
-      }
-    },
-    {
-      "line_id": "R3",
-      "ciphertext": "m6̂ cb3?4 6n2cg2 fh385 fgb3n4m6 6 ft4?2 y4",
-      "transcription": [
-        {
-          "offset": 7,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 37,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
         1785
+      ],
+      "reading_rotation_degrees_clockwise": 90,
+      "physical_encoded_body_count": null,
+      "ciphertext": "3tb385tm5 bh37t5n5 3cd6dm4 b6n6dm3cd4,",
+      "transcription": [],
+      "literal": "ODPOLEDNE PROJDEME OSTATNI PAMATNOSTI,",
+      "encoded_bodies": 34,
+      "expanded_letters": 34,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "proposed_czech": "Odpoledne projdeme ostatní památnosti,",
+      "proposed_english": "In the afternoon we will visit the other sights.",
+      "source_visual_notes": "Forked/crossed y-like body provisionally 7/J in PROJDEME. FIRST ODPOLEDNE/OSTATNI/PAMATNOSTI and comma retained against whole SECOND alternatives. Native SECOND marked masks receive broad token-context references only, not precise multi-body segmentation.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/lines/1",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "original_read_index": 0,
+          "line_id": "R2",
+          "pointer": "/original_reads/0/original_wrapper/raw/rows/1"
+        },
+        {
+          "actor": "SECOND",
+          "original_read_index": 1,
+          "line_id": "342-B2",
+          "pointer": "/original_reads/1/original_wrapper/raw/rows/1"
+        }
+      ]
+    },
+    {
+      "line_id": "R3",
+      "native_bbox_xyxy": [
+        1595,
+        45,
+        1685,
+        1130
       ],
       "reading_bbox_xyxy": [
         45,
@@ -285,137 +149,45 @@
         1130,
         1685
       ],
-      "native_bbox_xyxy": [
-        1595,
-        45,
-        1685,
-        1130
-      ],
-      "source_visual_notes": "Spatial row from selected Picture side; overlapping adjacent-row context retained. All source forms provisional where documented in flat uncertainty/mark ledgers. No predicted words used.",
-      "physical_encoded_body_count": null,
-      "literal": "NÂ SPO?I AMUSZU VROLE VZPOMINA A VDI?U yI",
-      "encoded_bodies": 35,
-      "expanded_letters": 31,
-      "ch_occurrences": 0,
-      "unknowns": [
-        {
-          "offset": 2,
-          "body_index": 2,
-          "symbol": "̂",
-          "kind": "unknown_symbol"
-        },
-        {
-          "offset": 7,
-          "body_index": 6,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 37,
-          "body_index": 31,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 40,
-          "body_index": 33,
-          "symbol": "y",
-          "kind": "unknown_symbol"
-        }
-      ],
-      "source": {
-        "card_id": 342,
-        "face": "Picture side",
-        "image_file": "pc_hcp_342_pic.JPG",
-        "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-        "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_file": "source342.json",
-        "metadata_file_sha256": "2c133802c79ba4d03aa6e1a80506c7acedc7f0c7494f1699eb6f0641cfb976e9",
-        "original_metadata": {
-          "card_id": 342,
-          "face": "pic",
-          "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-          "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-          "bytes": 1500027,
-          "width": 1785,
-          "height": 1175,
-          "catalogue_id": 1661,
-          "response_json_pointer": "/data/data/1654/datagroups/0/data/0/image/original",
-          "acquired_utc": "2026-10-21T03:02:57.146548+00:00",
-          "access": "single ordinary anonymous GET200",
-          "scope": "Private original bytes; no transcription/ordinary address text in metadata"
-        },
-        "metadata_file_hash_scope": "exact original metadata FILE bytes",
-        "source_file_hash_scope": "exact complete original image FILE bytes"
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "FIRST",
-        "file": "first342.json",
-        "file_sha256": "ffa0b18a9ad2eaf01e280efea2d83b4bcdbc4b897975cc208d2e8b6068304b5c",
-        "canonical_raw_sha256": "a8f6fb0af8473c61c271951345dfac468cfcc598e4da6332c8ee7ab2d3219535",
-        "line_id": "R3",
-        "selection_status": "Provisional display base only; SECOND differences are unresolved, not overridden."
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T03:59:46.595467+00:00",
-        "executor": "related AI nonblind curate341342",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "result": {
-          "literal": "NÂ SPO?I AMUSZU VROLE VZPOMINA A VDI?U yI",
-          "encoded_bodies": 35,
-          "expanded_letters": 31,
-          "ch_occurrences": 0,
-          "unknowns": [
-            {
-              "offset": 2,
-              "body_index": 2,
-              "symbol": "̂",
-              "kind": "unknown_symbol"
-            },
-            {
-              "offset": 7,
-              "body_index": 6,
-              "symbol": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 37,
-              "body_index": 31,
-              "symbol": "?",
-              "kind": "unknown_glyph"
-            },
-            {
-              "offset": 40,
-              "body_index": 33,
-              "symbol": "y",
-              "kind": "unknown_symbol"
-            }
-          ]
-        },
-        "scope": "Current replay does not replace original own execution."
-      }
-    },
-    {
-      "line_id": "R4",
-      "ciphertext": "84y6 b3t32c.",
-      "transcription": [],
-      "reading_rotation_degrees_clockwise": 90,
       "reading_dimensions": [
         1175,
         1785
+      ],
+      "reading_rotation_degrees_clockwise": 90,
+      "physical_encoded_body_count": null,
+      "ciphertext": "m6 cf374 6n2cg2 fh585 fgb3n4m6 6 ft2ř2 74",
+      "transcription": [],
+      "literal": "NA SVOJI AMUSZU VRELE VZPOMINA A VDUCHU JI",
+      "encoded_bodies": 34,
+      "expanded_letters": 35,
+      "ch_occurrences": 1,
+      "unknowns": [],
+      "proposed_czech": "na svoji [Anušku?] vřele vzpomíná a v duchu ji",
+      "proposed_english": "[Pepouš?] thinks warmly of his [Anuška?] and in thought",
+      "source_visual_notes": "Retained 6/A upper angle separated as annotation; b/P→f/V, mask→7/J give SVOJI. AMUSZU unchanged literally; proposed ANUSKU language-only. 3/O→5/E yields VRELE, matching SECOND. In final thought group 4/I→2/U and mask→canonical ř/CH from narrow crossed base plus distinct upper angle; next y→7/J. Upper geometry/attachment and other composites remain alternatives.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/lines/2",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "original_read_index": 0,
+          "line_id": "R3",
+          "pointer": "/original_reads/0/original_wrapper/raw/rows/2"
+        },
+        {
+          "actor": "SECOND",
+          "original_read_index": 1,
+          "line_id": "342-B3",
+          "pointer": "/original_reads/1/original_wrapper/raw/rows/2"
+        }
+      ]
+    },
+    {
+      "line_id": "R4",
+      "native_bbox_xyxy": [
+        1650,
+        355,
+        1720,
+        785
       ],
       "reading_bbox_xyxy": [
         390,
@@ -423,128 +195,46 @@
         820,
         1720
       ],
-      "native_bbox_xyxy": [
-        1650,
-        355,
-        1720,
-        785
+      "reading_dimensions": [
+        1175,
+        1785
       ],
-      "source_visual_notes": "Spatial row from selected Picture side; overlapping adjacent-row context retained. All source forms provisional where documented in flat uncertainty/mark ledgers. No predicted words used.",
+      "reading_rotation_degrees_clockwise": 90,
       "physical_encoded_body_count": null,
-      "literal": "LIyA PODOUS.",
+      "ciphertext": "84p6 b5b32c.",
+      "transcription": [],
+      "literal": "LIBA PEPOUS.",
       "encoded_bodies": 10,
-      "expanded_letters": 9,
+      "expanded_letters": 10,
       "ch_occurrences": 0,
-      "unknowns": [
+      "unknowns": [],
+      "proposed_czech": "líbá [Pepouš?].",
+      "proposed_english": "kisses her.",
+      "source_visual_notes": "Forked/p-like former y provisionally p/B yields LIBA. Signature 3/O→5/E and t/D→b/P from tall-looped contour yield PEPOUS; earlier PODOUS/other/name/punctuation alternatives retained. Existing c/S/period retained, upper curl not assigned a separate value. No person or physical body count established.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/lines/3",
+      "frozen_row_references": [
         {
-          "offset": 2,
-          "body_index": 2,
-          "symbol": "y",
-          "kind": "unknown_symbol"
+          "actor": "FIRST",
+          "original_read_index": 0,
+          "line_id": "R4",
+          "pointer": "/original_reads/0/original_wrapper/raw/rows/3"
+        },
+        {
+          "actor": "SECOND",
+          "original_read_index": 1,
+          "line_id": "342-B4",
+          "pointer": "/original_reads/1/original_wrapper/raw/rows/3"
         }
-      ],
-      "source": {
-        "card_id": 342,
-        "face": "Picture side",
-        "image_file": "pc_hcp_342_pic.JPG",
-        "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-        "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "metadata_file": "source342.json",
-        "metadata_file_sha256": "2c133802c79ba4d03aa6e1a80506c7acedc7f0c7494f1699eb6f0641cfb976e9",
-        "original_metadata": {
-          "card_id": 342,
-          "face": "pic",
-          "url": "https://api.hcportal.eu/media/5043/pc_hcp_342_pic.JPG",
-          "sha256": "6474bc2e32d7fafd60b46f5a4add7485808bdc3bbd7e122bc3672887c2cb9cfd",
-          "bytes": 1500027,
-          "width": 1785,
-          "height": 1175,
-          "catalogue_id": 1661,
-          "response_json_pointer": "/data/data/1654/datagroups/0/data/0/image/original",
-          "acquired_utc": "2026-10-21T03:02:57.146548+00:00",
-          "access": "single ordinary anonymous GET200",
-          "scope": "Private original bytes; no transcription/ordinary address text in metadata"
-        },
-        "metadata_file_hash_scope": "exact original metadata FILE bytes",
-        "source_file_hash_scope": "exact complete original image FILE bytes"
-      },
-      "source_native_full_frame": [
-        0,
-        0,
-        1785,
-        1175
-      ],
-      "selected_source_record": {
-        "role": "FIRST",
-        "file": "first342.json",
-        "file_sha256": "ffa0b18a9ad2eaf01e280efea2d83b4bcdbc4b897975cc208d2e8b6068304b5c",
-        "canonical_raw_sha256": "a8f6fb0af8473c61c271951345dfac468cfcc598e4da6332c8ee7ab2d3219535",
-        "line_id": "R4",
-        "selection_status": "Provisional display base only; SECOND differences are unresolved, not overridden."
-      },
-      "current_replay": {
-        "executed_at_utc": "2026-10-21T03:59:46.595862+00:00",
-        "executor": "related AI nonblind curate341342",
-        "decoder_file_sha256": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-        "key_file_sha256": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875",
-        "native_transcription_list_unchanged": true,
-        "adapter_used": false,
-        "result": {
-          "literal": "LIyA PODOUS.",
-          "encoded_bodies": 10,
-          "expanded_letters": 9,
-          "ch_occurrences": 0,
-          "unknowns": [
-            {
-              "offset": 2,
-              "body_index": 2,
-              "symbol": "y",
-              "kind": "unknown_symbol"
-            }
-          ]
-        },
-        "scope": "Current replay does not replace original own execution."
-      }
+      ]
     }
   ],
   "rows": 4,
-  "encoded_bodies": 113,
-  "expanded_letters": 105,
-  "ch_occurrences": 0,
-  "unknowns": 8,
+  "encoded_bodies": 111,
+  "expanded_letters": 112,
+  "ch_occurrences": 1,
+  "unknowns": 0,
   "physical_encoded_body_count": null,
   "count_scope": "Decoder replay slots only, not physical ink bodies. Unknown count excludes preserved numeral spans. Masks may represent composites of unestablished physical length.",
-  "source_curation": {
-    "prepared_at_utc": "2026-10-21T03:59:46.599909+00:00",
-    "actor": "first341342, now related AI nonblind curator",
-    "model": "gpt-6.1-sol",
-    "exact_deployment": null,
-    "source_actor_role_finished": true,
-    "nonblind_release": "Root explicitly released after immutable CP1 and CP2.",
-    "CP1": {
-      "file": "batch23-frozen-reads-checkpoint.json",
-      "file_sha256": "e583228f75da2225bf707a7668d39af839aba11a58f6110c5a71c5f4f5409cc7"
-    },
-    "CP2": {
-      "file": "batch23-replays-checkpoint.json",
-      "file_sha256": "7709cc7415afcb07ae4c8cfe0f571256aeab63e15c516b352edab5e6febe02cd"
-    },
-    "visible_key": true,
-    "independence": "No human, external or cognitive independence claim. Shared model/language influence cannot be excluded.",
-    "selection": "FIRST unchanged as provisional display base. This is not source-priority proof or resolution of SECOND alternatives. No ciphertext repair performed in current curation.",
-    "new_source_observation": {
-      "complete_selected_originals_displayed_at_utc": "2026-10-21T03:54:21Z",
-      "recorded_at_utc": "2026-10-21T03:59:46.599916+00:00",
-      "context": "Related AI nonblind reinspection of complete original Picture sides and all margins.",
-      "observation": "341 top and lower/terminal bands and342 native right/reading-lower band remain within original face selection. Faint/overlapping source differences are not resolved by this broad reinspection.",
-      "precision": "No new precise per-body bounds or mark-ownership repair claimed."
-    },
-    "final_QA_projection_applied_at_utc": "2026-10-21T04:07:55.779737+00:00"
-  },
   "source_faces_original_metadata": [
     {
       "face": "Picture side",
@@ -13510,2439 +13200,179 @@
       }
     }
   },
-  "source_differences": [
-    {
-      "id": "342-difference-001",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R1",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "y"
-      },
-      "SECOND_component": {
-        "line_id": "342-B1",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-002",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R1",
-        "offset": 23,
-        "end_offset": 24,
-        "selected": "s"
-      },
-      "SECOND_component": {
-        "line_id": "342-B1",
-        "offset": 23,
-        "end_offset": 24,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-003",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R1",
-        "offset": 25,
-        "end_offset": 27,
-        "selected": "6̂"
-      },
-      "SECOND_component": {
-        "line_id": "342-B1",
-        "offset": 25,
-        "end_offset": 26,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-004",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R1",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "y"
-      },
-      "SECOND_component": {
-        "line_id": "342-B1",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-005",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R1",
-        "offset": 23,
-        "end_offset": 24,
-        "selected": "C"
-      },
-      "SECOND_component": {
-        "line_id": "342-B1",
-        "offset": 23,
-        "end_offset": 24,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-006",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R1",
-        "offset": 25,
-        "end_offset": 27,
-        "selected": "Â"
-      },
-      "SECOND_component": {
-        "line_id": "342-B1",
-        "offset": 25,
-        "end_offset": 26,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-007",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "m"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "n"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-008",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 13,
-        "end_offset": 14,
-        "selected": "y"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 13,
-        "end_offset": 14,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-009",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 16,
-        "end_offset": 16,
-        "selected": ""
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 16,
-        "end_offset": 17,
-        "selected": " "
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-010",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 22,
-        "end_offset": 23,
-        "selected": "6"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 23,
-        "end_offset": 24,
-        "selected": "b"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-011",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 27,
-        "end_offset": 29,
-        "selected": "b6"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 28,
-        "end_offset": 29,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-012",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 30,
-        "end_offset": 31,
-        "selected": "6"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 30,
-        "end_offset": 31,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-013",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 33,
-        "end_offset": 34,
-        "selected": "3"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 33,
-        "end_offset": 34,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-014",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 37,
-        "end_offset": 38,
-        "selected": ","
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 37,
-        "end_offset": 38,
-        "selected": "."
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-015",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "N"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 7,
-        "end_offset": 8,
-        "selected": "M"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-016",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 13,
-        "end_offset": 14,
-        "selected": "y"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 13,
-        "end_offset": 14,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-017",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 16,
-        "end_offset": 16,
-        "selected": ""
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 16,
-        "end_offset": 17,
-        "selected": " "
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-018",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 22,
-        "end_offset": 23,
-        "selected": "A"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 23,
-        "end_offset": 24,
-        "selected": "P"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-019",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 27,
-        "end_offset": 29,
-        "selected": "PA"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 28,
-        "end_offset": 29,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-020",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 30,
-        "end_offset": 31,
-        "selected": "A"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 30,
-        "end_offset": 31,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-021",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 33,
-        "end_offset": 34,
-        "selected": "O"
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 33,
-        "end_offset": 34,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-022",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R2",
-        "offset": 37,
-        "end_offset": 38,
-        "selected": ","
-      },
-      "SECOND_component": {
-        "line_id": "342-B2",
-        "offset": 37,
-        "end_offset": 38,
-        "selected": "."
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-023",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 0,
-        "end_offset": 3,
-        "selected": "m6̂"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 0,
-        "end_offset": 2,
-        "selected": "n?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-024",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 5,
-        "end_offset": 6,
-        "selected": "b"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 4,
-        "end_offset": 5,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-025",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 19,
-        "end_offset": 20,
-        "selected": "3"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 18,
-        "end_offset": 19,
-        "selected": "5"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-026",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 22,
-        "end_offset": 24,
-        "selected": " f"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 21,
-        "end_offset": 22,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-027",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 30,
-        "end_offset": 31,
-        "selected": "6"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 28,
-        "end_offset": 29,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-028",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 36,
-        "end_offset": 37,
-        "selected": "4"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 34,
-        "end_offset": 34,
-        "selected": ""
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-029",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 40,
-        "end_offset": 41,
-        "selected": "y"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 37,
-        "end_offset": 38,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-030",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 0,
-        "end_offset": 3,
-        "selected": "NÂ"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 0,
-        "end_offset": 2,
-        "selected": "M?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-031",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 5,
-        "end_offset": 6,
-        "selected": "P"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 4,
-        "end_offset": 5,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-032",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 19,
-        "end_offset": 20,
-        "selected": "O"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 18,
-        "end_offset": 19,
-        "selected": "E"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-033",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 22,
-        "end_offset": 24,
-        "selected": " V"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 21,
-        "end_offset": 22,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-034",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 30,
-        "end_offset": 31,
-        "selected": "A"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 28,
-        "end_offset": 29,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-035",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 36,
-        "end_offset": 37,
-        "selected": "I"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 34,
-        "end_offset": 34,
-        "selected": ""
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-036",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R3",
-        "offset": 40,
-        "end_offset": 41,
-        "selected": "y"
-      },
-      "SECOND_component": {
-        "line_id": "342-B3",
-        "offset": 37,
-        "end_offset": 38,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-037",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R4",
-        "offset": 2,
-        "end_offset": 4,
-        "selected": "y6"
-      },
-      "SECOND_component": {
-        "line_id": "342-B4",
-        "offset": 2,
-        "end_offset": 3,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-038",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R4",
-        "offset": 5,
-        "end_offset": 6,
-        "selected": "b"
-      },
-      "SECOND_component": {
-        "line_id": "342-B4",
-        "offset": 4,
-        "end_offset": 5,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-039",
-      "scope": "ciphertext",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R4",
-        "offset": 11,
-        "end_offset": 12,
-        "selected": "."
-      },
-      "SECOND_component": {
-        "line_id": "342-B4",
-        "offset": 10,
-        "end_offset": 11,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-040",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R4",
-        "offset": 2,
-        "end_offset": 4,
-        "selected": "yA"
-      },
-      "SECOND_component": {
-        "line_id": "342-B4",
-        "offset": 2,
-        "end_offset": 3,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-041",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R4",
-        "offset": 5,
-        "end_offset": 6,
-        "selected": "P"
-      },
-      "SECOND_component": {
-        "line_id": "342-B4",
-        "offset": 4,
-        "end_offset": 5,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    },
-    {
-      "id": "342-difference-042",
-      "scope": "literal",
-      "status": "UNRESOLVED_SOURCE_ALTERNATIVE",
-      "current_component": {
-        "line_id": "R4",
-        "offset": 11,
-        "end_offset": 12,
-        "selected": "."
-      },
-      "SECOND_component": {
-        "line_id": "342-B4",
-        "offset": 10,
-        "end_offset": 11,
-        "selected": "?"
-      },
-      "SECOND_original_wrapper_file_sha256": "7f70def8f1256d940f49508618d3cd26b0c00ea1c4fa45410be5627e6bb1900e",
-      "SECOND_canonical_raw_sha256": "3b4c69d2115bd950304fb19ea9625c69e2fb9b8aea4815cd664a8523aa592ef4",
-      "source_claim": "Exact string-difference components, not asserted one-to-one physical ink alignment. Full original segmentation and ledgers remain authoritative historical observations."
-    }
-  ],
   "uncertainty_ledger": [
     {
       "line_id": "R1",
       "offset": 7,
-      "selected": "y",
-      "kind": "unassigned_family",
-      "source_observation": "Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies.",
+      "selected": "7",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "y",
+      "previous_offset": 7,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/0",
       "alternatives": [
         "y",
         "p",
         "unresolved composite"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        45,
-        1470,
-        615,
-        1550
-      ],
-      "native_bbox_xyxy": [
-        1470,
-        560,
-        1550,
-        1130
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "ycn5",
-      "token_offset": 7,
-      "crop_review_ids": [
-        "first342-R1-g1",
-        "first342-R1-g2"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R1-g1.png",
-        "first342-R1-g2.png"
-      ],
-      "entry_id": "342-pos-001",
-      "review_id": "342-pos-001-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427960+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 0
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Forked/crossed y-like body provisionally 7/J. Retained 6/A with high angle separately noted, no CH/mark value. Existing g/Z in VLASSZY retained; VLASSZY→VLASSKY is language-only. Sedlec/Vlašský dvůr text proposals, not authenticated itinerary or identification from caption.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R1",
-      "offset": 33,
+      "offset": 32,
       "selected": "g",
-      "kind": "loop_family",
-      "source_observation": "Selected g-form from visible loop and lower extending stroke; faint/cursive contour may also support q-like or 9-like reading. This remains a source-level alternative, without normalization.",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "g",
+      "previous_offset": 33,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/1",
       "alternatives": [
         "g",
         "q",
         "9"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        555,
-        1470,
-        1130,
-        1550
-      ],
-      "native_bbox_xyxy": [
-        1470,
-        45,
-        1550,
-        620
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "f86ccg1",
-      "token_offset": 28,
-      "crop_review_ids": [
-        "first342-R1-g3",
-        "first342-R1-g4"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R1-g3.png",
-        "first342-R1-g4.png"
-      ],
-      "entry_id": "342-pos-004",
-      "review_id": "342-pos-004-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427981+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Selected g-form from visible loop and lower extending stroke; faint/cursive contour may also support q-like or 9-like reading. This remains a source-level alternative, without normalization. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 5
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Forked/crossed y-like body provisionally 7/J. Retained 6/A with high angle separately noted, no CH/mark value. Existing g/Z in VLASSZY retained; VLASSZY→VLASSKY is language-only. Sedlec/Vlašský dvůr text proposals, not authenticated itinerary or identification from caption.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R2",
       "offset": 13,
-      "selected": "y",
-      "kind": "unassigned_family",
-      "source_observation": "Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies.",
+      "selected": "7",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "y",
+      "previous_offset": 13,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/2",
       "alternatives": [
         "y",
         "p",
         "unresolved composite"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        285,
-        1535,
-        615,
-        1620
-      ],
-      "native_bbox_xyxy": [
-        1535,
-        560,
-        1620,
-        890
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "bh3yt5n5",
-      "token_offset": 10,
-      "crop_review_ids": [
-        "first342-R2-g2"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R2-g2.png"
-      ],
-      "entry_id": "342-pos-005",
-      "review_id": "342-pos-005-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427986+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 3
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Forked/crossed y-like body provisionally 7/J in PROJDEME. FIRST ODPOLEDNE/OSTATNI/PAMATNOSTI and comma retained against whole SECOND alternatives. Native SECOND marked masks receive broad token-context references only, not precise multi-body segmentation.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R3",
-      "offset": 7,
-      "selected": "?",
-      "kind": "unknown_mask",
-      "source_observation": "Pale crossed/forked body in cb3?4 has possible raised stroke; y-like/marked-body alternatives unresolved.",
+      "offset": 6,
+      "selected": "7",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "?",
+      "previous_offset": 7,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/3",
       "alternatives": [
         "y-like body",
         "r-like marked body",
         "unresolved composite"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        45,
-        1595,
-        345,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        830,
-        1685,
-        1130
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "cb3?4",
-      "token_offset": 4,
-      "crop_review_ids": [
-        "first342-R3-g1"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R3-g1.png"
-      ],
-      "entry_id": "342-pos-008",
-      "review_id": "342-pos-008-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428001+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Pale crossed/forked body in cb3?4 has possible raised stroke; y-like/marked-body alternatives unresolved. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 3
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Retained 6/A upper angle separated as annotation; b/P→f/V, mask→7/J give SVOJI. AMUSZU unchanged literally; proposed ANUSKU language-only. 3/O→5/E yields VRELE, matching SECOND. In final thought group 4/I→2/U and mask→canonical ř/CH from narrow crossed base plus distinct upper angle; next y→7/J. Upper geometry/attachment and other composites remain alternatives.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R3",
-      "offset": 14,
+      "offset": 13,
       "selected": "g",
-      "kind": "loop_family",
-      "source_observation": "Selected g-form from visible loop and lower extending stroke; faint/cursive contour may also support q-like or 9-like reading. This remains a source-level alternative, without normalization.",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "g",
+      "previous_offset": 14,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/4",
       "alternatives": [
         "g",
         "q",
         "9"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        285,
-        1595,
-        615,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        560,
-        1685,
-        890
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "6n2cg2",
-      "token_offset": 10,
-      "crop_review_ids": [
-        "first342-R3-g2"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R3-g2.png"
-      ],
-      "entry_id": "342-pos-009",
-      "review_id": "342-pos-009-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428008+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Selected g-form from visible loop and lower extending stroke; faint/cursive contour may also support q-like or 9-like reading. This remains a source-level alternative, without normalization. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 4
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Retained 6/A upper angle separated as annotation; b/P→f/V, mask→7/J give SVOJI. AMUSZU unchanged literally; proposed ANUSKU language-only. 3/O→5/E yields VRELE, matching SECOND. In final thought group 4/I→2/U and mask→canonical ř/CH from narrow crossed base plus distinct upper angle; next y→7/J. Upper geometry/attachment and other composites remain alternatives.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R3",
-      "offset": 24,
+      "offset": 23,
       "selected": "g",
-      "kind": "loop_family",
-      "source_observation": "Selected g-form from visible loop and lower extending stroke; faint/cursive contour may also support q-like or 9-like reading. This remains a source-level alternative, without normalization.",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "g",
+      "previous_offset": 24,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/5",
       "alternatives": [
         "g",
         "q",
         "9"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        555,
-        1595,
-        885,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        290,
-        1685,
-        620
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "fgb3n4m6",
-      "token_offset": 23,
-      "crop_review_ids": [
-        "first342-R3-g3"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R3-g3.png"
-      ],
-      "entry_id": "342-pos-010",
-      "review_id": "342-pos-010-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428012+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Selected g-form from visible loop and lower extending stroke; faint/cursive contour may also support q-like or 9-like reading. This remains a source-level alternative, without normalization. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 1
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Retained 6/A upper angle separated as annotation; b/P→f/V, mask→7/J give SVOJI. AMUSZU unchanged literally; proposed ANUSKU language-only. 3/O→5/E yields VRELE, matching SECOND. In final thought group 4/I→2/U and mask→canonical ř/CH from narrow crossed base plus distinct upper angle; next y→7/J. Upper geometry/attachment and other composites remain alternatives.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R3",
-      "offset": 37,
-      "selected": "?",
-      "kind": "unknown_mask",
-      "source_observation": "Pale body before final 2 in ft4?2 lies under a raised curved stroke; r/n-like base and attachment unresolved.",
+      "offset": 36,
+      "selected": "ř",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "?",
+      "previous_offset": 37,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/6",
       "alternatives": [
         "r-like body",
         "n-like body",
         "unresolved marked composite"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        825,
-        1595,
-        1130,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        45,
-        1685,
-        350
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "ft4?2",
-      "token_offset": 34,
-      "crop_review_ids": [
-        "first342-R3-g4"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R3-g4.png"
-      ],
-      "entry_id": "342-pos-011",
-      "review_id": "342-pos-011-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428016+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Pale body before final 2 in ft4?2 lies under a raised curved stroke; r/n-like base and attachment unresolved. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 3
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Retained 6/A upper angle separated as annotation; b/P→f/V, mask→7/J give SVOJI. AMUSZU unchanged literally; proposed ANUSKU language-only. 3/O→5/E yields VRELE, matching SECOND. In final thought group 4/I→2/U and mask→canonical ř/CH from narrow crossed base plus distinct upper angle; next y→7/J. Upper geometry/attachment and other composites remain alternatives.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R3",
-      "offset": 40,
-      "selected": "y",
-      "kind": "unassigned_family",
-      "source_observation": "Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies.",
+      "offset": 39,
+      "selected": "7",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "y",
+      "previous_offset": 40,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/7",
       "alternatives": [
         "y",
         "p",
         "unresolved composite"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        825,
-        1595,
-        1130,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        45,
-        1685,
-        350
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "y4",
-      "token_offset": 40,
-      "crop_review_ids": [
-        "first342-R3-g4"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R3-g4.png"
-      ],
-      "entry_id": "342-pos-012",
-      "review_id": "342-pos-012-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428022+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 0
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Retained 6/A upper angle separated as annotation; b/P→f/V, mask→7/J give SVOJI. AMUSZU unchanged literally; proposed ANUSKU language-only. 3/O→5/E yields VRELE, matching SECOND. In final thought group 4/I→2/U and mask→canonical ř/CH from narrow crossed base plus distinct upper angle; next y→7/J. Upper geometry/attachment and other composites remain alternatives.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R4",
       "offset": 2,
-      "selected": "y",
-      "kind": "unassigned_family",
-      "source_observation": "Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies.",
+      "selected": "p",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "y",
+      "previous_offset": 2,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/8",
       "alternatives": [
         "y",
         "p",
         "unresolved composite"
       ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        390,
-        1650,
-        690,
-        1720
-      ],
-      "native_bbox_xyxy": [
-        1650,
-        485,
-        1720,
-        785
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "84y6",
-      "token_offset": 0,
-      "crop_review_ids": [
-        "first342-R4-g1"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R4-g1.png"
-      ],
-      "entry_id": "342-pos-013",
-      "review_id": "342-pos-013-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428026+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Retained y-like crossed/forked source body; canonical p-like alternative is unresolved. No value inferred from neighbouring bodies. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 2
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Forked/p-like former y provisionally p/B yields LIBA. Signature 3/O→5/E and t/D→b/P from tall-looped contour yield PEPOUS; earlier PODOUS/other/name/punctuation alternatives retained. Existing c/S/period retained, upper curl not assigned a separate value. No person or physical body count established.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     },
     {
       "line_id": "R4",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        390,
-        1650,
-        820,
-        1720
-      ],
-      "native_bbox_xyxy": [
-        1650,
-        355,
-        1720,
-        785
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "crop_review_ids": [
-        "first342-R4-g1",
-        "first342-R4-g2"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R4-g1.png",
-        "first342-R4-g2.png"
-      ],
       "offset": 10,
       "selected": "c",
-      "kind": "unassigned_family",
-      "source_observation": "Terminal c-like/e-like curved body in short final continuation has upper sweep; attached flourish/mark remains uncertain.",
+      "kind": "provisional source form; alternatives remain",
+      "previous_selected": "c",
+      "previous_offset": 10,
+      "prior_current_entry": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/uncertainty_ledger/9",
       "alternatives": [
         "c",
         "e-like body",
         "terminal composite"
       ],
-      "token_context_ciphertext": "84y6 b3t32c.",
-      "token_offset": 0,
-      "entry_id": "342-pos-014",
-      "review_id": "342-pos-014-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428030+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Terminal c-like/e-like curved body in short final continuation has upper sweep; attached flourish/mark remains uncertain. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 10
+      "recorded_at_utc": "2026-10-26T17:10:15.220776+00:00",
+      "source_observation": "Forked/p-like former y provisionally p/B yields LIBA. Signature 3/O→5/E and t/D→b/P from tall-looped contour yield PEPOUS; earlier PODOUS/other/name/punctuation alternatives retained. Existing c/S/period retained, upper curl not assigned a separate value. No person or physical body count established.",
+      "scope": "Previous complete entry and its source timestamps/geometry remain historical at Git pin; current string offset only, no exact ink/ownership claim."
     }
   ],
-  "current_mark_ledger": [
-    {
-      "line_id": "R1",
-      "offset": 25,
-      "selected": "6̂",
-      "kind": "marked_composite",
-      "source_observation": "6-like base and detached roof-like stroke retained together as literal 6 plus combining circumflex; physical attachment and base family remain provisional.",
-      "alternatives": [
-        "6 with detached roof",
-        "unresolved roofed loop composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        555,
-        1470,
-        885,
-        1550
-      ],
-      "native_bbox_xyxy": [
-        1470,
-        290,
-        1550,
-        620
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "6̂",
-      "token_offset": 25,
-      "crop_review_ids": [
-        "first342-R1-g3"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R1-g3.png"
-      ],
-      "entry_id": "342-pos-002",
-      "review_id": "342-pos-002-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427971+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. 6-like base and detached roof-like stroke retained together as literal 6 plus combining circumflex; physical attachment and base family remain provisional. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 0
-    },
-    {
-      "line_id": "R1",
-      "offset": 26,
-      "selected": "̂",
-      "kind": "marked_codepoint",
-      "source_observation": "Combining circumflex represents visible detached roof-like stroke over preceding 6-like loop body; base/attachment unresolved, no automatic CH assignment.",
-      "alternatives": [
-        "combining circumflex over 6",
-        "detached stroke near 6",
-        "unresolved marked composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        555,
-        1470,
-        885,
-        1550
-      ],
-      "native_bbox_xyxy": [
-        1470,
-        290,
-        1550,
-        620
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "6̂",
-      "token_offset": 25,
-      "crop_review_ids": [
-        "first342-R1-g3"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R1-g3.png"
-      ],
-      "entry_id": "342-pos-003",
-      "review_id": "342-pos-003-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427977+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Combining circumflex represents visible detached roof-like stroke over preceding 6-like loop body; base/attachment unresolved, no automatic CH assignment. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 1
-    },
-    {
-      "line_id": "R3",
-      "offset": 1,
-      "selected": "6̂",
-      "kind": "marked_composite",
-      "source_observation": "6-like base and detached roof-like stroke retained together as literal 6 plus combining circumflex; physical attachment and base family remain provisional.",
-      "alternatives": [
-        "6 with detached roof",
-        "unresolved roofed loop composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        45,
-        1595,
-        345,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        830,
-        1685,
-        1130
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "m6̂",
-      "token_offset": 0,
-      "crop_review_ids": [
-        "first342-R3-g1"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R3-g1.png"
-      ],
-      "entry_id": "342-pos-006",
-      "review_id": "342-pos-006-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427990+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. 6-like base and detached roof-like stroke retained together as literal 6 plus combining circumflex; physical attachment and base family remain provisional. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 1
-    },
-    {
-      "line_id": "R3",
-      "offset": 2,
-      "selected": "̂",
-      "kind": "marked_codepoint",
-      "source_observation": "Combining circumflex represents visible detached roof-like stroke over preceding 6-like loop body; base/attachment unresolved, no automatic CH assignment.",
-      "alternatives": [
-        "combining circumflex over 6",
-        "detached stroke near 6",
-        "unresolved marked composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        45,
-        1595,
-        345,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        830,
-        1685,
-        1130
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "token_context_ciphertext": "m6̂",
-      "token_offset": 0,
-      "crop_review_ids": [
-        "first342-R3-g1"
-      ],
-      "inspected_crop_basenames": [
-        "first342-R3-g1.png"
-      ],
-      "entry_id": "342-pos-007",
-      "review_id": "342-pos-007-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427997+00:00",
-      "review_manifest_file": "first341342-crop-review-manifest.json",
-      "actual_source_content_review": "Selected position is identified by exact token and within-token offset in inspected crop group(s), including adjacent context. Combining circumflex represents visible detached roof-like stroke over preceding 6-like loop body; base/attachment unresolved, no automatic CH assignment. Broad context cannot certify exact ink ownership or physical segmentation; later neighbouring bodies remain visible in context.",
-      "offset_within_token": 2
-    }
-  ],
-  "current_question_role_inventory": [
-    {
-      "line_id": "R3",
-      "offset": 7,
-      "selected": "?",
-      "source_observation": "Pale crossed/forked body in cb3?4 has possible raised stroke; y-like/marked-body alternatives unresolved.",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        45,
-        1595,
-        345,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        830,
-        1685,
-        1130
-      ],
-      "locator_scope": "broad context only",
-      "review_id": "342-pos-008-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428001+00:00",
-      "intended_body_bounds_not_established": true,
-      "role": "unknown_mask",
-      "entry_id": "342-pos-008"
-    },
-    {
-      "line_id": "R3",
-      "offset": 37,
-      "selected": "?",
-      "source_observation": "Pale body before final 2 in ft4?2 lies under a raised curved stroke; r/n-like base and attachment unresolved.",
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        825,
-        1595,
-        1130,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        45,
-        1685,
-        350
-      ],
-      "locator_scope": "broad context only",
-      "review_id": "342-pos-011-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428016+00:00",
-      "intended_body_bounds_not_established": true,
-      "role": "unknown_mask",
-      "entry_id": "342-pos-011"
-    }
-  ],
-  "current_segmentation_ledger": [
-    {
-      "line_id": "R1",
-      "offset": 25,
-      "selected": "6̂",
-      "source_observation": "6-like base and detached roof-like stroke retained together as literal 6 plus combining circumflex; physical attachment and base family remain provisional.",
-      "alternatives": [
-        "6 with detached roof",
-        "unresolved roofed loop composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        555,
-        1470,
-        885,
-        1550
-      ],
-      "native_bbox_xyxy": [
-        1470,
-        290,
-        1550,
-        620
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "physical_encoded_body_count": null,
-      "source_entry_id": "342-pos-002",
-      "review_id": "342-pos-002-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427971+00:00"
-    },
-    {
-      "line_id": "R3",
-      "offset": 1,
-      "selected": "6̂",
-      "source_observation": "6-like base and detached roof-like stroke retained together as literal 6 plus combining circumflex; physical attachment and base family remain provisional.",
-      "alternatives": [
-        "6 with detached roof",
-        "unresolved roofed loop composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        45,
-        1595,
-        345,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        830,
-        1685,
-        1130
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "physical_encoded_body_count": null,
-      "source_entry_id": "342-pos-006",
-      "review_id": "342-pos-006-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.427990+00:00"
-    },
-    {
-      "line_id": "R3",
-      "offset": 7,
-      "selected": "?",
-      "source_observation": "Pale crossed/forked body in cb3?4 has possible raised stroke; y-like/marked-body alternatives unresolved.",
-      "alternatives": [
-        "y-like body",
-        "r-like marked body",
-        "unresolved composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        45,
-        1595,
-        345,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        830,
-        1685,
-        1130
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "physical_encoded_body_count": null,
-      "source_entry_id": "342-pos-008",
-      "review_id": "342-pos-008-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428001+00:00"
-    },
-    {
-      "line_id": "R3",
-      "offset": 37,
-      "selected": "?",
-      "source_observation": "Pale body before final 2 in ft4?2 lies under a raised curved stroke; r/n-like base and attachment unresolved.",
-      "alternatives": [
-        "r-like body",
-        "n-like body",
-        "unresolved marked composite"
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "reading_bbox_xyxy": [
-        825,
-        1595,
-        1130,
-        1685
-      ],
-      "native_bbox_xyxy": [
-        1595,
-        45,
-        1685,
-        350
-      ],
-      "locator_scope": "broad context only",
-      "intended_body_bounds_not_established": true,
-      "physical_encoded_body_count": null,
-      "source_entry_id": "342-pos-011",
-      "review_id": "342-pos-011-source-review",
-      "checked_at_utc": "2026-10-21T03:16:18.428016+00:00"
-    }
-  ],
-  "current_source_evidence_scope": "Current per-position locators inherited from unchanged FIRST rows; their original timestamps and broad-context limitations remain historical, without retrospective certification. Whole SECOND source records retain all alternative9/e/marks/masks/joins.",
-  "editorial_reading": {
-    "status": "TENTATIVE_PAIRED_CZ_EN",
-    "rows": [
-      {
-        "line_id": "R1",
-        "literal": "PROSLI ySME DOSUD SEDLEC Â VLASSZY DVUR.",
-        "cz": "[prošli jsme dosud?; osoba, počet a tvar pouze návrh] [Sedlec?; možné místní označení, nikoli identifikace podle popisku] [a?; zvýšený znak v „Â“ zůstává nevyřešen] [Vlašský dvůr?; možné místní označení, nikoli potvrzené místo].",
-        "en": "[we have visited/walked through so far?; person, number and wording only proposed] [Sedlec?; possible place label, without identification from the printed caption] [and?; the raised sign in “Â” remains unresolved] [Vlašský dvůr?; possible place label, without an established location].",
-        "whole_block_literal_components": [
-          {
-            "line_id": "R1",
-            "offset": 0,
-            "end_offset": 41,
-            "selected": "PROSLI ySME DOSUD SEDLEC Â VLASSZY DVUR.",
-            "scope": "whole literal row"
-          }
-        ],
-        "segments": [
-          {
-            "proposal_id": "342-R1-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 0,
-                "end_offset": 18,
-                "selected": "PROSLI ySME DOSUD ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[prošli jsme dosud?; osoba, počet a tvar pouze návrh] ",
-            "en": "[we have visited/walked through so far?; person, number and wording only proposed] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R1-segment-02",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 18,
-                "end_offset": 25,
-                "selected": "SEDLEC ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[Sedlec?; možné místní označení, nikoli identifikace podle popisku] ",
-            "en": "[Sedlec?; possible place label, without identification from the printed caption] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R1-segment-03",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 25,
-                "end_offset": 28,
-                "selected": "Â ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[a?; zvýšený znak v „Â“ zůstává nevyřešen] ",
-            "en": "[and?; the raised sign in “Â” remains unresolved] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R1-segment-04",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 28,
-                "end_offset": 41,
-                "selected": "VLASSZY DVUR.",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[Vlašský dvůr?; možné místní označení, nikoli potvrzené místo].",
-            "en": "[Vlašský dvůr?; possible place label, without an established location].",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "occurrence_id": "342-R1-segment-01-cz-0",
-            "language": "cz",
-            "rendered_offset": 0,
-            "rendered_end_offset": 53,
-            "selected_rendered": "[prošli jsme dosud?; osoba, počet a tvar pouze návrh]",
-            "proposal_id": "342-R1-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 0,
-                "end_offset": 18,
-                "selected": "PROSLI ySME DOSUD ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R1-segment-01-en-0",
-            "language": "en",
-            "rendered_offset": 0,
-            "rendered_end_offset": 82,
-            "selected_rendered": "[we have visited/walked through so far?; person, number and wording only proposed]",
-            "proposal_id": "342-R1-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 0,
-                "end_offset": 18,
-                "selected": "PROSLI ySME DOSUD ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R1-segment-02-cz-0",
-            "language": "cz",
-            "rendered_offset": 54,
-            "rendered_end_offset": 121,
-            "selected_rendered": "[Sedlec?; možné místní označení, nikoli identifikace podle popisku]",
-            "proposal_id": "342-R1-segment-02",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 18,
-                "end_offset": 25,
-                "selected": "SEDLEC ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R1-segment-02-en-0",
-            "language": "en",
-            "rendered_offset": 83,
-            "rendered_end_offset": 163,
-            "selected_rendered": "[Sedlec?; possible place label, without identification from the printed caption]",
-            "proposal_id": "342-R1-segment-02",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 18,
-                "end_offset": 25,
-                "selected": "SEDLEC ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R1-segment-03-cz-0",
-            "language": "cz",
-            "rendered_offset": 122,
-            "rendered_end_offset": 165,
-            "selected_rendered": "[a?; zvýšený znak v „Â“ zůstává nevyřešen]",
-            "proposal_id": "342-R1-segment-03",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 25,
-                "end_offset": 28,
-                "selected": "Â ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R1-segment-03-en-0",
-            "language": "en",
-            "rendered_offset": 164,
-            "rendered_end_offset": 214,
-            "selected_rendered": "[and?; the raised sign in “Â” remains unresolved]",
-            "proposal_id": "342-R1-segment-03",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 25,
-                "end_offset": 28,
-                "selected": "Â ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R1-segment-04-cz-0",
-            "language": "cz",
-            "rendered_offset": 166,
-            "rendered_end_offset": 228,
-            "selected_rendered": "[Vlašský dvůr?; možné místní označení, nikoli potvrzené místo]",
-            "proposal_id": "342-R1-segment-04",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 28,
-                "end_offset": 41,
-                "selected": "VLASSZY DVUR.",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R1-segment-04-en-0",
-            "language": "en",
-            "rendered_offset": 215,
-            "rendered_end_offset": 285,
-            "selected_rendered": "[Vlašský dvůr?; possible place label, without an established location]",
-            "proposal_id": "342-R1-segment-04",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R1",
-                "offset": 28,
-                "end_offset": 41,
-                "selected": "VLASSZY DVUR.",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          }
-        ],
-        "coverage": "All literal codepoints partitioned exactly, including every unknown and terminal fragment."
-      },
-      {
-        "line_id": "R2",
-        "literal": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-        "cz": "[odpoledne projdeme ostatní památnosti?; osoba, počet i lexikální opravy pouze návrh],",
-        "en": "[in the afternoon we will visit the other sights/monuments?; person, number and lexical repairs only proposed],",
-        "whole_block_literal_components": [
-          {
-            "line_id": "R2",
-            "offset": 0,
-            "end_offset": 38,
-            "selected": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-            "scope": "whole literal row"
-          }
-        ],
-        "segments": [
-          {
-            "proposal_id": "342-R2-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R2",
-                "offset": 0,
-                "end_offset": 38,
-                "selected": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[odpoledne projdeme ostatní památnosti?; osoba, počet i lexikální opravy pouze návrh],",
-            "en": "[in the afternoon we will visit the other sights/monuments?; person, number and lexical repairs only proposed],",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "occurrence_id": "342-R2-segment-01-cz-0",
-            "language": "cz",
-            "rendered_offset": 0,
-            "rendered_end_offset": 85,
-            "selected_rendered": "[odpoledne projdeme ostatní památnosti?; osoba, počet i lexikální opravy pouze návrh]",
-            "proposal_id": "342-R2-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R2",
-                "offset": 0,
-                "end_offset": 38,
-                "selected": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R2-segment-01-en-0",
-            "language": "en",
-            "rendered_offset": 0,
-            "rendered_end_offset": 110,
-            "selected_rendered": "[in the afternoon we will visit the other sights/monuments?; person, number and lexical repairs only proposed]",
-            "proposal_id": "342-R2-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R2",
-                "offset": 0,
-                "end_offset": 38,
-                "selected": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          }
-        ],
-        "coverage": "All literal codepoints partitioned exactly, including every unknown and terminal fragment."
-      },
-      {
-        "line_id": "R3",
-        "literal": "NÂ SPO?I AMUSZU VROLE VZPOMINA A VDI?U yI",
-        "cz": "[na?; zvýšený znak v „NÂ“ nevyřešen] [svoji?; přivlastnění a referent pouze návrh] [Anušku?; pouze návrh jmenného čtení, bez určení osoby] [vřele vzpomíná?; slovesný tvar a třetí osoba pouze návrh] a [v duchu ji…?; hranice slov, obnova i ženské zájmeno pouze návrh]",
-        "en": "[of/to?; the raised sign in “NÂ” remains unresolved] [their own?; possession and referent only proposed] [Anuška?; proposed name reading only, without identifying a person] [thinks warmly?; verb wording and third-person interpretation only proposed] and [in thought … her?; word division, restoration and feminine pronoun only proposed]",
-        "whole_block_literal_components": [
-          {
-            "line_id": "R3",
-            "offset": 0,
-            "end_offset": 42,
-            "selected": "NÂ SPO?I AMUSZU VROLE VZPOMINA A VDI?U yI",
-            "scope": "whole literal row"
-          }
-        ],
-        "segments": [
-          {
-            "proposal_id": "342-R3-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 0,
-                "end_offset": 4,
-                "selected": "NÂ ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[na?; zvýšený znak v „NÂ“ nevyřešen] ",
-            "en": "[of/to?; the raised sign in “NÂ” remains unresolved] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R3-segment-02",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 4,
-                "end_offset": 10,
-                "selected": "SPO?I ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[svoji?; přivlastnění a referent pouze návrh] ",
-            "en": "[their own?; possession and referent only proposed] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R3-segment-03",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 10,
-                "end_offset": 17,
-                "selected": "AMUSZU ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[Anušku?; pouze návrh jmenného čtení, bez určení osoby] ",
-            "en": "[Anuška?; proposed name reading only, without identifying a person] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R3-segment-04",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 17,
-                "end_offset": 32,
-                "selected": "VROLE VZPOMINA ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[vřele vzpomíná?; slovesný tvar a třetí osoba pouze návrh] ",
-            "en": "[thinks warmly?; verb wording and third-person interpretation only proposed] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R3-segment-05",
-            "status": "literal-supported",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 32,
-                "end_offset": 34,
-                "selected": "A ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "a ",
-            "en": "and ",
-            "qualification_scope": "Direct phrase translation; no source glyph change."
-          },
-          {
-            "proposal_id": "342-R3-segment-06",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 34,
-                "end_offset": 42,
-                "selected": "VDI?U yI",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[v duchu ji…?; hranice slov, obnova i ženské zájmeno pouze návrh]",
-            "en": "[in thought … her?; word division, restoration and feminine pronoun only proposed]",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "occurrence_id": "342-R3-segment-01-cz-0",
-            "language": "cz",
-            "rendered_offset": 0,
-            "rendered_end_offset": 37,
-            "selected_rendered": "[na?; zvýšený znak v „NÂ“ nevyřešen]",
-            "proposal_id": "342-R3-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 0,
-                "end_offset": 4,
-                "selected": "NÂ ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-01-en-0",
-            "language": "en",
-            "rendered_offset": 0,
-            "rendered_end_offset": 53,
-            "selected_rendered": "[of/to?; the raised sign in “NÂ” remains unresolved]",
-            "proposal_id": "342-R3-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 0,
-                "end_offset": 4,
-                "selected": "NÂ ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-02-cz-0",
-            "language": "cz",
-            "rendered_offset": 38,
-            "rendered_end_offset": 83,
-            "selected_rendered": "[svoji?; přivlastnění a referent pouze návrh]",
-            "proposal_id": "342-R3-segment-02",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 4,
-                "end_offset": 10,
-                "selected": "SPO?I ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-02-en-0",
-            "language": "en",
-            "rendered_offset": 54,
-            "rendered_end_offset": 105,
-            "selected_rendered": "[their own?; possession and referent only proposed]",
-            "proposal_id": "342-R3-segment-02",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 4,
-                "end_offset": 10,
-                "selected": "SPO?I ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-03-cz-0",
-            "language": "cz",
-            "rendered_offset": 84,
-            "rendered_end_offset": 139,
-            "selected_rendered": "[Anušku?; pouze návrh jmenného čtení, bez určení osoby]",
-            "proposal_id": "342-R3-segment-03",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 10,
-                "end_offset": 17,
-                "selected": "AMUSZU ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-03-en-0",
-            "language": "en",
-            "rendered_offset": 106,
-            "rendered_end_offset": 173,
-            "selected_rendered": "[Anuška?; proposed name reading only, without identifying a person]",
-            "proposal_id": "342-R3-segment-03",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 10,
-                "end_offset": 17,
-                "selected": "AMUSZU ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-04-cz-0",
-            "language": "cz",
-            "rendered_offset": 140,
-            "rendered_end_offset": 198,
-            "selected_rendered": "[vřele vzpomíná?; slovesný tvar a třetí osoba pouze návrh]",
-            "proposal_id": "342-R3-segment-04",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 17,
-                "end_offset": 32,
-                "selected": "VROLE VZPOMINA ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-04-en-0",
-            "language": "en",
-            "rendered_offset": 174,
-            "rendered_end_offset": 250,
-            "selected_rendered": "[thinks warmly?; verb wording and third-person interpretation only proposed]",
-            "proposal_id": "342-R3-segment-04",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 17,
-                "end_offset": 32,
-                "selected": "VROLE VZPOMINA ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-06-cz-0",
-            "language": "cz",
-            "rendered_offset": 201,
-            "rendered_end_offset": 266,
-            "selected_rendered": "[v duchu ji…?; hranice slov, obnova i ženské zájmeno pouze návrh]",
-            "proposal_id": "342-R3-segment-06",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 34,
-                "end_offset": 42,
-                "selected": "VDI?U yI",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R3-segment-06-en-0",
-            "language": "en",
-            "rendered_offset": 255,
-            "rendered_end_offset": 337,
-            "selected_rendered": "[in thought … her?; word division, restoration and feminine pronoun only proposed]",
-            "proposal_id": "342-R3-segment-06",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 34,
-                "end_offset": 42,
-                "selected": "VDI?U yI",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          }
-        ],
-        "coverage": "All literal codepoints partitioned exactly, including every unknown and terminal fragment."
-      },
-      {
-        "line_id": "R4",
-        "literal": "LIyA PODOUS.",
-        "cz": "[líbá?; slovesný tvar pouze návrh] [„PODOUS“ — nevyřešený závěrečný fragment, možný podpis; osoba neurčena].",
-        "en": "[kisses?; verb form only proposed] [“PODOUS” — unresolved terminal fragment, possibly a signature; person unestablished].",
-        "whole_block_literal_components": [
-          {
-            "line_id": "R4",
-            "offset": 0,
-            "end_offset": 12,
-            "selected": "LIyA PODOUS.",
-            "scope": "whole literal row"
-          }
-        ],
-        "segments": [
-          {
-            "proposal_id": "342-R4-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R4",
-                "offset": 0,
-                "end_offset": 5,
-                "selected": "LIyA ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[líbá?; slovesný tvar pouze návrh] ",
-            "en": "[kisses?; verb form only proposed] ",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          },
-          {
-            "proposal_id": "342-R4-segment-02",
-            "status": "unresolved",
-            "literal_components": [
-              {
-                "line_id": "R4",
-                "offset": 5,
-                "end_offset": 12,
-                "selected": "PODOUS.",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ],
-            "cz": "[„PODOUS“ — nevyřešený závěrečný fragment, možný podpis; osoba neurčena].",
-            "en": "[“PODOUS” — unresolved terminal fragment, possibly a signature; person unestablished].",
-            "qualification_scope": "CZ and EN qualifiers are paired; proposed names, places, pronouns, gender and word division establish no identity or chronology."
-          }
-        ],
-        "bracketed_occurrence_mappings": [
-          {
-            "occurrence_id": "342-R4-segment-01-cz-0",
-            "language": "cz",
-            "rendered_offset": 0,
-            "rendered_end_offset": 34,
-            "selected_rendered": "[líbá?; slovesný tvar pouze návrh]",
-            "proposal_id": "342-R4-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R4",
-                "offset": 0,
-                "end_offset": 5,
-                "selected": "LIyA ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R4-segment-01-en-0",
-            "language": "en",
-            "rendered_offset": 0,
-            "rendered_end_offset": 34,
-            "selected_rendered": "[kisses?; verb form only proposed]",
-            "proposal_id": "342-R4-segment-01",
-            "status": "proposed",
-            "literal_components": [
-              {
-                "line_id": "R4",
-                "offset": 0,
-                "end_offset": 5,
-                "selected": "LIyA ",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R4-segment-02-cz-0",
-            "language": "cz",
-            "rendered_offset": 35,
-            "rendered_end_offset": 107,
-            "selected_rendered": "[„PODOUS“ — nevyřešený závěrečný fragment, možný podpis; osoba neurčena]",
-            "proposal_id": "342-R4-segment-02",
-            "status": "unresolved",
-            "literal_components": [
-              {
-                "line_id": "R4",
-                "offset": 5,
-                "end_offset": 12,
-                "selected": "PODOUS.",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          },
-          {
-            "occurrence_id": "342-R4-segment-02-en-0",
-            "language": "en",
-            "rendered_offset": 35,
-            "rendered_end_offset": 120,
-            "selected_rendered": "[“PODOUS” — unresolved terminal fragment, possibly a signature; person unestablished]",
-            "proposal_id": "342-R4-segment-02",
-            "status": "unresolved",
-            "literal_components": [
-              {
-                "line_id": "R4",
-                "offset": 5,
-                "end_offset": 12,
-                "selected": "PODOUS.",
-                "scope": "exact current returned literal Unicode codepoints"
-              }
-            ]
-          }
-        ],
-        "coverage": "All literal codepoints partitioned exactly, including every unknown and terminal fragment."
-      }
-    ],
-    "whole_text_cz": "[prošli jsme dosud?; osoba, počet a tvar pouze návrh] [Sedlec?; možné místní označení, nikoli identifikace podle popisku] [a?; zvýšený znak v „Â“ zůstává nevyřešen] [Vlašský dvůr?; možné místní označení, nikoli potvrzené místo].\n\n[odpoledne projdeme ostatní památnosti?; osoba, počet i lexikální opravy pouze návrh],\n\n[na?; zvýšený znak v „NÂ“ nevyřešen] [svoji?; přivlastnění a referent pouze návrh] [Anušku?; pouze návrh jmenného čtení, bez určení osoby] [vřele vzpomíná?; slovesný tvar a třetí osoba pouze návrh] a [v duchu ji…?; hranice slov, obnova i ženské zájmeno pouze návrh]\n\n[líbá?; slovesný tvar pouze návrh] [„PODOUS“ — nevyřešený závěrečný fragment, možný podpis; osoba neurčena].",
-    "whole_text_en": "[we have visited/walked through so far?; person, number and wording only proposed] [Sedlec?; possible place label, without identification from the printed caption] [and?; the raised sign in “Â” remains unresolved] [Vlašský dvůr?; possible place label, without an established location].\n\n[in the afternoon we will visit the other sights/monuments?; person, number and lexical repairs only proposed],\n\n[of/to?; the raised sign in “NÂ” remains unresolved] [their own?; possession and referent only proposed] [Anuška?; proposed name reading only, without identifying a person] [thinks warmly?; verb wording and third-person interpretation only proposed] and [in thought … her?; word division, restoration and feminine pronoun only proposed]\n\n[kisses?; verb form only proposed] [“PODOUS” — unresolved terminal fragment, possibly a signature; person unestablished].",
-    "whole_text_literal_components": [
-      {
-        "line_id": "R1",
-        "offset": 0,
-        "end_offset": 41,
-        "selected": "PROSLI ySME DOSUD SEDLEC Â VLASSZY DVUR.",
-        "scope": "whole selected literal row"
-      },
-      {
-        "line_id": "R2",
-        "offset": 0,
-        "end_offset": 38,
-        "selected": "ODPOLEDNE PROyDEME OSTATNI PAMATNOSTI,",
-        "scope": "whole selected literal row"
-      },
-      {
-        "line_id": "R3",
-        "offset": 0,
-        "end_offset": 42,
-        "selected": "NÂ SPO?I AMUSZU VROLE VZPOMINA A VDI?U yI",
-        "scope": "whole selected literal row"
-      },
-      {
-        "line_id": "R4",
-        "offset": 0,
-        "end_offset": 12,
-        "selected": "LIyA PODOUS.",
-        "scope": "whole selected literal row"
-      }
-    ],
-    "cross_row_proposals": [
-      {
-        "proposal_id": "342-crossrow-kissing",
-        "status": "PROPOSED_ONLY",
-        "scope": "cross-row clause continuation",
-        "literal_components": [
-          {
-            "line_id": "R3",
-            "offset": 34,
-            "end_offset": 42,
-            "selected": "VDI?U yI",
-            "scope": "exact current literal component"
-          },
-          {
-            "line_id": "R4",
-            "offset": 0,
-            "end_offset": 4,
-            "selected": "LIyA",
-            "scope": "exact current literal component"
-          }
-        ],
-        "cz": "[v duchu ji líbá?; spojení, obnova a ženský referent pouze návrh]",
-        "en": "[kisses her in thought?; joining, restoration and feminine referent only proposed]",
-        "bracketed_occurrence_mappings": [
-          {
-            "language": "cz",
-            "rendered_offset": 0,
-            "rendered_end_offset": 65,
-            "selected_rendered": "[v duchu ji líbá?; spojení, obnova a ženský referent pouze návrh]",
-            "proposal_id": "342-crossrow-kissing",
-            "status": "PROPOSED_ONLY",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 34,
-                "end_offset": 42,
-                "selected": "VDI?U yI",
-                "scope": "exact current literal component"
-              },
-              {
-                "line_id": "R4",
-                "offset": 0,
-                "end_offset": 4,
-                "selected": "LIyA",
-                "scope": "exact current literal component"
-              }
-            ]
-          },
-          {
-            "language": "en",
-            "rendered_offset": 0,
-            "rendered_end_offset": 82,
-            "selected_rendered": "[kisses her in thought?; joining, restoration and feminine referent only proposed]",
-            "proposal_id": "342-crossrow-kissing",
-            "status": "PROPOSED_ONLY",
-            "literal_components": [
-              {
-                "line_id": "R3",
-                "offset": 34,
-                "end_offset": 42,
-                "selected": "VDI?U yI",
-                "scope": "exact current literal component"
-              },
-              {
-                "line_id": "R4",
-                "offset": 0,
-                "end_offset": 4,
-                "selected": "LIyA",
-                "scope": "exact current literal component"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "method": "Every selected literal passage covered. Brackets are editorial uncertainty/proposal marks, distinct from source question roles. Orthographic/lexical restorations, names, places, referents, genders and joins remain proposals in both languages.",
-    "spatial_order_only": true,
-    "authenticated_chronology": false,
-    "identity_established": false
-  },
+  "current_question_role_inventory": [],
   "qa": {
     "status": "FINAL_NATIVE_SOURCE_QA_PRESERVED; ROOT_FINAL_PRESNAPSHOT_REVIEW_PENDING",
     "final_pending": false,
@@ -16394,7 +13824,585 @@
     "later_execution_review_results": "../validation-batch23.json",
     "scope": "Self-reference only. The immutable selected snapshot preserves the reviewed INITIAL preparation state; later assembly/check/review outcomes are separate."
   },
-  "publication_stage": "INITIAL preparation state with frozen final native source QA preserved. Qualified reconciliation remains provisional. An initial snapshot records this historical preparation state; later assembly, package checks and review results belong ../validation-batch23.json.",
   "privacy_omissions": 0,
-  "normalizations": 0
+  "normalizations": 0,
+  "source_completion_revision": "../revisions/342-source-completion.json",
+  "limitations": [
+    "Same root AI, nonblind key/earlier literals/language-visible source review, not independent/human/external confirmation. Czech fit is not independent visual evidence.",
+    "Four selected lower Picture units retain FIRST display IDs/order/broad geometry after CW90. They are serialization units, not authenticated physical rows. Source alternatives, all SECOND spatial groupings and possible multi-body masks remain whole. Caption/publisher/address/postal/date material excluded without authentication; no actual itinerary, journey, place, date, person/gender/relationship or chronology authenticated. Proposed Sedlec/Vlašský dvůr are text readings, not identification from the printed caption.",
+    "Four former y occurrences provisionally 7/J at R1 raw 7, R2 raw 13, R3 raw 40 and p/B at R4 raw 2. FIRST y/forked/p/other alternatives remain; no generic y alias. Two FIRST masks at R3 raw 7/raw 37 provisionally 7/J and canonical ř/CH respectively. The latter is an occurrence-specific r-like base plus visible upper angle, not a generic roof rule. Original two mask tags removed only in current selection; frozen originals/tags/codepoints unchanged.",
+    "Five known-body changes remain provisional: R3 b/P→f/V in SVOJI, 3/O→5/E in VRELE matching SECOND, 4/I→2/U in VDUCHU; R4 3/O→5/E and t/D→b/P in PEPOUS. Pale loop/crossed/number alternatives and earlier PODOUS fragment retained at Git-pinned previous edition; signature/name remains unverified. Existing g/Z in VLASSZY/AMUSZU/VZPOMINA and terminal c/S retained with q/K/9/e-like/composite alternatives.",
+    "Two FIRST combining-circumflex annotations at R1 raw 26 and R3 raw 2 move out of the encoded-body replay into two separate unassigned upper-annotation groups; preceding 6/A bases retained unchanged. No upper-mark letter value, physical ownership or absence established. Replay 113→111 slots is notation reclassification, not two newly deciphered letters or source-body exclusions. Two annotation groups remain unresolved even with zero unknown display slots in the base replay. Physical totals null; original Unicode never normalized.",
+    "Current base replay 111 slots/112 known letters/one CH/zero unknown display slots, previously 113/105/zero/eight. Six formerly unassigned base positions selected provisionally; one CH emits two letters. The two additional former unknown annotation codepoints are separate unresolved notes, not decoded letters. These counters are not source accuracy or a solved-card claim.",
+    "Exactly three language-only letter repairs: VLASSZY→VLASSKY, AMUSZU→ANUSKU (M→N and Z→K). Literal remains VLASSZY/AMUSZU; proposed Vlašský/Anuška bracketed. No source q/K selected for these words. Czech accents, first-person plural/third-person grammar, feminine ji and English possessives/subject order remain editorial. One cross-row VDUCHU JI / LIBA join is spatial/editorial, not authenticated common authorship, chronology or event.",
+    "All 20 native mark records (FIRST 4, SECOND 16) preserved with exact raw spans and bounded current context spans. FIRST composite/combining pairs share retained 6/A base contexts while upper strokes stay unassigned. SECOND possible multi-body/composite masks map to broad current token contexts, not certified one-to-one ink correspondence or physical segmentation. SECOND R3 raw 34 context includes the provisional CH; no other upper mark gets a value or attachment.",
+    "Both whole raw wrappers and actual own strict objects, two complete face metadata, four whole phase1 objects, two whole source-review manifests and whole already-projected historical QA/root review remain typed-identical. The historical QA projection excludes only private_protected_path_map_reference as explicitly recorded; no additional omission introduced. Earlier current-relative source/curation/mark/question/segmentation/editorial/replay records apply to complete previous JSON/Markdown pinned by Git/SHA256/blob. Raw offsets remain native; new current spans explicitly mapped.",
+    "All six historical batch23 native QA categories remain zero within their recorded bounds, not proof of source correctness/completeness. Original transaction granularity retained: A/C separately record import start/completion, B/D have a single import event, no invented timestamps. No batch24 lost-return or other-card source findings imported/reconstructed. Canonical inline verification, not private original FILE-byte rereads or new other-card source review.",
+    "Both original complete faces/all margins and ten enlarged whole-message/upper-left/upper-right/middle/lower-left/lower-right/signature/roof-name/thought/close-signature contexts viewed. Two anonymous GET200 originals match pinned hashes, no redirects/retries; scans/crops private. No separate continuous Address cipher recognized in visible frame; ordinary address/postal/date context excluded without transcription/authentication, not proof of absence of faint/hidden material."
+  ],
+  "totals": {
+    "rows": 4,
+    "encoded_bodies": 111,
+    "expanded_letters": 112,
+    "ch_occurrences": 1,
+    "unknowns": 0
+  },
+  "previous_unknown_dispositions": [
+    {
+      "line_id": "R1",
+      "previous_offset": 7,
+      "previous_symbol": "y",
+      "current_offset": 7,
+      "current_selected": "7",
+      "key_value": "J",
+      "disposition": "provisional occurrence-specific base selection; alternatives remain",
+      "is_annotation_reclassification": false,
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "R1",
+      "previous_offset": 26,
+      "previous_symbol": "̂",
+      "current_offset": 25,
+      "current_selected": "6",
+      "key_value": "A",
+      "disposition": "upper annotation now separately unresolved; base6/A unchanged, no decoded mark letter",
+      "is_annotation_reclassification": true,
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "R2",
+      "previous_offset": 13,
+      "previous_symbol": "y",
+      "current_offset": 13,
+      "current_selected": "7",
+      "key_value": "J",
+      "disposition": "provisional occurrence-specific base selection; alternatives remain",
+      "is_annotation_reclassification": false,
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "R3",
+      "previous_offset": 2,
+      "previous_symbol": "̂",
+      "current_offset": 1,
+      "current_selected": "6",
+      "key_value": "A",
+      "disposition": "upper annotation now separately unresolved; base6/A unchanged, no decoded mark letter",
+      "is_annotation_reclassification": true,
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "R3",
+      "previous_offset": 7,
+      "previous_symbol": "?",
+      "current_offset": 6,
+      "current_selected": "7",
+      "key_value": "J",
+      "disposition": "provisional occurrence-specific base selection; alternatives remain",
+      "is_annotation_reclassification": false,
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "R3",
+      "previous_offset": 37,
+      "previous_symbol": "?",
+      "current_offset": 36,
+      "current_selected": "ř",
+      "key_value": "CH",
+      "disposition": "provisional occurrence-specific base selection; alternatives remain",
+      "is_annotation_reclassification": false,
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "R3",
+      "previous_offset": 40,
+      "previous_symbol": "y",
+      "current_offset": 39,
+      "current_selected": "7",
+      "key_value": "J",
+      "disposition": "provisional occurrence-specific base selection; alternatives remain",
+      "is_annotation_reclassification": false,
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "R4",
+      "previous_offset": 2,
+      "previous_symbol": "y",
+      "current_offset": 2,
+      "current_selected": "p",
+      "key_value": "B",
+      "disposition": "provisional occurrence-specific base selection; alternatives remain",
+      "is_annotation_reclassification": false,
+      "physical_encoded_body_count": null
+    }
+  ],
+  "current_tag_changes": [
+    {
+      "line_id": "R3",
+      "previous_offset": 7,
+      "previous_tag": {
+        "offset": 7,
+        "text": "?",
+        "kind": "unknown_glyph"
+      },
+      "current_offset": 6,
+      "current_tag": null,
+      "reason": "Current provisional base replaces mask; all frozen original tags unchanged."
+    },
+    {
+      "line_id": "R3",
+      "previous_offset": 37,
+      "previous_tag": {
+        "offset": 37,
+        "text": "?",
+        "kind": "unknown_glyph"
+      },
+      "current_offset": 36,
+      "current_tag": null,
+      "reason": "Current provisional base replaces mask; all frozen original tags unchanged."
+    }
+  ],
+  "current_unassigned_upper_annotations": [
+    {
+      "line_id": "R1",
+      "previous_base_offset": 25,
+      "previous_composite": "6̂",
+      "previous_upper_offset": 26,
+      "previous_upper_codepoint": "U+0302",
+      "current_base_offset": 25,
+      "current_base": "6",
+      "current_key_value": "A",
+      "upper_mark_value": null,
+      "source_attachment_established": false,
+      "physical_encoded_body_count": null,
+      "scope": "One unresolved annotation group outside base replay; FIRST composite and combining records share this context. No ink erased/excluded or additional decoded letter, no generic CH rule."
+    },
+    {
+      "line_id": "R3",
+      "previous_base_offset": 1,
+      "previous_composite": "6̂",
+      "previous_upper_offset": 2,
+      "previous_upper_codepoint": "U+0302",
+      "current_base_offset": 1,
+      "current_base": "6",
+      "current_key_value": "A",
+      "upper_mark_value": null,
+      "source_attachment_established": false,
+      "physical_encoded_body_count": null,
+      "scope": "One unresolved annotation group outside base replay; FIRST composite and combining records share this context. No ink erased/excluded or additional decoded letter, no generic CH rule."
+    }
+  ],
+  "current_native_mark_reinspection": [
+    {
+      "actor": "FIRST",
+      "native_record_pointer": "/original_reads/0/original_wrapper/raw/mark_ledger/0",
+      "raw_line_id": "R1",
+      "raw_offset": 25,
+      "raw_end": 27,
+      "raw_selected": "6̂",
+      "line_id": "R1",
+      "current_offset": 25,
+      "current_end": 26,
+      "current_selected": "6",
+      "mapping_kind": "retained base context only; upper annotation unassigned, composite/combining records share context",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "FIRST",
+      "native_record_pointer": "/original_reads/0/original_wrapper/raw/mark_ledger/1",
+      "raw_line_id": "R1",
+      "raw_offset": 26,
+      "raw_end": 27,
+      "raw_selected": "̂",
+      "line_id": "R1",
+      "current_offset": 25,
+      "current_end": 26,
+      "current_selected": "6",
+      "mapping_kind": "retained base context only; upper annotation unassigned, composite/combining records share context",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "FIRST",
+      "native_record_pointer": "/original_reads/0/original_wrapper/raw/mark_ledger/2",
+      "raw_line_id": "R3",
+      "raw_offset": 1,
+      "raw_end": 3,
+      "raw_selected": "6̂",
+      "line_id": "R3",
+      "current_offset": 1,
+      "current_end": 2,
+      "current_selected": "6",
+      "mapping_kind": "retained base context only; upper annotation unassigned, composite/combining records share context",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "FIRST",
+      "native_record_pointer": "/original_reads/0/original_wrapper/raw/mark_ledger/3",
+      "raw_line_id": "R3",
+      "raw_offset": 2,
+      "raw_end": 3,
+      "raw_selected": "̂",
+      "line_id": "R3",
+      "current_offset": 1,
+      "current_end": 2,
+      "current_selected": "6",
+      "mapping_kind": "retained base context only; upper annotation unassigned, composite/combining records share context",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/0",
+      "raw_line_id": "342-B1",
+      "raw_offset": 7,
+      "raw_end": 8,
+      "raw_selected": "?",
+      "line_id": "R1",
+      "current_offset": 7,
+      "current_end": 11,
+      "current_selected": "7cn5",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/1",
+      "raw_line_id": "342-B1",
+      "raw_offset": 23,
+      "raw_end": 24,
+      "raw_selected": "?",
+      "line_id": "R1",
+      "current_offset": 18,
+      "current_end": 24,
+      "current_selected": "c5t85s",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/2",
+      "raw_line_id": "342-B1",
+      "raw_offset": 25,
+      "raw_end": 26,
+      "raw_selected": "?",
+      "line_id": "R1",
+      "current_offset": 25,
+      "current_end": 26,
+      "current_selected": "6",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/3",
+      "raw_line_id": "342-B2",
+      "raw_offset": 13,
+      "raw_end": 14,
+      "raw_selected": "?",
+      "line_id": "R2",
+      "current_offset": 10,
+      "current_end": 18,
+      "current_selected": "bh37t5n5",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/4",
+      "raw_line_id": "342-B2",
+      "raw_offset": 28,
+      "raw_end": 29,
+      "raw_selected": "?",
+      "line_id": "R2",
+      "current_offset": 27,
+      "current_end": 37,
+      "current_selected": "b6n6dm3cd4",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/5",
+      "raw_line_id": "342-B2",
+      "raw_offset": 30,
+      "raw_end": 31,
+      "raw_selected": "?",
+      "line_id": "R2",
+      "current_offset": 27,
+      "current_end": 37,
+      "current_selected": "b6n6dm3cd4",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/6",
+      "raw_line_id": "342-B2",
+      "raw_offset": 33,
+      "raw_end": 34,
+      "raw_selected": "?",
+      "line_id": "R2",
+      "current_offset": 27,
+      "current_end": 37,
+      "current_selected": "b6n6dm3cd4",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/7",
+      "raw_line_id": "342-B3",
+      "raw_offset": 1,
+      "raw_end": 2,
+      "raw_selected": "?",
+      "line_id": "R3",
+      "current_offset": 0,
+      "current_end": 2,
+      "current_selected": "m6",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/8",
+      "raw_line_id": "342-B3",
+      "raw_offset": 4,
+      "raw_end": 5,
+      "raw_selected": "?",
+      "line_id": "R3",
+      "current_offset": 3,
+      "current_end": 8,
+      "current_selected": "cf374",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/9",
+      "raw_line_id": "342-B3",
+      "raw_offset": 6,
+      "raw_end": 7,
+      "raw_selected": "?",
+      "line_id": "R3",
+      "current_offset": 3,
+      "current_end": 8,
+      "current_selected": "cf374",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/10",
+      "raw_line_id": "342-B3",
+      "raw_offset": 21,
+      "raw_end": 22,
+      "raw_selected": "?",
+      "line_id": "R3",
+      "current_offset": 22,
+      "current_end": 30,
+      "current_selected": "fgb3n4m6",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/11",
+      "raw_line_id": "342-B3",
+      "raw_offset": 28,
+      "raw_end": 29,
+      "raw_selected": "?",
+      "line_id": "R3",
+      "current_offset": 22,
+      "current_end": 30,
+      "current_selected": "fgb3n4m6",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/12",
+      "raw_line_id": "342-B3",
+      "raw_offset": 34,
+      "raw_end": 35,
+      "raw_selected": "?",
+      "line_id": "R3",
+      "current_offset": 33,
+      "current_end": 38,
+      "current_selected": "ft2ř2",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/13",
+      "raw_line_id": "342-B3",
+      "raw_offset": 37,
+      "raw_end": 38,
+      "raw_selected": "?",
+      "line_id": "R3",
+      "current_offset": 39,
+      "current_end": 41,
+      "current_selected": "74",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/14",
+      "raw_line_id": "342-B4",
+      "raw_offset": 2,
+      "raw_end": 3,
+      "raw_selected": "?",
+      "line_id": "R4",
+      "current_offset": 0,
+      "current_end": 4,
+      "current_selected": "84p6",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    },
+    {
+      "actor": "SECOND",
+      "native_record_pointer": "/original_reads/1/original_wrapper/raw/mark_ledger/15",
+      "raw_line_id": "342-B4",
+      "raw_offset": 4,
+      "raw_end": 5,
+      "raw_selected": "?",
+      "line_id": "R4",
+      "current_offset": 5,
+      "current_end": 11,
+      "current_selected": "b5b32c",
+      "mapping_kind": "broad current token context for native possible multi-body mask; no one-to-one physical/ink correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "physical_encoded_body_count": null,
+      "individual_view_timestamp": null,
+      "scope": "Native record whole and unchanged. Current context is a notation locator, not authenticated body/mark ownership. Only the separately recorded R3 CH source choice has a provisional composite value; no generic roof rule."
+    }
+  ],
+  "passages": {
+    "proposed_czech": "Prošli jsme dosud [Sedlec?] a [Vlašský?] [dvůr?]. Odpoledne projdeme ostatní památnosti. Na svoji [Anušku?] vřele vzpomíná a v duchu ji líbá [Pepouš?].",
+    "proposed_english": "So far we have been through [Sedlec?] and [Vlašský dvůr?]. In the afternoon we will visit the other sights. [Pepouš?] thinks warmly of his [Anuška?] and kisses her in thought.",
+    "scope": "Four spatial units. Prose makes comma after R2 into a sentence break and capitalizes Na; English moves final signature subject first/supplies his. Plural/third-person transition, names, feminine grammar and itinerary remain text interpretations, not authenticated people/gender/event/chronology."
+  },
+  "historical_provenance_scope": {
+    "previous_edition": {
+      "json": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/342.json",
+        "commit": "0f123624e66accfc46d63642cb38247297d1914d",
+        "sha256": "3c9962d4b636f699022ecb6021b2153bf3022474569a7f43de05bdf4883a4ffb",
+        "git_blob_oid": "31e4a5a06cb4475387974a243652e855180870c8",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json"
+      },
+      "markdown": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/342.md",
+        "commit": "0f123624e66accfc46d63642cb38247297d1914d",
+        "sha256": "791bd487ead1fa9958411ddd5615e3a23bf753d7921d66dbca82384a57e79345",
+        "git_blob_oid": "ad510729083c681780be9fe2fe65df416df063e9",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.md"
+      }
+    },
+    "prior_QA": {
+      "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/qa",
+      "canonical_sha256": "a1e96b74b87b4150421ed2f9cd71e118174e1ef61052b42274d846b437e1554f",
+      "native_QA_pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/0f123624e66accfc46d63642cb38247297d1914d/research-updates/2026-10-20-confirmed-key-continuation/cards/342.json#/qa/actual_final_qa_native_object",
+      "native_QA_canonical_sha256": "d8cfd99a31455f4cf57e3d7b1aa357624881bfb64302720966523ccd013a0f21",
+      "projection_scope": {
+        "excluded_only": [
+          "private_protected_path_map_reference"
+        ],
+        "reason": "Root explicitly requested excluding only this private path-map reference; the 453-entry private path map is not part of the final native QA object.",
+        "all_other_native_members_types_values_preserved": true
+      },
+      "scope": "Whole already-projected batch23 QA/root review unchanged, six zero categories retain limits; excludes only historically directed private path-map reference. No new omission/reclassification, no imported batch24 capture evidence."
+    },
+    "archived_fields": [
+      "status",
+      "source_curation",
+      "source_differences",
+      "uncertainty_ledger",
+      "current_mark_ledger",
+      "current_question_role_inventory",
+      "current_segmentation_ledger",
+      "current_source_evidence_scope",
+      "editorial_reading",
+      "publication_stage"
+    ],
+    "scope": "Previous current-relative source/curation/editorial/mark/question/segmentation/replay fields apply to archived edition. All frozen native objects remain whole inline. Current offset changes explicitly mapped; no original raw/tag/Unicode normalization."
+  }
 }
