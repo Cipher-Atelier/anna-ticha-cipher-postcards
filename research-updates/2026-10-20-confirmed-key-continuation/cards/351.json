@@ -1,7 +1,6 @@
 {
   "card_id": "351",
-  "candidate_date": "2026-10-21",
-  "status": "RESEARCH_CANDIDATE_INITIAL_PREPARATION_SNAPSHOT",
+  "status": "provisional three-row working reading; one terminal mask, six language proposals and unresolved contour/mark/boundary alternatives",
   "notation": "pdf204-canonical",
   "source": {
     "face": "Picture side",
@@ -46,15 +45,14 @@
     "scope": "Right-margin continuous region",
     "source_spatial_order": "Editorial source row serialization, not chronology"
   },
-  "selection_policy": "FIRST exact frozen native rows/tags/Unicode reproducible baseline only; source accuracy unproven. SECOND retained whole and all row differences explicit. No glyph editing, alias, accent stripping or Unicode normalization.",
   "lines": [
     {
       "line_id": "351-r1",
-      "ciphertext": "d4c4p5h1 b39th6f. 75t2 t3 96mcgh32m6.",
-      "transcription": [],
-      "reading_dimensions": [
-        1175,
-        1785
+      "native_bbox_xyxy": [
+        1515,
+        30,
+        1625,
+        1140
       ],
       "reading_bbox_xyxy": [
         35,
@@ -62,77 +60,56 @@
         1145,
         1625
       ],
-      "native_bbox_xyxy": [
-        1515,
-        30,
-        1625,
-        1140
+      "reading_dimensions": [
+        1175,
+        1785
       ],
       "reading_rotation_degrees_clockwise": 90,
-      "source_visual_notes": "Source spatial row order only, without chronology claim. Row and neighbouring context inspected at recorded shared display events. Reading bbox is the complete diagnostic context, not tight ink/body bounds. Printed material and ordinary inscriptions excluded.",
       "physical_encoded_body_count": null,
-      "ch_occurrences": 0,
+      "ciphertext": "d4c4p5h1 b3gth6f. 75t2 t3 86mcgh32m6.",
+      "transcription": [],
+      "literal": "TISIBERY POZDRAV. JEDU DO LANSZROUNA.",
       "encoded_bodies": 31,
-      "expanded_letters": 29,
-      "literal": "TISIBERY PO9DRAV. JEDU DO 9ANSZROUNA.",
-      "unknowns": [
+      "expanded_letters": 31,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "proposed_czech": "[Tisícerý?] pozdrav. Jedu do [Lanškrouna?].",
+      "proposed_english": "A thousand [greetings?]. I am going to [Lanškroun?].",
+      "source_visual_notes": "FIRST9 at PO9DRAV provisionally g/Z, matching SECOND/enlarged opening. Place initial9 provisionally8/L from doubled decorated loop; other loop/unresolved alternatives retained. LANSZROUNA→LANSKROUNA only language, not geographic identification. FIRST p/B in TISIBERY and full stop versus SECOND comma retained; C only in proposed word.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/8849d183ac5a9201b808a182dcfdd5696a5c2ec3/research-updates/2026-10-20-confirmed-key-continuation/cards/351.json#/lines/0",
+      "frozen_row_references": [
         {
-          "body_index": 10,
-          "kind": "unknown_symbol",
-          "offset": 11,
-          "symbol": "9"
+          "actor": "FIRST",
+          "line_id": "351-r1",
+          "pointer": "/original_reads/FIRST/raw_wrapper/raw/lines/0"
         },
         {
-          "body_index": 21,
-          "kind": "unknown_symbol",
-          "offset": 26,
-          "symbol": "9"
+          "actor": "SECOND",
+          "line_id": "351-P01",
+          "pointer": "/original_reads/SECOND/raw_wrapper/raw/lines/0"
         }
-      ],
-      "selected_original_line": {
-        "role": "FIRST",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "json_pointer": "/raw/lines/0"
-      },
-      "selected_source": {
-        "source_reference": "/source",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5070/pc_hcp_351_pic.JPG",
-        "sha256": "5844ca00969d0500bd6033346c55613129a44b19c9c3c1ff375e1ffa6d8c4128",
-        "metadata_reference": "/original_reads/FIRST/raw_wrapper/raw/source_record/whole_original_metadata"
-      },
-      "current_replay_provenance": {
-        "call_completed_at_utc": "2026-10-21T09:19:45.698403+00:00",
-        "call_started_at_utc": "2026-10-21T09:19:45.698243+00:00",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "card_id": 351,
-        "line_id": "351-r1",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "first_durable_return": {
-          "file": "curate26-12-current-returns.jsonl",
-          "FILE_sha256": "c8673256284bcc25dbd8c45150e3bdbcd8830fe5024d466e328deae82a753eca",
-          "record_index": 0
-        },
-        "import_events_reference": "/current_replay/actual_events"
-      },
-      "proposed_czech": "[Tisícerý?] [pozdrav?; doslova PO9DRAV] [Jedu do] [Lanškrouna?; možné místo, neověřeno]",
-      "proposed_english": "[A thousand?] [greetings?; literal PO9DRAV] [I am going to] [Lanškroun?; possible place, unverified]"
+      ]
     },
     {
       "line_id": "351-r2",
+      "native_bbox_xyxy": [
+        1565,
+        30,
+        1680,
+        1140
+      ],
+      "reading_bbox_xyxy": [
+        35,
+        1565,
+        1145,
+        1680
+      ],
+      "reading_dimensions": [
+        1175,
+        1785
+      ],
+      "reading_rotation_degrees_clockwise": 90,
+      "physical_encoded_body_count": null,
       "ciphertext": "t3c58 n27 t3b4c 6 84cd5g? fh5832 b2c2.",
       "transcription": [
         {
@@ -141,74 +118,48 @@
           "kind": "punctuation"
         }
       ],
+      "literal": "DOSEL MUJ DOPIS A LISTEZ? VRELOU PUSU.",
+      "encoded_bodies": 30,
+      "expanded_letters": 30,
+      "ch_occurrences": 0,
+      "unknowns": [],
+      "proposed_czech": "Došel můj dopis a [lístek?]? Vřelou pusu",
+      "proposed_english": "Have my letter and [card?] arrived? A warm kiss",
+      "source_visual_notes": "FIRST and SECOND identical selected row retained. LISTEZ g/Z versus language LISTEK K unchanged. Written question offset24 remains punctuation, distinct from row3 mask. Nearby b/P ascender/previous-row descender ownership unresolved; letter/card actual receipt not established.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/8849d183ac5a9201b808a182dcfdd5696a5c2ec3/research-updates/2026-10-20-confirmed-key-continuation/cards/351.json#/lines/1",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "line_id": "351-r2",
+          "pointer": "/original_reads/FIRST/raw_wrapper/raw/lines/1"
+        },
+        {
+          "actor": "SECOND",
+          "line_id": "351-P02",
+          "pointer": "/original_reads/SECOND/raw_wrapper/raw/lines/1"
+        }
+      ]
+    },
+    {
+      "line_id": "351-r3",
+      "native_bbox_xyxy": [
+        1620,
+        30,
+        1730,
+        1140
+      ],
+      "reading_bbox_xyxy": [
+        35,
+        1620,
+        1145,
+        1730
+      ],
       "reading_dimensions": [
         1175,
         1785
       ],
-      "reading_bbox_xyxy": [
-        35,
-        1565,
-        1145,
-        1680
-      ],
-      "native_bbox_xyxy": [
-        1565,
-        30,
-        1680,
-        1140
-      ],
       "reading_rotation_degrees_clockwise": 90,
-      "source_visual_notes": "Source spatial row order only, without chronology claim. Row and neighbouring context inspected at recorded shared display events. Reading bbox is the complete diagnostic context, not tight ink/body bounds. Printed material and ordinary inscriptions excluded.",
       "physical_encoded_body_count": null,
-      "ch_occurrences": 0,
-      "encoded_bodies": 30,
-      "expanded_letters": 30,
-      "literal": "DOSEL MUJ DOPIS A LISTEZ? VRELOU PUSU.",
-      "unknowns": [],
-      "selected_original_line": {
-        "role": "FIRST",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "json_pointer": "/raw/lines/1"
-      },
-      "selected_source": {
-        "source_reference": "/source",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5070/pc_hcp_351_pic.JPG",
-        "sha256": "5844ca00969d0500bd6033346c55613129a44b19c9c3c1ff375e1ffa6d8c4128",
-        "metadata_reference": "/original_reads/FIRST/raw_wrapper/raw/source_record/whole_original_metadata"
-      },
-      "current_replay_provenance": {
-        "call_completed_at_utc": "2026-10-21T09:19:45.698754+00:00",
-        "call_started_at_utc": "2026-10-21T09:19:45.698623+00:00",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "card_id": 351,
-        "line_id": "351-r2",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "first_durable_return": {
-          "file": "curate26-12-current-returns.jsonl",
-          "FILE_sha256": "c8673256284bcc25dbd8c45150e3bdbcd8830fe5024d466e328deae82a753eca",
-          "record_index": 1
-        },
-        "import_events_reference": "/current_replay/actual_events"
-      },
-      "proposed_czech": "[Došel můj dopis a lístek (vzkaz či korespondenční lístek)?; LISTEZ opraveno návrhem] [Vřelou pusu.]",
-      "proposed_english": "[Has my letter and note/card (possibly a postcard) arrived?; LISTEZ tentatively repaired] [A warm kiss.]"
-    },
-    {
-      "line_id": "351-r3",
       "ciphertext": "3t c8685 fgh3n4m674s4h3 b5h32c5?",
       "transcription": [
         {
@@ -217,91 +168,43 @@
           "kind": "unknown_glyph"
         }
       ],
-      "reading_dimensions": [
-        1175,
-        1785
-      ],
-      "reading_bbox_xyxy": [
-        35,
-        1620,
-        1145,
-        1730
-      ],
-      "native_bbox_xyxy": [
-        1620,
-        30,
-        1730,
-        1140
-      ],
-      "reading_rotation_degrees_clockwise": 90,
-      "source_visual_notes": "Source spatial row order only, without chronology claim. Row and neighbouring context inspected at recorded shared display events. Reading bbox is the complete diagnostic context, not tight ink/body bounds. Printed material and ordinary inscriptions excluded. Terminal dot/curved-trace cluster retained as unknown mask, with physical length and attachment unresolved.",
-      "physical_encoded_body_count": null,
-      "ch_occurrences": 0,
+      "literal": "OD SLALE VZROMINAJICIRO PEROUSE?",
       "encoded_bodies": 29,
       "expanded_letters": 28,
-      "literal": "OD SLALE VZROMINAJICIRO PEROUSE?",
+      "ch_occurrences": 0,
       "unknowns": [
         {
-          "body_index": 28,
-          "kind": "unknown_glyph",
           "offset": 31,
-          "symbol": "?"
+          "body_index": 28,
+          "symbol": "?",
+          "kind": "unknown_glyph"
         }
       ],
-      "selected_original_line": {
-        "role": "FIRST",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "json_pointer": "/raw/lines/2"
-      },
-      "selected_source": {
-        "source_reference": "/source",
-        "full_native_frame_bbox_xyxy": [
-          0,
-          0,
-          1785,
-          1175
-        ],
-        "native_dimensions": [
-          1785,
-          1175
-        ],
-        "face": "Picture side",
-        "url": "https://api.hcportal.eu/media/5070/pc_hcp_351_pic.JPG",
-        "sha256": "5844ca00969d0500bd6033346c55613129a44b19c9c3c1ff375e1ffa6d8c4128",
-        "metadata_reference": "/original_reads/FIRST/raw_wrapper/raw/source_record/whole_original_metadata"
-      },
-      "current_replay_provenance": {
-        "call_completed_at_utc": "2026-10-21T09:19:45.699029+00:00",
-        "call_started_at_utc": "2026-10-21T09:19:45.698935+00:00",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "card_id": 351,
-        "line_id": "351-r3",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "first_durable_return": {
-          "file": "curate26-12-current-returns.jsonl",
-          "FILE_sha256": "c8673256284bcc25dbd8c45150e3bdbcd8830fe5024d466e328deae82a753eca",
-          "record_index": 2
+      "proposed_czech": "od [stále?] [vzpomínajícího?] [Pepouše?]. [Koncová stopa nevyřešena.]",
+      "proposed_english": "from [Pepouš?], [who constantly thinks of you?]. [Unresolved terminal trace.]",
+      "source_visual_notes": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "previous_row": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/8849d183ac5a9201b808a182dcfdd5696a5c2ec3/research-updates/2026-10-20-confirmed-key-continuation/cards/351.json#/lines/2",
+      "frozen_row_references": [
+        {
+          "actor": "FIRST",
+          "line_id": "351-r3",
+          "pointer": "/original_reads/FIRST/raw_wrapper/raw/lines/2"
         },
-        "import_events_reference": "/current_replay/actual_events"
-      },
-      "proposed_czech": "[Od] [stále vzpomínajícího?; návrh několika oprav, rod neověřen] [PEROUSE?; možný podpis či zdrobnělina, osoba neurčena] [nevyřešený koncový shluk; nejde o potvrzený otazník]",
-      "proposed_english": "[From] [one who constantly remembers you?; several repairs and implied referent uncertain] [PEROUSE?; possible signature or pet name, person unidentified] [unresolved terminal cluster; no confirmed question mark]"
+        {
+          "actor": "SECOND",
+          "line_id": "351-P03",
+          "pointer": "/original_reads/SECOND/raw_wrapper/raw/lines/2"
+        }
+      ]
     }
   ],
   "totals": {
     "rows": 3,
     "encoded_bodies": 90,
-    "expanded_letters": 87,
+    "expanded_letters": 89,
     "ch_occurrences": 0,
-    "unknowns": 3
+    "unknowns": 1
   },
-  "encoded_bodies": 90,
-  "expanded_letters": 87,
-  "ch_occurrences": 0,
-  "unknowns": 3,
   "physical_encoded_body_count": null,
   "original_reads": {
     "FIRST": {
@@ -16147,1741 +16050,217 @@
       }
     }
   },
-  "current_replay": {
-    "file": "curate26-12-current-returns.jsonl",
-    "FILE_sha256": "c8673256284bcc25dbd8c45150e3bdbcd8830fe5024d466e328deae82a753eca",
-    "whole_native_returns": [
-      {
-        "call_completed_at_utc": "2026-10-21T09:19:45.698403+00:00",
-        "call_started_at_utc": "2026-10-21T09:19:45.698243+00:00",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "card_id": 351,
-        "line_id": "351-r1",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "result": {
-          "ch_occurrences": 0,
-          "encoded_bodies": 31,
-          "expanded_letters": 29,
-          "literal": "TISIBERY PO9DRAV. JEDU DO 9ANSZROUNA.",
-          "unknowns": [
-            {
-              "body_index": 10,
-              "kind": "unknown_symbol",
-              "offset": 11,
-              "symbol": "9"
-            },
-            {
-              "body_index": 21,
-              "kind": "unknown_symbol",
-              "offset": 26,
-              "symbol": "9"
-            }
-          ]
-        }
-      },
-      {
-        "call_completed_at_utc": "2026-10-21T09:19:45.698754+00:00",
-        "call_started_at_utc": "2026-10-21T09:19:45.698623+00:00",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "card_id": 351,
-        "line_id": "351-r2",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "result": {
-          "ch_occurrences": 0,
-          "encoded_bodies": 30,
-          "expanded_letters": 30,
-          "literal": "DOSEL MUJ DOPIS A LISTEZ? VRELOU PUSU.",
-          "unknowns": []
-        }
-      },
-      {
-        "call_completed_at_utc": "2026-10-21T09:19:45.699029+00:00",
-        "call_started_at_utc": "2026-10-21T09:19:45.698935+00:00",
-        "canonical_raw_sha256": "b127cd2f4327e52985fbcf01c76378004fecb9b216f96d7ef73f04ca5e2d4c7d",
-        "card_id": 351,
-        "line_id": "351-r3",
-        "raw_file": "readers/first351.json",
-        "raw_wrapper_FILE_sha256": "20f64d559302424ca9c6e40a62d5d7bd3ab905c8c8cc715a5344a7ff41dd6e64",
-        "result": {
-          "ch_occurrences": 0,
-          "encoded_bodies": 29,
-          "expanded_letters": 28,
-          "literal": "OD SLALE VZROMINAJICIRO PEROUSE?",
-          "unknowns": [
-            {
-              "body_index": 28,
-              "kind": "unknown_glyph",
-              "offset": 31,
-              "symbol": "?"
-            }
-          ]
-        }
-      }
-    ],
-    "actual_events": [
-      {
-        "actor": "related key-visible AI nonblind curator for 351/352",
-        "at_utc": "2026-10-21T09:19:45.691931+00:00",
-        "event": "nonblind_context_disclosure",
-        "prior_exposure": "Released FIRST/SECOND raw/own, current26 protocols and native metadata, plus current selected full Picture frames. No fresh-source actor or independence claim.",
-        "release_FILE_sha256": "c53010e64e3ab2a402a6efda20d889e9ce4e35518734f56b36715773f7e4a8fc"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.692366+00:00",
-        "code3_FILE_sha256": {
-          "check.py": "a7235f31ad577b67938846bb80f9856d03908821567e97adf1fda9629ca98d10",
-          "decode.py": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-          "key.json": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875"
-        },
-        "event": "import_started"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.698077+00:00",
-        "event": "import_completed"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.698243+00:00",
-        "card_id": 351,
-        "event": "call_started",
-        "line_id": "351-r1"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.698530+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.698403+00:00",
-        "card_id": 351,
-        "event": "native_return_durable",
-        "line_id": "351-r1"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.698623+00:00",
-        "card_id": 351,
-        "event": "call_started",
-        "line_id": "351-r2"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.698848+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.698754+00:00",
-        "card_id": 351,
-        "event": "native_return_durable",
-        "line_id": "351-r2"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.698935+00:00",
-        "card_id": 351,
-        "event": "call_started",
-        "line_id": "351-r3"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699122+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.699029+00:00",
-        "card_id": 351,
-        "event": "native_return_durable",
-        "line_id": "351-r3"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699205+00:00",
-        "card_id": 352,
-        "event": "call_started",
-        "line_id": "352-r1"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699378+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.699291+00:00",
-        "card_id": 352,
-        "event": "native_return_durable",
-        "line_id": "352-r1"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699457+00:00",
-        "card_id": 352,
-        "event": "call_started",
-        "line_id": "352-r2"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699629+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.699531+00:00",
-        "card_id": 352,
-        "event": "native_return_durable",
-        "line_id": "352-r2"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699685+00:00",
-        "card_id": 352,
-        "event": "call_started",
-        "line_id": "352-r3"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699872+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.699785+00:00",
-        "card_id": 352,
-        "event": "native_return_durable",
-        "line_id": "352-r3"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.699950+00:00",
-        "card_id": 352,
-        "event": "call_started",
-        "line_id": "352-r4"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700123+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.700039+00:00",
-        "card_id": 352,
-        "event": "native_return_durable",
-        "line_id": "352-r4"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700203+00:00",
-        "card_id": 352,
-        "event": "call_started",
-        "line_id": "352-r5"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700424+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.700291+00:00",
-        "card_id": 352,
-        "event": "native_return_durable",
-        "line_id": "352-r5"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700505+00:00",
-        "card_id": 352,
-        "event": "call_started",
-        "line_id": "352-r6"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700690+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.700598+00:00",
-        "card_id": 352,
-        "event": "native_return_durable",
-        "line_id": "352-r6"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700771+00:00",
-        "card_id": 352,
-        "event": "call_started",
-        "line_id": "352-r7"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700915+00:00",
-        "call_completed_at_utc": "2026-10-21T09:19:45.700857+00:00",
-        "card_id": 352,
-        "event": "native_return_durable",
-        "line_id": "352-r7"
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.700995+00:00",
-        "event": "all10_returns_durable_before_candidate_construction",
-        "return_count": 10
-      },
-      {
-        "at_utc": "2026-10-21T09:19:45.701714+00:00",
-        "event": "original8_and_code3_posthashes_unchanged"
-      }
-    ],
-    "event_journal": {
-      "file": "curate26-12-current-events.jsonl",
-      "FILE_sha256": "b3f79f3f8004cc4abe566334846a7c302d6f98372868aa943ffb29fbf5b86387"
-    },
-    "capture_helper": {
-      "file": "curate26-12-capture.py",
-      "FILE_sha256": "189c1f400085f0bce056cf3dd753137741ef30c9fd2eb95120c0f735475641af"
-    },
-    "scope": "Exactly one actual postrelease direct native decode_text per current row; first five-field return flushed/fsynced before candidate construction or aggregation. No retries or further replay.",
-    "code3_FILE_sha256": {
-      "check.py": "a7235f31ad577b67938846bb80f9856d03908821567e97adf1fda9629ca98d10",
-      "decode.py": "8824fa0ef25631b1ea02df42465de1d2b59e3d6e8ed00896e9d5328471b684a6",
-      "key.json": "e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875"
-    }
-  },
   "uncertainty_ledger": [
     {
-      "role": "FIRST",
-      "whole_original_ledger_reference": "/original_reads/FIRST/raw_wrapper/raw/uncertainty_ledger"
+      "line_id": "351-r1",
+      "offset": 11,
+      "selected": "g",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 11,
+      "reason": "FIRST9 at PO9DRAV provisionally g/Z, matching SECOND/enlarged opening. Place initial9 provisionally8/L from doubled decorated loop; other loop/unresolved alternatives retained. LANSZROUNA→LANSKROUNA only language, not geographic identification. FIRST p/B in TISIBERY and full stop versus SECOND comma retained; C only in proposed word.",
+      "physical_encoded_body_count": null
     },
     {
-      "role": "SECOND",
-      "whole_original_ledger_reference": "/original_reads/SECOND/raw_wrapper/raw/uncertainty_ledger"
+      "line_id": "351-r1",
+      "offset": 26,
+      "selected": "8",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "FIRST",
+      "raw_offset": 26,
+      "reason": "FIRST9 at PO9DRAV provisionally g/Z, matching SECOND/enlarged opening. Place initial9 provisionally8/L from doubled decorated loop; other loop/unresolved alternatives retained. LANSZROUNA→LANSKROUNA only language, not geographic identification. FIRST p/B in TISIBERY and full stop versus SECOND comma retained; C only in proposed word.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r1",
+      "offset": 16,
+      "selected": ".",
+      "alternatives": [
+        ",",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 16,
+      "reason": "FIRST9 at PO9DRAV provisionally g/Z, matching SECOND/enlarged opening. Place initial9 provisionally8/L from doubled decorated loop; other loop/unresolved alternatives retained. LANSZROUNA→LANSKROUNA only language, not geographic identification. FIRST p/B in TISIBERY and full stop versus SECOND comma retained; C only in proposed word.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r1",
+      "offset": 26,
+      "selected": "8",
+      "alternatives": [
+        "9",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 26,
+      "reason": "FIRST9 at PO9DRAV provisionally g/Z, matching SECOND/enlarged opening. Place initial9 provisionally8/L from doubled decorated loop; other loop/unresolved alternatives retained. LANSZROUNA→LANSKROUNA only language, not geographic identification. FIRST p/B in TISIBERY and full stop versus SECOND comma retained; C only in proposed word.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r1",
+      "offset": 11,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "FIRST9 at PO9DRAV provisionally g/Z, matching SECOND/enlarged opening. Place initial9 provisionally8/L from doubled decorated loop; other loop/unresolved alternatives retained. LANSZROUNA→LANSKROUNA only language, not geographic identification. FIRST p/B in TISIBERY and full stop versus SECOND comma retained; C only in proposed word.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r1",
+      "offset": 30,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "FIRST9 at PO9DRAV provisionally g/Z, matching SECOND/enlarged opening. Place initial9 provisionally8/L from doubled decorated loop; other loop/unresolved alternatives retained. LANSZROUNA→LANSKROUNA only language, not geographic identification. FIRST p/B in TISIBERY and full stop versus SECOND comma retained; C only in proposed word.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r2",
+      "offset": 23,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "FIRST and SECOND identical selected row retained. LISTEZ g/Z versus language LISTEK K unchanged. Written question offset24 remains punctuation, distinct from row3 mask. Nearby b/P ascender/previous-row descender ownership unresolved; letter/card actual receipt not established.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r2",
+      "offset": 24,
+      "selected": "?",
+      "alternatives": [
+        "terminal c-like/overlaid cluster of unknown length"
+      ],
+      "reason": "FIRST and SECOND identical selected row retained. LISTEZ g/Z versus language LISTEK K unchanged. Written question offset24 remains punctuation, distinct from row3 mask. Nearby b/P ascender/previous-row descender ownership unresolved; letter/card actual receipt not established.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 5,
+      "selected": "6",
+      "alternatives": [
+        "0",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 5,
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 7,
+      "selected": "5",
+      "alternatives": [
+        "6",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 7,
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 9,
+      "selected": "f",
+      "alternatives": [
+        "b",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 9,
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 11,
+      "selected": "h",
+      "alternatives": [
+        "m",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 11,
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 17,
+      "selected": "74s",
+      "alternatives": [
+        "?",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 17,
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 27,
+      "selected": "3",
+      "alternatives": [
+        "2",
+        "different unresolved contour/segmentation"
+      ],
+      "raw_actor": "SECOND",
+      "raw_offset": 25,
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 10,
+      "selected": "g",
+      "alternatives": [
+        "q/K",
+        "9-like or unresolved contour"
+      ],
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "offset": 31,
+      "selected": "?",
+      "alternatives": [
+        "terminal c-like/overlaid cluster of unknown length"
+      ],
+      "reason": "Whole FIRST selected row retained against divergent SECOND spelling/segmentation/masks. SLALE and h/R in VZROMINAJICIRO/PEROUSE remain literal, corrections only language. Crossed7 upper trace and terminal5/curl remain unresolved. SECOND central raw mask17 aligns to current74s span17:20 mechanically only, not a three-body/source attachment claim. Terminal mask retained, no punctuation or modifier assignment.",
+      "physical_encoded_body_count": null
     }
   ],
-  "source_ledger_references": [
-    {
-      "role": "FIRST",
-      "ledger": "uncertainty_ledger",
-      "json_pointer": "/original_reads/FIRST/raw_wrapper/raw/uncertainty_ledger"
-    },
-    {
-      "role": "FIRST",
-      "ledger": "mark_ledger",
-      "json_pointer": "/original_reads/FIRST/raw_wrapper/raw/mark_ledger"
-    },
-    {
-      "role": "FIRST",
-      "ledger": "segmentation_ledger",
-      "json_pointer": "/original_reads/FIRST/raw_wrapper/raw/segmentation_ledger"
-    },
-    {
-      "role": "FIRST",
-      "ledger": "question_role_inventory",
-      "json_pointer": "/original_reads/FIRST/raw_wrapper/raw/question_role_inventory"
-    },
-    {
-      "role": "FIRST",
-      "ledger": "mark_coverage_inventory",
-      "json_pointer": "/original_reads/FIRST/raw_wrapper/raw/mark_coverage_inventory"
-    },
-    {
-      "role": "FIRST",
-      "ledger": "row_mark_sweep",
-      "json_pointer": "/original_reads/FIRST/raw_wrapper/raw/row_mark_sweep"
-    },
-    {
-      "role": "FIRST",
-      "ledger": "source_locator_preflight",
-      "json_pointer": "/original_reads/FIRST/raw_wrapper/raw/source_locator_preflight"
-    },
-    {
-      "role": "SECOND",
-      "ledger": "uncertainty_ledger",
-      "json_pointer": "/original_reads/SECOND/raw_wrapper/raw/uncertainty_ledger"
-    },
-    {
-      "role": "SECOND",
-      "ledger": "mark_ledger",
-      "json_pointer": "/original_reads/SECOND/raw_wrapper/raw/mark_ledger"
-    },
-    {
-      "role": "SECOND",
-      "ledger": "segmentation_ledger",
-      "json_pointer": "/original_reads/SECOND/raw_wrapper/raw/segmentation_ledger"
-    },
-    {
-      "role": "SECOND",
-      "ledger": "question_role_inventory",
-      "json_pointer": "/original_reads/SECOND/raw_wrapper/raw/question_role_inventory"
-    },
-    {
-      "role": "SECOND",
-      "ledger": "mark_coverage_inventory",
-      "json_pointer": "/original_reads/SECOND/raw_wrapper/raw/mark_coverage_inventory"
-    },
-    {
-      "role": "SECOND",
-      "ledger": "row_mark_sweep",
-      "json_pointer": "/original_reads/SECOND/raw_wrapper/raw/row_mark_sweep"
-    },
-    {
-      "role": "SECOND",
-      "ledger": "source_locator_preflight",
-      "json_pointer": "/original_reads/SECOND/raw_wrapper/raw/source_locator_preflight"
-    }
-  ],
-  "competing_source_differences": [
-    {
-      "FIRST_line_id": "351-r1",
-      "SECOND_line_id": "351-P01",
-      "FIRST_ciphertext": "d4c4p5h1 b39th6f. 75t2 t3 96mcgh32m6.",
-      "SECOND_ciphertext": "d4c4p5h1 b3gth6f, 75t2 t3 96mcgh32m6.",
-      "FIRST_transcription": [],
-      "SECOND_transcription": [],
-      "ciphertext_differences": [
-        {
-          "operation": "replace",
-          "FIRST_raw_codepoint_offset": 11,
-          "FIRST_selected": "9",
-          "SECOND_raw_codepoint_offset": 11,
-          "SECOND_selected": "g"
-        },
-        {
-          "operation": "replace",
-          "FIRST_raw_codepoint_offset": 16,
-          "FIRST_selected": ".",
-          "SECOND_raw_codepoint_offset": 16,
-          "SECOND_selected": ","
-        }
-      ],
-      "other_whole_row_differences": [
-        "native_bbox_xyxy",
-        "reading_bbox_xyxy",
-        "ciphertext",
-        "source_visual_notes",
-        "line_id"
-      ],
-      "FIRST_whole_row_reference": "/original_reads/FIRST/raw_wrapper/raw/lines/0",
-      "SECOND_whole_row_reference": "/original_reads/SECOND/raw_wrapper/raw/lines/0",
-      "selection": "FIRST unchanged reproducible baseline; not source accuracy certification"
-    },
-    {
-      "FIRST_line_id": "351-r2",
-      "SECOND_line_id": "351-P02",
-      "FIRST_ciphertext": "t3c58 n27 t3b4c 6 84cd5g? fh5832 b2c2.",
-      "SECOND_ciphertext": "t3c58 n27 t3b4c 6 84cd5g? fh5832 b2c2.",
-      "FIRST_transcription": [
-        {
-          "offset": 24,
-          "text": "?",
-          "kind": "punctuation"
-        }
-      ],
-      "SECOND_transcription": [
-        {
-          "offset": 24,
-          "text": "?",
-          "kind": "punctuation"
-        }
-      ],
-      "ciphertext_differences": [],
-      "other_whole_row_differences": [
-        "native_bbox_xyxy",
-        "reading_bbox_xyxy",
-        "source_visual_notes",
-        "line_id"
-      ],
-      "FIRST_whole_row_reference": "/original_reads/FIRST/raw_wrapper/raw/lines/1",
-      "SECOND_whole_row_reference": "/original_reads/SECOND/raw_wrapper/raw/lines/1",
-      "selection": "FIRST unchanged reproducible baseline; not source accuracy certification"
-    },
-    {
-      "FIRST_line_id": "351-r3",
-      "SECOND_line_id": "351-P03",
-      "FIRST_ciphertext": "3t c8685 fgh3n4m674s4h3 b5h32c5?",
-      "SECOND_ciphertext": "3t c8086 bgm3n4m6?4h3 b5h22c5?",
-      "FIRST_transcription": [
-        {
-          "offset": 31,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "SECOND_transcription": [
-        {
-          "offset": 17,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
-        {
-          "offset": 29,
-          "text": "?",
-          "kind": "unknown_glyph"
-        }
-      ],
-      "ciphertext_differences": [
-        {
-          "operation": "insert",
-          "FIRST_raw_codepoint_offset": 5,
-          "FIRST_selected": "",
-          "SECOND_raw_codepoint_offset": 5,
-          "SECOND_selected": "08"
-        },
-        {
-          "operation": "delete",
-          "FIRST_raw_codepoint_offset": 6,
-          "FIRST_selected": "85",
-          "SECOND_raw_codepoint_offset": 8,
-          "SECOND_selected": ""
-        },
-        {
-          "operation": "replace",
-          "FIRST_raw_codepoint_offset": 9,
-          "FIRST_selected": "f",
-          "SECOND_raw_codepoint_offset": 9,
-          "SECOND_selected": "b"
-        },
-        {
-          "operation": "replace",
-          "FIRST_raw_codepoint_offset": 11,
-          "FIRST_selected": "h",
-          "SECOND_raw_codepoint_offset": 11,
-          "SECOND_selected": "m"
-        },
-        {
-          "operation": "replace",
-          "FIRST_raw_codepoint_offset": 17,
-          "FIRST_selected": "74s",
-          "SECOND_raw_codepoint_offset": 17,
-          "SECOND_selected": "?"
-        },
-        {
-          "operation": "replace",
-          "FIRST_raw_codepoint_offset": 27,
-          "FIRST_selected": "3",
-          "SECOND_raw_codepoint_offset": 25,
-          "SECOND_selected": "2"
-        }
-      ],
-      "other_whole_row_differences": [
-        "native_bbox_xyxy",
-        "reading_bbox_xyxy",
-        "transcription",
-        "ciphertext",
-        "source_visual_notes",
-        "line_id"
-      ],
-      "FIRST_whole_row_reference": "/original_reads/FIRST/raw_wrapper/raw/lines/2",
-      "SECOND_whole_row_reference": "/original_reads/SECOND/raw_wrapper/raw/lines/2",
-      "selection": "FIRST unchanged reproducible baseline; not source accuracy certification"
-    }
-  ],
-  "passages": [
-    {
-      "passage_id": "351-complete",
-      "line_ids": [
-        "351-r1",
-        "351-r2",
-        "351-r3"
-      ],
-      "literal": "TISIBERY PO9DRAV. JEDU DO 9ANSZROUNA.\nDOSEL MUJ DOPIS A LISTEZ? VRELOU PUSU.\nOD SLALE VZROMINAJICIRO PEROUSE?",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 0,
-          "selected": "TISIBERY PO9DRAV. JEDU DO 9ANSZROUNA."
-        },
-        {
-          "line_id": "351-r2",
-          "offset": 0,
-          "selected": "DOSEL MUJ DOPIS A LISTEZ? VRELOU PUSU."
-        },
-        {
-          "line_id": "351-r3",
-          "offset": 0,
-          "selected": "OD SLALE VZROMINAJICIRO PEROUSE?"
-        }
-      ],
-      "composite_scope": "All selected rows in editorial spatial serialization; no authenticated chronology.",
-      "proposed_czech": "[Tisícerý?] [pozdrav?; doslova PO9DRAV] [Jedu do] [Lanškrouna?; možné místo, neověřeno] [Došel můj dopis a lístek (vzkaz či korespondenční lístek)?; LISTEZ opraveno návrhem] [Vřelou pusu.] [Od] [stále vzpomínajícího?; návrh několika oprav, rod neověřen] [PEROUSE?; možný podpis či zdrobnělina, osoba neurčena] [nevyřešený koncový shluk; nejde o potvrzený otazník]",
-      "proposed_english": "[A thousand?] [greetings?; literal PO9DRAV] [I am going to] [Lanškroun?; possible place, unverified] [Has my letter and note/card (possibly a postcard) arrived?; LISTEZ tentatively repaired] [A warm kiss.] [From] [one who constantly remembers you?; several repairs and implied referent uncertain] [PEROUSE?; possible signature or pet name, person unidentified] [unresolved terminal cluster; no confirmed question mark]",
-      "component_proposal_ids": [
-        "351-r1-p1",
-        "351-r1-p2",
-        "351-r1-p3",
-        "351-r1-p4",
-        "351-r2-p1",
-        "351-r2-p2",
-        "351-r3-p1",
-        "351-r3-p2",
-        "351-r3-p3",
-        "351-r3-p4"
-      ]
-    }
-  ],
-  "editorial_proposals": [
-    {
-      "proposal_id": "351-r1-p1",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 0,
-          "selected": "TISIBERY"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r1"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[Tisícerý?]",
-      "proposed_english": "[A thousand?]"
-    },
-    {
-      "proposal_id": "351-r1-p2",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 9,
-          "selected": "PO9DRAV"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r1"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[pozdrav?; doslova PO9DRAV]",
-      "proposed_english": "[greetings?; literal PO9DRAV]"
-    },
-    {
-      "proposal_id": "351-r1-p3",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 18,
-          "selected": "JEDU DO"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r1"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[Jedu do]",
-      "proposed_english": "[I am going to]"
-    },
-    {
-      "proposal_id": "351-r1-p4",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 26,
-          "selected": "9ANSZROUNA"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r1"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[Lanškrouna?; možné místo, neověřeno]",
-      "proposed_english": "[Lanškroun?; possible place, unverified]"
-    },
-    {
-      "proposal_id": "351-r2-p1",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 0,
-          "selected": "DOSEL MUJ DOPIS A LISTEZ?"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r2"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[Došel můj dopis a lístek (vzkaz či korespondenční lístek)?; LISTEZ opraveno návrhem]",
-      "proposed_english": "[Has my letter and note/card (possibly a postcard) arrived?; LISTEZ tentatively repaired]"
-    },
-    {
-      "proposal_id": "351-r2-p2",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 26,
-          "selected": "VRELOU PUSU."
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r2"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[Vřelou pusu.]",
-      "proposed_english": "[A warm kiss.]"
-    },
-    {
-      "proposal_id": "351-r3-p1",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 0,
-          "selected": "OD"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r3"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[Od]",
-      "proposed_english": "[From]"
-    },
-    {
-      "proposal_id": "351-r3-p2",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 3,
-          "selected": "SLALE VZROMINAJICIRO"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r3"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[stále vzpomínajícího?; návrh několika oprav, rod neověřen]",
-      "proposed_english": "[one who constantly remembers you?; several repairs and implied referent uncertain]"
-    },
-    {
-      "proposal_id": "351-r3-p3",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 24,
-          "selected": "PEROUSE"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r3"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[PEROUSE?; možný podpis či zdrobnělina, osoba neurčena]",
-      "proposed_english": "[PEROUSE?; possible signature or pet name, person unidentified]"
-    },
-    {
-      "proposal_id": "351-r3-p4",
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "kind": "paired_reading_translation_or_uncertainty",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 31,
-          "selected": "?"
-        }
-      ],
-      "composite_scope": {
-        "kind": "single_row",
-        "line_ids": [
-          "351-r3"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[nevyřešený koncový shluk; nejde o potvrzený otazník]",
-      "proposed_english": "[unresolved terminal cluster; no confirmed question mark]"
-    },
-    {
-      "proposal_id": "351-whole-passage",
-      "status": "COMPOSITE_EDITORIAL_PROPOSAL",
-      "kind": "complete_paired_passage",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 0,
-          "selected": "TISIBERY PO9DRAV. JEDU DO 9ANSZROUNA."
-        },
-        {
-          "line_id": "351-r2",
-          "offset": 0,
-          "selected": "DOSEL MUJ DOPIS A LISTEZ? VRELOU PUSU."
-        },
-        {
-          "line_id": "351-r3",
-          "offset": 0,
-          "selected": "OD SLALE VZROMINAJICIRO PEROUSE?"
-        }
-      ],
-      "composite_scope": {
-        "kind": "all_rows_and_component_proposals",
-        "line_ids": [
-          "351-r1",
-          "351-r2",
-          "351-r3"
-        ],
-        "component_proposal_ids": [
-          "351-r1-p1",
-          "351-r1-p2",
-          "351-r1-p3",
-          "351-r1-p4",
-          "351-r2-p1",
-          "351-r2-p2",
-          "351-r3-p1",
-          "351-r3-p2",
-          "351-r3-p3",
-          "351-r3-p4"
-        ],
-        "physical_ink_bounds_claimed": false
-      },
-      "proposed_czech": "[Tisícerý?] [pozdrav?; doslova PO9DRAV] [Jedu do] [Lanškrouna?; možné místo, neověřeno] [Došel můj dopis a lístek (vzkaz či korespondenční lístek)?; LISTEZ opraveno návrhem] [Vřelou pusu.] [Od] [stále vzpomínajícího?; návrh několika oprav, rod neověřen] [PEROUSE?; možný podpis či zdrobnělina, osoba neurčena] [nevyřešený koncový shluk; nejde o potvrzený otazník]",
-      "proposed_english": "[A thousand?] [greetings?; literal PO9DRAV] [I am going to] [Lanškroun?; possible place, unverified] [Has my letter and note/card (possibly a postcard) arrived?; LISTEZ tentatively repaired] [A warm kiss.] [From] [one who constantly remembers you?; several repairs and implied referent uncertain] [PEROUSE?; possible signature or pet name, person unidentified] [unresolved terminal cluster; no confirmed question mark]"
-    }
-  ],
-  "editorial_occurrences": [
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_czech"
-      ],
-      "field": "lines.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 11,
-      "bracketed_text": "[Tisícerý?]",
-      "proposal_id": "351-r1-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 0,
-          "selected": "TISIBERY"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 875,
-      "markdown_end": 886
-    },
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_czech"
-      ],
-      "field": "lines.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 12,
-      "text_end": 39,
-      "bracketed_text": "[pozdrav?; doslova PO9DRAV]",
-      "proposal_id": "351-r1-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 9,
-          "selected": "PO9DRAV"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 887,
-      "markdown_end": 914
-    },
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_czech"
-      ],
-      "field": "lines.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 40,
-      "text_end": 49,
-      "bracketed_text": "[Jedu do]",
-      "proposal_id": "351-r1-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 18,
-          "selected": "JEDU DO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 915,
-      "markdown_end": 924
-    },
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_czech"
-      ],
-      "field": "lines.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 50,
-      "text_end": 87,
-      "bracketed_text": "[Lanškrouna?; možné místo, neověřeno]",
-      "proposal_id": "351-r1-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 26,
-          "selected": "9ANSZROUNA"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 925,
-      "markdown_end": 962
-    },
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_english"
-      ],
-      "field": "lines.0.proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 13,
-      "bracketed_text": "[A thousand?]",
-      "proposal_id": "351-r1-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 0,
-          "selected": "TISIBERY"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 983,
-      "markdown_end": 996
-    },
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_english"
-      ],
-      "field": "lines.0.proposed_english",
-      "language": "en",
-      "text_offset": 14,
-      "text_end": 43,
-      "bracketed_text": "[greetings?; literal PO9DRAV]",
-      "proposal_id": "351-r1-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 9,
-          "selected": "PO9DRAV"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 997,
-      "markdown_end": 1026
-    },
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_english"
-      ],
-      "field": "lines.0.proposed_english",
-      "language": "en",
-      "text_offset": 44,
-      "text_end": 59,
-      "bracketed_text": "[I am going to]",
-      "proposal_id": "351-r1-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 18,
-          "selected": "JEDU DO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1027,
-      "markdown_end": 1042
-    },
-    {
-      "field_path": [
-        "lines",
-        0,
-        "proposed_english"
-      ],
-      "field": "lines.0.proposed_english",
-      "language": "en",
-      "text_offset": 60,
-      "text_end": 100,
-      "bracketed_text": "[Lanškroun?; possible place, unverified]",
-      "proposal_id": "351-r1-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 26,
-          "selected": "9ANSZROUNA"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1043,
-      "markdown_end": 1083
-    },
-    {
-      "field_path": [
-        "lines",
-        1,
-        "proposed_czech"
-      ],
-      "field": "lines.1.proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 85,
-      "bracketed_text": "[Došel můj dopis a lístek (vzkaz či korespondenční lístek)?; LISTEZ opraveno návrhem]",
-      "proposal_id": "351-r2-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 0,
-          "selected": "DOSEL MUJ DOPIS A LISTEZ?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1175,
-      "markdown_end": 1260
-    },
-    {
-      "field_path": [
-        "lines",
-        1,
-        "proposed_czech"
-      ],
-      "field": "lines.1.proposed_czech",
-      "language": "cs",
-      "text_offset": 86,
-      "text_end": 100,
-      "bracketed_text": "[Vřelou pusu.]",
-      "proposal_id": "351-r2-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 26,
-          "selected": "VRELOU PUSU."
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1261,
-      "markdown_end": 1275
-    },
-    {
-      "field_path": [
-        "lines",
-        1,
-        "proposed_english"
-      ],
-      "field": "lines.1.proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 89,
-      "bracketed_text": "[Has my letter and note/card (possibly a postcard) arrived?; LISTEZ tentatively repaired]",
-      "proposal_id": "351-r2-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 0,
-          "selected": "DOSEL MUJ DOPIS A LISTEZ?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1296,
-      "markdown_end": 1385
-    },
-    {
-      "field_path": [
-        "lines",
-        1,
-        "proposed_english"
-      ],
-      "field": "lines.1.proposed_english",
-      "language": "en",
-      "text_offset": 90,
-      "text_end": 104,
-      "bracketed_text": "[A warm kiss.]",
-      "proposal_id": "351-r2-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 26,
-          "selected": "VRELOU PUSU."
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1386,
-      "markdown_end": 1400
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_czech"
-      ],
-      "field": "lines.2.proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 4,
-      "bracketed_text": "[Od]",
-      "proposal_id": "351-r3-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 0,
-          "selected": "OD"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1486,
-      "markdown_end": 1490
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_czech"
-      ],
-      "field": "lines.2.proposed_czech",
-      "language": "cs",
-      "text_offset": 5,
-      "text_end": 64,
-      "bracketed_text": "[stále vzpomínajícího?; návrh několika oprav, rod neověřen]",
-      "proposal_id": "351-r3-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 3,
-          "selected": "SLALE VZROMINAJICIRO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1491,
-      "markdown_end": 1550
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_czech"
-      ],
-      "field": "lines.2.proposed_czech",
-      "language": "cs",
-      "text_offset": 65,
-      "text_end": 120,
-      "bracketed_text": "[PEROUSE?; možný podpis či zdrobnělina, osoba neurčena]",
-      "proposal_id": "351-r3-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 24,
-          "selected": "PEROUSE"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1551,
-      "markdown_end": 1606
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_czech"
-      ],
-      "field": "lines.2.proposed_czech",
-      "language": "cs",
-      "text_offset": 121,
-      "text_end": 174,
-      "bracketed_text": "[nevyřešený koncový shluk; nejde o potvrzený otazník]",
-      "proposal_id": "351-r3-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 31,
-          "selected": "?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1607,
-      "markdown_end": 1660
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_english"
-      ],
-      "field": "lines.2.proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 6,
-      "bracketed_text": "[From]",
-      "proposal_id": "351-r3-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 0,
-          "selected": "OD"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1681,
-      "markdown_end": 1687
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_english"
-      ],
-      "field": "lines.2.proposed_english",
-      "language": "en",
-      "text_offset": 7,
-      "text_end": 90,
-      "bracketed_text": "[one who constantly remembers you?; several repairs and implied referent uncertain]",
-      "proposal_id": "351-r3-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 3,
-          "selected": "SLALE VZROMINAJICIRO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1688,
-      "markdown_end": 1771
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_english"
-      ],
-      "field": "lines.2.proposed_english",
-      "language": "en",
-      "text_offset": 91,
-      "text_end": 154,
-      "bracketed_text": "[PEROUSE?; possible signature or pet name, person unidentified]",
-      "proposal_id": "351-r3-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 24,
-          "selected": "PEROUSE"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1772,
-      "markdown_end": 1835
-    },
-    {
-      "field_path": [
-        "lines",
-        2,
-        "proposed_english"
-      ],
-      "field": "lines.2.proposed_english",
-      "language": "en",
-      "text_offset": 155,
-      "text_end": 212,
-      "bracketed_text": "[unresolved terminal cluster; no confirmed question mark]",
-      "proposal_id": "351-r3-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 31,
-          "selected": "?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1836,
-      "markdown_end": 1893
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 0,
-      "text_end": 11,
-      "bracketed_text": "[Tisícerý?]",
-      "proposal_id": "351-r1-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 0,
-          "selected": "TISIBERY"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1927,
-      "markdown_end": 1938
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 12,
-      "text_end": 39,
-      "bracketed_text": "[pozdrav?; doslova PO9DRAV]",
-      "proposal_id": "351-r1-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 9,
-          "selected": "PO9DRAV"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1939,
-      "markdown_end": 1966
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 40,
-      "text_end": 49,
-      "bracketed_text": "[Jedu do]",
-      "proposal_id": "351-r1-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 18,
-          "selected": "JEDU DO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1967,
-      "markdown_end": 1976
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 50,
-      "text_end": 87,
-      "bracketed_text": "[Lanškrouna?; možné místo, neověřeno]",
-      "proposal_id": "351-r1-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 26,
-          "selected": "9ANSZROUNA"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 1977,
-      "markdown_end": 2014
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 88,
-      "text_end": 173,
-      "bracketed_text": "[Došel můj dopis a lístek (vzkaz či korespondenční lístek)?; LISTEZ opraveno návrhem]",
-      "proposal_id": "351-r2-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 0,
-          "selected": "DOSEL MUJ DOPIS A LISTEZ?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2015,
-      "markdown_end": 2100
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 174,
-      "text_end": 188,
-      "bracketed_text": "[Vřelou pusu.]",
-      "proposal_id": "351-r2-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 26,
-          "selected": "VRELOU PUSU."
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2101,
-      "markdown_end": 2115
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 189,
-      "text_end": 193,
-      "bracketed_text": "[Od]",
-      "proposal_id": "351-r3-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 0,
-          "selected": "OD"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2116,
-      "markdown_end": 2120
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 194,
-      "text_end": 253,
-      "bracketed_text": "[stále vzpomínajícího?; návrh několika oprav, rod neověřen]",
-      "proposal_id": "351-r3-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 3,
-          "selected": "SLALE VZROMINAJICIRO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2121,
-      "markdown_end": 2180
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 254,
-      "text_end": 309,
-      "bracketed_text": "[PEROUSE?; možný podpis či zdrobnělina, osoba neurčena]",
-      "proposal_id": "351-r3-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 24,
-          "selected": "PEROUSE"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2181,
-      "markdown_end": 2236
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_czech"
-      ],
-      "field": "passages.0.proposed_czech",
-      "language": "cs",
-      "text_offset": 310,
-      "text_end": 363,
-      "bracketed_text": "[nevyřešený koncový shluk; nejde o potvrzený otazník]",
-      "proposal_id": "351-r3-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 31,
-          "selected": "?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2237,
-      "markdown_end": 2290
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 0,
-      "text_end": 13,
-      "bracketed_text": "[A thousand?]",
-      "proposal_id": "351-r1-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 0,
-          "selected": "TISIBERY"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2326,
-      "markdown_end": 2339
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 14,
-      "text_end": 43,
-      "bracketed_text": "[greetings?; literal PO9DRAV]",
-      "proposal_id": "351-r1-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 9,
-          "selected": "PO9DRAV"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2340,
-      "markdown_end": 2369
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 44,
-      "text_end": 59,
-      "bracketed_text": "[I am going to]",
-      "proposal_id": "351-r1-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 18,
-          "selected": "JEDU DO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2370,
-      "markdown_end": 2385
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 60,
-      "text_end": 100,
-      "bracketed_text": "[Lanškroun?; possible place, unverified]",
-      "proposal_id": "351-r1-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r1",
-          "offset": 26,
-          "selected": "9ANSZROUNA"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2386,
-      "markdown_end": 2426
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 101,
-      "text_end": 190,
-      "bracketed_text": "[Has my letter and note/card (possibly a postcard) arrived?; LISTEZ tentatively repaired]",
-      "proposal_id": "351-r2-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 0,
-          "selected": "DOSEL MUJ DOPIS A LISTEZ?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2427,
-      "markdown_end": 2516
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 191,
-      "text_end": 205,
-      "bracketed_text": "[A warm kiss.]",
-      "proposal_id": "351-r2-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r2",
-          "offset": 26,
-          "selected": "VRELOU PUSU."
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2517,
-      "markdown_end": 2531
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 206,
-      "text_end": 212,
-      "bracketed_text": "[From]",
-      "proposal_id": "351-r3-p1",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 0,
-          "selected": "OD"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2532,
-      "markdown_end": 2538
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 213,
-      "text_end": 296,
-      "bracketed_text": "[one who constantly remembers you?; several repairs and implied referent uncertain]",
-      "proposal_id": "351-r3-p2",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 3,
-          "selected": "SLALE VZROMINAJICIRO"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2539,
-      "markdown_end": 2622
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 297,
-      "text_end": 360,
-      "bracketed_text": "[PEROUSE?; possible signature or pet name, person unidentified]",
-      "proposal_id": "351-r3-p3",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 24,
-          "selected": "PEROUSE"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2623,
-      "markdown_end": 2686
-    },
-    {
-      "field_path": [
-        "passages",
-        0,
-        "proposed_english"
-      ],
-      "field": "passages.0.proposed_english",
-      "language": "en",
-      "text_offset": 361,
-      "text_end": 418,
-      "bracketed_text": "[unresolved terminal cluster; no confirmed question mark]",
-      "proposal_id": "351-r3-p4",
-      "literal_components": [
-        {
-          "line_id": "351-r3",
-          "offset": 31,
-          "selected": "?"
-        }
-      ],
-      "status": "EDITORIAL_PROPOSAL_NOT_SOURCE_REPAIR",
-      "markdown_offset": 2687,
-      "markdown_end": 2744
-    }
-  ],
-  "editorial_scope": "Every readable bracket is an explicit paired Czech/English editorial proposal or unresolved reading, never a source glyph correction. Unknown literal symbols remain exact. English pronouns, gender, pet names, places, textual calendar expressions and word joins remain qualified. Offsets count Unicode codepoints, separately from raw ciphertext offsets. Composite passages cite each actual literal row and each proposal.",
-  "curation_provenance": {
-    "actor": "related key-visible AI nonblind curator 351/352",
-    "assigned_context": "Current26 released FIRST/SECOND original raw/own, current native metadata and source full Picture views, whole current protocols and actual durable native replay. Not a fresh-source actor.",
-    "canonical_key_visible": true,
-    "competing_readings_visible": true,
-    "nonblind_exchange_release": {
-      "file": "batch26-nonblind-exchange-release.json",
-      "FILE_sha256": "c53010e64e3ab2a402a6efda20d889e9ce4e35518734f56b36715773f7e4a8fc"
-    },
-    "exact_deployment": null,
-    "temperature": null,
-    "seed": null,
-    "independence_claim": null,
-    "candidate_assembled_at_utc": "2026-10-21T09:22:57.444629+00:00",
-    "limits": "No human/external/cognitive independence, source accuracy, physical segmentation, authenticated person/date/chronology or solved confirmation.",
-    "later_preparation_revision_at_utc": "2026-10-21T09:24:44.472472+00:00",
-    "later_preparation_revision": "Root requested English note/card semantic alternatives paired with Czech; 352 crossrow composite placed once at actual row5–6 junction, retaining row-level fragments. No native/source changes.",
-    "selected_model": "gpt-6.1-sol",
-    "whole_final_QA_projection_at_utc": "2026-10-21T09:37:08.358978+00:00",
-    "initial_preparation_stage_recorded_at_utc": "2026-10-21T09:41:59.510004+00:00"
-  },
-  "publication_stage": {
-    "stage": "INITIAL_PREPARATION_SNAPSHOT_AFTER_FINAL_QA_AND_ROOT_PAIRED_REVIEW",
-    "QA": "PASS_MECHANICAL_WITH_BOUNDED_NONBLIND_SOURCE_FINDINGS",
-    "initial_reconciliation": "INITIAL_PREPARATION_SNAPSHOT_CREATED",
-    "full_reference_freeze": "WHOLE_INITIAL_PREPARATION_REFERENCE_FROZEN",
-    "public_assembly": "NOT_RELEASED",
-    "later_execution_results": "validation-batch26.json"
+  "passages": {
+    "proposed_czech": "[Tisícerý?] pozdrav. Jedu do [Lanškrouna?]. Došel můj dopis a [lístek?]? Vřelou pusu od [stále?] [vzpomínajícího?] [Pepouše?]. [Koncová stopa nevyřešena.]",
+    "proposed_english": "A thousand [greetings?]. I am going to [Lanškroun?]. Have my letter and [card?] arrived? A warm kiss from [Pepouš?], [who constantly thinks of you?]. [Unresolved terminal trace.]",
+    "scope": "All three selected rows; PUSU. plus OD joined only editorially. Terminal trace remains unresolved explicitly after proposed known name, not removed/absorbed by name reading."
   },
   "limitations": [
-    "Literal is deterministic substitution of a selected source notation baseline, not source accuracy certification.",
-    "Physical encoded-body count is null; notation slots are not physical glyph totals.",
-    "All ordinary printed captions, dates, addresses and person-like writing are excluded as message evidence.",
-    "Candidate readable Czech/English retains uncertainties and competing alternatives; names, referents, dates, places and chronology unverified.",
-    "Final native QA and root paired/typed preservation review passed; initial preparation snapshot/reference frozen under separate release. Later execution results belong to validation-batch26.json."
+    "Same root AI, nonblind key/earlier literal/language-visible review; no independent/human/external confirmation.",
+    "Three right-margin rows read after a clockwise quarter-turn retain IDs/order/broad geometry. Chronology and physical body counts unestablished/null. Ordinary caption/publisher/date/address/postal matter excluded without transcription/authentication.",
+    "FIRST9 in PO9DRAV provisionally g/Z, matching SECOND/enlarged context. FIRST/SECOND initial9 in 9ANSZROUNA provisionally8/L from decorated double-loop contour, not from authenticated geography. Earlier9/g-Z/other unresolved contours remain alternatives; no generic9 alias. All other FIRST selected bodies and punctuation retained.",
+    "Six language proposals retain TISIBERY/TISICERY, LANSZROUNA/LANSKROUNA, LISTEZ/LISTEK, SLALE/STALE, VZROMINAJICIRO/VZPOMINAJICIHO and PEROUSE/PEPOUSE. Last long-word proposal changes R→P and R→H, name proposal R→P only in language. FIRST p/B in opening, third-row h/R bodies and SLALE remain despite proposed words. No source correction is inferred from normal Czech.",
+    "Written LISTEZ? question at row2 offset24 remains punctuation. Terminal? at row3 offset31 stays an unresolved cluster with unknown extent/role, possibly upper curl/dot, modifier, punctuation or neighbouring trace. Known PEROUSE proposed PEPOUSE does not absorb/remove the terminal mask or supply missing name letters; unresolved trace is explicitly retained after prose.",
+    "Main prose joins PUSU. plus OD across row2/3 by changing punctuation only editorially. English supplies you after remembrance, changes subject/order and translates the name form. Accents, name, grammatical gender and Lanškroun spelling editorial; no journey, real letter/card receipt, person/relationship, geographic identification, ordinary date or chronology authenticated.",
+    "All six native mark records retained whole (FIRST four, SECOND two). Five single-codepoint current mappings plus SECOND raw mask17 mapping to displayed74s span17:20 by string edits only; not three proven physical bodies, attachment or source value. SECOND terminal raw29 maps current31 mask. Upper/adjacent traces remain unresolved; four historical bounded ledger comparisons and shared351/352 preimport incident unchanged, no frozen repair, lost return or extra source event.",
+    "Both raw/own originals,27 shared whole source objects,44 protocol entries (35 whole JSON objects,3 whole texts,6 FILE-only executable/diagnostic descriptors), initial reconciliation and whole prior QA/five projected findings unchanged. Whole preceding edition Git-pinned; prior current-relative replay/curation/editorial offsets apply there. Canonical inline checks differ from private original reader/helper FILE-byte rereads, not performed.",
+    "Both complete faces/margins, clockwise-rotated Picture and enlarged main/opening/place/closing contexts viewed. Two Chrome-saved originals match pinned hashes. Terminal DNS failed twice; web tool could not access Picture; browser media waits timed out although saved files existed, first wait reset browser runtime and native Save Page As produced another matching copy. No GET200, zero-retry/redirect, exact request-count or per-view timestamp claim. Scans/crops private. No separate continuous Address cipher recognized within visible frame; ordinary matter excluded, no proof of absence of faint/hidden material."
   ],
   "qa": {
     "status": "PASS_MECHANICAL_WITH_BOUNDED_NONBLIND_SOURCE_FINDINGS",
@@ -53233,5 +51612,187 @@
       "mode": "0o444"
     },
     "stage": "Initial preparation snapshot after final QA/root paired review; later execution in validation-batch26.json"
+  },
+  "source_completion_revision": "../revisions/351-source-completion.json",
+  "previous_unknown_dispositions": [
+    {
+      "line_id": "351-r1",
+      "previous_offset": 11,
+      "previous_symbol": "9",
+      "current_offset": 11,
+      "selected": "g",
+      "key_value": "Z",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r1",
+      "previous_offset": 26,
+      "previous_symbol": "9",
+      "current_offset": 26,
+      "selected": "8",
+      "key_value": "L",
+      "disposition": "provisional occurrence-specific contour assignment; previous sign retained as alternative",
+      "physical_encoded_body_count": null
+    },
+    {
+      "line_id": "351-r3",
+      "previous_offset": 31,
+      "previous_symbol": "?",
+      "current_offset": 31,
+      "selected": "?",
+      "key_value": null,
+      "disposition": "retained unknown mask",
+      "physical_encoded_body_count": null
+    }
+  ],
+  "current_native_mark_reinspection": [
+    {
+      "actor": "FIRST",
+      "raw_line_id": "351-r1",
+      "raw_offset": 18,
+      "raw_selected": "7",
+      "native_record_pointer": "/original_reads/FIRST/raw_wrapper/raw/mark_ledger/0",
+      "line_id": "351-r1",
+      "current_offset": 18,
+      "current_end": 19,
+      "current_selected": "7",
+      "mapping_kind": "single-codepoint string alignment, not physical correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged contexts retain upper/adjacent/body/modifier/terminal-curl alternatives. One SECOND mask spans current74s only mechanically; no physical mark identity/value or three-body assertion.",
+      "disposition": "Original record unchanged; no modifier/key assignment or frozen documentation repair."
+    },
+    {
+      "actor": "FIRST",
+      "raw_line_id": "351-r2",
+      "raw_offset": 12,
+      "raw_selected": "b",
+      "native_record_pointer": "/original_reads/FIRST/raw_wrapper/raw/mark_ledger/1",
+      "line_id": "351-r2",
+      "current_offset": 12,
+      "current_end": 13,
+      "current_selected": "b",
+      "mapping_kind": "single-codepoint string alignment, not physical correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged contexts retain upper/adjacent/body/modifier/terminal-curl alternatives. One SECOND mask spans current74s only mechanically; no physical mark identity/value or three-body assertion.",
+      "disposition": "Original record unchanged; no modifier/key assignment or frozen documentation repair."
+    },
+    {
+      "actor": "FIRST",
+      "raw_line_id": "351-r3",
+      "raw_offset": 17,
+      "raw_selected": "7",
+      "native_record_pointer": "/original_reads/FIRST/raw_wrapper/raw/mark_ledger/2",
+      "line_id": "351-r3",
+      "current_offset": 17,
+      "current_end": 18,
+      "current_selected": "7",
+      "mapping_kind": "single-codepoint string alignment, not physical correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged contexts retain upper/adjacent/body/modifier/terminal-curl alternatives. One SECOND mask spans current74s only mechanically; no physical mark identity/value or three-body assertion.",
+      "disposition": "Original record unchanged; no modifier/key assignment or frozen documentation repair."
+    },
+    {
+      "actor": "FIRST",
+      "raw_line_id": "351-r3",
+      "raw_offset": 30,
+      "raw_selected": "5",
+      "native_record_pointer": "/original_reads/FIRST/raw_wrapper/raw/mark_ledger/3",
+      "line_id": "351-r3",
+      "current_offset": 30,
+      "current_end": 31,
+      "current_selected": "5",
+      "mapping_kind": "single-codepoint string alignment, not physical correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged contexts retain upper/adjacent/body/modifier/terminal-curl alternatives. One SECOND mask spans current74s only mechanically; no physical mark identity/value or three-body assertion.",
+      "disposition": "Original record unchanged; no modifier/key assignment or frozen documentation repair."
+    },
+    {
+      "actor": "SECOND",
+      "raw_line_id": "351-P03",
+      "raw_offset": 17,
+      "raw_selected": "?",
+      "native_record_pointer": "/original_reads/SECOND/raw_wrapper/raw/mark_ledger/0",
+      "line_id": "351-r3",
+      "current_offset": 17,
+      "current_end": 20,
+      "current_selected": "74s",
+      "mapping_kind": "raw mask to unequal current display span; mechanical alignment only",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged contexts retain upper/adjacent/body/modifier/terminal-curl alternatives. One SECOND mask spans current74s only mechanically; no physical mark identity/value or three-body assertion.",
+      "disposition": "Original record unchanged; no modifier/key assignment or frozen documentation repair."
+    },
+    {
+      "actor": "SECOND",
+      "raw_line_id": "351-P03",
+      "raw_offset": 29,
+      "raw_selected": "?",
+      "native_record_pointer": "/original_reads/SECOND/raw_wrapper/raw/mark_ledger/1",
+      "line_id": "351-r3",
+      "current_offset": 31,
+      "current_end": 32,
+      "current_selected": "?",
+      "mapping_kind": "single-codepoint string alignment, not physical correspondence",
+      "source_attachment_established": false,
+      "source_mark_value": null,
+      "individual_view_timestamp": null,
+      "current_bounded_observation": "Whole/enlarged contexts retain upper/adjacent/body/modifier/terminal-curl alternatives. One SECOND mask spans current74s only mechanically; no physical mark identity/value or three-body assertion.",
+      "disposition": "Original record unchanged; no modifier/key assignment or frozen documentation repair."
+    }
+  ],
+  "historical_provenance_scope": {
+    "previous_edition": {
+      "json": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/351.json",
+        "commit": "8849d183ac5a9201b808a182dcfdd5696a5c2ec3",
+        "sha256": "d0be8c55d9c1a64829d00ed47a1d3ad4361881dcee202b541249ca1b906c6c63",
+        "git_blob_oid": "9f02cdddb910779c533d7ebeea37564b495b6178",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/8849d183ac5a9201b808a182dcfdd5696a5c2ec3/research-updates/2026-10-20-confirmed-key-continuation/cards/351.json"
+      },
+      "markdown": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/351.md",
+        "commit": "8849d183ac5a9201b808a182dcfdd5696a5c2ec3",
+        "sha256": "903ecca22d70e68971a078ba16c41fc202814b697bb0bc523346a5f1cbb3ba73",
+        "git_blob_oid": "354408074f97aac3127803d2e885cb3a8602033a",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/8849d183ac5a9201b808a182dcfdd5696a5c2ec3/research-updates/2026-10-20-confirmed-key-continuation/cards/351.md"
+      }
+    },
+    "prior_QA": {
+      "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/8849d183ac5a9201b808a182dcfdd5696a5c2ec3/research-updates/2026-10-20-confirmed-key-continuation/cards/351.json#/qa/whole_final_native_QA",
+      "canonical_sha256": "70ef20e121d600c46446cfcc32d92600bf71e48d31007c98e87a16c9e8611585",
+      "card_findings_pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/8849d183ac5a9201b808a182dcfdd5696a5c2ec3/research-updates/2026-10-20-confirmed-key-continuation/cards/351.json#/post_freeze_QA_findings",
+      "card_findings_canonical_sha256": "0a7595ab7234f696f0f25b682fab13c41f12c690921a28975ca84518fd1009eb",
+      "scope": "Five projected findings/whole batch QA unchanged inline and Git-pinned. Four bounded ledger comparisons plus shared351/352 preimport incident, not physical omissions or new/lost decoder returns. No private FILE-byte rereads or retrospective repair; other cards receive no source review here."
+    },
+    "archived_fields": [
+      "candidate_date",
+      "status",
+      "selection_policy",
+      "encoded_bodies",
+      "expanded_letters",
+      "ch_occurrences",
+      "unknowns",
+      "current_replay",
+      "uncertainty_ledger",
+      "source_ledger_references",
+      "competing_source_differences",
+      "editorial_proposals",
+      "editorial_occurrences",
+      "editorial_scope",
+      "curation_provenance",
+      "publication_stage",
+      "limitations"
+    ],
+    "scope": "Earlier current-relative curation/replay/editorial records apply to archived edition. Original reads/source/context/protocol and whole QA/five findings unchanged; original raw offsets remain native."
   }
 }
