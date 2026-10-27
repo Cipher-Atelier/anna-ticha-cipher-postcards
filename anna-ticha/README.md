@@ -15,7 +15,7 @@ The preserved public card reports are partial readings. Their historical reports
 
 ## Preserved research
 
-The latest source review is [337](../research-updates/2026-10-20-confirmed-key-continuation/cards/337.md); the next active review is [336](../research-updates/2026-10-20-confirmed-key-continuation/cards/336.md). See the [review overview](../REVIEW_STATUS.md) for current counts and gaps.
+The latest source review is [336](../research-updates/2026-10-20-confirmed-key-continuation/cards/336.md); the next active review is [335](../research-updates/2026-10-20-confirmed-key-continuation/cards/335.md). See the [review overview](../REVIEW_STATUS.md) for current counts and gaps.
 
 The [continuation package](../research-updates/2026-10-20-confirmed-key-continuation/README.md) now has 137 canonical-key research candidates, last expanded with new card numbers 383–386 on 22 October 2026, with separate literal, qualified Czech and English layers. The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None is declared solved. The 37 preserved reports include the original six-card records and the experimental 330 proposal; their evidence statuses remain distinct.
 
