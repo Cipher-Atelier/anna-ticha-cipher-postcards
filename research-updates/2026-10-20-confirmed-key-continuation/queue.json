@@ -4032,11 +4032,11 @@
     },
     {
       "card_id": 331,
-      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; alternatives retained",
-      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "transcription_status": "Complete Czech/English working coverage for three upper-note and six lower-letter Picture units, with panels kept separate. Replay has 528 slots/533 known letters/five CH/zero encoded unknowns, plus five separately unresolved upper groups. Caption-overlapped ZKOUSEK is provisional; 23 language operations retain malformed literals, including emitted-O deletion in PSANIO. One mask expansion, five marked-group CH contractions and five separately recorded upper traces yield net-5 notation slots, no physical census. All four historical QA21 findings MOD-1/MOD-2/DOC-1/DOC-2 remain on 331, with whole old mappings preserved and distinct new current contexts; no retrospective repair. Names, genealogy, events, narrative order and mark values remain unverified.",
+      "decode_status": "528 slots/533 known letters/five CH/zero encoded unknowns plus five unresolved upper groups. 23 language operations: 22 substitutions/emitted-O deletion, source O retained. Seven joins/fourteen spans, no cross-panel join; B4 question retained offset 83. Source/word/upper-mark/name/referent choices remain provisional, no solved certification.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Resolve qualified alternatives from source and seek human/external checking.",
+      "next_action": "Another reader needed for ZKOUSEK/HODNE/PSANIO printed overlap, crossed 7/q/initial 9/g, dark SRDCE, arrival/initial I, five CH attachments and five upper groups. All four own historical QA21 findings/old dated mappings retained; new current contexts do not repair originals. See validation-source-completion-331.json; next review 330.",
       "catalogue_ids": [
         1650
       ],
@@ -4061,7 +4061,17 @@
       "artifact": "cards/331.json",
       "physical_body_count_status": "selected replay slots only; physical totals not independently established",
       "address_face_status": "Complete saved address face checked; no continuous encoded message group identified; bounded single nonblind root audit.",
-      "editorial_coverage": "Paired Czech/English coverage and qualified literal/editorial alternatives retained."
+      "editorial_coverage": "Paired Czech/English coverage and qualified literal/editorial alternatives retained.",
+      "selected_totals": {
+        "rows": 9,
+        "encoded_bodies": 528,
+        "expanded_letters": 533,
+        "ch_occurrences": 5,
+        "unknowns": 0
+      },
+      "artifacts": {
+        "source_completion_revision": "revisions/331-source-completion.json"
+      }
     },
     {
       "card_id": 332,
@@ -7395,6 +7405,7 @@
   },
   "active_completion_priority": {
     "card_ids": [
+      330,
       331,
       332,
       333,
@@ -7452,7 +7463,7 @@
       385,
       386
     ],
-    "stage": "332–386 have editorial working coverage with source/mark/word/role alternatives. Card 332: five upright Address units, 56 slots/57 letters/one CH/zero encoded unknowns. Two mask expansions/one whole marked-group reinterpretation contraction, net+1 notation slot, no physical census or generic Unicode/roof alias. Three language substitutions/four joins/eight spans, literal MA/VYUETU/ODZUD retained. Whole FIRST 5/SECOND 5/native actual Address+Picture metadata/source-face amendment/both actor Picture-negatives/QA21/frozen scope notice unchanged. Two global modifier omissions/two documentation gaps remain on 331, none on 332; no retrospective repair or new defect classification. Source/watermark/name/outing/pronoun interpretation remains uncertain. Proceed with provisional 331; new 387–390 held.",
+    "stage": "331–386 have editorial working coverage. Complete Czech/English working coverage for three upper-note and six lower-letter Picture units, with panels kept separate. Replay has 528 slots/533 known letters/five CH/zero encoded unknowns, plus five separately unresolved upper groups. Caption-overlapped ZKOUSEK is provisional; 23 language operations retain malformed literals, including emitted-O deletion in PSANIO. One mask expansion, five marked-group CH contractions and five separately recorded upper traces yield net-5 notation slots, no physical census. All four historical QA21 findings MOD-1/MOD-2/DOC-1/DOC-2 remain on 331, with whole old mappings preserved and distinct new current contexts; no retrospective repair. Names, genealogy, events, narrative order and mark values remain unverified. Proceed with provisional 330; new 387–390 held.",
     "next_new_card_ids_held": [
       387,
       388,
@@ -7461,6 +7472,7 @@
     ],
     "limits": "Completion priority does not certify full source decipherment, new acquisition or external confirmation.",
     "awaiting_source_peer_review": [
+      331,
       332,
       333,
       334,
