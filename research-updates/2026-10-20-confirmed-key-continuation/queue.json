@@ -4102,11 +4102,11 @@
     },
     {
       "card_id": 333,
-      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; alternatives retained",
-      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "transcription_status": "Provisional ten upright Picture units: nine lower-right rows and separate bottom continuation, original IDs/order/geometry retained. Ten prior unknown positions provisionally selected; SRDECY- prefix expansion adds one notation slot, no physical census. Five occurrence-specific CH; initial 9/g and concert/terminal alternatives retained. Three isolated image/address marks unclassified; both written questions retained at offsets 2/32.",
+      "decode_status": "346 slots/351 known letters/five CH/zero encoded unknowns. Fifteen word proposals/16 language-only operations: 15 substitutions plus emitted-Y deletion, selected source 1/Y retained. Eight joins/sixteen literal spans and both source hyphens; no added source letters for prose. NEHO antecedent, qualified temporal/Cecilian reading and name/teaching/windows interpretations remain unresolved. No solved certification.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Resolve qualified alternatives from source and seek human/external checking.",
+      "next_action": "Another reader needed for initial 9/g, concert N/M/O/U, terminal SRDECY-/ZO versus shorter native alternative, five CH attachments, NEHO, temporal phrase, name/teaching/windows and three isolated mark contexts. Whole FIRST 10/SECOND 10/source metadata/provenance/QA21 unchanged; two global modifier omissions/two documentation gaps all on 331, none here. No original repair or physical census. See validation-source-completion-333.json; next deeper review 332.",
       "catalogue_ids": [
         1652
       ],
@@ -4131,7 +4131,17 @@
       "artifact": "cards/333.json",
       "physical_body_count_status": "selected replay slots only; physical totals not independently established",
       "address_face_status": "Complete saved address face checked; isolated marks remain unclassified; role, material, authorship, cipher and numeral values unestablished.",
-      "editorial_coverage": "Paired Czech/English coverage and qualified literal/editorial alternatives retained."
+      "editorial_coverage": "Paired Czech/English coverage and qualified literal/editorial alternatives retained.",
+      "selected_totals": {
+        "rows": 10,
+        "encoded_bodies": 346,
+        "expanded_letters": 351,
+        "ch_occurrences": 5,
+        "unknowns": 0
+      },
+      "artifacts": {
+        "source_completion_revision": "revisions/333-source-completion.json"
+      }
     },
     {
       "card_id": 334,
@@ -7375,6 +7385,7 @@
   },
   "active_completion_priority": {
     "card_ids": [
+      332,
       333,
       334,
       335,
@@ -7430,7 +7441,7 @@
       385,
       386
     ],
-    "stage": "334–386 have editorial working coverage with source/mark/word/role alternatives. Card 334: seven lower/inverted units, 388 slots/390 letters/two CH/zero encoded unknowns plus one unresolved UCTU upper trace. Eleven prior unknowns provisionally selected, one whole-name contraction; two expansions/one contraction net+1 notation slot, no physical census or 12 deciphered physical bodies. 13 word proposals/16 operations including one emitted-I deletion, four joins/eight spans and existing-U boundary move. Both written questions rebased, whole FIRST 7/SECOND 7/native source/metadata/provenance/QA21 unchanged. Two global modifier omissions/two documentation gaps remain on 331, none on 334; no original repair or independent/history/person/chronology certification. Proceed with provisional 333; new 387–390 held.",
+    "stage": "333–386 have editorial working coverage with source/mark/word/role alternatives. Card 333: ten upright units, 346 slots/351 letters/five CH/zero encoded unknowns; three isolated image/address mark contexts unclassified. Ten prior unknown positions provisionally selected, one prefix expansion net+1 notation slot, no physical census. Fifteen word proposals/16 language operations including one emitted-Y deletion, eight joins/sixteen spans, source 1/Y and both written questions retained. Whole FIRST 10/SECOND 10/source metadata/provenance/QA21 unchanged. Two global modifier omissions/two documentation gaps remain on 331, none on 333. No original repair or independent/person/event/chronology certification. Proceed with provisional 332; new 387–390 held.",
     "next_new_card_ids_held": [
       387,
       388,
@@ -7439,6 +7450,7 @@
     ],
     "limits": "Completion priority does not certify full source decipherment, new acquisition or external confirmation.",
     "awaiting_source_peer_review": [
+      333,
       334,
       335,
       336,
