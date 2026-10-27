@@ -2,7 +2,7 @@
 
 ## Start here
 
-Updated 26 October 2026.
+Updated 27 October 2026.
 
 Follow [overview and current status](README.md) → [cards and evidence levels](anna-ticha/readings.md) → the chosen card’s literal and supporting evidence → [methods](anna-ticha/methods.md) and [dated audits](research-updates/README.md). [Card 204](anna-ticha/card-204.md) publishes the original diplomatic reading, editorial Czech, English translation and twelve caveats, with an author-reported external check; no complete positional/replay package is added. The later [four Russian readers](research-updates/README.md#four-russian-readers) are selected conditional reports published in PR #19; English guides explain their scope.
 
@@ -24,13 +24,13 @@ You can read the proposals in GitHub without installing anything. Start with one
 
 | What you want | Open this |
 | --- | --- |
-| Latest working reading | [Card 340: Czech proposal and English interpretation](research-updates/2026-10-20-confirmed-key-continuation/cards/340.md#complete-working-reading--26-october-2026) |
+| Latest working reading | [Card 339: Czech proposal and English interpretation](research-updates/2026-10-20-confirmed-key-continuation/cards/339.md#complete-working-reading--27-october-2026) |
 | A particular postcard | [Complete card index](anna-ticha/readings.md), or the [137 current candidates and counters](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings) |
 | Collection totals and remaining work | [Review overview](REVIEW_STATUS.md): 154 of 263 cards have a reading here, including partial proposals; 109 have none |
 | A calculation you can inspect by hand | [Card 199](anna-ticha/card-199.md) and the example below |
-| Detailed source-review history | [Current package and dated checkpoints](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-340) |
+| Detailed source-review history | [Current package and dated checkpoints](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-339) |
 
-Cards 340–386 now have editorial working texts covering their selected entries. They retain masks, alternative signs, uncertain word repairs and reading-order questions. Earlier candidates also include substantially incomplete readings, particularly 257. The next active source review is [339](research-updates/2026-10-20-confirmed-key-continuation/cards/339.md); new cards 387–390 are held while this completion work continues.
+Cards 339–386 now have editorial working texts covering their selected entries. They retain masks, alternative signs, uncertain word repairs and reading-order questions. Earlier candidates also include substantially incomplete readings, particularly 257. The next active source review is [338](research-updates/2026-10-20-confirmed-key-continuation/cards/338.md); new cards 387–390 are held while this completion work continues.
 
 On a card page, distinguish these layers:
 
