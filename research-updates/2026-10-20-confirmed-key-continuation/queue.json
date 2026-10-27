@@ -4168,11 +4168,11 @@
     },
     {
       "card_id": 335,
-      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; alternatives retained",
-      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "transcription_status": "Provisional thirteen Picture units: five lower upright/eight upper inverted. Current U/L order preserved, proposed lower→upper route separate. Twenty-four unknown positions provisionally selected; OHLEDN? remains, three upper traces unresolved. Three expansions net+7 notation slots, six occurrence-specific CH, no physical census or generic alias. Current 17/18 numeral tags retained, original frozen numeral roles unchanged.",
+      "decode_status": "780 slots/785 known letters/six CH/one encoded unknown plus three upper traces; four ordinary numeral digits excluded. 43 primary word proposals/55 operations: 48 letter substitutions, one unknown-placeholder, four insertions (C,TEK), two deletions (I,C). Source ZNECH/NEHTEL/BYTI/CTVR/ODJETE retained, language changes explicit. Twelve joins/24 spans; no history/person/journey/weekday/chronology or solved certification.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established in this package",
-      "next_action": "Resolve qualified alternatives from source and seek human/external checking.",
+      "next_action": "Another reader needed for OHLEDN?, DNY/SVOJI/VZDIT upper traces, CH/loop/C choices, PRAHY/UPOUTA/ODJETE expansions, ZNECH/KNIH, HREZDICZOU, ZANCIL/KANCIO, NEHTEL insertion, BYTI deletion and CTVR expansion. Whole FIRST 13/SECOND 13/phase1/metadata/QA/provenance preserved. MOD-POSSIBLE-335 and DOC1/DOC2 contradictory evidence unchanged; new e→s/C and 9→g/Z separately qualified, no original repair/alias. See validation-source-completion-335.json; next deeper review 334.",
       "catalogue_ids": [
         1654
       ],
@@ -4197,7 +4197,17 @@
       "artifact": "cards/335.json",
       "physical_body_count_status": "selected replay slots only; physical totals not independently established",
       "address_face_status": "Complete saved address face checked; isolated marks remain unclassified; role, material, authorship, cipher and numeral values unestablished.",
-      "editorial_coverage": "Paired Czech/English coverage and qualified literal/editorial alternatives retained."
+      "editorial_coverage": "Paired Czech/English coverage and qualified literal/editorial alternatives retained.",
+      "selected_totals": {
+        "rows": 13,
+        "encoded_bodies": 780,
+        "expanded_letters": 785,
+        "ch_occurrences": 6,
+        "unknowns": 1
+      },
+      "artifacts": {
+        "source_completion_revision": "revisions/335-source-completion.json"
+      }
     },
     {
       "card_id": 336,
@@ -7355,6 +7365,7 @@
   },
   "active_completion_priority": {
     "card_ids": [
+      334,
       335,
       336,
       337,
@@ -7408,7 +7419,7 @@
       385,
       386
     ],
-    "stage": "336–386 have editorial working coverage with source/mark/word/role alternatives. Card 336: nine lower/inverted units, 513 slots/515 letters/three CH/one unknown DOVOLAN? mask plus unresolved MOJE upper trace. Eleven previous unknowns provisionally selected; three expansions/one contraction, net+2 notation slots, no physical census. Twenty-two primary word proposals/twenty-five operations, teacher-name alternatives and eight joins/sixteen spans editorial. FIRST 9/SECOND 9 actual native orders/whole originals/phase1/metadata/QA preserved. DOC3 focused-versus-broad provenance contradiction and old current 9 observation unchanged, new current g/Z separately qualified without original repair. No independent source/history/person/chronology certification. Proceed with provisional 335; new 387–390 held.",
+    "stage": "335–386 have editorial working coverage with source/mark/word/role alternatives. Card 335: thirteen lower/inverted units, 780 slots/785 letters/six CH/one encoded OHLEDN? mask plus three upper traces. Twenty-four previous unknowns provisionally selected, three expansions net+7 notation slots, no physical census. 43 primary word proposals/55 operations including C/TEK insertions and I/C deletions, 12 joins/24 spans; current numeral roles separate from frozen SECOND digits. FIRST 13/SECOND 13 native orders/whole originals/phase1/metadata/QA preserved. MOD-POSSIBLE-335 coverage omission and DOC1/DOC2 provenance contradictions remain; new e→s/C,9→g/Z separately qualified without original repair. No independent/history/person/journey/weekday/chronology certification. Proceed with provisional 334; new 387–390 held.",
     "next_new_card_ids_held": [
       387,
       388,
@@ -7417,6 +7428,7 @@
     ],
     "limits": "Completion priority does not certify full source decipherment, new acquisition or external confirmation.",
     "awaiting_source_peer_review": [
+      335,
       336,
       337,
       338,
