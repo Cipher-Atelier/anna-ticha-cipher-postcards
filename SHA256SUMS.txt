@@ -3,11 +3,11 @@ bacd45e21daf4259567dda827dc85c547550d410297234ee08bee450129ccb22  .github/CODEOW
 09ac728a9a8b736cc75a83be5417618661e4633f54c70373f1712d1b86e7491f  .github/workflows/verify.yml
 60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672  .gitignore
 7836cd88822d6a51ac6a50acd7a121b9b79afa752b3597562d118ebff398e311  CHANGELOG.md
-a205b29b4e11d79dc2b67253facd1df8bb2b4040737772ee22ef084cbfe166be  READING_GUIDE.md
-bae0ce355fda5f04b1eff63f7fe8b8edb6e095cf3b5e5d7a13c35d409cbf11f4  README.md
-b492451c33913e729e67dd6c6261a89b09918680e8e7706ddaba135502a0dc1c  REVIEW_STATUS.md
+492413e5109bd1443786b1445565d50aa19ee2e44ccac20b164cd81e7fc783c1  READING_GUIDE.md
+2a7aab17ff9c98808cbb88650edaf75f25ed759d1ca5cc5cff166df0b269ca36  README.md
+1a504f78ff536ed4dc2eb2b6d7328c1509f806e88bb1965f8f557e980f22271b  REVIEW_STATUS.md
 6245acaf28d90a6dad2808a4c9c6a6b116b75a26ad356b7485f062c691c8e823  SOURCE_PROVENANCE.json
-48ca141a4a6871cafbbd3f06720a67819281fb9857d55e8ec00309f03293eb96  anna-ticha/README.md
+bdb4db76a19513e074783ba02ca3f86edf263b0db88a749145bb028100c98c76  anna-ticha/README.md
 dce926489a2a406d59b83d6201102c48c59023709b45ac90024f478f3b8bf386  anna-ticha/article.md
 bc5f2f4dc1eea2ffb09cd0f5d25687eae394192dfc39df19c8eada9384b8111a  anna-ticha/card-198.md
 a1871ba470c076b0f8f2bb6f742f727e3d24a1da4393f570e2909e3385f8c838  anna-ticha/card-199.md
@@ -49,7 +49,7 @@ e1884970f122ea3132a5be6e1eeaad42e51d061524b90d2311bf98009b48923c  anna-ticha/car
 0a3eb1c9a403914dfcb59b6fff4f4e534898235cd44eee331f2e43df14921150  anna-ticha/card-458.md
 23ca302fe6779595fd916b6efc53141c783a4551cfd75dab91ac3dc4d70041c6  anna-ticha/key-and-rules.md
 9984995257e0875c9c0bbeae37bb3446301ae8c0fae57786f9fe62e20e8f8a11  anna-ticha/methods.md
-8d05dde2b9f4d1e580ba5d4c6f80e314469197f483a8af5b270638a13f839e49  anna-ticha/readings.md
+e047ce34eeb9f8657cbaa2988db1dff939e9dccddfaec335b8c14dafbeca459c  anna-ticha/readings.md
 f1853cafd25c1922c49c455c04c97d5cbf07d8c587c297d29462c07f1a59b2b4  anna-ticha/saved-six-card-literals.md
 0d3a3b2968d5decb2727983a2fc6adab52678ee04acaf7c0a7417afb4e43c634  anna-ticha/sources.md
 2dd523fb6ed9d218dc23eb0886ac9b0bfdb960164c7d978cd48997793a993994  anna-ticha/uncertainties/card-198.md
@@ -301,7 +301,7 @@ c13799beea54492d064e363321c34d96cab9de283d5df81d698070771aa991e7  research-updat
 6dbcd3ae6bcaedd4914ed656bc845a0f194f90a8b193d53ba6f01ce3d3dcaba0  research-updates/2026-10-14-source257-repeat-sequence/data/selection-ledger-stage-v1.json
 5c03b3806bb7c7f2047e11b9054ec5b3648922e8805fac0ca2795650c88b57ac  research-updates/2026-10-14-source257-repeat-sequence/data/spatial-reference-sequence-v1.tsv
 cba6e8bd6da5f3cb779181e9c5e1636c27790ad1047126d17df55e3de2c55229  research-updates/2026-10-14-source257-repeat-sequence/data/targeted-closure-prelog-v1.json
-9ff5d9b099224496b6f84180b64ed9816216f8d6bd907ed6c09ae8c5b9418b92  research-updates/2026-10-20-confirmed-key-continuation/README.md
+91dedde0eadff86d20cbce1fdbc4655e6baf4c72c3e152d79942124b484bbe50  research-updates/2026-10-20-confirmed-key-continuation/README.md
 fdb17cf110ee6ea5302886f72126954dd5766ff9711c863dc3f2d3db29413b33  research-updates/2026-10-20-confirmed-key-continuation/address-face-audit.json
 5083b2933e926ba9cf88a16d370d2f4423840f19a177a8375b33e326dbc5d196  research-updates/2026-10-20-confirmed-key-continuation/anchor204.json
 b3817283e624b7373b53ce9022ca35d847539237e0cbed162d9009aad8d29f07  research-updates/2026-10-20-confirmed-key-continuation/cards/242.json
@@ -444,8 +444,8 @@ efc3d486fa8796a0ff047fdac18329112c4b82b023b7525f0bf2005075945a94  research-updat
 5a6b851ad555c7e4e0dd713e33104ae6c2c9c0a270c9b342ec1e32f3ccec704d  research-updates/2026-10-20-confirmed-key-continuation/cards/318.md
 f83ea131fda1c10bf8276305f64205e00b117b4af3bf2a1313f932a152cf9a77  research-updates/2026-10-20-confirmed-key-continuation/cards/319.json
 336049738e0c80546c8190c20f034a375d248f3d0f78d05820db08278259e4f0  research-updates/2026-10-20-confirmed-key-continuation/cards/319.md
-ffa856e92553c46e702a736dae8d130dda2efebaa513780124fcdc1f24a3510a  research-updates/2026-10-20-confirmed-key-continuation/cards/320.json
-456e5e32ee6e00e3e6105a11d601f18dbd6481ef670f61f595f76f1fdecc0dfa  research-updates/2026-10-20-confirmed-key-continuation/cards/320.md
+719b69de5fbbf54a63849ac9e70c889ec5539fa71f905a38be60b5b28d10bfda  research-updates/2026-10-20-confirmed-key-continuation/cards/320.json
+c6eef72da2b77dab1df7385d15fe5ede9197cdad2ec9315b173278997a8c0cb4  research-updates/2026-10-20-confirmed-key-continuation/cards/320.md
 5cf9437429611e2f93b8c3be6c473194563f17e4a33ba5682b7425cdc51e8bf6  research-updates/2026-10-20-confirmed-key-continuation/cards/321.json
 b457815000d4e50d69de4623b4a9b7f1afa8457238e8e4fa4f6c2dc950da48c3  research-updates/2026-10-20-confirmed-key-continuation/cards/321.md
 e3337430ecabd132d470b450b2d2fad2cea01fb473639389daa74237da0d8321  research-updates/2026-10-20-confirmed-key-continuation/cards/322.json
@@ -596,7 +596,7 @@ e4ed292c7a693aafb0c998c14d2d7f01ffd33130f1c8b89dc58b194a25326875  research-updat
 54d794fa7b8499c974a05dbd3f79616e126f6017f30547fc40a666b639b30987  research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.json
 14574a3506bf6109a89fde8a0a2a4a177316421f26622093ebeac9fad3daa3a8  research-updates/2026-10-20-confirmed-key-continuation/old-six-audit.md
 175485b163f5f03f265d94c96c348d00e52bd3d37b08bb4b6f6cc857535d0c15  research-updates/2026-10-20-confirmed-key-continuation/publication-validation.json
-578813e22e35d15c8624ac3c3eda90b85816aba4def1ea10a70fb52d97c8fae9  research-updates/2026-10-20-confirmed-key-continuation/queue.json
+83096cdafb92a7778e771aa182c3b3354a904eaecac95fbffc8c4c25f9fd3f96  research-updates/2026-10-20-confirmed-key-continuation/queue.json
 8c5386e81aa5f0ab1e626c9ecd9f35157245a279b05955b562854e076d7ad53a  research-updates/2026-10-20-confirmed-key-continuation/revisions/242-review2.json
 7175bae169921039da854611bafc650f38d8ec119f92e419a4a469c5f526a583  research-updates/2026-10-20-confirmed-key-continuation/revisions/244-review2.json
 00cc5d2e3bd7def4a3aeced6e1779aedd096463c20129e630367e7460e00cf65  research-updates/2026-10-20-confirmed-key-continuation/revisions/249-review2.json
@@ -666,6 +666,7 @@ ad42b3f954145388544b9daaaefcc47b16c30bef5c097f3902b3f70740fa0c22  research-updat
 644ad02702f04f4036b690671a4765064a6fb38650af08ecf674fafc634e5222  research-updates/2026-10-20-confirmed-key-continuation/revisions/318-initial-reconciliation.json
 dd4c1aee6c1fc32d67b9c4318b35928ef26f4a9be79261d58458726e79202cf5  research-updates/2026-10-20-confirmed-key-continuation/revisions/319-initial-reconciliation.json
 ae61cff0ada170a9abe906ee91dd6828af8aaec85907355757e38e7dc83bf91d  research-updates/2026-10-20-confirmed-key-continuation/revisions/320-initial-reconciliation.json
+87e02d897b1eb4414232b620daf33ee6b333fb771a713ce91a3eafc90da66c51  research-updates/2026-10-20-confirmed-key-continuation/revisions/320-source-completion.json
 784a5b90ee85d5d5ed24e04ed6a9aa57ebc7358cd5b2b81562c1c99b676267ce  research-updates/2026-10-20-confirmed-key-continuation/revisions/321-initial-reconciliation.json
 ded3c5a8d929033be1e91ec663449bef125f6462d9a87d37bb7a837328fc7629  research-updates/2026-10-20-confirmed-key-continuation/revisions/321-source-completion.json
 04ec7a0cb2c70209ef703329c84e25368f3a51998228db4bba40d663a0a00ce0  research-updates/2026-10-20-confirmed-key-continuation/revisions/322-initial-reconciliation.json
@@ -816,6 +817,7 @@ eb1e0d9135808742059dfdda10be305ec8f32f780a5738978f4bc7205ccedc6e  research-updat
 3c7352a426a4541b3f241cfd3ef27d32941c95cf49751f2d1196524f3a0f908c  research-updates/2026-10-20-confirmed-key-continuation/validation-batch9.json
 b93b0cb483ea25c1e9a129f11a5cd8951f6209e8766167f1aaa8850c3a083bb3  research-updates/2026-10-20-confirmed-key-continuation/validation-completion-384-385.json
 8db2525847d8b1b2cbabab08019200086e6e2bf653dd3787159f37c21a56acd0  research-updates/2026-10-20-confirmed-key-continuation/validation-editorial-key-label-corrections-20261028.json
+f165c21877b874ccfa9943b6084bb857ab153c06aeaa0677c94f0a70a1e17778  research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-320.json
 30e2aab9a535f8f6fa945528a667ad367ab41612ebfafba8365faaf37c0edf81  research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-321.json
 f55b9e43d240e128628be8e48f6c6e8ccbc99b33715c839d467c82012350e371  research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-322.json
 4f5fab170068ebc7fb4e9c856a4c73be9852b43e310c4667250fc174ca175e31  research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-323.json
