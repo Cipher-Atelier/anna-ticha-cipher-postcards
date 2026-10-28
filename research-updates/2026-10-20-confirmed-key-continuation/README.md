@@ -1067,6 +1067,8 @@ Process qualification, recorded 21 October 2026: after final QA froze, a root me
 
 ## Catalogue and next work
 
+The [28 October HCPortal register package](../2026-10-28-hcportal-register/README.md) lists all 154 published readings including partial with direct text URLs, available AI/date metadata and explicit gaps. The [team coordination list](../2026-10-28-hcportal-register/coordination.md) identifies 108 cards planned by Eugen Antal and team; this is an announced plan, not new decipherment or validation. The existing deeper-review priority remains card 319.
+
 An ordinary anonymous GET of the [official catalogue API](https://api.hcportal.eu/api/cryptograms?detailed=1) returned one complete page of 1875 records. Filtering actual returned names `pc_hcp_198` through `pc_hcp_460` yielded **263 distinct records and 526 original image URLs**, with no missing name in that stated range. Exact catalogue IDs/media URLs were copied from their records, never inferred arithmetically. See [catalogue-records.json](catalogue-records.json) for source-response SHA256, pagination evidence, exact JSON pointers and thin derived records; [catalogue-access.json](catalogue-access.json) records discovery through the public frontend and ordinary read routes without credentials.
 
 As retrieved, the official status object labels460 “Solved” and the other262 records “Not solved”; it contains a status label, not a plaintext. These are catalogue labels, not acceptance of our candidates.

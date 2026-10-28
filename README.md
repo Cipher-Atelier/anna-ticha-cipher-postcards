@@ -25,6 +25,8 @@ The next active source review is [card 319](research-updates/2026-10-20-confirme
 
 ## Reading coverage
 
+For HCPortal submission, open the [154-card register package](research-updates/2026-10-28-hcportal-register/README.md): direct text links, recorded AI/date metadata, CSV/JSON exports, three selected review questions and the 108-card team coordination list. Entries retain their partial/provisional status and missing metadata.
+
 **263 catalogue records; 154 cards with a published reading, including partial proposals; 109 without a reading published here.** The 154 are 137 current candidates plus 37 earlier reports, minus 21 overlapping cards, plus card 204. This is reading coverage, not a solved-card count. See the [review overview](REVIEW_STATUS.md) for the breakdown, remaining gaps and review priorities.
 
 ## Start here

@@ -21,6 +21,8 @@ These are counts of available readings, not counts of completely solved cards. I
 
 ## What is new
 
+The [28 October HCPortal submission package](research-updates/2026-10-28-hcportal-register/README.md) inventories all 154 published readings including partial, records available AI/date metadata and missing fields, and provides three bounded review questions. The [108-card coordination list](research-updates/2026-10-28-hcportal-register/coordination.md) records planned work by Eugen Antal and team. This announcement adds no completed readings or external confirmations; card 460 remains their separate comparison result.
+
 The latest source review is [card 320](research-updates/2026-10-20-confirmed-key-continuation/cards/320.md). Ten upright rows have connected Czech/English working text. Source/tags/replays unchanged: 200 slots/198 known letters/three existing CH/five unassigned 9, zero masks. Nine exact restoration spans/ten language operations, including five 9→Z conjectures and H→M/Y→I/M→B repairs, no source/key value assignment. Actual first/second wrapper/raw/strict_public_projection schema/zero omissions and whole QA18 preserved. Return/roof/interference/name/date alternatives and isolated Address mark remain unresolved. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/320-source-completion.json) and [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-320.json) record evidence and checks.
 
 | Current work | Status |
