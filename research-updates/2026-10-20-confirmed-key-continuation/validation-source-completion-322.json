@@ -1,0 +1,968 @@
+{
+  "date": "2026-10-28",
+  "recorded_at_utc": "2026-10-28T15:47:30.258134+00:00",
+  "base_commit": "e45f20be33e6d458f8e3a925451dc68ea116d495",
+  "card_ids": [
+    322
+  ],
+  "status": "passed bounded mechanical checks; provisional main/book regional text with MO and curl/roof/terminal/source alternatives despite zero decoder unknowns",
+  "stage": "provisional main letter and separate book-page groups; MO and curl/roof/terminal/segmentation alternatives retained despite zero decoder unknowns",
+  "source_revision": "revisions/322-source-completion.json",
+  "limits": [
+    "Same-root source/key/literal/language-visible nonblind reinspection; both native readings/current proposals visible. No independent confirmation or solved claim. Fourteen selected native-frame groups unchanged: five oblique book rows (left 2/right 3) and nine main rows. Main displayed first for convenience only; no narrative order across book pages/main or unrecorded deskew. Right-book MO stays unresolved, no forced sentence/syllable completion.",
+    "All source strings/tags/decoder fields/counts unchanged: 195 selected slots/196 known emitted letters/one existing CH/zero unknown entries. Zero unknowns does not establish complete physical segmentation, correct source families or ink ownership. Raised curl over TVOJE final 5, similar upper ink at another ending 5, roof/short branch, underlines and terminal c-return/dot remain uncertain. No source replacement/addition/deletion, new CH/key, generic roof/g-q-9 alias, normalization or physical census.",
+    "Three original language proposals retain scope: LYSTEK→LISTEK and NEDELY→NEDELI each language Y→I only (selected source 1 unchanged), NESCISLNEKRATE→nesčíslněkráte lexical/diacritic interpretation with unchanged base letters and no new source gap. Name-like Anduličko/Andulce/Pepouš and andílkovi interpretation remain textual, no identity/authorship. Eight within-region clause continuations/sixteen exact spans do not join source words or force book-page order. VZPOMINA stays third-person, no terminal N inserted. Sunday/Monday/home/arrival are textual relative clauses, no inferred arrival destination or calendar itinerary.",
+    "Both language editions retain literal MO and explicit unresolved raised-curl and terminal-return placeholders. Curl may be correction/additional body/return; its occurrence near other ending 5 is a comparison, not proof of shared value or ownership. Specific existing ř/CH remains provisional roofed short branch with neighbour 2/r/h/unknown alternatives. No extra question asserted; selected questions/masks and current provenance corrections remain empty. Underlines add no numeric role or source slot.",
+    "Whole raw_preservation retains its actual split schema: first_raw/first_record and blind_raw/blind_record. Frozen wrapper headers (without inline raw), raw objects, complete original strict_metadata and strict_rows stay typed-identical; no strict_public_projection/QA19 adapter imported. Both preserved raw/header/metadata record sets declare zero omissions as historical frozen_schema_limits states. Eight canonical inline identities (raw/header/strict-metadata/strict-rows per reader) checked; original whole raw/strict FILE hashes distinct, unavailable original whole FILE bytes not reread. Whole source metadata includes original byte count/time and remains unchanged.",
+    "Both native lists retain 14 rows/195 slots/196 known letters/one CH/zero unknowns, but row order/IDs and strings differ. FIRST native book-left/book-right/main order contrasts with blind main-first then B01–B05; explicit map uses actual IDs and no invented frozen fields. 47 exact native ledger references (FIRST 21 uncertainty/four marks, blind 18 uncertainty/four marks) pinned with broad current row contexts, not physical-mark count or precise current per-glyph alignment. All 53 earlier current uncertainty records and all eight original mark records preserved, original shape/segmentation alternatives unchanged.",
+    "Whole QA18 status mechanical_checks_pass_with_qualified_source_findings preserved: eight readings/78 rows/40 protected inputs, six qualified scope findings globally/one target-specific record. Zero mechanical/replay/tag/locator/schema/timing/span/geometry errors; no frozen locator incident or new documentation defect invented. Two descriptive entries without exact pair and 134 repeated paired-geometry records retain scope; root 91 unique-dictionary checks distinct. Eight bounded date-reading entries are not eight distinct physical dates or authenticated chronology. Original both-input preflights/freezes/own replays and all-eight checkpoints retain their original context; FIRST/SECOND labels not chronology/cognitive independence.",
+    "Two fresh anonymous GET200 originals match pinned hashes, no redirects/retries. Both complete faces/all margins and 20 enlarged Picture contexts viewed privately. Whole historical Address-boundary entry pinned; no additional continuous cipher recognized in visible frame, bounded negative only. Separate ordinary date-like inscription/printed illustration/book outlines/watermark/address/postal context excluded without new transcription/authentication. Historical date candidates and month-stroke alternatives remain unchanged, no calendar conversion. Current receipt bytes do not replace original acquisition metadata/time; scans/crops private.",
+    "Previous whole JSON/Markdown and unchanged legacy 322 report Git/blob/SHA256 pinned. Initial reconciliation, original validation and QA18 remain historical records; dated addendum does not certify original source completeness. Deeper working-coverage counts remain separate from unique published readings including partial and independently solved counts."
+  ],
+  "source_method": {
+    "source_acquisition": [
+      {
+        "face": "Picture",
+        "url": "https://api.hcportal.eu/media/4983/pc_hcp_322_pic.JPG",
+        "status": 200,
+        "sha256": "a2efa4b1b4a1dd493c8d412ca1486f0061261d59f7ddcbe879773134715267ae",
+        "bytes": 1230162,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "started_at_utc": "2026-10-28T15:36:15.097132+00:00",
+        "finished_at_utc": "2026-10-28T15:36:15.432996+00:00",
+        "redirects": 0,
+        "retries": 0
+      },
+      {
+        "face": "Address",
+        "url": "https://api.hcportal.eu/media/4984/pc_hcp_322_adr.JPG",
+        "status": 200,
+        "sha256": "ae7216f35ae9fdd3910d76ffd5d2dde5afe050bbf975c53825f5f8a602700d24",
+        "bytes": 954840,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "started_at_utc": "2026-10-28T15:36:15.459627+00:00",
+        "finished_at_utc": "2026-10-28T15:36:15.682174+00:00",
+        "redirects": 0,
+        "retries": 0
+      }
+    ],
+    "current_stage_face_review": {
+      "complete_Picture_original_all_margins_viewed": true,
+      "complete_Address_original_all_margins_viewed": true,
+      "private_contexts": [
+        {
+          "name": "322-BL01",
+          "native_bbox_xyxy": [
+            275,
+            578,
+            415,
+            667
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            560,
+            356
+          ],
+          "sha256": "e27549836c2a1ef53c83669008b1cd4eb645f7b333eb8cfa57c5bf1f798b360f"
+        },
+        {
+          "name": "322-BL02",
+          "native_bbox_xyxy": [
+            245,
+            632,
+            550,
+            805
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            1220,
+            692
+          ],
+          "sha256": "b054e10764cc6e5de37102c0e351f1351cefdbf790eeabc79f0c26a7a1ab1caf"
+        },
+        {
+          "name": "322-BR01",
+          "native_bbox_xyxy": [
+            565,
+            625,
+            745,
+            729
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            720,
+            416
+          ],
+          "sha256": "7404d6886218cf77533ab3941476291065884af061368e0454ddb8cad166ce4f"
+        },
+        {
+          "name": "322-BR02",
+          "native_bbox_xyxy": [
+            570,
+            689,
+            735,
+            782
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            660,
+            372
+          ],
+          "sha256": "ae9d670a9893b99c409baf9459063bb11e80a00c444fecd8190f5a8750b7c081"
+        },
+        {
+          "name": "322-BR03",
+          "native_bbox_xyxy": [
+            510,
+            735,
+            730,
+            823
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            880,
+            352
+          ],
+          "sha256": "bec5baee66c3b75ef0e7662f3f2397796da49401ddd5ddeac554c63d54ca4e37"
+        },
+        {
+          "name": "322-N01",
+          "native_bbox_xyxy": [
+            1285,
+            590,
+            1665,
+            655
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            1520,
+            260
+          ],
+          "sha256": "eeb5150406019314de03e2a34762d31daba2b497e8a534ddb6bdc548706cfb40"
+        },
+        {
+          "name": "322-N02",
+          "native_bbox_xyxy": [
+            1290,
+            637,
+            1640,
+            706
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            1400,
+            276
+          ],
+          "sha256": "2932e59b5059d754c5b196680f976ff42da4abf5cdd1516849b7aef06aeccbb1"
+        },
+        {
+          "name": "322-N03",
+          "native_bbox_xyxy": [
+            1235,
+            690,
+            1665,
+            766
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            1720,
+            304
+          ],
+          "sha256": "f9c0510fded113ba2f5531d3edd4d76727d5fcb408324e04cdb1892cb691786e"
+        },
+        {
+          "name": "322-N04",
+          "native_bbox_xyxy": [
+            1235,
+            747,
+            1675,
+            823
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            1760,
+            304
+          ],
+          "sha256": "c5fe5817c4a74b3bbe3ca8bd9950986a466b3cf30ac5044a8a3ac45094ce4284"
+        },
+        {
+          "name": "322-N05",
+          "native_bbox_xyxy": [
+            1205,
+            800,
+            1690,
+            877
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            1940,
+            308
+          ],
+          "sha256": "24ede740bcdade33a9046366d1aaf72fdfa7ccf53708dfae431ff08f54eb888f"
+        },
+        {
+          "name": "322-N06",
+          "native_bbox_xyxy": [
+            1195,
+            857,
+            1695,
+            932
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            2000,
+            300
+          ],
+          "sha256": "449e300726430d48bc802adec0d72f9b7391a4d52ee315138b3cc0bdd6028e6d"
+        },
+        {
+          "name": "322-N07",
+          "native_bbox_xyxy": [
+            1010,
+            911,
+            1705,
+            985
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            2780,
+            296
+          ],
+          "sha256": "a385f5740ff99bce79b8c831efa368532409ff36b0d5b36a597e4e4d987f46d5"
+        },
+        {
+          "name": "322-N08",
+          "native_bbox_xyxy": [
+            1005,
+            958,
+            1705,
+            1037
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            2800,
+            316
+          ],
+          "sha256": "b8af6e208dcb94765f2f384beb8e817a338edba4d8ad771b3e8ec1a72a0a470e"
+        },
+        {
+          "name": "322-N09",
+          "native_bbox_xyxy": [
+            675,
+            1008,
+            1705,
+            1100
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            4120,
+            368
+          ],
+          "sha256": "dfd39d845dbbb4620219e7ec716faf064eeb214259001659f1f08ce72bdfad85"
+        },
+        {
+          "name": "book-left",
+          "native_bbox_xyxy": [
+            230,
+            565,
+            570,
+            825
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 3,
+          "dimensions": [
+            1020,
+            780
+          ],
+          "sha256": "938f9512f4dc022df9c7e6b2d396cf475586cbf9a25c539db1846e67f7dd5840"
+        },
+        {
+          "name": "book-right",
+          "native_bbox_xyxy": [
+            495,
+            615,
+            765,
+            835
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 3,
+          "dimensions": [
+            810,
+            660
+          ],
+          "sha256": "0c18f7b0e817bae1e821746bcd00b7fa5e633dda2cf6569a546749e3ba9d96ef"
+        },
+        {
+          "name": "curl",
+          "native_bbox_xyxy": [
+            1450,
+            790,
+            1710,
+            880
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 5,
+          "dimensions": [
+            1300,
+            450
+          ],
+          "sha256": "e1e1defe1738435caed6e97fbbae187a890024b7258bbb4bd9651458b882fbdf"
+        },
+        {
+          "name": "roof",
+          "native_bbox_xyxy": [
+            800,
+            1000,
+            1015,
+            1105
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 5,
+          "dimensions": [
+            1075,
+            525
+          ],
+          "sha256": "b1452ad3c18f81ab90aee78efc290b991cb7deb8c583f1783666ae4729f03f70"
+        },
+        {
+          "name": "terminal",
+          "native_bbox_xyxy": [
+            1470,
+            1000,
+            1720,
+            1110
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 5,
+          "dimensions": [
+            1250,
+            550
+          ],
+          "sha256": "b4693aed1f2b85024d1b4fbbb586429d8af1dfd4f71ce5429c5ba047a066506c"
+        },
+        {
+          "name": "gap-thanks",
+          "native_bbox_xyxy": [
+            1230,
+            680,
+            1550,
+            775
+          ],
+          "reading_rotation_degrees_clockwise": 0,
+          "scale": 4,
+          "dimensions": [
+            1280,
+            380
+          ],
+          "sha256": "7abc0b4156834b71e9c8a5fcb0e96b74668e13d6b1c4b57973486ff4cdb7b811"
+        }
+      ],
+      "Address_observation": "No additional continuous encoded run recognized in complete visible frame; bounded negative only.",
+      "Picture_observation": "Five oblique book groups/two pages plus nine main rows, original frame retained; curl/roof/terminal/underlines and ordinary date/artwork context separately bounded.",
+      "individual_view_timestamps_captured": false,
+      "source_images_redistributed": false
+    },
+    "previous_edition": {
+      "json": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/322.json",
+        "commit": "e45f20be33e6d458f8e3a925451dc68ea116d495",
+        "sha256": "7c69b7127987c8af4a4a6d68208a6b9620c78b468cc8a462606bc42ef4a60387",
+        "git_blob_oid": "6023c78622fe2ebba53d07466265bce7a305c58c",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e45f20be33e6d458f8e3a925451dc68ea116d495/research-updates/2026-10-20-confirmed-key-continuation/cards/322.json"
+      },
+      "markdown": {
+        "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/322.md",
+        "commit": "e45f20be33e6d458f8e3a925451dc68ea116d495",
+        "sha256": "388c2e84dc9bb30e8921f9c09cee79a8180100119cb0a57b44a2ff20b2cef47e",
+        "git_blob_oid": "80e1571454b05a2d0c10ea868577ff44168765eb",
+        "raw_url": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e45f20be33e6d458f8e3a925451dc68ea116d495/research-updates/2026-10-20-confirmed-key-continuation/cards/322.md"
+      }
+    },
+    "preserved_prior_QA": {
+      "canonical_sha256": "ae54505789c894a9d7d1255bace6a81a839b19269b0aa1e63a786c3241815740",
+      "pointer": "https://raw.githubusercontent.com/Cipher-Atelier/anna-ticha-cipher-postcards/e45f20be33e6d458f8e3a925451dc68ea116d495/research-updates/2026-10-20-confirmed-key-continuation/cards/322.json#/qa_context",
+      "batch": "QA18",
+      "qa_file_sha256": "75ab705e00c5d3a457f7d58a2f0a587af8bb375a8e287fc5ba95477e841a4e4b",
+      "global_scope_findings": 6,
+      "target_specific_scope_records": 1,
+      "global_locator_defects": 0,
+      "new_locator_defects": 0,
+      "scope": "Whole historical QA18 unchanged; source qualifications not relabelled QA19 locator or QA20 documentation findings."
+    },
+    "historical_opposite_face_boundary": {
+      "previous_file_commit": "e45f20be33e6d458f8e3a925451dc68ea116d495",
+      "previous_file_path": "research-updates/2026-10-20-confirmed-key-continuation/address-face-audit.json",
+      "previous_file_sha256": "fdb17cf110ee6ea5302886f72126954dd5766ff9711c863dc3f2d3db29413b33",
+      "canonical_sha256": "9b6fd3bd10daf59b49afae85c1c113653d2653698b94fdc1cd48a03530ae8a4d",
+      "record": {
+        "card_id": 322,
+        "source": {
+          "card_id": 322,
+          "url": "https://api.hcportal.eu/media/4984/pc_hcp_322_adr.JPG",
+          "sha256": "ae7216f35ae9fdd3910d76ffd5d2dde5afe050bbf975c53825f5f8a602700d24",
+          "bytes": 954840,
+          "native_dimensions": [
+            1785,
+            1175
+          ],
+          "catalogue_id": 1641,
+          "face": "address"
+        },
+        "orientation_degrees_ccw": 0,
+        "inspected_region_native_xyxy": [
+          0,
+          0,
+          1785,
+          1175
+        ],
+        "observation": "Complete saved face inspected: conventional printed postal layout, ordinary handwritten address text, stamp/postmarks and publisher marks; no additional continuous encoded message group identified.",
+        "cipher_region_observed": false,
+        "transcription_of_address_or_people": "Not included; no sender identity or postal-date conclusion made."
+      }
+    },
+    "preserved_legacy_reading": {
+      "path": "anna-ticha/card-322.md",
+      "commit": "e45f20be33e6d458f8e3a925451dc68ea116d495",
+      "sha256": "e6c9755ada86622c72e05d9531562d037ecb634829adf3cf5970aa903ead1362",
+      "git_blob_oid": "979d69eca1ba89d9e6bd243116d67bd39690edff"
+    },
+    "source_counter_change": {
+      "source_strings_tags_and_replays_unchanged": true,
+      "source_string_edit_groups": 0,
+      "net_replay_slot_delta": 0,
+      "retained_CH": 1,
+      "new_source_CH": 0,
+      "decoder_unknowns": 0,
+      "physical_encoded_body_count": null,
+      "scope": "Zero selected unknowns does not establish physical completeness or resolve book MO/curl/roof/terminal alternatives."
+    }
+  },
+  "audit": {
+    "status": "passed",
+    "prior_totals": {
+      "rows": 14,
+      "encoded_bodies": 195,
+      "expanded_letters": 196,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "current_totals": {
+      "rows": 14,
+      "encoded_bodies": 195,
+      "expanded_letters": 196,
+      "ch_occurrences": 1,
+      "unknowns": 0
+    },
+    "protected_fields": [
+      "card_id",
+      "notation",
+      "source",
+      "catalogue_id",
+      "catalogue_record_pointer",
+      "catalogue_binding",
+      "orientation",
+      "reader",
+      "raw_frozen_before_decoding",
+      "independent_readings",
+      "source_only_freeze_protocol",
+      "raw_preservation",
+      "frozen_schema_limits",
+      "uncertainty_ledger",
+      "marks_and_segmentation_notes",
+      "segmentation_ledger",
+      "unknown_clusters",
+      "current_provenance_corrections",
+      "physical_encoded_body_count",
+      "counts_policy",
+      "ordinary_numerals_outside_cipher",
+      "actual_question_punctuation",
+      "question_role_inventory",
+      "question_role_current_check",
+      "date_inscription",
+      "editorial_restoration_ledger",
+      "editorial_literal_fragment_ledger",
+      "unselected_paratext",
+      "region_inventory",
+      "region_order_evidence",
+      "excluded_source_regions",
+      "lexical_notes",
+      "initial_reconciliation",
+      "validation",
+      "qa_context",
+      "encoded_bodies",
+      "expanded_letters",
+      "ch_occurrences",
+      "unknowns"
+    ],
+    "original_inline_canonical_hashes": {
+      "first": {
+        "raw": "09559ce056e97683ae47e0d0d73ab7952626858ce1b3eb916687dc5a0bc69525",
+        "frozen_wrapper_header": "d63f89f10093c444b80457cb74bc01fb7dd0a56d7ace8e57a1579fcc78d2df78",
+        "strict_metadata": "f25079713f23ce7b8b1ea79be53145b60d1d659ee8f6eaad420814f34aefbc3b",
+        "strict_rows": "48890362f8978bbf57cf526e3230fa609c3ccab50eda1e22c86b7c3a959f56b7"
+      },
+      "blind": {
+        "raw": "759b1b71ef6a4728ab44db8cd81c8ce44db5b8d6edf8627ca9ea3295df97ae10",
+        "frozen_wrapper_header": "cdb72af360f909822a97c227db787f2ae7c5152f457a1d0991ca30486a23affb",
+        "strict_metadata": "920043af9206ea462ef8274ad3dc2d3e3e3770e4e2ed8837b264f4402ede1f1f",
+        "strict_rows": "fa1b8078923d783a3847ffbc94e3ad6ccad8fce1db01da1c6e89c1bbad65ff0a"
+      }
+    },
+    "native_strict_rows_replayed": 28,
+    "native_schema": "split first_raw/first_record/blind_raw/blind_record, original strict_metadata and strict_rows; no projection adapter",
+    "public_omissions": 0,
+    "original_whole_raw_or_strict_FILE_bytes_reread": false,
+    "native_record_contexts": 47,
+    "native_mark_records": 8,
+    "native_uncertainty_records": 39,
+    "native_question_role_records": 0,
+    "FIRST_contexts": 25,
+    "blind_contexts": 22,
+    "previous_current_uncertainty_contexts": 53,
+    "original_current_mark_records": 8,
+    "new_mark_neighbourhood_contexts": 3,
+    "source_strings_tags_and_replays_unchanged": true,
+    "source_edit_groups": 0,
+    "net_notation_slot_delta": 0,
+    "current_CH": 1,
+    "new_source_CH": 0,
+    "decoder_unknowns": 0,
+    "MO_source_literal_unresolved": true,
+    "raised_curl_and_terminal_placeholders_preserved": true,
+    "language_proposal_spans": 3,
+    "letter_substitutions": 2,
+    "lexical_diacritic_interpretations": 1,
+    "new_source_letters_from_grammar": 0,
+    "within_region_clause_joins": 8,
+    "literal_join_spans": 16,
+    "written_questions": 0,
+    "punctuation_exclamation_tags": 3,
+    "global_QA18_locator_defects": 0,
+    "global_QA18_scope_findings": 6,
+    "target_QA18_scope_records": 1,
+    "new_locator_incidents_or_documentation_defects": 0,
+    "original_findings_repaired": false,
+    "original_image_hashes": 2,
+    "enlarged_contexts": 20,
+    "private_context_geometry_checked": true,
+    "public_protocol_references": 74,
+    "unchanged_other_candidate_files": 272,
+    "unchanged_historical_artifacts": 277,
+    "unchanged_other_queue_objects": 262,
+    "unchanged_source_arrays": 263,
+    "canonical_candidates": 137,
+    "candidate_table_rows": 137,
+    "aggregate_totals": {
+      "rows": 1493,
+      "encoded_bodies": 44347,
+      "expanded_letters": 44429,
+      "ch_occurrences": 363,
+      "unknowns": 281
+    },
+    "local_markdown_links_and_anchors": 2254,
+    "markdown_files": 228,
+    "closed_package_details": 2,
+    "index_outside_latest_intro_unchanged": true,
+    "legacy_six_card_and_experimental_references_unchanged": true,
+    "historical_partial_323_reference_unchanged": true,
+    "fresh_unique_coverage_file_sets": {
+      "current": 137,
+      "legacy_including_204": 38,
+      "overlap": 21,
+      "union_including_partial": 154,
+      "catalogue": 263,
+      "without_separate_reading": 109
+    },
+    "physical_census_established": false,
+    "report_progress": {
+      "existing_candidates": 137,
+      "descending_pass_working_coverage_ids": [
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386
+      ],
+      "descending_pass_working_coverage_count": 65,
+      "remaining_in_descending_pass_ids": [
+        242,
+        244,
+        249,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321
+      ],
+      "remaining_in_descending_pass": 72,
+      "catalogue_cards": 263,
+      "unique_with_published_reading_including_partial": 154,
+      "without_separate_published_reading": 109,
+      "next_card": 321,
+      "scope": "Deeper completion of existing candidates; distinct from new-card coverage and independently solved counts; earlier batch 384–385 included."
+    },
+    "limits": [
+      "Same-root source/key/literal/language-visible nonblind reinspection; both native readings/current proposals visible. No independent confirmation or solved claim. Fourteen selected native-frame groups unchanged: five oblique book rows (left 2/right 3) and nine main rows. Main displayed first for convenience only; no narrative order across book pages/main or unrecorded deskew. Right-book MO stays unresolved, no forced sentence/syllable completion.",
+      "All source strings/tags/decoder fields/counts unchanged: 195 selected slots/196 known emitted letters/one existing CH/zero unknown entries. Zero unknowns does not establish complete physical segmentation, correct source families or ink ownership. Raised curl over TVOJE final 5, similar upper ink at another ending 5, roof/short branch, underlines and terminal c-return/dot remain uncertain. No source replacement/addition/deletion, new CH/key, generic roof/g-q-9 alias, normalization or physical census.",
+      "Three original language proposals retain scope: LYSTEK→LISTEK and NEDELY→NEDELI each language Y→I only (selected source 1 unchanged), NESCISLNEKRATE→nesčíslněkráte lexical/diacritic interpretation with unchanged base letters and no new source gap. Name-like Anduličko/Andulce/Pepouš and andílkovi interpretation remain textual, no identity/authorship. Eight within-region clause continuations/sixteen exact spans do not join source words or force book-page order. VZPOMINA stays third-person, no terminal N inserted. Sunday/Monday/home/arrival are textual relative clauses, no inferred arrival destination or calendar itinerary.",
+      "Both language editions retain literal MO and explicit unresolved raised-curl and terminal-return placeholders. Curl may be correction/additional body/return; its occurrence near other ending 5 is a comparison, not proof of shared value or ownership. Specific existing ř/CH remains provisional roofed short branch with neighbour 2/r/h/unknown alternatives. No extra question asserted; selected questions/masks and current provenance corrections remain empty. Underlines add no numeric role or source slot.",
+      "Whole raw_preservation retains its actual split schema: first_raw/first_record and blind_raw/blind_record. Frozen wrapper headers (without inline raw), raw objects, complete original strict_metadata and strict_rows stay typed-identical; no strict_public_projection/QA19 adapter imported. Both preserved raw/header/metadata record sets declare zero omissions as historical frozen_schema_limits states. Eight canonical inline identities (raw/header/strict-metadata/strict-rows per reader) checked; original whole raw/strict FILE hashes distinct, unavailable original whole FILE bytes not reread. Whole source metadata includes original byte count/time and remains unchanged.",
+      "Both native lists retain 14 rows/195 slots/196 known letters/one CH/zero unknowns, but row order/IDs and strings differ. FIRST native book-left/book-right/main order contrasts with blind main-first then B01–B05; explicit map uses actual IDs and no invented frozen fields. 47 exact native ledger references (FIRST 21 uncertainty/four marks, blind 18 uncertainty/four marks) pinned with broad current row contexts, not physical-mark count or precise current per-glyph alignment. All 53 earlier current uncertainty records and all eight original mark records preserved, original shape/segmentation alternatives unchanged.",
+      "Whole QA18 status mechanical_checks_pass_with_qualified_source_findings preserved: eight readings/78 rows/40 protected inputs, six qualified scope findings globally/one target-specific record. Zero mechanical/replay/tag/locator/schema/timing/span/geometry errors; no frozen locator incident or new documentation defect invented. Two descriptive entries without exact pair and 134 repeated paired-geometry records retain scope; root 91 unique-dictionary checks distinct. Eight bounded date-reading entries are not eight distinct physical dates or authenticated chronology. Original both-input preflights/freezes/own replays and all-eight checkpoints retain their original context; FIRST/SECOND labels not chronology/cognitive independence.",
+      "Two fresh anonymous GET200 originals match pinned hashes, no redirects/retries. Both complete faces/all margins and 20 enlarged Picture contexts viewed privately. Whole historical Address-boundary entry pinned; no additional continuous cipher recognized in visible frame, bounded negative only. Separate ordinary date-like inscription/printed illustration/book outlines/watermark/address/postal context excluded without new transcription/authentication. Historical date candidates and month-stroke alternatives remain unchanged, no calendar conversion. Current receipt bytes do not replace original acquisition metadata/time; scans/crops private.",
+      "Previous whole JSON/Markdown and unchanged legacy 322 report Git/blob/SHA256 pinned. Initial reconciliation, original validation and QA18 remain historical records; dated addendum does not certify original source completeness. Deeper working-coverage counts remain separate from unique published readings including partial and independently solved counts."
+    ]
+  },
+  "artifact_sha256": {
+    "cards/322.json": "e3337430ecabd132d470b450b2d2fad2cea01fb473639389daa74237da0d8321",
+    "cards/322.md": "11c0e8fc9c18ea4bed4a19de7b7e09e6843980513305eb3e478a8ec61cfed908",
+    "revisions/322-source-completion.json": "b212a9f37e6eb38f1d1a2cb0934c99ff85a72c004a85dd92254b118bf5236b8a"
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py",
+      "exit_code": 0,
+      "result": "Ran 32 tests in 0.775s; OK; tests unchanged."
+    },
+    {
+      "command": "private audit.py invoking unchanged check_card/check_package and native split strict-row/hash/protected-field/source-identity/language/geometry/QA18/protocol-reference/table/link/coverage/progress checks",
+      "exit_code": 0,
+      "result": "Passed; detailed counters and limits in audit."
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 1013,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "reviewer": "same-root source/key/literal/language-visible nonblind review; not independent approval",
+    "actual_git_diff_reviewed": true,
+    "scope": "Actual source/JSON/Markdown/navigation/queue/evidence diff reviewed; complete faces/all margins and 20 enlarged contexts viewed privately.",
+    "findings": [
+      "All 14 source strings/tags/literal outputs/geometry unchanged: 195 slots/196 known letters/one existing CH/zero decoder unknown entries. Main displayed first, separate left/right oblique book groups; MO and both curl/terminal placeholders retained. No new source glyph resolved.",
+      "Same-root source/key/literal/language-visible nonblind reinspection; both native readings/current proposals visible. No independent confirmation or solved claim. Fourteen selected native-frame groups unchanged: five oblique book rows (left 2/right 3) and nine main rows. Main displayed first for convenience only; no narrative order across book pages/main or unrecorded deskew. Right-book MO stays unresolved, no forced sentence/syllable completion.",
+      "All source strings/tags/decoder fields/counts unchanged: 195 selected slots/196 known emitted letters/one existing CH/zero unknown entries. Zero unknowns does not establish complete physical segmentation, correct source families or ink ownership. Raised curl over TVOJE final 5, similar upper ink at another ending 5, roof/short branch, underlines and terminal c-return/dot remain uncertain. No source replacement/addition/deletion, new CH/key, generic roof/g-q-9 alias, normalization or physical census.",
+      "Three original language proposals retain scope: LYSTEK→LISTEK and NEDELY→NEDELI each language Y→I only (selected source 1 unchanged), NESCISLNEKRATE→nesčíslněkráte lexical/diacritic interpretation with unchanged base letters and no new source gap. Name-like Anduličko/Andulce/Pepouš and andílkovi interpretation remain textual, no identity/authorship. Eight within-region clause continuations/sixteen exact spans do not join source words or force book-page order. VZPOMINA stays third-person, no terminal N inserted. Sunday/Monday/home/arrival are textual relative clauses, no inferred arrival destination or calendar itinerary.",
+      "Both language editions retain literal MO and explicit unresolved raised-curl and terminal-return placeholders. Curl may be correction/additional body/return; its occurrence near other ending 5 is a comparison, not proof of shared value or ownership. Specific existing ř/CH remains provisional roofed short branch with neighbour 2/r/h/unknown alternatives. No extra question asserted; selected questions/masks and current provenance corrections remain empty. Underlines add no numeric role or source slot.",
+      "Whole raw_preservation retains its actual split schema: first_raw/first_record and blind_raw/blind_record. Frozen wrapper headers (without inline raw), raw objects, complete original strict_metadata and strict_rows stay typed-identical; no strict_public_projection/QA19 adapter imported. Both preserved raw/header/metadata record sets declare zero omissions as historical frozen_schema_limits states. Eight canonical inline identities (raw/header/strict-metadata/strict-rows per reader) checked; original whole raw/strict FILE hashes distinct, unavailable original whole FILE bytes not reread. Whole source metadata includes original byte count/time and remains unchanged.",
+      "Both native lists retain 14 rows/195 slots/196 known letters/one CH/zero unknowns, but row order/IDs and strings differ. FIRST native book-left/book-right/main order contrasts with blind main-first then B01–B05; explicit map uses actual IDs and no invented frozen fields. 47 exact native ledger references (FIRST 21 uncertainty/four marks, blind 18 uncertainty/four marks) pinned with broad current row contexts, not physical-mark count or precise current per-glyph alignment. All 53 earlier current uncertainty records and all eight original mark records preserved, original shape/segmentation alternatives unchanged.",
+      "Whole QA18 status mechanical_checks_pass_with_qualified_source_findings preserved: eight readings/78 rows/40 protected inputs, six qualified scope findings globally/one target-specific record. Zero mechanical/replay/tag/locator/schema/timing/span/geometry errors; no frozen locator incident or new documentation defect invented. Two descriptive entries without exact pair and 134 repeated paired-geometry records retain scope; root 91 unique-dictionary checks distinct. Eight bounded date-reading entries are not eight distinct physical dates or authenticated chronology. Original both-input preflights/freezes/own replays and all-eight checkpoints retain their original context; FIRST/SECOND labels not chronology/cognitive independence.",
+      "Two fresh anonymous GET200 originals match pinned hashes, no redirects/retries. Both complete faces/all margins and 20 enlarged Picture contexts viewed privately. Whole historical Address-boundary entry pinned; no additional continuous cipher recognized in visible frame, bounded negative only. Separate ordinary date-like inscription/printed illustration/book outlines/watermark/address/postal context excluded without new transcription/authentication. Historical date candidates and month-stroke alternatives remain unchanged, no calendar conversion. Current receipt bytes do not replace original acquisition metadata/time; scans/crops private.",
+      "Previous whole JSON/Markdown and unchanged legacy 322 report Git/blob/SHA256 pinned. Initial reconciliation, original validation and QA18 remain historical records; dated addendum does not certify original source completeness. Deeper working-coverage counts remain separate from unique published readings including partial and independently solved counts.",
+      "39 existing fields protected typed-identical. Actual split first_raw/first_record/blind_raw/blind_record schema, frozen headers/strict metadata and rows retained whole/zero omissions. 28 native strict rows/eight inline identities checked without projection adapter or unavailable original FILE-byte reread. 47 native ledger records/53 prior current uncertainty records/all eight old mark records preserved; three fresh mark neighbourhoods do not certify attachment/new bodies.",
+      "Three language proposals/two Y→I substitutions/one lexical-diacritic interpretation, eight within-region joins/sixteen exact spans checked. Whole QA18 retains zero mechanical/locator/tag/schema/timing errors/six scope findings/one target record; no QA19/20 or new documentation-defect import.",
+      "Executed 32 unchanged tests/137 candidates/table rows/74 protocol references/2254 internal links; 272 other candidates/277 historical artifacts/262 queue objects/all 263 source arrays unchanged. Legacy partial 323 reference untouched. File-derived progress 72 pending/65 working coverage of 137; separately 154 of 263 including partial/109 without reading; next 321."
+    ],
+    "disposition": "Publish main/book regional working reading with unresolved MO, curl/roof/terminal and source/order/date/name alternatives retained; zero decoder unknowns do not establish source completeness. No merge blocker within bounded review."
+  },
+  "coverage": {
+    "canonical_candidates": 137,
+    "catalogue_cards": 263,
+    "unique_cards_with_reading_including_partial": 154,
+    "without_separate_published_reading": 109,
+    "new_unique_cards": 0,
+    "report_progress": {
+      "existing_candidates": 137,
+      "descending_pass_working_coverage_ids": [
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386
+      ],
+      "descending_pass_working_coverage_count": 65,
+      "remaining_in_descending_pass_ids": [
+        242,
+        244,
+        249,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321
+      ],
+      "remaining_in_descending_pass": 72,
+      "catalogue_cards": 263,
+      "unique_with_published_reading_including_partial": 154,
+      "without_separate_published_reading": 109,
+      "next_card": 321,
+      "scope": "Deeper completion of existing candidates; distinct from new-card coverage and independently solved counts; earlier batch 384–385 included."
+    }
+  }
+}
