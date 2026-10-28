@@ -2,7 +2,7 @@
 
 The unchanged supplied 204/460 key has been applied to **137 current candidates: 242, 244, 249 and 253–386**. Selected faces are 134 Picture sides and the Address sides of 332, 338 and 339. All remain research candidates; none is declared solved.
 
-For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 326](#current-source-completion--card-326), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
+For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 325](#current-source-completion--card-325), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
 
 The earlier 121 candidates retain two frozen related AI source records; 371–386 have one key-visible source reading each, followed by same-context nonblind review. Neither stage is independent human/external confirmation.
 
@@ -162,7 +162,24 @@ For 351–354, both original actors’ whole prefreeze complete-face boundary re
 
 For 355–358, complete original Address faces and all margins have bounded observations from both original source contexts and root. No clear separate candidate cipher run was identified in those visible frames; erased, obscured or unseen material remains outside this observation. Ordinary address/person/postal/date-like writing is excluded without transcription. Whole native eleven-key Address metadata is retained with actual FILE records separately. The root source thread acquired eight originals once each: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts.
 
-## Current source completion — card 326
+## Current source completion — card 325
+
+[325](cards/325.md#complete-working-reading--28-october-2026) now has connected Czech/English working text for five upright lower Picture rows. Earlier shared prose incorrectly described 326 top/right/left margins; current context is corrected, original edition remains Git/hash pinned. Proposed message sends greetings, describes an official visit, discusses a possible home journey concerning an uncle and closes with anticipation of a letter. The one source mask, names/place-like forms/date/events and legal-phrase interpretation remain unverified.
+
+All five source strings/tags/decoder outputs remain exactly unchanged: 285 slots/284 known emitted letters/zero CH/one mask. DOBRE?O at R02:57 stays unresolved in both native readings/current; dark oval/curl does not securely select q/g/r or physical cluster length. DOBREHO supplies H only in language. Three other language substitutions are MISETI I→U, ZALEZITOSLI L→T and DVOJE D→T; source 4/I, 8/L, t/D retained. No source edit, mask resolution, key/CH change, normalization, generic g/q/9/roof alias or physical census. Four language proposals are distinct from diplomatic text. Two clause joins/four literal spans connect KDE JSEM/PRAVE V UREDNI ZALEZITOSTI and JETI DOMU/DO USTI. NEBUDE-LI hyphen retained as punctuation, no numeric role. English closing name moves to subject only within R05. Guardianship/accounting-hearing phrases remain qualified interpretations, not proceeding/court/jurisdiction or actual event authentication. Relative week not converted to a calendar date from ordinary date-like writing.
+
+All 29 protected fields typed-identical, including whole native wrappers/raw/strict_public_projection/original metadata/acquisition time/provenance/QA19/finalization/initial reconciliation/catalogue binding/old correction/incident and empty own scope-limit array. Ten flat native projection rows/six inline canonical wrapper/raw/projection identities replay/hash checked, not unavailable original whole FILE-byte rereads. FIRST whole projection zero omissions; SECOND exact two /group_barrier/identities/0/raw_path and /group_barrier/identities/1/raw_path private-header omissions/hash retained. Whole original strict FILE hashes remain distinct, private headers not reconstructed. FIRST 5/286/285/zero CH/one mask and SECOND 5/285/284/zero CH/one mask retain history. Native FIRST L1–L5/SECOND 325-L1–L5 explicitly mapped, no invented frozen-ID fields. 16 native ledger records (two mark/ten uncertainty/four question-role) pin exact old spans plus broad row contexts, not physical marks/per-glyph certainty. Five previous whole-row uncertainty records retained. Raised ink near h and reinforced 8 observations get two fresh wider neighbourhood contexts; no reliable attachment/correction history, added encoded body or new CH established.
+
+Whole QA19 retains five confirmed locator defects globally/one own SECOND 325 L3:23/four in 325–326 pair. Whole old dated current-only correction unchanged; one fresh current mapping pins native SECOND question-role/QA hash/old selected span/new hook-dot context and rejects bad shifted precise box without original repair. Current question R03:23 and unknown mask R02:57 keep roles/tags. Own scope limitations remain empty; FIRST 326 T1:66 edge overlap is other-card historical QA scope, not imported as own or sixth defect. Frozen 64 rows/1844 slots/1829 letters/nine CH/24 unknowns/40 protected inputs and zero mechanical/strict/tag/schema/timing/span/geometry counts retain bounds. Eight date/context entries may overlap physically/include excluded ordinary-date context; not eight authenticated dates. Original initial HTTP466/sequential GET200 history unchanged; new acquisition does not replace old metadata/time.
+
+Two new anonymous GET200 originals match pinned hashes, zero retries/redirects. Original Picture metadata omitted bytes; current receipt alone 1356500. Both complete original faces/all margins and 14 enlarged Picture contexts viewed privately. Whole unchanged historical Address boundary pinned; no additional continuous cipher recognized in visible frame, bounded negative only. Separate ordinary 325 date-like candidate excluded/unverified, no authenticated journey/calendar date. Address/postal/printed-artwork/caption/watermark and scans/crops excluded without transcription/authentication. Previous whole editions/unchanged legacy 325 report Git/blob/SHA256 pinned. Source family/segmentation/date/identity/geography/events remain uncertain.
+
+**Remaining in descending completion pass: 75 of 137 existing candidates; 62 (325–386) have working coverage. Collection-wide 109 of 263 lack a separate published reading; 154 have one including partial.** These counts are distinct from independent solves. See the [card](cards/325.md), [revision](revisions/325-source-completion.json) and [validation](validation-source-completion-325.json). Next deeper review: [324](cards/324.md). New 387–390 held.
+
+<details>
+<summary>Earlier source reviews and publication checkpoints</summary>
+
+## Historical source completion — card 326
 
 [326](cards/326.md#complete-working-reading--28-october-2026) now has Czech/English working text in three separate region paragraphs: top upright, right then left margins read 270° clockwise. Proposed text gives thanks, promises a letter, sends affection and asks about the earlier apartment. Serialization is editorial, no cross-region word join or narrative chronology certified. Names, place-like form, relationships/events and signature ending remain unverified; ordinary address/image/verse context does not authenticate them.
 
@@ -175,9 +192,6 @@ Whole QA19 keeps five global confirmed locator defects/three own FIRST 326 (T1:5
 QA19 frozen 64 rows/1844 slots/1829 letters/nine CH/24 unknowns/40 protected inputs and zero mechanical/replay/tag/schema/timing/span/geometry counts retain bounds. Eight date/context entries may describe same inscription and include separately excluded ordinary-date context, not eight authenticated physical dates. Historical initial HTTP466/sequential GET200 scope remains; new receipts do not replace original metadata/time. No new date identified on 326. Two new anonymous GET200 originals match pinned hashes, zero retries/redirects; Picture historical metadata omitted bytes, current receipt alone records 2122913. Both complete faces/all margins and 13 enlarged Picture contexts viewed privately. Whole unchanged Address boundary pinned; no additional continuous cipher recognized in visible frame, bounded negative only. Ordinary context excluded without transcription/authentication, scans/crops private. Prior whole editions/unchanged legacy 326 report Git/blob/SHA256 pinned.
 
 **Remaining in descending completion pass: 76 of 137 existing candidates; 61 (326–386) have working coverage. Collection-wide 109 of 263 still lack a separate published reading; 154 have one including partial proposals.** These counts are distinct and do not measure independently solved cards. See the [card](cards/326.md), [revision](revisions/326-source-completion.json) and [validation](validation-source-completion-326.json). Next deeper review: [325](cards/325.md). New 387–390 held.
-
-<details>
-<summary>Earlier source reviews and publication checkpoints</summary>
 
 ## Historical source completion — card 327
 
@@ -1013,7 +1027,7 @@ The [publication validation note](publication-validation.json) records this corr
 
 ## Reproduction
 
-The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 326 validation](validation-source-completion-326.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
+The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 325 validation](validation-source-completion-325.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
 
 From the repository root:
 
