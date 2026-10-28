@@ -1,6 +1,6 @@
 # Anna Tichá postcards: review overview
 
-Updated 27 October 2026. This page summarizes published readings, review status and remaining work. It adds no new decipherment or source judgment.
+Updated 28 October 2026. This page summarizes published readings, review status and remaining work. It adds no new decipherment or source judgment.
 
 ## Collection and reading counts
 
@@ -21,18 +21,18 @@ These are counts of available readings, not counts of completely solved cards. I
 
 ## What is new
 
-The latest source review is [card 331](research-updates/2026-10-20-confirmed-key-continuation/cards/331.md). Complete Czech/English working coverage for three upper-note and six lower-letter Picture units, with panels kept separate. Replay has 528 slots/533 known letters/five CH/zero encoded unknowns, plus five separately unresolved upper groups. Caption-overlapped ZKOUSEK is provisional; 23 language operations retain malformed literals, including emitted-O deletion in PSANIO. One mask expansion, five marked-group CH contractions and five separately recorded upper traces yield net-5 notation slots, no physical census. All four historical QA21 findings MOD-1/MOD-2/DOC-1/DOC-2 remain on 331, with whole old mappings preserved and distinct new current contexts; no retrospective repair. Names, genealogy, events, narrative order and mark values remain unverified. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/331-source-completion.json) and [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-331.json) record evidence and checks.
+The latest source review is [card 330](research-updates/2026-10-20-confirmed-key-continuation/cards/330.md). Complete Czech/English working passage for five upright Picture rows. Replay has 266 slots/269 known letters/three CH/zero encoded unknowns, plus six separately unresolved upper groups. Heart-word expansion adds one notation slot, no physical census. Twelve word proposals require 18 language operations, including emitted Y/O deletions with source 1/Y and 3/O retained. Night literal NCAI, four-substitution Aninku proposal, holiday/return/STA- readings and mark/family alternatives remain explicit. Whole QA20 retains 11 locator incidents globally, nine SECOND 330; two documentation limitations affect five positions on 327/328, none here. Nine new current locator contexts preserve old corrections and reject faulty precise boxes; no retrospective repair. FIRST strict projection keeps exactly two private-header omissions, SECOND none. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/330-source-completion.json) and [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-330.json) record evidence and checks.
 
 | Current work | Status |
 | --- | --- |
-| Cards 331–386 | Editorial working coverage of selected entries; masks, word hypotheses, mark/contour alternatives and some ordering questions remain. |
-| Next source review | [Card 330](research-updates/2026-10-20-confirmed-key-continuation/cards/330.md), followed by the [active completion queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json). |
+| Cards 330–386 | Editorial working coverage of selected entries; masks, word hypotheses, mark/contour alternatives and some ordering questions remain. |
+| Next source review | [Card 329](research-updates/2026-10-20-confirmed-key-continuation/cards/329.md), followed by the [active completion queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json). |
 | New card numbers | The latest addition was 383–386 on 22 October. New 387–390 remain held during deeper completion of existing readings. |
 | Source and language confirmation | Independent human/external review is still needed. None of the 137 current candidates is declared solved. |
 
 The [complete card index](anna-ticha/readings.md) links directly to readings, evidence JSON, selected original faces and catalogue records. The [current candidate table](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings) lists all 137 candidates: 242, 244, 249 and 253–386. The key is the supplied 22-entry 204/460 key, separate from the historical staged key used in earlier reports.
 
-For per-card changes and earlier checkpoints, open the [package's dated source-review history](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-331). Its earlier counts and review statuses apply to their recorded stages. For an accessible current example use [331](research-updates/2026-10-20-confirmed-key-continuation/cards/331.md); for a substantially incomplete example use [257](research-updates/2026-10-20-confirmed-key-continuation/cards/257.md).
+For per-card changes and earlier checkpoints, open the [package's dated source-review history](research-updates/2026-10-20-confirmed-key-continuation/README.md#current-source-completion--card-330). Its earlier counts and review statuses apply to their recorded stages. For an accessible current example use [330](research-updates/2026-10-20-confirmed-key-continuation/cards/330.md); for a substantially incomplete example use [257](research-updates/2026-10-20-confirmed-key-continuation/cards/257.md).
 
 ## What still needs checking
 
@@ -43,7 +43,7 @@ For per-card changes and earlier checkpoints, open the [package's dated source-r
 | External validation | The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None of the 137 current candidates is declared solved. The reported check of 204 does not validate the other cards. |
 | Historical interpretation | Sender identity, several dates, cross-region reading order and shared authorship remain unresolved. Editorial serialization is not authenticated chronology. |
 | Evidence access | Original scans, private crops and supplied correspondence/PDFs are not bundled. Public records provide provider links, hashes and derived observations; private integrity references alone do not permit independent retrieval. |
-| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next active source-completion work is 330; unresolved groups and provisional 331–386 contour/role/language choices await better evidence or another reader. New-card priority 387–390 remains held. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
+| Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next active source-completion work is 329; unresolved groups and provisional 330–386 contour/role/language choices await better evidence or another reader. New-card priority 387–390 remains held. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
 
 For corrections, identify the card, face/region, row or position, proposed source reading and effect on the literal. Keep glyph corrections separate from language repairs.
 
