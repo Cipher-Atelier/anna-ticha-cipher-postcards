@@ -1,6 +1,6 @@
 # Anna Tichá postcards: review overview
 
-Updated 28 October 2026. This page summarizes published readings, review status and remaining work. It adds no new decipherment or source judgment.
+Updated 29 October 2026. This page summarizes published readings, review status and remaining work. It adds no new decipherment or source judgment.
 
 ## Collection and reading counts
 
@@ -23,7 +23,7 @@ These are counts of available readings, not counts of completely solved cards. I
 
 The [28 October HCPortal submission package](research-updates/2026-10-28-hcportal-register/README.md) inventories all 154 published readings including partial, records available AI/date metadata and missing fields, and provides three bounded review questions. The [108-card coordination list](research-updates/2026-10-28-hcportal-register/coordination.md) records planned work by Eugen Antal and team. This announcement adds no completed readings or external confirmations; card 460 remains their separate comparison result.
 
-The latest source review is [card 320](research-updates/2026-10-20-confirmed-key-continuation/cards/320.md). Ten upright rows have connected Czech/English working text. Source/tags/replays unchanged: 200 slots/198 known letters/three existing CH/five unassigned 9, zero masks. Nine exact restoration spans/ten language operations, including five 9→Z conjectures and H→M/Y→I/M→B repairs, no source/key value assignment. Actual first/second wrapper/raw/strict_public_projection schema/zero omissions and whole QA18 preserved. Return/roof/interference/name/date alternatives and isolated Address mark remain unresolved. Its [revision](research-updates/2026-10-20-confirmed-key-continuation/revisions/320-source-completion.json) and [validation](research-updates/2026-10-20-confirmed-key-continuation/validation-source-completion-320.json) record evidence and checks.
+The latest source review is the [external manual review of cards 320 and 321](research-updates/2026-10-29-antal-review/README.md). Eugen Antal supplied manually checked transcriptions and Czech readings for 320 and 321 on 28 October, incorporated 29 October. Card 320 has eight source-sign substitutions: 200 slots/203 known letters/three CH/zero unknowns. Card 321 adds one 4/I in ANDULIKO: 135 slots/134 known letters/zero CH/one unassigned v. Czech doufati confirmed; no v→F key assignment. Earlier raw readings, key, QA and dated snapshots retained; review does not authenticate identity/date or validate the other candidates.
 
 | Current work | Status |
 | --- | --- |
@@ -31,7 +31,7 @@ The latest source review is [card 320](research-updates/2026-10-20-confirmed-key
 | Remaining in descending completion pass | **70 of 137 existing candidates**; 67 have working coverage in this pass (320–386). This is deeper review, not new-card coverage or independently solved cards. |
 | Next source review | [Card 319](research-updates/2026-10-20-confirmed-key-continuation/cards/319.md), followed by the [active completion queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json). |
 | New card numbers | The latest addition was 383–386 on 22 October. New 387–390 remain held during deeper completion of existing readings. |
-| Source and language confirmation | Independent human/external review is still needed. None of the 137 current candidates is declared solved. |
+| Source and language confirmation | External manual review received for 320/321; other candidates and the unassigned v in 321 still need checking. None of the 137 current candidates is declared solved. |
 
 The [complete card index](anna-ticha/readings.md) links directly to readings, evidence JSON, selected original faces and catalogue records. The [current candidate table](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings) lists all 137 candidates: 242, 244, 249 and 253–386. The key is the supplied 22-entry 204/460 key, separate from the historical staged key used in earlier reports.
 
@@ -43,7 +43,7 @@ For per-card changes and earlier checkpoints, open the [package's dated source-r
 | --- | --- |
 | Source transcription | Faded, merged, overwritten and marked signs retain alternatives. Some masks represent clusters of unknown length. Exact physical glyph totals and boundaries are not established for the current candidates. Compare the saved choices with the original images, rather than treating replay coverage as accuracy. |
 | Czech and translation | Some literal outputs remain malformed. Bracketed repairs and English interpretations need Czech-language review; fluent text is not additional graphical evidence. Card 257 is substantially incomplete. |
-| External validation | The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither stage is external confirmation. None of the 137 current candidates is declared solved. The reported check of 204 does not validate the other cards. |
+| External validation | The earlier 121 candidates retain their two frozen related AI source records; cards 371–386 currently have one key-visible source reading each, followed by same-context nonblind review. Neither AI stage is external confirmation. Eugen Antal’s later manual review of 320/321 is separate. None of the 137 current candidates is declared solved. The checks of 204/320/321 do not validate other cards. |
 | Historical interpretation | Sender identity, several dates, cross-region reading order and shared authorship remain unresolved. Editorial serialization is not authenticated chronology. |
 | Evidence access | Original scans, private crops and supplied correspondence/PDFs are not bundled. Public records provide provider links, hashes and derived observations; private integrity references alone do not permit independent retrieval. |
 | Remaining work | The [queue](research-updates/2026-10-20-confirmed-key-continuation/queue.json) separates acquisition, transcription, candidate and validation stages. Its next active source-completion work is 319; unresolved groups and provisional 320–386 contour/role/language choices await better evidence or another reader. New-card priority 387–390 remains held. The 109 cards without a published reading here and the existing provisional readings require different kinds of work. |
