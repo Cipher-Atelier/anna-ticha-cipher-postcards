@@ -1,7 +1,7 @@
 {
   "card_id": "316",
   "notation": "pdf204-canonical",
-  "status": "Full source regions inspected; partial and provisional glyph transcription; decoded candidate.",
+  "status": "Provisional four-row working reading with explicit gaps; one mask→p/B source choice, five retained unknown masks and three language proposals; physical lengths and region order unresolved.",
   "source": {
     "url": "https://api.hcportal.eu/media/4965/pc_hcp_316_pic.JPG",
     "sha256": "ac4a47ede29603d82c79e702dde2d63afed74e92123364c4581d896ec65b9b27",
@@ -2311,7 +2311,9 @@
       "encoded_bodies": 15,
       "expanded_letters": 15,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "[DOPIS; úvodní fragment bez doplněného slovesa] [co nejdříve?; AO NEJDRYVE],",
+      "proposed_english": "[DOPIS; opening fragment without a supplied verb] [as soon as possible?; AO NEJDRYVE],"
     },
     {
       "line_id": "316-R02",
@@ -2340,17 +2342,14 @@
       "encoded_bodies": 13,
       "expanded_letters": 13,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "Jedu právě domů.",
+      "proposed_english": "I am travelling home now."
     },
     {
       "line_id": "316-R03",
-      "ciphertext": "?384 nm5 n?6 ?b 75cd5 f4s5 fc6q cht5sq3 b3 d3p5,",
+      "ciphertext": "p384 nm5 n?6 ?b 75cd5 f4s5 fc6q cht5sq3 b3 d3p5,",
       "transcription": [
-        {
-          "offset": 0,
-          "text": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 10,
           "text": "?",
@@ -2380,18 +2379,12 @@
         1040
       ],
       "physical_encoded_body_count": null,
-      "source_visual_notes": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved.",
-      "literal": "?OLI MNE M?A ?P JESTE VICE VSAK SRDECKO PO TOBE,",
+      "source_visual_notes": "At R03 offset 0, the first form has a low shoulder and long thin stem extending below the adjacent 384 baseline. Contrast the tall upper loop of b in R02 bh6f5. Provisionally retain native FIRST p/B over prior mask and SECOND b/P. This is a local nonblind source choice, not a generic b/p rule. The two blackened middle masks and uncertain segmentation remain unchanged.",
+      "literal": "BOLI MNE M?A ?P JESTE VICE VSAK SRDECKO PO TOBE,",
       "encoded_bodies": 38,
-      "expanded_letters": 35,
+      "expanded_letters": 36,
       "ch_occurrences": 0,
       "unknowns": [
-        {
-          "offset": 0,
-          "body_index": 0,
-          "symbol": "?",
-          "kind": "unknown_glyph"
-        },
         {
           "offset": 10,
           "body_index": 8,
@@ -2404,7 +2397,9 @@
           "symbol": "?",
           "kind": "unknown_glyph"
         }
-      ]
+      ],
+      "proposed_czech": "Bolí mne [M?A ?P; nevyřešený fragment], ještě více však srdéčko po tobě,",
+      "proposed_english": "[M?A ?P; unresolved fragment] hurts me; still more, however, the little heart aches for you,"
     },
     {
       "line_id": "316-R04",
@@ -2468,7 +2463,9 @@
           "symbol": "?",
           "kind": "unknown_glyph"
         }
-      ]
+      ],
+      "proposed_czech": "Ty má čistá lilie! [Nesčíslně?; NES?SLNE] pozdravů a [pusy?; PUSI] od [? ?; nevyřešené koncové fragmenty].",
+      "proposed_english": "You, my pure lily! [Countless?; NES?SLNE] greetings and [kisses?; PUSI] from [? ?; unresolved terminal fragments]."
     }
   ],
   "uncertainty_ledger": [
@@ -2509,19 +2506,23 @@
     {
       "line_id": "316-R03",
       "offset": 0,
-      "selected": "?384 nm5 n?6 ?b 75cd5 f4s5 fc6q cht5sq3 b3 d3p5,",
+      "selected": "p384 nm5 n?6 ?b 75cd5 f4s5 fc6q cht5sq3 b3 d3p5,",
       "alternatives": {
         "first": "p384 nm5 n?6 ?b 75cd5 f4s5 fs6g cht5sg3 b3 d3p5,",
         "second": "b384 mn5 m6b4sq6, 75cd5 f4s5 f6cq cht5sq3 b3 d3p5"
       },
-      "basis": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved.",
+      "basis": "At R03 offset 0, the first form has a low shoulder and long thin stem extending below the adjacent 384 baseline. Contrast the tall upper loop of b in R02 bh6f5. Provisionally retain native FIRST p/B over prior mask and SECOND b/P. This is a local nonblind source choice, not a generic b/p rule. The two blackened middle masks and uncertain segmentation remain unchanged.",
       "native_context_bbox_xyxy": [
         125,
         945,
         1705,
         1040
       ],
-      "frame": "Native 0 degrees; half-open contextual box."
+      "frame": "Native 0 degrees; half-open contextual box.",
+      "prior_selected": "?384 nm5 n?6 ?b 75cd5 f4s5 fc6q cht5sq3 b3 d3p5,",
+      "prior_record_canonical_sha256": "d493343428319a41d5cbdcfc663f9c555c70295aad361a8c4609be31e25f2748",
+      "prior_record_commit": "ba24ae18db510e1dcc53d162e7526e83232a86e4",
+      "historical_source_basis": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
     },
     {
       "line_id": "316-R04",
@@ -2601,13 +2602,6 @@
       "exact_changes": [
         {
           "operation": "replace",
-          "frozen_offset": 0,
-          "frozen_selected": "p",
-          "current_offset": 0,
-          "current_selected": "?"
-        },
-        {
-          "operation": "replace",
           "frozen_offset": 28,
           "frozen_selected": "s",
           "current_offset": 28,
@@ -2628,7 +2622,9 @@
           "current_selected": "q"
         }
       ],
-      "source_basis": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
+      "source_basis": "At R03 offset 0, the first form has a low shoulder and long thin stem extending below the adjacent 384 baseline. Contrast the tall upper loop of b in R02 bh6f5. Provisionally retain native FIRST p/B over prior mask and SECOND b/P. This is a local nonblind source choice, not a generic b/p rule. The two blackened middle masks and uncertain segmentation remain unchanged.",
+      "prior_record_canonical_sha256": "9d788497554b4e659703291d7d1b6b02de28c7f70efdfca2447fd46ce8a465d3",
+      "historical_source_basis": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
     },
     {
       "line_id": "316-R03",
@@ -2640,7 +2636,7 @@
           "frozen_offset": 0,
           "frozen_selected": "b",
           "current_offset": 0,
-          "current_selected": "?"
+          "current_selected": "p"
         },
         {
           "operation": "insert",
@@ -2699,7 +2695,9 @@
           "current_selected": ","
         }
       ],
-      "source_basis": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
+      "source_basis": "At R03 offset 0, the first form has a low shoulder and long thin stem extending below the adjacent 384 baseline. Contrast the tall upper loop of b in R02 bh6f5. Provisionally retain native FIRST p/B over prior mask and SECOND b/P. This is a local nonblind source choice, not a generic b/p rule. The two blackened middle masks and uncertain segmentation remain unchanged.",
+      "prior_record_canonical_sha256": "1910c51b020418a0c4ca766a18cfcefa8965a34770e1f42758c47c295f33d39a",
+      "historical_source_basis": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
     },
     {
       "line_id": "316-R04",
@@ -2798,20 +2796,6 @@
   "unknown_clusters": [
     {
       "line_id": "316-R03",
-      "offset": 0,
-      "selected": "?",
-      "physical_length": null,
-      "native_context_bbox_xyxy": [
-        125,
-        945,
-        1705,
-        1040
-      ],
-      "coordinate_frame": "Native 0 degrees; whole-row context, not ink enclosure.",
-      "source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
-    },
-    {
-      "line_id": "316-R03",
       "offset": 10,
       "selected": "?",
       "physical_length": null,
@@ -2822,7 +2806,9 @@
         1040
       ],
       "coordinate_frame": "Native 0 degrees; whole-row context, not ink enclosure.",
-      "source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
+      "source_observation": "The two blackened middle groups retain n?6 ?b. Their mask role and unknown physical length remain; opening p selection does not recover either cluster.",
+      "prior_record_canonical_sha256": "e501409eaee72a8f2ecf7ff46d26d0263bbf6624578a134f1083ce8a7e8c8749",
+      "historical_source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
     },
     {
       "line_id": "316-R03",
@@ -2836,7 +2822,9 @@
         1040
       ],
       "coordinate_frame": "Native 0 degrees; whole-row context, not ink enclosure.",
-      "source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
+      "source_observation": "The two blackened middle groups retain n?6 ?b. Their mask role and unknown physical length remain; opening p selection does not recover either cluster.",
+      "prior_record_canonical_sha256": "503899cfa41e6f970a74d76acee8f1cf85d2f0ba6afe47f0705d04496a2aa583",
+      "historical_source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
     },
     {
       "line_id": "316-R04",
@@ -2885,22 +2873,6 @@
   "question_role_inventory": [
     {
       "line_id": "316-R03",
-      "offset": 0,
-      "selected": "?",
-      "physical_length": null,
-      "native_context_bbox_xyxy": [
-        125,
-        945,
-        1705,
-        1040
-      ],
-      "coordinate_frame": "Native 0 degrees; whole-row context, not ink enclosure.",
-      "source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved.",
-      "role": "unknown_mask",
-      "transcription_kind": "unknown_glyph"
-    },
-    {
-      "line_id": "316-R03",
       "offset": 10,
       "selected": "?",
       "physical_length": null,
@@ -2911,9 +2883,11 @@
         1040
       ],
       "coordinate_frame": "Native 0 degrees; whole-row context, not ink enclosure.",
-      "source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved.",
+      "source_observation": "The two blackened middle groups retain n?6 ?b. Their mask role and unknown physical length remain; opening p selection does not recover either cluster.",
       "role": "unknown_mask",
-      "transcription_kind": "unknown_glyph"
+      "transcription_kind": "unknown_glyph",
+      "prior_record_canonical_sha256": "1efa6efb90263fa5419773409ea501f64a0e6b66495632ef0c120e0dceb7d7ab",
+      "historical_source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
     },
     {
       "line_id": "316-R03",
@@ -2927,9 +2901,11 @@
         1040
       ],
       "coordinate_frame": "Native 0 degrees; whole-row context, not ink enclosure.",
-      "source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved.",
+      "source_observation": "The two blackened middle groups retain n?6 ?b. Their mask role and unknown physical length remain; opening p selection does not recover either cluster.",
       "role": "unknown_mask",
-      "transcription_kind": "unknown_glyph"
+      "transcription_kind": "unknown_glyph",
+      "prior_record_canonical_sha256": "b2e2d243b6eb0feda64d16a3420efe56e7ddbc50c6a76e8634686eed591d42f3",
+      "historical_source_observation": "First tall form cannot securely distinguish b from p and is masked. Low arches provisionally support nm5. Blackened middle groups retain conservative n?6 ?b clusters rather than seven confident bodies. In fc6q the small curved form and rounded body are provisionally ordered c then 6; descending return supports q with g alternative. The other q-shaped return remains provisional. Segmentation and physical lengths remain unresolved."
     },
     {
       "line_id": "316-R04",
@@ -3032,16 +3008,6 @@
       "source_or_key_change": false
     },
     {
-      "line_id": "316-R03",
-      "literal_offset": 0,
-      "literal_end_offset": 4,
-      "literal": "?OLI",
-      "czech_proposal": "bolí?",
-      "english_proposal": "hurts?",
-      "reason": "First unknown may be B; P alternative retained in source.",
-      "source_or_key_change": false
-    },
-    {
       "line_id": "316-R04",
       "literal_offset": 39,
       "literal_end_offset": 43,
@@ -3049,6 +3015,16 @@
       "czech_proposal": "pusy?",
       "english_proposal": "kisses?",
       "reason": "I to Y is substantive, not ordinary diacritics.",
+      "source_or_key_change": false
+    },
+    {
+      "line_id": "316-R04",
+      "literal_offset": 19,
+      "literal_end_offset": 27,
+      "literal": "NES?SLNE",
+      "czech_proposal": "nesčíslně?",
+      "english_proposal": "countless?",
+      "reason": "Propose unknown cluster→CI in prose only to obtain NESCISLNE. No source expansion, physical length or recovered glyph assignment; the mask still covers an unresolved dense group.",
       "source_or_key_change": false
     }
   ],
@@ -3066,14 +3042,6 @@
       "literal_offset": 9,
       "literal_end_offset": 15,
       "literal": "M?A ?P",
-      "czech_label": "nevyřešený fragment",
-      "english_label": "unresolved fragment"
-    },
-    {
-      "line_id": "316-R04",
-      "literal_offset": 19,
-      "literal_end_offset": 27,
-      "literal": "NES?SLNE",
       "czech_label": "nevyřešený fragment",
       "english_label": "unresolved fragment"
     },
@@ -3109,9 +3077,9 @@
       "line_id": "316-R03",
       "literal_offset": 0,
       "literal_end_offset": 48,
-      "literal": "?OLI MNE M?A ?P JESTE VICE VSAK SRDECKO PO TOBE,",
-      "czech": "[Bolí?; ?OLI] mne [M?A ?P; nevyřešený fragment], ještě více však srdéčko po tobě,",
-      "english": "[M?A ?P; unresolved fragment] [hurts?; ?OLI] me; still more, however, the little heart, for you,",
+      "literal": "BOLI MNE M?A ?P JESTE VICE VSAK SRDECKO PO TOBE,",
+      "czech": "Bolí mne [M?A ?P; nevyřešený fragment], ještě více však srdéčko po tobě,",
+      "english": "[M?A ?P; unresolved fragment] hurts me; still more, however, the little heart aches for you,",
       "scope": "Full selected row; all unresolved fragments retained in both languages. Reflow is editorial, not a source-order proof."
     },
     {
@@ -3119,12 +3087,12 @@
       "literal_offset": 0,
       "literal_end_offset": 50,
       "literal": "TY MA CISTA LILIE! NES?SLNE POZDRAVU A PUSI OD ? ?",
-      "czech": "Ty má čistá lilie! [NES?SLNE; nevyřešený fragment] pozdravů a [pusy?; PUSI] od [? ?; nevyřešené koncové fragmenty].",
-      "english": "You, my pure lily! [NES?SLNE; unresolved fragment] greetings and [kisses?; PUSI] from [? ?; unresolved terminal fragments].",
+      "czech": "Ty má čistá lilie! [Nesčíslně?; NES?SLNE] pozdravů a [pusy?; PUSI] od [? ?; nevyřešené koncové fragmenty].",
+      "english": "You, my pure lily! [Countless?; NES?SLNE] greetings and [kisses?; PUSI] from [? ?; unresolved terminal fragments].",
       "scope": "Full selected row; all unresolved fragments retained in both languages. Reflow is editorial, not a source-order proof."
     }
   ],
-  "editorial_policy": "Strict literals remain unchanged. Ordinary accents and capitalization are separate from bracketed substantive letters, joins, unknown completions and semantic proposals. No identity, date, place or event authentication.",
+  "editorial_policy": "Three language proposals: AO NEJDRYVE→CO NEJDRIVE; PUSI→PUSY; NES?SLNE→NESCISLNE with unknown→CI only in prose. R03 BOLI follows a provisional source p/B selection. Unresolved M?A ?P, opening DOPIS and final ? ? remain labelled fragments; no medical diagnosis, missing sending verb, sender name or chronology supplied.",
   "batch_mechanical_qa": {
     "qa_file_sha256": "0b07c80c27392d6e23e8b132bacdedb2e4caca6d01042d14a2dcef546f4a5832",
     "qa_status": "strict_replays_consistent_with_frozen_locator_defect_and_two_protocol_timing_exceptions",
@@ -3208,9 +3176,13 @@
     "own_source_replay_attribution": "Both FIRST D and SECOND B performed their own original strict executions after both of their respective raw inputs froze. No parent reserved FIRST or later QA replay stage."
   },
   "limits": [
-    "Contextual row boxes do not establish exact ink enclosure or mark ownership.",
-    "No source repair is justified by Czech fluency or decoder replay.",
-    "Unknown physical counts remain null."
+    "At R03 offset 0, the first form has a low shoulder and long thin stem extending below the adjacent 384 baseline. Contrast the tall upper loop of b in R02 bh6f5. Provisionally retain native FIRST p/B over prior mask and SECOND b/P. This is a local nonblind source choice, not a generic b/p rule. The two blackened middle masks and uncertain segmentation remain unchanged.",
+    "Four native-orientation rows retain their geometry and source spaces: the short upper-right DOPIS fragment, separate left-hand JEDU row and two long lower rows are serialized editorially, without proven cross-region narrative order. No missing opening verb or terminal sender supplied.",
+    "Current selected replay: 105 slots/100 known letters/zero CH/five unknown masks, versus 105/99/zero CH/six previously. Only R03 offset 0 ?→p and removal of its unknown-glyph tag change source input. Five remaining masks keep unknown physical lengths; no new glyph value, key alias, CH or physical body count. The exclamation-like mark remains qualified; no written question selected.",
+    "AO NEJDRYVE→CO NEJDRIVE changes A→C and Y→I only in language; PUSI→PUSY changes I→Y only in language. NES?SLNE→NESCISLNE proposes CI for one mask only in prose, without selecting two source bodies or fixing physical length. M?A ?P and both terminal masks remain unresolved; do not infer a named body part, diagnosis or sender from grammar. Native SECOND partial ?f5r3? remains comparison evidence, not a recovered current terminal word.",
+    "Both native first/second original_wrapper/raw/strict_public_projection records, initial reconciliation, provenance and whole QA17 remain unchanged. FIRST 103 slots/99 known/four masks and SECOND 112/110/two masks retain their own native inputs. FIRST public strict projection omits exactly three private raw_path header paths; SECOND omits zero. No raw-field omission or metadata-only wrapper schema imported. Eight native rows/six inline hashes replayed; unavailable original raw/strict FILE bytes not reread.",
+    "Whole QA17 retains one other-card frozen locator/span/mechanical defect on FIRST 315, zero strict-replay/source-tag/schema errors, two separate paired formal preflight timing exceptions and five global scope findings/one 316 finding. Per-card preflights and both-raw-before-own-decode barriers passed. Date supplement corrects four to six bounded reading entries, not six dates; ordinary date/place-like writing remains excluded and unverified.",
+    "Both fresh anonymous GET200 originals match pinned hashes with no redirects/retries. Complete Picture/Address faces/all margins and fourteen enlarged Picture contexts viewed privately. No additional continuous cipher run identified in the visible Address frame, a bounded negative only. Same-root key/language-visible nonblind review; not external confirmation of 316. Eugen Antal reviewed 320/321 only. Other candidates, historical receipts and submitted register remain unchanged."
   ],
   "editorial_spatial_order_notices": {
     "czech": "[Prostorové pořadí je návrh čtení; stejná orientace nedokazuje návaznost oddělených oblastí.]",
@@ -3229,25 +3201,25 @@
     },
     {
       "line_id": "316-R03",
-      "czech": "[Bolí?; ?OLI] mne [M?A ?P; nevyřešený fragment], ještě více však srdéčko po tobě,",
-      "english": "[M?A ?P; unresolved fragment] [hurts?; ?OLI] me; still more, however, the little heart, for you,"
+      "czech": "Bolí mne [M?A ?P; nevyřešený fragment], ještě více však srdéčko po tobě,",
+      "english": "[M?A ?P; unresolved fragment] hurts me; still more, however, the little heart aches for you,"
     },
     {
       "line_id": "316-R04",
-      "czech": "Ty má čistá lilie! [NES?SLNE; nevyřešený fragment] pozdravů a [pusy?; PUSI] od [? ?; nevyřešené koncové fragmenty].",
-      "english": "You, my pure lily! [NES?SLNE; unresolved fragment] greetings and [kisses?; PUSI] from [? ?; unresolved terminal fragments]."
+      "czech": "Ty má čistá lilie! [Nesčíslně?; NES?SLNE] pozdravů a [pusy?; PUSI] od [? ?; nevyřešené koncové fragmenty].",
+      "english": "You, my pure lily! [Countless?; NES?SLNE] greetings and [kisses?; PUSI] from [? ?; unresolved terminal fragments]."
     }
   ],
-  "proposed_editorial_czech": "[Prostorové pořadí je návrh čtení; stejná orientace nedokazuje návaznost oddělených oblastí.]\n[DOPIS; úvodní fragment bez doplněného slovesa] [co nejdříve?; AO NEJDRYVE],\nJedu právě domů.\n[Bolí?; ?OLI] mne [M?A ?P; nevyřešený fragment], ještě více však srdéčko po tobě,\nTy má čistá lilie! [NES?SLNE; nevyřešený fragment] pozdravů a [pusy?; PUSI] od [? ?; nevyřešené koncové fragmenty].",
-  "proposed_english_translation": "[Spatial order is a reading proposal; the same orientation does not establish continuity between separate regions.]\n[DOPIS; opening fragment without a supplied verb] [as soon as possible?; AO NEJDRYVE],\nI am travelling home now.\n[M?A ?P; unresolved fragment] [hurts?; ?OLI] me; still more, however, the little heart, for you,\nYou, my pure lily! [NES?SLNE; unresolved fragment] greetings and [kisses?; PUSI] from [? ?; unresolved terminal fragments].",
+  "proposed_editorial_czech": "[Prostorové pořadí je návrh čtení; stejná orientace nedokazuje návaznost oddělených oblastí.]\n\n[DOPIS; úvodní fragment bez doplněného slovesa] [co nejdříve?; AO NEJDRYVE],\n\nJedu právě domů.\n\nBolí mne [M?A ?P; nevyřešený fragment], ještě více však srdéčko po tobě,\n\nTy má čistá lilie! [Nesčíslně?; NES?SLNE] pozdravů a [pusy?; PUSI] od [? ?; nevyřešené koncové fragmenty].",
+  "proposed_english_translation": "[Spatial order is a reading proposal; the same orientation does not establish continuity between separate regions.]\n\n[DOPIS; opening fragment without a supplied verb] [as soon as possible?; AO NEJDRYVE],\n\nI am travelling home now.\n\n[M?A ?P; unresolved fragment] hurts me; still more, however, the little heart aches for you,\n\nYou, my pure lily! [Countless?; NES?SLNE] greetings and [kisses?; PUSI] from [? ?; unresolved terminal fragments].",
   "editorial_layout_normalizations": "Ordinary accents, capitalization and readable prose spacing do not alter strict source strings. Word joins in ciphertext remain provisional source segmentation and both frozen alternatives are preserved.",
   "encoded_bodies": 105,
-  "expanded_letters": 99,
+  "expanded_letters": 100,
   "ch_occurrences": 0,
-  "unknowns": 6,
+  "unknowns": 5,
   "editorial_ledger_counts": {
     "restorations": 3,
-    "literal_fragments": 4,
+    "literal_fragments": 3,
     "covered_rows": 4
   },
   "initial_reconciliation": {
@@ -3266,5 +3238,6 @@
       "initial_snapshot_preserved": true,
       "initial_snapshot_sha256": "af74e209284a824dc7e424475427e4a618c338cc54d275e263b4c5b249cdb0b9"
     }
-  ]
+  ],
+  "source_completion_revision": "../revisions/316-source-completion.json"
 }
