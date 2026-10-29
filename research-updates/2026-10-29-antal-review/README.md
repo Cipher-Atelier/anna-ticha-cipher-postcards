@@ -35,7 +35,7 @@ For subsequent source reviews, these corrections identify specific checks to pri
 
 Eugen reports that the submitted readings have been added to the AI decipherments register and that database records will be updated gradually. This records his correspondence statement; no separate live-register or database audit was performed. It is not blanket validation of all 154 submitted readings. The [submitted CSV/JSON/index](../2026-10-28-hcportal-register/README.md) stay pinned to their original texts; this dated addendum records the later review.
 
-Our existing deeper pass still has **70 of 137 candidates remaining**, next **319**, with 67 having working coverage. The **108 cards planned by Eugen Antal and team** remain separate. Collection coverage remains **154 of 263 including partial**, with **109** without our separate reading (the planned 108 plus the team’s 460 comparison). No additional full data package was requested in this reply.
+At this review’s publication snapshot, the existing deeper pass had **70 of 137 candidates remaining**, next **319**, with 67 having working coverage. See the [current review overview](../../REVIEW_STATUS.md) for later progress. The **108 cards planned by Eugen Antal and team** remain separate. Collection coverage remains **154 of 263 including partial**, with **109** without our separate reading (the planned 108 plus the team’s 460 comparison). No additional full data package was requested in this reply.
 
 ## Verification
 
@@ -46,3 +46,5 @@ python3 verification/check_all.py
 ```
 
 The new checker compares exact reviewed strings, source edits, decoder outputs, projected current spans/tags and immutable historical fields against the prior Git snapshot. It requires a full Git clone. Passing replay does not independently authenticate every source shape or historical assertion. Original correspondence and source images remain private.
+
+**Checker maintenance — 29 October:** this dated review is verified at its publication snapshot `65013ef45d44a49011c2106355987bdb2973f13e`, against the preceding edition. Live candidates also receive the normal package replay. Later work on other cards can proceed without being mistaken for a change to this historical review.
