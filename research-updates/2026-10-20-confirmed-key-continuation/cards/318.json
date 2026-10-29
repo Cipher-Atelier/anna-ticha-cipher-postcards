@@ -1,7 +1,7 @@
 {
   "card_id": "318",
   "notation": "pdf204-canonical",
-  "status": "Partial proposed reading; related-AI nonblind curation; investigation continues.",
+  "status": "Provisional seven-row working reading in four orientations; one local n→m source correction, one overtrace mask, five language proposals and unproven cross-margin order.",
   "source": {
     "url": "https://api.hcportal.eu/media/4971/pc_hcp_318_pic.JPG",
     "sha256": "ad2a5267d2038072fb2d0306d12393616a79239937879d0691bcde2ce76c147e",
@@ -1878,7 +1878,7 @@
   "lines": [
     {
       "line_id": "318-C01",
-      "ciphertext": "f t5m bhfn4r3 n675 cht5sm1",
+      "ciphertext": "f t5m bhfm4r3 n675 cht5sm1",
       "transcription": [],
       "reading_rotation_degrees_clockwise": 270,
       "reading_dimensions": [
@@ -1898,14 +1898,17 @@
         1135
       ],
       "source_visual_notes": [
-        "Whole-source frame contextual row bounds; not exact ink/body segmentation or ownership proof."
+        "Whole-source frame contextual row bounds; not exact ink/body segmentation or ownership proof.",
+        "At C01 offset 9, the low body after f shows two consecutive humps before the forked 4, compared with the two-hump m at the end of t5m and the single-arch n before 675 in this same row. Provisionally select FIRST m over prior SECOND n. It emits N under the unchanged key; PRVNIHO now needs only ordinary accents. Same-root nonblind source choice, not human confirmation or a general n/m substitution."
       ],
       "physical_encoded_body_count": null,
-      "literal": "V DEN PRVMIHO MAJE SRDECNY",
+      "literal": "V DEN PRVNIHO MAJE SRDECNY",
       "encoded_bodies": 22,
       "expanded_letters": 22,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "V den prvního máje srdečný",
+      "proposed_english": "On the first day of May, a heartfelt"
     },
     {
       "line_id": "318-C02",
@@ -1936,7 +1939,9 @@
       "encoded_bodies": 25,
       "expanded_letters": 25,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "pozdrav a dlouhou, vřelou pusu",
+      "proposed_english": "greeting and a long, warm kiss"
     },
     {
       "line_id": "318-C03",
@@ -1967,7 +1972,9 @@
       "encoded_bodies": 25,
       "expanded_letters": 25,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "své toužené, předrahé [ANDULCE; neověřený adresní tvar]",
+      "proposed_english": "to their own longed-for, dearest [ANDULCE; unverified address-like form]"
     },
     {
       "line_id": "318-C04",
@@ -1998,7 +2005,9 @@
       "encoded_bodies": 24,
       "expanded_letters": 24,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "posílá vzpomínající [PEPOUS; neověřený podpis].",
+      "proposed_english": "are sent by [PEPOUS; unverified signature], remembering."
     },
     {
       "line_id": "318-M180",
@@ -2035,7 +2044,9 @@
       "encoded_bodies": 21,
       "expanded_letters": 21,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "Došel můj [lístek?; LISLEK] z neděle?",
+      "proposed_english": "Has my [note?; LISLEK] from Sunday arrived?"
     },
     {
       "line_id": "318-M0",
@@ -2079,7 +2090,9 @@
           "symbol": "?",
           "kind": "unknown_glyph"
         }
-      ]
+      ],
+      "proposed_czech": "[Těším se?; TECIM SE] nesmírně na [slíbený?; D?IBENY] dopis.",
+      "proposed_english": "[I look forward?; TECIM SE] immensely to the [promised?; D?IBENY] letter."
     },
     {
       "line_id": "318-M90",
@@ -2116,20 +2129,26 @@
       "encoded_bodies": 38,
       "expanded_letters": 38,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "Má zlatá [ANUSKO; neověřené oslovení], mám [Tě?; LE] tak [nevýslovitelně?; NEVYSOOVYTEL NE] rád!!!!",
+      "proposed_english": "My precious [ANUSKO; unverified address term], I love [you?; LE] so [inexpressibly?; NEVYSOOVYTEL NE]!!!!"
     }
   ],
   "uncertainty_ledger": [
     {
       "line_id": "318-C01",
       "offset": 0,
-      "selected": "f t5m bhfn4r3 n675 cht5sm1",
+      "selected": "f t5m bhfm4r3 n675 cht5sm1",
       "alternatives": [
         "f d5m bhfm4r3 n6g5 cht5sm1",
         "f t5m bhfn4r3 n675 cht5sm1"
       ],
-      "source_visual_basis": "Crossed stem/bar after opening f favors SECOND t over FIRST oval d. Low body after f in bhfn4r3 has one shoulder favoring SECOND n over FIRST m. Later crossed descending flag supports SECOND 7 over FIRST broad g. These are contour choices, not language repairs.",
-      "scope": "Whole current visual row; exact old/current differences and narrower frozen alternatives separately recorded."
+      "source_visual_basis": "At C01 offset 9, the low body after f shows two consecutive humps before the forked 4, compared with the two-hump m at the end of t5m and the single-arch n before 675 in this same row. Provisionally select FIRST m over prior SECOND n. It emits N under the unchanged key; PRVNIHO now needs only ordinary accents. Same-root nonblind source choice, not human confirmation or a general n/m substitution.",
+      "scope": "Whole current visual row; exact old/current differences and narrower frozen alternatives separately recorded.",
+      "prior_selected": "f t5m bhfn4r3 n675 cht5sm1",
+      "prior_record_canonical_sha256": "c1bfd9600725560af7248377b786ba6350a6f1370ca331e6d12d555dc5be2e81",
+      "prior_record_commit": "dff41cbaff25e27af40d031a0898c2ea7bcbeb91",
+      "historical_source_visual_basis": "Crossed stem/bar after opening f favors SECOND t over FIRST oval d. Low body after f in bhfn4r3 has one shoulder favoring SECOND n over FIRST m. Later crossed descending flag supports SECOND 7 over FIRST broad g. These are contour choices, not language repairs."
     },
     {
       "line_id": "318-C01",
@@ -2150,7 +2169,7 @@
     {
       "line_id": "318-C01",
       "offset": 6,
-      "selected": "bhfn4r3",
+      "selected": "bhfm4r3",
       "alternatives": [
         "prfn4h3"
       ],
@@ -2160,8 +2179,12 @@
         "offset": 6,
         "selected": "bhfm4r3"
       },
-      "source_visual_basis": "Ascending b,tall h,looped f,double low arch,forked4 and short branched r selected individually, alternatives retained.",
-      "qualification": "Frozen narrower limit retained; current contour rationale separately recorded."
+      "source_visual_basis": "At C01 offset 9, the low body after f shows two consecutive humps before the forked 4, compared with the two-hump m at the end of t5m and the single-arch n before 675 in this same row. Provisionally select FIRST m over prior SECOND n. It emits N under the unchanged key; PRVNIHO now needs only ordinary accents. Same-root nonblind source choice, not human confirmation or a general n/m substitution.",
+      "qualification": "Frozen narrower limit retained; current contour rationale separately recorded.",
+      "prior_selected": "bhfn4r3",
+      "prior_record_canonical_sha256": "0dc212da36a3b869720e0279c9c39c52c72a44f23fcedcd8c6d3a9c29fa96932",
+      "prior_record_commit": "dff41cbaff25e27af40d031a0898c2ea7bcbeb91",
+      "historical_source_visual_basis": "Ascending b,tall h,looped f,double low arch,forked4 and short branched r selected individually, alternatives retained."
     },
     {
       "line_id": "318-C01",
@@ -2199,7 +2222,7 @@
     {
       "line_id": "318-C01",
       "offset": 6,
-      "selected": "bhfn4r3",
+      "selected": "bhfm4r3",
       "alternatives": [
         "bhfm4r3",
         "bhfn4h3"
@@ -2210,8 +2233,12 @@
         "offset": 6,
         "selected": "bhfn4r3"
       },
-      "source_visual_basis": "Tall loop h followed by descending f and low single n selected; low-arch count and short r/high h alternatives remain.",
-      "qualification": "Frozen narrower limit retained; current contour rationale separately recorded."
+      "source_visual_basis": "At C01 offset 9, the low body after f shows two consecutive humps before the forked 4, compared with the two-hump m at the end of t5m and the single-arch n before 675 in this same row. Provisionally select FIRST m over prior SECOND n. It emits N under the unchanged key; PRVNIHO now needs only ordinary accents. Same-root nonblind source choice, not human confirmation or a general n/m substitution.",
+      "qualification": "Frozen narrower limit retained; current contour rationale separately recorded.",
+      "prior_selected": "bhfn4r3",
+      "prior_record_canonical_sha256": "b32ff5dc668b56f88d9498671bcd8764775ea4bdcea83ffdc14c9cf2890c6978",
+      "prior_record_commit": "dff41cbaff25e27af40d031a0898c2ea7bcbeb91",
+      "historical_source_visual_basis": "Tall loop h followed by descending f and low single n selected; low-arch count and short r/high h alternatives remain."
     },
     {
       "line_id": "318-C01",
@@ -2868,9 +2895,13 @@
     {
       "line_id": "318-C01",
       "offset": 0,
-      "selected": "f t5m bhfn4r3 n675 cht5sm1",
+      "selected": "f t5m bhfm4r3 n675 cht5sm1",
       "note": "Complete visual row/gaps; exact body segmentation and terminal-return ownership remain provisional.",
-      "physical_encoded_body_count": null
+      "physical_encoded_body_count": null,
+      "prior_selected": "f t5m bhfn4r3 n675 cht5sm1",
+      "prior_record_canonical_sha256": "c213ee856ab2bfe497e52114e6cb812e9003c78f3646ee72ff44213c2934b34a",
+      "prior_record_commit": "dff41cbaff25e27af40d031a0898c2ea7bcbeb91",
+      "current_source_basis": "At C01 offset 9, the low body after f shows two consecutive humps before the forked 4, compared with the two-hump m at the end of t5m and the single-arch n before 675 in this same row. Provisionally select FIRST m over prior SECOND n. It emits N under the unchanged key; PRVNIHO now needs only ordinary accents. Same-root nonblind source choice, not human confirmation or a general n/m substitution."
     },
     {
       "line_id": "318-C02",
@@ -3051,16 +3082,6 @@
   },
   "editorial_restoration_ledger": [
     {
-      "line_id": "318-C01",
-      "literal_offset_start": 6,
-      "literal_offset_end": 13,
-      "literal": "PRVMIHO",
-      "proposed_czech": "[prvního?; PRVMIHO]",
-      "proposed_english": "[first?; PRVMIHO]",
-      "basis": "Editorial proposal only, never source/key validation.",
-      "reason": "Propose M to N; low source single arch n remains M under frozen key. May phrase is proposed text, no calendar authentication."
-    },
-    {
       "line_id": "318-M180",
       "literal_offset_start": 10,
       "literal_offset_end": 16,
@@ -3218,9 +3239,14 @@
     }
   ],
   "limits": [
-    "Two related AI/key-visible source-only assigned readings, both with inherited OTHER-card context, then nonblind curation; no cognitive/human/external/third blind confirmation.",
-    "No authenticated names, authorship, date/calendar, identity, imagery symbolism or cross-margin narrative. Exact native/read geometry remains contextual, not ink segmentation or ownership proof.",
-    "No new mapping, general roof rule or fluent source normalization; repairs and object/name/division proposals explicit."
+    "At C01 offset 9, the low body after f shows two consecutive humps before the forked 4, compared with the two-hump m at the end of t5m and the single-arch n before 675 in this same row. Provisionally select FIRST m over prior SECOND n. It emits N under the unchanged key; PRVNIHO now needs only ordinary accents. Same-root nonblind source choice, not human confirmation or a general n/m substitution.",
+    "The main four rows are read after 270° clockwise rotation; upper margin after 180°, lower margin at native 0°, right margin after 90°. The four region blocks remain separate. Editorial serialization does not establish narrative order, chronology or shared authorship.",
+    "At native-bottom M0 offset 22 the overwritten cluster remains an unknown mask of unknown physical length after the separately selected t. At M180 offset 25 the raised hook and separate dot remain a written question. Four right-margin exclamations remain punctuation. Long c returns retain letter/flourish/punctuation alternatives; no added source bodies.",
+    "Five language repairs remain: LISLEK→LISTEK; TECIM SE→TESIM SE; D?IBENY→SLIBENY (D→S and unknown cluster→L only in prose); LE→TE; NEVYSOOVYTEL NE→NEVYSLOVITELNE (O→L, Y→I and word join). The visible double-loop 8 forms, angular s, narrow 1 and two rounded 3 forms are not silently changed to improve Czech. Name-like ANDULCE, PEPOUS and ANUSKO remain unverified forms.",
+    "Both native first_raw/first_record and blind_raw/blind_record schemas, wrapper metadata, raw objects, strict rows, original FILE hashes and whole initial reconciliation/QA17/protocol incidents stay unchanged. Wrapper metadata do not contain an embedded raw object; the separately preserved raw object is hashed explicitly. Original raw/strict FILE bytes not reread; no 319/320 schema or zero-error QA claim imported.",
+    "QA17 keeps the one mechanical/span/locator error on FIRST 315, zero strict-replay/source-tag/schema errors and two separate paired formal preflight timing exceptions. Per-card preflights and both-raw-before-own-decode barriers passed. The date supplement corrects four to six reading entries, not six physical dates; no separate date inscription selected on Picture 318.",
+    "Both fresh anonymous GET200 originals match pinned hashes with no redirect/retry. Complete frames/all margins and fourteen rotated/enlarged Picture contexts viewed privately. No additional continuous cipher run identified on the Address face in this visible frame, a bounded negative observation. Printed poem/artwork/postal/address writing excluded without identity/date authentication.",
+    "This is same-root key/source/literal/language-visible nonblind reinspection, not a fresh source-only freeze or external review. Eugen Antal reviewed 320/321 only. Existing register submission, other candidates and historical receipts remain unchanged."
   ],
   "region_inventory": [
     {
@@ -3326,19 +3352,19 @@
     }
   ],
   "lexical_notes": [],
-  "proposed_editorial_czech": "[Čtyři hlavní řádky čtené o 90° proti směru hodin; tištěná báseň je mimo šifru. Pořadí vůči okrajům neprokázáno.]\n\nV den [prvního?; PRVMIHO] máje srdečný pozdrav a dlouhou, vřelou pusu své toužené, předrahé [ANDULCE; neověřený adresní tvar] posílá vzpomínající [PEPOUS; neověřený podpis].\n\n[Samostatný horní okraj v otočení 180°; pořadí neprokázáno.]\n\nDošel můj [lístek?; LISLEK] z neděle?\n\n[Samostatný dolní okraj v nativním otočení 0°; pořadí neprokázáno.]\n\n[Těším se?; TECIM SE] nesmírně na [slíbený?; D?IBENY] dopis.\n\n[Samostatný pravý okraj v otočení 90° po směru hodin; pořadí neprokázáno.]\n\nMá zlatá [ANUSKO; neověřené oslovení], mám [Tě?; LE] tak [nevýslovitelně?; NEVYSOOVYTEL NE] rád!!!!",
-  "proposed_english_translation": "[Four main rows read 90° counterclockwise; the printed poem is outside cipher. Order relative to margins is unproven.]\n\nOn the [first?; PRVMIHO] day of May, a heartfelt greeting and a long, warm kiss to their own longed-for, dearest [ANDULCE; unverified address-like form] are sent by [PEPOUS; unverified signature], remembering.\n\n[Separate upper margin read 180°; order unproven.]\n\nHas my [note?; LISLEK] from Sunday arrived?\n\n[Separate lower margin read at native 0°; order unproven.]\n\n[I look forward?; TECIM SE] immensely to the [promised?; D?IBENY] letter.\n\n[Separate right margin read 90° clockwise; order unproven.]\n\nMy precious [ANUSKO; unverified address term], I love [you?; LE] so [inexpressibly?; NEVYSOOVYTEL NE]!!!!",
+  "proposed_editorial_czech": "[Čtyři hlavní řádky čtené o 90° proti směru hodin; tištěná báseň je mimo šifru. Pořadí vůči okrajům neprokázáno.]\n\nV den prvního máje srdečný pozdrav a dlouhou, vřelou pusu své toužené, předrahé [ANDULCE; neověřený adresní tvar] posílá vzpomínající [PEPOUS; neověřený podpis].\n\n[Samostatný horní okraj v otočení 180°; pořadí neprokázáno.]\n\nDošel můj [lístek?; LISLEK] z neděle?\n\n[Samostatný dolní okraj v nativním otočení 0°; pořadí neprokázáno.]\n\n[Těším se?; TECIM SE] nesmírně na [slíbený?; D?IBENY] dopis.\n\n[Samostatný pravý okraj v otočení 90° po směru hodin; pořadí neprokázáno.]\n\nMá zlatá [ANUSKO; neověřené oslovení], mám [Tě?; LE] tak [nevýslovitelně?; NEVYSOOVYTEL NE] rád!!!!",
+  "proposed_english_translation": "[Four main rows read 90° counterclockwise; the printed poem is outside cipher. Order relative to margins is unproven.]\n\nOn the first day of May, a heartfelt greeting and a long, warm kiss to their own longed-for, dearest [ANDULCE; unverified address-like form] are sent by [PEPOUS; unverified signature], remembering.\n\n[Separate upper margin read 180°; order unproven.]\n\nHas my [note?; LISLEK] from Sunday arrived?\n\n[Separate lower margin read at native 0°; order unproven.]\n\n[I look forward?; TECIM SE] immensely to the [promised?; D?IBENY] letter.\n\n[Separate right margin read 90° clockwise; order unproven.]\n\nMy precious [ANUSKO; unverified address term], I love [you?; LE] so [inexpressibly?; NEVYSOOVYTEL NE]!!!!",
   "editorial_coverage": [
     {
       "line_id": "318-C01",
       "literal_offset_start": 0,
       "literal_offset_end": 26,
-      "literal": "V DEN PRVMIHO MAJE SRDECNY",
+      "literal": "V DEN PRVNIHO MAJE SRDECNY",
       "czech_segments": [
-        "V den [prvního?; PRVMIHO] máje srdečný"
+        "V den prvního máje srdečný"
       ],
       "english_segments": [
-        "On the [first?; PRVMIHO] day of May, a heartfelt"
+        "On the first day of May, a heartfelt"
       ],
       "omission": false,
       "scope": "Complete selected visual row/clause or explicit fragment, adjacent-row grammar/signature formula co-covered. Every substantive repair/unknown/object/division proposal matched in both languages."
@@ -3743,5 +3769,6 @@
       ],
       "scope": "Current metadata readability only after snapshot freeze; no source, raw, strict, selected, counter, editorial or QA-result change. Immutable snapshot remains unchanged."
     }
-  ]
+  ],
+  "source_completion_revision": "../revisions/318-source-completion.json"
 }
