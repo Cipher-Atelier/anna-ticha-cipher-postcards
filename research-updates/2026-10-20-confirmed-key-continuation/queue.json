@@ -3547,11 +3547,11 @@
         1635
       ],
       "source_status": "original available privately; saved source SHA256 verified",
-      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph, segmentation and mark alternatives retained",
-      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "transcription_status": "Card 316 has four-row working coverage with explicit gaps. R03 opening mask provisionally becomes p/B, yielding BOLI; 105 slots/100 known letters/zero CH/five masks. NES?SLNE has a qualified NESCISLNE language proposal, with CI supplied only in prose. AO NEJDRYVE and PUSI retain language repairs; middle/terminal clusters, missing opening verb and cross-region order stay unresolved. No external confirmation or new key assignment.",
+      "decode_status": "105 slots/100 known letters/zero CH/five masks after local opening ?→p/B; three language proposals and unresolved fragments retained.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established for this card in this package",
-      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
+      "next_action": "Review middle/terminal clusters, initial-letter alternatives, AO NEJDRYVE, NES?SLNE and PUSI repairs; preserve unknown physical lengths and unproven region order. Next 315.",
       "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1635",
       "catalogue_binding_evidence": "catalogue-records.json explicit returned record name/id",
       "official_solution_status_label": "Not solved",
@@ -3559,14 +3559,24 @@
       "counts": {
         "rows": 4,
         "encoded_bodies": 105,
-        "expanded_letters": 99,
+        "expanded_letters": 100,
         "ch_occurrences": 0,
-        "unknowns": 6
+        "unknowns": 5
       },
       "artifact": "cards/316.json",
       "physical_body_count_status": "selected replay slots only; physical totals not independently established",
       "address_face_status": "complete saved original face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
-      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit."
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit.",
+      "selected_totals": {
+        "rows": 4,
+        "encoded_bodies": 105,
+        "expanded_letters": 100,
+        "ch_occurrences": 0,
+        "unknowns": 5
+      },
+      "artifacts": {
+        "source_completion_revision": "revisions/316-source-completion.json"
+      }
     },
     {
       "card_id": 317,
@@ -7547,6 +7557,7 @@
   },
   "active_completion_priority": {
     "card_ids": [
+      315,
       316,
       317,
       318,
@@ -7619,7 +7630,7 @@
       385,
       386
     ],
-    "stage": "317–386 have working coverage; 67 pending, next 316. Card 317 has a two-row working reading after 90° clockwise rotation: a warm kiss sent by the signatory PEPOUS. All selected source strings, tags, geometry and key are retained: 28 slots/28 known letters/zero CH/zero unknowns. No substantive language repair. Thick initial f, loop/stem alternatives, signature identity and separate visual date remain qualified; no external confirmation. External manual review of 320/321 and team’s planned 108 cards remain separate.",
+    "stage": "316–386 have working coverage; 66 pending, next 315. Card 316 has four-row working coverage with explicit gaps. R03 opening mask provisionally becomes p/B, yielding BOLI; 105 slots/100 known letters/zero CH/five masks. NES?SLNE has a qualified NESCISLNE language proposal, with CI supplied only in prose. AO NEJDRYVE and PUSI retain language repairs; middle/terminal clusters, missing opening verb and cross-region order stay unresolved. No external confirmation or new key assignment. External manual review of 320/321 and team’s planned 108 cards remain separate.",
     "next_new_card_ids_held": [
       387,
       388,
@@ -7628,6 +7639,7 @@
     ],
     "limits": "Completion priority does not certify full source decipherment, new acquisition or external confirmation.",
     "awaiting_source_peer_review": [
+      316,
       317,
       318,
       319,
@@ -7700,6 +7712,7 @@
     "progress": {
       "existing_candidates": 137,
       "descending_pass_working_coverage_ids": [
+        316,
         317,
         318,
         319,
@@ -7771,7 +7784,7 @@
         385,
         386
       ],
-      "descending_pass_working_coverage_count": 70,
+      "descending_pass_working_coverage_count": 71,
       "remaining_in_descending_pass_ids": [
         242,
         244,
@@ -7838,14 +7851,13 @@
         312,
         313,
         314,
-        315,
-        316
+        315
       ],
-      "remaining_in_descending_pass": 67,
+      "remaining_in_descending_pass": 66,
       "catalogue_cards": 263,
       "unique_with_published_reading_including_partial": 154,
       "without_separate_published_reading": 109,
-      "next_card": 316,
+      "next_card": 315,
       "scope": "Working coverage of existing candidates, including384–385 historical batch; not new unique cards or independently solved counts."
     },
     "externally_manually_reviewed": [
@@ -7860,6 +7872,6 @@
     "card_count": 108,
     "record": "../2026-10-28-hcportal-register/coordination.json",
     "separate_team_comparison_card": 460,
-    "existing_descending_pass_next_card": 316
+    "existing_descending_pass_next_card": 315
   }
 }
