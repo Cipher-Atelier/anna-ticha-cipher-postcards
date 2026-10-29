@@ -1,0 +1,691 @@
+{
+  "card_id": 317,
+  "date": "2026-10-29",
+  "recorded_at_utc": "2026-10-29T15:06:58.581508+00:00",
+  "base_commit": "28b294e51159ce2dcc82c805a675a6a6f7203d6a",
+  "stage": "Provisional complete two-row working reading after source reinspection; all selected signs retained, no unknown masks or language repairs, signature/date and contour alternatives remain.",
+  "blind": false,
+  "independent": false,
+  "external_confirmation": false,
+  "source_limits": [
+    "One two-row block is read after a 90° clockwise rotation. Both complete original faces and all margins plus six enlarged/rotated Picture contexts were viewed privately. Printed poem, image and separate ordinary date writing are excluded from ciphertext. No additional continuous cipher run recognized on the visible Address face; a bounded negative observation only.",
+    "All source strings, tags, geometry, key and decoder output are unchanged: two rows, 28 selected notation slots/28 known emitted letters/zero CH/zero unknowns. No substantive language repair. Upper-loop/long-stem f, h/r, b/p, d/t, 1/4 and c/s alternatives remain; the thick initial retrace is not counted as a proven second body. Physical body count remains null. Zero masks does not certify source accuracy or completeness.",
+    "The source form PEPOUS remains an unverified signature. Ordinary accents and grammatical English word order belong to editorial interpretation; no author identity, full personal name or shared authorship inferred. The separate visual date candidate 6./V.1901. is preserved from both native records without calendar/postmark authentication or encoded-date conversion.",
+    "The original first_raw/first_record and blind_raw/blind_record metadata schemas, native rows, original FILE hashes, source-only protocol claims, initial reconciliation and QA17 remain unchanged. Wrapper metadata and separately preserved raw objects retain distinct hash scopes. Four native strict rows/eight inline object hashes and fourteen native ledger references checked. Original raw/strict FILE bytes not reread.",
+    "QA17 keeps the one mechanical/span/locator defect on FIRST 315, zero strict-replay/source-tag/schema errors and two separate paired formal preflight timing exceptions. Per-card preflights and both-raw-before-own-decode core barriers passed. The date supplement corrects four to six reading entries, not six physical dates. The target 317 finding remains contour-and-ordinary-date limits; no blanket zero-error or newly repaired incident claim.",
+    "This source/key/literal/language-visible same-root AI-assisted review is nonblind and not external confirmation. Eugen Antal’s manual review of 320/321 does not cover 317. Both fresh anonymous GET200 originals match their pinned hashes with no redirect/retry. Other candidates, transmitted register, expert-review package and dated receipts remain unchanged."
+  ],
+  "protected_fields": [
+    "card_id",
+    "notation",
+    "source",
+    "catalogue_id",
+    "catalogue_record_pointer",
+    "catalogue_binding",
+    "orientation",
+    "reader",
+    "raw_frozen_before_decoding",
+    "independent_readings",
+    "source_only_freeze_protocol",
+    "raw_preservation",
+    "frozen_schema_limits",
+    "uncertainty_ledger",
+    "marks_and_segmentation_notes",
+    "segmentation_ledger",
+    "unknown_clusters",
+    "current_provenance_corrections",
+    "physical_encoded_body_count",
+    "counts_policy",
+    "ordinary_numerals_outside_cipher",
+    "actual_question_punctuation",
+    "question_role_inventory",
+    "date_inscription",
+    "editorial_restoration_ledger",
+    "editorial_literal_fragment_ledger",
+    "editorial_layout_normalizations",
+    "unselected_paratext",
+    "region_inventory",
+    "region_order_evidence",
+    "excluded_source_regions",
+    "lexical_notes",
+    "proposed_editorial_czech",
+    "proposed_english_translation",
+    "editorial_coverage",
+    "editorial_scope",
+    "encoded_bodies",
+    "expanded_letters",
+    "ch_occurrences",
+    "unknowns",
+    "initial_reconciliation",
+    "validation",
+    "qa_context",
+    "question_role_current_check",
+    "post_initial_updates"
+  ],
+  "prior_field_hashes": {
+    "status": "426b39f7c20b965c40418f7d3876dea1ff89e9704c17fe8bbd3c2c03b437f536",
+    "lines": "a0017043721a85cab9f77f5020114b4b9c73ab87270a2c2ad97ec54e3dcd4e18",
+    "limits": "3ca539720835a72d4e45a9c44b5fe7e76f3fc0ff71ec6613ac9fdc72ed0e7439"
+  },
+  "previous_edition": {
+    "json": {
+      "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/317.json",
+      "commit": "28b294e51159ce2dcc82c805a675a6a6f7203d6a",
+      "sha256": "961edaffdf540e6e99ba950ef0401d97871a860f833d118df3f6f6dc18c0d83c",
+      "git_blob": "23eee6552e6a7c912d2951e762504563ded06dab"
+    },
+    "markdown": {
+      "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/317.md",
+      "commit": "28b294e51159ce2dcc82c805a675a6a6f7203d6a",
+      "sha256": "efc3d486fa8796a0ff047fdac18329112c4b82b023b7525f0bf2005075945a94",
+      "git_blob": "4d6a696109282bd22d810bdcdfe60dfb4b62be6d"
+    }
+  },
+  "source_edits": [],
+  "prior_totals": {
+    "rows": 2,
+    "encoded_bodies": 28,
+    "expanded_letters": 28,
+    "ch_occurrences": 0,
+    "unknowns": 0
+  },
+  "current_totals": {
+    "rows": 2,
+    "encoded_bodies": 28,
+    "expanded_letters": 28,
+    "ch_occurrences": 0,
+    "unknowns": 0
+  },
+  "native_replays": [
+    {
+      "slot": "first_raw",
+      "native_line_id": "317-R01",
+      "current_line_id": "317-R01",
+      "native_ciphertext": "fh5832 b2c2 d4",
+      "current_ciphertext": "fh5832 b2c2 d4",
+      "differences": []
+    },
+    {
+      "slot": "first_raw",
+      "native_line_id": "317-R02",
+      "current_line_id": "317-R02",
+      "native_ciphertext": "b3c486 df27 b5b32c.",
+      "current_ciphertext": "b3c486 df27 b5b32c.",
+      "differences": []
+    },
+    {
+      "slot": "blind_raw",
+      "native_line_id": "317-L01",
+      "current_line_id": "317-R01",
+      "native_ciphertext": "fh5832 b2c2 d4",
+      "current_ciphertext": "fh5832 b2c2 d4",
+      "differences": []
+    },
+    {
+      "slot": "blind_raw",
+      "native_line_id": "317-L02",
+      "current_line_id": "317-R02",
+      "native_ciphertext": "b3c486 df27 b5b32c.",
+      "current_ciphertext": "b3c486 df27 b5b32c.",
+      "differences": []
+    }
+  ],
+  "native_inline_canonical_identities": {
+    "first_raw": {
+      "raw": "c64006fa4a215b494850cbf06b42a71587d6818a0b97cd81a82875b96e2ed168",
+      "wrapper_metadata": "55cdbe2503a71ae6d65cacc7f28a4c27d3a0478bc5f3db818fb658802536bf07",
+      "strict_metadata": "05a5f1ab3fefbf83bbc46755c5c9b029fa9eb44c2021c17d45aaf628601ae472",
+      "strict_rows": "21fadb7aba663af8dea786fac2ada063ebbd55a2731311641f835dcad825fdaa"
+    },
+    "blind_raw": {
+      "raw": "07a3e3965092258c31dec8f01f790d107e56dfd051136ec1dfbe3dfe0287660e",
+      "wrapper_metadata": "50c9bb21aca90eaf3d664d0a1cac5d2d7d1198aba3a92870991af132f41c3d28",
+      "strict_metadata": "91468af925e30ad0732ffb3960af41e03ddb063935e4f6c32f05bcaffe2c5b52",
+      "strict_rows": "c71904c7c8dcbd2f590b3d72e6bdd6197017829e855fb39d358ad420b5056455"
+    }
+  },
+  "native_ledger_contexts": [
+    {
+      "native_pointer": "/raw_preservation/first_raw/uncertainty_ledger/0",
+      "native_record_sha256": "4742c7b9fd28918ef681b25103fc9557017805c432d77a82bfa0dad4d2c4f877",
+      "native_line_id": "317-R01",
+      "native_offset": 0,
+      "native_selected": "fh5832",
+      "current_line_id": "317-R01",
+      "current_full_row": "fh5832 b2c2 d4",
+      "broad_native_row_bbox": [
+        100,
+        710,
+        175,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/first_raw/uncertainty_ledger/1",
+      "native_record_sha256": "f59aa41938f6b6cc1705d8af4db7f96092424e3a469ff050618745dbb69d13f7",
+      "native_line_id": "317-R01",
+      "native_offset": 7,
+      "native_selected": "b2c2",
+      "current_line_id": "317-R01",
+      "current_full_row": "fh5832 b2c2 d4",
+      "broad_native_row_bbox": [
+        100,
+        710,
+        175,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/first_raw/uncertainty_ledger/2",
+      "native_record_sha256": "92f4f60cd281587fdddf81f9b02d3c7f7d99dd8073b3a717ba8a96e067b06b26",
+      "native_line_id": "317-R01",
+      "native_offset": 12,
+      "native_selected": "d4",
+      "current_line_id": "317-R01",
+      "current_full_row": "fh5832 b2c2 d4",
+      "broad_native_row_bbox": [
+        100,
+        710,
+        175,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/first_raw/uncertainty_ledger/3",
+      "native_record_sha256": "7af8dd6704cbbf15e4f54c605ecfe14e938556677cb6693366c9ddc40969e5c9",
+      "native_line_id": "317-R02",
+      "native_offset": 0,
+      "native_selected": "b3c486",
+      "current_line_id": "317-R02",
+      "current_full_row": "b3c486 df27 b5b32c.",
+      "broad_native_row_bbox": [
+        160,
+        655,
+        240,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/first_raw/uncertainty_ledger/4",
+      "native_record_sha256": "5866d163563aadf8462665ff8e901930fbd3f29438fe8d4c69f9dc6f68e886ed",
+      "native_line_id": "317-R02",
+      "native_offset": 7,
+      "native_selected": "df27",
+      "current_line_id": "317-R02",
+      "current_full_row": "b3c486 df27 b5b32c.",
+      "broad_native_row_bbox": [
+        160,
+        655,
+        240,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/first_raw/uncertainty_ledger/5",
+      "native_record_sha256": "531ccdb396b15917c7ba566cc6baf8647b1459ae2139dae9679aa789f20e234b",
+      "native_line_id": "317-R02",
+      "native_offset": 12,
+      "native_selected": "b5b32c",
+      "current_line_id": "317-R02",
+      "current_full_row": "b3c486 df27 b5b32c.",
+      "broad_native_row_bbox": [
+        160,
+        655,
+        240,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/first_raw/segmentation_ledger/0",
+      "native_record_sha256": "93a31a541932ba887481ece388b722e60ffef6ad91049c364eaa8976a960bb0e",
+      "native_line_id": "317-R01",
+      "native_offset": 0,
+      "native_selected": "fh5832",
+      "current_line_id": "317-R01",
+      "current_full_row": "fh5832 b2c2 d4",
+      "broad_native_row_bbox": [
+        100,
+        710,
+        175,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/blind_raw/uncertainties/0",
+      "native_record_sha256": "36d72ca5e7ded00a51d481b3446f8bd5c0ffd9f3572a2df7abd5db1753c1c135",
+      "native_line_id": "317-L01",
+      "native_offset": 0,
+      "native_selected": "fh5832",
+      "current_line_id": "317-R01",
+      "current_full_row": "fh5832 b2c2 d4",
+      "broad_native_row_bbox": [
+        100,
+        710,
+        175,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/blind_raw/uncertainties/1",
+      "native_record_sha256": "6ee194293aa283e8915c15d805e32684a0fff5a23d2bdd07af3b32552b7a3f34",
+      "native_line_id": "317-L01",
+      "native_offset": 7,
+      "native_selected": "b2c2",
+      "current_line_id": "317-R01",
+      "current_full_row": "fh5832 b2c2 d4",
+      "broad_native_row_bbox": [
+        100,
+        710,
+        175,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/blind_raw/uncertainties/2",
+      "native_record_sha256": "77a1a5542bddf072006ef788c5f5c1c88f7f8eb0115cf2b1dfacb48ae6b0744d",
+      "native_line_id": "317-L02",
+      "native_offset": 0,
+      "native_selected": "b3c486",
+      "current_line_id": "317-R02",
+      "current_full_row": "b3c486 df27 b5b32c.",
+      "broad_native_row_bbox": [
+        160,
+        655,
+        240,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/blind_raw/uncertainties/3",
+      "native_record_sha256": "153a95d609f8cbc9d8f2e8811b00e0342e2195f7fbdb2980e910eddb6b7a86f5",
+      "native_line_id": "317-L02",
+      "native_offset": 7,
+      "native_selected": "df27",
+      "current_line_id": "317-R02",
+      "current_full_row": "b3c486 df27 b5b32c.",
+      "broad_native_row_bbox": [
+        160,
+        655,
+        240,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/blind_raw/uncertainties/4",
+      "native_record_sha256": "5f2a62891ed8876f3866bf11154cb135d35a528f40afcccd50fb7f34a6c26464",
+      "native_line_id": "317-L02",
+      "native_offset": 12,
+      "native_selected": "b5b32c",
+      "current_line_id": "317-R02",
+      "current_full_row": "b3c486 df27 b5b32c.",
+      "broad_native_row_bbox": [
+        160,
+        655,
+        240,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/blind_raw/segmentation/0",
+      "native_record_sha256": "72ca0b86b6e533a3925350d8e01440c18a9b7797a13f24398d7202c7c0d627c9",
+      "native_line_id": "317-L01",
+      "native_offset": 0,
+      "native_selected": "fh5832 b2c2 d4",
+      "current_line_id": "317-R01",
+      "current_full_row": "fh5832 b2c2 d4",
+      "broad_native_row_bbox": [
+        100,
+        710,
+        175,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    },
+    {
+      "native_pointer": "/raw_preservation/blind_raw/segmentation/1",
+      "native_record_sha256": "54a1757828afe692ea2a412192e29199345724a9c3bc9b10d8f0721a38ce7681",
+      "native_line_id": "317-L02",
+      "native_offset": 0,
+      "native_selected": "b3c486 df27 b5b32c.",
+      "current_line_id": "317-R02",
+      "current_full_row": "b3c486 df27 b5b32c.",
+      "broad_native_row_bbox": [
+        160,
+        655,
+        240,
+        1080
+      ],
+      "scope": "Broad contextual comparison; no exact ink ownership or physical count established."
+    }
+  ],
+  "source_acquisition": [
+    {
+      "face": "Picture",
+      "url": "https://api.hcportal.eu/media/4968/pc_hcp_317_pic.JPG",
+      "status": 200,
+      "redirects": 0,
+      "retries": 0,
+      "started_at_utc": "2026-10-29T15:04:57.408826+00:00",
+      "completed_at_utc": "2026-10-29T15:04:57.725970+00:00",
+      "bytes": 1774778,
+      "sha256": "845cd72496ca19173ff8bf924863b165fc58fa591ef6f4ab6e4d49846ec7d09d",
+      "native_dimensions": [
+        1785,
+        1175
+      ]
+    },
+    {
+      "face": "Address",
+      "url": "https://api.hcportal.eu/media/4969/pc_hcp_317_adr.JPG",
+      "status": 200,
+      "redirects": 0,
+      "retries": 0,
+      "started_at_utc": "2026-10-29T15:04:57.725988+00:00",
+      "completed_at_utc": "2026-10-29T15:04:57.996769+00:00",
+      "bytes": 1049215,
+      "sha256": "3a0450e2a469548e88e84122240a558d274878c514a853a4fbb42792adfef344",
+      "native_dimensions": [
+        1785,
+        1175
+      ]
+    }
+  ],
+  "private_contexts": [
+    {
+      "name": "block",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        75,
+        80,
+        550,
+        320
+      ],
+      "scale": 4,
+      "dimensions": [
+        1900,
+        960
+      ],
+      "sha256": "14748196b86e408b3790d335d9cb96847ddfdf951e201962414959217c2b507f"
+    },
+    {
+      "name": "317-R01",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        95,
+        100,
+        465,
+        175
+      ],
+      "scale": 5,
+      "dimensions": [
+        1850,
+        375
+      ],
+      "sha256": "ea512d0c8ae424ea1d2159030cc8bdc4b70efa7a9f5ee36d53d8d3ec09276ba9"
+    },
+    {
+      "name": "317-R02",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        95,
+        160,
+        520,
+        240
+      ],
+      "scale": 5,
+      "dimensions": [
+        2125,
+        400
+      ],
+      "sha256": "51dfca33e673da0dfa13c0b32f12a650bb6c364069b4e63f640c86e3c50dbee2"
+    },
+    {
+      "name": "vrelou-stems",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        90,
+        90,
+        310,
+        180
+      ],
+      "scale": 6,
+      "dimensions": [
+        1320,
+        540
+      ],
+      "sha256": "b2203a06c240a9b1b8be5dac22efd6b2703584f90690785d29b9596875ad6de4"
+    },
+    {
+      "name": "signature-ending",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        315,
+        160,
+        525,
+        245
+      ],
+      "scale": 6,
+      "dimensions": [
+        1260,
+        510
+      ],
+      "sha256": "a7ce5f8397cae865432c149e0e549b32716babee0183bb31af7986ea0262d53b"
+    },
+    {
+      "name": "separate-date",
+      "reading_rotation_degrees_clockwise": 90,
+      "reading_bbox_xyxy": [
+        195,
+        215,
+        470,
+        315
+      ],
+      "scale": 5,
+      "dimensions": [
+        1375,
+        500
+      ],
+      "sha256": "b7f4150a875d58c66b87ce4e3bde6c384aeec38b86307ab0b1693cdc12335a47"
+    }
+  ],
+  "whole_Picture_and_Address_frames_and_all_margins_viewed": true,
+  "individual_view_timestamps_captured": false,
+  "historical_opposite_face_boundary": {
+    "record": {
+      "card_id": 317,
+      "source": {
+        "card_id": 317,
+        "url": "https://api.hcportal.eu/media/4969/pc_hcp_317_adr.JPG",
+        "sha256": "3a0450e2a469548e88e84122240a558d274878c514a853a4fbb42792adfef344",
+        "bytes": 1049215,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1636,
+        "face": "address"
+      },
+      "orientation_degrees_ccw": 0,
+      "inspected_region_native_xyxy": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "observation": "Complete saved face inspected: conventional printed postal layout, ordinary handwritten address text, stamp/postmarks and publisher marks; no additional continuous encoded message group identified.",
+      "cipher_region_observed": false,
+      "transcription_of_address_or_people": "Not included; no sender identity or postal-date conclusion made."
+    },
+    "canonical_sha256": "3c4415cf621faed047d7c8ae27c60e004c473d220b42818b7a4cdc28b314d4f5",
+    "file_sha256": "fdb17cf110ee6ea5302886f72126954dd5766ff9711c863dc3f2d3db29413b33"
+  },
+  "preserved_legacy_reading": {
+    "path": "anna-ticha/card-317.md",
+    "sha256": "6529b3d955a5b6feb590c9f8772d2c7ad768f4fbb28f261786677b982baf7459"
+  },
+  "report_progress": {
+    "existing_candidates": 137,
+    "descending_pass_working_coverage_ids": [
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386
+    ],
+    "descending_pass_working_coverage_count": 70,
+    "remaining_in_descending_pass_ids": [
+      242,
+      244,
+      249,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316
+    ],
+    "remaining_in_descending_pass": 67,
+    "catalogue_cards": 263,
+    "unique_with_published_reading_including_partial": 154,
+    "without_separate_published_reading": 109,
+    "next_card": 316,
+    "scope": "Working coverage of existing candidates, including384–385 historical batch; not new unique cards or independently solved counts."
+  },
+  "current_json_sha256": "c423a81d1dbc094cadccfebbf0dfcb18d941ae124a5bf1915a040b89a17286e6",
+  "current_markdown_sha256": "b240d88941270113da746871ee3b82e942323a0d692b2076760a66eeb8e77f04"
+}
