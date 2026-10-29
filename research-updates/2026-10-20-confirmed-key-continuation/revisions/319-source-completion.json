@@ -1,0 +1,1870 @@
+{
+  "card_id": 319,
+  "date": "2026-10-29",
+  "recorded_at_utc": "2026-10-29T13:09:15.600975+00:00",
+  "base_commit": "65013ef45d44a49011c2106355987bdb2973f13e",
+  "blind": false,
+  "independent": false,
+  "external_confirmation": false,
+  "stage": "provisional ten-row source-completed working reading; six local g/Z selections, one retained obscured mask and three language proposals",
+  "protected_fields": [
+    "card_id",
+    "notation",
+    "source",
+    "catalogue_id",
+    "catalogue_record_pointer",
+    "catalogue_binding",
+    "orientation",
+    "reader",
+    "raw_frozen_before_decoding",
+    "independent_readings",
+    "raw_preservation",
+    "visual_disagreements",
+    "unknown_clusters",
+    "question_role_inventory",
+    "actual_question_punctuation",
+    "ordinary_numerals_inside_cipher",
+    "physical_encoded_body_count",
+    "counts_policy",
+    "ordinary_numerals_outside_cipher",
+    "printed_exclusions",
+    "region_order_evidence",
+    "editorial_spatial_order_notices",
+    "editorial_literal_fragment_ledger",
+    "provenance_sequence",
+    "batch_mechanical_qa",
+    "encoded_bodies",
+    "ch_occurrences",
+    "initial_reconciliation"
+  ],
+  "prior_field_hashes": {
+    "status": "fd485f832acbfc8fbc202f946f3c8af46375c2691c3c0be45d5b47c3a4cab33b",
+    "lines": "0694b6d534cfc80396b9bde7ed1cf163579b6b0bfc1eb07a12d53b338a49d5e7",
+    "uncertainty_ledger": "89ed2036804e962a42046389d6eee3115187ff7eecfe28483c73ddb8608eb0dd",
+    "marks_and_segmentation_notes": "4b9713861de11c8a67a07a0f56dc5aa4e59e800e6b751b3065dc2986451e2610",
+    "segmentation_ledger": "edabcc8e82887508261518f03ecd8553514f22e08072ed0169ed4c54f711a662",
+    "unassigned_shapes": "3ad84f94e1151e37a35310a4b92d5ce3858e68685e61de2130800a4949e46cb9",
+    "proposed_editorial_czech": "aeb09fabad4de76be9b7278ebf8005d0c192373c954fb38d743c171eba437736",
+    "proposed_english_translation": "09f5b9fe0e9962891d7f0fc16f80f9823b811503460f107b700a4816239c006b",
+    "editorial_restoration_ledger": "2fbe42231638018a279e0f8ff8ba8a896a0a827655e883a33db8a0ad43d4d93a",
+    "editorial_coverage": "1a9c23cef4e48c4f2d910915f9155281581f040f6d16575b2adc6927623225ea",
+    "editorial_blocks": "0496933b4836fd44fd9c306034d6b0fc9f2921566447e503f30c1351d586d301",
+    "editorial_layout_normalizations": "6c5bbaa3f86620363d49f2afbd6d4b45499692e939d6b10d55ad23fbd8972176",
+    "editorial_policy": "6ed8031a9e190ceb8ee084c37b757e05f64188668921b28f3cd44b19848fd093",
+    "limits": "666de7cbd58a2df8722920d702cb6b8a5bfda7885e55afbe0f53ac717a3f3635",
+    "editorial_ledger_counts": "497e1ad423f7934c8c40ccec1696345608141429e60ab1e0195e0980a2e6dd62",
+    "expanded_letters": "ec2e990b934dde55cb87300629cedfc21b15cd28bbcf77d8bbdc55359d7689da",
+    "unknowns": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  "source_limits": [
+    "Same-root source/key/literal/language-visible nonblind reinspection of one upright ten-row block. Six source-family choices are provisional, not external confirmation of 319. Eugen Antal reviewed 320/321 only; his corrected 320 g example is used as a bounded visual comparison cue, not evidence of shared authorship or automatic transfer.",
+    "Six selected 9-shaped bodies at R01:0, R03:19, R04:14, R05:5, R06:0, R09:10 are now g/Z. Each has a closed upper bowl with a short open lower left turn, unlike the long closed q returns on this source. No 9 key assignment, case normalization, source insertion/deletion or added CH. Current 153 slots/154 known letters/two existing CH/one watermark-obscured mask; physical body count remains null.",
+    "R07 r?m32/H?NOU retains the exact unknown mask at offset 1; it is an obscured cluster, not written question punctuation, and has unknown physical length. Underline below DLOUHOU remains a separate mark. Two existing ř/CH roof choices retain attachment/base alternatives; neither date nor mark role is independently authenticated.",
+    "Three qualified language proposals remain. UPRI - / H?NOU→UPRIMNOU joins rows and collapses H plus a mask to proposed M only in prose. NILENKO→MILENKO changes N→M only in language; visible double arch remains m/N. VZPOMINA - / JYCI HO→VZPOMINAJICIHO joins rows/internal space and changes Y→I, while source1 remains 1. PEPOUSE is a name-like form; identity not established. No remembered object or missing closing verb supplied.",
+    "Both original native first/second wrapper/raw/strict_public_projection records, original hashes and zero header omissions remain typed-identical. FIRST L01–L10 retains 153 slots/148 known letters/two CH/seven unknowns; SECOND 319-R01–R10 retains 153/151/two CH/four unknowns. Twenty frozen native rows replayed. Original whole raw/strict FILE-byte hashes stay distinct; unavailable original FILE bytes not reread. Initial reconciliation and all-eight freeze/preflight/checkpoint metadata remain historical.",
+    "Thirty-nine native ledger references (FIRST nine uncertainty/two marks/one mask-role record, SECOND 23 uncertainty/three marks/one mask-role record) and 23 earlier current uncertainty/ten segmentation/three mark records remain traced by exact native/prior hashes. Current selected spans are projected to new strings; broad row boxes are not per-glyph ink boundaries or a physical-mark census. No retroactive repair of old source or QA records.",
+    "Whole QA18 mechanical_checks_pass_with_qualified_source_findings preserved: eight readings/78 rows/40 protected inputs, six global scope findings/one 319 finding. Zero mechanical/replay/tag/locator/schema/timing/span/geometry errors. The faint-family/mask/roof finding remains qualified. Repeated 134 geometry records/root 91 unique dictionaries/eight date-reading entries keep their distinct scope; no QA19/20 schema or new locator incident invented.",
+    "Two fresh anonymous GET200 originals match pinned hashes, no redirects/retries. Complete Picture/Address frames/all margins plus 21 enlarged 319 contexts and one reused 320 comparison context viewed privately. Address shows no additional continuous encoded run in the visible frame, bounded negative only. Ordinary address/date/postal/artwork/watermark excluded without authentication; no medical diagnosis, calendar or sender/recipient identification inferred.",
+    "Previous JSON/Markdown and unchanged legacy 319 report are Git/blob/SHA256 pinned. Earlier source readings and the submitted register remain unchanged. Current manual-review checker is pinned to its dated publication snapshot so later candidates can change; its frozen review inputs/history remain checked, plus live package replay. Deeper pass 69 remaining/68 working coverage, next 318; unique 154 of 263 including partial/109 without our separate reading remain distinct from solves."
+  ],
+  "prior_totals": {
+    "rows": 10,
+    "encoded_bodies": 153,
+    "expanded_letters": 148,
+    "ch_occurrences": 2,
+    "unknowns": 7
+  },
+  "current_totals": {
+    "rows": 10,
+    "encoded_bodies": 153,
+    "expanded_letters": 154,
+    "ch_occurrences": 2,
+    "unknowns": 1
+  },
+  "previous_edition": {
+    "json": {
+      "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/319.json",
+      "commit": "65013ef45d44a49011c2106355987bdb2973f13e",
+      "sha256": "f83ea131fda1c10bf8276305f64205e00b117b4af3bf2a1313f932a152cf9a77",
+      "git_blob": "98a6d7c69be16bebaa85a3626d059967dab88162",
+      "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/blob/65013ef45d44a49011c2106355987bdb2973f13e/research-updates/2026-10-20-confirmed-key-continuation/cards/319.json"
+    },
+    "markdown": {
+      "path": "research-updates/2026-10-20-confirmed-key-continuation/cards/319.md",
+      "commit": "65013ef45d44a49011c2106355987bdb2973f13e",
+      "sha256": "336049738e0c80546c8190c20f034a375d248f3d0f78d05820db08278259e4f0",
+      "git_blob": "8830f9e43c56b79100e445a393ceef840fe14cef",
+      "url": "https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/blob/65013ef45d44a49011c2106355987bdb2973f13e/research-updates/2026-10-20-confirmed-key-continuation/cards/319.md"
+    }
+  },
+  "edits_from_previous": [
+    {
+      "line_id": "319-R01",
+      "offset": 0,
+      "prior": "9",
+      "selected": "g",
+      "literal_value": "Z",
+      "scope": "Same-root nonblind, position-specific source-family reinspection; not an external review or generic9 alias."
+    },
+    {
+      "line_id": "319-R03",
+      "offset": 19,
+      "prior": "9",
+      "selected": "g",
+      "literal_value": "Z",
+      "scope": "Same-root nonblind, position-specific source-family reinspection; not an external review or generic9 alias."
+    },
+    {
+      "line_id": "319-R04",
+      "offset": 14,
+      "prior": "9",
+      "selected": "g",
+      "literal_value": "Z",
+      "scope": "Same-root nonblind, position-specific source-family reinspection; not an external review or generic9 alias."
+    },
+    {
+      "line_id": "319-R05",
+      "offset": 5,
+      "prior": "9",
+      "selected": "g",
+      "literal_value": "Z",
+      "scope": "Same-root nonblind, position-specific source-family reinspection; not an external review or generic9 alias."
+    },
+    {
+      "line_id": "319-R06",
+      "offset": 0,
+      "prior": "9",
+      "selected": "g",
+      "literal_value": "Z",
+      "scope": "Same-root nonblind, position-specific source-family reinspection; not an external review or generic9 alias."
+    },
+    {
+      "line_id": "319-R09",
+      "offset": 10,
+      "prior": "9",
+      "selected": "g",
+      "literal_value": "Z",
+      "scope": "Same-root nonblind, position-specific source-family reinspection; not an external review or generic9 alias."
+    }
+  ],
+  "source_acquisition": [
+    {
+      "face": "Picture",
+      "url": "https://api.hcportal.eu/media/4974/pc_hcp_319_pic.JPG",
+      "status": 200,
+      "redirects": 0,
+      "retries": 0,
+      "started_at_utc": "2026-10-29T12:59:04.513238+00:00",
+      "completed_at_utc": "2026-10-29T12:59:04.819171+00:00",
+      "bytes": 1148108,
+      "sha256": "5c8d1d295fa2e9df8fc989d03343917a76313335917932d551852cb72abee00a",
+      "native_dimensions": [
+        1785,
+        1175
+      ]
+    },
+    {
+      "face": "Address",
+      "url": "https://api.hcportal.eu/media/4975/pc_hcp_319_adr.JPG",
+      "status": 200,
+      "redirects": 0,
+      "retries": 0,
+      "started_at_utc": "2026-10-29T12:59:04.862668+00:00",
+      "completed_at_utc": "2026-10-29T12:59:05.104300+00:00",
+      "bytes": 1002875,
+      "sha256": "93b2a2eccb1b5f2203fe6261311a7e635e0189a3684f3f4acf4db7ca0cc7b7fc",
+      "native_dimensions": [
+        1785,
+        1175
+      ]
+    }
+  ],
+  "native_raw_replays": [
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/0",
+      "raw_line_id": "L01",
+      "current_line_id": "319-R01",
+      "raw_ciphertext": "96 th6r1, gh6cm1",
+      "current_ciphertext": "g6 th6r1, qh6cm1",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 0,
+          "old_end": 1,
+          "prior": "9",
+          "current_offset": 0,
+          "current_end": 1,
+          "selected": "g"
+        },
+        {
+          "operation": "replace",
+          "old_offset": 10,
+          "old_end": 11,
+          "prior": "g",
+          "current_offset": 10,
+          "current_end": 11,
+          "selected": "q"
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/1",
+      "raw_line_id": "L02",
+      "current_line_id": "319-R02",
+      "raw_ciphertext": "84cd5g d4c4s5h1",
+      "current_ciphertext": "84cd5q d4c4s5h1",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 5,
+          "old_end": 6,
+          "prior": "g",
+          "current_offset": 5,
+          "current_end": 6,
+          "selected": "q"
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/2",
+      "raw_line_id": "L03",
+      "current_line_id": "319-R03",
+      "raw_ciphertext": "t4g. nm5 f5t5 c5 749",
+      "current_ciphertext": "t4q. nm5 f5t5 c5 74g",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 2,
+          "old_end": 3,
+          "prior": "g",
+          "current_offset": 2,
+          "current_end": 3,
+          "selected": "q"
+        },
+        {
+          "operation": "replace",
+          "old_offset": 19,
+          "old_end": 20,
+          "prior": "9",
+          "current_offset": 19,
+          "current_end": 20,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/3",
+      "raw_line_id": "L04",
+      "current_line_id": "319-R04",
+      "raw_ciphertext": "85b5. f m57p849c4ř",
+      "current_ciphertext": "85b5. f m57p84gc4ř",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 14,
+          "old_end": 15,
+          "prior": "9",
+          "current_offset": 14,
+          "current_end": 15,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/4",
+      "raw_line_id": "L05",
+      "current_line_id": "319-R05",
+      "raw_ciphertext": "tm5ř 96c82 b3th3pm32",
+      "current_ciphertext": "tm5ř g6c82 b3th3pm32",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 5,
+          "old_end": 6,
+          "prior": "9",
+          "current_offset": 5,
+          "current_end": 6,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/5",
+      "raw_line_id": "L06",
+      "current_line_id": "319-R06",
+      "raw_ciphertext": "9bh6f2. fh5832, 2bh4-",
+      "current_ciphertext": "gbh6f2. fh5832, 2bh4 -",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 0,
+          "old_end": 1,
+          "prior": "9",
+          "current_offset": 0,
+          "current_end": 1,
+          "selected": "g"
+        },
+        {
+          "operation": "insert",
+          "old_offset": 20,
+          "old_end": 20,
+          "prior": "",
+          "current_offset": 20,
+          "current_end": 21,
+          "selected": " "
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/6",
+      "raw_line_id": "L07",
+      "current_line_id": "319-R07",
+      "raw_ciphertext": "r?m32 6 t832r32 b2c2,",
+      "current_ciphertext": "r?m32 6 t832r32 b2c2,",
+      "differences": []
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/7",
+      "raw_line_id": "L08",
+      "current_line_id": "319-R08",
+      "raw_ciphertext": "m485mg3 n375 c86tg6,",
+      "current_ciphertext": "m485mq3 n375 c86tq6,",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 5,
+          "old_end": 6,
+          "prior": "g",
+          "current_offset": 5,
+          "current_end": 6,
+          "selected": "q"
+        },
+        {
+          "operation": "replace",
+          "old_offset": 17,
+          "old_end": 18,
+          "prior": "g",
+          "current_offset": 17,
+          "current_end": 18,
+          "selected": "q"
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/8",
+      "raw_line_id": "L09",
+      "current_line_id": "319-R09",
+      "raw_ciphertext": "3t df5r3 f9b3n4m6-",
+      "current_ciphertext": "3t df5r3 fgb3n4m6 -",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 10,
+          "old_end": 11,
+          "prior": "9",
+          "current_offset": 10,
+          "current_end": 11,
+          "selected": "g"
+        },
+        {
+          "operation": "insert",
+          "old_offset": 17,
+          "old_end": 17,
+          "prior": "",
+          "current_offset": 17,
+          "current_end": 18,
+          "selected": " "
+        }
+      ]
+    },
+    {
+      "slot": "first",
+      "raw_pointer": "/raw_preservation/first/raw/rows/9",
+      "raw_line_id": "L10",
+      "current_line_id": "319-R10",
+      "raw_ciphertext": "74s4 r3 b5b32c5.",
+      "current_ciphertext": "71s4 r3 b5b32c5.",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 1,
+          "old_end": 2,
+          "prior": "4",
+          "current_offset": 1,
+          "current_end": 2,
+          "selected": "1"
+        }
+      ]
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/0",
+      "raw_line_id": "319-R01",
+      "current_line_id": "319-R01",
+      "raw_ciphertext": "96 th6r1, qh6cm1",
+      "current_ciphertext": "g6 th6r1, qh6cm1",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 0,
+          "old_end": 1,
+          "prior": "9",
+          "current_offset": 0,
+          "current_end": 1,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/1",
+      "raw_line_id": "319-R02",
+      "current_line_id": "319-R02",
+      "raw_ciphertext": "84cd5q d4c4s5h1",
+      "current_ciphertext": "84cd5q d4c4s5h1",
+      "differences": []
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/2",
+      "raw_line_id": "319-R03",
+      "current_line_id": "319-R03",
+      "raw_ciphertext": "t4q. nm5 f5t5 c5 749",
+      "current_ciphertext": "t4q. nm5 f5t5 c5 74g",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 19,
+          "old_end": 20,
+          "prior": "9",
+          "current_offset": 19,
+          "current_end": 20,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/3",
+      "raw_line_id": "319-R04",
+      "current_line_id": "319-R04",
+      "raw_ciphertext": "85b5. f m57r84qc4ř",
+      "current_ciphertext": "85b5. f m57p84gc4ř",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 11,
+          "old_end": 12,
+          "prior": "r",
+          "current_offset": 11,
+          "current_end": 12,
+          "selected": "p"
+        },
+        {
+          "operation": "replace",
+          "old_offset": 14,
+          "old_end": 15,
+          "prior": "q",
+          "current_offset": 14,
+          "current_end": 15,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/4",
+      "raw_line_id": "319-R05",
+      "current_line_id": "319-R05",
+      "raw_ciphertext": "tm5ř 96c82 b3th3pm32",
+      "current_ciphertext": "tm5ř g6c82 b3th3pm32",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 5,
+          "old_end": 6,
+          "prior": "9",
+          "current_offset": 5,
+          "current_end": 6,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/5",
+      "raw_line_id": "319-R06",
+      "current_line_id": "319-R06",
+      "raw_ciphertext": "qbh6f2. fh5832, 2bh4 -",
+      "current_ciphertext": "gbh6f2. fh5832, 2bh4 -",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 0,
+          "old_end": 1,
+          "prior": "q",
+          "current_offset": 0,
+          "current_end": 1,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/6",
+      "raw_line_id": "319-R07",
+      "current_line_id": "319-R07",
+      "raw_ciphertext": "r?m32 6 t832r32 b2c2,",
+      "current_ciphertext": "r?m32 6 t832r32 b2c2,",
+      "differences": []
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/7",
+      "raw_line_id": "319-R08",
+      "current_line_id": "319-R08",
+      "raw_ciphertext": "m485mq3 n375 c86tq6,",
+      "current_ciphertext": "m485mq3 n375 c86tq6,",
+      "differences": []
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/8",
+      "raw_line_id": "319-R09",
+      "current_line_id": "319-R09",
+      "raw_ciphertext": "3t df5r3 fqb3n4m6 -",
+      "current_ciphertext": "3t df5r3 fgb3n4m6 -",
+      "differences": [
+        {
+          "operation": "replace",
+          "old_offset": 10,
+          "old_end": 11,
+          "prior": "q",
+          "current_offset": 10,
+          "current_end": 11,
+          "selected": "g"
+        }
+      ]
+    },
+    {
+      "slot": "second",
+      "raw_pointer": "/raw_preservation/second/raw/rows/9",
+      "raw_line_id": "319-R10",
+      "current_line_id": "319-R10",
+      "raw_ciphertext": "71s4r3 b5b32c5.",
+      "current_ciphertext": "71s4 r3 b5b32c5.",
+      "differences": [
+        {
+          "operation": "insert",
+          "old_offset": 4,
+          "old_end": 4,
+          "prior": "",
+          "current_offset": 4,
+          "current_end": 5,
+          "selected": " "
+        }
+      ]
+    }
+  ],
+  "native_inline_canonical_identities": {
+    "first": {
+      "raw": "a2cad46331c0c0df3ba164df4889db48bad5b6e69cfb4b83906302a2c9d4ba76",
+      "original_wrapper": "a3c1ffa46d336d7fabe0ff6d5bf57a99ee83e29e35ea784e79aa7ddb2ac1b880",
+      "strict_public_projection": "a4add56e6aa33d53050b9883a5c2a684b9ffce0fae838c3e92e641d70565cf1e"
+    },
+    "second": {
+      "raw": "a26a2e69f78f83da4a65c9eb877e70d1f5b1cda397a5c8e084706bac3a78693a",
+      "original_wrapper": "05ec5e3d207ecad568be5f074689b9d005f15b23a88e3c810d492617e3224720",
+      "strict_public_projection": "da722a9fee99837e586576158a6e8d2995b6294e7469f9567a523ea28c3ce1aa"
+    }
+  },
+  "current_native_position_reinspection": [
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/0",
+      "native_record_sha256": "b798322bdddf785b0dfe0debeaf9d6390cd02344d9161c8f42faf09a96e10d83",
+      "raw_line_id": "L01",
+      "raw_offset": 0,
+      "raw_selected": "9",
+      "current_line_id": "319-R01",
+      "current_full_row": "g6 th6r1, qh6cm1",
+      "broad_native_row_context": [
+        1215,
+        480,
+        1660,
+        558
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/1",
+      "native_record_sha256": "28976dea982f30216f2615b035ebdc7ee11a7b849a325d9bcae2b706b869a48f",
+      "raw_line_id": "L03",
+      "raw_offset": 19,
+      "raw_selected": "9",
+      "current_line_id": "319-R03",
+      "current_full_row": "t4q. nm5 f5t5 c5 74g",
+      "broad_native_row_context": [
+        1200,
+        610,
+        1685,
+        685
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/2",
+      "native_record_sha256": "5a471eb1de1b1d1a20d7febae18147c53c42d28c333282e223c04cc28c247d65",
+      "raw_line_id": "L04",
+      "raw_offset": 14,
+      "raw_selected": "9",
+      "current_line_id": "319-R04",
+      "current_full_row": "85b5. f m57p84gc4ř",
+      "broad_native_row_context": [
+        1200,
+        664,
+        1665,
+        737
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/3",
+      "native_record_sha256": "f2567b62b5b1a1c8f3a534a9dab482886d411cc8debdc9af8de2400d2752c6ad",
+      "raw_line_id": "L04",
+      "raw_offset": 17,
+      "raw_selected": "ř",
+      "current_line_id": "319-R04",
+      "current_full_row": "85b5. f m57p84gc4ř",
+      "broad_native_row_context": [
+        1200,
+        664,
+        1665,
+        737
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/4",
+      "native_record_sha256": "df62cbcb4cdbf3b14b67fc880cb3b2cea48669c345d7c468662ddcbf7abdce47",
+      "raw_line_id": "L05",
+      "raw_offset": 3,
+      "raw_selected": "ř",
+      "current_line_id": "319-R05",
+      "current_full_row": "tm5ř g6c82 b3th3pm32",
+      "broad_native_row_context": [
+        1195,
+        715,
+        1685,
+        790
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/5",
+      "native_record_sha256": "0dc46968662a0eae888d136baa2c31414de88126ccd99715e3152e004896b740",
+      "raw_line_id": "L05",
+      "raw_offset": 5,
+      "raw_selected": "9",
+      "current_line_id": "319-R05",
+      "current_full_row": "tm5ř g6c82 b3th3pm32",
+      "broad_native_row_context": [
+        1195,
+        715,
+        1685,
+        790
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/6",
+      "native_record_sha256": "f67572ba7c01463f429b94ab487b987d31709b38a8924d4c2192f44d602a4d97",
+      "raw_line_id": "L06",
+      "raw_offset": 0,
+      "raw_selected": "9",
+      "current_line_id": "319-R06",
+      "current_full_row": "gbh6f2. fh5832, 2bh4 -",
+      "broad_native_row_context": [
+        1195,
+        770,
+        1690,
+        845
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/7",
+      "native_record_sha256": "a448f1b97982bfbb11fb98db768dde9c8b01dc083482221450c804bd93b42e82",
+      "raw_line_id": "L07",
+      "raw_offset": 1,
+      "raw_selected": "?",
+      "current_line_id": "319-R07",
+      "current_full_row": "r?m32 6 t832r32 b2c2,",
+      "broad_native_row_context": [
+        1195,
+        820,
+        1685,
+        890
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/first/raw/uncertainty_ledger/8",
+      "native_record_sha256": "ff62013c46468d74ed879af1d611fe9ead6b823bc20741fa77929bb2cf414beb",
+      "raw_line_id": "L09",
+      "raw_offset": 10,
+      "raw_selected": "9",
+      "current_line_id": "319-R09",
+      "current_full_row": "3t df5r3 fgb3n4m6 -",
+      "broad_native_row_context": [
+        1195,
+        925,
+        1690,
+        1000
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "mark_ledger",
+      "native_pointer": "/raw_preservation/first/raw/mark_ledger/0",
+      "native_record_sha256": "ac108244cbf484fa5d91d111bb00b50899afd9174fd94a1e9cbd703503f55e46",
+      "raw_line_id": "L04",
+      "raw_offset": 17,
+      "raw_selected": "ř",
+      "current_line_id": "319-R04",
+      "current_full_row": "85b5. f m57p84gc4ř",
+      "broad_native_row_context": [
+        1200,
+        664,
+        1665,
+        737
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "mark_ledger",
+      "native_pointer": "/raw_preservation/first/raw/mark_ledger/1",
+      "native_record_sha256": "cb73b0e7536b5fa583d9e95f5b8c9ea3a50a31378854d0d2707002ebe6a57871",
+      "raw_line_id": "L05",
+      "raw_offset": 3,
+      "raw_selected": "ř",
+      "current_line_id": "319-R05",
+      "current_full_row": "tm5ř g6c82 b3th3pm32",
+      "broad_native_row_context": [
+        1195,
+        715,
+        1685,
+        790
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "first",
+      "native_ledger": "question_role_inventory",
+      "native_pointer": "/raw_preservation/first/raw/question_role_inventory/0",
+      "native_record_sha256": "1910d5ea06edac6b45efdbe0f690cab2656da6a1d728c5790adc31c86d2968d4",
+      "raw_line_id": "L07",
+      "raw_offset": 1,
+      "raw_selected": "?",
+      "current_line_id": "319-R07",
+      "current_full_row": "r?m32 6 t832r32 b2c2,",
+      "broad_native_row_context": [
+        1195,
+        820,
+        1685,
+        890
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/0",
+      "native_record_sha256": "ec7960ec9ed002605ac2f96d97634d79cfa60468438d4decd9a6a6424b7dda20",
+      "raw_line_id": "319-R01",
+      "raw_offset": 0,
+      "raw_selected": "96 th6r1, qh6cm1",
+      "current_line_id": "319-R01",
+      "current_full_row": "g6 th6r1, qh6cm1",
+      "broad_native_row_context": [
+        1215,
+        480,
+        1660,
+        558
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/1",
+      "native_record_sha256": "ae565ceb7cc2c5ac10e58e2090dcbc73d4842064f981a18c49fd14dc56619589",
+      "raw_line_id": "319-R01",
+      "raw_offset": 0,
+      "raw_selected": "9",
+      "current_line_id": "319-R01",
+      "current_full_row": "g6 th6r1, qh6cm1",
+      "broad_native_row_context": [
+        1215,
+        480,
+        1660,
+        558
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/2",
+      "native_record_sha256": "0cbd72007a3c723b6494d79830df17bffd05bd0d04c2be83c15ec2fceecb8015",
+      "raw_line_id": "319-R01",
+      "raw_offset": 10,
+      "raw_selected": "q",
+      "current_line_id": "319-R01",
+      "current_full_row": "g6 th6r1, qh6cm1",
+      "broad_native_row_context": [
+        1215,
+        480,
+        1660,
+        558
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/3",
+      "native_record_sha256": "a0782eaf45f4425ac3a5f2e50c39970f22bfbb779f8c4701b80e88a75fce6628",
+      "raw_line_id": "319-R02",
+      "raw_offset": 0,
+      "raw_selected": "84cd5q d4c4s5h1",
+      "current_line_id": "319-R02",
+      "current_full_row": "84cd5q d4c4s5h1",
+      "broad_native_row_context": [
+        1210,
+        550,
+        1655,
+        617
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/4",
+      "native_record_sha256": "969d542207893979e902ec4d3b33bf6d8ec9fb828ad9d08ddc56b199f20ee9d5",
+      "raw_line_id": "319-R02",
+      "raw_offset": 5,
+      "raw_selected": "q",
+      "current_line_id": "319-R02",
+      "current_full_row": "84cd5q d4c4s5h1",
+      "broad_native_row_context": [
+        1210,
+        550,
+        1655,
+        617
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/5",
+      "native_record_sha256": "39e46adb5f397828d4d619fd1f48aa417272c507c39026c0778d4d94a313e2af",
+      "raw_line_id": "319-R03",
+      "raw_offset": 0,
+      "raw_selected": "t4q. nm5 f5t5 c5 749",
+      "current_line_id": "319-R03",
+      "current_full_row": "t4q. nm5 f5t5 c5 74g",
+      "broad_native_row_context": [
+        1200,
+        610,
+        1685,
+        685
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/6",
+      "native_record_sha256": "a29cdc94906a9f54e77df325e9c3a89a5874c80cd84d85223a54b1cfe431bd37",
+      "raw_line_id": "319-R03",
+      "raw_offset": 2,
+      "raw_selected": "q",
+      "current_line_id": "319-R03",
+      "current_full_row": "t4q. nm5 f5t5 c5 74g",
+      "broad_native_row_context": [
+        1200,
+        610,
+        1685,
+        685
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/7",
+      "native_record_sha256": "f2e29fd25c2c10d822c1208e5b9600b5f620d819fd21e7b91cb5eb16e10b0ae0",
+      "raw_line_id": "319-R03",
+      "raw_offset": 19,
+      "raw_selected": "9",
+      "current_line_id": "319-R03",
+      "current_full_row": "t4q. nm5 f5t5 c5 74g",
+      "broad_native_row_context": [
+        1200,
+        610,
+        1685,
+        685
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/8",
+      "native_record_sha256": "828910a1e655f89dc4a553af03153cc99bc78d3a0ecf3fea0f9a5a7ae27cbbb9",
+      "raw_line_id": "319-R04",
+      "raw_offset": 0,
+      "raw_selected": "85b5. f m57r84qc4ř",
+      "current_line_id": "319-R04",
+      "current_full_row": "85b5. f m57p84gc4ř",
+      "broad_native_row_context": [
+        1200,
+        664,
+        1665,
+        737
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/9",
+      "native_record_sha256": "a4db7c3d35a00e1e02c8f95af48ec503c23cda261a6490fab5f4f20253511f9c",
+      "raw_line_id": "319-R04",
+      "raw_offset": 14,
+      "raw_selected": "q",
+      "current_line_id": "319-R04",
+      "current_full_row": "85b5. f m57p84gc4ř",
+      "broad_native_row_context": [
+        1200,
+        664,
+        1665,
+        737
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/10",
+      "native_record_sha256": "2f01b9afbbe8273ecb6acb0196d5c69b2afa0f87995e71861086f294dfa2b639",
+      "raw_line_id": "319-R04",
+      "raw_offset": 17,
+      "raw_selected": "ř",
+      "current_line_id": "319-R04",
+      "current_full_row": "85b5. f m57p84gc4ř",
+      "broad_native_row_context": [
+        1200,
+        664,
+        1665,
+        737
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/11",
+      "native_record_sha256": "55d36cb9de1e1c7434b2aa26a590610e7ce3c74101b24a1027dbd695676e0ddc",
+      "raw_line_id": "319-R05",
+      "raw_offset": 0,
+      "raw_selected": "tm5ř 96c82 b3th3pm32",
+      "current_line_id": "319-R05",
+      "current_full_row": "tm5ř g6c82 b3th3pm32",
+      "broad_native_row_context": [
+        1195,
+        715,
+        1685,
+        790
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/12",
+      "native_record_sha256": "e6f57533afc378481bfdb81a4270bb44069164b6614344ddfaafdfc79daa5007",
+      "raw_line_id": "319-R05",
+      "raw_offset": 3,
+      "raw_selected": "ř",
+      "current_line_id": "319-R05",
+      "current_full_row": "tm5ř g6c82 b3th3pm32",
+      "broad_native_row_context": [
+        1195,
+        715,
+        1685,
+        790
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/13",
+      "native_record_sha256": "273de42d6ec58e76f4ce0ea8224db68a48b0dfa41ec9f87e11106573fe25f9bb",
+      "raw_line_id": "319-R05",
+      "raw_offset": 5,
+      "raw_selected": "9",
+      "current_line_id": "319-R05",
+      "current_full_row": "tm5ř g6c82 b3th3pm32",
+      "broad_native_row_context": [
+        1195,
+        715,
+        1685,
+        790
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/14",
+      "native_record_sha256": "c108f4188d991c53c85f5e3a14a370156eb527eea414e093f332e42737723d4b",
+      "raw_line_id": "319-R06",
+      "raw_offset": 0,
+      "raw_selected": "qbh6f2. fh5832, 2bh4 -",
+      "current_line_id": "319-R06",
+      "current_full_row": "gbh6f2. fh5832, 2bh4 -",
+      "broad_native_row_context": [
+        1195,
+        770,
+        1690,
+        845
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/15",
+      "native_record_sha256": "e62eab48894d2f18788c15ad0b369f7fb96443ec9027037afbcdbc1443eebdc4",
+      "raw_line_id": "319-R06",
+      "raw_offset": 0,
+      "raw_selected": "q",
+      "current_line_id": "319-R06",
+      "current_full_row": "gbh6f2. fh5832, 2bh4 -",
+      "broad_native_row_context": [
+        1195,
+        770,
+        1690,
+        845
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/16",
+      "native_record_sha256": "efee2f112717bd3fa691fc9bd9ef6debc1dcf1fba60f2d28ef043e2ccf9a633d",
+      "raw_line_id": "319-R07",
+      "raw_offset": 0,
+      "raw_selected": "r?m32 6 t832r32 b2c2,",
+      "current_line_id": "319-R07",
+      "current_full_row": "r?m32 6 t832r32 b2c2,",
+      "broad_native_row_context": [
+        1195,
+        820,
+        1685,
+        890
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/17",
+      "native_record_sha256": "dccbe311dbd67b1c7e0ba51f4c839f02090cc2e2b9d0607f444b03cf4f39ef1c",
+      "raw_line_id": "319-R08",
+      "raw_offset": 0,
+      "raw_selected": "m485mq3 n375 c86tq6,",
+      "current_line_id": "319-R08",
+      "current_full_row": "m485mq3 n375 c86tq6,",
+      "broad_native_row_context": [
+        1195,
+        875,
+        1690,
+        940
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/18",
+      "native_record_sha256": "bb2f139ea27d15201a9265efe559d4dd354371a4bf083109fae261343854ff75",
+      "raw_line_id": "319-R08",
+      "raw_offset": 5,
+      "raw_selected": "q",
+      "current_line_id": "319-R08",
+      "current_full_row": "m485mq3 n375 c86tq6,",
+      "broad_native_row_context": [
+        1195,
+        875,
+        1690,
+        940
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/19",
+      "native_record_sha256": "18264a27f146c789ca44941143d8ae0dc16532a6789056932e8bd81dca913e5d",
+      "raw_line_id": "319-R08",
+      "raw_offset": 17,
+      "raw_selected": "q",
+      "current_line_id": "319-R08",
+      "current_full_row": "m485mq3 n375 c86tq6,",
+      "broad_native_row_context": [
+        1195,
+        875,
+        1690,
+        940
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/20",
+      "native_record_sha256": "c7905a5e6597e4d7f7be26d217ed55241118bc8dfbc15ba9dbff14f13b97f977",
+      "raw_line_id": "319-R09",
+      "raw_offset": 0,
+      "raw_selected": "3t df5r3 fqb3n4m6 -",
+      "current_line_id": "319-R09",
+      "current_full_row": "3t df5r3 fgb3n4m6 -",
+      "broad_native_row_context": [
+        1195,
+        925,
+        1690,
+        1000
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/21",
+      "native_record_sha256": "78c6031a718130efdf2945c6a6b04f04e2bdb01e0b86a7ab4ffd56d205a5e1b6",
+      "raw_line_id": "319-R09",
+      "raw_offset": 10,
+      "raw_selected": "q",
+      "current_line_id": "319-R09",
+      "current_full_row": "3t df5r3 fgb3n4m6 -",
+      "broad_native_row_context": [
+        1195,
+        925,
+        1690,
+        1000
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "uncertainty_ledger",
+      "native_pointer": "/raw_preservation/second/raw/uncertainty_ledger/22",
+      "native_record_sha256": "67f815d203656589a2e874857feffe9bbc9184b67841b93894034233205ea017",
+      "raw_line_id": "319-R10",
+      "raw_offset": 0,
+      "raw_selected": "71s4r3 b5b32c5.",
+      "current_line_id": "319-R10",
+      "current_full_row": "71s4 r3 b5b32c5.",
+      "broad_native_row_context": [
+        1230,
+        975,
+        1685,
+        1045
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "mark_ledger",
+      "native_pointer": "/raw_preservation/second/raw/mark_ledger/0",
+      "native_record_sha256": "2f01b9afbbe8273ecb6acb0196d5c69b2afa0f87995e71861086f294dfa2b639",
+      "raw_line_id": "319-R04",
+      "raw_offset": 17,
+      "raw_selected": "ř",
+      "current_line_id": "319-R04",
+      "current_full_row": "85b5. f m57p84gc4ř",
+      "broad_native_row_context": [
+        1200,
+        664,
+        1665,
+        737
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "mark_ledger",
+      "native_pointer": "/raw_preservation/second/raw/mark_ledger/1",
+      "native_record_sha256": "e6f57533afc378481bfdb81a4270bb44069164b6614344ddfaafdfc79daa5007",
+      "raw_line_id": "319-R05",
+      "raw_offset": 3,
+      "raw_selected": "ř",
+      "current_line_id": "319-R05",
+      "current_full_row": "tm5ř g6c82 b3th3pm32",
+      "broad_native_row_context": [
+        1195,
+        715,
+        1685,
+        790
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "mark_ledger",
+      "native_pointer": "/raw_preservation/second/raw/mark_ledger/2",
+      "native_record_sha256": "db40beab1cfe59c5cb4682c9d12d88cfbc12fa0d3f7d0d5900d954dc85fa0630",
+      "raw_line_id": "319-R07",
+      "raw_offset": 8,
+      "raw_selected": "t832r32",
+      "current_line_id": "319-R07",
+      "current_full_row": "r?m32 6 t832r32 b2c2,",
+      "broad_native_row_context": [
+        1195,
+        820,
+        1685,
+        890
+      ],
+      "source_attachment_established": false
+    },
+    {
+      "slot": "second",
+      "native_ledger": "question_role_inventory",
+      "native_pointer": "/raw_preservation/second/raw/question_role_inventory/0",
+      "native_record_sha256": "b9796bc92c64f45a6c5f8e9de094a6442715d08f1ce6d2fbd37f813b885798e0",
+      "raw_line_id": "319-R07",
+      "raw_offset": 1,
+      "raw_selected": "?",
+      "current_line_id": "319-R07",
+      "current_full_row": "r?m32 6 t832r32 b2c2,",
+      "broad_native_row_context": [
+        1195,
+        820,
+        1685,
+        890
+      ],
+      "source_attachment_established": false
+    }
+  ],
+  "comparison_reference": {
+    "file": "../../2026-10-29-antal-review/review.json",
+    "json_pointer": "/cards/320",
+    "canonical_whole_object_sha256": "095d945793b3a1f572651d0d8997b6f6c155f2b58d3b949852c0c21301d8ef4f",
+    "scope": "Reviewed320 g is a visual cue, not an external review of319 or proof of shared writer. Every319 substitution is selected from its own source and local q contrast."
+  },
+  "historical_opposite_face_boundary": {
+    "record": {
+      "card_id": 319,
+      "source": {
+        "card_id": 319,
+        "url": "https://api.hcportal.eu/media/4975/pc_hcp_319_adr.JPG",
+        "sha256": "93b2a2eccb1b5f2203fe6261311a7e635e0189a3684f3f4acf4db7ca0cc7b7fc",
+        "bytes": 1002875,
+        "native_dimensions": [
+          1785,
+          1175
+        ],
+        "catalogue_id": 1638,
+        "face": "address"
+      },
+      "orientation_degrees_ccw": 0,
+      "inspected_region_native_xyxy": [
+        0,
+        0,
+        1785,
+        1175
+      ],
+      "observation": "Complete saved face inspected: conventional printed postal layout, ordinary handwritten address text, stamp/postmarks and publisher marks; no additional continuous encoded message group identified.",
+      "cipher_region_observed": false,
+      "transcription_of_address_or_people": "Not included; no sender identity or postal-date conclusion made."
+    },
+    "canonical_sha256": "ae8b135a1cf6bdaac366d217b9f0019028dfd93b4cf9b911f8b0924e21449a97",
+    "file_sha256": "fdb17cf110ee6ea5302886f72126954dd5766ff9711c863dc3f2d3db29413b33",
+    "commit": "65013ef45d44a49011c2106355987bdb2973f13e"
+  },
+  "current_stage_face_review": {
+    "complete_Picture_and_Address_frames_all_margins_viewed": true,
+    "private_contexts": [
+      {
+        "name": "319-R01",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1215,
+          480,
+          1660,
+          558
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1780,
+          312
+        ],
+        "sha256": "2aa1ba6164feb8c7643fcc2c347c31d6d21515ce2419555346e83f3f505aa2e5"
+      },
+      {
+        "name": "319-R02",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1210,
+          550,
+          1655,
+          617
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1780,
+          268
+        ],
+        "sha256": "f8d33b6524982bd06f7a2c2ecc19f78b76deb2cdbd97a0479938d364abb2cd1c"
+      },
+      {
+        "name": "319-R03",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1200,
+          610,
+          1685,
+          685
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1940,
+          300
+        ],
+        "sha256": "86fdbee6403d1d0d1a5716cd0ef1aa338ca39d2839e3246055d826579bec6f02"
+      },
+      {
+        "name": "319-R04",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1200,
+          664,
+          1665,
+          737
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1860,
+          292
+        ],
+        "sha256": "21fec8ae6bfd832448f9de46c944b749d699c601675170d78b4ccede842868af"
+      },
+      {
+        "name": "319-R05",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1195,
+          715,
+          1685,
+          790
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1960,
+          300
+        ],
+        "sha256": "582c5c0a8ed7f0c2074767088a9ca7bb7f30b6b237f70c1979f09e8df664a0eb"
+      },
+      {
+        "name": "319-R06",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1195,
+          770,
+          1690,
+          845
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1980,
+          300
+        ],
+        "sha256": "8881948bd64c92f45193e81bdbe8ce857e102010156da7751a59c2f3875e1611"
+      },
+      {
+        "name": "319-R07",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1195,
+          820,
+          1685,
+          890
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1960,
+          280
+        ],
+        "sha256": "c85b1e41d7bdce4c7d5a73632894c8d4b920019940bfc1b6273e403379c45b1c"
+      },
+      {
+        "name": "319-R08",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1195,
+          875,
+          1690,
+          940
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1980,
+          260
+        ],
+        "sha256": "38daf13145688a3eb9320687b93260c56cacd32e10e5ef1112f41c0fb5eac75d"
+      },
+      {
+        "name": "319-R09",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1195,
+          925,
+          1690,
+          1000
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1980,
+          300
+        ],
+        "sha256": "c35fed22c7a09525d53bcd95b54775b3267eeea623276f5a5c266d694a6d83c9"
+      },
+      {
+        "name": "319-R10",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1230,
+          975,
+          1685,
+          1045
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1820,
+          280
+        ],
+        "sha256": "87179d0a8a0bc90c3ed4f5a9c87374ed499060e9e084cb9797498f0a07145b36"
+      },
+      {
+        "name": "opening-g",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1215,
+          480,
+          1310,
+          560
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 6,
+        "dimensions": [
+          570,
+          480
+        ],
+        "sha256": "48b172009643b9aa3e67eac9c5e7f8f74f86cc188f831f4ee298247010b642a3"
+      },
+      {
+        "name": "local-closed-q",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1455,
+          475,
+          1560,
+          565
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 6,
+        "dimensions": [
+          630,
+          540
+        ],
+        "sha256": "46463d1f6eee5410406bf17bc7fddc625b069aeb2fa4156035411436e9a81fa0"
+      },
+      {
+        "name": "ji-g",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1600,
+          600,
+          1700,
+          695
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 6,
+        "dimensions": [
+          600,
+          570
+        ],
+        "sha256": "80cb34165bcaec16ffb60105f3781ecec500ad43e47bcf6e4310e6ffbda263e5"
+      },
+      {
+        "name": "nejblizsich",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1335,
+          660,
+          1680,
+          745
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1380,
+          340
+        ],
+        "sha256": "fc06c0d8b48ec7ff2532c2b4d7f9b7055e6ba3771e864d991ee98cd67f1362aa"
+      },
+      {
+        "name": "zaslu",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1330,
+          715,
+          1510,
+          795
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 5,
+        "dimensions": [
+          900,
+          400
+        ],
+        "sha256": "3ae322fbf7a009aa2a7f73ab00de5c18d72997631ff4a70a73b002bbbe10d09c"
+      },
+      {
+        "name": "zpravu",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1190,
+          765,
+          1380,
+          850
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 5,
+        "dimensions": [
+          950,
+          425
+        ],
+        "sha256": "7c74db02be5e708dcf1a40627f99bda90908eb6a5a80de5b3e92e106321920fe"
+      },
+      {
+        "name": "vzpomina",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1415,
+          920,
+          1685,
+          1000
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 4,
+        "dimensions": [
+          1080,
+          320
+        ],
+        "sha256": "8e2963d4b21d2972fe5f76b124de21afe0c8369ae904b2ecaa7911d9308cbe0c"
+      },
+      {
+        "name": "obscured-prefix",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1190,
+          810,
+          1330,
+          900
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 7,
+        "dimensions": [
+          980,
+          630
+        ],
+        "sha256": "4c45d4aedd2515f70e61ad4a2d0eb4770c00806305c26d62df19905dba1ddc2e"
+      },
+      {
+        "name": "initial-arches",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1190,
+          870,
+          1330,
+          945
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 6,
+        "dimensions": [
+          840,
+          450
+        ],
+        "sha256": "fcd1b3afa908d984c6ff79400f96e56e5e9ee4e61e4be6a5f63643589cc48a27"
+      },
+      {
+        "name": "jyci-flags",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1220,
+          965,
+          1450,
+          1055
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 5,
+        "dimensions": [
+          1150,
+          450
+        ],
+        "sha256": "b2d78fa88aa891799c2f83ef84a0224fe70fb51f2c58d2b83136c69f8e01bba3"
+      },
+      {
+        "name": "two-roofs",
+        "face": "Picture",
+        "native_bbox_xyxy": [
+          1200,
+          665,
+          1665,
+          790
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 3,
+        "dimensions": [
+          1395,
+          375
+        ],
+        "sha256": "5df9756bd60a27fd93ed805375cb14c6e1fe3144be4494506ab7de13c565c0af"
+      },
+      {
+        "name": "reviewed320-g",
+        "face": "Picture",
+        "card_id": 320,
+        "native_bbox_xyxy": [
+          555,
+          255,
+          655,
+          340
+        ],
+        "reading_rotation_degrees_clockwise": 0,
+        "scale": 5,
+        "dimensions": [
+          500,
+          425
+        ],
+        "sha256": "a520a694109a2b600430313b893ba8e6c0f5df99e58ac49158decbe4dd04f275",
+        "scope": "Already reviewed 320 source neighbourhood; comparison cue only, not external review of319."
+      }
+    ],
+    "individual_view_timestamps_captured": false,
+    "images_redistributed": false
+  },
+  "preserved_legacy_reading": {
+    "path": "anna-ticha/card-319.md",
+    "sha256": "9bfcc506351cc4d4e37e4ae3bd4aa37308dc6c48d9da8a5fc16f60ffbc9256ed",
+    "commit": "65013ef45d44a49011c2106355987bdb2973f13e"
+  },
+  "report_progress": {
+    "existing_candidates": 137,
+    "descending_pass_working_coverage_ids": [
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386
+    ],
+    "descending_pass_working_coverage_count": 68,
+    "remaining_in_descending_pass_ids": [
+      242,
+      244,
+      249,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318
+    ],
+    "remaining_in_descending_pass": 69,
+    "catalogue_cards": 263,
+    "unique_with_published_reading_including_partial": 154,
+    "without_separate_published_reading": 109,
+    "next_card": 318,
+    "scope": "Working coverage of existing candidates, including384–385 historical batch; not new unique cards or independently solved counts."
+  },
+  "current_json_sha256": "7cf82570e32303929f78889628f27204ff9f00812cdb40ba5f2b665d12780650"
+}

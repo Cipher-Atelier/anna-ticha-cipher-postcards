@@ -3,13 +3,17 @@
 import hashlib,json,re,subprocess,sys
 from functools import lru_cache
 from pathlib import Path
-HERE=Path(__file__).resolve().parent;REPO=HERE.parents[1];PACKAGE=REPO/'research-updates/2026-10-20-confirmed-key-continuation';BASE='ca87d1638103590b59fa38cac3ce7dbdc5c68c5a'
+HERE=Path(__file__).resolve().parent;REPO=HERE.parents[1];PACKAGE=REPO/'research-updates/2026-10-20-confirmed-key-continuation';BASE='ca87d1638103590b59fa38cac3ce7dbdc5c68c5a';SNAPSHOT='65013ef45d44a49011c2106355987bdb2973f13e'
 sys.path.insert(0,str(PACKAGE))
 from decode import decode_text
 from check import check_card,check_package
-load=lambda p:json.loads(p.read_text());sha=lambda b:hashlib.sha256(b).hexdigest();canon=lambda x:sha(json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode())
+sha=lambda b:hashlib.sha256(b).hexdigest();canon=lambda x:sha(json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode())
 @lru_cache(maxsize=None)
 def old(path):return subprocess.check_output(['git','show',BASE+':'+str(path.relative_to(REPO))],cwd=REPO)
+@lru_cache(maxsize=None)
+def at_review(path):return subprocess.check_output(['git','show',SNAPSHOT+':'+str(path.relative_to(REPO))],cwd=REPO)
+@lru_cache(maxsize=None)
+def load(path):return json.loads(at_review(path))
 def walk(value):
  if isinstance(value,dict):
   yield value
@@ -32,8 +36,8 @@ def check():
  totals={};protected={};groups={};before_counts={};all_edits=[]
  expected={320:dict(rows=10,encoded_bodies=200,expanded_letters=203,ch_occurrences=3,unknowns=0),321:dict(rows=5,encoded_bodies=135,expanded_letters=134,ch_occurrences=0,unknowns=1)}
  for n in [320,321]:
-  path=PACKAGE/f'cards/{n}.json';d=load(path);prior=json.loads(old(path));rev=load(PACKAGE/f'revisions/{n}-external-review-20261029.json');text=(path.with_suffix('.md')).read_text()
-  assert rev['base_commit']==BASE and rev['previous_edition']['sha256']==sha(old(path)) and rev['current_json_sha256']==sha(path.read_bytes())
+  path=PACKAGE/f'cards/{n}.json';d=load(path);prior=json.loads(old(path));rev=load(PACKAGE/f'revisions/{n}-external-review-20261029.json');text=at_review(path.with_suffix('.md')).decode()
+  assert rev['base_commit']==BASE and rev['previous_edition']['sha256']==sha(old(path)) and rev['current_json_sha256']==sha(at_review(path))
   assert set(rev['protected_fields'])|set(rev['changed_prior_fields'])==set(prior) and not set(rev['protected_fields'])&set(rev['changed_prior_fields'])
   for k in rev['protected_fields']:assert d[k]==prior[k],(n,k)
   for k in rev['changed_prior_fields']:assert canon(prior[k])==rev['prior_field_hashes'][k]
@@ -74,9 +78,11 @@ def check():
    assert 'DOUvATI'in d['proposed_editorial_czech'] and 'DOUvATI'in d['proposed_english_translation']
   protected[str(n)]=len(rev['protected_fields']);groups[str(n)]=len(rev['source_edits']);all_edits+=rev['source_edits']
  # Exact public key invariance; no v→F or 9→Z assignment has been smuggled in.
- key=load(PACKAGE/'key.json');assert(PACKAGE/'key.json').read_bytes()==old(PACKAGE/'key.json') and 'F'not in key['mapping'].values() and 'v'not in key['mapping']and '9'not in key['mapping']and decode_text('f',notation='pdf204-canonical')['literal']=='V'
- report=check_package(PACKAGE);aggregate={k:sum(c[k]for c in report['cards'].values())for k in ['rows','encoded_bodies','expanded_letters','ch_occurrences','unknowns']};assert len(report['cards'])==137 and aggregate==dict(rows=1493,encoded_bodies=44348,expanded_letters=44435,ch_occurrences=363,unknowns=276)
- table=(PACKAGE/'README.md').read_text()
+ key=load(PACKAGE/'key.json');assert at_review(PACKAGE/'key.json')==old(PACKAGE/'key.json') and 'F'not in key['mapping'].values() and 'v'not in key['mapping']and '9'not in key['mapping']and decode_text('f',notation='pdf204-canonical')['literal']=='V'
+ live=check_package(PACKAGE);assert live['status']=='passed'
+ snapshot_names=subprocess.check_output(['git','ls-tree','-r','--name-only',SNAPSHOT],cwd=REPO).decode().splitlines();snapshot_set=set(snapshot_names)
+ snapshot_cards=[x for x in snapshot_names if re.fullmatch(r'research-updates/2026-10-20-confirmed-key-continuation/cards/\d+\.json',x)];report=dict(cards={Path(x).stem:check_card(load(REPO/x))for x in snapshot_cards});aggregate={k:sum(c[k]for c in report['cards'].values())for k in ['rows','encoded_bodies','expanded_letters','ch_occurrences','unknowns']};assert len(report['cards'])==137 and aggregate==dict(rows=1493,encoded_bodies=44348,expanded_letters=44435,ch_occurrences=363,unknowns=276)
+ table=at_review(PACKAGE/'README.md').decode()
  for n in [320,321]:
   t=expected[n];assert f'| [{n}](cards/{n}.md) | '+ ' | '.join(str(t[k])for k in ['rows','encoded_bodies','expanded_letters','ch_occurrences','unknowns'])+' |' in table
  q=load(PACKAGE/'queue.json');oq=json.loads(old(PACKAGE/'queue.json'))
@@ -89,13 +95,14 @@ def check():
  # The transmitted register is immutable; a README navigation notice alone is allowed.
  submitted=REPO/'research-updates/2026-10-28-hcportal-register'
  for f in submitted.iterdir():
-  if f.is_file()and f.name!='README.md':assert f.read_bytes()==old(f)
+  if f.is_file()and f.name!='README.md'and str(f.relative_to(REPO))in snapshot_set:assert at_review(f)==old(f)
  for f in(PACKAGE/'cards').glob('*'):
-  if f.is_file()and f.stem not in ['320','321']:assert f.read_bytes()==old(f)
+  if f.is_file()and f.stem not in ['320','321']and str(f.relative_to(REPO))in snapshot_set:assert at_review(f)==old(f)
  for f in list((PACKAGE/'revisions').glob('*.json'))+list(PACKAGE.glob('validation*.json')):
-  if f.name not in ['320-external-review-20261029.json','321-external-review-20261029.json']:assert f.read_bytes()==old(f)
+  if f.name not in ['320-external-review-20261029.json','321-external-review-20261029.json']and str(f.relative_to(REPO))in snapshot_set:assert at_review(f)==old(f)
  refs=0
- for f in(PACKAGE/'cards').glob('*.json'):
+ for name in snapshot_cards:
+  f=REPO/name
   for x in walk(load(f)):
    target=PACKAGE/x['file']if isinstance(x.get('file'),str)and x['file'].startswith('cards/')else PACKAGE/'cards'/x['card_file']if isinstance(x.get('card_file'),str)else None
    if target is not None and 'json_pointer'in x:
@@ -103,5 +110,5 @@ def check():
     if 'canonical_whole_object_sha256'in x:assert canon(value)==x['canonical_whole_object_sha256']
     refs+=1
  assert refs==74
- return dict(status='passed',review_date='2026-10-28',integration_date='2026-10-29',current_totals=totals,prior_totals=before_counts,protected_field_counts=protected,edit_groups=groups,source_sign_substitutions=8,source_slot_insertions=1,punctuation_tag_offsets_shifted=1,source_key_changes=0,source_v_unassigned=True,other_candidate_files_unchanged=270,public_protocol_references=refs,submitted_register_data_unchanged=True,historical_revisions_and_QA_unchanged=True,aggregate_totals=aggregate,current_pass_remaining=70,next_card=319,unique_readings_including_partial=154,without_our_separate_reading=109)
+ return dict(status='passed',review_date='2026-10-28',integration_date='2026-10-29',review_snapshot=SNAPSHOT,live_package_replay_status=live['status'],review_snapshot_totals=totals,prior_totals=before_counts,protected_field_counts=protected,edit_groups=groups,source_sign_substitutions=8,source_slot_insertions=1,punctuation_tag_offsets_shifted=1,source_key_changes=0,source_v_unassigned=True,other_candidate_files_unchanged_at_review_snapshot=270,public_protocol_references=refs,submitted_register_data_unchanged=True,historical_revisions_and_QA_unchanged=True,aggregate_totals=aggregate,progress_at_review_snapshot=dict(remaining=70,next_card=319,readings_including_partial=154,without_separate_reading=109))
 if __name__=='__main__':print(json.dumps(check(),ensure_ascii=False,indent=2))
