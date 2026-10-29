@@ -24,7 +24,8 @@ You can read the proposals in GitHub without installing anything. Start with one
 
 | What you want | Open this |
 | --- | --- |
-| Latest working reading | [Card 320: Czech proposal and English interpretation](research-updates/2026-10-20-confirmed-key-continuation/cards/320.md#complete-working-reading--28-october-2026) |
+| External manual review | [Cards 320 and 321](research-updates/2026-10-29-antal-review/README.md), corrections and remaining unknown v |
+| Latest working reading | [Card 320: Czech proposal and English interpretation](research-updates/2026-10-20-confirmed-key-continuation/cards/320.md#reviewed-working-reading--29-october-2026) |
 | A particular postcard | [Complete card index](anna-ticha/readings.md), or the [137 current candidates and counters](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings) |
 | Collection totals and remaining work | [Review overview](REVIEW_STATUS.md): 154 of 263 cards have a reading here, including partial proposals; 109 have none |
 | Metadata for the HCPortal AI register | [154-card submission package](research-updates/2026-10-28-hcportal-register/README.md), with direct text links and CSV/JSON exports |

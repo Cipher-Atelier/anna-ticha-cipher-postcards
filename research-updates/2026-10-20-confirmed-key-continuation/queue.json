@@ -3679,11 +3679,11 @@
         1639
       ],
       "source_status": "original available privately; saved source SHA256 verified",
-      "transcription_status": "Ten upright rows have connected Czech/English working text. Source/tags/replays unchanged: 200 slots/198 known letters/three existing CH/five unassigned 9, zero masks. Nine exact restoration spans/ten language operations, including five 9→Z conjectures and H→M/Y→I/M→B repairs, no source/key value assignment. Actual first/second wrapper/raw/strict_public_projection schema/zero omissions and whole QA18 preserved. Return/roof/interference/name/date alternatives and isolated Address mark remain unresolved.",
-      "decode_status": "Unchanged 200 slots/198 known letters/three existing CH/five unassigned 9; all nine restoration spans are language only.",
+      "transcription_status": "Externally manually reviewed transcription supplied by Eugen Antal, 28 October; incorporated 29 October.",
+      "decode_status": "200 slots/203 known letters/three CH/zero unknowns; eight sign substitutions, no key change.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
-      "external_confirmation": "not established for this card in this package",
-      "next_action": "Another reader needed for return/roof families, stamp interference, language/name/date alternatives and isolated Address mark. See validation-source-completion-320.json; next 319.",
+      "external_confirmation": "Eugen Antal explicitly supplied a full manually checked transcription and Czech reading; limited to this selected reading, not historical identity/date/completeness or other cards.",
+      "next_action": "Retain historical alternatives and address/roof/identity/date limits. No selected unknowns remain; further corrections require source-specific evidence.",
       "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1639",
       "catalogue_binding_evidence": "catalogue-records.json explicit returned record name/id",
       "official_solution_status_label": "Not solved",
@@ -3702,12 +3702,13 @@
       "selected_totals": {
         "rows": 10,
         "encoded_bodies": 200,
-        "expanded_letters": 198,
+        "expanded_letters": 203,
         "ch_occurrences": 3,
-        "unknowns": 5
+        "unknowns": 0
       },
       "artifacts": {
-        "source_completion_revision": "revisions/320-source-completion.json"
+        "source_completion_revision": "revisions/320-source-completion.json",
+        "external_review_revision": "revisions/320-external-review-20261029.json"
       }
     },
     {
@@ -3722,11 +3723,11 @@
         1640
       ],
       "source_status": "original available privately; saved source SHA256 verified",
-      "transcription_status": "Five rows read CW270 now have connected Czech/English working text. All source strings/tags/replays unchanged: 134 slots/133 known letters/zero CH/one unassigned v, zero masks. DOUvATI→DOUFATI is language-only v→F conjecture; source f maps V, no supplied F key or v assignment. Three clause joins/six exact spans; name-like forms/spring/event interpretations qualified. Actual split raw/record/strict-metadata/strict-row schema/zero omissions retained. Whole QA18 zero locator/mechanical/tag/schema/timing errors/six scope findings/two target records unchanged. Pointed-form/staining and isolated Address mark remain unresolved; no new incident or QA19/20 import.",
-      "decode_status": "Unchanged 134 slots/133 known letters/zero CH/one unassigned v. DOUvATI→DOUFATI is language only; no F key/source assignment.",
+      "transcription_status": "Externally manually reviewed transcription supplied by Eugen Antal, 28 October; incorporated 29 October.",
+      "decode_status": "135 slots/134 known letters/zero CH/one unassigned v; added 4/I in ANDULIKO. Czech doufati confirmed, no v→F mapping.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
-      "external_confirmation": "not established for this card in this package",
-      "next_action": "Another reader needed for pointed v, granular staining/source families and isolated Address mark; no source value/authorship/numeral role assigned. QA18 zero locator defects/six scope findings/two target records retained. See validation-source-completion-321.json; next 320.",
+      "external_confirmation": "Eugen Antal supplied a manually checked transcription/Czech reading and confirmed doufati. His transcription still retains unassigned v; word confirmation does not establish glyph-to-F value.",
+      "next_action": "Keep v unassigned and request a source/key-value clarification when a small further review batch is ready; no extra package is required now.",
       "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1640",
       "catalogue_binding_evidence": "catalogue-records.json explicit returned record name/id",
       "official_solution_status_label": "Not solved",
@@ -3744,13 +3745,14 @@
       "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit.",
       "selected_totals": {
         "rows": 5,
-        "encoded_bodies": 134,
-        "expanded_letters": 133,
+        "encoded_bodies": 135,
+        "expanded_letters": 134,
         "ch_occurrences": 0,
         "unknowns": 1
       },
       "artifacts": {
-        "source_completion_revision": "revisions/321-source-completion.json"
+        "source_completion_revision": "revisions/321-source-completion.json",
+        "external_review_revision": "revisions/321-external-review-20261029.json"
       }
     },
     {
@@ -7584,7 +7586,7 @@
       385,
       386
     ],
-    "stage": "320–386 have editorial working coverage. Ten upright rows have connected Czech/English working text. Source/tags/replays unchanged: 200 slots/198 known letters/three existing CH/five unassigned 9, zero masks. Nine exact restoration spans/ten language operations, including five 9→Z conjectures and H→M/Y→I/M→B repairs, no source/key value assignment. Actual first/second wrapper/raw/strict_public_projection schema/zero omissions and whole QA18 preserved. Return/roof/interference/name/date alternatives and isolated Address mark remain unresolved. Proceed with provisional 319; new 387–390 held.",
+    "stage": "External manual review of 320/321 integrated; 321 v remains unassigned. Working coverage 320–386, 70 pending/next 319; 108 new cards planned by Eugen Antal and team.",
     "next_new_card_ids_held": [
       387,
       388,
@@ -7593,8 +7595,6 @@
     ],
     "limits": "Completion priority does not certify full source decipherment, new acquisition or external confirmation.",
     "awaiting_source_peer_review": [
-      320,
-      321,
       322,
       323,
       324,
@@ -7811,7 +7811,11 @@
       "without_separate_published_reading": 109,
       "next_card": 319,
       "scope": "Deeper working coverage of existing candidates, including historical batch384–385; distinct from new-card coverage/independently solved counts."
-    }
+    },
+    "externally_manually_reviewed": [
+      320,
+      321
+    ]
   },
   "external_coordination": {
     "announced_date": "2026-10-28",

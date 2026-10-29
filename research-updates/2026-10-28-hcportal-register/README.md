@@ -1,5 +1,7 @@
 # Anna Tichá: HCPortal register submission
 
+**Later update — 29 October:** [Eugen Antal’s manual review of 320/321](../2026-10-29-antal-review/README.md) has been incorporated into the current readers. The CSV/JSON/index below remain the exact submitted 28 October snapshot. Eugen reports the submitted entries added to the AI register; database updates are gradual. Inclusion is separate from validation.
+
 Prepared 28 October 2026. This package supplies the six fields requested for each individual reading: date, record name, recorded AI model/version, AI role, use of AI agents, and a direct URL containing the proposed text.
 
 **154 distinct postcards have published readings, including partial proposals: 137 current canonical-key candidates and 17 legacy-only reports.** Card 204 has a separate external validity/key-consistency confirmation from 20 October. The other entries remain provisional or historical partial readings. The register curator can classify their eligibility individually.

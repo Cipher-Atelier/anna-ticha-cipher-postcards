@@ -1,0 +1,235 @@
+{
+  "integration_date": "2026-10-29",
+  "recorded_at_utc": "2026-10-29T12:15:38.469029+00:00",
+  "base_commit": "ca87d1638103590b59fa38cac3ce7dbdc5c68c5a",
+  "status": "passed bounded review-source edit/replay/span/preservation/protocol/navigation/regression/full-manifest checks",
+  "scope": "Two attributed manual transcriptions/Czech readings, not blanket validation of the collection",
+  "audit": {
+    "status": "passed",
+    "registry_snapshot_check": "passed",
+    "legacy_reports_and_uncertainty_readers_unchanged": true,
+    "earlier_source_review_history_unchanged": true,
+    "closed_package_details": 2,
+    "local_markdown_links": 2310,
+    "markdown_files": 233,
+    "bad_local_links_or_anchors": 0,
+    "regression_tests": 100,
+    "decoder_tests": 32,
+    "reused_private_original_hashes": [
+      {
+        "card_id": 320,
+        "source_sha256": "a2ad9a95d6992ebccb76c76998106e40311d1209e0635d3054fd3af09f204b72",
+        "private_original_reused": true
+      },
+      {
+        "card_id": 321,
+        "source_sha256": "596ec25e69cea9042eeb2d7323635a68b94a6194c0a2f79e835b1a64830f8ab2",
+        "private_original_reused": true
+      }
+    ],
+    "private_crop_contexts_viewed": 3,
+    "new_image_acquisitions": 0,
+    "scope": "Current selection adopts attributed human manual transcription; three existing row contexts viewed nonblind, no new full-face/blind/ink-boundary measurement claimed.",
+    "checker": {
+      "status": "passed",
+      "review_date": "2026-10-28",
+      "integration_date": "2026-10-29",
+      "current_totals": {
+        "320": {
+          "rows": 10,
+          "encoded_bodies": 200,
+          "expanded_letters": 203,
+          "ch_occurrences": 3,
+          "unknowns": 0
+        },
+        "321": {
+          "rows": 5,
+          "encoded_bodies": 135,
+          "expanded_letters": 134,
+          "ch_occurrences": 0,
+          "unknowns": 1
+        }
+      },
+      "prior_totals": {
+        "320": {
+          "rows": 10,
+          "encoded_bodies": 200,
+          "expanded_letters": 198,
+          "ch_occurrences": 3,
+          "unknowns": 5
+        },
+        "321": {
+          "rows": 5,
+          "encoded_bodies": 134,
+          "expanded_letters": 133,
+          "ch_occurrences": 0,
+          "unknowns": 1
+        }
+      },
+      "protected_field_counts": {
+        "320": 31,
+        "321": 38
+      },
+      "edit_groups": {
+        "320": 7,
+        "321": 1
+      },
+      "source_sign_substitutions": 8,
+      "source_slot_insertions": 1,
+      "punctuation_tag_offsets_shifted": 1,
+      "source_key_changes": 0,
+      "source_v_unassigned": true,
+      "other_candidate_files_unchanged": 270,
+      "public_protocol_references": 74,
+      "submitted_register_data_unchanged": true,
+      "historical_revisions_and_QA_unchanged": true,
+      "aggregate_totals": {
+        "rows": 1493,
+        "encoded_bodies": 44348,
+        "expanded_letters": 44435,
+        "ch_occurrences": 363,
+        "unknowns": 276
+      },
+      "current_pass_remaining": 70,
+      "next_card": 319,
+      "unique_readings_including_partial": 154,
+      "without_our_separate_reading": 109
+    }
+  },
+  "artifact_sha256": {
+    "research-updates/2026-10-29-antal-review/review.json": "a0d4c1e4505b0a9051e96360329611b687622ae26ded90f7dc704544317e55a4",
+    "research-updates/2026-10-29-antal-review/README.md": "6e862273ee41b85ed0a236c95fd04bf777f3c29ef6c73e52ef96f824b840c591",
+    "research-updates/2026-10-29-antal-review/check.py": "eea3dfa0086d838e47432c9ec18d3785c14526bbba6ed8a3ff076473000e4f6d",
+    "research-updates/2026-10-20-confirmed-key-continuation/cards/320.json": "dbd1432abd86851bfad08acb605dcb072f282f64b32200480f8aacf5f3587b1e",
+    "research-updates/2026-10-20-confirmed-key-continuation/cards/320.md": "f10f79058d7edf58116dba556bf1cb4f670b7dee869533e895939763359e250e",
+    "research-updates/2026-10-20-confirmed-key-continuation/revisions/320-external-review-20261029.json": "0eb2b695b13d112ebd3c89280c0babe2524ec4bc90cbfec43e218956bf36ba98",
+    "research-updates/2026-10-20-confirmed-key-continuation/cards/321.json": "6cbe174745ea9a0c13e75201bbf1062c3b31063bfecb32bb8291eb617ae46f4c",
+    "research-updates/2026-10-20-confirmed-key-continuation/cards/321.md": "36451988c5ae1926ed04683c74e91fa0fed5d0f0632d212c509d460f6cef35cb",
+    "research-updates/2026-10-20-confirmed-key-continuation/revisions/321-external-review-20261029.json": "560838aeb69a6b3271b47fafe6766f229873df3839097cceeaa89b6111a71acb"
+  },
+  "actual_command_receipts": [
+    {
+      "command": "python3 -m unittest discover -s verification/tests -v",
+      "exit_code": 0,
+      "result": "100 tests passed"
+    },
+    {
+      "command": "python3 -m unittest discover -s research-updates/2026-10-20-confirmed-key-continuation -p test_decode.py -v",
+      "exit_code": 0,
+      "result": "32 tests passed"
+    },
+    {
+      "command": "python3 research-updates/2026-10-29-antal-review/check.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "review_date": "2026-10-28",
+        "integration_date": "2026-10-29",
+        "current_totals": {
+          "320": {
+            "rows": 10,
+            "encoded_bodies": 200,
+            "expanded_letters": 203,
+            "ch_occurrences": 3,
+            "unknowns": 0
+          },
+          "321": {
+            "rows": 5,
+            "encoded_bodies": 135,
+            "expanded_letters": 134,
+            "ch_occurrences": 0,
+            "unknowns": 1
+          }
+        },
+        "prior_totals": {
+          "320": {
+            "rows": 10,
+            "encoded_bodies": 200,
+            "expanded_letters": 198,
+            "ch_occurrences": 3,
+            "unknowns": 5
+          },
+          "321": {
+            "rows": 5,
+            "encoded_bodies": 134,
+            "expanded_letters": 133,
+            "ch_occurrences": 0,
+            "unknowns": 1
+          }
+        },
+        "protected_field_counts": {
+          "320": 31,
+          "321": 38
+        },
+        "edit_groups": {
+          "320": 7,
+          "321": 1
+        },
+        "source_sign_substitutions": 8,
+        "source_slot_insertions": 1,
+        "punctuation_tag_offsets_shifted": 1,
+        "source_key_changes": 0,
+        "source_v_unassigned": true,
+        "other_candidate_files_unchanged": 270,
+        "public_protocol_references": 74,
+        "submitted_register_data_unchanged": true,
+        "historical_revisions_and_QA_unchanged": true,
+        "aggregate_totals": {
+          "rows": 1493,
+          "encoded_bodies": 44348,
+          "expanded_letters": 44435,
+          "ch_occurrences": 363,
+          "unknowns": 276
+        },
+        "current_pass_remaining": 70,
+        "next_card": 319,
+        "unique_readings_including_partial": 154,
+        "without_our_separate_reading": 109
+      }
+    },
+    {
+      "command": "python3 research-updates/2026-10-28-hcportal-register/check.py",
+      "exit_code": 0,
+      "result": "Immutable submitted snapshot passed"
+    },
+    {
+      "command": "private preservation/navigation/source-hash audit.py",
+      "exit_code": 0,
+      "result": "2310 local links passed; dated histories/register data and 270 other candidate files unchanged"
+    },
+    {
+      "command": "python3 verification/check_all.py",
+      "exit_code": 0,
+      "result": {
+        "status": "passed",
+        "files_checked": 1035,
+        "limits": [
+          "Bounded mechanical replay only; no source-image review or full search rerun.",
+          "Coverage is not accuracy; historical truth and priority are not certified."
+        ]
+      }
+    }
+  ],
+  "review": {
+    "actual_git_diff_reviewed": true,
+    "reviewer": "same-root implementation/diff review; external reading review separately attributed to Eugen Antal",
+    "findings": [
+      "320 adopts eight source-sign substitutions across seven edit groups; 200 slots/203 known letters/three CH/zero unknowns. Earlier 9→Z/H→M/Y→I/M→B prose repairs are retired into dated history, not turned into generic mappings.",
+      "321 adds one 4/I to ANDULIKO and shifts its written-exclamation tag offset 38→39; 135 slots/134 known letters/one unassigned v. Czech doufati confirmed, but reviewer source retains v. No F key value or source f→F normalization.",
+      "Current uncertainty/coverage/segmentation spans follow reviewed selections. Original native raw/strict/protocol/QA18/source/date/address records retain their historical scope. Source-completion context bundles remain available through pinned previous editions and revisions.",
+      "English is our interpretation, textual names do not establish people, and physical body counts remain null. Three reused private row contexts viewed; no new acquisition or blind/full-source measurement claimed.",
+      "Other candidates and historical records remain unchanged. The submitted 28 October CSV/JSON/index stay pinned; only an overview notice links the later review. Queue counts/source arrays remain, 320/321 removed from awaiting-peer list and explicitly marked manually reviewed.",
+      "132 tests, exact review checker, old register checker, 74 protocol references and 2310 local links passed. Manifest/full verification and whitespace receipt below."
+    ],
+    "disposition": "Publish adopted manual corrections with full provenance and remaining v/F limitation; no blocker within this bounded scope."
+  },
+  "progress": {
+    "working_coverage": 67,
+    "remaining_in_descending_pass": 70,
+    "next_card": 319,
+    "published_readings_including_partial": 154,
+    "catalogue_total": 263,
+    "without_our_separate_reading": 109,
+    "planned_team_cards": 108
+  }
+}

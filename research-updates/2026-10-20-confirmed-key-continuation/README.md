@@ -82,8 +82,8 @@ The selected source regions of all 137 candidates have been inspected: 134 Pictu
 | [317](cards/317.md) | 2 | 28 | 28 | 0 | 0 |
 | [318](cards/318.md) | 7 | 184 | 183 | 0 | 1 |
 | [319](cards/319.md) | 10 | 153 | 148 | 2 | 7 |
-| [320](cards/320.md) | 10 | 200 | 198 | 3 | 5 |
-| [321](cards/321.md) | 5 | 134 | 133 | 0 | 1 |
+| [320](cards/320.md) | 10 | 200 | 203 | 3 | 0 |
+| [321](cards/321.md) | 5 | 135 | 134 | 0 | 1 |
 | [322](cards/322.md) | 14 | 195 | 196 | 1 | 0 |
 | [323](cards/323.md) | 16 | 336 | 330 | 3 | 9 |
 | [324](cards/324.md) | 8 | 166 | 164 | 0 | 2 |
@@ -162,7 +162,22 @@ For 351–354, both original actors’ whole prefreeze complete-face boundary re
 
 For 355–358, complete original Address faces and all margins have bounded observations from both original source contexts and root. No clear separate candidate cipher run was identified in those visible frames; erased, obscured or unseen material remains outside this observation. Ordinary address/person/postal/date-like writing is excluded without transcription. Whole native eleven-key Address metadata is retained with actual FILE records separately. The root source thread acquired eight originals once each: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts.
 
-## Current source completion — card 320
+<a id="current-source-completion--card-320"></a>
+
+## External manual review — cards 320 and 321
+
+[Review and answers](../2026-10-29-antal-review/README.md) · [Derived reviewer transcription](../2026-10-29-antal-review/review.json) · [Validation](../2026-10-29-antal-review/validation.json)
+
+Eugen Antal supplied manually checked transcriptions and Czech readings for 320 and 321 on 28 October, incorporated 29 October. Card 320 has eight source-sign substitutions: 200 slots/203 known letters/three CH/zero unknowns. Card 321 adds one 4/I in ANDULIKO: 135 slots/134 known letters/zero CH/one unassigned v. Czech doufati confirmed; no v→F key assignment. Earlier raw readings, key, QA and dated snapshots retained; review does not authenticate identity/date or validate the other candidates.
+
+Read the updated [320](cards/320.md#reviewed-working-reading--29-october-2026) and [321](cards/321.md#reviewed-working-reading--29-october-2026). The seven 320 edit groups contain eight sign substitutions. The 321 insertion also shifts the written-exclamation tag by one position; its DOUvATI remains literal, with doufati confirmed as Czech wording only. No changes to other cards or generic source normalization.
+
+The [submitted register snapshot](../2026-10-28-hcportal-register/README.md) remains pinned to its original 28 October texts. Eugen reports the submitted records added to the AI register; database updates remain gradual. Register inclusion is distinct from manual review. The planned 108 team cards and our 70 pending deeper reviews (next 319) are unchanged.
+
+<details>
+<summary>Earlier source reviews and publication checkpoints</summary>
+
+## Historical source completion — card 320
 
 [320](cards/320.md#complete-working-reading--28-october-2026) now has an upright ten-row working reading. The proposed message thanks the recipient, wishes pleasant holidays and promises a letter afterwards. All five unknown 9 symbols stay visible in bracketed language proposals.
 
@@ -187,9 +202,6 @@ Two fresh anonymous GET200 originals match pinned hashes, no redirects/retries. 
 Previous whole JSON/Markdown and unchanged legacy 320 report pinned by Git/blob/SHA256. Initial reconciliation, QA18 and older editorial ledgers remain historical; dated addendum does not certify source completeness. Earlier key-label correction addendum unchanged. Working-coverage counts distinguish deeper review from unique published readings including partial and independently solved cards.
 
 **Remaining in descending completion pass: 70 of 137 existing candidates; 67 (320–386) have working coverage. Collection-wide 109 of 263 lack a separate published reading; 154 have one including partial.** Counts are distinct from independently solved cards. See the [card](cards/320.md), [revision](revisions/320-source-completion.json) and [validation](validation-source-completion-320.json). Next deeper review: [319](cards/319.md). New 387–390 held.
-
-<details>
-<summary>Earlier source reviews and publication checkpoints</summary>
 
 ## Historical source completion — card 321
 
