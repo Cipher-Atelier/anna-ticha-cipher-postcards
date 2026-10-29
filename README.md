@@ -9,20 +9,20 @@ Research by Maxim Egorov on personal postcards written in cipher, with proposed 
 
 ## Current status
 
-Updated 29 October 2026. You can read the [latest working text, card 318](research-updates/2026-10-20-confirmed-key-continuation/cards/318.md#complete-working-reading--29-october-2026), directly in GitHub; no software setup is needed.
+Updated 29 October 2026. You can read the [latest working text, card 317](research-updates/2026-10-20-confirmed-key-continuation/cards/317.md#complete-working-reading--29-october-2026), directly in GitHub; no software setup is needed.
 
 | Status | Scope and evidence |
 | --- | --- |
 | Reported external check | [Card 204](anna-ticha/card-204.md): the author reports manual validation of its reading on 20 October. The [original diplomatic text, editorial Czech, English translation and uncertainty ledger](anna-ticha/card-204.md#diplomatic-reading) are published with their alternatives; this is not a claim of blind independent reconstruction. |
 | External manual review, 28 October | [Cards 320 and 321](research-updates/2026-10-29-antal-review/README.md): reviewed transcriptions and Czech wording, with corrections incorporated on 29 October. The source sign v in 321 remains unassigned; this review does not validate other cards. |
-| Current candidate readings | [137 canonical-key research candidates](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings), each with literal, proposed Czech and English layers. The latest source review is [318](research-updates/2026-10-20-confirmed-key-continuation/cards/318.md); cards 318–386 have editorial working coverage with remaining uncertainties. The latest addition of new card numbers was 383–386 on 22 October. Two stored related AI readings for the earlier 121 candidates, or one key-visible reading for 371–386, do not constitute external confirmation. External manual review of 320/321 is recorded separately. None is declared solved. |
+| Current candidate readings | [137 canonical-key research candidates](research-updates/2026-10-20-confirmed-key-continuation/README.md#candidate-readings), each with literal, proposed Czech and English layers. The latest source review is [317](research-updates/2026-10-20-confirmed-key-continuation/cards/317.md); cards 317–386 have editorial working coverage with remaining uncertainties. The latest addition of new card numbers was 383–386 on 22 October. Two stored related AI readings for the earlier 121 candidates, or one key-visible reading for 371–386, do not constitute external confirmation. External manual review of 320/321 is recorded separately. None is declared solved. |
 | Partial readings | [37 preserved card reports](anna-ticha/readings.md#preserved-card-reports). Card 199 has the most complete public positional package: 532 positions, 522 mapped, ten unknown. Historical reports for cards 205 and 323 remain partial/conditional; the new 21 October canonical candidate for 323 is a separate record in the continuation package. |
 | Conditional analysis | [Four later Russian readers](research-updates/README.md#four-russian-readers) and later graphical audits are collected in the audit index; [PR #19](https://github.com/Cipher-Atelier/anna-ticha-cipher-postcards/pull/19) records their publication. A historical registry of 71 conditional reports is not 71 solved cards or a public 71-card reader index. |
 | Archived methodology | The [six-card study](anna-ticha/article.md), [saved literals](anna-ticha/saved-six-card-literals.md), [key snapshot](anna-ticha/key-and-rules.md) and [website updates through 5 October](anna-ticha/updates.md) preserve their original stages. Read them with the [later qualifications](research-updates/README.md). |
 
 Card 460 belongs to another team’s comparison: the author reports consistency with that team’s reconstructed key, not a solve produced here. The reported check does not validate the whole collection. **Coverage measures mapped positions, not verified accuracy.**
 
-The next active source review is [card 317](research-updates/2026-10-20-confirmed-key-continuation/cards/317.md). The [official-catalogue inventory and 263-record queue](research-updates/2026-10-20-confirmed-key-continuation/README.md#catalogue-and-next-work) track source availability and research stages; they do not represent 263 decipherments.
+The next active source review is [card 316](research-updates/2026-10-20-confirmed-key-continuation/cards/316.md). The [official-catalogue inventory and 263-record queue](research-updates/2026-10-20-confirmed-key-continuation/README.md#catalogue-and-next-work) track source availability and research stages; they do not represent 263 decipherments.
 
 ## Reading coverage
 

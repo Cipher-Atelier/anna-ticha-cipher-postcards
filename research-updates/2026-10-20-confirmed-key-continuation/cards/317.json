@@ -1,7 +1,7 @@
 {
   "card_id": "317",
   "notation": "pdf204-canonical",
-  "status": "Partial proposed reading; related-AI nonblind curation; investigation continues.",
+  "status": "Provisional complete two-row working reading after source reinspection; all selected signs retained, no unknown masks or language repairs, signature/date and contour alternatives remain.",
   "source": {
     "url": "https://api.hcportal.eu/media/4968/pc_hcp_317_pic.JPG",
     "sha256": "845cd72496ca19173ff8bf924863b165fc58fa591ef6f4ab6e4d49846ec7d09d",
@@ -807,14 +807,17 @@
         1080
       ],
       "source_visual_notes": [
-        "Whole-source frame contextual row bounds; not exact ink/body segmentation or ownership proof."
+        "Whole-source frame contextual row bounds; not exact ink/body segmentation or ownership proof.",
+        "The heavily retraced first body retains an upper loop and long descending stem, followed by a distinct taller h. Keep one provisional f, with unknown/overlapping-stroke alternatives; no added body. Ascending b, open c and closed d/forked4 retain their local alternatives."
       ],
       "physical_encoded_body_count": null,
       "literal": "VRELOU PUSU TI",
       "encoded_bodies": 12,
       "expanded_letters": 12,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "Vřelou pusu Ti",
+      "proposed_english": "A warm kiss is sent to you by"
     },
     {
       "line_id": "317-R02",
@@ -838,14 +841,17 @@
         1080
       ],
       "source_visual_notes": [
-        "Whole-source frame contextual row bounds; not exact ink/body segmentation or ownership proof."
+        "Whole-source frame contextual row bounds; not exact ink/body segmentation or ownership proof.",
+        "Ascending b forms, closed oval d, descending f/7 and final open c with separate low stop support the retained selection. Terminal return/stop ownership and b/p, d/t, c/s alternatives remain; PEPOUS is a source form, not an identified person."
       ],
       "physical_encoded_body_count": null,
       "literal": "POSILA TVUJ PEPOUS.",
       "encoded_bodies": 16,
       "expanded_letters": 16,
       "ch_occurrences": 0,
-      "unknowns": []
+      "unknowns": [],
+      "proposed_czech": "posílá Tvůj [PEPOUS; neověřený podpis].",
+      "proposed_english": "your [PEPOUS; unverified signature]."
     }
   ],
   "uncertainty_ledger": [
@@ -1157,9 +1163,12 @@
   ],
   "unselected_paratext": [],
   "limits": [
-    "Two related AI/key-visible source-only assigned readings, both with inherited OTHER-card context, then nonblind curation; no cognitive/human/external/third blind confirmation.",
-    "No authenticated names, authorship, date/calendar, identity, imagery symbolism or cross-margin narrative. Exact native/read geometry remains contextual, not ink segmentation or ownership proof.",
-    "No new mapping, general roof rule or fluent source normalization; repairs and object/name/division proposals explicit."
+    "One two-row block is read after a 90° clockwise rotation. Both complete original faces and all margins plus six enlarged/rotated Picture contexts were viewed privately. Printed poem, image and separate ordinary date writing are excluded from ciphertext. No additional continuous cipher run recognized on the visible Address face; a bounded negative observation only.",
+    "All source strings, tags, geometry, key and decoder output are unchanged: two rows, 28 selected notation slots/28 known emitted letters/zero CH/zero unknowns. No substantive language repair. Upper-loop/long-stem f, h/r, b/p, d/t, 1/4 and c/s alternatives remain; the thick initial retrace is not counted as a proven second body. Physical body count remains null. Zero masks does not certify source accuracy or completeness.",
+    "The source form PEPOUS remains an unverified signature. Ordinary accents and grammatical English word order belong to editorial interpretation; no author identity, full personal name or shared authorship inferred. The separate visual date candidate 6./V.1901. is preserved from both native records without calendar/postmark authentication or encoded-date conversion.",
+    "The original first_raw/first_record and blind_raw/blind_record metadata schemas, native rows, original FILE hashes, source-only protocol claims, initial reconciliation and QA17 remain unchanged. Wrapper metadata and separately preserved raw objects retain distinct hash scopes. Four native strict rows/eight inline object hashes and fourteen native ledger references checked. Original raw/strict FILE bytes not reread.",
+    "QA17 keeps the one mechanical/span/locator defect on FIRST 315, zero strict-replay/source-tag/schema errors and two separate paired formal preflight timing exceptions. Per-card preflights and both-raw-before-own-decode core barriers passed. The date supplement corrects four to six reading entries, not six physical dates. The target 317 finding remains contour-and-ordinary-date limits; no blanket zero-error or newly repaired incident claim.",
+    "This source/key/literal/language-visible same-root AI-assisted review is nonblind and not external confirmation. Eugen Antal’s manual review of 320/321 does not cover 317. Both fresh anonymous GET200 originals match their pinned hashes with no redirect/retry. Other candidates, transmitted register, expert-review package and dated receipts remain unchanged."
   ],
   "region_inventory": [
     {
@@ -1441,5 +1450,6 @@
       ],
       "scope": "Current metadata readability only after snapshot freeze; no source, raw, strict, selected, counter, editorial or QA-result change. Immutable snapshot remains unchanged."
     }
-  ]
+  ],
+  "source_completion_revision": "../revisions/317-source-completion.json"
 }
