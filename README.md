@@ -30,6 +30,12 @@ For HCPortal submission, open the [154-card register package](research-updates/2
 
 **263 catalogue records; 154 cards with a published reading, including partial proposals; 109 without a reading published here.** The 154 are 137 current candidates plus 37 earlier reports, minus 21 overlapping cards, plus card 204. This is reading coverage, not a solved-card count. See the [review overview](REVIEW_STATUS.md) for the breakdown, remaining gaps and review priorities.
 
+## HCPortal contribution and external review
+
+**154 entries in [HCPortal’s AI decipherments register](https://ai.hcportal.eu/register/?q=Maxim+Egorov&size=all#register) credit “Maxim Egorov / Cipher-Atelier”**, linking to our readings and documenting the methods used (checked 30 October 2026). [HCPortal](https://hcportal.eu/about.html) is a historical-cryptology resource developed since 2016, providing databases, analysis tools and educational materials. The [submitted register package](research-updates/2026-10-28-hcportal-register/README.md) preserves the original submission.
+
+[Eugen Antal](https://hcportal.eu/contributors.html) of the Slovak University of Technology in Bratislava manually checked the transcriptions and Czech readings of **cards 320 and 321** on 28 October. His corrections were incorporated on 29 October; the [review record](research-updates/2026-10-29-antal-review/README.md) documents the changes and unresolved points. Register inclusion credits the contribution; it does not validate all 154 readings, which include partial and provisional proposals.
+
 ## Start here
 
 1. **Overview:** read the status above and the [plain-language reading guide](READING_GUIDE.md).
