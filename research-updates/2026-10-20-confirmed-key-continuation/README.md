@@ -2,7 +2,7 @@
 
 The unchanged supplied 204/460 key has been applied to **137 current candidates: 242, 244, 249 and 253–386**. Selected faces are 134 Picture sides and the Address sides of 332, 338 and 339. All remain research candidates; none is declared solved.
 
-For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 314](#current-source-completion--card-314), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
+For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 313](#current-source-completion--card-313), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
 
 The earlier 121 candidates retain two frozen related AI source records; 371–386 have one key-visible source reading each, followed by same-context nonblind review. Neither stage is independent human/external confirmation.
 
@@ -161,6 +161,16 @@ The [address-face boundary audit](address-face-audit.json) records ordinary GETs
 For 351–354, both original actors’ whole prefreeze complete-face boundary records, whole native Address metadata and actual root whole-original observations are retained separately. Each complete Address side and all margins has a bounded negative observation for an additional continuous encoded message; ordinary address/person/postal/date-like writing is excluded without transcription. The eight originals were acquired by the root source thread through exact saved catalogue URLs: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. These visible-source observations do not establish absence of erased/obscured ink, exact intended-body bounds, modifier ownership, physical segmentation/counts, identity or chronology.
 
 For 355–358, complete original Address faces and all margins have bounded observations from both original source contexts and root. No clear separate candidate cipher run was identified in those visible frames; erased, obscured or unseen material remains outside this observation. Ordinary address/person/postal/date-like writing is excluded without transcription. Whole native eleven-key Address metadata is retained with actual FILE records separately. The root source thread acquired eight originals once each: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts.
+
+## Current source completion — card 313
+
+[313](cards/313.md#complete-working-reading--2-november-2026) thanks the recipient for a letter, promises a reply, mentions a possible trip home and asks about her stay and svátek, then sends affectionate greetings. These remain textual interpretations, without an authenticated itinerary, holiday or identity. Card 313 has fresh seven-row source coverage and unchanged 253 slots/253 known letters/zero CH/zero masks. VZIROVNIAI now has a qualified v Žirovnici language proposal with A→C and word division only in prose. Five editorial proposals, source-family alternatives and date/identity limits remain; no external confirmation or key change.
+
+The final source group retains its selected rounded 6/A. FIRST s/C remains a frozen alternative; proposing A→C and a boundary after V yields v Žirovnici only in the Czech/English interpretation. Ordinary address context was visible in this same nonblind review and is not independent corroboration. No source substitution or extra known letter claimed.
+
+Both fresh complete originals and twelve enlarged contexts were viewed privately. Fourteen native strict rows, eight inline canonical identities and 53 exact native references checked. Whole QA16, native metadata-wrapper/raw/strict schemas, freeze protocol, initial reconciliation and date alternatives remain unchanged.
+
+**Remaining in descending pass: 63 of 137; 74 candidates (313–386) have working coverage. Separately, 109 of 263 lack our reading; 154 have one including partial. Next 312.** The 108 cards planned by Eugen Antal and team remain separate. [Revision](revisions/313-source-completion.json) · [Validation](validation-source-completion-313.json)
 
 ## Current source completion — card 314
 
@@ -1189,7 +1199,7 @@ The [publication validation note](publication-validation.json) records this corr
 
 ## Reproduction
 
-The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 314 validation](validation-source-completion-314.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
+The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 313 validation](validation-source-completion-313.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
 
 From the repository root:
 
