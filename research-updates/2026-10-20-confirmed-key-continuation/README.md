@@ -2,7 +2,7 @@
 
 The unchanged supplied 204/460 key has been applied to **137 current candidates: 242, 244, 249 and 253–386**. Selected faces are 134 Picture sides and the Address sides of 332, 338 and 339. All remain research candidates; none is declared solved.
 
-For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 316](#current-source-completion--card-316), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
+For a plain-language entry point, use the [reading guide](../../READING_GUIDE.md) and [review overview](../../REVIEW_STATUS.md). Here you can jump to the [candidate table](#candidate-readings), [latest source review, 315](#current-source-completion--card-315), [catalogue and next work](#catalogue-and-next-work), [key/provenance](#key-provenance-and-scope) or [reproduction commands](#reproduction).
 
 The earlier 121 candidates retain two frozen related AI source records; 371–386 have one key-visible source reading each, followed by same-context nonblind review. Neither stage is independent human/external confirmation.
 
@@ -77,7 +77,7 @@ The selected source regions of all 137 candidates have been inspected: 134 Pictu
 | [312](cards/312.md) | 16 | 251 | 247 | 5 | 9 |
 | [313](cards/313.md) | 7 | 253 | 253 | 0 | 0 |
 | [314](cards/314.md) | 11 | 254 | 253 | 0 | 1 |
-| [315](cards/315.md) | 6 | 194 | 184 | 0 | 10 |
+| [315](cards/315.md) | 6 | 194 | 186 | 0 | 8 |
 | [316](cards/316.md) | 4 | 105 | 100 | 0 | 5 |
 | [317](cards/317.md) | 2 | 28 | 28 | 0 | 0 |
 | [318](cards/318.md) | 7 | 184 | 183 | 0 | 1 |
@@ -161,6 +161,16 @@ The [address-face boundary audit](address-face-audit.json) records ordinary GETs
 For 351–354, both original actors’ whole prefreeze complete-face boundary records, whole native Address metadata and actual root whole-original observations are retained separately. Each complete Address side and all margins has a bounded negative observation for an additional continuous encoded message; ordinary address/person/postal/date-like writing is excluded without transcription. The eight originals were acquired by the root source thread through exact saved catalogue URLs: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. These visible-source observations do not establish absence of erased/obscured ink, exact intended-body bounds, modifier ownership, physical segmentation/counts, identity or chronology.
 
 For 355–358, complete original Address faces and all margins have bounded observations from both original source contexts and root. No clear separate candidate cipher run was identified in those visible frames; erased, obscured or unseen material remains outside this observation. Ordinary address/person/postal/date-like writing is excluded without transcription. Whole native eleven-key Address metadata is retained with actual FILE records separately. The root source thread acquired eight originals once each: eight GET200 responses, zero redirects, zero retries and zero parent prefetch. Cards 355 and 356 each retain four lower Picture rows in native orientation; 357 retains four left/lower Picture rows read after a 270-degree clockwise rotation; 358 retains three long lower rows in native orientation, a bold detached run and a faint uncertain trace cluster that may overlap or attach to the bold run. These are 17 editorial serialization rows, not established physical rows. Serialization does not authenticate chronology. Whole-face observations do not establish exact body bounds or physical counts.
+
+## Current source completion — card 315
+
+[315](cards/315.md#complete-working-reading--1-november-2026) thanks the recipient for a letter and card, proposes sending a card from a place-like České Třebové, and mentions a journey, Prague and starting duty. These are provisional textual interpretations, not authenticated events or locations. Card 315 has six-row working coverage with explicit gaps. Two local R04 source choices, o→6/A and o→s/C, now yield NA and VCERA. Replay: 194 slots/186 known letters/zero CH/eight unknown slots. Fourteen language proposals, the blackened opening, five 9 forms and terminal-loop ownership remain unresolved. No external confirmation or new key assignment.
+
+The selected 6 has a closed lower bowl and a thin upper hook; the selected s has an angular shoulder rather than a continuous round bowl. Both coincide with native SECOND alternatives; FIRST o and all original frozen inputs remain preserved. The other source strings, spaces, geometry and key are unchanged. Complete fresh Picture/Address originals and ten enlarged contexts were viewed privately.
+
+Twelve native strict rows, six inline identities and 35 valid exact native ledger references were checked. One known FIRST terminal-loop locator defect and one descriptive nonlocator remain preserved. Whole QA17, its timing exceptions/date supplement, initial reconciliation and provenance remain unchanged. The raised terminal loop is still unassigned; no punctuation or sender claim added.
+
+**Remaining in descending pass: 65 of 137; 72 candidates (315–386) have working coverage. Separately, 109 of 263 lack our reading; 154 have one including partial. Next 314.** The 108 cards planned by Eugen Antal and team remain separate. [Revision](revisions/315-source-completion.json) · [Validation](validation-source-completion-315.json)
 
 ## Current source completion — card 316
 
@@ -1169,7 +1179,7 @@ The [publication validation note](publication-validation.json) records this corr
 
 ## Reproduction
 
-The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 316 validation](validation-source-completion-316.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
+The commands below check the current saved data. The current package has 137 candidates and a 14-row anchor; [card 315 validation](validation-source-completion-315.json) records the latest source-review checks. The existing CI also runs broader regression and numerical-fixture suites.
 
 From the repository root:
 

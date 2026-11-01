@@ -3514,11 +3514,11 @@
         1634
       ],
       "source_status": "original available privately; saved source SHA256 verified",
-      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph, segmentation and mark alternatives retained",
-      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "transcription_status": "Card 315 has six-row working coverage with explicit gaps. Two local R04 source choices, o→6/A and o→s/C, now yield NA and VCERA. Replay: 194 slots/186 known letters/zero CH/eight unknown slots. Fourteen language proposals, the blackened opening, five 9 forms and terminal-loop ownership remain unresolved. No external confirmation or new key assignment.",
+      "decode_status": "194 slots/186 known letters/zero CH/eight unknowns after two local R04 source choices; fourteen language proposals remain.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established for this card in this package",
-      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
+      "next_action": "Review opening mask, 9/g forms, blackened row-4 start, DOSTU, NEKY and terminal-loop role; retain source/language and physical-count limits. Next 314.",
       "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1634",
       "catalogue_binding_evidence": "catalogue-records.json explicit returned record name/id",
       "official_solution_status_label": "Not solved",
@@ -3526,14 +3526,24 @@
       "counts": {
         "rows": 6,
         "encoded_bodies": 194,
-        "expanded_letters": 184,
+        "expanded_letters": 186,
         "ch_occurrences": 0,
-        "unknowns": 10
+        "unknowns": 8
       },
       "artifact": "cards/315.json",
       "physical_body_count_status": "selected replay slots only; physical totals not independently established",
       "address_face_status": "complete saved original face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
-      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit."
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit.",
+      "selected_totals": {
+        "rows": 6,
+        "encoded_bodies": 194,
+        "expanded_letters": 186,
+        "ch_occurrences": 0,
+        "unknowns": 8
+      },
+      "artifacts": {
+        "source_completion_revision": "revisions/315-source-completion.json"
+      }
     },
     {
       "card_id": 316,
@@ -7557,6 +7567,7 @@
   },
   "active_completion_priority": {
     "card_ids": [
+      314,
       315,
       316,
       317,
@@ -7630,7 +7641,7 @@
       385,
       386
     ],
-    "stage": "316–386 have working coverage; 66 pending, next 315. Card 316 has four-row working coverage with explicit gaps. R03 opening mask provisionally becomes p/B, yielding BOLI; 105 slots/100 known letters/zero CH/five masks. NES?SLNE has a qualified NESCISLNE language proposal, with CI supplied only in prose. AO NEJDRYVE and PUSI retain language repairs; middle/terminal clusters, missing opening verb and cross-region order stay unresolved. No external confirmation or new key assignment. External manual review of 320/321 and team’s planned 108 cards remain separate.",
+    "stage": "315–386 have working coverage; 65 pending, next 314. Card 315 has six-row working coverage with explicit gaps. Two local R04 source choices, o→6/A and o→s/C, now yield NA and VCERA. Replay: 194 slots/186 known letters/zero CH/eight unknown slots. Fourteen language proposals, the blackened opening, five 9 forms and terminal-loop ownership remain unresolved. No external confirmation or new key assignment. External manual review of 320/321 and team’s planned 108 cards remain separate.",
     "next_new_card_ids_held": [
       387,
       388,
@@ -7639,6 +7650,7 @@
     ],
     "limits": "Completion priority does not certify full source decipherment, new acquisition or external confirmation.",
     "awaiting_source_peer_review": [
+      315,
       316,
       317,
       318,
@@ -7712,6 +7724,7 @@
     "progress": {
       "existing_candidates": 137,
       "descending_pass_working_coverage_ids": [
+        315,
         316,
         317,
         318,
@@ -7784,7 +7797,7 @@
         385,
         386
       ],
-      "descending_pass_working_coverage_count": 71,
+      "descending_pass_working_coverage_count": 72,
       "remaining_in_descending_pass_ids": [
         242,
         244,
@@ -7850,14 +7863,13 @@
         311,
         312,
         313,
-        314,
-        315
+        314
       ],
-      "remaining_in_descending_pass": 66,
+      "remaining_in_descending_pass": 65,
       "catalogue_cards": 263,
       "unique_with_published_reading_including_partial": 154,
       "without_separate_published_reading": 109,
-      "next_card": 315,
+      "next_card": 314,
       "scope": "Working coverage of existing candidates, including384–385 historical batch; not new unique cards or independently solved counts."
     },
     "externally_manually_reviewed": [
@@ -7872,6 +7884,6 @@
     "card_count": 108,
     "record": "../2026-10-28-hcportal-register/coordination.json",
     "separate_team_comparison_card": 460,
-    "existing_descending_pass_next_card": 315
+    "existing_descending_pass_next_card": 314
   }
 }
