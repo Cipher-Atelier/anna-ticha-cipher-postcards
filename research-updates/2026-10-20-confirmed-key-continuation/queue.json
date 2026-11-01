@@ -3481,11 +3481,11 @@
         1633
       ],
       "source_status": "original available privately; saved source SHA256 verified",
-      "transcription_status": "Research candidate; two frozen related AI source readings and nonblind reconciliation; glyph, segmentation and mark alternatives retained",
-      "decode_status": "fixed-key decoded candidate; no solved claim",
+      "transcription_status": "Card 314 has fresh eleven-row source coverage with no accepted source changes: 254 slots/253 known letters/zero CH/one overtrace mask. Six language proposals and two written questions remain separate from that mask. Native source records, QA16 and date/identity limits are preserved; no external confirmation or new key assignment.",
+      "decode_status": "254 selected slots/253 known letters/zero CH/one mask; strict source unchanged after fresh comparison; six language proposals retained.",
       "independent_ai_source_check": "two separately frozen related AI source readings; subsequent nonblind reconciliation",
       "external_confirmation": "not established for this card in this package",
-      "next_action": "Resolve documented unknowns/variants from source; preserve literal/editorial separation and seek human/external checking.",
+      "next_action": "Resolve R10 overtrace and surrounding mark ownership, letter/word-division proposals and date alternatives; retain two actual question roles and unknown physical length. Next 313.",
       "catalogue_url": "https://crypto.hcportal.eu/dashboard/cryptograms/1633",
       "catalogue_binding_evidence": "catalogue-records.json explicit returned record name/id",
       "official_solution_status_label": "Not solved",
@@ -3500,7 +3500,17 @@
       "artifact": "cards/314.json",
       "physical_body_count_status": "selected replay slots only; physical totals not independently established",
       "address_face_status": "complete saved original face checked in contact view; no additional cipher group observed; bounded single nonblind root audit",
-      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit."
+      "editorial_coverage": "All selected rows and legible clauses addressed in Czech and English; matching qualified repairs and literal-labeled gaps. Region/order and mark/segmentation alternatives remain explicit.",
+      "selected_totals": {
+        "rows": 11,
+        "encoded_bodies": 254,
+        "expanded_letters": 253,
+        "ch_occurrences": 0,
+        "unknowns": 1
+      },
+      "artifacts": {
+        "source_completion_revision": "revisions/314-source-completion.json"
+      }
     },
     {
       "card_id": 315,
@@ -7567,6 +7577,7 @@
   },
   "active_completion_priority": {
     "card_ids": [
+      313,
       314,
       315,
       316,
@@ -7641,7 +7652,7 @@
       385,
       386
     ],
-    "stage": "315–386 have working coverage; 65 pending, next 314. Card 315 has six-row working coverage with explicit gaps. Two local R04 source choices, o→6/A and o→s/C, now yield NA and VCERA. Replay: 194 slots/186 known letters/zero CH/eight unknown slots. Fourteen language proposals, the blackened opening, five 9 forms and terminal-loop ownership remain unresolved. No external confirmation or new key assignment. External manual review of 320/321 and team’s planned 108 cards remain separate.",
+    "stage": "314–386 have working coverage; 64 pending, next 313. Card 314 has fresh eleven-row source coverage with no accepted source changes: 254 slots/253 known letters/zero CH/one overtrace mask. Six language proposals and two written questions remain separate from that mask. Native source records, QA16 and date/identity limits are preserved; no external confirmation or new key assignment. External manual review of 320/321 and team’s planned 108 cards remain separate.",
     "next_new_card_ids_held": [
       387,
       388,
@@ -7650,6 +7661,7 @@
     ],
     "limits": "Completion priority does not certify full source decipherment, new acquisition or external confirmation.",
     "awaiting_source_peer_review": [
+      314,
       315,
       316,
       317,
@@ -7724,6 +7736,7 @@
     "progress": {
       "existing_candidates": 137,
       "descending_pass_working_coverage_ids": [
+        314,
         315,
         316,
         317,
@@ -7797,7 +7810,7 @@
         385,
         386
       ],
-      "descending_pass_working_coverage_count": 72,
+      "descending_pass_working_coverage_count": 73,
       "remaining_in_descending_pass_ids": [
         242,
         244,
@@ -7862,14 +7875,13 @@
         310,
         311,
         312,
-        313,
-        314
+        313
       ],
-      "remaining_in_descending_pass": 65,
+      "remaining_in_descending_pass": 64,
       "catalogue_cards": 263,
       "unique_with_published_reading_including_partial": 154,
       "without_separate_published_reading": 109,
-      "next_card": 314,
+      "next_card": 313,
       "scope": "Working coverage of existing candidates, including384–385 historical batch; not new unique cards or independently solved counts."
     },
     "externally_manually_reviewed": [
@@ -7884,6 +7896,6 @@
     "card_count": 108,
     "record": "../2026-10-28-hcportal-register/coordination.json",
     "separate_team_comparison_card": 460,
-    "existing_descending_pass_next_card": 314
+    "existing_descending_pass_next_card": 313
   }
 }
